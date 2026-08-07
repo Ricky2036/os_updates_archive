@@ -36,8 +36,8 @@ npm run verify
 主站保持静态输出。根域部署无需额外配置；GitHub Pages 项目路径部署示例：
 
 ```bash
-PUBLIC_SITE_URL=https://ricky2036.github.io/ColorOS_Updates_Web \
-PUBLIC_BASE_PATH=/ColorOS_Updates_Web/ \
+PUBLIC_SITE_URL=https://ricky2036.github.io/os_updates_archive \
+PUBLIC_BASE_PATH=/os_updates_archive/ \
 npm run build
 ```
 

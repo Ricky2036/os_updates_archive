@@ -38,8 +38,8 @@ jobs:
       - name: Build site
         working-directory: astro-site
         env:
-          PUBLIC_SITE_URL: https://ricky2036.github.io/ColorOS_Updates_Web
-          PUBLIC_BASE_PATH: /ColorOS_Updates_Web/
+          PUBLIC_SITE_URL: https://ricky2036.github.io/os_updates_archive
+          PUBLIC_BASE_PATH: /os_updates_archive/
         run: npm run build
 
       - name: Configure Pages

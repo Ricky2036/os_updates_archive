@@ -1,7 +1,7 @@
 import { articlePath, getArticles, sitePath } from '../lib/archive';
 
 export const prerender = true;
-const siteUrl = (import.meta.env.PUBLIC_SITE_URL || 'https://ricky2036.github.io/ColorOS_Updates_Web').replace(/\/$/, '');
+const siteUrl = (import.meta.env.PUBLIC_SITE_URL || 'https://ricky2036.github.io/os_updates_archive').replace(/\/$/, '');
 
 export async function GET() {
   const paths = [sitePath(), sitePath('coloros/'), sitePath('originos/'), ...(await getArticles()).map(articlePath)];
