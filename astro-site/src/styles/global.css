@@ -50,6 +50,7 @@ h1, h2, h3, p { margin-top: 0; }
 .brand-switcher a.active { color: var(--ink); font-weight: 720; }
 .brand-switcher a.active::after { transform: scaleX(0); }
 .brand-switcher a.active:hover::after { transform: scaleX(1); opacity: 1; }
+.home-tab { display: none; }
 .menu-button, .nav-close { display: none; place-items: center; border: 0; background: transparent; cursor: pointer; }
 
 .button { display: inline-flex; align-items: center; justify-content: center; gap: 9px; min-height: 48px; padding: 0 20px; border-radius: 999px; font-size: 14px; font-weight: 760; transition: transform .2s var(--ease), box-shadow .2s var(--ease); }
@@ -196,7 +197,11 @@ h1, h2, h3, p { margin-top: 0; }
   .header-inner, .landing-page { width: min(100% - 28px, 620px); }
   .brand-mark span { display: inline; font-size: 17px; }
   .brand-switcher { position: fixed; bottom: max(12px, env(safe-area-inset-bottom)); left: 50%; z-index: 80; display: flex; gap: 4px; margin: 0; padding: 5px; border: 1px solid rgba(255,255,255,.78); border-radius: 999px; background: rgba(246,248,252,.86); box-shadow: 0 12px 30px rgba(31,44,76,.16); -webkit-backdrop-filter: blur(18px) saturate(150%); backdrop-filter: blur(18px) saturate(150%); transform: translateX(-50%); }
-  .brand-switcher a { padding: 7px 14px; font-size: 13px; }
+  .brand-switcher a { position: relative; min-width: 58px; padding: 8px 14px; border-radius: 999px; color: #858b95; font-size: 13px; text-align: center; transition: color .18s var(--ease), background .18s var(--ease), box-shadow .18s var(--ease), transform .12s var(--ease); -webkit-tap-highlight-color: transparent; }
+  .brand-switcher .home-tab { display: block; }
+  .brand-switcher a::after, .brand-switcher a.active:hover::after { display: none; }
+  .brand-switcher a.active { color: var(--ink); background: rgba(255,255,255,.94); box-shadow: 0 2px 8px rgba(31,44,76,.12), inset 0 0 0 1px rgba(255,255,255,.86); font-weight: 760; }
+  .brand-switcher a:active { transform: scale(.92); background: rgba(255,255,255,.72); }
   .landing-page { padding-top: 62px; }
   .landing-hero { grid-template-columns: 1fr; gap: 44px; }
   .landing-hero h1 { font-size: clamp(44px, 13.5vw, 64px); }
