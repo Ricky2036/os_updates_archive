@@ -11,12 +11,6 @@ const { activeBrand, hasArchiveNav = false } = Astro.props;
       <img src={sitePath('assets/images/logo.png')} alt="" width="32" height="32" />
       <span>OS档案馆</span>
     </a>
-    <nav class="brand-switcher" aria-label="主导航">
-      <a class:list={{ 'home-tab': true, active: !activeBrand }} href={sitePath()}>首页</a>
-      {Object.entries(brandMeta).map(([key, meta]) => (
-        <a class:list={{ active: activeBrand === key }} href={sitePath(`${key}/`)}>{meta.name}</a>
-      ))}
-    </nav>
     {hasArchiveNav && (
       <button class="menu-button" type="button" aria-label="打开文章目录" aria-expanded="false" aria-controls="archive-nav">
         <Icon name="menu" size={20} /><span class="sr-only">打开目录</span>
@@ -24,3 +18,9 @@ const { activeBrand, hasArchiveNav = false } = Astro.props;
     )}
   </div>
 </header>
+<nav class="brand-switcher" aria-label="主导航">
+  <a class:list={{ 'home-tab': true, active: !activeBrand }} href={sitePath()}>首页</a>
+  {Object.entries(brandMeta).map(([key, meta]) => (
+    <a class:list={{ active: activeBrand === key }} href={sitePath(`${key}/`)}>{meta.name}</a>
+  ))}
+</nav>
