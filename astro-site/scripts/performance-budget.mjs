@@ -15,7 +15,7 @@ async function walk(directory) {
   return files;
 }
 
-const files = await walk(dist);
+const files = (await walk(dist)).filter(file => !file.includes('official_archives'));
 const sizes = await Promise.all(files.map(async (file) => {
   const bytes = await fs.readFile(file);
   return { file, size: bytes.byteLength, gzip: gzipSync(bytes).byteLength };
