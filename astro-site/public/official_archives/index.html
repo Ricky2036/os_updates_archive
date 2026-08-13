@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>加载中...</title>
+</head>
+<body>
+    <h1 style="text-align: center; margin-top: 20%; font-family: sans-serif;">正在为您加载完美的 ColorOS 16 离线版...</h1>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js', { scope: '/' }).then(function(reg) {
+                if (reg.active) {
+                    window.location.href = '/www.coloros.com/version/coloros16/index.html';
+                } else {
+                    navigator.serviceWorker.addEventListener('controllerchange', () => {
+                        window.location.href = '/www.coloros.com/version/coloros16/index.html';
+                    });
+                }
+            }).catch(function(err) {
+                console.error('ServiceWorker 注册失败:', err);
+                window.location.href = '/www.coloros.com/version/coloros16/index.html';
+            });
+        } else {
+            window.location.href = '/www.coloros.com/version/coloros16/index.html';
+        }
+    </script>
+</body>
+</html>

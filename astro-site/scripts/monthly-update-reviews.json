@@ -1,0 +1,3086 @@
+{
+  "reviewVersion": 4,
+  "articles": {
+    "1": [
+      {
+        "id": "review-01",
+        "module": "流畅",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "最近任务中应用启动、切换的过渡动效，提升操作流畅性。",
+        "description": "最近任务中应用启动、切换的过渡动效，提升操作流畅性。"
+      },
+      {
+        "id": "review-02",
+        "module": "小布记忆",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "支持将链接和文件一键导入到小布记忆。",
+        "description": "支持将链接和文件一键导入到小布记忆。"
+      },
+      {
+        "id": "review-03",
+        "module": "小布建议",
+        "moduleSource": "explicit-inline",
+        "type": "未标注",
+        "typeSource": "inferred",
+        "sourceText": "小布建议新增跌落提醒卡，当检测到手机从高处跌落时，点击跌落提醒卡可了解手机状况及获取相关服务。",
+        "description": "小布建议新增跌落提醒卡，当检测到手机从高处跌落时，点击跌落提醒卡可了解手机状况及获取相关服务。"
+      },
+      {
+        "id": "review-04",
+        "module": "AI 写作",
+        "moduleSource": "explicit-inline",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "AI 写作发社媒功能，支持联网搜索生成更丰富的内容，还可显示信息来源。",
+        "description": "AI 写作发社媒功能，支持联网搜索生成更丰富的内容，还可显示信息来源。"
+      },
+      {
+        "id": "review-05",
+        "module": "AI 写作",
+        "moduleSource": "explicit-inline",
+        "type": "未标注",
+        "typeSource": "inferred",
+        "sourceText": "AI 写作社媒发文算法，去除 AI 模板感，文案风格贴合发布需求，内容信息真实准确。",
+        "description": "AI 写作社媒发文算法，去除 AI 模板感，文案风格贴合发布需求，内容信息真实准确。"
+      },
+      {
+        "id": "review-06",
+        "module": "设备互联",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "一键解锁远程电脑功能。手机、平板远程连接电脑后，无需手动输入电脑密码，可通过手机、平板直接解锁。",
+        "description": "一键解锁远程电脑功能。手机、平板远程连接电脑后，无需手动输入电脑密码，可通过手机、平板直接解锁。"
+      },
+      {
+        "id": "review-07",
+        "module": "设备互联",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "智慧车载经典投屏体验，支持调节高德、百度地图界面大小。",
+        "description": "智慧车载经典投屏体验，支持调节高德、百度地图界面大小。"
+      },
+      {
+        "id": "review-08",
+        "module": "电话",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "编辑联系人信息时，可预览并调整来电效果。",
+        "description": "编辑联系人信息时，可预览并调整来电效果。"
+      },
+      {
+        "id": "review-09",
+        "module": "便签",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "支持在便签中设置多款字体与皮肤样式，自定义笔记外观。",
+        "description": "支持在便签中设置多款字体与皮肤样式，自定义笔记外观。"
+      },
+      {
+        "id": "review-10",
+        "module": "游戏助手",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "支持通过均衡器调节游戏音效，可自定义声音风格。",
+        "description": "支持通过均衡器调节游戏音效，可自定义声音风格。"
+      }
+    ],
+    "2": [
+      {
+        "id": "review-01",
+        "module": "小布助手",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "支持控制酷我音乐和酷狗音乐概念版，可通过语音执行上一首、下一首、播放、暂停和关闭等操作。",
+        "description": "支持控制酷我音乐和酷狗音乐概念版，可通过语音执行上一首、下一首、播放、暂停和关闭等操作。"
+      },
+      {
+        "id": "review-02",
+        "module": "小布记忆",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "应用首页新增问答按钮，问答内容支持收藏。",
+        "description": "应用首页新增问答按钮，问答内容支持收藏。"
+      },
+      {
+        "id": "review-03",
+        "module": "小布记忆",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "支持对合集自动生成摘要，并重新整理合集内容。",
+        "description": "支持对合集自动生成摘要，并重新整理合集内容。"
+      },
+      {
+        "id": "review-04",
+        "module": "小布建议",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "显示大麦演出提醒，包括出票、开场及座位号等服务信息。",
+        "description": "显示大麦演出提醒，包括出票、开场及座位号等服务信息。"
+      },
+      {
+        "id": "review-05",
+        "module": "小布建议",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "支持显示百度地图驾车导航。",
+        "description": "支持显示百度地图驾车导航。"
+      },
+      {
+        "id": "review-06",
+        "module": "耳机播报",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "外卖、快递等服务可通过耳机播报。",
+        "description": "外卖、快递等服务可通过耳机播报。"
+      },
+      {
+        "id": "review-07",
+        "module": "声音分轨",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "声音分轨功能支持调节音乐中人声与背景声的音量。",
+        "description": "声音分轨功能支持调节音乐中人声与背景声的音量。"
+      },
+      {
+        "id": "review-08",
+        "module": "天气",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "显示潮汐信息，为赶海、出海等活动提供参考。",
+        "description": "显示潮汐信息，为赶海、出海等活动提供参考。"
+      },
+      {
+        "id": "review-09",
+        "module": "便签",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "笔记支持插入音视频和文档文件，并可拖拽调整位置。",
+        "description": "笔记支持插入音视频和文档文件，并可拖拽调整位置。"
+      },
+      {
+        "id": "review-10",
+        "module": "游戏",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "游戏相机支持 2K 超清截屏。",
+        "description": "游戏相机支持 2K 超清截屏。"
+      },
+      {
+        "id": "review-11",
+        "module": "天气",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "首页支持以折线图显示多日天气趋势。",
+        "description": "首页支持以折线图显示多日天气趋势。"
+      }
+    ],
+    "3": [
+      {
+        "id": "review-01",
+        "module": "小布记忆",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "inferred",
+        "sourceText": "小布助手记账信息可记入小布记忆，使用更方便。",
+        "description": "小布助手记账信息可记入小布记忆，使用更方便。"
+      },
+      {
+        "id": "review-02",
+        "module": "AI 通话防诈",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "AI 通话防诈可识别陌生通话中的诈骗风险并提醒。",
+        "description": "AI 通话防诈可识别陌生通话中的诈骗风险并提醒。"
+      },
+      {
+        "id": "review-03",
+        "module": "AI 搜索",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "inferred",
+        "sourceText": "AI 搜索支持检索自动记录及手动记录的账单。",
+        "description": "AI 搜索支持检索自动记录及手动记录的账单。"
+      },
+      {
+        "id": "review-04",
+        "module": "小布记忆",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "inferred",
+        "sourceText": "小布记忆记账合集按日展示账单。",
+        "description": "小布记忆记账合集按日展示账单。"
+      },
+      {
+        "id": "review-05",
+        "module": "文件管理",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "inferred",
+        "sourceText": "OPPO 互传支持按需设置接收文件后是否自动打开。",
+        "description": "OPPO 互传支持按需设置接收文件后是否自动打开。"
+      },
+      {
+        "id": "review-06",
+        "module": "小布建议",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "新增睡眠卡片，提供睡眠提醒、睡眠总结和睡眠疗愈课程。",
+        "description": "新增睡眠卡片，提供睡眠提醒、睡眠总结和睡眠疗愈课程。"
+      },
+      {
+        "id": "review-07",
+        "module": "小布建议与流体云",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "inferred",
+        "sourceText": "新增流量管家卡片，方便管理流量。",
+        "description": "新增流量管家卡片，方便管理流量。"
+      },
+      {
+        "id": "review-08",
+        "module": "通知",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "inferred",
+        "sourceText": "异常天气通知服务及时提醒天气变化。",
+        "description": "异常天气通知服务及时提醒天气变化。"
+      },
+      {
+        "id": "review-09",
+        "module": "机密计算空间",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "inferred",
+        "sourceText": "更多三方应用接入 ColorOS 机密计算空间。",
+        "description": "更多三方应用接入 ColorOS 机密计算空间。"
+      },
+      {
+        "id": "review-10",
+        "module": "分身应用",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "inferred",
+        "sourceText": "支持选择分身应用，并可将地址直接发送到手机。",
+        "description": "支持选择分身应用，并可将地址直接发送到手机。"
+      }
+    ],
+    "4": [
+      {
+        "id": "review-01",
+        "module": "小布记忆",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "inferred",
+        "sourceText": "记忆顾问支持联网搜索，单条记忆可手动加入合集。",
+        "description": "记忆顾问支持联网搜索，单条记忆可手动加入合集。"
+      },
+      {
+        "id": "review-02",
+        "module": "随口记",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "inferred",
+        "sourceText": "随口记支持 AI 自动分类。",
+        "description": "随口记支持 AI 自动分类。"
+      },
+      {
+        "id": "review-03",
+        "module": "翻译",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "inferred",
+        "sourceText": "PPT 翻译支持多语言、原文对照和译文导出。",
+        "description": "PPT 翻译支持多语言、原文对照和译文导出。"
+      },
+      {
+        "id": "review-04",
+        "module": "输入法",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "inferred",
+        "sourceText": "键盘拉起后不遮挡推荐内容与回复内容。",
+        "description": "键盘拉起后不遮挡推荐内容与回复内容。"
+      },
+      {
+        "id": "review-05",
+        "module": "相册",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "inferred",
+        "sourceText": "大图页手势动画更自然跟手。",
+        "description": "大图页手势动画更自然跟手。"
+      },
+      {
+        "id": "review-06",
+        "module": "AI 消除",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "inferred",
+        "sourceText": "AI 消除提升清晰度并弱化涂抹痕迹。",
+        "description": "AI 消除提升清晰度并弱化涂抹痕迹。"
+      },
+      {
+        "id": "review-07",
+        "module": "小布建议与流体云",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "支持显示拼好饭履约状态。",
+        "description": "支持显示拼好饭履约状态。"
+      },
+      {
+        "id": "review-08",
+        "module": "时钟",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "支持同时开启多个计时器。",
+        "description": "支持同时开启多个计时器。"
+      },
+      {
+        "id": "review-09",
+        "module": "文件管理",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "可添加“最近文件”和“耗电详情”卡片。",
+        "description": "可添加“最近文件”和“耗电详情”卡片。"
+      },
+      {
+        "id": "review-10",
+        "module": "文件管理",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "inferred",
+        "sourceText": "支持批量选择文件解密，并通过侧滑条快速浏览。",
+        "description": "支持批量选择文件解密，并通过侧滑条快速浏览。"
+      }
+    ],
+    "5": [
+      {
+        "id": "review-01",
+        "module": "小布记账",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "inferred",
+        "sourceText": "支持自定义账单分类，并总结近期消费习惯。",
+        "description": "支持自定义账单分类，并总结近期消费习惯。"
+      },
+      {
+        "id": "review-02",
+        "module": "自由写",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "自由写增加作文、书信等细分场景。",
+        "description": "自由写增加作文、书信等细分场景。"
+      },
+      {
+        "id": "review-03",
+        "module": "小布建议",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "列车发车前显示履约提醒。",
+        "description": "列车发车前显示履约提醒。"
+      },
+      {
+        "id": "review-04",
+        "module": "游戏",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "显示 QQ 音乐、网易云音乐歌词及游戏进展。",
+        "description": "显示 QQ 音乐、网易云音乐歌词及游戏进展。"
+      },
+      {
+        "id": "review-05",
+        "module": "小布建议",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "小布建议支持显示淘宝、淘宝闪购和京东外卖服务。",
+        "description": "小布建议支持显示淘宝、淘宝闪购和京东外卖服务。"
+      },
+      {
+        "id": "review-06",
+        "module": "网络",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "支持与 iPhone 通信互联。",
+        "description": "支持与 iPhone 通信互联。"
+      },
+      {
+        "id": "review-07",
+        "module": "相机",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "支持更多画幅比例。",
+        "description": "支持更多画幅比例。"
+      },
+      {
+        "id": "review-08",
+        "module": "桌面",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "桌面时钟插件支持农历样式。",
+        "description": "桌面时钟插件支持农历样式。"
+      },
+      {
+        "id": "review-09",
+        "module": "安全",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "inferred",
+        "sourceText": "支持分享私密保险箱中的文件。",
+        "description": "支持分享私密保险箱中的文件。"
+      }
+    ],
+    "6": [
+      {
+        "id": "review-01",
+        "module": "小布助手",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "支持一句话打开支付宝乘车码，并支持一句话为照片补光。",
+        "description": "支持一句话打开支付宝乘车码，并支持一句话为照片补光。"
+      },
+      {
+        "id": "review-02",
+        "module": "翻译",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "中英同声传译可模拟说话人的声音。",
+        "description": "中英同声传译可模拟说话人的声音。"
+      },
+      {
+        "id": "review-03",
+        "module": "小布记账",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "显示记账卡，支出超预期时提醒合理安排开支。",
+        "description": "显示记账卡，支出超预期时提醒合理安排开支。"
+      },
+      {
+        "id": "review-04",
+        "module": "小布建议",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "新增节气卡片和步数周报卡片。",
+        "description": "新增节气卡片和步数周报卡片。"
+      },
+      {
+        "id": "review-05",
+        "module": "天气",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "支持天气语音播报。",
+        "description": "支持天气语音播报。"
+      },
+      {
+        "id": "review-06",
+        "module": "桌面",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "插件与卡片支持堆叠显示。",
+        "description": "插件与卡片支持堆叠显示。"
+      },
+      {
+        "id": "review-07",
+        "module": "网络",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "山海通信网络引擎界面支持查看网络优化次数与测速结果。",
+        "description": "山海通信网络引擎界面支持查看网络优化次数与测速结果。"
+      },
+      {
+        "id": "review-08",
+        "module": "电话",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "支持将本地视频设为电话铃声。",
+        "description": "支持将本地视频设为电话铃声。"
+      },
+      {
+        "id": "review-09",
+        "module": "文件管理",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "支持拖拽文本、名片和文档到指定服务。",
+        "description": "支持拖拽文本、名片和文档到指定服务。"
+      }
+    ],
+    "9": [
+      {
+        "id": "review-01",
+        "module": "小布助手",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "小布对话过程中图文混排的出图逻辑，解决不出图、出错图或只出一部分图的问题，提升使用体验",
+        "description": "小布对话过程中图文混排的出图逻辑，解决不出图、出错图或只出一部分图的问题，提升使用体验"
+      },
+      {
+        "id": "review-02",
+        "module": "AI 搜索",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "AI搜索结果，在便签、文档、相册、小布记忆中使用AI搜索时，仅搜索到本应用数据，搜索更准确",
+        "description": "AI搜索结果，在便签、文档、相册、小布记忆中使用AI搜索时，仅搜索到本应用数据，搜索更准确"
+      },
+      {
+        "id": "review-03",
+        "module": "桌面",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "支持通过钱包应用开通上汽名爵MG4 车型的蓝牙车钥匙和车控，开通后，可体验手机靠近车辆无感解锁、远离自动锁车；并可在负一屏/桌面添加\"我的车辆\"卡片，方便查看车况以及一键控车或小布语音控车",
+        "description": "支持通过钱包应用开通上汽名爵MG4 车型的蓝牙车钥匙和车控，开通后，可体验手机靠近车辆无感解锁、远离自动锁车；并可在负一屏/桌面添加\"我的车辆\"卡片，方便查看车况以及一键控车或小布语音控车"
+      },
+      {
+        "id": "review-04",
+        "module": "智慧车载",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "支持通过智慧车载连接上汽名爵 MG4 车型，可以使用融合桌面-镜像的投屏方式；并支持网络共享，开启与车辆共享网络后自动共享手机流量给车辆",
+        "description": "支持通过智慧车载连接上汽名爵 MG4 车型，可以使用融合桌面-镜像的投屏方式；并支持网络共享，开启与车辆共享网络后自动共享手机流量给车辆"
+      },
+      {
+        "id": "review-05",
+        "module": "智慧车载",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "智慧车载手机端投屏应用管理界面布局，管理应用更加便捷",
+        "description": "智慧车载手机端投屏应用管理界面布局，管理应用更加便捷"
+      },
+      {
+        "id": "review-06",
+        "module": "智慧车载",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "使用 Car+ 车联经典投屏模式时的画面切换动效，操作更丝滑",
+        "description": "使用 Car+ 车联经典投屏模式时的画面切换动效，操作更丝滑"
+      },
+      {
+        "id": "review-07",
+        "module": "短信",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "短信中支持开启或关闭最近删除开关，可以选择是否需要保留最近删除的短信",
+        "description": "短信中支持开启或关闭最近删除开关，可以选择是否需要保留最近删除的短信"
+      },
+      {
+        "id": "review-08",
+        "module": "翻译",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "在部分应用中长按选择文字后，可以点击翻译菜单随时翻译，方便又快捷",
+        "description": "在部分应用中长按选择文字后，可以点击翻译菜单随时翻译，方便又快捷"
+      },
+      {
+        "id": "review-09",
+        "module": "桌面",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "支持在桌面添加汇率换算卡片，换算更便捷",
+        "description": "支持在桌面添加汇率换算卡片，换算更便捷"
+      },
+      {
+        "id": "review-10",
+        "module": "翻译",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "翻译应用中中英文语音播报音色为小布超拟人音色，增加男性音色，更丰富更自然",
+        "description": "翻译应用中中英文语音播报音色为小布超拟人音色，增加男性音色，更丰富更自然"
+      },
+      {
+        "id": "review-11",
+        "module": "红外遥控",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "红外遥控应用中遥控面板上的键位布局，操作更方便",
+        "description": "红外遥控应用中遥控面板上的键位布局，操作更方便"
+      }
+    ],
+    "10": [
+      {
+        "id": "review-01",
+        "module": "分屏",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "支持无极调节功能，应用分屏显示时，拖动分隔条，可自由调整分屏大小。",
+        "description": "支持无极调节功能，应用分屏显示时，拖动分隔条，可自由调整分屏大小。"
+      },
+      {
+        "id": "review-02",
+        "module": "无网畅聊",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "无网畅聊支持在无网络情况下给附近的人发送文字、图片和语音消息，在信号不好的环境下更好地传达你的信息。",
+        "description": "无网畅聊支持在无网络情况下给附近的人发送文字、图片和语音消息，在信号不好的环境下更好地传达你的信息。"
+      },
+      {
+        "id": "review-03",
+        "module": "最近任务",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "当最近任务为堆叠样式时，支持在最近任务界面下滑应用卡片修改应用锁定状态。",
+        "description": "当最近任务为堆叠样式时，支持在最近任务界面下滑应用卡片修改应用锁定状态。"
+      },
+      {
+        "id": "review-04",
+        "module": "微博",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "支持在微博中分享和观看高清 HDR 照片，照片更鲜活透亮。",
+        "description": "支持在微博中分享和观看高清 HDR 照片，照片更鲜活透亮。"
+      },
+      {
+        "id": "review-05",
+        "module": "游戏",
+        "moduleSource": "explicit-inline",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "《无畏契约：源能行动》游戏性能，运行更稳定、功耗更低。",
+        "description": "《无畏契约：源能行动》游戏性能，运行更稳定、功耗更低。"
+      },
+      {
+        "id": "review-06",
+        "module": "自由浮窗",
+        "moduleSource": "explicit-inline",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "自由浮窗进入、调整位置、切换大小等操作动画，更流畅。",
+        "description": "自由浮窗进入、调整位置、切换大小等操作动画，更流畅。"
+      },
+      {
+        "id": "review-07",
+        "module": "通知",
+        "moduleSource": "explicit-inline",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "简洁横幅通知功能，横屏时收到通知都将以简洁横幅通知形态显示，减少打扰。",
+        "description": "简洁横幅通知功能，横屏时收到通知都将以简洁横幅通知形态显示，减少打扰。"
+      },
+      {
+        "id": "review-08",
+        "module": "通知",
+        "moduleSource": "explicit-inline",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "简洁通知操作手势，收到简洁横幅通知时也可以下滑通知，以浮窗形式显示通知应用界面。",
+        "description": "简洁通知操作手势，收到简洁横幅通知时也可以下滑通知，以浮窗形式显示通知应用界面。"
+      },
+      {
+        "id": "review-09",
+        "module": "通知",
+        "moduleSource": "explicit-inline",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "点击简洁横幅菜单按钮后的界面跳转形式，由原来的全屏显示改为浮窗显示，减少打扰。",
+        "description": "点击简洁横幅菜单按钮后的界面跳转形式，由原来的全屏显示改为浮窗显示，减少打扰。"
+      },
+      {
+        "id": "review-10",
+        "module": "通知",
+        "moduleSource": "explicit-inline",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "横屏时横幅通知显示位置，减少遮挡，降低打扰。",
+        "description": "横屏时横幅通知显示位置，减少遮挡，降低打扰。"
+      },
+      {
+        "id": "review-11",
+        "module": "时钟",
+        "moduleSource": "explicit-inline",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "时钟相关卡片切换逻辑，跟随系统亮暗色切换。",
+        "description": "时钟相关卡片切换逻辑，跟随系统亮暗色切换。"
+      }
+    ],
+    "11": [
+      {
+        "id": "review-01",
+        "module": "小布助手",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "小布助手一拖即问支持回复图文并茂内容，部分答复增加抖音视频跳转链接",
+        "description": "小布助手一拖即问支持回复图文并茂内容，部分答复增加抖音视频跳转链接"
+      },
+      {
+        "id": "review-02",
+        "module": "小布助手",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "小布助手支持控制酷我音乐和酷狗音乐概念版的播放，可以通过语音指令执行上一首、下一首、播放、暂停和关闭等操作",
+        "description": "小布助手支持控制酷我音乐和酷狗音乐概念版的播放，可以通过语音指令执行上一首、下一首、播放、暂停和关闭等操作"
+      },
+      {
+        "id": "review-03",
+        "module": "小布记忆",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "小布记忆应用内首页问答按钮，问答内容支持收藏、长按复制等操作",
+        "description": "小布记忆应用内首页问答按钮，问答内容支持收藏、长按复制等操作"
+      },
+      {
+        "id": "review-04",
+        "module": "小布记忆",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "小布记忆支持对合集自动生成摘要，并重新整理合集内容，方便更好地呈现合集中的信息",
+        "description": "小布记忆支持对合集自动生成摘要，并重新整理合集内容，方便更好地呈现合集中的信息"
+      },
+      {
+        "id": "review-05",
+        "module": "小布助手",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "小布识屏选词模式，点击后可对屏幕上文字进行分词选词操作，方便选择和复制，操作更便捷",
+        "description": "小布识屏选词模式，点击后可对屏幕上文字进行分词选词操作，方便选择和复制，操作更便捷"
+      },
+      {
+        "id": "review-06",
+        "module": "小布建议",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "在小布建议和流体云上，显示大麦演示提醒，包括演出出票、开场及座位号等服务信息，方便获取信息",
+        "description": "在小布建议和流体云上，显示大麦演示提醒，包括演出出票、开场及座位号等服务信息，方便获取信息"
+      },
+      {
+        "id": "review-07",
+        "module": "小布建议",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "流体云支持显示百度地图驾车导航",
+        "description": "流体云支持显示百度地图驾车导航"
+      },
+      {
+        "id": "review-08",
+        "module": "耳机播报",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "外卖、快递等服务可通过耳机播报，方便获取信息",
+        "description": "外卖、快递等服务可通过耳机播报，方便获取信息"
+      },
+      {
+        "id": "review-09",
+        "module": "声音分轨",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "声音分轨功能，支持调节音乐中人声、背景声的音量",
+        "description": "声音分轨功能，支持调节音乐中人声、背景声的音量"
+      },
+      {
+        "id": "review-10",
+        "module": "天气",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "在天气中显示潮汐信息，为赶海、出海等活动提供更多信息",
+        "description": "在天气中显示潮汐信息，为赶海、出海等活动提供更多信息"
+      },
+      {
+        "id": "review-11",
+        "module": "日历",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "日历支持批量删除日程",
+        "description": "日历支持批量删除日程"
+      },
+      {
+        "id": "review-12",
+        "module": "时钟",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "秒抢闹钟功能，支持通过流体云卡片显示当前时间并精确到秒，抢票更及时",
+        "description": "秒抢闹钟功能，支持通过流体云卡片显示当前时间并精确到秒，抢票更及时"
+      },
+      {
+        "id": "review-13",
+        "module": "便签",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "便签表格中的文本，可设置加粗、斜体等富文本格式",
+        "description": "便签表格中的文本，可设置加粗、斜体等富文本格式"
+      },
+      {
+        "id": "review-14",
+        "module": "相册",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "笔记详情页内支持通过相机、相册、文件管理插入音视频文档文件",
+        "description": "笔记详情页内支持通过相机、相册、文件管理插入音视频文档文件"
+      },
+      {
+        "id": "review-15",
+        "module": "便签",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "笔记内支持通过拖拽音视频文档来调整位置",
+        "description": "笔记内支持通过拖拽音视频文档来调整位置"
+      },
+      {
+        "id": "review-16",
+        "module": "便签",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "支持音视频文档文件通过分享保存到便签",
+        "description": "支持音视频文档文件通过分享保存到便签"
+      },
+      {
+        "id": "review-17",
+        "module": "文件管理",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "浏览器内压缩包可支持通过文件管理解压并查看",
+        "description": "浏览器内压缩包可支持通过文件管理解压并查看"
+      },
+      {
+        "id": "review-18",
+        "module": "智慧车载",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "Car+ 车联在车载投屏上使用音乐应用时，应用中会显示悬浮播控键，方便随时播放和切歌",
+        "description": "Car+ 车联在车载投屏上使用音乐应用时，应用中会显示悬浮播控键，方便随时播放和切歌"
+      },
+      {
+        "id": "review-19",
+        "module": "安全",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "支持在私密保险箱中搜索文件，查找更方便",
+        "description": "支持在私密保险箱中搜索文件，查找更方便"
+      },
+      {
+        "id": "review-20",
+        "module": "相册",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "实况照片的分辨率，画质更好",
+        "description": "实况照片的分辨率，画质更好"
+      },
+      {
+        "id": "review-21",
+        "module": "小布助手",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "小布助手支持高考分数、高考志愿查询",
+        "description": "小布助手支持高考分数、高考志愿查询"
+      },
+      {
+        "id": "review-22",
+        "module": "耳机播报",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "耳机播报的音色，与小布助手音色保持一致",
+        "description": "耳机播报的音色，与小布助手音色保持一致"
+      },
+      {
+        "id": "review-23",
+        "module": "智慧车载",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "Car+ 车联连接车机后，车机上的音量调节方式，可对导航音量和媒体音量进行单独调节",
+        "description": "Car+ 车联连接车机后，车机上的音量调节方式，可对导航音量和媒体音量进行单独调节"
+      }
+    ],
+    "12": [
+      {
+        "id": "review-01",
+        "module": "安全",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "支持在更改密码4天内，若忘记密码，可通过密码重置",
+        "description": "支持在更改密码4天内，若忘记密码，可通过密码重置"
+      },
+      {
+        "id": "review-02",
+        "module": "内容拖拽",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "辅助功能支持开启内容拖拽，长按可拖拽三方应用中的图片和文字",
+        "description": "辅助功能支持开启内容拖拽，长按可拖拽三方应用中的图片和文字"
+      },
+      {
+        "id": "review-03",
+        "module": "AI 翻译",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "AI 翻译应用，整合拍照翻译、对话翻译、同声传译、实时字幕等多种翻译功能，并支持更多语种互译，让你随时随地畅译无阻",
+        "description": "AI 翻译应用，整合拍照翻译、对话翻译、同声传译、实时字幕等多种翻译功能，并支持更多语种互译，让你随时随地畅译无阻"
+      },
+      {
+        "id": "review-04",
+        "module": "小布助手",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "小布助手一拖即问，文本、文件、图片可一步拖至屏幕下方的小布胶囊，快速解析，随心提问",
+        "description": "小布助手一拖即问，文本、文件、图片可一步拖至屏幕下方的小布胶囊，快速解析，随心提问"
+      },
+      {
+        "id": "review-05",
+        "module": "小布助手",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "小布助手一句话三分屏，例如唤醒小布助手说：\"打开文档、便签、相册分屏”，省去多步操作，简单便捷",
+        "description": "小布助手一句话三分屏，例如唤醒小布助手说：\"打开文档、便签、相册分屏”，省去多步操作，简单便捷"
+      },
+      {
+        "id": "review-06",
+        "module": "AI 灵感成片",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "AI灵感成片，通过AI一键构图，自动调整画面比例，还能自动调色，智能推荐滤镜，一键成片",
+        "description": "AI灵感成片，通过AI一键构图，自动调整画面比例，还能自动调色，智能推荐滤镜，一键成片"
+      },
+      {
+        "id": "review-07",
+        "module": "通知",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "\"待取件\"快递时，待取件信息将会在锁屏、通知栏等流体云入口常驻",
+        "description": "\"待取件\"快递时，待取件信息将会在锁屏、通知栏等流体云入口常驻"
+      },
+      {
+        "id": "review-08",
+        "module": "简易模式",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "简易模式快捷功能卡片，将长辈常用功能纳入其中，一键直达",
+        "description": "简易模式快捷功能卡片，将长辈常用功能纳入其中，一键直达"
+      },
+      {
+        "id": "review-09",
+        "module": "分屏",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "全局窗口控制器，支持全屏/分屏/浮窗一键切换，也可以长按控制器拖拽切换窗口形态，多任务处理更高效",
+        "description": "全局窗口控制器，支持全屏/分屏/浮窗一键切换，也可以长按控制器拖拽切换窗口形态，多任务处理更高效"
+      },
+      {
+        "id": "review-10",
+        "module": "分屏",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "智能分屏推荐功能，当来回切换应用，或点击链接跳转打开其他应用时，系统会智能感知分屏需求并主动提醒，多线并行，效率更高",
+        "description": "智能分屏推荐功能，当来回切换应用，或点击链接跳转打开其他应用时，系统会智能感知分屏需求并主动提醒，多线并行，效率更高"
+      },
+      {
+        "id": "review-11",
+        "module": "桌面",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "双时钟插件上的定位标识，可确认天气定位是否成功",
+        "description": "双时钟插件上的定位标识，可确认天气定位是否成功"
+      },
+      {
+        "id": "review-12",
+        "module": "便签",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "在便签笔记中插入表格，信息整理更便捷",
+        "description": "在便签笔记中插入表格，信息整理更便捷"
+      },
+      {
+        "id": "review-13",
+        "module": "便签",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "便签笔记涂鸦笔的图形选择功能，支持圆形、直线、正方形和箭头样式",
+        "description": "便签笔记涂鸦笔的图形选择功能，支持圆形、直线、正方形和箭头样式"
+      },
+      {
+        "id": "review-14",
+        "module": "便签",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "便签笔记搜索结果页支持置顶、移动和删除笔记等操作",
+        "description": "便签笔记搜索结果页支持置顶、移动和删除笔记等操作"
+      },
+      {
+        "id": "review-15",
+        "module": "游戏",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "部分平板连接官方键盘和任意鼠标时，可以使用键鼠操控游戏",
+        "description": "部分平板连接官方键盘和任意鼠标时，可以使用键鼠操控游戏"
+      },
+      {
+        "id": "review-16",
+        "module": "智慧车载",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "Car+ 车联融合桌面形态下，支持更多的应用",
+        "description": "Car+ 车联融合桌面形态下，支持更多的应用"
+      },
+      {
+        "id": "review-17",
+        "module": "智慧车载",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "Car+ 车联融合桌面形态下，可通过车辆方向盘控制抖音/快手视频应用",
+        "description": "Car+ 车联融合桌面形态下，可通过车辆方向盘控制抖音/快手视频应用"
+      },
+      {
+        "id": "review-18",
+        "module": "智慧车载",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "Car+ 车联融合桌面形态下，可切换到 Car+ 车联投屏模式",
+        "description": "Car+ 车联融合桌面形态下，可切换到 Car+ 车联投屏模式"
+      },
+      {
+        "id": "review-19",
+        "module": "智慧车载",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "车机端支持屏幕内容和图标显示大小调节",
+        "description": "车机端支持屏幕内容和图标显示大小调节"
+      },
+      {
+        "id": "review-20",
+        "module": "智慧车载",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "智慧车载在仪表盘上显示歌词",
+        "description": "智慧车载在仪表盘上显示歌词"
+      },
+      {
+        "id": "review-21",
+        "module": "电话",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "电话本联系人来电铃声设置显示位置，提升设置便捷性",
+        "description": "电话本联系人来电铃声设置显示位置，提升设置便捷性"
+      },
+      {
+        "id": "review-22",
+        "module": "相册",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "相册选图面板按键设计，选图体验更符合直觉",
+        "description": "相册选图面板按键设计，选图体验更符合直觉"
+      },
+      {
+        "id": "review-23",
+        "module": "小布建议",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "小布建议设置页，地铁服务新增地铁乘车码偏好选项，支持智能推荐微信和支付宝乘车码",
+        "description": "小布建议设置页，地铁服务新增地铁乘车码偏好选项，支持智能推荐微信和支付宝乘车码"
+      },
+      {
+        "id": "review-24",
+        "module": "桌面",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "美团外卖流体云及桌面卡片，服务信息更丰富，视觉更精美",
+        "description": "美团外卖流体云及桌面卡片，服务信息更丰富，视觉更精美"
+      },
+      {
+        "id": "review-25",
+        "module": "滴滴打车",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "滴滴打车流体云，在部分行程状态发生变化时，流体云会主动提醒",
+        "description": "滴滴打车流体云，在部分行程状态发生变化时，流体云会主动提醒"
+      },
+      {
+        "id": "review-26",
+        "module": "滴滴打车",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "滴滴打车 2*2卡片，新增显示\"车牌号”、\"车型\"、\"颜色\"",
+        "description": "滴滴打车 2*2卡片，新增显示\"车牌号”、\"车型\"、\"颜色\""
+      },
+      {
+        "id": "review-27",
+        "module": "便签",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "便签待办页面交互布局，可同时看到\"已完成\"和\"未完成\"的全部待办事项",
+        "description": "便签待办页面交互布局，可同时看到\"已完成\"和\"未完成\"的全部待办事项"
+      },
+      {
+        "id": "review-28",
+        "module": "便签",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "便签笔记搜索范围，支持在未加密笔记本下可搜索全部笔记内容",
+        "description": "便签笔记搜索范围，支持在未加密笔记本下可搜索全部笔记内容"
+      },
+      {
+        "id": "review-29",
+        "module": "安全",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "私密保险箱，支持不限量添加私密文件至私密保险箱",
+        "description": "私密保险箱，支持不限量添加私密文件至私密保险箱"
+      },
+      {
+        "id": "review-30",
+        "module": "游戏",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "系统动画帧率，提升复合动画性能，过渡更流畅",
+        "description": "系统动画帧率，提升复合动画性能，过渡更流畅"
+      },
+      {
+        "id": "review-31",
+        "module": "流畅",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "滑动场景的调度策略与时延，提升常用应用滑动流畅性",
+        "description": "滑动场景的调度策略与时延，提升常用应用滑动流畅性"
+      },
+      {
+        "id": "review-32",
+        "module": "流畅",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "内存分配策略，提升应用启切流畅性",
+        "description": "内存分配策略，提升应用启切流畅性"
+      },
+      {
+        "id": "review-33",
+        "module": "流畅",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "常驻进程的后台运行内存，提升系统流畅性",
+        "description": "常驻进程的后台运行内存，提升系统流畅性"
+      },
+      {
+        "id": "review-34",
+        "module": "分屏",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "浮窗、分屏应用窗口动效与兼容性，提升使用体验",
+        "description": "浮窗、分屏应用窗口动效与兼容性，提升使用体验"
+      },
+      {
+        "id": "review-35",
+        "module": "自由浮窗",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "浮窗侧边收起逻辑，当浮窗微侧边收起状态时，后台自动锁定，方便随时打开浮窗应用",
+        "description": "浮窗侧边收起逻辑，当浮窗微侧边收起状态时，后台自动锁定，方便随时打开浮窗应用"
+      },
+      {
+        "id": "review-36",
+        "module": "自由浮窗",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "浮窗显示规则，实现浮窗跟手，根据不同点击位置出现窗口，完美适配大屏",
+        "description": "浮窗显示规则，实现浮窗跟手，根据不同点击位置出现窗口，完美适配大屏"
+      },
+      {
+        "id": "review-37",
+        "module": "性能",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "性能平台页 CPU、GPU 加载优化逻辑，实时了解手机性能情况",
+        "description": "性能平台页 CPU、GPU 加载优化逻辑，实时了解手机性能情况"
+      },
+      {
+        "id": "review-38",
+        "module": "续航",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "后台应用异常高耗电监控策略，实时提醒优化",
+        "description": "后台应用异常高耗电监控策略，实时提醒优化"
+      },
+      {
+        "id": "review-39",
+        "module": "续航",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "夜间待机、唤醒亮屏策略，提升待机时长",
+        "description": "夜间待机、唤醒亮屏策略，提升待机时长"
+      },
+      {
+        "id": "review-40",
+        "module": "AI 组件",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "AI组件的进程内存，提升 AI相关服务的流畅性体验",
+        "description": "AI组件的进程内存，提升 AI相关服务的流畅性体验"
+      },
+      {
+        "id": "review-41",
+        "module": "自由浮窗",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "游戏时浮窗启切性能，提升浮窗操控流畅性",
+        "description": "游戏时浮窗启切性能，提升浮窗操控流畅性"
+      },
+      {
+        "id": "review-42",
+        "module": "游戏",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "游戏加载帧率，升级自适应帧率能力，切换更丝滑",
+        "description": "游戏加载帧率，升级自适应帧率能力，切换更丝滑"
+      },
+      {
+        "id": "review-43",
+        "module": "游戏",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "游戏运行时的后台任务，减少不必要的服务负载，降低游戏功耗",
+        "description": "游戏运行时的后台任务，减少不必要的服务负载，降低游戏功耗"
+      },
+      {
+        "id": "review-44",
+        "module": "任务栏",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "任务栏交互，新增悬浮模式，支持上滑呼出任务栏，并可自动收起",
+        "description": "任务栏交互，新增悬浮模式，支持上滑呼出任务栏，并可自动收起"
+      },
+      {
+        "id": "review-45",
+        "module": "AI 意图搜索",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "AI意图搜索功能，支持使用自然语言，通过小布或全局搜索搜到手机内保存的文档、图片、日程等信息，轻松找到手机上的各种零散信息",
+        "description": "AI意图搜索功能，支持使用自然语言，通过小布或全局搜索搜到手机内保存的文档、图片、日程等信息，轻松找到手机上的各种零散信息"
+      },
+      {
+        "id": "review-46",
+        "module": "AI 文档",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "AI 文档支持思维脑图功能，可一键生成思维脑图，还能以图片形式分享和导出",
+        "description": "AI 文档支持思维脑图功能，可一键生成思维脑图，还能以图片形式分享和导出"
+      },
+      {
+        "id": "review-47",
+        "module": "小布助手",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "小布助手以图文形式回复内容，让答复更容易理解",
+        "description": "小布助手以图文形式回复内容，让答复更容易理解"
+      },
+      {
+        "id": "review-48",
+        "module": "网络",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "与iOS 局域网互传功能，在同一WLAN 下，无需建立热点连接就能实现互传",
+        "description": "与iOS 局域网互传功能，在同一WLAN 下，无需建立热点连接就能实现互传"
+      },
+      {
+        "id": "review-49",
+        "module": "小布助手",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "小布拍照答疑体验升级，新增习题问答功能，遇到不会的题目，一键问屏，轻松唤起小布助手，快速对习题知识点、解题思路进行搜索整理分析",
+        "description": "小布拍照答疑体验升级，新增习题问答功能，遇到不会的题目，一键问屏，轻松唤起小布助手，快速对习题知识点、解题思路进行搜索整理分析"
+      },
+      {
+        "id": "review-50",
+        "module": "小布助手",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "小布旅行助手体验升级，支持个性化偏好设置，生成专属旅行攻略",
+        "description": "小布旅行助手体验升级，支持个性化偏好设置，生成专属旅行攻略"
+      },
+      {
+        "id": "review-51",
+        "module": "导航条",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "优化部分场景下导航条背景色与应用颜色显示效果，提升色彩显示一致性",
+        "description": "优化部分场景下导航条背景色与应用颜色显示效果，提升色彩显示一致性"
+      },
+      {
+        "id": "review-52",
+        "module": "最近任务",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "最近任务管理功能，能锁定更多应用持续保持运行",
+        "description": "最近任务管理功能，能锁定更多应用持续保持运行"
+      }
+    ],
+    "14": [
+      {
+        "id": "review-01",
+        "module": "手机管家",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "手机管家隐私中心模块，支持检测权限过度授权行为，并可对闲置权限一键回收",
+        "description": "手机管家隐私中心模块，支持检测权限过度授权行为，并可对闲置权限一键回收"
+      },
+      {
+        "id": "review-02",
+        "module": "手机管家",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "手机管家应用后台定位风险提醒，系统会主动弹框提示，保护个人位置信息安全",
+        "description": "手机管家应用后台定位风险提醒，系统会主动弹框提示，保护个人位置信息安全"
+      },
+      {
+        "id": "review-03",
+        "module": "手机管家",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "手机管家支持一键关闭所有应用的广告跟踪权限，操作更便捷",
+        "description": "手机管家支持一键关闭所有应用的广告跟踪权限，操作更便捷"
+      },
+      {
+        "id": "review-04",
+        "module": "流体云",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "流体云支持同时显示多个美团、饿了么外卖订单进度信息",
+        "description": "流体云支持同时显示多个美团、饿了么外卖订单进度信息"
+      },
+      {
+        "id": "review-05",
+        "module": "小布建议",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "小布建议支持显示同一应用下的多个外卖、打车等订单或服务",
+        "description": "小布建议支持显示同一应用下的多个外卖、打车等订单或服务"
+      },
+      {
+        "id": "review-06",
+        "module": "智慧车载",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "智慧车载支持镜像模式和极简模式投屏功能，可将手机上的所有应用投屏至车载屏幕上使用",
+        "description": "智慧车载支持镜像模式和极简模式投屏功能，可将手机上的所有应用投屏至车载屏幕上使用"
+      },
+      {
+        "id": "review-07",
+        "module": "智慧车载",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "智慧车载支持 Android auto 功能，在境外也可以使用 Android auto 进行车联",
+        "description": "智慧车载支持 Android auto 功能，在境外也可以使用 Android auto 进行车联"
+      },
+      {
+        "id": "review-08",
+        "module": "分屏",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "桌面分屏组合支持重命名",
+        "description": "桌面分屏组合支持重命名"
+      },
+      {
+        "id": "review-09",
+        "module": "安全",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "隐私密码找回功能，可通过关联账号的方式找回隐私密码，避免因忘记安全问题而无法找回，丢失重要数据",
+        "description": "隐私密码找回功能，可通过关联账号的方式找回隐私密码，避免因忘记安全问题而无法找回，丢失重要数据"
+      },
+      {
+        "id": "review-10",
+        "module": "桌面",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "桌面应用启动、退出、侧滑的动效，让视觉体验更加自然、顺滑",
+        "description": "桌面应用启动、退出、侧滑的动效，让视觉体验更加自然、顺滑"
+      },
+      {
+        "id": "review-11",
+        "module": "桌面",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "4×6桌面布局中三方应用2×2和4×2桌面插件尺寸。及显示效果，以提升视觉一致性",
+        "description": "4×6桌面布局中三方应用2×2和4×2桌面插件尺寸。及显示效果，以提升视觉一致性"
+      },
+      {
+        "id": "review-12",
+        "module": "电话",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "WLAN 网络连接体验，提升抖音看直播/微信视频通话流畅性",
+        "description": "WLAN 网络连接体验，提升抖音看直播/微信视频通话流畅性"
+      },
+      {
+        "id": "review-13",
+        "module": "网络",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "WLAN 切换与漫游性能，提升网络流畅性",
+        "description": "WLAN 切换与漫游性能，提升网络流畅性"
+      },
+      {
+        "id": "review-14",
+        "module": "时钟",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "闹钟设置提醒，在节假日上班前1日主动提醒设置闹钟",
+        "description": "闹钟设置提醒，在节假日上班前1日主动提醒设置闹钟"
+      },
+      {
+        "id": "review-15",
+        "module": "翻译",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "逍遥游卡片，集合出境时的境外通信上网、旅行资讯、实时翻译等，常用服务一步直达",
+        "description": "逍遥游卡片，集合出境时的境外通信上网、旅行资讯、实时翻译等，常用服务一步直达"
+      },
+      {
+        "id": "review-16",
+        "module": "文件管理",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "文件管理支持查找钉钉、飞书等更多三方应用中的文件，方便快速从不同应用中找到下载的文件",
+        "description": "文件管理支持查找钉钉、飞书等更多三方应用中的文件，方便快速从不同应用中找到下载的文件"
+      },
+      {
+        "id": "review-17",
+        "module": "安全",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "私密保险箱中的文件加密/解密速度",
+        "description": "私密保险箱中的文件加密/解密速度"
+      },
+      {
+        "id": "review-18",
+        "module": "便签",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "笔记首页布局，私密笔记本不显示在首页列表，保护个人隐私",
+        "description": "笔记首页布局，私密笔记本不显示在首页列表，保护个人隐私"
+      },
+      {
+        "id": "review-19",
+        "module": "通知",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "\"即将响铃通知\"交互方式，点击通知后可直接跳转至对应闹钟",
+        "description": "\"即将响铃通知\"交互方式，点击通知后可直接跳转至对应闹钟"
+      }
+    ],
+    "15": [
+      {
+        "id": "review-01",
+        "module": "小布建议",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "小布建议卡片翻动时的低阻尼动效，细致打磨卡片切换过程中的空间感和流畅度，操作体验更加流畅自然",
+        "description": "小布建议卡片翻动时的低阻尼动效，细致打磨卡片切换过程中的空间感和流畅度，操作体验更加流畅自然"
+      },
+      {
+        "id": "review-02",
+        "module": "小布建议",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "小布建议场景卡片集功能，动态感知和识别生活场景，并自动关联组合行程、出行建议、目的地信息等服务，高效智能",
+        "description": "小布建议场景卡片集功能，动态感知和识别生活场景，并自动关联组合行程、出行建议、目的地信息等服务，高效智能"
+      },
+      {
+        "id": "review-03",
+        "module": "小布建议",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "小布建议电竞、体育赛事服务提醒，赛事信息一目了然",
+        "description": "小布建议电竞、体育赛事服务提醒，赛事信息一目了然"
+      },
+      {
+        "id": "review-04",
+        "module": "日历",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "日历支持分享日程",
+        "description": "日历支持分享日程"
+      },
+      {
+        "id": "review-05",
+        "module": "天气",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "日历、天气字体大小随系统字体设置变化",
+        "description": "日历、天气字体大小随系统字体设置变化"
+      },
+      {
+        "id": "review-06",
+        "module": "相机",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "文件管理支持图片排序功能，支持按修改时间、拍摄时间和名称排序",
+        "description": "文件管理支持图片排序功能，支持按修改时间、拍摄时间和名称排序"
+      },
+      {
+        "id": "review-07",
+        "module": "智慧车载",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "Car+车联适配新版高德地图，提升兼容性",
+        "description": "Car+车联适配新版高德地图，提升兼容性"
+      },
+      {
+        "id": "review-08",
+        "module": "智慧车载",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "QQ 音乐在车机上的显示效果，功能使用更便捷",
+        "description": "QQ 音乐在车机上的显示效果，功能使用更便捷"
+      },
+      {
+        "id": "review-09",
+        "module": "桌面",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "应用使用时长桌面卡片，便于合理使用手机",
+        "description": "应用使用时长桌面卡片，便于合理使用手机"
+      },
+      {
+        "id": "review-10",
+        "module": "小布建议",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "小布建议通勤卡设计，提升视觉效果",
+        "description": "小布建议通勤卡设计，提升视觉效果"
+      }
+    ],
+    "16": [
+      {
+        "id": "review-01",
+        "module": "小布建议",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "小布建议跨城组合卡，前往北京、上海、广州等热门城市，一站式游玩服务智能推荐。",
+        "description": "小布建议跨城组合卡，前往北京、上海、广州等热门城市，一站式游玩服务智能推荐。"
+      },
+      {
+        "id": "review-02",
+        "module": "全局搜索",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "全局搜索支持跨应用文档随心搜，快速查找文件。",
+        "description": "全局搜索支持跨应用文档随心搜，快速查找文件。"
+      },
+      {
+        "id": "review-03",
+        "module": "文件管理",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "文件管理支持将文件、文件夹以快捷方式添加至桌面。",
+        "description": "文件管理支持将文件、文件夹以快捷方式添加至桌面。"
+      },
+      {
+        "id": "review-04",
+        "module": "录音机",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "录音回收站功能，可查看和恢复 30 天内删除的录音文件。",
+        "description": "录音回收站功能，可查看和恢复 30 天内删除的录音文件。"
+      },
+      {
+        "id": "review-05",
+        "module": "相册",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "相册连拍合集页内支持预览缩放。",
+        "description": "相册连拍合集页内支持预览缩放。"
+      },
+      {
+        "id": "review-06",
+        "module": "相册",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "相册建议清理功能，一键清理无用照片，释放存储空间。",
+        "description": "相册建议清理功能，一键清理无用照片，释放存储空间。"
+      },
+      {
+        "id": "review-07",
+        "module": "天气",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "天气添加城市时，支持天气信息预览。",
+        "description": "天气添加城市时，支持天气信息预览。"
+      },
+      {
+        "id": "review-08",
+        "module": "便签",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "便签笔记正文字号调节功能。",
+        "description": "便签笔记正文字号调节功能。"
+      },
+      {
+        "id": "review-09",
+        "module": "车辆设备面板",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "车辆设备面板支持停车记录功能，下车后可记录停车位置和停车时长，方便寻找爱车。",
+        "description": "车辆设备面板支持停车记录功能，下车后可记录停车位置和停车时长，方便寻找爱车。"
+      },
+      {
+        "id": "review-10",
+        "module": "应用权限",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "应用权限设置列表支持滑块索引，可快速定位到应用，提升查找效率。",
+        "description": "应用权限设置列表支持滑块索引，可快速定位到应用，提升查找效率。"
+      },
+      {
+        "id": "review-11",
+        "module": "权限管理",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "权限管理支持不同授权状态查看选项，方便查看每个授权状态下的应用详情。",
+        "description": "权限管理支持不同授权状态查看选项，方便查看每个授权状态下的应用详情。"
+      },
+      {
+        "id": "review-12",
+        "module": "百度打车",
+        "moduleSource": "explicit-inline",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "百度打车履约体验，打车进程一目了然。",
+        "description": "百度打车履约体验，打车进程一目了然。"
+      },
+      {
+        "id": "review-13",
+        "module": "相册",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "相册图集中人物图集和智能图集，提升分类准确性。",
+        "description": "相册图集中人物图集和智能图集，提升分类准确性。"
+      },
+      {
+        "id": "review-14",
+        "module": "小布识屏",
+        "moduleSource": "explicit-inline",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "小布识屏文字提取体验，新增搜索和翻译功能。",
+        "description": "小布识屏文字提取体验，新增搜索和翻译功能。"
+      },
+      {
+        "id": "review-15",
+        "module": "手机管家",
+        "moduleSource": "explicit-inline",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "手机管家病毒扫描结果页交互方式，支持单次多选清理风险应用，操作更便捷。",
+        "description": "手机管家病毒扫描结果页交互方式，支持单次多选清理风险应用，操作更便捷。"
+      },
+      {
+        "id": "review-16",
+        "module": "红外遥控",
+        "moduleSource": "explicit-inline",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "红外遥控拍照添加遥控器功能，一键拍照即可添加遥控器。",
+        "description": "红外遥控拍照添加遥控器功能，一键拍照即可添加遥控器。"
+      },
+      {
+        "id": "review-17",
+        "module": "区域截屏",
+        "moduleSource": "explicit-inline",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "区域截屏功能，去除截屏后的预览浮窗，提升区域截屏使用体验。",
+        "description": "区域截屏功能，去除截屏后的预览浮窗，提升区域截屏使用体验。"
+      }
+    ],
+    "17": [
+      {
+        "id": "review-01",
+        "module": "相机",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "照片模式、人像模式新增三种胶片风格滤镜（清新、复古、通透），提供更轻松的创作体验。",
+        "description": "照片模式、人像模式新增三种胶片风格滤镜（清新、复古、通透），提供更轻松的创作体验。"
+      },
+      {
+        "id": "review-02",
+        "module": "手机搬家",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "手机搬家支持 iOS 实况照片迁移。",
+        "description": "手机搬家支持 iOS 实况照片迁移。"
+      },
+      {
+        "id": "review-03",
+        "module": "流体云",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "充电信息、手电筒支持在流体云显示。",
+        "description": "充电信息、手电筒支持在流体云显示。"
+      },
+      {
+        "id": "review-04",
+        "module": "特殊应用权限",
+        "moduleSource": "explicit-inline",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "特殊应用权限，新增“全部不允许”选项，可一键关闭对所有应用的授权。",
+        "description": "特殊应用权限，新增“全部不允许”选项，可一键关闭对所有应用的授权。"
+      },
+      {
+        "id": "review-05",
+        "module": "相册",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "相册在拖动侧边滑块时，同步显示日期，提升照片查找效率。",
+        "description": "相册在拖动侧边滑块时，同步显示日期，提升照片查找效率。"
+      },
+      {
+        "id": "review-06",
+        "module": "相册",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "相册视图筛选功能，可按“照片”、“收藏”进行筛选，方便查看和整理相册。",
+        "description": "相册视图筛选功能，可按“照片”、“收藏”进行筛选，方便查看和整理相册。"
+      },
+      {
+        "id": "review-07",
+        "module": "相册",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "支持将相册整个图集加密，高效管理私密图片和视频。",
+        "description": "支持将相册整个图集加密，高效管理私密图片和视频。"
+      },
+      {
+        "id": "review-08",
+        "module": "天气",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "支持天气 15 日天气的降雨概率。",
+        "description": "支持天气 15 日天气的降雨概率。"
+      },
+      {
+        "id": "review-09",
+        "module": "天气",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "天气空气质量城市排行信息。",
+        "description": "天气空气质量城市排行信息。"
+      },
+      {
+        "id": "review-10",
+        "module": "天气",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "天气桌面卡片，样式更精美，布局更合理。",
+        "description": "天气桌面卡片，样式更精美，布局更合理。"
+      },
+      {
+        "id": "review-11",
+        "module": "日历",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "日历生日、倒数日、纪念日桌面卡片。",
+        "description": "日历生日、倒数日、纪念日桌面卡片。"
+      },
+      {
+        "id": "review-12",
+        "module": "小布指令",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "小布指令支持将一键指令添加至桌面，操作更便捷。",
+        "description": "小布指令支持将一键指令添加至桌面，操作更便捷。"
+      },
+      {
+        "id": "review-13",
+        "module": "文件管理",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "文件管理“文件推荐”服务，方便快速直达最近文件。",
+        "description": "文件管理“文件推荐”服务，方便快速直达最近文件。"
+      },
+      {
+        "id": "review-14",
+        "module": "手机管家",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "手机管家常用工具中新增“安全守护”入口。",
+        "description": "手机管家常用工具中新增“安全守护”入口。"
+      },
+      {
+        "id": "review-15",
+        "module": "帮助与反馈",
+        "moduleSource": "explicit-inline",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "帮助与反馈的搜索功能，搜索更精准。",
+        "description": "帮助与反馈的搜索功能，搜索更精准。"
+      }
+    ],
+    "18": [
+      {
+        "id": "review-01",
+        "module": "相册",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "支持抖音发布实况照片。",
+        "description": "支持抖音发布实况照片。"
+      },
+      {
+        "id": "review-02",
+        "module": "相册",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "支持与 iOS 双向互传实况照片。",
+        "description": "支持与 iOS 双向互传实况照片。"
+      },
+      {
+        "id": "review-03",
+        "module": "小布助手",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "识别屏幕图文并生成个性化文案。",
+        "description": "识别屏幕图文并生成个性化文案。"
+      },
+      {
+        "id": "review-04",
+        "module": "分屏",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "应用全屏时向左上滑可快速启动分屏。",
+        "description": "应用全屏时向左上滑可快速启动分屏。"
+      },
+      {
+        "id": "review-05",
+        "module": "自由浮窗",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "支持浮窗显示。",
+        "description": "支持浮窗显示。"
+      },
+      {
+        "id": "review-06",
+        "module": "便签",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "inferred",
+        "sourceText": "支持通过拼音搜索笔记及附件。",
+        "description": "支持通过拼音搜索笔记及附件。"
+      },
+      {
+        "id": "review-07",
+        "module": "智慧车载",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "新增统一设置页、流体云入口与地址发送至车机。",
+        "description": "新增统一设置页、流体云入口与地址发送至车机。"
+      },
+      {
+        "id": "review-08",
+        "module": "手机管家",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "inferred",
+        "sourceText": "增加系统加速与仿冒应用风险检测。",
+        "description": "增加系统加速与仿冒应用风险检测。"
+      },
+      {
+        "id": "review-09",
+        "module": "天气",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "inferred",
+        "sourceText": "提高天气数据刷新频率。",
+        "description": "提高天气数据刷新频率。"
+      },
+      {
+        "id": "review-10",
+        "module": "长截屏",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "inferred",
+        "sourceText": "提升长截屏保存速度。",
+        "description": "提升长截屏保存速度。"
+      }
+    ],
+    "21": [
+      {
+        "id": "review-01",
+        "module": "小V帮读",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "新增控制中心小V帮读入口，功能使用更便捷。",
+        "description": "新增控制中心小V帮读入口，功能使用更便捷。"
+      },
+      {
+        "id": "review-02",
+        "module": "蓝心小V",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "优化蓝心小V多模态穿插样式，问答支持呈现视频与三方卡片，丰富阅读体验。",
+        "description": "优化蓝心小V多模态穿插样式，问答支持呈现视频与三方卡片，丰富阅读体验。"
+      },
+      {
+        "id": "review-03",
+        "module": "蓝心小V",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "优化蓝心小V输出图文质量和混排样式，信息呈现更清晰，阅读更轻松。",
+        "description": "优化蓝心小V输出图文质量和混排样式，信息呈现更清晰，阅读更轻松。"
+      },
+      {
+        "id": "review-04",
+        "module": "原子组件",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "新增日历日程、邮件、清理加速、紫外线、PM2.5、蓝心小V、vivo官网等组件模糊材质，增强界面层级与空间感。",
+        "description": "新增日历日程、邮件、清理加速、紫外线、PM2.5、蓝心小V、vivo官网等组件模糊材质，增强界面层级与空间感。"
+      },
+      {
+        "id": "review-05",
+        "module": "网络",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "优化 AI 网络智选算法，智能匹配优质网络连接，上网体验稳定又顺畅。",
+        "description": "优化 AI 网络智选算法，智能匹配优质网络连接，上网体验稳定又顺畅。"
+      },
+      {
+        "id": "review-06",
+        "module": "无障碍",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "优化 TalkBack 的焦点、标签及交互控件，提升 TalkBack 使用体验。",
+        "description": "优化 TalkBack 的焦点、标签及交互控件，提升 TalkBack 使用体验。"
+      }
+    ],
+    "22": [
+      {
+        "id": "review-01",
+        "module": "互联",
+        "moduleSource": "explicit-heading",
+        "type": "未标注",
+        "typeSource": "inferred",
+        "sourceText": "摇一摇群组分享能力升级，新增支持与其他品牌安卓手机生态互联，实现跨品牌设备的多人照片、视频互传。",
+        "description": "摇一摇群组分享能力升级，新增支持与其他品牌安卓手机生态互联，实现跨品牌设备的多人照片、视频互传。"
+      },
+      {
+        "id": "review-02",
+        "module": "小 V 心愿箱",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "小 V 心愿箱智能体，建议反馈给小 V，你的声音直达 AI 产品经理。",
+        "description": "小 V 心愿箱智能体，建议反馈给小 V，你的声音直达 AI 产品经理。"
+      },
+      {
+        "id": "review-03",
+        "module": "蓝心小 V",
+        "moduleSource": "explicit-inline",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "小 V 主界面直连飞猪、蚂蚁阿福专业智能体，和蓝心小 V 直接对话即可获取专业回答，无需切换入口。",
+        "description": "小 V 主界面直连飞猪、蚂蚁阿福专业智能体，和蓝心小 V 直接对话即可获取专业回答，无需切换入口。"
+      },
+      {
+        "id": "review-04",
+        "module": "连接中心",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "连接中心设备卡片样式，卡片展开态视觉效果更协调。",
+        "description": "连接中心设备卡片样式，卡片展开态视觉效果更协调。"
+      },
+      {
+        "id": "review-05",
+        "module": "输入法",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "抖音、今日头条、西瓜视频等字节跳动所属 App 搜索框的拼音与英文预上屏，输入更快、更顺手。",
+        "description": "抖音、今日头条、西瓜视频等字节跳动所属 App 搜索框的拼音与英文预上屏，输入更快、更顺手。"
+      },
+      {
+        "id": "review-06",
+        "module": "输入法",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "横屏状态下悬浮键盘、游戏键盘展示，增加可拖动提示，随意拖动键盘，不挡内容，使用更舒服。",
+        "description": "横屏状态下悬浮键盘、游戏键盘展示，增加可拖动提示，随意拖动键盘，不挡内容，使用更舒服。"
+      },
+      {
+        "id": "review-07",
+        "module": "智能车载",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "体验专区 YouTube、悟空浏览器、同花顺、录风者、QQ 浏览器、交管 12123、董石云视频、Chrome、途虎养车 9 款实用高频应用。",
+        "description": "体验专区 YouTube、悟空浏览器、同花顺、录风者、QQ 浏览器、交管 12123、董石云视频、Chrome、途虎养车 9 款实用高频应用。"
+      }
+    ],
+    "23": [
+      {
+        "id": "review-01",
+        "module": "抢红包",
+        "moduleSource": "explicit-inline",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "红包提醒速度、触控响应速度、网络资源调度全链路优化，抢红包更流畅，好运快人一步。",
+        "description": "红包提醒速度、触控响应速度、网络资源调度全链路优化，抢红包更流畅，好运快人一步。"
+      },
+      {
+        "id": "review-02",
+        "module": "主题",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "手机、手表、耳机和 Pad 新增神驹贺岁新春主题资源。",
+        "description": "手机、手表、耳机和 Pad 新增神驹贺岁新春主题资源。"
+      },
+      {
+        "id": "review-03",
+        "module": "图集",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "图集新增景深效果，美图上屏不遮挡，更有空间感。",
+        "description": "图集新增景深效果，美图上屏不遮挡，更有空间感。"
+      },
+      {
+        "id": "review-04",
+        "module": "小 V 建议",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "小 V 建议新春卡片，提供贴心祝福、节日习俗与小游戏。",
+        "description": "小 V 建议新春卡片，提供贴心祝福、节日习俗与小游戏。"
+      },
+      {
+        "id": "review-05",
+        "module": "时钟",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "横向个性时钟增加农历快捷信息，农历节日一眼可见，从从容容过大年。",
+        "description": "横向个性时钟增加农历快捷信息，农历节日一眼可见，从从容容过大年。"
+      },
+      {
+        "id": "review-06",
+        "module": "锁屏",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "锁屏景深支持添加小组件，有景深，也有小组件，颜值、效率都拉满。",
+        "description": "锁屏景深支持添加小组件，有景深，也有小组件，颜值、效率都拉满。"
+      },
+      {
+        "id": "review-07",
+        "module": "相册",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "新春相册水印，水印一加，秒变新春福照。",
+        "description": "新春相册水印，水印一加，秒变新春福照。"
+      },
+      {
+        "id": "review-08",
+        "module": "热点",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "热点连接数量可在原子岛查看，流量共享更便捷。",
+        "description": "热点连接数量可在原子岛查看，流量共享更便捷。"
+      },
+      {
+        "id": "review-09",
+        "module": "互传",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "摇一摇群组分享支持新春原图批量秒分享，安卓 13 及以上 vivo 手机都支持。",
+        "description": "摇一摇群组分享支持新春原图批量秒分享，安卓 13 及以上 vivo 手机都支持。"
+      }
+    ],
+    "24": [
+      {
+        "id": "review-01",
+        "module": "主题",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "支持独立替换控制中心主题资源，可根据桌面主题的颜色进行自由搭配，不同色彩随心换。",
+        "description": "支持独立替换控制中心主题资源，可根据桌面主题的颜色进行自由搭配，不同色彩随心换。"
+      },
+      {
+        "id": "review-02",
+        "module": "控制中心",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "连接中心卡片样式，视觉效果更美观协调。",
+        "description": "连接中心卡片样式，视觉效果更美观协调。"
+      },
+      {
+        "id": "review-03",
+        "module": "天气组件",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "4×2 天气组件，视觉更美观，天气信息一目了然。",
+        "description": "4×2 天气组件，视觉更美观，天气信息一目了然。"
+      },
+      {
+        "id": "review-04",
+        "module": "晕动视觉辅助",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "晕动视觉辅助自定义显示效果，随心调节屏幕圆点颜色、大小和数量。",
+        "description": "晕动视觉辅助自定义显示效果，随心调节屏幕圆点颜色、大小和数量。"
+      },
+      {
+        "id": "review-05",
+        "module": "日历",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "日历 AI 搜索能力，搜索自然语言即可快速定位日程，信息获取更高效。",
+        "description": "日历 AI 搜索能力，搜索自然语言即可快速定位日程，信息获取更高效。"
+      },
+      {
+        "id": "review-06",
+        "module": "录音机",
+        "moduleSource": "explicit-inline",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "录音机文件默认命名，格式调整为“年月日_时分秒”。",
+        "description": "录音机文件默认命名，格式调整为“年月日_时分秒”。"
+      },
+      {
+        "id": "review-07",
+        "module": "蓝心小 V",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "语义理解能力，提升搜索答案与参考来源的关联性，AI 搜索结果更准确。",
+        "description": "语义理解能力，提升搜索答案与参考来源的关联性，AI 搜索结果更准确。"
+      },
+      {
+        "id": "review-08",
+        "module": "网络",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "定位精准度，减少打车时位置偏差。",
+        "description": "定位精准度，减少打车时位置偏差。"
+      },
+      {
+        "id": "review-09",
+        "module": "网络",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "移动网络下玩游戏的网络稳定性，提升游戏网络体验。",
+        "description": "移动网络下玩游戏的网络稳定性，提升游戏网络体验。"
+      },
+      {
+        "id": "review-10",
+        "module": "无障碍",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "优化 TalkBack 的焦点、标签及交互控件，提升 TalkBack 使用体验。",
+        "description": "优化 TalkBack 的焦点、标签及交互控件，提升 TalkBack 使用体验。"
+      },
+      {
+        "id": "review-11",
+        "module": "无障碍",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "图像描述功能保活机制，提升图像描述开关在不同模式下稳定性。",
+        "description": "图像描述功能保活机制，提升图像描述开关在不同模式下稳定性。"
+      },
+      {
+        "id": "review-12",
+        "module": "智能车载",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "小 V 唤醒及对话时的光影效果。",
+        "description": "小 V 唤醒及对话时的光影效果。"
+      },
+      {
+        "id": "review-13",
+        "module": "智能车载",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "音乐沉浸模式歌词两行显示，增加歌词切换效果。",
+        "description": "音乐沉浸模式歌词两行显示，增加歌词切换效果。"
+      },
+      {
+        "id": "review-14",
+        "module": "智能车载",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "横屏车机沉浸式音乐状态栏切换上一首及歌词切换效果。",
+        "description": "横屏车机沉浸式音乐状态栏切换上一首及歌词切换效果。"
+      },
+      {
+        "id": "review-15",
+        "module": "智能车载",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "竖屏车机组件区域调整功能，支持仅展示单行组件。",
+        "description": "竖屏车机组件区域调整功能，支持仅展示单行组件。"
+      },
+      {
+        "id": "review-16",
+        "module": "智能车载",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "导航悬浮卡片、状态栏组件显示导航进度。",
+        "description": "导航悬浮卡片、状态栏组件显示导航进度。"
+      },
+      {
+        "id": "review-17",
+        "module": "智能车载",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "爱奇艺影音流转，支持在控制中心音乐卡片将视频流转到车机播放。",
+        "description": "爱奇艺影音流转，支持在控制中心音乐卡片将视频流转到车机播放。"
+      },
+      {
+        "id": "review-18",
+        "module": "智能车载",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "首页组件自动贴边、自定义按钮自动隐藏逻辑。",
+        "description": "首页组件自动贴边、自定义按钮自动隐藏逻辑。"
+      }
+    ],
+    "25": [
+      {
+        "id": "review-01",
+        "module": "蓝心小 V 智能体",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "AiPPT 智能体，精美 PPT 免费做，一键生成高质 PPT，大纲、文案、模板全搞定。",
+        "description": "AiPPT 智能体，精美 PPT 免费做，一键生成高质 PPT，大纲、文案、模板全搞定。"
+      },
+      {
+        "id": "review-02",
+        "module": "蓝心小 V 智能体",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "什么值得买智能体，帮你轻松全网搜好物，推荐更优选购方案。",
+        "description": "什么值得买智能体，帮你轻松全网搜好物，推荐更优选购方案。"
+      },
+      {
+        "id": "review-03",
+        "module": "蓝心小 V 智能体",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "作文助手智能体，写作文、列大纲、拍照批改、美化润色，统统帮你搞定。",
+        "description": "作文助手智能体，写作文、列大纲、拍照批改、美化润色，统统帮你搞定。"
+      },
+      {
+        "id": "review-04",
+        "module": "原子岛",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "拖放直达适配 WhatsApp、Facebook、Messenger、Telegram、LINE、X 共 6 款海外头部 IM 社交类应用，一拖即放，效率拉满。",
+        "description": "拖放直达适配 WhatsApp、Facebook、Messenger、Telegram、LINE、X 共 6 款海外头部 IM 社交类应用，一拖即放，效率拉满。"
+      },
+      {
+        "id": "review-05",
+        "module": "原子岛",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "拖放直达适配 TIM、酷安、网易邮箱、Outlook、Gmail、QQ 邮箱、阿里云盘、百度网盘、坚果云、Edge、夸克、腾讯微云、OneDrive，一拖即传，文件传输更高效。",
+        "description": "拖放直达适配 TIM、酷安、网易邮箱、Outlook、Gmail、QQ 邮箱、阿里云盘、百度网盘、坚果云、Edge、夸克、腾讯微云、OneDrive，一拖即传，文件传输更高效。"
+      },
+      {
+        "id": "review-06",
+        "module": "原子随身听",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "适配微信读书、七猫读书、起点读书、番茄免费小说、QQ 阅读、帆书、晋江小说阅读、京东读书、懒人听书高级版、得到、酷狗听书共 11 款主流听书与小说应用，支持在锁屏或控制中心便捷操控。",
+        "description": "适配微信读书、七猫读书、起点读书、番茄免费小说、QQ 阅读、帆书、晋江小说阅读、京东读书、懒人听书高级版、得到、酷狗听书共 11 款主流听书与小说应用，支持在锁屏或控制中心便捷操控。"
+      },
+      {
+        "id": "review-07",
+        "module": "输入法",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "切换输入法快捷键，下载安装多个输入法后，通过键盘底部左下角显性图标快速切换。",
+        "description": "切换输入法快捷键，下载安装多个输入法后，通过键盘底部左下角显性图标快速切换。"
+      },
+      {
+        "id": "review-08",
+        "module": "输入法",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "vivo 输入法日语键盘，实现日语沟通场景的便捷输入。",
+        "description": "vivo 输入法日语键盘，实现日语沟通场景的便捷输入。"
+      },
+      {
+        "id": "review-09",
+        "module": "输入法",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "手写输入场景，手写输入响应更快，书写更流畅自然。",
+        "description": "手写输入场景，手写输入响应更快，书写更流畅自然。"
+      },
+      {
+        "id": "review-10",
+        "module": "输入法",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "输入法流畅度，使用更稳定顺滑。",
+        "description": "输入法流畅度，使用更稳定顺滑。"
+      },
+      {
+        "id": "review-11",
+        "module": "智能车载",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "比亚迪部分车型适配智能车载，手机可镜像投屏至车机，实现大屏操控，提升驾驶体验与娱乐便捷性。",
+        "description": "比亚迪部分车型适配智能车载，手机可镜像投屏至车机，实现大屏操控，提升驾驶体验与娱乐便捷性。"
+      },
+      {
+        "id": "review-12",
+        "module": "智能车载",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "高德地图目的地搜索框和回家/去公司快捷导航按钮，一键发起导航，操作更高效。",
+        "description": "高德地图目的地搜索框和回家/去公司快捷导航按钮，一键发起导航，操作更高效。"
+      },
+      {
+        "id": "review-13",
+        "module": "智能车载",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "高德地图巡航模式下直接搜索入口，随时轻松开启导航。",
+        "description": "高德地图巡航模式下直接搜索入口，随时轻松开启导航。"
+      },
+      {
+        "id": "review-14",
+        "module": "智能车载",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "高德地图车道级巡航，优化页面及巡航显示效果，体验更流畅。",
+        "description": "高德地图车道级巡航，优化页面及巡航显示效果，体验更流畅。"
+      },
+      {
+        "id": "review-15",
+        "module": "无障碍通话",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "无障碍通话离线模式，无网络情况下可以将对方语音转为文字，并支持将文字语音播报给对方。",
+        "description": "无障碍通话离线模式，无网络情况下可以将对方语音转为文字，并支持将文字语音播报给对方。"
+      },
+      {
+        "id": "review-16",
+        "module": "续航",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "系统轻量化，优化蓝牙连接和后台应用耗电，提升系统续航能力。",
+        "description": "系统轻量化，优化蓝牙连接和后台应用耗电，提升系统续航能力。"
+      }
+    ],
+    "26": [
+      {
+        "id": "review-01",
+        "module": "电话",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "陌生号码自动通话录音功能，开启后陌生号码来电自动开启通话录音。",
+        "description": "陌生号码自动通话录音功能，开启后陌生号码来电自动开启通话录音。"
+      },
+      {
+        "id": "review-02",
+        "module": "游戏",
+        "moduleSource": "explicit-inline",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "升级低时延引擎为 AI 电竞信号引擎，保障游戏在蜂窝、Wi-Fi 下更稳更流畅。",
+        "description": "升级低时延引擎为 AI 电竞信号引擎，保障游戏在蜂窝、Wi-Fi 下更稳更流畅。"
+      },
+      {
+        "id": "review-03",
+        "module": "原子岛",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "原子岛拖放直达置顶服务“转为 PDF”、“PDF 转换”、“打开文档”、“用 WPS 打开”。",
+        "description": "原子岛拖放直达置顶服务“转为 PDF”、“PDF 转换”、“打开文档”、“用 WPS 打开”。"
+      },
+      {
+        "id": "review-04",
+        "module": "原子岛",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "原子岛“钉钉打卡”胶囊状态，支持自定义设置上下班打卡时间、地点及范围，满足条件即可一键直达钉钉考勤页，高效快捷打卡。",
+        "description": "原子岛“钉钉打卡”胶囊状态，支持自定义设置上下班打卡时间、地点及范围，满足条件即可一键直达钉钉考勤页，高效快捷打卡。"
+      },
+      {
+        "id": "review-05",
+        "module": "流畅",
+        "moduleSource": "inferred",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "系统后台内存管理，提升长时间刷抖音的稳定流畅性。",
+        "description": "系统后台内存管理，提升长时间刷抖音的稳定流畅性。"
+      },
+      {
+        "id": "review-06",
+        "module": "Live Photo",
+        "moduleSource": "explicit-inline",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "优化 Live Photo 回看体验，提升长按和滑动后播放响应速度，并对大图页抠图、原子岛相关逻辑进行优化。",
+        "description": "优化 Live Photo 回看体验，提升长按和滑动后播放响应速度，并对大图页抠图、原子岛相关逻辑进行优化。"
+      },
+      {
+        "id": "review-07",
+        "module": "无障碍",
+        "moduleSource": "explicit-inline",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "优化无障碍模式下的基础使用体验。",
+        "description": "优化无障碍模式下的基础使用体验。"
+      }
+    ],
+    "27": [
+      {
+        "id": "review-01",
+        "module": "小窗",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "快速上滑关闭小窗手势，手势随心选，操作更自由。",
+        "description": "快速上滑关闭小窗手势，手势随心选，操作更自由。"
+      },
+      {
+        "id": "review-02",
+        "module": "原子岛与原子通知",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "录屏场景支持以原子岛与原子通知的形式呈现，操作更直观，记录更高效。",
+        "description": "录屏场景支持以原子岛与原子通知的形式呈现，操作更直观，记录更高效。"
+      },
+      {
+        "id": "review-03",
+        "module": "原子通知",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "滴滴打车原子通知展示效果，新增上车后的行程信息显示。",
+        "description": "滴滴打车原子通知展示效果，新增上车后的行程信息显示。"
+      },
+      {
+        "id": "review-04",
+        "module": "指纹与密码",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "屏下指纹动画样式“星轨”，个性化升级，解锁更有仪式感。",
+        "description": "屏下指纹动画样式“星轨”，个性化升级，解锁更有仪式感。"
+      },
+      {
+        "id": "review-05",
+        "module": "闹钟",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "支持将“睡眠闹钟”设置为“法定工作日”、“节假日及周末”生效。",
+        "description": "支持将“睡眠闹钟”设置为“法定工作日”、“节假日及周末”生效。"
+      },
+      {
+        "id": "review-06",
+        "module": "专注模式",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "支持将定时自动开启设置为“法定工作日”、“节假日及周末”生效。",
+        "description": "支持将定时自动开启设置为“法定工作日”、“节假日及周末”生效。"
+      },
+      {
+        "id": "review-07",
+        "module": "贴纸",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "圆满贴纸支持纯图片展示。",
+        "description": "圆满贴纸支持纯图片展示。"
+      },
+      {
+        "id": "review-08",
+        "module": "蓝心小 V",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "蓝心小 V 接入满血版 DeepSeek-R1，支持深度思考、联网搜索、查看引用链接。",
+        "description": "蓝心小 V 接入满血版 DeepSeek-R1，支持深度思考、联网搜索、查看引用链接。"
+      },
+      {
+        "id": "review-09",
+        "module": "原子笔记",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "AI 生图后支持一键插入原子笔记，创作表达一气呵成。",
+        "description": "AI 生图后支持一键插入原子笔记，创作表达一气呵成。"
+      },
+      {
+        "id": "review-10",
+        "module": "原子笔记",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "原子笔记支持图片、录音转文字，开会上课一台电脑全搞定。",
+        "description": "原子笔记支持图片、录音转文字，开会上课一台电脑全搞定。"
+      },
+      {
+        "id": "review-11",
+        "module": "智能车载",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "应用全屏展示，导航更畅快，观影更沉浸。",
+        "description": "应用全屏展示，导航更畅快，观影更沉浸。"
+      },
+      {
+        "id": "review-12",
+        "module": "智能车载",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "应用单独调节显示大小，根据车机屏幕匹配最佳视觉体验。",
+        "description": "应用单独调节显示大小，根据车机屏幕匹配最佳视觉体验。"
+      }
+    ],
+    "28": [
+      {
+        "id": "review-01",
+        "module": "原子岛",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "美团外卖进度提醒。",
+        "description": "美团外卖进度提醒。"
+      },
+      {
+        "id": "review-02",
+        "module": "原子岛",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "微信地址卡片拖放至原子岛，快捷打开导航。",
+        "description": "微信地址卡片拖放至原子岛，快捷打开导航。"
+      },
+      {
+        "id": "review-03",
+        "module": "原子岛",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "QQ 文件、视频、高清原图拖放至原子岛，快速保存或发送。",
+        "description": "QQ 文件、视频、高清原图拖放至原子岛，快速保存或发送。"
+      },
+      {
+        "id": "review-04",
+        "module": "原子岛",
+        "moduleSource": "explicit-heading",
+        "type": "未标注",
+        "typeSource": "inferred",
+        "sourceText": "拖放直达新增更多通用服务。",
+        "description": "拖放直达新增更多通用服务。"
+      },
+      {
+        "id": "review-05",
+        "module": "原子通知",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "原子通知新增美团、抖音快递，实时追踪状态，不错过外卖快递重要通知。",
+        "description": "原子通知新增美团、抖音快递，实时追踪状态，不错过外卖快递重要通知。"
+      },
+      {
+        "id": "review-06",
+        "module": "设备动作与方向权限",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "访问设备动作与方向权限新增“仅开屏时禁止”选项，可针对开屏场景设置禁止跳转，更有效地管控摇一摇广告。",
+        "description": "访问设备动作与方向权限新增“仅开屏时禁止”选项，可针对开屏场景设置禁止跳转，更有效地管控摇一摇广告。"
+      },
+      {
+        "id": "review-07",
+        "module": "状态栏",
+        "moduleSource": "explicit-inline",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "状态栏整体图标，左侧通知图标与通知中心通知图标一致性优化，右侧状态图标 UI 优化，视觉更精致美观。",
+        "description": "状态栏整体图标，左侧通知图标与通知中心通知图标一致性优化，右侧状态图标 UI 优化，视觉更精致美观。"
+      },
+      {
+        "id": "review-08",
+        "module": "录屏通知",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "录屏通知支持勿扰状态时静音，录屏过程中，开启录制勿扰后，通知提示音和振动将静默。",
+        "description": "录屏通知支持勿扰状态时静音，录屏过程中，开启录制勿扰后，通知提示音和振动将静默。"
+      },
+      {
+        "id": "review-09",
+        "module": "熄屏通知",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "熄屏通知支持显示更多应用，轻松实现熄屏通知的自定义设置，让重要信息一目了然。",
+        "description": "熄屏通知支持显示更多应用，轻松实现熄屏通知的自定义设置，让重要信息一目了然。"
+      },
+      {
+        "id": "review-10",
+        "module": "游戏",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "游戏登录时，支持小窗快捷打开，开启小窗跳转后，游戏登录无需退出应用，小窗内即可操作。",
+        "description": "游戏登录时，支持小窗快捷打开，开启小窗跳转后，游戏登录无需退出应用，小窗内即可操作。"
+      },
+      {
+        "id": "review-11",
+        "module": "互传",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "互传支持与 iPhone 传输动态照片，轻松连接跨生态设备，与亲友分享动感瞬间。",
+        "description": "互传支持与 iPhone 传输动态照片，轻松连接跨生态设备，与亲友分享动感瞬间。"
+      },
+      {
+        "id": "review-12",
+        "module": "锁屏",
+        "moduleSource": "explicit-inline",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "锁屏密码界面动画，锁屏页面上滑拉起密码键盘时，增加交互动画，解锁过程更自然舒适。",
+        "description": "锁屏密码界面动画，锁屏页面上滑拉起密码键盘时，增加交互动画，解锁过程更自然舒适。"
+      },
+      {
+        "id": "review-13",
+        "module": "锁屏",
+        "moduleSource": "explicit-inline",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "锁屏时间、小组件透彩色，在部分壁纸下更显通透，视觉更清爽。",
+        "description": "锁屏时间、小组件透彩色，在部分壁纸下更显通透，视觉更清爽。"
+      },
+      {
+        "id": "review-14",
+        "module": "vivo 健康",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "vivo 健康支持经期数据同步，经期数据可与 vivo 账号绑定，换设备也能同步。",
+        "description": "vivo 健康支持经期数据同步，经期数据可与 vivo 账号绑定，换设备也能同步。"
+      },
+      {
+        "id": "review-15",
+        "module": "小窗",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "小窗新增简洁模式，支持将小窗控制按钮收纳至顶部横条，界面更清爽，可在“设置”＞“快捷与辅助”＞“小窗”中选择小窗样式。",
+        "description": "小窗新增简洁模式，支持将小窗控制按钮收纳至顶部横条，界面更清爽，可在“设置”＞“快捷与辅助”＞“小窗”中选择小窗样式。"
+      },
+      {
+        "id": "review-16",
+        "module": "轻尚锁屏",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "轻尚锁屏支持指纹图标自定义，支持将文字、字符和部分表情符号设为指纹图标，提升个性化体验。",
+        "description": "轻尚锁屏支持指纹图标自定义，支持将文字、字符和部分表情符号设为指纹图标，提升个性化体验。"
+      },
+      {
+        "id": "review-17",
+        "module": "蓝心小 V",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "蓝心小 V 新增订咖啡智能体，一句话指定咖啡名和规格，自动帮你下单。",
+        "description": "蓝心小 V 新增订咖啡智能体，一句话指定咖啡名和规格，自动帮你下单。"
+      },
+      {
+        "id": "review-18",
+        "module": "原子组件",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "原子组件支持拖至负一屏，桌面与负一屏组件自由互拖，组件摆放更灵活。",
+        "description": "原子组件支持拖至负一屏，桌面与负一屏组件自由互拖，组件摆放更灵活。"
+      }
+    ],
+    "29": [
+      {
+        "id": "review-01",
+        "module": "原子岛",
+        "moduleSource": "explicit-heading",
+        "type": "未标注",
+        "typeSource": "inferred",
+        "sourceText": "原子岛收起后可再次呼出，从原子岛胶囊左、右两侧向中间滑动可收起原子岛，从状态栏中间向左、右两侧滑动可重新呼出原子岛。",
+        "description": "原子岛收起后可再次呼出，从原子岛胶囊左、右两侧向中间滑动可收起原子岛，从状态栏中间向左、右两侧滑动可重新呼出原子岛。"
+      },
+      {
+        "id": "review-02",
+        "module": "原子岛",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "拖放直达的交互体验，拖放时展开原子岛卡片更快速便捷。",
+        "description": "拖放直达的交互体验，拖放时展开原子岛卡片更快速便捷。"
+      },
+      {
+        "id": "review-03",
+        "module": "原子岛",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "图标、按钮等设计样式，UI 效果更精致。",
+        "description": "图标、按钮等设计样式，UI 效果更精致。"
+      },
+      {
+        "id": "review-04",
+        "module": "桌面主题",
+        "moduleSource": "explicit-inline",
+        "type": "适配",
+        "typeSource": "explicit",
+        "sourceText": "第三方主题适配无字模式，使用第三方主题时，可不显示应用名称，桌面更简洁美观。",
+        "description": "第三方主题适配无字模式，使用第三方主题时，可不显示应用名称，桌面更简洁美观。"
+      },
+      {
+        "id": "review-05",
+        "module": "计算器",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "调取历史算式，轻松查看并可重新调用之前的算式与结果，提升计算效率，避免重复输入。",
+        "description": "调取历史算式，轻松查看并可重新调用之前的算式与结果，提升计算效率，避免重复输入。"
+      },
+      {
+        "id": "review-06",
+        "module": "计算器",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "计算页面算式常驻，计算结果和输入的算式始终可见，便于随时查看和调整。",
+        "description": "计算页面算式常驻，计算结果和输入的算式始终可见，便于随时查看和调整。"
+      },
+      {
+        "id": "review-07",
+        "module": "计算器",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "算式滑动交互体验，算式超出一屏时，可以直接滑动算式，快速浏览算式全貌。",
+        "description": "算式滑动交互体验，算式超出一屏时，可以直接滑动算式，快速浏览算式全貌。"
+      },
+      {
+        "id": "review-08",
+        "module": "计算器",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "MR 键调取存储数据上屏逻辑，算式以数字或符号结尾，均可调取存储数据。",
+        "description": "MR 键调取存储数据上屏逻辑，算式以数字或符号结尾，均可调取存储数据。"
+      },
+      {
+        "id": "review-09",
+        "module": "状态栏",
+        "moduleSource": "explicit-inline",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "状态栏 HD 图标，HD 图标仅在控制中心下沉状态栏显示，状态栏更简洁。",
+        "description": "状态栏 HD 图标，HD 图标仅在控制中心下沉状态栏显示，状态栏更简洁。"
+      },
+      {
+        "id": "review-10",
+        "module": "桌面",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "桌面下滑选项“通知中心/控制中心”，支持桌面左侧下滑通知中心，右侧下滑控制中心，单手操作更便捷。",
+        "description": "桌面下滑选项“通知中心/控制中心”，支持桌面左侧下滑通知中心，右侧下滑控制中心，单手操作更便捷。"
+      },
+      {
+        "id": "review-11",
+        "module": "设备传感器权限",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "设备传感器权限管控功能，可自主选择是否允许应用访问设备传感器权限，有效管控“摇一摇”广告跳转。",
+        "description": "设备传感器权限管控功能，可自主选择是否允许应用访问设备传感器权限，有效管控“摇一摇”广告跳转。"
+      },
+      {
+        "id": "review-12",
+        "module": "状态栏",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "单击状态栏置顶功能，部分应用场景中，单击顶部状态栏即可快速回到应用的页面顶部。",
+        "description": "单击状态栏置顶功能，部分应用场景中，单击顶部状态栏即可快速回到应用的页面顶部。"
+      },
+      {
+        "id": "review-13",
+        "module": "云服务",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "云服务支持微信云备份，聊天记录轻松备份。",
+        "description": "云服务支持微信云备份，聊天记录轻松备份。"
+      },
+      {
+        "id": "review-14",
+        "module": "待办",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "新增 4×4、4×2 两种不同尺寸的待办组件，轻松管理查看待办。",
+        "description": "新增 4×4、4×2 两种不同尺寸的待办组件，轻松管理查看待办。"
+      },
+      {
+        "id": "review-15",
+        "module": "锁屏密码",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "锁屏密码支持 96 小时内通过旧密码重置，修改锁屏密码后的 96 小时内，若忘记新的锁屏密码，在旧密码未失效的情况下，可通过旧密码重置锁屏密码并解锁手机。",
+        "description": "锁屏密码支持 96 小时内通过旧密码重置，修改锁屏密码后的 96 小时内，若忘记新的锁屏密码，在旧密码未失效的情况下，可通过旧密码重置锁屏密码并解锁手机。"
+      },
+      {
+        "id": "review-16",
+        "module": "课程表",
+        "moduleSource": "explicit-inline",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "全新课程表支持拍照导入课程表，无需手动输入，体验更便捷，同时支持新建与切换多个课程表。",
+        "description": "全新课程表支持拍照导入课程表，无需手动输入，体验更便捷，同时支持新建与切换多个课程表。"
+      },
+      {
+        "id": "review-17",
+        "module": "系统界面",
+        "moduleSource": "explicit-inline",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "侧边栏、音量面板、设置标题栏等，提升材质通透质感。",
+        "description": "侧边栏、音量面板、设置标题栏等，提升材质通透质感。"
+      }
+    ]
+  }
+}

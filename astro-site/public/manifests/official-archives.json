@@ -1,0 +1,13 @@
+{
+  "release": "v2026-07-30",
+  "baseUrl": "https://official.osarchive.com/v2026-07-30",
+  "sourceDate": "2026-07-30",
+  "files": 382,
+  "videos": 119,
+  "entryPages": 6,
+  "bytes": 1188422422,
+  "versions": {
+    "15": { "folder": "coloros15", "entries": ["index.html", "pad.html", "mobile.html"] },
+    "16": { "folder": "coloros16", "entries": ["index.html", "pad.html", "mobile.html"] }
+  }
+}

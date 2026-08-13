@@ -1,0 +1,86 @@
+---
+import { assetPath } from '../lib/archive';
+import type { MonthlyDigest } from '../lib/monthly-digests';
+
+interface Props { digest: MonthlyDigest }
+const { digest } = Astro.props;
+const data = digest.data;
+const typeClass = (type: string) => `digest-type digest-type-${type === '未标注' ? 'unknown' : type}`;
+---
+<section class="monthly-digest" data-monthly-digest aria-labelledby="digest-heading">
+  <header class="digest-intro">
+    <p class="eyebrow">文字精简版</p>
+    <h2 id="digest-heading">本月更新一览</h2>
+    <p>聚焦功能变化与体验升级。手机和平板可在表格内横向滑动。</p>
+  </header>
+
+  <section class="digest-section" aria-labelledby="highlight-heading">
+    <div class="digest-section-heading">
+      <div><span>01</span><h3 id="highlight-heading">更新亮点</h3></div>
+      <p>{data.highlights.length} 项重点功能</p>
+    </div>
+    <div class="digest-table-scroll" tabindex="0" role="region" aria-label="更新亮点表格，可左右滑动" data-digest-scroll>
+      <table class="digest-table digest-highlight-table">
+        <colgroup><col /><col /><col /><col /></colgroup>
+        <thead><tr><th scope="col">模块</th><th scope="col">更新亮点</th><th scope="col">功能描述</th><th scope="col">图片/视频演示</th></tr></thead>
+        <tbody>
+          {data.highlights.map((item) => (
+            <tr>
+              <th scope="row" class="digest-module">{item.module}</th>
+              <td class="digest-title">{item.title}</td>
+              <td>{item.description}</td>
+              <td class="digest-media-cell">
+                {item.media.length ? (
+                  <div class="digest-media-list">
+                    {item.media.map((media, index) => (
+                      <button class="digest-media-button" type="button" data-digest-media data-media-index={index} data-kind={media.kind} data-src={assetPath(media.src)} data-poster={media.poster ? assetPath(media.poster) : undefined} data-alt={media.alt} aria-label={`查看${item.title}演示 ${index + 1}/${item.media.length}`}>
+                        <picture>
+                          {media.avifThumbnail && <source srcset={assetPath(media.avifThumbnail)} type="image/avif" />}
+                          <img src={assetPath(media.thumbnail)} alt="" width={media.width} height={media.height} loading="lazy" decoding="async" />
+                        </picture>
+                        {media.kind === 'video' && <span aria-hidden="true">▶</span>}
+                        {media.kind === 'animated-image' && <span aria-hidden="true">GIF</span>}
+                      </button>
+                    ))}
+                  </div>
+                ) : <span class="digest-media-empty">原档案未提供演示</span>}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="digest-section" aria-labelledby="updates-heading">
+    <div class="digest-section-heading">
+      <div><span>02</span><h3 id="updates-heading">其他更新点</h3></div>
+      <p>{data.updates.length} 项体验变化</p>
+    </div>
+    <div class="digest-table-scroll" tabindex="0" role="region" aria-label="其他更新点表格，可左右滑动" data-digest-scroll>
+      <table class="digest-table digest-update-table">
+        <colgroup><col /><col /><col /></colgroup>
+        <thead><tr><th scope="col">模块</th><th scope="col">更新类型</th><th scope="col">更新说明</th></tr></thead>
+        <tbody>
+          {data.updates.map((item) => (
+            <tr>
+              <th scope="row" class="digest-module">{item.module}</th>
+              <td class="digest-type-cell"><span class={typeClass(item.type)}>{item.type}</span></td>
+              <td>{item.description}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+</section>
+
+<dialog class="digest-lightbox" data-digest-lightbox aria-label="功能演示预览">
+  <div class="digest-lightbox-bar"><p data-lightbox-caption></p><button type="button" data-lightbox-close aria-label="关闭预览">×</button></div>
+  <div class="digest-lightbox-stage" data-lightbox-stage></div>
+  <div class="digest-lightbox-nav" data-lightbox-nav hidden>
+    <button type="button" data-lightbox-prev aria-label="上一张演示">←</button>
+    <span data-lightbox-count></span>
+    <button type="button" data-lightbox-next aria-label="下一张演示">→</button>
+  </div>
+</dialog>

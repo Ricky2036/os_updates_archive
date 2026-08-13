@@ -1,0 +1,4648 @@
+{
+  "schemaVersion": 3,
+  "contentReviewVersion": 4,
+  "mediaReviewVersion": 4,
+  "articleId": "ColorOS_十二月体验升级一览",
+  "reviewStatus": "verified",
+  "sourceHash": "44524ac8d891add57d97b83f5192f83422a59ab16cf26a7f839519c0980e35a0",
+  "highlights": [
+    {
+      "id": "highlight-01",
+      "module": "互联",
+      "moduleSource": "explicit-heading",
+      "title": "一碰互传",
+      "description": "支持便捷的跨设备内容传输。",
+      "mediaStatus": "not-provided",
+      "evidenceIds": [
+        "highlight-01-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-01"
+      ],
+      "media": []
+    },
+    {
+      "id": "highlight-02",
+      "module": "相册",
+      "moduleSource": "explicit-heading",
+      "title": "水印大师",
+      "description": "相册水印能力升级，提供更丰富的水印体验。",
+      "mediaStatus": "not-provided",
+      "evidenceIds": [
+        "highlight-02-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-02"
+      ],
+      "media": []
+    },
+    {
+      "id": "highlight-03",
+      "module": "相册",
+      "moduleSource": "explicit-heading",
+      "title": "相册体验升级",
+      "description": "相册浏览、整理与编辑能力进一步优化。",
+      "mediaStatus": "not-provided",
+      "evidenceIds": [
+        "highlight-03-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-03"
+      ],
+      "media": []
+    },
+    {
+      "id": "highlight-04",
+      "module": "天气",
+      "moduleSource": "explicit-heading",
+      "title": "天气体验升级",
+      "description": "天气信息展示与服务体验进一步优化。",
+      "mediaStatus": "not-provided",
+      "evidenceIds": [
+        "highlight-04-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-04"
+      ],
+      "media": []
+    }
+  ],
+  "updates": [
+    {
+      "id": "update-01",
+      "module": "相机",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "照片模式、人像模式新增三种胶片风格滤镜（清新、复古、通透），提供更轻松的创作体验。",
+      "description": "照片模式、人像模式新增三种胶片风格滤镜（清新、复古、通透），提供更轻松的创作体验。",
+      "evidenceIds": [
+        "update-01-source"
+      ],
+      "sourceItemIds": [
+        "source-update-01"
+      ]
+    },
+    {
+      "id": "update-02",
+      "module": "手机搬家",
+      "moduleSource": "explicit-inline",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "手机搬家支持 iOS 实况照片迁移。",
+      "description": "手机搬家支持 iOS 实况照片迁移。",
+      "evidenceIds": [
+        "update-02-source"
+      ],
+      "sourceItemIds": [
+        "source-update-02"
+      ]
+    },
+    {
+      "id": "update-03",
+      "module": "流体云",
+      "moduleSource": "explicit-inline",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "充电信息、手电筒支持在流体云显示。",
+      "description": "充电信息、手电筒支持在流体云显示。",
+      "evidenceIds": [
+        "update-03-source"
+      ],
+      "sourceItemIds": [
+        "source-update-03"
+      ]
+    },
+    {
+      "id": "update-04",
+      "module": "特殊应用权限",
+      "moduleSource": "explicit-inline",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "特殊应用权限，新增“全部不允许”选项，可一键关闭对所有应用的授权。",
+      "description": "特殊应用权限，新增“全部不允许”选项，可一键关闭对所有应用的授权。",
+      "evidenceIds": [
+        "update-04-source"
+      ],
+      "sourceItemIds": [
+        "source-update-04"
+      ]
+    },
+    {
+      "id": "update-05",
+      "module": "相册",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "相册在拖动侧边滑块时，同步显示日期，提升照片查找效率。",
+      "description": "相册在拖动侧边滑块时，同步显示日期，提升照片查找效率。",
+      "evidenceIds": [
+        "update-05-source"
+      ],
+      "sourceItemIds": [
+        "source-update-05"
+      ]
+    },
+    {
+      "id": "update-06",
+      "module": "相册",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "相册视图筛选功能，可按“照片”、“收藏”进行筛选，方便查看和整理相册。",
+      "description": "相册视图筛选功能，可按“照片”、“收藏”进行筛选，方便查看和整理相册。",
+      "evidenceIds": [
+        "update-06-source"
+      ],
+      "sourceItemIds": [
+        "source-update-06"
+      ]
+    },
+    {
+      "id": "update-07",
+      "module": "相册",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "支持将相册整个图集加密，高效管理私密图片和视频。",
+      "description": "支持将相册整个图集加密，高效管理私密图片和视频。",
+      "evidenceIds": [
+        "update-07-source"
+      ],
+      "sourceItemIds": [
+        "source-update-07"
+      ]
+    },
+    {
+      "id": "update-08",
+      "module": "天气",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "支持天气 15 日天气的降雨概率。",
+      "description": "支持天气 15 日天气的降雨概率。",
+      "evidenceIds": [
+        "update-08-source"
+      ],
+      "sourceItemIds": [
+        "source-update-08"
+      ]
+    },
+    {
+      "id": "update-09",
+      "module": "天气",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "天气空气质量城市排行信息。",
+      "description": "天气空气质量城市排行信息。",
+      "evidenceIds": [
+        "update-09-source"
+      ],
+      "sourceItemIds": [
+        "source-update-09"
+      ]
+    },
+    {
+      "id": "update-10",
+      "module": "天气",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "天气桌面卡片，样式更精美，布局更合理。",
+      "description": "天气桌面卡片，样式更精美，布局更合理。",
+      "evidenceIds": [
+        "update-10-source"
+      ],
+      "sourceItemIds": [
+        "source-update-10"
+      ]
+    },
+    {
+      "id": "update-11",
+      "module": "日历",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "日历生日、倒数日、纪念日桌面卡片。",
+      "description": "日历生日、倒数日、纪念日桌面卡片。",
+      "evidenceIds": [
+        "update-11-source"
+      ],
+      "sourceItemIds": [
+        "source-update-11"
+      ]
+    },
+    {
+      "id": "update-12",
+      "module": "小布指令",
+      "moduleSource": "explicit-inline",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "小布指令支持将一键指令添加至桌面，操作更便捷。",
+      "description": "小布指令支持将一键指令添加至桌面，操作更便捷。",
+      "evidenceIds": [
+        "update-12-source"
+      ],
+      "sourceItemIds": [
+        "source-update-12"
+      ]
+    },
+    {
+      "id": "update-13",
+      "module": "文件管理",
+      "moduleSource": "explicit-inline",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "文件管理“文件推荐”服务，方便快速直达最近文件。",
+      "description": "文件管理“文件推荐”服务，方便快速直达最近文件。",
+      "evidenceIds": [
+        "update-13-source"
+      ],
+      "sourceItemIds": [
+        "source-update-13"
+      ]
+    },
+    {
+      "id": "update-14",
+      "module": "手机管家",
+      "moduleSource": "explicit-inline",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "手机管家常用工具中新增“安全守护”入口。",
+      "description": "手机管家常用工具中新增“安全守护”入口。",
+      "evidenceIds": [
+        "update-14-source"
+      ],
+      "sourceItemIds": [
+        "source-update-14"
+      ]
+    },
+    {
+      "id": "update-15",
+      "module": "帮助与反馈",
+      "moduleSource": "explicit-inline",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "帮助与反馈的搜索功能，搜索更精准。",
+      "description": "帮助与反馈的搜索功能，搜索更精准。",
+      "evidenceIds": [
+        "update-15-source"
+      ],
+      "sourceItemIds": [
+        "source-update-15"
+      ]
+    }
+  ],
+  "sourceItems": [
+    {
+      "id": "source-highlight-01",
+      "classification": "highlight",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0012",
+        "tesseract-0013",
+        "tesseract-0014",
+        "tesseract-0015",
+        "tesseract-0016"
+      ],
+      "text": "一碰互传 支持便捷的跨设备内容传输。",
+      "targetIds": [
+        "highlight-01"
+      ]
+    },
+    {
+      "id": "source-highlight-02",
+      "classification": "highlight",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0035",
+        "tesseract-0036",
+        "tesseract-0037",
+        "tesseract-0038",
+        "tesseract-0039"
+      ],
+      "text": "水印大师 相册水印能力升级，提供更丰富的水印体验。",
+      "targetIds": [
+        "highlight-02"
+      ]
+    },
+    {
+      "id": "source-highlight-03",
+      "classification": "highlight",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0097",
+        "tesseract-0098",
+        "tesseract-0099",
+        "tesseract-0100",
+        "tesseract-0101"
+      ],
+      "text": "相册体验升级 相册浏览、整理与编辑能力进一步优化。",
+      "targetIds": [
+        "highlight-03"
+      ]
+    },
+    {
+      "id": "source-highlight-04",
+      "classification": "highlight",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0003"
+      ],
+      "text": "天气体验升级 天气信息展示与服务体验进一步优化。",
+      "targetIds": [
+        "highlight-04"
+      ]
+    },
+    {
+      "id": "source-update-01",
+      "classification": "update",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0058",
+        "tesseract-0059"
+      ],
+      "text": "照片模式、人像模式新增三种胶片风格滤镜（清新、复古、通透），提供更轻松的创作体验。",
+      "correctedText": "照片模式、人像模式新增三种胶片风格滤镜（清新、复古、通透），提供更轻松的创作体验。",
+      "targetIds": [
+        "update-01"
+      ]
+    },
+    {
+      "id": "source-update-02",
+      "classification": "update",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0061",
+        "tesseract-0062"
+      ],
+      "text": "手机搬家支持 iOS 实况照片迁移。",
+      "correctedText": "手机搬家支持 iOS 实况照片迁移。",
+      "targetIds": [
+        "update-02"
+      ]
+    },
+    {
+      "id": "source-update-03",
+      "classification": "update",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0062",
+        "tesseract-0066"
+      ],
+      "text": "充电信息、手电筒支持在流体云显示。",
+      "correctedText": "充电信息、手电筒支持在流体云显示。",
+      "targetIds": [
+        "update-03"
+      ]
+    },
+    {
+      "id": "source-update-04",
+      "classification": "update",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0068",
+        "tesseract-0070"
+      ],
+      "text": "特殊应用权限，新增“全部不允许”选项，可一键关闭对所有应用的授权。",
+      "correctedText": "特殊应用权限，新增“全部不允许”选项，可一键关闭对所有应用的授权。",
+      "targetIds": [
+        "update-04"
+      ]
+    },
+    {
+      "id": "source-update-05",
+      "classification": "update",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0098",
+        "tesseract-0099"
+      ],
+      "text": "相册在拖动侧边滑块时，同步显示日期，提升照片查找效率。",
+      "correctedText": "相册在拖动侧边滑块时，同步显示日期，提升照片查找效率。",
+      "targetIds": [
+        "update-05"
+      ]
+    },
+    {
+      "id": "source-update-06",
+      "classification": "update",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0102",
+        "tesseract-0103",
+        "tesseract-0106",
+        "tesseract-0109",
+        "tesseract-0107"
+      ],
+      "text": "相册视图筛选功能，可按“照片”、“收藏”进行筛选，方便查看和整理相册。",
+      "correctedText": "相册视图筛选功能，可按“照片”、“收藏”进行筛选，方便查看和整理相册。",
+      "targetIds": [
+        "update-06"
+      ]
+    },
+    {
+      "id": "source-update-07",
+      "classification": "update",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0103",
+        "tesseract-0106",
+        "tesseract-0109",
+        "tesseract-0107",
+        "tesseract-0113"
+      ],
+      "text": "支持将相册整个图集加密，高效管理私密图片和视频。",
+      "correctedText": "支持将相册整个图集加密，高效管理私密图片和视频。",
+      "targetIds": [
+        "update-07"
+      ]
+    },
+    {
+      "id": "source-update-08",
+      "classification": "update",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0109",
+        "tesseract-0107"
+      ],
+      "text": "支持天气 15 日天气的降雨概率。",
+      "correctedText": "支持天气 15 日天气的降雨概率。",
+      "targetIds": [
+        "update-08"
+      ]
+    },
+    {
+      "id": "source-update-09",
+      "classification": "update",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0106",
+        "tesseract-0109",
+        "tesseract-0107",
+        "tesseract-0113",
+        "tesseract-0114"
+      ],
+      "text": "天气空气质量城市排行信息。",
+      "correctedText": "天气空气质量城市排行信息。",
+      "targetIds": [
+        "update-09"
+      ]
+    },
+    {
+      "id": "source-update-10",
+      "classification": "update",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0113",
+        "tesseract-0114"
+      ],
+      "text": "天气桌面卡片，样式更精美，布局更合理。",
+      "correctedText": "天气桌面卡片，样式更精美，布局更合理。",
+      "targetIds": [
+        "update-10"
+      ]
+    },
+    {
+      "id": "source-update-11",
+      "classification": "update",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0115",
+        "tesseract-0117",
+        "tesseract-0118",
+        "tesseract-0120",
+        "tesseract-0121"
+      ],
+      "text": "日历生日、倒数日、纪念日桌面卡片。",
+      "correctedText": "日历生日、倒数日、纪念日桌面卡片。",
+      "targetIds": [
+        "update-11"
+      ]
+    },
+    {
+      "id": "source-update-12",
+      "classification": "update",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0117",
+        "tesseract-0118"
+      ],
+      "text": "小布指令支持将一键指令添加至桌面，操作更便捷。",
+      "correctedText": "小布指令支持将一键指令添加至桌面，操作更便捷。",
+      "targetIds": [
+        "update-12"
+      ]
+    },
+    {
+      "id": "source-update-13",
+      "classification": "update",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0118",
+        "tesseract-0120"
+      ],
+      "text": "文件管理“文件推荐”服务，方便快速直达最近文件。",
+      "correctedText": "文件管理“文件推荐”服务，方便快速直达最近文件。",
+      "targetIds": [
+        "update-13"
+      ]
+    },
+    {
+      "id": "source-update-14",
+      "classification": "update",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0120",
+        "tesseract-0121"
+      ],
+      "text": "手机管家常用工具中新增“安全守护”入口。",
+      "correctedText": "手机管家常用工具中新增“安全守护”入口。",
+      "targetIds": [
+        "update-14"
+      ]
+    },
+    {
+      "id": "source-update-15",
+      "classification": "update",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0121",
+        "tesseract-0122"
+      ],
+      "text": "帮助与反馈的搜索功能，搜索更精准。",
+      "correctedText": "帮助与反馈的搜索功能，搜索更精准。",
+      "targetIds": [
+        "update-15"
+      ]
+    },
+    {
+      "id": "source-excluded-020",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0001"
+      ],
+      "text": "Oppo",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-021",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0002"
+      ],
+      "text": "ColorOS",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-022",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0004"
+      ],
+      "text": "2024， 感 恩 有 你 一 路 同行",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-023",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0005"
+      ],
+      "text": "ColorOS 的 每 一 步 成 长 离 不 开 大 家 的 陪伴 与 支持",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-024",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0006"
+      ],
+      "text": "做 好 的 体验 ， 让 更 多 人 更 快 用 到",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-025",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0007"
+      ],
+      "text": "这 是 ColorOS 始终 不 变 的 坚持",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-026",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0008"
+      ],
+      "text": "从 听 到 ， 到 做 到",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-027",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0009"
+      ],
+      "text": "让 进步 持续 ， 让 改变 可 见",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-028",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0010"
+      ],
+      "text": "2025， 让 我 们 一 起 创造 更 好 的 ColorOS",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-029",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0011"
+      ],
+      "text": "第 一 批 功 能 升级",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-030",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0017"
+      ],
+      "text": "下 列 机 型 已 于 12 月 3 日 开始 陆续 推送 ，12 月 31 日 前",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-031",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0018"
+      ],
+      "text": "完成 推送 ， 分 批 履 盖 ColorOs 15 HP:",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-032",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0020"
+      ],
+      "text": "一 加 15",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-033",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0019"
+      ],
+      "text": "OPPO Find X8 Pro",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-034",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0021"
+      ],
+      "text": "OPPO Find X8",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-035",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0022"
+      ],
+      "text": "下 列 机 型 将 于 1 月 开始 陆续 推送 ，",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-036",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0023"
+      ],
+      "text": "分 批 覆 盖 ColorOS 15",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-037",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0024"
+      ],
+      "text": "FAP:",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-038",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0026"
+      ],
+      "text": "一 加 12",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-039",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0025"
+      ],
+      "text": "OPPO Find N3",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-040",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0028"
+      ],
+      "text": "一 加 Ace 3 Pro",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-041",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0027"
+      ],
+      "text": "OPPO Find N3 Flip",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-042",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0030"
+      ],
+      "text": "一 加 Ace 3",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-043",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0029"
+      ],
+      "text": "OPPO Find X7 Ultra 卫星 通信 版",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-044",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0032"
+      ],
+      "text": "一 加 Ace 3V",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-045",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0031"
+      ],
+      "text": "OPPO Find X7 Ultra",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-046",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0033"
+      ],
+      "text": "OPPO Find X7",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-047",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0034"
+      ],
+      "text": "更 多 其 他 机 型 升级 计划 后 续 将 会 陆续 推出 ， 请 持续 关注",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-048",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0041"
+      ],
+      "text": "一 加 15",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-049",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0040"
+      ],
+      "text": "OPPO Find X8 Pro",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-050",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0043"
+      ],
+      "text": "一 加 12",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-051",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0042"
+      ],
+      "text": "OPPO Find X8",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-052",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0044"
+      ],
+      "text": "OPPO Find X7 Ultra 卫星 通信 版",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-053",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0045"
+      ],
+      "text": "OPPO Find X7 Ultra",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-054",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0046"
+      ],
+      "text": "OPPO Find X7",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-055",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0047"
+      ],
+      "text": "下 列 机 型 将 于 1 月 开始 陆续 推送 ， 分 批 覆盖 ColorOS 15",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-056",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0048"
+      ],
+      "text": "FAP:",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-057",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0050"
+      ],
+      "text": "一 加 Ace 3 Pro",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-058",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0049"
+      ],
+      "text": "OPPO Find N3",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-059",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0052"
+      ],
+      "text": "一 加 Ace 3",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-060",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0051"
+      ],
+      "text": "OPPO Find N3 Flip",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-061",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0054"
+      ],
+      "text": "一 加 Ace 3V",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-062",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0053"
+      ],
+      "text": "OPPO Reno12 Pro",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-063",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0055"
+      ],
+      "text": "OPPO Reno12",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-064",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0056"
+      ],
+      "text": "其 他 更 多 机 型 适 配 计 划 后 续 将 分 批 公布 ， 敬 请 期 竺",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-065",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0057"
+      ],
+      "text": "更 多 好 用 功能",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-066",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0060"
+      ],
+      "text": "提供 更 轻松 的 创作 体验",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-067",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0065"
+      ],
+      "text": "Wea Se",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-068",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0063"
+      ],
+      "text": "新 增 支 持 拖 搜",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-069",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0064"
+      ],
+      "text": "AI Sex",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-070",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0067"
+      ],
+      "text": "屏 显示",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-071",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0069"
+      ],
+      "text": "关闭 对 所 有 应 用 的 授权",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-072",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0071"
+      ],
+      "text": "下 列 机 型 已 于 12 月 15 日 开始 陆续 推送 ，1 月 26 日",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-073",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0072"
+      ],
+      "text": "前 完成 推送 ， 分 批 覆 盖 ColorOS 15 AP:",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-074",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0074"
+      ],
+      "text": "一 加 15",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-075",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0073"
+      ],
+      "text": "OPPO Find X8 Pro",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-076",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0076"
+      ],
+      "text": "一 加 12",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-077",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0075"
+      ],
+      "text": "OPPO Find X8",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-078",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0078"
+      ],
+      "text": "一 加 11",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-079",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0077"
+      ],
+      "text": "OPPO Find N3",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-080",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0080"
+      ],
+      "text": "一 加 Ace 3 Pro",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-081",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0079"
+      ],
+      "text": "OPPO Find N3 Flip",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-082",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0082"
+      ],
+      "text": "一 加 Ace 3",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-083",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0081"
+      ],
+      "text": "OPPO Find X7 Ultra 卫星 通信 版",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-084",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0084"
+      ],
+      "text": "一 加 Ace 3V",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-085",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0083"
+      ],
+      "text": "OPPO Find X7 Ultra",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-086",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0086"
+      ],
+      "text": "一 加 Ace 2 Pro",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-087",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0085"
+      ],
+      "text": "OPPO Find X7",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-088",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0088"
+      ],
+      "text": "一 加 Ace 2",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-089",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0087"
+      ],
+      "text": "OPPO Find X6 Pro",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-090",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0089"
+      ],
+      "text": "OPPO Find X6",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-091",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0090"
+      ],
+      "text": "OPPO Reno13 Pro",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-092",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0091"
+      ],
+      "text": "OPPO Reno13",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-093",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0092"
+      ],
+      "text": "OPPO Reno12 Pro",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-094",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0093"
+      ],
+      "text": "OPPO Reno12",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-095",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0094"
+      ],
+      "text": "OPPO Reno11 Pro",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-096",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0095"
+      ],
+      "text": "OPPO Reno11",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-097",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0096"
+      ],
+      "text": "第 二 批 功 能 升级",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-098",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0104"
+      ],
+      "text": "高 效 管 理 私密 图 片 和",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-099",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0105"
+      ],
+      "text": "视频",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-100",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0108"
+      ],
+      "text": "—",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-101",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0110"
+      ],
+      "text": "新 增 天",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-102",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0112"
+      ],
+      "text": "质量 城市 排行 信息",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-103",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0111"
+      ],
+      "text": "a ee",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-104",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0116"
+      ],
+      "text": "日 桌面 卡片",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-105",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0119"
+      ],
+      "text": "文件",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-106",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0123"
+      ],
+      "text": "升级 计划",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-107",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0124"
+      ],
+      "text": "下 列 机 型 已 于 12 月 2 日 开始 陆续 推送 ，1 月 26 日 前",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-108",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0125"
+      ],
+      "text": "完成 推送 ， 分 批 履 盖 ColorOs 15 HP:",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-109",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0127"
+      ],
+      "text": "一 加 15",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-110",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0126"
+      ],
+      "text": "OPPO Find X8 Pro",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-111",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0129"
+      ],
+      "text": "一 加 12",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-112",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0128"
+      ],
+      "text": "OPPO Find X8",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-113",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0131"
+      ],
+      "text": "一 加 11",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-114",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0130"
+      ],
+      "text": "OPPO Find N3",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-115",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0133"
+      ],
+      "text": "一 加 Ace 3 Pro",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-116",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0132"
+      ],
+      "text": "OPPO Find N3 Flip",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-117",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0135"
+      ],
+      "text": "一 加 Ace 3",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-118",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0134"
+      ],
+      "text": "OPPO Find X7 Ultra 卫星 通信 版",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-119",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0137"
+      ],
+      "text": "一 加 Ace 3V",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-120",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0136"
+      ],
+      "text": "OPPO Find X7 Ultra",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-121",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0139"
+      ],
+      "text": "一 加 Ace 2 Pro",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-122",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0138"
+      ],
+      "text": "OPPO Find X7",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-123",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0141"
+      ],
+      "text": "一 加 Ace 2",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-124",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0140"
+      ],
+      "text": "OPPO Find X6 Pro",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-125",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0142"
+      ],
+      "text": "OPPO Find X6",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-126",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0143"
+      ],
+      "text": "OPPO Reno13 Pro",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-127",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0144"
+      ],
+      "text": "OPPO Reno13",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-128",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0145"
+      ],
+      "text": "OPPO Reno12 Pro",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-129",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0146"
+      ],
+      "text": "OPPO Reno12",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-130",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0147"
+      ],
+      "text": "OPPO Reno11 Pro",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-131",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0148"
+      ],
+      "text": "OPPO Reno11",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-132",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0149"
+      ],
+      "text": "相关 进展 与 计划 后 续 将 在 ColorOS / ColorOS 升级 助",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-133",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0150"
+      ],
+      "text": "手 官方 微 博 、OPPO 社区 / 一 加 社区 ColorOS BAM",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-134",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0151"
+      ],
+      "text": "号 更 新 ， 感 谢 大 家 的 关注 。",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-135",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0152"
+      ],
+      "text": "ColorOS",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-136",
+      "classification": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0153"
+      ],
+      "text": "更 流畅 更 智慧 更 好 用",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "highlight-01-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0012",
+        "tesseract-0013",
+        "tesseract-0014",
+        "tesseract-0015",
+        "tesseract-0016"
+      ],
+      "region": {
+        "x": 108,
+        "y": 3282,
+        "width": 861,
+        "height": 708
+      },
+      "note": "互联：一碰互传标题与说明"
+    },
+    {
+      "id": "highlight-02-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0035",
+        "tesseract-0036",
+        "tesseract-0037",
+        "tesseract-0038",
+        "tesseract-0039"
+      ],
+      "region": {
+        "x": 108,
+        "y": 4902,
+        "width": 861,
+        "height": 811
+      },
+      "note": "相册：水印大师标题与说明"
+    },
+    {
+      "id": "highlight-03-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0097",
+        "tesseract-0098",
+        "tesseract-0099",
+        "tesseract-0100",
+        "tesseract-0101"
+      ],
+      "region": {
+        "x": 108,
+        "y": 9421,
+        "width": 863,
+        "height": 564
+      },
+      "note": "相册：相册体验升级标题与说明"
+    },
+    {
+      "id": "highlight-04-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0003"
+      ],
+      "region": {
+        "x": 89,
+        "y": 284,
+        "width": 903,
+        "height": 356
+      },
+      "note": "天气：天气体验升级标题与说明"
+    },
+    {
+      "id": "update-01-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0058",
+        "tesseract-0059"
+      ],
+      "region": {
+        "x": 109,
+        "y": 6756,
+        "width": 844,
+        "height": 329
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-02-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0061",
+        "tesseract-0062"
+      ],
+      "region": {
+        "x": 108,
+        "y": 6904,
+        "width": 667,
+        "height": 362
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-03-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0062",
+        "tesseract-0066"
+      ],
+      "region": {
+        "x": 108,
+        "y": 6990,
+        "width": 867,
+        "height": 365
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-04-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0068",
+        "tesseract-0070"
+      ],
+      "region": {
+        "x": 108,
+        "y": 7224,
+        "width": 863,
+        "height": 560
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-05-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0098",
+        "tesseract-0099"
+      ],
+      "region": {
+        "x": 108,
+        "y": 9565,
+        "width": 863,
+        "height": 330
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-06-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0102",
+        "tesseract-0103",
+        "tesseract-0106",
+        "tesseract-0109",
+        "tesseract-0107"
+      ],
+      "region": {
+        "x": 108,
+        "y": 9763,
+        "width": 652,
+        "height": 744
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-07-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0103",
+        "tesseract-0106",
+        "tesseract-0109",
+        "tesseract-0107",
+        "tesseract-0113"
+      ],
+      "region": {
+        "x": 108,
+        "y": 9853,
+        "width": 739,
+        "height": 835
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-08-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0109",
+        "tesseract-0107"
+      ],
+      "region": {
+        "x": 108,
+        "y": 10231,
+        "width": 652,
+        "height": 276
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-09-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0106",
+        "tesseract-0109",
+        "tesseract-0107",
+        "tesseract-0113",
+        "tesseract-0114"
+      ],
+      "region": {
+        "x": 108,
+        "y": 10083,
+        "width": 739,
+        "height": 799
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-10-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0113",
+        "tesseract-0114"
+      ],
+      "region": {
+        "x": 108,
+        "y": 10411,
+        "width": 739,
+        "height": 471
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-11-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0115",
+        "tesseract-0117",
+        "tesseract-0118",
+        "tesseract-0120",
+        "tesseract-0121"
+      ],
+      "region": {
+        "x": 108,
+        "y": 10735,
+        "width": 821,
+        "height": 764
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-12-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0117",
+        "tesseract-0118"
+      ],
+      "region": {
+        "x": 108,
+        "y": 10825,
+        "width": 821,
+        "height": 431
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-13-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0118",
+        "tesseract-0120"
+      ],
+      "region": {
+        "x": 108,
+        "y": 10979,
+        "width": 821,
+        "height": 430
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-14-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0120",
+        "tesseract-0121"
+      ],
+      "region": {
+        "x": 108,
+        "y": 11133,
+        "width": 674,
+        "height": 366
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-15-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0121",
+        "tesseract-0122"
+      ],
+      "region": {
+        "x": 108,
+        "y": 11223,
+        "width": 667,
+        "height": 276
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "source-excluded-020-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0001"
+      ],
+      "region": {
+        "x": 39,
+        "y": 0,
+        "width": 230,
+        "height": 212
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-021-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0002"
+      ],
+      "region": {
+        "x": 311,
+        "y": 158,
+        "width": 458,
+        "height": 306
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-022-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0004"
+      ],
+      "region": {
+        "x": 290,
+        "y": 1872,
+        "width": 499,
+        "height": 276
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-023-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0005"
+      ],
+      "region": {
+        "x": 89,
+        "y": 1944,
+        "width": 901,
+        "height": 301
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-024-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0006"
+      ],
+      "region": {
+        "x": 236,
+        "y": 2052,
+        "width": 605,
+        "height": 284
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-025-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0007"
+      ],
+      "region": {
+        "x": 251,
+        "y": 2142,
+        "width": 581,
+        "height": 275
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-026-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0008"
+      ],
+      "region": {
+        "x": 382,
+        "y": 2237,
+        "width": 313,
+        "height": 263
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-027-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0009"
+      ],
+      "region": {
+        "x": 299,
+        "y": 2322,
+        "width": 484,
+        "height": 285
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-028-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0010"
+      ],
+      "region": {
+        "x": 164,
+        "y": 2412,
+        "width": 753,
+        "height": 284
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-029-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0011"
+      ],
+      "region": {
+        "x": 183,
+        "y": 2908,
+        "width": 716,
+        "height": 356
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-030-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0017"
+      ],
+      "region": {
+        "x": 109,
+        "y": 3821,
+        "width": 859,
+        "height": 271
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-031-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0018"
+      ],
+      "region": {
+        "x": 110,
+        "y": 3874,
+        "width": 627,
+        "height": 270
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-032-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0020"
+      ],
+      "region": {
+        "x": 653,
+        "y": 3993,
+        "width": 129,
+        "height": 269
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-033-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0019"
+      ],
+      "region": {
+        "x": 108,
+        "y": 4000,
+        "width": 297,
+        "height": 247
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-034-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0021"
+      ],
+      "region": {
+        "x": 108,
+        "y": 4067,
+        "width": 237,
+        "height": 247
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-035-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0022"
+      ],
+      "region": {
+        "x": 109,
+        "y": 4174,
+        "width": 534,
+        "height": 276
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-036-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0023"
+      ],
+      "region": {
+        "x": 642,
+        "y": 4178,
+        "width": 347,
+        "height": 257
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-037-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0024"
+      ],
+      "region": {
+        "x": 109,
+        "y": 4233,
+        "width": 108,
+        "height": 256
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-038-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0026"
+      ],
+      "region": {
+        "x": 653,
+        "y": 4347,
+        "width": 128,
+        "height": 269
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-039-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0025"
+      ],
+      "region": {
+        "x": 108,
+        "y": 4354,
+        "width": 238,
+        "height": 247
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-040-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0028"
+      ],
+      "region": {
+        "x": 653,
+        "y": 4413,
+        "width": 242,
+        "height": 265
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-041-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0027"
+      ],
+      "region": {
+        "x": 108,
+        "y": 4421,
+        "width": 300,
+        "height": 253
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-042-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0030"
+      ],
+      "region": {
+        "x": 653,
+        "y": 4480,
+        "width": 182,
+        "height": 265
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-043-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0029"
+      ],
+      "region": {
+        "x": 108,
+        "y": 4485,
+        "width": 487,
+        "height": 253
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-044-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0032"
+      ],
+      "region": {
+        "x": 653,
+        "y": 4547,
+        "width": 205,
+        "height": 265
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-045-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0031"
+      ],
+      "region": {
+        "x": 108,
+        "y": 4555,
+        "width": 316,
+        "height": 247
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-046-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0033"
+      ],
+      "region": {
+        "x": 108,
+        "y": 4622,
+        "width": 236,
+        "height": 247
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-047-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0034"
+      ],
+      "region": {
+        "x": 109,
+        "y": 4729,
+        "width": 872,
+        "height": 277
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-048-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0041"
+      ],
+      "region": {
+        "x": 653,
+        "y": 5562,
+        "width": 129,
+        "height": 269
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-049-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0040"
+      ],
+      "region": {
+        "x": 108,
+        "y": 5569,
+        "width": 297,
+        "height": 247
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-050-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0043"
+      ],
+      "region": {
+        "x": 653,
+        "y": 5629,
+        "width": 128,
+        "height": 269
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-051-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0042"
+      ],
+      "region": {
+        "x": 108,
+        "y": 5636,
+        "width": 237,
+        "height": 247
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-052-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0044"
+      ],
+      "region": {
+        "x": 108,
+        "y": 5700,
+        "width": 487,
+        "height": 253
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-053-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0045"
+      ],
+      "region": {
+        "x": 108,
+        "y": 5770,
+        "width": 316,
+        "height": 247
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-054-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0046"
+      ],
+      "region": {
+        "x": 108,
+        "y": 5837,
+        "width": 236,
+        "height": 247
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-055-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0047"
+      ],
+      "region": {
+        "x": 109,
+        "y": 5944,
+        "width": 873,
+        "height": 276
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-056-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0048"
+      ],
+      "region": {
+        "x": 109,
+        "y": 6003,
+        "width": 108,
+        "height": 256
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-057-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0050"
+      ],
+      "region": {
+        "x": 653,
+        "y": 6116,
+        "width": 242,
+        "height": 265
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-058-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0049"
+      ],
+      "region": {
+        "x": 108,
+        "y": 6124,
+        "width": 238,
+        "height": 247
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-059-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0052"
+      ],
+      "region": {
+        "x": 653,
+        "y": 6183,
+        "width": 182,
+        "height": 265
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-060-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0051"
+      ],
+      "region": {
+        "x": 108,
+        "y": 6191,
+        "width": 300,
+        "height": 253
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-061-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0054"
+      ],
+      "region": {
+        "x": 653,
+        "y": 6250,
+        "width": 205,
+        "height": 265
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-062-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0053"
+      ],
+      "region": {
+        "x": 108,
+        "y": 6258,
+        "width": 292,
+        "height": 247
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-063-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0055"
+      ],
+      "region": {
+        "x": 108,
+        "y": 6325,
+        "width": 232,
+        "height": 247
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-064-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0056"
+      ],
+      "region": {
+        "x": 109,
+        "y": 6432,
+        "width": 809,
+        "height": 276
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-065-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0057"
+      ],
+      "region": {
+        "x": 111,
+        "y": 6612,
+        "width": 448,
+        "height": 291
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-066-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0060"
+      ],
+      "region": {
+        "x": 359,
+        "y": 6814,
+        "width": 381,
+        "height": 257
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-067-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0065"
+      ],
+      "region": {
+        "x": 329,
+        "y": 7076,
+        "width": 166,
+        "height": 255
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-068-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0063"
+      ],
+      "region": {
+        "x": 108,
+        "y": 7084,
+        "width": 241,
+        "height": 257
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-069-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0064"
+      ],
+      "region": {
+        "x": 328,
+        "y": 7087,
+        "width": 168,
+        "height": 263
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-070-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0067"
+      ],
+      "region": {
+        "x": 109,
+        "y": 7140,
+        "width": 129,
+        "height": 255
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-071-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0069"
+      ],
+      "region": {
+        "x": 109,
+        "y": 7282,
+        "width": 380,
+        "height": 257
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-072-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0071"
+      ],
+      "region": {
+        "x": 109,
+        "y": 7614,
+        "width": 853,
+        "height": 271
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-073-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0072"
+      ],
+      "region": {
+        "x": 109,
+        "y": 7668,
+        "width": 664,
+        "height": 271
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-074-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0074"
+      ],
+      "region": {
+        "x": 653,
+        "y": 7787,
+        "width": 129,
+        "height": 269
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-075-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0073"
+      ],
+      "region": {
+        "x": 108,
+        "y": 7794,
+        "width": 297,
+        "height": 247
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-076-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0076"
+      ],
+      "region": {
+        "x": 653,
+        "y": 7854,
+        "width": 128,
+        "height": 269
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-077-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0075"
+      ],
+      "region": {
+        "x": 108,
+        "y": 7861,
+        "width": 237,
+        "height": 247
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-078-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0078"
+      ],
+      "region": {
+        "x": 653,
+        "y": 7921,
+        "width": 122,
+        "height": 269
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-079-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0077"
+      ],
+      "region": {
+        "x": 108,
+        "y": 7928,
+        "width": 238,
+        "height": 247
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-080-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0080"
+      ],
+      "region": {
+        "x": 653,
+        "y": 7987,
+        "width": 242,
+        "height": 265
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-081-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0079"
+      ],
+      "region": {
+        "x": 108,
+        "y": 7995,
+        "width": 300,
+        "height": 253
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-082-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0082"
+      ],
+      "region": {
+        "x": 653,
+        "y": 8054,
+        "width": 182,
+        "height": 265
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-083-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0081"
+      ],
+      "region": {
+        "x": 108,
+        "y": 8059,
+        "width": 487,
+        "height": 253
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-084-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0084"
+      ],
+      "region": {
+        "x": 653,
+        "y": 8122,
+        "width": 205,
+        "height": 265
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-085-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0083"
+      ],
+      "region": {
+        "x": 108,
+        "y": 8130,
+        "width": 316,
+        "height": 247
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-086-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0086"
+      ],
+      "region": {
+        "x": 653,
+        "y": 8189,
+        "width": 242,
+        "height": 265
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-087-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0085"
+      ],
+      "region": {
+        "x": 108,
+        "y": 8197,
+        "width": 236,
+        "height": 247
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-088-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0088"
+      ],
+      "region": {
+        "x": 653,
+        "y": 8256,
+        "width": 181,
+        "height": 265
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-089-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0087"
+      ],
+      "region": {
+        "x": 108,
+        "y": 8264,
+        "width": 297,
+        "height": 247
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-090-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0089"
+      ],
+      "region": {
+        "x": 108,
+        "y": 8331,
+        "width": 237,
+        "height": 247
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-091-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0090"
+      ],
+      "region": {
+        "x": 108,
+        "y": 8398,
+        "width": 293,
+        "height": 247
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-092-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0091"
+      ],
+      "region": {
+        "x": 108,
+        "y": 8465,
+        "width": 232,
+        "height": 247
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-093-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0092"
+      ],
+      "region": {
+        "x": 108,
+        "y": 8532,
+        "width": 292,
+        "height": 247
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-094-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0093"
+      ],
+      "region": {
+        "x": 108,
+        "y": 8600,
+        "width": 232,
+        "height": 247
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-095-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0094"
+      ],
+      "region": {
+        "x": 108,
+        "y": 8667,
+        "width": 287,
+        "height": 247
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-096-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0095"
+      ],
+      "region": {
+        "x": 108,
+        "y": 8734,
+        "width": 225,
+        "height": 247
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-097-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0096"
+      ],
+      "region": {
+        "x": 183,
+        "y": 9038,
+        "width": 715,
+        "height": 355
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-098-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0104"
+      ],
+      "region": {
+        "x": 621,
+        "y": 9858,
+        "width": 348,
+        "height": 256
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-099-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0105"
+      ],
+      "region": {
+        "x": 108,
+        "y": 9912,
+        "width": 95,
+        "height": 256
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-100-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0108"
+      ],
+      "region": {
+        "x": 335,
+        "y": 10232,
+        "width": 38,
+        "height": 251
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-101-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0110"
+      ],
+      "region": {
+        "x": 108,
+        "y": 10325,
+        "width": 130,
+        "height": 257
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-102-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0112"
+      ],
+      "region": {
+        "x": 323,
+        "y": 10326,
+        "width": 309,
+        "height": 256
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-103-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0111"
+      ],
+      "region": {
+        "x": 219,
+        "y": 10341,
+        "width": 116,
+        "height": 241
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-104-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0116"
+      ],
+      "region": {
+        "x": 579,
+        "y": 10740,
+        "width": 196,
+        "height": 256
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-105-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0119"
+      ],
+      "region": {
+        "x": 109,
+        "y": 11047,
+        "width": 94,
+        "height": 256
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-106-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0123"
+      ],
+      "region": {
+        "x": 111,
+        "y": 11403,
+        "width": 317,
+        "height": 326
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-107-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0124"
+      ],
+      "region": {
+        "x": 109,
+        "y": 11560,
+        "width": 866,
+        "height": 270
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-108-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0125"
+      ],
+      "region": {
+        "x": 110,
+        "y": 11613,
+        "width": 627,
+        "height": 270
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-109-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0127"
+      ],
+      "region": {
+        "x": 653,
+        "y": 11733,
+        "width": 129,
+        "height": 269
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-110-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0126"
+      ],
+      "region": {
+        "x": 108,
+        "y": 11740,
+        "width": 297,
+        "height": 247
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-111-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0129"
+      ],
+      "region": {
+        "x": 653,
+        "y": 11800,
+        "width": 128,
+        "height": 269
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-112-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0128"
+      ],
+      "region": {
+        "x": 108,
+        "y": 11807,
+        "width": 237,
+        "height": 247
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-113-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0131"
+      ],
+      "region": {
+        "x": 653,
+        "y": 11867,
+        "width": 122,
+        "height": 269
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-114-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0130"
+      ],
+      "region": {
+        "x": 108,
+        "y": 11874,
+        "width": 238,
+        "height": 247
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-115-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0133"
+      ],
+      "region": {
+        "x": 653,
+        "y": 11933,
+        "width": 242,
+        "height": 265
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-116-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0132"
+      ],
+      "region": {
+        "x": 108,
+        "y": 11941,
+        "width": 300,
+        "height": 253
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-117-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0135"
+      ],
+      "region": {
+        "x": 653,
+        "y": 12000,
+        "width": 182,
+        "height": 265
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-118-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0134"
+      ],
+      "region": {
+        "x": 108,
+        "y": 12005,
+        "width": 487,
+        "height": 253
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-119-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0137"
+      ],
+      "region": {
+        "x": 653,
+        "y": 12068,
+        "width": 205,
+        "height": 265
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-120-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0136"
+      ],
+      "region": {
+        "x": 108,
+        "y": 12076,
+        "width": 316,
+        "height": 247
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-121-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0139"
+      ],
+      "region": {
+        "x": 653,
+        "y": 12135,
+        "width": 242,
+        "height": 265
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-122-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0138"
+      ],
+      "region": {
+        "x": 108,
+        "y": 12143,
+        "width": 236,
+        "height": 247
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-123-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0141"
+      ],
+      "region": {
+        "x": 653,
+        "y": 12202,
+        "width": 181,
+        "height": 265
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-124-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0140"
+      ],
+      "region": {
+        "x": 108,
+        "y": 12210,
+        "width": 297,
+        "height": 247
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-125-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0142"
+      ],
+      "region": {
+        "x": 108,
+        "y": 12277,
+        "width": 237,
+        "height": 247
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-126-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0143"
+      ],
+      "region": {
+        "x": 108,
+        "y": 12344,
+        "width": 293,
+        "height": 247
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-127-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0144"
+      ],
+      "region": {
+        "x": 108,
+        "y": 12411,
+        "width": 232,
+        "height": 247
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-128-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0145"
+      ],
+      "region": {
+        "x": 108,
+        "y": 12478,
+        "width": 292,
+        "height": 247
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-129-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0146"
+      ],
+      "region": {
+        "x": 108,
+        "y": 12546,
+        "width": 232,
+        "height": 247
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-130-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0147"
+      ],
+      "region": {
+        "x": 108,
+        "y": 12613,
+        "width": 287,
+        "height": 247
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-131-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0148"
+      ],
+      "region": {
+        "x": 108,
+        "y": 12680,
+        "width": 225,
+        "height": 247
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-132-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0149"
+      ],
+      "region": {
+        "x": 108,
+        "y": 12849,
+        "width": 865,
+        "height": 271
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-133-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0150"
+      ],
+      "region": {
+        "x": 109,
+        "y": 12910,
+        "width": 863,
+        "height": 256
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-134-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0151"
+      ],
+      "region": {
+        "x": 109,
+        "y": 12959,
+        "width": 432,
+        "height": 276
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-135-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0152"
+      ],
+      "region": {
+        "x": 405,
+        "y": 13595,
+        "width": 270,
+        "height": 274
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-136-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/ColorOS_十二月体验升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb80661a731c7fd9770352ed5c3e2d09f1e9055dda64d26b640820c4955f2f59",
+      "blockIds": [
+        "tesseract-0153"
+      ],
+      "region": {
+        "x": 407,
+        "y": 13659,
+        "width": 265,
+        "height": 219
+      },
+      "note": "不进入表格：decoration"
+    }
+  ],
+  "audit": {
+    "highlightReviewVersion": 4,
+    "updateReviewVersion": 4,
+    "review": {
+      "content": "verified",
+      "modules": "verified",
+      "media": "verified",
+      "page": "verified"
+    },
+    "expectedHighlightCount": 4,
+    "sourceItemCount": 136,
+    "includedItemCount": 19,
+    "excludedItemCount": 117,
+    "highlightCount": 4,
+    "updateCount": 15,
+    "mediaCount": 0,
+    "mappedItemCount": 136,
+    "coverageRate": 1
+  }
+}

@@ -3,6 +3,7 @@ import '../styles/global.css';
 import { ClientRouter } from 'astro:transitions';
 import SiteHeader from '../components/SiteHeader.astro';
 import { assetPath, brandMeta, sitePath, type Brand } from '../lib/archive';
+import type { ColorOSSection } from '../lib/official-archives';
 
 interface Props {
   title: string;
@@ -12,10 +13,13 @@ interface Props {
   image?: string;
   articleMeta?: { publishedAt: string; brand: Brand };
   hasArchiveNav?: boolean;
+  hasMonthlyViewToggle?: boolean;
   activeBrand?: Brand | null;
+  activeColorOSSection?: ColorOSSection;
+  activeOriginOSSection?: ColorOSSection;
 }
 
-const { title, description = 'ColorOS 与 OriginOS 系统升级档案，快速、清晰地回顾每一次体验更新。', brand = 'coloros', canonicalPath = Astro.url.pathname, image = 'assets/images/logo.png', articleMeta, hasArchiveNav = false, activeBrand = brand } = Astro.props;
+const { title, description = 'ColorOS 与 OriginOS 系统升级档案，快速、清晰地回顾每一次体验更新。', brand = 'coloros', canonicalPath = Astro.url.pathname, image = 'assets/images/logo.png', articleMeta, hasArchiveNav = false, hasMonthlyViewToggle = false, activeBrand = brand, activeColorOSSection, activeOriginOSSection } = Astro.props;
 const meta = brandMeta[brand];
 const siteUrl = (import.meta.env.PUBLIC_SITE_URL || 'https://ricky2036.github.io/os_updates_archive').replace(/\/$/, '');
 const base = import.meta.env.BASE_URL || '/';
@@ -46,6 +50,13 @@ const jsonLd = articleMeta ? {
     <link rel="icon" href={sitePath('favicon.svg')} />
     <link rel="manifest" href={sitePath('site.webmanifest')} />
     <title>{title} · OS档案馆</title>
+    <script is:inline>
+      (() => {
+        try {
+          document.documentElement.dataset.monthlyView = localStorage.getItem('os-archive:monthly-view') === 'original' ? 'original' : 'digest';
+        } catch { document.documentElement.dataset.monthlyView = 'digest'; }
+      })();
+    </script>
     {jsonLd && <script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
     <ClientRouter />
   </head>
@@ -61,7 +72,7 @@ const jsonLd = articleMeta ? {
       <i class="ambient-blob blob-violet-b"></i>
     </div>
     <a class="skip-link" href="#main-content">跳到主要内容</a>
-    <SiteHeader activeBrand={activeBrand ?? undefined} hasArchiveNav={hasArchiveNav} />
+    <SiteHeader activeBrand={activeBrand ?? undefined} hasArchiveNav={hasArchiveNav} hasMonthlyViewToggle={hasMonthlyViewToggle} activeColorOSSection={activeColorOSSection} activeOriginOSSection={activeOriginOSSection} />
     <div id="main-content"><slot /></div>
     <script is:inline src={sitePath('scripts/archive-ui.js')} data-astro-rerun></script>
   </body>

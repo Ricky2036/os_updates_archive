@@ -8,8 +8,46 @@
     const archiveNav = document.querySelector('#archive-nav');
     const backdrop = document.querySelector('[data-nav-backdrop]');
     const closeButton = document.querySelector('[data-nav-close]');
+    const colorOSMenu = document.querySelector('[data-coloros-menu]');
+    const colorOSTrigger = colorOSMenu?.querySelector('[data-coloros-trigger]');
+    const colorOSSubmenu = colorOSMenu?.querySelector('[data-coloros-submenu]');
+    const colorOSItems = [...(colorOSSubmenu?.querySelectorAll('[role="menuitem"]') ?? [])];
+    const mobileTabs = window.matchMedia('(max-width: 760px)');
+    let swipeStartY = null;
 
     document.documentElement.classList.add('motion-ready');
+
+    const setColorOSMenu = (open, focusFirst = false) => {
+      colorOSMenu?.classList.toggle('open', open);
+      colorOSTrigger?.setAttribute('aria-expanded', String(open));
+      if (open && focusFirst) colorOSItems[0]?.focus();
+    };
+    const closeColorOSMenu = () => setColorOSMenu(false);
+
+    colorOSMenu?.addEventListener('pointerenter', () => setColorOSMenu(true), { signal });
+    colorOSMenu?.addEventListener('pointerleave', (event) => {
+      if (event.pointerType === 'mouse' && !colorOSMenu.contains(document.activeElement)) closeColorOSMenu();
+    }, { signal });
+    colorOSMenu?.addEventListener('focusout', (event) => {
+      if (!colorOSMenu.contains(event.relatedTarget) && !mobileTabs.matches) closeColorOSMenu();
+    }, { signal });
+    colorOSTrigger?.addEventListener('keydown', (event) => {
+      if (['ArrowDown', 'ArrowUp', ' '].includes(event.key)) { event.preventDefault(); setColorOSMenu(true, true); }
+      if (event.key === 'Escape') { event.preventDefault(); closeColorOSMenu(); }
+    }, { signal });
+    colorOSSubmenu?.addEventListener('keydown', (event) => {
+      const current = colorOSItems.indexOf(document.activeElement);
+      if (event.key === 'ArrowDown') { event.preventDefault(); colorOSItems[(current + 1) % colorOSItems.length]?.focus(); }
+      if (event.key === 'ArrowUp') { event.preventDefault(); colorOSItems[(current - 1 + colorOSItems.length) % colorOSItems.length]?.focus(); }
+      if (event.key === 'Escape') { event.preventDefault(); closeColorOSMenu(); colorOSTrigger?.focus(); }
+    }, { signal });
+    colorOSSubmenu?.addEventListener('pointerdown', (event) => { if (mobileTabs.matches) swipeStartY = event.clientY; }, { signal });
+    colorOSSubmenu?.addEventListener('pointerup', (event) => {
+      if (mobileTabs.matches && swipeStartY !== null && event.clientY - swipeStartY > 36) closeColorOSMenu();
+      swipeStartY = null;
+    }, { signal });
+    colorOSItems.forEach((item) => item.addEventListener('click', closeColorOSMenu, { signal }));
+    document.addEventListener('pointerdown', (event) => { if (!colorOSMenu?.contains(event.target)) closeColorOSMenu(); }, { signal });
 
     const closeMenu = () => {
       archiveNav?.classList.remove('open');
@@ -34,7 +72,7 @@
     archiveNav?.querySelectorAll('a').forEach((link) => link.addEventListener('click', closeMenu, { signal }));
 
     document.addEventListener('keydown', (event) => {
-      if (event.key === 'Escape') closeMenu();
+      if (event.key === 'Escape') { closeMenu(); closeColorOSMenu(); }
       if (event.key === 'Tab' && archiveNav?.classList.contains('open')) {
         const focusable = [...archiveNav.querySelectorAll('a,button,input,[tabindex]:not([tabindex="-1"])')].filter((element) => !element.hidden);
         if (!focusable.length) return;
@@ -54,14 +92,112 @@
       signal.addEventListener('abort', () => observer.disconnect(), { once: true });
     } else revealItems.forEach((item) => item.classList.add('is-visible'));
 
-    document.querySelectorAll('[data-gallery-shell]').forEach((shell) => {
+    const prepareGalleryShell = (shell) => {
       const image = shell.querySelector('img');
       const ready = () => shell.classList.add('loaded');
+      // The original archive is mounted from a template and starts hidden.
+      // Lazy images inside a previously hidden subtree are not guaranteed to
+      // begin fetching, so promote only the first image once the user asks for
+      // the original view. The remaining long-form images stay lazy.
+      if (image) {
+        image.loading = 'eager';
+        image.fetchPriority = 'high';
+      }
       if (!image || (image.complete && image.naturalWidth > 0)) ready();
       else {
         image.addEventListener('load', ready, { signal, once: true });
         image.addEventListener('error', ready, { signal, once: true });
       }
+    };
+
+    const mountOriginal = (root) => {
+      const mount = root.querySelector('[data-original-mount]');
+      const template = root.querySelector('[data-original-template]');
+      if (!mount || !template || mount.childElementCount) return;
+      mount.append(template.content.cloneNode(true));
+      mount.querySelectorAll('[data-gallery-shell]').forEach(prepareGalleryShell);
+      mount.querySelectorAll('[data-compat-frame][data-src]').forEach((frame) => {
+        frame.src = frame.dataset.src;
+        frame.removeAttribute('data-src');
+      });
+    };
+
+    const setMonthlyView = (root, view, persist = false) => {
+      const normalized = view === 'original' ? 'original' : 'digest';
+      if (normalized === 'original') mountOriginal(root);
+      document.documentElement.dataset.monthlyView = normalized;
+      root.querySelectorAll('[data-monthly-panel]').forEach((panel) => { panel.hidden = panel.dataset.monthlyPanel !== normalized; });
+      document.querySelectorAll('[data-monthly-view]').forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.monthlyView === normalized)));
+      if (persist) {
+        try { localStorage.setItem('os-archive:monthly-view', normalized); } catch { /* storage is optional */ }
+      }
+    };
+
+    document.querySelectorAll('[data-monthly-view-root]').forEach((root) => {
+      setMonthlyView(root, document.documentElement.dataset.monthlyView);
+      document.querySelectorAll('[data-monthly-view]').forEach((button) => button.addEventListener('click', () => {
+        document.documentElement.classList.add('is-switching-view');
+        void document.documentElement.offsetHeight;
+        setMonthlyView(root, button.dataset.monthlyView, true);
+        setTimeout(() => document.documentElement.classList.remove('is-switching-view'), 450);
+      }, { signal }));
+      document.querySelectorAll('[data-monthly-view-toggle]').forEach((button) => {
+        button.addEventListener('click', () => {
+          document.documentElement.classList.add('is-switching-view');
+          void document.documentElement.offsetHeight;
+          const current = document.documentElement.dataset.monthlyView;
+          const next = current === 'original' ? 'digest' : 'original';
+          setMonthlyView(root, next, true);
+          setTimeout(() => document.documentElement.classList.remove('is-switching-view'), 450);
+        }, { signal });
+      });
+    });
+
+    document.querySelectorAll('[data-gallery-shell]').forEach(prepareGalleryShell);
+
+    document.querySelectorAll('[data-digest-lightbox]').forEach((dialog) => {
+      const stage = dialog.querySelector('[data-lightbox-stage]');
+      const caption = dialog.querySelector('[data-lightbox-caption]');
+      const nav = dialog.querySelector('[data-lightbox-nav]');
+      const count = dialog.querySelector('[data-lightbox-count]');
+      let items = [];
+      let activeIndex = 0;
+      let returnFocus = null;
+      const renderMedia = () => {
+        const button = items[activeIndex];
+        if (!button || !stage) return;
+        stage.replaceChildren();
+        const media = button.dataset.kind === 'video' ? document.createElement('video') : document.createElement('img');
+        if (media instanceof HTMLVideoElement) {
+          media.controls = true;
+          media.playsInline = true;
+          media.preload = 'metadata';
+          if (button.dataset.poster) media.poster = button.dataset.poster;
+        } else media.alt = button.dataset.alt || '';
+        media.src = button.dataset.src;
+        stage.append(media);
+        if (caption) caption.textContent = button.dataset.alt || '功能演示';
+        if (nav) nav.hidden = items.length < 2;
+        if (count) count.textContent = `${activeIndex + 1} / ${items.length}`;
+      };
+      const close = () => dialog.close();
+      dialog.parentElement?.querySelectorAll('[data-digest-media]').forEach((button) => button.addEventListener('click', () => {
+        items = [...button.closest('.digest-media-list').querySelectorAll('[data-digest-media]')];
+        activeIndex = Math.max(0, items.indexOf(button));
+        returnFocus = button;
+        renderMedia();
+        dialog.showModal();
+        dialog.querySelector('[data-lightbox-close]')?.focus();
+      }, { signal }));
+      dialog.querySelector('[data-lightbox-close]')?.addEventListener('click', close, { signal });
+      dialog.querySelector('[data-lightbox-prev]')?.addEventListener('click', () => { activeIndex = (activeIndex - 1 + items.length) % items.length; renderMedia(); }, { signal });
+      dialog.querySelector('[data-lightbox-next]')?.addEventListener('click', () => { activeIndex = (activeIndex + 1) % items.length; renderMedia(); }, { signal });
+      dialog.addEventListener('click', (event) => { if (event.target === dialog) close(); }, { signal });
+      dialog.addEventListener('close', () => {
+        stage?.querySelector('video')?.pause();
+        stage?.replaceChildren();
+        returnFocus?.focus();
+      }, { signal });
     });
 
     window.addEventListener('message', (event) => {

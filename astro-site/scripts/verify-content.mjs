@@ -27,4 +27,6 @@ if (videos.length !== 59) fail(`Expected 59 ColorOS 16 video references, found $
 if (videos.filter((video) => video.status === 'ready').length !== 30) fail('Unexpected local ColorOS 16 video inventory');
 const migration = JSON.parse(await fs.readFile(path.join(manifestDir, 'migration-report.json'), 'utf8'));
 if (migration.articles !== 29 || migration.interactive !== 16) fail('Migration report does not match the catalog');
-console.log(`Content verified: ${articles.length} articles, ${interactive.length} interactive pages, ${videos.filter((video) => video.status === 'ready').length}/${videos.length} videos archived.`);
+const official = JSON.parse(await fs.readFile(path.join(manifestDir, 'official-archives.json'), 'utf8'));
+if (official.release !== 'v2026-07-30' || official.entryPages !== 6 || official.videos !== 119 || official.files !== 382) fail('Official ColorOS archive manifest is incomplete');
+console.log(`Content verified: ${articles.length} articles, ${interactive.length} interactive pages, ${videos.filter((video) => video.status === 'ready').length}/${videos.length} article videos, ${official.videos} official archive videos.`);

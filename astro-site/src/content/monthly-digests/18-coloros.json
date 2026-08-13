@@ -1,0 +1,4263 @@
+{
+  "schemaVersion": 3,
+  "contentReviewVersion": 4,
+  "mediaReviewVersion": 4,
+  "articleId": "ColorOS_十一月体验升级来了！",
+  "reviewStatus": "verified",
+  "sourceHash": "7cb8641c246d1c6376190a741e4d84a6a2134c399cf45a34c6db8c9a00d3fbb7",
+  "highlights": [
+    {
+      "id": "highlight-01",
+      "module": "实况照片",
+      "moduleSource": "explicit-heading",
+      "title": "实况照片能力进化",
+      "description": "支持抖音发布，并与 iOS 双向互传实况照片。",
+      "mediaStatus": "not-provided",
+      "evidenceIds": [
+        "highlight-01-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-01"
+      ],
+      "media": []
+    },
+    {
+      "id": "highlight-02",
+      "module": "智慧车载",
+      "moduleSource": "explicit-heading",
+      "title": "智慧车载焕新",
+      "description": "整合设备连接与管理入口，增加流体云和地址发送能力。",
+      "mediaStatus": "not-provided",
+      "evidenceIds": [
+        "highlight-02-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-02"
+      ],
+      "media": []
+    },
+    {
+      "id": "highlight-03",
+      "module": "手机管家",
+      "moduleSource": "explicit-heading",
+      "title": "页面与安全升级",
+      "description": "页面视觉焕新，并增加系统加速和仿冒应用检测。",
+      "mediaStatus": "not-provided",
+      "evidenceIds": [
+        "highlight-03-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-03"
+      ],
+      "media": []
+    }
+  ],
+  "updates": [
+    {
+      "id": "update-01",
+      "module": "相册",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "inferred",
+      "sourceText": "支持抖音发布实况照片。",
+      "description": "支持抖音发布实况照片。",
+      "evidenceIds": [
+        "update-01-source"
+      ],
+      "sourceItemIds": [
+        "source-update-01"
+      ]
+    },
+    {
+      "id": "update-02",
+      "module": "相册",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "inferred",
+      "sourceText": "支持与 iOS 双向互传实况照片。",
+      "description": "支持与 iOS 双向互传实况照片。",
+      "evidenceIds": [
+        "update-02-source"
+      ],
+      "sourceItemIds": [
+        "source-update-02"
+      ]
+    },
+    {
+      "id": "update-03",
+      "module": "小布助手",
+      "moduleSource": "inferred",
+      "type": "新增",
+      "typeSource": "inferred",
+      "sourceText": "识别屏幕图文并生成个性化文案。",
+      "description": "识别屏幕图文并生成个性化文案。",
+      "evidenceIds": [
+        "update-03-source"
+      ],
+      "sourceItemIds": [
+        "source-update-03"
+      ]
+    },
+    {
+      "id": "update-04",
+      "module": "分屏",
+      "moduleSource": "inferred",
+      "type": "新增",
+      "typeSource": "inferred",
+      "sourceText": "应用全屏时向左上滑可快速启动分屏。",
+      "description": "应用全屏时向左上滑可快速启动分屏。",
+      "evidenceIds": [
+        "update-04-source"
+      ],
+      "sourceItemIds": [
+        "source-update-04"
+      ]
+    },
+    {
+      "id": "update-05",
+      "module": "自由浮窗",
+      "moduleSource": "inferred",
+      "type": "新增",
+      "typeSource": "inferred",
+      "sourceText": "支持浮窗显示。",
+      "description": "支持浮窗显示。",
+      "evidenceIds": [
+        "update-05-source"
+      ],
+      "sourceItemIds": [
+        "source-update-05"
+      ]
+    },
+    {
+      "id": "update-06",
+      "module": "便签",
+      "moduleSource": "inferred",
+      "type": "优化",
+      "typeSource": "inferred",
+      "sourceText": "支持通过拼音搜索笔记及附件。",
+      "description": "支持通过拼音搜索笔记及附件。",
+      "evidenceIds": [
+        "update-06-source"
+      ],
+      "sourceItemIds": [
+        "source-update-06"
+      ]
+    },
+    {
+      "id": "update-07",
+      "module": "智慧车载",
+      "moduleSource": "inferred",
+      "type": "新增",
+      "typeSource": "inferred",
+      "sourceText": "新增统一设置页、流体云入口与地址发送至车机。",
+      "description": "新增统一设置页、流体云入口与地址发送至车机。",
+      "evidenceIds": [
+        "update-07-source"
+      ],
+      "sourceItemIds": [
+        "source-update-07"
+      ]
+    },
+    {
+      "id": "update-08",
+      "module": "手机管家",
+      "moduleSource": "inferred",
+      "type": "新增",
+      "typeSource": "inferred",
+      "sourceText": "增加系统加速与仿冒应用风险检测。",
+      "description": "增加系统加速与仿冒应用风险检测。",
+      "evidenceIds": [
+        "update-08-source"
+      ],
+      "sourceItemIds": [
+        "source-update-08"
+      ]
+    },
+    {
+      "id": "update-09",
+      "module": "天气",
+      "moduleSource": "inferred",
+      "type": "优化",
+      "typeSource": "inferred",
+      "sourceText": "提高天气数据刷新频率。",
+      "description": "提高天气数据刷新频率。",
+      "evidenceIds": [
+        "update-09-source"
+      ],
+      "sourceItemIds": [
+        "source-update-09"
+      ]
+    },
+    {
+      "id": "update-10",
+      "module": "长截屏",
+      "moduleSource": "inferred",
+      "type": "优化",
+      "typeSource": "inferred",
+      "sourceText": "提升长截屏保存速度。",
+      "description": "提升长截屏保存速度。",
+      "evidenceIds": [
+        "update-10-source"
+      ],
+      "sourceItemIds": [
+        "source-update-10"
+      ]
+    }
+  ],
+  "sourceItems": [
+    {
+      "id": "source-highlight-01",
+      "classification": "highlight",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0002",
+        "tesseract-0003",
+        "tesseract-0004"
+      ],
+      "text": "实况照片能力进化 支持抖音发布，并与 iOS 双向互传实况照片。",
+      "targetIds": [
+        "highlight-01"
+      ]
+    },
+    {
+      "id": "source-highlight-02",
+      "classification": "highlight",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0003",
+        "tesseract-0004",
+        "tesseract-0005",
+        "tesseract-0006"
+      ],
+      "text": "智慧车载焕新 整合设备连接与管理入口，增加流体云和地址发送能力。",
+      "targetIds": [
+        "highlight-02"
+      ]
+    },
+    {
+      "id": "source-highlight-03",
+      "classification": "highlight",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0012",
+        "tesseract-0013",
+        "tesseract-0015",
+        "tesseract-0016",
+        "tesseract-0017"
+      ],
+      "text": "页面与安全升级 页面视觉焕新，并增加系统加速和仿冒应用检测。",
+      "targetIds": [
+        "highlight-03"
+      ]
+    },
+    {
+      "id": "source-update-01",
+      "classification": "update",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0003",
+        "tesseract-0004"
+      ],
+      "text": "支持抖音发布实况照片。",
+      "correctedText": "支持抖音发布实况照片。",
+      "targetIds": [
+        "update-01"
+      ]
+    },
+    {
+      "id": "source-update-02",
+      "classification": "update",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0004"
+      ],
+      "text": "支持与 iOS 双向互传实况照片。",
+      "correctedText": "支持与 iOS 双向互传实况照片。",
+      "targetIds": [
+        "update-02"
+      ]
+    },
+    {
+      "id": "source-update-03",
+      "classification": "update",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0013",
+        "tesseract-0015",
+        "tesseract-0016",
+        "tesseract-0017",
+        "tesseract-0018"
+      ],
+      "text": "识别屏幕图文并生成个性化文案。",
+      "correctedText": "识别屏幕图文并生成个性化文案。",
+      "targetIds": [
+        "update-03"
+      ]
+    },
+    {
+      "id": "source-update-04",
+      "classification": "update",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0015",
+        "tesseract-0016"
+      ],
+      "text": "应用全屏时向左上滑可快速启动分屏。",
+      "correctedText": "应用全屏时向左上滑可快速启动分屏。",
+      "targetIds": [
+        "update-04"
+      ]
+    },
+    {
+      "id": "source-update-05",
+      "classification": "update",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0016",
+        "tesseract-0017"
+      ],
+      "text": "支持浮窗显示。",
+      "correctedText": "支持浮窗显示。",
+      "targetIds": [
+        "update-05"
+      ]
+    },
+    {
+      "id": "source-update-06",
+      "classification": "update",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0017",
+        "tesseract-0018"
+      ],
+      "text": "支持通过拼音搜索笔记及附件。",
+      "correctedText": "支持通过拼音搜索笔记及附件。",
+      "targetIds": [
+        "update-06"
+      ]
+    },
+    {
+      "id": "source-update-07",
+      "classification": "update",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0003",
+        "tesseract-0004",
+        "tesseract-0005",
+        "tesseract-0006"
+      ],
+      "text": "新增统一设置页、流体云入口与地址发送至车机。",
+      "correctedText": "新增统一设置页、流体云入口与地址发送至车机。",
+      "targetIds": [
+        "update-07"
+      ]
+    },
+    {
+      "id": "source-update-08",
+      "classification": "update",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0011"
+      ],
+      "text": "增加系统加速与仿冒应用风险检测。",
+      "correctedText": "增加系统加速与仿冒应用风险检测。",
+      "targetIds": [
+        "update-08"
+      ]
+    },
+    {
+      "id": "source-update-09",
+      "classification": "update",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0022",
+        "tesseract-0023"
+      ],
+      "text": "提高天气数据刷新频率。",
+      "correctedText": "提高天气数据刷新频率。",
+      "targetIds": [
+        "update-09"
+      ]
+    },
+    {
+      "id": "source-update-10",
+      "classification": "update",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0026"
+      ],
+      "text": "提升长截屏保存速度。",
+      "correctedText": "提升长截屏保存速度。",
+      "targetIds": [
+        "update-10"
+      ]
+    },
+    {
+      "id": "source-excluded-014",
+      "classification": "excluded",
+      "source": "assets/images/interactive/67be0a06646929eb605fbc9f526cc45e.webp",
+      "sourceIndex": 1,
+      "sourceHash": "bc2b2bb64ea56f0d2b8ad5e7cc17430daaca49d3b25ef7949e8a21d539eefd9a",
+      "blockIds": [
+        "tesseract-0001"
+      ],
+      "text": "ColorOs",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-015",
+      "classification": "excluded",
+      "source": "assets/images/interactive/67be0a06646929eb605fbc9f526cc45e.webp",
+      "sourceIndex": 1,
+      "sourceHash": "bc2b2bb64ea56f0d2b8ad5e7cc17430daaca49d3b25ef7949e8a21d539eefd9a",
+      "blockIds": [
+        "tesseract-0002"
+      ],
+      "text": "体验 升级 一",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-016",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0001"
+      ],
+      "text": "第 一 批 功能 升级",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-017",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0005"
+      ],
+      "text": "更 多 好 用 功能 更 新",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-018",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0006"
+      ],
+      "text": "新 增 AI 帮 写 功能",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-019",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0012"
+      ],
+      "text": "别 屏 幕 图 文 信息 ， 一 键 生",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-020",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0007"
+      ],
+      "text": "智",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-021",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0008"
+      ],
+      "text": "ob",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-022",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0010"
+      ],
+      "text": "识",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-023",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0009"
+      ],
+      "text": "Re",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-024",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0011"
+      ],
+      "text": "MAN",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-025",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0014"
+      ],
+      "text": "省 心 省 力",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-026",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0019"
+      ],
+      "text": "优化 大 文件 的 堆 显示 方式 ， 支 持 九 个 应 用 时 显示 为",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-027",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0020"
+      ],
+      "text": "九宫 格",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-028",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0021"
+      ],
+      "text": "优化 时 钟 、 便 签 、 文 件 管理 桌面 卡片",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-029",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0022"
+      ],
+      "text": "升级 计划",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-030",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0023"
+      ],
+      "text": "以 上 功能 已 于 11 月 15 日 开始 陆续 推送 ， 下 列 机 型 将",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-031",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0025"
+      ],
+      "text": "于 12 月 26 日 前 完成 首次 推送 ，",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-032",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0024"
+      ],
+      "text": "分 批 覆 盖 ColorOS",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-033",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0026"
+      ],
+      "text": "15 尝鲜 升级 及 正式 版 用 户 :",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-034",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0028"
+      ],
+      "text": "一 加 13",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-035",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0027"
+      ],
+      "text": "OPPO Find X8 Pro",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-036",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0030"
+      ],
+      "text": "一 加 12",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-037",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0029"
+      ],
+      "text": "OPPO Find X8",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-038",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0032"
+      ],
+      "text": "一 加 11",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-039",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0031"
+      ],
+      "text": "OPPO Find N3",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-040",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0034"
+      ],
+      "text": "一 加 Ace 3 Pro",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-041",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0033"
+      ],
+      "text": "OPPO Find N3 Flip",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-042",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0036"
+      ],
+      "text": "一 加 Ace 3",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-043",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0035"
+      ],
+      "text": "OPPO Find X7 Ultra 卫星 通信 版",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-044",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0038"
+      ],
+      "text": "一 加 Ace 3V",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-045",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0037"
+      ],
+      "text": "OPPO Find X7 Ultra",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-046",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0040"
+      ],
+      "text": "一 加 Ace 2 Pro",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-047",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0039"
+      ],
+      "text": "OPPO Find X7",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-048",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0042"
+      ],
+      "text": "一 加 Ace 2",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-049",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0041"
+      ],
+      "text": "OPPO Find X6 Pro",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-050",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0043"
+      ],
+      "text": "OPPO Find X6",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-051",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0044"
+      ],
+      "text": "OPPO Reno12 Pro",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-052",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0045"
+      ],
+      "text": "OPPO Reno12 / OPPO Reno11 系列 将 在 ColorOS 15",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-053",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0046"
+      ],
+      "text": "尝鲜 升级 及 正式 版 支持 以 上 功能",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-054",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0047"
+      ],
+      "text": "具体 升级 时 间 请 参",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-055",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0048"
+      ],
+      "text": "考 ColorOS 15 正式 版 升级 计划 。",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-056",
+      "classification": "excluded",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0001"
+      ],
+      "text": "第 二 批 功能 升级",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-057",
+      "classification": "excluded",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0002"
+      ],
+      "text": "Bim",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-058",
+      "classification": "excluded",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0007"
+      ],
+      "text": "车 辆 设备 面板 新 增 \"搜索 地 址 \"功能",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-059",
+      "classification": "excluded",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0008"
+      ],
+      "text": "可 直接 搜索 地 址",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-060",
+      "classification": "excluded",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0009"
+      ],
+      "text": "并 发送 至 车 机 端 进行 导航",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-061",
+      "classification": "excluded",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0010"
+      ],
+      "text": "优化 Car+ 车 联动 画 效果 ， 更 符合 自然 观感",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-062",
+      "classification": "excluded",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0014"
+      ],
+      "text": "—",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-063",
+      "classification": "excluded",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0018"
+      ],
+      "text": "升 流畅 性",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-064",
+      "classification": "excluded",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0019"
+      ],
+      "text": "新 增 仿 冒 应 用 \"病毒 风险 检测 ， 用 机 更 安全",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-065",
+      "classification": "excluded",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0020"
+      ],
+      "text": "优化 照片 清理 扫描 速度 ， 结 果 展 示 更 快",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-066",
+      "classification": "excluded",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0021"
+      ],
+      "text": "更 多 好 用 体验 优化",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-067",
+      "classification": "excluded",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0024"
+      ],
+      "text": "部 分 购物 场景 截屏 后 ， 新 增 搜 同 款 \" 入 口 ， 购 物 操作",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-068",
+      "classification": "excluded",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0025"
+      ],
+      "text": "更 便捷",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-069",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0001"
+      ],
+      "text": "升级 计划",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-070",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0002"
+      ],
+      "text": "以 上 功能 已 于 11 月 6 日 开始 陆续 推送 ， 下 列 机 型 将",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-071",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0003"
+      ],
+      "text": "于 12 月 6 日 前 完成 首次 推送 ， 分 批 覆 盖 全 部 用 户 :",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-072",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0005"
+      ],
+      "text": "一 加 15",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-073",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0004"
+      ],
+      "text": "OPPO Find X8 Pro",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-074",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0007"
+      ],
+      "text": "一 加 12",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-075",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0006"
+      ],
+      "text": "OPPO Find X8",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-076",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0009"
+      ],
+      "text": "一 加 11",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-077",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0008"
+      ],
+      "text": "OPPO Find N3",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-078",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0011"
+      ],
+      "text": "一 加 Ace 3 Pro",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-079",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0010"
+      ],
+      "text": "OPPO Find N3 Flip",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-080",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0013"
+      ],
+      "text": "一 加 Ace 3",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-081",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0012"
+      ],
+      "text": "OPPO Find X7 Ultra 卫星 通信 版",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-082",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0015"
+      ],
+      "text": "一 加 Ace 3V",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-083",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0014"
+      ],
+      "text": "OPPO Find X7 Ultra",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-084",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0017"
+      ],
+      "text": "一 加 Ace 2 Pro",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-085",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0016"
+      ],
+      "text": "OPPO Find X7",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-086",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0019"
+      ],
+      "text": "一 加 Ace 2",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-087",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0018"
+      ],
+      "text": "OPPO Find X6 Pro",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-088",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0020"
+      ],
+      "text": "OPPO Find X6",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-089",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0021"
+      ],
+      "text": "OPPO Reno12 Pro",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-090",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0022"
+      ],
+      "text": "OPPO Reno12",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-091",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0023"
+      ],
+      "text": "OPPO Reno11 Pro",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-092",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0024"
+      ],
+      "text": "OPPO Reno11",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-093",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0025"
+      ],
+      "text": "其 它 机 型 (ColorOs 14.0 及 以 上 版 本 ) 将 于 12 A 13",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-094",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0026"
+      ],
+      "text": "日 前 完成 推送 ， 分 批 覆盖 全 部 用 户 。",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-095",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0027"
+      ],
+      "text": "相关 进展 与 计划 后 续 将 在 ColorOS / ColorOS HARB",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-096",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0028"
+      ],
+      "text": "手 官方 微 博 、OPPO 社区 / 一 加 社区 ColorOs BAM",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-097",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0029"
+      ],
+      "text": "号 更 新 ， 感 谢 大 家 的 关注 。",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-098",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0030"
+      ],
+      "text": "* 版 本 升级 通知 采取 逐步 推送 的 方式 ， 以 上 计划 为 最 迟 在 该 日 期",
+      "targetIds": [],
+      "exclusionReason": "disclaimer"
+    },
+    {
+      "id": "source-excluded-099",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0031"
+      ],
+      "text": "开始 推送 ， 并 非 所 有 用 户 可 立即 收 到 版 本 升级 通知 ， 若 您 未 收 到",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-100",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0032"
+      ],
+      "text": "通知 ， 请 耐心 等 待 。",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-101",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0033"
+      ],
+      "text": "* OPPO 机 型 样 音 发 布 实况 照片 功能 依赖 第 三 方 应 用 适 配 ， 需 确",
+      "targetIds": [],
+      "exclusionReason": "disclaimer"
+    },
+    {
+      "id": "source-excluded-102",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0034"
+      ],
+      "text": "保 系 统 版 本 为 ColorOS 15,",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-103",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0035"
+      ],
+      "text": "拌 音 应 用 版 本 为 31.8.0 RUE, 可",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-104",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0036"
+      ],
+      "text": "在 OPPO 软件 商店 下 载 更 新 。",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-105",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0038"
+      ],
+      "text": "加 机 型 拌 音 发 布 实况 照片 功能 依赖 第 三 方 应 用 适 配 ， 需 确保",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-106",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0037"
+      ],
+      "text": "*",
+      "targetIds": [],
+      "exclusionReason": "disclaimer"
+    },
+    {
+      "id": "source-excluded-107",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0041"
+      ],
+      "text": "MAA 32.0.0 及 以 上 , 可 在",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-108",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0039"
+      ],
+      "text": "系统 版 本 为 ColorOS 15,",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-109",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0040"
+      ],
+      "text": "Sem",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-110",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0042"
+      ],
+      "text": "一 加 软件 商店 下 载 更 新 。",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-111",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0046"
+      ],
+      "text": "确保 系统 版 本 为 ColorOS 15,",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-112",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0043"
+      ],
+      "text": "* 与 iOS 双向 互 传 实况 照片 功",
+      "targetIds": [],
+      "exclusionReason": "disclaimer"
+    },
+    {
+      "id": "source-excluded-113",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0044"
+      ],
+      "text": "eb a",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-114",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0045"
+      ],
+      "text": "用 而",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-115",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0047"
+      ],
+      "text": "且 : 1、rOPPO 互 传 \\ [一 加 互 传 应 用 版 本 为 15.415 及 以 上 ;",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-116",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0048"
+      ],
+      "text": "2、[O+ 互联 应 用 版 本 为 1.015 及 以 上 。",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-117",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0049"
+      ],
+      "text": "( TOPPO 互 传 ! \\ [一 加 互 传 应",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-118",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0050"
+      ],
+      "text": "可 在 OPPO 软件 商店 和 一",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-119",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0051"
+      ],
+      "text": "加 软件 商店 下 载 更 新 ; TO+ 互联 应 用 可 在 iPhone 的 App Store",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-120",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0052"
+      ],
+      "text": "下 载 更 新 ) 。",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-121",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0053"
+      ],
+      "text": "* 部 分 功能 依赖 手机 硬件 支持 ， 不 同 机 型 可 能 存在 差异 ， 请 以 实",
+      "targetIds": [],
+      "exclusionReason": "disclaimer"
+    },
+    {
+      "id": "source-excluded-122",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0054"
+      ],
+      "text": "际 呈 现 效果 与",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-123",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0055"
+      ],
+      "text": "方 渠道 信息 为 准",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-124",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0056"
+      ],
+      "text": "* 机 型 排序 与 升级 先后 顺序 无 关 ，",
+      "targetIds": [],
+      "exclusionReason": "disclaimer"
+    },
+    {
+      "id": "source-excluded-125",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0057"
+      ],
+      "text": "人体 机 型 升级 时 间 请 以 实际 为",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-126",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0058"
+      ],
+      "text": "准 。",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-127",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0059"
+      ],
+      "text": "ColorOS 15",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-128",
+      "classification": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0060"
+      ],
+      "text": "BER 更 自在",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "highlight-01-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0002",
+        "tesseract-0003",
+        "tesseract-0004"
+      ],
+      "region": {
+        "x": 109,
+        "y": 581,
+        "width": 634,
+        "height": 377
+      },
+      "note": "实况照片：实况照片能力进化标题与说明"
+    },
+    {
+      "id": "highlight-02-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0003",
+        "tesseract-0004",
+        "tesseract-0005",
+        "tesseract-0006"
+      ],
+      "region": {
+        "x": 106,
+        "y": 787,
+        "width": 868,
+        "height": 301
+      },
+      "note": "智慧车载：智慧车载焕新标题与说明"
+    },
+    {
+      "id": "highlight-03-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0012",
+        "tesseract-0013",
+        "tesseract-0015",
+        "tesseract-0016",
+        "tesseract-0017"
+      ],
+      "region": {
+        "x": 107,
+        "y": 1589,
+        "width": 862,
+        "height": 262
+      },
+      "note": "手机管家：页面与安全升级标题与说明"
+    },
+    {
+      "id": "update-01-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0003",
+        "tesseract-0004"
+      ],
+      "region": {
+        "x": 109,
+        "y": 754,
+        "width": 572,
+        "height": 204
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-02-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0004"
+      ],
+      "region": {
+        "x": 112,
+        "y": 856,
+        "width": 569,
+        "height": 102
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-03-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0013",
+        "tesseract-0015",
+        "tesseract-0016",
+        "tesseract-0017",
+        "tesseract-0018"
+      ],
+      "region": {
+        "x": 109,
+        "y": 1222,
+        "width": 868,
+        "height": 496
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-04-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0015",
+        "tesseract-0016"
+      ],
+      "region": {
+        "x": 112,
+        "y": 1329,
+        "width": 815,
+        "height": 209
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-05-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0016",
+        "tesseract-0017"
+      ],
+      "region": {
+        "x": 114,
+        "y": 1449,
+        "width": 863,
+        "height": 213
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-06-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0017",
+        "tesseract-0018"
+      ],
+      "region": {
+        "x": 114,
+        "y": 1555,
+        "width": 863,
+        "height": 163
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-07-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0003",
+        "tesseract-0004",
+        "tesseract-0005",
+        "tesseract-0006"
+      ],
+      "region": {
+        "x": 106,
+        "y": 787,
+        "width": 868,
+        "height": 301
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-08-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0011"
+      ],
+      "region": {
+        "x": 112,
+        "y": 1423,
+        "width": 477,
+        "height": 118
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-09-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0022",
+        "tesseract-0023"
+      ],
+      "region": {
+        "x": 106,
+        "y": 2343,
+        "width": 860,
+        "height": 137
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-10-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0026"
+      ],
+      "region": {
+        "x": 109,
+        "y": 2674,
+        "width": 350,
+        "height": 98
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "source-excluded-014-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/67be0a06646929eb605fbc9f526cc45e.webp",
+      "sourceIndex": 1,
+      "sourceHash": "bc2b2bb64ea56f0d2b8ad5e7cc17430daaca49d3b25ef7949e8a21d539eefd9a",
+      "blockIds": [
+        "tesseract-0001"
+      ],
+      "region": {
+        "x": 88,
+        "y": 932,
+        "width": 585,
+        "height": 143
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-015-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/67be0a06646929eb605fbc9f526cc45e.webp",
+      "sourceIndex": 1,
+      "sourceHash": "bc2b2bb64ea56f0d2b8ad5e7cc17430daaca49d3b25ef7949e8a21d539eefd9a",
+      "blockIds": [
+        "tesseract-0002"
+      ],
+      "region": {
+        "x": 85,
+        "y": 956,
+        "width": 916,
+        "height": 394
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-016-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0001"
+      ],
+      "region": {
+        "x": 180,
+        "y": 161,
+        "width": 723,
+        "height": 190
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-017-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0005"
+      ],
+      "region": {
+        "x": 115,
+        "y": 999,
+        "width": 626,
+        "height": 160
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-018-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0006"
+      ],
+      "region": {
+        "x": 109,
+        "y": 1168,
+        "width": 300,
+        "height": 101
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-019-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0012"
+      ],
+      "region": {
+        "x": 538,
+        "y": 1168,
+        "width": 434,
+        "height": 108
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-020-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0007"
+      ],
+      "region": {
+        "x": 426,
+        "y": 1172,
+        "width": 56,
+        "height": 88
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-021-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0008"
+      ],
+      "region": {
+        "x": 464,
+        "y": 1173,
+        "width": 57,
+        "height": 70
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-022-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0010"
+      ],
+      "region": {
+        "x": 501,
+        "y": 1173,
+        "width": 56,
+        "height": 86
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-023-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0009"
+      ],
+      "region": {
+        "x": 466,
+        "y": 1185,
+        "width": 56,
+        "height": 76
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-024-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0011"
+      ],
+      "region": {
+        "x": 510,
+        "y": 1194,
+        "width": 49,
+        "height": 67
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-025-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0014"
+      ],
+      "region": {
+        "x": 362,
+        "y": 1207,
+        "width": 163,
+        "height": 127
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-026-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0019"
+      ],
+      "region": {
+        "x": 113,
+        "y": 1716,
+        "width": 861,
+        "height": 108
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-027-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0020"
+      ],
+      "region": {
+        "x": 114,
+        "y": 1770,
+        "width": 132,
+        "height": 108
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-028-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0021"
+      ],
+      "region": {
+        "x": 114,
+        "y": 1877,
+        "width": 602,
+        "height": 108
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-029-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0022"
+      ],
+      "region": {
+        "x": 112,
+        "y": 2018,
+        "width": 319,
+        "height": 159
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-030-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0023"
+      ],
+      "region": {
+        "x": 111,
+        "y": 2193,
+        "width": 856,
+        "height": 108
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-031-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0025"
+      ],
+      "region": {
+        "x": 110,
+        "y": 2254,
+        "width": 535,
+        "height": 103
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-032-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0024"
+      ],
+      "region": {
+        "x": 645,
+        "y": 2258,
+        "width": 323,
+        "height": 89
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-033-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0026"
+      ],
+      "region": {
+        "x": 109,
+        "y": 2315,
+        "width": 441,
+        "height": 108
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-034-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0028"
+      ],
+      "region": {
+        "x": 654,
+        "y": 2436,
+        "width": 130,
+        "height": 98
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-035-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0027"
+      ],
+      "region": {
+        "x": 109,
+        "y": 2442,
+        "width": 299,
+        "height": 80
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-036-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0030"
+      ],
+      "region": {
+        "x": 654,
+        "y": 2502,
+        "width": 130,
+        "height": 98
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-037-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0029"
+      ],
+      "region": {
+        "x": 109,
+        "y": 2508,
+        "width": 239,
+        "height": 80
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-038-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0032"
+      ],
+      "region": {
+        "x": 654,
+        "y": 2567,
+        "width": 123,
+        "height": 98
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-039-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0031"
+      ],
+      "region": {
+        "x": 109,
+        "y": 2573,
+        "width": 240,
+        "height": 80
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-040-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0034"
+      ],
+      "region": {
+        "x": 654,
+        "y": 2630,
+        "width": 243,
+        "height": 98
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-041-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0033"
+      ],
+      "region": {
+        "x": 109,
+        "y": 2638,
+        "width": 304,
+        "height": 86
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-042-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0036"
+      ],
+      "region": {
+        "x": 654,
+        "y": 2696,
+        "width": 183,
+        "height": 97
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-043-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0035"
+      ],
+      "region": {
+        "x": 109,
+        "y": 2701,
+        "width": 493,
+        "height": 85
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-044-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0038"
+      ],
+      "region": {
+        "x": 654,
+        "y": 2761,
+        "width": 206,
+        "height": 97
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-045-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0037"
+      ],
+      "region": {
+        "x": 109,
+        "y": 2768,
+        "width": 321,
+        "height": 80
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-046-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0040"
+      ],
+      "region": {
+        "x": 654,
+        "y": 2825,
+        "width": 243,
+        "height": 97
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-047-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0039"
+      ],
+      "region": {
+        "x": 109,
+        "y": 2833,
+        "width": 238,
+        "height": 80
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-048-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0042"
+      ],
+      "region": {
+        "x": 654,
+        "y": 2891,
+        "width": 183,
+        "height": 97
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-049-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0041"
+      ],
+      "region": {
+        "x": 109,
+        "y": 2898,
+        "width": 297,
+        "height": 80
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-050-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0043"
+      ],
+      "region": {
+        "x": 109,
+        "y": 2963,
+        "width": 237,
+        "height": 80
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-051-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0044"
+      ],
+      "region": {
+        "x": 109,
+        "y": 3030,
+        "width": 294,
+        "height": 79
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-052-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0045"
+      ],
+      "region": {
+        "x": 110,
+        "y": 3143,
+        "width": 862,
+        "height": 89
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-053-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0046"
+      ],
+      "region": {
+        "x": 111,
+        "y": 3199,
+        "width": 532,
+        "height": 108
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-054-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0047"
+      ],
+      "region": {
+        "x": 658,
+        "y": 3199,
+        "width": 318,
+        "height": 107
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-055-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1df87793e4d5bcd413619ea89bef35f5.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f755904fb465bd2b964e5875fca98cd4bd1701c08a63e768c3b6ce10a06be05f",
+      "blockIds": [
+        "tesseract-0048"
+      ],
+      "region": {
+        "x": 110,
+        "y": 3257,
+        "width": 532,
+        "height": 103
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-056-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0001"
+      ],
+      "region": {
+        "x": 180,
+        "y": 198,
+        "width": 723,
+        "height": 180
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-057-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0002"
+      ],
+      "region": {
+        "x": 111,
+        "y": 617,
+        "width": 162,
+        "height": 150
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-058-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0007"
+      ],
+      "region": {
+        "x": 110,
+        "y": 1119,
+        "width": 564,
+        "height": 79
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-059-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0008"
+      ],
+      "region": {
+        "x": 690,
+        "y": 1119,
+        "width": 279,
+        "height": 79
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-060-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0009"
+      ],
+      "region": {
+        "x": 110,
+        "y": 1173,
+        "width": 418,
+        "height": 80
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-061-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0010"
+      ],
+      "region": {
+        "x": 111,
+        "y": 1282,
+        "width": 694,
+        "height": 98
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-062-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0014"
+      ],
+      "region": {
+        "x": 738,
+        "y": 1758,
+        "width": 82,
+        "height": 55
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-063-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0018"
+      ],
+      "region": {
+        "x": 110,
+        "y": 1811,
+        "width": 166,
+        "height": 79
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-064-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0019"
+      ],
+      "region": {
+        "x": 109,
+        "y": 1920,
+        "width": 698,
+        "height": 98
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-065-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0020"
+      ],
+      "region": {
+        "x": 112,
+        "y": 2040,
+        "width": 634,
+        "height": 80
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-066-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0021"
+      ],
+      "region": {
+        "x": 112,
+        "y": 2172,
+        "width": 627,
+        "height": 150
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-067-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0024"
+      ],
+      "region": {
+        "x": 110,
+        "y": 2507,
+        "width": 859,
+        "height": 98
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-068-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/f7a307391b737076338205a791c2aff6.webp",
+      "sourceIndex": 3,
+      "sourceHash": "50330f8c312e684a88e3566725dc6629cac4052719eaa7e6b3fe943bec1d02e2",
+      "blockIds": [
+        "tesseract-0025"
+      ],
+      "region": {
+        "x": 110,
+        "y": 2565,
+        "width": 130,
+        "height": 79
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-069-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0001"
+      ],
+      "region": {
+        "x": 112,
+        "y": 15,
+        "width": 319,
+        "height": 125
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-070-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0002"
+      ],
+      "region": {
+        "x": 111,
+        "y": 186,
+        "width": 861,
+        "height": 105
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-071-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0003"
+      ],
+      "region": {
+        "x": 110,
+        "y": 247,
+        "width": 811,
+        "height": 105
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-072-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0005"
+      ],
+      "region": {
+        "x": 654,
+        "y": 361,
+        "width": 130,
+        "height": 98
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-073-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0004"
+      ],
+      "region": {
+        "x": 109,
+        "y": 367,
+        "width": 299,
+        "height": 77
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-074-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0007"
+      ],
+      "region": {
+        "x": 654,
+        "y": 427,
+        "width": 130,
+        "height": 98
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-075-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0006"
+      ],
+      "region": {
+        "x": 109,
+        "y": 433,
+        "width": 239,
+        "height": 77
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-076-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0009"
+      ],
+      "region": {
+        "x": 654,
+        "y": 492,
+        "width": 123,
+        "height": 98
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-077-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0008"
+      ],
+      "region": {
+        "x": 109,
+        "y": 498,
+        "width": 240,
+        "height": 77
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-078-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0011"
+      ],
+      "region": {
+        "x": 654,
+        "y": 556,
+        "width": 243,
+        "height": 94
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-079-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0010"
+      ],
+      "region": {
+        "x": 109,
+        "y": 563,
+        "width": 304,
+        "height": 84
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-080-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0013"
+      ],
+      "region": {
+        "x": 654,
+        "y": 621,
+        "width": 183,
+        "height": 94
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-081-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0012"
+      ],
+      "region": {
+        "x": 109,
+        "y": 626,
+        "width": 493,
+        "height": 82
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-082-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0015"
+      ],
+      "region": {
+        "x": 654,
+        "y": 686,
+        "width": 206,
+        "height": 94
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-083-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0014"
+      ],
+      "region": {
+        "x": 109,
+        "y": 693,
+        "width": 321,
+        "height": 77
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-084-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0017"
+      ],
+      "region": {
+        "x": 654,
+        "y": 750,
+        "width": 243,
+        "height": 95
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-085-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0016"
+      ],
+      "region": {
+        "x": 109,
+        "y": 758,
+        "width": 238,
+        "height": 77
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-086-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0019"
+      ],
+      "region": {
+        "x": 654,
+        "y": 816,
+        "width": 183,
+        "height": 94
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-087-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0018"
+      ],
+      "region": {
+        "x": 109,
+        "y": 823,
+        "width": 297,
+        "height": 77
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-088-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0020"
+      ],
+      "region": {
+        "x": 109,
+        "y": 888,
+        "width": 237,
+        "height": 77
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-089-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0021"
+      ],
+      "region": {
+        "x": 109,
+        "y": 955,
+        "width": 294,
+        "height": 76
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-090-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0022"
+      ],
+      "region": {
+        "x": 109,
+        "y": 1020,
+        "width": 234,
+        "height": 76
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-091-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0023"
+      ],
+      "region": {
+        "x": 109,
+        "y": 1085,
+        "width": 290,
+        "height": 76
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-092-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0024"
+      ],
+      "region": {
+        "x": 109,
+        "y": 1150,
+        "width": 228,
+        "height": 76
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-093-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0025"
+      ],
+      "region": {
+        "x": 110,
+        "y": 1250,
+        "width": 863,
+        "height": 100
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-094-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0026"
+      ],
+      "region": {
+        "x": 114,
+        "y": 1312,
+        "width": 575,
+        "height": 106
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-095-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0027"
+      ],
+      "region": {
+        "x": 109,
+        "y": 1423,
+        "width": 862,
+        "height": 99
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-096-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0028"
+      ],
+      "region": {
+        "x": 110,
+        "y": 1488,
+        "width": 863,
+        "height": 86
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-097-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0029"
+      ],
+      "region": {
+        "x": 110,
+        "y": 1544,
+        "width": 435,
+        "height": 106
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-098-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0030"
+      ],
+      "region": {
+        "x": 109,
+        "y": 1653,
+        "width": 859,
+        "height": 97
+      },
+      "note": "不进入表格：disclaimer"
+    },
+    {
+      "id": "source-excluded-099-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0031"
+      ],
+      "region": {
+        "x": 110,
+        "y": 1702,
+        "width": 864,
+        "height": 96
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-100-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0032"
+      ],
+      "region": {
+        "x": 109,
+        "y": 1750,
+        "width": 278,
+        "height": 96
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-101-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0033"
+      ],
+      "region": {
+        "x": 109,
+        "y": 1797,
+        "width": 865,
+        "height": 94
+      },
+      "note": "不进入表格：disclaimer"
+    },
+    {
+      "id": "source-excluded-102-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0034"
+      ],
+      "region": {
+        "x": 109,
+        "y": 1845,
+        "width": 368,
+        "height": 92
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-103-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0035"
+      ],
+      "region": {
+        "x": 500,
+        "y": 1846,
+        "width": 471,
+        "height": 95
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-104-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0036"
+      ],
+      "region": {
+        "x": 109,
+        "y": 1893,
+        "width": 406,
+        "height": 94
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-105-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0038"
+      ],
+      "region": {
+        "x": 163,
+        "y": 1942,
+        "width": 809,
+        "height": 96
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-106-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0037"
+      ],
+      "region": {
+        "x": 109,
+        "y": 1948,
+        "width": 39,
+        "height": 64
+      },
+      "note": "不进入表格：disclaimer"
+    },
+    {
+      "id": "source-excluded-107-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0041"
+      ],
+      "region": {
+        "x": 592,
+        "y": 1988,
+        "width": 384,
+        "height": 93
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-108-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0039"
+      ],
+      "region": {
+        "x": 110,
+        "y": 1990,
+        "width": 337,
+        "height": 90
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-109-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0040"
+      ],
+      "region": {
+        "x": 468,
+        "y": 1994,
+        "width": 113,
+        "height": 79
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-110-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0042"
+      ],
+      "region": {
+        "x": 110,
+        "y": 2037,
+        "width": 339,
+        "height": 98
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-111-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0046"
+      ],
+      "region": {
+        "x": 564,
+        "y": 2085,
+        "width": 408,
+        "height": 94
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-112-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0043"
+      ],
+      "region": {
+        "x": 109,
+        "y": 2086,
+        "width": 418,
+        "height": 95
+      },
+      "note": "不进入表格：disclaimer"
+    },
+    {
+      "id": "source-excluded-113-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0044"
+      ],
+      "region": {
+        "x": 503,
+        "y": 2090,
+        "width": 82,
+        "height": 64
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-114-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0045"
+      ],
+      "region": {
+        "x": 505,
+        "y": 2100,
+        "width": 80,
+        "height": 69
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-115-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0047"
+      ],
+      "region": {
+        "x": 110,
+        "y": 2133,
+        "width": 858,
+        "height": 93
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-116-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0048"
+      ],
+      "region": {
+        "x": 109,
+        "y": 2182,
+        "width": 553,
+        "height": 96
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-117-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0049"
+      ],
+      "region": {
+        "x": 129,
+        "y": 2230,
+        "width": 470,
+        "height": 97
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-118-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0050"
+      ],
+      "region": {
+        "x": 610,
+        "y": 2234,
+        "width": 358,
+        "height": 80
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-119-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0051"
+      ],
+      "region": {
+        "x": 109,
+        "y": 2276,
+        "width": 862,
+        "height": 95
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-120-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0052"
+      ],
+      "region": {
+        "x": 110,
+        "y": 2325,
+        "width": 182,
+        "height": 98
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-121-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0053"
+      ],
+      "region": {
+        "x": 109,
+        "y": 2374,
+        "width": 863,
+        "height": 96
+      },
+      "note": "不进入表格：disclaimer"
+    },
+    {
+      "id": "source-excluded-122-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0054"
+      ],
+      "region": {
+        "x": 111,
+        "y": 2426,
+        "width": 199,
+        "height": 80
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-123-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0055"
+      ],
+      "region": {
+        "x": 320,
+        "y": 2426,
+        "width": 223,
+        "height": 80
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-124-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0056"
+      ],
+      "region": {
+        "x": 109,
+        "y": 2470,
+        "width": 449,
+        "height": 96
+      },
+      "note": "不进入表格：disclaimer"
+    },
+    {
+      "id": "source-excluded-125-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0057"
+      ],
+      "region": {
+        "x": 569,
+        "y": 2474,
+        "width": 394,
+        "height": 80
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-126-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0058"
+      ],
+      "region": {
+        "x": 110,
+        "y": 2522,
+        "width": 65,
+        "height": 79
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-127-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0059"
+      ],
+      "region": {
+        "x": 381,
+        "y": 2972,
+        "width": 318,
+        "height": 100
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-128-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/32b563a0b9a5e09b4884832f74a18e66.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e5748d9459015d7176428e51cea82fbf705b894857567f4479d56fc6d5d55b9d",
+      "blockIds": [
+        "tesseract-0060"
+      ],
+      "region": {
+        "x": 420,
+        "y": 3042,
+        "width": 234,
+        "height": 84
+      },
+      "note": "不进入表格：decoration"
+    }
+  ],
+  "audit": {
+    "highlightReviewVersion": 4,
+    "updateReviewVersion": 4,
+    "review": {
+      "content": "verified",
+      "modules": "verified",
+      "media": "verified",
+      "page": "verified"
+    },
+    "expectedHighlightCount": 3,
+    "sourceItemCount": 128,
+    "includedItemCount": 13,
+    "excludedItemCount": 115,
+    "highlightCount": 3,
+    "updateCount": 10,
+    "mediaCount": 0,
+    "mappedItemCount": 128,
+    "coverageRate": 1
+  }
+}

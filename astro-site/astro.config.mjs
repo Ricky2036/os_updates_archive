@@ -7,6 +7,9 @@ export default defineConfig({
   base,
   output: 'static',
   compressHTML: true,
+  devToolbar: {
+    enabled: false,
+  },
   build: {
     format: 'directory',
     inlineStylesheets: 'auto',

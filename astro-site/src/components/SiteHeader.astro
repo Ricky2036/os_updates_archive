@@ -1,26 +1,67 @@
 ---
 import Icon from './Icon.astro';
-import { brandMeta, sitePath, type Brand } from '../lib/archive';
+import { brandMeta, sitePath, getArticles, articlePath, type Brand } from '../lib/archive';
+import { officialArchiveMeta, type ColorOSSection } from '../lib/official-archives';
 
-interface Props { activeBrand?: Brand; hasArchiveNav?: boolean }
-const { activeBrand, hasArchiveNav = false } = Astro.props;
+interface Props { activeBrand?: Brand; hasArchiveNav?: boolean; hasMonthlyViewToggle?: boolean; activeColorOSSection?: ColorOSSection; activeOriginOSSection?: ColorOSSection }
+const { activeBrand, hasArchiveNav = false, hasMonthlyViewToggle = false, activeColorOSSection = activeBrand === 'coloros' ? 'monthly' : undefined, activeOriginOSSection = activeBrand === 'originos' ? 'monthly' : undefined } = Astro.props;
+const colorOSActive = activeBrand === 'coloros';
+const originOSActive = activeBrand === 'originos';
+
+const articles = await getArticles();
+const getLatestUrl = (brand: Brand) => {
+  const latest = articles.find(a => a.data.brand === brand);
+  return latest ? articlePath(latest) : sitePath(`${brand}/`);
+};
+const colorOSLatestUrl = getLatestUrl('coloros');
+const originOSLatestUrl = getLatestUrl('originos');
+
 ---
-<header class="site-header">
+<header class:list={{ 'site-header': true, 'has-archive-nav': hasArchiveNav }}>
   <div class="header-inner">
-    <a class="brand-mark" href={sitePath()} aria-label="OS档案馆首页">
-      <img src={sitePath('assets/images/logo.png')} alt="" width="32" height="32" />
-      <span>OS档案馆</span>
-    </a>
+    <div class="header-left-group" style="display: flex; align-items: center; gap: 16px;">
+      <a class="brand-mark" href={sitePath()} aria-label="OS档案馆首页">
+        <img src={sitePath('assets/images/archive-mark.svg')} alt="" width="32" height="32" />
+        <span>OS档案馆</span>
+      </a>
+      {hasMonthlyViewToggle && (
+        <button type="button" class="header-view-toggle" data-monthly-view-toggle aria-label="切换原始版和精简版" title="切换视图">
+          <div class="icon-digest"><Icon name="list" size={18} /></div>
+          <div class="icon-original"><Icon name="image" size={18} /></div>
+        </button>
+      )}
+    </div>
     {hasArchiveNav && (
       <button class="menu-button" type="button" aria-label="打开文章目录" aria-expanded="false" aria-controls="archive-nav">
-        <Icon name="menu" size={20} /><span class="sr-only">打开目录</span>
+        <Icon name="menu" size={18} /><span class="sr-only">打开目录</span>
       </button>
     )}
   </div>
 </header>
 <nav class="brand-switcher" aria-label="主导航">
-  <a class:list={{ 'home-tab': true, active: !activeBrand }} href={sitePath()}>首页</a>
-  {Object.entries(brandMeta).map(([key, meta]) => (
-    <a class:list={{ active: activeBrand === key }} href={sitePath(`${key}/`)}>{meta.name}</a>
-  ))}
+  <a class:list={{ 'home-tab': true, active: !activeBrand }} href={sitePath()}>
+    {!activeBrand && <div class="nav-highlight" transition:name="brand-highlight"></div>}
+    <span style="position: relative; z-index: 10;">首页</span>
+  </a>
+  <div class:list={{ 'brand-menu': true, active: colorOSActive }}>
+    <a class="brand-tab brand-trigger" href={colorOSLatestUrl} aria-haspopup="menu" aria-expanded="false">
+      {colorOSActive && <div class="nav-highlight" transition:name="brand-highlight"></div>}
+      <span style="position: relative; z-index: 10;">{brandMeta.coloros.name}</span><i aria-hidden="true"></i>
+    </a>
+    <div class="brand-submenu" role="menu" aria-label="ColorOS 档案">
+      <a class:list={{ active: activeColorOSSection === '15' }} role="menuitem" href={officialArchiveMeta['15'].route} data-astro-reload>ColorOS 15</a>
+      <a class:list={{ active: activeColorOSSection === '16' }} role="menuitem" href={officialArchiveMeta['16'].route} data-astro-reload>ColorOS 16</a>
+      <a class:list={{ active: activeColorOSSection === 'monthly' }} role="menuitem" href={colorOSLatestUrl}>月更记录</a>
+    </div>
+  </div>
+  <div class:list={{ 'brand-menu': true, active: originOSActive }}>
+    <a class="brand-tab brand-trigger" href={originOSLatestUrl} aria-haspopup="menu" aria-expanded="false">
+      {originOSActive && <div class="nav-highlight" transition:name="brand-highlight"></div>}
+      <span style="position: relative; z-index: 10;">{brandMeta.originos.name}</span><i aria-hidden="true"></i>
+    </a>
+    <div class="brand-submenu" role="menu" aria-label="OriginOS 档案">
+      <a class:list={{ active: activeOriginOSSection === 'originos6' }} role="menuitem" href={officialArchiveMeta['originos6'].route} data-astro-reload>OriginOS 6</a>
+      <a class:list={{ active: activeOriginOSSection === 'monthly' }} role="menuitem" href={originOSLatestUrl}>月更记录</a>
+    </div>
+  </div>
 </nav>

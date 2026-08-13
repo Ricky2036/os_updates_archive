@@ -1,0 +1,5110 @@
+{
+  "schemaVersion": 3,
+  "contentReviewVersion": 4,
+  "mediaReviewVersion": 4,
+  "articleId": "OPPO_ColorOS_十一月系统升级一览",
+  "reviewStatus": "verified",
+  "sourceHash": "2d89f7563948d9dbeb8e863bba301279c70cb00266d9d0d1f3fca9d2dcc4981e",
+  "highlights": [
+    {
+      "id": "highlight-01",
+      "module": "内容传送门",
+      "moduleSource": "explicit-heading",
+      "title": "内容传送门",
+      "description": "一按一拖服务直达，支持搜同款、问 AI、分享、发布和导航等操作。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-01-body",
+        "highlight-01-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-01"
+      ],
+      "media": [
+        {
+          "id": "highlight-01-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/06/highlight-01-960.webp",
+          "thumbnail": "assets/digests-v2/06/highlight-01-480.webp",
+          "avifSrc": "assets/digests-v2/06/highlight-01-960.avif",
+          "avifThumbnail": "assets/digests-v2/06/highlight-01-480.avif",
+          "alt": "内容传送门功能演示",
+          "evidenceId": "highlight-01-demo",
+          "width": 480,
+          "height": 295
+        }
+      ]
+    },
+    {
+      "id": "highlight-02",
+      "module": "翻译",
+      "moduleSource": "explicit-heading",
+      "title": "AI 同声传译支持声音克隆",
+      "description": "无需提前录制，可复刻说话人音色并进行同声传译。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-02-body",
+        "highlight-02-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-02"
+      ],
+      "media": [
+        {
+          "id": "highlight-02-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/06/highlight-02-960.webp",
+          "thumbnail": "assets/digests-v2/06/highlight-02-480.webp",
+          "avifSrc": "assets/digests-v2/06/highlight-02-960.avif",
+          "avifThumbnail": "assets/digests-v2/06/highlight-02-480.avif",
+          "alt": "AI 同声传译支持声音克隆功能演示",
+          "evidenceId": "highlight-02-demo",
+          "width": 480,
+          "height": 282
+        }
+      ]
+    },
+    {
+      "id": "highlight-03",
+      "module": "小布助手",
+      "moduleSource": "explicit-heading",
+      "title": "一句话 AI 人像补光",
+      "description": "智能识别人像中的暗光与逆光并进行补光。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-03-body",
+        "highlight-03-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-03"
+      ],
+      "media": [
+        {
+          "id": "highlight-03-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/06/highlight-03-960.webp",
+          "thumbnail": "assets/digests-v2/06/highlight-03-480.webp",
+          "avifSrc": "assets/digests-v2/06/highlight-03-960.avif",
+          "avifThumbnail": "assets/digests-v2/06/highlight-03-480.avif",
+          "alt": "一句话 AI 人像补光功能演示",
+          "evidenceId": "highlight-03-demo",
+          "width": 480,
+          "height": 263
+        }
+      ]
+    },
+    {
+      "id": "highlight-04",
+      "module": "小布助手",
+      "moduleSource": "explicit-heading",
+      "title": "一句话打开乘车码",
+      "description": "通过小布助手快速打开支付宝乘车码。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-04-body",
+        "highlight-04-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-04"
+      ],
+      "media": [
+        {
+          "id": "highlight-04-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/06/highlight-04-960.webp",
+          "thumbnail": "assets/digests-v2/06/highlight-04-480.webp",
+          "avifSrc": "assets/digests-v2/06/highlight-04-960.avif",
+          "avifThumbnail": "assets/digests-v2/06/highlight-04-480.avif",
+          "alt": "一句话打开乘车码功能演示",
+          "evidenceId": "highlight-04-demo",
+          "width": 480,
+          "height": 282
+        }
+      ]
+    },
+    {
+      "id": "highlight-05",
+      "module": "锁屏",
+      "moduleSource": "explicit-heading",
+      "title": "大时钟支持拖拽",
+      "description": "锁屏大时钟可自由拖拽调整位置。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-05-body",
+        "highlight-05-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-05"
+      ],
+      "media": [
+        {
+          "id": "highlight-05-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/06/highlight-05-960.webp",
+          "thumbnail": "assets/digests-v2/06/highlight-05-480.webp",
+          "avifSrc": "assets/digests-v2/06/highlight-05-960.avif",
+          "avifThumbnail": "assets/digests-v2/06/highlight-05-480.avif",
+          "alt": "大时钟支持拖拽功能演示",
+          "evidenceId": "highlight-05-demo",
+          "width": 480,
+          "height": 270
+        }
+      ]
+    },
+    {
+      "id": "highlight-06",
+      "module": "桌面",
+      "moduleSource": "explicit-heading",
+      "title": "卡片堆叠支持三方插件",
+      "description": "桌面卡片堆叠扩展三方插件支持。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-06-body",
+        "highlight-06-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-06"
+      ],
+      "media": [
+        {
+          "id": "highlight-06-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/06/highlight-06-960.webp",
+          "thumbnail": "assets/digests-v2/06/highlight-06-480.webp",
+          "avifSrc": "assets/digests-v2/06/highlight-06-960.avif",
+          "avifThumbnail": "assets/digests-v2/06/highlight-06-480.avif",
+          "alt": "卡片堆叠支持三方插件功能演示",
+          "evidenceId": "highlight-06-demo",
+          "width": 480,
+          "height": 301
+        }
+      ]
+    },
+    {
+      "id": "highlight-07",
+      "module": "小布建议",
+      "moduleSource": "explicit-heading",
+      "title": "生理周期卡",
+      "description": "以卡片形式展示生理周期相关提醒。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-07-body",
+        "highlight-07-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-07"
+      ],
+      "media": [
+        {
+          "id": "highlight-07-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/06/highlight-07-960.webp",
+          "thumbnail": "assets/digests-v2/06/highlight-07-480.webp",
+          "avifSrc": "assets/digests-v2/06/highlight-07-960.avif",
+          "avifThumbnail": "assets/digests-v2/06/highlight-07-480.avif",
+          "alt": "生理周期卡功能演示",
+          "evidenceId": "highlight-07-demo",
+          "width": 480,
+          "height": 119
+        }
+      ]
+    },
+    {
+      "id": "highlight-08",
+      "module": "小布建议",
+      "moduleSource": "explicit-heading",
+      "title": "医院服务卡",
+      "description": "提供医院就诊相关服务信息。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-08-body",
+        "highlight-08-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-08"
+      ],
+      "media": [
+        {
+          "id": "highlight-08-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/06/highlight-08-960.webp",
+          "thumbnail": "assets/digests-v2/06/highlight-08-480.webp",
+          "avifSrc": "assets/digests-v2/06/highlight-08-960.avif",
+          "avifThumbnail": "assets/digests-v2/06/highlight-08-480.avif",
+          "alt": "医院服务卡功能演示",
+          "evidenceId": "highlight-08-demo",
+          "width": 480,
+          "height": 207
+        }
+      ]
+    },
+    {
+      "id": "highlight-09",
+      "module": "小布建议",
+      "moduleSource": "explicit-heading",
+      "title": "运动记录卡",
+      "description": "以卡片形式展示运动记录与进度。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-09-body",
+        "highlight-09-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-09"
+      ],
+      "media": [
+        {
+          "id": "highlight-09-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/06/highlight-09-960.webp",
+          "thumbnail": "assets/digests-v2/06/highlight-09-480.webp",
+          "avifSrc": "assets/digests-v2/06/highlight-09-960.avif",
+          "avifThumbnail": "assets/digests-v2/06/highlight-09-480.avif",
+          "alt": "运动记录卡功能演示",
+          "evidenceId": "highlight-09-demo",
+          "width": 480,
+          "height": 113
+        }
+      ]
+    },
+    {
+      "id": "highlight-10",
+      "module": "相册",
+      "moduleSource": "explicit-heading",
+      "title": "AI 图像校正",
+      "description": "自动识别并校正倾斜或透视变形的照片。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-10-body",
+        "highlight-10-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-10"
+      ],
+      "media": [
+        {
+          "id": "highlight-10-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/06/highlight-10-960.webp",
+          "thumbnail": "assets/digests-v2/06/highlight-10-480.webp",
+          "avifSrc": "assets/digests-v2/06/highlight-10-960.avif",
+          "avifThumbnail": "assets/digests-v2/06/highlight-10-480.avif",
+          "alt": "AI 图像校正功能演示",
+          "evidenceId": "highlight-10-demo",
+          "width": 480,
+          "height": 307
+        }
+      ]
+    },
+    {
+      "id": "highlight-11",
+      "module": "电话",
+      "moduleSource": "explicit-heading",
+      "title": "视频设置来电铃声",
+      "description": "支持将本地视频设置为电话铃声。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-11-body",
+        "highlight-11-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-11"
+      ],
+      "media": [
+        {
+          "id": "highlight-11-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/06/highlight-11-960.webp",
+          "thumbnail": "assets/digests-v2/06/highlight-11-480.webp",
+          "avifSrc": "assets/digests-v2/06/highlight-11-960.avif",
+          "avifThumbnail": "assets/digests-v2/06/highlight-11-480.avif",
+          "alt": "视频设置来电铃声功能演示",
+          "evidenceId": "highlight-11-demo",
+          "width": 480,
+          "height": 263
+        }
+      ]
+    },
+    {
+      "id": "highlight-12",
+      "module": "天气",
+      "moduleSource": "explicit-heading",
+      "title": "天气卡片升级",
+      "description": "天气卡片信息与视觉体验进一步升级。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-12-body",
+        "highlight-12-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-12"
+      ],
+      "media": [
+        {
+          "id": "highlight-12-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/06/highlight-12-960.webp",
+          "thumbnail": "assets/digests-v2/06/highlight-12-480.webp",
+          "avifSrc": "assets/digests-v2/06/highlight-12-960.avif",
+          "avifThumbnail": "assets/digests-v2/06/highlight-12-480.avif",
+          "alt": "天气卡片升级功能演示",
+          "evidenceId": "highlight-12-demo",
+          "width": 480,
+          "height": 239
+        }
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "id": "update-01",
+      "module": "小布助手",
+      "moduleSource": "inferred",
+      "type": "新增",
+      "typeSource": "inferred",
+      "sourceText": "支持一句话打开支付宝乘车码，并支持一句话为照片补光。",
+      "description": "支持一句话打开支付宝乘车码，并支持一句话为照片补光。",
+      "evidenceIds": [
+        "update-01-source"
+      ],
+      "sourceItemIds": [
+        "source-update-01"
+      ]
+    },
+    {
+      "id": "update-02",
+      "module": "翻译",
+      "moduleSource": "inferred",
+      "type": "新增",
+      "typeSource": "inferred",
+      "sourceText": "中英同声传译可模拟说话人的声音。",
+      "description": "中英同声传译可模拟说话人的声音。",
+      "evidenceIds": [
+        "update-02-source"
+      ],
+      "sourceItemIds": [
+        "source-update-02"
+      ]
+    },
+    {
+      "id": "update-03",
+      "module": "小布记账",
+      "moduleSource": "inferred",
+      "type": "新增",
+      "typeSource": "inferred",
+      "sourceText": "显示记账卡，支出超预期时提醒合理安排开支。",
+      "description": "显示记账卡，支出超预期时提醒合理安排开支。",
+      "evidenceIds": [
+        "update-03-source"
+      ],
+      "sourceItemIds": [
+        "source-update-03"
+      ]
+    },
+    {
+      "id": "update-04",
+      "module": "小布建议",
+      "moduleSource": "inferred",
+      "type": "新增",
+      "typeSource": "inferred",
+      "sourceText": "新增节气卡片和步数周报卡片。",
+      "description": "新增节气卡片和步数周报卡片。",
+      "evidenceIds": [
+        "update-04-source"
+      ],
+      "sourceItemIds": [
+        "source-update-04"
+      ]
+    },
+    {
+      "id": "update-05",
+      "module": "天气",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "inferred",
+      "sourceText": "支持天气语音播报。",
+      "description": "支持天气语音播报。",
+      "evidenceIds": [
+        "update-05-source"
+      ],
+      "sourceItemIds": [
+        "source-update-05"
+      ]
+    },
+    {
+      "id": "update-06",
+      "module": "桌面",
+      "moduleSource": "inferred",
+      "type": "新增",
+      "typeSource": "inferred",
+      "sourceText": "插件与卡片支持堆叠显示。",
+      "description": "插件与卡片支持堆叠显示。",
+      "evidenceIds": [
+        "update-06-source"
+      ],
+      "sourceItemIds": [
+        "source-update-06"
+      ]
+    },
+    {
+      "id": "update-07",
+      "module": "网络",
+      "moduleSource": "inferred",
+      "type": "新增",
+      "typeSource": "inferred",
+      "sourceText": "山海通信网络引擎界面支持查看网络优化次数与测速结果。",
+      "description": "山海通信网络引擎界面支持查看网络优化次数与测速结果。",
+      "evidenceIds": [
+        "update-07-source"
+      ],
+      "sourceItemIds": [
+        "source-update-07"
+      ]
+    },
+    {
+      "id": "update-08",
+      "module": "电话",
+      "moduleSource": "inferred",
+      "type": "新增",
+      "typeSource": "inferred",
+      "sourceText": "支持将本地视频设为电话铃声。",
+      "description": "支持将本地视频设为电话铃声。",
+      "evidenceIds": [
+        "update-08-source"
+      ],
+      "sourceItemIds": [
+        "source-update-08"
+      ]
+    },
+    {
+      "id": "update-09",
+      "module": "文件管理",
+      "moduleSource": "inferred",
+      "type": "新增",
+      "typeSource": "inferred",
+      "sourceText": "支持拖拽文本、名片和文档到指定服务。",
+      "description": "支持拖拽文本、名片和文档到指定服务。",
+      "evidenceIds": [
+        "update-09-source"
+      ],
+      "sourceItemIds": [
+        "source-update-09"
+      ]
+    }
+  ],
+  "sourceItems": [
+    {
+      "id": "source-highlight-01",
+      "classification": "highlight",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0001"
+      ],
+      "text": "内容传送门 一按一拖服务直达，支持搜同款、问 AI、分享、发布和导航等操作。",
+      "targetIds": [
+        "highlight-01"
+      ]
+    },
+    {
+      "id": "source-highlight-02",
+      "classification": "highlight",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0025"
+      ],
+      "text": "AI 同声传译支持声音克隆 无需提前录制，可复刻说话人音色并进行同声传译。",
+      "targetIds": [
+        "highlight-02"
+      ]
+    },
+    {
+      "id": "source-highlight-03",
+      "classification": "highlight",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0025"
+      ],
+      "text": "一句话 AI 人像补光 智能识别人像中的暗光与逆光并进行补光。",
+      "targetIds": [
+        "highlight-03"
+      ]
+    },
+    {
+      "id": "source-highlight-04",
+      "classification": "highlight",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0025"
+      ],
+      "text": "一句话打开乘车码 通过小布助手快速打开支付宝乘车码。",
+      "targetIds": [
+        "highlight-04"
+      ]
+    },
+    {
+      "id": "source-highlight-05",
+      "classification": "highlight",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0025"
+      ],
+      "text": "大时钟支持拖拽 锁屏大时钟可自由拖拽调整位置。",
+      "targetIds": [
+        "highlight-05"
+      ]
+    },
+    {
+      "id": "source-highlight-06",
+      "classification": "highlight",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0025"
+      ],
+      "text": "卡片堆叠支持三方插件 桌面卡片堆叠扩展三方插件支持。",
+      "targetIds": [
+        "highlight-06"
+      ]
+    },
+    {
+      "id": "source-highlight-07",
+      "classification": "highlight",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0027"
+      ],
+      "text": "生理周期卡 以卡片形式展示生理周期相关提醒。",
+      "targetIds": [
+        "highlight-07"
+      ]
+    },
+    {
+      "id": "source-highlight-08",
+      "classification": "highlight",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0027"
+      ],
+      "text": "医院服务卡 提供医院就诊相关服务信息。",
+      "targetIds": [
+        "highlight-08"
+      ]
+    },
+    {
+      "id": "source-highlight-09",
+      "classification": "highlight",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0027"
+      ],
+      "text": "运动记录卡 以卡片形式展示运动记录与进度。",
+      "targetIds": [
+        "highlight-09"
+      ]
+    },
+    {
+      "id": "source-highlight-10",
+      "classification": "highlight",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0027"
+      ],
+      "text": "AI 图像校正 自动识别并校正倾斜或透视变形的照片。",
+      "targetIds": [
+        "highlight-10"
+      ]
+    },
+    {
+      "id": "source-highlight-11",
+      "classification": "highlight",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0027"
+      ],
+      "text": "视频设置来电铃声 支持将本地视频设置为电话铃声。",
+      "targetIds": [
+        "highlight-11"
+      ]
+    },
+    {
+      "id": "source-highlight-12",
+      "classification": "highlight",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0027"
+      ],
+      "text": "天气卡片升级 天气卡片信息与视觉体验进一步升级。",
+      "targetIds": [
+        "highlight-12"
+      ]
+    },
+    {
+      "id": "source-update-01",
+      "classification": "update",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0004",
+        "ocr-0005",
+        "ocr-0006"
+      ],
+      "text": "支持一句话打开支付宝乘车码，并支持一句话为照片补光。",
+      "correctedText": "支持一句话打开支付宝乘车码，并支持一句话为照片补光。",
+      "targetIds": [
+        "update-01"
+      ]
+    },
+    {
+      "id": "source-update-02",
+      "classification": "update",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0009",
+        "ocr-0011",
+        "ocr-0012"
+      ],
+      "text": "中英同声传译可模拟说话人的声音。",
+      "correctedText": "中英同声传译可模拟说话人的声音。",
+      "targetIds": [
+        "update-02"
+      ]
+    },
+    {
+      "id": "source-update-03",
+      "classification": "update",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0012"
+      ],
+      "text": "显示记账卡，支出超预期时提醒合理安排开支。",
+      "correctedText": "显示记账卡，支出超预期时提醒合理安排开支。",
+      "targetIds": [
+        "update-03"
+      ]
+    },
+    {
+      "id": "source-update-04",
+      "classification": "update",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0025",
+        "ocr-0026",
+        "ocr-0027"
+      ],
+      "text": "新增节气卡片和步数周报卡片。",
+      "correctedText": "新增节气卡片和步数周报卡片。",
+      "targetIds": [
+        "update-04"
+      ]
+    },
+    {
+      "id": "source-update-05",
+      "classification": "update",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0027",
+        "ocr-0028"
+      ],
+      "text": "支持天气语音播报。",
+      "correctedText": "支持天气语音播报。",
+      "targetIds": [
+        "update-05"
+      ]
+    },
+    {
+      "id": "source-update-06",
+      "classification": "update",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0033",
+        "ocr-0034",
+        "ocr-0037",
+        "ocr-0039"
+      ],
+      "text": "插件与卡片支持堆叠显示。",
+      "correctedText": "插件与卡片支持堆叠显示。",
+      "targetIds": [
+        "update-06"
+      ]
+    },
+    {
+      "id": "source-update-07",
+      "classification": "update",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0048",
+        "ocr-0050",
+        "ocr-0051",
+        "ocr-0052"
+      ],
+      "text": "山海通信网络引擎界面支持查看网络优化次数与测速结果。",
+      "correctedText": "山海通信网络引擎界面支持查看网络优化次数与测速结果。",
+      "targetIds": [
+        "update-07"
+      ]
+    },
+    {
+      "id": "source-update-08",
+      "classification": "update",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0054",
+        "ocr-0055"
+      ],
+      "text": "支持将本地视频设为电话铃声。",
+      "correctedText": "支持将本地视频设为电话铃声。",
+      "targetIds": [
+        "update-08"
+      ]
+    },
+    {
+      "id": "source-update-09",
+      "classification": "update",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0056",
+        "ocr-0057"
+      ],
+      "text": "支持拖拽文本、名片和文档到指定服务。",
+      "correctedText": "支持拖拽文本、名片和文档到指定服务。",
+      "targetIds": [
+        "update-09"
+      ]
+    },
+    {
+      "id": "source-excluded-022",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0002"
+      ],
+      "text": "z=",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-023",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0003"
+      ],
+      "text": "i",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-024",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0004"
+      ],
+      "text": "P",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-025",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0005"
+      ],
+      "text": "a",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-026",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0006"
+      ],
+      "text": "=",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-027",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0007"
+      ],
+      "text": "可",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-028",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0009"
+      ],
+      "text": "本",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-029",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0008"
+      ],
+      "text": "i",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-030",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0010"
+      ],
+      "text": "本",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-031",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0011"
+      ],
+      "text": "a",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-032",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0012"
+      ],
+      "text": "ua",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-033",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0014"
+      ],
+      "text": "=",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-034",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0018"
+      ],
+      "text": "a",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-035",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0013"
+      ],
+      "text": "4",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-036",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0016"
+      ],
+      "text": "二",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-037",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0015"
+      ],
+      "text": "=",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-038",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0017"
+      ],
+      "text": "本",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-039",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0020"
+      ],
+      "text": "7\"",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-040",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0019"
+      ],
+      "text": "wi",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-041",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0021"
+      ],
+      "text": "wil",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-042",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0023"
+      ],
+      "text": "a",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-043",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0022"
+      ],
+      "text": "di",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-044",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0024"
+      ],
+      "text": "wa",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-045",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0026"
+      ],
+      "text": "&?",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-046",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0028"
+      ],
+      "text": "=",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-047",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0029"
+      ],
+      "text": "ould",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-048",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0030"
+      ],
+      "text": "Ve",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-049",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0031"
+      ],
+      "text": "mig",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-050",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0032"
+      ],
+      "text": "7",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-051",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0033"
+      ],
+      "text": "4",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-052",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0034"
+      ],
+      "text": "=",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-053",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0035"
+      ],
+      "text": "是",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-054",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0036"
+      ],
+      "text": "=",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-055",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0001"
+      ],
+      "text": "升级功能及",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-056",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0002"
+      ],
+      "text": "计划一览",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-057",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0003"
+      ],
+      "text": "AI 功能",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-058",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0007"
+      ],
+      "text": "次儿寺问秘，但起A 里儿， 取口鸡",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-059",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0008"
+      ],
+      "text": "於儿源，您际山史日给的公像死形效木",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-060",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0010"
+      ],
+      "text": "时），实时模拟说话人的声音，然报更真实自外",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-061",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0013"
+      ],
+      "text": "晖用尸合理安排开叉",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-062",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0014"
+      ],
+      "text": "•住小布建议上，道过识别短信中的酒店订单，进行",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-063",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0015"
+      ],
+      "text": "酒占人任提醒，及时办埋人任",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-064",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0016"
+      ],
+      "text": "•住小布建议上，文持对默以大气服务进行目足义输",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-065",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0017"
+      ],
+      "text": "辑，可以没首为大气时钟、日力、运邳计步等多个",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-066",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0018"
+      ],
+      "text": "服竻",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-067",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0019"
+      ],
+      "text": "•住小布建议卡上显示生理局期卡片，万便随呵了解",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-068",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0020"
+      ],
+      "text": "号体状心",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-069",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0021"
+      ],
+      "text": "•仕小布建议上，显不商圈卡和医阮卡，可以展示商",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-070",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0022"
+      ],
+      "text": "场利医阮名林，开徒供多个服务，力便使用",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-071",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0023"
+      ],
+      "text": "•小布建议节气卡片，在节气当天会自动出卡，快速",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-072",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0024"
+      ],
+      "text": "」解节气信总",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-073",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0029"
+      ],
+      "text": "•支持在桌面添加天气信息+日出日落组合卡片，方",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-074",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0030"
+      ],
+      "text": "便了解天气和日出日落时间",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-075",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0031"
+      ],
+      "text": "•支持在桌面添加日出日落卡片，方便了解日出日落",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-076",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0032"
+      ],
+      "text": "时间",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-077",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0035"
+      ],
+      "text": "优化•多日天气天后和小时天气天片，又接显示降雨气多",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-078",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0036"
+      ],
+      "text": "预警信息",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-079",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0038"
+      ],
+      "text": "新瑁•支持将果自上的插件拖动全相同的系统片或具他",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-080",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0040"
+      ],
+      "text": "•文持目走义卡厅或插件名林，让昊固史具个性亿与",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-081",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0041"
+      ],
+      "text": "独特性",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-082",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0042"
+      ],
+      "text": "•全景沉浸息屏全大显示切能，开后后无耑指起或息",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-083",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0043"
+      ],
+      "text": "'部万灭邀土越仕编辑时文持地拽喝整明计天小，史",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-084",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0044"
+      ],
+      "text": "方便",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-085",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0045"
+      ],
+      "text": "凯化，现并中坏影指纹件式的亚示效果，融八尤愁攻叶",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-086",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0046"
+      ],
+      "text": "视觉更美观",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-087",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0047"
+      ],
+      "text": "通信与互联",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-088",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0049"
+      ],
+      "text": "少下以时灰寸",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-089",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0053"
+      ],
+      "text": "状态，如：网络延迟、上传/下载速度等",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-090",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0058"
+      ],
+      "text": "•什名加中裁男旋转图片时，文持目动校止，",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-091",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0059"
+      ],
+      "text": "目动水兴校止、人像校止和建筑校止，请圣构图",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-092",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0060"
+      ],
+      "text": "史拴松",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-093",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0061"
+      ],
+      "text": "木日申新干11月12日开始分批次推送 11月30日前完成推",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-094",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0062"
+      ],
+      "text": "送，分批覆盖 ColorOS 14 及以一共100+款机型、相关进展与",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-095",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0063"
+      ],
+      "text": "计划将在 ColorOS 官方微博、OPPO 社区/一加社区 ColorOS 官",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-096",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0064"
+      ],
+      "text": "OPPO",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-097",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0082"
+      ],
+      "text": "OPPO A5",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-098",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0065"
+      ],
+      "text": "OPPO Find N5 条列",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-099",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0066"
+      ],
+      "text": "OPPO Find N3系列",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-100",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0083"
+      ],
+      "text": "OPPO A3 系列",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-101",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0084"
+      ],
+      "text": "OPPO A2",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-102",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0067"
+      ],
+      "text": "OPPO Find N2 系列",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-103",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0068"
+      ],
+      "text": "OPPO Find N",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-104",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0085"
+      ],
+      "text": "OPPO A1 系列",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-105",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0086"
+      ],
+      "text": "OPPO AS/",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-106",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0069"
+      ],
+      "text": "OPPO Find X9 糸列",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-107",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0070"
+      ],
+      "text": "OPPO Find X8 系列",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-108",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0087"
+      ],
+      "text": "OPPO A57",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-109",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0088"
+      ],
+      "text": "OPPO A56S",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-110",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0071"
+      ],
+      "text": "OPPO Find X7 系列",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-111",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0072"
+      ],
+      "text": "OPPO Find X6系列",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-112",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0089"
+      ],
+      "text": "OPPO K13 系列",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-113",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0090"
+      ],
+      "text": "OPPO KI2 系列",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-114",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0073"
+      ],
+      "text": "OPPOFindX5",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-115",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0091"
+      ],
+      "text": "OPPO K11 系列",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-116",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0074"
+      ],
+      "text": "OPPO Find X3 系列",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-117",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0092"
+      ],
+      "text": "OPPO K1O 糸列",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-118",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0075"
+      ],
+      "text": "OPPO Reno14 糸列",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-119",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0093"
+      ],
+      "text": "OPPO Pad 5",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-120",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0076"
+      ],
+      "text": "OPPO Reno13 系列",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-121",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0094"
+      ],
+      "text": "OPPO Pad 4 Pro",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-122",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0077"
+      ],
+      "text": "OPPO Renol2 系列",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-123",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0095"
+      ],
+      "text": "OPPO Pad 3 Pro",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-124",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0078"
+      ],
+      "text": "OPPO Reno11 系列",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-125",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0096"
+      ],
+      "text": "OPPO Pads",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-126",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0079"
+      ],
+      "text": "OPPO Reno10 糸列",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-127",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0097"
+      ],
+      "text": "OPPO Pad2",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-128",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0080"
+      ],
+      "text": "OPPO Reno9 系列",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-129",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0098"
+      ],
+      "text": "OPPO Pad Air Z",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-130",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0081"
+      ],
+      "text": "UFPO Kenod",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-131",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0099"
+      ],
+      "text": "OPPO Pad SE",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-132",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0100"
+      ],
+      "text": "一加 Ace6",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-133",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0101"
+      ],
+      "text": "一川 Ace5示州",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-134",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0102"
+      ],
+      "text": "一加 Ace3系列",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-135",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0103"
+      ],
+      "text": "一川",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-136",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0104"
+      ],
+      "text": "一加 Ace 系列",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-137",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0105"
+      ],
+      "text": "一周半仅ZFFC",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-138",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0106"
+      ],
+      "text": "一加平板 2",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-139",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0107"
+      ],
+      "text": "一加半夜 PrO",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-140",
+      "classification": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0108"
+      ],
+      "text": "一加平板",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "highlight-01-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0001"
+      ],
+      "region": {
+        "x": 155,
+        "y": 2449,
+        "width": 52,
+        "height": 60
+      },
+      "note": "内容传送门：内容传送门标题与说明"
+    },
+    {
+      "id": "highlight-01-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [],
+      "region": {
+        "x": 38,
+        "y": 2338,
+        "width": 1004,
+        "height": 617
+      },
+      "note": "内容传送门：内容传送门人工确认演示区域"
+    },
+    {
+      "id": "highlight-02-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0025"
+      ],
+      "region": {
+        "x": 159,
+        "y": 2712,
+        "width": 39,
+        "height": 60
+      },
+      "note": "翻译：AI 同声传译支持声音克隆标题与说明"
+    },
+    {
+      "id": "highlight-02-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [],
+      "region": {
+        "x": 38,
+        "y": 3271,
+        "width": 1004,
+        "height": 590
+      },
+      "note": "翻译：AI 同声传译支持声音克隆人工确认演示区域"
+    },
+    {
+      "id": "highlight-03-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0025"
+      ],
+      "region": {
+        "x": 159,
+        "y": 2712,
+        "width": 39,
+        "height": 60
+      },
+      "note": "小布助手：一句话 AI 人像补光标题与说明"
+    },
+    {
+      "id": "highlight-03-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [],
+      "region": {
+        "x": 38,
+        "y": 4308,
+        "width": 1004,
+        "height": 551
+      },
+      "note": "小布助手：一句话 AI 人像补光人工确认演示区域"
+    },
+    {
+      "id": "highlight-04-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0025"
+      ],
+      "region": {
+        "x": 159,
+        "y": 2712,
+        "width": 39,
+        "height": 60
+      },
+      "note": "小布助手：一句话打开乘车码标题与说明"
+    },
+    {
+      "id": "highlight-04-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [],
+      "region": {
+        "x": 38,
+        "y": 5241,
+        "width": 1004,
+        "height": 590
+      },
+      "note": "小布助手：一句话打开乘车码人工确认演示区域"
+    },
+    {
+      "id": "highlight-05-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0025"
+      ],
+      "region": {
+        "x": 159,
+        "y": 2712,
+        "width": 39,
+        "height": 60
+      },
+      "note": "锁屏：大时钟支持拖拽标题与说明"
+    },
+    {
+      "id": "highlight-05-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [],
+      "region": {
+        "x": 38,
+        "y": 6659,
+        "width": 1004,
+        "height": 564
+      },
+      "note": "锁屏：大时钟支持拖拽人工确认演示区域"
+    },
+    {
+      "id": "highlight-06-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0025"
+      ],
+      "region": {
+        "x": 159,
+        "y": 2712,
+        "width": 39,
+        "height": 60
+      },
+      "note": "桌面：卡片堆叠支持三方插件标题与说明"
+    },
+    {
+      "id": "highlight-06-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [],
+      "region": {
+        "x": 38,
+        "y": 7513,
+        "width": 1004,
+        "height": 630
+      },
+      "note": "桌面：卡片堆叠支持三方插件人工确认演示区域"
+    },
+    {
+      "id": "highlight-07-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0027"
+      ],
+      "region": {
+        "x": 866,
+        "y": 12477,
+        "width": 43,
+        "height": 60
+      },
+      "note": "小布建议：生理周期卡标题与说明"
+    },
+    {
+      "id": "highlight-07-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [],
+      "region": {
+        "x": 38,
+        "y": 8511,
+        "width": 1004,
+        "height": 249
+      },
+      "note": "小布建议：生理周期卡人工确认演示区域"
+    },
+    {
+      "id": "highlight-08-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0027"
+      ],
+      "region": {
+        "x": 866,
+        "y": 12477,
+        "width": 43,
+        "height": 60
+      },
+      "note": "小布建议：医院服务卡标题与说明"
+    },
+    {
+      "id": "highlight-08-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [],
+      "region": {
+        "x": 38,
+        "y": 8944,
+        "width": 1004,
+        "height": 433
+      },
+      "note": "小布建议：医院服务卡人工确认演示区域"
+    },
+    {
+      "id": "highlight-09-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0027"
+      ],
+      "region": {
+        "x": 866,
+        "y": 12477,
+        "width": 43,
+        "height": 60
+      },
+      "note": "小布建议：运动记录卡标题与说明"
+    },
+    {
+      "id": "highlight-09-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [],
+      "region": {
+        "x": 38,
+        "y": 9509,
+        "width": 1004,
+        "height": 236
+      },
+      "note": "小布建议：运动记录卡人工确认演示区域"
+    },
+    {
+      "id": "highlight-10-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0027"
+      ],
+      "region": {
+        "x": 866,
+        "y": 12477,
+        "width": 43,
+        "height": 60
+      },
+      "note": "相册：AI 图像校正标题与说明"
+    },
+    {
+      "id": "highlight-10-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [],
+      "region": {
+        "x": 38,
+        "y": 10533,
+        "width": 1004,
+        "height": 643
+      },
+      "note": "相册：AI 图像校正人工确认演示区域"
+    },
+    {
+      "id": "highlight-11-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0027"
+      ],
+      "region": {
+        "x": 866,
+        "y": 12477,
+        "width": 43,
+        "height": 60
+      },
+      "note": "电话：视频设置来电铃声标题与说明"
+    },
+    {
+      "id": "highlight-11-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [],
+      "region": {
+        "x": 38,
+        "y": 11584,
+        "width": 1004,
+        "height": 551
+      },
+      "note": "电话：视频设置来电铃声人工确认演示区域"
+    },
+    {
+      "id": "highlight-12-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0027"
+      ],
+      "region": {
+        "x": 866,
+        "y": 12477,
+        "width": 43,
+        "height": 60
+      },
+      "note": "天气：天气卡片升级标题与说明"
+    },
+    {
+      "id": "highlight-12-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [],
+      "region": {
+        "x": 38,
+        "y": 12503,
+        "width": 1004,
+        "height": 499
+      },
+      "note": "天气：天气卡片升级人工确认演示区域"
+    },
+    {
+      "id": "update-01-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0004",
+        "ocr-0005",
+        "ocr-0006"
+      ],
+      "region": {
+        "x": 68,
+        "y": 694,
+        "width": 944,
+        "height": 393
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-02-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0009",
+        "ocr-0011",
+        "ocr-0012"
+      ],
+      "region": {
+        "x": 68,
+        "y": 1058,
+        "width": 944,
+        "height": 447
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-03-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0012"
+      ],
+      "region": {
+        "x": 68,
+        "y": 1328,
+        "width": 931,
+        "height": 177
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-04-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0025",
+        "ocr-0026",
+        "ocr-0027"
+      ],
+      "region": {
+        "x": 68,
+        "y": 2166,
+        "width": 944,
+        "height": 406
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-05-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0027",
+        "ocr-0028"
+      ],
+      "region": {
+        "x": 68,
+        "y": 2368,
+        "width": 944,
+        "height": 352
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-06-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0033",
+        "ocr-0034",
+        "ocr-0037",
+        "ocr-0039"
+      ],
+      "region": {
+        "x": 68,
+        "y": 2922,
+        "width": 931,
+        "height": 635
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-07-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0048",
+        "ocr-0050",
+        "ocr-0051",
+        "ocr-0052"
+      ],
+      "region": {
+        "x": 68,
+        "y": 4096,
+        "width": 944,
+        "height": 474
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-08-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0054",
+        "ocr-0055"
+      ],
+      "region": {
+        "x": 68,
+        "y": 4501,
+        "width": 931,
+        "height": 365
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-09-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0056",
+        "ocr-0057"
+      ],
+      "region": {
+        "x": 68,
+        "y": 4757,
+        "width": 931,
+        "height": 230
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "source-excluded-022-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0002"
+      ],
+      "region": {
+        "x": 154,
+        "y": 2425,
+        "width": 51,
+        "height": 222
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-023-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0003"
+      ],
+      "region": {
+        "x": 163,
+        "y": 2448,
+        "width": 35,
+        "height": 215
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-024-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0004"
+      ],
+      "region": {
+        "x": 181,
+        "y": 2449,
+        "width": 33,
+        "height": 216
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-025-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0005"
+      ],
+      "region": {
+        "x": 174,
+        "y": 2459,
+        "width": 39,
+        "height": 220
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-026-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0006"
+      ],
+      "region": {
+        "x": 452,
+        "y": 2490,
+        "width": 43,
+        "height": 219
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-027-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0007"
+      ],
+      "region": {
+        "x": 466,
+        "y": 2503,
+        "width": 33,
+        "height": 217
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-028-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0009"
+      ],
+      "region": {
+        "x": 441,
+        "y": 2528,
+        "width": 41,
+        "height": 216
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-029-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0008"
+      ],
+      "region": {
+        "x": 181,
+        "y": 2530,
+        "width": 32,
+        "height": 214
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-030-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0010"
+      ],
+      "region": {
+        "x": 466,
+        "y": 2532,
+        "width": 35,
+        "height": 215
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-031-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0011"
+      ],
+      "region": {
+        "x": 182,
+        "y": 2559,
+        "width": 33,
+        "height": 216
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-032-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0012"
+      ],
+      "region": {
+        "x": 181,
+        "y": 2578,
+        "width": 41,
+        "height": 217
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-033-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0014"
+      ],
+      "region": {
+        "x": 313,
+        "y": 2582,
+        "width": 35,
+        "height": 219
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-034-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0018"
+      ],
+      "region": {
+        "x": 442,
+        "y": 2583,
+        "width": 38,
+        "height": 218
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-035-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0013"
+      ],
+      "region": {
+        "x": 273,
+        "y": 2586,
+        "width": 39,
+        "height": 221
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-036-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0016"
+      ],
+      "region": {
+        "x": 402,
+        "y": 2586,
+        "width": 39,
+        "height": 218
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-037-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0015"
+      ],
+      "region": {
+        "x": 355,
+        "y": 2594,
+        "width": 34,
+        "height": 217
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-038-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0017"
+      ],
+      "region": {
+        "x": 404,
+        "y": 2594,
+        "width": 40,
+        "height": 218
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-039-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0020"
+      ],
+      "region": {
+        "x": 352,
+        "y": 2599,
+        "width": 36,
+        "height": 219
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-040-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0019"
+      ],
+      "region": {
+        "x": 154,
+        "y": 2600,
+        "width": 40,
+        "height": 217
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-041-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0021"
+      ],
+      "region": {
+        "x": 156,
+        "y": 2613,
+        "width": 40,
+        "height": 217
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-042-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0023"
+      ],
+      "region": {
+        "x": 325,
+        "y": 2613,
+        "width": 66,
+        "height": 218
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-043-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0022"
+      ],
+      "region": {
+        "x": 157,
+        "y": 2620,
+        "width": 35,
+        "height": 218
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-044-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0024"
+      ],
+      "region": {
+        "x": 153,
+        "y": 2625,
+        "width": 45,
+        "height": 219
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-045-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0026"
+      ],
+      "region": {
+        "x": 801,
+        "y": 12401,
+        "width": 44,
+        "height": 217
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-046-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0028"
+      ],
+      "region": {
+        "x": 686,
+        "y": 12699,
+        "width": 39,
+        "height": 220
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-047-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0029"
+      ],
+      "region": {
+        "x": 691,
+        "y": 12710,
+        "width": 44,
+        "height": 219
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-048-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0030"
+      ],
+      "region": {
+        "x": 616,
+        "y": 12726,
+        "width": 48,
+        "height": 219
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-049-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0031"
+      ],
+      "region": {
+        "x": 649,
+        "y": 12741,
+        "width": 41,
+        "height": 218
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-050-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0032"
+      ],
+      "region": {
+        "x": 635,
+        "y": 12754,
+        "width": 35,
+        "height": 218
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-051-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0033"
+      ],
+      "region": {
+        "x": 691,
+        "y": 12756,
+        "width": 43,
+        "height": 219
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-052-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0034"
+      ],
+      "region": {
+        "x": 696,
+        "y": 12762,
+        "width": 37,
+        "height": 217
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-053-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0035"
+      ],
+      "region": {
+        "x": 606,
+        "y": 12798,
+        "width": 32,
+        "height": 218
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-054-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fb9dff294e9419dfb396651671173262b7e4bf2a0cf7b109a51f74579b0adc9b",
+      "blockIds": [
+        "tesseract-0036"
+      ],
+      "region": {
+        "x": 679,
+        "y": 12811,
+        "width": 35,
+        "height": 216
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-055-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0001"
+      ],
+      "region": {
+        "x": 216,
+        "y": 155,
+        "width": 634,
+        "height": 284
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-056-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0002"
+      ],
+      "region": {
+        "x": 270,
+        "y": 302,
+        "width": 499,
+        "height": 285
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-057-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0003"
+      ],
+      "region": {
+        "x": 68,
+        "y": 586,
+        "width": 202,
+        "height": 217
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-058-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0007"
+      ],
+      "region": {
+        "x": 176,
+        "y": 950,
+        "width": 823,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-059-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0008"
+      ],
+      "region": {
+        "x": 176,
+        "y": 1005,
+        "width": 634,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-060-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0010"
+      ],
+      "region": {
+        "x": 176,
+        "y": 1126,
+        "width": 782,
+        "height": 176
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-061-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0013"
+      ],
+      "region": {
+        "x": 176,
+        "y": 1383,
+        "width": 364,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-062-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0014"
+      ],
+      "region": {
+        "x": 162,
+        "y": 1464,
+        "width": 836,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-063-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0015"
+      ],
+      "region": {
+        "x": 176,
+        "y": 1518,
+        "width": 499,
+        "height": 176
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-064-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0016"
+      ],
+      "region": {
+        "x": 162,
+        "y": 1599,
+        "width": 836,
+        "height": 176
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-065-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0017"
+      ],
+      "region": {
+        "x": 176,
+        "y": 1653,
+        "width": 823,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-066-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0018"
+      ],
+      "region": {
+        "x": 176,
+        "y": 1707,
+        "width": 107,
+        "height": 176
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-067-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0019"
+      ],
+      "region": {
+        "x": 162,
+        "y": 1788,
+        "width": 836,
+        "height": 176
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-068-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0020"
+      ],
+      "region": {
+        "x": 176,
+        "y": 1841,
+        "width": 175,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-069-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0021"
+      ],
+      "region": {
+        "x": 162,
+        "y": 1922,
+        "width": 836,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-070-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0022"
+      ],
+      "region": {
+        "x": 176,
+        "y": 1977,
+        "width": 715,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-071-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0023"
+      ],
+      "region": {
+        "x": 162,
+        "y": 2030,
+        "width": 850,
+        "height": 218
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-072-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0024"
+      ],
+      "region": {
+        "x": 176,
+        "y": 2111,
+        "width": 242,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-073-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0029"
+      ],
+      "region": {
+        "x": 162,
+        "y": 2652,
+        "width": 836,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-074-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0030"
+      ],
+      "region": {
+        "x": 176,
+        "y": 2691,
+        "width": 485,
+        "height": 204
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-075-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0031"
+      ],
+      "region": {
+        "x": 162,
+        "y": 2786,
+        "width": 836,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-076-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0032"
+      ],
+      "region": {
+        "x": 162,
+        "y": 2827,
+        "width": 134,
+        "height": 217
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-077-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0035"
+      ],
+      "region": {
+        "x": 68,
+        "y": 3057,
+        "width": 931,
+        "height": 176
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-078-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0036"
+      ],
+      "region": {
+        "x": 176,
+        "y": 3110,
+        "width": 175,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-079-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0038"
+      ],
+      "region": {
+        "x": 68,
+        "y": 3313,
+        "width": 931,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-080-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0040"
+      ],
+      "region": {
+        "x": 162,
+        "y": 3448,
+        "width": 836,
+        "height": 176
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-081-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0041"
+      ],
+      "region": {
+        "x": 176,
+        "y": 3474,
+        "width": 148,
+        "height": 218
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-082-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0042"
+      ],
+      "region": {
+        "x": 162,
+        "y": 3582,
+        "width": 836,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-083-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0043"
+      ],
+      "region": {
+        "x": 162,
+        "y": 3718,
+        "width": 836,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-084-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0044"
+      ],
+      "region": {
+        "x": 176,
+        "y": 3745,
+        "width": 121,
+        "height": 217
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-085-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0045"
+      ],
+      "region": {
+        "x": 68,
+        "y": 3852,
+        "width": 904,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-086-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0046"
+      ],
+      "region": {
+        "x": 162,
+        "y": 3880,
+        "width": 242,
+        "height": 217
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-087-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0047"
+      ],
+      "region": {
+        "x": 68,
+        "y": 3988,
+        "width": 283,
+        "height": 217
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-088-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0049"
+      ],
+      "region": {
+        "x": 176,
+        "y": 4163,
+        "width": 242,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-089-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0053"
+      ],
+      "region": {
+        "x": 176,
+        "y": 4420,
+        "width": 661,
+        "height": 190
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-090-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0058"
+      ],
+      "region": {
+        "x": 162,
+        "y": 4892,
+        "width": 742,
+        "height": 176
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-091-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0059"
+      ],
+      "region": {
+        "x": 176,
+        "y": 4946,
+        "width": 823,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-092-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0060"
+      ],
+      "region": {
+        "x": 176,
+        "y": 5000,
+        "width": 148,
+        "height": 176
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-093-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0061"
+      ],
+      "region": {
+        "x": 27,
+        "y": 5189,
+        "width": 1012,
+        "height": 176
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-094-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0062"
+      ],
+      "region": {
+        "x": 27,
+        "y": 5243,
+        "width": 1025,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-095-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0063"
+      ],
+      "region": {
+        "x": 27,
+        "y": 5284,
+        "width": 1039,
+        "height": 203
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-096-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0064"
+      ],
+      "region": {
+        "x": 68,
+        "y": 5540,
+        "width": 175,
+        "height": 217
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-097-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0082"
+      ],
+      "region": {
+        "x": 648,
+        "y": 5729,
+        "width": 269,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-098-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0065"
+      ],
+      "region": {
+        "x": 68,
+        "y": 5729,
+        "width": 350,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-099-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0066"
+      ],
+      "region": {
+        "x": 68,
+        "y": 5782,
+        "width": 364,
+        "height": 204
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-100-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0083"
+      ],
+      "region": {
+        "x": 648,
+        "y": 5796,
+        "width": 283,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-101-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0084"
+      ],
+      "region": {
+        "x": 648,
+        "y": 5876,
+        "width": 269,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-102-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0067"
+      ],
+      "region": {
+        "x": 68,
+        "y": 5876,
+        "width": 350,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-103-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0068"
+      ],
+      "region": {
+        "x": 68,
+        "y": 5931,
+        "width": 269,
+        "height": 203
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-104-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0085"
+      ],
+      "region": {
+        "x": 648,
+        "y": 5931,
+        "width": 283,
+        "height": 203
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-105-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0086"
+      ],
+      "region": {
+        "x": 648,
+        "y": 6026,
+        "width": 215,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-106-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0069"
+      ],
+      "region": {
+        "x": 68,
+        "y": 6026,
+        "width": 364,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-107-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0070"
+      ],
+      "region": {
+        "x": 68,
+        "y": 6079,
+        "width": 364,
+        "height": 204
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-108-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0087"
+      ],
+      "region": {
+        "x": 648,
+        "y": 6093,
+        "width": 215,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-109-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0088"
+      ],
+      "region": {
+        "x": 648,
+        "y": 6173,
+        "width": 229,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-110-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0071"
+      ],
+      "region": {
+        "x": 68,
+        "y": 6173,
+        "width": 350,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-111-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0072"
+      ],
+      "region": {
+        "x": 67,
+        "y": 6228,
+        "width": 364,
+        "height": 218
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-112-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0089"
+      ],
+      "region": {
+        "x": 648,
+        "y": 6242,
+        "width": 296,
+        "height": 176
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-113-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0090"
+      ],
+      "region": {
+        "x": 648,
+        "y": 6323,
+        "width": 283,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-114-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0073"
+      ],
+      "region": {
+        "x": 68,
+        "y": 6323,
+        "width": 350,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-115-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0091"
+      ],
+      "region": {
+        "x": 648,
+        "y": 6390,
+        "width": 283,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-116-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0074"
+      ],
+      "region": {
+        "x": 68,
+        "y": 6390,
+        "width": 350,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-117-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0092"
+      ],
+      "region": {
+        "x": 648,
+        "y": 6471,
+        "width": 296,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-118-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0075"
+      ],
+      "region": {
+        "x": 68,
+        "y": 6471,
+        "width": 350,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-119-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0093"
+      ],
+      "region": {
+        "x": 648,
+        "y": 6539,
+        "width": 242,
+        "height": 176
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-120-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0076"
+      ],
+      "region": {
+        "x": 68,
+        "y": 6539,
+        "width": 350,
+        "height": 176
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-121-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0094"
+      ],
+      "region": {
+        "x": 648,
+        "y": 6620,
+        "width": 310,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-122-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0077"
+      ],
+      "region": {
+        "x": 68,
+        "y": 6620,
+        "width": 350,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-123-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0095"
+      ],
+      "region": {
+        "x": 648,
+        "y": 6687,
+        "width": 310,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-124-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0078"
+      ],
+      "region": {
+        "x": 68,
+        "y": 6687,
+        "width": 337,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-125-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0096"
+      ],
+      "region": {
+        "x": 648,
+        "y": 6768,
+        "width": 242,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-126-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0079"
+      ],
+      "region": {
+        "x": 68,
+        "y": 6768,
+        "width": 350,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-127-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0097"
+      ],
+      "region": {
+        "x": 648,
+        "y": 6822,
+        "width": 256,
+        "height": 203
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-128-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0080"
+      ],
+      "region": {
+        "x": 68,
+        "y": 6836,
+        "width": 337,
+        "height": 176
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-129-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0098"
+      ],
+      "region": {
+        "x": 648,
+        "y": 6917,
+        "width": 296,
+        "height": 176
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-130-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0081"
+      ],
+      "region": {
+        "x": 68,
+        "y": 6917,
+        "width": 323,
+        "height": 176
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-131-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0099"
+      ],
+      "region": {
+        "x": 648,
+        "y": 6984,
+        "width": 269,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-132-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0100"
+      ],
+      "region": {
+        "x": 648,
+        "y": 7308,
+        "width": 229,
+        "height": 203
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-133-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0101"
+      ],
+      "region": {
+        "x": 662,
+        "y": 7403,
+        "width": 283,
+        "height": 176
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-134-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0102"
+      ],
+      "region": {
+        "x": 662,
+        "y": 7470,
+        "width": 283,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-135-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0103"
+      ],
+      "region": {
+        "x": 648,
+        "y": 7551,
+        "width": 296,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-136-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0104"
+      ],
+      "region": {
+        "x": 662,
+        "y": 7617,
+        "width": 256,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-137-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0105"
+      ],
+      "region": {
+        "x": 662,
+        "y": 7700,
+        "width": 256,
+        "height": 176
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-138-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0106"
+      ],
+      "region": {
+        "x": 662,
+        "y": 7767,
+        "width": 202,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-139-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0107"
+      ],
+      "region": {
+        "x": 648,
+        "y": 7848,
+        "width": 242,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-140-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/OPPO_ColorOS_十一月系统升级一览/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b0527e316ee927f8e6dbe7807045ba904722060c1b617c42ecb61c736cab989e",
+      "blockIds": [
+        "ocr-0108"
+      ],
+      "region": {
+        "x": 662,
+        "y": 7915,
+        "width": 161,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    }
+  ],
+  "audit": {
+    "highlightReviewVersion": 4,
+    "updateReviewVersion": 4,
+    "review": {
+      "content": "verified",
+      "modules": "verified",
+      "media": "verified",
+      "page": "verified"
+    },
+    "expectedHighlightCount": 12,
+    "sourceItemCount": 140,
+    "includedItemCount": 21,
+    "excludedItemCount": 119,
+    "highlightCount": 12,
+    "updateCount": 9,
+    "mediaCount": 12,
+    "mappedItemCount": 140,
+    "coverageRate": 1
+  }
+}

@@ -1,0 +1,5865 @@
+{
+  "schemaVersion": 3,
+  "contentReviewVersion": 4,
+  "mediaReviewVersion": 4,
+  "articleId": "月月有更新！ColorOS_二月体验升级来了",
+  "reviewStatus": "verified",
+  "sourceHash": "4125092219ec5a7f6fa9fe24f9421b635f2a01416ad8447919d5f33e3e00b22a",
+  "highlights": [
+    {
+      "id": "highlight-01",
+      "module": "小布建议与流体云",
+      "moduleSource": "explicit-heading",
+      "title": "淘票票智能观影提醒",
+      "description": "显示电影取票与观影提醒。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-01-body",
+        "highlight-01-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-01"
+      ],
+      "media": [
+        {
+          "id": "highlight-01-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/15/highlight-01-960.webp",
+          "thumbnail": "assets/digests-v2/15/highlight-01-480.webp",
+          "avifSrc": "assets/digests-v2/15/highlight-01-960.avif",
+          "avifThumbnail": "assets/digests-v2/15/highlight-01-480.avif",
+          "alt": "淘票票智能观影提醒功能演示",
+          "evidenceId": "highlight-01-demo",
+          "width": 480,
+          "height": 454
+        }
+      ]
+    },
+    {
+      "id": "highlight-02",
+      "module": "小布建议与流体云",
+      "moduleSource": "explicit-heading",
+      "title": "大麦演出倒计时",
+      "description": "显示抢票倒计时和演出提醒。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-02-body",
+        "highlight-02-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-02"
+      ],
+      "media": [
+        {
+          "id": "highlight-02-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/15/highlight-02-960.webp",
+          "thumbnail": "assets/digests-v2/15/highlight-02-480.webp",
+          "avifSrc": "assets/digests-v2/15/highlight-02-960.avif",
+          "avifThumbnail": "assets/digests-v2/15/highlight-02-480.avif",
+          "alt": "大麦演出倒计时功能演示",
+          "evidenceId": "highlight-02-demo",
+          "width": 480,
+          "height": 408
+        }
+      ]
+    },
+    {
+      "id": "highlight-03",
+      "module": "相册",
+      "moduleSource": "explicit-heading",
+      "title": "情人节限定水印",
+      "description": "新增多款情人节限定水印。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-03-body",
+        "highlight-03-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-03"
+      ],
+      "media": [
+        {
+          "id": "highlight-03-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/15/highlight-03-960.webp",
+          "thumbnail": "assets/digests-v2/15/highlight-03-480.webp",
+          "avifSrc": "assets/digests-v2/15/highlight-03-960.avif",
+          "avifThumbnail": "assets/digests-v2/15/highlight-03-480.avif",
+          "alt": "情人节限定水印功能演示",
+          "evidenceId": "highlight-03-demo",
+          "width": 480,
+          "height": 609
+        }
+      ]
+    },
+    {
+      "id": "highlight-04",
+      "module": "小布识屏",
+      "moduleSource": "explicit-heading",
+      "title": "精准选词",
+      "description": "识别文字后可分词选择和复制。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-04-body",
+        "highlight-04-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-04"
+      ],
+      "media": [
+        {
+          "id": "highlight-04-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/15/highlight-04-960.webp",
+          "thumbnail": "assets/digests-v2/15/highlight-04-480.webp",
+          "avifSrc": "assets/digests-v2/15/highlight-04-960.avif",
+          "avifThumbnail": "assets/digests-v2/15/highlight-04-480.avif",
+          "alt": "精准选词功能演示",
+          "evidenceId": "highlight-04-demo",
+          "width": 480,
+          "height": 792
+        }
+      ]
+    },
+    {
+      "id": "highlight-05",
+      "module": "随身工作台",
+      "moduleSource": "explicit-heading",
+      "title": "批量压缩下载",
+      "description": "网页端可将多个手机文件打包下载。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-05-body",
+        "highlight-05-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-05"
+      ],
+      "media": [
+        {
+          "id": "highlight-05-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/15/highlight-05-960.webp",
+          "thumbnail": "assets/digests-v2/15/highlight-05-480.webp",
+          "avifSrc": "assets/digests-v2/15/highlight-05-960.avif",
+          "avifThumbnail": "assets/digests-v2/15/highlight-05-480.avif",
+          "alt": "批量压缩下载功能演示",
+          "evidenceId": "highlight-05-demo",
+          "width": 480,
+          "height": 464
+        }
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "id": "update-01",
+      "module": "小布建议",
+      "moduleSource": "inferred",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "小布建议卡片翻动时的低阻尼动效，细致打磨卡片切换过程中的空间感和流畅度，操作体验更加流畅自然",
+      "description": "小布建议卡片翻动时的低阻尼动效，细致打磨卡片切换过程中的空间感和流畅度，操作体验更加流畅自然",
+      "evidenceIds": [
+        "update-01-source"
+      ],
+      "sourceItemIds": [
+        "source-update-01"
+      ]
+    },
+    {
+      "id": "update-02",
+      "module": "小布建议",
+      "moduleSource": "inferred",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "小布建议场景卡片集功能，动态感知和识别生活场景，并自动关联组合行程、出行建议、目的地信息等服务，高效智能",
+      "description": "小布建议场景卡片集功能，动态感知和识别生活场景，并自动关联组合行程、出行建议、目的地信息等服务，高效智能",
+      "evidenceIds": [
+        "update-02-source"
+      ],
+      "sourceItemIds": [
+        "source-update-02"
+      ]
+    },
+    {
+      "id": "update-03",
+      "module": "小布建议",
+      "moduleSource": "inferred",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "小布建议电竞、体育赛事服务提醒，赛事信息一目了然",
+      "description": "小布建议电竞、体育赛事服务提醒，赛事信息一目了然",
+      "evidenceIds": [
+        "update-03-source"
+      ],
+      "sourceItemIds": [
+        "source-update-03"
+      ]
+    },
+    {
+      "id": "update-04",
+      "module": "日历",
+      "moduleSource": "inferred",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "日历支持分享日程",
+      "description": "日历支持分享日程",
+      "evidenceIds": [
+        "update-04-source"
+      ],
+      "sourceItemIds": [
+        "source-update-04"
+      ]
+    },
+    {
+      "id": "update-05",
+      "module": "天气",
+      "moduleSource": "inferred",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "日历、天气字体大小随系统字体设置变化",
+      "description": "日历、天气字体大小随系统字体设置变化",
+      "evidenceIds": [
+        "update-05-source"
+      ],
+      "sourceItemIds": [
+        "source-update-05"
+      ]
+    },
+    {
+      "id": "update-06",
+      "module": "相机",
+      "moduleSource": "inferred",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "文件管理支持图片排序功能，支持按修改时间、拍摄时间和名称排序",
+      "description": "文件管理支持图片排序功能，支持按修改时间、拍摄时间和名称排序",
+      "evidenceIds": [
+        "update-06-source"
+      ],
+      "sourceItemIds": [
+        "source-update-06"
+      ]
+    },
+    {
+      "id": "update-07",
+      "module": "智慧车载",
+      "moduleSource": "inferred",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "Car+车联适配新版高德地图，提升兼容性",
+      "description": "Car+车联适配新版高德地图，提升兼容性",
+      "evidenceIds": [
+        "update-07-source"
+      ],
+      "sourceItemIds": [
+        "source-update-07"
+      ]
+    },
+    {
+      "id": "update-08",
+      "module": "智慧车载",
+      "moduleSource": "inferred",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "QQ 音乐在车机上的显示效果，功能使用更便捷",
+      "description": "QQ 音乐在车机上的显示效果，功能使用更便捷",
+      "evidenceIds": [
+        "update-08-source"
+      ],
+      "sourceItemIds": [
+        "source-update-08"
+      ]
+    },
+    {
+      "id": "update-09",
+      "module": "桌面",
+      "moduleSource": "inferred",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "应用使用时长桌面卡片，便于合理使用手机",
+      "description": "应用使用时长桌面卡片，便于合理使用手机",
+      "evidenceIds": [
+        "update-09-source"
+      ],
+      "sourceItemIds": [
+        "source-update-09"
+      ]
+    },
+    {
+      "id": "update-10",
+      "module": "小布建议",
+      "moduleSource": "inferred",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "小布建议通勤卡设计，提升视觉效果",
+      "description": "小布建议通勤卡设计，提升视觉效果",
+      "evidenceIds": [
+        "update-10-source"
+      ],
+      "sourceItemIds": [
+        "source-update-10"
+      ]
+    }
+  ],
+  "sourceItems": [
+    {
+      "id": "source-highlight-01",
+      "classification": "highlight",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0007",
+        "tesseract-0008",
+        "tesseract-0009"
+      ],
+      "text": "淘票票智能观影提醒 显示电影取票与观影提醒。",
+      "targetIds": [
+        "highlight-01"
+      ]
+    },
+    {
+      "id": "source-highlight-02",
+      "classification": "highlight",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0024",
+        "tesseract-0025",
+        "tesseract-0026"
+      ],
+      "text": "大麦演出倒计时 显示抢票倒计时和演出提醒。",
+      "targetIds": [
+        "highlight-02"
+      ]
+    },
+    {
+      "id": "source-highlight-03",
+      "classification": "highlight",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0034",
+        "tesseract-0035",
+        "tesseract-0036",
+        "tesseract-0037"
+      ],
+      "text": "情人节限定水印 新增多款情人节限定水印。",
+      "targetIds": [
+        "highlight-03"
+      ]
+    },
+    {
+      "id": "source-highlight-04",
+      "classification": "highlight",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0003",
+        "ocr-0004"
+      ],
+      "text": "精准选词 识别文字后可分词选择和复制。",
+      "targetIds": [
+        "highlight-04"
+      ]
+    },
+    {
+      "id": "source-highlight-05",
+      "classification": "highlight",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0022",
+        "ocr-0023"
+      ],
+      "text": "批量压缩下载 网页端可将多个手机文件打包下载。",
+      "targetIds": [
+        "highlight-05"
+      ]
+    },
+    {
+      "id": "source-update-01",
+      "classification": "update",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0022"
+      ],
+      "text": "小布建议卡片翻动时的低阻尼动效，细致打磨卡片切换过程中的空间感和流畅度，操作体验更加流畅自然",
+      "correctedText": "小布建议卡片翻动时的低阻尼动效，细致打磨卡片切换过程中的空间感和流畅度，操作体验更加流畅自然",
+      "targetIds": [
+        "update-01"
+      ]
+    },
+    {
+      "id": "source-update-02",
+      "classification": "update",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0022"
+      ],
+      "text": "小布建议场景卡片集功能，动态感知和识别生活场景，并自动关联组合行程、出行建议、目的地信息等服务，高效智能",
+      "correctedText": "小布建议场景卡片集功能，动态感知和识别生活场景，并自动关联组合行程、出行建议、目的地信息等服务，高效智能",
+      "targetIds": [
+        "update-02"
+      ]
+    },
+    {
+      "id": "source-update-03",
+      "classification": "update",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0022"
+      ],
+      "text": "小布建议电竞、体育赛事服务提醒，赛事信息一目了然",
+      "correctedText": "小布建议电竞、体育赛事服务提醒，赛事信息一目了然",
+      "targetIds": [
+        "update-03"
+      ]
+    },
+    {
+      "id": "source-update-04",
+      "classification": "update",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0010",
+        "ocr-0011"
+      ],
+      "text": "日历支持分享日程",
+      "correctedText": "日历支持分享日程",
+      "targetIds": [
+        "update-04"
+      ]
+    },
+    {
+      "id": "source-update-05",
+      "classification": "update",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0011",
+        "ocr-0012"
+      ],
+      "text": "日历、天气字体大小随系统字体设置变化",
+      "correctedText": "日历、天气字体大小随系统字体设置变化",
+      "targetIds": [
+        "update-05"
+      ]
+    },
+    {
+      "id": "source-update-06",
+      "classification": "update",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0013",
+        "ocr-0014",
+        "ocr-0015",
+        "ocr-0016",
+        "ocr-0017"
+      ],
+      "text": "文件管理支持图片排序功能，支持按修改时间、拍摄时间和名称排序",
+      "correctedText": "文件管理支持图片排序功能，支持按修改时间、拍摄时间和名称排序",
+      "targetIds": [
+        "update-06"
+      ]
+    },
+    {
+      "id": "source-update-07",
+      "classification": "update",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0014",
+        "ocr-0015"
+      ],
+      "text": "Car+车联适配新版高德地图，提升兼容性",
+      "correctedText": "Car+车联适配新版高德地图，提升兼容性",
+      "targetIds": [
+        "update-07"
+      ]
+    },
+    {
+      "id": "source-update-08",
+      "classification": "update",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0015",
+        "ocr-0016"
+      ],
+      "text": "QQ 音乐在车机上的显示效果，功能使用更便捷",
+      "correctedText": "QQ 音乐在车机上的显示效果，功能使用更便捷",
+      "targetIds": [
+        "update-08"
+      ]
+    },
+    {
+      "id": "source-update-09",
+      "classification": "update",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0016",
+        "ocr-0017"
+      ],
+      "text": "应用使用时长桌面卡片，便于合理使用手机",
+      "correctedText": "应用使用时长桌面卡片，便于合理使用手机",
+      "targetIds": [
+        "update-09"
+      ]
+    },
+    {
+      "id": "source-update-10",
+      "classification": "update",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0022"
+      ],
+      "text": "小布建议通勤卡设计，提升视觉效果",
+      "correctedText": "小布建议通勤卡设计，提升视觉效果",
+      "targetIds": [
+        "update-10"
+      ]
+    },
+    {
+      "id": "source-excluded-016",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0001"
+      ],
+      "text": "OPPo",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-017",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0002"
+      ],
+      "text": "2 月",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-018",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0003"
+      ],
+      "text": "ColorOS",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-019",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0004"
+      ],
+      "text": "S58 FR",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-020",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0005"
+      ],
+      "text": "开 年 精彩",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-021",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0006"
+      ],
+      "text": "Rie",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-022",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0010"
+      ],
+      "text": "1",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-023",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0011"
+      ],
+      "text": "27108 周一",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-024",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0013"
+      ],
+      "text": "19",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-025",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0015"
+      ],
+      "text": "50",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-026",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0012"
+      ],
+      "text": "e",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-027",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0014"
+      ],
+      "text": "e",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-028",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0017"
+      ],
+      "text": "只 此 青绿",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-029",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0016"
+      ],
+      "text": "ink",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-030",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0019"
+      ],
+      "text": "19:45 ~ 22:09 6 号 LUXE 巨 幕 厅",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-031",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0018"
+      ],
+      "text": "2 张 : 10 排 25 座 /10 排 26 座",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-032",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0020"
+      ],
+      "text": "城 (MAXIE)",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-033",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0021"
+      ],
+      "text": "取 票 码",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-034",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0023"
+      ],
+      "text": "AI",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-035",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0031"
+      ],
+      "text": "ut",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-036",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0027"
+      ],
+      "text": "【北京 】2025 黄 明",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-037",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0029"
+      ],
+      "text": "ee",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-038",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0028"
+      ],
+      "text": "天 Aw",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-039",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0030"
+      ],
+      "text": "世界 \"个 人 演唱 会",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-040",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0032"
+      ],
+      "text": "2 月 10 日 17:00 准时 开",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-041",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0033"
+      ],
+      "text": "BF Ht",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-042",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0038"
+      ],
+      "text": "KSI",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-043",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0039"
+      ],
+      "text": "Ug",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-044",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0040"
+      ],
+      "text": "yf,",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-045",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0042"
+      ],
+      "text": "J",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-046",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0041"
+      ],
+      "text": "yy,",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-047",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0043"
+      ],
+      "text": "\\",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-048",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0044"
+      ],
+      "text": "Wi",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-049",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0045"
+      ],
+      "text": "SN",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-050",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0047"
+      ],
+      "text": "SS",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-051",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0046"
+      ],
+      "text": "ld",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-052",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0051"
+      ],
+      "text": "i",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-053",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0048"
+      ],
+      "text": "Yn)",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-054",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0049"
+      ],
+      "text": "if",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-055",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0050"
+      ],
+      "text": "iat",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-056",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0052"
+      ],
+      "text": "OPPO Find X8",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-057",
+      "classification": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0053"
+      ],
+      "text": "小 日 常 大 浪漫",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-058",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0001"
+      ],
+      "text": "好用加码更高效",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-059",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0002"
+      ],
+      "text": "小布识屏 选词取字精准拿捏",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-060",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0005"
+      ],
+      "text": "×",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-061",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0006"
+      ],
+      "text": "做一个长白山5天4夜的旅游方案",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-062",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0007"
+      ],
+      "text": "笛一天",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-063",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0008"
+      ],
+      "text": "出发前往长白山，抵达后入住二道白河小镇的",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-064",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0009"
+      ],
+      "text": "傍晚在小镇湿步，品尝当地美食。",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-065",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0010"
+      ],
+      "text": "前往长自山西坡景区，挑战1442级台阶，登；",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-066",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0012"
+      ],
+      "text": "提取文字",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-067",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0013"
+      ],
+      "text": "全选",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-068",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0011"
+      ],
+      "text": "取消",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-069",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0014"
+      ],
+      "text": "做一个长白山5天4夜的旅",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-070",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0015"
+      ],
+      "text": "游方案",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-071",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0016"
+      ],
+      "text": "建议的方案",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-072",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0017"
+      ],
+      "text": "第一天：",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-073",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0018"
+      ],
+      "text": "出发前往长白山，抵达后入",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-074",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0019"
+      ],
+      "text": "住二道白河小镇的民宿。",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-075",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0020"
+      ],
+      "text": "星市",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-076",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0021"
+      ],
+      "text": "手机文件批量圈选一步下载",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-077",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0024"
+      ],
+      "text": "19:30",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-078",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0025"
+      ],
+      "text": "3.1 100",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-079",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0027"
+      ],
+      "text": "• 随身工作台",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-080",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0026"
+      ],
+      "text": "（Q1",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-081",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0031"
+      ],
+      "text": "Q 說",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-082",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0028"
+      ],
+      "text": "Co 跨端文件",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-083",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0029"
+      ],
+      "text": "OPPO Find X8~",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-084",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0033"
+      ],
+      "text": "已选择5项",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-085",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0034"
+      ],
+      "text": "全选",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-086",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0030"
+      ],
+      "text": "取消",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-087",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0035"
+      ],
+      "text": "2025 品牌营销提案.ppt D",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-088",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0036"
+      ],
+      "text": "2025/2/7 10:45 84.3 MB",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-089",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0037"
+      ],
+      "text": "品牌跨界合作合同.pdf",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-090",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0032"
+      ],
+      "text": "A",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-091",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0038"
+      ],
+      "text": "2025/1/21 14:38 11.2 MB",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-092",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0039"
+      ],
+      "text": "O Relax.apk",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-093",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0040"
+      ],
+      "text": "2025/1/16 11:09 108 MB",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-094",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0041"
+      ],
+      "text": "2025 会议计划录屏.mp4",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-095",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0042"
+      ],
+      "text": "2025/1/8 17:12 263.7 MB",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-096",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0043"
+      ],
+      "text": "品牌视觉素材合集.zip",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-097",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0044"
+      ],
+      "text": "2025/12/20 15:13 906.5 MB",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-098",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0045"
+      ],
+      "text": "品牌广告歌曲.mp3",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-099",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0046"
+      ],
+      "text": "2024/12/11 15:13 57.2 MB",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-100",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0047"
+      ],
+      "text": "广告海报设计.pdf",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-101",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0048"
+      ],
+      "text": "004402910421490AAD",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-102",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0053"
+      ],
+      "text": "面",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-103",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0049"
+      ],
+      "text": "囝",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-104",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0051"
+      ],
+      "text": "飞",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-105",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0050"
+      ],
+      "text": "是利王！.",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-106",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0054"
+      ],
+      "text": "仓",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-107",
+      "classification": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0052"
+      ],
+      "text": "个",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-108",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0001"
+      ],
+      "text": "更多好用功能",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-109",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0002"
+      ],
+      "text": "新增小布建议卡片翻动时的低阻尼动效，细致打磨卡片",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-110",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0003"
+      ],
+      "text": "切换过程中的空间感和流畅度，操作体验更加流畅",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-111",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0004"
+      ],
+      "text": "自然",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-112",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0005"
+      ],
+      "text": "新增 小布建议场景卡片集功能，动态感知和识别生活场",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-113",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0006"
+      ],
+      "text": "景，并自动关联组合行程、出行建议、目的地信息",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-114",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0007"
+      ],
+      "text": "等服务，高效智能",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-115",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0008"
+      ],
+      "text": "新增 小布建议电竞、体育赛事服务提醒，赛事信息一目",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-116",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0009"
+      ],
+      "text": "了然",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-117",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0018"
+      ],
+      "text": "升级计划",
+      "targetIds": [],
+      "exclusionReason": "device-plan"
+    },
+    {
+      "id": "source-excluded-118",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0019"
+      ],
+      "text": "下列机型已于2月6日开始陆续推送，2月28日前完成",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-119",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0020"
+      ],
+      "text": "推送，分批覆盖 ColorOS 15用户：",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-120",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0036"
+      ],
+      "text": "一加 13",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-121",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0021"
+      ],
+      "text": "OPPO Find X8 Pro",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-122",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0022"
+      ],
+      "text": "OPPO Find X8",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-123",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0037"
+      ],
+      "text": "一加 12",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-124",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0023"
+      ],
+      "text": "OPPO Find N3",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-125",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0038"
+      ],
+      "text": "一加 11",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-126",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0039"
+      ],
+      "text": "一加 Ace 5 Pro",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-127",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0024"
+      ],
+      "text": "OPPO Find N3 Flip",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-128",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0040"
+      ],
+      "text": "一加 Ace5",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-129",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0025"
+      ],
+      "text": "OPPO Find X7 Ultra 卫星通信版",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-130",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0026"
+      ],
+      "text": "OPPO Find X7 Ultra",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-131",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0041"
+      ],
+      "text": "一加 Ace 3 Pro",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-132",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0042"
+      ],
+      "text": "一加Ace3",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-133",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0027"
+      ],
+      "text": "OPPO Find X7",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-134",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0043"
+      ],
+      "text": "一加 Ace 3V",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-135",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0028"
+      ],
+      "text": "OPPO Find X6 Pro",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-136",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0029"
+      ],
+      "text": "OPPO Find X6",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-137",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0044"
+      ],
+      "text": "一加 Ace 2 Pro",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-138",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0045"
+      ],
+      "text": "一加Ace2",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-139",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0030"
+      ],
+      "text": "OPPO Reno13 Pro",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-140",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0031"
+      ],
+      "text": "OPPO Reno13",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-141",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0032"
+      ],
+      "text": "OPPO Reno12 Pro",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-142",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0033"
+      ],
+      "text": "OPPO Reno12",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-143",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0034"
+      ],
+      "text": "OPPO Reno11 Pro",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-144",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0035"
+      ],
+      "text": "OPPO Reno11",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-145",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0046"
+      ],
+      "text": "相关进展与计划后续将在 ColorOS / ColorOS 升级助手官",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-146",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0047"
+      ],
+      "text": "方微博、OPPO 社区/一加社区 ColoroS 官方账号更",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-147",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0048"
+      ],
+      "text": "新，感谢大家的关注。",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-148",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0049"
+      ],
+      "text": "*OPPO Find N5上市后即支持上述功能。",
+      "targetIds": [],
+      "exclusionReason": "disclaimer"
+    },
+    {
+      "id": "source-excluded-149",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0050"
+      ],
+      "text": "*版本升级通知采取逐步推送的方式，以上计划为最迟在该日期开始推送，并非",
+      "targetIds": [],
+      "exclusionReason": "disclaimer"
+    },
+    {
+      "id": "source-excluded-150",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0051"
+      ],
+      "text": "所有用户可立即收到版本升级通知，若您未收到通知，请耐心等待。",
+      "targetIds": [],
+      "exclusionReason": "disclaimer"
+    },
+    {
+      "id": "source-excluded-151",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0052"
+      ],
+      "text": "*部分功能依赖手机硬件支持，不同机型可能存在差异，请以实际呈现效果与官",
+      "targetIds": [],
+      "exclusionReason": "disclaimer"
+    },
+    {
+      "id": "source-excluded-152",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0053"
+      ],
+      "text": "方渠道信息为准。",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-153",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0054"
+      ],
+      "text": "*机型排序与升级先后顺序无关，具体机型升级时间请以实际为准。",
+      "targetIds": [],
+      "exclusionReason": "disclaimer"
+    },
+    {
+      "id": "source-excluded-154",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0055"
+      ],
+      "text": "* 淘票票观影提醒/大麦抢票提醒功能依赖三方应用适配，并开启流体云+小布",
+      "targetIds": [],
+      "exclusionReason": "disclaimer"
+    },
+    {
+      "id": "source-excluded-155",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0056"
+      ],
+      "text": "建议提醒权限：",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-156",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0057"
+      ],
+      "text": "• 将系统版本升级为 ColorOS 15，且「淘票票」应用版本升级为11.13.6及以上/",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-157",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0058"
+      ],
+      "text": "「大麦」应用版本升级为 8.10.5及以上，可在 OPPO 软件商店和一加软件商店",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-158",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0059"
+      ],
+      "text": "下载更新；",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-159",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0060"
+      ],
+      "text": "•前往「设置」-「通知与控制中心」-「流体云」，开启「淘票票」/「大麦」应",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-160",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0061"
+      ],
+      "text": "用提醒权限；",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-161",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0062"
+      ],
+      "text": "．前往「设置」-「AI」-「小布建议」，开启「电影演出服务」提醒权限；",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-162",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0063"
+      ],
+      "text": "*Car+车联适配新版高德地图功能依赖三方应用适配，请将「高德地图」应用",
+      "targetIds": [],
+      "exclusionReason": "disclaimer"
+    },
+    {
+      "id": "source-excluded-163",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0064"
+      ],
+      "text": "版本升级为 15.09.0 及以上，可在 OPPO 软件商店和一加软件商店下载更新。",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-164",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0065"
+      ],
+      "text": "* Car+车联的QQ 音乐显示效果优化依赖三方应用适配，请将「QQ音乐」应用",
+      "targetIds": [],
+      "exclusionReason": "disclaimer"
+    },
+    {
+      "id": "source-excluded-165",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0066"
+      ],
+      "text": "版本升级为13.11.0.8 及以上，可在 OPPO软件商店和一加软件商店下载更新。",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-166",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0067"
+      ],
+      "text": "*展示的产品界面内容（包括但不限于UI，背景）仅作功能展示，部分产品/服",
+      "targetIds": [],
+      "exclusionReason": "disclaimer"
+    },
+    {
+      "id": "source-excluded-167",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0068"
+      ],
+      "text": "务信息由第三方提供，请以实际呈现效果为准。",
+      "targetIds": [],
+      "exclusionReason": "disclaimer"
+    },
+    {
+      "id": "source-excluded-168",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0069"
+      ],
+      "text": "Colo:OS",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-169",
+      "classification": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0070"
+      ],
+      "text": "超流畅 更 AI",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-170",
+      "classification": "excluded",
+      "source": "assets/images/月月有更新！ColorOS_二月体验升级来了/3.webp",
+      "sourceIndex": 7,
+      "sourceHash": "7a743ebb4325f9809a400788b3bbc0b3594a4f59d9b466c84ec588fc31a95ef8",
+      "blockIds": [
+        "ocr-0001"
+      ],
+      "text": "2月",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-171",
+      "classification": "excluded",
+      "source": "assets/images/月月有更新！ColorOS_二月体验升级来了/3.webp",
+      "sourceIndex": 7,
+      "sourceHash": "7a743ebb4325f9809a400788b3bbc0b3594a4f59d9b466c84ec588fc31a95ef8",
+      "blockIds": [
+        "ocr-0002"
+      ],
+      "text": "ColorOS",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-172",
+      "classification": "excluded",
+      "source": "assets/images/月月有更新！ColorOS_二月体验升级来了/3.webp",
+      "sourceIndex": 7,
+      "sourceHash": "7a743ebb4325f9809a400788b3bbc0b3594a4f59d9b466c84ec588fc31a95ef8",
+      "blockIds": [
+        "ocr-0003"
+      ],
+      "text": "体验升级一览",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-173",
+      "classification": "excluded",
+      "source": "assets/images/月月有更新！ColorOS_二月体验升级来了/4.webp",
+      "sourceIndex": 8,
+      "sourceHash": "9ce516c6fa66728c9dfc7cc987e0affb1c76d147a47de74042cd8b3abf47bc58",
+      "blockIds": [
+        "tesseract-0001"
+      ],
+      "text": "Fr 2h",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-174",
+      "classification": "excluded",
+      "source": "assets/images/月月有更新！ColorOS_二月体验升级来了/4.webp",
+      "sourceIndex": 8,
+      "sourceHash": "9ce516c6fa66728c9dfc7cc987e0affb1c76d147a47de74042cd8b3abf47bc58",
+      "blockIds": [
+        "tesseract-0002"
+      ],
+      "text": "— 7\"",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "highlight-01-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0007",
+        "tesseract-0008",
+        "tesseract-0009"
+      ],
+      "region": {
+        "x": 78,
+        "y": 1836,
+        "width": 923,
+        "height": 221
+      },
+      "note": "小布建议与流体云：淘票票智能观影提醒标题与说明"
+    },
+    {
+      "id": "highlight-01-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [],
+      "region": {
+        "x": 38,
+        "y": 2116,
+        "width": 1004,
+        "height": 950
+      },
+      "note": "小布建议与流体云：淘票票智能观影提醒人工确认演示区域"
+    },
+    {
+      "id": "highlight-02-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0024",
+        "tesseract-0025",
+        "tesseract-0026"
+      ],
+      "region": {
+        "x": 79,
+        "y": 3057,
+        "width": 927,
+        "height": 235
+      },
+      "note": "小布建议与流体云：大麦演出倒计时标题与说明"
+    },
+    {
+      "id": "highlight-02-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [],
+      "region": {
+        "x": 38,
+        "y": 3348,
+        "width": 1004,
+        "height": 854
+      },
+      "note": "小布建议与流体云：大麦演出倒计时人工确认演示区域"
+    },
+    {
+      "id": "highlight-03-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0034",
+        "tesseract-0035",
+        "tesseract-0036",
+        "tesseract-0037"
+      ],
+      "region": {
+        "x": 78,
+        "y": 4196,
+        "width": 916,
+        "height": 360
+      },
+      "note": "相册：情人节限定水印标题与说明"
+    },
+    {
+      "id": "highlight-03-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [],
+      "region": {
+        "x": 38,
+        "y": 4615,
+        "width": 1004,
+        "height": 1273
+      },
+      "note": "相册：情人节限定水印人工确认演示区域"
+    },
+    {
+      "id": "highlight-04-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0003",
+        "ocr-0004"
+      ],
+      "region": {
+        "x": 72,
+        "y": 437,
+        "width": 931,
+        "height": 120
+      },
+      "note": "小布识屏：精准选词标题与说明"
+    },
+    {
+      "id": "highlight-04-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [],
+      "region": {
+        "x": 38,
+        "y": 601,
+        "width": 1004,
+        "height": 1656
+      },
+      "note": "小布识屏：精准选词人工确认演示区域"
+    },
+    {
+      "id": "highlight-05-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0022",
+        "ocr-0023"
+      ],
+      "region": {
+        "x": 72,
+        "y": 2321,
+        "width": 931,
+        "height": 121
+      },
+      "note": "随身工作台：批量压缩下载标题与说明"
+    },
+    {
+      "id": "highlight-05-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [],
+      "region": {
+        "x": 38,
+        "y": 2489,
+        "width": 1004,
+        "height": 970
+      },
+      "note": "随身工作台：批量压缩下载人工确认演示区域"
+    },
+    {
+      "id": "update-01-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0022"
+      ],
+      "region": {
+        "x": 494,
+        "y": 2804,
+        "width": 89,
+        "height": 126
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-02-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0022"
+      ],
+      "region": {
+        "x": 494,
+        "y": 2804,
+        "width": 89,
+        "height": 126
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-03-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0022"
+      ],
+      "region": {
+        "x": 494,
+        "y": 2804,
+        "width": 89,
+        "height": 126
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-04-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0010",
+        "ocr-0011"
+      ],
+      "region": {
+        "x": 77,
+        "y": 855,
+        "width": 764,
+        "height": 216
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-05-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0011",
+        "ocr-0012"
+      ],
+      "region": {
+        "x": 77,
+        "y": 946,
+        "width": 926,
+        "height": 220
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-06-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0013",
+        "ocr-0014",
+        "ocr-0015",
+        "ocr-0016",
+        "ocr-0017"
+      ],
+      "region": {
+        "x": 77,
+        "y": 1090,
+        "width": 845,
+        "height": 491
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-07-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0014",
+        "ocr-0015"
+      ],
+      "region": {
+        "x": 77,
+        "y": 1180,
+        "width": 845,
+        "height": 220
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-08-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0015",
+        "ocr-0016"
+      ],
+      "region": {
+        "x": 77,
+        "y": 1269,
+        "width": 845,
+        "height": 221
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-09-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0016",
+        "ocr-0017"
+      ],
+      "region": {
+        "x": 77,
+        "y": 1360,
+        "width": 778,
+        "height": 221
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-10-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0022"
+      ],
+      "region": {
+        "x": 494,
+        "y": 2804,
+        "width": 89,
+        "height": 126
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "source-excluded-016-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0001"
+      ],
+      "region": {
+        "x": 39,
+        "y": 4,
+        "width": 277,
+        "height": 154
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-017-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0002"
+      ],
+      "region": {
+        "x": 148,
+        "y": 803,
+        "width": 157,
+        "height": 169
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-018-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0003"
+      ],
+      "region": {
+        "x": 88,
+        "y": 964,
+        "width": 633,
+        "height": 213
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-019-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0004"
+      ],
+      "region": {
+        "x": 85,
+        "y": 1136,
+        "width": 621,
+        "height": 297
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-020-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0005"
+      ],
+      "region": {
+        "x": 235,
+        "y": 1529,
+        "width": 421,
+        "height": 279
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-021-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0006"
+      ],
+      "region": {
+        "x": 639,
+        "y": 1577,
+        "width": 194,
+        "height": 178
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-022-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0010"
+      ],
+      "region": {
+        "x": 702,
+        "y": 2236,
+        "width": 36,
+        "height": 114
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-023-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0011"
+      ],
+      "region": {
+        "x": 402,
+        "y": 2365,
+        "width": 181,
+        "height": 120
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-024-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0013"
+      ],
+      "region": {
+        "x": 384,
+        "y": 2409,
+        "width": 132,
+        "height": 179
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-025-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0015"
+      ],
+      "region": {
+        "x": 531,
+        "y": 2409,
+        "width": 154,
+        "height": 179
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-026-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0012"
+      ],
+      "region": {
+        "x": 503,
+        "y": 2422,
+        "width": 42,
+        "height": 112
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-027-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0014"
+      ],
+      "region": {
+        "x": 503,
+        "y": 2466,
+        "width": 42,
+        "height": 112
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-028-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0017"
+      ],
+      "region": {
+        "x": 420,
+        "y": 2617,
+        "width": 115,
+        "height": 118
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-029-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0016"
+      ],
+      "region": {
+        "x": 322,
+        "y": 2618,
+        "width": 85,
+        "height": 125
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-030-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0019"
+      ],
+      "region": {
+        "x": 420,
+        "y": 2658,
+        "width": 276,
+        "height": 123
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-031-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0018"
+      ],
+      "region": {
+        "x": 420,
+        "y": 2685,
+        "width": 225,
+        "height": 123
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-032-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0020"
+      ],
+      "region": {
+        "x": 366,
+        "y": 2751,
+        "width": 157,
+        "height": 112
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-033-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0021"
+      ],
+      "region": {
+        "x": 642,
+        "y": 2751,
+        "width": 75,
+        "height": 111
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-034-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0023"
+      ],
+      "region": {
+        "x": 82,
+        "y": 3025,
+        "width": 102,
+        "height": 153
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-035-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0031"
+      ],
+      "region": {
+        "x": 216,
+        "y": 3555,
+        "width": 140,
+        "height": 226
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-036-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0027"
+      ],
+      "region": {
+        "x": 369,
+        "y": 3567,
+        "width": 287,
+        "height": 143
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-037-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0029"
+      ],
+      "region": {
+        "x": 635,
+        "y": 3571,
+        "width": 133,
+        "height": 121
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-038-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0028"
+      ],
+      "region": {
+        "x": 632,
+        "y": 3585,
+        "width": 138,
+        "height": 113
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-039-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0030"
+      ],
+      "region": {
+        "x": 350,
+        "y": 3612,
+        "width": 276,
+        "height": 146
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-040-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0032"
+      ],
+      "region": {
+        "x": 350,
+        "y": 3670,
+        "width": 263,
+        "height": 129
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-041-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0033"
+      ],
+      "region": {
+        "x": 229,
+        "y": 3777,
+        "width": 82,
+        "height": 130
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-042-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0038"
+      ],
+      "region": {
+        "x": 548,
+        "y": 4829,
+        "width": 101,
+        "height": 185
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-043-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0039"
+      ],
+      "region": {
+        "x": 259,
+        "y": 5025,
+        "width": 75,
+        "height": 126
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-044-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0040"
+      ],
+      "region": {
+        "x": 548,
+        "y": 5070,
+        "width": 92,
+        "height": 162
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-045-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0042"
+      ],
+      "region": {
+        "x": 657,
+        "y": 5095,
+        "width": 128,
+        "height": 219
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-046-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0041"
+      ],
+      "region": {
+        "x": 219,
+        "y": 5120,
+        "width": 47,
+        "height": 126
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-047-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0043"
+      ],
+      "region": {
+        "x": 920,
+        "y": 5211,
+        "width": 58,
+        "height": 123
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-048-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0044"
+      ],
+      "region": {
+        "x": 276,
+        "y": 5239,
+        "width": 53,
+        "height": 111
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-049-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0045"
+      ],
+      "region": {
+        "x": 929,
+        "y": 5287,
+        "width": 49,
+        "height": 130
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-050-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0047"
+      ],
+      "region": {
+        "x": 899,
+        "y": 5294,
+        "width": 79,
+        "height": 166
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-051-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0046"
+      ],
+      "region": {
+        "x": 653,
+        "y": 5326,
+        "width": 67,
+        "height": 146
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-052-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0051"
+      ],
+      "region": {
+        "x": 703,
+        "y": 5379,
+        "width": 41,
+        "height": 150
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-053-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0048"
+      ],
+      "region": {
+        "x": 462,
+        "y": 5399,
+        "width": 65,
+        "height": 130
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-054-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0049"
+      ],
+      "region": {
+        "x": 655,
+        "y": 5405,
+        "width": 32,
+        "height": 120
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-055-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0050"
+      ],
+      "region": {
+        "x": 684,
+        "y": 5418,
+        "width": 44,
+        "height": 111
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-056-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0052"
+      ],
+      "region": {
+        "x": 428,
+        "y": 5501,
+        "width": 222,
+        "height": 118
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-057-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/00bbd6ba6a2e10b05ee39e0358d34f19.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a42053da4b521c6d8357142aac072043d025183a485dc9ef36a0dce560d3147d",
+      "blockIds": [
+        "tesseract-0053"
+      ],
+      "region": {
+        "x": 465,
+        "y": 5532,
+        "width": 155,
+        "height": 131
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-058-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0001"
+      ],
+      "region": {
+        "x": 77,
+        "y": 84,
+        "width": 647,
+        "height": 156
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-059-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0002"
+      ],
+      "region": {
+        "x": 77,
+        "y": 309,
+        "width": 755,
+        "height": 129
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-060-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0005"
+      ],
+      "region": {
+        "x": 275,
+        "y": 801,
+        "width": 58,
+        "height": 97
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-061-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0006"
+      ],
+      "region": {
+        "x": 464,
+        "y": 886,
+        "width": 197,
+        "height": 84
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-062-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0007"
+      ],
+      "region": {
+        "x": 401,
+        "y": 994,
+        "width": 67,
+        "height": 75
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-063-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0008"
+      ],
+      "region": {
+        "x": 401,
+        "y": 1008,
+        "width": 265,
+        "height": 88
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-064-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0009"
+      ],
+      "region": {
+        "x": 401,
+        "y": 1044,
+        "width": 202,
+        "height": 88
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-065-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0010"
+      ],
+      "region": {
+        "x": 405,
+        "y": 1197,
+        "width": 251,
+        "height": 79
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-066-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0012"
+      ],
+      "region": {
+        "x": 468,
+        "y": 1295,
+        "width": 135,
+        "height": 95
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-067-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0013"
+      ],
+      "region": {
+        "x": 689,
+        "y": 1296,
+        "width": 71,
+        "height": 93
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-068-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0011"
+      ],
+      "region": {
+        "x": 306,
+        "y": 1296,
+        "width": 76,
+        "height": 93
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-069-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0014"
+      ],
+      "region": {
+        "x": 293,
+        "y": 1364,
+        "width": 458,
+        "height": 93
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-070-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0015"
+      ],
+      "region": {
+        "x": 293,
+        "y": 1422,
+        "width": 130,
+        "height": 93
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-071-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0016"
+      ],
+      "region": {
+        "x": 293,
+        "y": 1490,
+        "width": 206,
+        "height": 92
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-072-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0017"
+      ],
+      "region": {
+        "x": 292,
+        "y": 1562,
+        "width": 157,
+        "height": 93
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-073-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0018"
+      ],
+      "region": {
+        "x": 293,
+        "y": 1629,
+        "width": 476,
+        "height": 98
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-074-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0019"
+      ],
+      "region": {
+        "x": 293,
+        "y": 1688,
+        "width": 431,
+        "height": 98
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-075-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0020"
+      ],
+      "region": {
+        "x": 329,
+        "y": 1819,
+        "width": 53,
+        "height": 75
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-076-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0021"
+      ],
+      "region": {
+        "x": 77,
+        "y": 2193,
+        "width": 755,
+        "height": 129
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-077-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0024"
+      ],
+      "region": {
+        "x": 293,
+        "y": 2616,
+        "width": 80,
+        "height": 89
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-078-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0025"
+      ],
+      "region": {
+        "x": 666,
+        "y": 2616,
+        "width": 116,
+        "height": 93
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-079-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0027"
+      ],
+      "region": {
+        "x": 360,
+        "y": 2697,
+        "width": 193,
+        "height": 98
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-080-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0026"
+      ],
+      "region": {
+        "x": 288,
+        "y": 2698,
+        "width": 98,
+        "height": 106
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-081-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0031"
+      ],
+      "region": {
+        "x": 522,
+        "y": 2778,
+        "width": 256,
+        "height": 98
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-082-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0028"
+      ],
+      "region": {
+        "x": 288,
+        "y": 2778,
+        "width": 193,
+        "height": 98
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-083-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0029"
+      ],
+      "region": {
+        "x": 288,
+        "y": 2846,
+        "width": 215,
+        "height": 88
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-084-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0033"
+      ],
+      "region": {
+        "x": 468,
+        "y": 2891,
+        "width": 179,
+        "height": 93
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-085-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0034"
+      ],
+      "region": {
+        "x": 630,
+        "y": 2891,
+        "width": 161,
+        "height": 93
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-086-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0030"
+      ],
+      "region": {
+        "x": 288,
+        "y": 2896,
+        "width": 71,
+        "height": 88
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-087-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0035"
+      ],
+      "region": {
+        "x": 368,
+        "y": 2947,
+        "width": 421,
+        "height": 123
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-088-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0036"
+      ],
+      "region": {
+        "x": 369,
+        "y": 2991,
+        "width": 265,
+        "height": 93
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-089-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0037"
+      ],
+      "region": {
+        "x": 369,
+        "y": 3049,
+        "width": 269,
+        "height": 93
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-090-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0032"
+      ],
+      "region": {
+        "x": 306,
+        "y": 3067,
+        "width": 53,
+        "height": 92
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-091-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0038"
+      ],
+      "region": {
+        "x": 369,
+        "y": 3085,
+        "width": 260,
+        "height": 88
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-092-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0039"
+      ],
+      "region": {
+        "x": 373,
+        "y": 3143,
+        "width": 162,
+        "height": 93
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-093-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0040"
+      ],
+      "region": {
+        "x": 369,
+        "y": 3175,
+        "width": 260,
+        "height": 89
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-094-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0041"
+      ],
+      "region": {
+        "x": 369,
+        "y": 3234,
+        "width": 292,
+        "height": 93
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-095-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0042"
+      ],
+      "region": {
+        "x": 369,
+        "y": 3270,
+        "width": 265,
+        "height": 89
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-096-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0043"
+      ],
+      "region": {
+        "x": 374,
+        "y": 3328,
+        "width": 256,
+        "height": 93
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-097-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0044"
+      ],
+      "region": {
+        "x": 369,
+        "y": 3360,
+        "width": 292,
+        "height": 93
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-098-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0045"
+      ],
+      "region": {
+        "x": 374,
+        "y": 3423,
+        "width": 224,
+        "height": 93
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-099-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0046"
+      ],
+      "region": {
+        "x": 369,
+        "y": 3455,
+        "width": 269,
+        "height": 88
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-100-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0047"
+      ],
+      "region": {
+        "x": 374,
+        "y": 3513,
+        "width": 215,
+        "height": 93
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-101-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0048"
+      ],
+      "region": {
+        "x": 374,
+        "y": 3554,
+        "width": 283,
+        "height": 75
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-102-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0053"
+      ],
+      "region": {
+        "x": 698,
+        "y": 3572,
+        "width": 49,
+        "height": 97
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-103-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0049"
+      ],
+      "region": {
+        "x": 567,
+        "y": 3572,
+        "width": 62,
+        "height": 102
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-104-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0051"
+      ],
+      "region": {
+        "x": 324,
+        "y": 3576,
+        "width": 62,
+        "height": 102
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-105-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0050"
+      ],
+      "region": {
+        "x": 558,
+        "y": 3617,
+        "width": 76,
+        "height": 75
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-106-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0054"
+      ],
+      "region": {
+        "x": 693,
+        "y": 3667,
+        "width": 67,
+        "height": 102
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-107-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/1d35c39b595a2b6d562e8468deb8dab8.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9ab4916b16707510c4c224a4e4e7224dd8da3cbf28cb402afa4cd90c548fe4ec",
+      "blockIds": [
+        "ocr-0052"
+      ],
+      "region": {
+        "x": 315,
+        "y": 3667,
+        "width": 62,
+        "height": 102
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-108-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0001"
+      ],
+      "region": {
+        "x": 77,
+        "y": 90,
+        "width": 562,
+        "height": 171
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-109-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0002"
+      ],
+      "region": {
+        "x": 77,
+        "y": 319,
+        "width": 922,
+        "height": 126
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-110-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0003"
+      ],
+      "region": {
+        "x": 167,
+        "y": 369,
+        "width": 832,
+        "height": 131
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-111-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0004"
+      ],
+      "region": {
+        "x": 171,
+        "y": 428,
+        "width": 94,
+        "height": 122
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-112-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0005"
+      ],
+      "region": {
+        "x": 77,
+        "y": 513,
+        "width": 922,
+        "height": 131
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-113-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0006"
+      ],
+      "region": {
+        "x": 167,
+        "y": 567,
+        "width": 832,
+        "height": 131
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-114-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0007"
+      ],
+      "region": {
+        "x": 166,
+        "y": 620,
+        "width": 310,
+        "height": 137
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-115-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0008"
+      ],
+      "region": {
+        "x": 77,
+        "y": 711,
+        "width": 922,
+        "height": 131
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-116-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0009"
+      ],
+      "region": {
+        "x": 171,
+        "y": 770,
+        "width": 98,
+        "height": 121
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-117-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0018"
+      ],
+      "region": {
+        "x": 77,
+        "y": 1743,
+        "width": 382,
+        "height": 175
+      },
+      "note": "不进入表格：device-plan"
+    },
+    {
+      "id": "source-excluded-118-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0019"
+      ],
+      "region": {
+        "x": 72,
+        "y": 1972,
+        "width": 931,
+        "height": 131
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-119-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0020"
+      ],
+      "region": {
+        "x": 72,
+        "y": 2026,
+        "width": 571,
+        "height": 131
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-120-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0036"
+      ],
+      "region": {
+        "x": 652,
+        "y": 2143,
+        "width": 148,
+        "height": 122
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-121-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0021"
+      ],
+      "region": {
+        "x": 72,
+        "y": 2143,
+        "width": 310,
+        "height": 121
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-122-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0022"
+      ],
+      "region": {
+        "x": 72,
+        "y": 2210,
+        "width": 252,
+        "height": 123
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-123-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0037"
+      ],
+      "region": {
+        "x": 653,
+        "y": 2215,
+        "width": 143,
+        "height": 117
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-124-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0023"
+      ],
+      "region": {
+        "x": 72,
+        "y": 2278,
+        "width": 251,
+        "height": 122
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-125-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0038"
+      ],
+      "region": {
+        "x": 657,
+        "y": 2283,
+        "width": 134,
+        "height": 117
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-126-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0039"
+      ],
+      "region": {
+        "x": 657,
+        "y": 2346,
+        "width": 256,
+        "height": 121
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-127-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0024"
+      ],
+      "region": {
+        "x": 72,
+        "y": 2346,
+        "width": 314,
+        "height": 126
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-128-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0040"
+      ],
+      "region": {
+        "x": 662,
+        "y": 2414,
+        "width": 193,
+        "height": 121
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-129-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0025"
+      ],
+      "region": {
+        "x": 72,
+        "y": 2414,
+        "width": 499,
+        "height": 121
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-130-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0026"
+      ],
+      "region": {
+        "x": 72,
+        "y": 2476,
+        "width": 332,
+        "height": 127
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-131-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0041"
+      ],
+      "region": {
+        "x": 657,
+        "y": 2481,
+        "width": 252,
+        "height": 122
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-132-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0042"
+      ],
+      "region": {
+        "x": 657,
+        "y": 2544,
+        "width": 193,
+        "height": 127
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-133-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0027"
+      ],
+      "region": {
+        "x": 72,
+        "y": 2547,
+        "width": 252,
+        "height": 124
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-134-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0043"
+      ],
+      "region": {
+        "x": 657,
+        "y": 2610,
+        "width": 221,
+        "height": 129
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-135-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0028"
+      ],
+      "region": {
+        "x": 72,
+        "y": 2612,
+        "width": 314,
+        "height": 126
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-136-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0029"
+      ],
+      "region": {
+        "x": 72,
+        "y": 2678,
+        "width": 252,
+        "height": 127
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-137-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0044"
+      ],
+      "region": {
+        "x": 657,
+        "y": 2684,
+        "width": 256,
+        "height": 121
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-138-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0045"
+      ],
+      "region": {
+        "x": 657,
+        "y": 2746,
+        "width": 198,
+        "height": 128
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-139-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0030"
+      ],
+      "region": {
+        "x": 72,
+        "y": 2746,
+        "width": 305,
+        "height": 122
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-140-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0031"
+      ],
+      "region": {
+        "x": 72,
+        "y": 2814,
+        "width": 247,
+        "height": 122
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-141-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0032"
+      ],
+      "region": {
+        "x": 72,
+        "y": 2882,
+        "width": 305,
+        "height": 121
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-142-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0033"
+      ],
+      "region": {
+        "x": 72,
+        "y": 2949,
+        "width": 247,
+        "height": 122
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-143-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0034"
+      ],
+      "region": {
+        "x": 72,
+        "y": 3017,
+        "width": 301,
+        "height": 127
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-144-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0035"
+      ],
+      "region": {
+        "x": 77,
+        "y": 3089,
+        "width": 238,
+        "height": 108
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-145-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0046"
+      ],
+      "region": {
+        "x": 72,
+        "y": 3377,
+        "width": 926,
+        "height": 121
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-146-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0047"
+      ],
+      "region": {
+        "x": 72,
+        "y": 3431,
+        "width": 926,
+        "height": 126
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-147-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0048"
+      ],
+      "region": {
+        "x": 72,
+        "y": 3485,
+        "width": 377,
+        "height": 127
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-148-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0049"
+      ],
+      "region": {
+        "x": 72,
+        "y": 3611,
+        "width": 503,
+        "height": 117
+      },
+      "note": "不进入表格：disclaimer"
+    },
+    {
+      "id": "source-excluded-149-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0050"
+      ],
+      "region": {
+        "x": 77,
+        "y": 3660,
+        "width": 926,
+        "height": 117
+      },
+      "note": "不进入表格：disclaimer"
+    },
+    {
+      "id": "source-excluded-150-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0051"
+      ],
+      "region": {
+        "x": 99,
+        "y": 3710,
+        "width": 791,
+        "height": 113
+      },
+      "note": "不进入表格：disclaimer"
+    },
+    {
+      "id": "source-excluded-151-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0052"
+      ],
+      "region": {
+        "x": 72,
+        "y": 3755,
+        "width": 926,
+        "height": 117
+      },
+      "note": "不进入表格：disclaimer"
+    },
+    {
+      "id": "source-excluded-152-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0053"
+      ],
+      "region": {
+        "x": 99,
+        "y": 3805,
+        "width": 224,
+        "height": 113
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-153-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0054"
+      ],
+      "region": {
+        "x": 72,
+        "y": 3850,
+        "width": 791,
+        "height": 117
+      },
+      "note": "不进入表格：disclaimer"
+    },
+    {
+      "id": "source-excluded-154-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0055"
+      ],
+      "region": {
+        "x": 72,
+        "y": 3895,
+        "width": 926,
+        "height": 117
+      },
+      "note": "不进入表格：disclaimer"
+    },
+    {
+      "id": "source-excluded-155-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0056"
+      ],
+      "region": {
+        "x": 90,
+        "y": 3944,
+        "width": 207,
+        "height": 118
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-156-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0057"
+      ],
+      "region": {
+        "x": 77,
+        "y": 3994,
+        "width": 926,
+        "height": 112
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-157-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0058"
+      ],
+      "region": {
+        "x": 86,
+        "y": 4039,
+        "width": 904,
+        "height": 117
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-158-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0059"
+      ],
+      "region": {
+        "x": 99,
+        "y": 4083,
+        "width": 144,
+        "height": 119
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-159-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0060"
+      ],
+      "region": {
+        "x": 77,
+        "y": 4134,
+        "width": 926,
+        "height": 113
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-160-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0061"
+      ],
+      "region": {
+        "x": 99,
+        "y": 4178,
+        "width": 171,
+        "height": 113
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-161-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0062"
+      ],
+      "region": {
+        "x": 77,
+        "y": 4228,
+        "width": 854,
+        "height": 112
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-162-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0063"
+      ],
+      "region": {
+        "x": 77,
+        "y": 4273,
+        "width": 922,
+        "height": 117
+      },
+      "note": "不进入表格：disclaimer"
+    },
+    {
+      "id": "source-excluded-163-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0064"
+      ],
+      "region": {
+        "x": 99,
+        "y": 4323,
+        "width": 895,
+        "height": 112
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-164-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0065"
+      ],
+      "region": {
+        "x": 72,
+        "y": 4363,
+        "width": 927,
+        "height": 123
+      },
+      "note": "不进入表格：disclaimer"
+    },
+    {
+      "id": "source-excluded-165-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0066"
+      ],
+      "region": {
+        "x": 99,
+        "y": 4412,
+        "width": 890,
+        "height": 117
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-166-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0067"
+      ],
+      "region": {
+        "x": 72,
+        "y": 4458,
+        "width": 931,
+        "height": 122
+      },
+      "note": "不进入表格：disclaimer"
+    },
+    {
+      "id": "source-excluded-167-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0068"
+      ],
+      "region": {
+        "x": 99,
+        "y": 4507,
+        "width": 557,
+        "height": 117
+      },
+      "note": "不进入表格：disclaimer"
+    },
+    {
+      "id": "source-excluded-168-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0069"
+      ],
+      "region": {
+        "x": 400,
+        "y": 4803,
+        "width": 279,
+        "height": 142
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-169-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/5906ba4540dff87d8c94e24ba677e19b.webp",
+      "sourceIndex": 3,
+      "sourceHash": "b1589fe072dd6ccc9c25df637ea310a7d7c624cc6a5412057f117a57ff4e4273",
+      "blockIds": [
+        "ocr-0070"
+      ],
+      "region": {
+        "x": 454,
+        "y": 4871,
+        "width": 171,
+        "height": 114
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-170-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/月月有更新！ColorOS_二月体验升级来了/3.webp",
+      "sourceIndex": 7,
+      "sourceHash": "7a743ebb4325f9809a400788b3bbc0b3594a4f59d9b466c84ec588fc31a95ef8",
+      "blockIds": [
+        "ocr-0001"
+      ],
+      "region": {
+        "x": 96,
+        "y": 113,
+        "width": 125,
+        "height": 61
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-171-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/月月有更新！ColorOS_二月体验升级来了/3.webp",
+      "sourceIndex": 7,
+      "sourceHash": "7a743ebb4325f9809a400788b3bbc0b3594a4f59d9b466c84ec588fc31a95ef8",
+      "blockIds": [
+        "ocr-0002"
+      ],
+      "region": {
+        "x": 58,
+        "y": 216,
+        "width": 448,
+        "height": 101
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-172-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/月月有更新！ColorOS_二月体验升级来了/3.webp",
+      "sourceIndex": 7,
+      "sourceHash": "7a743ebb4325f9809a400788b3bbc0b3594a4f59d9b466c84ec588fc31a95ef8",
+      "blockIds": [
+        "ocr-0003"
+      ],
+      "region": {
+        "x": 59,
+        "y": 328,
+        "width": 621,
+        "height": 123
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-173-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/月月有更新！ColorOS_二月体验升级来了/4.webp",
+      "sourceIndex": 8,
+      "sourceHash": "9ce516c6fa66728c9dfc7cc987e0affb1c76d147a47de74042cd8b3abf47bc58",
+      "blockIds": [
+        "tesseract-0001"
+      ],
+      "region": {
+        "x": 212,
+        "y": 229,
+        "width": 687,
+        "height": 419
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-174-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/月月有更新！ColorOS_二月体验升级来了/4.webp",
+      "sourceIndex": 8,
+      "sourceHash": "9ce516c6fa66728c9dfc7cc987e0affb1c76d147a47de74042cd8b3abf47bc58",
+      "blockIds": [
+        "tesseract-0002"
+      ],
+      "region": {
+        "x": 216,
+        "y": 454,
+        "width": 912,
+        "height": 676
+      },
+      "note": "不进入表格：decoration"
+    }
+  ],
+  "audit": {
+    "highlightReviewVersion": 4,
+    "updateReviewVersion": 4,
+    "review": {
+      "content": "verified",
+      "modules": "verified",
+      "media": "verified",
+      "page": "verified"
+    },
+    "expectedHighlightCount": 5,
+    "sourceItemCount": 174,
+    "includedItemCount": 15,
+    "excludedItemCount": 159,
+    "highlightCount": 5,
+    "updateCount": 10,
+    "mediaCount": 5,
+    "mappedItemCount": 174,
+    "coverageRate": 1
+  }
+}

@@ -2,7 +2,9 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import ArchiveNav from '../../../components/ArchiveNav.astro';
 import Icon from '../../../components/Icon.astro';
+import MonthlyDigestView from '../../../components/MonthlyDigestView.astro';
 import { brandMeta, getArticles, sitePath, type ArchiveArticle, type Brand } from '../../../lib/archive';
+import { getMonthlyDigest } from '../../../lib/monthly-digests';
 
 export async function getStaticPaths() {
   return (await getArticles()).map((article) => ({
@@ -18,24 +20,50 @@ const mediaBase = import.meta.env.PUBLIC_MEDIA_BASE_URL?.replace(/\/$/, '');
 const readyVideos = data.media.filter((item) => item.kind === 'video' && item.status === 'ready' && item.src);
 const mediaUrl = (value: string) => `${mediaBase}/${value.split('/').map((part) => encodeURIComponent(part)).join('/')}`;
 const image = data.cover?.src;
+const digestEntry = await getMonthlyDigest(data.articleId);
+const digest = digestEntry?.data.reviewStatus === 'verified' ? digestEntry : undefined;
 ---
-<BaseLayout title={data.title} description={`${data.title}，${meta.name} 系统升级档案。`} brand={data.brand} image={image} articleMeta={{ publishedAt: data.publishedAt, brand: data.brand }} hasArchiveNav>
+<BaseLayout title={data.title} description={`${data.title}，${meta.name} 系统升级档案。`} brand={data.brand} image={image} articleMeta={{ publishedAt: data.publishedAt, brand: data.brand }} hasArchiveNav hasMonthlyViewToggle={!!digest}>
   <main class="article-layout">
     <ArchiveNav brand={data.brand} selectedId={data.articleId} />
     <article class="article-content">
-      {data.kind === 'gallery' ? (
-        <div class="gallery-shell" data-gallery-shell>
-          <div class="media-loading" role="status"><span class="loading-spinner"></span><span>内容加载中…</span></div>
-          <div class="gallery-content" set:html={data.html} />
+      {digest ? (
+        <div class="monthly-view" data-monthly-view-root>
+          <section class="monthly-panel monthly-digest-panel" data-monthly-panel="digest">
+            <MonthlyDigestView digest={digest} />
+          </section>
+          <section class="monthly-panel monthly-original-panel" data-monthly-panel="original">
+            <div data-original-mount></div>
+            <template data-original-template>
+              {data.kind === 'gallery' ? (
+                <div class="gallery-shell" data-gallery-shell>
+                  <div class="media-loading" role="status"><span class="loading-spinner"></span><span>原始档案加载中…</span></div>
+                  <div class="gallery-content" set:html={data.html} />
+                </div>
+              ) : (
+                <section class="interactive-archive">
+                  <div class="compat-frame-shell" data-compat-shell>
+                    <div class="frame-loading" role="status"><span class="loading-spinner"></span><span>原始档案加载中…</span></div>
+                    <iframe title={`${data.title} 交互内容`} data-src={sitePath(data.compatPath)} loading="lazy" sandbox="allow-scripts allow-same-origin" referrerpolicy="no-referrer" data-compat-frame data-compat-id={data.slug}></iframe>
+                  </div>
+                </section>
+              )}
+            </template>
+          </section>
         </div>
-      ) : (
-        <section class="interactive-archive">
-          <div class="compat-frame-shell" data-compat-shell>
-            <div class="frame-loading" role="status"><span class="loading-spinner"></span><span>内容加载中…</span></div>
-            <iframe title={`${data.title} 交互内容`} src={sitePath(data.compatPath)} loading="eager" sandbox="allow-scripts allow-same-origin" referrerpolicy="no-referrer" data-compat-frame data-compat-id={data.slug}></iframe>
+      ) : data.kind === 'gallery' ? (
+          <div class="gallery-shell" data-gallery-shell>
+            <div class="media-loading" role="status"><span class="loading-spinner"></span><span>内容加载中…</span></div>
+            <div class="gallery-content" set:html={data.html} />
           </div>
-        </section>
-      )}
+        ) : (
+          <section class="interactive-archive">
+            <div class="compat-frame-shell" data-compat-shell>
+              <div class="frame-loading" role="status"><span class="loading-spinner"></span><span>内容加载中…</span></div>
+              <iframe title={`${data.title} 交互内容`} src={sitePath(data.compatPath)} loading="eager" sandbox="allow-scripts allow-same-origin" referrerpolicy="no-referrer" data-compat-frame data-compat-id={data.slug}></iframe>
+            </div>
+          </section>
+        )}
 
       {data.experience && mediaBase && (
         <section class="experience-panel reveal">
