@@ -8,7 +8,7 @@ const articles = await getArticles();
 const chronological = [...articles].sort((a, b) => b.data.publishedAt.localeCompare(a.data.publishedAt) || a.data.order - b.data.order);
 const latest = chronological[0];
 const recent = chronological.slice(1, 7);
-const brandCounts = Object.fromEntries((['coloros', 'originos'] as Brand[]).map((brand) => [brand, articles.filter((article) => article.data.brand === brand).length]));
+const brandCounts = Object.fromEntries((['coloros', 'originos', 'hyperos'] as Brand[]).map((brand) => [brand, articles.filter((article) => article.data.brand === brand).length]));
 const routeMap = Object.fromEntries(articles.map((article) => [article.data.articleId, articlePath(article)]));
 const homepageTitle = (title: string) => title.replace(/^OPPO\s+/i, '');
 ---
@@ -17,12 +17,12 @@ const homepageTitle = (title: string) => title.replace(/^OPPO\s+/i, '');
     <section class="landing-hero reveal">
       <div>
         <h1>把每一次系统进化<br /><em>留在时间里</em></h1>
-        <p class="hero-copy">收录 ColorOS 与 OriginOS 的月度更新、版本亮点和体验变化。不是资讯流，而是一座持续生长的系统档案馆。</p>
+        <p class="hero-copy">收录 ColorOS、OriginOS 与 小米HyperOS 的月度更新、版本亮点和体验变化。不是资讯流，而是一座持续生长的系统档案馆。</p>
       </div>
     </section>
 
     <section class="brand-portals reveal" aria-label="系统品牌档案">
-      {(['coloros', 'originos'] as Brand[]).map((brand) => {
+      {(['coloros', 'originos', 'hyperos'] as Brand[]).map((brand) => {
         const meta = brandMeta[brand];
         return <a class={`brand-portal ${brand}`} href={sitePath(`${brand}/`)} style={`--portal-accent:${meta.accent};--portal-soft:${meta.soft}`}>
           <img src={assetPath(meta.logo)} alt={`${meta.name} Logo`} width="150" height="42" />
@@ -32,12 +32,12 @@ const homepageTitle = (title: string) => title.replace(/^OPPO\s+/i, '');
       })}
     </section>
 
-    {latest && latest.data.cover && (
+    {latest && (
       <section class="section-block reveal">
         <div class="section-heading"><div><h2>最新入馆</h2></div><a href={articlePath(latest)}>查看文章 <Icon name="arrow" /></a></div>
-        <a class="editorial-feature" href={articlePath(latest)} style={`--cover-color:${latest.data.cover.dominantColor}`}>
+        <a class="editorial-feature" href={articlePath(latest)} style={`--cover-color:${latest.data.cover?.dominantColor ?? '#12171d'}`}>
           <div class="feature-copy"><span>{latest.data.year} · {brandMeta[latest.data.brand].name}</span><h3>{homepageTitle(latest.data.title)}</h3><p>查看本期完整升级内容与体验变化。</p></div>
-          <CoverPicture cover={latest.data.cover} eager class="feature-cover" />
+          {latest.data.cover && <CoverPicture cover={latest.data.cover} eager class="feature-cover" />}
         </a>
       </section>
     )}

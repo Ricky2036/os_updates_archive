@@ -134,7 +134,16 @@
     };
 
     document.querySelectorAll('[data-monthly-view-root]').forEach((root) => {
-      setMonthlyView(root, document.documentElement.dataset.monthlyView);
+      let currentView = document.documentElement.dataset.monthlyView;
+      if (!currentView) {
+        try {
+          currentView = localStorage.getItem('os-archive:monthly-view') === 'original' ? 'original' : 'digest';
+        } catch {
+          currentView = 'digest';
+        }
+        document.documentElement.dataset.monthlyView = currentView;
+      }
+      setMonthlyView(root, currentView);
       document.querySelectorAll('[data-monthly-view]').forEach((button) => button.addEventListener('click', () => {
         document.documentElement.classList.add('is-switching-view');
         void document.documentElement.offsetHeight;

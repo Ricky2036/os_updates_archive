@@ -31,7 +31,7 @@
           "alt": "地图图集功能演示",
           "evidenceId": "highlight-01-demo",
           "width": 480,
-          "height": 303
+          "height": 314
         }
       ]
     },
@@ -60,7 +60,7 @@
           "alt": "国庆节限定水印功能演示",
           "evidenceId": "highlight-02-demo",
           "width": 480,
-          "height": 606
+          "height": 126
         }
       ]
     },
@@ -89,7 +89,7 @@
           "alt": "中秋节限定水印功能演示",
           "evidenceId": "highlight-03-demo",
           "width": 480,
-          "height": 606
+          "height": 126
         }
       ]
     },
@@ -118,7 +118,7 @@
           "alt": "支付宝停车缴费功能演示",
           "evidenceId": "highlight-04-demo",
           "width": 480,
-          "height": 387
+          "height": 152
         }
       ]
     },
@@ -147,7 +147,7 @@
           "alt": "高德地图驾车导航功能演示",
           "evidenceId": "highlight-05-demo",
           "width": 480,
-          "height": 386
+          "height": 152
         }
       ]
     },
@@ -176,7 +176,7 @@
           "alt": "大众点评餐厅等位功能演示",
           "evidenceId": "highlight-06-demo",
           "width": 480,
-          "height": 222
+          "height": 695
         }
       ]
     },
@@ -205,7 +205,7 @@
           "alt": "大众点评美食优惠功能演示",
           "evidenceId": "highlight-07-demo",
           "width": 480,
-          "height": 222
+          "height": 695
         }
       ]
     },
@@ -234,7 +234,7 @@
           "alt": "黄历组合卡功能演示",
           "evidenceId": "highlight-08-demo",
           "width": 480,
-          "height": 483
+          "height": 501
         }
       ]
     },
@@ -263,7 +263,7 @@
           "alt": "汇率换算卡功能演示",
           "evidenceId": "highlight-09-demo",
           "width": 480,
-          "height": 523
+          "height": 501
         }
       ]
     }

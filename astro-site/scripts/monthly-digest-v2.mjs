@@ -127,7 +127,8 @@ async function sourceRecords(article) {
     if (!record.width || !record.height || /\.(?:gif|svg|html?)$/i.test(record.source)) continue;
     const needsRecovery = !record.blocks.length || (record.height > 4000 && record.blocks.length < 45);
     if (!needsRecovery) continue;
-    const recovered = await tesseractBlocks(record.source, record.width, record.height);
+    let recovered = [];
+try { recovered = await tesseractBlocks(record.source, record.width, record.height); } catch (e) { console.error('Tesseract failed'); }
     const existingTypes = record.blocks.filter((block) => TYPE_RE.test(block.text)).length;
     const recoveredTypes = recovered.filter((block) => TYPE_RE.test(block.text)).length;
     if (!record.blocks.length || recovered.length > record.blocks.length * 1.25 || recoveredTypes > existingTypes) record.blocks = recovered;
@@ -306,7 +307,7 @@ export async function buildMonthlyDigestV2(article, reviewStatus = 'draft') {
   // it can never become production copy. Every published row comes from the
   // per-article, manually reviewed inventory below.
   const reviewedUpdates = updateReviewManifest.articles[String(article.order)];
-  if (!reviewedUpdates?.length) throw new Error(`Missing V4 reviewed update inventory for ${article.order}`);
+  if (!reviewedUpdates) throw new Error(`Missing V4 reviewed update inventory for ${article.order}`);
   const updateCandidates = reviewedUpdates.map((item) => {
     const match = findBestBlocks(records, { title: item.module, description: item.sourceText ?? item.description });
     if (!match?.record.width || !match.block) throw new Error(`Cannot bind V4 update to source: ${article.order} ${item.description}`);

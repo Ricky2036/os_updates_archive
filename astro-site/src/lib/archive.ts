@@ -1,6 +1,6 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 
-export type Brand = 'coloros' | 'originos';
+export type Brand = 'coloros' | 'originos' | 'hyperos';
 export type ArchiveArticle = CollectionEntry<'articles'>;
 
 export const brandMeta: Record<Brand, { name: string; accent: string; soft: string; logo: string; summary: string }> = {
@@ -17,6 +17,13 @@ export const brandMeta: Record<Brand, { name: string; accent: string; soft: stri
     soft: '#e7eaff',
     logo: 'assets/images/logo_originos.png',
     summary: 'vivo 系统体验升级、设计变化与功能档案。',
+  },
+  hyperos: {
+    name: '小米HyperOS',
+    accent: '#000000',
+    soft: '#f0f0f0',
+    logo: 'assets/images/logo_hyperos.png',
+    summary: 'Xiaomi 系统升级日志全记录，收录月度更新详情。',
   },
 };
 

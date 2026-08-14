@@ -1,0 +1,1573 @@
+{
+  "schemaVersion": 3,
+  "contentReviewVersion": 4,
+  "mediaReviewVersion": 4,
+  "articleId": "HyperOS_6月更新一览_(2026)",
+  "reviewStatus": "verified",
+  "sourceHash": "599d0d1f8acf68ed5455f053c988a8c0416bec3ad58651c712ea4fa859118542",
+  "highlights": [
+    {
+      "id": "highlight-01",
+      "module": "小米超级岛",
+      "moduleSource": "explicit-heading",
+      "title": "足球盛会实时看，在哪儿都是最佳观赛席",
+      "description": "新增小米超级岛赛事预约与赛事实况服务，可快速查看各类赛况信息，一键预约赛事。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-01-body",
+        "highlight-01-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-01"
+      ],
+      "media": [
+        {
+          "id": "highlight-01-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/31/highlight-01-960.webp",
+          "thumbnail": "assets/digests-v2/31/highlight-01-480.webp",
+          "avifSrc": "assets/digests-v2/31/highlight-01-960.avif",
+          "avifThumbnail": "assets/digests-v2/31/highlight-01-480.avif",
+          "alt": "足球盛会实时看，在哪儿都是最佳观赛席功能演示",
+          "evidenceId": "highlight-01-demo",
+          "width": 480,
+          "height": 1385
+        }
+      ]
+    },
+    {
+      "id": "highlight-02",
+      "module": "相册",
+      "moduleSource": "explicit-heading",
+      "title": "AI修图工具整合",
+      "description": "一站修图，轻松出片，包含画质超清、魔法抠图、背景虚化、魔法消除等。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-02-body",
+        "highlight-02-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-02"
+      ],
+      "media": [
+        {
+          "id": "highlight-02-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/31/highlight-02-960.webp",
+          "thumbnail": "assets/digests-v2/31/highlight-02-480.webp",
+          "avifSrc": "assets/digests-v2/31/highlight-02-960.avif",
+          "avifThumbnail": "assets/digests-v2/31/highlight-02-480.avif",
+          "alt": "AI修图工具整合功能演示",
+          "evidenceId": "highlight-02-demo",
+          "width": 480,
+          "height": 1487
+        }
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "id": "update-01",
+      "module": "系统",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "超级小爱赛事预约与赛事问答服务，可快速查询",
+      "description": "超级小爱赛事预约与赛事问答服务，可快速查询",
+      "evidenceIds": [
+        "update-01-source"
+      ],
+      "sourceItemIds": [
+        "source-update-01"
+      ]
+    },
+    {
+      "id": "update-02",
+      "module": "系统",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "小米超级岛适配小红书、直播吧的赛事服务，实",
+      "description": "小米超级岛适配小红书、直播吧的赛事服务，实",
+      "evidenceIds": [
+        "update-02-source"
+      ],
+      "sourceItemIds": [
+        "source-update-02"
+      ]
+    },
+    {
+      "id": "update-03",
+      "module": "系统",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "「2026世界杯赛程」小部件，实时掌握最新赛",
+      "description": "「2026世界杯赛程」小部件，实时掌握最新赛",
+      "evidenceIds": [
+        "update-03-source"
+      ],
+      "sourceItemIds": [
+        "source-update-03"
+      ]
+    },
+    {
+      "id": "update-04",
+      "module": "系统",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "置顶 AI 修图专区，整合全部 AI修图工具，查找",
+      "description": "置顶 AI 修图专区，整合全部 AI修图工具，查找",
+      "evidenceIds": [
+        "update-04-source"
+      ],
+      "sourceItemIds": [
+        "source-update-04"
+      ]
+    },
+    {
+      "id": "update-05",
+      "module": "系统",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "智能美化效果增强，一键修复曝光失衡的废片，",
+      "description": "智能美化效果增强，一键修复曝光失衡的废片，",
+      "evidenceIds": [
+        "update-05-source"
+      ],
+      "sourceItemIds": [
+        "source-update-05"
+      ]
+    },
+    {
+      "id": "update-06",
+      "module": "系统",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "录音机自动续录，麦克风被其他应用占用时自",
+      "description": "录音机自动续录，麦克风被其他应用占用时自",
+      "evidenceIds": [
+        "update-06-source"
+      ],
+      "sourceItemIds": [
+        "source-update-06"
+      ]
+    },
+    {
+      "id": "update-07",
+      "module": "系统",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "文件管理页面流畅度，文件分组展开、收起动",
+      "description": "文件管理页面流畅度，文件分组展开、收起动",
+      "evidenceIds": [
+        "update-07-source"
+      ],
+      "sourceItemIds": [
+        "source-update-07"
+      ]
+    },
+    {
+      "id": "update-08",
+      "module": "系统",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "主题壁纸列表页流畅度，滑动手感更丝滑",
+      "description": "主题壁纸列表页流畅度，滑动手感更丝滑",
+      "evidenceIds": [
+        "update-08-source"
+      ],
+      "sourceItemIds": [
+        "source-update-08"
+      ]
+    },
+    {
+      "id": "update-09",
+      "module": "系统",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "笔记搜索页流畅度，检索笔记更轻松",
+      "description": "笔记搜索页流畅度，检索笔记更轻松",
+      "evidenceIds": [
+        "update-09-source"
+      ],
+      "sourceItemIds": [
+        "source-update-09"
+      ]
+    },
+    {
+      "id": "update-10",
+      "module": "系统",
+      "moduleSource": "explicit-heading",
+      "type": "修复",
+      "typeSource": "explicit",
+      "sourceText": "部分场景下手机备份列表不显示微信的问题",
+      "description": "部分场景下手机备份列表不显示微信的问题",
+      "evidenceIds": [
+        "update-10-source"
+      ],
+      "sourceItemIds": [
+        "source-update-10"
+      ]
+    },
+    {
+      "id": "update-11",
+      "module": "系统",
+      "moduleSource": "explicit-heading",
+      "type": "修复",
+      "typeSource": "explicit",
+      "sourceText": "部分场景下文件解压进度显示错误的问题",
+      "description": "部分场景下文件解压进度显示错误的问题",
+      "evidenceIds": [
+        "update-11-source"
+      ],
+      "sourceItemIds": [
+        "source-update-11"
+      ]
+    },
+    {
+      "id": "update-12",
+      "module": "系统",
+      "moduleSource": "explicit-heading",
+      "type": "修复",
+      "typeSource": "explicit",
+      "sourceText": "部分场景下无法自定义时钟铃声的问题",
+      "description": "部分场景下无法自定义时钟铃声的问题",
+      "evidenceIds": [
+        "update-12-source"
+      ],
+      "sourceItemIds": [
+        "source-update-12"
+      ]
+    },
+    {
+      "id": "update-13",
+      "module": "系统",
+      "moduleSource": "explicit-heading",
+      "type": "修复",
+      "typeSource": "explicit",
+      "sourceText": "部分场景下日历显示异常的问题",
+      "description": "部分场景下日历显示异常的问题",
+      "evidenceIds": [
+        "update-13-source"
+      ],
+      "sourceItemIds": [
+        "source-update-13"
+      ]
+    },
+    {
+      "id": "update-14",
+      "module": "系统",
+      "moduleSource": "explicit-heading",
+      "type": "修复",
+      "typeSource": "explicit",
+      "sourceText": "部分场景下天气定位失败的问题",
+      "description": "部分场景下天气定位失败的问题",
+      "evidenceIds": [
+        "update-14-source"
+      ],
+      "sourceItemIds": [
+        "source-update-14"
+      ]
+    },
+    {
+      "id": "update-15",
+      "module": "系统",
+      "moduleSource": "explicit-heading",
+      "type": "修复",
+      "typeSource": "explicit",
+      "sourceText": "部分场景下AI壁纸无法生成的问题",
+      "description": "部分场景下AI壁纸无法生成的问题",
+      "evidenceIds": [
+        "update-15-source"
+      ],
+      "sourceItemIds": [
+        "source-update-15"
+      ]
+    }
+  ],
+  "sourceItems": [
+    {
+      "id": "source-highlight-01",
+      "classification": "highlight",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0005",
+        "ocr-0006",
+        "ocr-0007",
+        "ocr-0008",
+        "ocr-0009",
+        "ocr-0011",
+        "ocr-0010",
+        "ocr-0012",
+        "ocr-0013",
+        "ocr-0014",
+        "ocr-0015",
+        "ocr-0016",
+        "ocr-0017",
+        "ocr-0018",
+        "ocr-0019",
+        "ocr-0020",
+        "ocr-0021",
+        "ocr-0022",
+        "ocr-0023",
+        "ocr-0024"
+      ],
+      "text": "足球盛会实时看，在哪儿都是最佳观赛席 新增小米超级岛赛事预约与赛事实况服务，可快速查看各类赛况信息，一键预约赛事。",
+      "targetIds": [
+        "highlight-01"
+      ]
+    },
+    {
+      "id": "source-highlight-02",
+      "classification": "highlight",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0034",
+        "ocr-0035",
+        "ocr-0036",
+        "ocr-0037",
+        "ocr-0039",
+        "ocr-0040",
+        "ocr-0042",
+        "ocr-0041",
+        "ocr-0038",
+        "ocr-0043",
+        "ocr-0044",
+        "ocr-0045",
+        "ocr-0046",
+        "ocr-0047",
+        "ocr-0048",
+        "ocr-0049",
+        "ocr-0050",
+        "ocr-0051",
+        "ocr-0052",
+        "ocr-0053",
+        "ocr-0054"
+      ],
+      "text": "AI修图工具整合 一站修图，轻松出片，包含画质超清、魔法抠图、背景虚化、魔法消除等。",
+      "targetIds": [
+        "highlight-02"
+      ]
+    },
+    {
+      "id": "source-update-01",
+      "classification": "update",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0008",
+        "ocr-0009"
+      ],
+      "text": "超级小爱赛事预约与赛事问答服务，可快速查询",
+      "correctedText": "超级小爱赛事预约与赛事问答服务，可快速查询",
+      "targetIds": [
+        "update-01"
+      ]
+    },
+    {
+      "id": "source-update-02",
+      "classification": "update",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0021",
+        "ocr-0022"
+      ],
+      "text": "小米超级岛适配小红书、直播吧的赛事服务，实",
+      "correctedText": "小米超级岛适配小红书、直播吧的赛事服务，实",
+      "targetIds": [
+        "update-02"
+      ]
+    },
+    {
+      "id": "source-update-03",
+      "classification": "update",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0030",
+        "ocr-0031"
+      ],
+      "text": "「2026世界杯赛程」小部件，实时掌握最新赛",
+      "correctedText": "「2026世界杯赛程」小部件，实时掌握最新赛",
+      "targetIds": [
+        "update-03"
+      ]
+    },
+    {
+      "id": "source-update-04",
+      "classification": "update",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0036",
+        "ocr-0037"
+      ],
+      "text": "置顶 AI 修图专区，整合全部 AI修图工具，查找",
+      "correctedText": "置顶 AI 修图专区，整合全部 AI修图工具，查找",
+      "targetIds": [
+        "update-04"
+      ]
+    },
+    {
+      "id": "source-update-05",
+      "classification": "update",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0043",
+        "ocr-0044"
+      ],
+      "text": "智能美化效果增强，一键修复曝光失衡的废片，",
+      "correctedText": "智能美化效果增强，一键修复曝光失衡的废片，",
+      "targetIds": [
+        "update-05"
+      ]
+    },
+    {
+      "id": "source-update-06",
+      "classification": "update",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0047",
+        "ocr-0048"
+      ],
+      "text": "录音机自动续录，麦克风被其他应用占用时自",
+      "correctedText": "录音机自动续录，麦克风被其他应用占用时自",
+      "targetIds": [
+        "update-06"
+      ]
+    },
+    {
+      "id": "source-update-07",
+      "classification": "update",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0049",
+        "ocr-0050"
+      ],
+      "text": "文件管理页面流畅度，文件分组展开、收起动",
+      "correctedText": "文件管理页面流畅度，文件分组展开、收起动",
+      "targetIds": [
+        "update-07"
+      ]
+    },
+    {
+      "id": "source-update-08",
+      "classification": "update",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0051",
+        "ocr-0052"
+      ],
+      "text": "主题壁纸列表页流畅度，滑动手感更丝滑",
+      "correctedText": "主题壁纸列表页流畅度，滑动手感更丝滑",
+      "targetIds": [
+        "update-08"
+      ]
+    },
+    {
+      "id": "source-update-09",
+      "classification": "update",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0052",
+        "ocr-0053"
+      ],
+      "text": "笔记搜索页流畅度，检索笔记更轻松",
+      "correctedText": "笔记搜索页流畅度，检索笔记更轻松",
+      "targetIds": [
+        "update-09"
+      ]
+    },
+    {
+      "id": "source-update-10",
+      "classification": "update",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0053",
+        "ocr-0054"
+      ],
+      "text": "部分场景下手机备份列表不显示微信的问题",
+      "correctedText": "部分场景下手机备份列表不显示微信的问题",
+      "targetIds": [
+        "update-10"
+      ]
+    },
+    {
+      "id": "source-update-11",
+      "classification": "update",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0054",
+        "ocr-0055"
+      ],
+      "text": "部分场景下文件解压进度显示错误的问题",
+      "correctedText": "部分场景下文件解压进度显示错误的问题",
+      "targetIds": [
+        "update-11"
+      ]
+    },
+    {
+      "id": "source-update-12",
+      "classification": "update",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0055",
+        "ocr-0056"
+      ],
+      "text": "部分场景下无法自定义时钟铃声的问题",
+      "correctedText": "部分场景下无法自定义时钟铃声的问题",
+      "targetIds": [
+        "update-12"
+      ]
+    },
+    {
+      "id": "source-update-13",
+      "classification": "update",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0056",
+        "ocr-0057"
+      ],
+      "text": "部分场景下日历显示异常的问题",
+      "correctedText": "部分场景下日历显示异常的问题",
+      "targetIds": [
+        "update-13"
+      ]
+    },
+    {
+      "id": "source-update-14",
+      "classification": "update",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0057",
+        "ocr-0058"
+      ],
+      "text": "部分场景下天气定位失败的问题",
+      "correctedText": "部分场景下天气定位失败的问题",
+      "targetIds": [
+        "update-14"
+      ]
+    },
+    {
+      "id": "source-update-15",
+      "classification": "update",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0058"
+      ],
+      "text": "部分场景下AI壁纸无法生成的问题",
+      "correctedText": "部分场景下AI壁纸无法生成的问题",
+      "targetIds": [
+        "update-15"
+      ]
+    },
+    {
+      "id": "source-excluded-018",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0003"
+      ],
+      "text": "m",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-019",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0001"
+      ],
+      "text": "Xiaomi HyperoS",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-020",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0002"
+      ],
+      "text": "小米澎湃OS",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-021",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0004"
+      ],
+      "text": "小米澎湃OS 3",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-022",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0025"
+      ],
+      "text": "妇",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-023",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0027"
+      ],
+      "text": "mI",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-024",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0026"
+      ],
+      "text": "ml",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-025",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0028"
+      ],
+      "text": "*「小红书」需升级至9.34.0及以上版本，相关赛事数据由小红书APP授权并提供",
+      "targetIds": [],
+      "exclusionReason": "disclaimer"
+    },
+    {
+      "id": "source-excluded-026",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0029"
+      ],
+      "text": "*「直播吧，需升级至7.2.1及以上版本，相关赛事数据由直播吧APP授权并提供",
+      "targetIds": [],
+      "exclusionReason": "disclaimer"
+    },
+    {
+      "id": "source-excluded-027",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0032"
+      ],
+      "text": "08:16",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-028",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0033"
+      ],
+      "text": "* 赛事数据由腾讯体育授权并提供",
+      "targetIds": [],
+      "exclusionReason": "disclaimer"
+    },
+    {
+      "id": "source-excluded-029",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0059"
+      ],
+      "text": "温馨提示",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-030",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0060"
+      ],
+      "text": "• 为保障体验稳定，升级将采用「灰度到全量」的逐步推送机",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-031",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0061"
+      ],
+      "text": "制，并非所有用户会立即收到更新，请耐心等待",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-032",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0062"
+      ],
+      "text": "• 图片仅供参考，部分应用在不同平台/机型/系统版本存在差",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-033",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0063"
+      ],
+      "text": "异，请以各机型实际体验为准",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-034",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0064"
+      ],
+      "text": "• 若您对功能体验有更多建议，欢迎前往小米社区反馈，我们",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-035",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0065"
+      ],
+      "text": "将持续优化相关体验",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "highlight-01-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0005",
+        "ocr-0006",
+        "ocr-0007",
+        "ocr-0008",
+        "ocr-0009",
+        "ocr-0011",
+        "ocr-0010",
+        "ocr-0012",
+        "ocr-0013",
+        "ocr-0014",
+        "ocr-0015",
+        "ocr-0016",
+        "ocr-0017",
+        "ocr-0018",
+        "ocr-0019",
+        "ocr-0020",
+        "ocr-0021",
+        "ocr-0022",
+        "ocr-0023",
+        "ocr-0024"
+      ],
+      "region": {
+        "x": 27,
+        "y": 676,
+        "width": 980,
+        "height": 2094
+      },
+      "note": "小米超级岛：足球盛会实时看，在哪儿都是最佳观赛席标题与说明"
+    },
+    {
+      "id": "highlight-01-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [],
+      "region": {
+        "x": 38,
+        "y": 690,
+        "width": 1004,
+        "height": 2898
+      },
+      "note": "小米超级岛：足球盛会实时看，在哪儿都是最佳观赛席人工确认演示区域"
+    },
+    {
+      "id": "highlight-02-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0034",
+        "ocr-0035",
+        "ocr-0036",
+        "ocr-0037",
+        "ocr-0039",
+        "ocr-0040",
+        "ocr-0042",
+        "ocr-0041",
+        "ocr-0038",
+        "ocr-0043",
+        "ocr-0044",
+        "ocr-0045",
+        "ocr-0046",
+        "ocr-0047",
+        "ocr-0048",
+        "ocr-0049",
+        "ocr-0050",
+        "ocr-0051",
+        "ocr-0052",
+        "ocr-0053",
+        "ocr-0054"
+      ],
+      "region": {
+        "x": 27,
+        "y": 4276,
+        "width": 1012,
+        "height": 2341
+      },
+      "note": "相册：AI修图工具整合标题与说明"
+    },
+    {
+      "id": "highlight-02-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [],
+      "region": {
+        "x": 38,
+        "y": 4294,
+        "width": 1004,
+        "height": 3110
+      },
+      "note": "相册：AI修图工具整合人工确认演示区域"
+    },
+    {
+      "id": "update-01-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0008",
+        "ocr-0009"
+      ],
+      "region": {
+        "x": 45,
+        "y": 1237,
+        "width": 958,
+        "height": 244
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-02-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0021",
+        "ocr-0022"
+      ],
+      "region": {
+        "x": 45,
+        "y": 2245,
+        "width": 962,
+        "height": 235
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-03-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0030",
+        "ocr-0031"
+      ],
+      "region": {
+        "x": 50,
+        "y": 3249,
+        "width": 976,
+        "height": 238
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-04-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0036",
+        "ocr-0037"
+      ],
+      "region": {
+        "x": 50,
+        "y": 4512,
+        "width": 989,
+        "height": 235
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-05-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0043",
+        "ocr-0044"
+      ],
+      "region": {
+        "x": 50,
+        "y": 5354,
+        "width": 971,
+        "height": 236
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-06-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0047",
+        "ocr-0048"
+      ],
+      "region": {
+        "x": 36,
+        "y": 5876,
+        "width": 976,
+        "height": 243
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-07-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0049",
+        "ocr-0050"
+      ],
+      "region": {
+        "x": 41,
+        "y": 6038,
+        "width": 971,
+        "height": 235
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-08-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0051",
+        "ocr-0052"
+      ],
+      "region": {
+        "x": 36,
+        "y": 6200,
+        "width": 895,
+        "height": 274
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-09-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0052",
+        "ocr-0053"
+      ],
+      "region": {
+        "x": 36,
+        "y": 6294,
+        "width": 935,
+        "height": 271
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-10-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0053",
+        "ocr-0054"
+      ],
+      "region": {
+        "x": 36,
+        "y": 6393,
+        "width": 935,
+        "height": 270
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-11-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0054",
+        "ocr-0055"
+      ],
+      "region": {
+        "x": 36,
+        "y": 6492,
+        "width": 895,
+        "height": 270
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-12-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0055",
+        "ocr-0056"
+      ],
+      "region": {
+        "x": 36,
+        "y": 6591,
+        "width": 859,
+        "height": 270
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-13-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0056",
+        "ocr-0057"
+      ],
+      "region": {
+        "x": 36,
+        "y": 6686,
+        "width": 737,
+        "height": 270
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-14-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0057",
+        "ocr-0058"
+      ],
+      "region": {
+        "x": 36,
+        "y": 6785,
+        "width": 773,
+        "height": 270
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-15-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0058"
+      ],
+      "region": {
+        "x": 36,
+        "y": 6884,
+        "width": 773,
+        "height": 171
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "source-excluded-018-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0003"
+      ],
+      "region": {
+        "x": 905,
+        "y": 18,
+        "width": 121,
+        "height": 207
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-019-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0001"
+      ],
+      "region": {
+        "x": 140,
+        "y": 31,
+        "width": 301,
+        "height": 171
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-020-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0002"
+      ],
+      "region": {
+        "x": 140,
+        "y": 76,
+        "width": 157,
+        "height": 148
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-021-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0004"
+      ],
+      "region": {
+        "x": 36,
+        "y": 512,
+        "width": 616,
+        "height": 217
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-022-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0025"
+      ],
+      "region": {
+        "x": 711,
+        "y": 2749,
+        "width": 67,
+        "height": 166
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-023-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0027"
+      ],
+      "region": {
+        "x": 599,
+        "y": 2820,
+        "width": 58,
+        "height": 149
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-024-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0026"
+      ],
+      "region": {
+        "x": 239,
+        "y": 2820,
+        "width": 58,
+        "height": 149
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-025-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0028"
+      ],
+      "region": {
+        "x": 27,
+        "y": 3069,
+        "width": 1012,
+        "height": 167
+      },
+      "note": "不进入表格：disclaimer"
+    },
+    {
+      "id": "source-excluded-026-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0029"
+      ],
+      "region": {
+        "x": 27,
+        "y": 3109,
+        "width": 1012,
+        "height": 171
+      },
+      "note": "不进入表格：disclaimer"
+    },
+    {
+      "id": "source-excluded-027-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0032"
+      ],
+      "region": {
+        "x": 441,
+        "y": 3523,
+        "width": 202,
+        "height": 189
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-028-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0033"
+      ],
+      "region": {
+        "x": 31,
+        "y": 4076,
+        "width": 446,
+        "height": 163
+      },
+      "note": "不进入表格：disclaimer"
+    },
+    {
+      "id": "source-excluded-029-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0059"
+      ],
+      "region": {
+        "x": 31,
+        "y": 7149,
+        "width": 189,
+        "height": 173
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-030-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0060"
+      ],
+      "region": {
+        "x": 36,
+        "y": 7248,
+        "width": 971,
+        "height": 176
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-031-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0061"
+      ],
+      "region": {
+        "x": 81,
+        "y": 7306,
+        "width": 755,
+        "height": 176
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-032-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0062"
+      ],
+      "region": {
+        "x": 36,
+        "y": 7397,
+        "width": 967,
+        "height": 171
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-033-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0063"
+      ],
+      "region": {
+        "x": 86,
+        "y": 7451,
+        "width": 476,
+        "height": 171
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-034-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0064"
+      ],
+      "region": {
+        "x": 36,
+        "y": 7541,
+        "width": 976,
+        "height": 171
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-035-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3c922dd8a922f8f1622c8d10373251e81cca35e8bfb3cc70b8ed71e8839777a1",
+      "blockIds": [
+        "ocr-0065"
+      ],
+      "region": {
+        "x": 81,
+        "y": 7595,
+        "width": 341,
+        "height": 167
+      },
+      "note": "不进入表格：decoration"
+    }
+  ],
+  "audit": {
+    "highlightReviewVersion": 4,
+    "updateReviewVersion": 4,
+    "review": {
+      "content": "verified",
+      "modules": "verified",
+      "media": "verified",
+      "page": "verified"
+    },
+    "expectedHighlightCount": 2,
+    "sourceItemCount": 35,
+    "includedItemCount": 17,
+    "excludedItemCount": 18,
+    "highlightCount": 2,
+    "updateCount": 15,
+    "mediaCount": 2,
+    "mappedItemCount": 35,
+    "coverageRate": 1
+  }
+}

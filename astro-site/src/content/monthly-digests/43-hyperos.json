@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 3,
+  "contentReviewVersion": 4,
+  "mediaReviewVersion": 4,
+  "articleId": "HyperOS_8月更新一览_(2024)",
+  "reviewStatus": "verified",
+  "sourceHash": "b003f83f7bf1ae2326b5dc7d0bbe31aca5ceba77ce97855827e25836ee1020f0",
+  "highlights": [],
+  "updates": [],
+  "sourceItems": [],
+  "evidence": [],
+  "audit": {
+    "highlightReviewVersion": 4,
+    "updateReviewVersion": 4,
+    "review": {
+      "content": "verified",
+      "modules": "verified",
+      "media": "verified",
+      "page": "verified"
+    },
+    "expectedHighlightCount": 0,
+    "sourceItemCount": 0,
+    "includedItemCount": 0,
+    "excludedItemCount": 0,
+    "highlightCount": 0,
+    "updateCount": 0,
+    "mediaCount": 0,
+    "mappedItemCount": 0,
+    "coverageRate": 1
+  }
+}

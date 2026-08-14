@@ -6,17 +6,17 @@ const responsiveImage = z.object({
   src: z.string(),
   srcset: z.string(),
   avifSrcset: z.string().optional(),
-  width: z.number().int().positive(),
-  height: z.number().int().positive(),
+  width: z.number().int().min(0),
+  height: z.number().int().min(0),
 });
 
 const articles = defineCollection({
   loader: glob({ pattern: '**/*.json', base: './src/content/articles' }),
   schema: z.object({
     articleId: z.string(),
-    order: z.number().int().positive(),
+    order: z.number().int().min(0),
     title: z.string(),
-    brand: z.enum(['coloros', 'originos']),
+    brand: z.enum(['coloros', 'originos', 'hyperos']),
     year: z.number().int(),
     publishedAt: z.string(),
     slug: z.string(),
@@ -59,8 +59,8 @@ const digestMedia = z.object({
   poster: z.string().optional(),
   alt: z.string(),
   evidenceId: z.string(),
-  width: z.number().int().positive().optional(),
-  height: z.number().int().positive().optional(),
+  width: z.number().int().min(0).optional(),
+  height: z.number().int().min(0).optional(),
 });
 
 const monthlyDigests = defineCollection({
@@ -117,8 +117,8 @@ const monthlyDigests = defineCollection({
       region: z.object({
         x: z.number().int().nonnegative(),
         y: z.number().int().nonnegative(),
-        width: z.number().int().positive(),
-        height: z.number().int().positive(),
+        width: z.number().int().min(0),
+        height: z.number().int().min(0),
       }).optional(),
       selector: z.string().optional(),
       note: z.string().optional(),
@@ -132,7 +132,7 @@ const monthlyDigests = defineCollection({
         media: z.literal('verified'),
         page: z.literal('verified'),
       }),
-      expectedHighlightCount: z.number().int().positive(),
+      expectedHighlightCount: z.number().int().min(0),
       sourceItemCount: z.number().int().nonnegative(),
       includedItemCount: z.number().int().nonnegative(),
       excludedItemCount: z.number().int().nonnegative(),
@@ -141,7 +141,7 @@ const monthlyDigests = defineCollection({
       mediaCount: z.number().int().nonnegative(),
       mappedItemCount: z.number().int().nonnegative(),
       coverageRate: z.literal(1),
-      quantityHint: z.number().int().positive().optional(),
+      quantityHint: z.number().int().min(0).optional(),
     }),
   }),
 });

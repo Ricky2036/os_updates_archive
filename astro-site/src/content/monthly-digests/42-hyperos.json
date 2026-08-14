@@ -1,0 +1,966 @@
+{
+  "schemaVersion": 3,
+  "contentReviewVersion": 4,
+  "mediaReviewVersion": 4,
+  "articleId": "HyperOS_10月更新一览_(2024)",
+  "reviewStatus": "verified",
+  "sourceHash": "d611e994c7e80a29ff8fcb8af706cd37157d57ead18eb8cfe3c9886bb9356bd4",
+  "highlights": [
+    {
+      "id": "highlight-01",
+      "module": "系统",
+      "moduleSource": "explicit-heading",
+      "title": "体验“活的系统”",
+      "description": "迈向AI全生态的坚实一步，锁屏进入动态影像时代，每个界面都鲜活。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-01-body",
+        "highlight-01-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-01"
+      ],
+      "media": [
+        {
+          "id": "highlight-01-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/42/highlight-01-960.webp",
+          "thumbnail": "assets/digests-v2/42/highlight-01-480.webp",
+          "avifSrc": "assets/digests-v2/42/highlight-01-960.avif",
+          "avifThumbnail": "assets/digests-v2/42/highlight-01-480.avif",
+          "alt": "体验“活的系统”功能演示",
+          "evidenceId": "highlight-01-demo",
+          "width": 480,
+          "height": 1519
+        }
+      ]
+    },
+    {
+      "id": "highlight-02",
+      "module": "互联",
+      "moduleSource": "explicit-heading",
+      "title": "妙享桌面",
+      "description": "Mac上也可使用妙享桌面，还支持查看专属格式文档。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-02-body",
+        "highlight-02-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-02"
+      ],
+      "media": [
+        {
+          "id": "highlight-02-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/42/highlight-02-960.webp",
+          "thumbnail": "assets/digests-v2/42/highlight-02-480.webp",
+          "avifSrc": "assets/digests-v2/42/highlight-02-960.avif",
+          "avifThumbnail": "assets/digests-v2/42/highlight-02-480.avif",
+          "alt": "妙享桌面功能演示",
+          "evidenceId": "highlight-02-demo",
+          "width": 480,
+          "height": 746
+        }
+      ]
+    },
+    {
+      "id": "highlight-03",
+      "module": "超级小爱",
+      "moduleSource": "explicit-heading",
+      "title": "超级小爱",
+      "description": "小爱同学变身超级小爱。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-03-body",
+        "highlight-03-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-03"
+      ],
+      "media": [
+        {
+          "id": "highlight-03-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/42/highlight-03-960.webp",
+          "thumbnail": "assets/digests-v2/42/highlight-03-480.webp",
+          "avifSrc": "assets/digests-v2/42/highlight-03-960.avif",
+          "avifThumbnail": "assets/digests-v2/42/highlight-03-480.avif",
+          "alt": "超级小爱功能演示",
+          "evidenceId": "highlight-03-demo",
+          "width": 480,
+          "height": 886
+        }
+      ]
+    },
+    {
+      "id": "highlight-04",
+      "module": "智能",
+      "moduleSource": "explicit-heading",
+      "title": "主动帮你办",
+      "description": "当你入睡后主动关灯和电视。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-04-body",
+        "highlight-04-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-04"
+      ],
+      "media": [
+        {
+          "id": "highlight-04-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/42/highlight-04-960.webp",
+          "thumbnail": "assets/digests-v2/42/highlight-04-480.webp",
+          "avifSrc": "assets/digests-v2/42/highlight-04-960.avif",
+          "avifThumbnail": "assets/digests-v2/42/highlight-04-480.avif",
+          "alt": "主动帮你办功能演示",
+          "evidenceId": "highlight-04-demo",
+          "width": 480,
+          "height": 786
+        }
+      ]
+    },
+    {
+      "id": "highlight-05",
+      "module": "智能",
+      "moduleSource": "explicit-heading",
+      "title": "主动备车备家",
+      "description": "把晾衣杆降到兜用位置，主动备车备家。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-05-body",
+        "highlight-05-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-05"
+      ],
+      "media": [
+        {
+          "id": "highlight-05-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/42/highlight-05-960.webp",
+          "thumbnail": "assets/digests-v2/42/highlight-05-480.webp",
+          "avifSrc": "assets/digests-v2/42/highlight-05-960.avif",
+          "avifThumbnail": "assets/digests-v2/42/highlight-05-480.avif",
+          "alt": "主动备车备家功能演示",
+          "evidenceId": "highlight-05-demo",
+          "width": 480,
+          "height": 886
+        }
+      ]
+    },
+    {
+      "id": "highlight-06",
+      "module": "系统",
+      "moduleSource": "explicit-heading",
+      "title": "存量机型推送",
+      "description": "小米手环9Pro即日升级，存量机型将陆续开启推送。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-06-body",
+        "highlight-06-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-06"
+      ],
+      "media": [
+        {
+          "id": "highlight-06-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/42/highlight-06-960.webp",
+          "thumbnail": "assets/digests-v2/42/highlight-06-480.webp",
+          "avifSrc": "assets/digests-v2/42/highlight-06-960.avif",
+          "avifThumbnail": "assets/digests-v2/42/highlight-06-480.avif",
+          "alt": "存量机型推送功能演示",
+          "evidenceId": "highlight-06-demo",
+          "width": 480,
+          "height": 1751
+        }
+      ]
+    }
+  ],
+  "updates": [],
+  "sourceItems": [
+    {
+      "id": "source-highlight-01",
+      "classification": "highlight",
+      "source": "assets/images/HyperOS_10月更新一览_(2024)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "1fceabd4357e9a52d3fe8bc182363621c1c582d97b05072d7436594f56e9cf74",
+      "blockIds": [
+        "ocr-0004",
+        "ocr-0005",
+        "ocr-0006",
+        "ocr-0007",
+        "ocr-0010",
+        "ocr-0008",
+        "ocr-0009",
+        "ocr-0011",
+        "ocr-0012",
+        "ocr-0015",
+        "ocr-0013",
+        "ocr-0014",
+        "ocr-0016",
+        "ocr-0042",
+        "ocr-0026",
+        "ocr-0035",
+        "ocr-0017",
+        "ocr-0018",
+        "ocr-0036",
+        "ocr-0027",
+        "ocr-0043",
+        "ocr-0019",
+        "ocr-0028",
+        "ocr-0044",
+        "ocr-0037",
+        "ocr-0038",
+        "ocr-0029",
+        "ocr-0045",
+        "ocr-0020",
+        "ocr-0046",
+        "ocr-0030",
+        "ocr-0021",
+        "ocr-0031",
+        "ocr-0022",
+        "ocr-0039",
+        "ocr-0040",
+        "ocr-0047",
+        "ocr-0032",
+        "ocr-0041",
+        "ocr-0023",
+        "ocr-0048",
+        "ocr-0033",
+        "ocr-0024",
+        "ocr-0025",
+        "ocr-0034",
+        "ocr-0049",
+        "ocr-0050",
+        "ocr-0052",
+        "ocr-0051",
+        "ocr-0053"
+      ],
+      "text": "体验“活的系统” 迈向AI全生态的坚实一步，锁屏进入动态影像时代，每个界面都鲜活。",
+      "targetIds": [
+        "highlight-01"
+      ]
+    },
+    {
+      "id": "source-highlight-02",
+      "classification": "highlight",
+      "source": "assets/images/HyperOS_10月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "d8e0b5a5aedb78b5aa5930dfed0f525a93f0c7d4d198df40e77a8d597a36900b",
+      "blockIds": [
+        "ocr-0001",
+        "ocr-0002",
+        "ocr-0003",
+        "ocr-0004"
+      ],
+      "text": "妙享桌面 Mac上也可使用妙享桌面，还支持查看专属格式文档。",
+      "targetIds": [
+        "highlight-02"
+      ]
+    },
+    {
+      "id": "source-highlight-03",
+      "classification": "highlight",
+      "source": "assets/images/HyperOS_10月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "d8e0b5a5aedb78b5aa5930dfed0f525a93f0c7d4d198df40e77a8d597a36900b",
+      "blockIds": [
+        "ocr-0005",
+        "ocr-0006",
+        "ocr-0007",
+        "ocr-0008",
+        "ocr-0009",
+        "ocr-0010",
+        "ocr-0011",
+        "ocr-0012",
+        "ocr-0013",
+        "ocr-0015",
+        "ocr-0016",
+        "ocr-0014",
+        "ocr-0019",
+        "ocr-0017",
+        "ocr-0018"
+      ],
+      "text": "超级小爱 小爱同学变身超级小爱。",
+      "targetIds": [
+        "highlight-03"
+      ]
+    },
+    {
+      "id": "source-highlight-04",
+      "classification": "highlight",
+      "source": "assets/images/HyperOS_10月更新一览_(2024)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "da93da2e434f1e943eeb059b54ff0a4a42fa1ec6644a39ab0d6ebdf30dac410d",
+      "blockIds": [
+        "ocr-0001",
+        "ocr-0004",
+        "ocr-0002",
+        "ocr-0003",
+        "ocr-0005",
+        "ocr-0006",
+        "ocr-0007",
+        "ocr-0008",
+        "ocr-0009",
+        "ocr-0010",
+        "ocr-0012",
+        "ocr-0011",
+        "ocr-0013"
+      ],
+      "text": "主动帮你办 当你入睡后主动关灯和电视。",
+      "targetIds": [
+        "highlight-04"
+      ]
+    },
+    {
+      "id": "source-highlight-05",
+      "classification": "highlight",
+      "source": "assets/images/HyperOS_10月更新一览_(2024)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "da93da2e434f1e943eeb059b54ff0a4a42fa1ec6644a39ab0d6ebdf30dac410d",
+      "blockIds": [
+        "ocr-0014",
+        "ocr-0015",
+        "ocr-0016",
+        "ocr-0019",
+        "ocr-0020",
+        "ocr-0017",
+        "ocr-0021",
+        "ocr-0018",
+        "ocr-0022",
+        "ocr-0023",
+        "ocr-0024",
+        "ocr-0035",
+        "ocr-0036",
+        "ocr-0025",
+        "ocr-0026",
+        "ocr-0037",
+        "ocr-0038",
+        "ocr-0027",
+        "ocr-0039",
+        "ocr-0028",
+        "ocr-0040",
+        "ocr-0029",
+        "ocr-0041",
+        "ocr-0030",
+        "ocr-0042",
+        "ocr-0031",
+        "ocr-0043",
+        "ocr-0032",
+        "ocr-0033",
+        "ocr-0034"
+      ],
+      "text": "主动备车备家 把晾衣杆降到兜用位置，主动备车备家。",
+      "targetIds": [
+        "highlight-05"
+      ]
+    },
+    {
+      "id": "source-highlight-06",
+      "classification": "highlight",
+      "source": "assets/images/HyperOS_10月更新一览_(2024)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "55050f42da95629d27a37981c1cca9418926f1e575c698192c04ab75a4028d6e",
+      "blockIds": [
+        "ocr-0002",
+        "ocr-0021",
+        "ocr-0003",
+        "ocr-0004",
+        "ocr-0022",
+        "ocr-0005",
+        "ocr-0023",
+        "ocr-0024",
+        "ocr-0006",
+        "ocr-0007",
+        "ocr-0025",
+        "ocr-0026",
+        "ocr-0008",
+        "ocr-0009",
+        "ocr-0027",
+        "ocr-0028",
+        "ocr-0010",
+        "ocr-0029",
+        "ocr-0011",
+        "ocr-0030",
+        "ocr-0012",
+        "ocr-0031",
+        "ocr-0013",
+        "ocr-0032",
+        "ocr-0014",
+        "ocr-0033",
+        "ocr-0015",
+        "ocr-0034",
+        "ocr-0016",
+        "ocr-0035",
+        "ocr-0017",
+        "ocr-0036",
+        "ocr-0018",
+        "ocr-0037",
+        "ocr-0019",
+        "ocr-0020",
+        "ocr-0038",
+        "ocr-0039",
+        "ocr-0040",
+        "ocr-0041",
+        "ocr-0042",
+        "ocr-0043",
+        "ocr-0044",
+        "ocr-0050",
+        "ocr-0045",
+        "ocr-0051",
+        "ocr-0046",
+        "ocr-0047",
+        "ocr-0048",
+        "ocr-0049",
+        "ocr-0052",
+        "ocr-0053",
+        "ocr-0054",
+        "ocr-0055",
+        "ocr-0056",
+        "ocr-0057",
+        "ocr-0058",
+        "ocr-0059",
+        "ocr-0060",
+        "ocr-0061",
+        "ocr-0062",
+        "ocr-0063",
+        "ocr-0064",
+        "ocr-0065",
+        "ocr-0066",
+        "ocr-0067",
+        "ocr-0068"
+      ],
+      "text": "存量机型推送 小米手环9Pro即日升级，存量机型将陆续开启推送。",
+      "targetIds": [
+        "highlight-06"
+      ]
+    },
+    {
+      "id": "source-excluded-007",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_10月更新一览_(2024)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "1fceabd4357e9a52d3fe8bc182363621c1c582d97b05072d7436594f56e9cf74",
+      "blockIds": [
+        "ocr-0001"
+      ],
+      "text": "目",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-008",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_10月更新一览_(2024)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "1fceabd4357e9a52d3fe8bc182363621c1c582d97b05072d7436594f56e9cf74",
+      "blockIds": [
+        "ocr-0002"
+      ],
+      "text": "2",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-009",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_10月更新一览_(2024)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "1fceabd4357e9a52d3fe8bc182363621c1c582d97b05072d7436594f56e9cf74",
+      "blockIds": [
+        "ocr-0003"
+      ],
+      "text": "Xiaomi Hyperos",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-010",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_10月更新一览_(2024)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "55050f42da95629d27a37981c1cca9418926f1e575c698192c04ab75a4028d6e",
+      "blockIds": [
+        "ocr-0001"
+      ],
+      "text": "Xiaomi Watch S4 eSIM（厂包搭载）",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "highlight-01-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/HyperOS_10月更新一览_(2024)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "1fceabd4357e9a52d3fe8bc182363621c1c582d97b05072d7436594f56e9cf74",
+      "blockIds": [
+        "ocr-0004",
+        "ocr-0005",
+        "ocr-0006",
+        "ocr-0007",
+        "ocr-0010",
+        "ocr-0008",
+        "ocr-0009",
+        "ocr-0011",
+        "ocr-0012",
+        "ocr-0015",
+        "ocr-0013",
+        "ocr-0014",
+        "ocr-0016",
+        "ocr-0042",
+        "ocr-0026",
+        "ocr-0035",
+        "ocr-0017",
+        "ocr-0018",
+        "ocr-0036",
+        "ocr-0027",
+        "ocr-0043",
+        "ocr-0019",
+        "ocr-0028",
+        "ocr-0044",
+        "ocr-0037",
+        "ocr-0038",
+        "ocr-0029",
+        "ocr-0045",
+        "ocr-0020",
+        "ocr-0046",
+        "ocr-0030",
+        "ocr-0021",
+        "ocr-0031",
+        "ocr-0022",
+        "ocr-0039",
+        "ocr-0040",
+        "ocr-0047",
+        "ocr-0032",
+        "ocr-0041",
+        "ocr-0023",
+        "ocr-0048",
+        "ocr-0033",
+        "ocr-0024",
+        "ocr-0025",
+        "ocr-0034",
+        "ocr-0049",
+        "ocr-0050",
+        "ocr-0052",
+        "ocr-0051",
+        "ocr-0053"
+      ],
+      "region": {
+        "x": 90,
+        "y": 527,
+        "width": 891,
+        "height": 2969
+      },
+      "note": "系统：体验“活的系统”标题与说明"
+    },
+    {
+      "id": "highlight-01-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/HyperOS_10月更新一览_(2024)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "1fceabd4357e9a52d3fe8bc182363621c1c582d97b05072d7436594f56e9cf74",
+      "blockIds": [],
+      "region": {
+        "x": 38,
+        "y": 536,
+        "width": 1004,
+        "height": 3177
+      },
+      "note": "系统：体验“活的系统”人工确认演示区域"
+    },
+    {
+      "id": "highlight-02-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/HyperOS_10月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "d8e0b5a5aedb78b5aa5930dfed0f525a93f0c7d4d198df40e77a8d597a36900b",
+      "blockIds": [
+        "ocr-0001",
+        "ocr-0002",
+        "ocr-0003",
+        "ocr-0004"
+      ],
+      "region": {
+        "x": 239,
+        "y": 289,
+        "width": 598,
+        "height": 1396
+      },
+      "note": "互联：妙享桌面标题与说明"
+    },
+    {
+      "id": "highlight-02-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/HyperOS_10月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "d8e0b5a5aedb78b5aa5930dfed0f525a93f0c7d4d198df40e77a8d597a36900b",
+      "blockIds": [],
+      "region": {
+        "x": 38,
+        "y": 298,
+        "width": 1004,
+        "height": 1560
+      },
+      "note": "互联：妙享桌面人工确认演示区域"
+    },
+    {
+      "id": "highlight-03-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/HyperOS_10月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "d8e0b5a5aedb78b5aa5930dfed0f525a93f0c7d4d198df40e77a8d597a36900b",
+      "blockIds": [
+        "ocr-0005",
+        "ocr-0006",
+        "ocr-0007",
+        "ocr-0008",
+        "ocr-0009",
+        "ocr-0010",
+        "ocr-0011",
+        "ocr-0012",
+        "ocr-0013",
+        "ocr-0015",
+        "ocr-0016",
+        "ocr-0014",
+        "ocr-0019",
+        "ocr-0017",
+        "ocr-0018"
+      ],
+      "region": {
+        "x": 90,
+        "y": 1890,
+        "width": 837,
+        "height": 1802
+      },
+      "note": "超级小爱：超级小爱标题与说明"
+    },
+    {
+      "id": "highlight-03-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/HyperOS_10月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "d8e0b5a5aedb78b5aa5930dfed0f525a93f0c7d4d198df40e77a8d597a36900b",
+      "blockIds": [],
+      "region": {
+        "x": 38,
+        "y": 1858,
+        "width": 1004,
+        "height": 1853
+      },
+      "note": "超级小爱：超级小爱人工确认演示区域"
+    },
+    {
+      "id": "highlight-04-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/HyperOS_10月更新一览_(2024)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "da93da2e434f1e943eeb059b54ff0a4a42fa1ec6644a39ab0d6ebdf30dac410d",
+      "blockIds": [
+        "ocr-0001",
+        "ocr-0004",
+        "ocr-0002",
+        "ocr-0003",
+        "ocr-0005",
+        "ocr-0006",
+        "ocr-0007",
+        "ocr-0008",
+        "ocr-0009",
+        "ocr-0010",
+        "ocr-0012",
+        "ocr-0011",
+        "ocr-0013"
+      ],
+      "region": {
+        "x": 189,
+        "y": 203,
+        "width": 760,
+        "height": 1577
+      },
+      "note": "智能：主动帮你办标题与说明"
+    },
+    {
+      "id": "highlight-04-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/HyperOS_10月更新一览_(2024)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "da93da2e434f1e943eeb059b54ff0a4a42fa1ec6644a39ab0d6ebdf30dac410d",
+      "blockIds": [],
+      "region": {
+        "x": 38,
+        "y": 212,
+        "width": 1004,
+        "height": 1645
+      },
+      "note": "智能：主动帮你办人工确认演示区域"
+    },
+    {
+      "id": "highlight-05-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/HyperOS_10月更新一览_(2024)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "da93da2e434f1e943eeb059b54ff0a4a42fa1ec6644a39ab0d6ebdf30dac410d",
+      "blockIds": [
+        "ocr-0014",
+        "ocr-0015",
+        "ocr-0016",
+        "ocr-0019",
+        "ocr-0020",
+        "ocr-0017",
+        "ocr-0021",
+        "ocr-0018",
+        "ocr-0022",
+        "ocr-0023",
+        "ocr-0024",
+        "ocr-0035",
+        "ocr-0036",
+        "ocr-0025",
+        "ocr-0026",
+        "ocr-0037",
+        "ocr-0038",
+        "ocr-0027",
+        "ocr-0039",
+        "ocr-0028",
+        "ocr-0040",
+        "ocr-0029",
+        "ocr-0041",
+        "ocr-0030",
+        "ocr-0042",
+        "ocr-0031",
+        "ocr-0043",
+        "ocr-0032",
+        "ocr-0033",
+        "ocr-0034"
+      ],
+      "region": {
+        "x": 103,
+        "y": 1894,
+        "width": 792,
+        "height": 1821
+      },
+      "note": "智能：主动备车备家标题与说明"
+    },
+    {
+      "id": "highlight-05-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/HyperOS_10月更新一览_(2024)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "da93da2e434f1e943eeb059b54ff0a4a42fa1ec6644a39ab0d6ebdf30dac410d",
+      "blockIds": [],
+      "region": {
+        "x": 38,
+        "y": 1858,
+        "width": 1004,
+        "height": 1853
+      },
+      "note": "智能：主动备车备家人工确认演示区域"
+    },
+    {
+      "id": "highlight-06-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/HyperOS_10月更新一览_(2024)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "55050f42da95629d27a37981c1cca9418926f1e575c698192c04ab75a4028d6e",
+      "blockIds": [
+        "ocr-0002",
+        "ocr-0021",
+        "ocr-0003",
+        "ocr-0004",
+        "ocr-0022",
+        "ocr-0005",
+        "ocr-0023",
+        "ocr-0024",
+        "ocr-0006",
+        "ocr-0007",
+        "ocr-0025",
+        "ocr-0026",
+        "ocr-0008",
+        "ocr-0009",
+        "ocr-0027",
+        "ocr-0028",
+        "ocr-0010",
+        "ocr-0029",
+        "ocr-0011",
+        "ocr-0030",
+        "ocr-0012",
+        "ocr-0031",
+        "ocr-0013",
+        "ocr-0032",
+        "ocr-0014",
+        "ocr-0033",
+        "ocr-0015",
+        "ocr-0034",
+        "ocr-0016",
+        "ocr-0035",
+        "ocr-0017",
+        "ocr-0036",
+        "ocr-0018",
+        "ocr-0037",
+        "ocr-0019",
+        "ocr-0020",
+        "ocr-0038",
+        "ocr-0039",
+        "ocr-0040",
+        "ocr-0041",
+        "ocr-0042",
+        "ocr-0043",
+        "ocr-0044",
+        "ocr-0050",
+        "ocr-0045",
+        "ocr-0051",
+        "ocr-0046",
+        "ocr-0047",
+        "ocr-0048",
+        "ocr-0049",
+        "ocr-0052",
+        "ocr-0053",
+        "ocr-0054",
+        "ocr-0055",
+        "ocr-0056",
+        "ocr-0057",
+        "ocr-0058",
+        "ocr-0059",
+        "ocr-0060",
+        "ocr-0061",
+        "ocr-0062",
+        "ocr-0063",
+        "ocr-0064",
+        "ocr-0065",
+        "ocr-0066",
+        "ocr-0067",
+        "ocr-0068"
+      ],
+      "region": {
+        "x": 32,
+        "y": 41,
+        "width": 958,
+        "height": 3623
+      },
+      "note": "系统：存量机型推送标题与说明"
+    },
+    {
+      "id": "highlight-06-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/HyperOS_10月更新一览_(2024)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "55050f42da95629d27a37981c1cca9418926f1e575c698192c04ab75a4028d6e",
+      "blockIds": [],
+      "region": {
+        "x": 38,
+        "y": 49,
+        "width": 1004,
+        "height": 3662
+      },
+      "note": "系统：存量机型推送人工确认演示区域"
+    },
+    {
+      "id": "source-excluded-007-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_10月更新一览_(2024)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "1fceabd4357e9a52d3fe8bc182363621c1c582d97b05072d7436594f56e9cf74",
+      "blockIds": [
+        "ocr-0001"
+      ],
+      "region": {
+        "x": 936,
+        "y": 15,
+        "width": 112,
+        "height": 145
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-008-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_10月更新一览_(2024)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "1fceabd4357e9a52d3fe8bc182363621c1c582d97b05072d7436594f56e9cf74",
+      "blockIds": [
+        "ocr-0002"
+      ],
+      "region": {
+        "x": 446,
+        "y": 154,
+        "width": 188,
+        "height": 267
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-009-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_10月更新一览_(2024)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "1fceabd4357e9a52d3fe8bc182363621c1c582d97b05072d7436594f56e9cf74",
+      "blockIds": [
+        "ocr-0003"
+      ],
+      "region": {
+        "x": 329,
+        "y": 433,
+        "width": 418,
+        "height": 114
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-010-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_10月更新一览_(2024)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "55050f42da95629d27a37981c1cca9418926f1e575c698192c04ab75a4028d6e",
+      "blockIds": [
+        "ocr-0001"
+      ],
+      "region": {
+        "x": 108,
+        "y": 0,
+        "width": 382,
+        "height": 66
+      },
+      "note": "不进入表格：decoration"
+    }
+  ],
+  "audit": {
+    "highlightReviewVersion": 4,
+    "updateReviewVersion": 4,
+    "review": {
+      "content": "verified",
+      "modules": "verified",
+      "media": "verified",
+      "page": "verified"
+    },
+    "expectedHighlightCount": 6,
+    "sourceItemCount": 10,
+    "includedItemCount": 6,
+    "excludedItemCount": 4,
+    "highlightCount": 6,
+    "updateCount": 0,
+    "mediaCount": 6,
+    "mappedItemCount": 10,
+    "coverageRate": 1
+  }
+}
