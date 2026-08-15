@@ -8,10 +8,10 @@
   "highlights": [
     {
       "id": "highlight-01",
-      "module": "互联",
+      "module": "小米 AI 眼镜",
       "moduleSource": "explicit-heading",
-      "title": "可穿戴互联更畅快",
-      "description": "小米AI眼镜进行视频通话时，支持开启跨设备相机，调用眼镜摄像头。",
+      "title": "跨设备相机",
+      "description": "进行微信、QQ 等应用视频通话时，支持开启跨设备相机，调用眼镜摄像头、分享第一视角。",
       "mediaStatus": "available",
       "evidenceIds": [
         "highlight-01-body",
@@ -28,19 +28,19 @@
           "thumbnail": "assets/digests-v2/37/highlight-01-480.webp",
           "avifSrc": "assets/digests-v2/37/highlight-01-960.avif",
           "avifThumbnail": "assets/digests-v2/37/highlight-01-480.avif",
-          "alt": "可穿戴互联更畅快功能演示",
+          "alt": "跨设备相机功能演示",
           "evidenceId": "highlight-01-demo",
           "width": 480,
-          "height": 1083
+          "height": 271
         }
       ]
     },
     {
       "id": "highlight-02",
-      "module": "互联",
+      "module": "Xiaomi Watch S4",
       "moduleSource": "explicit-heading",
-      "title": "跨生态互联更自如",
-      "description": "在Mac上可同时使用小米手机屏幕和小米手机应用，随心沉浸切换。",
+      "title": "遥控拍照预览",
+      "description": "使用遥控拍照功能时，可用手表预览相机画面。",
       "mediaStatus": "available",
       "evidenceIds": [
         "highlight-02-body",
@@ -57,19 +57,19 @@
           "thumbnail": "assets/digests-v2/37/highlight-02-480.webp",
           "avifSrc": "assets/digests-v2/37/highlight-02-960.avif",
           "avifThumbnail": "assets/digests-v2/37/highlight-02-480.avif",
-          "alt": "跨生态互联更自如功能演示",
+          "alt": "遥控拍照预览功能演示",
           "evidenceId": "highlight-02-demo",
           "width": 480,
-          "height": 617
+          "height": 244
         }
       ]
     },
     {
       "id": "highlight-03",
-      "module": "超级小爱",
+      "module": "Xiaomi 开放式耳机",
       "moduleSource": "explicit-heading",
-      "title": "超级小爱记忆",
-      "description": "好记更好用，语音查找超级小爱记忆中的信息时，支持快捷复制。",
+      "title": "空间音频与手势设置",
+      "description": "支持通过系统蓝牙设置空间音频、音效及手势等功能。",
       "mediaStatus": "available",
       "evidenceIds": [
         "highlight-03-body",
@@ -86,19 +86,19 @@
           "thumbnail": "assets/digests-v2/37/highlight-03-480.webp",
           "avifSrc": "assets/digests-v2/37/highlight-03-960.avif",
           "avifThumbnail": "assets/digests-v2/37/highlight-03-480.avif",
-          "alt": "超级小爱记忆功能演示",
+          "alt": "空间音频与手势设置功能演示",
           "evidenceId": "highlight-03-demo",
           "width": 480,
-          "height": 550
+          "height": 230
         }
       ]
     },
     {
       "id": "highlight-04",
-      "module": "相册",
+      "module": "互联",
       "moduleSource": "explicit-heading",
-      "title": "相册编辑界面优化",
-      "description": "功能引导更清晰，照片编辑底部导航支持选择图文或文字样式。",
+      "title": "跨生态互联更自如",
+      "description": "在 Mac 上可同时使用小米手机屏幕和小米手机应用，随心切换应用窗口大小。",
       "mediaStatus": "available",
       "evidenceIds": [
         "highlight-04-body",
@@ -115,10 +115,68 @@
           "thumbnail": "assets/digests-v2/37/highlight-04-480.webp",
           "avifSrc": "assets/digests-v2/37/highlight-04-960.avif",
           "avifThumbnail": "assets/digests-v2/37/highlight-04-480.avif",
-          "alt": "相册编辑界面优化功能演示",
+          "alt": "跨生态互联更自如功能演示",
           "evidenceId": "highlight-04-demo",
           "width": 480,
-          "height": 685
+          "height": 331
+        }
+      ]
+    },
+    {
+      "id": "highlight-05",
+      "module": "超级小爱",
+      "moduleSource": "explicit-heading",
+      "title": "超级小爱记忆",
+      "description": "语音查找超级小爱记忆中的身份证、银行卡等号码信息时，支持快捷复制。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-05-body",
+        "highlight-05-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-05"
+      ],
+      "media": [
+        {
+          "id": "highlight-05-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/37/highlight-05-960.webp",
+          "thumbnail": "assets/digests-v2/37/highlight-05-480.webp",
+          "avifSrc": "assets/digests-v2/37/highlight-05-960.avif",
+          "avifThumbnail": "assets/digests-v2/37/highlight-05-480.avif",
+          "alt": "超级小爱记忆功能演示",
+          "evidenceId": "highlight-05-demo",
+          "width": 480,
+          "height": 388
+        }
+      ]
+    },
+    {
+      "id": "highlight-06",
+      "module": "相册",
+      "moduleSource": "explicit-heading",
+      "title": "相册编辑界面优化",
+      "description": "照片编辑底部导航支持选择图文或文字样式，并增加涂鸦笔、马赛克笔、形状功能使用引导。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-06-body",
+        "highlight-06-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-06"
+      ],
+      "media": [
+        {
+          "id": "highlight-06-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/37/highlight-06-960.webp",
+          "thumbnail": "assets/digests-v2/37/highlight-06-480.webp",
+          "avifSrc": "assets/digests-v2/37/highlight-06-960.avif",
+          "avifThumbnail": "assets/digests-v2/37/highlight-06-480.avif",
+          "alt": "相册编辑界面优化功能演示",
+          "evidenceId": "highlight-06-demo",
+          "width": 480,
+          "height": 303
         }
       ]
     }
@@ -126,12 +184,12 @@
   "updates": [
     {
       "id": "update-01",
-      "module": "系统",
-      "moduleSource": "explicit-heading",
+      "module": "融合设备中心",
+      "moduleSource": "explicit-inline",
       "type": "优化",
       "typeSource": "explicit",
-      "sourceText": "融合设备中心展示逻辑，支持自动聚合多台电视",
-      "description": "融合设备中心展示逻辑，支持自动聚合多台电视",
+      "sourceText": "优化融合设备中心展示逻辑，支持自动聚合多台电视及音箱设备。",
+      "description": "优化融合设备中心展示逻辑，支持自动聚合多台电视及音箱设备。",
       "evidenceIds": [
         "update-01-source"
       ],
@@ -141,12 +199,12 @@
     },
     {
       "id": "update-02",
-      "module": "系统",
-      "moduleSource": "explicit-heading",
+      "module": "桌面",
+      "moduleSource": "explicit-inline",
       "type": "修复",
       "typeSource": "explicit",
-      "sourceText": "桌面小部件加载大图时偶现的显示异常问题",
-      "description": "桌面小部件加载大图时偶现的显示异常问题",
+      "sourceText": "修复桌面小部件加载大图时偶现的显示异常问题。",
+      "description": "修复桌面小部件加载大图时偶现的显示异常问题。",
       "evidenceIds": [
         "update-02-source"
       ],
@@ -156,12 +214,12 @@
     },
     {
       "id": "update-03",
-      "module": "系统",
-      "moduleSource": "explicit-heading",
+      "module": "时钟",
+      "moduleSource": "explicit-inline",
       "type": "修复",
       "typeSource": "explicit",
-      "sourceText": "部分场景下秒表记录显示异常的问题",
-      "description": "部分场景下秒表记录显示异常的问题",
+      "sourceText": "修复部分场景下秒表记录显示异常的问题。",
+      "description": "修复部分场景下秒表记录显示异常的问题。",
       "evidenceIds": [
         "update-03-source"
       ],
@@ -171,12 +229,12 @@
     },
     {
       "id": "update-04",
-      "module": "系统",
-      "moduleSource": "explicit-heading",
+      "module": "时钟",
+      "moduleSource": "explicit-inline",
       "type": "修复",
       "typeSource": "explicit",
-      "sourceText": "大字号小窗模式下，添加闹钟出现的时钟闪退",
-      "description": "大字号小窗模式下，添加闹钟出现的时钟闪退",
+      "sourceText": "修复大字号小窗模式下添加闹钟出现的时钟闪退问题。",
+      "description": "修复大字号小窗模式下添加闹钟出现的时钟闪退问题。",
       "evidenceIds": [
         "update-04-source"
       ],
@@ -186,12 +244,12 @@
     },
     {
       "id": "update-05",
-      "module": "系统",
-      "moduleSource": "explicit-heading",
+      "module": "CarWith",
+      "moduleSource": "explicit-inline",
       "type": "修复",
       "typeSource": "explicit",
-      "sourceText": "部分场景下CarWith导航信息遮挡问题",
-      "description": "部分场景下CarWith导航信息遮挡问题",
+      "sourceText": "修复部分场景下 CarWith 导航信息遮挡问题。",
+      "description": "修复部分场景下 CarWith 导航信息遮挡问题。",
       "evidenceIds": [
         "update-05-source"
       ],
@@ -210,16 +268,9 @@
       "blockIds": [
         "ocr-0001",
         "ocr-0002",
-        "ocr-0003",
-        "ocr-0004",
-        "ocr-0005",
-        "ocr-0006",
-        "ocr-0007",
-        "ocr-0008",
-        "ocr-0009",
-        "ocr-0010"
+        "ocr-0003"
       ],
-      "text": "可穿戴互联更畅快 小米AI眼镜进行视频通话时，支持开启跨设备相机，调用眼镜摄像头。",
+      "text": "跨设备相机 进行微信、QQ 等应用视频通话时，支持开启跨设备相机，调用眼镜摄像头、分享第一视角。",
       "targetIds": [
         "highlight-01"
       ]
@@ -227,24 +278,13 @@
     {
       "id": "source-highlight-02",
       "classification": "highlight",
-      "source": "assets/images/HyperOS_8月更新一览_(2025)/2.webp",
-      "sourceIndex": 2,
-      "sourceHash": "3c380138184ea01edce8ba2f55f55aa83a2c4fffe11300c3faa9c8e76a2a04e0",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "c40c375a3076d253f2568837c98d7dbafd816808031ccdd90dfd536677f093f0",
       "blockIds": [
-        "ocr-0001",
-        "ocr-0002",
-        "ocr-0003",
-        "ocr-0004",
-        "ocr-0005",
-        "ocr-0006",
-        "ocr-0007",
-        "ocr-0008",
-        "ocr-0009",
-        "ocr-0010",
-        "ocr-0012",
-        "ocr-0011"
+        "ocr-0006"
       ],
-      "text": "跨生态互联更自如 在Mac上可同时使用小米手机屏幕和小米手机应用，随心沉浸切换。",
+      "text": "遥控拍照预览 使用遥控拍照功能时，可用手表预览相机画面。",
       "targetIds": [
         "highlight-02"
       ]
@@ -252,22 +292,13 @@
     {
       "id": "source-highlight-03",
       "classification": "highlight",
-      "source": "assets/images/HyperOS_8月更新一览_(2025)/3.webp",
-      "sourceIndex": 3,
-      "sourceHash": "5b45fd282c4479d357ed3038e2a91557fb576dfd5a3f0780cde855009dd52c53",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "c40c375a3076d253f2568837c98d7dbafd816808031ccdd90dfd536677f093f0",
       "blockIds": [
-        "ocr-0001",
-        "ocr-0002",
-        "ocr-0003",
-        "ocr-0004",
-        "ocr-0009",
-        "ocr-0005",
-        "ocr-0006",
-        "ocr-0007",
-        "ocr-0008",
-        "ocr-0010"
+        "ocr-0008"
       ],
-      "text": "超级小爱记忆 好记更好用，语音查找超级小爱记忆中的信息时，支持快捷复制。",
+      "text": "空间音频与手势设置 支持通过系统蓝牙设置空间音频、音效及手势等功能。",
       "targetIds": [
         "highlight-03"
       ]
@@ -275,50 +306,49 @@
     {
       "id": "source-highlight-04",
       "classification": "highlight",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "3c380138184ea01edce8ba2f55f55aa83a2c4fffe11300c3faa9c8e76a2a04e0",
+      "blockIds": [
+        "ocr-0001",
+        "ocr-0002",
+        "ocr-0003"
+      ],
+      "text": "跨生态互联更自如 在 Mac 上可同时使用小米手机屏幕和小米手机应用，随心切换应用窗口大小。",
+      "targetIds": [
+        "highlight-04"
+      ]
+    },
+    {
+      "id": "source-highlight-05",
+      "classification": "highlight",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "5b45fd282c4479d357ed3038e2a91557fb576dfd5a3f0780cde855009dd52c53",
+      "blockIds": [
+        "ocr-0001",
+        "ocr-0002",
+        "ocr-0003"
+      ],
+      "text": "超级小爱记忆 语音查找超级小爱记忆中的身份证、银行卡等号码信息时，支持快捷复制。",
+      "targetIds": [
+        "highlight-05"
+      ]
+    },
+    {
+      "id": "source-highlight-06",
+      "classification": "highlight",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
       "sourceIndex": 4,
       "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
       "blockIds": [
         "ocr-0001",
         "ocr-0002",
-        "ocr-0003",
-        "ocr-0004",
-        "ocr-0005",
-        "ocr-0006",
-        "ocr-0007",
-        "ocr-0008",
-        "ocr-0009",
-        "ocr-0010",
-        "ocr-0011",
-        "ocr-0012",
-        "ocr-0015",
-        "ocr-0013",
-        "ocr-0018",
-        "ocr-0016",
-        "ocr-0017",
-        "ocr-0014",
-        "ocr-0019",
-        "ocr-0024",
-        "ocr-0027",
-        "ocr-0032",
-        "ocr-0030",
-        "ocr-0022",
-        "ocr-0020",
-        "ocr-0025",
-        "ocr-0031",
-        "ocr-0033",
-        "ocr-0029",
-        "ocr-0028",
-        "ocr-0026",
-        "ocr-0021",
-        "ocr-0034",
-        "ocr-0023",
-        "ocr-0035",
-        "ocr-0036"
+        "ocr-0003"
       ],
-      "text": "相册编辑界面优化 功能引导更清晰，照片编辑底部导航支持选择图文或文字样式。",
+      "text": "相册编辑界面优化 照片编辑底部导航支持选择图文或文字样式，并增加涂鸦笔、马赛克笔、形状功能使用引导。",
       "targetIds": [
-        "highlight-04"
+        "highlight-06"
       ]
     },
     {
@@ -331,8 +361,8 @@
         "ocr-0002",
         "ocr-0003"
       ],
-      "text": "融合设备中心展示逻辑，支持自动聚合多台电视",
-      "correctedText": "融合设备中心展示逻辑，支持自动聚合多台电视",
+      "text": "优化融合设备中心展示逻辑，支持自动聚合多台电视及音箱设备。",
+      "correctedText": "优化融合设备中心展示逻辑，支持自动聚合多台电视及音箱设备。",
       "targetIds": [
         "update-01"
       ]
@@ -346,8 +376,8 @@
       "blockIds": [
         "ocr-0005"
       ],
-      "text": "桌面小部件加载大图时偶现的显示异常问题",
-      "correctedText": "桌面小部件加载大图时偶现的显示异常问题",
+      "text": "修复桌面小部件加载大图时偶现的显示异常问题。",
+      "correctedText": "修复桌面小部件加载大图时偶现的显示异常问题。",
       "targetIds": [
         "update-02"
       ]
@@ -361,8 +391,8 @@
       "blockIds": [
         "ocr-0006"
       ],
-      "text": "部分场景下秒表记录显示异常的问题",
-      "correctedText": "部分场景下秒表记录显示异常的问题",
+      "text": "修复部分场景下秒表记录显示异常的问题。",
+      "correctedText": "修复部分场景下秒表记录显示异常的问题。",
       "targetIds": [
         "update-03"
       ]
@@ -377,8 +407,8 @@
         "ocr-0007",
         "ocr-0008"
       ],
-      "text": "大字号小窗模式下，添加闹钟出现的时钟闪退",
-      "correctedText": "大字号小窗模式下，添加闹钟出现的时钟闪退",
+      "text": "修复大字号小窗模式下添加闹钟出现的时钟闪退问题。",
+      "correctedText": "修复大字号小窗模式下添加闹钟出现的时钟闪退问题。",
       "targetIds": [
         "update-04"
       ]
@@ -392,14 +422,14 @@
       "blockIds": [
         "ocr-0009"
       ],
-      "text": "部分场景下CarWith导航信息遮挡问题",
-      "correctedText": "部分场景下CarWith导航信息遮挡问题",
+      "text": "修复部分场景下 CarWith 导航信息遮挡问题。",
+      "correctedText": "修复部分场景下 CarWith 导航信息遮挡问题。",
       "targetIds": [
         "update-05"
       ]
     },
     {
-      "id": "source-excluded-010",
+      "id": "source-excluded-012",
       "classification": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/0.webp",
       "sourceIndex": 0,
@@ -412,7 +442,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-011",
+      "id": "source-excluded-013",
       "classification": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/0.webp",
       "sourceIndex": 0,
@@ -425,7 +455,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-012",
+      "id": "source-excluded-014",
       "classification": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/0.webp",
       "sourceIndex": 0,
@@ -438,7 +468,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-013",
+      "id": "source-excluded-015",
       "classification": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/0.webp",
       "sourceIndex": 0,
@@ -451,7 +481,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-014",
+      "id": "source-excluded-016",
       "classification": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/0.webp",
       "sourceIndex": 0,
@@ -464,7 +494,280 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-015",
+      "id": "source-excluded-017",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "c40c375a3076d253f2568837c98d7dbafd816808031ccdd90dfd536677f093f0",
+      "blockIds": [
+        "ocr-0004"
+      ],
+      "text": "支持开启跨设备相机，调用眼镜摄像头、分享第一视角",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-018",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "c40c375a3076d253f2568837c98d7dbafd816808031ccdd90dfd536677f093f0",
+      "blockIds": [
+        "ocr-0005"
+      ],
+      "text": "跨设备相机",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-019",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "c40c375a3076d253f2568837c98d7dbafd816808031ccdd90dfd536677f093f0",
+      "blockIds": [
+        "ocr-0007"
+      ],
+      "text": "Xiaomi Watch S4 15周年纪念版支持使用遥控拍照功能",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-020",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "c40c375a3076d253f2568837c98d7dbafd816808031ccdd90dfd536677f093f0",
+      "blockIds": [
+        "ocr-0009"
+      ],
+      "text": "Xiaomi 开放式耳机 Pro、Xiaomi 骨传导耳机2支持通",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-021",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "c40c375a3076d253f2568837c98d7dbafd816808031ccdd90dfd536677f093f0",
+      "blockIds": [
+        "ocr-0010"
+      ],
+      "text": "过系统蓝牙设置空间音频、音效及手势等功能",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-022",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "3c380138184ea01edce8ba2f55f55aa83a2c4fffe11300c3faa9c8e76a2a04e0",
+      "blockIds": [
+        "ocr-0004"
+      ],
+      "text": "在Mac上可同时使用小米手机屏幕和小米手机应用，随",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-023",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "3c380138184ea01edce8ba2f55f55aa83a2c4fffe11300c3faa9c8e76a2a04e0",
+      "blockIds": [
+        "ocr-0005"
+      ],
+      "text": "心切换应用窗口大小",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-024",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "3c380138184ea01edce8ba2f55f55aa83a2c4fffe11300c3faa9c8e76a2a04e0",
+      "blockIds": [
+        "ocr-0006"
+      ],
+      "text": "日m",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-025",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "3c380138184ea01edce8ba2f55f55aa83a2c4fffe11300c3faa9c8e76a2a04e0",
+      "blockIds": [
+        "ocr-0007"
+      ],
+      "text": "••",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-026",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "3c380138184ea01edce8ba2f55f55aa83a2c4fffe11300c3faa9c8e76a2a04e0",
+      "blockIds": [
+        "ocr-0008"
+      ],
+      "text": "⑦ 壹芝泽道金阳放轧街剑",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-027",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "3c380138184ea01edce8ba2f55f55aa83a2c4fffe11300c3faa9c8e76a2a04e0",
+      "blockIds": [
+        "ocr-0009"
+      ],
+      "text": "w",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-028",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "3c380138184ea01edce8ba2f55f55aa83a2c4fffe11300c3faa9c8e76a2a04e0",
+      "blockIds": [
+        "ocr-0010"
+      ],
+      "text": "* 小米端「跨屏协同服务」APP需升级至16.03.00及以上版本",
+      "targetIds": [],
+      "exclusionReason": "disclaimer"
+    },
+    {
+      "id": "source-excluded-029",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "3c380138184ea01edce8ba2f55f55aa83a2c4fffe11300c3faa9c8e76a2a04e0",
+      "blockIds": [
+        "ocr-0012"
+      ],
+      "text": "「小米互联服务」APP需升级至1.7.200及以上版本",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-030",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "3c380138184ea01edce8ba2f55f55aa83a2c4fffe11300c3faa9c8e76a2a04e0",
+      "blockIds": [
+        "ocr-0011"
+      ],
+      "text": "*Mac端",
+      "targetIds": [],
+      "exclusionReason": "disclaimer"
+    },
+    {
+      "id": "source-excluded-031",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "5b45fd282c4479d357ed3038e2a91557fb576dfd5a3f0780cde855009dd52c53",
+      "blockIds": [
+        "ocr-0004"
+      ],
+      "text": "时，支持快捷复制",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-032",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "5b45fd282c4479d357ed3038e2a91557fb576dfd5a3f0780cde855009dd52c53",
+      "blockIds": [
+        "ocr-0009"
+      ],
+      "text": ".多00。",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-033",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "5b45fd282c4479d357ed3038e2a91557fb576dfd5a3f0780cde855009dd52c53",
+      "blockIds": [
+        "ocr-0005"
+      ],
+      "text": "8:16",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-034",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "5b45fd282c4479d357ed3038e2a91557fb576dfd5a3f0780cde855009dd52c53",
+      "blockIds": [
+        "ocr-0006"
+      ],
+      "text": "爸爸的身份证号是多少？么",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-035",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "5b45fd282c4479d357ed3038e2a91557fb576dfd5a3f0780cde855009dd52c53",
+      "blockIds": [
+        "ocr-0007"
+      ],
+      "text": "110101197001012345",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-036",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "5b45fd282c4479d357ed3038e2a91557fb576dfd5a3f0780cde855009dd52c53",
+      "blockIds": [
+        "ocr-0008"
+      ],
+      "text": "彭湃 爸爸 身份证",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-037",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "5b45fd282c4479d357ed3038e2a91557fb576dfd5a3f0780cde855009dd52c53",
+      "blockIds": [
+        "ocr-0010"
+      ],
+      "text": "爸爸的身份证号是多少",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-038",
       "classification": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/3.webp",
       "sourceIndex": 3,
@@ -477,7 +780,436 @@
       "exclusionReason": "disclaimer"
     },
     {
-      "id": "source-excluded-016",
+      "id": "source-excluded-039",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0004"
+      ],
+      "text": "保存",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-040",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0005"
+      ],
+      "text": "×",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-041",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0006"
+      ],
+      "text": "保存",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-042",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0007"
+      ],
+      "text": "外观设置",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-043",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0008"
+      ],
+      "text": "导魧样式",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-044",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0009"
+      ],
+      "text": "图像质量",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-045",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0010"
+      ],
+      "text": "插件管理",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-046",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0011"
+      ],
+      "text": "AI生成标识",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-047",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0012"
+      ],
+      "text": "功能介绍",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-048",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0015"
+      ],
+      "text": "纽节",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-049",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0013"
+      ],
+      "text": "影援",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-050",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0018"
+      ],
+      "text": "抽节",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-051",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0016"
+      ],
+      "text": "影場",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-052",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0017"
+      ],
+      "text": "色彩",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-053",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0014"
+      ],
+      "text": "色殼",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-054",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0019"
+      ],
+      "text": "50",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-055",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0024"
+      ],
+      "text": "亮糜",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-056",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0027"
+      ],
+      "text": "爵渍超清",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-057",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0032"
+      ],
+      "text": "爽度",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-058",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0030"
+      ],
+      "text": "螺光",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-059",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0022"
+      ],
+      "text": "齧㨴美化",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-060",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0020"
+      ],
+      "text": "圖贗妞瀆",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-061",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0025"
+      ],
+      "text": "滤镇水印标记创作",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-062",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0031"
+      ],
+      "text": "水印",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-063",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0033"
+      ],
+      "text": "际记",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-064",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0029"
+      ],
+      "text": "耗切",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-065",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0028"
+      ],
+      "text": "调节",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-066",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0026"
+      ],
+      "text": "人付",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-067",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0021"
+      ],
+      "text": "调节",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-068",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0034"
+      ],
+      "text": "邻作人併",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-069",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0023"
+      ],
+      "text": "秘灱",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-070",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0035"
+      ],
+      "text": "增加涂鸦笔、马赛克笔、形状功能使用引导",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-071",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0036"
+      ],
+      "text": "*「相册编辑」需升级至2.0.0.1及以上版本",
+      "targetIds": [],
+      "exclusionReason": "disclaimer"
+    },
+    {
+      "id": "source-excluded-072",
       "classification": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
       "sourceIndex": 4,
@@ -490,7 +1222,7 @@
       "exclusionReason": "disclaimer"
     },
     {
-      "id": "source-excluded-017",
+      "id": "source-excluded-073",
       "classification": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/5.webp",
       "sourceIndex": 5,
@@ -503,7 +1235,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-018",
+      "id": "source-excluded-074",
       "classification": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/5.webp",
       "sourceIndex": 5,
@@ -516,7 +1248,7 @@
       "exclusionReason": "disclaimer"
     },
     {
-      "id": "source-excluded-019",
+      "id": "source-excluded-075",
       "classification": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/6.webp",
       "sourceIndex": 6,
@@ -529,7 +1261,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-020",
+      "id": "source-excluded-076",
       "classification": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/6.webp",
       "sourceIndex": 6,
@@ -542,7 +1274,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-021",
+      "id": "source-excluded-077",
       "classification": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/6.webp",
       "sourceIndex": 6,
@@ -555,7 +1287,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-022",
+      "id": "source-excluded-078",
       "classification": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/6.webp",
       "sourceIndex": 6,
@@ -568,7 +1300,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-023",
+      "id": "source-excluded-079",
       "classification": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/6.webp",
       "sourceIndex": 6,
@@ -581,7 +1313,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-024",
+      "id": "source-excluded-080",
       "classification": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/6.webp",
       "sourceIndex": 6,
@@ -594,7 +1326,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-025",
+      "id": "source-excluded-081",
       "classification": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/6.webp",
       "sourceIndex": 6,
@@ -607,7 +1339,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-026",
+      "id": "source-excluded-082",
       "classification": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/6.webp",
       "sourceIndex": 6,
@@ -631,22 +1363,15 @@
       "blockIds": [
         "ocr-0001",
         "ocr-0002",
-        "ocr-0003",
-        "ocr-0004",
-        "ocr-0005",
-        "ocr-0006",
-        "ocr-0007",
-        "ocr-0008",
-        "ocr-0009",
-        "ocr-0010"
+        "ocr-0003"
       ],
       "region": {
-        "x": 32,
+        "x": 35,
         "y": 109,
-        "width": 1009,
-        "height": 2192
+        "width": 833,
+        "height": 333
       },
-      "note": "互联：可穿戴互联更畅快标题与说明"
+      "note": "小米 AI 眼镜：跨设备相机标题与说明"
     },
     {
       "id": "highlight-01-demo",
@@ -657,87 +1382,139 @@
       "sourceHash": "c40c375a3076d253f2568837c98d7dbafd816808031ccdd90dfd536677f093f0",
       "blockIds": [],
       "region": {
-        "x": 38,
-        "y": 115,
-        "width": 1004,
-        "height": 2266
+        "x": 86,
+        "y": 465,
+        "width": 907,
+        "height": 512
       },
-      "note": "互联：可穿戴互联更畅快人工确认演示区域"
+      "note": "小米 AI 眼镜：跨设备相机人工确认演示区域"
     },
     {
       "id": "highlight-02-body",
       "kind": "image-region",
       "role": "body-text",
-      "source": "assets/images/HyperOS_8月更新一览_(2025)/2.webp",
-      "sourceIndex": 2,
-      "sourceHash": "3c380138184ea01edce8ba2f55f55aa83a2c4fffe11300c3faa9c8e76a2a04e0",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "c40c375a3076d253f2568837c98d7dbafd816808031ccdd90dfd536677f093f0",
       "blockIds": [
-        "ocr-0001",
-        "ocr-0002",
-        "ocr-0003",
-        "ocr-0004",
-        "ocr-0005",
-        "ocr-0006",
-        "ocr-0007",
-        "ocr-0008",
-        "ocr-0009",
-        "ocr-0010",
-        "ocr-0012",
-        "ocr-0011"
+        "ocr-0006"
       ],
       "region": {
-        "x": 32,
-        "y": 111,
-        "width": 994,
-        "height": 1213
+        "x": 630,
+        "y": 902,
+        "width": 144,
+        "height": 27
       },
-      "note": "互联：跨生态互联更自如标题与说明"
+      "note": "Xiaomi Watch S4：遥控拍照预览标题与说明"
     },
     {
       "id": "highlight-02-demo",
       "kind": "image-region",
       "role": "demo-region",
-      "source": "assets/images/HyperOS_8月更新一览_(2025)/2.webp",
-      "sourceIndex": 2,
-      "sourceHash": "3c380138184ea01edce8ba2f55f55aa83a2c4fffe11300c3faa9c8e76a2a04e0",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "c40c375a3076d253f2568837c98d7dbafd816808031ccdd90dfd536677f093f0",
       "blockIds": [],
       "region": {
-        "x": 38,
-        "y": 114,
-        "width": 1004,
-        "height": 1291
+        "x": 130,
+        "y": 1192,
+        "width": 820,
+        "height": 417
       },
-      "note": "互联：跨生态互联更自如人工确认演示区域"
+      "note": "Xiaomi Watch S4：遥控拍照预览人工确认演示区域"
     },
     {
       "id": "highlight-03-body",
       "kind": "image-region",
       "role": "body-text",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "c40c375a3076d253f2568837c98d7dbafd816808031ccdd90dfd536677f093f0",
+      "blockIds": [
+        "ocr-0008"
+      ],
+      "region": {
+        "x": 35,
+        "y": 1349,
+        "width": 473,
+        "height": 62
+      },
+      "note": "Xiaomi 开放式耳机：空间音频与手势设置标题与说明"
+    },
+    {
+      "id": "highlight-03-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "c40c375a3076d253f2568837c98d7dbafd816808031ccdd90dfd536677f093f0",
+      "blockIds": [],
+      "region": {
+        "x": 130,
+        "y": 1823,
+        "width": 820,
+        "height": 393
+      },
+      "note": "Xiaomi 开放式耳机：空间音频与手势设置人工确认演示区域"
+    },
+    {
+      "id": "highlight-04-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "3c380138184ea01edce8ba2f55f55aa83a2c4fffe11300c3faa9c8e76a2a04e0",
+      "blockIds": [
+        "ocr-0001",
+        "ocr-0002",
+        "ocr-0003"
+      ],
+      "region": {
+        "x": 34,
+        "y": 111,
+        "width": 943,
+        "height": 262
+      },
+      "note": "互联：跨生态互联更自如标题与说明"
+    },
+    {
+      "id": "highlight-04-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "3c380138184ea01edce8ba2f55f55aa83a2c4fffe11300c3faa9c8e76a2a04e0",
+      "blockIds": [],
+      "region": {
+        "x": 86,
+        "y": 549,
+        "width": 907,
+        "height": 626
+      },
+      "note": "互联：跨生态互联更自如人工确认演示区域"
+    },
+    {
+      "id": "highlight-05-body",
+      "kind": "image-region",
+      "role": "body-text",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/3.webp",
       "sourceIndex": 3,
       "sourceHash": "5b45fd282c4479d357ed3038e2a91557fb576dfd5a3f0780cde855009dd52c53",
       "blockIds": [
         "ocr-0001",
         "ocr-0002",
-        "ocr-0003",
-        "ocr-0004",
-        "ocr-0009",
-        "ocr-0005",
-        "ocr-0006",
-        "ocr-0007",
-        "ocr-0008",
-        "ocr-0010"
+        "ocr-0003"
       ],
       "region": {
         "x": 34,
         "y": 110,
         "width": 995,
-        "height": 896
+        "height": 338
       },
       "note": "超级小爱：超级小爱记忆标题与说明"
     },
     {
-      "id": "highlight-03-demo",
+      "id": "highlight-05-demo",
       "kind": "image-region",
       "role": "demo-region",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/3.webp",
@@ -745,15 +1522,15 @@
       "sourceHash": "5b45fd282c4479d357ed3038e2a91557fb576dfd5a3f0780cde855009dd52c53",
       "blockIds": [],
       "region": {
-        "x": 38,
-        "y": 114,
-        "width": 1004,
-        "height": 1150
+        "x": 194,
+        "y": 508,
+        "width": 691,
+        "height": 559
       },
       "note": "超级小爱：超级小爱记忆人工确认演示区域"
     },
     {
-      "id": "highlight-04-body",
+      "id": "highlight-06-body",
       "kind": "image-region",
       "role": "body-text",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
@@ -762,51 +1539,18 @@
       "blockIds": [
         "ocr-0001",
         "ocr-0002",
-        "ocr-0003",
-        "ocr-0004",
-        "ocr-0005",
-        "ocr-0006",
-        "ocr-0007",
-        "ocr-0008",
-        "ocr-0009",
-        "ocr-0010",
-        "ocr-0011",
-        "ocr-0012",
-        "ocr-0015",
-        "ocr-0013",
-        "ocr-0018",
-        "ocr-0016",
-        "ocr-0017",
-        "ocr-0014",
-        "ocr-0019",
-        "ocr-0024",
-        "ocr-0027",
-        "ocr-0032",
-        "ocr-0030",
-        "ocr-0022",
-        "ocr-0020",
-        "ocr-0025",
-        "ocr-0031",
-        "ocr-0033",
-        "ocr-0029",
-        "ocr-0028",
-        "ocr-0026",
-        "ocr-0021",
-        "ocr-0034",
-        "ocr-0023",
-        "ocr-0035",
-        "ocr-0036"
+        "ocr-0003"
       ],
       "region": {
-        "x": 32,
+        "x": 34,
         "y": 109,
-        "width": 843,
-        "height": 1311
+        "width": 794,
+        "height": 333
       },
       "note": "相册：相册编辑界面优化标题与说明"
     },
     {
-      "id": "highlight-04-demo",
+      "id": "highlight-06-demo",
       "kind": "image-region",
       "role": "demo-region",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
@@ -814,10 +1558,10 @@
       "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
       "blockIds": [],
       "region": {
-        "x": 38,
-        "y": 113,
-        "width": 1004,
-        "height": 1432
+        "x": 86,
+        "y": 604,
+        "width": 907,
+        "height": 572
       },
       "note": "相册：相册编辑界面优化人工确认演示区域"
     },
@@ -914,7 +1658,7 @@
       "note": "逐项更新清单"
     },
     {
-      "id": "source-excluded-010-evidence",
+      "id": "source-excluded-012-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/0.webp",
@@ -932,7 +1676,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-011-evidence",
+      "id": "source-excluded-013-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/0.webp",
@@ -950,7 +1694,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-012-evidence",
+      "id": "source-excluded-014-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/0.webp",
@@ -968,7 +1712,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-013-evidence",
+      "id": "source-excluded-015-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/0.webp",
@@ -986,7 +1730,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-014-evidence",
+      "id": "source-excluded-016-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/0.webp",
@@ -1004,7 +1748,385 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-015-evidence",
+      "id": "source-excluded-017-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "c40c375a3076d253f2568837c98d7dbafd816808031ccdd90dfd536677f093f0",
+      "blockIds": [
+        "ocr-0004"
+      ],
+      "region": {
+        "x": 35,
+        "y": 427,
+        "width": 992,
+        "height": 94
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-018-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "c40c375a3076d253f2568837c98d7dbafd816808031ccdd90dfd536677f093f0",
+      "blockIds": [
+        "ocr-0005"
+      ],
+      "region": {
+        "x": 623,
+        "y": 774,
+        "width": 113,
+        "height": 60
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-019-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "c40c375a3076d253f2568837c98d7dbafd816808031ccdd90dfd536677f093f0",
+      "blockIds": [
+        "ocr-0007"
+      ],
+      "region": {
+        "x": 32,
+        "y": 1272,
+        "width": 1009,
+        "height": 85
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-020-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "c40c375a3076d253f2568837c98d7dbafd816808031ccdd90dfd536677f093f0",
+      "blockIds": [
+        "ocr-0009"
+      ],
+      "region": {
+        "x": 32,
+        "y": 2163,
+        "width": 989,
+        "height": 88
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-021-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "c40c375a3076d253f2568837c98d7dbafd816808031ccdd90dfd536677f093f0",
+      "blockIds": [
+        "ocr-0010"
+      ],
+      "region": {
+        "x": 35,
+        "y": 2224,
+        "width": 833,
+        "height": 91
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-022-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "3c380138184ea01edce8ba2f55f55aa83a2c4fffe11300c3faa9c8e76a2a04e0",
+      "blockIds": [
+        "ocr-0004"
+      ],
+      "region": {
+        "x": 36,
+        "y": 477,
+        "width": 990,
+        "height": 76
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-023-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "3c380138184ea01edce8ba2f55f55aa83a2c4fffe11300c3faa9c8e76a2a04e0",
+      "blockIds": [
+        "ocr-0005"
+      ],
+      "region": {
+        "x": 36,
+        "y": 559,
+        "width": 388,
+        "height": 64
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-024-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "3c380138184ea01edce8ba2f55f55aa83a2c4fffe11300c3faa9c8e76a2a04e0",
+      "blockIds": [
+        "ocr-0006"
+      ],
+      "region": {
+        "x": 434,
+        "y": 819,
+        "width": 47,
+        "height": 31
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-025-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "3c380138184ea01edce8ba2f55f55aa83a2c4fffe11300c3faa9c8e76a2a04e0",
+      "blockIds": [
+        "ocr-0007"
+      ],
+      "region": {
+        "x": 434,
+        "y": 898,
+        "width": 47,
+        "height": 31
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-026-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "3c380138184ea01edce8ba2f55f55aa83a2c4fffe11300c3faa9c8e76a2a04e0",
+      "blockIds": [
+        "ocr-0008"
+      ],
+      "region": {
+        "x": 792,
+        "y": 909,
+        "width": 92,
+        "height": 33
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-027-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "3c380138184ea01edce8ba2f55f55aa83a2c4fffe11300c3faa9c8e76a2a04e0",
+      "blockIds": [
+        "ocr-0009"
+      ],
+      "region": {
+        "x": 445,
+        "y": 1023,
+        "width": 43,
+        "height": 37
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-028-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "3c380138184ea01edce8ba2f55f55aa83a2c4fffe11300c3faa9c8e76a2a04e0",
+      "blockIds": [
+        "ocr-0010"
+      ],
+      "region": {
+        "x": 32,
+        "y": 1229,
+        "width": 793,
+        "height": 58
+      },
+      "note": "不进入表格：disclaimer"
+    },
+    {
+      "id": "source-excluded-029-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "3c380138184ea01edce8ba2f55f55aa83a2c4fffe11300c3faa9c8e76a2a04e0",
+      "blockIds": [
+        "ocr-0012"
+      ],
+      "region": {
+        "x": 150,
+        "y": 1274,
+        "width": 646,
+        "height": 58
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-030-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "3c380138184ea01edce8ba2f55f55aa83a2c4fffe11300c3faa9c8e76a2a04e0",
+      "blockIds": [
+        "ocr-0011"
+      ],
+      "region": {
+        "x": 32,
+        "y": 1274,
+        "width": 137,
+        "height": 54
+      },
+      "note": "不进入表格：disclaimer"
+    },
+    {
+      "id": "source-excluded-031-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "5b45fd282c4479d357ed3038e2a91557fb576dfd5a3f0780cde855009dd52c53",
+      "blockIds": [
+        "ocr-0004"
+      ],
+      "region": {
+        "x": 38,
+        "y": 468,
+        "width": 343,
+        "height": 72
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-032-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "5b45fd282c4479d357ed3038e2a91557fb576dfd5a3f0780cde855009dd52c53",
+      "blockIds": [
+        "ocr-0009"
+      ],
+      "region": {
+        "x": 631,
+        "y": 620,
+        "width": 138,
+        "height": 44
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-033-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "5b45fd282c4479d357ed3038e2a91557fb576dfd5a3f0780cde855009dd52c53",
+      "blockIds": [
+        "ocr-0005"
+      ],
+      "region": {
+        "x": 315,
+        "y": 623,
+        "width": 62,
+        "height": 39
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-034-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "5b45fd282c4479d357ed3038e2a91557fb576dfd5a3f0780cde855009dd52c53",
+      "blockIds": [
+        "ocr-0006"
+      ],
+      "region": {
+        "x": 323,
+        "y": 681,
+        "width": 230,
+        "height": 41
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-035-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "5b45fd282c4479d357ed3038e2a91557fb576dfd5a3f0780cde855009dd52c53",
+      "blockIds": [
+        "ocr-0007"
+      ],
+      "region": {
+        "x": 341,
+        "y": 737,
+        "width": 220,
+        "height": 41
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-036-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "5b45fd282c4479d357ed3038e2a91557fb576dfd5a3f0780cde855009dd52c53",
+      "blockIds": [
+        "ocr-0008"
+      ],
+      "region": {
+        "x": 343,
+        "y": 766,
+        "width": 166,
+        "height": 39
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-037-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "5b45fd282c4479d357ed3038e2a91557fb576dfd5a3f0780cde855009dd52c53",
+      "blockIds": [
+        "ocr-0010"
+      ],
+      "region": {
+        "x": 149,
+        "y": 943,
+        "width": 374,
+        "height": 70
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-038-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/3.webp",
@@ -1022,7 +2144,601 @@
       "note": "不进入表格：disclaimer"
     },
     {
-      "id": "source-excluded-016-evidence",
+      "id": "source-excluded-039-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0004"
+      ],
+      "region": {
+        "x": 403,
+        "y": 552,
+        "width": 51,
+        "height": 36
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-040-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0005"
+      ],
+      "region": {
+        "x": 601,
+        "y": 552,
+        "width": 44,
+        "height": 43
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-041-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0006"
+      ],
+      "region": {
+        "x": 783,
+        "y": 554,
+        "width": 49,
+        "height": 36
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-042-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0007"
+      ],
+      "region": {
+        "x": 324,
+        "y": 598,
+        "width": 72,
+        "height": 40
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-043-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0008"
+      ],
+      "region": {
+        "x": 324,
+        "y": 630,
+        "width": 74,
+        "height": 40
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-044-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0009"
+      ],
+      "region": {
+        "x": 326,
+        "y": 662,
+        "width": 69,
+        "height": 39
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-045-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0010"
+      ],
+      "region": {
+        "x": 324,
+        "y": 692,
+        "width": 72,
+        "height": 40
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-046-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0011"
+      ],
+      "region": {
+        "x": 324,
+        "y": 725,
+        "width": 83,
+        "height": 39
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-047-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0012"
+      ],
+      "region": {
+        "x": 324,
+        "y": 756,
+        "width": 72,
+        "height": 39
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-048-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0015"
+      ],
+      "region": {
+        "x": 299,
+        "y": 958,
+        "width": 44,
+        "height": 36
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-049-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0013"
+      ],
+      "region": {
+        "x": 225,
+        "y": 958,
+        "width": 47,
+        "height": 36
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-050-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0018"
+      ],
+      "region": {
+        "x": 677,
+        "y": 958,
+        "width": 47,
+        "height": 34
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-051-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0016"
+      ],
+      "region": {
+        "x": 605,
+        "y": 958,
+        "width": 44,
+        "height": 34
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-052-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0017"
+      ],
+      "region": {
+        "x": 641,
+        "y": 958,
+        "width": 44,
+        "height": 34
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-053-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0014"
+      ],
+      "region": {
+        "x": 261,
+        "y": 958,
+        "width": 47,
+        "height": 36
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-054-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0019"
+      ],
+      "region": {
+        "x": 371,
+        "y": 990,
+        "width": 44,
+        "height": 41
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-055-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0024"
+      ],
+      "region": {
+        "x": 401,
+        "y": 1010,
+        "width": 47,
+        "height": 39
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-056-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0027"
+      ],
+      "region": {
+        "x": 601,
+        "y": 1010,
+        "width": 62,
+        "height": 36
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-057-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0032"
+      ],
+      "region": {
+        "x": 779,
+        "y": 1010,
+        "width": 49,
+        "height": 36
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-058-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0030"
+      ],
+      "region": {
+        "x": 722,
+        "y": 1010,
+        "width": 47,
+        "height": 36
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-059-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0022"
+      ],
+      "region": {
+        "x": 279,
+        "y": 1012,
+        "width": 62,
+        "height": 34
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-060-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0020"
+      ],
+      "region": {
+        "x": 223,
+        "y": 1012,
+        "width": 62,
+        "height": 36
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-061-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0025"
+      ],
+      "region": {
+        "x": 306,
+        "y": 1046,
+        "width": 157,
+        "height": 39
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-062-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0031"
+      ],
+      "region": {
+        "x": 722,
+        "y": 1046,
+        "width": 49,
+        "height": 36
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-063-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0033"
+      ],
+      "region": {
+        "x": 758,
+        "y": 1046,
+        "width": 58,
+        "height": 36
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-064-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0029"
+      ],
+      "region": {
+        "x": 648,
+        "y": 1046,
+        "width": 47,
+        "height": 36
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-065-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0028"
+      ],
+      "region": {
+        "x": 610,
+        "y": 1046,
+        "width": 49,
+        "height": 36
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-066-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0026"
+      ],
+      "region": {
+        "x": 452,
+        "y": 1046,
+        "width": 44,
+        "height": 39
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-067-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0021"
+      ],
+      "region": {
+        "x": 232,
+        "y": 1046,
+        "width": 47,
+        "height": 39
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-068-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0034"
+      ],
+      "region": {
+        "x": 794,
+        "y": 1046,
+        "width": 80,
+        "height": 39
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-069-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0023"
+      ],
+      "region": {
+        "x": 270,
+        "y": 1048,
+        "width": 58,
+        "height": 36
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-070-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0035"
+      ],
+      "region": {
+        "x": 36,
+        "y": 1210,
+        "width": 791,
+        "height": 72
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-071-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "fe6a9aed7d5545a392dbf882e34a390f08ff73b46e1de355a57cb3e876036dac",
+      "blockIds": [
+        "ocr-0036"
+      ],
+      "region": {
+        "x": 32,
+        "y": 1368,
+        "width": 557,
+        "height": 62
+      },
+      "note": "不进入表格：disclaimer"
+    },
+    {
+      "id": "source-excluded-072-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/4.webp",
@@ -1040,7 +2756,7 @@
       "note": "不进入表格：disclaimer"
     },
     {
-      "id": "source-excluded-017-evidence",
+      "id": "source-excluded-073-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/5.webp",
@@ -1058,7 +2774,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-018-evidence",
+      "id": "source-excluded-074-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/5.webp",
@@ -1076,7 +2792,7 @@
       "note": "不进入表格：disclaimer"
     },
     {
-      "id": "source-excluded-019-evidence",
+      "id": "source-excluded-075-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/6.webp",
@@ -1094,7 +2810,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-020-evidence",
+      "id": "source-excluded-076-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/6.webp",
@@ -1112,7 +2828,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-021-evidence",
+      "id": "source-excluded-077-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/6.webp",
@@ -1130,7 +2846,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-022-evidence",
+      "id": "source-excluded-078-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/6.webp",
@@ -1148,7 +2864,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-023-evidence",
+      "id": "source-excluded-079-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/6.webp",
@@ -1166,7 +2882,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-024-evidence",
+      "id": "source-excluded-080-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/6.webp",
@@ -1184,7 +2900,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-025-evidence",
+      "id": "source-excluded-081-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/6.webp",
@@ -1202,7 +2918,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-026-evidence",
+      "id": "source-excluded-082-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_8月更新一览_(2025)/6.webp",
@@ -1229,14 +2945,14 @@
       "media": "verified",
       "page": "verified"
     },
-    "expectedHighlightCount": 4,
-    "sourceItemCount": 26,
-    "includedItemCount": 9,
-    "excludedItemCount": 17,
-    "highlightCount": 4,
+    "expectedHighlightCount": 6,
+    "sourceItemCount": 82,
+    "includedItemCount": 11,
+    "excludedItemCount": 71,
+    "highlightCount": 6,
     "updateCount": 5,
-    "mediaCount": 4,
-    "mappedItemCount": 26,
+    "mediaCount": 6,
+    "mappedItemCount": 82,
     "coverageRate": 1
   }
 }

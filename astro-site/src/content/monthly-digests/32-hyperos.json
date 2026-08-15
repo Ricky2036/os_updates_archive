@@ -8,10 +8,10 @@
   "highlights": [
     {
       "id": "highlight-01",
-      "module": "安全",
+      "module": "相册",
       "moduleSource": "explicit-heading",
-      "title": "家人守护",
-      "description": "珍藏来时路，青春不落幕，解决消失的问题，家人守护更安心。",
+      "title": "珍藏来时路，青春不落幕",
+      "description": "新增毕业季限时水印，定格毕业瞬间，留存专属回忆。",
       "mediaStatus": "available",
       "evidenceIds": [
         "highlight-01-body",
@@ -28,10 +28,10 @@
           "thumbnail": "assets/digests-v2/32/highlight-01-480.webp",
           "avifSrc": "assets/digests-v2/32/highlight-01-960.avif",
           "avifThumbnail": "assets/digests-v2/32/highlight-01-480.avif",
-          "alt": "家人守护功能演示",
+          "alt": "珍藏来时路，青春不落幕功能演示",
           "evidenceId": "highlight-01-demo",
           "width": 480,
-          "height": 2171
+          "height": 531
         }
       ]
     }
@@ -39,7 +39,7 @@
   "updates": [
     {
       "id": "update-01",
-      "module": "系统",
+      "module": "相册",
       "moduleSource": "explicit-heading",
       "type": "新增",
       "typeSource": "explicit",
@@ -54,7 +54,7 @@
     },
     {
       "id": "update-02",
-      "module": "系统",
+      "module": "笔记",
       "moduleSource": "explicit-heading",
       "type": "优化",
       "typeSource": "explicit",
@@ -69,7 +69,7 @@
     },
     {
       "id": "update-03",
-      "module": "系统",
+      "module": "笔记",
       "moduleSource": "explicit-heading",
       "type": "修复",
       "typeSource": "explicit",
@@ -84,7 +84,7 @@
     },
     {
       "id": "update-04",
-      "module": "系统",
+      "module": "笔记",
       "moduleSource": "explicit-heading",
       "type": "修复",
       "typeSource": "explicit",
@@ -99,7 +99,7 @@
     },
     {
       "id": "update-05",
-      "module": "系统",
+      "module": "笔记",
       "moduleSource": "explicit-heading",
       "type": "修复",
       "typeSource": "explicit",
@@ -114,7 +114,7 @@
     },
     {
       "id": "update-06",
-      "module": "系统",
+      "module": "录音机",
       "moduleSource": "explicit-heading",
       "type": "修复",
       "typeSource": "explicit",
@@ -129,7 +129,7 @@
     },
     {
       "id": "update-07",
-      "module": "系统",
+      "module": "录音机",
       "moduleSource": "explicit-heading",
       "type": "修复",
       "typeSource": "explicit",
@@ -144,7 +144,7 @@
     },
     {
       "id": "update-08",
-      "module": "系统",
+      "module": "录音机",
       "moduleSource": "explicit-heading",
       "type": "修复",
       "typeSource": "explicit",
@@ -159,12 +159,12 @@
     },
     {
       "id": "update-09",
-      "module": "系统",
+      "module": "录音机",
       "moduleSource": "explicit-heading",
       "type": "修复",
       "typeSource": "explicit",
-      "sourceText": "部分场景下点击通知栏通知后，通知无法正常",
-      "description": "部分场景下点击通知栏通知后，通知无法正常",
+      "sourceText": "部分场景下点击通知栏通知后，通知无法正常消失的问题",
+      "description": "部分场景下点击通知栏通知后，通知无法正常消失的问题",
       "evidenceIds": [
         "update-09-source"
       ],
@@ -174,7 +174,7 @@
     },
     {
       "id": "update-10",
-      "module": "系统",
+      "module": "家人守护",
       "moduleSource": "explicit-heading",
       "type": "优化",
       "typeSource": "explicit",
@@ -189,7 +189,7 @@
     },
     {
       "id": "update-11",
-      "module": "系统",
+      "module": "家人守护",
       "moduleSource": "explicit-heading",
       "type": "修复",
       "typeSource": "explicit",
@@ -204,7 +204,7 @@
     },
     {
       "id": "update-12",
-      "module": "系统",
+      "module": "家人守护",
       "moduleSource": "explicit-heading",
       "type": "修复",
       "typeSource": "explicit",
@@ -219,7 +219,7 @@
     },
     {
       "id": "update-13",
-      "module": "系统",
+      "module": "时钟",
       "moduleSource": "explicit-heading",
       "type": "修复",
       "typeSource": "explicit",
@@ -234,7 +234,7 @@
     },
     {
       "id": "update-14",
-      "module": "系统",
+      "module": "时钟",
       "moduleSource": "explicit-heading",
       "type": "修复",
       "typeSource": "explicit",
@@ -249,7 +249,7 @@
     },
     {
       "id": "update-15",
-      "module": "系统",
+      "module": "时钟",
       "moduleSource": "explicit-heading",
       "type": "修复",
       "typeSource": "explicit",
@@ -264,7 +264,7 @@
     },
     {
       "id": "update-16",
-      "module": "系统",
+      "module": "更多体验优化",
       "moduleSource": "explicit-heading",
       "type": "优化",
       "typeSource": "explicit",
@@ -279,7 +279,7 @@
     },
     {
       "id": "update-17",
-      "module": "系统",
+      "module": "小米超级岛",
       "moduleSource": "explicit-heading",
       "type": "优化",
       "typeSource": "explicit",
@@ -294,12 +294,12 @@
     },
     {
       "id": "update-18",
-      "module": "系统",
+      "module": "小米超级岛",
       "moduleSource": "explicit-heading",
       "type": "修复",
       "typeSource": "explicit",
-      "sourceText": "部分场景下熄屏刷卡成功但“小米超级岛”不显",
-      "description": "部分场景下熄屏刷卡成功但“小米超级岛”不显",
+      "sourceText": "部分场景下熄屏刷卡成功但“小米超级岛”不显示的问题",
+      "description": "部分场景下熄屏刷卡成功但“小米超级岛”不显示的问题",
       "evidenceIds": [
         "update-18-source"
       ],
@@ -309,7 +309,7 @@
     },
     {
       "id": "update-19",
-      "module": "系统",
+      "module": "小米超级岛",
       "moduleSource": "explicit-heading",
       "type": "修复",
       "typeSource": "explicit",
@@ -324,12 +324,12 @@
     },
     {
       "id": "update-20",
-      "module": "系统",
+      "module": "小米超级岛",
       "moduleSource": "explicit-heading",
       "type": "修复",
       "typeSource": "explicit",
-      "sourceText": "部分场景下在截屏编辑页点击“分享”按钮后无",
-      "description": "部分场景下在截屏编辑页点击“分享”按钮后无",
+      "sourceText": "部分场景下在截屏编辑页点击“分享”按钮后无响应的问题",
+      "description": "部分场景下在截屏编辑页点击“分享”按钮后无响应的问题",
       "evidenceIds": [
         "update-20-source"
       ],
@@ -339,7 +339,7 @@
     },
     {
       "id": "update-21",
-      "module": "系统",
+      "module": "小米超级岛",
       "moduleSource": "explicit-heading",
       "type": "修复",
       "typeSource": "explicit",
@@ -354,7 +354,7 @@
     },
     {
       "id": "update-22",
-      "module": "系统",
+      "module": "小米超级岛",
       "moduleSource": "explicit-heading",
       "type": "修复",
       "typeSource": "explicit",
@@ -369,7 +369,7 @@
     },
     {
       "id": "update-23",
-      "module": "系统",
+      "module": "小米超级岛",
       "moduleSource": "explicit-heading",
       "type": "修复",
       "typeSource": "explicit",
@@ -384,7 +384,7 @@
     },
     {
       "id": "update-24",
-      "module": "系统",
+      "module": "小米超级岛",
       "moduleSource": "explicit-heading",
       "type": "修复",
       "typeSource": "explicit",
@@ -399,7 +399,7 @@
     },
     {
       "id": "update-25",
-      "module": "系统",
+      "module": "小米超级岛",
       "moduleSource": "explicit-heading",
       "type": "修复",
       "typeSource": "explicit",
@@ -421,33 +421,12 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
-        "ocr-0005",
         "ocr-0006",
         "ocr-0007",
         "ocr-0008",
-        "ocr-0009",
-        "ocr-0010",
-        "ocr-0011",
-        "ocr-0012",
-        "ocr-0013",
-        "ocr-0014",
-        "ocr-0015",
-        "ocr-0016",
-        "ocr-0017",
-        "ocr-0018",
-        "ocr-0019",
-        "ocr-0020",
-        "ocr-0021",
-        "ocr-0022",
-        "ocr-0023",
-        "ocr-0024",
-        "ocr-0025",
-        "ocr-0026",
-        "ocr-0027",
-        "ocr-0028",
-        "ocr-0029"
+        "ocr-0009"
       ],
-      "text": "家人守护 珍藏来时路，青春不落幕，解决消失的问题，家人守护更安心。",
+      "text": "珍藏来时路，青春不落幕 新增毕业季限时水印，定格毕业瞬间，留存专属回忆。",
       "targetIds": [
         "highlight-01"
       ]
@@ -474,8 +453,11 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
-        "ocr-0011",
-        "ocr-0012"
+        "ocr-0012",
+        "ocr-0013",
+        "ocr-0014",
+        "ocr-0015",
+        "ocr-0016"
       ],
       "text": "多个场景下的动画流畅度",
       "correctedText": "多个场景下的动画流畅度",
@@ -522,8 +504,9 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
-        "ocr-0014",
-        "ocr-0015"
+        "ocr-0012",
+        "ocr-0013",
+        "ocr-0014"
       ],
       "text": "部分场景下语音转文字失败的问题",
       "correctedText": "部分场景下语音转文字失败的问题",
@@ -554,8 +537,8 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
-        "ocr-0019",
-        "ocr-0020"
+        "ocr-0018",
+        "ocr-0019"
       ],
       "text": "部分场景下应用异常闪退、无响应的问题",
       "correctedText": "部分场景下应用异常闪退、无响应的问题",
@@ -586,11 +569,13 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
-        "ocr-0021",
-        "ocr-0022"
+        "ocr-0018",
+        "ocr-0019",
+        "ocr-0020",
+        "ocr-0021"
       ],
-      "text": "部分场景下点击通知栏通知后，通知无法正常",
-      "correctedText": "部分场景下点击通知栏通知后，通知无法正常",
+      "text": "部分场景下点击通知栏通知后，通知无法正常消失的问题",
+      "correctedText": "部分场景下点击通知栏通知后，通知无法正常消失的问题",
       "targetIds": [
         "update-09"
       ]
@@ -602,8 +587,11 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
-        "ocr-0025",
-        "ocr-0026"
+        "ocr-0028",
+        "ocr-0029",
+        "ocr-0030",
+        "ocr-0031",
+        "ocr-0032"
       ],
       "text": "页面加载速度提升，浏览更顺畅",
       "correctedText": "页面加载速度提升，浏览更顺畅",
@@ -618,8 +606,9 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
-        "ocr-0026",
-        "ocr-0027"
+        "ocr-0024",
+        "ocr-0025",
+        "ocr-0026"
       ],
       "text": "部分场景下无法定位家人设备的问题",
       "correctedText": "部分场景下无法定位家人设备的问题",
@@ -634,8 +623,11 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
-        "ocr-0027",
-        "ocr-0028"
+        "ocr-0028",
+        "ocr-0029",
+        "ocr-0030",
+        "ocr-0031",
+        "ocr-0032"
       ],
       "text": "文字调至最大时，部分页面显示不全的问题",
       "correctedText": "文字调至最大时，部分页面显示不全的问题",
@@ -650,8 +642,8 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
-        "ocr-0030",
-        "ocr-0031"
+        "ocr-0032",
+        "ocr-0033"
       ],
       "text": "部分场景下背景显示异常的问题",
       "correctedText": "部分场景下背景显示异常的问题",
@@ -714,8 +706,8 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
-        "ocr-0037",
-        "ocr-0038"
+        "ocr-0036",
+        "ocr-0037"
       ],
       "text": "通话记录页面的流畅度，滑动更顺畅",
       "correctedText": "通话记录页面的流畅度，滑动更顺畅",
@@ -733,8 +725,8 @@
         "ocr-0038",
         "ocr-0039"
       ],
-      "text": "部分场景下熄屏刷卡成功但“小米超级岛”不显",
-      "correctedText": "部分场景下熄屏刷卡成功但“小米超级岛”不显",
+      "text": "部分场景下熄屏刷卡成功但“小米超级岛”不显示的问题",
+      "correctedText": "部分场景下熄屏刷卡成功但“小米超级岛”不显示的问题",
       "targetIds": [
         "update-18"
       ]
@@ -746,6 +738,7 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
+        "ocr-0038",
         "ocr-0039",
         "ocr-0040"
       ],
@@ -762,11 +755,13 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
-        "ocr-0041",
-        "ocr-0042"
+        "ocr-0038",
+        "ocr-0039",
+        "ocr-0040",
+        "ocr-0041"
       ],
-      "text": "部分场景下在截屏编辑页点击“分享”按钮后无",
-      "correctedText": "部分场景下在截屏编辑页点击“分享”按钮后无",
+      "text": "部分场景下在截屏编辑页点击“分享”按钮后无响应的问题",
+      "correctedText": "部分场景下在截屏编辑页点击“分享”按钮后无响应的问题",
       "targetIds": [
         "update-20"
       ]
@@ -778,11 +773,11 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
+        "ocr-0038",
         "ocr-0039",
         "ocr-0040",
         "ocr-0041",
-        "ocr-0042",
-        "ocr-0043"
+        "ocr-0042"
       ],
       "text": "部分场景下“智能助理”绑定状态显示异常的问题",
       "correctedText": "部分场景下“智能助理”绑定状态显示异常的问题",
@@ -797,8 +792,11 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
-        "ocr-0044",
-        "ocr-0045"
+        "ocr-0038",
+        "ocr-0039",
+        "ocr-0040",
+        "ocr-0041",
+        "ocr-0042"
       ],
       "text": "部分场景下收到短信但不推送通知的问题",
       "correctedText": "部分场景下收到短信但不推送通知的问题",
@@ -813,8 +811,11 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
-        "ocr-0045",
-        "ocr-0046"
+        "ocr-0038",
+        "ocr-0039",
+        "ocr-0040",
+        "ocr-0041",
+        "ocr-0042"
       ],
       "text": "部分场景下媒体查看器异常闪退的问题",
       "correctedText": "部分场景下媒体查看器异常闪退的问题",
@@ -829,11 +830,9 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
+        "ocr-0038",
         "ocr-0039",
-        "ocr-0040",
-        "ocr-0041",
-        "ocr-0042",
-        "ocr-0043"
+        "ocr-0040"
       ],
       "text": "部分场景下天气小部件显示异常的问题",
       "correctedText": "部分场景下天气小部件显示异常的问题",
@@ -848,7 +847,11 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
-        "ocr-0047"
+        "ocr-0038",
+        "ocr-0039",
+        "ocr-0040",
+        "ocr-0041",
+        "ocr-0042"
       ],
       "text": "部分场景下文件管理页面卡顿的问题",
       "correctedText": "部分场景下文件管理页面卡顿的问题",
@@ -915,14 +918,170 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
+        "ocr-0005"
+      ],
+      "text": "升级公告",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-032",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
+      "blockIds": [
+        "ocr-0010"
+      ],
+      "text": "笔记",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-033",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
+      "blockIds": [
+        "ocr-0011"
+      ],
+      "text": "•优化 多个场景下的动画流畅度",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-034",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
+      "blockIds": [
+        "ocr-0017"
+      ],
+      "text": "录音机",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-035",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
+      "blockIds": [
+        "ocr-0022"
+      ],
+      "text": "消失的问题",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-036",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
+      "blockIds": [
+        "ocr-0023"
+      ],
+      "text": "*「录音机」需升级至7.8.9.3及以上版本",
+      "targetIds": [],
+      "exclusionReason": "disclaimer"
+    },
+    {
+      "id": "source-excluded-037",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
+      "blockIds": [
+        "ocr-0027"
+      ],
+      "text": "•修复 文字调至最大时，部分页面显示不全的问题",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-038",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
+      "blockIds": [
         "ocr-0034"
       ],
       "text": "更多体验优化",
       "targetIds": [],
-      "exclusionReason": "demo-text"
+      "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-032",
+      "id": "source-excluded-039",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
+      "blockIds": [
+        "ocr-0043"
+      ],
+      "text": "• 修复 部分场景下\"智能助理\"绑定状态显示异常的问题",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-040",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
+      "blockIds": [
+        "ocr-0044"
+      ],
+      "text": "• 修复 部分场景下收到短信但不推送通知的问题",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-041",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
+      "blockIds": [
+        "ocr-0045"
+      ],
+      "text": "• 修复 部分场景下媒体查看器异常闪退的问题",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-042",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
+      "blockIds": [
+        "ocr-0046"
+      ],
+      "text": "• 修复 部分场景下天气小部件显示异常的问题",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-043",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
+      "blockIds": [
+        "ocr-0047"
+      ],
+      "text": "• 修复 部分场景下文件管理页面卡顿的问题",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-044",
       "classification": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -935,7 +1094,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-033",
+      "id": "source-excluded-045",
       "classification": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -948,7 +1107,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-034",
+      "id": "source-excluded-046",
       "classification": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -961,7 +1120,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-035",
+      "id": "source-excluded-047",
       "classification": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -974,7 +1133,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-036",
+      "id": "source-excluded-048",
       "classification": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -987,7 +1146,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-037",
+      "id": "source-excluded-049",
       "classification": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -1000,7 +1159,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-038",
+      "id": "source-excluded-050",
       "classification": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -1022,39 +1181,18 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
-        "ocr-0005",
         "ocr-0006",
         "ocr-0007",
         "ocr-0008",
-        "ocr-0009",
-        "ocr-0010",
-        "ocr-0011",
-        "ocr-0012",
-        "ocr-0013",
-        "ocr-0014",
-        "ocr-0015",
-        "ocr-0016",
-        "ocr-0017",
-        "ocr-0018",
-        "ocr-0019",
-        "ocr-0020",
-        "ocr-0021",
-        "ocr-0022",
-        "ocr-0023",
-        "ocr-0024",
-        "ocr-0025",
-        "ocr-0026",
-        "ocr-0027",
-        "ocr-0028",
-        "ocr-0029"
+        "ocr-0009"
       ],
       "region": {
         "x": 27,
-        "y": 679,
-        "width": 985,
-        "height": 3782
+        "y": 1012,
+        "width": 953,
+        "height": 1044
       },
-      "note": "安全：家人守护标题与说明"
+      "note": "相册：珍藏来时路，青春不落幕标题与说明"
     },
     {
       "id": "highlight-01-demo",
@@ -1066,11 +1204,11 @@
       "blockIds": [],
       "region": {
         "x": 38,
-        "y": 692,
+        "y": 1027,
         "width": 1004,
-        "height": 4540
+        "height": 1111
       },
-      "note": "安全：家人守护人工确认演示区域"
+      "note": "相册：珍藏来时路，青春不落幕人工确认演示区域"
     },
     {
       "id": "update-01-source",
@@ -1098,14 +1236,17 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
-        "ocr-0011",
-        "ocr-0012"
+        "ocr-0012",
+        "ocr-0013",
+        "ocr-0014",
+        "ocr-0015",
+        "ocr-0016"
       ],
       "region": {
         "x": 36,
-        "y": 2278,
-        "width": 899,
-        "height": 260
+        "y": 2377,
+        "width": 940,
+        "height": 489
       },
       "note": "逐项更新清单"
     },
@@ -1155,14 +1296,15 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
-        "ocr-0014",
-        "ocr-0015"
+        "ocr-0012",
+        "ocr-0013",
+        "ocr-0014"
       ],
       "region": {
-        "x": 41,
-        "y": 2575,
-        "width": 773,
-        "height": 242
+        "x": 36,
+        "y": 2377,
+        "width": 940,
+        "height": 359
       },
       "note": "逐项更新清单"
     },
@@ -1193,14 +1335,14 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
-        "ocr-0019",
-        "ocr-0020"
+        "ocr-0018",
+        "ocr-0019"
       ],
       "region": {
         "x": 41,
-        "y": 3162,
+        "y": 3062,
         "width": 895,
-        "height": 260
+        "height": 269
       },
       "note": "逐项更新清单"
     },
@@ -1231,14 +1373,16 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
-        "ocr-0021",
-        "ocr-0022"
+        "ocr-0018",
+        "ocr-0019",
+        "ocr-0020",
+        "ocr-0021"
       ],
       "region": {
         "x": 41,
-        "y": 3355,
+        "y": 3062,
         "width": 971,
-        "height": 223
+        "height": 462
       },
       "note": "逐项更新清单"
     },
@@ -1250,14 +1394,17 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
-        "ocr-0025",
-        "ocr-0026"
+        "ocr-0028",
+        "ocr-0029",
+        "ocr-0030",
+        "ocr-0031",
+        "ocr-0032"
       ],
       "region": {
-        "x": 41,
-        "y": 3860,
-        "width": 818,
-        "height": 255
+        "x": 36,
+        "y": 4144,
+        "width": 971,
+        "height": 705
       },
       "note": "逐项更新清单"
     },
@@ -1269,14 +1416,15 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
-        "ocr-0026",
-        "ocr-0027"
+        "ocr-0024",
+        "ocr-0025",
+        "ocr-0026"
       ],
       "region": {
-        "x": 41,
-        "y": 3950,
-        "width": 935,
-        "height": 273
+        "x": 32,
+        "y": 3676,
+        "width": 827,
+        "height": 439
       },
       "note": "逐项更新清单"
     },
@@ -1288,14 +1436,17 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
-        "ocr-0027",
-        "ocr-0028"
+        "ocr-0028",
+        "ocr-0029",
+        "ocr-0030",
+        "ocr-0031",
+        "ocr-0032"
       ],
       "region": {
-        "x": 41,
-        "y": 4054,
-        "width": 935,
-        "height": 246
+        "x": 36,
+        "y": 4144,
+        "width": 971,
+        "height": 705
       },
       "note": "逐项更新清单"
     },
@@ -1307,14 +1458,14 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
-        "ocr-0030",
-        "ocr-0031"
+        "ocr-0032",
+        "ocr-0033"
       ],
       "region": {
-        "x": 36,
-        "y": 4491,
-        "width": 971,
-        "height": 268
+        "x": 41,
+        "y": 4685,
+        "width": 773,
+        "height": 246
       },
       "note": "逐项更新清单"
     },
@@ -1383,14 +1534,14 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
-        "ocr-0037",
-        "ocr-0038"
+        "ocr-0036",
+        "ocr-0037"
       ],
       "region": {
         "x": 36,
-        "y": 5290,
-        "width": 967,
-        "height": 255
+        "y": 5186,
+        "width": 818,
+        "height": 268
       },
       "note": "逐项更新清单"
     },
@@ -1421,14 +1572,15 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
+        "ocr-0038",
         "ocr-0039",
         "ocr-0040"
       ],
       "region": {
         "x": 36,
-        "y": 5447,
+        "y": 5375,
         "width": 980,
-        "height": 269
+        "height": 341
       },
       "note": "逐项更新清单"
     },
@@ -1440,14 +1592,16 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
-        "ocr-0041",
-        "ocr-0042"
+        "ocr-0038",
+        "ocr-0039",
+        "ocr-0040",
+        "ocr-0041"
       ],
       "region": {
-        "x": 41,
-        "y": 5637,
-        "width": 967,
-        "height": 232
+        "x": 36,
+        "y": 5375,
+        "width": 980,
+        "height": 431
       },
       "note": "逐项更新清单"
     },
@@ -1459,17 +1613,17 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
+        "ocr-0038",
         "ocr-0039",
         "ocr-0040",
         "ocr-0041",
-        "ocr-0042",
-        "ocr-0043"
+        "ocr-0042"
       ],
       "region": {
         "x": 36,
-        "y": 5447,
-        "width": 985,
-        "height": 521
+        "y": 5375,
+        "width": 980,
+        "height": 493
       },
       "note": "逐项更新清单"
     },
@@ -1481,14 +1635,17 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
-        "ocr-0044",
-        "ocr-0045"
+        "ocr-0038",
+        "ocr-0039",
+        "ocr-0040",
+        "ocr-0041",
+        "ocr-0042"
       ],
       "region": {
         "x": 36,
-        "y": 5902,
-        "width": 899,
-        "height": 260
+        "y": 5375,
+        "width": 980,
+        "height": 493
       },
       "note": "逐项更新清单"
     },
@@ -1500,14 +1657,17 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
-        "ocr-0045",
-        "ocr-0046"
+        "ocr-0038",
+        "ocr-0039",
+        "ocr-0040",
+        "ocr-0041",
+        "ocr-0042"
       ],
       "region": {
         "x": 36,
-        "y": 5992,
-        "width": 863,
-        "height": 269
+        "y": 5375,
+        "width": 980,
+        "height": 493
       },
       "note": "逐项更新清单"
     },
@@ -1519,17 +1679,15 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
+        "ocr-0038",
         "ocr-0039",
-        "ocr-0040",
-        "ocr-0041",
-        "ocr-0042",
-        "ocr-0043"
+        "ocr-0040"
       ],
       "region": {
         "x": 36,
-        "y": 5447,
-        "width": 985,
-        "height": 521
+        "y": 5375,
+        "width": 980,
+        "height": 341
       },
       "note": "逐项更新清单"
     },
@@ -1541,13 +1699,17 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
-        "ocr-0047"
+        "ocr-0038",
+        "ocr-0039",
+        "ocr-0040",
+        "ocr-0041",
+        "ocr-0042"
       ],
       "region": {
         "x": 36,
-        "y": 6195,
-        "width": 818,
-        "height": 161
+        "y": 5375,
+        "width": 980,
+        "height": 493
       },
       "note": "逐项更新清单"
     },
@@ -1631,6 +1793,132 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
+        "ocr-0005"
+      ],
+      "region": {
+        "x": 36,
+        "y": 636,
+        "width": 396,
+        "height": 211
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-032-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
+      "blockIds": [
+        "ocr-0010"
+      ],
+      "region": {
+        "x": 32,
+        "y": 2097,
+        "width": 175,
+        "height": 191
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-033-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
+      "blockIds": [
+        "ocr-0011"
+      ],
+      "region": {
+        "x": 41,
+        "y": 2278,
+        "width": 611,
+        "height": 164
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-034-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
+      "blockIds": [
+        "ocr-0017"
+      ],
+      "region": {
+        "x": 32,
+        "y": 2882,
+        "width": 242,
+        "height": 191
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-035-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
+      "blockIds": [
+        "ocr-0022"
+      ],
+      "region": {
+        "x": 86,
+        "y": 3418,
+        "width": 229,
+        "height": 161
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-036-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
+      "blockIds": [
+        "ocr-0023"
+      ],
+      "region": {
+        "x": 45,
+        "y": 3513,
+        "width": 539,
+        "height": 151
+      },
+      "note": "不进入表格：disclaimer"
+    },
+    {
+      "id": "source-excluded-037-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
+      "blockIds": [
+        "ocr-0027"
+      ],
+      "region": {
+        "x": 41,
+        "y": 4054,
+        "width": 935,
+        "height": 169
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-038-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
+      "blockIds": [
         "ocr-0034"
       ],
       "region": {
@@ -1639,10 +1927,100 @@
         "width": 454,
         "height": 192
       },
-      "note": "不进入表格：demo-text"
+      "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-032-evidence",
+      "id": "source-excluded-039-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
+      "blockIds": [
+        "ocr-0043"
+      ],
+      "region": {
+        "x": 36,
+        "y": 5803,
+        "width": 985,
+        "height": 165
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-040-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
+      "blockIds": [
+        "ocr-0044"
+      ],
+      "region": {
+        "x": 36,
+        "y": 5902,
+        "width": 899,
+        "height": 161
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-041-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
+      "blockIds": [
+        "ocr-0045"
+      ],
+      "region": {
+        "x": 36,
+        "y": 5992,
+        "width": 863,
+        "height": 170
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-042-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
+      "blockIds": [
+        "ocr-0046"
+      ],
+      "region": {
+        "x": 41,
+        "y": 6101,
+        "width": 854,
+        "height": 160
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-043-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
+      "blockIds": [
+        "ocr-0047"
+      ],
+      "region": {
+        "x": 36,
+        "y": 6195,
+        "width": 818,
+        "height": 161
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-044-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
@@ -1660,7 +2038,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-033-evidence",
+      "id": "source-excluded-045-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
@@ -1678,7 +2056,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-034-evidence",
+      "id": "source-excluded-046-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
@@ -1696,7 +2074,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-035-evidence",
+      "id": "source-excluded-047-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
@@ -1714,7 +2092,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-036-evidence",
+      "id": "source-excluded-048-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
@@ -1732,7 +2110,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-037-evidence",
+      "id": "source-excluded-049-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
@@ -1750,7 +2128,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-038-evidence",
+      "id": "source-excluded-050-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
@@ -1778,13 +2156,13 @@
       "page": "verified"
     },
     "expectedHighlightCount": 1,
-    "sourceItemCount": 38,
+    "sourceItemCount": 50,
     "includedItemCount": 26,
-    "excludedItemCount": 12,
+    "excludedItemCount": 24,
     "highlightCount": 1,
     "updateCount": 25,
     "mediaCount": 1,
-    "mappedItemCount": 38,
+    "mappedItemCount": 50,
     "coverageRate": 1
   }
 }

@@ -12,6 +12,7 @@ import {
   highlightReviewVersion, reviewedHighlightExpectations, reviewedHighlightsFor,
 } from './monthly-highlight-reviews.mjs';
 import updateReviewManifest from './monthly-update-reviews.json' with { type: 'json' };
+import { reviewedUpdatesFor } from './monthly-update-overrides.mjs';
 
 export const contentReviewVersion = 4;
 export const mediaReviewVersion = 4;
@@ -63,8 +64,11 @@ async function loadRaw() {
 
 async function imageInfo(source, rawData) {
   const metadata = await sharp(source, { pages: 1 }).metadata();
-  const width = rawData?.imageWidth || metadata.width || 0;
-  const height = rawData?.imageHeight || metadata.height || 0;
+  // The archive image can be repaired after the OCR cache was generated.
+  // Physical metadata is authoritative; cached dimensions may describe the
+  // previous broken placeholder and would produce tiny, misplaced crops.
+  const width = metadata.width || rawData?.imageWidth || 0;
+  const height = metadata.height || rawData?.imageHeight || 0;
   return { width, height, metadata };
 }
 
@@ -128,7 +132,9 @@ async function sourceRecords(article) {
     const needsRecovery = !record.blocks.length || (record.height > 4000 && record.blocks.length < 45);
     if (!needsRecovery) continue;
     let recovered = [];
-try { recovered = await tesseractBlocks(record.source, record.width, record.height); } catch (e) { console.error('Tesseract failed'); }
+    try { recovered = await tesseractBlocks(record.source, record.width, record.height); } catch (error) {
+      console.error(`Tesseract failed for ${record.relative}: ${error.message}`);
+    }
     const existingTypes = record.blocks.filter((block) => TYPE_RE.test(block.text)).length;
     const recoveredTypes = recovered.filter((block) => TYPE_RE.test(block.text)).length;
     if (!record.blocks.length || recovered.length > record.blocks.length * 1.25 || recoveredTypes > existingTypes) record.blocks = recovered;
@@ -306,7 +312,7 @@ export async function buildMonthlyDigestV2(article, reviewStatus = 'draft') {
   // V4 deliberately reverses the old precedence: OCR locates evidence only;
   // it can never become production copy. Every published row comes from the
   // per-article, manually reviewed inventory below.
-  const reviewedUpdates = updateReviewManifest.articles[String(article.order)];
+  const reviewedUpdates = reviewedUpdatesFor(article.order, updateReviewManifest);
   if (!reviewedUpdates) throw new Error(`Missing V4 reviewed update inventory for ${article.order}`);
   const updateCandidates = reviewedUpdates.map((item) => {
     const match = findBestBlocks(records, { title: item.module, description: item.sourceText ?? item.description });

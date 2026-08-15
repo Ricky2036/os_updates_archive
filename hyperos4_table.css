@@ -1,0 +1,269 @@
+:root {
+    /* Colors */
+    --brand-color: #ff6900;
+    --brand-pale: rgba(255, 105, 0, 0.05);
+    
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8f9fa;
+    --text-primary: #1a1a1a;
+    --text-secondary: #4a4a4a;
+    --border-color: #e5e7eb;
+    
+    --shadow-soft: 0 1px 3px rgba(26,26,46,.06), 0 4px 16px rgba(26,26,46,.07);
+    --shadow-hover: 0 4px 6px rgba(26,26,46,.08), 0 10px 24px rgba(26,26,46,.12);
+    
+    /* Typography */
+    --font-base: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-primary: #0f172a;
+        --bg-secondary: #1e293b;
+        --text-primary: #f1f5f9;
+        --text-secondary: #94a3b8;
+        --border-color: #334155;
+        --brand-pale: rgba(255, 105, 0, 0.15);
+        --shadow-soft: 0 1px 3px rgba(0,0,0,.4), 0 4px 16px rgba(0,0,0,.5);
+        --shadow-hover: 0 4px 6px rgba(0,0,0,.5), 0 10px 24px rgba(0,0,0,.6);
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-base);
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.7;
+    text-autospace: ideograph-alpha;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+}
+
+/* Layout */
+.content-wrapper {
+    flex: 1;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 20px;
+    transition: 0.25s ease;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.subtitle {
+    color: var(--text-secondary);
+    font-size: 1.2rem;
+}
+
+/* Table */
+.table-responsive {
+    overflow-x: auto;
+    border-radius: 12px;
+    box-shadow: var(--shadow-soft);
+    background: var(--bg-primary);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px; /* Unified with main site digest table body */
+    min-width: 800px;
+    table-layout: fixed; /* Added fixed layout for width control */
+}
+
+/* Column Width Adjustments */
+table th:nth-child(1),
+table td:nth-child(1) {
+    width: 12%; 
+}
+
+table th:nth-child(2),
+table td:nth-child(2) {
+    width: 15%;
+}
+
+/* 更新点列加粗强调 */
+table td:nth-child(2) {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+table th:nth-child(3),
+table td:nth-child(3) {
+    width: 38%; /* Reduced by roughly 20% relative to previous fluid width */
+}
+
+table th:nth-child(4),
+table td:nth-child(4) {
+    width: 35%; 
+}
+
+th, td {
+    padding: 20px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+th {
+    background-color: var(--brand-pale);
+    color: var(--text-primary);
+    font-weight: 600;
+    font-size: 13px; /* Unified with main site digest table header */
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+    color: var(--text-secondary);
+}
+
+td.text-left {
+    text-align: left;
+}
+
+.nowrap-cell {
+    white-space: nowrap;
+}
+
+.mod-cell {
+    font-weight: 600;
+    color: var(--text-primary);
+    background-color: var(--bg-secondary);
+    vertical-align: middle;
+}
+
+.mod-cell-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    white-space: nowrap;
+}
+
+.icon-brand {
+    color: var(--brand-color);
+}
+
+td ul {
+    margin: 0;
+    padding-left: 20px;
+    text-align: left;
+}
+
+td ul li {
+    margin-bottom: 8px;
+}
+
+td img {
+    max-width: 240px; /* Increased by 20% (from 200px) */
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    cursor: zoom-in;
+    transition: 0.25s ease;
+    box-shadow: var(--shadow-soft);
+}
+td img:hover {
+    transform: scale(1.02);
+    box-shadow: var(--shadow-hover);
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+.image-grid img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Removed TOC Styles */
+
+/* Lightbox */
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(15, 23, 42, 0.9);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+}
+.lightbox.active {
+    display: flex;
+    opacity: 1;
+}
+.lightbox-content {
+    position: relative;
+    max-width: 90vw;
+    max-height: 90vh;
+}
+.lightbox-content img {
+    max-width: 100%;
+    max-height: 90vh;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+.lightbox-close {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Back to Top */
+.back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-soft);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.25s ease;
+    z-index: 90;
+}
+.back-to-top.visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+.back-to-top:hover {
+    background: var(--brand-pale);
+    color: var(--brand-color);
+}
+
+/* Mobile */
+@media (max-width: 1024px) {
+    /* Kept intentionally blank for future use if needed, since TOC is removed */
+}

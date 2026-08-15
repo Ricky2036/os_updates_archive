@@ -4,11 +4,3097 @@
   "mediaReviewVersion": 4,
   "articleId": "HyperOS_8月更新一览_(2024)",
   "reviewStatus": "verified",
-  "sourceHash": "b003f83f7bf1ae2326b5dc7d0bbe31aca5ceba77ce97855827e25836ee1020f0",
-  "highlights": [],
-  "updates": [],
-  "sourceItems": [],
-  "evidence": [],
+  "sourceHash": "4bd590e8cde238cadfd2cda545db705d76227675ff896a27a6cc45957abce18b",
+  "highlights": [
+    {
+      "id": "highlight-01",
+      "module": "锁屏",
+      "moduleSource": "explicit-heading",
+      "title": "长按锁屏编辑样式开关",
+      "description": "新增“长按锁屏编辑样式”开关，关闭后，在锁屏状态下长按将不会触发锁屏编辑。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-01-body",
+        "highlight-01-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-01"
+      ],
+      "media": [
+        {
+          "id": "highlight-01-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/43/highlight-01-960.webp",
+          "thumbnail": "assets/digests-v2/43/highlight-01-480.webp",
+          "avifSrc": "assets/digests-v2/43/highlight-01-960.avif",
+          "avifThumbnail": "assets/digests-v2/43/highlight-01-480.avif",
+          "alt": "长按锁屏编辑样式开关功能演示",
+          "evidenceId": "highlight-01-demo",
+          "width": 480,
+          "height": 789
+        }
+      ]
+    },
+    {
+      "id": "highlight-02",
+      "module": "CarWith",
+      "moduleSource": "explicit-heading",
+      "title": "CarWith 体验升级",
+      "description": "视觉体验、个性化定制与导航体验升级，并进一步优化连接体验和稳定性。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-02-body",
+        "highlight-02-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-02"
+      ],
+      "media": [
+        {
+          "id": "highlight-02-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/43/highlight-02-960.webp",
+          "thumbnail": "assets/digests-v2/43/highlight-02-480.webp",
+          "avifSrc": "assets/digests-v2/43/highlight-02-960.avif",
+          "avifThumbnail": "assets/digests-v2/43/highlight-02-480.avif",
+          "alt": "CarWith 体验升级功能演示",
+          "evidenceId": "highlight-02-demo",
+          "width": 480,
+          "height": 295
+        }
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "id": "update-01",
+      "module": "流畅度优化",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "应用启动流程和启动动画策略，提升应用启动速度",
+      "description": "应用启动流程和启动动画策略，提升应用启动速度",
+      "evidenceIds": [
+        "update-01-source"
+      ],
+      "sourceItemIds": [
+        "source-update-01"
+      ]
+    },
+    {
+      "id": "update-02",
+      "module": "CarWith",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "CarWith 视觉体验更新，重绘 6 种横竖尺寸车机样式，包含全新地图卡片、音乐卡片、小爱同学对话样式，提升界面美观度",
+      "description": "CarWith 视觉体验更新，重绘 6 种横竖尺寸车机样式，包含全新地图卡片、音乐卡片、小爱同学对话样式，提升界面美观度",
+      "evidenceIds": [
+        "update-02-source"
+      ],
+      "sourceItemIds": [
+        "source-update-02"
+      ]
+    },
+    {
+      "id": "update-03",
+      "module": "CarWith",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "CarWith 个性化定制，支持设置车机壁纸、更换背景效果、自定义卡片排序、添加小部件等功能",
+      "description": "CarWith 个性化定制，支持设置车机壁纸、更换背景效果、自定义卡片排序、添加小部件等功能",
+      "evidenceIds": [
+        "update-03-source"
+      ],
+      "sourceItemIds": [
+        "source-update-03"
+      ]
+    },
+    {
+      "id": "update-04",
+      "module": "CarWith",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "CarWith 导航体验，支持地图导航全屏显示，新增导航悬浮胶囊",
+      "description": "CarWith 导航体验，支持地图导航全屏显示，新增导航悬浮胶囊",
+      "evidenceIds": [
+        "update-04-source"
+      ],
+      "sourceItemIds": [
+        "source-update-04"
+      ]
+    },
+    {
+      "id": "update-05",
+      "module": "CarWith",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "CarWith 的连接体验和稳定性",
+      "description": "CarWith 的连接体验和稳定性",
+      "evidenceIds": [
+        "update-05-source"
+      ],
+      "sourceItemIds": [
+        "source-update-05"
+      ]
+    },
+    {
+      "id": "update-06",
+      "module": "自由窗口",
+      "moduleSource": "explicit-heading",
+      "type": "修复",
+      "typeSource": "explicit",
+      "sourceText": "横竖屏切换时，小窗视频应用显示异常的问题",
+      "description": "横竖屏切换时，小窗视频应用显示异常的问题",
+      "evidenceIds": [
+        "update-06-source"
+      ],
+      "sourceItemIds": [
+        "source-update-06"
+      ]
+    },
+    {
+      "id": "update-07",
+      "module": "自由窗口",
+      "moduleSource": "explicit-heading",
+      "type": "修复",
+      "typeSource": "explicit",
+      "sourceText": "部分游戏场景下，迷你窗挂起后尺寸异常的问题",
+      "description": "部分游戏场景下，迷你窗挂起后尺寸异常的问题",
+      "evidenceIds": [
+        "update-07-source"
+      ],
+      "sourceItemIds": [
+        "source-update-07"
+      ]
+    },
+    {
+      "id": "update-08",
+      "module": "桌面",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "应用上滑返回桌面时的动画稳定性",
+      "description": "应用上滑返回桌面时的动画稳定性",
+      "evidenceIds": [
+        "update-08-source"
+      ],
+      "sourceItemIds": [
+        "source-update-08"
+      ]
+    },
+    {
+      "id": "update-09",
+      "module": "桌面",
+      "moduleSource": "explicit-heading",
+      "type": "修复",
+      "typeSource": "explicit",
+      "sourceText": "部分场景下，分身空间桌面布局出现空位的问题",
+      "description": "部分场景下，分身空间桌面布局出现空位的问题",
+      "evidenceIds": [
+        "update-09-source"
+      ],
+      "sourceItemIds": [
+        "source-update-09"
+      ]
+    },
+    {
+      "id": "update-10",
+      "module": "万象息屏",
+      "moduleSource": "explicit-heading",
+      "type": "修复",
+      "typeSource": "explicit",
+      "sourceText": "部分情况下偶现闪退的问题",
+      "description": "部分情况下偶现闪退的问题",
+      "evidenceIds": [
+        "update-10-source"
+      ],
+      "sourceItemIds": [
+        "source-update-10"
+      ]
+    },
+    {
+      "id": "update-11",
+      "module": "时钟",
+      "moduleSource": "explicit-heading",
+      "type": "修复",
+      "typeSource": "explicit",
+      "sourceText": "闹钟设置重复周期时，切换深色模式出现勾选异常问题",
+      "description": "闹钟设置重复周期时，切换深色模式出现勾选异常问题",
+      "evidenceIds": [
+        "update-11-source"
+      ],
+      "sourceItemIds": [
+        "source-update-11"
+      ]
+    },
+    {
+      "id": "update-12",
+      "module": "手机管家",
+      "moduleSource": "explicit-heading",
+      "type": "修复",
+      "typeSource": "explicit",
+      "sourceText": "自然灾害预警订阅选项异常消失的问题",
+      "description": "自然灾害预警订阅选项异常消失的问题",
+      "evidenceIds": [
+        "update-12-source"
+      ],
+      "sourceItemIds": [
+        "source-update-12"
+      ]
+    },
+    {
+      "id": "update-13",
+      "module": "状态栏、通知栏",
+      "moduleSource": "explicit-heading",
+      "type": "修复",
+      "typeSource": "explicit",
+      "sourceText": "在不同语言下，部分场景出现的文案及通知显示异常问题",
+      "description": "在不同语言下，部分场景出现的文案及通知显示异常问题",
+      "evidenceIds": [
+        "update-13-source"
+      ],
+      "sourceItemIds": [
+        "source-update-13"
+      ]
+    }
+  ],
+  "sourceItems": [
+    {
+      "id": "source-highlight-01",
+      "classification": "highlight",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0018"
+      ],
+      "text": "长按锁屏编辑样式开关 新增“长按锁屏编辑样式”开关，关闭后，在锁屏状态下长按将不会触发锁屏编辑。",
+      "targetIds": [
+        "highlight-01"
+      ]
+    },
+    {
+      "id": "source-highlight-02",
+      "classification": "highlight",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0034",
+        "tesseract-0035",
+        "tesseract-0037",
+        "tesseract-0036",
+        "tesseract-0038",
+        "tesseract-0039",
+        "tesseract-0041",
+        "tesseract-0040",
+        "tesseract-0042",
+        "tesseract-0044",
+        "tesseract-0043",
+        "tesseract-0045",
+        "tesseract-0046",
+        "tesseract-0047"
+      ],
+      "text": "CarWith 体验升级 视觉体验、个性化定制与导航体验升级，并进一步优化连接体验和稳定性。",
+      "targetIds": [
+        "highlight-02"
+      ]
+    },
+    {
+      "id": "source-update-01",
+      "classification": "update",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0015",
+        "tesseract-0016",
+        "tesseract-0017"
+      ],
+      "text": "应用启动流程和启动动画策略，提升应用启动速度",
+      "correctedText": "应用启动流程和启动动画策略，提升应用启动速度",
+      "targetIds": [
+        "update-01"
+      ]
+    },
+    {
+      "id": "source-update-02",
+      "classification": "update",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0035",
+        "tesseract-0037"
+      ],
+      "text": "CarWith 视觉体验更新，重绘 6 种横竖尺寸车机样式，包含全新地图卡片、音乐卡片、小爱同学对话样式，提升界面美观度",
+      "correctedText": "CarWith 视觉体验更新，重绘 6 种横竖尺寸车机样式，包含全新地图卡片、音乐卡片、小爱同学对话样式，提升界面美观度",
+      "targetIds": [
+        "update-02"
+      ]
+    },
+    {
+      "id": "source-update-03",
+      "classification": "update",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0035",
+        "tesseract-0037",
+        "tesseract-0038",
+        "tesseract-0039",
+        "tesseract-0041"
+      ],
+      "text": "CarWith 个性化定制，支持设置车机壁纸、更换背景效果、自定义卡片排序、添加小部件等功能",
+      "correctedText": "CarWith 个性化定制，支持设置车机壁纸、更换背景效果、自定义卡片排序、添加小部件等功能",
+      "targetIds": [
+        "update-03"
+      ]
+    },
+    {
+      "id": "source-update-04",
+      "classification": "update",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0035",
+        "tesseract-0037",
+        "tesseract-0038",
+        "tesseract-0039",
+        "tesseract-0041"
+      ],
+      "text": "CarWith 导航体验，支持地图导航全屏显示，新增导航悬浮胶囊",
+      "correctedText": "CarWith 导航体验，支持地图导航全屏显示，新增导航悬浮胶囊",
+      "targetIds": [
+        "update-04"
+      ]
+    },
+    {
+      "id": "source-update-05",
+      "classification": "update",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0035",
+        "tesseract-0037",
+        "tesseract-0038",
+        "tesseract-0039",
+        "tesseract-0041"
+      ],
+      "text": "CarWith 的连接体验和稳定性",
+      "correctedText": "CarWith 的连接体验和稳定性",
+      "targetIds": [
+        "update-05"
+      ]
+    },
+    {
+      "id": "source-update-06",
+      "classification": "update",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0056",
+        "tesseract-0057"
+      ],
+      "text": "横竖屏切换时，小窗视频应用显示异常的问题",
+      "correctedText": "横竖屏切换时，小窗视频应用显示异常的问题",
+      "targetIds": [
+        "update-06"
+      ]
+    },
+    {
+      "id": "source-update-07",
+      "classification": "update",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0057",
+        "tesseract-0058"
+      ],
+      "text": "部分游戏场景下，迷你窗挂起后尺寸异常的问题",
+      "correctedText": "部分游戏场景下，迷你窗挂起后尺寸异常的问题",
+      "targetIds": [
+        "update-07"
+      ]
+    },
+    {
+      "id": "source-update-08",
+      "classification": "update",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0059",
+        "tesseract-0060"
+      ],
+      "text": "应用上滑返回桌面时的动画稳定性",
+      "correctedText": "应用上滑返回桌面时的动画稳定性",
+      "targetIds": [
+        "update-08"
+      ]
+    },
+    {
+      "id": "source-update-09",
+      "classification": "update",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0060",
+        "tesseract-0061"
+      ],
+      "text": "部分场景下，分身空间桌面布局出现空位的问题",
+      "correctedText": "部分场景下，分身空间桌面布局出现空位的问题",
+      "targetIds": [
+        "update-09"
+      ]
+    },
+    {
+      "id": "source-update-10",
+      "classification": "update",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0061",
+        "tesseract-0063"
+      ],
+      "text": "部分情况下偶现闪退的问题",
+      "correctedText": "部分情况下偶现闪退的问题",
+      "targetIds": [
+        "update-10"
+      ]
+    },
+    {
+      "id": "source-update-11",
+      "classification": "update",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0066",
+        "tesseract-0067"
+      ],
+      "text": "闹钟设置重复周期时，切换深色模式出现勾选异常问题",
+      "correctedText": "闹钟设置重复周期时，切换深色模式出现勾选异常问题",
+      "targetIds": [
+        "update-11"
+      ]
+    },
+    {
+      "id": "source-update-12",
+      "classification": "update",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0068",
+        "tesseract-0070"
+      ],
+      "text": "自然灾害预警订阅选项异常消失的问题",
+      "correctedText": "自然灾害预警订阅选项异常消失的问题",
+      "targetIds": [
+        "update-12"
+      ]
+    },
+    {
+      "id": "source-update-13",
+      "classification": "update",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0071",
+        "tesseract-0072"
+      ],
+      "text": "在不同语言下，部分场景出现的文案及通知显示异常问题",
+      "correctedText": "在不同语言下，部分场景出现的文案及通知显示异常问题",
+      "targetIds": [
+        "update-13"
+      ]
+    },
+    {
+      "id": "source-excluded-016",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0001"
+      ],
+      "text": "@",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-017",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0002"
+      ],
+      "text": "eee?",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-018",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0009"
+      ],
+      "text": "- Xiaomi HyperOS",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-019",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0003"
+      ],
+      "text": "Ce,",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-020",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0005"
+      ],
+      "text": "。",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-021",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0008"
+      ],
+      "text": "K",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-022",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0004"
+      ],
+      "text": "e",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-023",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0006"
+      ],
+      "text": "se",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-024",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0007"
+      ],
+      "text": "ee",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-025",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0012"
+      ],
+      "text": "IN\\ KG OS",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-026",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0010"
+      ],
+      "text": "sotto 5",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-027",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0011"
+      ],
+      "text": "O",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-028",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0013"
+      ],
+      "text": "INK EOS",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-029",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0014"
+      ],
+      "text": "升级 公告",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-030",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0019"
+      ],
+      "text": "关闭 后 ， 在 锁 屏 状态 下 长 按 将 不 会 触 皮 锁 屏 编 辑",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-031",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0020"
+      ],
+      "text": "AI 7",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-032",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0021"
+      ],
+      "text": "2:36",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-033",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0022"
+      ],
+      "text": "<<",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-034",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0023"
+      ],
+      "text": "锁 屏",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-035",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0024"
+      ],
+      "text": "自动 锁 屏",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-036",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0025"
+      ],
+      "text": "抬 起 亮 屏",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-037",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0026"
+      ],
+      "text": "息 屏",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-038",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0027"
+      ],
+      "text": "的 锁 屏 下 生",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-039",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0028"
+      ],
+      "text": "长 按 锁 屏 编辑 样式",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-040",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0029"
+      ],
+      "text": "长 按 锁 屏 编辑 时 钟 和 壁纸 样式",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-041",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0030"
+      ],
+      "text": "锁 屏 画报",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-042",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0031"
+      ],
+      "text": "精美 壁纸 自动 更 换",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-043",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0032"
+      ],
+      "text": "其 他",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-044",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0033"
+      ],
+      "text": "操作 路 径 设置 - 锁 屏 -长 按 锁 屏 编辑 样式",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-045",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0048"
+      ],
+      "text": "你 关注 的 万 象 出 新 歌 啦",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-046",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0049"
+      ],
+      "text": "他 带 着 一 双",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-047",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0050"
+      ],
+      "text": "走 在 雨 时",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-048",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0051"
+      ],
+      "text": "光 在 十",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-049",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0052"
+      ],
+      "text": "Siam",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-050",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0053"
+      ],
+      "text": "9",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-051",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0054"
+      ],
+      "text": "a",
+      "targetIds": [],
+      "exclusionReason": "demo-text"
+    },
+    {
+      "id": "source-excluded-052",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0055"
+      ],
+      "text": "BABA",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-053",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0062"
+      ],
+      "text": "修复",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-054",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0064"
+      ],
+      "text": "时 钟",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-055",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0065"
+      ],
+      "text": "修复",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-056",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0069"
+      ],
+      "text": "修复",
+      "targetIds": [],
+      "exclusionReason": "duplicate"
+    },
+    {
+      "id": "source-excluded-057",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0073"
+      ],
+      "text": "异常 问题",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-058",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0074"
+      ],
+      "text": "升级 计划",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-059",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0075"
+      ],
+      "text": "本 次 升级 即日 起 开始 陆续 推送 ， 首 批 覆 盖 机 型 :",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-060",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0076"
+      ],
+      "text": "Xiaomi 14",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-061",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0077"
+      ],
+      "text": "Xiaomi 14 Pro",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-062",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0078"
+      ],
+      "text": "Xiaomi 14 Pro 钛 金属 版 (卫星 通讯 )",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-063",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0079"
+      ],
+      "text": "Xiaomi 14 Ultra",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-064",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0080"
+      ],
+      "text": "Redmi K70",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-065",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0081"
+      ],
+      "text": "Redmi K70E",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-066",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0082"
+      ],
+      "text": "Redmi K70 Pro",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-067",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0083"
+      ],
+      "text": "Redmi K60 至 尊 版",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-068",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0084"
+      ],
+      "text": "8 月 内 陆续 覆盖 :",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-069",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0085"
+      ],
+      "text": "Xiaomi 13",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-070",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0086"
+      ],
+      "text": "Xiaomi 13 Pro",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-071",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0087"
+      ],
+      "text": "Xiaomi 13 Ultra",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-072",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0088"
+      ],
+      "text": "Xiaomi MIX Fold 3",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-073",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0089"
+      ],
+      "text": "Redmi Turbo 3",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-074",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0090"
+      ],
+      "text": "9 月 中 上 旬 起 陆续 覆盖 :",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-075",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0091"
+      ],
+      "text": "Xiaomi Civi 4 Pro",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-076",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0092"
+      ],
+      "text": "Redmi K60 Pro",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-077",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0093"
+      ],
+      "text": "Redmi K60",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-078",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0094"
+      ],
+      "text": "Redmi K60E",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-079",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0095"
+      ],
+      "text": "更 多 相关 进展 与 具体 升级 计划 将 在 小 米 社 区 、 小 米 涛 OS 官 方",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-080",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0096"
+      ],
+      "text": "微 博 / 小 红 书 / 微 信 公众 号 更 新 ， 敬 请 期 待 与 体验 。",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-081",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0097"
+      ],
+      "text": "山 型 排序 与 升级 先后 顺序 无 关 。 不 同 机 型 、 版 本 对 上 述 功能 的 支持 情况 及",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-082",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0098"
+      ],
+      "text": "升级 时 间 请 以 实际 为 准 。",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-083",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0099"
+      ],
+      "text": "图 片 仅 做 功能 展示 使",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-084",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0100"
+      ],
+      "text": "不 代表 最 终 交 付 的 UI 形 态 及 功能 标准 ， 请 以 实际",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-085",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0101"
+      ],
+      "text": "Xiaomi MIX Fold 4、Xiaomi MIX Flip、Redmi K70 至 尊 版 、Redmi K70",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-086",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0102"
+      ],
+      "text": "至 尊 冠 军 版 机 型 跟随 新 机 升级 节",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-087",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0103"
+      ],
+      "text": "具体 请 以 该 机 型 升级 通知 为 准 。",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "highlight-01-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0018"
+      ],
+      "region": {
+        "x": 40,
+        "y": 1625,
+        "width": 981,
+        "height": 143
+      },
+      "note": "锁屏：长按锁屏编辑样式开关标题与说明"
+    },
+    {
+      "id": "highlight-01-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [],
+      "region": {
+        "x": 130,
+        "y": 1885,
+        "width": 820,
+        "height": 1348
+      },
+      "note": "锁屏：长按锁屏编辑样式开关人工确认演示区域"
+    },
+    {
+      "id": "highlight-02-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0034",
+        "tesseract-0035",
+        "tesseract-0037",
+        "tesseract-0036",
+        "tesseract-0038",
+        "tesseract-0039",
+        "tesseract-0041",
+        "tesseract-0040",
+        "tesseract-0042",
+        "tesseract-0044",
+        "tesseract-0043",
+        "tesseract-0045",
+        "tesseract-0046",
+        "tesseract-0047"
+      ],
+      "region": {
+        "x": 38,
+        "y": 3616,
+        "width": 1001,
+        "height": 948
+      },
+      "note": "CarWith：CarWith 体验升级标题与说明"
+    },
+    {
+      "id": "highlight-02-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [],
+      "region": {
+        "x": 81,
+        "y": 4643,
+        "width": 918,
+        "height": 565
+      },
+      "note": "CarWith：CarWith 体验升级人工确认演示区域"
+    },
+    {
+      "id": "update-01-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0015",
+        "tesseract-0016",
+        "tesseract-0017"
+      ],
+      "region": {
+        "x": 40,
+        "y": 1004,
+        "width": 993,
+        "height": 488
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-02-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0035",
+        "tesseract-0037"
+      ],
+      "region": {
+        "x": 38,
+        "y": 3756,
+        "width": 1001,
+        "height": 328
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-03-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0035",
+        "tesseract-0037",
+        "tesseract-0038",
+        "tesseract-0039",
+        "tesseract-0041"
+      ],
+      "region": {
+        "x": 38,
+        "y": 3756,
+        "width": 1001,
+        "height": 550
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-04-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0035",
+        "tesseract-0037",
+        "tesseract-0038",
+        "tesseract-0039",
+        "tesseract-0041"
+      ],
+      "region": {
+        "x": 38,
+        "y": 3756,
+        "width": 1001,
+        "height": 550
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-05-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0035",
+        "tesseract-0037",
+        "tesseract-0038",
+        "tesseract-0039",
+        "tesseract-0041"
+      ],
+      "region": {
+        "x": 38,
+        "y": 3756,
+        "width": 1001,
+        "height": 550
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-06-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0056",
+        "tesseract-0057"
+      ],
+      "region": {
+        "x": 60,
+        "y": 5370,
+        "width": 961,
+        "height": 318
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-07-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0057",
+        "tesseract-0058"
+      ],
+      "region": {
+        "x": 39,
+        "y": 5471,
+        "width": 982,
+        "height": 365
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-08-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0059",
+        "tesseract-0060"
+      ],
+      "region": {
+        "x": 60,
+        "y": 5728,
+        "width": 961,
+        "height": 325
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-09-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0060",
+        "tesseract-0061"
+      ],
+      "region": {
+        "x": 38,
+        "y": 5837,
+        "width": 983,
+        "height": 383
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-10-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0061",
+        "tesseract-0063"
+      ],
+      "region": {
+        "x": 38,
+        "y": 5996,
+        "width": 620,
+        "height": 306
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-11-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0066",
+        "tesseract-0067"
+      ],
+      "region": {
+        "x": 155,
+        "y": 6367,
+        "width": 868,
+        "height": 255
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-12-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0068",
+        "tesseract-0070"
+      ],
+      "region": {
+        "x": 39,
+        "y": 6585,
+        "width": 821,
+        "height": 318
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-13-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0071",
+        "tesseract-0072"
+      ],
+      "region": {
+        "x": 38,
+        "y": 6846,
+        "width": 983,
+        "height": 322
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "source-excluded-016-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0001"
+      ],
+      "region": {
+        "x": 898,
+        "y": 0,
+        "width": 134,
+        "height": 249
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-017-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0002"
+      ],
+      "region": {
+        "x": 75,
+        "y": 351,
+        "width": 81,
+        "height": 175
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-018-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0009"
+      ],
+      "region": {
+        "x": 150,
+        "y": 356,
+        "width": 422,
+        "height": 211
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-019-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0003"
+      ],
+      "region": {
+        "x": 121,
+        "y": 364,
+        "width": 51,
+        "height": 172
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-020-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0005"
+      ],
+      "region": {
+        "x": 148,
+        "y": 374,
+        "width": 34,
+        "height": 167
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-021-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0008"
+      ],
+      "region": {
+        "x": 130,
+        "y": 378,
+        "width": 39,
+        "height": 190
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-022-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0004"
+      ],
+      "region": {
+        "x": 142,
+        "y": 389,
+        "width": 36,
+        "height": 169
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-023-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0006"
+      ],
+      "region": {
+        "x": 49,
+        "y": 406,
+        "width": 60,
+        "height": 177
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-024-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0007"
+      ],
+      "region": {
+        "x": 121,
+        "y": 411,
+        "width": 51,
+        "height": 172
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-025-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0012"
+      ],
+      "region": {
+        "x": 181,
+        "y": 416,
+        "width": 188,
+        "height": 183
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-026-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0010"
+      ],
+      "region": {
+        "x": 64,
+        "y": 421,
+        "width": 107,
+        "height": 185
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-027-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0011"
+      ],
+      "region": {
+        "x": 97,
+        "y": 432,
+        "width": 37,
+        "height": 169
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-028-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0013"
+      ],
+      "region": {
+        "x": 46,
+        "y": 524,
+        "width": 583,
+        "height": 254
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-029-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0014"
+      ],
+      "region": {
+        "x": 48,
+        "y": 634,
+        "width": 428,
+        "height": 296
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-030-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0019"
+      ],
+      "region": {
+        "x": 39,
+        "y": 1737,
+        "width": 867,
+        "height": 217
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-031-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0020"
+      ],
+      "region": {
+        "x": 680,
+        "y": 1940,
+        "width": 130,
+        "height": 177
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-032-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0021"
+      ],
+      "region": {
+        "x": 269,
+        "y": 1942,
+        "width": 71,
+        "height": 177
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-033-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0022"
+      ],
+      "region": {
+        "x": 279,
+        "y": 2010,
+        "width": 56,
+        "height": 179
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-034-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0023"
+      ],
+      "region": {
+        "x": 276,
+        "y": 2073,
+        "width": 120,
+        "height": 224
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-035-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0024"
+      ],
+      "region": {
+        "x": 280,
+        "y": 2240,
+        "width": 130,
+        "height": 201
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-036-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0025"
+      ],
+      "region": {
+        "x": 277,
+        "y": 2330,
+        "width": 130,
+        "height": 200
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-037-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0026"
+      ],
+      "region": {
+        "x": 467,
+        "y": 2416,
+        "width": 77,
+        "height": 199
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-038-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0027"
+      ],
+      "region": {
+        "x": 528,
+        "y": 2451,
+        "width": 125,
+        "height": 189
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-039-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0028"
+      ],
+      "region": {
+        "x": 205,
+        "y": 2617,
+        "width": 303,
+        "height": 210
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-040-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0029"
+      ],
+      "region": {
+        "x": 205,
+        "y": 2662,
+        "width": 373,
+        "height": 199
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-041-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0030"
+      ],
+      "region": {
+        "x": 277,
+        "y": 2763,
+        "width": 130,
+        "height": 184
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-042-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0031"
+      ],
+      "region": {
+        "x": 278,
+        "y": 2794,
+        "width": 194,
+        "height": 192
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-043-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0032"
+      ],
+      "region": {
+        "x": 277,
+        "y": 2928,
+        "width": 66,
+        "height": 192
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-044-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0033"
+      ],
+      "region": {
+        "x": 47,
+        "y": 3268,
+        "width": 635,
+        "height": 209
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-045-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0048"
+      ],
+      "region": {
+        "x": 721,
+        "y": 4658,
+        "width": 184,
+        "height": 173
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-046-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0049"
+      ],
+      "region": {
+        "x": 456,
+        "y": 4740,
+        "width": 105,
+        "height": 189
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-047-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0050"
+      ],
+      "region": {
+        "x": 458,
+        "y": 4777,
+        "width": 87,
+        "height": 173
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-048-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0051"
+      ],
+      "region": {
+        "x": 505,
+        "y": 4809,
+        "width": 72,
+        "height": 174
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-049-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0052"
+      ],
+      "region": {
+        "x": 489,
+        "y": 4841,
+        "width": 88,
+        "height": 174
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-050-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0053"
+      ],
+      "region": {
+        "x": 704,
+        "y": 4989,
+        "width": 43,
+        "height": 174
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-051-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0054"
+      ],
+      "region": {
+        "x": 731,
+        "y": 5072,
+        "width": 43,
+        "height": 172
+      },
+      "note": "不进入表格：demo-text"
+    },
+    {
+      "id": "source-excluded-052-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0055"
+      ],
+      "region": {
+        "x": 42,
+        "y": 5269,
+        "width": 199,
+        "height": 202
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-053-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0062"
+      ],
+      "region": {
+        "x": 60,
+        "y": 6110,
+        "width": 81,
+        "height": 186
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-054-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0064"
+      ],
+      "region": {
+        "x": 40,
+        "y": 6262,
+        "width": 114,
+        "height": 223
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-055-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0065"
+      ],
+      "region": {
+        "x": 60,
+        "y": 6375,
+        "width": 81,
+        "height": 186
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-056-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0069"
+      ],
+      "region": {
+        "x": 60,
+        "y": 6695,
+        "width": 81,
+        "height": 186
+      },
+      "note": "不进入表格：duplicate"
+    },
+    {
+      "id": "source-excluded-057-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0073"
+      ],
+      "region": {
+        "x": 154,
+        "y": 7010,
+        "width": 182,
+        "height": 197
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-058-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0074"
+      ],
+      "region": {
+        "x": 41,
+        "y": 7263,
+        "width": 313,
+        "height": 287
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-059-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0075"
+      ],
+      "region": {
+        "x": 38,
+        "y": 7482,
+        "width": 961,
+        "height": 224
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-060-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0076"
+      ],
+      "region": {
+        "x": 37,
+        "y": 7590,
+        "width": 202,
+        "height": 190
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-061-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0077"
+      ],
+      "region": {
+        "x": 37,
+        "y": 7653,
+        "width": 279,
+        "height": 191
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-062-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0078"
+      ],
+      "region": {
+        "x": 37,
+        "y": 7709,
+        "width": 671,
+        "height": 209
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-063-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0079"
+      ],
+      "region": {
+        "x": 37,
+        "y": 7780,
+        "width": 303,
+        "height": 191
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-064-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0080"
+      ],
+      "region": {
+        "x": 39,
+        "y": 7843,
+        "width": 223,
+        "height": 191
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-065-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0081"
+      ],
+      "region": {
+        "x": 39,
+        "y": 7906,
+        "width": 247,
+        "height": 191
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-066-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0082"
+      ],
+      "region": {
+        "x": 39,
+        "y": 7970,
+        "width": 300,
+        "height": 191
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-067-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0083"
+      ],
+      "region": {
+        "x": 39,
+        "y": 8024,
+        "width": 351,
+        "height": 210
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-068-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0084"
+      ],
+      "region": {
+        "x": 38,
+        "y": 8179,
+        "width": 346,
+        "height": 224
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-069-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0085"
+      ],
+      "region": {
+        "x": 37,
+        "y": 8287,
+        "width": 202,
+        "height": 190
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-070-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0086"
+      ],
+      "region": {
+        "x": 37,
+        "y": 8350,
+        "width": 279,
+        "height": 191
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-071-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0087"
+      ],
+      "region": {
+        "x": 37,
+        "y": 8413,
+        "width": 303,
+        "height": 191
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-072-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0088"
+      ],
+      "region": {
+        "x": 37,
+        "y": 8477,
+        "width": 363,
+        "height": 190
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-073-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0089"
+      ],
+      "region": {
+        "x": 39,
+        "y": 8540,
+        "width": 295,
+        "height": 191
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-074-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0090"
+      ],
+      "region": {
+        "x": 38,
+        "y": 8686,
+        "width": 483,
+        "height": 224
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-075-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0091"
+      ],
+      "region": {
+        "x": 37,
+        "y": 8793,
+        "width": 345,
+        "height": 191
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-076-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0092"
+      ],
+      "region": {
+        "x": 39,
+        "y": 8857,
+        "width": 304,
+        "height": 191
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-077-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0093"
+      ],
+      "region": {
+        "x": 39,
+        "y": 8920,
+        "width": 227,
+        "height": 191
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-078-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0094"
+      ],
+      "region": {
+        "x": 39,
+        "y": 8983,
+        "width": 251,
+        "height": 191
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-079-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0095"
+      ],
+      "region": {
+        "x": 38,
+        "y": 9269,
+        "width": 970,
+        "height": 210
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-080-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0096"
+      ],
+      "region": {
+        "x": 37,
+        "y": 9321,
+        "width": 760,
+        "height": 210
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-081-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0097"
+      ],
+      "region": {
+        "x": 77,
+        "y": 9418,
+        "width": 936,
+        "height": 202
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-082-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0098"
+      ],
+      "region": {
+        "x": 70,
+        "y": 9466,
+        "width": 322,
+        "height": 185
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-083-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0099"
+      ],
+      "region": {
+        "x": 74,
+        "y": 9528,
+        "width": 280,
+        "height": 202
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-084-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0100"
+      ],
+      "region": {
+        "x": 387,
+        "y": 9528,
+        "width": 624,
+        "height": 201
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-085-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0101"
+      ],
+      "region": {
+        "x": 69,
+        "y": 9637,
+        "width": 918,
+        "height": 200
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-086-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0102"
+      ],
+      "region": {
+        "x": 70,
+        "y": 9680,
+        "width": 422,
+        "height": 202
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-087-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_8月更新一览_(2024)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "b3725765297a3c925e98b198e28d143619fe23b6d9c1d2aee850b105687eca4d",
+      "blockIds": [
+        "tesseract-0103"
+      ],
+      "region": {
+        "x": 531,
+        "y": 9685,
+        "width": 409,
+        "height": 185
+      },
+      "note": "不进入表格：decoration"
+    }
+  ],
   "audit": {
     "highlightReviewVersion": 4,
     "updateReviewVersion": 4,
@@ -18,14 +3104,14 @@
       "media": "verified",
       "page": "verified"
     },
-    "expectedHighlightCount": 0,
-    "sourceItemCount": 0,
-    "includedItemCount": 0,
-    "excludedItemCount": 0,
-    "highlightCount": 0,
-    "updateCount": 0,
-    "mediaCount": 0,
-    "mappedItemCount": 0,
+    "expectedHighlightCount": 2,
+    "sourceItemCount": 87,
+    "includedItemCount": 15,
+    "excludedItemCount": 72,
+    "highlightCount": 2,
+    "updateCount": 13,
+    "mediaCount": 2,
+    "mappedItemCount": 87,
     "coverageRate": 1
   }
 }

@@ -40,6 +40,7 @@ jobs:
         env:
           PUBLIC_SITE_URL: https://ricky2036.github.io/os_updates_archive
           PUBLIC_BASE_PATH: /os_updates_archive/
+          PUBLIC_OFFICIAL_ARCHIVE_BASE_URL: https://official.osarchive.com/v2026-07-30
         run: npm run build
 
       - name: Configure Pages

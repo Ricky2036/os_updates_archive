@@ -1,0 +1,1665 @@
+{
+  "schemaVersion": 3,
+  "contentReviewVersion": 4,
+  "mediaReviewVersion": 4,
+  "articleId": "HyperOS_4_更新说明_(2026)",
+  "reviewStatus": "verified",
+  "sourceHash": "e1b0ba01a70f89a7ffb2d25ef1554fcfcae9a521b8405199de5f51c08c19e65c",
+  "highlights": [
+    {
+      "id": "highlight-01",
+      "module": "基础体验",
+      "moduleSource": "explicit-heading",
+      "title": "负载精算",
+      "description": "采用 Xiaomi HyperCore 系统内核技术。全面升级负载评估模型，以「指令数」为核心指标，针对 168 个日常高频场景进行逐一分析，精准剔除冗余指令。总指令数下降 14.4%，一方应用场景指令数下降 17.1%，三方应用场景指令数下降 13.3%。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "highlight-01-media-01",
+          "kind": "image",
+          "src": "assets/images/hyperos4_table/img_001.jpg",
+          "thumbnail": "assets/images/hyperos4_table/img_001.jpg",
+          "alt": "负载精算 演示图 1",
+          "evidenceId": "highlight-01-demo",
+          "width": 480,
+          "height": 320
+        }
+      ],
+      "evidenceIds": [
+        "highlight-01-body",
+        "highlight-01-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-01"
+      ]
+    },
+    {
+      "id": "highlight-02",
+      "module": "基础体验",
+      "moduleSource": "explicit-heading",
+      "title": "内存预载",
+      "description": "首次引入「内存预载」技术，针对访存密集型任务优化数据搬运链路。记忆应用每次启动的内存用量，前置完成内存碎片整理，按需即时提供性能供给。连续 8 小时使用后，可用内存提升 27.2%。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "highlight-02-media-01",
+          "kind": "image",
+          "src": "assets/images/hyperos4_table/img_002.png",
+          "thumbnail": "assets/images/hyperos4_table/img_002.png",
+          "alt": "内存预载 演示图 1",
+          "evidenceId": "highlight-02-demo",
+          "width": 480,
+          "height": 320
+        }
+      ],
+      "evidenceIds": [
+        "highlight-02-body",
+        "highlight-02-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-02"
+      ]
+    },
+    {
+      "id": "highlight-03",
+      "module": "基础体验",
+      "moduleSource": "explicit-heading",
+      "title": "自研应用运行环境",
+      "description": "面向一方应用从零构建自研方案，针对前台与后台两种场景提供两条运行路径。状态驱动 UI 运行路径采用 100% 全机器码执行，能力按需启用运行路径完全绕开原生运行环境的固定开销，从根本上规避了原生垃圾回收机制带来的瞬时卡顿。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "highlight-03-media-01",
+          "kind": "image",
+          "src": "assets/images/hyperos4_table/img_003.jpg",
+          "thumbnail": "assets/images/hyperos4_table/img_003.jpg",
+          "alt": "自研应用运行环境 演示图 1",
+          "evidenceId": "highlight-03-demo",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "id": "highlight-03-media-02",
+          "kind": "image",
+          "src": "assets/images/hyperos4_table/img_004.jpg",
+          "thumbnail": "assets/images/hyperos4_table/img_004.jpg",
+          "alt": "自研应用运行环境 演示图 2",
+          "evidenceId": "highlight-03-demo",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "id": "highlight-03-media-03",
+          "kind": "image",
+          "src": "assets/images/hyperos4_table/img_005.jpg",
+          "thumbnail": "assets/images/hyperos4_table/img_005.jpg",
+          "alt": "自研应用运行环境 演示图 3",
+          "evidenceId": "highlight-03-demo",
+          "width": 480,
+          "height": 320
+        }
+      ],
+      "evidenceIds": [
+        "highlight-03-body",
+        "highlight-03-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-03"
+      ]
+    },
+    {
+      "id": "highlight-04",
+      "module": "基础体验",
+      "moduleSource": "explicit-heading",
+      "title": "系统桌面改造",
+      "description": "通过新应用环境对负载极大降低，在使用 9 小时后，连续 30 个应用启动时长大幅下降 17.5%。桌面开关横屏应用、挂起横屏小窗、横竖屏窗口旋转、横竖屏应用切换等场景，动效丝滑流畅。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "highlight-04-media-01",
+          "kind": "animated-image",
+          "src": "assets/images/hyperos4_table/img_006.gif",
+          "thumbnail": "assets/images/hyperos4_table/img_006.gif",
+          "alt": "系统桌面改造 演示图 1",
+          "evidenceId": "highlight-04-demo",
+          "width": 480,
+          "height": 320
+        }
+      ],
+      "evidenceIds": [
+        "highlight-04-body",
+        "highlight-04-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-04"
+      ]
+    },
+    {
+      "id": "highlight-05",
+      "module": "基础体验",
+      "moduleSource": "explicit-heading",
+      "title": "相册改造",
+      "description": "完成彻底重写迁移。实现万张照片扫描时间缩短 90%，CPU资源占用降低 28%，内存占用降低 32%。在浏览缩略图时，即使快速滑动，也能瞬间加载无白块。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "highlight-05-media-01",
+          "kind": "animated-image",
+          "src": "assets/images/hyperos4_table/img_007.gif",
+          "thumbnail": "assets/images/hyperos4_table/img_007.gif",
+          "alt": "相册改造 演示图 1",
+          "evidenceId": "highlight-05-demo",
+          "width": 480,
+          "height": 320
+        }
+      ],
+      "evidenceIds": [
+        "highlight-05-body",
+        "highlight-05-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-05"
+      ]
+    },
+    {
+      "id": "highlight-06",
+      "module": "基础体验",
+      "moduleSource": "explicit-heading",
+      "title": "续航与流畅度",
+      "description": "在三重新技术的加持下，长时间重载使用时，丢帧数大幅下降 28.9%，动态 DOU 续航模型测试结果提升 0.26 小时。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "highlight-06-media-01",
+          "kind": "image",
+          "src": "assets/images/hyperos4_table/img_008.png",
+          "thumbnail": "assets/images/hyperos4_table/img_008.png",
+          "alt": "续航与流畅度 演示图 1",
+          "evidenceId": "highlight-06-demo",
+          "width": 480,
+          "height": 320
+        }
+      ],
+      "evidenceIds": [
+        "highlight-06-body",
+        "highlight-06-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-06"
+      ]
+    },
+    {
+      "id": "highlight-07",
+      "module": "美学与功能体验",
+      "moduleSource": "explicit-heading",
+      "title": "柔光玻璃材质",
+      "description": "全新材质「柔光玻璃」，不仅能感知环境颜色呈现细腻质感，同时能感知内容属性，自适应通透度提供最佳可读性。还可以感知交互行为，用灵动的光效生动响应操作。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "highlight-07-media-01",
+          "kind": "image",
+          "src": "assets/images/hyperos4_table/img_009.png",
+          "thumbnail": "assets/images/hyperos4_table/img_009.png",
+          "alt": "柔光玻璃材质 演示图 1",
+          "evidenceId": "highlight-07-demo",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "id": "highlight-07-media-02",
+          "kind": "image",
+          "src": "assets/images/hyperos4_table/img_010.png",
+          "thumbnail": "assets/images/hyperos4_table/img_010.png",
+          "alt": "柔光玻璃材质 演示图 2",
+          "evidenceId": "highlight-07-demo",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "id": "highlight-07-media-03",
+          "kind": "animated-image",
+          "src": "assets/images/hyperos4_table/img_011.gif",
+          "thumbnail": "assets/images/hyperos4_table/img_011.gif",
+          "alt": "柔光玻璃材质 演示图 3",
+          "evidenceId": "highlight-07-demo",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "id": "highlight-07-media-04",
+          "kind": "animated-image",
+          "src": "assets/images/hyperos4_table/img_012.gif",
+          "thumbnail": "assets/images/hyperos4_table/img_012.gif",
+          "alt": "柔光玻璃材质 演示图 4",
+          "evidenceId": "highlight-07-demo",
+          "width": 480,
+          "height": 320
+        }
+      ],
+      "evidenceIds": [
+        "highlight-07-body",
+        "highlight-07-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-07"
+      ]
+    },
+    {
+      "id": "highlight-08",
+      "module": "美学与功能体验",
+      "moduleSource": "explicit-heading",
+      "title": "新锁屏",
+      "description": "在新材质加持下，支持一站式调节，一口气完成所有的个性化设置。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "highlight-08-media-01",
+          "kind": "animated-image",
+          "src": "assets/images/hyperos4_table/img_013.gif",
+          "thumbnail": "assets/images/hyperos4_table/img_013.gif",
+          "alt": "新锁屏 演示图 1",
+          "evidenceId": "highlight-08-demo",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "id": "highlight-08-media-02",
+          "kind": "image",
+          "src": "assets/images/hyperos4_table/img_014.png",
+          "thumbnail": "assets/images/hyperos4_table/img_014.png",
+          "alt": "新锁屏 演示图 2",
+          "evidenceId": "highlight-08-demo",
+          "width": 480,
+          "height": 320
+        }
+      ],
+      "evidenceIds": [
+        "highlight-08-body",
+        "highlight-08-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-08"
+      ]
+    },
+    {
+      "id": "highlight-09",
+      "module": "美学与功能体验",
+      "moduleSource": "explicit-heading",
+      "title": "新桌面",
+      "description": "新材质带来更丰富桌面元素。支持小部件堆叠（像翻杂志一样切换）；支持文件夹在 1×1 到 4×2 间无缝自由拖拽变形。采用柔性的悬浮框架优化不同比例设备的布局。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "highlight-09-media-01",
+          "kind": "image",
+          "src": "assets/images/hyperos4_table/img_015.png",
+          "thumbnail": "assets/images/hyperos4_table/img_015.png",
+          "alt": "新桌面 演示图 1",
+          "evidenceId": "highlight-09-demo",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "id": "highlight-09-media-02",
+          "kind": "animated-image",
+          "src": "assets/images/hyperos4_table/img_016.gif",
+          "thumbnail": "assets/images/hyperos4_table/img_016.gif",
+          "alt": "新桌面 演示图 2",
+          "evidenceId": "highlight-09-demo",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "id": "highlight-09-media-03",
+          "kind": "image",
+          "src": "assets/images/hyperos4_table/img_017.jpg",
+          "thumbnail": "assets/images/hyperos4_table/img_017.jpg",
+          "alt": "新桌面 演示图 3",
+          "evidenceId": "highlight-09-demo",
+          "width": 480,
+          "height": 320
+        }
+      ],
+      "evidenceIds": [
+        "highlight-09-body",
+        "highlight-09-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-09"
+      ]
+    },
+    {
+      "id": "highlight-10",
+      "module": "美学与功能体验",
+      "moduleSource": "explicit-heading",
+      "title": "AI 语音笔记",
+      "description": "在会议复盘等碎片场景，用自然说话方式捕捉灵感。持续对话将零散表达沉淀为结构化的笔记、待办、纪要和思维导图。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "highlight-10-media-01",
+          "kind": "image",
+          "src": "assets/images/hyperos4_table/img_018.png",
+          "thumbnail": "assets/images/hyperos4_table/img_018.png",
+          "alt": "AI 语音笔记 演示图 1",
+          "evidenceId": "highlight-10-demo",
+          "width": 480,
+          "height": 320
+        }
+      ],
+      "evidenceIds": [
+        "highlight-10-body",
+        "highlight-10-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-10"
+      ]
+    },
+    {
+      "id": "highlight-11",
+      "module": "美学与功能体验",
+      "moduleSource": "explicit-heading",
+      "title": "超级小爱输入法",
+      "description": "深度融合大模型，用语音说出想法，输入法即可理解语义、整理措辞，生成适合当前场景的结构化文字。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "highlight-11-media-01",
+          "kind": "animated-image",
+          "src": "assets/images/hyperos4_table/img_019.gif",
+          "thumbnail": "assets/images/hyperos4_table/img_019.gif",
+          "alt": "超级小爱输入法 演示图 1",
+          "evidenceId": "highlight-11-demo",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "id": "highlight-11-media-02",
+          "kind": "animated-image",
+          "src": "assets/images/hyperos4_table/img_020.gif",
+          "thumbnail": "assets/images/hyperos4_table/img_020.gif",
+          "alt": "超级小爱输入法 演示图 2",
+          "evidenceId": "highlight-11-demo",
+          "width": 480,
+          "height": 320
+        }
+      ],
+      "evidenceIds": [
+        "highlight-11-body",
+        "highlight-11-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-11"
+      ]
+    },
+    {
+      "id": "highlight-12",
+      "module": "美学与功能体验",
+      "moduleSource": "explicit-heading",
+      "title": "更多应用改造",
+      "description": "录音机：识别会议场景提炼要点，自动生成大纲、跳过静音。AI通话：针对外卖快递给出回复建议，支持自动接听。小米双持：不同网下支持来电短信验证码流转。系统安全控件：适配超 100 款三方应用，照片控件支持内容搜索查找。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-12-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-12"
+      ]
+    },
+    {
+      "id": "highlight-13",
+      "module": "美学与功能体验",
+      "moduleSource": "explicit-heading",
+      "title": "融合设备中心",
+      "description": "用全新卡片式设计革新主页。清晰的设备分区，支持将常用设备和场景一键置顶在首页，多家庭用户可快速切换家庭设备列表。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "highlight-13-media-01",
+          "kind": "image",
+          "src": "assets/images/hyperos4_table/img_021.png",
+          "thumbnail": "assets/images/hyperos4_table/img_021.png",
+          "alt": "融合设备中心 演示图 1",
+          "evidenceId": "highlight-13-demo",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "id": "highlight-13-media-02",
+          "kind": "image",
+          "src": "assets/images/hyperos4_table/img_022.png",
+          "thumbnail": "assets/images/hyperos4_table/img_022.png",
+          "alt": "融合设备中心 演示图 2",
+          "evidenceId": "highlight-13-demo",
+          "width": 480,
+          "height": 320
+        }
+      ],
+      "evidenceIds": [
+        "highlight-13-body",
+        "highlight-13-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-13"
+      ]
+    },
+    {
+      "id": "highlight-14",
+      "module": "超级小爱 2.0",
+      "moduleSource": "explicit-heading",
+      "title": "模型升级",
+      "description": "发布 Xiaomi MiMo - V2.5 系列模型，成为面向 Agent 时代的模型基座。在 OpenRouter 榜单上 Token 调用量月榜全球第一，Tool Calls 周榜全球第四。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "highlight-14-media-01",
+          "kind": "image",
+          "src": "assets/images/hyperos4_table/img_023.png",
+          "thumbnail": "assets/images/hyperos4_table/img_023.png",
+          "alt": "模型升级 演示图 1",
+          "evidenceId": "highlight-14-demo",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "id": "highlight-14-media-02",
+          "kind": "image",
+          "src": "assets/images/hyperos4_table/img_024.png",
+          "thumbnail": "assets/images/hyperos4_table/img_024.png",
+          "alt": "模型升级 演示图 2",
+          "evidenceId": "highlight-14-demo",
+          "width": 480,
+          "height": 320
+        }
+      ],
+      "evidenceIds": [
+        "highlight-14-body",
+        "highlight-14-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-14"
+      ]
+    },
+    {
+      "id": "highlight-15",
+      "module": "超级小爱 2.0",
+      "moduleSource": "explicit-heading",
+      "title": "小米超级岛交互",
+      "description": "采用全新悬浮态界面呈现。小爱思考时，可继续操作手机互不影响；任务运行状态在「小米超级岛」实时显示，完成后自动展开结果。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "highlight-15-media-01",
+          "kind": "animated-image",
+          "src": "assets/images/hyperos4_table/img_025.gif",
+          "thumbnail": "assets/images/hyperos4_table/img_025.gif",
+          "alt": "小米超级岛交互 演示图 1",
+          "evidenceId": "highlight-15-demo",
+          "width": 480,
+          "height": 320
+        }
+      ],
+      "evidenceIds": [
+        "highlight-15-body",
+        "highlight-15-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-15"
+      ]
+    },
+    {
+      "id": "highlight-16",
+      "module": "超级小爱 2.0",
+      "moduleSource": "explicit-heading",
+      "title": "灵感球",
+      "description": "指哪看哪，简化过去繁复的交互。支持同时实现「语音输入指令 + 精准屏幕理解」，如精准修图细节、准确预定日历或发起导航等。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "highlight-16-media-01",
+          "kind": "animated-image",
+          "src": "assets/images/hyperos4_table/img_026.gif",
+          "thumbnail": "assets/images/hyperos4_table/img_026.gif",
+          "alt": "灵感球 演示图 1",
+          "evidenceId": "highlight-16-demo",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "id": "highlight-16-media-02",
+          "kind": "animated-image",
+          "src": "assets/images/hyperos4_table/img_027.gif",
+          "thumbnail": "assets/images/hyperos4_table/img_027.gif",
+          "alt": "灵感球 演示图 2",
+          "evidenceId": "highlight-16-demo",
+          "width": 480,
+          "height": 320
+        }
+      ],
+      "evidenceIds": [
+        "highlight-16-body",
+        "highlight-16-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-16"
+      ]
+    },
+    {
+      "id": "highlight-17",
+      "module": "超级小爱 2.0",
+      "moduleSource": "explicit-heading",
+      "title": "三指上滑记忆",
+      "description": "在原有基础上，新增识别上岛功能。支持将取餐码、取件码、排队码、寄存码、退货码轻松上滑，直接在小米超级岛 / 锁屏界面查看。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "highlight-17-media-01",
+          "kind": "image",
+          "src": "assets/images/hyperos4_table/img_028.png",
+          "thumbnail": "assets/images/hyperos4_table/img_028.png",
+          "alt": "三指上滑记忆 演示图 1",
+          "evidenceId": "highlight-17-demo",
+          "width": 480,
+          "height": 320
+        }
+      ],
+      "evidenceIds": [
+        "highlight-17-body",
+        "highlight-17-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-17"
+      ]
+    },
+    {
+      "id": "highlight-18",
+      "module": "超级小爱 2.0",
+      "moduleSource": "explicit-heading",
+      "title": "专家模式跨应用规划",
+      "description": "具备强大任务调度与编排能力。只需一句话，小爱会自主规划、调用应用执行动作（如相册内找证件照）。全面接入一方应用系统操作，并接入支付宝、高德等 10 余家三方开发者服务。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "highlight-18-media-01",
+          "kind": "image",
+          "src": "assets/images/hyperos4_table/img_029.png",
+          "thumbnail": "assets/images/hyperos4_table/img_029.png",
+          "alt": "专家模式跨应用规划 演示图 1",
+          "evidenceId": "highlight-18-demo",
+          "width": 480,
+          "height": 320
+        }
+      ],
+      "evidenceIds": [
+        "highlight-18-body",
+        "highlight-18-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-18"
+      ]
+    },
+    {
+      "id": "highlight-19",
+      "module": "超级小爱 2.0",
+      "moduleSource": "explicit-heading",
+      "title": "专家模式定时重复任务",
+      "description": "对于需要重复执行的任务，说一次，超级小爱 2.0 就可以一口气规律执行，让你只需轻松等待结果。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "highlight-19-media-01",
+          "kind": "image",
+          "src": "assets/images/hyperos4_table/img_030.png",
+          "thumbnail": "assets/images/hyperos4_table/img_030.png",
+          "alt": "专家模式定时重复任务 演示图 1",
+          "evidenceId": "highlight-19-demo",
+          "width": 480,
+          "height": 320
+        }
+      ],
+      "evidenceIds": [
+        "highlight-19-body",
+        "highlight-19-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-19"
+      ]
+    },
+    {
+      "id": "highlight-20",
+      "module": "超级小爱 2.0",
+      "moduleSource": "explicit-heading",
+      "title": "专家模式跨设备场景",
+      "description": "无需手动设置复杂自动化步骤，只需一句话说出需求，超级小爱 2.0 就能直接完成跨设备自动化场景设置与执行（如出门一句话备车、夜晚一句话进入观影模式）。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "highlight-20-media-01",
+          "kind": "image",
+          "src": "assets/images/hyperos4_table/img_031.jpg",
+          "thumbnail": "assets/images/hyperos4_table/img_031.jpg",
+          "alt": "专家模式跨设备场景 演示图 1",
+          "evidenceId": "highlight-20-demo",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "id": "highlight-20-media-02",
+          "kind": "image",
+          "src": "assets/images/hyperos4_table/img_032.jpg",
+          "thumbnail": "assets/images/hyperos4_table/img_032.jpg",
+          "alt": "专家模式跨设备场景 演示图 2",
+          "evidenceId": "highlight-20-demo",
+          "width": 480,
+          "height": 320
+        }
+      ],
+      "evidenceIds": [
+        "highlight-20-body",
+        "highlight-20-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-20"
+      ]
+    },
+    {
+      "id": "highlight-21",
+      "module": "超级小爱 2.0",
+      "moduleSource": "explicit-heading",
+      "title": "云端办公套件",
+      "description": "支持强大内容生成。搜索过往记忆沉淀内容，汇聚生成高质量研究报告、精美 PPT；甚至可根据需求生成在手机浏览器可打开互动交互的科普网页。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "highlight-21-media-01",
+          "kind": "animated-image",
+          "src": "assets/images/hyperos4_table/img_033.gif",
+          "thumbnail": "assets/images/hyperos4_table/img_033.gif",
+          "alt": "云端办公套件 演示图 1",
+          "evidenceId": "highlight-21-demo",
+          "width": 480,
+          "height": 320
+        }
+      ],
+      "evidenceIds": [
+        "highlight-21-body",
+        "highlight-21-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-21"
+      ]
+    },
+    {
+      "id": "highlight-22",
+      "module": "超级小爱 2.0",
+      "moduleSource": "explicit-heading",
+      "title": "全生态覆盖",
+      "description": "「小米互联服务」App 更新后，Mac 与三方 Windows 电脑也可调用专家模式。电脑发起任务后可在手机继续聊天调整，甚至可直接在手机上搜索电脑文件并传输到手机。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "highlight-22-media-01",
+          "kind": "image",
+          "src": "assets/images/hyperos4_table/img_034.png",
+          "thumbnail": "assets/images/hyperos4_table/img_034.png",
+          "alt": "全生态覆盖 演示图 1",
+          "evidenceId": "highlight-22-demo",
+          "width": 480,
+          "height": 320
+        }
+      ],
+      "evidenceIds": [
+        "highlight-22-body",
+        "highlight-22-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-22"
+      ]
+    },
+    {
+      "id": "highlight-23",
+      "module": "超级小爱 2.0",
+      "moduleSource": "explicit-heading",
+      "title": "多层隐私安全",
+      "description": "构建小米端云隐私计算系统。锁屏时拒答隐私问题，查看记忆需指纹验证。统一权限管理，修改/删除/外发数据必须弹窗确认，所有记忆支持自主管理与遗忘。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "highlight-23-media-01",
+          "kind": "image",
+          "src": "assets/images/hyperos4_table/img_035.png",
+          "thumbnail": "assets/images/hyperos4_table/img_035.png",
+          "alt": "多层隐私安全 演示图 1",
+          "evidenceId": "highlight-23-demo",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "id": "highlight-23-media-02",
+          "kind": "image",
+          "src": "assets/images/hyperos4_table/img_036.png",
+          "thumbnail": "assets/images/hyperos4_table/img_036.png",
+          "alt": "多层隐私安全 演示图 2",
+          "evidenceId": "highlight-23-demo",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "id": "highlight-23-media-03",
+          "kind": "image",
+          "src": "assets/images/hyperos4_table/img_037.png",
+          "thumbnail": "assets/images/hyperos4_table/img_037.png",
+          "alt": "多层隐私安全 演示图 3",
+          "evidenceId": "highlight-23-demo",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "id": "highlight-23-media-04",
+          "kind": "image",
+          "src": "assets/images/hyperos4_table/img_038.png",
+          "thumbnail": "assets/images/hyperos4_table/img_038.png",
+          "alt": "多层隐私安全 演示图 4",
+          "evidenceId": "highlight-23-demo",
+          "width": 480,
+          "height": 320
+        }
+      ],
+      "evidenceIds": [
+        "highlight-23-body",
+        "highlight-23-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-23"
+      ]
+    }
+  ],
+  "updates": [],
+  "sourceItems": [
+    {
+      "id": "source-highlight-01",
+      "classification": "highlight",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 0,
+      "sourceHash": "857416569a4224db998dcf0058192505ce85ba89928aa06daae6bc5385b86295",
+      "blockIds": [
+        "block-0"
+      ],
+      "text": "负载精算：采用 Xiaomi HyperCore 系统内核技术。全面升级负载评估模型，以「指令数」为核心指标，针对 168 个日常高频场景进行逐一分析，精准剔除冗余指令。总指令数下降 14.4%，一方应用场景指令数下降 17.1%，三方应用场景指令数下降 13.3%。",
+      "targetIds": [
+        "highlight-01"
+      ]
+    },
+    {
+      "id": "source-highlight-02",
+      "classification": "highlight",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 1,
+      "sourceHash": "0273f49dac8008100e4303b3d581e05d58df55ee75134a2821fb2ff356908419",
+      "blockIds": [
+        "block-1"
+      ],
+      "text": "内存预载：首次引入「内存预载」技术，针对访存密集型任务优化数据搬运链路。记忆应用每次启动的内存用量，前置完成内存碎片整理，按需即时提供性能供给。连续 8 小时使用后，可用内存提升 27.2%。",
+      "targetIds": [
+        "highlight-02"
+      ]
+    },
+    {
+      "id": "source-highlight-03",
+      "classification": "highlight",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 2,
+      "sourceHash": "aad2a37a5f43da92c7f818df7be15bb01f0e2d437146cf69e9e00050b2b3b6cb",
+      "blockIds": [
+        "block-2"
+      ],
+      "text": "自研应用运行环境：面向一方应用从零构建自研方案，针对前台与后台两种场景提供两条运行路径。状态驱动 UI 运行路径采用 100% 全机器码执行，能力按需启用运行路径完全绕开原生运行环境的固定开销，从根本上规避了原生垃圾回收机制带来的瞬时卡顿。",
+      "targetIds": [
+        "highlight-03"
+      ]
+    },
+    {
+      "id": "source-highlight-04",
+      "classification": "highlight",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 3,
+      "sourceHash": "ea777c06721b5a5b08089d71cf9bd23739ceb1778f9ebc62cdf2a0896ae33d6b",
+      "blockIds": [
+        "block-3"
+      ],
+      "text": "系统桌面改造：通过新应用环境对负载极大降低，在使用 9 小时后，连续 30 个应用启动时长大幅下降 17.5%。桌面开关横屏应用、挂起横屏小窗、横竖屏窗口旋转、横竖屏应用切换等场景，动效丝滑流畅。",
+      "targetIds": [
+        "highlight-04"
+      ]
+    },
+    {
+      "id": "source-highlight-05",
+      "classification": "highlight",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 4,
+      "sourceHash": "94124488d5db169e3b6d65a1ad5713f16b523de5eacbd1f68b322096ccb67a9e",
+      "blockIds": [
+        "block-4"
+      ],
+      "text": "相册改造：完成彻底重写迁移。实现万张照片扫描时间缩短 90%，CPU资源占用降低 28%，内存占用降低 32%。在浏览缩略图时，即使快速滑动，也能瞬间加载无白块。",
+      "targetIds": [
+        "highlight-05"
+      ]
+    },
+    {
+      "id": "source-highlight-06",
+      "classification": "highlight",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 5,
+      "sourceHash": "2bbf3fd42c3ad7fd1ddd2b9f0ec49098b346d08a54ebd88ff180b65e48e170bb",
+      "blockIds": [
+        "block-5"
+      ],
+      "text": "续航与流畅度：在三重新技术的加持下，长时间重载使用时，丢帧数大幅下降 28.9%，动态 DOU 续航模型测试结果提升 0.26 小时。",
+      "targetIds": [
+        "highlight-06"
+      ]
+    },
+    {
+      "id": "source-highlight-07",
+      "classification": "highlight",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 6,
+      "sourceHash": "bf7b0fd883e5b52134c7f24bda6ff23b1f1c236a465884794c2abed12fe6d34e",
+      "blockIds": [
+        "block-6"
+      ],
+      "text": "柔光玻璃材质：全新材质「柔光玻璃」，不仅能感知环境颜色呈现细腻质感，同时能感知内容属性，自适应通透度提供最佳可读性。还可以感知交互行为，用灵动的光效生动响应操作。",
+      "targetIds": [
+        "highlight-07"
+      ]
+    },
+    {
+      "id": "source-highlight-08",
+      "classification": "highlight",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 7,
+      "sourceHash": "b26851ae310faea6bf0621814bc323997849dbad3e1a933d8885f9b8b71c6733",
+      "blockIds": [
+        "block-7"
+      ],
+      "text": "新锁屏：在新材质加持下，支持一站式调节，一口气完成所有的个性化设置。",
+      "targetIds": [
+        "highlight-08"
+      ]
+    },
+    {
+      "id": "source-highlight-09",
+      "classification": "highlight",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 8,
+      "sourceHash": "f08000726d92e4f44bd8e3ab2aa5190efd281d12042f4b5141f9bd06f75f7a1a",
+      "blockIds": [
+        "block-8"
+      ],
+      "text": "新桌面：新材质带来更丰富桌面元素。支持小部件堆叠（像翻杂志一样切换）；支持文件夹在 1×1 到 4×2 间无缝自由拖拽变形。采用柔性的悬浮框架优化不同比例设备的布局。",
+      "targetIds": [
+        "highlight-09"
+      ]
+    },
+    {
+      "id": "source-highlight-10",
+      "classification": "highlight",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 9,
+      "sourceHash": "02782a92409136b54e8aaa5c134c71cd0c2106fb4e4c655d71b67aaeec1a15c2",
+      "blockIds": [
+        "block-9"
+      ],
+      "text": "AI 语音笔记：在会议复盘等碎片场景，用自然说话方式捕捉灵感。持续对话将零散表达沉淀为结构化的笔记、待办、纪要和思维导图。",
+      "targetIds": [
+        "highlight-10"
+      ]
+    },
+    {
+      "id": "source-highlight-11",
+      "classification": "highlight",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 10,
+      "sourceHash": "39b584a948904709a509736683c2b93c608ad5192ae084fba3ffea4360807255",
+      "blockIds": [
+        "block-10"
+      ],
+      "text": "超级小爱输入法：深度融合大模型，用语音说出想法，输入法即可理解语义、整理措辞，生成适合当前场景的结构化文字。",
+      "targetIds": [
+        "highlight-11"
+      ]
+    },
+    {
+      "id": "source-highlight-12",
+      "classification": "highlight",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 11,
+      "sourceHash": "bec1f2dc36f649696d7e3b996cc96eb3566d3af3cf91b0c9098373fded9f5796",
+      "blockIds": [
+        "block-11"
+      ],
+      "text": "更多应用改造：录音机：识别会议场景提炼要点，自动生成大纲、跳过静音。AI通话：针对外卖快递给出回复建议，支持自动接听。小米双持：不同网下支持来电短信验证码流转。系统安全控件：适配超 100 款三方应用，照片控件支持内容搜索查找。",
+      "targetIds": [
+        "highlight-12"
+      ]
+    },
+    {
+      "id": "source-highlight-13",
+      "classification": "highlight",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 12,
+      "sourceHash": "eddd884f0779a4f0be3e62c6bbcaf0fc19aa015d40c4a9b6fa73deae63af33f4",
+      "blockIds": [
+        "block-12"
+      ],
+      "text": "融合设备中心：用全新卡片式设计革新主页。清晰的设备分区，支持将常用设备和场景一键置顶在首页，多家庭用户可快速切换家庭设备列表。",
+      "targetIds": [
+        "highlight-13"
+      ]
+    },
+    {
+      "id": "source-highlight-14",
+      "classification": "highlight",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 13,
+      "sourceHash": "62375e681c97bc20d0a30144f0af6d5084564c96e3a50500c6d4571765e45dd0",
+      "blockIds": [
+        "block-13"
+      ],
+      "text": "模型升级：发布 Xiaomi MiMo - V2.5 系列模型，成为面向 Agent 时代的模型基座。在 OpenRouter 榜单上 Token 调用量月榜全球第一，Tool Calls 周榜全球第四。",
+      "targetIds": [
+        "highlight-14"
+      ]
+    },
+    {
+      "id": "source-highlight-15",
+      "classification": "highlight",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 14,
+      "sourceHash": "b09bcf0b54091a68d398e072d24b2b1b5b57be73393593f6b300439772ce98a7",
+      "blockIds": [
+        "block-14"
+      ],
+      "text": "小米超级岛交互：采用全新悬浮态界面呈现。小爱思考时，可继续操作手机互不影响；任务运行状态在「小米超级岛」实时显示，完成后自动展开结果。",
+      "targetIds": [
+        "highlight-15"
+      ]
+    },
+    {
+      "id": "source-highlight-16",
+      "classification": "highlight",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 15,
+      "sourceHash": "03d35af53998b80ab4ff02bb65d7ed215395a46216ae06fe2b8c859836a60bbf",
+      "blockIds": [
+        "block-15"
+      ],
+      "text": "灵感球：指哪看哪，简化过去繁复的交互。支持同时实现「语音输入指令 + 精准屏幕理解」，如精准修图细节、准确预定日历或发起导航等。",
+      "targetIds": [
+        "highlight-16"
+      ]
+    },
+    {
+      "id": "source-highlight-17",
+      "classification": "highlight",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 16,
+      "sourceHash": "53c766325f14449486bbba65eec887936479d5f0a1470cb501344349ec0e68cb",
+      "blockIds": [
+        "block-16"
+      ],
+      "text": "三指上滑记忆：在原有基础上，新增识别上岛功能。支持将取餐码、取件码、排队码、寄存码、退货码轻松上滑，直接在小米超级岛 / 锁屏界面查看。",
+      "targetIds": [
+        "highlight-17"
+      ]
+    },
+    {
+      "id": "source-highlight-18",
+      "classification": "highlight",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 17,
+      "sourceHash": "faef7bc42ee1e35d828c2bfad4fcee535725b26bdfc1146f812636c366cc0ba2",
+      "blockIds": [
+        "block-17"
+      ],
+      "text": "专家模式跨应用规划：具备强大任务调度与编排能力。只需一句话，小爱会自主规划、调用应用执行动作（如相册内找证件照）。全面接入一方应用系统操作，并接入支付宝、高德等 10 余家三方开发者服务。",
+      "targetIds": [
+        "highlight-18"
+      ]
+    },
+    {
+      "id": "source-highlight-19",
+      "classification": "highlight",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 18,
+      "sourceHash": "85e99c4471c90acdaa3cf0a0ab9508dbbd90117c26ccd3c05718cab3cd40a162",
+      "blockIds": [
+        "block-18"
+      ],
+      "text": "专家模式定时重复任务：对于需要重复执行的任务，说一次，超级小爱 2.0 就可以一口气规律执行，让你只需轻松等待结果。",
+      "targetIds": [
+        "highlight-19"
+      ]
+    },
+    {
+      "id": "source-highlight-20",
+      "classification": "highlight",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 19,
+      "sourceHash": "739768f3647d7c7c40b1af7bdd14fe52bf137e2e0045ec3196b8c91ae47239dd",
+      "blockIds": [
+        "block-19"
+      ],
+      "text": "专家模式跨设备场景：无需手动设置复杂自动化步骤，只需一句话说出需求，超级小爱 2.0 就能直接完成跨设备自动化场景设置与执行（如出门一句话备车、夜晚一句话进入观影模式）。",
+      "targetIds": [
+        "highlight-20"
+      ]
+    },
+    {
+      "id": "source-highlight-21",
+      "classification": "highlight",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 20,
+      "sourceHash": "a308c8e402750b1660d451b6183fd21a33313a882f8abc418bd13e32dc42568a",
+      "blockIds": [
+        "block-20"
+      ],
+      "text": "云端办公套件：支持强大内容生成。搜索过往记忆沉淀内容，汇聚生成高质量研究报告、精美 PPT；甚至可根据需求生成在手机浏览器可打开互动交互的科普网页。",
+      "targetIds": [
+        "highlight-21"
+      ]
+    },
+    {
+      "id": "source-highlight-22",
+      "classification": "highlight",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 21,
+      "sourceHash": "f0f497e6dfffdd58ad2fc1d3171708e898f39df97bf65385e42134d7a8ccacca",
+      "blockIds": [
+        "block-21"
+      ],
+      "text": "全生态覆盖：「小米互联服务」App 更新后，Mac 与三方 Windows 电脑也可调用专家模式。电脑发起任务后可在手机继续聊天调整，甚至可直接在手机上搜索电脑文件并传输到手机。",
+      "targetIds": [
+        "highlight-22"
+      ]
+    },
+    {
+      "id": "source-highlight-23",
+      "classification": "highlight",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 22,
+      "sourceHash": "1f039848fba561da5ddabbf1b1d476363d7d9deb45b7c05b7af1dd01d6e066d9",
+      "blockIds": [
+        "block-22"
+      ],
+      "text": "多层隐私安全：构建小米端云隐私计算系统。锁屏时拒答隐私问题，查看记忆需指纹验证。统一权限管理，修改/删除/外发数据必须弹窗确认，所有记忆支持自主管理与遗忘。",
+      "targetIds": [
+        "highlight-23"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "highlight-01-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 0,
+      "sourceHash": "857416569a4224db998dcf0058192505ce85ba89928aa06daae6bc5385b86295",
+      "blockIds": [
+        "block-0"
+      ],
+      "selector": "#updateTable tr:nth-child(1) td:nth-child(3)"
+    },
+    {
+      "id": "highlight-01-demo",
+      "kind": "html-media",
+      "role": "demo-region",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 0,
+      "sourceHash": "857416569a4224db998dcf0058192505ce85ba89928aa06daae6bc5385b86295",
+      "blockIds": [
+        "block-0"
+      ],
+      "selector": "#updateTable tr:nth-child(1) td:nth-child(4)"
+    },
+    {
+      "id": "highlight-02-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 1,
+      "sourceHash": "0273f49dac8008100e4303b3d581e05d58df55ee75134a2821fb2ff356908419",
+      "blockIds": [
+        "block-1"
+      ],
+      "selector": "#updateTable tr:nth-child(2) td:nth-child(3)"
+    },
+    {
+      "id": "highlight-02-demo",
+      "kind": "html-media",
+      "role": "demo-region",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 1,
+      "sourceHash": "0273f49dac8008100e4303b3d581e05d58df55ee75134a2821fb2ff356908419",
+      "blockIds": [
+        "block-1"
+      ],
+      "selector": "#updateTable tr:nth-child(2) td:nth-child(4)"
+    },
+    {
+      "id": "highlight-03-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 2,
+      "sourceHash": "aad2a37a5f43da92c7f818df7be15bb01f0e2d437146cf69e9e00050b2b3b6cb",
+      "blockIds": [
+        "block-2"
+      ],
+      "selector": "#updateTable tr:nth-child(3) td:nth-child(3)"
+    },
+    {
+      "id": "highlight-03-demo",
+      "kind": "html-media",
+      "role": "demo-region",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 2,
+      "sourceHash": "aad2a37a5f43da92c7f818df7be15bb01f0e2d437146cf69e9e00050b2b3b6cb",
+      "blockIds": [
+        "block-2"
+      ],
+      "selector": "#updateTable tr:nth-child(3) td:nth-child(4)"
+    },
+    {
+      "id": "highlight-04-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 3,
+      "sourceHash": "ea777c06721b5a5b08089d71cf9bd23739ceb1778f9ebc62cdf2a0896ae33d6b",
+      "blockIds": [
+        "block-3"
+      ],
+      "selector": "#updateTable tr:nth-child(4) td:nth-child(3)"
+    },
+    {
+      "id": "highlight-04-demo",
+      "kind": "html-media",
+      "role": "demo-region",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 3,
+      "sourceHash": "ea777c06721b5a5b08089d71cf9bd23739ceb1778f9ebc62cdf2a0896ae33d6b",
+      "blockIds": [
+        "block-3"
+      ],
+      "selector": "#updateTable tr:nth-child(4) td:nth-child(4)"
+    },
+    {
+      "id": "highlight-05-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 4,
+      "sourceHash": "94124488d5db169e3b6d65a1ad5713f16b523de5eacbd1f68b322096ccb67a9e",
+      "blockIds": [
+        "block-4"
+      ],
+      "selector": "#updateTable tr:nth-child(5) td:nth-child(3)"
+    },
+    {
+      "id": "highlight-05-demo",
+      "kind": "html-media",
+      "role": "demo-region",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 4,
+      "sourceHash": "94124488d5db169e3b6d65a1ad5713f16b523de5eacbd1f68b322096ccb67a9e",
+      "blockIds": [
+        "block-4"
+      ],
+      "selector": "#updateTable tr:nth-child(5) td:nth-child(4)"
+    },
+    {
+      "id": "highlight-06-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 5,
+      "sourceHash": "2bbf3fd42c3ad7fd1ddd2b9f0ec49098b346d08a54ebd88ff180b65e48e170bb",
+      "blockIds": [
+        "block-5"
+      ],
+      "selector": "#updateTable tr:nth-child(6) td:nth-child(3)"
+    },
+    {
+      "id": "highlight-06-demo",
+      "kind": "html-media",
+      "role": "demo-region",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 5,
+      "sourceHash": "2bbf3fd42c3ad7fd1ddd2b9f0ec49098b346d08a54ebd88ff180b65e48e170bb",
+      "blockIds": [
+        "block-5"
+      ],
+      "selector": "#updateTable tr:nth-child(6) td:nth-child(4)"
+    },
+    {
+      "id": "highlight-07-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 6,
+      "sourceHash": "bf7b0fd883e5b52134c7f24bda6ff23b1f1c236a465884794c2abed12fe6d34e",
+      "blockIds": [
+        "block-6"
+      ],
+      "selector": "#updateTable tr:nth-child(7) td:nth-child(3)"
+    },
+    {
+      "id": "highlight-07-demo",
+      "kind": "html-media",
+      "role": "demo-region",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 6,
+      "sourceHash": "bf7b0fd883e5b52134c7f24bda6ff23b1f1c236a465884794c2abed12fe6d34e",
+      "blockIds": [
+        "block-6"
+      ],
+      "selector": "#updateTable tr:nth-child(7) td:nth-child(4)"
+    },
+    {
+      "id": "highlight-08-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 7,
+      "sourceHash": "b26851ae310faea6bf0621814bc323997849dbad3e1a933d8885f9b8b71c6733",
+      "blockIds": [
+        "block-7"
+      ],
+      "selector": "#updateTable tr:nth-child(8) td:nth-child(3)"
+    },
+    {
+      "id": "highlight-08-demo",
+      "kind": "html-media",
+      "role": "demo-region",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 7,
+      "sourceHash": "b26851ae310faea6bf0621814bc323997849dbad3e1a933d8885f9b8b71c6733",
+      "blockIds": [
+        "block-7"
+      ],
+      "selector": "#updateTable tr:nth-child(8) td:nth-child(4)"
+    },
+    {
+      "id": "highlight-09-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 8,
+      "sourceHash": "f08000726d92e4f44bd8e3ab2aa5190efd281d12042f4b5141f9bd06f75f7a1a",
+      "blockIds": [
+        "block-8"
+      ],
+      "selector": "#updateTable tr:nth-child(9) td:nth-child(3)"
+    },
+    {
+      "id": "highlight-09-demo",
+      "kind": "html-media",
+      "role": "demo-region",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 8,
+      "sourceHash": "f08000726d92e4f44bd8e3ab2aa5190efd281d12042f4b5141f9bd06f75f7a1a",
+      "blockIds": [
+        "block-8"
+      ],
+      "selector": "#updateTable tr:nth-child(9) td:nth-child(4)"
+    },
+    {
+      "id": "highlight-10-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 9,
+      "sourceHash": "02782a92409136b54e8aaa5c134c71cd0c2106fb4e4c655d71b67aaeec1a15c2",
+      "blockIds": [
+        "block-9"
+      ],
+      "selector": "#updateTable tr:nth-child(10) td:nth-child(3)"
+    },
+    {
+      "id": "highlight-10-demo",
+      "kind": "html-media",
+      "role": "demo-region",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 9,
+      "sourceHash": "02782a92409136b54e8aaa5c134c71cd0c2106fb4e4c655d71b67aaeec1a15c2",
+      "blockIds": [
+        "block-9"
+      ],
+      "selector": "#updateTable tr:nth-child(10) td:nth-child(4)"
+    },
+    {
+      "id": "highlight-11-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 10,
+      "sourceHash": "39b584a948904709a509736683c2b93c608ad5192ae084fba3ffea4360807255",
+      "blockIds": [
+        "block-10"
+      ],
+      "selector": "#updateTable tr:nth-child(11) td:nth-child(3)"
+    },
+    {
+      "id": "highlight-11-demo",
+      "kind": "html-media",
+      "role": "demo-region",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 10,
+      "sourceHash": "39b584a948904709a509736683c2b93c608ad5192ae084fba3ffea4360807255",
+      "blockIds": [
+        "block-10"
+      ],
+      "selector": "#updateTable tr:nth-child(11) td:nth-child(4)"
+    },
+    {
+      "id": "highlight-12-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 11,
+      "sourceHash": "bec1f2dc36f649696d7e3b996cc96eb3566d3af3cf91b0c9098373fded9f5796",
+      "blockIds": [
+        "block-11"
+      ],
+      "selector": "#updateTable tr:nth-child(12) td:nth-child(3)"
+    },
+    {
+      "id": "highlight-13-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 12,
+      "sourceHash": "eddd884f0779a4f0be3e62c6bbcaf0fc19aa015d40c4a9b6fa73deae63af33f4",
+      "blockIds": [
+        "block-12"
+      ],
+      "selector": "#updateTable tr:nth-child(13) td:nth-child(3)"
+    },
+    {
+      "id": "highlight-13-demo",
+      "kind": "html-media",
+      "role": "demo-region",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 12,
+      "sourceHash": "eddd884f0779a4f0be3e62c6bbcaf0fc19aa015d40c4a9b6fa73deae63af33f4",
+      "blockIds": [
+        "block-12"
+      ],
+      "selector": "#updateTable tr:nth-child(13) td:nth-child(4)"
+    },
+    {
+      "id": "highlight-14-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 13,
+      "sourceHash": "62375e681c97bc20d0a30144f0af6d5084564c96e3a50500c6d4571765e45dd0",
+      "blockIds": [
+        "block-13"
+      ],
+      "selector": "#updateTable tr:nth-child(14) td:nth-child(3)"
+    },
+    {
+      "id": "highlight-14-demo",
+      "kind": "html-media",
+      "role": "demo-region",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 13,
+      "sourceHash": "62375e681c97bc20d0a30144f0af6d5084564c96e3a50500c6d4571765e45dd0",
+      "blockIds": [
+        "block-13"
+      ],
+      "selector": "#updateTable tr:nth-child(14) td:nth-child(4)"
+    },
+    {
+      "id": "highlight-15-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 14,
+      "sourceHash": "b09bcf0b54091a68d398e072d24b2b1b5b57be73393593f6b300439772ce98a7",
+      "blockIds": [
+        "block-14"
+      ],
+      "selector": "#updateTable tr:nth-child(15) td:nth-child(3)"
+    },
+    {
+      "id": "highlight-15-demo",
+      "kind": "html-media",
+      "role": "demo-region",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 14,
+      "sourceHash": "b09bcf0b54091a68d398e072d24b2b1b5b57be73393593f6b300439772ce98a7",
+      "blockIds": [
+        "block-14"
+      ],
+      "selector": "#updateTable tr:nth-child(15) td:nth-child(4)"
+    },
+    {
+      "id": "highlight-16-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 15,
+      "sourceHash": "03d35af53998b80ab4ff02bb65d7ed215395a46216ae06fe2b8c859836a60bbf",
+      "blockIds": [
+        "block-15"
+      ],
+      "selector": "#updateTable tr:nth-child(16) td:nth-child(3)"
+    },
+    {
+      "id": "highlight-16-demo",
+      "kind": "html-media",
+      "role": "demo-region",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 15,
+      "sourceHash": "03d35af53998b80ab4ff02bb65d7ed215395a46216ae06fe2b8c859836a60bbf",
+      "blockIds": [
+        "block-15"
+      ],
+      "selector": "#updateTable tr:nth-child(16) td:nth-child(4)"
+    },
+    {
+      "id": "highlight-17-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 16,
+      "sourceHash": "53c766325f14449486bbba65eec887936479d5f0a1470cb501344349ec0e68cb",
+      "blockIds": [
+        "block-16"
+      ],
+      "selector": "#updateTable tr:nth-child(17) td:nth-child(3)"
+    },
+    {
+      "id": "highlight-17-demo",
+      "kind": "html-media",
+      "role": "demo-region",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 16,
+      "sourceHash": "53c766325f14449486bbba65eec887936479d5f0a1470cb501344349ec0e68cb",
+      "blockIds": [
+        "block-16"
+      ],
+      "selector": "#updateTable tr:nth-child(17) td:nth-child(4)"
+    },
+    {
+      "id": "highlight-18-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 17,
+      "sourceHash": "faef7bc42ee1e35d828c2bfad4fcee535725b26bdfc1146f812636c366cc0ba2",
+      "blockIds": [
+        "block-17"
+      ],
+      "selector": "#updateTable tr:nth-child(18) td:nth-child(3)"
+    },
+    {
+      "id": "highlight-18-demo",
+      "kind": "html-media",
+      "role": "demo-region",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 17,
+      "sourceHash": "faef7bc42ee1e35d828c2bfad4fcee535725b26bdfc1146f812636c366cc0ba2",
+      "blockIds": [
+        "block-17"
+      ],
+      "selector": "#updateTable tr:nth-child(18) td:nth-child(4)"
+    },
+    {
+      "id": "highlight-19-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 18,
+      "sourceHash": "85e99c4471c90acdaa3cf0a0ab9508dbbd90117c26ccd3c05718cab3cd40a162",
+      "blockIds": [
+        "block-18"
+      ],
+      "selector": "#updateTable tr:nth-child(19) td:nth-child(3)"
+    },
+    {
+      "id": "highlight-19-demo",
+      "kind": "html-media",
+      "role": "demo-region",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 18,
+      "sourceHash": "85e99c4471c90acdaa3cf0a0ab9508dbbd90117c26ccd3c05718cab3cd40a162",
+      "blockIds": [
+        "block-18"
+      ],
+      "selector": "#updateTable tr:nth-child(19) td:nth-child(4)"
+    },
+    {
+      "id": "highlight-20-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 19,
+      "sourceHash": "739768f3647d7c7c40b1af7bdd14fe52bf137e2e0045ec3196b8c91ae47239dd",
+      "blockIds": [
+        "block-19"
+      ],
+      "selector": "#updateTable tr:nth-child(20) td:nth-child(3)"
+    },
+    {
+      "id": "highlight-20-demo",
+      "kind": "html-media",
+      "role": "demo-region",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 19,
+      "sourceHash": "739768f3647d7c7c40b1af7bdd14fe52bf137e2e0045ec3196b8c91ae47239dd",
+      "blockIds": [
+        "block-19"
+      ],
+      "selector": "#updateTable tr:nth-child(20) td:nth-child(4)"
+    },
+    {
+      "id": "highlight-21-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 20,
+      "sourceHash": "a308c8e402750b1660d451b6183fd21a33313a882f8abc418bd13e32dc42568a",
+      "blockIds": [
+        "block-20"
+      ],
+      "selector": "#updateTable tr:nth-child(21) td:nth-child(3)"
+    },
+    {
+      "id": "highlight-21-demo",
+      "kind": "html-media",
+      "role": "demo-region",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 20,
+      "sourceHash": "a308c8e402750b1660d451b6183fd21a33313a882f8abc418bd13e32dc42568a",
+      "blockIds": [
+        "block-20"
+      ],
+      "selector": "#updateTable tr:nth-child(21) td:nth-child(4)"
+    },
+    {
+      "id": "highlight-22-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 21,
+      "sourceHash": "f0f497e6dfffdd58ad2fc1d3171708e898f39df97bf65385e42134d7a8ccacca",
+      "blockIds": [
+        "block-21"
+      ],
+      "selector": "#updateTable tr:nth-child(22) td:nth-child(3)"
+    },
+    {
+      "id": "highlight-22-demo",
+      "kind": "html-media",
+      "role": "demo-region",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 21,
+      "sourceHash": "f0f497e6dfffdd58ad2fc1d3171708e898f39df97bf65385e42134d7a8ccacca",
+      "blockIds": [
+        "block-21"
+      ],
+      "selector": "#updateTable tr:nth-child(22) td:nth-child(4)"
+    },
+    {
+      "id": "highlight-23-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 22,
+      "sourceHash": "1f039848fba561da5ddabbf1b1d476363d7d9deb45b7c05b7af1dd01d6e066d9",
+      "blockIds": [
+        "block-22"
+      ],
+      "selector": "#updateTable tr:nth-child(23) td:nth-child(3)"
+    },
+    {
+      "id": "highlight-23-demo",
+      "kind": "html-media",
+      "role": "demo-region",
+      "source": "hyperos4_table.html",
+      "sourceIndex": 22,
+      "sourceHash": "1f039848fba561da5ddabbf1b1d476363d7d9deb45b7c05b7af1dd01d6e066d9",
+      "blockIds": [
+        "block-22"
+      ],
+      "selector": "#updateTable tr:nth-child(23) td:nth-child(4)"
+    }
+  ],
+  "audit": {
+    "highlightReviewVersion": 4,
+    "updateReviewVersion": 4,
+    "review": {
+      "content": "verified",
+      "modules": "verified",
+      "media": "verified",
+      "page": "verified"
+    },
+    "expectedHighlightCount": 23,
+    "sourceItemCount": 23,
+    "includedItemCount": 23,
+    "excludedItemCount": 0,
+    "highlightCount": 23,
+    "updateCount": 0,
+    "mediaCount": 38,
+    "mappedItemCount": 23,
+    "coverageRate": 1
+  }
+}

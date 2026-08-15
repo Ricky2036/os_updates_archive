@@ -19,7 +19,7 @@ export const brandMeta: Record<Brand, { name: string; accent: string; soft: stri
     summary: 'vivo 系统体验升级、设计变化与功能档案。',
   },
   hyperos: {
-    name: '小米HyperOS',
+    name: 'HyperOS',
     accent: '#000000',
     soft: '#f0f0f0',
     logo: 'assets/images/logo_hyperos.png',
@@ -37,7 +37,12 @@ export async function getArticles(brand?: Brand) {
   const entries = await getCollection('articles');
   return entries
     .filter((entry) => !brand || entry.data.brand === brand)
-    .sort((a, b) => a.data.order - b.data.order);
+    .sort((a, b) => {
+      if (a.data.publishedAt !== b.data.publishedAt) {
+        return b.data.publishedAt.localeCompare(a.data.publishedAt);
+      }
+      return a.data.order - b.data.order;
+    });
 }
 
 export async function getYears(brand: Brand) {

@@ -6,73 +6,100 @@ interface Props { digest: MonthlyDigest }
 const { digest } = Astro.props;
 const data = digest.data;
 const typeClass = (type: string) => `digest-type digest-type-${type === '未标注' ? 'unknown' : type}`;
+
+const highlightGroups: { key: string, items: typeof data.highlights }[] = [];
+for (const item of data.highlights) {
+  const key = `${item.module}|${item.title}`;
+  if (highlightGroups.length > 0 && highlightGroups[highlightGroups.length - 1].key === key) {
+    highlightGroups[highlightGroups.length - 1].items.push(item);
+  } else {
+    highlightGroups.push({ key, items: [item] });
+  }
+}
+const isHyperOS4 = data.articleId.includes('HyperOS_4');
+const heading = isHyperOS4 ? '小米澎湃OS 4 更新说明' : '本月更新一览';
+const subtitle = isHyperOS4 ? '全面升级的一气呵成体验。手机和平板可在表格内横向滑动。' : '聚焦功能变化与体验升级。手机和平板可在表格内横向滑动。';
+const highlightHeading = isHyperOS4 ? '更新功能一览' : '更新亮点';
 ---
 <section class="monthly-digest" data-monthly-digest aria-labelledby="digest-heading">
   <header class="digest-intro">
     <p class="eyebrow">文字精简版</p>
-    <h2 id="digest-heading">本月更新一览</h2>
-    <p>聚焦功能变化与体验升级。手机和平板可在表格内横向滑动。</p>
+    <h2 id="digest-heading">{heading}</h2>
+    <p>{subtitle}</p>
   </header>
 
   <section class="digest-section" aria-labelledby="highlight-heading">
     <div class="digest-section-heading">
-      <div><span>01</span><h3 id="highlight-heading">更新亮点</h3></div>
+      <div>{data.updates.length > 0 && <span>01</span>}<h3 id="highlight-heading">{highlightHeading}</h3></div>
       <p>{data.highlights.length} 项重点功能</p>
     </div>
     <div class="digest-table-scroll" tabindex="0" role="region" aria-label="更新亮点表格，可左右滑动" data-digest-scroll>
       <table class="digest-table digest-highlight-table">
         <colgroup><col /><col /><col /><col /></colgroup>
-        <thead><tr><th scope="col">模块</th><th scope="col">更新亮点</th><th scope="col">功能描述</th><th scope="col">图片/视频演示</th></tr></thead>
+        <thead><tr><th scope="col">模块</th><th scope="col">更新点</th><th scope="col">详细更新说明</th><th scope="col">参考截图/视频</th></tr></thead>
         <tbody>
-          {data.highlights.map((item) => (
-            <tr>
-              <th scope="row" class="digest-module">{item.module}</th>
-              <td class="digest-title">{item.title}</td>
-              <td>{item.description}</td>
-              <td class="digest-media-cell">
-                {item.media.length ? (
-                  <div class="digest-media-list">
-                    {item.media.map((media, index) => (
-                      <button class="digest-media-button" type="button" data-digest-media data-media-index={index} data-kind={media.kind} data-src={assetPath(media.src)} data-poster={media.poster ? assetPath(media.poster) : undefined} data-alt={media.alt} aria-label={`查看${item.title}演示 ${index + 1}/${item.media.length}`}>
-                        <picture>
-                          {media.avifThumbnail && <source srcset={assetPath(media.avifThumbnail)} type="image/avif" />}
-                          <img src={assetPath(media.thumbnail)} alt="" width={media.width} height={media.height} loading="lazy" decoding="async" />
-                        </picture>
-                        {media.kind === 'video' && <span aria-hidden="true">▶</span>}
-                        {media.kind === 'animated-image' && <span aria-hidden="true">GIF</span>}
-                      </button>
-                    ))}
-                  </div>
-                ) : <span class="digest-media-empty">原档案未提供演示</span>}
-              </td>
-            </tr>
+          {highlightGroups.map((group) => (
+            group.items.map((item, index) => (
+              <tr>
+                {index === 0 && (
+                  <th scope="row" class="digest-module" rowspan={group.items.length}>
+                    <div class="digest-module-inner">
+                      {item.module === '基础体验' && <svg class="digest-mod-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M15 2v2"/><path d="M15 20v2"/><path d="M2 15h2"/><path d="M2 9h2"/><path d="M20 15h2"/><path d="M20 9h2"/><path d="M9 2v2"/><path d="M9 20v2"/></svg>}
+                      {item.module === '美学与功能体验' && <svg class="digest-mod-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.563-2.512 5.563-5.563C22 6.5 17.5 2 12 2z"/></svg>}
+                      {item.module === '超级小爱 2.0' && <svg class="digest-mod-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg>}
+                      <span>{item.module}</span>
+                    </div>
+                  </th>
+                )}
+                {index === 0 && <td class="digest-title" rowspan={group.items.length}>{item.title}</td>}
+                <td>{item.description}</td>
+                <td class="digest-media-cell">
+                  {item.media.length ? (
+                    <div class="digest-media-list">
+                      {item.media.map((media, mIndex) => (
+                        <button class="digest-media-button" type="button" data-digest-media data-media-index={mIndex} data-kind={media.kind} data-src={assetPath(media.src)} data-poster={media.poster ? assetPath(media.poster) : undefined} data-alt={media.alt} aria-label={`查看${item.title}演示 ${mIndex + 1}/${item.media.length}`}>
+                          <picture>
+                            {media.avifThumbnail && <source srcset={assetPath(media.avifThumbnail)} type="image/avif" />}
+                            <img src={assetPath(media.thumbnail)} alt="" width={media.width} height={media.height} loading="lazy" decoding="async" />
+                          </picture>
+                          {media.kind === 'video' && <span aria-hidden="true">▶</span>}
+                          {media.kind === 'animated-image' && <span aria-hidden="true">GIF</span>}
+                        </button>
+                      ))}
+                    </div>
+                  ) : <span class="digest-media-empty">原档案未提供演示</span>}
+                </td>
+              </tr>
+            ))
           ))}
         </tbody>
       </table>
     </div>
   </section>
 
-  <section class="digest-section" aria-labelledby="updates-heading">
-    <div class="digest-section-heading">
-      <div><span>02</span><h3 id="updates-heading">其他更新点</h3></div>
-      <p>{data.updates.length} 项体验变化</p>
-    </div>
-    <div class="digest-table-scroll" tabindex="0" role="region" aria-label="其他更新点表格，可左右滑动" data-digest-scroll>
-      <table class="digest-table digest-update-table">
-        <colgroup><col /><col /><col /></colgroup>
-        <thead><tr><th scope="col">模块</th><th scope="col">更新类型</th><th scope="col">更新说明</th></tr></thead>
-        <tbody>
-          {data.updates.map((item) => (
-            <tr>
-              <th scope="row" class="digest-module">{item.module}</th>
-              <td class="digest-type-cell"><span class={typeClass(item.type)}>{item.type}</span></td>
-              <td>{item.description}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
-  </section>
+  {data.updates.length > 0 && (
+    <section class="digest-section" aria-labelledby="updates-heading">
+      <div class="digest-section-heading">
+        <div><span>02</span><h3 id="updates-heading">其他更新点</h3></div>
+        <p>{data.updates.length} 项体验变化</p>
+      </div>
+      <div class="digest-table-scroll" tabindex="0" role="region" aria-label="其他更新点表格，可左右滑动" data-digest-scroll>
+        <table class="digest-table digest-update-table">
+          <colgroup><col /><col /><col /></colgroup>
+          <thead><tr><th scope="col">模块</th><th scope="col">更新类型</th><th scope="col">更新说明</th></tr></thead>
+          <tbody>
+            {data.updates.map((item) => (
+              <tr>
+                <th scope="row" class="digest-module">{item.module}</th>
+                <td class="digest-type-cell"><span class={typeClass(item.type)}>{item.type}</span></td>
+                <td>{item.description}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  )}
 </section>
 
 <dialog class="digest-lightbox" data-digest-lightbox aria-label="功能演示预览">

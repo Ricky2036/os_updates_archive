@@ -7,6 +7,7 @@ import {
 import { targetMonthlyOrders } from './monthly-digest-seeds.mjs';
 import { highlightReviewVersion, reviewedHighlightExpectations, reviewedHighlightsByOrder } from './monthly-highlight-reviews.mjs';
 import updateReviewManifest from './monthly-update-reviews.json' with { type: 'json' };
+import { reviewedUpdatesFor } from './monthly-update-overrides.mjs';
 import { contentReviewVersion, mediaReviewVersion, updateReviewVersion } from './monthly-digest-v2.mjs';
 
 const fail = (message) => { throw new Error(message); };
@@ -17,13 +18,21 @@ const intersectionArea = (left, right) => {
 };
 const targetSet = new Set(targetMonthlyOrders);
 const articles = (await loadArticles()).map(({ data }) => data);
-const targets = articles.filter((article) => targetSet.has(article.order)).sort((a, b) => a.order - b.order);
+const args = process.argv.slice(2);
+const selector = args.includes('--article') ? args[args.indexOf('--article') + 1] : null;
+const allTargets = articles.filter((article) => targetSet.has(article.order)).sort((a, b) => a.order - b.order);
+const targets = selector
+  ? allTargets.filter((article) => article.articleId === selector || article.slug === selector || `${String(article.order).padStart(2, '0')}-${article.brand}` === selector)
+  : allTargets;
+if (selector && targets.length !== 1) fail(`Expected one monthly article for selector ${selector}, found ${targets.length}`);
 const files = (await fs.readdir(digestDir).catch(() => [])).filter((name) => name.endsWith('.json')).sort();
-const digests = await Promise.all(files.map(async (file) => ({ file, data: JSON.parse(await fs.readFile(path.join(digestDir, file), 'utf8')) })));
+const allDigests = await Promise.all(files.map(async (file) => ({ file, data: JSON.parse(await fs.readFile(path.join(digestDir, file), 'utf8')) })));
+const selectedIds = new Set(targets.map((article) => article.articleId));
+const digests = selector ? allDigests.filter(({ data }) => selectedIds.has(data.articleId)) : allDigests;
 
-if (targets.length !== 24 || targets.filter((item) => item.brand === 'coloros').length !== 15 || targets.filter((item) => item.brand === 'originos').length !== 9) fail('Monthly article inventory must be exactly 24 (15 ColorOS, 9 OriginOS)');
-if (digests.length !== 24) fail(`Expected 24 monthly digest files, found ${digests.length}`);
-if (new Set(digests.map(({ data }) => data.articleId)).size !== 24) fail('Monthly digest article IDs are not unique');
+if (!selector && (targets.filter((item) => item.brand === 'coloros').length !== 15 || targets.filter((item) => item.brand === 'originos').length !== 9)) fail('Core monthly article inventory must retain 15 ColorOS and 9 OriginOS entries');
+if (digests.length !== targets.length) fail(`Expected ${targets.length} monthly digest files, found ${digests.length}`);
+if (new Set(digests.map(({ data }) => data.articleId)).size !== targets.length) fail('Monthly digest article IDs are not unique');
 const expectedIds = new Set(targets.map((article) => article.articleId));
 for (const { data } of digests) if (!expectedIds.has(data.articleId)) fail(`Unexpected monthly digest: ${data.articleId}`);
 
@@ -110,7 +119,7 @@ for (const { file, data } of digests) {
       }
     }
   }
-  const reviewedUpdates = updateReviewManifest.articles[String(article.order)] ?? [];
+  const reviewedUpdates = reviewedUpdatesFor(article.order, updateReviewManifest) ?? [];
   if (reviewedUpdates.length !== data.updates.length) fail(`V4 update count diverged in ${file}`);
   for (const [updateIndex, update] of data.updates.entries()) {
     const reviewed = reviewedUpdates[updateIndex];
@@ -138,14 +147,16 @@ for (const { file, data } of digests) {
   if (article.order === 12 && (data.updates.length < 40 || data.audit.quantityHint !== 40)) fail(`ColorOS May completeness baseline failed: ${data.updates.length} updates`);
 }
 
-const may = digests.find(({ data }) => data.articleId === 'OPPO_手机系统_ColorOS_五月升级一览')?.data;
-for (const title of ['毕业季限定水印', '端午节限定水印', '柔光人像']) if (!may?.highlights.some((item) => item.title === title && item.media.length)) fail(`ColorOS May media mapping missing: ${title}`);
-const november = digests.find(({ data }) => data.articleId === 'OPPO_ColorOS_十一月系统升级一览')?.data;
-for (const title of ['内容传送门', 'AI 同声传译支持声音克隆', '一句话 AI 人像补光', '一句话打开乘车码']) {
-  if (!november?.highlights.some((item) => item.title === title && item.media.length)) fail(`ColorOS November highlight/media mapping missing: ${title}`);
+if (!selector) {
+  const may = digests.find(({ data }) => data.articleId === 'OPPO_手机系统_ColorOS_五月升级一览')?.data;
+  for (const title of ['毕业季限定水印', '端午节限定水印', '柔光人像']) if (!may?.highlights.some((item) => item.title === title && item.media.length)) fail(`ColorOS May media mapping missing: ${title}`);
+  const november = digests.find(({ data }) => data.articleId === 'OPPO_ColorOS_十一月系统升级一览')?.data;
+  for (const title of ['内容传送门', 'AI 同声传译支持声音克隆', '一句话 AI 人像补光', '一句话打开乘车码']) {
+    if (!november?.highlights.some((item) => item.title === title && item.media.length)) fail(`ColorOS November highlight/media mapping missing: ${title}`);
+  }
+  if (november?.highlights.length !== 12) fail(`ColorOS November must contain 12 reviewed visual highlights, found ${november?.highlights.length ?? 0}`);
+  const march = articles.find((article) => article.order === 27);
+  if (march?.publishedAt !== '2025-03-01') fail(`OriginOS March metadata is incorrect: ${march?.publishedAt}`);
 }
-if (november?.highlights.length !== 12) fail(`ColorOS November must contain 12 reviewed visual highlights, found ${november?.highlights.length ?? 0}`);
-const march = articles.find((article) => article.order === 27);
-if (march?.publishedAt !== '2025-03-01') fail(`OriginOS March metadata is incorrect: ${march?.publishedAt}`);
 
-console.log('Monthly digests verified: 24 schema V3 files, V4 content/media review, source-bound media and exact reviewed update inventories.');
+console.log(`Monthly digests verified: ${digests.length} schema V3 files, V4 content/media review, source-bound media and exact reviewed update inventories.`);

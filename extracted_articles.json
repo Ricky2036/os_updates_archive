@@ -1,0 +1,3127 @@
+[
+  {
+    "article_name": "ColorOS_15_正式发布！亮点抢先看",
+    "title": "ColorOS 15 正式发布！亮点抢先看",
+    "sections": [
+      {
+        "title": "系统功能升级与体验改进",
+        "features": [
+          {
+            "title": "超轻快 更自在",
+            "desc": "",
+            "media": "assets/images/interactive/348630fe96147c6c9721316a9cc0306a.webp"
+          },
+          {
+            "title": "全面重构",
+            "desc": "轻快流畅",
+            "media": "assets/images/interactive/12c67bcd46a3eacce2ecba1d8ab9ee39.webp"
+          },
+          {
+            "title": "极光引擎",
+            "desc": "系统级渲染与绘制架构 ） % 操控响应速度 操控稳定性",
+            "media": "assets/images/interactive/057752035e234f7925389d8f92e6f53a.webp"
+          },
+          {
+            "title": "行业首发并行动画",
+            "desc": "操作再快也能丝滑流畅",
+            "media": "assets/images/interactive/986466844a77c05673f4f4a2ca3f1ffb.webp"
+          },
+          {
+            "title": "系统级「柔性回强",
+            "desc": "每个细节，都值得",
+            "media": "assets/images/interactive/4e425f3ccb2d3f33de403c15f352d995.webp"
+          },
+          {
+            "title": "」微动效",
+            "desc": "细品",
+            "media": "assets/images/interactive/93eb7f6d76e536a4ee6da1026790d08f.webp"
+          },
+          {
+            "title": "个应用两轮高速连续启切",
+            "desc": "流畅依旧「五个 0」 ColoOS 联合定义流畅体验新标准 五个 0 0 闪退 0 闪跳 0 掉帧 0 时延 0 断触",
+            "media": "assets/images/interactive/36df2cea54585fd7a063464019e4aa0e.webp"
+          },
+          {
+            "title": "潮汐引擎",
+            "desc": "芯片级性能解决方案 整机流畅性提升 续航提升",
+            "media": "assets/images/interactive/009b3d8576793c01ea910f9f24644fab.webp"
+          },
+          {
+            "title": "游戏重载场景也有极致体验",
+            "desc": "",
+            "media": "assets/images/interactive/a95b74ab59f9606148af939116b5fce3.webp"
+          },
+          {
+            "title": "边打游戏边视频，依旧高帧畅玩",
+            "desc": "",
+            "media": "assets/images/interactive/12cd8faec250c64b0008fa78924e3d8c.webp"
+          },
+          {
+            "title": "秒加载、瞬启动",
+            "desc": "应用运行畅快自如 26% 50%",
+            "media": "assets/images/interactive/a38fdcb8b11fde9cc2fac12fcdcf85c1.webp"
+          },
+          {
+            "title": "系统级 AI",
+            "desc": "目在每一刻",
+            "media": "assets/images/interactive/179f8f847c3aa3483bac5b6d47c9ad4d.webp"
+          },
+          {
+            "title": "超级小布助手",
+            "desc": "系统级交互革新 一键问屏，问啥都行 “播放 Kpop\" 聆听中… 国＋ （丫",
+            "media": "assets/images/interactive/029acce1d93eb3331d255c8d75d36116.webp"
+          },
+          {
+            "title": "这是哪里",
+            "desc": "识屏问答 更简单更直觉， 随时随地帮你解答",
+            "media": "assets/images/interactive/b97d6c7ad2493b9d8f54acff071f7905.webp"
+          },
+          {
+            "title": "拍照",
+            "desc": "问答 你身边的百科全书， 万物皆可一拍就知",
+            "media": "assets/images/interactive/d45f6a4c3279e176f2b72815e7df2e99.webp"
+          },
+          {
+            "title": "一圈即问",
+            "desc": "感兴趣的内容， 圈一下就有答案 的温带地区。它的花序挺拔、丰硕，花色艳丽 多彩，有白、红、蓝、紫等变化，而旦花期长， 可用于片植或在带状花坛群体配植，同时也是 切花生产的好材料。",
+            "media": "assets/images/interactive/77227e7f6bf4e07c49e5a959ff407a4a.webp"
+          },
+          {
+            "title": "小布智能体",
+            "desc": "百变贴心的 AI 搭子 首页 探索 下午好 旅行助理 小学家教 英语老师 小布画师 世界之最",
+            "media": "assets/images/interactive/45b0a4b45dd0d8f798e5e7ece37d610a.webp"
+          },
+          {
+            "title": "AI 影像创作",
+            "desc": "相册张张是大片 去拖影 超清像素 8 路人消除",
+            "media": "assets/images/interactive/f75f4762fb25ff7dc92bbfeb2e9c5868.webp"
+          },
+          {
+            "title": "Al 去反光",
+            "desc": "轻松去除照片中的玻璃反光， 隔窗拍也如临其境 AI 去反光",
+            "media": "assets/images/interactive/7a58593615a73fc7b63750aa9fc27366.webp"
+          },
+          {
+            "title": "AI 去拖影",
+            "desc": "拍糊的照片， 帮你清晰还原细节",
+            "media": "assets/images/interactive/633cfac9dd26a8c40367d86fe95ccf57.webp"
+          },
+          {
+            "title": "AI 超清你",
+            "desc": "放大，再放大 怎么裁都高清",
+            "media": "assets/images/interactive/76b8f4fe520540620b92cb449629a669.webp"
+          },
+          {
+            "title": "Al 路人消除",
+            "desc": "自动识别照片中的路人，无需再圈选， 一键即可消除路人",
+            "media": "assets/images/interactive/6a350244d22c3de5e7ca78b13b2d2320.webp"
+          },
+          {
+            "title": "AI 办公学习",
+            "desc": "效率起飞 智能排版 AI 帮写 语句修正 续写 OPPO 文档 AI 语音摘要 至扩展篇幅 AI 笔记助手",
+            "media": "assets/images/interactive/1a3235fbc53d7bd89bf4513c76c6e544.webp"
+          },
+          {
+            "title": "一、风格",
+            "desc": "极简主义延续，更注重细节精致，纹理质 感，动效层次 2、色彩、金属质感、渐变色、 taikonggan，，未来科技感融入视觉 3、字体 排版，非传统排版增加冲击力，使用不对 称、错位等方法 4 自然元素回归 色彩、材质，形态，融入设计，可持续发 展，更自然温暖的视觉体验 AI 笔记助手 关闭 目 智能排版 语句修正 续写 至 扩展篇幅 不仅可以将记录的灵感一键自动排版，",
+            "media": "assets/images/interactive/b11276c24e4340a95105417ec20f73ad.webp"
+          },
+          {
+            "title": "AI 帮写",
+            "desc": "读懂照片内容， 帮你生成各式的配图文案 AI 帮写 艹孤独和惬意交织，让人欲罢不能。 真的，一个人旅行，不需要过多计 划，只需随遇而安，享受当下的每一 秒。 #独自旅行 ＃自由自在 #旅行体验#个 人时光＃一个人的旅行#生活方式",
+            "media": "assets/images/interactive/4a3275b5fd8128b0200ceae63e2feb4b.webp"
+          },
+          {
+            "title": "全新 OPPO 文档",
+            "desc": "一站式文档管理， 支持文件随心开、格式随心转换、文件随心搜索、",
+            "media": "assets/images/interactive/df3c9d56c559636082d0eed67674112a.webp"
+          },
+          {
+            "title": "Al 语音摘要",
+            "desc": "无论是线上会议、语音聊天、 甚至网课都能帮你一键摘要重点信息",
+            "media": "assets/images/interactive/f3bde6037d6b285ab2b26c631e8923bb.webp"
+          },
+          {
+            "title": "全新设计",
+            "desc": "合你心意",
+            "media": "assets/images/interactive/a1e0b17e0c2013ac786b907e3f2e379b.webp"
+          },
+          {
+            "title": "见自然",
+            "desc": "自然、普适的设计 看起来、用起来都赏心悦目",
+            "media": "assets/images/interactive/c336ed6f525b0306bab7d5a3379f4fd2.webp"
+          },
+          {
+            "title": "实时混色模糊",
+            "desc": "",
+            "media": "assets/images/interactive/b6b7e830f41fbc1e249a77901f8a9f0f.webp"
+          },
+          {
+            "title": "散开了心扉",
+            "desc": "待办 柔和弥散投影",
+            "media": "assets/images/interactive/29c7cd364893c9d215b6654168adbf37.webp"
+          },
+          {
+            "title": "高阶动态光效",
+            "desc": "《«",
+            "media": "Archive_Data/coloros-website-cn.allawnfs.com/website-resource-20260421/os1611776774710000/video/module4/光影动效.mp4"
+          },
+          {
+            "title": "见自我",
+            "desc": "每个独一无二的你，都可以是生活的主角",
+            "media": "assets/images/interactive/d52bd55f517d1c7ee00a1c48e808f72e.webp"
+          },
+          {
+            "title": "锁屏",
+            "desc": "Al 填充，照片完美适配 上下移动照片时，系统会自动计算图片颜色并智能 填充。",
+            "media": "assets/images/interactive/f45b98581c2ec5390ad3b47c3b21a022.webp"
+          },
+          {
+            "title": "Al 景深，发丝级抠图",
+            "desc": "将主体与背景自动分离，达到更震撼的景深效果。",
+            "media": "assets/images/interactive/a065b2801cde2cbe87b5071a70c77726.webp"
+          },
+          {
+            "title": "灵感无缝转场",
+            "desc": "从息屏、亮屏到解锁，让每一次亮屏都充满期待。 22° 周四 心布發议 主蹑為店 Q 機象",
+            "media": "assets/images/interactive/fc830664ccb4c2a122bbb192d860dad8.webp"
+          },
+          {
+            "title": "处处都有惊喜",
+            "desc": "",
+            "media": "assets/images/interactive/dc12e9b67ea058905e386d747423cb19.webp"
+          },
+          {
+            "title": "全新流体云",
+            "desc": "实时活动，一目了然 8 路线 上车点 目的地",
+            "media": "assets/images/interactive/427d24b19a725f926137306ada4eac88.webp"
+          },
+          {
+            "title": "自由窗口系统",
+            "desc": "自由浮窗，自由分屏",
+            "media": "assets/images/interactive/493e123bba4446fa4e18f57c9e635275.webp"
+          },
+          {
+            "title": "相册全局可逆化编辑",
+            "desc": "随时重调参数，一键复原原片 复原",
+            "media": "assets/images/interactive/aa450c002694ff66a43f3a0fa3889712.webp"
+          },
+          {
+            "title": "分离式通知中心",
+            "desc": "与控制中心 更大显示面积、更多快捷开关",
+            "media": "assets/images/interactive/827755872ce0371c16d331384657bc5a.webp"
+          },
+          {
+            "title": "实况照片",
+            "desc": "覆盖更多机型，新增拍摄 EIS 防 抖，每一帧画面更稳定、更清晰",
+            "media": "assets/images/interactive/f13131098ae94e7dae62835cbee086b1.webp"
+          }
+        ]
+      }
+    ],
+    "total_features": 42
+  },
+  {
+    "article_name": "ColorOS_16_正式发布！亮点抢先看",
+    "title": "ColorOS 16 正式发布！亮点抢先看",
+    "sections": [
+      {
+        "title": "系统功能升级与体验改进",
+        "features": [
+          {
+            "title": "趁现/",
+            "desc": "越松弛 越强头 流畅本色，AI 出色",
+            "media": "assets/images/interactive/19203a3f8c6960e9f7c064eb97fda693.webp"
+          },
+          {
+            "title": "机圈德芙",
+            "desc": "全面流畅",
+            "media": "assets/images/interactive/fac731d80381c2c0ef2e8a7b49f7ccaa.webp"
+          },
+          {
+            "title": "OPPO 全新极光引擎",
+            "desc": "探索感官上限 全场景流畅丝滑 0 卡顿|0 延迟|0 闪屏|0 闪退|0 闪跳|0 卡死",
+            "media": "assets/images/interactive/153808925690b4fdade2d541878feb36.webp"
+          },
+          {
+            "title": "无缝动画",
+            "desc": "全场景一致丝滑 无缝位移",
+            "media": "assets/images/interactive/9a72dddcba01b0795c6f6da98201fd2b.webp"
+          },
+          {
+            "title": "无缝拖拽",
+            "desc": "",
+            "media": "assets/images/interactive/c6857a949472f69fc6cee1d6286e516d.webp"
+          },
+          {
+            "title": "笔记",
+            "desc": "无缝缩放",
+            "media": "assets/images/interactive/6ace31a32a294ca7fe6d8fb06c5348ed.webp"
+          },
+          {
+            "title": "OPPO 全新潮汐引擎",
+            "desc": "突破性能极限 6 年久用流畅 行业首发芯片级动态追帧 极限场景稳，才能一直稳 37% 更稳定 更冷静 更省电 重载流畅稳定性最高提升 重载两轮启切温升仅 重载功耗最高降低",
+            "media": "assets/images/interactive/a1953a6f5e1734634cf4041dd93e1734.webp"
+          },
+          {
+            "title": "OPPO 全新繁星编译器",
+            "desc": "提高流畅底限 行业首个大众机型并行动画 0 卡顿|0 延迟|0 闪屏|0 闪退|0 闪跳|0 卡死 由 OPPO A5 演绎",
+            "media": "assets/images/interactive/812f1c60544c29528daa6c48325fb36a.webp"
+          },
+          {
+            "title": "三倍厚抹",
+            "desc": "查看制作进度 AI 取餐码 订单上云尽在掌握",
+            "media": "assets/images/interactive/701274958ef59f307cd9e70837517efa.webp"
+          },
+          {
+            "title": "我的账单",
+            "desc": "我为麦狂 AI 记账 明细清晰，花钱明白",
+            "media": "assets/images/interactive/483ed6335796215b427416452654033b.webp"
+          },
+          {
+            "title": "记视频",
+            "desc": "分段摘要，重点秒知道",
+            "media": "assets/images/interactive/43cf6af52fecf31c8a72d2856eb0d2b1.webp"
+          },
+          {
+            "title": "深圳美食暴走 1 万步！猫小欧的快乐清单",
+            "desc": "地渗进米饭缝里，挖一勺下去“滋滋”响，本碳水精直晕 了建议搭配冰柠檬茶，解腻效果堪比灭火器固 记多图 一键批量保存更便捷 <<<",
+            "media": "assets/images/interactive/d00d75c76da2212f2a9edc0339fdcdd4.webp"
+          },
+          {
+            "title": "随口记 灵感、待办",
+            "desc": "随口记 灵感、待办，动动嘴轻松记",
+            "media": "assets/images/interactive/aa1a41ca5fc848bb702044d050980311.webp"
+          },
+          {
+            "title": "AI 一键闪记",
+            "desc": "啥都能记 三倍厚抹 订单洋循 司 2.项日羅待办 支诸岛的视频介绍",
+            "media": "assets/images/interactive/b67428ce1944e80d8015510e58380819.webp"
+          },
+          {
+            "title": "有记忆的小布，自然更懂你",
+            "desc": "",
+            "media": "assets/images/interactive/8c14ab3f10559728510eb5e3d5834630.webp"
+          },
+          {
+            "title": "伦勃朗的《夜巡》",
+            "desc": "这幅画是《夜巡》，由荷兰画家伦勃朗•哈尔 曼松•凡•菜茵创作。它描绘了阿姆斯特丹射 击手公会的成员，以独特的构图和光影.. AI 实景对话 私人向导，指哪答哪",
+            "media": "assets/images/interactive/e7f9aaa9aa6b2df45ea7d8fbf3bf9feb.webp"
+          },
+          {
+            "title": "分超高的西餐厅，涵盖高端精致与亲民地道",
+            "desc": "的选择，看看有没有你感兴趣的吧！ 恐怖片爱 和海鲜料理广受好评，环境优雅，适合约会 或商务宴请。 二、云端牧场扒房 以“农场直供”为核心的现代简约西餐厅， 野生 社交达人 安格斯牛肋排，肉质紧实。 可爱女 野生摄影家 个性问答 记得你才能更好回答你",
+            "media": "assets/images/interactive/3b1922490400c30dd9aca954786393a9.webp"
+          },
+          {
+            "title": "小布建议",
+            "desc": "独属于你的个性化推荐",
+            "media": "assets/images/interactive/11586a5e653b85743adbfff4825b922f.webp"
+          },
+          {
+            "title": "明早 7:45 出发",
+            "desc": "5 条相关记忆 城市地图笔记 必去榜•餐厅",
+            "media": "assets/images/interactive/92a860d3d395d8c602236e5a829a448f.webp"
+          },
+          {
+            "title": "今日快讯",
+            "desc": "你好，小欧 闷热，减少在露天场所活动 交通，畅通，预计 25 分钟可到公司 你有』8 个日程 看看今天的 2/新闻资讯 AI 简报 专属你的每日头条",
+            "media": "assets/images/interactive/d04e3e56c95c76a3b7664b3275bcd678.webp"
+          },
+          {
+            "title": "AI 人像补光",
+            "desc": "自带反光板，修出气血感",
+            "media": "assets/images/interactive/af7fa352841acf0ea05bd22e841b7981.webp"
+          },
+          {
+            "title": "插入下方",
+            "desc": "AI 写作 聪明的代写，一键帮你下笔",
+            "media": "assets/images/interactive/1fb5509f18ffefa67cd7ad9382d19cba.webp"
+          },
+          {
+            "title": "全新视频剪辑",
+            "desc": "全新实况慢动作 实况 全新实况拼图 实况照片支持分享 全新相册 更美观，更实用",
+            "media": "assets/images/interactive/9c40a4737f7557c62f27263f74e80c19.webp"
+          },
+          {
+            "title": "系统级 AI 焕新",
+            "desc": "全新 全局 录音 Al 写作 便签 AI 人像补光",
+            "media": "assets/images/interactive/7a375a67cd0c18c231cba0d8b70dddd1.webp"
+          },
+          {
+            "title": "全新",
+            "desc": "光场设计",
+            "media": "assets/images/interactive/7cb0fe1ce95f883f8caa9cb12d8260b9.webp"
+          },
+          {
+            "title": "AI 灵感主题",
+            "desc": "让你的本色更出色 周二 Moment 1（",
+            "media": "assets/images/interactive/cfe2714811c6ed6b38c718d4129bdc21.webp"
+          },
+          {
+            "title": "实况景深壁纸",
+            "desc": "绽放鲜活生命力",
+            "media": "assets/images/interactive/feef1b6890fb8277910acdac7cb1c084.webp"
+          },
+          {
+            "title": "七月十九",
+            "desc": "",
+            "media": "assets/images/interactive/d3af41ee07b7d237ad85176688d9a1cd.webp"
+          },
+          {
+            "title": "AI 实况壁纸",
+            "desc": "静态素材动起来",
+            "media": "assets/images/interactive/d7b2d776fd51976a94ef62ce12b7f1be.webp"
+          },
+          {
+            "title": "越尽兴",
+            "desc": "Al 灵感文案 一键生成壁纸专属文案",
+            "media": "assets/images/interactive/3556548d7b120968d4a4eed2a1301f69.webp"
+          },
+          {
+            "title": "灵感桌面",
+            "desc": "图标可大可小，自由形变 24°/30° 小布建议 主题商店 便签",
+            "media": "assets/images/interactive/d4a156eee3636fa4f4e367f95cad2c45.webp"
+          },
+          {
+            "title": "灵感图标",
+            "desc": "AI 自动取色，随你定义",
+            "media": "assets/images/interactive/01082b40d2082852edfc5a842e341041.webp"
+          },
+          {
+            "title": "无缝的",
+            "desc": "OPPO 全家桶",
+            "media": "assets/images/interactive/8d972093dfaecfa906ec08fc1b2cb7c3.webp"
+          },
+          {
+            "title": "更好的跨生态互联",
+            "desc": "",
+            "media": "assets/images/interactive/e258da90dda4b7fc61b702b2b7d9255b.webp"
+          },
+          {
+            "title": "120",
+            "desc": "",
+            "media": "assets/images/interactive/5602fc5a5ed46ee125ce9c66353f5a06.webp"
+          },
+          {
+            "title": "跨生态手表互联",
+            "desc": "流体云流转 通信",
+            "media": "assets/images/interactive/75ebbd19052b66abb58fa3c15b93e82c.webp"
+          },
+          {
+            "title": "电脑跨屏互联",
+            "desc": "手机镜像投屏 应用通知流转",
+            "media": "assets/images/interactive/61c47a86a50fc8f6d76247d044c5669d.webp"
+          },
+          {
+            "title": "投屏贴边隐藏",
+            "desc": "剪贴",
+            "media": "assets/images/interactive/638bd4882c73295a9a621639a3e2d6bc.webp"
+          },
+          {
+            "title": "板双向共享",
+            "desc": "小布助手跨端",
+            "media": "assets/images/interactive/ea95bdb7bfd2d2c57883623827bffa3f.webp"
+          },
+          {
+            "title": "备忘录无缝搬家",
+            "desc": "笔记 备忘录",
+            "media": "assets/images/interactive/6c9b4f2eddf88776ddb53f4ff6dd4ec0.webp"
+          },
+          {
+            "title": "ColorOs",
+            "desc": "for Pad 大，不一样",
+            "media": "assets/images/interactive/a9dfefeff23c902b31d0f3afb99c7740.webp"
+          },
+          {
+            "title": "超流畅的平板",
+            "desc": "无缝动画",
+            "media": "assets/images/interactive/7c95e390020eb047306ba256b8ef78b1.webp"
+          },
+          {
+            "title": "多窗重载流畅",
+            "desc": "",
+            "media": "assets/images/interactive/930be13c7b0781d3b47d6615393d54c6.webp"
+          },
+          {
+            "title": "超美的平板",
+            "desc": "灵感主题 一层",
+            "media": "assets/images/interactive/bd5324dbd6f6dd829c56bd9c881054c7.webp"
+          },
+          {
+            "title": "全新桌面布局",
+            "desc": "6° 10 30",
+            "media": "assets/images/interactive/b48ab20a8c56d8e4a1ac641e9356691d.webp"
+          },
+          {
+            "title": "超好用的平板",
+            "desc": "AI 手公笔 （99+136）×9= 超级智能提取 手写计算器",
+            "media": "assets/images/interactive/6f2a74a800a3947511b72aeae994bff8.webp"
+          },
+          {
+            "title": "OPPO Pad 5",
+            "desc": "轻松学 畅快玩 字迹实时美化",
+            "media": "assets/images/interactive/f9511f41e1c638bce70c53654405d90f.webp"
+          },
+          {
+            "title": "PC 级 WPS",
+            "desc": "",
+            "media": "assets/images/interactive/9e2458b34f0601486247a1b19f17a911.webp"
+          },
+          {
+            "title": "更多惊喜值得细品",
+            "desc": "浮窗分身 车机互联 一个应用，两个任务，并行操作，效率大增 融合手机与智慧车载语音助手服务，协同互助 智能侧边栏 AI 摘要 全新侧边栏，支持单列/双列显示 智能匹配场景，摘要更专业 小布识屏 支持自由编辑，让你的控制中心更具个性化 全新界面与动效，更美观、更稳定、更流畅",
+            "media": "assets/images/interactive/8fdb415a7b7a337cac21241e9a679978.webp"
+          },
+          {
+            "title": "ColorOS 16",
+            "desc": "流畅本色，AI 出色",
+            "media": "assets/images/interactive/172c8bcbe50a6e41d076cfe1cb542fe2.webp"
+          }
+        ]
+      }
+    ],
+    "total_features": 50
+  },
+  {
+    "article_name": "ColorOS_六月系统升级一览",
+    "title": "ColorOS 六月系统升级一览",
+    "sections": [
+      {
+        "title": "详细更新分类列表",
+        "features": [
+          {
+            "title": "系统更新一览",
+            "desc": "",
+            "media": "",
+            "changelog_table": [
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "）小布助手支持控制酷我音乐和酷狗音乐概念版的播 放，可以通过语音指令执行上一首、下一首、播 放、暂停和关闭等操作"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "小布记忆应用内首页问答按钮，问答内容支持收藏、"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "小布记忆支持对合集自动生成摘要，并重新整理合 集内容，方便更好地呈现合集中的信息 词选词操作，方便选择和复制，操作更便捷"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "在小布建议和流体云上，显示大麦演示提醒，包括演 出出票、开场及座位号等服务信息，方便获取信息"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "） 流体云支持显示百度地图驾车导航 外卖、快递等服务可通过耳机播报，方便获取信息 声音分轨功能，支持调节音乐中人声、背景声的音量 在天气中显示潮汐信息，为赶海、出海等活动提供 更多信息 日历支持批量删除日程 秒抢闹钟功能，支持通过流体云卡片显示当前时间 并精确到秒，抢票更及时 便签表格中的文本，可设置加粗、斜体等富文本格式 笔记详情页内支持通过相机、相册、文件管理插入 音视频文档文件"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "笔记内支持通过拖拽音视频文档来调整位置 支持音视频文档文件通过分享保存到便签 浏览器内压缩包可支持通过文件管理解压并查看 Car+ 车联在车载投屏上使用音乐应用时，应用中会 显示悬浮播控键，方便随时播放和切歌"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "）； 支持在私密保险箱中搜索文件，查找更方便"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "）实况照片的分辨率，画质更好"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "） 小布助手支持高考分数、高考志愿查询"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "耳机播报的音色，与小布助手音色保持一致 Car+ 车联连接车机后，车机上的音量调节方式，可 对导航音量和媒体音量进行单独调节 超大范围机型升级支持"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "版本升级通知采取逐步推送的方式，以上计划为最迟在该日期开始推送，并非 所有用户可立即收到版本升级通知，若您未收到通知，请耐心等待。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "机型排序与升级先后顺序无关，具体机型升级时间请以实际为准。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "部分功能可能因机型、版本不同而存在差异，请以实际呈现效果与官方渠道信 息为准。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "一加 Ace 5 至尊版、一加 Ace 5 竞速版所带功能请以上市版本为准。 以上，可在 OPPO 软件商店和一加软件商店下载更新。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "声音分轨功能已适配系统酷狗音乐、QQ 音乐、网易云音乐等三方应用，支持 系列/ OPPO Find N3 系列 / OPPO Reno14 系列 / OPPO Reno13 系列 / OPPO Reno12 Pro/一加 13 系列/一加 12/一加 11/一加 Ace 5 系列/一加 Ace 3/一加 Ace 3 Pro /一加 Ace 2 Pro / OPPO Pad 4 Pro / OPPO Pad 3Pro /一加平板 2 Pro/"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "实况照片分辨率优化功能支持 OPPO Find N5 系列 / OPPO Find X8 系列 / OPPO Find X7 系列 / OPPO Find X6 系列 / OPPO Find N3 系列 / OPPO Reno14 系列 / /一加 11 系列/一加 Ace 5 系列/一加 Ace3 系列/一加 Ace 2 Pro/一加 Ace 2。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "Car+车联支持音乐应用显示悬浮播控键功能已适配网易云音乐、酷狗音乐、 QQ 音乐等三方应用。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "流体云支持百度地图驾车导航功能依赖系统版本和「百度地图」应用适配，请 OPPO 软件商店和一加软件商店下载更新。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "秒抢闹钟和小布识屏选词模式功能依赖特定系统服务支持，不同机型存在功能实 现差异。请将系统版本升级为 ColorOS 15 及以上，具体以升级后实际体验为准。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "耳机播报、大麦演出提醒、便签系列更新功能依赖系统版本支持，不同机型可能 存在差异，请将系统版本升级为 ColorOS14 及以上，具体以升级后实际体验为准。 超流畅，更 AI"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "total_features": 20
+  },
+  {
+    "article_name": "ColorOS_十一月体验升级来了！",
+    "title": "ColorOS 十一月体验升级来了！",
+    "sections": [
+      {
+        "title": "详细更新分类列表",
+        "features": [
+          {
+            "title": "系统更新一览",
+            "desc": "",
+            "media": "",
+            "changelog_table": [
+              {
+                "module": "实况照片能力进化",
+                "type": "新增",
+                "desc": "支持抖音发布实况照片"
+              },
+              {
+                "module": "实况照片能力进化",
+                "type": "新增",
+                "desc": "支持与 iOS 双向互传实况照片"
+              },
+              {
+                "module": "更多好用功能更新",
+                "type": "新增",
+                "desc": "AI 帮写功能，智能识别屏幕图文信息，一键生成个性化文案，省心省力"
+              },
+              {
+                "module": "更多好用功能更新",
+                "type": "新增",
+                "desc": "支持在应用全屏时，向左上滑可快速启动分屏"
+              },
+              {
+                "module": "更多好用功能更新",
+                "type": "新增",
+                "desc": "电话本新增支持浮窗显示"
+              },
+              {
+                "module": "更多好用功能更新",
+                "type": "优化",
+                "desc": "便签支持通过拼音搜索笔记，支持搜索笔记内的附件（如音频），搜索更便捷"
+              },
+              {
+                "module": "更多好用功能更新",
+                "type": "优化",
+                "desc": "大文件的堆叠显示方式，支持九个应用时显示为九宫格"
+              },
+              {
+                "module": "更多好用功能更新",
+                "type": "优化",
+                "desc": "时钟、便签、文件管理桌面卡片"
+              },
+              {
+                "module": "智慧车载焕新",
+                "type": "新增",
+                "desc": "智慧车载设置页，整合 Car+ 车联、数字车钥匙、车控相关功能的设备连接及管理入口"
+              },
+              {
+                "module": "智慧车载焕新",
+                "type": "新增",
+                "desc": "Car+ 车联支持流体云，连接后可通过流体云快速进入车辆设备面板及断开车辆操作"
+              },
+              {
+                "module": "智慧车载焕新",
+                "type": "新增",
+                "desc": "车辆设备面板新增“搜索地址”功能，可直接搜索地址并发送至车机端进行导航"
+              },
+              {
+                "module": "智慧车载焕新",
+                "type": "优化",
+                "desc": "Car+ 车联动画效果，更符合自然观感"
+              },
+              {
+                "module": "手机管家升级",
+                "type": "优化",
+                "desc": "手机管家页面视觉全新升级，扫描过程更简洁直观，结果状态展示更清晰"
+              },
+              {
+                "module": "手机管家升级",
+                "type": "新增",
+                "desc": "“系统加速”功能，可快速释放系统运行内存，提升流畅性"
+              },
+              {
+                "module": "手机管家升级",
+                "type": "新增",
+                "desc": "“仿冒应用”病毒风险检测，用机更安全"
+              },
+              {
+                "module": "手机管家升级",
+                "type": "优化",
+                "desc": "照片清理扫描速度，结果展示更快"
+              },
+              {
+                "module": "更多好用体验优化",
+                "type": "优化",
+                "desc": "天气数据刷新频率，提高天气信息及时性和准确性"
+              },
+              {
+                "module": "更多好用体验优化",
+                "type": "新增",
+                "desc": "部分购物场景截屏后，新增“搜同款”入口，购物操作更便捷"
+              },
+              {
+                "module": "更多好用体验优化",
+                "type": "优化",
+                "desc": "长截屏保存速度"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "total_features": 19
+  },
+  {
+    "article_name": "ColorOS_十二月体验升级一览",
+    "title": "ColorOS 十二月体验升级一览",
+    "sections": [
+      {
+        "title": "详细更新分类列表",
+        "features": [
+          {
+            "title": "系统更新一览",
+            "desc": "",
+            "media": "",
+            "changelog_table": [
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "日历生日、倒数日、纪念日桌面卡；"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "小布指令支持将一钱指今漆加至桌面，換作更 于礼营承吊用人县牛新店 农全可护”入 L Salores"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "total_features": 2
+  },
+  {
+    "article_name": "OPPO_ColorOS_16_正式版升级适配计划",
+    "title": "OPPO ColorOS 16 正式版升级适配计划",
+    "sections": [],
+    "total_features": 0
+  },
+  {
+    "article_name": "OPPO_ColorOS_一月系统升级一览",
+    "title": "OPPO ColorOS 一月系统升级一览",
+    "sections": [
+      {
+        "title": "详细更新分类列表",
+        "features": [
+          {
+            "title": "系统更新一览",
+            "desc": "",
+            "media": "",
+            "changelog_table": [
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "e 好运带来了喜和爱 天气预警提醒 辽牛击行 议场大飞提則大 道路结冰红色预警 1 月 20=10 时友布 小布更懂你* 用得更舒心 小布建议支持 外卖服务车机提醒 手机点外卖 信息车上看 小布记忆账单分析 春节账单轻於总结 花费多少了然干心 戎的账马 好用不停更* 陪你乐玩新春 全场景旁路供电 德仕春卫向能时刻电里伏亦郁仕线 iPhone 通信共享 春节出行双持狂喜 来电/短信/通知轻松同步 春节更新预告* 全新马年新春水印 一帧影像一份年味"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "相机拍摄照片时可直接使用春节限定水印 小布助手新年出大片 AI 生图 生成萌趣马 好运马上来 HAPPY NEW YEAR 马年吉祥“幸福安康 新并快乐 帮我生成一张马年壁纸 小布 P 图 春节氛围|新年写真|烟花特效 Hello 2026 小布 P 国前 小布 P 囡后 AI 写作新春版 花式来拜年 Al 送祝福 你平平心如感，夕歹吊欢有 国 福启新岁，万事顾落，闷家安康，财源 广进。脱程仪荡 新岁序开，愿你接纳过往的不完美，以 归零的心态重启，从从容容游刃有余地 爱当下，向未來山 乐多多像跳跳糖，好运旺到停不下一"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "Happy New YearO 愿日子如熹光，温柔又明亮 AI 写对联 写一副马年容联，内容歌颂祖国，要求藏 头“小欧* 自由写 上联：小韵扬春，骏马奔腾歌祖国品盛 下联：欧风，焕彩，祥龙舞动赞华夏繁荣 回即天 收到你的祝粑了， 召岁发禽放谊，事事出胜意。 小布建议新春卡 一起嗨翻新年 新年新气象 陪你过新年 距丙午马年 马年吉祥 还有 09:59:51 丙午驰春，岁安业兴 新年璧纸 ∞新春水印 裟 放个煳花 重点升级功能及 计划一览"
+              },
+              {
+                "module": "AI 功能",
+                "type": "优化",
+                "desc": "小布记忆支持自定义账单分类功能，账单更清"
+              },
+              {
+                "module": "AI 功能",
+                "type": "优化",
+                "desc": "小布记忆账单合集支持通过识别消费行为，为 你总结近期消冯习愤 自由写支持更多细分场景：写作文、书信，轻"
+              },
+              {
+                "module": "AI 功能",
+                "type": "新增",
+                "desc": "小布记忆视顽记的视觉效果，瑁加视动时旧 轴，查看更方便 八牛莲 1 与流呱万 （断新增•在小布建议上，增加列车发车前 15 分钟的履約 状心，仅时挺驻休准宙位示上午"
+              },
+              {
+                "module": "AI 功能",
+                "type": "优化",
+                "desc": "在流体云上，显示 QQ 音乐、网易云歌词，查 自巫闷史刀使"
+              },
+              {
+                "module": "AI 功能",
+                "type": "优化",
+                "desc": "在流体云上，显示和平精英当前进展及重要状"
+              },
+              {
+                "module": "AI 功能",
+                "type": "优化",
+                "desc": "任流体云上，显示气象预签，安全一行"
+              },
+              {
+                "module": "AI 功能",
+                "type": "新增",
+                "desc": "任智無车载的小布建议上文持展示淘玉、淘玉 闪购和京东外买服务，信息传达不遗漏 【优化•美团外实服务任智慧车载小布建议上的展示效 果，外卖信息更直观 佣信与日肤 （新增．与 iPhone 通信互联功能，将手机与 iPhone 连 按后，当 Inone 住公机附近的，可仕今仙工找 听他在到茶日开 mone 出茶电、自有术日 Inone 的想信礼越丸，部刀仇坐义持宣有 Inone 的不 电情况、短信利进大 1 巴发延发"
+              },
+              {
+                "module": "AI 功能",
+                "type": "优化",
+                "desc": "酷狗概念版支持车载投屏，提升使用体验"
+              },
+              {
+                "module": "AI 功能",
+                "type": "优化",
+                "desc": "省燕车载支持元损首质功能，手机媒体音乐口 任车端无损播放（仅文持 iccoa 连接方式"
+              },
+              {
+                "module": "其他好用",
+                "type": "新增",
+                "desc": "（新增•相机支持在照片、夜景、大师模式下选择 光八义大厅随于可得 当你在玩游戏、直播 有伙频、导肌寺局贝载场觉卜，可以连接电源 进仃方哈供电。赵坑赵允个伪电心，浑低仅济 ，桌面时钟插件，支持农历样式显示，时间与农 历信总一日丁給"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "支持在桌面添加 2x1 和 2x4 尺寸的“一键清"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "支持在桌间添加 2×1 尺寸的“一键加速”卡片"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "文持分导私密保险箱中的又件，分孕史使表 二月春节更新预览"
+              },
+              {
+                "module": "其他好用",
+                "type": "新增",
+                "desc": "］•柏机与相册新增春节限定水印"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "在小布建议和简报中，上线除夕夜倒计时、跨 牛脑化、拜牛货夕寺节口支唐下厅、春节强 E 到效和当口祝福培，满满新春仪式感，让上年以"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "自由写新春祝福、马上拜年、喜迎财神系列场 京误似，相准些配新有个问口别卫点而水，自 心 X 付 1 心凹，在伦这住口件样午呵呢，化习研别我庄"
+              },
+              {
+                "module": "其他好用",
+                "type": "新增",
+                "desc": "小布助手新增三款小布 P 图新春模板，帮你轻 松获得满满年昧"
+              },
+              {
+                "module": "其他好用",
+                "type": "新增",
+                "desc": "小布助手新增支持生成新春壁纸，通过 Al 生图 可以一键生成氛围感满满的专属新春桌面 谁送，分批復盡 Color0s14 及以上共 100+款机型。 怕大进装匀计对将仕 C00r0S 目力微博、UPPO 社 区/一阳社区 Coor0s 力烦亏史新，敏有持续天注 ③P20 OPPOFInd NS 系列 OPPOA3 系列 OPPOFindX8 U O ind / 示列 UFPU AJOS OPPOK13 系列 Kenol UPPO KTO OPPO Pad 4 Pro OPPO Pads OPPO Pad 2 OPO Pad Air2 OPPO Pad SE 一 J12 一川 Ace5 糸列 一川 AceS 於 一川 AceL 示 一卯半饭 FrO"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "iPhone 通信互功能支持：Oppo Find X9 系列/Oppo Find X8 系列 /OPp（"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "total_features": 22
+  },
+  {
+    "article_name": "OPPO_ColorOS_七月系统升级一览",
+    "title": "OPPO ColorOS 七月系统升级一览",
+    "sections": [
+      {
+        "title": "详细更新分类列表",
+        "features": [
+          {
+            "title": "系统更新一览",
+            "desc": "",
+            "media": "",
+            "changelog_table": [
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "小布助手深度研究功能，支持自主规划任务大纲， 检索丰富的公网信息，并且可以整理输出 PDF、 HTML 和 PPT 格式的研究报告级结果 Al 最佳表情功能，支持识别并替换同一人物在不 同场景下的表情，达到最佳成片效果 Al 通话翻译功能，通话中可将双方通话进行实时双 语互译，支持选择语音播报或仅显示译文，轻松应 对跨语言沟通 视频和实况照片编辑能力，支持将视频导出为实况 照片、实况照片导出为高清单图 2025 年英雄联盟 LPL 赛事限定水印"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "可通过语音唤醒小布，让小布帮你点一单历史外 卖。例如对小布说：“帮我点个上一单的外卖”（当 前仅支持一个月内已点过的美团、美团外卖和饿了 么外卖） 在小布建议和流体云上，显示京东外卖、淘宝闪购 的履约服务，方便获取信息 可通过小布助手购买淘票票电影票。唤醒小布助手 说出电影相关搜索词，就可以显示淘票票上的电影 场次信息，更便捷购买电影票 小布助手支持购买屏幕上显示的同款奶茶咖啡。例 如对小布助手说“点一杯屏幕上的同款咖啡”"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "小布助手支持一句话点饿了么外卖，点外卖更方便"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "支持将桌面上相同尺寸的卡片拖动到一起，卡片将 堆叠展示 支持多屏触控，一个应用全屏显示，一个应用自由 浮窗显示，双应用可同时操作，更高效 临时屏蔽横幅通知功能，打游戏、看视频时，频繁 收到应用通知，可上滑通知临时屏蔽，减少打扰 重启界面 支持在来电和通话记录界面隐藏联系人号码，降低 隐私泄露风险 手机通过 CarLife 投屏至车载屏幕后，手机和车载 屏幕上均可调节投屏分辦率 （新增 手机投屏至车载屏幕时，支持关闭屏幕刷新率，让 手机恢复高刷新率，使用更流畅；支持调节不同的 投屏帧率，支持高斯模糊效果，提升视觉体验 铃声渐响功能，开启后闹钟响铃时声音会由低到高 逐渐增强 通话录音支持按联系人自动分组；录音支持自定义 分组，便于管理录音文件 更多常用应用支持使用密码本在登录页自填充 夜景和照片模式支持柔光滤镜，营造梦幻且更加唯 美的效果"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "录音分组功能，新增普通分组，标准、会议、采访 模式下的录音将自动分组到普通分组 小布识屏触发手势，仅支持双指按压触发识屏。且 支持自定义响应识屏手势的应用，有效减少误触"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "部分场景下迷你浮窗显示位置不一致问题"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "迷你浮窗移动位置范围，支持拖拽迷你浮窗至屏幕 底部，提升使用体验 来电拦截规则，对标记号码类型（如骚扰电话、广 告推销等）可以分别选择更多拦截阈值，方便设置 相册首页的自定义能力，支持将指定的图集内容不 显示在相册首页照片列表 翻译 App 现有翻译功能，接入 AI 大模型翻译能 力，文本翻译更加地道，同声传译更加顺畅且支持 录音"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "版本升级通知采取逐步推送的方式，以上计划为最迟在该日期开始推送，并非所有用户 可立即收到版本升级通知，若您未收到通知，请耐心等待。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "机型排序与升级先后顺序无关，具体机型升级时间请以实际为准。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "AI 通话翻译功能支持 OPPO Find N5 系列 / OPPO Find X8 系列/ OPPO Reno14 系列 / 将会陆续推出，请持续关注。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "卡片堆叠展示及编辑功能支持 OPPO Find X8 系列 / OPPO Find X7 系列/OPPO Find X6 系列 / OPPO Find N3 Flip / OPPO Reno14 系列/ OPPO Reno13 系列/OPPO Reno12 系列 /OPPO Reno11 系列/一加 13T/一加 13/一加 12/一加 11 /一加 Ace 5 系列/一加 Ace 3 系列/一加 Ace 2 Pro /一加 Ace 2。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "小布助手深度研究功能依赖系统版本和「小布助手」、「文档」应用适配，请将系统版 商店下载更新。 超流畅，更 AI"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "total_features": 12
+  },
+  {
+    "article_name": "OPPO_ColorOS_七月系统升级一览_(2026)",
+    "title": "OPPO ColorOS 七月系统升级一览 (2026)",
+    "sections": [
+      {
+        "title": "详细更新分类列表",
+        "features": [
+          {
+            "title": "系统更新一览",
+            "desc": "",
+            "media": "",
+            "changelog_table": [
+              {
+                "module": "体验升级",
+                "type": "优化",
+                "desc": "锁屏 「和光」与「反差黑白」滤镜 三方应用加载相册更流畅 游戏 游戏滤镜升级 天气 景区天气"
+              },
+              {
+                "module": "体验升级",
+                "type": "新增",
+                "desc": "费区天气查询，旅行； 更多好用功能 ，最近任务中应用启动、切炎的过遗到效，提开操作流畅（"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "total_features": 2
+  },
+  {
+    "article_name": "OPPO_ColorOS_三月系统升级一览",
+    "title": "OPPO ColorOS 三月系统升级一览",
+    "sections": [
+      {
+        "title": "详细更新分类列表",
+        "features": [
+          {
+            "title": "系统更新一览",
+            "desc": "",
+            "media": "",
+            "changelog_table": [
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "让小布助手帮你记账，账里会记入小布记忆中，使 用史万使 支持飞书、钉钉（仅 可力叨京又付，如加八饥效云以、仅起店日庭石"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "Al 通话防诈功能，可智能识别陌生通话中的诈骗源 患，并立即提醒，避免财产损失"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "］•A 搜索账单的能力，新增支持检索小布助手中日动 记录的账里，以及记账合集中“记一笔”的手动烁 早，搜察纺果史准佣"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "小布记忆中记账合集的显示界面，以日维度展示当 口败半，亚亦史有 M"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "小布助手拍照问答功能，简化使用流程，问答更轻 松，一抽即答，高效便捷 佣信与上肤 互联后，可通过鼠标右键将本 ． OPPO！一加百传“接收文件后自动打开\"开关 按 需选择互传接收的文件是否自动打开，优化文件查 看体验"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "手礼投开至电脑后，鼠标停留往手机窗口中的冬材 上万，即可显示该图标的切能名林，万便埋解 设备空间中车辆没备面板的 作问札介固攻呀，佰运亚不史有叫 小布建议与流体云 （新增），在小布建议中，支持显示睡眠卡片，为你提供睡眠 提醒、睡眠总结。还能根据睡眠习惯提供科学的睡 眠疗愈课程，帮你轻松入睡"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "在小布建议上，支持显示流量管家卡片，方便管理 流量"
+              },
+              {
+                "module": "其他好用",
+                "type": "新增",
+                "desc": "），支持将课程表导人到日历日程中，详细展示每天课 桿，查看课程更便提 ‘义持仕大气地图中亚示温爱机合风，头时宣有区真"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "异堂天气通知服务，突岁天气变化实时提醒，守护 日常出行"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "当分二万应用支持接人 CoorOS 机密计鼻全间， 强化女全防护，全回提汁文何女全寺纵"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "诈骗应用启动拦截功能，当识别到应用有涉诈风险 明付示上归以，体悍鸡厂叉士"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "內容传送门支持选择分身应用，内容分享史使捷"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "文持通过内容传达门将地址且拨友达到牛机，尤器 手动输入，操作更便捷"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "］．“洛克王国：世界”的续航及帧率稳定性，提升游戏 达，分批復盡 Coloros15 及以上共 100+款机垄。相天进度三 olorU 巨力烦可史新，耿响行绥大注（ CFF Fina No OPPO FInd N2 U O ind X8 CFF FIa 入 o OPPO FInd 糸列 OPPOK13 系列| UF O Kenol4 糸列| UPPO KTT 系列 UF U Fad。 OPPO Pad 4 Pro OPPO Pad 3 系列| OPPO Pad2 UFFU Fac OPPO Pad Air 糸列 OPPO Pad SE 一川 Turbo 6 系列 一月 10 Pro 一川 Ace S 示列 一肥干仅 2FTO 崩還"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "total_features": 14
+  },
+  {
+    "article_name": "OPPO_ColorOS_九月系统升级一览",
+    "title": "OPPO ColorOS 九月系统升级一览",
+    "sections": [
+      {
+        "title": "详细更新分类列表",
+        "features": [
+          {
+            "title": "系统更新一览",
+            "desc": "",
+            "media": "",
+            "changelog_table": [
+              {
+                "module": "小布建议",
+                "type": "优化",
+                "desc": "计算器汇率 日历•黄历组合卡 换算卡 节日节点每日宜吉 出国游好搭子 智能推送便捷查看 桌面即可秒算汇率"
+              },
+              {
+                "module": "小布建议及流体云",
+                "type": "新增",
+                "desc": "）在小布建议和流体云上，显示大众点评的排队取号 和团购餐品的实时状态，方便获取信息"
+              },
+              {
+                "module": "小布建议及流体云",
+                "type": "新增",
+                "desc": "，停车助手支持展示支付宝停车数据，并在流体云上 显示，停车取车更方便"
+              },
+              {
+                "module": "小布建议及流体云",
+                "type": "新增",
+                "desc": "在流体云上显示高德地图驾车导航功能，让驾车操 作更方便 （新增）在小布建议上显示日历•黄历组合卡，看黄历更方便 相机及相册 相册地图图集，支持在地图内查看所有带定位信息 的图片 将照片从私密图集中解除私密后，照片可恢复到原 来的位置，方便查找"
+              },
+              {
+                "module": "小布建议及流体云",
+                "type": "优化",
+                "desc": "，相册云服务设置页的存储空间页面，增加了保留原 始照片、替换为高质量缩略图开关"
+              },
+              {
+                "module": "小布建议及流体云",
+                "type": "优化",
+                "desc": "相机中的水印设置页，支持选择限定水印，拍照时 就能添加限定水印，无需二次编辑 在相册中一次性添加文件到私密保险箱的数量限 制，由 500 个修改为不限制个数 小布记忆支持合集创建推荐功能，帮你提升记忆合 集的使用体验 小布助手支持更多用机指令，使用手机功能更方便 小布对话过程中图文混排的出图逻辑，解决不出 图、出错图或只出一部分图的问题，提升使用体验 AI 搜索结果，在便签、文档、相册、小布记忆中使 用 AI 搜索时，仅搜索到本应用数据，搜索更准确"
+              },
+              {
+                "module": "智慧车载",
+                "type": "优化",
+                "desc": "车钥匙和车控，开通后，可体验手机靠近车辆无感 解锁、远离自动锁车；并可在负一屏/桌面添加”我 的车辆”卡片，方便查看车况以及一键控车或小布 语音控车 支持通过智慧车载连接上汽名爵 MG4 车型，可以 使用融合桌面-镜像的投屏方式；并支持网络共享， 开启与车辆共享网络后自动共享手机流量给车辆 智慧车载在车机端应用商店支持查看更多体验应用 智慧车载手机端投屏应用管理界面布局，管理应用 更加便捷 使用 Car+ 车联经典投屏模式时的画面切换动效， 操作更丝滑"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "短信中支持开启或关闭最近删除开关，可以选择是 否需要保留最近删除的短信 随时翻译，方便又快捷 支持在桌面添加汇率换算卡片，换算更便捷 翻译应用中中英文语音播报音色为小布超拟人音 色，增加男性音色，更丰富更自然"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "红外遥控应用中遥控面板上的键位布局，操作更方便 分批次覆盖 ColorOS 13 及以上的共 100+款机型。相关 OPPOA95 OPPOK12 系列 系列"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "版本升级通知采取逐步推送的方式，上述计划为最迟在该日期开始推送，并非所有用户 可立即收到版本升级通知，若您暂未收到通知，敬请耐心等待。"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "机型排序与升级先后顺序无关，具体机型升级时间请以实际为准。 OPPO 软件商店和一加软件商店下载更新。"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "智慧车载相关功能：系统版本升级至 ColorOS 13 及以上的手机可使用。"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "小布建议及流体云接入大众点评信息功能：请将系统版本升级至 ColorOS14 及以上、"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "流体云显示支付宝停车缴费信息功能：请将系统版本升级至 ColorOS 14 及以上、「智慧"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "流体云显示高德地图驾车导航信息功能：请将系统版本升级至 ColorOS14 及以上、「高"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "照片解除私密后恢复至原本位置、提高从相册中添加文件至保密箱数量上限功能：系统 版本升级至 ColorOS14 及以上可使用。"
+              },
+              {
+                "module": "其他好用",
+                "type": "新增",
+                "desc": "小布建议显示日历•黄历组合卡、小布记忆合集创建推荐、小布助手新增更多指令、A 搜 索优化、短信新增最近删除开关、桌面汇率换算卡片、红外遥控键位布局优化功能：系 统版本升级至 ColorOS 15 及以上可使用。"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "应用界面选取文字进行翻译、翻译应用播报音色优化功能：支持 OPPO Find N5 系列！ /一加 Ace2 Pro/一加 Ace2。"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "拍照时添加限定水印功能：支持 OPPO Find N5 系列/OPPO Find X8 系列 /OPPO Find X7 系列/ OPPO Find X6 系列/OPPO Find N3 系列 / OPPO Reno14 系列/OPPO Reno13 系列/OPPO Reno12 系列/OPPO Reno11 系列/一加 13/一加 13T/一加 12/一加 11/一 加 Ace 5 系列/一加 Ace3 系列/一加 Ace 2 Pro/一加 Ace2。 ColoOS 超流畅，更 AI"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "total_features": 19
+  },
+  {
+    "article_name": "OPPO_ColorOS_二月系统升级一览",
+    "title": "OPPO ColorOS 二月系统升级一览",
+    "sections": [
+      {
+        "title": "详细更新分类列表",
+        "features": [
+          {
+            "title": "系统更新一览",
+            "desc": "",
+            "media": "",
+            "changelog_table": [
+              {
+                "module": "AI 功能",
+                "type": "优化",
+                "desc": "断爛，支持通过小布助手自动打车，只需简单确认地 点和费用就能完成打车，方使又高效"
+              },
+              {
+                "module": "AI 功能",
+                "type": "优化",
+                "desc": "记忆顾问的联网搜索功能，开启后支持联网查 更精准 支持对单条记忆手动添加到合集，查找记忆更 方便"
+              },
+              {
+                "module": "AI 功能",
+                "type": "优化",
+                "desc": "随口记 AI 自动分类功能，可根据内容智能归 入“生法”、“工作”、“理财”、“根法“等分类，杏 找更方便"
+              },
+              {
+                "module": "AI 功能",
+                "type": "优化",
+                "desc": "PPT 翻译功能，支持将 PPT 又档都译为多国话 言。翻译后个仅我保持欣间俗式，还文持详 与原又对照查有，开能导出译又 PP"
+              },
+              {
+                "module": "AI 功能",
+                "type": "新增",
+                "desc": "，随口记首页显示，新增按“今天/本周/更早” 的同卫总分区裝示，帮助你史有晰地测究起仁 日刊人，珠作史设城"
+              },
+              {
+                "module": "AI 功能",
+                "type": "优化",
+                "desc": "小布助手拉起键盘后的显示效果，不遮挡推荐"
+              },
+              {
+                "module": "AI 功能",
+                "type": "优化",
+                "desc": "优账的氾围，追过坛别遵用的递知洞总，日立 支付等账单，记账覆盖更全、账单更完整"
+              },
+              {
+                "module": "AI 功能",
+                "type": "优化",
+                "desc": "账单记忆的删除逻辑，即使单条账单记忆被理 除，也不会影响账单，保证账单的准确完整"
+              },
+              {
+                "module": "通信与互联",
+                "type": "优化",
+                "desc": "」•智志车载经奥投屏百负的“冢”和“公司“卡片、音 乐卡片以及旋钮的视觉效果"
+              },
+              {
+                "module": "通信与互联",
+                "type": "优化",
+                "desc": "智总牛辄目列连拔与目到升后于机热息的冲大"
+              },
+              {
+                "module": "通信与互联",
+                "type": "优化",
+                "desc": "相册大图页面的手势交互动画，拖动图片更加 日然跟手"
+              },
+              {
+                "module": "通信与互联",
+                "type": "优化",
+                "desc": "A 消除功能，提升画面消晰度，弱化消除区域 涂抹痕迹，让效果更自然"
+              },
+              {
+                "module": "通信与互联",
+                "type": "优化",
+                "desc": "Al 去反光功能，支持消除文档照片、戴眼镜人"
+              },
+              {
+                "module": "小布建议和流体云",
+                "type": "优化",
+                "desc": "断增）•在小布建议和流体云上，支持显示拼好饭的履 约状态，万使取答"
+              },
+              {
+                "module": "小布建议和流体云",
+                "type": "优化",
+                "desc": "住小仲建议札流体五上，文持显示哈哕早牛小 仇 t*小仲建议和流体云上的快递卡出卡逻辑 增 示更准确，取件更方便"
+              },
+              {
+                "module": "其他好用",
+                "type": "新增",
+                "desc": "广•文持同时开后多个计时器，多任务时间管理史 忌效"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "讨时話文持显示顶讨啊玲时间，使用史力饭"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "支持在桌面添加 2x2 尺寸的“最近文件”卡片， 方便查看最近查看或编辑的文件 支持在桌面添加 2×1 尺寸的‘耗电详情“卡片"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "在私密保险箱的其他文件分类中可直接添加文 件进行加密，探作更方便"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "仕松營保应柏的_级负面項加俊直入口，万使 随时修以隐松密码，也可以从相册的松密图复 中修以隐松密店 支持在私密保险箱中同时选择多个文件进行解 际松當时，又件可依粹當到合日原木的 1 童 力使草 览文件"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "支持在私密保险箱中通过滑动侧滑条，快速浏 推达，万抵復益 ColorVo 1 及以工共 WUu* 秋饥至 怕大进肢与才对将住 Coloruo 目力微博、U PU 任区！ 儿社区 500N2 目力双可买刺，少項村绥大注 UPPO FInd NS 系列 OPPOA2 系列 OP O IndX/ OPPU AS： OPPOA57 UHPO KIS OPPOK11 系列 OP O Keno9 OPPU Pad： OPPO Pad 4Prd OPPO Pad3 系列 OPPO Pad、 OPPO Pad Fad Alr OPPO Pad S 一 12 一川 Ace 一阳半级𠃋 “版心开数迪知米取逐步推达的万工，上还休划为迟往该日期开始推迟，才別 交机塑排序与升级先后顺序无关，具体机塑升级时间请以实际为准"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "智慧车競连接优化、A 去反光优化、A 湘除优化、计时器多开、计时器交持显示 艄篷"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "total_features": 22
+  },
+  {
+    "article_name": "OPPO_ColorOS_八月系统升级一览",
+    "title": "OPPO ColorOS 八月系统升级一览",
+    "sections": [
+      {
+        "title": "详细更新分类列表",
+        "features": [
+          {
+            "title": "系统更新一览",
+            "desc": "",
+            "media": "",
+            "changelog_table": [
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "图生图 生成图像更精致风格更多样 加光影换风格一句话轻松修图 相册七夕水印 微博 ProXDR 照片显示 限时浪漫氛围感 感受细微之处 随手一拍都是高甜大片 还原真实色彩 《无畏契约手游》优化 帧率更稳丝滑决胜 功耗更低爽玩到底"
+              },
+              {
+                "module": "体验升级",
+                "type": "优化",
+                "desc": "好用实用更便利 流体云与小布建议支持 关键信息一眼便知 不再担心错过车 小布建议服务上新 易安检 快速安检，免排队 ◎ 登看详情 支付宝易安检预约 生活缴费提醒 一键申请机场快速通道免排队 水电燃气缴纳及时通知 横幅通知优化 分屏比例随心调 玩游戏通知减少遮挡 应用大小自由调节 来电接听一步直达 多任务操作更丝滑 品 u 浏览器插入文档工具 无网畅聊升级 一键摘要、翻译、格式转换"
+              },
+              {
+                "module": "体验升级",
+                "type": "新增",
+                "desc": "图片文字语音 无网也能无碍沟通 升级功能总览 敬请关注。"
+              },
+              {
+                "module": "体验升级",
+                "type": "新增",
+                "desc": "）支持无极调节功能，应用分屏显示时，拖动分隔 条，可自由调整分屏大小"
+              },
+              {
+                "module": "体验升级",
+                "type": "新增",
+                "desc": "无网畅聊支持在无网络情况下给附近的人发送文 字、图片和语音消息，在信号不好的环境下更好地 传达你的信息 当最近任务为堆叠样式时，支持在最近任务界面下 滑应用卡片修改应用锁定状态 支持在微博中分享和观看高清 HDR 照片，照片更 鲜活透亮"
+              },
+              {
+                "module": "体验升级",
+                "type": "优化",
+                "desc": "） 《无畏契约：源能行动》游戏性能，运行更稳定、 功耗更低 自由浮窗进入、调整位置、切换大小等操作动画， 更流畅"
+              },
+              {
+                "module": "体验升级",
+                "type": "优化",
+                "desc": "， 简洁横幅通知功能，横屏时收到通知都将以简洁横 幅通知形态显示，減少打扰"
+              },
+              {
+                "module": "体验升级",
+                "type": "优化",
+                "desc": "）简洁通知操作手势，收到简洁横幅通知时也可以下 滑通知，以浮窗形式显示通知应用界面"
+              },
+              {
+                "module": "体验升级",
+                "type": "优化",
+                "desc": "全屏显示改为浮窗显示，減少打扰 （优化） 橫屏时横幅通知显示位置，减少遮挡，降低打扰 （优化］ 时钟相关卡片切换逻辑，跟随系统亮暗色切换 上的 100+款机型用户："
+              },
+              {
+                "module": "小布建议及流体云",
+                "type": "新增",
+                "desc": "）7 程通知，方便获取信息 在小布建议上显示支付宝易安检信息，快速预约可 享机场专属快速通道 小布建议生活缴费卡片，通过提取短信中水电、燃 气的费用信息，提醒你及时缴费 在小布建议和流体云上，显示小布记忆中保存的已 购电影票 在小布建议上，显示小布记忆中保存的酒店订房 小布画师支持图生图功能，可以上传图片，让小布 帮你转换风格或编辑优化"
+              },
+              {
+                "module": "小布建议及流体云",
+                "type": "新增",
+                "desc": "）小布画师文生图功能，支持更多作画风格 ［优化］ AI 和通话摘要功能，摘要内容更详细、更全面 安全隐私 （新增）在私密保险箱中可分享图片和视频；可自定义图片 或视频图集封面；可按日期分组显示查看所有图片 和视频；其他文件分类中可直接添加文件进行加密 其他好用功能 档翻译、转为 PDF、转为 Word、转为 Excel （优化 智慧车载音乐胶囊界面显示，可以直接在胶囊上播 放、暂停、切换歌曲 在文档中一次性添加文件到私密保险箱的数量限 制，由 500 个修改为不限制个数 短信删除逻辑，全选删除消息时不需要再进行指纹 或密码验证，可直接删除 OPPO Pad4 Pro OPPO Pad3 系列 OPPO Pad2 OPPO Pad Air2 OPPO Pad SE"
+              },
+              {
+                "module": "小布建议及流体云",
+                "type": "优化",
+                "desc": "版本升级通知采取逐步推送的方式，上述计划为最迟在该日期开始推送，并非所有用户 可立即收到版本升级通知，若您暂未收到通知，敬请耐心等待。"
+              },
+              {
+                "module": "小布建议及流体云",
+                "type": "优化",
+                "desc": "机型排序与升级先后顺序无关，具体机型升级时间请以实际为准。 下载更新。"
+              },
+              {
+                "module": "小布建议及流体云",
+                "type": "优化",
+                "desc": "微博 ProXDR 照片显示功能支持 OPPO Find N5 系列 /OPPO Find N3 系列 /OPPO Find X8 系列/OPPO Find X7 系列 /OPPO Find X6 系列 / OPPO Reno14 系列/OPPO Reno13 系列/OPPO Reno12 系列/OPPOK13 系列/OPPO K12 系列 /OPPO A5 系列 /一加 13/ 以上，可在 OPPO 软件商店和一加软件商店下载更新。 超流畅，更 AI"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "total_features": 14
+  },
+  {
+    "article_name": "OPPO_ColorOS_六月系统升级一览",
+    "title": "OPPO ColorOS 六月系统升级一览",
+    "sections": [
+      {
+        "title": "详细更新分类列表",
+        "features": [
+          {
+            "title": "系统更新一览",
+            "desc": "",
+            "media": "",
+            "changelog_table": [
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "又持仕流体否利现肼品上，亚不给狗首乐武词"
+              },
+              {
+                "module": "AI功能",
+                "type": "优化",
+                "desc": "熱料精港食品有造门，我園片、芝本、艾持商選行 圖譯體選籌錦茶球暨秀誼蘭服谷卡片，太古即可主"
+              },
+              {
+                "module": "AI功能",
+                "type": "优化",
+                "desc": "小仲建议文持仕呆圓除小 A 间报下门"
+              },
+              {
+                "module": "通信与互联",
+                "type": "新增",
+                "desc": "［新增］•设备空间支持添加和管理飞牛私有云设备（NAS 联后，将电脑文件传输至手机时，可"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "指*怕期师牛 限 水別"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "游戏相机支持 2K 超清截屏"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "在天气应用首页支持以折线图显示多日天气趋势"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "total_features": 7
+  },
+  {
+    "article_name": "OPPO_ColorOS_十一月系统升级一览",
+    "title": "OPPO ColorOS 十一月系统升级一览",
+    "sections": [
+      {
+        "title": "详细更新分类列表",
+        "features": [
+          {
+            "title": "系统更新一览",
+            "desc": "",
+            "media": "",
+            "changelog_table": [
+              {
+                "module": "AI 功能",
+                "type": "新增",
+                "desc": "［新增）•支持通过小布助手一句话打开支付宝乘车码，出行 通过小布助手一句话对照 片进行补光，智能识别人像抽摄中的暗光、逆光、 次儿寺问秘，但起 A 里儿， 取口鸡 於儿源，您际山史日给的公像死形效木 ，翻译应用中同声传译的语音音色（仅中英互译 时），实时模拟说话人的声音，然报更真实自外"
+              },
+              {
+                "module": "小布建议",
+                "type": "新增",
+                "desc": "小布建议支持显示记账卡信息，支出超预期时，提 晖用尸合理安排开叉"
+              },
+              {
+                "module": "小布建议",
+                "type": "优化",
+                "desc": "住小布建议上，道过识别短信中的酒店订单，进行 酒占人任提醒，及时办埋人任"
+              },
+              {
+                "module": "小布建议",
+                "type": "优化",
+                "desc": "住小布建议上，文持对默以大气服务进行目足义输 辑，可以没首为大气时钟、日力、运邳计步等多个 服竻"
+              },
+              {
+                "module": "小布建议",
+                "type": "优化",
+                "desc": "住小布建议卡上显示生理局期卡片，万便随呵了解 号体状心"
+              },
+              {
+                "module": "小布建议",
+                "type": "优化",
+                "desc": "仕小布建议上，显不商圈卡和医阮卡，可以展示商 场利医阮名林，开徒供多个服务，力便使用"
+              },
+              {
+                "module": "小布建议",
+                "type": "新增",
+                "desc": "小布建议节气卡片，在节气当天会自动出卡，快速 」解节气信总 ．小布建议步数周报卡片，帮助你养成运动习惯 天气 （新增）．天气语音播报功能，可语音播报当天天气，了解天 ，支持在桌面添加天气信息+紫外线组合卡片，方便"
+              },
+              {
+                "module": "小布建议",
+                "type": "优化",
+                "desc": "支持在桌面添加天气信息+日出日落组合卡片，方 便了解天气和日出日落时间"
+              },
+              {
+                "module": "小布建议",
+                "type": "优化",
+                "desc": "支持在桌面添加日出日落卡片，方便了解日出日落 时间 支持在桌面添加 2x4 尺寸的多日天气卡片，显示异 常天气的预警信息"
+              },
+              {
+                "module": "小布建议",
+                "type": "优化",
+                "desc": "多日天气天后和小时天气天片，又接显示降雨气多 预警信息 系统与桌面 新瑁•支持将果自上的插件拖动全相同的系统片或具他 插件中，插件和卡片将堆叠显示"
+              },
+              {
+                "module": "小布建议",
+                "type": "优化",
+                "desc": "文持目走义卡厅或插件名林，让昊固史具个性亿与 独特性"
+              },
+              {
+                "module": "小布建议",
+                "type": "优化",
+                "desc": "全景沉浸息屏全大显示切能，开后后无耑指起或息 ’部万灭邀土越仕编辑时文持地拽喝整明计天小，史 方便 凯化，现并中坏影指纹件式的亚示效果，融八尤愁攻叶 视觉更美观"
+              },
+              {
+                "module": "通信与互联",
+                "type": "新增",
+                "desc": "［新增•山海通信网络引擎界面，可查看网络优化次数，减 少下以时灰寸 高铁、弱网场最下的网络加速通知，便于实时知晓 M 给小座 士效 可对当前网络进行测速，查看网络 状态，如：网络延迟、上传/下载速度等"
+              },
+              {
+                "module": "通信与互联",
+                "type": "优化",
+                "desc": "支持将本地视频设为电话铃声，让你的铃声更具个"
+              },
+              {
+                "module": "其他好用",
+                "type": "新增",
+                "desc": "支持拖拽文本、各片、文档等内容全内容传送门指 定服务，可实现内容跨应用转移，更方便更快捷"
+              },
+              {
+                "module": "其他好用",
+                "type": "优化",
+                "desc": "什名加中裁男旋转图片时，文持目动校止， 目动水兴校止、人像校止和建筑校止，请圣构图 史拴松 OPPOFindX5 OPPO Pad 5 OPPO Pad 4 Pro OPPO Pad 3 Pro OPPO Pads OPPO Pad2 UFPO Kenod OPPO Pad Air Z OPPO Pad SE 一川 Ace5 示州 一川 一周半仅 ZFFC"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "total_features": 16
+  },
+  {
+    "article_name": "OPPO_手机系统_ColorOS_五月升级一览",
+    "title": "OPPO 手机系统 ColorOS 五月升级一览",
+    "sections": [
+      {
+        "title": "详细更新分类列表",
+        "features": [
+          {
+            "title": "系统更新一览",
+            "desc": "",
+            "media": "",
+            "changelog_table": [
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "多款毕业季限定水印，为难忘的校园回忆加点仪式感 顶算相花 商店和一加软件商店下载更新。 端午节专属水印 粽香四溢来过节"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "多款端午限定水印，为家人朋友相聚加点端午节日氛围 龙诗 舟画 竞端 柔光人像氛围感拉满 张张都出片"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "人像模式支持柔光人像风格，营造梦幻且更加唯美的 人像效果 实况照片支持更多个性化编辑"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "编辑实况照片时，可以选择关闭声音和实况效果 关闭炎品 关闭实况 静音 实况照片 实用功能再加码 远控 Mac 文件秒传效率拉满"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "支持远程控制 Mac 电脑，连接后可远程操作电脑屏 幕、访问电脑文件，临时办公更方便；与 Mac 远程连接 后，支持在文件管理应用中搜索、查看和下载 Mac 上的 文件 游戏静音启动 与尴尬”TIMI”声说拜拜"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "游戏静音启动功能，开启后启动游戏时自动静音，避 免打扰 w 已开启游戏静音启动 恢复音量 游戏浮窗跳转 边玩边回信息超实用"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "游戏内浮窗跳转功能，开启后在部分游戏内跳转至其 它应用，应用以浮窗打开 全新通知堆叠 细节动效超流畅"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "通知堆叠效果，优化通知视觉和交互，样式更美观， 操作更丝滑自如 日 手机授家•刚刚 1 条通知 40+好用功能"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "支持在更改密码 4 天内，若忘记密码，可通过|密 码重置 中的图片和文字"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "AI 翻译应用，整合拍照翻译、对话翻译、同声传 译、实时字幕等多种翻译功能，并支持更多语种互 译，让你随时随地畅译无阻"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "小布助手一拖即问，文本、文件、图片可一步拖至 屏幕下方的小布胶囊，快速解析，随心提问 （新增）小布助手一句话三分屏，例如唤醒小布助手说：“打 开文档、便签、相册分用” ”，省去多步操作，简单便"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "Al 灵感成片，通过 Al 一键构图，自动调整画面比 例，还能自动调色，智能推荐滤镜，一键成片"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "）“待取件“快递时，待取件信息将会在锁屏、通知栏等 流体云入口常驻"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "简易模式快捷功能卡片，将长辈常用功能纳入其 中，一键直达"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "全局窗口控制器，支持全屏/分屏/浮窗一键切换，也 高效 跳转打开其他应用时，系统会智能感知分屏需求并 主动提醒，多线并行，效率更高"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "）. 双时钟插件上的定位标识，可确认天气定位是否成功 在便签笔记中插入表格，信息整理更便捷 便签笔记涂鸦笔的图形选择功能，支持圆形、直 线、正方形和箭头样式 便签笔记搜索结果页支持置顶、移动和删除笔记等 操作 部分平板连接官方键盘和任意鼠标时，可以使用键 鼠操控游戏 Car+ 车联融合桌面形态下，支持更多的应用"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "） Car+ 车联融合桌面形态下，可通过车辆方向盘控制 抖音/快手视频应用 Car+ 车联融合桌面形态下，可切换到 Car+ 车联投 屏模式 车机端支持屏幕内容和图标显示大小调节"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "）智慧车载在仪表盘上显示歌词"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "电话本联系人来电铃声设置显示位置，提升设置便 捷性"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "相册选图面板按键设计，选图体验更符合直觉"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "小布建议设置页，地铁服务新增地铁乘车码偏好选 项，支持智能推荐微信和支付宝乘车码 美团外卖流体云及桌面卡片，服务信息更丰富，视 觉更精美 滴滴打车流体云，在部分行程状态发生变化时，流 体云会主动提醒 滴滴打车 2*2 卡片，新增显示“车牌号〞 ”、“车型”、“颜 色” 便签待办页面交互布局，可同时看到“已完成“和“未 完成”的全部待办事项 便签笔记搜索范围，支持在未加密笔记本下可搜索 全部笔记内容"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "私密保险箱，支持不限量添加私密文件至私密保险箱"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "系统动画帧率，提升复合动画性能，过渡更流畅"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "滑动场景的调度策略与时延，提升常用应用滑动流 畅性 内存分配策略，提升应用启切流畅性 常驻进程的后台运行内存，提升系统流畅性"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "浮窗、分屏应用窗口动效与兼容性，提升使用体验"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "浮窗侧边收起逻辑，当浮窗微侧边收起状态时，后 台自动锁定，方便随时打开浮窗应用 出现窗口，完美适配大屏"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "性能平台页 CPU、GPU 加载优化逻辑，实时了解 手机性能情况"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "后台应用异常高耗电监控策略，实时提醒优化"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "夜间待机、唤醒亮屏策略，提升待机时长"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "Al 组件的进程内存，提升 AI 相关服务的流畅性体验"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "游戏时浮窗启切性能，提升浮窗操控流畅性"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "）游戏加载帧率，升级自适应帧率能力，切换更丝滑"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "）游戏运行时的后台任务，减少不必要的服务负载， 降低游戏功耗"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "任务栏交互，新增悬浮模式，支持上滑呼出任务 栏，并可自动收起"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "使用腾讯会议时的功耗表现，提升续航时长 第二批功能升级 超爽快游戏体验 全新游戏相机 高能操作不怕错过"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "游戏相机功能，开启后可快速截屏、实况截屏、录屏 和一键回录，帮助你记录游戏中的精彩瞬间 碰一碰组队 开黑更便捷"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "“决胜巅峰\"游戏的碰一碰组队功能，在游戏组队界面 将手机靠近，就能实现快速组队 小而邊议 浮窗透明度调节 视野不遮挡"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "浮窗透明度调节功能，减少对底部界面遮挡，浮窗和 主应用状态一目了然 好用体验再升级 Windows 生态破壁 无论远近无缝互联"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "远程控制 Windows 电脑，连接后可远程操作电脑屏 幕、远程访问电脑文件，临时办公更方便；新增支持手机 与 Windows 电脑 O+互联，实现跨端文件管理，让办公 更方便 窗，快速交换浮窗与全屏应用 张小欧 今晚下班一起去吃饭吧，好久没有 你开什么会呀？ 可以呀，我来选餐厅 小布识屏更精准 提图更快更稳定"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "小布识屏功能，提升图文混合场景识屏精准度，轻松提 取完整图片，支持更多应用可提取原图，方便分享和保存； 并提升识屏速度，带来更稳定、流畅、准确的识屏体验 Live 图神机 清新胶片滤镜 ColarosE 片）/清新（CC 胶片）/通透（NH 胶片）三款滤镜，增 强光影历感一直出生动故事一让照片自带「当时的情 回 提取文字 文 自由翻译 ：更多 满血 AI 再进化 小布记忆 记事毫不费力"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "小布记忆功能，三指上滑随时触发屏幕闪记，存储于 小布记忆 APP 内；小布记忆 APP 内支持信息解析摘要， 按内容一键归类于合集内，海量信息高效整理，实现一站 式记忆管理 已记住本篇文章 怎么用手机拍出精彩照片？ 在这个智能手机普及的时代，手机拍照已成为 我们记录生活的主要方式。但如何用手机拍出 令人眼前一亮的照片呢？关键就在于构图和光 影的巧妙运用。今天，就让我们一起探索手机 拍照的奥秘。 记忆合集深度问答 专属个人小百科"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "小布记忆合集功能融合 DeepSeek，对记忆合集进行 深度问答，提炼更加精准的信息；记忆解析支持生成更加 详细和完整的记忆摘要，支持加粗、列表等格式，提升摘 要实用性 旅行攻略 和我探讨合集内容 目 聊一聊 手机拍摄柔美氛围感人像妙招 这是一篇关于用手机拍出柔美氛围感 人像的分享： 1.拍摄时间：抓住日出后 1 小时或日. 小布助手再焕新 生活服务深度融合 体验更便捷"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "小布助手生活服务深度融合，问答中智能提供三方服 务，例如可以让小布帮忙点下午茶，美食饮品购买一键直 达，提供更丰富便捷的服务体验 下午给部门定下午茶，大概 130 块 钱的预算，15 人左右，要一些吃的 一些喝的，大概怎么点比较合适 已深度思考（用时 17 秒） 根据您的预算和人数需求，以下是推荐的下午 茶搭配方案（总预算约 130 元，10 人份）： 一、小吃方案（预算约 108 元） 1.即客优选关东煮单人套餐："
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "购买 10 份 和味关东煮（大新店） 日式关东煮单人套餐 抢购 更多 AI 好用功能"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "Al 意图搜索功能，支持使用自然语言，通过小布或 全局搜索搜到手机内保存的文档、图片、日程等信 息，轻松找到手机上的各种零散信息"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "|. Al 文档支持思维脑图功能，可一键生成思维脑图， 还能以图片形式分享和导出 （新增）与 iOS 局域网互传功能，在同一 WLAN 下，无需建 立热点连接就能实现互传"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "小布拍照答疑体验升级，新增习题问答功能，遇到 不会的题目，一键问屏，轻松唤起小布助手，快速 对习题知识点、解题思路进行搜索整理分析 （优化）小布旅行助手体验升级，支持个性化偏好设置，生 成专属旅行攻略 ［优化优化部分场景下导航条背景色与应用颜色显示效 果，提升色彩显示一致性"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "）最近任务管理功能，能锁定更多应用持续保持运行"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "版本升级通知采取逐步推送的方式，以上计划为最迟在该日期开始推送，并非 所有用户可立即收到版本升级通知，若您未收到通知，请耐心等待。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "部分功能依赖手机硬件支持，不同机型可能存在差异，请以实际呈现效果与官 方渠道信息为准。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "机型排序与升级先后顺序无关，具体机型升级时间请以实际为准。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "小布记忆跨端同步记忆内容功能相关进展与计划，后续将在 Coloros 官方微"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "导航条背景色优化功能支持 OPPO Find X8 系列/一加 13 系列/一加 Ace 5 系"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "iOS 局域网互传功能依赖「O+互联」应用适配，请将 iOS 端的「O+互联」应 需在 Mac 电脑下载最新「O+ 互联」应用和开启「允许远程控制」：第一批升 级机型：OPPO Find N5 系列/ OPPO Find X8 Ultra 系列 /OPPO Find X8s+/ 型：OPPO Find X8 Pro 系列 / OPPO Find X8 / OPPO Find X7 系列 / OPPO Find X6 系列/ OPPO Reno14 系列 / OPPO Reno13 系列/ OPPO Reno12 系列/一加 13/一加 12/一加 Ace 5 系列/一加 Ace 3 系列/一加 Ace 2 Pro / 一加 Ace 2。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "手机远程控制 Windows 电脑和跨屏互联 Windows 电脑功能需在 Windows 电脑下载最新「O+互联」应用和开启「允许远程控制」。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "小布拍照答疑和小布旅行助手依赖系统版本和「小布助手」应用适配，请将系 OPPO 软件商店和一加软件商店下载更新。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "游戏静音启动功能依赖「游戏助手」应用适配，请将「游戏助手」应用升级为"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "游戏相机和游戏静音启动功能支持 OPPO Find X8 系列/OPPO Find X7 系列/"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "全局窗口控制器、智能分屏推荐、悬浮模式、小布助手一句话三分屏、浮窗显 示规则优化、便签待办布局优化功能支持 OPPO Find N5 系列 / OPPO Find N3 / OPPO Pad 4 Pro / OPPO Pad 3Pro /一加平板 Pro。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "最近任务锁定更多应用功能支持 OPPO Find N5 系列 / OPPO Find X8 系列/"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "平板连接键盘鼠标功能支持 OPPO Pad 4 Pro，且键鼠映射官方键位已适配原 神、和平精英、穿越火线和使命召唤等部分手游，可在游戏中依次打开「游戏 助手」-「工具」-「键鼠映射」启用此功能。 超流畅，更 AI 已深鹿思考（用时 17 秒）"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "Al 文档支持思维脑图功能，可一键生成思维脑图， （新增与 iOS 局域网互传功能，在同一 WLAN 下，无需建 【优化）小布旅行助手体验升级，支持个性化偏好设置，生 （优化优化部分场景下导航条背景色与应用颜色显示效"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "小布记忆跨端同步记忆内容功能相关进展与计划，后续将在 ColorOS 官方微"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "iOS 局域网互传功能依赖「O+互联」应用适配，请将 iOS 端的「O+互联」应 OPPO 软件商店和一加软件商店下载更新。 助手」「工具」-「键鼠映射」启用此功能。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "total_features": 64
+  },
+  {
+    "article_name": "OriginOS_3月体验更新一览",
+    "title": "OriginOS 3 月体验更新一览",
+    "sections": [
+      {
+        "title": "详细更新分类列表",
+        "features": [
+          {
+            "title": "系统更新一览",
+            "desc": "",
+            "media": "",
+            "changelog_table": [
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "快速上滑关闭小窗手势，手势随心选， 操作更自由"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "小窗手势上滑功能默认关闭，开启路径为： 设置>快捷与辅助>小窗，将小窗关闭手势切换 为“底边快速上滑”，样式设置为“简洁” 原子岛和原子通知"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "录屏场景 录屏场景支持以原子岛与原子通知的形式 呈现，操作更直观，记录更高效 23；"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "功能开启路径：设置>通知与状态栏>原子通知， 开启“录制屏幕”"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "滴滴打车原子通知展示效果"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "上车后的行程信息显示 指纹与密码"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "屏下指纹动画样式”星轨”，个性化升 级，解锁更有仪式感 应用 闹钟"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "支持「睡眠闹钟」设置为“法定工作 日”、“节假日及周末”生效 专注模式"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "支持将定时自动开启设置为“法定工作 贴纸"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "圆满贴纸支持纯图片展示"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "如果想体验尝鲜版本，我们推荐您前往： 设置>系统管理与升级>系统升级>右上角按钮＞ X200 Pro X200 Pro mini S20 Pro $20 Y300 Pro+ Y300i Y300t X Fold3 Pro X Fold3 X100 Ultra X100s Pro X100 Pro X100s X Fold2 X Flip X90 Pro+ X90 Pro X Fold+ X Fold X Note X80 Pro X80 Pro 天玑 9000 版 S19 Pro S18 Pro Y300 Pro iQ00 13 iQ00 Neo10 Pro iQ00 Neo10 iQOO 12 Pro iQ00 12 iQ0O Neo9s Pro+ iQOO Neo9 Pro iQOO Neo9S Pro iQOO Neo9 iQOO 11 Pro iQOO 11S iQ00 11 iQOO Z9 Turbo+ iQOO Neo8 Pro iQ00 Neo8 iQ0O Z9 Turbo iQOO Z9 iQ00 10 Pro iQ0O 10 iQ0O Neo7 竞速版 iQ0O Neo7 iQ00 Neo7 SE iQOO 9 Pro iQ00 9 iQOO Neo6 iQOO Neo6 SE iQ00 Z8"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "本页面所展示的产品界面与功能说明（包括但 不限于 UI、背景、产品功能、手机轮廓或手机外"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "年 4 月公测机型将会于公测结束后通过 OTA 陆续推送以上功能"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "近期上市机型将于后续通过 OTA 升级更新以上 功能 vivo 办公套件、vivo 智能 车载迎来更多更新 vivo 办公套件"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "蓝心小 V 接入满血版 DeepSeek-R1，支持 深度思考、联网搜索、查看引用链接"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "Mac 用户需前往 vivo 办公套件官网下载最新版 本即可体验该功能"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "Al 生图后支持一键插入原子笔记，创作 表达一气呵成"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "原子笔记支持图片、录音转文字，开会 上课一台电脑全搞定"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "支持设置外观主题色，视觉体验再升级 vivo X200am"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "支持跨端传输、新建文件夹，跨设备传 输更高效 升级范围： vivo 办公套件官网 pc.vivo.com 下载最新版本"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "vivO 办公套件支持的手机机型、电脑型号、电 脑系统版本可前往官网 pc.vivo.com 详细查看 vivo 智能车载"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "应用全屏展示，导航更畅快，观影 更沉浸 739m 福田福龙路 仁个个 压线/325 米 280 米压线"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "应用单独调节显示大小，根据车机 屏幕匹配最佳视觉体验 调整前 调整后 24 分钟 北环大道 23 分钟 文港澳高速 1+ ◎m 14 公里 013 开始导航 条田瓜品"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "升级路径：手机设置>更多连接>智能车载＞"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "应用单独调节显示大小需将手机系统升级至 安卓 14 及以上 原系统 OriginOS"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "total_features": 25
+  },
+  {
+    "article_name": "OriginOS_5_十一月体验优化一览",
+    "title": "OriginOS 5 十一月体验优化一览",
+    "sections": [
+      {
+        "title": "详细更新分类列表",
+        "features": [
+          {
+            "title": "系统更新一览",
+            "desc": "",
+            "media": "",
+            "changelog_table": [
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "原子岛收起后可再次呼出 从原子岛胶囊左、右两侧向中间滑动可收起原子 岛，从状态栏中间向左、右两侧滑动可重新呼出 原子岛"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "拖放直达的交互体验，拖放时展开原子岛 卡片更快速便捷"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "图标、按钮等设计样式，UI 效果更精致 02 第三方主题适配无字模式 使用三方主题时，可不显示应用名称， 桌面更简洁美观 03 新增计算器功能"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "调取历史算式 轻松查看并可重新调用之前的算式与结果，提升 计算效率，避免重复输入"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "计算页面算式常驻 计算结果和输入的算式始终可见，便于随时查看 和调整"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "算式滑动交互体验 算式超出一屏时，可以直接滑动算式，快速浏览 算式全貌"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "MR 键调取存储数据上屏逻辑 算式以数字或符号结尾，均可调取存储数据 04 状态栏 HD 图标优化 HD 图标仅在控制中心下沉状态栏显示， 状态栏更简洁 05 新增桌面下滑选项“通知中心/控制中心” 支持桌面左侧下滑通知中心，右侧下滑控制中心， 单手操作更便捷 入口：设置-桌面、锁屏与壁纸-桌面设置-桌面下滑 06 设备传感器权限管控功能 可自主选择是否允许应用访问设备传感器权限， 有效管控“摇一摇”广告跳转 入口：设置-隐私-权限管理-权限-访问设备动作与方向"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "注意：传感器权限禁用后，可能导致应用的游戏操控、屏幕旋转、地图 方位指向等功能无法使用。 07 增加单击状态栏置顶功能 部分应用场景中，单击顶部状态栏即可快速回到 应用的页面顶部 。优化 MR 键调取存储数据上屏逻辑 08 云服务支持微信云备份，聊天记录轻松"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "需提前在云服务-云备份-备份数据类型中开启微信 09 待办组件更多尺寸"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "4*4、4*2 两种不同尺寸的待办组件， 轻松管理查看待办 10 锁屏密码支持 96 小时内通过旧密码重置 修改锁屏密码后的 96 小时内，若忘记新的锁屏密 码，在旧密码未失效的情况下，可通旧密码来重置 锁屏密码并解锁手机 11 全新课程表 支持拍照导入课程表，无需手动输入，体验更便 捷，同时支持新建与切换多个课程表 12 侧边栏、音量面板、设置标题栏等， 提升材质通透质感"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "部分功能可能因系统版本、机型不同而存在差异，请以实际呈现效 果为准。 目前支持机型"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "版本将按计划逐步推送，并非所有用户同步收到升 级通知，暂未收到通知的用户请耐心等待。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "新上市机型 vivo S20 系列、iQ0O Neo10 系列将默 认支持。 X200 Pro iQ00 13 X200 Pro mini iQOO 12 Pro 1Q00 12 X Fold3 Pro iQOO Neo9S Pro+ X Fold3 iQOO Neo9S Pro X100 Ultra iQOO Neo9 Pro X1OOs Pro iQOO Neo9 X100 Pro X100s"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "total_features": 13
+  },
+  {
+    "article_name": "OriginOS_5_春节前体验优化一览",
+    "title": "OriginOS 5 春节前体验优化一览",
+    "sections": [
+      {
+        "title": "详细更新分类列表",
+        "features": [
+          {
+            "title": "系统更新一览",
+            "desc": "",
+            "media": "",
+            "changelog_table": [
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "美团外卖进度提醒"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "微信地址卡片拖放至原子岛，快捷打开导航"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "QQ 文件、视频、高清原图拖放至原子岛， 快速保存或发送"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "拖放直达新增更多通用服务 02 原子通知新增美团、抖音快递 实时追踪状态，不错过外卖快递重要通知 03 访问设备动作与方向权限新增“仅开屏时 禁止”选项 可针对开屏场景设置禁止跳转，更有效地管控摇一 摇广告"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "权限禁用后，可能导致应用的游戏操控、屏幕旋转、地图方位指向等功 能无法使用 04 状态栏整体图标优化 左侧通知图标与通知中心通知图标一致性优化， 右侧状态图标 UI 优化，视觉更精致美观 05 录屏通知支持勿扰状态时静音 录屏过程中，开启录制勿扰后，通知提示音和振动 将静默 06 熄屏通知支持显示更多应用 轻松实现熄屏通知的自定义设置，让重要信息一目 了然 originos5 07 游戏登录时，支持小窗快捷打开 开启小窗跳转后，游戏登录无需退出应用，小窗内 即可操作"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "目前支持部分游戏应用 08 互传支持与 iPhone 传输动态照片 轻松连接跨生态设备，与亲友分享动感瞬间 09 锁屏密码界面优化动画 锁屏页面上滑拉起密码键盘时，增加交互动画，解 锁过程更自然舒适 10 锁屏时间、小组件优化透彩色 在部分壁纸下更显通透，视觉更清爽 11 vivo 健康支持经期数据同步 经期数据可与 vivo 账号绑定，换设备也能同步 本及以上 12 小窗新增简洁模式 支持将小窗控制按钮收纳至顶部横条，界面更清 爽，可在“设置”＞“快捷与辅助”＞“小窗”中选择小 窗样式 13 轻尚锁屏支持指纹图标自定义 支持将文字、字符和部分表情符号设为指纹图标， 提升个性化体验"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "春节前部分机型支持，后续覆盖更多机型 14 蓝心小 V 新增订咖啡智能体 一句话指定咖啡名和规格，自动帮你下单"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "功能入口：蓝心小 V-探索发现-智能体广场 及以上 15 原子组件支持拖至负一屏 桌面与负一屏组件自由互拖，组件摆放更灵活"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "仅尺寸为 2*2，4*2，4*4 的原子组件支持拖拽"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "部分功能可能因系统版本、机型不同而存在差异，请以实际呈现效 果为准。 目前支持机型"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "并非所有用户同步收到升级通知，暂未收到通知的 用户请耐心等待，版本将按计划逐步推送。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "如果想体验尝鲜版本，我们推荐您前往： 设置>系统管理与升级>系统升级＞右上角按钮＞升 X200 Pro iQ00 13 X200 Pro mini 1Q00 12 Pro iQOO 12 S20 Pro iQOO 11 Pro iQOO 11S Y300 Pro iQ0O 11 iQ00 Neo10 Pro X Fold3 Pro iQ00 Neo10 X Fold3 iQOO Neo9S Pro+ X Fold2 iQOO Neo9S Pro X Flip iQOO Neo9 Pro X100 Ultra 1Q00 Neo9 X100s Pro iQOO Z9 Turbo+ X100 Pro iQOO Z9 Turbo 长续航版 X100s X90 Pro+ X90 Pro"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "年 1 月期间公测机型将支持以上功能。 orlginos 5"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "total_features": 13
+  },
+  {
+    "article_name": "OriginOS_6_一月体验升级亮点",
+    "title": "OriginOS 6 一月体验升级亮点",
+    "sections": [],
+    "total_features": 0
+  },
+  {
+    "article_name": "OriginOS_6_五月体验升级亮点",
+    "title": "OriginOS 6 五月体验升级亮点",
+    "sections": [
+      {
+        "title": "详细更新分类列表",
+        "features": [
+          {
+            "title": "系统更新一览",
+            "desc": "",
+            "media": "",
+            "changelog_table": [
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "温馨提示：该功能已通过应用升级逐步覆盖，使用时 需将系统版本升级至 OriginOS 6，蓝心小 V App 版本升 相册焕新 玩法更多 风格调色体验提升 多款色彩风格上新，同时支持调色盘自定义编 辑，创作更具个性 水印编辑体验提升 多款水印样式上新，同时支持水印参数自定义编 辑，满足更多场景使用需求 相册集浏览页新升级 相册分页自定义排序、布局随心切换，自由调整 展示方式 常用相册一键固定，支持添加后置顶，快速访问 更便捷 加为常用 支持按媒体类型分类，可按相机模式精准查找照 片与视频 高像素 文件夹新增日期分组视图 相册文件夹按日分类，支持按日期快速查找照片 与视频，查找更高效 细节升级 更加顺手 原子岛充电动画升级 充电时，原子岛可实时显示充电速度与电量信 息，充电状态一目了然，视觉更美观 超快充电 小 V 写作新增快捷入口"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "温馨提示：小 V 写作输入法快捷入口仅支持在 vivo 输入 法中使用，部分三方应用可能因不兼容系统剪贴板无法 调起快捷入口，请以实际为准 智能车载新增切换手机版地图 你常用的手机地图 App 功能—顺路搜、避开前 路、终点停车等，在车机上也能继续用，体验更 连贯 可通过“车载设置”＞“显示”＞“应用显示”＞“地图显 示”进行体验 更多升级细节 小 V 帮读"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "控制中心小 V 帮读入口，功能使用更便捷 蓝心小 V"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "蓝心小 V 多模态穿插样式，问答支持呈现 视频与三方卡片，丰富阅读体验"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "蓝心小 V 输出图文质量和混排样式，信息 呈现更清爽，阅读更轻松 原子组件"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "日历日程、邮件、清理加速、紫外线、 质，增强界面层级与空间感"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "此功能支持部分机型，请以实际为准 网络"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "AI 网络智选算法，智能匹配优质网络连 接，上网体验稳定又顺畅 无障碍"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "TalkBack 的焦点、标签及交互控件，提升 TalkBack 使用体验"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "如果想体验尝鲜版本，我们推荐您前往：设置＞系 X300 Uitra X300 Ultra 卫星通信版 X300s X300 Pro X300 Pro 卫星通信版 X200 Ultra X200 Pro 卫星通信版 X200 Pro X200 Pro mini X200s X Fold5 X Fold3 Pro X Fold3 X Fold2 X Fold+ X100 Ultra X100s Pro X100 Pro X100s X90 Pro+ X90 Pro X Flip S50 Pro mini S30 Pro mini S20 Pro S19 Pro S18 Pro Y600 Pro Y500 Pro Y500s Y500i Y300 GT Y300 Pro+ Y300c Y300t Y300+ iQOO 15 Ultra iQ00 15 iQOO 13 iQOO 12 Pro iQOO 12 iQOO 11 Pro iQOO 11S iQ00 11 iQ00 10 Pro iQ00 10 iQ00 Neo11 iQ0O Neo10 Pro+ iQ0O Neo10 Pro iQ0O Neo10 iQ00 Neo9S Pro+ iQOO Neo9S Pro iQOO Neo9 Pro iQ0O Neo9 iQ0O Neo8 Pro iQ00 Neo8 iQ00 Neo7 竞速版 iQ0O Neo7 iQOO Neo7 SE iQOO Z11 Turbo iQ00 Z11 iQ0O Z11× iQOO Z10 Turbo+ iQOO Z10 Turbo Pro iQOO Z10 Turbo iQ00 Z9 Turbo 长续航版 iQOO Z9 Turbo+ iQOO Z9 Turbo iQ00 Z9"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "本页面所展示的产品界面与功能说明（包括但不限于 UI、背景、产 最新资讯•触手可得 vivo 官网 搜索@OriginOS 关注@OriginOS 原系统"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "total_features": 11
+  },
+  {
+    "article_name": "OriginOS_6_十二月体验升级亮点",
+    "title": "OriginOS 6 十二月体验升级亮点",
+    "sections": [
+      {
+        "title": "详细更新分类列表",
+        "features": [
+          {
+            "title": "系统更新一览",
+            "desc": "",
+            "media": "",
+            "changelog_table": [
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "适配安卓 13 及以上的 vivo 和 iQOO 机型，看展、 看演出拍一堆，打开互传 App 摇一摇就能全分享 传送女件记受 新玩法登场 氛围感升级 3D 空间壁纸 普通照片秒变裸眼 3D 照片，锁屏更生动"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "D 空间壁纸功能现已开放 Beta 版本抢先体验，为了获得更佳的立体呈现 效果，建议尝试不同类型且主体清晰、背景干净的照片，后续会持续进行 体验优化；此功能 12 月支持 X300 系列、iQ0015，后续将陆续推送 X200 系 列、iQ0013、X Fold5 三.| 文字宣言主题 7 款全新文字模版，熄锁转场一镜到底，挑好锁屏壁 纸，玩出更多个性 PEAOE MAGIC！ PEAOEa MIGIG MAGIC 每日活动 热量 235 千 中高强度 25 热量，235 千 20C 晴 27： 27； 27\" 6EA0E PEAbR DPEACE PEACE。 PEACR PEACE PEADE 2 口 20C 晴 27% 東德限以 iEitla BEAUE 1EA0E 1EA0B 锁屏小组件上新"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "扫一扫、支付码、乘车码小组件，常用服务一触即达 体验再进阶 顺手又顺心 小 V 建议 视觉焕新 所有卡片视觉全面升级，重要信息突出显示，卡片 布局更合理，视觉更美观 海外设计项目会议 海外设计专项汇报 今天 〉>> 计算机应用基础 大学英语 还有 6 门课程 深圳会展中心酒店 联系酒店 宝安区展丰路 80 号 入住 离店 共 3 晚 数据来源：短信解析 部门战略规划会 小 V 建议项目例会 还有 8 个日程 待取件•顺丰快递 步步高大楼西侧丰巢 1 号柜 派送中 待取件 已签收 正在呼叫 3 种车型 追加车型 请您耐心等待 当前呼叫车型 快车、专车等 服务上新 安卓首家接入秀动 App，抢票前原子岛、原子通知及 时提醒，购票后，小 V 建议可查看详细演出购票信 息，演出票务一手掌握 航班出行体验优化"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "更多航班状态节点，信息提醒更全面 线上值机已开放 去值机 CZ3192 北京首都 T3 深圳宝安 T3 信息来自航旅纵横，请按计划起飞时间安排出行。 已值机 | 座位号 32A 登机牌 已值机|座位号 32A 登机口变更为 132 CZ3192| 值机口 A1-A2 开始登机|登机口 323 CZ3192 | 座位号 32A 飞行中|座位号 32A 火车卡片布局优化 信息查看更高效 钉钉来电上岛 安卓首发钉钉来电接入原子岛，来电接听更顺畅 V7o40 蓝心小 V 交互界面焕新升级，新建对话、历史对话、智能体广场、 智能体记录等功能应用内侧滑即可快速找到，分类更清晰 桌面文件夹动画升级 桌面文件夹新增展开和收起的弹性分层动画，文件夹展 开和折叠时应用图标自然扩散和收缩 困• 工具 出• 更多好用更新 体验更进一步 Live Photo"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "微信聊天中支持发送实况照片，选择 Live Photo 后即可发 送，好友打开即可查看实况照片，并可保存到本地 主题"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "支持独立替换控制中心主题资源，可根据桌面主题的 颜色进行自由搭配，不同色彩随心换"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "使用路径：在主题 App 中搜索「控制中心」，即可下载不同配色的控制中心主题资源"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "连接中心卡片样式，视觉效果更美观协调 天气组件"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "4x2 天气组件，视觉更美观，天气信息一目了然 晕动视觉辅助"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "晕动视觉辅助自定义显示效果，随心调节屏幕圆点 颜色、大小和数量"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "日历 Al 搜索能力，搜索自然语言即可快速定位日程， 信息获取更高效"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "录音机文件默认命名，格式调整为“年月日_时分秒”"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "语义理解能力，提升搜索答案与参考来源的关联性，AI 搜索结果更准确 网络"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "定位精准度，减少打车时位置偏差"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "移动网络下玩游戏的网络稳定性，提升游戏网络体验 无障碍"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "TalkBack 的焦点、标签及交互控件，提升 TalkBack 使用体验"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "图像描述功能保活机制，提升图像描述开关在不同 模式下稳定性 智能车载"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "小 V 唤醒及对话时的光影效果"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "音乐沉浸模式歌词两行显示，增加歌词切换效果"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "横屏车机沉浸式音乐状态栏切换上一首及歌词切换效果"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "竖屏车机组件区域调整功能，支持仅展示单行组件"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "导航悬浮卡片、状态栏组件显示导航进度"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "爱奇艺影音流转，支持在控制中心音乐卡片将视频流转 到车机播放"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "首页组件自动贴边、自定义按钮自动隐藏逻辑"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "连接中心卡片样式，视觉效果更美观协调"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "日历 AI 搜索能力，搜索自然语言即可快速定位日程，"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "定位精准度，减少打车时位置偏差"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "横屏车机沉浸式音乐状态栏切换上一首及歌词切换效果"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "新上市机型 vivo S50 系列将默认支持以上功能"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "如果想体验尝鲜版本，我们推荐您前往：设置>系统管理 X300 Pro Y500 Pro X Fold5 X200 Ultra X200 Pro X200 Pro 卫星通信版 X200 Pro mini X200s XFold3 Pro × Fold3 X100 Ultra X100s Pro X100 Pro X100s iQ00 15 iQ00 Neo11 iQ00 13 iQ00 Neo10 Pro+ iQ00 Neo10 Pro iQ00 Neo10 iQ00 12 Pro iQ00 12 iQ0O Neo9S Pro+ iQ0O Neo9s Pro iQ0O Neo9 Pro iQ00 Neo9 iQOO Z10 Turbo+ 晰、背景干净的照片，后续会持续进行体验优化；此功能 12 月支持 X300 系列、iQ0015，后续将陆续推送 原系统 orlainos iQ0O 12 Pro 最新资讯•触手可得 vivo 官网 搜索@OriginOS 关注@OriginOS 原系统"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "total_features": 30
+  },
+  {
+    "article_name": "OriginOS_五月系统升级亮点",
+    "title": "OriginOS 五月系统升级亮点",
+    "sections": [
+      {
+        "title": "详细更新分类列表",
+        "features": [
+          {
+            "title": "系统更新一览",
+            "desc": "",
+            "media": "",
+            "changelog_table": [
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "桌面文件夹进入/退出、负一屏到桌面等场景支 持交互可打断，大幅提升交互效率，带来丝滑流畅 体验 设计更润了 看着就舒服 全局 G2 圆角一眼柔和感 自研 G2 曲线算法，提升多场景的圆角舒适度与统一 性，带来更好的视觉体验 抢票，都丝滑到底，抢票速度提升 36%' 演唱会 一一深圳站 满血 AI 怎么玩都灵 AI 魔法移动 照片二创玩得转 自由移动、缩放主体位置，AIGC 智能补全背景， 废片秒变大片 2 AI 扩图 画面边界秒拓展 智能延展画面边界，让照片构图更自由、创作更尽兴 3 小 V 建议 给你来点生活好建议 小 V 建议持续上新，给你带来更多实用服务‘ 办公 打卡 桌面一键直达钉钉打卡界 27： 考勤打卡 面，告别漏打卡、忘打卡 旅游"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "汇率换算、双城天气、 25： 翻译、当地应用推荐等服务 27$ 生活"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "更多天气服务，早晚 26% 安天气提醒、异地/双城 天气显示/极端天气显示 小 V 帮读 方言朗读更亲切"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "7 种方言朗读，用家乡话也能听书、听文章 大事记：全新 OriginOS 今日 发布 据悉，人工智能产业创新重点任务揭榜工作 粤禧 网川话 陕两话 山东话 河南话 东北 苗语 蓝心小 V AI 百变风格 玩出更多创意"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "更多风格，一键自由切换，不受画面场景限制 原图 插画风格 小 V 电话助手 骚扰电话一边儿去"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "AI 自动接听功能，骚扰 电话、陌生号码或联系人来 电，AI 替你高效应对 Live Photo 精彩瞬间动起来 Live Photo 编辑更自由"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "Live Photo 可编辑时长的能力，轻松删除废片镜 头，支持关闭声音，告别尴尬画外音‘ 视频转 Live Photo 动感片段随心选"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "支持节选长视频高光片段， 一键转为高清 Live Photo，精彩一触即现 朋友圈支持 Live Photo 点赞翻一番"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "微信朋友圈支持查看与发布 Live Photo，让你的 分享更生动、更有故事感 6 OriginOS 发个 Live，让朋友圈动起来 更多升级亮点 设计"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "景深壁纸智能扩图算法，延展壁纸画面，避免主体遮 挡，更易触发景深效果？"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "原子随身听收藏按钮，锁屏播放控件、原子岛、随身听 音乐大卡支持一键收藏，操作更便捷 电池养护"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "智能充电引擎，智能调控充电温度，基于 Al 场景识别优 化充电策略，提升电池健康"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "升级系统轻量化，优化蓝牙连接及后台应用耗电，提升手机 待机场景下续航能力 8 安全"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "查找网络，即使设备在关机、无网络连接状态下，仍可 精准定位°"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "自动同步账号与密码，用户密码数据可实现同一账号下 多设备间安全、便捷同步 10 连接“"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "车载自定义状态栏设置，支持灵活设置状态栏应用和背 景板样式，打造更个性化的使用体验"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "百度地图巡航和导航时深色模式跟随车机端设置联动"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "CarLife+和亿连车机端媒体音频采样率调节设置"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "车载已适配的媒体应用切换逻辑，再次进入会回到离开 时的页面"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "车载使用时长组件的数据显示逻辑，断连时数据不重置"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "数字车钥匙功能在部分触点的显示逻辑"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "NFC 智能选卡识别准确率，根据用户场景，自动选择门 禁卡、交通卡等卡片，轻松通行无需手动切换 其他好用功能"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "陌生号码自动通话录音功能，开启后陌生号码来电自动 开启通话录音"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "升级低时延引擎为 AI 电竞信号引擎，保障游戏在蜂窝、Wi-Fi 下更稳更流畅 12"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "原子岛拖放直达置顶服务“转为 PDF”、“PDF 转换”、“打 开文档”、“用 WPS 打开”"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "原子岛“钉钉打卡”胶囊状态，支持自定义设置上下班打 卡时间、地点及范围，满足条件即可一键直达钉钉考勤页， 高效快捷打卡"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "系统后台内存管理，提升长时间刷抖音的稳定流畅性 度，并对大图页抠图、原子岛相关逻辑进行优化"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "无障碍模式下的基础使用体验 X200 Ultra X200s X200 Pro X200 Pro 卫星通信版 X200 Pro mini XFold3 Pro XFold3 X Fold2 X Fold+ XFold X100 Ultra X100s Pro X100 Pro X100s XFlip X Note X90 Pro+ X90 Pro X80 Pro X80 Pro 天玑 9000 版 $20 Pro S19 Pro S18 Pro S17 Pro S16 Pro Y300 GT Y300 Pro+ Y300 Pro Y300i Y300t Y200 GT iQ00 13 iQ00 12 Pro iQ00 12 iQ00 11 Pro iQ00 115 iQ00 11 iQ0010 Pro iQ00 10 iQOO 9 Pro iQ00 9 iQ0O Neo10 Pro iQ00 Neo10 iQOO Neo9S Pro+ iQ0O Neo9S Pro iQOO Neo9 Pro iQOO Neo9 iQOO Neo8 Pro iQ00 Neo8 iQOO Neo7 竞速版 iQ00 Neo7 iQOO Neo7 SE iQ0O Neo6 iQOO Neo6 SE iQOO Z10 Turbo Pro iQOO Z10 Turbo iQOO Z10x iQOO Z9 Turbo+ iQOO Z9 Turbo 长续航版 iQOO Z9 Turbo iQOO Z9 iQ0O Z8 iQOO Z7"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "为保障体验稳定，各机型按照行业通用的“灰度推送”机制，逐步开放至全量，请您耐心等待。 具体以实际情况为准。此功能旨在提升抢票场景下的流畅度体验及抢票速度，最终抢票结果受到余票变动、购票 2.AI 魔法移动：由于平台限制， 目前支持 X200 系列/X100 系列/X90 系列/X Fold3 系列/X Fold2 系列/X Fold 系列 Neo9s Pro+/iQ00 Z10 Turbo Pro/iQ0O Z9 Turbo+，后续适配进度请留意官方消息。 敬请耐心等待。 敬请耐心等待。同 11 系列/iQ00 Neo 10 系列/iQ0O Neo9 系列/iQOO Z10 Turbo Pro/iQ0O Z10 Turbo/iQ00 Z9 Turbo+/iQ00 后续适配请留意官方消息。此功能将于 5 月 16 7.景深壁纸扩图： 若图片中主体物距离图片顶部太近则不支持顶部扩图。 /iQ0O Neo9 系列， 后续适配进度请留意官方消息。 11.vivo 智能车载： 原系统"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "total_features": 29
+  },
+  {
+    "article_name": "OriginOS_八月系统升级亮点一览",
+    "title": "OriginOS 八月系统升级亮点一览",
+    "sections": [],
+    "total_features": 0
+  },
+  {
+    "article_name": "一图读懂满血_ColorOS_15，流畅_AI_全面进化！",
+    "title": "一图读懂满血 ColorOS 15，流畅 AI 全面进化！",
+    "sections": [
+      {
+        "title": "系统功能升级与体验改进",
+        "features": [
+          {
+            "title": "满血 ColorOS 15",
+            "desc": "满级流畅再升级 满血 AI 再进化 好用功能再上新 远控电脑与跨屏互联 全新堆叠动画 小布助手再焕新 ColorOS 游戏助手全新升级 浮窗连续打断动画 更多 AI 新体验 自由浮窗全新升级 个 张小 4 月升级 5 月升级 更多好用功能 机型升级列表 ColoOS",
+            "media": "assets/images/一图读懂满血_ColorOS_15，流畅_AI_全面进化！/0.webp"
+          }
+        ]
+      }
+    ],
+    "total_features": 1
+  },
+  {
+    "article_name": "新春加“马”！OriginOS_陪你一起过大年",
+    "title": "新春加“马”！OriginOS 陪你一起过大年",
+    "sections": [
+      {
+        "title": "系统功能升级与体验改进",
+        "features": [
+          {
+            "title": "新春新玩法",
+            "desc": "OriginOS 陪你过大年 陪你过太年",
+            "media": "assets/images/interactive/28ae498fa4dfcd899e8781de88d285a5.png"
+          },
+          {
+            "title": "马上好运来 米",
+            "desc": "秒抢引擎抢红包 红包提醒速度、触控响应速度、网络资源调度 全链路优化，抢红包更流畅，好运快人一步 *小贴士：抢红包速度不同机型表现可能存在差异，最终抢红包 结果受具体网络环境等多重客观因素影响，效果以实际为准。 * 小贴士：抢红包速度不同机型表现可能存在差异，最终抢红包",
+            "media": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png"
+          },
+          {
+            "title": "马上换新装：",
+            "desc": "vivo 全家桶主题焕新 vivo 系列手机主题、手表主题、耳机主题、 Pad 壁纸精彩焕新，祝你年年“有钱花” RICH FLOHER GOIRIOHICO！ 马有钱花 RICHF RICH FLOWER 马上换新装 米 RICh FLOWER° GOIRIOHIGO！ 马上有钱花 RIck（ RICAFL",
+            "media": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png"
+          },
+          {
+            "title": "神驹贺岁新春主题",
+            "desc": "国风入屏，多彩骏马齐贺岁，年味“活”起来 *小贴士：前往主题 App 搜索「神驹贺岁」即可下载体验。",
+            "media": "assets/images/interactive/b1d83688416ebdab3687fd6ba48fd4b9.png"
+          },
+          {
+            "title": "趣味光栅上新",
+            "desc": "图集新增景深效果，美图上屏不遮挡， 更有空间感",
+            "media": "assets/images/interactive/54b4b4aedf242103782a5f248ca634f9.png"
+          },
+          {
+            "title": "小 V 建议新春卡片",
+            "desc": "贴心祝福，年味满满 北方小年•腊月廿三 扫去旧尘，也拂去心上的倦意。 花样假期 集五福 节日习俗 小游戏 请以实际使用的情况为准。",
+            "media": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png"
+          },
+          {
+            "title": "横向个性时钟增加农历快捷信息",
+            "desc": "农历节日一眼可见，从从容容过大年",
+            "media": "assets/images/interactive/db6c53f3c8578da196ed8d1c523bd3d6.png"
+          },
+          {
+            "title": "锁屏景深支持添加小组件",
+            "desc": "有景深，也有小组件，颜值、效率都拉满 24°",
+            "media": "assets/images/interactive/6b119225a0118aa0fe8b839546605914.png"
+          },
+          {
+            "title": "马上出去玩；",
+            "desc": "新春相册水印 水印一加，秒变新春福照 VivO X300 马跃新腸新气系",
+            "media": "assets/images/interactive/cdcc0610ac290f6e694637a8e325140c.png"
+          },
+          {
+            "title": "热点上岛",
+            "desc": "热点连接数量一看知，流量共享更便捷 （） （（） 关闭 •牛 U 19%",
+            "media": "assets/images/interactive/358615820e422379978ae4f9a5c7417e.png"
+          },
+          {
+            "title": "还有更多贴心功能",
+            "desc": "陪你一起欢度假期 摇一摇群组分享 新春原图批量秒分享，安卓 13 及以上 vivo 手机 都支持 及以上版本即可在 App 内摇一摇使用；若系统为 OriginOS 6，还 支持在桌面、相册、文件管理系统应用中直接摇一摇操作。",
+            "media": "assets/images/interactive/370f3c7278fcdf59d62caf57d0c6112b.png"
+          },
+          {
+            "title": "原系统",
+            "desc": "origInos 恭喜发财，大吉大利",
+            "media": "assets/images/interactive/3c73a0acb45c0478fb6f965dc41fe54c.png"
+          }
+        ]
+      }
+    ],
+    "total_features": 12
+  },
+  {
+    "article_name": "月月有更新！ColorOS_三月体验升级一览",
+    "title": "月月有更新！ColorOS 三月体验升级一览",
+    "sections": [
+      {
+        "title": "详细更新分类列表",
+        "features": [
+          {
+            "title": "系统更新一览",
+            "desc": "",
+            "media": "",
+            "changelog_table": [
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "AI 合成语音识别功能，通话过程中智能识别对方声 音是否经过 Al 合成或 AI 变声，降低受骗风险。 13********9 广东深圳 ** 疑似合成语音 挂断 用户："
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "OPPO Find N5 已支持 AI 合成语音识别功能。 70+机型接入 DeepSeek AI 体验再升级 对话更自然 记录也能查"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "一键或语音唤醒小布直接调用 DeepSeek-R1 联网满 血版，支持自动保存对话记录并分类，方便随时查阅历史 信息。 对话记录在这里 x 欢迎问我任何问题 二 “如何处理面试中的紧张情绪” ah“以'突然有了预知未来的能力'写一本书” “请用深度思考分析赌王家族关系” C 换一换 按住说话 及以上用户： OPPO Pad 3 Pro OPPO Pad 2 细节再完善 好用更贴心 滴滴小程序上流体云 打车提醒超省心"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "小布建议和流体云支持显示滴滴出行小程序中的打车 服务。 立即查看 粤 B8***8 白•奥迪 接单 上车点 目的地 文件夹形状自由调整 桌面布局更灵活"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "桌面文件夹可拖拽调整大小为 1×2 和 2×1 尺寸，桌面 排布由你掌握。 3 s1l 100 更多好用功能"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "）手机管家隐私中心模块，支持检测权限过度授权行 为，并可对闲置权限一键回收"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "）手机管家应用后台定位风险提醒，系统会主动弹框 提示，保护个人位置信息安全"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "）手机管家支持一键关闭所有应用的广告跟踪权限， 操作更便捷"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "）流体云支持同时显示多个美团、饿了么外卖订单进 度信息"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "小布建议支持显示同一应用下的多个外卖、打车等 订单或服务 （新增 智慧车载支持镜像模式和极简模式投屏功能，可将 手机上的所有应用投屏至车载屏幕上使用 智慧车载支持 Android auto 功能，在境外也可以使 用 Android auto 进行车联 桌面分屏组合支持重命名 （优化隐私密码找回功能，可通过关联账号的方式找回隐 私密码，避免因忘记安全问题而无法找回，丢失重 要数据 （优化 桌面应用启动、退出、侧滑的动效，让视觉体验更 加自然、顺滑 （优化）4×6 桌面布局中三方应用 2×2 和 4×2 桌面插件尺寸。 及显示效果，以提升视觉一致性"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "WLAN 网络连接体验，提升抖音看直播/微信视频 通话流畅性"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "WLAN 切换与漫游性能，提升网络流畅性 第二批功能升级 实用信息 一眼获悉 快递智能提醒上流体云 即时取件更便捷"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "支持快递待取件在流体云上显示，靠近驿站、快递柜 时智能提醒。 3 件快递待取 快件已暂存至 ***********2 号丰巢柜 桌面黄历卡 每日宜忌一目了然"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "支持在桌面添加黄历卡片，便捷查看农历日期及宜忌 二月十一"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "闹钟设置提醒，在节假日上班前 1 日主动提醒设置 闹钟"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "逍遥游卡片，集合出境时的境外通信上网、旅行资 讯、实时翻译等，常用服务一步直达"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "文件管理支持查找钉钉、飞书等更多三方应用中的 文件，方便快速从不同应用中找到下载的文件"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "私密保险箱中的文件加密/解密速度"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "笔记首页布局，私密笔记本不显示在首页列表，保 护个人隐私 对应闹钟 相关进展与计划后续将在 ColorOS / ColorOS 升级助手官 新，感谢大家的关注。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "版本升级通知采取逐步推送的方式，以上计划为最迟在该日期开始推送，并非 所有用户可立即收到版本升级通知，若您未收到通知，请耐心等待。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "部分功能依赖手机硬件支持，不同机型可能存在差异，请以实际呈现效果与官 方渠道信息为准。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "机型排序与升级先后顺序无关，具体机型升级时间请以实际为准。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "AI 合成语音识别功能需在手机管家或电话本设置中开启： 1）前往「设置」-「手机管家」-「通讯安全」，开启「合成语音识别」； 2）前往「电话本」-「设置」，开启「合成语音识别」。 支持应用范围包括系统通话、腾讯会议以及飞书会议。因语种、口音、所处环"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "流体云滴滴出行小程序提醒包括微信/支付宝小程序，需要进行以下设置： 1）前往「设置」-「AI」-「小布建议」-「出行服务」，开启「打车服务」； 2）前往「设置」-「通知与控制中心」-「流体云」，开启「滴滴出行」。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "流体云快递智能提醒服务需要进行以下设置： 1） 前往「设置」-「AI」-「小布建议」-「绑定服务账号」-「快递」，绑定 手机号（需与快递取件手机号一致）； 2） 前往「设置」-「AI」-「小布建议」-「生活服务」，开启「快递服务」； 3）前往「设置」-「通知与控制中心」-「流体云」，开启「快递提醒服务」。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "智慧车载镜像模式和极简模式投屏功能仅限 ICCOA 协议下的部分车型。 ColotOS 超流畅，更 AI"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "total_features": 26
+  },
+  {
+    "article_name": "月月有更新！ColorOS_二月体验升级来了",
+    "title": "月月有更新！ColorOS 二月体验升级来了",
+    "sections": [
+      {
+        "title": "详细更新分类列表",
+        "features": [
+          {
+            "title": "系统更新一览",
+            "desc": "",
+            "media": "",
+            "changelog_table": [
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "淘票票智能观影提醒，支持在小布建议和流体云上呈 现电影取票和观影提醒。 只此青绿 B 取票码 演唱会倒计时 读秒抢票超实用"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "大麦演出倒计时抢票提醒，支持在小布建议和流体云 上呈现抢票信息。 【北京】2025 黄明昊“贾想 世界“个人演唱会 距开抢还剩 情人节水印 甜蜜时刻专属回忆 相册新增多款情人节限定水印，为你的照片加点怦然心动。 Valentines\" 小日常 大浪漫 好用加码更高效 小布识屏 选词取字精准拿捏"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "选词模式，可对识别文字进行分词选词操作，更精准 选择和复制，降低漏选、多选、误选发生。 提取文字 全选 做一个长白山 5 天 4 夜的旅 游方案 建议的方案 第一天： 出发前往长白山，抵达后入 住二道白河小镇的民宿。 手机文件批量圈选一步下载"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "随身工作台批量压缩下载，网页端下载手机文件可转 为压缩包下载，下载速度更快且更省空间。 （Q1"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "随身工作台 Co 跨端文件 Q 說 已选择 5 项 2025 品牌营销提案.ppt D 品牌跨界合作合同.pdf O Relax.apk 2025 会议计划录屏.mp4 品牌视觉素材合集.zip 品牌广告歌曲.mp3 广告海报设计.pdf 更多好用功能"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "小布建议卡片翻动时的低阻尼动效，细致打磨卡片 切换过程中的空间感和流畅度，操作体验更加流畅 自然"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "小布建议场景卡片集功能，动态感知和识别生活场 景，并自动关联组合行程、出行建议、目的地信息 等服务，高效智能"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "小布建议电竞、体育赛事服务提醒，赛事信息一目 了然"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "日历支持分享日程"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "日历、天气字体大小随系统字体设置变化"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "文件管理支持图片排序功能，支持按修改时间、拍 摄时间和名称排序"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "Car+车联适配新版高德地图，提升兼容性"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "QQ 音乐在车机上的显示效果，功能使用更便捷"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "应用使用时长桌面卡片，便于合理使用手机"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "小布建议通勤卡设计，提升视觉效果 相关进展与计划后续将在 ColorOS / ColorOS 升级助手官 新，感谢大家的关注。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "OPPO Find N5 上市后即支持上述功能。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "版本升级通知采取逐步推送的方式，以上计划为最迟在该日期开始推送，并非 所有用户可立即收到版本升级通知，若您未收到通知，请耐心等待。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "部分功能依赖手机硬件支持，不同机型可能存在差异，请以实际呈现效果与官 方渠道信息为准。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "机型排序与升级先后顺序无关，具体机型升级时间请以实际为准。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "淘票票观影提醒/大麦抢票提醒功能依赖三方应用适配，并开启流体云+小布 建议提醒权限： 下载更新；"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "前往「设置」-「通知与控制中心」-「流体云」，开启「淘票票」/「大麦」应 用提醒权限； ．前往「设置」-「AI」-「小布建议」，开启「电影演出服务」提醒权限；"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "Car+车联适配新版高德地图功能依赖三方应用适配，请将「高德地图」应用"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "Car+车联的 QQ 音乐显示效果优化依赖三方应用适配，请将「QQ 音乐」应用 Colo:OS 超流畅 更 AI"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "total_features": 23
+  },
+  {
+    "article_name": "过年不停更，ColorOS_一月体验升级来了！",
+    "title": "过年不停更，ColorOS 一月体验升级来了！",
+    "sections": [
+      {
+        "title": "详细更新分类列表",
+        "features": [
+          {
+            "title": "系统更新一览",
+            "desc": "",
+            "media": "",
+            "changelog_table": [
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "实况照片编辑和参数回溯，支持裁剪旋转、调 节、编辑滤镜与水印，保存后依然为实况格式，效 果可复原重调。 保存 新春限定水印 给你的照片加点年味"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "多款相册新春水印，为你的新年照片添加节日 氛围。 新春限定"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "定水部• 个性函： 新春小布 帮你轻松拿捏年味 小布更新春 陪你玩转新年"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "小布建议新春系列卡片（春晚直播、新春观 影、美食推荐等），还能让小布放烟花，写新春贺 卡和画福，更多新春玩法等你体验。 2025 春节倒计时：3 天 2025 春节倒计时 2025 春节佺 年廿七 提灯笼 返程抢烹 新春游玩 米放个组花 @ 拍个新年照 除夕夜 正月初一 金年大吉•幸福安康 |翻 春节朕烦晚会 焱 該个烟花 小布城市游 春节跨城出游更省心"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "小布建议跨城组合卡，前往北京、上海、广 州等热门城市，一站式游玩服务智能推荐。 青岛 陆止于此，海始于期 小布基仪：發统 OPPOReno11 第二批功能升级 超多实用功能优化 越升越好用 搜索优化 跨应用文档一步查搜"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "全局搜索支持跨应用文档随心搜，快速查找文件。 Q 春节旅游 本机 综合 应用 小红书 百度 bilibili 文件 更多〉 春节旅游攻略.doc 春节旅游预算.xls 春节旅游路线.，pdf 文档名称已复制 去粘贴搜索 常用文件放桌面 随用随点更方便"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "文件管理支持将文件、文件夹以快捷方式添加 至桌面。 15° 超轻快 更自在 新春照片合集 录音回收站 误删快速找回"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "录音回收站功能，可查看和恢复 30 天内删除 的录音文件。 少三 0 全选 已选择一项 春节回家购票沟通录音 春节必购年货沟通录音 春节出游安排沟通录音 恢复 更多好用功能"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "相册连拍合集页内支持预览缩放"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "相册建议清理功能，一键清理无用照片，释放 存储空间"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "天气添加城市时，支持天气信息预览"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "便签笔记正文字号调节功能"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "车辆设备面板支持停车记录功能，下车后可记 录停车位置和停车时长，方便寻找爱车"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "应用权限设置列表支持滑块索引，可快速定 位到应用，提升查找效率"
+              },
+              {
+                "module": "核心功能",
+                "type": "新增",
+                "desc": "权限管理支持不同授权状态查看选项，方便 查看每个授权状态下的应用详情 （优化）百度打车履约体验，打车进程一目了然 （优化优化相册图集中人物图集和智能图集，提升分 类准确性 （优化 小布识屏文字提取体验，新增搜索和翻译功能"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "手机管家病毒扫描结果页交互方式，支持单 次多选清理风险应用，操作更便捷 红外遥控拍照添加遥控器功能，一键拍照即 可添加遥控器 区域截屏功能，去除截屏后的预览浮窗，提升 区域截屏使用体验 相关进展与计划后续将在 ColorOS / ColorOS 升级助手官 感谢大家的关注。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "版本升级通知采取逐步推送的方式，以上计划为最迟在该日期开始推送，并非所有 用户可立即收到版本升级通知，若您未收到通知，请耐心等待。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "部分功能依赖手机硬件支持，不同机型可能存在差异，请以实际呈现效果与官方渠 道信息为准。"
+              },
+              {
+                "module": "核心功能",
+                "type": "优化",
+                "desc": "机型排序与升级先后顺序无关，具体机型升级时间请以实际为准。 开启「常用应用文档搜索」权限。 往「相册」APP 检测升级，或软件商店搜索「相册」升级（「相册」应用版本为 更流畅 更智慧 更好用"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "total_features": 19
+  },
+  {
+    "article_name": "首批机型本月开启_ColorOS_15_正式版升级",
+    "title": "首批机型本月开启 ColorOS 15 正式版升级",
+    "sections": [],
+    "total_features": 0
+  }
+]

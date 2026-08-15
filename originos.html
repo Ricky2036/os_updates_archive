@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="OriginOS 升级日志全记录，收录从 2024 年至今的所有月度更新详情与亮点回顾。">
+    <meta property="og:title" content="OriginOS 升级日志全记录">
+    <meta property="og:description" content="OriginOS 操作系统升级日志全记录，收录从 2024 年至今的所有月度更新详情与亮点回顾。">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://ricky2036.github.io/ColorOS_Updates_Web/assets/images/logo_originos.png">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <title>OriginOS 升级日志全记录</title>
+    <link rel="stylesheet" href="style_v3.css?v=7">
+</head>
+<body>
+    <header class="top-nav">
+        <div class="nav-content">
+            <div class="nav-left">
+                <div class="nav-brand-container">
+                    <img src="assets/images/logo.png" alt="OS档案馆" class="nav-brand-icon">
+                    <span class="nav-brand-text">OS档案馆</span>
+                </div>
+            </div>
+            <div class="nav-right">
+                <a href="index.html" class="nav-item ">ColorOS</a>
+                <a href="originos.html" class="nav-item active">OriginOS</a>
+                <a href="hyperos.html" class="nav-item ">HyperOS</a>
+                <a href="reader.html" class="nav-item" style="color: var(--brand-primary, #0066ff); font-weight: 700;">✨ 高定长图精排阅览器</a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="sidebar-wrapper">
+            <aside class="sidebar">
+                <div class="sidebar-header" style="cursor: pointer;" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
+                    <img src="assets/images/logo_originos.png" alt="OriginOS Logo" class="sidebar-logo">
+                    <p class="sidebar-subtitle">月更档案</p>
+                </div>
+                <div id="timeline-nav">
+<h3 class="nav-year">2026年</h3>
+<ul class="timeline">
+<li class="active"><a href="articles/OriginOS_6_五月体验升级亮点.html" target="content_frame" data-article="OriginOS_6_五月体验升级亮点">OriginOS 6 五月体验升级亮点</a></li>
+<li><a href="articles/OriginOS_6_一月体验升级亮点.html" target="content_frame" data-article="OriginOS_6_一月体验升级亮点">OriginOS 6 一月体验升级亮点</a></li>
+<li><a href="articles/新春加“马”！OriginOS_陪你一起过大年.html" target="content_frame" data-article="新春加“马”！OriginOS_陪你一起过大年">新春加“马”！OriginOS 陪你一起过大年</a></li>
+</ul>
+<h3 class="nav-year">2025年</h3>
+<ul class="timeline">
+<li><a href="articles/OriginOS_6_十二月体验升级亮点.html" target="content_frame" data-article="OriginOS_6_十二月体验升级亮点">OriginOS 6 十二月体验升级亮点</a></li>
+<li><a href="articles/OriginOS_八月系统升级亮点一览.html" target="content_frame" data-article="OriginOS_八月系统升级亮点一览">OriginOS 八月系统升级亮点一览</a></li>
+<li><a href="articles/OriginOS_五月系统升级亮点.html" target="content_frame" data-article="OriginOS_五月系统升级亮点">OriginOS 五月系统升级亮点</a></li>
+<li><a href="articles/OriginOS_3月体验更新一览.html" target="content_frame" data-article="OriginOS_3月体验更新一览">OriginOS 3月体验更新一览</a></li>
+<li><a href="articles/OriginOS_5_春节前体验优化一览.html" target="content_frame" data-article="OriginOS_5_春节前体验优化一览">OriginOS 5 春节前体验优化一览</a></li>
+</ul>
+<h3 class="nav-year">2024年</h3>
+<ul class="timeline">
+<li><a href="articles/OriginOS_5_十一月体验优化一览.html" target="content_frame" data-article="OriginOS_5_十一月体验优化一览">OriginOS 5 十一月体验优化一览</a></li>
+</ul>
+
+                </div>
+            </aside>
+        </div>
+
+        <!-- Mobile hamburger toggle -->
+        <button class="mobile-menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+            <span></span><span></span><span></span>
+        </button>
+        <div class="mobile-overlay" id="mobileOverlay"></div>
+
+        <main class="content">
+            <div id="skeleton" class="skeleton-loader hidden">
+                <div class="skeleton-title"></div>
+                <div class="skeleton-line"></div>
+                <div class="skeleton-line short"></div>
+                <div class="skeleton-block"></div>
+                <div class="skeleton-line"></div>
+                <div class="skeleton-line short"></div>
+            </div>
+            <div id="article_container" style="width: 100%; height: 100%; overflow-y: auto;"></div>
+        </main>
+    </div>
+    <script src="data_originos.js?v=2"></script>
+    <script src="script_v3.js?v=10"></script>
+</body>
+</html>

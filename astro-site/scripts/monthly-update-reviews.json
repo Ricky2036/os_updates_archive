@@ -3085,190 +3085,208 @@
     "30": [
       {
         "id": "review-01",
-        "module": "笔记",
-        "moduleSource": "explicit-inline",
-        "type": "优化",
+        "module": "小米超级岛",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
         "typeSource": "explicit",
-        "sourceText": "“待办”页的流畅度，页面切换更顺滑。",
-        "description": "“待办”页的流畅度，页面切换更顺滑。"
+        "sourceText": "适配”“麦当劳”取餐码，一键出示二维码，到店取餐更方便",
+        "description": "适配”“麦当劳”取餐码，一键出示二维码，到店取餐更方便"
       },
       {
         "id": "review-02",
-        "module": "笔记",
-        "moduleSource": "explicit-inline",
-        "type": "修复",
+        "module": "小米超级岛",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
         "typeSource": "explicit",
-        "sourceText": "部分场景下笔记无法云同步的问题。",
-        "description": "部分场景下笔记无法云同步的问题。"
+        "sourceText": "屏幕共享时，可查看正在获取屏幕画面的应用，也可一键停止共享",
+        "description": "屏幕共享时，可查看正在获取屏幕画面的应用，也可一键停止共享"
       },
       {
         "id": "review-03",
         "module": "笔记",
-        "moduleSource": "explicit-inline",
-        "type": "修复",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
         "typeSource": "explicit",
-        "sourceText": "部分场景下待办提醒点击无响应的问题。",
-        "description": "部分场景下待办提醒点击无响应的问题。"
+        "sourceText": "“待办”页的流畅度，页面切换更顺滑",
+        "description": "“待办”页的流畅度，页面切换更顺滑"
       },
       {
         "id": "review-04",
-        "module": "家人守护",
-        "moduleSource": "explicit-inline",
-        "type": "优化",
+        "module": "笔记",
+        "moduleSource": "explicit-heading",
+        "type": "修复",
         "typeSource": "explicit",
-        "sourceText": "“强制休息时长”和“连续使用时长”的可选范围。",
-        "description": "“强制休息时长”和“连续使用时长”的可选范围。"
+        "sourceText": "部分场景下笔记无法云同步的问题",
+        "description": "部分场景下笔记无法云同步的问题"
       },
       {
         "id": "review-05",
-        "module": "家人守护",
-        "moduleSource": "explicit-inline",
+        "module": "笔记",
+        "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
-        "sourceText": "部分场景下设备定位更新延迟的问题。",
-        "description": "部分场景下设备定位更新延迟的问题。"
+        "sourceText": "部分场景下待办提醒点击无响应的问题",
+        "description": "部分场景下待办提醒点击无响应的问题"
       },
       {
         "id": "review-06",
-        "module": "出行助手",
-        "moduleSource": "explicit-inline",
-        "type": "新增",
-        "typeSource": "inferred",
-        "sourceText": "打开“航旅纵横”时弹窗提示绑定。",
-        "description": "打开“航旅纵横”时弹窗提示绑定。"
+        "module": "家人守护",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "“强制休息时长”和“连续使用时长”的可选范围",
+        "description": "“强制休息时长”和“连续使用时长”的可选范围"
       },
       {
         "id": "review-07",
-        "module": "出行助手",
-        "moduleSource": "explicit-inline",
-        "type": "优化",
-        "typeSource": "inferred",
-        "sourceText": "自动添加行程的准确率，录入更方便。",
-        "description": "自动添加行程的准确率，录入更方便。"
+        "module": "家人守护",
+        "moduleSource": "explicit-heading",
+        "type": "修复",
+        "typeSource": "explicit",
+        "sourceText": "部分场景下“家人守护”中设备定位更新延迟的问题",
+        "description": "部分场景下“家人守护”中设备定位更新延迟的问题"
       },
       {
         "id": "review-08",
-        "module": "日历",
-        "moduleSource": "explicit-inline",
+        "module": "更多体验优化",
+        "moduleSource": "explicit-heading",
         "type": "新增",
-        "typeSource": "inferred",
-        "sourceText": "创建日程时可标注地点。",
-        "description": "创建日程时可标注地点。"
+        "typeSource": "explicit",
+        "sourceText": "打开“航旅纵横”时，弹窗提示绑定“出行助手”",
+        "description": "打开“航旅纵横”时，弹窗提示绑定“出行助手”"
       },
       {
         "id": "review-09",
-        "module": "游戏工具箱",
-        "moduleSource": "explicit-inline",
-        "type": "优化",
-        "typeSource": "inferred",
-        "sourceText": "界面焕新，动画效果升级，实时帧率更直观。",
-        "description": "界面焕新，动画效果升级，实时帧率更直观。"
+        "module": "日历",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "“日历”中创建日程时可标注地点",
+        "description": "“日历”中创建日程时可标注地点"
       },
       {
         "id": "review-10",
-        "module": "录音机",
-        "moduleSource": "explicit-inline",
-        "type": "修复",
-        "typeSource": "inferred",
-        "sourceText": "无法下载播放云端录音的问题。",
-        "description": "无法下载播放云端录音的问题。"
+        "module": "更多体验优化",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "“游戏工具箱™界面焕新，动画效果升级，实时帧率更直观",
+        "description": "“游戏工具箱™界面焕新，动画效果升级，实时帧率更直观"
       },
       {
         "id": "review-11",
-        "module": "录音机",
-        "moduleSource": "explicit-inline",
-        "type": "修复",
-        "typeSource": "inferred",
-        "sourceText": "回放音质异常的问题。",
-        "description": "回放音质异常的问题。"
+        "module": "更多体验优化",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "“出行助手”自动添加行程的准确率，录入行程更方便",
+        "description": "“出行助手”自动添加行程的准确率，录入行程更方便"
       },
       {
         "id": "review-12",
-        "module": "小米智能卡",
-        "moduleSource": "explicit-inline",
+        "module": "录音机",
+        "moduleSource": "inferred",
         "type": "修复",
-        "typeSource": "inferred",
-        "sourceText": "页面显示异常的问题。",
-        "description": "页面显示异常的问题。"
+        "typeSource": "explicit",
+        "sourceText": "部分场景下“录音机”无法下载播放云端录音的问题",
+        "description": "部分场景下“录音机”无法下载播放云端录音的问题"
       },
       {
         "id": "review-13",
-        "module": "远程控制",
-        "moduleSource": "explicit-inline",
+        "module": "录音机",
+        "moduleSource": "inferred",
         "type": "修复",
-        "typeSource": "inferred",
-        "sourceText": "页面显示异常的问题。",
-        "description": "页面显示异常的问题。"
+        "typeSource": "explicit",
+        "sourceText": "部分场景下“录音机”回放音质异常的问题",
+        "description": "部分场景下“录音机”回放音质异常的问题"
+      },
+      {
+        "id": "review-14",
+        "module": "智能",
+        "moduleSource": "inferred",
+        "type": "修复",
+        "typeSource": "explicit",
+        "sourceText": "部分场景下“小米智能卡”显示异常的问题",
+        "description": "部分场景下“小米智能卡”显示异常的问题"
+      },
+      {
+        "id": "review-15",
+        "module": "更多体验优化",
+        "moduleSource": "explicit-heading",
+        "type": "修复",
+        "typeSource": "explicit",
+        "sourceText": "部分场景下“远程控制”页面显示异常的问题",
+        "description": "部分场景下“远程控制”页面显示异常的问题"
       }
     ],
     "31": [
       {
         "id": "review-01",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
+        "module": "超级小爱",
+        "moduleSource": "inferred",
         "type": "新增",
         "typeSource": "explicit",
-        "sourceText": "超级小爱赛事预约与赛事问答服务，可快速查询",
-        "description": "超级小爱赛事预约与赛事问答服务，可快速查询"
+        "sourceText": "超级小爱赛事预约与赛事问答服务，可快速查询各类赛况信息，一键预约赛事",
+        "description": "超级小爱赛事预约与赛事问答服务，可快速查询各类赛况信息，一键预约赛事"
       },
       {
         "id": "review-02",
-        "module": "系统",
+        "module": "超级小爱",
         "moduleSource": "explicit-heading",
         "type": "新增",
         "typeSource": "explicit",
-        "sourceText": "小米超级岛适配小红书、直播吧的赛事服务，实",
-        "description": "小米超级岛适配小红书、直播吧的赛事服务，实"
+        "sourceText": "小米超级岛适配小红书、直播吧的赛事服务，实时比分屏上常驻",
+        "description": "小米超级岛适配小红书、直播吧的赛事服务，实时比分屏上常驻"
       },
       {
         "id": "review-03",
-        "module": "系统",
+        "module": "超级小爱",
         "moduleSource": "explicit-heading",
         "type": "新增",
         "typeSource": "explicit",
-        "sourceText": "「2026世界杯赛程」小部件，实时掌握最新赛",
-        "description": "「2026世界杯赛程」小部件，实时掌握最新赛"
+        "sourceText": "「2026世界杯赛程」小部件，实时掌握最新赛况资讯",
+        "description": "「2026世界杯赛程」小部件，实时掌握最新赛况资讯"
       },
       {
         "id": "review-04",
-        "module": "系统",
+        "module": "相册",
         "moduleSource": "explicit-heading",
         "type": "优化",
         "typeSource": "explicit",
-        "sourceText": "置顶 AI 修图专区，整合全部 AI修图工具，查找",
-        "description": "置顶 AI 修图专区，整合全部 AI修图工具，查找"
+        "sourceText": "置顶 AI 修图专区，整合全部 AI修图工具，查找更方便",
+        "description": "置顶 AI 修图专区，整合全部 AI修图工具，查找更方便"
       },
       {
         "id": "review-05",
-        "module": "系统",
+        "module": "相册",
         "moduleSource": "explicit-heading",
         "type": "优化",
         "typeSource": "explicit",
-        "sourceText": "智能美化效果增强，一键修复曝光失衡的废片，",
-        "description": "智能美化效果增强，一键修复曝光失衡的废片，"
+        "sourceText": "智能美化效果增强，一键修复曝光失衡的废片，还原自然光影",
+        "description": "智能美化效果增强，一键修复曝光失衡的废片，还原自然光影"
       },
       {
         "id": "review-06",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
+        "module": "录音机",
+        "moduleSource": "inferred",
         "type": "新增",
         "typeSource": "explicit",
-        "sourceText": "录音机自动续录，麦克风被其他应用占用时自",
-        "description": "录音机自动续录，麦克风被其他应用占用时自"
+        "sourceText": "录音机自动续录，麦克风被其他应用占用时自动暂停，占用结束后自动恢复录音",
+        "description": "录音机自动续录，麦克风被其他应用占用时自动暂停，占用结束后自动恢复录音"
       },
       {
         "id": "review-07",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
+        "module": "文件管理",
+        "moduleSource": "inferred",
         "type": "优化",
         "typeSource": "explicit",
-        "sourceText": "文件管理页面流畅度，文件分组展开、收起动",
-        "description": "文件管理页面流畅度，文件分组展开、收起动"
+        "sourceText": "文件管理页面流畅度，文件分组展开、收起动画更顺滑",
+        "description": "文件管理页面流畅度，文件分组展开、收起动画更顺滑"
       },
       {
         "id": "review-08",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
+        "module": "主题",
+        "moduleSource": "inferred",
         "type": "优化",
         "typeSource": "explicit",
         "sourceText": "主题壁纸列表页流畅度，滑动手感更丝滑",
@@ -3276,8 +3294,8 @@
       },
       {
         "id": "review-09",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
+        "module": "笔记",
+        "moduleSource": "inferred",
         "type": "优化",
         "typeSource": "explicit",
         "sourceText": "笔记搜索页流畅度，检索笔记更轻松",
@@ -3285,8 +3303,8 @@
       },
       {
         "id": "review-10",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
+        "module": "备份",
+        "moduleSource": "inferred",
         "type": "修复",
         "typeSource": "explicit",
         "sourceText": "部分场景下手机备份列表不显示微信的问题",
@@ -3294,7 +3312,7 @@
       },
       {
         "id": "review-11",
-        "module": "系统",
+        "module": "更多体验优化",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -3303,8 +3321,8 @@
       },
       {
         "id": "review-12",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
+        "module": "时钟",
+        "moduleSource": "inferred",
         "type": "修复",
         "typeSource": "explicit",
         "sourceText": "部分场景下无法自定义时钟铃声的问题",
@@ -3312,8 +3330,8 @@
       },
       {
         "id": "review-13",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
+        "module": "日历",
+        "moduleSource": "inferred",
         "type": "修复",
         "typeSource": "explicit",
         "sourceText": "部分场景下日历显示异常的问题",
@@ -3321,8 +3339,8 @@
       },
       {
         "id": "review-14",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
+        "module": "天气",
+        "moduleSource": "inferred",
         "type": "修复",
         "typeSource": "explicit",
         "sourceText": "部分场景下天气定位失败的问题",
@@ -3330,8 +3348,8 @@
       },
       {
         "id": "review-15",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
+        "module": "壁纸",
+        "moduleSource": "inferred",
         "type": "修复",
         "typeSource": "explicit",
         "sourceText": "部分场景下AI壁纸无法生成的问题",
@@ -3341,7 +3359,7 @@
     "32": [
       {
         "id": "review-01",
-        "module": "系统",
+        "module": "相册",
         "moduleSource": "explicit-heading",
         "type": "新增",
         "typeSource": "explicit",
@@ -3350,7 +3368,7 @@
       },
       {
         "id": "review-02",
-        "module": "系统",
+        "module": "笔记",
         "moduleSource": "explicit-heading",
         "type": "优化",
         "typeSource": "explicit",
@@ -3359,7 +3377,7 @@
       },
       {
         "id": "review-03",
-        "module": "系统",
+        "module": "笔记",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -3368,7 +3386,7 @@
       },
       {
         "id": "review-04",
-        "module": "系统",
+        "module": "笔记",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -3377,7 +3395,7 @@
       },
       {
         "id": "review-05",
-        "module": "系统",
+        "module": "笔记",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -3386,7 +3404,7 @@
       },
       {
         "id": "review-06",
-        "module": "系统",
+        "module": "录音机",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -3395,7 +3413,7 @@
       },
       {
         "id": "review-07",
-        "module": "系统",
+        "module": "录音机",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -3404,7 +3422,7 @@
       },
       {
         "id": "review-08",
-        "module": "系统",
+        "module": "录音机",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -3413,16 +3431,16 @@
       },
       {
         "id": "review-09",
-        "module": "系统",
+        "module": "录音机",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
-        "sourceText": "部分场景下点击通知栏通知后，通知无法正常",
-        "description": "部分场景下点击通知栏通知后，通知无法正常"
+        "sourceText": "部分场景下点击通知栏通知后，通知无法正常消失的问题",
+        "description": "部分场景下点击通知栏通知后，通知无法正常消失的问题"
       },
       {
         "id": "review-10",
-        "module": "系统",
+        "module": "家人守护",
         "moduleSource": "explicit-heading",
         "type": "优化",
         "typeSource": "explicit",
@@ -3431,7 +3449,7 @@
       },
       {
         "id": "review-11",
-        "module": "系统",
+        "module": "家人守护",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -3440,7 +3458,7 @@
       },
       {
         "id": "review-12",
-        "module": "系统",
+        "module": "家人守护",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -3449,7 +3467,7 @@
       },
       {
         "id": "review-13",
-        "module": "系统",
+        "module": "时钟",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -3458,7 +3476,7 @@
       },
       {
         "id": "review-14",
-        "module": "系统",
+        "module": "时钟",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -3467,7 +3485,7 @@
       },
       {
         "id": "review-15",
-        "module": "系统",
+        "module": "时钟",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -3476,7 +3494,7 @@
       },
       {
         "id": "review-16",
-        "module": "系统",
+        "module": "更多体验优化",
         "moduleSource": "explicit-heading",
         "type": "优化",
         "typeSource": "explicit",
@@ -3485,7 +3503,7 @@
       },
       {
         "id": "review-17",
-        "module": "系统",
+        "module": "小米超级岛",
         "moduleSource": "explicit-heading",
         "type": "优化",
         "typeSource": "explicit",
@@ -3494,16 +3512,16 @@
       },
       {
         "id": "review-18",
-        "module": "系统",
+        "module": "小米超级岛",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
-        "sourceText": "部分场景下熄屏刷卡成功但“小米超级岛”不显",
-        "description": "部分场景下熄屏刷卡成功但“小米超级岛”不显"
+        "sourceText": "部分场景下熄屏刷卡成功但“小米超级岛”不显示的问题",
+        "description": "部分场景下熄屏刷卡成功但“小米超级岛”不显示的问题"
       },
       {
         "id": "review-19",
-        "module": "系统",
+        "module": "小米超级岛",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -3512,16 +3530,16 @@
       },
       {
         "id": "review-20",
-        "module": "系统",
+        "module": "小米超级岛",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
-        "sourceText": "部分场景下在截屏编辑页点击“分享”按钮后无",
-        "description": "部分场景下在截屏编辑页点击“分享”按钮后无"
+        "sourceText": "部分场景下在截屏编辑页点击“分享”按钮后无响应的问题",
+        "description": "部分场景下在截屏编辑页点击“分享”按钮后无响应的问题"
       },
       {
         "id": "review-21",
-        "module": "系统",
+        "module": "小米超级岛",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -3530,7 +3548,7 @@
       },
       {
         "id": "review-22",
-        "module": "系统",
+        "module": "小米超级岛",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -3539,7 +3557,7 @@
       },
       {
         "id": "review-23",
-        "module": "系统",
+        "module": "小米超级岛",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -3548,7 +3566,7 @@
       },
       {
         "id": "review-24",
-        "module": "系统",
+        "module": "小米超级岛",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -3557,7 +3575,7 @@
       },
       {
         "id": "review-25",
-        "module": "系统",
+        "module": "小米超级岛",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -3568,79 +3586,7 @@
     "33": [
       {
         "id": "review-01",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "优化",
-        "typeSource": "explicit",
-        "sourceText": "流式文本显示效果",
-        "description": "流式文本显示效果"
-      },
-      {
-        "id": "review-02",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "优化",
-        "typeSource": "explicit",
-        "sourceText": "大图查看效果",
-        "description": "大图查看效果"
-      },
-      {
-        "id": "review-03",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "新增",
-        "typeSource": "explicit",
-        "sourceText": "经典桌面投屏支持自定义布局，可修改桌面布",
-        "description": "经典桌面投屏支持自定义布局，可修改桌面布"
-      },
-      {
-        "id": "review-04",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "新增",
-        "typeSource": "explicit",
-        "sourceText": "投屏成功后显示小米超级岛，点击超级岛显示",
-        "description": "投屏成功后显示小米超级岛，点击超级岛显示"
-      },
-      {
-        "id": "review-05",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "新增",
-        "typeSource": "explicit",
-        "sourceText": "Carlink极简小窗模式，放大极简小窗可进入经",
-        "description": "Carlink极简小窗模式，放大极简小窗可进入经"
-      },
-      {
-        "id": "review-06",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "新增",
-        "typeSource": "explicit",
-        "sourceText": "高级材质背景效果",
-        "description": "高级材质背景效果"
-      },
-      {
-        "id": "review-07",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "新增",
-        "typeSource": "explicit",
-        "sourceText": "支持将“文件管理”中的文件夹添加到桌面，快",
-        "description": "支持将“文件管理”中的文件夹添加到桌面，快"
-      },
-      {
-        "id": "review-08",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "新增",
-        "typeSource": "explicit",
-        "sourceText": "支持远程访问文件（仅支持访问Xiaomi Book",
-        "description": "支持远程访问文件（仅支持访问Xiaomi Book"
-      },
-      {
-        "id": "review-09",
-        "module": "系统",
+        "module": "超级小爱",
         "moduleSource": "explicit-heading",
         "type": "优化",
         "typeSource": "explicit",
@@ -3648,8 +3594,8 @@
         "description": "“智能助理”底部导航栏 UI 效果，交互更沉浸"
       },
       {
-        "id": "review-10",
-        "module": "系统",
+        "id": "review-02",
+        "module": "超级小爱",
         "moduleSource": "explicit-heading",
         "type": "优化",
         "typeSource": "explicit",
@@ -3657,35 +3603,44 @@
         "description": "“小部件中心”的照片与视频选择页交互体验"
       },
       {
-        "id": "review-11",
-        "module": "系统",
+        "id": "review-03",
+        "module": "智能",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "经典桌面投屏支持自定义布局，可修改桌面布局和显示内容三指上滑 手势快捷记忆",
+        "description": "经典桌面投屏支持自定义布局，可修改桌面布局和显示内容三指上滑 手势快捷记忆"
+      },
+      {
+        "id": "review-04",
+        "module": "小米超级岛",
         "moduleSource": "explicit-heading",
         "type": "优化",
         "typeSource": "explicit",
-        "sourceText": "部分场景下的动效和流畅度表现",
-        "description": "部分场景下的动效和流畅度表现"
+        "sourceText": "部分场景下的动效和流畅度表现2:56⑤ 小爱记忆",
+        "description": "部分场景下的动效和流畅度表现2:56⑤ 小爱记忆"
       },
       {
-        "id": "review-12",
-        "module": "系统",
+        "id": "review-05",
+        "module": "小米超级岛",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
-        "sourceText": "部分场景下云同步和转录失败的问题",
-        "description": "部分场景下云同步和转录失败的问题"
+        "sourceText": "部分场景下云同步和转录失败的问题十",
+        "description": "部分场景下云同步和转录失败的问题十"
       },
       {
-        "id": "review-13",
-        "module": "系统",
+        "id": "review-06",
+        "module": "小米超级岛",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
-        "sourceText": "部分场景下通话录音完成后显示时长异常的问题",
-        "description": "部分场景下通话录音完成后显示时长异常的问题"
+        "sourceText": "部分场景下通话录音完成后显示时长异常的问题①囚1888小米商坡-原文＞小米换机小米度枝手其商品洋请服尔这是小米会来的商民详诊页内兴，成示手机派计A08G",
+        "description": "部分场景下通话录音完成后显示时长异常的问题①囚1888小米商坡-原文＞小米换机小米度枝手其商品洋请服尔这是小米会来的商民详诊页内兴，成示手机派计A08G"
       },
       {
-        "id": "review-14",
-        "module": "系统",
+        "id": "review-07",
+        "module": "录音机",
         "moduleSource": "explicit-heading",
         "type": "优化",
         "typeSource": "explicit",
@@ -3693,89 +3648,116 @@
         "description": "私密短信独立管理，换机迁移前需进行隐私验证"
       },
       {
-        "id": "review-15",
-        "module": "系统",
+        "id": "review-08",
+        "module": "录音机",
         "moduleSource": "explicit-heading",
         "type": "优化",
         "typeSource": "explicit",
-        "sourceText": "部分场景下“小米换机”连接稳定性，当一端设",
-        "description": "部分场景下“小米换机”连接稳定性，当一端设"
+        "sourceText": "部分场景下“小米换机”连接稳定性，当一端设备断开时，另一端设备可感应并退出",
+        "description": "部分场景下“小米换机”连接稳定性，当一端设备断开时，另一端设备可感应并退出"
       },
       {
-        "id": "review-16",
-        "module": "系统",
+        "id": "review-09",
+        "module": "录音机",
         "moduleSource": "explicit-heading",
         "type": "新增",
         "typeSource": "explicit",
-        "sourceText": "小米手机可接收iPhone 分享的车钥匙（支持",
-        "description": "小米手机可接收iPhone 分享的车钥匙（支持"
+        "sourceText": "投屏成功后显示小米超级岛，点击超级岛显示展开态查看连接详情，点击详情空白区域可进入可创建地址信息 自定义提醒时间单次支持查询最多50个日程信息",
+        "description": "投屏成功后显示小米超级岛，点击超级岛显示展开态查看连接详情，点击详情空白区域可进入可创建地址信息 自定义提醒时间单次支持查询最多50个日程信息"
       },
       {
-        "id": "review-17",
-        "module": "系统",
+        "id": "review-10",
+        "module": "智能",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "小米手机可接收iPhone 分享的车钥匙（支持地址是北京王府井”交3月13日 周元19:00凇菜王赔井已连接|小米SU7“创建结婚纪念日，时间是开始时>每年12月16日”iOS 18 及以上版本）朔蚌漿险“记一下我的生日是农历三",
+        "description": "小米手机可接收iPhone 分享的车钥匙（支持地址是北京王府井”交3月13日 周元19:00凇菜王赔井已连接|小米SU7“创建结婚纪念日，时间是开始时>每年12月16日”iOS 18 及以上版本）朔蚌漿险“记一下我的生日是农历三"
+      },
+      {
+        "id": "review-11",
+        "module": "智能",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
-        "sourceText": "部分场景下门卡删除弹窗名称与门卡自定义名",
-        "description": "部分场景下门卡删除弹窗名称与门卡自定义名"
+        "sourceText": "部分场景下门卡删除弹窗名称与门卡自定义名月初八”1638称不一致的问题“查询我的所有日程”",
+        "description": "部分场景下门卡删除弹窗名称与门卡自定义名月初八”1638称不一致的问题“查询我的所有日程”"
       },
       {
-        "id": "review-18",
-        "module": "系统",
+        "id": "review-12",
+        "module": "智能",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
-        "sourceText": "小米智能门锁激活成功后卡面未更换的问题",
-        "description": "小米智能门锁激活成功后卡面未更换的问题"
+        "sourceText": "小米智能门锁激活成功后卡面未更换的问题回 发淅息戏皮住说话④",
+        "description": "小米智能门锁激活成功后卡面未更换的问题回 发淅息戏皮住说话④"
       },
       {
-        "id": "review-19",
-        "module": "系统",
+        "id": "review-13",
+        "module": "智能",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
-        "sourceText": "部分场景下使用小米汽车无线充电时误弹卡片",
-        "description": "部分场景下使用小米汽车无线充电时误弹卡片"
+        "sourceText": "部分场景下使用小米汽车无线充电时误弹卡片的问题◎",
+        "description": "部分场景下使用小米汽车无线充电时误弹卡片的问题◎"
       },
       {
-        "id": "review-20",
-        "module": "系统",
+        "id": "review-14",
+        "module": "超级小爱",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "小爱指南 聚合实用功能小米创作",
+        "description": "小爱指南 聚合实用功能小米创作"
+      },
+      {
+        "id": "review-15",
+        "module": "超级小爱",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "Carlink极简小窗模式，放大极简小窗可进入经2:36今區2:36发现翌鹉休A玩法婧迭推荐精迩栽荐小爱指两小爱翔南",
+        "description": "Carlink极简小窗模式，放大极简小窗可进入经2:36今區2:36发现翌鹉休A玩法婧迭推荐精迩栽荐小爱指两小爱翔南"
+      },
+      {
+        "id": "review-16",
+        "module": "桌面",
         "moduleSource": "explicit-heading",
         "type": "优化",
         "typeSource": "explicit",
-        "sourceText": "导入、导出图片与PDF文件的清晰度",
-        "description": "导入、导出图片与PDF文件的清晰度"
+        "sourceText": "导入、导出图片与PDF文件的清晰度小双上紙ASP炙用肋靚批荐支沛记忆貌力升级。日覆体验你",
+        "description": "导入、导出图片与PDF文件的清晰度小双上紙ASP炙用肋靚批荐支沛记忆貌力升级。日覆体验你"
       },
       {
-        "id": "review-21",
-        "module": "系统",
+        "id": "review-17",
+        "module": "桌面",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
-        "sourceText": "部分场景下重新生图动画不流畅的问题",
-        "description": "部分场景下重新生图动画不流畅的问题"
+        "sourceText": "部分场景下重新生图动画不流畅的问题多种记亿力式顽心用日称能翌超级心裂记忆",
+        "description": "部分场景下重新生图动画不流畅的问题多种记亿力式顽心用日称能翌超级心裂记忆"
       },
       {
-        "id": "review-22",
-        "module": "系统",
+        "id": "review-18",
+        "module": "超级小爱",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
-        "sourceText": "部分场景下手写笔移动形状，形状意外消失的",
-        "description": "部分场景下手写笔移动形状，形状意外消失的"
+        "sourceText": "部分场景下手写笔移动形状，形状意外消失的日瑷罾珏问题日省旗张品疗消浓门升烫金新小烟丰页2.9 一切话多批令",
+        "description": "部分场景下手写笔移动形状，形状意外消失的日瑷罾珏问题日省旗张品疗消浓门升烫金新小烟丰页2.9 一切话多批令"
       },
       {
-        "id": "review-23",
-        "module": "系统",
+        "id": "review-19",
+        "module": "超级小爱",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
-        "sourceText": "部分场景下框选内容清除后出现涂鸦未被清空",
-        "description": "部分场景下框选内容清除后出现涂鸦未被清空"
+        "sourceText": "部分场景下框选内容清除后出现涂鸦未被清空來甘出乐的问题汉浚肝狁s以行规泓",
+        "description": "部分场景下框选内容清除后出现涂鸦未被清空來甘出乐的问题汉浚肝狁s以行规泓"
       },
       {
-        "id": "review-24",
-        "module": "系统",
+        "id": "review-20",
+        "module": "超级小爱",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -3783,35 +3765,44 @@
         "description": "部分场景下竖屏书写响应不灵敏的问题"
       },
       {
-        "id": "review-25",
-        "module": "系统",
+        "id": "review-21",
+        "module": "智能",
+        "moduleSource": "inferred",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "“短信”应用智能拦截能力，当用户频繁收到商1 2.冥蚀 道保法",
+        "description": "“短信”应用智能拦截能力，当用户频繁收到商1 2.冥蚀 道保法"
+      },
+      {
+        "id": "review-22",
+        "module": "更多体验优化",
         "moduleSource": "explicit-heading",
         "type": "新增",
         "typeSource": "explicit",
-        "sourceText": "“短信”应用智能拦截能力，当用户频繁收到商",
-        "description": "“短信”应用智能拦截能力，当用户频繁收到商"
+        "sourceText": "高级材质背景效果：Uhiversity sueents cuyhtso•正式书面：户验证码的恶意轰炸时，将通过临时静默通知的方acwantane af t armnass注：饮用 ouggnt to 增密酒，at their式减少对用户的干扰disposal 可供使用）与 crhin3..必出学•简洁口语resources to ioroue themsetes.",
+        "description": "高级材质背景效果：Uhiversity sueents cuyhtso•正式书面：户验证码的恶意轰炸时，将通过临时静默通知的方acwantane af t armnass注：饮用 ouggnt to 增密酒，at their式减少对用户的干扰disposal 可供使用）与 crhin3..必出学•简洁口语resources to ioroue themsetes."
       },
       {
-        "id": "review-26",
-        "module": "系统",
+        "id": "review-23",
+        "module": "CarWith",
         "moduleSource": "explicit-heading",
         "type": "新增",
         "typeSource": "explicit",
-        "sourceText": "“时钟”支持计时结束后振动提醒",
-        "description": "“时钟”支持计时结束后振动提醒"
+        "sourceText": "“时钟”支持计时结束后振动提醒注：vilce精换uz，用问墨精治；iprave涵盖论力与个人成长，级材质”功能•高分表达，",
+        "description": "“时钟”支持计时结束后振动提醒注：vilce精换uz，用问墨精治；iprave涵盖论力与个人成长，级材质”功能•高分表达，"
       },
       {
-        "id": "review-27",
-        "module": "系统",
+        "id": "review-24",
+        "module": "CarWith",
         "moduleSource": "explicit-heading",
         "type": "优化",
         "typeSource": "explicit",
-        "sourceText": "“时钟”添加闹钟、编辑闹钟和计时动画等操作",
-        "description": "“时钟”添加闹钟、编辑闹钟和计时动画等操作"
+        "sourceText": "“时钟”添加闹钟、编辑闹钟和计时动画等操作wenno anth ho. famna eaems.的流畅度",
+        "description": "“时钟”添加闹钟、编辑闹钟和计时动画等操作wenno anth ho. famna eaems.的流畅度"
       },
       {
-        "id": "review-28",
-        "module": "系统",
+        "id": "review-25",
+        "module": "CarWith",
         "moduleSource": "explicit-heading",
         "type": "优化",
         "typeSource": "explicit",
@@ -3819,17 +3810,17 @@
         "description": "“笔记”应用内编辑页面唤起键盘的流畅度"
       },
       {
-        "id": "review-29",
-        "module": "系统",
+        "id": "review-26",
+        "module": "文件管理",
         "moduleSource": "explicit-heading",
         "type": "优化",
         "typeSource": "explicit",
-        "sourceText": "屏幕使用时长相关详情页将不再显示隐藏应用",
-        "description": "屏幕使用时长相关详情页将不再显示隐藏应用"
+        "sourceText": "屏幕使用时长相关详情页将不再显示隐藏应用的使用时长",
+        "description": "屏幕使用时长相关详情页将不再显示隐藏应用的使用时长"
       },
       {
-        "id": "review-30",
-        "module": "系统",
+        "id": "review-27",
+        "module": "超级小爱",
         "moduleSource": "explicit-heading",
         "type": "优化",
         "typeSource": "explicit",
@@ -3837,244 +3828,73 @@
         "description": "“家人守护”部分页面的 UI 适配"
       },
       {
-        "id": "review-31",
-        "module": "系统",
+        "id": "review-28",
+        "module": "超级小爱",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "支持将“文件管理”中的文件夹添加到桌面，快支持生成网页报告 提炼要点",
+        "description": "支持将“文件管理”中的文件夹添加到桌面，快支持生成网页报告 提炼要点"
+      },
+      {
+        "id": "review-29",
+        "module": "超级小爱",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
-        "sourceText": "无障碍模式下水平仪焦点播报异常的问题",
-        "description": "无障碍模式下水平仪焦点播报异常的问题"
+        "sourceText": "无障碍模式下水平仪焦点播报异常的问题捷访问常用内容",
+        "description": "无障碍模式下水平仪焦点播报异常的问题捷访问常用内容"
+      },
+      {
+        "id": "review-30",
+        "module": "超级小爱",
+        "moduleSource": "explicit-heading",
+        "type": "修复",
+        "typeSource": "explicit",
+        "sourceText": "部分场景下长按“计算器”应用图标，快捷方式“龙虾AI和传统AI有什么区别”",
+        "description": "部分场景下长按“计算器”应用图标，快捷方式“龙虾AI和传统AI有什么区别”"
+      },
+      {
+        "id": "review-31",
+        "module": "计算器",
+        "moduleSource": "explicit-heading",
+        "type": "修复",
+        "typeSource": "explicit",
+        "sourceText": "“计算器”应用在部分场景下“换算”页面语音播20日个 龙虾A1与化被品I於农心建界分析：功能.报提示缺失的问题龙奸Al：主动执行携式总虾A与情烧A区校心艺界分行：劝论、交豆与広月场縣对比羽究◎ 釵普集农另炊SF2日 180龙虾A1与传统AI的皮心验异.創3时限：3月26号 19208盍看洋情，芯 Al与 桩A的波心差示.技心葱弁对比T242副E味（ 发湾惠或旅住说话.©◎品更多功能优化NEW• 为保障体验稳定，升级将采用「灰度到全量」的逐步推送机•“记一下\"场景支持收藏与日程双触发，既收藏制，并非所有用户会立即收到更新，请耐心等待",
+        "description": "“计算器”应用在部分场景下“换算”页面语音播20日个 龙虾A1与化被品I於农心建界分析：功能.报提示缺失的问题龙奸Al：主动执行携式总虾A与情烧A区校心艺界分行：劝论、交豆与広月场縣对比羽究◎ 釵普集农另炊SF2日 180龙虾A1与传统AI的皮心验异.創3时限：3月26号 19208盍看洋情，芯 Al与 桩A的波心差示.技心葱弁对比T242副E味（ 发湾惠或旅住说话.©◎品更多功能优化NEW• 为保障体验稳定，升级将采用「灰度到全量」的逐步推送机•“记一下\"场景支持收藏与日程双触发，既收藏制，并非所有用户会立即收到更新，请耐心等待"
       },
       {
         "id": "review-32",
-        "module": "系统",
+        "module": "小米超级岛",
         "moduleSource": "explicit-heading",
-        "type": "修复",
+        "type": "新增",
         "typeSource": "explicit",
-        "sourceText": "部分场景下长按“计算器”应用图标，快捷方式",
-        "description": "部分场景下长按“计算器”应用图标，快捷方式"
+        "sourceText": "支持远程访问文件（仅支持访问Xiaomi BookPro 14）",
+        "description": "支持远程访问文件（仅支持访问Xiaomi BookPro 14）"
       },
       {
         "id": "review-33",
         "module": "系统",
         "moduleSource": "explicit-heading",
-        "type": "修复",
+        "type": "优化",
         "typeSource": "explicit",
-        "sourceText": "“计算器”应用在部分场景下“换算”页面语音播",
-        "description": "“计算器”应用在部分场景下“换算”页面语音播"
+        "sourceText": "流式文本显示效果异，请以各机型实际体验为准",
+        "description": "流式文本显示效果异，请以各机型实际体验为准"
+      },
+      {
+        "id": "review-34",
+        "module": "系统",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "大图查看效果• 若您对功能体验有更多建议，欢迎前往小米社区反馈，我们将持续优化相关体验",
+        "description": "大图查看效果• 若您对功能体验有更多建议，欢迎前往小米社区反馈，我们将持续优化相关体验"
       }
     ],
     "34": [
       {
         "id": "review-01",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "新增",
-        "typeSource": "explicit",
-        "sourceText": "小米平板支持“小米超级岛”，重要信息触达",
-        "description": "小米平板支持“小米超级岛”，重要信息触达"
-      },
-      {
-        "id": "review-02",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "新增",
-        "typeSource": "explicit",
-        "sourceText": "“小米超级岛”适配更多应用",
-        "description": "“小米超级岛”适配更多应用"
-      },
-      {
-        "id": "review-03",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "新增",
-        "typeSource": "explicit",
-        "sourceText": "“小米超级岛”播放器光效，媒体播放进度条",
-        "description": "“小米超级岛”播放器光效，媒体播放进度条"
-      },
-      {
-        "id": "review-04",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "新增",
-        "typeSource": "explicit",
-        "sourceText": "小米手机、小米平板兼容AirPods，支持快连弹",
-        "description": "小米手机、小米平板兼容AirPods，支持快连弹"
-      },
-      {
-        "id": "review-05",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "新增",
-        "typeSource": "explicit",
-        "sourceText": "iPhone接收的短信验证码同步到小米手机后，",
-        "description": "iPhone接收的短信验证码同步到小米手机后，"
-      },
-      {
-        "id": "review-06",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "新增",
-        "typeSource": "explicit",
-        "sourceText": "iPhone来电同步到小米手机后，支持在小米",
-        "description": "iPhone来电同步到小米手机后，支持在小米"
-      },
-      {
-        "id": "review-07",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "新增",
-        "typeSource": "explicit",
-        "sourceText": "小米手机来电同步到iPhone后，支持在",
-        "description": "小米手机来电同步到iPhone后，支持在"
-      },
-      {
-        "id": "review-08",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "新增",
-        "typeSource": "explicit",
-        "sourceText": "“贴贴分享”支持录音、笔记分享，贴近小米",
-        "description": "“贴贴分享”支持录音、笔记分享，贴近小米"
-      },
-      {
-        "id": "review-09",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "新增",
-        "typeSource": "explicit",
-        "sourceText": "Mac端“小米互联服务”可查看小米云笔记、云相册",
-        "description": "Mac端“小米互联服务”可查看小米云笔记、云相册"
-      },
-      {
-        "id": "review-10",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "优化",
-        "typeSource": "explicit",
-        "sourceText": "在iPhone镜像打开小米手机应用时，支持同步",
-        "description": "在iPhone镜像打开小米手机应用时，支持同步"
-      },
-      {
-        "id": "review-11",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "新增",
-        "typeSource": "explicit",
-        "sourceText": "“密码”应用，支持密码自动保存、智能填充以",
-        "description": "“密码”应用，支持密码自动保存、智能填充以"
-      },
-      {
-        "id": "review-12",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "新增",
-        "typeSource": "explicit",
-        "sourceText": "部分系统应用适配安全访问控件，更多应用适配",
-        "description": "部分系统应用适配安全访问控件，更多应用适配"
-      },
-      {
-        "id": "review-13",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "优化",
-        "typeSource": "explicit",
-        "sourceText": "指纹、面部与密码页面样式，设置更便捷",
-        "description": "指纹、面部与密码页面样式，设置更便捷"
-      },
-      {
-        "id": "review-14",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "新增",
-        "typeSource": "explicit",
-        "sourceText": "相机设置中的专业视频功能介绍页可一键下",
-        "description": "相机设置中的专业视频功能介绍页可一键下"
-      },
-      {
-        "id": "review-15",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "优化",
-        "typeSource": "explicit",
-        "sourceText": "专业模式参数预设功能体验，增加预设管理页，",
-        "description": "专业模式参数预设功能体验，增加预设管理页，"
-      },
-      {
-        "id": "review-16",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "新增",
-        "typeSource": "explicit",
-        "sourceText": "在“录音机”应用内生成总结后，可针对录音内",
-        "description": "在“录音机”应用内生成总结后，可针对录音内"
-      },
-      {
-        "id": "review-17",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "修复",
-        "typeSource": "explicit",
-        "sourceText": "长时间录音场景下偶现录制失败的问题",
-        "description": "长时间录音场景下偶现录制失败的问题"
-      },
-      {
-        "id": "review-18",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "修复",
-        "typeSource": "explicit",
-        "sourceText": "部分场景下出现相同录音记录的问题",
-        "description": "部分场景下出现相同录音记录的问题"
-      },
-      {
-        "id": "review-19",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "优化",
-        "typeSource": "explicit",
-        "sourceText": "日历节日显示，增加更多传统节日、历史纪念日",
-        "description": "日历节日显示，增加更多传统节日、历史纪念日"
-      },
-      {
-        "id": "review-20",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "修复",
-        "typeSource": "explicit",
-        "sourceText": "部分场景下日期显示异常问题",
-        "description": "部分场景下日期显示异常问题"
-      },
-      {
-        "id": "review-21",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "新增",
-        "typeSource": "explicit",
-        "sourceText": "支持开启“未成年人模式”前查看和修改守护配置",
-        "description": "支持开启“未成年人模式”前查看和修改守护配置"
-      },
-      {
-        "id": "review-22",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "优化",
-        "typeSource": "explicit",
-        "sourceText": "退出“本地守护”时，守护配置保存逻辑",
-        "description": "退出“本地守护”时，守护配置保存逻辑"
-      },
-      {
-        "id": "review-23",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "优化",
-        "typeSource": "explicit",
-        "sourceText": "“未成年人模式”时间统计逻辑",
-        "description": "“未成年人模式”时间统计逻辑"
-      },
-      {
-        "id": "review-24",
-        "module": "系统",
+        "module": "互联",
         "moduleSource": "explicit-heading",
         "type": "新增",
         "typeSource": "explicit",
@@ -4082,242 +3902,458 @@
         "description": "支持按住电源键与“超级小爱”持续对话"
       },
       {
-        "id": "review-25",
-        "module": "系统",
+        "id": "review-02",
+        "module": "互联",
         "moduleSource": "explicit-heading",
         "type": "新增",
         "typeSource": "explicit",
-        "sourceText": "部分场景下点击状态栏回到页面顶部功能",
-        "description": "部分场景下点击状态栏回到页面顶部功能"
+        "sourceText": "小米手机、小米平板兼容AirPods，支持快连弹",
+        "description": "小米手机、小米平板兼容AirPods，支持快连弹"
       },
       {
-        "id": "review-26",
-        "module": "系统",
+        "id": "review-03",
+        "module": "互联",
         "moduleSource": "explicit-heading",
         "type": "新增",
         "typeSource": "explicit",
-        "sourceText": "“辅助功能-长辈关怀”，整合字体与图标调整、",
-        "description": "“辅助功能-长辈关怀”，整合字体与图标调整、"
+        "sourceText": "“密码”应用，支持密码自动保存、智能填充以Xiaomi 14 Pro窗、查看电量、使用空间音频、降噪切换及查找功能",
+        "description": "“密码”应用，支持密码自动保存、智能填充以Xiaomi 14 Pro窗、查看电量、使用空间音频、降噪切换及查找功能"
       },
       {
-        "id": "review-27",
-        "module": "系统",
+        "id": "review-04",
+        "module": "互联",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "部分场景下点击状态栏回到页面顶部功能Xiaomi 14 Pro 钛金属特别版",
+        "description": "部分场景下点击状态栏回到页面顶部功能Xiaomi 14 Pro 钛金属特别版"
+      },
+      {
+        "id": "review-05",
+        "module": "安全",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "“辅助功能-长辈关怀”，整合字体与图标调整、Xiaomi 14•2:360 1002:56-2100铃声音量调节、诈骗电话拦截等老年人用机设置项Xiaomi MIX Fold 4小米澎湃OS 32:36Airpods Pro全部密码Xiaomi MIX Flip小米账号登录",
+        "description": "“辅助功能-长辈关怀”，整合字体与图标调整、Xiaomi 14•2:360 1002:56-2100铃声音量调节、诈骗电话拦截等老年人用机设置项Xiaomi MIX Fold 4小米澎湃OS 32:36Airpods Pro全部密码Xiaomi MIX Flip小米账号登录"
+      },
+      {
+        "id": "review-06",
+        "module": "安全",
         "moduleSource": "explicit-heading",
         "type": "优化",
         "typeSource": "explicit",
-        "sourceText": "部分场景下手势提示线的显示效果",
-        "description": "部分场景下手势提示线的显示效果"
+        "sourceText": "部分场景下手势提示线的显示效果Q 搜索2816Xiaomi Civi 5 Pro邮箱/手机号码/小米ID升级公告爱彼迎",
+        "description": "部分场景下手势提示线的显示效果Q 搜索2816Xiaomi Civi 5 Pro邮箱/手机号码/小米ID升级公告爱彼迎"
       },
       {
-        "id": "review-28",
-        "module": "系统",
+        "id": "review-07",
+        "module": "安全",
         "moduleSource": "explicit-heading",
         "type": "优化",
         "typeSource": "explicit",
-        "sourceText": "用户位置变化场景下天气定位的及时性和准确性",
-        "description": "用户位置变化场景下天气定位的及时性和准确性"
+        "sourceText": "用户位置变化场景下天气定位的及时性和准确性REDMI K70 Pro阿里巴巴區REDMI K70 至尊版登录",
+        "description": "用户位置变化场景下天气定位的及时性和准确性REDMI K70 Pro阿里巴巴區REDMI K70 至尊版登录"
       },
       {
-        "id": "review-29",
-        "module": "系统",
+        "id": "review-08",
+        "module": "安全",
         "moduleSource": "explicit-heading",
         "type": "优化",
         "typeSource": "explicit",
-        "sourceText": "相册搜索动效，过渡更自然",
-        "description": "相册搜索动效，过渡更自然"
+        "sourceText": "相册搜索动效，过渡更自然R wangwei234..REDMI K70哔哩哔哩",
+        "description": "相册搜索动效，过渡更自然R wangwei234..REDMI K70哔哩哔哩"
       },
       {
-        "id": "review-30",
-        "module": "系统",
+        "id": "review-09",
+        "module": "安全",
         "moduleSource": "explicit-heading",
         "type": "优化",
         "typeSource": "explicit",
-        "sourceText": "“小米换机”支持迁移更多数据，包括部分设置",
-        "description": "“小米换机”支持迁移更多数据，包括部分设置"
+        "sourceText": "“小米换机”支持迁移更多数据，包括部分设置REDMI K70ETYuioPQWER",
+        "description": "“小米换机”支持迁移更多数据，包括部分设置REDMI K70ETYuioPQWER"
       },
       {
-        "id": "review-31",
-        "module": "系统",
+        "id": "review-10",
+        "module": "安全",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "iPhone接收的短信验证码同步到小米手机后，ASREDMI Turbo 4 Pro08N M分词REDMI Turbo 4贝壳租房",
+        "description": "iPhone接收的短信验证码同步到小米手机后，ASREDMI Turbo 4 Pro08N M分词REDMI Turbo 4贝壳租房"
+      },
+      {
+        "id": "review-11",
+        "module": "智能",
         "moduleSource": "explicit-heading",
         "type": "优化",
         "typeSource": "explicit",
-        "sourceText": "Pad桌面网格边距更匀称、间距更舒适",
-        "description": "Pad桌面网格边距更匀称、间距更舒适"
+        "sourceText": "Pad桌面网格边距更匀称、间距更舒适下个123［更多设备、更多通知上岛REDMI Note 15 Pro+a分 800",
+        "description": "Pad桌面网格边距更匀称、间距更舒适下个123［更多设备、更多通知上岛REDMI Note 15 Pro+a分 800"
       },
       {
-        "id": "review-32",
-        "module": "系统",
+        "id": "review-12",
+        "module": "智能",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
-        "sourceText": "部分场景下“文件管理”中云盘文件缩略图显示",
-        "description": "部分场景下“文件管理”中云盘文件缩略图显示"
+        "sourceText": "部分场景下“文件管理”中云盘文件缩略图显示8月16日 星期六REDMI Note 15 Pro2:36异常的问题二方美招行给作在车1300000REDMI Note 15",
+        "description": "部分场景下“文件管理”中云盘文件缩略图显示8月16日 星期六REDMI Note 15 Pro2:36异常的问题二方美招行给作在车1300000REDMI Note 15"
       },
       {
-        "id": "review-33",
-        "module": "系统",
+        "id": "review-13",
+        "module": "智能",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "部分系统应用适配安全访问控件，更多应用适配",
+        "description": "部分系统应用适配安全访问控件，更多应用适配"
+      },
+      {
+        "id": "review-14",
+        "module": "智能",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "小米平板支持“小米超级岛”，重要信息触达REDMI Pad 2 Pro持续进行中",
+        "description": "小米平板支持“小米超级岛”，重要信息触达REDMI Pad 2 Pro持续进行中"
+      },
+      {
+        "id": "review-15",
+        "module": "智能",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
-        "sourceText": "部分场景下“文件管理”中macOS压缩文件无法",
-        "description": "部分场景下“文件管理”中macOS压缩文件无法"
+        "sourceText": "部分场景下“文件管理”中macOS压缩文件无法更高效收不荆驴证码？正常显示的问题",
+        "description": "部分场景下“文件管理”中macOS压缩文件无法更高效收不荆驴证码？正常显示的问题"
       },
       {
-        "id": "review-34",
-        "module": "系统",
+        "id": "review-16",
+        "module": "智能",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "指纹、面部与密码页面样式，设置更便捷",
+        "description": "指纹、面部与密码页面样式，设置更便捷"
+      },
+      {
+        "id": "review-17",
+        "module": "智能",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
-        "sourceText": "部分场景下微信无法读取截屏的问题",
-        "description": "部分场景下微信无法读取截屏的问题"
+        "sourceText": "部分场景下微信无法读取截屏的问题以下机型4月23日起开始陆续推送删",
+        "description": "部分场景下微信无法读取截屏的问题以下机型4月23日起开始陆续推送删"
       },
       {
-        "id": "review-35",
-        "module": "系统",
+        "id": "review-18",
+        "module": "智能",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
-        "sourceText": "部分截屏场景下多语言缩略图显示卡顿的问题",
-        "description": "部分截屏场景下多语言缩略图显示卡顿的问题"
+        "sourceText": "部分截屏场景下多语言缩略图显示卡顿的问题台米」登豪/注無小米樂号验证場：63625，分词Xiaomi 13 Ultra◎Xiaomi 13 Pro",
+        "description": "部分截屏场景下多语言缩略图显示卡顿的问题台米」登豪/注無小米樂号验证場：63625，分词Xiaomi 13 Ultra◎Xiaomi 13 Pro"
       },
       {
-        "id": "review-36",
-        "module": "系统",
+        "id": "review-19",
+        "module": "智能",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
-        "sourceText": "深色模式下小米智能卡进入自定义卡片名称页",
-        "description": "深色模式下小米智能卡进入自定义卡片名称页"
+        "sourceText": "深色模式下小米智能卡进入自定义卡片名称页相机面，输入框显示异常的问题Xiaomi 1316Xiaomi MIX Fold 3",
+        "description": "深色模式下小米智能卡进入自定义卡片名称页相机面，输入框显示异常的问题Xiaomi 1316Xiaomi MIX Fold 3"
       },
       {
-        "id": "review-37",
-        "module": "系统",
+        "id": "review-20",
+        "module": "智能",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "iPhone来电同步到小米手机后，支持在小米",
+        "description": "iPhone来电同步到小米手机后，支持在小米"
+      },
+      {
+        "id": "review-21",
+        "module": "智能",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
         "sourceText": "部分场景下小米智能卡按钮重叠的问题",
         "description": "部分场景下小米智能卡按钮重叠的问题"
+      },
+      {
+        "id": "review-22",
+        "module": "智能",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "相机设置中的专业视频功能介绍页可一键下.Xiaomi Civi 4 Pro手机接听载“Mi-LOG to Rec.709\"色彩还原LUT文件Xiaomi Pad 6S Pro 12.42:36REDMI K60 Pro白白",
+        "description": "相机设置中的专业视频功能介绍页可一键下.Xiaomi Civi 4 Pro手机接听载“Mi-LOG to Rec.709\"色彩还原LUT文件Xiaomi Pad 6S Pro 12.42:36REDMI K60 Pro白白"
+      },
+      {
+        "id": "review-23",
+        "module": "智能",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "专业模式参数预设功能体验，增加预设管理页，北高中国动 交自iphonejs家庭REDMI K60 至尊版白白2010年4月6日，小米在北京中支持批量导入和导出预设参数机型适配计划关村悄悄诞生了。zREDMI Turbo 3",
+        "description": "专业模式参数预设功能体验，增加预设管理页，北高中国动 交自iphonejs家庭REDMI K60 至尊版白白2010年4月6日，小米在北京中支持批量导入和导出预设参数机型适配计划关村悄悄诞生了。zREDMI Turbo 3"
+      },
+      {
+        "id": "review-24",
+        "module": "智能",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "“小米超级岛”适配更多应用第一款小米手机于 2011年8月16 日发布，10月底正式上市，当年收REDMI Note 15R入超过5亿元。2012年，小米迎来第一个完整财年，营收超过100亿元。",
+        "description": "“小米超级岛”适配更多应用第一款小米手机于 2011年8月16 日发布，10月底正式上市，当年收REDMI Note 15R入超过5亿元。2012年，小米迎来第一个完整财年，营收超过100亿元。"
+      },
+      {
+        "id": "review-25",
+        "module": "智能",
+        "moduleSource": "explicit-heading",
+        "type": "适配",
+        "typeSource": "explicit",
+        "sourceText": "“文件管理”，实时显示超级文档处理进度2014年营收达636亿元，以当时的汇REDMI Note 14 Pro+率计算，突破了100亿美元。2010-以下机型即日起开始陆续推送2014 年是小米十年历程的第一个高速REDMI Note 14 Pro◎适配交通卡和门卡，锁屏刷卡一目了然增长阶段。接下来的2015年和 2016年，小米营收增长放缓，陷入了成长REDMI Note 14 5G困境。经过两三年的调整，小米进入Xiaomi 17 Ultra 徕卡版了第二个高速增长阶段，2017年营收REDMI Note 13 Pro+突破 1000亿元，2019年突破2000亿Xiaomi 17 Ultra元，成为最年轻的《财富》世界500REDMI Note 13 Pro强企业。2020年和 2021年，小米连续云端处理中已出站Xiaomi 17 Pro Max支付300元金价5023元2:56REDMI Note 13RXiaomi 17 Pro",
+        "description": "“文件管理”，实时显示超级文档处理进度2014年营收达636亿元，以当时的汇REDMI Note 14 Pro+率计算，突破了100亿美元。2010-以下机型即日起开始陆续推送2014 年是小米十年历程的第一个高速REDMI Note 14 Pro◎适配交通卡和门卡，锁屏刷卡一目了然增长阶段。接下来的2015年和 2016年，小米营收增长放缓，陷入了成长REDMI Note 14 5G困境。经过两三年的调整，小米进入Xiaomi 17 Ultra 徕卡版了第二个高速增长阶段，2017年营收REDMI Note 13 Pro+突破 1000亿元，2019年突破2000亿Xiaomi 17 Ultra元，成为最年轻的《财富》世界500REDMI Note 13 Pro强企业。2020年和 2021年，小米连续云端处理中已出站Xiaomi 17 Pro Max支付300元金价5023元2:56REDMI Note 13RXiaomi 17 Pro"
+      },
+      {
+        "id": "review-26",
+        "module": "录音机",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "在“录音机”应用内生成总结后，可针对录音内REDMI 15R 5GXiaomi 17",
+        "description": "在“录音机”应用内生成总结后，可针对录音内REDMI 15R 5GXiaomi 17"
+      },
+      {
+        "id": "review-27",
+        "module": "录音机",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "小米手机来电同步到iPhone后，支持在REDMI 14R 5GXiaomi Pad 8 ProiPhone接听8月16日周六 闽六月廿三28",
+        "description": "小米手机来电同步到iPhone后，支持在REDMI 14R 5GXiaomi Pad 8 ProiPhone接听8月16日周六 闽六月廿三28"
+      },
+      {
+        "id": "review-28",
+        "module": "智能",
+        "moduleSource": "explicit-heading",
+        "type": "修复",
+        "typeSource": "explicit",
+        "sourceText": "长时间录音场景下偶现录制失败的问题02336Xiaomi Pad 8REDMI14CREDMI K90 Pro Max",
+        "description": "长时间录音场景下偶现录制失败的问题02336Xiaomi Pad 8REDMI14CREDMI K90 Pro Max"
+      },
+      {
+        "id": "review-29",
+        "module": "智能",
+        "moduleSource": "explicit-heading",
+        "type": "修复",
+        "typeSource": "explicit",
+        "sourceText": "部分场景下出现相同录音记录的问题REDMI Pad 2REDMI K90V 接受REDMI Pad Pro 5G白白190 *00001北京移动HDmI关村悄悄诞生了。7D 19天前存去电REDMI Pad Pro第一款小米手机于 2011年8月16 日发布，10月底正式上市，当年收以下机型不晚于3月31日开始陆续推送入超过5亿元。2012.年，小米迎来第一个完整财年，营收超过100亿元。2014 年营收达 636亿元，以当时的汇率计算，突破了100亿美元。2010-Xiaomi 15 Ultra2014 年是小米十年历程的第一个高速增长阶段。接下来的2015年和2016年，小米营收增长放缓，陷入了成长Xiaomi 15S Pro更多相关进展与具体升级计划将在小米社区、困境。经过两三年的调整，小米进入",
+        "description": "部分场景下出现相同录音记录的问题REDMI Pad 2REDMI K90V 接受REDMI Pad Pro 5G白白190 *00001北京移动HDmI关村悄悄诞生了。7D 19天前存去电REDMI Pad Pro第一款小米手机于 2011年8月16 日发布，10月底正式上市，当年收以下机型不晚于3月31日开始陆续推送入超过5亿元。2012.年，小米迎来第一个完整财年，营收超过100亿元。2014 年营收达 636亿元，以当时的汇率计算，突破了100亿美元。2010-Xiaomi 15 Ultra2014 年是小米十年历程的第一个高速增长阶段。接下来的2015年和2016年，小米营收增长放缓，陷入了成长Xiaomi 15S Pro更多相关进展与具体升级计划将在小米社区、困境。经过两三年的调整，小米进入"
+      },
+      {
+        "id": "review-30",
+        "module": "日历",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "日历节日显示，增加更多传统节日、历史纪念日",
+        "description": "日历节日显示，增加更多传统节日、历史纪念日"
+      },
+      {
+        "id": "review-31",
+        "module": "日历",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "“小米超级岛”播放器光效，媒体播放进度条了第二个高速增长阶段，2017.年营收Xiaomi 15 Pro突破 1000亿元，2019年突破 2000亿更好看小米澎湃OS官方微博/小红书/微信公众号更新，元，成为最年轻的《财富》世界 500",
+        "description": "“小米超级岛”播放器光效，媒体播放进度条了第二个高速增长阶段，2017.年营收Xiaomi 15 Pro突破 1000亿元，2019年突破 2000亿更好看小米澎湃OS官方微博/小红书/微信公众号更新，元，成为最年轻的《财富》世界 500"
+      },
+      {
+        "id": "review-32",
+        "module": "日历",
+        "moduleSource": "explicit-heading",
+        "type": "修复",
+        "typeSource": "explicit",
+        "sourceText": "部分场景下日期显示异常问题Xiaomi 15强企业。2020年和 2021年，小米连续Xiaomi MIX Flip 2敬请期待与体验。Xiaomi Pad 7 Ultra",
+        "description": "部分场景下日期显示异常问题Xiaomi 15强企业。2020年和 2021年，小米连续Xiaomi MIX Flip 2敬请期待与体验。Xiaomi Pad 7 Ultra"
+      },
+      {
+        "id": "review-33",
+        "module": "日历",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "“贴贴分享”支持录音、笔记分享，贴近小米2:36.分100Xiaomi Pad 7S Pro 12.5手机或iPhone的NFC区域，即可快速分享Xiaomi Pad 7 Pro•机型顺序不代表升级顺序，不同机型、版本的功能支持和升Night台Xiaomi Pad 7Bella Lee级时间可能不同，请以实际体验为准。",
+        "description": "“贴贴分享”支持录音、笔记分享，贴近小米2:36.分100Xiaomi Pad 7S Pro 12.5手机或iPhone的NFC区域，即可快速分享Xiaomi Pad 7 Pro•机型顺序不代表升级顺序，不同机型、版本的功能支持和升Night台Xiaomi Pad 7Bella Lee级时间可能不同，请以实际体验为准。"
+      },
+      {
+        "id": "review-34",
+        "module": "家人守护",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "Mac端“小米互联服务”可查看小米云笔记、云相册REDMI K80 Pro词K•为保障体验稳定，升级将采用「灰度到全量」的逐步推送机制。",
+        "description": "Mac端“小米互联服务”可查看小米云笔记、云相册REDMI K80 Pro词K•为保障体验稳定，升级将采用「灰度到全量」的逐步推送机制。"
+      },
+      {
+        "id": "review-35",
+        "module": "家人守护",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "支持开启“未成年人模式”前查看和修改守护配置REDMI K80 至尊版",
+        "description": "支持开启“未成年人模式”前查看和修改守护配置REDMI K80 至尊版"
+      },
+      {
+        "id": "review-36",
+        "module": "家人守护",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "在iPhone镜像打开小米手机应用时，支持同步以上时间为灰度开始时间，并非所有用户会立即收到更新。3:562:54使用小米手机设置的输入法REDMI K80",
+        "description": "在iPhone镜像打开小米手机应用时，支持同步以上时间为灰度开始时间，并非所有用户会立即收到更新。3:562:54使用小米手机设置的输入法REDMI K80"
+      },
+      {
+        "id": "review-37",
+        "module": "家人守护",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "退出“本地守护”时，守护配置保存逻辑REDMI Turbo 5Max•若您对功能体验有更多建议，欢迎前往小米社区反馈，我们",
+        "description": "退出“本地守护”时，守护配置保存逻辑REDMI Turbo 5Max•若您对功能体验有更多建议，欢迎前往小米社区反馈，我们"
+      },
+      {
+        "id": "review-38",
+        "module": "家人守护",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "“未成年人模式”时间统计逻辑REDMI Turbo 5将持续优化相关体验。REDMI K Pad",
+        "description": "“未成年人模式”时间统计逻辑REDMI Turbo 5将持续优化相关体验。REDMI K Pad"
       }
     ],
     "35": [
       {
         "id": "review-01",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
+        "module": "互联",
+        "moduleSource": "inferred",
         "type": "新增",
         "typeSource": "explicit",
-        "sourceText": "支持小米手机与小米手机互联",
-        "description": "支持小米手机与小米手机互联"
+        "sourceText": "支持小米手机与小米手机互联AI自动帮记账•动态照片编辑后，依然保持动态格式。 小米手机之间的通知可流转，在附近且已打开蓝牙、WLAN时可镜像回复消息Xiaomi HyperOS点击上传图片并发送指令即可修图mlWLAN时可跨端操作另一台小米手机每笔钱都花得明白••8:16-心 1008-16随心修图新对话小米澎湃OS◎",
+        "description": "支持小米手机与小米手机互联AI自动帮记账•动态照片编辑后，依然保持动态格式。 小米手机之间的通知可流转，在附近且已打开蓝牙、WLAN时可镜像回复消息Xiaomi HyperOS点击上传图片并发送指令即可修图mlWLAN时可跨端操作另一台小米手机每笔钱都花得明白••8:16-心 1008-16随心修图新对话小米澎湃OS◎"
       },
       {
         "id": "review-02",
-        "module": "系统",
+        "module": "桌面",
         "moduleSource": "explicit-heading",
         "type": "新增",
         "typeSource": "explicit",
-        "sourceText": "录音APP生成AI总结后，支持直接点击底部",
-        "description": "录音APP生成AI总结后，支持直接点击底部"
+        "sourceText": "录音APP生成AI总结后，支持直接点击底部12月31日周四 十月廿二11:00答疑解惑，有什么问题尽管问我吧』阿健的 Xiaomi 17 Pro“抗糖”饮食真的能让皮肤变好吗？咱铃查找",
+        "description": "录音APP生成AI总结后，支持直接点击底部12月31日周四 十月廿二11:00答疑解惑，有什么问题尽管问我吧』阿健的 Xiaomi 17 Pro“抗糖”饮食真的能让皮肤变好吗？咱铃查找"
       },
       {
         "id": "review-03",
-        "module": "系统",
+        "module": "超级小爱",
         "moduleSource": "explicit-heading",
         "type": "新增",
         "typeSource": "explicit",
-        "sourceText": "CarWith连接流程提示接入小米超级岛",
-        "description": "CarWith连接流程提示接入小米超级岛"
+        "sourceText": "CarWith连接流程提示接入小米超级岛天天领外卖红包新人最高50元建醬至高满15减15大红包•魔法消除新增眩光消除，轻松去除镜头眩光领取额度》",
+        "description": "CarWith连接流程提示接入小米超级岛天天领外卖红包新人最高50元建醬至高满15减15大红包•魔法消除新增眩光消除，轻松去除镜头眩光领取额度》"
       },
       {
         "id": "review-04",
-        "module": "系统",
+        "module": "互联",
         "moduleSource": "explicit-heading",
         "type": "新增",
         "typeSource": "explicit",
-        "sourceText": "CarWith车机端融合桌面支持经典卡片桌面、",
-        "description": "CarWith车机端融合桌面支持经典卡片桌面、"
+        "sourceText": "CarWith车机端融合桌面支持经典卡片桌面、续优化相关体验。說的照片/视频1.交通指南：到达成都的交通方式及出行建议2住痛推釋：這合不同致新的住福区城选择3.景点推荐：经典必游景点和春季特色活动5行怨安桃。会班的肘间分剑和路雉教州6.注意事项：春季出游需要特别关注的事项息来确保攻略的准确性。首先需验证以下内容：•二日俗成新的天会状泊•昼夜温差•降雨规律及对应的穿衣建议。料然头。结合上述分析，需要搜索最新信息来完善攻略。囚A玩法22 深摩用考C 发消息或按住说话⑥④",
+        "description": "CarWith车机端融合桌面支持经典卡片桌面、续优化相关体验。說的照片/视频1.交通指南：到达成都的交通方式及出行建议2住痛推釋：這合不同致新的住福区城选择3.景点推荐：经典必游景点和春季特色活动5行怨安桃。会班的肘间分剑和路雉教州6.注意事项：春季出游需要特别关注的事项息来确保攻略的准确性。首先需验证以下内容：•二日俗成新的天会状泊•昼夜温差•降雨规律及对应的穿衣建议。料然头。结合上述分析，需要搜索最新信息来完善攻略。囚A玩法22 深摩用考C 发消息或按住说话⑥④"
       }
     ],
     "36": [
       {
         "id": "review-01",
-        "module": "系统",
+        "module": "壁纸",
         "moduleSource": "explicit-heading",
         "type": "新增",
         "typeSource": "explicit",
-        "sourceText": "系统精选A|壁纸，无需生成即可使用",
-        "description": "系统精选A|壁纸，无需生成即可使用"
+        "sourceText": "小米AI眼镜使用抖音、小红书直播时，支持开• 202541940启跨设备相机，可调用眼镜摄像头，分享第一视角会议记录要点总结•「水印」功能全面升级，新增更多水印样式，支持自E AI总结1. 风险控制机制定义图像、自定义文字、镜头参数开关、画框背景目计划，以确保我们能够有效地应对新的挑战和",
+        "description": "小米AI眼镜使用抖音、小红书直播时，支持开• 202541940启跨设备相机，可调用眼镜摄像头，分享第一视角会议记录要点总结•「水印」功能全面升级，新增更多水印样式，支持自E AI总结1. 风险控制机制定义图像、自定义文字、镜头参数开关、画框背景目计划，以确保我们能够有效地应对新的挑战和"
       },
       {
         "id": "review-02",
-        "module": "系统",
+        "module": "壁纸",
         "moduleSource": "explicit-heading",
-        "type": "新增",
+        "type": "调整",
         "typeSource": "explicit",
-        "sourceText": "小米AI眼镜使用抖音、小红书直播时，支持开",
-        "description": "小米AI眼镜使用抖音、小红书直播时，支持开"
+        "sourceText": "等更多设置项，满足个性化水印需求光宋。新增的功院沙及与另一个研友部门的对金融业务不良贷款率攀升至1.8%，高于全麦，这将增加我们的工作量，因此我们需要重新行平均水平1.5%，主要集中在房地产和制",
+        "description": "等更多设置项，满足个性化水印需求光宋。新增的功院沙及与另一个研友部门的对金融业务不良贷款率攀升至1.8%，高于全麦，这将增加我们的工作量，因此我们需要重新行平均水平1.5%，主要集中在房地产和制"
       },
       {
         "id": "review-03",
-        "module": "系统",
+        "module": "壁纸",
         "moduleSource": "explicit-heading",
-        "type": "新增",
+        "type": "调整",
         "typeSource": "explicit",
-        "sourceText": "CarWith支持音乐沉浸模式",
-        "description": "CarWith支持音乐沉浸模式"
+        "sourceText": "研发和測试的琲期。查暮更多总结2. 贷款率应对方案修掉脸上的碎发分享，居地产行业，经议实行名车制官理。优升支持国有房企和财务稳健的头部企业，严人逐早工好，心动大承准阳多职乡大的会您可前往「应用商店，搜索相关应用更新，或在应用商店-我的议。由于项目进度的一些变化，我们需要重格限制中小房企新增授信。",
+        "description": "研发和測试的琲期。查暮更多总结2. 贷款率应对方案修掉脸上的碎发分享，居地产行业，经议实行名车制官理。优升支持国有房企和财务稳健的头部企业，严人逐早工好，心动大承准阳多职乡大的会您可前往「应用商店，搜索相关应用更新，或在应用商店-我的议。由于项目进度的一些变化，我们需要重格限制中小房企新增授信。"
       },
       {
         "id": "review-04",
-        "module": "系统",
+        "module": "CarWith",
         "moduleSource": "explicit-heading",
         "type": "新增",
         "typeSource": "explicit",
-        "sourceText": "CarWith支持平行视窗，可通过「显示设置」",
-        "description": "CarWith支持平行视窗，可通过「显示设置」"
+        "sourceText": "CarWith支持音乐沉浸模式》一健美化新伴佰说们的坝日时2•制造业：通过供应链金融方式，基于核心逆话人200:45回 我在听…款、质押融资以控制风险",
+        "description": "CarWith支持音乐沉浸模式》一健美化新伴佰说们的坝日时2•制造业：通过供应链金融方式，基于核心逆话人200:45回 我在听…款、质押融资以控制风险"
       },
       {
         "id": "review-05",
-        "module": "系统",
+        "module": "智能",
         "moduleSource": "explicit-heading",
         "type": "新增",
         "typeSource": "explicit",
-        "sourceText": "CarWith全局动画效果，页面间切换更顺滑",
-        "description": "CarWith全局动画效果，页面间切换更顺滑"
+        "sourceText": "CarWith支持平行视窗，可通过「显示设置」於洗，全出显壮正业财方、祝为利可法乐听起来任务量不小。我们测试团队需要足够讼信息靼友倾箸及印米取措触开启部分应用投屏后，在车机屏幕左右分屏显示S.数子化转望进展及问影- 设置，打开“自动升级”选项，时刻拥有最新功能体验。•系統升級进度：线上业务系統升级已完成需求调研和架构设计阶段。•图片编辑新增人像超清画质，人像修图更加高清细腻",
+        "description": "CarWith支持平行视窗，可通过「显示设置」於洗，全出显壮正业财方、祝为利可法乐听起来任务量不小。我们测试团队需要足够讼信息靼友倾箸及印米取措触开启部分应用投屏后，在车机屏幕左右分屏显示S.数子化转望进展及问影- 设置，打开“自动升级”选项，时刻拥有最新功能体验。•系統升級进度：线上业务系統升级已完成需求调研和架构设计阶段。•图片编辑新增人像超清画质，人像修图更加高清细腻"
       },
       {
         "id": "review-06",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "优化",
-        "typeSource": "explicit",
-        "sourceText": "状态栏时间及电池等图标的显示效果",
-        "description": "状态栏时间及电池等图标的显示效果"
-      },
-      {
-        "id": "review-07",
-        "module": "系统",
+        "module": "相册",
         "moduleSource": "explicit-heading",
         "type": "新增",
         "typeSource": "explicit",
-        "sourceText": "小米换机支持苹果设备Livephoto格式照片与",
-        "description": "小米换机支持苹果设备Livephoto格式照片与"
+        "sourceText": "CarWith全局动画效果，页面间切换更顺滑•电批沉在优化：休25大宫能决装5学下放都分低网睑狠名宙抨极服守现秒虬",
+        "description": "CarWith全局动画效果，页面间切换更顺滑•电批沉在优化：休25大宫能决装5学下放都分低网睑狠名宙抨极服守现秒虬"
+      },
+      {
+        "id": "review-07",
+        "module": "小米超级岛",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "状态栏时间及电池等图标的显示效果即可将喜欢的音乐分享给好友。•视频编辑新增文字样式，支持字体、文字颜色、透明◎度、对齐样式等自定义设置录音列表小米换机2:36Q 搜寮茶音",
+        "description": "状态栏时间及电池等图标的显示效果即可将喜欢的音乐分享给好友。•视频编辑新增文字样式，支持字体、文字颜色、透明◎度、对齐样式等自定义设置录音列表小米换机2:36Q 搜寮茶音"
       },
       {
         "id": "review-08",
         "module": "系统",
         "moduleSource": "explicit-heading",
-        "type": "优化",
+        "type": "新增",
         "typeSource": "explicit",
-        "sourceText": "小米创作APP使用体验，Pad手写笔跟手更顺手",
-        "description": "小米创作APP使用体验，Pad手写笔跟手更顺手"
+        "sourceText": "小米换机支持苹果设备Livephoto格式照片与银河（GALAXY）歌手：萬象COSMOS会飞的鱼 周三 12点30分CL体验为准。叉色降狗|SVG/CSS/CAJ等500+格式文件换机你听了吗？",
+        "description": "小米换机支持苹果设备Livephoto格式照片与银河（GALAXY）歌手：萬象COSMOS会飞的鱼 周三 12点30分CL体验为准。叉色降狗|SVG/CSS/CAJ等500+格式文件换机你听了吗？"
       },
       {
         "id": "review-09",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "优化",
+        "module": "壁纸",
+        "moduleSource": "inferred",
+        "type": "新增",
         "typeSource": "explicit",
-        "sourceText": "小米创作APP支持在Pad端记录PDF历史阅读位置",
-        "description": "小米创作APP支持在Pad端记录PDF历史阅读位置"
+        "sourceText": "系统精选A|壁纸，无需生成即可使用130 1916 日二 10点223正在听呢品三宏租5000.拥一付二，15基给马续，请小米澎湃OS 3听的是哪首歌呀？张老师 周二13点12分•视频编辑新增草稿箱，可以保存视频编辑进度，退出小米创作再剪辑，进度仍在线•過煮魚茄。",
+        "description": "系统精选A|壁纸，无需生成即可使用130 1916 日二 10点223正在听呢品三宏租5000.拥一付二，15基给马续，请小米澎湃OS 3听的是哪首歌呀？张老师 周二13点12分•视频编辑新增草稿箱，可以保存视频编辑进度，退出小米创作再剪辑，进度仍在线•過煮魚茄。"
       },
       {
         "id": "review-10",
@@ -4325,23 +4361,41 @@
         "moduleSource": "explicit-heading",
         "type": "优化",
         "typeSource": "explicit",
-        "sourceText": "Pad浏览器支持首页自定义壁纸功能",
-        "description": "Pad浏览器支持首页自定义壁纸功能"
+        "sourceText": "小米创作APP使用体验，Pad手写笔跟手更顺手•粒粒 用三20点10分",
+        "description": "小米创作APP使用体验，Pad手写笔跟手更顺手•粒粒 用三20点10分"
       },
       {
         "id": "review-11",
-        "module": "系统",
+        "module": "小米超级岛",
         "moduleSource": "explicit-heading",
         "type": "优化",
         "typeSource": "explicit",
-        "sourceText": "Pad浏览器大屏布局及触控板上下滑动跟手度，提",
-        "description": "Pad浏览器大屏布局及触控板上下滑动跟手度，提"
+        "sourceText": "小米创作APP支持在Pad端记录PDF历史阅读位置0.10持AI优化文本、删除冗余字句验证您的身份续优化相关体验温馨提示。•视频编辑支持缩放视频轨道，长视频编辑操作更方便浏览器•支持设置背部轻敲的快捷方式开启录音",
+        "description": "小米创作APP支持在Pad端记录PDF历史阅读位置0.10持AI优化文本、删除冗余字句验证您的身份续优化相关体验温馨提示。•视频编辑支持缩放视频轨道，长视频编辑操作更方便浏览器•支持设置背部轻敲的快捷方式开启录音"
+      },
+      {
+        "id": "review-12",
+        "module": "小米超级岛",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "Pad浏览器支持首页自定义壁纸功能开启路径：设置- 更多设置- 快捷手势- 背部轻敲-80 -028轻敲两下/轻敲三下",
+        "description": "Pad浏览器支持首页自定义壁纸功能开启路径：设置- 更多设置- 快捷手势- 背部轻敲-80 -028轻敲两下/轻敲三下"
+      },
+      {
+        "id": "review-13",
+        "module": "小米超级岛",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "Pad浏览器大屏布局及触控板上下滑动跟手度，提：升网页浏览体验",
+        "description": "Pad浏览器大屏布局及触控板上下滑动跟手度，提：升网页浏览体验"
       }
     ],
     "37": [
       {
         "id": "review-01",
-        "module": "系统",
+        "module": "更多体验优化",
         "moduleSource": "explicit-heading",
         "type": "优化",
         "typeSource": "explicit",
@@ -4350,8 +4404,8 @@
       },
       {
         "id": "review-02",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
+        "module": "桌面",
+        "moduleSource": "inferred",
         "type": "修复",
         "typeSource": "explicit",
         "sourceText": "桌面小部件加载大图时偶现的显示异常问题",
@@ -4363,22 +4417,22 @@
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
-        "sourceText": "部分场景下秒表记录显示异常的问题",
-        "description": "部分场景下秒表记录显示异常的问题"
+        "sourceText": "部分场景下秒表记录显示异常的问题纽节影援抽节影場色彩色殼小米澎湃OS 2••50⑦ 壹芝泽道金阳放轧街剑亮糜爵渍超清爽度螺光齧㨴美化圖贗妞瀆若您对功能体验有更多建议，欢迎前往小米社区反馈，我们将持滤镇水印标记创作水印际记耗切调节人付调节邻作人併秘灱",
+        "description": "部分场景下秒表记录显示异常的问题纽节影援抽节影場色彩色殼小米澎湃OS 2••50⑦ 壹芝泽道金阳放轧街剑亮糜爵渍超清爽度螺光齧㨴美化圖贗妞瀆若您对功能体验有更多建议，欢迎前往小米社区反馈，我们将持滤镇水印标记创作水印际记耗切调节人付调节邻作人併秘灱"
       },
       {
         "id": "review-04",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
+        "module": "时钟",
+        "moduleSource": "inferred",
         "type": "修复",
         "typeSource": "explicit",
-        "sourceText": "大字号小窗模式下，添加闹钟出现的时钟闪退",
-        "description": "大字号小窗模式下，添加闹钟出现的时钟闪退"
+        "sourceText": "大字号小窗模式下，添加闹钟出现的时钟闪退爸爸的身份证号是多少续优化相关体验w",
+        "description": "大字号小窗模式下，添加闹钟出现的时钟闪退爸爸的身份证号是多少续优化相关体验w"
       },
       {
         "id": "review-05",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
+        "module": "CarWith",
+        "moduleSource": "inferred",
         "type": "修复",
         "typeSource": "explicit",
         "sourceText": "部分场景下CarWith导航信息遮挡问题",
@@ -4388,97 +4442,16 @@
     "38": [
       {
         "id": "review-01",
-        "module": "系统",
+        "module": "相册",
         "moduleSource": "explicit-heading",
         "type": "新增",
         "typeSource": "explicit",
-        "sourceText": "AI表情替换",
-        "description": "AI表情替换"
+        "sourceText": "AI表情替换拯救表情管理失败，每张照片都笑得好看焕新存储更新",
+        "description": "AI表情替换拯救表情管理失败，每张照片都笑得好看焕新存储更新"
       },
       {
         "id": "review-02",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "新增",
-        "typeSource": "explicit",
-        "sourceText": "AI形象",
-        "description": "AI形象"
-      },
-      {
-        "id": "review-03",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "新增",
-        "typeSource": "explicit",
-        "sourceText": "魔法抠图",
-        "description": "魔法抠图"
-      },
-      {
-        "id": "review-04",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "新增",
-        "typeSource": "explicit",
-        "sourceText": "更多动态照片玩法，每个瞬间都生动",
-        "description": "更多动态照片玩法，每个瞬间都生动"
-      },
-      {
-        "id": "review-05",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "新增",
-        "typeSource": "explicit",
-        "sourceText": "「标记」功能",
-        "description": "「标记」功能"
-      },
-      {
-        "id": "review-06",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "新增",
-        "typeSource": "explicit",
-        "sourceText": "多个相册水印样式",
-        "description": "多个相册水印样式"
-      },
-      {
-        "id": "review-07",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "优化",
-        "typeSource": "explicit",
-        "sourceText": "「魔法消除」功能",
-        "description": "「魔法消除」功能"
-      },
-      {
-        "id": "review-08",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "优化",
-        "typeSource": "explicit",
-        "sourceText": "「滤镜」功能",
-        "description": "「滤镜」功能"
-      },
-      {
-        "id": "review-09",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "新增",
-        "typeSource": "explicit",
-        "sourceText": "跨生态双向云备份",
-        "description": "跨生态双向云备份"
-      },
-      {
-        "id": "review-10",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "新增",
-        "typeSource": "explicit",
-        "sourceText": "「立即整理」功能",
-        "description": "「立即整理」功能"
-      },
-      {
-        "id": "review-11",
-        "module": "系统",
+        "module": "相册",
         "moduleSource": "explicit-heading",
         "type": "新增",
         "typeSource": "explicit",
@@ -4486,17 +4459,53 @@
         "description": "CarWith支持在车机端音乐APP内切换音源、"
       },
       {
-        "id": "review-12",
-        "module": "系统",
+        "id": "review-03",
+        "module": "相册",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "AI形象小米澎湃OS一键生成光影大片，轻松拿捏氛围感车机端导航卡片增加显示导航进度条",
+        "description": "AI形象小米澎湃OS一键生成光影大片，轻松拿捏氛围感车机端导航卡片增加显示导航进度条"
+      },
+      {
+        "id": "review-04",
+        "module": "桌面",
         "moduleSource": "explicit-heading",
         "type": "优化",
         "typeSource": "explicit",
-        "sourceText": "CarWith车机端百度地图巡航逻辑，自动巡航",
-        "description": "CarWith车机端百度地图巡航逻辑，自动巡航"
+        "sourceText": "CarWith车机端百度地图巡航逻辑，自动巡航AI形象",
+        "description": "CarWith车机端百度地图巡航逻辑，自动巡航AI形象"
       },
       {
-        "id": "review-13",
+        "id": "review-05",
+        "module": "桌面",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "「立即整理」功能",
+        "description": "「立即整理」功能"
+      },
+      {
+        "id": "review-06",
+        "module": "桌面",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "跨生态双向云备份",
+        "description": "跨生态双向云备份"
+      },
+      {
+        "id": "review-07",
         "module": "系统",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "魔法抠图更多背景样式，玩法更多样您可前往「应用商店，搜索相关应用更新，或在应用商店-我的OTO点一下，即可随时清理数据碎片",
+        "description": "魔法抠图更多背景样式，玩法更多样您可前往「应用商店，搜索相关应用更新，或在应用商店-我的OTO点一下，即可随时清理数据碎片"
+      },
+      {
+        "id": "review-08",
+        "module": "相册",
         "moduleSource": "explicit-heading",
         "type": "优化",
         "typeSource": "explicit",
@@ -4504,8 +4513,8 @@
         "description": "焕新存储触发策略，提升被动触发概率"
       },
       {
-        "id": "review-14",
-        "module": "系统",
+        "id": "review-09",
+        "module": "主题",
         "moduleSource": "explicit-heading",
         "type": "优化",
         "typeSource": "explicit",
@@ -4513,26 +4522,35 @@
         "description": "小米互传的手机、Pad连接策略，提升设备间"
       },
       {
-        "id": "review-15",
-        "module": "系统",
+        "id": "review-10",
+        "module": "主题",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "更多动态照片玩法，每个瞬间都生动。支持视频转动态照片格式，最长支持10秒视频转为动态的连接成功率：：36。照片并可自由选择封面个。支持动态照片拼图，至多9张照片拼图后仍然保持动态设置说明：焕新存储",
+        "description": "更多动态照片玩法，每个瞬间都生动。支持视频转动态照片格式，最长支持10秒视频转为动态的连接成功率：：36。照片并可自由选择封面个。支持动态照片拼图，至多9张照片拼图后仍然保持动态设置说明：焕新存储"
+      },
+      {
+        "id": "review-11",
+        "module": "主题",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
-        "sourceText": "文件管理分享CAD文件，由于格式处理错误导",
-        "description": "文件管理分享CAD文件，由于格式处理错误导"
+        "sourceText": "文件管理分享CAD文件，由于格式处理错误导•小米手机需通过「设置- 小米账号 - 云服务-应用数据云同步」开启相致发送为图片格式的问题册云同步740",
+        "description": "文件管理分享CAD文件，由于格式处理错误导•小米手机需通过「设置- 小米账号 - 云服务-应用数据云同步」开启相致发送为图片格式的问题册云同步740"
       },
       {
-        "id": "review-16",
-        "module": "系统",
+        "id": "review-12",
+        "module": "相册",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
-        "sourceText": "文件管理、手机管家、投屏、短信APP内部分",
-        "description": "文件管理、手机管家、投屏、短信APP内部分"
+        "sourceText": "文件管理、手机管家、投屏、短信APP内部分上版本使用路径：进入照片编辑模式，右上角「更多」-「外观设置」体验为准G588$590",
+        "description": "文件管理、手机管家、投屏、短信APP内部分上版本使用路径：进入照片编辑模式，右上角「更多」-「外观设置」体验为准G588$590"
       },
       {
-        "id": "review-17",
-        "module": "系统",
+        "id": "review-13",
+        "module": "无障碍",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -4540,26 +4558,44 @@
         "description": "部分场景桌面及锁屏壁纸出现拉伸、放大、变"
       },
       {
+        "id": "review-14",
+        "module": "无障碍",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "「标记」功能12:33一站式完成马赛克、涂鸦、签名、贴纸等操作形的异常显示问题标记6口小米澎湃OS 2今若您对功能体验有更多建议，欢迎前往小米社区反馈，我们将持手机长期使用后会产生效腿锦片，并可能因此道或渎写性",
+        "description": "「标记」功能12:33一站式完成马赛克、涂鸦、签名、贴纸等操作形的异常显示问题标记6口小米澎湃OS 2今若您对功能体验有更多建议，欢迎前往小米社区反馈，我们将持手机长期使用后会产生效腿锦片，并可能因此道或渎写性"
+      },
+      {
+        "id": "review-15",
+        "module": "相册",
+        "moduleSource": "explicit-heading",
+        "type": "修复",
+        "typeSource": "explicit",
+        "sourceText": "小米创作在平板机型上偶现的画板黑屏问题‘焕斯存健\"功觞箱在合酒的眇乩深度清理和盼下降和卡類。",
+        "description": "小米创作在平板机型上偶现的画板黑屏问题‘焕斯存健\"功觞箱在合酒的眇乩深度清理和盼下降和卡類。"
+      },
+      {
+        "id": "review-16",
+        "module": "相册",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "多个相册水印样式孳理碎片，让您的手机常用常紧。非徕卡合作机型与平板机型同步支持相框水印手机卡顿。请尽量不要使用于机。以免影蜿整環速度。",
+        "description": "多个相册水印样式孳理碎片，让您的手机常用常紧。非徕卡合作机型与平板机型同步支持相框水印手机卡顿。请尽量不要使用于机。以免影蜿整環速度。"
+      },
+      {
+        "id": "review-17",
+        "module": "相册",
+        "moduleSource": "explicit-heading",
+        "type": "修复",
+        "typeSource": "explicit",
+        "sourceText": "小米换机偶现的界面显示异常及闪退问题续优化相关体验",
+        "description": "小米换机偶现的界面显示异常及闪退问题续优化相关体验"
+      },
+      {
         "id": "review-18",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "修复",
-        "typeSource": "explicit",
-        "sourceText": "小米创作在平板机型上偶现的画板黑屏问题",
-        "description": "小米创作在平板机型上偶现的画板黑屏问题"
-      },
-      {
-        "id": "review-19",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
-        "type": "修复",
-        "typeSource": "explicit",
-        "sourceText": "小米换机偶现的界面显示异常及闪退问题",
-        "description": "小米换机偶现的界面显示异常及闪退问题"
-      },
-      {
-        "id": "review-20",
-        "module": "系统",
+        "module": "相册",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -4567,8 +4603,17 @@
         "description": "投屏时，部分设备重复发现及页面显示异常的"
       },
       {
-        "id": "review-21",
-        "module": "系统",
+        "id": "review-19",
+        "module": "相册",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "「魔法消除」功能合并「反光消除」与「魔法消除Pro」能力，消除更精准立即整理问题",
+        "description": "「魔法消除」功能合并「反光消除」与「魔法消除Pro」能力，消除更精准立即整理问题"
+      },
+      {
+        "id": "review-20",
+        "module": "相册",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -4576,64 +4621,73 @@
         "description": "卸载应用时偶现的图标消失问题"
       },
       {
+        "id": "review-21",
+        "module": "相册",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "「滤镜」功能支持底部小图预览滤镜效果，效果更直观",
+        "description": "「滤镜」功能支持底部小图预览滤镜效果，效果更直观"
+      },
+      {
         "id": "review-22",
-        "module": "系统",
+        "module": "相册",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
-        "sourceText": "部分场景状态栏颜色显示异常的问题",
-        "description": "部分场景状态栏颜色显示异常的问题"
+        "sourceText": "部分场景状态栏颜色显示异常的问题=口口令2上版本",
+        "description": "部分场景状态栏颜色显示异常的问题=口口令2上版本"
       },
       {
         "id": "review-23",
-        "module": "系统",
-        "moduleSource": "explicit-heading",
+        "module": "桌面",
+        "moduleSource": "inferred",
         "type": "修复",
         "typeSource": "explicit",
-        "sourceText": "切换桌面布局偶现的闪退问题",
-        "description": "切换桌面布局偶现的闪退问题"
+        "sourceText": "切换桌面布局偶现的闪退问题•完整覆盖机型列表，请前往「小米社区」搜索”相机”，进入圈子查看置顶帖15系列、Xiaomi 14系列、Xiaomi MIX Flip系列、Xiaomi MIX Fold 4.Xiaomi Civi 5 Pro、Xiaomi Civi 4 Pro、REDMI K80系列、REDMI K70系列、REDMI Turbo 4 Pro、REDMI Turbo 4、REDMI Turbo 3、REDMINote 14系列、REDMI Note 13系列",
+        "description": "切换桌面布局偶现的闪退问题•完整覆盖机型列表，请前往「小米社区」搜索”相机”，进入圈子查看置顶帖15系列、Xiaomi 14系列、Xiaomi MIX Flip系列、Xiaomi MIX Fold 4.Xiaomi Civi 5 Pro、Xiaomi Civi 4 Pro、REDMI K80系列、REDMI K70系列、REDMI Turbo 4 Pro、REDMI Turbo 4、REDMI Turbo 3、REDMINote 14系列、REDMI Note 13系列"
       }
     ],
     "39": [
       {
         "id": "review-01",
-        "module": "系统",
+        "module": "超级小爱",
         "moduleSource": "explicit-heading",
         "type": "新增",
         "typeSource": "explicit",
-        "sourceText": "问路对话结果显示地图卡片，支持询问两个地点",
-        "description": "问路对话结果显示地图卡片，支持询问两个地点"
+        "sourceText": "问路对话结果显示地图卡片，支持询问两个地点之间的距离、路线信息可以试试这样说：‘从光谷广场到武汉大学要多久/有多远/怎么走”",
+        "description": "问路对话结果显示地图卡片，支持询问两个地点之间的距离、路线信息可以试试这样说：‘从光谷广场到武汉大学要多久/有多远/怎么走”"
       },
       {
         "id": "review-02",
-        "module": "系统",
+        "module": "地图",
         "moduleSource": "explicit-heading",
         "type": "新增",
         "typeSource": "explicit",
-        "sourceText": "全透明显示效果",
-        "description": "全透明显示效果"
+        "sourceText": "全透明显示效果使用路径：车机端设置 - 显示设置 -背景效果 -选择「全透明，•车机音乐应用界面焕新，新增显示播放列表•支持设置QQ音乐个性化显示效果使用路径：车机端设置 -个性化 -开启「QQ音乐个性化」",
+        "description": "全透明显示效果使用路径：车机端设置 - 显示设置 -背景效果 -选择「全透明，•车机音乐应用界面焕新，新增显示播放列表•支持设置QQ音乐个性化显示效果使用路径：车机端设置 -个性化 -开启「QQ音乐个性化」"
       },
       {
         "id": "review-03",
-        "module": "系统",
+        "module": "地图",
         "moduleSource": "explicit-heading",
         "type": "新增",
         "typeSource": "explicit",
-        "sourceText": "驾驶模式便捷启动功能",
-        "description": "驾驶模式便捷启动功能"
+        "sourceText": "驾驶模式便捷启动功能当浆模式」",
+        "description": "驾驶模式便捷启动功能当浆模式」"
       },
       {
         "id": "review-04",
-        "module": "系统",
+        "module": "更多体验优化",
         "moduleSource": "explicit-heading",
         "type": "优化",
         "typeSource": "explicit",
-        "sourceText": "部分机型焕新存储触发策略，提升触发概率",
-        "description": "部分机型焕新存储触发策略，提升触发概率"
+        "sourceText": "部分机型焕新存储触发策略，提升触发概率•米家APP新增自动化场景模板，可通过「米家APP-",
+        "description": "部分机型焕新存储触发策略，提升触发概率•米家APP新增自动化场景模板，可通过「米家APP-"
       },
       {
         "id": "review-05",
-        "module": "系统",
+        "module": "智能",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -4642,7 +4696,7 @@
       },
       {
         "id": "review-06",
-        "module": "系统",
+        "module": "智能",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -4651,7 +4705,7 @@
       },
       {
         "id": "review-07",
-        "module": "系统",
+        "module": "智能",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -4660,7 +4714,7 @@
       },
       {
         "id": "review-08",
-        "module": "系统",
+        "module": "智能",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -4669,7 +4723,7 @@
       },
       {
         "id": "review-09",
-        "module": "系统",
+        "module": "智能",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -4678,7 +4732,7 @@
       },
       {
         "id": "review-10",
-        "module": "系统",
+        "module": "智能",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -4687,7 +4741,7 @@
       },
       {
         "id": "review-11",
-        "module": "系统",
+        "module": "智能",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -4696,16 +4750,16 @@
       },
       {
         "id": "review-12",
-        "module": "系统",
+        "module": "智能",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
-        "sourceText": "桌面编辑状态下，锁屏壁纸设置未能同时生效的",
-        "description": "桌面编辑状态下，锁屏壁纸设置未能同时生效的"
+        "sourceText": "桌面编辑状态下，锁屏壁纸设置未能同时生效的问题",
+        "description": "桌面编辑状态下，锁屏壁纸设置未能同时生效的问题"
       },
       {
         "id": "review-13",
-        "module": "系统",
+        "module": "智能",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
@@ -4714,27 +4768,371 @@
       },
       {
         "id": "review-14",
-        "module": "系统",
+        "module": "智能",
         "moduleSource": "explicit-heading",
         "type": "修复",
         "typeSource": "explicit",
-        "sourceText": "无障碍模式小米智能卡、小米换机Talkback朗读",
-        "description": "无障碍模式小米智能卡、小米换机Talkback朗读"
+        "sourceText": "无障碍模式小米智能卡、小米换机Talkback朗读问题",
+        "description": "无障碍模式小米智能卡、小米换机Talkback朗读问题"
       }
     ],
     "40": [
       {
         "id": "review-01",
-        "module": "系统",
+        "module": "CarWith",
         "moduleSource": "explicit-heading",
         "type": "新增",
         "typeSource": "explicit",
-        "sourceText": "支持车机屏皋录制功能",
-        "description": "支持车机屏皋录制功能"
+        "sourceText": "支持车机屏皋录制功能使用路径：手机端设百-史多连接-Carwith-开后 牛机录用",
+        "description": "支持车机屏皋录制功能使用路径：手机端设百-史多连接-Carwith-开后 牛机录用"
       }
     ],
-    "41": [],
+    "41": [
+      {
+        "id": "review-01",
+        "module": "超级小爱",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "全新视觉设计",
+        "description": "全新视觉设计"
+      },
+      {
+        "id": "review-02",
+        "module": "超级小爱",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "多种唤醒方式，支持双击屏幕底部手势提示线、长按电源键、语音唤醒等多种唤醒方式，随时随地，随时呼出",
+        "description": "多种唤醒方式，支持双击屏幕底部手势提示线、长按电源键、语音唤醒等多种唤醒方式，随时随地，随时呼出"
+      },
+      {
+        "id": "review-03",
+        "module": "超级小爱",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "全局多模态交互，既能用摄像头感知世界，也能感知屏幕内容，可圈可点",
+        "description": "全局多模态交互，既能用摄像头感知世界，也能感知屏幕内容，可圈可点"
+      },
+      {
+        "id": "review-04",
+        "module": "超级小爱",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "超级小爱自然语音交互，支持自然语言搜索照片、视频、文档、笔记、录音",
+        "description": "超级小爱自然语音交互，支持自然语言搜索照片、视频、文档、笔记、录音"
+      },
+      {
+        "id": "review-05",
+        "module": "超级小爱",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "超级小爱全局执行，深度整合系统能力，复杂操作一步直达，甚至了解您的习惯，主动提供服务",
+        "description": "超级小爱全局执行，深度整合系统能力，复杂操作一步直达，甚至了解您的习惯，主动提供服务"
+      },
+      {
+        "id": "review-06",
+        "module": "桌面",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "关闭桌面搜索框后支持 4×6 布局选项",
+        "description": "关闭桌面搜索框后支持 4×6 布局选项"
+      },
+      {
+        "id": "review-07",
+        "module": "相册",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "“那年今日”支持隐藏",
+        "description": "“那年今日”支持隐藏"
+      },
+      {
+        "id": "review-08",
+        "module": "相册",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "首页可记录日视图和平铺视图",
+        "description": "首页可记录日视图和平铺视图"
+      },
+      {
+        "id": "review-09",
+        "module": "相册",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "搜索结果页可展示 AI 本地分析相册进度",
+        "description": "搜索结果页可展示 AI 本地分析相册进度"
+      },
+      {
+        "id": "review-10",
+        "module": "相册",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "证件类搜索效果",
+        "description": "证件类搜索效果"
+      },
+      {
+        "id": "review-11",
+        "module": "相册",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "相册栏目展示样式",
+        "description": "相册栏目展示样式"
+      },
+      {
+        "id": "review-12",
+        "module": "相册",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "相册支持长按删除和屏蔽",
+        "description": "相册支持长按删除和屏蔽"
+      },
+      {
+        "id": "review-13",
+        "module": "相册",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "时间与地点关键词的搜索效果",
+        "description": "时间与地点关键词的搜索效果"
+      },
+      {
+        "id": "review-14",
+        "module": "相册",
+        "moduleSource": "explicit-heading",
+        "type": "修复",
+        "typeSource": "explicit",
+        "sourceText": "CAD 图被误放入相册的问题",
+        "description": "CAD 图被误放入相册的问题"
+      },
+      {
+        "id": "review-15",
+        "module": "锁屏",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "经典风光模板",
+        "description": "经典风光模板"
+      },
+      {
+        "id": "review-16",
+        "module": "系统动效",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "打开或关闭应用过程中，手势提示线跟随窗口移动",
+        "description": "打开或关闭应用过程中，手势提示线跟随窗口移动"
+      },
+      {
+        "id": "review-17",
+        "module": "系统动效",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "快速打开关闭应用时，同时显示多应用打开或关闭动画",
+        "description": "快速打开关闭应用时，同时显示多应用打开或关闭动画"
+      },
+      {
+        "id": "review-18",
+        "module": "系统动效",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "融合设备中心卡片展开动画",
+        "description": "融合设备中心卡片展开动画"
+      },
+      {
+        "id": "review-19",
+        "module": "便捷互联",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "支持不同小米账号设备互传文件",
+        "description": "支持不同小米账号设备互传文件"
+      },
+      {
+        "id": "review-20",
+        "module": "便捷互联",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "设备连接弹窗显示",
+        "description": "设备连接弹窗显示"
+      },
+      {
+        "id": "review-21",
+        "module": "更多使用功能及体验优化",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "支持一键清空剪贴板",
+        "description": "支持一键清空剪贴板"
+      },
+      {
+        "id": "review-22",
+        "module": "更多使用功能及体验优化",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "通话工具箱视频美颜入口提示",
+        "description": "通话工具箱视频美颜入口提示"
+      },
+      {
+        "id": "review-23",
+        "module": "更多使用功能及体验优化",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "蓝牙状态栏图标显示",
+        "description": "蓝牙状态栏图标显示"
+      },
+      {
+        "id": "review-24",
+        "module": "更多使用功能及体验优化",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "小米画报在锁屏负一屏的壁纸设置流程",
+        "description": "小米画报在锁屏负一屏的壁纸设置流程"
+      },
+      {
+        "id": "review-25",
+        "module": "更多使用功能及体验优化",
+        "moduleSource": "explicit-heading",
+        "type": "修复",
+        "typeSource": "explicit",
+        "sourceText": "部分情况下最近任务清理功能无响应的问题",
+        "description": "部分情况下最近任务清理功能无响应的问题"
+      }
+    ],
     "42": [],
-    "43": []
+    "43": [
+      {
+        "id": "review-01",
+        "module": "流畅度优化",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "应用启动流程和启动动画策略，提升应用启动速度",
+        "description": "应用启动流程和启动动画策略，提升应用启动速度"
+      },
+      {
+        "id": "review-02",
+        "module": "CarWith",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "CarWith 视觉体验更新，重绘 6 种横竖尺寸车机样式，包含全新地图卡片、音乐卡片、小爱同学对话样式，提升界面美观度",
+        "description": "CarWith 视觉体验更新，重绘 6 种横竖尺寸车机样式，包含全新地图卡片、音乐卡片、小爱同学对话样式，提升界面美观度"
+      },
+      {
+        "id": "review-03",
+        "module": "CarWith",
+        "moduleSource": "explicit-heading",
+        "type": "新增",
+        "typeSource": "explicit",
+        "sourceText": "CarWith 个性化定制，支持设置车机壁纸、更换背景效果、自定义卡片排序、添加小部件等功能",
+        "description": "CarWith 个性化定制，支持设置车机壁纸、更换背景效果、自定义卡片排序、添加小部件等功能"
+      },
+      {
+        "id": "review-04",
+        "module": "CarWith",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "CarWith 导航体验，支持地图导航全屏显示，新增导航悬浮胶囊",
+        "description": "CarWith 导航体验，支持地图导航全屏显示，新增导航悬浮胶囊"
+      },
+      {
+        "id": "review-05",
+        "module": "CarWith",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "CarWith 的连接体验和稳定性",
+        "description": "CarWith 的连接体验和稳定性"
+      },
+      {
+        "id": "review-06",
+        "module": "自由窗口",
+        "moduleSource": "explicit-heading",
+        "type": "修复",
+        "typeSource": "explicit",
+        "sourceText": "横竖屏切换时，小窗视频应用显示异常的问题",
+        "description": "横竖屏切换时，小窗视频应用显示异常的问题"
+      },
+      {
+        "id": "review-07",
+        "module": "自由窗口",
+        "moduleSource": "explicit-heading",
+        "type": "修复",
+        "typeSource": "explicit",
+        "sourceText": "部分游戏场景下，迷你窗挂起后尺寸异常的问题",
+        "description": "部分游戏场景下，迷你窗挂起后尺寸异常的问题"
+      },
+      {
+        "id": "review-08",
+        "module": "桌面",
+        "moduleSource": "explicit-heading",
+        "type": "优化",
+        "typeSource": "explicit",
+        "sourceText": "应用上滑返回桌面时的动画稳定性",
+        "description": "应用上滑返回桌面时的动画稳定性"
+      },
+      {
+        "id": "review-09",
+        "module": "桌面",
+        "moduleSource": "explicit-heading",
+        "type": "修复",
+        "typeSource": "explicit",
+        "sourceText": "部分场景下，分身空间桌面布局出现空位的问题",
+        "description": "部分场景下，分身空间桌面布局出现空位的问题"
+      },
+      {
+        "id": "review-10",
+        "module": "万象息屏",
+        "moduleSource": "explicit-heading",
+        "type": "修复",
+        "typeSource": "explicit",
+        "sourceText": "部分情况下偶现闪退的问题",
+        "description": "部分情况下偶现闪退的问题"
+      },
+      {
+        "id": "review-11",
+        "module": "时钟",
+        "moduleSource": "explicit-heading",
+        "type": "修复",
+        "typeSource": "explicit",
+        "sourceText": "闹钟设置重复周期时，切换深色模式出现勾选异常问题",
+        "description": "闹钟设置重复周期时，切换深色模式出现勾选异常问题"
+      },
+      {
+        "id": "review-12",
+        "module": "手机管家",
+        "moduleSource": "explicit-heading",
+        "type": "修复",
+        "typeSource": "explicit",
+        "sourceText": "自然灾害预警订阅选项异常消失的问题",
+        "description": "自然灾害预警订阅选项异常消失的问题"
+      },
+      {
+        "id": "review-13",
+        "module": "状态栏、通知栏",
+        "moduleSource": "explicit-heading",
+        "type": "修复",
+        "typeSource": "explicit",
+        "sourceText": "在不同语言下，部分场景出现的文案及通知显示异常问题",
+        "description": "在不同语言下，部分场景出现的文案及通知显示异常问题"
+      }
+    ]
   }
 }

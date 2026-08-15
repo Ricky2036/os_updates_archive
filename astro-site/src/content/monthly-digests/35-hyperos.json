@@ -10,8 +10,8 @@
       "id": "highlight-01",
       "module": "钱包",
       "moduleSource": "explicit-heading",
-      "title": "AI自动帮记账",
-      "description": "每笔钱都花得明白，支持添加桌面小部件，消费记录一目了然。",
+      "title": "AI 自动帮记账",
+      "description": "钱包现已支持 AI 记账功能，账单自动记录；支持添加桌面小部件，消费记录一目了然。",
       "mediaStatus": "available",
       "evidenceIds": [
         "highlight-01-body",
@@ -28,10 +28,10 @@
           "thumbnail": "assets/digests-v2/35/highlight-01-480.webp",
           "avifSrc": "assets/digests-v2/35/highlight-01-960.avif",
           "avifThumbnail": "assets/digests-v2/35/highlight-01-480.avif",
-          "alt": "AI自动帮记账功能演示",
+          "alt": "AI 自动帮记账功能演示",
           "evidenceId": "highlight-01-demo",
           "width": 480,
-          "height": 696
+          "height": 410
         }
       ]
     },
@@ -39,8 +39,8 @@
       "id": "highlight-02",
       "module": "相册",
       "moduleSource": "explicit-heading",
-      "title": "保持动态格式",
-      "description": "顺手就能修出大片，动态照片编辑后依然保持动态格式。",
+      "title": "动态照片编辑",
+      "description": "动态照片编辑后，依然保持动态格式。",
       "mediaStatus": "available",
       "evidenceIds": [
         "highlight-02-body",
@@ -57,10 +57,10 @@
           "thumbnail": "assets/digests-v2/35/highlight-02-480.webp",
           "avifSrc": "assets/digests-v2/35/highlight-02-960.avif",
           "avifThumbnail": "assets/digests-v2/35/highlight-02-480.avif",
-          "alt": "保持动态格式功能演示",
+          "alt": "动态照片编辑功能演示",
           "evidenceId": "highlight-02-demo",
-          "width": 480,
-          "height": 1333
+          "width": 475,
+          "height": 664
         }
       ]
     },
@@ -68,8 +68,8 @@
       "id": "highlight-03",
       "module": "相册",
       "moduleSource": "explicit-heading",
-      "title": "自定义覆盖原图",
-      "description": "支持自定义选择覆盖原图或另存为。",
+      "title": "保存方式选择",
+      "description": "编辑相册照片后，支持自定义选择覆盖原图或另存为副本，并恢复原图。",
       "mediaStatus": "available",
       "evidenceIds": [
         "highlight-03-body",
@@ -86,19 +86,19 @@
           "thumbnail": "assets/digests-v2/35/highlight-03-480.webp",
           "avifSrc": "assets/digests-v2/35/highlight-03-960.avif",
           "avifThumbnail": "assets/digests-v2/35/highlight-03-480.avif",
-          "alt": "自定义覆盖原图功能演示",
+          "alt": "保存方式选择功能演示",
           "evidenceId": "highlight-03-demo",
-          "width": 480,
-          "height": 1377
+          "width": 475,
+          "height": 721
         }
       ]
     },
     {
       "id": "highlight-04",
-      "module": "超级小爱",
+      "module": "相册",
       "moduleSource": "explicit-heading",
-      "title": "超级小爱持续成长",
-      "description": "超级小爱全屏页增加「随心修图」入口，点击上传图片并发送指令即可修图。",
+      "title": "批量应用编辑操作",
+      "description": "相册图片的编辑操作支持复制粘贴，一键批量应用至更多图片。",
       "mediaStatus": "available",
       "evidenceIds": [
         "highlight-04-body",
@@ -115,19 +115,19 @@
           "thumbnail": "assets/digests-v2/35/highlight-04-480.webp",
           "avifSrc": "assets/digests-v2/35/highlight-04-960.avif",
           "avifThumbnail": "assets/digests-v2/35/highlight-04-480.avif",
-          "alt": "超级小爱持续成长功能演示",
+          "alt": "批量应用编辑操作功能演示",
           "evidenceId": "highlight-04-demo",
           "width": 480,
-          "height": 2154
+          "height": 397
         }
       ]
     },
     {
       "id": "highlight-05",
-      "module": "设备互联",
+      "module": "相册",
       "moduleSource": "explicit-heading",
-      "title": "通知流转",
-      "description": "小米手机之间的通知可流转。",
+      "title": "大模型智能成片",
+      "description": "全新大模型智能成片，可生成 AI 音乐与 AI 字幕。",
       "mediaStatus": "available",
       "evidenceIds": [
         "highlight-05-body",
@@ -144,19 +144,19 @@
           "thumbnail": "assets/digests-v2/35/highlight-05-480.webp",
           "avifSrc": "assets/digests-v2/35/highlight-05-960.avif",
           "avifThumbnail": "assets/digests-v2/35/highlight-05-480.avif",
-          "alt": "通知流转功能演示",
+          "alt": "大模型智能成片功能演示",
           "evidenceId": "highlight-05-demo",
-          "width": 480,
-          "height": 1370
+          "width": 475,
+          "height": 692
         }
       ]
     },
     {
       "id": "highlight-06",
-      "module": "设备互联",
+      "module": "相册",
       "moduleSource": "explicit-heading",
-      "title": "妙享桌面",
-      "description": "WLAN时可跨端操作另一台设备，支持妙享桌面。",
+      "title": "眩光消除",
+      "description": "魔法消除新增眩光消除，轻松去除镜头眩光。",
       "mediaStatus": "available",
       "evidenceIds": [
         "highlight-06-body",
@@ -173,10 +173,10 @@
           "thumbnail": "assets/digests-v2/35/highlight-06-480.webp",
           "avifSrc": "assets/digests-v2/35/highlight-06-960.avif",
           "avifThumbnail": "assets/digests-v2/35/highlight-06-480.avif",
-          "alt": "妙享桌面功能演示",
+          "alt": "眩光消除功能演示",
           "evidenceId": "highlight-06-demo",
-          "width": 480,
-          "height": 1413
+          "width": 475,
+          "height": 721
         }
       ]
     },
@@ -184,8 +184,8 @@
       "id": "highlight-07",
       "module": "超级小爱",
       "moduleSource": "explicit-heading",
-      "title": "超级小爱提炼要点",
-      "description": "针对总结内容进行提炼，提高阅读效率。",
+      "title": "随心修图入口",
+      "description": "超级小爱全屏页增加「随心修图」入口，点击上传图片并发送指令即可修图。",
       "mediaStatus": "available",
       "evidenceIds": [
         "highlight-07-body",
@@ -202,10 +202,242 @@
           "thumbnail": "assets/digests-v2/35/highlight-07-480.webp",
           "avifSrc": "assets/digests-v2/35/highlight-07-960.avif",
           "avifThumbnail": "assets/digests-v2/35/highlight-07-480.avif",
-          "alt": "超级小爱提炼要点功能演示",
+          "alt": "随心修图入口功能演示",
           "evidenceId": "highlight-07-demo",
           "width": 480,
-          "height": 578
+          "height": 402
+        }
+      ]
+    },
+    {
+      "id": "highlight-08",
+      "module": "超级小爱",
+      "moduleSource": "explicit-heading",
+      "title": "音乐与资讯卡片",
+      "description": "超级小爱对话卡片新增音乐卡片与资讯卡片，问答结果更直观。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-08-body",
+        "highlight-08-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-08"
+      ],
+      "media": [
+        {
+          "id": "highlight-08-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/35/highlight-08-960.webp",
+          "thumbnail": "assets/digests-v2/35/highlight-08-480.webp",
+          "avifSrc": "assets/digests-v2/35/highlight-08-960.avif",
+          "avifThumbnail": "assets/digests-v2/35/highlight-08-480.avif",
+          "alt": "音乐与资讯卡片功能演示",
+          "evidenceId": "highlight-08-demo",
+          "width": 480,
+          "height": 341
+        }
+      ]
+    },
+    {
+      "id": "highlight-09",
+      "module": "超级小爱",
+      "moduleSource": "explicit-heading",
+      "title": "拍照识别二维码",
+      "description": "超级小爱支持拍照识别二维码。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-09-body",
+        "highlight-09-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-09"
+      ],
+      "media": [
+        {
+          "id": "highlight-09-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/35/highlight-09-960.webp",
+          "thumbnail": "assets/digests-v2/35/highlight-09-480.webp",
+          "avifSrc": "assets/digests-v2/35/highlight-09-960.avif",
+          "avifThumbnail": "assets/digests-v2/35/highlight-09-480.avif",
+          "alt": "拍照识别二维码功能演示",
+          "evidenceId": "highlight-09-demo",
+          "width": 480,
+          "height": 341
+        }
+      ]
+    },
+    {
+      "id": "highlight-10",
+      "module": "超级小爱",
+      "moduleSource": "explicit-heading",
+      "title": "深度思考多轮搜索",
+      "description": "超级小爱深度思考支持多轮搜索，结果更准确。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-10-body",
+        "highlight-10-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-10"
+      ],
+      "media": [
+        {
+          "id": "highlight-10-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/35/highlight-10-960.webp",
+          "thumbnail": "assets/digests-v2/35/highlight-10-480.webp",
+          "avifSrc": "assets/digests-v2/35/highlight-10-960.avif",
+          "avifThumbnail": "assets/digests-v2/35/highlight-10-480.avif",
+          "alt": "深度思考多轮搜索功能演示",
+          "evidenceId": "highlight-10-demo",
+          "width": 475,
+          "height": 691
+        }
+      ]
+    },
+    {
+      "id": "highlight-11",
+      "module": "设备互联",
+      "moduleSource": "explicit-heading",
+      "title": "小米手机之间互联",
+      "description": "小米手机之间的通知可流转，并支持跨端操作另一台小米手机。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-11-body",
+        "highlight-11-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-11"
+      ],
+      "media": [
+        {
+          "id": "highlight-11-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/35/highlight-11-960.webp",
+          "thumbnail": "assets/digests-v2/35/highlight-11-480.webp",
+          "avifSrc": "assets/digests-v2/35/highlight-11-960.avif",
+          "avifThumbnail": "assets/digests-v2/35/highlight-11-480.avif",
+          "alt": "小米手机之间互联功能演示",
+          "evidenceId": "highlight-11-demo",
+          "width": 480,
+          "height": 376
+        }
+      ]
+    },
+    {
+      "id": "highlight-12",
+      "module": "设备互联",
+      "moduleSource": "explicit-heading",
+      "title": "小米手机与 iPhone 互联",
+      "description": "支持与 iPhone 互联，可双向发送遗落提醒，并支持在 iPhone 开启妙享桌面。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-12-body",
+        "highlight-12-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-12"
+      ],
+      "media": [
+        {
+          "id": "highlight-12-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/35/highlight-12-960.webp",
+          "thumbnail": "assets/digests-v2/35/highlight-12-480.webp",
+          "avifSrc": "assets/digests-v2/35/highlight-12-960.avif",
+          "avifThumbnail": "assets/digests-v2/35/highlight-12-480.avif",
+          "alt": "小米手机与 iPhone 互联功能演示",
+          "evidenceId": "highlight-12-demo",
+          "width": 480,
+          "height": 392
+        }
+      ]
+    },
+    {
+      "id": "highlight-13",
+      "module": "设备互联",
+      "moduleSource": "explicit-heading",
+      "title": "小米手机与 Mac 互联",
+      "description": "Mac 端可查看小米云相册和小米笔记，并支持下载、上传、打开、编辑与同步。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-13-body",
+        "highlight-13-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-13"
+      ],
+      "media": [
+        {
+          "id": "highlight-13-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/35/highlight-13-960.webp",
+          "thumbnail": "assets/digests-v2/35/highlight-13-480.webp",
+          "avifSrc": "assets/digests-v2/35/highlight-13-960.avif",
+          "avifThumbnail": "assets/digests-v2/35/highlight-13-480.avif",
+          "alt": "小米手机与 Mac 互联功能演示",
+          "evidenceId": "highlight-13-demo",
+          "width": 480,
+          "height": 313
+        }
+      ]
+    },
+    {
+      "id": "highlight-14",
+      "module": "设备互联",
+      "moduleSource": "explicit-heading",
+      "title": "小米手机与 Windows PC 互联",
+      "description": "PC 端可查看小米云相册和小米笔记，并支持下载、上传、打开、编辑与同步。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-14-body",
+        "highlight-14-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-14"
+      ],
+      "media": [
+        {
+          "id": "highlight-14-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/35/highlight-14-960.webp",
+          "thumbnail": "assets/digests-v2/35/highlight-14-480.webp",
+          "avifSrc": "assets/digests-v2/35/highlight-14-960.avif",
+          "avifThumbnail": "assets/digests-v2/35/highlight-14-480.avif",
+          "alt": "小米手机与 Windows PC 互联功能演示",
+          "evidenceId": "highlight-14-demo",
+          "width": 480,
+          "height": 282
+        }
+      ]
+    },
+    {
+      "id": "highlight-15",
+      "module": "录音机",
+      "moduleSource": "explicit-heading",
+      "title": "AI 总结问答",
+      "description": "录音 APP 生成 AI 总结后，支持直接点击底部「问超级小爱」，针对总结内容进行 AI 问答。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-15-body",
+        "highlight-15-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-15"
+      ],
+      "media": [
+        {
+          "id": "highlight-15-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/35/highlight-15-960.webp",
+          "thumbnail": "assets/digests-v2/35/highlight-15-480.webp",
+          "avifSrc": "assets/digests-v2/35/highlight-15-960.avif",
+          "avifThumbnail": "assets/digests-v2/35/highlight-15-480.avif",
+          "alt": "AI 总结问答功能演示",
+          "evidenceId": "highlight-15-demo",
+          "width": 480,
+          "height": 389
         }
       ]
     }
@@ -213,12 +445,12 @@
   "updates": [
     {
       "id": "update-01",
-      "module": "系统",
-      "moduleSource": "explicit-heading",
+      "module": "互联",
+      "moduleSource": "inferred",
       "type": "新增",
       "typeSource": "explicit",
-      "sourceText": "支持小米手机与小米手机互联",
-      "description": "支持小米手机与小米手机互联",
+      "sourceText": "支持小米手机与小米手机互联AI自动帮记账•动态照片编辑后，依然保持动态格式。 小米手机之间的通知可流转，在附近且已打开蓝牙、WLAN时可镜像回复消息Xiaomi HyperOS点击上传图片并发送指令即可修图mlWLAN时可跨端操作另一台小米手机每笔钱都花得明白••8:16-心 1008-16随心修图新对话小米澎湃OS◎",
+      "description": "支持小米手机与小米手机互联AI自动帮记账•动态照片编辑后，依然保持动态格式。 小米手机之间的通知可流转，在附近且已打开蓝牙、WLAN时可镜像回复消息Xiaomi HyperOS点击上传图片并发送指令即可修图mlWLAN时可跨端操作另一台小米手机每笔钱都花得明白••8:16-心 1008-16随心修图新对话小米澎湃OS◎",
       "evidenceIds": [
         "update-01-source"
       ],
@@ -228,12 +460,12 @@
     },
     {
       "id": "update-02",
-      "module": "系统",
+      "module": "桌面",
       "moduleSource": "explicit-heading",
       "type": "新增",
       "typeSource": "explicit",
-      "sourceText": "录音APP生成AI总结后，支持直接点击底部",
-      "description": "录音APP生成AI总结后，支持直接点击底部",
+      "sourceText": "录音APP生成AI总结后，支持直接点击底部12月31日周四 十月廿二11:00答疑解惑，有什么问题尽管问我吧』阿健的 Xiaomi 17 Pro“抗糖”饮食真的能让皮肤变好吗？咱铃查找",
+      "description": "录音APP生成AI总结后，支持直接点击底部12月31日周四 十月廿二11:00答疑解惑，有什么问题尽管问我吧』阿健的 Xiaomi 17 Pro“抗糖”饮食真的能让皮肤变好吗？咱铃查找",
       "evidenceIds": [
         "update-02-source"
       ],
@@ -243,12 +475,12 @@
     },
     {
       "id": "update-03",
-      "module": "系统",
+      "module": "超级小爱",
       "moduleSource": "explicit-heading",
       "type": "新增",
       "typeSource": "explicit",
-      "sourceText": "CarWith连接流程提示接入小米超级岛",
-      "description": "CarWith连接流程提示接入小米超级岛",
+      "sourceText": "CarWith连接流程提示接入小米超级岛天天领外卖红包新人最高50元建醬至高满15减15大红包•魔法消除新增眩光消除，轻松去除镜头眩光领取额度》",
+      "description": "CarWith连接流程提示接入小米超级岛天天领外卖红包新人最高50元建醬至高满15减15大红包•魔法消除新增眩光消除，轻松去除镜头眩光领取额度》",
       "evidenceIds": [
         "update-03-source"
       ],
@@ -258,12 +490,12 @@
     },
     {
       "id": "update-04",
-      "module": "系统",
+      "module": "互联",
       "moduleSource": "explicit-heading",
       "type": "新增",
       "typeSource": "explicit",
-      "sourceText": "CarWith车机端融合桌面支持经典卡片桌面、",
-      "description": "CarWith车机端融合桌面支持经典卡片桌面、",
+      "sourceText": "CarWith车机端融合桌面支持经典卡片桌面、续优化相关体验。說的照片/视频1.交通指南：到达成都的交通方式及出行建议2住痛推釋：這合不同致新的住福区城选择3.景点推荐：经典必游景点和春季特色活动5行怨安桃。会班的肘间分剑和路雉教州6.注意事项：春季出游需要特别关注的事项息来确保攻略的准确性。首先需验证以下内容：•二日俗成新的天会状泊•昼夜温差•降雨规律及对应的穿衣建议。料然头。结合上述分析，需要搜索最新信息来完善攻略。囚A玩法22 深摩用考C 发消息或按住说话⑥④",
+      "description": "CarWith车机端融合桌面支持经典卡片桌面、续优化相关体验。說的照片/视频1.交通指南：到达成都的交通方式及出行建议2住痛推釋：這合不同致新的住福区城选择3.景点推荐：经典必游景点和春季特色活动5行怨安桃。会班的肘间分剑和路雉教州6.注意事项：春季出游需要特别关注的事项息来确保攻略的准确性。首先需验证以下内容：•二日俗成新的天会状泊•昼夜温差•降雨规律及对应的穿衣建议。料然头。结合上述分析，需要搜索最新信息来完善攻略。囚A玩法22 深摩用考C 发消息或按住说话⑥④",
       "evidenceIds": [
         "update-04-source"
       ],
@@ -334,9 +566,10 @@
         "ocr-0037",
         "ocr-0054",
         "ocr-0038",
-        "ocr-0055"
+        "ocr-0055",
+        "ocr-0056"
       ],
-      "text": "AI自动帮记账 每笔钱都花得明白，支持添加桌面小部件，消费记录一目了然。",
+      "text": "AI 自动帮记账 钱包现已支持 AI 记账功能，账单自动记录；支持添加桌面小部件，消费记录一目了然。",
       "targetIds": [
         "highlight-01"
       ]
@@ -360,29 +593,9 @@
         "tesseract-0010",
         "tesseract-0012",
         "tesseract-0011",
-        "tesseract-0013",
-        "tesseract-0014",
-        "tesseract-0015",
-        "tesseract-0016",
-        "tesseract-0018",
-        "tesseract-0017",
-        "tesseract-0020",
-        "tesseract-0019",
-        "tesseract-0021",
-        "tesseract-0022",
-        "tesseract-0024",
-        "tesseract-0023",
-        "tesseract-0026",
-        "tesseract-0025",
-        "tesseract-0027",
-        "tesseract-0028",
-        "tesseract-0029",
-        "tesseract-0030",
-        "tesseract-0031",
-        "tesseract-0032",
-        "tesseract-0033"
+        "tesseract-0013"
       ],
-      "text": "保持动态格式 顺手就能修出大片，动态照片编辑后依然保持动态格式。",
+      "text": "动态照片编辑 动态照片编辑后，依然保持动态格式。",
       "targetIds": [
         "highlight-02"
       ]
@@ -394,6 +607,39 @@
       "sourceIndex": 2,
       "sourceHash": "063bf834376ef6b5e56ea8f69481883f0d5575030d68b6638d32d7118019e3c4",
       "blockIds": [
+        "tesseract-0014",
+        "tesseract-0015",
+        "tesseract-0016",
+        "tesseract-0018",
+        "tesseract-0017",
+        "tesseract-0020",
+        "tesseract-0019",
+        "tesseract-0021",
+        "tesseract-0022",
+        "tesseract-0024",
+        "tesseract-0023"
+      ],
+      "text": "保存方式选择 编辑相册照片后，支持自定义选择覆盖原图或另存为副本，并恢复原图。",
+      "targetIds": [
+        "highlight-03"
+      ]
+    },
+    {
+      "id": "source-highlight-04",
+      "classification": "highlight",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "063bf834376ef6b5e56ea8f69481883f0d5575030d68b6638d32d7118019e3c4",
+      "blockIds": [
+        "tesseract-0026",
+        "tesseract-0025",
+        "tesseract-0027",
+        "tesseract-0028",
+        "tesseract-0029",
+        "tesseract-0030",
+        "tesseract-0031",
+        "tesseract-0032",
+        "tesseract-0033",
         "tesseract-0034",
         "tesseract-0035",
         "tesseract-0037",
@@ -411,7 +657,20 @@
         "tesseract-0048",
         "tesseract-0049",
         "tesseract-0050",
-        "tesseract-0051",
+        "tesseract-0051"
+      ],
+      "text": "批量应用编辑操作 相册图片的编辑操作支持复制粘贴，一键批量应用至更多图片。",
+      "targetIds": [
+        "highlight-04"
+      ]
+    },
+    {
+      "id": "source-highlight-05",
+      "classification": "highlight",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "063bf834376ef6b5e56ea8f69481883f0d5575030d68b6638d32d7118019e3c4",
+      "blockIds": [
         "tesseract-0052",
         "tesseract-0053",
         "tesseract-0055",
@@ -421,7 +680,20 @@
         "tesseract-0057",
         "tesseract-0058",
         "tesseract-0059",
-        "tesseract-0061",
+        "tesseract-0061"
+      ],
+      "text": "大模型智能成片 全新大模型智能成片，可生成 AI 音乐与 AI 字幕。",
+      "targetIds": [
+        "highlight-05"
+      ]
+    },
+    {
+      "id": "source-highlight-06",
+      "classification": "highlight",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "063bf834376ef6b5e56ea8f69481883f0d5575030d68b6638d32d7118019e3c4",
+      "blockIds": [
         "tesseract-0062",
         "tesseract-0063",
         "tesseract-0065",
@@ -439,13 +711,13 @@
         "tesseract-0075",
         "tesseract-0077"
       ],
-      "text": "自定义覆盖原图 支持自定义选择覆盖原图或另存为。",
+      "text": "眩光消除 魔法消除新增眩光消除，轻松去除镜头眩光。",
       "targetIds": [
-        "highlight-03"
+        "highlight-06"
       ]
     },
     {
-      "id": "source-highlight-04",
+      "id": "source-highlight-07",
       "classification": "highlight",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/3.webp",
       "sourceIndex": 3,
@@ -470,7 +742,20 @@
         "ocr-0018",
         "ocr-0017",
         "ocr-0019",
-        "ocr-0020",
+        "ocr-0020"
+      ],
+      "text": "随心修图入口 超级小爱全屏页增加「随心修图」入口，点击上传图片并发送指令即可修图。",
+      "targetIds": [
+        "highlight-07"
+      ]
+    },
+    {
+      "id": "source-highlight-08",
+      "classification": "highlight",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "c6b9f8da5e2139bb2705bc1a3661f8b800c99bf8235a29e4b1514e1a645ecf5f",
+      "blockIds": [
         "ocr-0021",
         "ocr-0022",
         "ocr-0023",
@@ -493,7 +778,38 @@
         "ocr-0040",
         "ocr-0042",
         "ocr-0041",
-        "ocr-0043",
+        "ocr-0043"
+      ],
+      "text": "音乐与资讯卡片 超级小爱对话卡片新增音乐卡片与资讯卡片，问答结果更直观。",
+      "targetIds": [
+        "highlight-08"
+      ]
+    },
+    {
+      "id": "source-highlight-09",
+      "classification": "highlight",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "c6b9f8da5e2139bb2705bc1a3661f8b800c99bf8235a29e4b1514e1a645ecf5f",
+      "blockIds": [
+        "ocr-0044",
+        "ocr-0045",
+        "ocr-0046",
+        "ocr-0048",
+        "ocr-0049"
+      ],
+      "text": "拍照识别二维码 超级小爱支持拍照识别二维码。",
+      "targetIds": [
+        "highlight-09"
+      ]
+    },
+    {
+      "id": "source-highlight-10",
+      "classification": "highlight",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "c6b9f8da5e2139bb2705bc1a3661f8b800c99bf8235a29e4b1514e1a645ecf5f",
+      "blockIds": [
         "ocr-0044",
         "ocr-0045",
         "ocr-0046",
@@ -510,13 +826,13 @@
         "ocr-0057",
         "ocr-0058"
       ],
-      "text": "超级小爱持续成长 超级小爱全屏页增加「随心修图」入口，点击上传图片并发送指令即可修图。",
+      "text": "深度思考多轮搜索 超级小爱深度思考支持多轮搜索，结果更准确。",
       "targetIds": [
-        "highlight-04"
+        "highlight-10"
       ]
     },
     {
-      "id": "source-highlight-05",
+      "id": "source-highlight-11",
       "classification": "highlight",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/4.webp",
       "sourceIndex": 4,
@@ -537,7 +853,20 @@
         "ocr-0013",
         "ocr-0014",
         "ocr-0015",
-        "ocr-0016",
+        "ocr-0016"
+      ],
+      "text": "小米手机之间互联 小米手机之间的通知可流转，并支持跨端操作另一台小米手机。",
+      "targetIds": [
+        "highlight-11"
+      ]
+    },
+    {
+      "id": "source-highlight-12",
+      "classification": "highlight",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "8b6f581a2be98eec4f77200973261005bd2bd78020adca352c0addefe7b817f6",
+      "blockIds": [
         "ocr-0017",
         "ocr-0018",
         "ocr-0019",
@@ -552,24 +881,24 @@
         "ocr-0030",
         "ocr-0026",
         "ocr-0031",
-        "ocr-0028"
+        "ocr-0028",
+        "ocr-0032",
+        "ocr-0033",
+        "ocr-0034",
+        "ocr-0035"
       ],
-      "text": "通知流转 小米手机之间的通知可流转。",
+      "text": "小米手机与 iPhone 互联 支持与 iPhone 互联，可双向发送遗落提醒，并支持在 iPhone 开启妙享桌面。",
       "targetIds": [
-        "highlight-05"
+        "highlight-12"
       ]
     },
     {
-      "id": "source-highlight-06",
+      "id": "source-highlight-13",
       "classification": "highlight",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/4.webp",
       "sourceIndex": 4,
       "sourceHash": "8b6f581a2be98eec4f77200973261005bd2bd78020adca352c0addefe7b817f6",
       "blockIds": [
-        "ocr-0032",
-        "ocr-0033",
-        "ocr-0034",
-        "ocr-0035",
         "ocr-0036",
         "ocr-0037",
         "ocr-0038",
@@ -577,25 +906,40 @@
         "ocr-0040",
         "ocr-0041",
         "ocr-0042",
-        "ocr-0043",
+        "ocr-0043"
+      ],
+      "text": "小米手机与 Mac 互联 Mac 端可查看小米云相册和小米笔记，并支持下载、上传、打开、编辑与同步。",
+      "targetIds": [
+        "highlight-13"
+      ]
+    },
+    {
+      "id": "source-highlight-14",
+      "classification": "highlight",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "8b6f581a2be98eec4f77200973261005bd2bd78020adca352c0addefe7b817f6",
+      "blockIds": [
         "ocr-0044",
         "ocr-0045",
         "ocr-0046",
         "ocr-0047",
         "ocr-0048"
       ],
-      "text": "妙享桌面 WLAN时可跨端操作另一台设备，支持妙享桌面。",
+      "text": "小米手机与 Windows PC 互联 PC 端可查看小米云相册和小米笔记，并支持下载、上传、打开、编辑与同步。",
       "targetIds": [
-        "highlight-06"
+        "highlight-14"
       ]
     },
     {
-      "id": "source-highlight-07",
+      "id": "source-highlight-15",
       "classification": "highlight",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/5.webp",
       "sourceIndex": 5,
       "sourceHash": "d2e8e68a7eba4b167aaf2ab4a7dc66a56778334f9b01b6b319ed6b33d833bc11",
       "blockIds": [
+        "ocr-0001",
+        "ocr-0002",
         "ocr-0003",
         "ocr-0026",
         "ocr-0028",
@@ -656,12 +1000,11 @@
         "ocr-0061",
         "ocr-0062",
         "ocr-0025",
-        "ocr-0063",
-        "ocr-0064"
+        "ocr-0063"
       ],
-      "text": "超级小爱提炼要点 针对总结内容进行提炼，提高阅读效率。",
+      "text": "AI 总结问答 录音 APP 生成 AI 总结后，支持直接点击底部「问超级小爱」，针对总结内容进行 AI 问答。",
       "targetIds": [
-        "highlight-07"
+        "highlight-15"
       ]
     },
     {
@@ -671,11 +1014,14 @@
       "sourceIndex": 4,
       "sourceHash": "8b6f581a2be98eec4f77200973261005bd2bd78020adca352c0addefe7b817f6",
       "blockIds": [
-        "ocr-0003",
-        "ocr-0004"
+        "ocr-0018",
+        "ocr-0019",
+        "ocr-0020",
+        "ocr-0021",
+        "ocr-0022"
       ],
-      "text": "支持小米手机与小米手机互联",
-      "correctedText": "支持小米手机与小米手机互联",
+      "text": "支持小米手机与小米手机互联AI自动帮记账•动态照片编辑后，依然保持动态格式。 小米手机之间的通知可流转，在附近且已打开蓝牙、WLAN时可镜像回复消息Xiaomi HyperOS点击上传图片并发送指令即可修图mlWLAN时可跨端操作另一台小米手机每笔钱都花得明白••8:16-心 1008-16随心修图新对话小米澎湃OS◎",
+      "correctedText": "支持小米手机与小米手机互联AI自动帮记账•动态照片编辑后，依然保持动态格式。 小米手机之间的通知可流转，在附近且已打开蓝牙、WLAN时可镜像回复消息Xiaomi HyperOS点击上传图片并发送指令即可修图mlWLAN时可跨端操作另一台小米手机每笔钱都花得明白••8:16-心 1008-16随心修图新对话小米澎湃OS◎",
       "targetIds": [
         "update-01"
       ]
@@ -683,15 +1029,15 @@
     {
       "id": "source-update-02",
       "classification": "update",
-      "source": "assets/images/HyperOS_1月更新一览_(2026)/5.webp",
-      "sourceIndex": 5,
-      "sourceHash": "d2e8e68a7eba4b167aaf2ab4a7dc66a56778334f9b01b6b319ed6b33d833bc11",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "c6b9f8da5e2139bb2705bc1a3661f8b800c99bf8235a29e4b1514e1a645ecf5f",
       "blockIds": [
-        "ocr-0002",
-        "ocr-0003"
+        "ocr-0011",
+        "ocr-0012"
       ],
-      "text": "录音APP生成AI总结后，支持直接点击底部",
-      "correctedText": "录音APP生成AI总结后，支持直接点击底部",
+      "text": "录音APP生成AI总结后，支持直接点击底部12月31日周四 十月廿二11:00答疑解惑，有什么问题尽管问我吧』阿健的 Xiaomi 17 Pro“抗糖”饮食真的能让皮肤变好吗？咱铃查找",
+      "correctedText": "录音APP生成AI总结后，支持直接点击底部12月31日周四 十月廿二11:00答疑解惑，有什么问题尽管问我吧』阿健的 Xiaomi 17 Pro“抗糖”饮食真的能让皮肤变好吗？咱铃查找",
       "targetIds": [
         "update-02"
       ]
@@ -699,14 +1045,18 @@
     {
       "id": "source-update-03",
       "classification": "update",
-      "source": "assets/images/HyperOS_1月更新一览_(2026)/5.webp",
-      "sourceIndex": 5,
-      "sourceHash": "d2e8e68a7eba4b167aaf2ab4a7dc66a56778334f9b01b6b319ed6b33d833bc11",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "d9075a3fa5832a65295c15a18e7043e77443a8e3a6c542dc9582fb7ad0ae7779",
       "blockIds": [
-        "ocr-0065"
+        "ocr-0049",
+        "ocr-0052",
+        "ocr-0034",
+        "ocr-0035",
+        "ocr-0036"
       ],
-      "text": "CarWith连接流程提示接入小米超级岛",
-      "correctedText": "CarWith连接流程提示接入小米超级岛",
+      "text": "CarWith连接流程提示接入小米超级岛天天领外卖红包新人最高50元建醬至高满15减15大红包•魔法消除新增眩光消除，轻松去除镜头眩光领取额度》",
+      "correctedText": "CarWith连接流程提示接入小米超级岛天天领外卖红包新人最高50元建醬至高满15减15大红包•魔法消除新增眩光消除，轻松去除镜头眩光领取额度》",
       "targetIds": [
         "update-03"
       ]
@@ -714,21 +1064,24 @@
     {
       "id": "source-update-04",
       "classification": "update",
-      "source": "assets/images/HyperOS_1月更新一览_(2026)/5.webp",
-      "sourceIndex": 5,
-      "sourceHash": "d2e8e68a7eba4b167aaf2ab4a7dc66a56778334f9b01b6b319ed6b33d833bc11",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "8b6f581a2be98eec4f77200973261005bd2bd78020adca352c0addefe7b817f6",
       "blockIds": [
-        "ocr-0066",
-        "ocr-0067"
+        "ocr-0032",
+        "ocr-0033",
+        "ocr-0034",
+        "ocr-0035",
+        "ocr-0036"
       ],
-      "text": "CarWith车机端融合桌面支持经典卡片桌面、",
-      "correctedText": "CarWith车机端融合桌面支持经典卡片桌面、",
+      "text": "CarWith车机端融合桌面支持经典卡片桌面、续优化相关体验。說的照片/视频1.交通指南：到达成都的交通方式及出行建议2住痛推釋：這合不同致新的住福区城选择3.景点推荐：经典必游景点和春季特色活动5行怨安桃。会班的肘间分剑和路雉教州6.注意事项：春季出游需要特别关注的事项息来确保攻略的准确性。首先需验证以下内容：•二日俗成新的天会状泊•昼夜温差•降雨规律及对应的穿衣建议。料然头。结合上述分析，需要搜索最新信息来完善攻略。囚A玩法22 深摩用考C 发消息或按住说话⑥④",
+      "correctedText": "CarWith车机端融合桌面支持经典卡片桌面、续优化相关体验。說的照片/视频1.交通指南：到达成都的交通方式及出行建议2住痛推釋：這合不同致新的住福区城选择3.景点推荐：经典必游景点和春季特色活动5行怨安桃。会班的肘间分剑和路雉教州6.注意事项：春季出游需要特别关注的事项息来确保攻略的准确性。首先需验证以下内容：•二日俗成新的天会状泊•昼夜温差•降雨规律及对应的穿衣建议。料然头。结合上述分析，需要搜索最新信息来完善攻略。囚A玩法22 深摩用考C 发消息或按住说话⑥④",
       "targetIds": [
         "update-04"
       ]
     },
     {
-      "id": "source-excluded-012",
+      "id": "source-excluded-020",
       "classification": "excluded",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -741,7 +1094,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-013",
+      "id": "source-excluded-021",
       "classification": "excluded",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -754,7 +1107,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-014",
+      "id": "source-excluded-022",
       "classification": "excluded",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -767,7 +1120,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-015",
+      "id": "source-excluded-023",
       "classification": "excluded",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -780,7 +1133,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-016",
+      "id": "source-excluded-024",
       "classification": "excluded",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -793,33 +1146,59 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-017",
-      "classification": "excluded",
-      "source": "assets/images/HyperOS_1月更新一览_(2026)/1.webp",
-      "sourceIndex": 1,
-      "sourceHash": "d9075a3fa5832a65295c15a18e7043e77443a8e3a6c542dc9582fb7ad0ae7779",
-      "blockIds": [
-        "ocr-0056"
-      ],
-      "text": "*「钱包」需升级至6.98.0版本及以上",
-      "targetIds": [],
-      "exclusionReason": "disclaimer"
-    },
-    {
-      "id": "source-excluded-018",
+      "id": "source-excluded-025",
       "classification": "excluded",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/5.webp",
       "sourceIndex": 5,
       "sourceHash": "d2e8e68a7eba4b167aaf2ab4a7dc66a56778334f9b01b6b319ed6b33d833bc11",
       "blockIds": [
-        "ocr-0001"
+        "ocr-0064"
       ],
-      "text": "更多体验优化",
+      "text": "*「录音」需升级至7.7.9版本及以上",
+      "targetIds": [],
+      "exclusionReason": "disclaimer"
+    },
+    {
+      "id": "source-excluded-026",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/5.webp",
+      "sourceIndex": 5,
+      "sourceHash": "d2e8e68a7eba4b167aaf2ab4a7dc66a56778334f9b01b6b319ed6b33d833bc11",
+      "blockIds": [
+        "ocr-0065"
+      ],
+      "text": "• 新增 CarWith连接流程提示接入小米超级岛",
       "targetIds": [],
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-019",
+      "id": "source-excluded-027",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/5.webp",
+      "sourceIndex": 5,
+      "sourceHash": "d2e8e68a7eba4b167aaf2ab4a7dc66a56778334f9b01b6b319ed6b33d833bc11",
+      "blockIds": [
+        "ocr-0066"
+      ],
+      "text": "• 新增 CarWith车机端融合桌面支持经典卡片桌面、",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-028",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/5.webp",
+      "sourceIndex": 5,
+      "sourceHash": "d2e8e68a7eba4b167aaf2ab4a7dc66a56778334f9b01b6b319ed6b33d833bc11",
+      "blockIds": [
+        "ocr-0067"
+      ],
+      "text": "及全新默认壁纸",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-029",
       "classification": "excluded",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/5.webp",
       "sourceIndex": 5,
@@ -832,7 +1211,7 @@
       "exclusionReason": "disclaimer"
     },
     {
-      "id": "source-excluded-020",
+      "id": "source-excluded-030",
       "classification": "excluded",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/6.webp",
       "sourceIndex": 6,
@@ -845,7 +1224,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-021",
+      "id": "source-excluded-031",
       "classification": "excluded",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/6.webp",
       "sourceIndex": 6,
@@ -858,7 +1237,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-022",
+      "id": "source-excluded-032",
       "classification": "excluded",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/6.webp",
       "sourceIndex": 6,
@@ -871,7 +1250,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-023",
+      "id": "source-excluded-033",
       "classification": "excluded",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/6.webp",
       "sourceIndex": 6,
@@ -884,7 +1263,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-024",
+      "id": "source-excluded-034",
       "classification": "excluded",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/6.webp",
       "sourceIndex": 6,
@@ -897,7 +1276,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-025",
+      "id": "source-excluded-035",
       "classification": "excluded",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/6.webp",
       "sourceIndex": 6,
@@ -910,7 +1289,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-026",
+      "id": "source-excluded-036",
       "classification": "excluded",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/6.webp",
       "sourceIndex": 6,
@@ -986,15 +1365,16 @@
         "ocr-0037",
         "ocr-0054",
         "ocr-0038",
-        "ocr-0055"
+        "ocr-0055",
+        "ocr-0056"
       ],
       "region": {
-        "x": 35,
+        "x": 32,
         "y": 99,
-        "width": 890,
-        "height": 1217
+        "width": 893,
+        "height": 1360
       },
-      "note": "钱包：AI自动帮记账标题与说明"
+      "note": "钱包：AI 自动帮记账标题与说明"
     },
     {
       "id": "highlight-01-demo",
@@ -1005,12 +1385,12 @@
       "sourceHash": "d9075a3fa5832a65295c15a18e7043e77443a8e3a6c542dc9582fb7ad0ae7779",
       "blockIds": [],
       "region": {
-        "x": 38,
-        "y": 103,
-        "width": 1004,
-        "height": 1455
+        "x": 86,
+        "y": 602,
+        "width": 907,
+        "height": 775
       },
-      "note": "钱包：AI自动帮记账人工确认演示区域"
+      "note": "钱包：AI 自动帮记账人工确认演示区域"
     },
     {
       "id": "highlight-02-body",
@@ -1032,35 +1412,15 @@
         "tesseract-0010",
         "tesseract-0012",
         "tesseract-0011",
-        "tesseract-0013",
-        "tesseract-0014",
-        "tesseract-0015",
-        "tesseract-0016",
-        "tesseract-0018",
-        "tesseract-0017",
-        "tesseract-0020",
-        "tesseract-0019",
-        "tesseract-0021",
-        "tesseract-0022",
-        "tesseract-0024",
-        "tesseract-0023",
-        "tesseract-0026",
-        "tesseract-0025",
-        "tesseract-0027",
-        "tesseract-0028",
-        "tesseract-0029",
-        "tesseract-0030",
-        "tesseract-0031",
-        "tesseract-0032",
-        "tesseract-0033"
+        "tesseract-0013"
       ],
       "region": {
         "x": 39,
         "y": 85,
-        "width": 965,
-        "height": 2823
+        "width": 845,
+        "height": 1363
       },
-      "note": "相册：保持动态格式标题与说明"
+      "note": "相册：动态照片编辑标题与说明"
     },
     {
       "id": "highlight-02-demo",
@@ -1071,12 +1431,12 @@
       "sourceHash": "063bf834376ef6b5e56ea8f69481883f0d5575030d68b6638d32d7118019e3c4",
       "blockIds": [],
       "region": {
-        "x": 38,
-        "y": 99,
-        "width": 1004,
-        "height": 2788
+        "x": 302,
+        "y": 520,
+        "width": 475,
+        "height": 664
       },
-      "note": "相册：保持动态格式人工确认演示区域"
+      "note": "相册：动态照片编辑人工确认演示区域"
     },
     {
       "id": "highlight-03-body",
@@ -1086,6 +1446,59 @@
       "sourceIndex": 2,
       "sourceHash": "063bf834376ef6b5e56ea8f69481883f0d5575030d68b6638d32d7118019e3c4",
       "blockIds": [
+        "tesseract-0014",
+        "tesseract-0015",
+        "tesseract-0016",
+        "tesseract-0018",
+        "tesseract-0017",
+        "tesseract-0020",
+        "tesseract-0019",
+        "tesseract-0021",
+        "tesseract-0022",
+        "tesseract-0024",
+        "tesseract-0023"
+      ],
+      "region": {
+        "x": 60,
+        "y": 1429,
+        "width": 944,
+        "height": 1139
+      },
+      "note": "相册：保存方式选择标题与说明"
+    },
+    {
+      "id": "highlight-03-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "063bf834376ef6b5e56ea8f69481883f0d5575030d68b6638d32d7118019e3c4",
+      "blockIds": [],
+      "region": {
+        "x": 302,
+        "y": 1588,
+        "width": 475,
+        "height": 721
+      },
+      "note": "相册：保存方式选择人工确认演示区域"
+    },
+    {
+      "id": "highlight-04-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "063bf834376ef6b5e56ea8f69481883f0d5575030d68b6638d32d7118019e3c4",
+      "blockIds": [
+        "tesseract-0026",
+        "tesseract-0025",
+        "tesseract-0027",
+        "tesseract-0028",
+        "tesseract-0029",
+        "tesseract-0030",
+        "tesseract-0031",
+        "tesseract-0032",
+        "tesseract-0033",
         "tesseract-0034",
         "tesseract-0035",
         "tesseract-0037",
@@ -1103,7 +1516,40 @@
         "tesseract-0048",
         "tesseract-0049",
         "tesseract-0050",
-        "tesseract-0051",
+        "tesseract-0051"
+      ],
+      "region": {
+        "x": 60,
+        "y": 2674,
+        "width": 878,
+        "height": 888
+      },
+      "note": "相册：批量应用编辑操作标题与说明"
+    },
+    {
+      "id": "highlight-04-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "063bf834376ef6b5e56ea8f69481883f0d5575030d68b6638d32d7118019e3c4",
+      "blockIds": [],
+      "region": {
+        "x": 86,
+        "y": 2628,
+        "width": 907,
+        "height": 750
+      },
+      "note": "相册：批量应用编辑操作人工确认演示区域"
+    },
+    {
+      "id": "highlight-05-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "063bf834376ef6b5e56ea8f69481883f0d5575030d68b6638d32d7118019e3c4",
+      "blockIds": [
         "tesseract-0052",
         "tesseract-0053",
         "tesseract-0055",
@@ -1113,7 +1559,40 @@
         "tesseract-0057",
         "tesseract-0058",
         "tesseract-0059",
-        "tesseract-0061",
+        "tesseract-0061"
+      ],
+      "region": {
+        "x": 60,
+        "y": 4107,
+        "width": 826,
+        "height": 449
+      },
+      "note": "相册：大模型智能成片标题与说明"
+    },
+    {
+      "id": "highlight-05-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "063bf834376ef6b5e56ea8f69481883f0d5575030d68b6638d32d7118019e3c4",
+      "blockIds": [],
+      "region": {
+        "x": 302,
+        "y": 3638,
+        "width": 475,
+        "height": 692
+      },
+      "note": "相册：大模型智能成片人工确认演示区域"
+    },
+    {
+      "id": "highlight-06-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "063bf834376ef6b5e56ea8f69481883f0d5575030d68b6638d32d7118019e3c4",
+      "blockIds": [
         "tesseract-0062",
         "tesseract-0063",
         "tesseract-0065",
@@ -1133,14 +1612,14 @@
       ],
       "region": {
         "x": 38,
-        "y": 2884,
+        "y": 5218,
         "width": 990,
-        "height": 2778
+        "height": 444
       },
-      "note": "相册：自定义覆盖原图标题与说明"
+      "note": "相册：眩光消除标题与说明"
     },
     {
-      "id": "highlight-03-demo",
+      "id": "highlight-06-demo",
       "kind": "image-region",
       "role": "demo-region",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/2.webp",
@@ -1148,15 +1627,15 @@
       "sourceHash": "063bf834376ef6b5e56ea8f69481883f0d5575030d68b6638d32d7118019e3c4",
       "blockIds": [],
       "region": {
-        "x": 38,
-        "y": 2887,
-        "width": 1004,
-        "height": 2881
+        "x": 302,
+        "y": 4620,
+        "width": 475,
+        "height": 721
       },
-      "note": "相册：自定义覆盖原图人工确认演示区域"
+      "note": "相册：眩光消除人工确认演示区域"
     },
     {
-      "id": "highlight-04-body",
+      "id": "highlight-07-body",
       "kind": "image-region",
       "role": "body-text",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/3.webp",
@@ -1182,7 +1661,40 @@
         "ocr-0018",
         "ocr-0017",
         "ocr-0019",
-        "ocr-0020",
+        "ocr-0020"
+      ],
+      "region": {
+        "x": 31,
+        "y": 85,
+        "width": 882,
+        "height": 1411
+      },
+      "note": "超级小爱：随心修图入口标题与说明"
+    },
+    {
+      "id": "highlight-07-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "c6b9f8da5e2139bb2705bc1a3661f8b800c99bf8235a29e4b1514e1a645ecf5f",
+      "blockIds": [],
+      "region": {
+        "x": 86,
+        "y": 553,
+        "width": 907,
+        "height": 760
+      },
+      "note": "超级小爱：随心修图入口人工确认演示区域"
+    },
+    {
+      "id": "highlight-08-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "c6b9f8da5e2139bb2705bc1a3661f8b800c99bf8235a29e4b1514e1a645ecf5f",
+      "blockIds": [
         "ocr-0021",
         "ocr-0022",
         "ocr-0023",
@@ -1205,7 +1717,78 @@
         "ocr-0040",
         "ocr-0042",
         "ocr-0041",
-        "ocr-0043",
+        "ocr-0043"
+      ],
+      "region": {
+        "x": 45,
+        "y": 1481,
+        "width": 890,
+        "height": 1064
+      },
+      "note": "超级小爱：音乐与资讯卡片标题与说明"
+    },
+    {
+      "id": "highlight-08-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "c6b9f8da5e2139bb2705bc1a3661f8b800c99bf8235a29e4b1514e1a645ecf5f",
+      "blockIds": [],
+      "region": {
+        "x": 86,
+        "y": 1659,
+        "width": 907,
+        "height": 645
+      },
+      "note": "超级小爱：音乐与资讯卡片人工确认演示区域"
+    },
+    {
+      "id": "highlight-09-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "c6b9f8da5e2139bb2705bc1a3661f8b800c99bf8235a29e4b1514e1a645ecf5f",
+      "blockIds": [
+        "ocr-0044",
+        "ocr-0045",
+        "ocr-0046",
+        "ocr-0048",
+        "ocr-0049"
+      ],
+      "region": {
+        "x": 383,
+        "y": 3886,
+        "width": 305,
+        "height": 186
+      },
+      "note": "超级小爱：拍照识别二维码标题与说明"
+    },
+    {
+      "id": "highlight-09-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "c6b9f8da5e2139bb2705bc1a3661f8b800c99bf8235a29e4b1514e1a645ecf5f",
+      "blockIds": [],
+      "region": {
+        "x": 86,
+        "y": 2673,
+        "width": 907,
+        "height": 645
+      },
+      "note": "超级小爱：拍照识别二维码人工确认演示区域"
+    },
+    {
+      "id": "highlight-10-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "c6b9f8da5e2139bb2705bc1a3661f8b800c99bf8235a29e4b1514e1a645ecf5f",
+      "blockIds": [
         "ocr-0044",
         "ocr-0045",
         "ocr-0046",
@@ -1223,15 +1806,15 @@
         "ocr-0058"
       ],
       "region": {
-        "x": 31,
-        "y": 85,
-        "width": 904,
-        "height": 4402
+        "x": 32,
+        "y": 3886,
+        "width": 661,
+        "height": 601
       },
-      "note": "超级小爱：超级小爱持续成长标题与说明"
+      "note": "超级小爱：深度思考多轮搜索标题与说明"
     },
     {
-      "id": "highlight-04-demo",
+      "id": "highlight-10-demo",
       "kind": "image-region",
       "role": "demo-region",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/3.webp",
@@ -1239,15 +1822,15 @@
       "sourceHash": "c6b9f8da5e2139bb2705bc1a3661f8b800c99bf8235a29e4b1514e1a645ecf5f",
       "blockIds": [],
       "region": {
-        "x": 38,
-        "y": 97,
-        "width": 1004,
-        "height": 4506
+        "x": 302,
+        "y": 3641,
+        "width": 475,
+        "height": 691
       },
-      "note": "超级小爱：超级小爱持续成长人工确认演示区域"
+      "note": "超级小爱：深度思考多轮搜索人工确认演示区域"
     },
     {
-      "id": "highlight-05-body",
+      "id": "highlight-11-body",
       "kind": "image-region",
       "role": "body-text",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/4.webp",
@@ -1269,7 +1852,40 @@
         "ocr-0013",
         "ocr-0014",
         "ocr-0015",
-        "ocr-0016",
+        "ocr-0016"
+      ],
+      "region": {
+        "x": 32,
+        "y": 82,
+        "width": 971,
+        "height": 1718
+      },
+      "note": "设备互联：小米手机之间互联标题与说明"
+    },
+    {
+      "id": "highlight-11-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "8b6f581a2be98eec4f77200973261005bd2bd78020adca352c0addefe7b817f6",
+      "blockIds": [],
+      "region": {
+        "x": 86,
+        "y": 830,
+        "width": 907,
+        "height": 710
+      },
+      "note": "设备互联：小米手机之间互联人工确认演示区域"
+    },
+    {
+      "id": "highlight-12-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "8b6f581a2be98eec4f77200973261005bd2bd78020adca352c0addefe7b817f6",
+      "blockIds": [
         "ocr-0017",
         "ocr-0018",
         "ocr-0019",
@@ -1284,18 +1900,22 @@
         "ocr-0030",
         "ocr-0026",
         "ocr-0031",
-        "ocr-0028"
+        "ocr-0028",
+        "ocr-0032",
+        "ocr-0033",
+        "ocr-0034",
+        "ocr-0035"
       ],
       "region": {
         "x": 32,
-        "y": 82,
-        "width": 971,
-        "height": 2866
+        "y": 1784,
+        "width": 994,
+        "height": 1642
       },
-      "note": "设备互联：通知流转标题与说明"
+      "note": "设备互联：小米手机与 iPhone 互联标题与说明"
     },
     {
-      "id": "highlight-05-demo",
+      "id": "highlight-12-demo",
       "kind": "image-region",
       "role": "demo-region",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/4.webp",
@@ -1303,25 +1923,21 @@
       "sourceHash": "8b6f581a2be98eec4f77200973261005bd2bd78020adca352c0addefe7b817f6",
       "blockIds": [],
       "region": {
-        "x": 38,
-        "y": 95,
-        "width": 1004,
-        "height": 2866
+        "x": 86,
+        "y": 2369,
+        "width": 907,
+        "height": 740
       },
-      "note": "设备互联：通知流转人工确认演示区域"
+      "note": "设备互联：小米手机与 iPhone 互联人工确认演示区域"
     },
     {
-      "id": "highlight-06-body",
+      "id": "highlight-13-body",
       "kind": "image-region",
       "role": "body-text",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/4.webp",
       "sourceIndex": 4,
       "sourceHash": "8b6f581a2be98eec4f77200973261005bd2bd78020adca352c0addefe7b817f6",
       "blockIds": [
-        "ocr-0032",
-        "ocr-0033",
-        "ocr-0034",
-        "ocr-0035",
         "ocr-0036",
         "ocr-0037",
         "ocr-0038",
@@ -1329,7 +1945,40 @@
         "ocr-0040",
         "ocr-0041",
         "ocr-0042",
-        "ocr-0043",
+        "ocr-0043"
+      ],
+      "region": {
+        "x": 32,
+        "y": 3414,
+        "width": 998,
+        "height": 1376
+      },
+      "note": "设备互联：小米手机与 Mac 互联标题与说明"
+    },
+    {
+      "id": "highlight-13-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "8b6f581a2be98eec4f77200973261005bd2bd78020adca352c0addefe7b817f6",
+      "blockIds": [],
+      "region": {
+        "x": 86,
+        "y": 3850,
+        "width": 907,
+        "height": 592
+      },
+      "note": "设备互联：小米手机与 Mac 互联人工确认演示区域"
+    },
+    {
+      "id": "highlight-14-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "8b6f581a2be98eec4f77200973261005bd2bd78020adca352c0addefe7b817f6",
+      "blockIds": [
         "ocr-0044",
         "ocr-0045",
         "ocr-0046",
@@ -1338,14 +1987,14 @@
       ],
       "region": {
         "x": 32,
-        "y": 3207,
-        "width": 998,
-        "height": 2592
+        "y": 4815,
+        "width": 962,
+        "height": 983
       },
-      "note": "设备互联：妙享桌面标题与说明"
+      "note": "设备互联：小米手机与 Windows PC 互联标题与说明"
     },
     {
-      "id": "highlight-06-demo",
+      "id": "highlight-14-demo",
       "kind": "image-region",
       "role": "demo-region",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/4.webp",
@@ -1353,21 +2002,23 @@
       "sourceHash": "8b6f581a2be98eec4f77200973261005bd2bd78020adca352c0addefe7b817f6",
       "blockIds": [],
       "region": {
-        "x": 38,
-        "y": 2961,
-        "width": 1004,
-        "height": 2955
+        "x": 86,
+        "y": 5064,
+        "width": 907,
+        "height": 532
       },
-      "note": "设备互联：妙享桌面人工确认演示区域"
+      "note": "设备互联：小米手机与 Windows PC 互联人工确认演示区域"
     },
     {
-      "id": "highlight-07-body",
+      "id": "highlight-15-body",
       "kind": "image-region",
       "role": "body-text",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/5.webp",
       "sourceIndex": 5,
       "sourceHash": "d2e8e68a7eba4b167aaf2ab4a7dc66a56778334f9b01b6b319ed6b33d833bc11",
       "blockIds": [
+        "ocr-0001",
+        "ocr-0002",
         "ocr-0003",
         "ocr-0026",
         "ocr-0028",
@@ -1428,19 +2079,18 @@
         "ocr-0061",
         "ocr-0062",
         "ocr-0025",
-        "ocr-0063",
-        "ocr-0064"
+        "ocr-0063"
       ],
       "region": {
         "x": 34,
-        "y": 331,
-        "width": 915,
-        "height": 1011
+        "y": 93,
+        "width": 940,
+        "height": 1105
       },
-      "note": "超级小爱：超级小爱提炼要点标题与说明"
+      "note": "录音机：AI 总结问答标题与说明"
     },
     {
-      "id": "highlight-07-demo",
+      "id": "highlight-15-demo",
       "kind": "image-region",
       "role": "demo-region",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/5.webp",
@@ -1448,12 +2098,12 @@
       "sourceHash": "d2e8e68a7eba4b167aaf2ab4a7dc66a56778334f9b01b6b319ed6b33d833bc11",
       "blockIds": [],
       "region": {
-        "x": 38,
-        "y": 337,
-        "width": 1004,
-        "height": 1210
+        "x": 86,
+        "y": 478,
+        "width": 907,
+        "height": 735
       },
-      "note": "超级小爱：超级小爱提炼要点人工确认演示区域"
+      "note": "录音机：AI 总结问答人工确认演示区域"
     },
     {
       "id": "update-01-source",
@@ -1463,14 +2113,17 @@
       "sourceIndex": 4,
       "sourceHash": "8b6f581a2be98eec4f77200973261005bd2bd78020adca352c0addefe7b817f6",
       "blockIds": [
-        "ocr-0003",
-        "ocr-0004"
+        "ocr-0018",
+        "ocr-0019",
+        "ocr-0020",
+        "ocr-0021",
+        "ocr-0022"
       ],
       "region": {
-        "x": 45,
-        "y": 325,
-        "width": 958,
-        "height": 241
+        "x": 50,
+        "y": 1911,
+        "width": 935,
+        "height": 442
       },
       "note": "逐项更新清单"
     },
@@ -1478,18 +2131,18 @@
       "id": "update-02-source",
       "kind": "image-region",
       "role": "update-list",
-      "source": "assets/images/HyperOS_1月更新一览_(2026)/5.webp",
-      "sourceIndex": 5,
-      "sourceHash": "d2e8e68a7eba4b167aaf2ab4a7dc66a56778334f9b01b6b319ed6b33d833bc11",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/3.webp",
+      "sourceIndex": 3,
+      "sourceHash": "c6b9f8da5e2139bb2705bc1a3661f8b800c99bf8235a29e4b1514e1a645ecf5f",
       "blockIds": [
-        "ocr-0002",
-        "ocr-0003"
+        "ocr-0011",
+        "ocr-0012"
       ],
       "region": {
-        "x": 50,
-        "y": 262,
-        "width": 923,
-        "height": 149
+        "x": 140,
+        "y": 715,
+        "width": 251,
+        "height": 183
       },
       "note": "逐项更新清单"
     },
@@ -1497,17 +2150,21 @@
       "id": "update-03-source",
       "kind": "image-region",
       "role": "update-list",
-      "source": "assets/images/HyperOS_1月更新一览_(2026)/5.webp",
-      "sourceIndex": 5,
-      "sourceHash": "d2e8e68a7eba4b167aaf2ab4a7dc66a56778334f9b01b6b319ed6b33d833bc11",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "d9075a3fa5832a65295c15a18e7043e77443a8e3a6c542dc9582fb7ad0ae7779",
       "blockIds": [
-        "ocr-0065"
+        "ocr-0049",
+        "ocr-0052",
+        "ocr-0034",
+        "ocr-0035",
+        "ocr-0036"
       ],
       "region": {
-        "x": 50,
-        "y": 1425,
-        "width": 840,
-        "height": 75
+        "x": 157,
+        "y": 1104,
+        "width": 617,
+        "height": 111
       },
       "note": "逐项更新清单"
     },
@@ -1515,23 +2172,26 @@
       "id": "update-04-source",
       "kind": "image-region",
       "role": "update-list",
-      "source": "assets/images/HyperOS_1月更新一览_(2026)/5.webp",
-      "sourceIndex": 5,
-      "sourceHash": "d2e8e68a7eba4b167aaf2ab4a7dc66a56778334f9b01b6b319ed6b33d833bc11",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/4.webp",
+      "sourceIndex": 4,
+      "sourceHash": "8b6f581a2be98eec4f77200973261005bd2bd78020adca352c0addefe7b817f6",
       "blockIds": [
-        "ocr-0066",
-        "ocr-0067"
+        "ocr-0032",
+        "ocr-0033",
+        "ocr-0034",
+        "ocr-0035",
+        "ocr-0036"
       ],
       "region": {
-        "x": 50,
-        "y": 1522,
-        "width": 945,
-        "height": 139
+        "x": 32,
+        "y": 3172,
+        "width": 994,
+        "height": 339
       },
       "note": "逐项更新清单"
     },
     {
-      "id": "source-excluded-012-evidence",
+      "id": "source-excluded-020-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/0.webp",
@@ -1549,7 +2209,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-013-evidence",
+      "id": "source-excluded-021-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/0.webp",
@@ -1567,7 +2227,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-014-evidence",
+      "id": "source-excluded-022-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/0.webp",
@@ -1585,7 +2245,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-015-evidence",
+      "id": "source-excluded-023-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/0.webp",
@@ -1603,7 +2263,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-016-evidence",
+      "id": "source-excluded-024-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/0.webp",
@@ -1621,43 +2281,79 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-017-evidence",
-      "kind": "image-region",
-      "role": "excluded",
-      "source": "assets/images/HyperOS_1月更新一览_(2026)/1.webp",
-      "sourceIndex": 1,
-      "sourceHash": "d9075a3fa5832a65295c15a18e7043e77443a8e3a6c542dc9582fb7ad0ae7779",
-      "blockIds": [
-        "ocr-0056"
-      ],
-      "region": {
-        "x": 32,
-        "y": 1408,
-        "width": 500,
-        "height": 61
-      },
-      "note": "不进入表格：disclaimer"
-    },
-    {
-      "id": "source-excluded-018-evidence",
+      "id": "source-excluded-025-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/5.webp",
       "sourceIndex": 5,
       "sourceHash": "d2e8e68a7eba4b167aaf2ab4a7dc66a56778334f9b01b6b319ed6b33d833bc11",
       "blockIds": [
-        "ocr-0001"
+        "ocr-0064"
       ],
       "region": {
         "x": 34,
-        "y": 81,
-        "width": 443,
-        "height": 103
+        "y": 1286,
+        "width": 471,
+        "height": 67
+      },
+      "note": "不进入表格：disclaimer"
+    },
+    {
+      "id": "source-excluded-026-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/5.webp",
+      "sourceIndex": 5,
+      "sourceHash": "d2e8e68a7eba4b167aaf2ab4a7dc66a56778334f9b01b6b319ed6b33d833bc11",
+      "blockIds": [
+        "ocr-0065"
+      ],
+      "region": {
+        "x": 50,
+        "y": 1425,
+        "width": 840,
+        "height": 75
       },
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-019-evidence",
+      "id": "source-excluded-027-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/5.webp",
+      "sourceIndex": 5,
+      "sourceHash": "d2e8e68a7eba4b167aaf2ab4a7dc66a56778334f9b01b6b319ed6b33d833bc11",
+      "blockIds": [
+        "ocr-0066"
+      ],
+      "region": {
+        "x": 50,
+        "y": 1522,
+        "width": 945,
+        "height": 81
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-028-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_1月更新一览_(2026)/5.webp",
+      "sourceIndex": 5,
+      "sourceHash": "d2e8e68a7eba4b167aaf2ab4a7dc66a56778334f9b01b6b319ed6b33d833bc11",
+      "blockIds": [
+        "ocr-0067"
+      ],
+      "region": {
+        "x": 95,
+        "y": 1586,
+        "width": 312,
+        "height": 75
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-029-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/5.webp",
@@ -1675,7 +2371,7 @@
       "note": "不进入表格：disclaimer"
     },
     {
-      "id": "source-excluded-020-evidence",
+      "id": "source-excluded-030-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/6.webp",
@@ -1693,7 +2389,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-021-evidence",
+      "id": "source-excluded-031-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/6.webp",
@@ -1711,7 +2407,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-022-evidence",
+      "id": "source-excluded-032-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/6.webp",
@@ -1729,7 +2425,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-023-evidence",
+      "id": "source-excluded-033-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/6.webp",
@@ -1747,7 +2443,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-024-evidence",
+      "id": "source-excluded-034-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/6.webp",
@@ -1765,7 +2461,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-025-evidence",
+      "id": "source-excluded-035-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/6.webp",
@@ -1783,7 +2479,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-026-evidence",
+      "id": "source-excluded-036-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_1月更新一览_(2026)/6.webp",
@@ -1810,14 +2506,14 @@
       "media": "verified",
       "page": "verified"
     },
-    "expectedHighlightCount": 7,
-    "sourceItemCount": 26,
-    "includedItemCount": 11,
-    "excludedItemCount": 15,
-    "highlightCount": 7,
+    "expectedHighlightCount": 15,
+    "sourceItemCount": 36,
+    "includedItemCount": 19,
+    "excludedItemCount": 17,
+    "highlightCount": 15,
     "updateCount": 4,
-    "mediaCount": 7,
-    "mappedItemCount": 26,
+    "mediaCount": 15,
+    "mappedItemCount": 36,
     "coverageRate": 1
   }
 }

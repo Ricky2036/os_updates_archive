@@ -9,8 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // ── Skeleton loader management ──
     function showSkeleton() {
         if(skeleton) {
-            skeleton.classList.remove('hidden');
-            skeleton.style.display = 'flex';
+            skeleton.style.display = 'none';
         }
         if(articleContainer) {
             articleContainer.innerHTML = '';
@@ -19,8 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function hideSkeleton() {
         if(skeleton) {
-            skeleton.classList.add('hidden');
-            setTimeout(() => { skeleton.style.display = 'none'; }, 300);
+            skeleton.style.display = 'none';
         }
     }
 
@@ -44,14 +42,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 lazyBgs.forEach(el => {
                     const bgUrl = el.getAttribute('data-lazy-bgimg');
                     if (bgUrl) {
-                        el.classList.add('img-loading');
                         const img = new Image();
                         img.onload = () => {
                             el.style.setProperty('background-image', `url('${bgUrl}')`, 'important');
-                            el.classList.remove('img-loading');
                         };
                         img.onerror = () => {
-                            el.classList.remove('img-loading');
                             el.style.backgroundColor = '#f8f8f8'; // Failsafe blank
                         };
                         img.src = bgUrl;
@@ -60,9 +55,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 const lazyImgs = articleContainer.querySelectorAll('img[data-src]');
                 lazyImgs.forEach(img => {
-                    img.classList.add('img-loading');
-                    img.onload = () => img.classList.remove('img-loading');
-                    img.onerror = () => img.classList.remove('img-loading');
                     img.src = img.getAttribute('data-src');
                 });
                 
@@ -170,4 +162,18 @@ document.addEventListener('DOMContentLoaded', () => {
     if (overlay) {
         overlay.addEventListener('click', closeMobileMenu);
     }
+
+    // ── Tab Switching Interception ──
+    const topNavTabs = document.querySelectorAll('.nav-item');
+    topNavTabs.forEach(tab => {
+        tab.addEventListener('click', function(e) {
+            if (!this.classList.contains('active')) {
+                e.preventDefault();
+                topNavTabs.forEach(n => n.classList.remove('active'));
+                this.classList.add('active');
+                showSkeleton();
+                window.location.href = this.getAttribute('href');
+            }
+        });
+    });
 });
