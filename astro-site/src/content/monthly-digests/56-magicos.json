@@ -1,0 +1,765 @@
+{
+  "schemaVersion": 3,
+  "contentReviewVersion": 4,
+  "mediaReviewVersion": 4,
+  "articleId": "MagicOS_6月更新一览_(2026)",
+  "reviewStatus": "verified",
+  "sourceHash": "70d43165adceea55f912d4557815ee8940905ac612b21d5dfe54197e32e8ee5f",
+  "highlights": [
+    {
+      "id": "highlight-01",
+      "module": "灵动胶囊",
+      "moduleSource": "explicit-heading",
+      "title": "大众点评排队提醒胶囊",
+      "description": "等位不用盯，大众点评排号到号时在灵动胶囊与桌面卡片自动弹出叫号提醒。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-01-body",
+        "highlight-01-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-01"
+      ],
+      "media": [
+        {
+          "id": "highlight-01-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/56/highlight-01-960.webp",
+          "thumbnail": "assets/digests-v2/56/highlight-01-480.webp",
+          "avifSrc": "assets/digests-v2/56/highlight-01-960.avif",
+          "avifThumbnail": "assets/digests-v2/56/highlight-01-480.avif",
+          "alt": "大众点评排队提醒胶囊 功能演示",
+          "evidenceId": "highlight-01-demo",
+          "width": 480,
+          "height": 270
+        }
+      ]
+    },
+    {
+      "id": "highlight-02",
+      "module": "生活与赛事",
+      "moduleSource": "explicit-heading",
+      "title": "咪咕赛事比分胶囊与卡片",
+      "description": "实时比分一目了然，小组赛直播赛程、球队排名与实时比分在胶囊与桌面常驻。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-02-body",
+        "highlight-02-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-02"
+      ],
+      "media": [
+        {
+          "id": "highlight-02-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/56/highlight-02-960.webp",
+          "thumbnail": "assets/digests-v2/56/highlight-02-480.webp",
+          "avifSrc": "assets/digests-v2/56/highlight-02-960.avif",
+          "avifThumbnail": "assets/digests-v2/56/highlight-02-480.avif",
+          "alt": "咪咕赛事比分胶囊与卡片 功能演示",
+          "evidenceId": "highlight-02-demo",
+          "width": 480,
+          "height": 270
+        }
+      ]
+    },
+    {
+      "id": "highlight-03",
+      "module": "桌面与个性化",
+      "moduleSource": "explicit-heading",
+      "title": "锁屏新增世界时钟组件",
+      "description": "跨时区追赛不错过，锁屏支持添加墨西哥城等海外城市世界时钟小组件。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-03-body",
+        "highlight-03-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-03"
+      ],
+      "media": [
+        {
+          "id": "highlight-03-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/56/highlight-03-960.webp",
+          "thumbnail": "assets/digests-v2/56/highlight-03-480.webp",
+          "avifSrc": "assets/digests-v2/56/highlight-03-960.avif",
+          "avifThumbnail": "assets/digests-v2/56/highlight-03-480.avif",
+          "alt": "锁屏新增世界时钟组件 功能演示",
+          "evidenceId": "highlight-03-demo",
+          "width": 480,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "id": "highlight-04",
+      "module": "荣耀AI & YOYO",
+      "moduleSource": "explicit-heading",
+      "title": "YOYO Live盲盒",
+      "description": "朋友圈拆动态毕业照盲盒，长按电源键唤醒 YOYO 即可体验 Live 盲盒生成。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-04-body",
+        "highlight-04-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-04"
+      ],
+      "media": [
+        {
+          "id": "highlight-04-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/56/highlight-04-960.webp",
+          "thumbnail": "assets/digests-v2/56/highlight-04-480.webp",
+          "avifSrc": "assets/digests-v2/56/highlight-04-960.avif",
+          "avifThumbnail": "assets/digests-v2/56/highlight-04-480.avif",
+          "alt": "YOYO Live盲盒 功能演示",
+          "evidenceId": "highlight-04-demo",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "id": "highlight-05",
+      "module": "荣耀AI & YOYO",
+      "moduleSource": "explicit-heading",
+      "title": "漫画故事一键成画",
+      "description": "一键生成故事感毕业连载漫画，留存青春独家记忆。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-05-body",
+        "highlight-05-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-05"
+      ],
+      "media": [
+        {
+          "id": "highlight-05-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/56/highlight-05-960.webp",
+          "thumbnail": "assets/digests-v2/56/highlight-05-480.webp",
+          "avifSrc": "assets/digests-v2/56/highlight-05-960.avif",
+          "avifThumbnail": "assets/digests-v2/56/highlight-05-480.avif",
+          "alt": "漫画故事一键成画 功能演示",
+          "evidenceId": "highlight-05-demo",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "id": "highlight-06",
+      "module": "荣耀AI & YOYO",
+      "moduleSource": "explicit-heading",
+      "title": "Plog创意贴纸图文照",
+      "description": "贴纸图文照 AI 秒出片，此刻与青春好好告别。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-06-body",
+        "highlight-06-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-06"
+      ],
+      "media": [
+        {
+          "id": "highlight-06-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/56/highlight-06-960.webp",
+          "thumbnail": "assets/digests-v2/56/highlight-06-480.webp",
+          "avifSrc": "assets/digests-v2/56/highlight-06-960.avif",
+          "avifThumbnail": "assets/digests-v2/56/highlight-06-480.avif",
+          "alt": "Plog创意贴纸图文照 功能演示",
+          "evidenceId": "highlight-06-demo",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "id": "highlight-07",
+      "module": "相机与图库",
+      "moduleSource": "explicit-heading",
+      "title": "毕业季专属水印",
+      "description": "相机影像菜单新增毕业季专属质感水印，定格美好韶华。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-07-body",
+        "highlight-07-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-07"
+      ],
+      "media": [
+        {
+          "id": "highlight-07-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/56/highlight-07-960.webp",
+          "thumbnail": "assets/digests-v2/56/highlight-07-480.webp",
+          "avifSrc": "assets/digests-v2/56/highlight-07-960.avif",
+          "avifThumbnail": "assets/digests-v2/56/highlight-07-480.avif",
+          "alt": "毕业季专属水印 功能演示",
+          "evidenceId": "highlight-07-demo",
+          "width": 480,
+          "height": 330
+        }
+      ]
+    },
+    {
+      "id": "highlight-08",
+      "module": "桌面与个性化",
+      "moduleSource": "explicit-heading",
+      "title": "桌面好运语录卡片",
+      "description": "好运相伴前程，桌面新增好运连连、岁岁平安、节节高升、桃花朵朵语录卡片。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-08-body",
+        "highlight-08-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-08"
+      ],
+      "media": [
+        {
+          "id": "highlight-08-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/56/highlight-08-960.webp",
+          "thumbnail": "assets/digests-v2/56/highlight-08-480.webp",
+          "avifSrc": "assets/digests-v2/56/highlight-08-960.avif",
+          "avifThumbnail": "assets/digests-v2/56/highlight-08-480.avif",
+          "alt": "桌面好运语录卡片 功能演示",
+          "evidenceId": "highlight-08-demo",
+          "width": 480,
+          "height": 330
+        }
+      ]
+    },
+    {
+      "id": "highlight-09",
+      "module": "灵动胶囊",
+      "moduleSource": "explicit-heading",
+      "title": "骑行/买药/红绿灯提醒胶囊",
+      "description": "灵动胶囊持续上新，支持哈啰骑行开锁中、美团买药赶往商家与红绿灯左转倒计时。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-09-body",
+        "highlight-09-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-09"
+      ],
+      "media": [
+        {
+          "id": "highlight-09-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/56/highlight-09-960.webp",
+          "thumbnail": "assets/digests-v2/56/highlight-09-480.webp",
+          "avifSrc": "assets/digests-v2/56/highlight-09-960.avif",
+          "avifThumbnail": "assets/digests-v2/56/highlight-09-480.avif",
+          "alt": "骑行/买药/红绿灯提醒胶囊 功能演示",
+          "evidenceId": "highlight-09-demo",
+          "width": 480,
+          "height": 270
+        }
+      ]
+    },
+    {
+      "id": "highlight-10",
+      "module": "安全与守护",
+      "moduleSource": "explicit-heading",
+      "title": "AI反诈电话话术检测",
+      "description": "通话中智能识别“冒充电商物流”等诈骗话术，强力弹窗预警守护用机安全。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-10-body",
+        "highlight-10-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-10"
+      ],
+      "media": [
+        {
+          "id": "highlight-10-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/56/highlight-10-960.webp",
+          "thumbnail": "assets/digests-v2/56/highlight-10-480.webp",
+          "avifSrc": "assets/digests-v2/56/highlight-10-960.avif",
+          "avifThumbnail": "assets/digests-v2/56/highlight-10-480.avif",
+          "alt": "AI反诈电话话术检测 功能演示",
+          "evidenceId": "highlight-10-demo",
+          "width": 480,
+          "height": 270
+        }
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "id": "update-01",
+      "module": "系统基础体验",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "长时间高负载游戏与视频场景散热调度优化，帧率更稳更省电。",
+      "description": "长时间高负载游戏与视频场景散热调度优化，帧率更稳更省电。",
+      "evidenceIds": [
+        "update-01-source"
+      ],
+      "sourceItemIds": [
+        "source-update-01"
+      ]
+    },
+    {
+      "id": "update-02",
+      "module": "智慧互联",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "荣耀平板多任务手势滑动灵敏度与手写笔压感采样率提升。",
+      "description": "荣耀平板多任务手势滑动灵敏度与手写笔压感采样率提升。",
+      "evidenceIds": [
+        "update-02-source"
+      ],
+      "sourceItemIds": [
+        "source-update-02"
+      ]
+    }
+  ],
+  "sourceItems": [
+    {
+      "id": "source-highlight-01",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "fffd603660331936ffed9b7234d817c3a927a2f0cb589e13faddab7a3de52ee5",
+      "blockIds": [
+        "block-highlight-01"
+      ],
+      "text": "灵动胶囊 大众点评排队提醒胶囊 等位不用盯，大众点评排号到号时在灵动胶囊与桌面卡片自动弹出叫号提醒。",
+      "targetIds": [
+        "highlight-01"
+      ]
+    },
+    {
+      "id": "source-highlight-02",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 1,
+      "sourceHash": "3aab7481a6f3e583616cba64245247e9b499f0345ccecfa26393ce2298e04047",
+      "blockIds": [
+        "block-highlight-02"
+      ],
+      "text": "生活与赛事 咪咕赛事比分胶囊与卡片 实时比分一目了然，小组赛直播赛程、球队排名与实时比分在胶囊与桌面常驻。",
+      "targetIds": [
+        "highlight-02"
+      ]
+    },
+    {
+      "id": "source-highlight-03",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 2,
+      "sourceHash": "69d3fc436a40bf59cfddaf58858d00f0e047abb20e73514e139377dd1b2f70be",
+      "blockIds": [
+        "block-highlight-03"
+      ],
+      "text": "桌面与个性化 锁屏新增世界时钟组件 跨时区追赛不错过，锁屏支持添加墨西哥城等海外城市世界时钟小组件。",
+      "targetIds": [
+        "highlight-03"
+      ]
+    },
+    {
+      "id": "source-highlight-04",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 3,
+      "sourceHash": "e2460e594eb94e9b747072acc230ea3702a7761e83823aa7438d1098200cf022",
+      "blockIds": [
+        "block-highlight-04"
+      ],
+      "text": "荣耀AI & YOYO YOYO Live盲盒 朋友圈拆动态毕业照盲盒，长按电源键唤醒 YOYO 即可体验 Live 盲盒生成。",
+      "targetIds": [
+        "highlight-04"
+      ]
+    },
+    {
+      "id": "source-highlight-05",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 4,
+      "sourceHash": "27c83a02488cd9064e781b01b777a92240c57cb297ea4dd35078ee63388a8093",
+      "blockIds": [
+        "block-highlight-05"
+      ],
+      "text": "荣耀AI & YOYO 漫画故事一键成画 一键生成故事感毕业连载漫画，留存青春独家记忆。",
+      "targetIds": [
+        "highlight-05"
+      ]
+    },
+    {
+      "id": "source-highlight-06",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 5,
+      "sourceHash": "0275b0eedf0e0453f14954ba145b2b633d50e19699c061928d895e3dc9e69961",
+      "blockIds": [
+        "block-highlight-06"
+      ],
+      "text": "荣耀AI & YOYO Plog创意贴纸图文照 贴纸图文照 AI 秒出片，此刻与青春好好告别。",
+      "targetIds": [
+        "highlight-06"
+      ]
+    },
+    {
+      "id": "source-highlight-07",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 6,
+      "sourceHash": "f091eaae1afe740ae181b9be431d2679c973c18265a3ebaea596cfd24d4818b6",
+      "blockIds": [
+        "block-highlight-07"
+      ],
+      "text": "相机与图库 毕业季专属水印 相机影像菜单新增毕业季专属质感水印，定格美好韶华。",
+      "targetIds": [
+        "highlight-07"
+      ]
+    },
+    {
+      "id": "source-highlight-08",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 7,
+      "sourceHash": "8c7b2797634d41bde78419f8e32932f20d46fc50e9ddbfa3fd7d0238d0619206",
+      "blockIds": [
+        "block-highlight-08"
+      ],
+      "text": "桌面与个性化 桌面好运语录卡片 好运相伴前程，桌面新增好运连连、岁岁平安、节节高升、桃花朵朵语录卡片。",
+      "targetIds": [
+        "highlight-08"
+      ]
+    },
+    {
+      "id": "source-highlight-09",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 8,
+      "sourceHash": "24cbb62fac9c4b06bb73e0be081b05c9f0ef6c9ece5c15ef9145c34e611b4944",
+      "blockIds": [
+        "block-highlight-09"
+      ],
+      "text": "灵动胶囊 骑行/买药/红绿灯提醒胶囊 灵动胶囊持续上新，支持哈啰骑行开锁中、美团买药赶往商家与红绿灯左转倒计时。",
+      "targetIds": [
+        "highlight-09"
+      ]
+    },
+    {
+      "id": "source-highlight-10",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 9,
+      "sourceHash": "da31eda5b551799adae35b42101101e764aae0efc7875edd3d9ddd41830212df",
+      "blockIds": [
+        "block-highlight-10"
+      ],
+      "text": "安全与守护 AI反诈电话话术检测 通话中智能识别“冒充电商物流”等诈骗话术，强力弹窗预警守护用机安全。",
+      "targetIds": [
+        "highlight-10"
+      ]
+    },
+    {
+      "id": "source-update-01",
+      "classification": "update",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 10,
+      "sourceHash": "776919885ba5f3a3415565298c0c3777e1e7d8d99a8600b2d0985db808988c09",
+      "blockIds": [
+        "block-update-01"
+      ],
+      "text": "系统基础体验 优化 长时间高负载游戏与视频场景散热调度优化，帧率更稳更省电。",
+      "targetIds": [
+        "update-01"
+      ]
+    },
+    {
+      "id": "source-update-02",
+      "classification": "update",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 11,
+      "sourceHash": "074d41f4feee8575ce6a061c2f7dc48d87e8e3db8494840439e26b5b70a1d09b",
+      "blockIds": [
+        "block-update-02"
+      ],
+      "text": "智慧互联 优化 荣耀平板多任务手势滑动灵敏度与手写笔压感采样率提升。",
+      "targetIds": [
+        "update-02"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "highlight-01-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "883350a6a4e4488246efdf1e244e4be5247292a77363ae757a055c3cc04191c6",
+      "blockIds": [
+        "block-highlight-01-body"
+      ]
+    },
+    {
+      "id": "highlight-01-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "4af085fe551cc7f56ebeb108947eb561a9567770009f9fa3e7afe9c20f0535e4",
+      "blockIds": [
+        "block-highlight-01-demo"
+      ]
+    },
+    {
+      "id": "highlight-02-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 1,
+      "sourceHash": "2232fc4b90abf59211e0c0f91a2f987cf34b9eb9c7372e7a8f1c8b7d91a3badc",
+      "blockIds": [
+        "block-highlight-02-body"
+      ]
+    },
+    {
+      "id": "highlight-02-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 1,
+      "sourceHash": "250f5e2f7cd13bad8a8e6b43bc89e5aa6d643d19030863f9d6cf62902d4636a1",
+      "blockIds": [
+        "block-highlight-02-demo"
+      ]
+    },
+    {
+      "id": "highlight-03-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 2,
+      "sourceHash": "02e4f4c1b359e1a68e9e5e0104327b118ab17b1d7f6b2ac973ce083a9c5a813e",
+      "blockIds": [
+        "block-highlight-03-body"
+      ]
+    },
+    {
+      "id": "highlight-03-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 2,
+      "sourceHash": "617da843e7cc2304d4a7e5a6c06a0a35b362594bf9409c2261ba4bd8565208fa",
+      "blockIds": [
+        "block-highlight-03-demo"
+      ]
+    },
+    {
+      "id": "highlight-04-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 3,
+      "sourceHash": "22588513327242afbab318b05e5828445feecb9b8191e8d4dd4fef55bb4ac0f4",
+      "blockIds": [
+        "block-highlight-04-body"
+      ]
+    },
+    {
+      "id": "highlight-04-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 3,
+      "sourceHash": "5d0df2fab207b280e5d19cd65d999eaa2bc22ee13ba0e5040a385c539a969bbe",
+      "blockIds": [
+        "block-highlight-04-demo"
+      ]
+    },
+    {
+      "id": "highlight-05-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 4,
+      "sourceHash": "6dc106baf96f065ad44d41f29437728fa7a0521a571ede139d8da5a652a284a6",
+      "blockIds": [
+        "block-highlight-05-body"
+      ]
+    },
+    {
+      "id": "highlight-05-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 4,
+      "sourceHash": "b8d4971012081e3ef9c04c6efa2acf032eeee086f1c3d457a1464eb1c5981e3f",
+      "blockIds": [
+        "block-highlight-05-demo"
+      ]
+    },
+    {
+      "id": "highlight-06-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 5,
+      "sourceHash": "c1a290fc0a0d41a3b97265047a2b2b43f7bdb5e596236cd66454dadff3148bdf",
+      "blockIds": [
+        "block-highlight-06-body"
+      ]
+    },
+    {
+      "id": "highlight-06-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 5,
+      "sourceHash": "f32b28dda13020d386394b6b9ff5efce2b31f31fc31948a7afa85e906a3bead6",
+      "blockIds": [
+        "block-highlight-06-demo"
+      ]
+    },
+    {
+      "id": "highlight-07-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 6,
+      "sourceHash": "f51cf312a16825c80049f80d2ce08d393b0348629da5d67e7f1097e63f4d26a6",
+      "blockIds": [
+        "block-highlight-07-body"
+      ]
+    },
+    {
+      "id": "highlight-07-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 6,
+      "sourceHash": "9d2ec89eeb655b5b72fd8130fe05cbfb22e2b594afaf5b5853fbc0b801923e30",
+      "blockIds": [
+        "block-highlight-07-demo"
+      ]
+    },
+    {
+      "id": "highlight-08-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 7,
+      "sourceHash": "4d1e7a57bd0c33e1594870b1be84df82ade8db55aeef56d2e13d227ebf834db4",
+      "blockIds": [
+        "block-highlight-08-body"
+      ]
+    },
+    {
+      "id": "highlight-08-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 7,
+      "sourceHash": "b3ce0308122bb8c34529b43ee3fa75c3e73f1b303aa04987936b2e236708e55e",
+      "blockIds": [
+        "block-highlight-08-demo"
+      ]
+    },
+    {
+      "id": "highlight-09-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 8,
+      "sourceHash": "8cb462ad95048ed8caacfb3b291466c9c8515fed6dee2a61503bf6a08b09faff",
+      "blockIds": [
+        "block-highlight-09-body"
+      ]
+    },
+    {
+      "id": "highlight-09-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 8,
+      "sourceHash": "cba952f70e840f711640a2370a47cce14615c466b2ec166e2a24ab378ea39281",
+      "blockIds": [
+        "block-highlight-09-demo"
+      ]
+    },
+    {
+      "id": "highlight-10-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 9,
+      "sourceHash": "6dcf8ea9cf62666165d8eafe5157bca613f6a2e33f75093a36531e8139b3c0f6",
+      "blockIds": [
+        "block-highlight-10-body"
+      ]
+    },
+    {
+      "id": "highlight-10-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 9,
+      "sourceHash": "1698a8191fb97a0ac03c1867710eea3761eb933d065f087552588c27e0ba3617",
+      "blockIds": [
+        "block-highlight-10-demo"
+      ]
+    },
+    {
+      "id": "update-01-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 10,
+      "sourceHash": "d29bdbc521d8ff29cbfddcf337fbcd2610f0d9fc68eb4f8689ca9fe9db2b5171",
+      "blockIds": [
+        "block-update-01-ev"
+      ]
+    },
+    {
+      "id": "update-02-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/MagicOS_6月更新一览_(2026)/0.webp",
+      "sourceIndex": 11,
+      "sourceHash": "8aefdc1afd07ef5778642c3457fef92b71caa562a206d4a522c70b0eb460f77c",
+      "blockIds": [
+        "block-update-02-ev"
+      ]
+    }
+  ],
+  "audit": {
+    "highlightReviewVersion": 4,
+    "updateReviewVersion": 4,
+    "review": {
+      "content": "verified",
+      "modules": "verified",
+      "media": "verified",
+      "page": "verified"
+    },
+    "expectedHighlightCount": 10,
+    "sourceItemCount": 12,
+    "includedItemCount": 12,
+    "excludedItemCount": 0,
+    "highlightCount": 10,
+    "updateCount": 2,
+    "mediaCount": 10,
+    "mappedItemCount": 12,
+    "coverageRate": 1
+  }
+}

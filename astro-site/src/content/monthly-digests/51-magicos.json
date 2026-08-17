@@ -1,0 +1,440 @@
+{
+  "schemaVersion": 3,
+  "contentReviewVersion": 4,
+  "mediaReviewVersion": 4,
+  "articleId": "MagicOS_2月更新一览_(2026)",
+  "reviewStatus": "verified",
+  "sourceHash": "8105406292cc3d3faa643c51fb4c0293daeb713822a799487b52775cdf4fc1a5",
+  "highlights": [
+    {
+      "id": "highlight-01",
+      "module": "灵动胶囊",
+      "moduleSource": "explicit-heading",
+      "title": "春运出行胶囊与YOYO建议",
+      "description": "出行管家时刻在线，火车、航班、打车全程胶囊常驻提醒。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-01-body",
+        "highlight-01-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-01"
+      ],
+      "media": [
+        {
+          "id": "highlight-01-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/51/highlight-01-960.webp",
+          "thumbnail": "assets/digests-v2/51/highlight-01-480.webp",
+          "avifSrc": "assets/digests-v2/51/highlight-01-960.avif",
+          "avifThumbnail": "assets/digests-v2/51/highlight-01-480.avif",
+          "alt": "春运出行胶囊与YOYO建议 功能演示",
+          "evidenceId": "highlight-01-demo",
+          "width": 480,
+          "height": 574
+        }
+      ]
+    },
+    {
+      "id": "highlight-02",
+      "module": "荣耀AI & YOYO",
+      "moduleSource": "explicit-heading",
+      "title": "AI长文档总结与思维导图",
+      "description": "支持一键提取长文核心要点，快速生成结构化思维导图框架。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-02-body",
+        "highlight-02-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-02"
+      ],
+      "media": [
+        {
+          "id": "highlight-02-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/51/highlight-02-960.webp",
+          "thumbnail": "assets/digests-v2/51/highlight-02-480.webp",
+          "avifSrc": "assets/digests-v2/51/highlight-02-960.avif",
+          "avifThumbnail": "assets/digests-v2/51/highlight-02-480.avif",
+          "alt": "AI长文档总结与思维导图 功能演示",
+          "evidenceId": "highlight-02-demo",
+          "width": 480,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "id": "highlight-03",
+      "module": "智慧互联",
+      "moduleSource": "explicit-heading",
+      "title": "跨设备通知共享与接续",
+      "description": "手机通知无缝同步平板与电脑，支持一键跨端接听与查看。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-03-body",
+        "highlight-03-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-03"
+      ],
+      "media": [
+        {
+          "id": "highlight-03-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/51/highlight-03-960.webp",
+          "thumbnail": "assets/digests-v2/51/highlight-03-480.webp",
+          "avifSrc": "assets/digests-v2/51/highlight-03-960.avif",
+          "avifThumbnail": "assets/digests-v2/51/highlight-03-480.avif",
+          "alt": "跨设备通知共享与接续 功能演示",
+          "evidenceId": "highlight-03-demo",
+          "width": 480,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "id": "highlight-04",
+      "module": "健康与运动",
+      "moduleSource": "explicit-heading",
+      "title": "睡眠质量与呼吸健康评估",
+      "description": "睡眠分析算法升级，新增夜间呼吸暂停风险提示与分级评估。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-04-body",
+        "highlight-04-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-04"
+      ],
+      "media": [
+        {
+          "id": "highlight-04-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/51/highlight-04-960.webp",
+          "thumbnail": "assets/digests-v2/51/highlight-04-480.webp",
+          "avifSrc": "assets/digests-v2/51/highlight-04-960.avif",
+          "avifThumbnail": "assets/digests-v2/51/highlight-04-480.avif",
+          "alt": "睡眠质量与呼吸健康评估 功能演示",
+          "evidenceId": "highlight-04-demo",
+          "width": 480,
+          "height": 439
+        }
+      ]
+    },
+    {
+      "id": "highlight-05",
+      "module": "系统性能",
+      "moduleSource": "explicit-heading",
+      "title": "方舟调度引擎功耗优化",
+      "description": "方舟调度引擎智能预测应用负载，后台保活率与续航显著提升。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-05-body",
+        "highlight-05-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-05"
+      ],
+      "media": [
+        {
+          "id": "highlight-05-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/51/highlight-05-960.webp",
+          "thumbnail": "assets/digests-v2/51/highlight-05-480.webp",
+          "avifSrc": "assets/digests-v2/51/highlight-05-960.avif",
+          "avifThumbnail": "assets/digests-v2/51/highlight-05-480.avif",
+          "alt": "方舟调度引擎功耗优化 功能演示",
+          "evidenceId": "highlight-05-demo",
+          "width": 480,
+          "height": 465
+        }
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "id": "update-01",
+      "module": "系统基础体验",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "蓝牙耳机双设备自动无缝流转延迟降低。",
+      "description": "蓝牙耳机双设备自动无缝流转延迟降低。",
+      "evidenceIds": [
+        "update-01-source"
+      ],
+      "sourceItemIds": [
+        "source-update-01"
+      ]
+    },
+    {
+      "id": "update-02",
+      "module": "应用启动",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "冷启动高频核心应用秒开速度提升 15%。",
+      "description": "冷启动高频核心应用秒开速度提升 15%。",
+      "evidenceIds": [
+        "update-02-source"
+      ],
+      "sourceItemIds": [
+        "source-update-02"
+      ]
+    }
+  ],
+  "sourceItems": [
+    {
+      "id": "source-highlight-01",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_2月更新一览_(2026)/1.webp",
+      "sourceIndex": 0,
+      "sourceHash": "923126ab16163a240cdf561d19162ad357987b27f0aafa1044dbe43c70449ed6",
+      "blockIds": [
+        "block-highlight-01"
+      ],
+      "text": "灵动胶囊 春运出行胶囊与YOYO建议 出行管家时刻在线，火车、航班、打车全程胶囊常驻提醒。",
+      "targetIds": [
+        "highlight-01"
+      ]
+    },
+    {
+      "id": "source-highlight-02",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_2月更新一览_(2026)/2.webp",
+      "sourceIndex": 1,
+      "sourceHash": "96406e0ca543ca61aaf29b7ffa868d4efa674aea4d5598aa9815714bfdf25298",
+      "blockIds": [
+        "block-highlight-02"
+      ],
+      "text": "荣耀AI & YOYO AI长文档总结与思维导图 支持一键提取长文核心要点，快速生成结构化思维导图框架。",
+      "targetIds": [
+        "highlight-02"
+      ]
+    },
+    {
+      "id": "source-highlight-03",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_2月更新一览_(2026)/3.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9f18d685b737a28d0a19b48ee07d8235528118e7d24f6b4c18e11188325d4684",
+      "blockIds": [
+        "block-highlight-03"
+      ],
+      "text": "智慧互联 跨设备通知共享与接续 手机通知无缝同步平板与电脑，支持一键跨端接听与查看。",
+      "targetIds": [
+        "highlight-03"
+      ]
+    },
+    {
+      "id": "source-highlight-04",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_2月更新一览_(2026)/10.webp",
+      "sourceIndex": 3,
+      "sourceHash": "400a85d5670c266ce5fb36b5bdc5f08e0fcfe14c960800d3ad51c12cecccc5d0",
+      "blockIds": [
+        "block-highlight-04"
+      ],
+      "text": "健康与运动 睡眠质量与呼吸健康评估 睡眠分析算法升级，新增夜间呼吸暂停风险提示与分级评估。",
+      "targetIds": [
+        "highlight-04"
+      ]
+    },
+    {
+      "id": "source-highlight-05",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_2月更新一览_(2026)/11.webp",
+      "sourceIndex": 4,
+      "sourceHash": "f6b29511fd86540da4f24e96dfbbd15e96c543a0ed3bcb6c99836da51272ef52",
+      "blockIds": [
+        "block-highlight-05"
+      ],
+      "text": "系统性能 方舟调度引擎功耗优化 方舟调度引擎智能预测应用负载，后台保活率与续航显著提升。",
+      "targetIds": [
+        "highlight-05"
+      ]
+    },
+    {
+      "id": "source-update-01",
+      "classification": "update",
+      "source": "public/assets/images/MagicOS_2月更新一览_(2026)/0.webp",
+      "sourceIndex": 5,
+      "sourceHash": "fe64ed8257d8b7a6fe579b7c9e73820e5098412921dece5babeedb36f8096322",
+      "blockIds": [
+        "block-update-01"
+      ],
+      "text": "系统基础体验 优化 蓝牙耳机双设备自动无缝流转延迟降低。",
+      "targetIds": [
+        "update-01"
+      ]
+    },
+    {
+      "id": "source-update-02",
+      "classification": "update",
+      "source": "public/assets/images/MagicOS_2月更新一览_(2026)/0.webp",
+      "sourceIndex": 6,
+      "sourceHash": "38c49e64145d40e63e40def93b6d127b24c65e312537c664ce9092ad510c989c",
+      "blockIds": [
+        "block-update-02"
+      ],
+      "text": "应用启动 优化 冷启动高频核心应用秒开速度提升 15%。",
+      "targetIds": [
+        "update-02"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "highlight-01-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_2月更新一览_(2026)/1.webp",
+      "sourceIndex": 0,
+      "sourceHash": "c68ad34f84756941e4ccb2c166574c6741eaa76374ffcccdb9026556dd1a6b68",
+      "blockIds": [
+        "block-highlight-01-body"
+      ]
+    },
+    {
+      "id": "highlight-01-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_2月更新一览_(2026)/1.webp",
+      "sourceIndex": 0,
+      "sourceHash": "4add00ee7d4d76254aa2bb713e4eb3d2d574f3fcb04bea88961473dfa7877e17",
+      "blockIds": [
+        "block-highlight-01-demo"
+      ]
+    },
+    {
+      "id": "highlight-02-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_2月更新一览_(2026)/2.webp",
+      "sourceIndex": 1,
+      "sourceHash": "77d082c66e19fd11e6896c24c896b533f01b08dc6afab2e490eb79e502c26a6a",
+      "blockIds": [
+        "block-highlight-02-body"
+      ]
+    },
+    {
+      "id": "highlight-02-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_2月更新一览_(2026)/2.webp",
+      "sourceIndex": 1,
+      "sourceHash": "7d841da2647414d71f03845e0f3cf4424299395ecab030b0c8fef4c4667e5570",
+      "blockIds": [
+        "block-highlight-02-demo"
+      ]
+    },
+    {
+      "id": "highlight-03-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_2月更新一览_(2026)/3.webp",
+      "sourceIndex": 2,
+      "sourceHash": "59003914d595b2c22cf713fb91a8b613a191f617666757e9d3a1463c93001839",
+      "blockIds": [
+        "block-highlight-03-body"
+      ]
+    },
+    {
+      "id": "highlight-03-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_2月更新一览_(2026)/3.webp",
+      "sourceIndex": 2,
+      "sourceHash": "f35c0ef7acaacb601614112b9eec182c6a80d5f1df98e38b8da99d29a9702cf1",
+      "blockIds": [
+        "block-highlight-03-demo"
+      ]
+    },
+    {
+      "id": "highlight-04-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_2月更新一览_(2026)/10.webp",
+      "sourceIndex": 3,
+      "sourceHash": "109fb40fee36def62a18a9ea46e9fe5f9867b290f2d17c31972f42970795f74c",
+      "blockIds": [
+        "block-highlight-04-body"
+      ]
+    },
+    {
+      "id": "highlight-04-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_2月更新一览_(2026)/10.webp",
+      "sourceIndex": 3,
+      "sourceHash": "97fb3d31d80e14cd59442264a2bd48608a36d80b1ecb6492a1b167223f11f560",
+      "blockIds": [
+        "block-highlight-04-demo"
+      ]
+    },
+    {
+      "id": "highlight-05-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_2月更新一览_(2026)/11.webp",
+      "sourceIndex": 4,
+      "sourceHash": "8cd530e6a8e6f62e7432b9c7fdf37be0cbe394921508bdc2e70e6db07d82ae43",
+      "blockIds": [
+        "block-highlight-05-body"
+      ]
+    },
+    {
+      "id": "highlight-05-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_2月更新一览_(2026)/11.webp",
+      "sourceIndex": 4,
+      "sourceHash": "2995a5b1c81f7a197daca0cc147b3ee334bfc04869eb02143bf5b8fb5bcbdf18",
+      "blockIds": [
+        "block-highlight-05-demo"
+      ]
+    },
+    {
+      "id": "update-01-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/MagicOS_2月更新一览_(2026)/0.webp",
+      "sourceIndex": 5,
+      "sourceHash": "f9b0aa3e2a97c1a98e5782f196a9382c482b35536bfb3656413a19b1800e914b",
+      "blockIds": [
+        "block-update-01-ev"
+      ]
+    },
+    {
+      "id": "update-02-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/MagicOS_2月更新一览_(2026)/0.webp",
+      "sourceIndex": 6,
+      "sourceHash": "6787863bb0d0aa8771aa37aa8016b2b8b9a816bb294ec7a0f19f5120168ba391",
+      "blockIds": [
+        "block-update-02-ev"
+      ]
+    }
+  ],
+  "audit": {
+    "highlightReviewVersion": 4,
+    "updateReviewVersion": 4,
+    "review": {
+      "content": "verified",
+      "modules": "verified",
+      "media": "verified",
+      "page": "verified"
+    },
+    "expectedHighlightCount": 5,
+    "sourceItemCount": 7,
+    "includedItemCount": 7,
+    "excludedItemCount": 0,
+    "highlightCount": 5,
+    "updateCount": 2,
+    "mediaCount": 5,
+    "mappedItemCount": 7,
+    "coverageRate": 1
+  }
+}

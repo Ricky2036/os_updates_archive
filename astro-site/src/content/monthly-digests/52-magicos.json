@@ -1,0 +1,375 @@
+{
+  "schemaVersion": 3,
+  "contentReviewVersion": 4,
+  "mediaReviewVersion": 4,
+  "articleId": "MagicOS_3月更新一览_(2026)",
+  "reviewStatus": "verified",
+  "sourceHash": "329180c2d862974bf545ade9c39586114fa3b2266268e1aee72ac7f3594e9aab",
+  "highlights": [
+    {
+      "id": "highlight-01",
+      "module": "办公与生产力",
+      "moduleSource": "explicit-heading",
+      "title": "荣耀超级工作台跨端穿梭",
+      "description": "多屏协同键鼠穿越、跨设备剪贴板双向同步与应用窗口自由流转。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-01-body",
+        "highlight-01-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-01"
+      ],
+      "media": [
+        {
+          "id": "highlight-01-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/52/highlight-01-960.webp",
+          "thumbnail": "assets/digests-v2/52/highlight-01-480.webp",
+          "avifSrc": "assets/digests-v2/52/highlight-01-960.avif",
+          "avifThumbnail": "assets/digests-v2/52/highlight-01-480.avif",
+          "alt": "荣耀超级工作台跨端穿梭 功能演示",
+          "evidenceId": "highlight-01-demo",
+          "width": 480,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "id": "highlight-02",
+      "module": "荣耀AI & YOYO",
+      "moduleSource": "explicit-heading",
+      "title": "智能日程冲突检测",
+      "description": "自动分析短信、邮件与微信中的会议安排，智能预警时间冲突。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-02-body",
+        "highlight-02-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-02"
+      ],
+      "media": [
+        {
+          "id": "highlight-02-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/52/highlight-02-960.webp",
+          "thumbnail": "assets/digests-v2/52/highlight-02-480.webp",
+          "avifSrc": "assets/digests-v2/52/highlight-02-960.avif",
+          "avifThumbnail": "assets/digests-v2/52/highlight-02-480.avif",
+          "alt": "智能日程冲突检测 功能演示",
+          "evidenceId": "highlight-02-demo",
+          "width": 480,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "id": "highlight-03",
+      "module": "相机与图库",
+      "moduleSource": "explicit-heading",
+      "title": "鹰眼抓拍算法全面提速",
+      "description": "运动抓拍与夜景人像快门响应提速 30%，清晰定格精彩瞬间。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-03-body",
+        "highlight-03-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-03"
+      ],
+      "media": [
+        {
+          "id": "highlight-03-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/52/highlight-03-960.webp",
+          "thumbnail": "assets/digests-v2/52/highlight-03-480.webp",
+          "avifSrc": "assets/digests-v2/52/highlight-03-960.avif",
+          "avifThumbnail": "assets/digests-v2/52/highlight-03-480.avif",
+          "alt": "鹰眼抓拍算法全面提速 功能演示",
+          "evidenceId": "highlight-03-demo",
+          "width": 480,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "id": "highlight-04",
+      "module": "荣耀笔记",
+      "moduleSource": "explicit-heading",
+      "title": "语音同步转录与点选回放",
+      "description": "录音与文字同步转录，点击词句即可定位音频精准回放。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-04-body",
+        "highlight-04-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-04"
+      ],
+      "media": [
+        {
+          "id": "highlight-04-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/52/highlight-04-960.webp",
+          "thumbnail": "assets/digests-v2/52/highlight-04-480.webp",
+          "avifSrc": "assets/digests-v2/52/highlight-04-960.avif",
+          "avifThumbnail": "assets/digests-v2/52/highlight-04-480.avif",
+          "alt": "语音同步转录与点选回放 功能演示",
+          "evidenceId": "highlight-04-demo",
+          "width": 480,
+          "height": 600
+        }
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "id": "update-01",
+      "module": "系统安全",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "反诈预警库更新，拦截恶意骚扰电话与钓鱼短信。",
+      "description": "反诈预警库更新，拦截恶意骚扰电话与钓鱼短信。",
+      "evidenceIds": [
+        "update-01-source"
+      ],
+      "sourceItemIds": [
+        "source-update-01"
+      ]
+    },
+    {
+      "id": "update-02",
+      "module": "相机算法",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "长焦镜头防抖增稳算法升级，远摄成片更清晰。",
+      "description": "长焦镜头防抖增稳算法升级，远摄成片更清晰。",
+      "evidenceIds": [
+        "update-02-source"
+      ],
+      "sourceItemIds": [
+        "source-update-02"
+      ]
+    }
+  ],
+  "sourceItems": [
+    {
+      "id": "source-highlight-01",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_3月更新一览_(2026)/1.webp",
+      "sourceIndex": 0,
+      "sourceHash": "46f9bddc07477454707aca5ae20d9e5d4b4ae0f01579df425e62f36a0b74f1d5",
+      "blockIds": [
+        "block-highlight-01"
+      ],
+      "text": "办公与生产力 荣耀超级工作台跨端穿梭 多屏协同键鼠穿越、跨设备剪贴板双向同步与应用窗口自由流转。",
+      "targetIds": [
+        "highlight-01"
+      ]
+    },
+    {
+      "id": "source-highlight-02",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_3月更新一览_(2026)/2.webp",
+      "sourceIndex": 1,
+      "sourceHash": "5e45ec8aca2d17e8844e59f13af133d874f6a174bee48317688a61cd93a312b9",
+      "blockIds": [
+        "block-highlight-02"
+      ],
+      "text": "荣耀AI & YOYO 智能日程冲突检测 自动分析短信、邮件与微信中的会议安排，智能预警时间冲突。",
+      "targetIds": [
+        "highlight-02"
+      ]
+    },
+    {
+      "id": "source-highlight-03",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_3月更新一览_(2026)/3.webp",
+      "sourceIndex": 2,
+      "sourceHash": "30b2cdac781ea792b54da932560cf616d9f550d90505fa249e1460ed21e0bf22",
+      "blockIds": [
+        "block-highlight-03"
+      ],
+      "text": "相机与图库 鹰眼抓拍算法全面提速 运动抓拍与夜景人像快门响应提速 30%，清晰定格精彩瞬间。",
+      "targetIds": [
+        "highlight-03"
+      ]
+    },
+    {
+      "id": "source-highlight-04",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_3月更新一览_(2026)/5.webp",
+      "sourceIndex": 3,
+      "sourceHash": "3cb750823f9d273a3ee5277bf053043f42532ee2ed8037939198212cdcd817e4",
+      "blockIds": [
+        "block-highlight-04"
+      ],
+      "text": "荣耀笔记 语音同步转录与点选回放 录音与文字同步转录，点击词句即可定位音频精准回放。",
+      "targetIds": [
+        "highlight-04"
+      ]
+    },
+    {
+      "id": "source-update-01",
+      "classification": "update",
+      "source": "public/assets/images/MagicOS_3月更新一览_(2026)/0.webp",
+      "sourceIndex": 4,
+      "sourceHash": "d8d3dcf70bd00f36a5fa7d22de9044a8bf1c0d94853d6da5e947602b51915132",
+      "blockIds": [
+        "block-update-01"
+      ],
+      "text": "系统安全 优化 反诈预警库更新，拦截恶意骚扰电话与钓鱼短信。",
+      "targetIds": [
+        "update-01"
+      ]
+    },
+    {
+      "id": "source-update-02",
+      "classification": "update",
+      "source": "public/assets/images/MagicOS_3月更新一览_(2026)/0.webp",
+      "sourceIndex": 5,
+      "sourceHash": "22164833a0172b0c86e55352314e80deb5d9822cfb249da4a985ad50342ac7b7",
+      "blockIds": [
+        "block-update-02"
+      ],
+      "text": "相机算法 优化 长焦镜头防抖增稳算法升级，远摄成片更清晰。",
+      "targetIds": [
+        "update-02"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "highlight-01-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_3月更新一览_(2026)/1.webp",
+      "sourceIndex": 0,
+      "sourceHash": "33c004ff038f241eb220f99bfef3956d89401d5f3b2bd310b4240cd22c71f627",
+      "blockIds": [
+        "block-highlight-01-body"
+      ]
+    },
+    {
+      "id": "highlight-01-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_3月更新一览_(2026)/1.webp",
+      "sourceIndex": 0,
+      "sourceHash": "663e2b53c9ca956bee4af3729ccef00e2e267ea730f8e60be9abb41a15e82478",
+      "blockIds": [
+        "block-highlight-01-demo"
+      ]
+    },
+    {
+      "id": "highlight-02-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_3月更新一览_(2026)/2.webp",
+      "sourceIndex": 1,
+      "sourceHash": "d247cc5037a06a137d3667d9cbc49fabd36d153490a977ec9c9dbc63a584cea7",
+      "blockIds": [
+        "block-highlight-02-body"
+      ]
+    },
+    {
+      "id": "highlight-02-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_3月更新一览_(2026)/2.webp",
+      "sourceIndex": 1,
+      "sourceHash": "3b6cbacdbf9cce0d27600bf6fffa581b6bc6a4a26cbdcc6e3257895d05c4da7c",
+      "blockIds": [
+        "block-highlight-02-demo"
+      ]
+    },
+    {
+      "id": "highlight-03-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_3月更新一览_(2026)/3.webp",
+      "sourceIndex": 2,
+      "sourceHash": "d41bc7290005d6efa4a942cca1f1a911021a06200e2e77cc01c531d7bcbc4562",
+      "blockIds": [
+        "block-highlight-03-body"
+      ]
+    },
+    {
+      "id": "highlight-03-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_3月更新一览_(2026)/3.webp",
+      "sourceIndex": 2,
+      "sourceHash": "9d5dbc93c852e2fe00be6289fe0505202a9a658eb91b608ad3aca3f619f50910",
+      "blockIds": [
+        "block-highlight-03-demo"
+      ]
+    },
+    {
+      "id": "highlight-04-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_3月更新一览_(2026)/5.webp",
+      "sourceIndex": 3,
+      "sourceHash": "00a1e565edf727a9ce1b07affdb04b6216048c880389c9d3ee9f1f00af58dd81",
+      "blockIds": [
+        "block-highlight-04-body"
+      ]
+    },
+    {
+      "id": "highlight-04-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_3月更新一览_(2026)/5.webp",
+      "sourceIndex": 3,
+      "sourceHash": "85244d813fd85b391331453b766b823ff36bb6200084c9272540a4acecf01549",
+      "blockIds": [
+        "block-highlight-04-demo"
+      ]
+    },
+    {
+      "id": "update-01-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/MagicOS_3月更新一览_(2026)/0.webp",
+      "sourceIndex": 4,
+      "sourceHash": "9c63d941857fdd5aaeb530fabe5af2090cae2fca8f4baaf3170c8a779f91a9e6",
+      "blockIds": [
+        "block-update-01-ev"
+      ]
+    },
+    {
+      "id": "update-02-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/MagicOS_3月更新一览_(2026)/0.webp",
+      "sourceIndex": 5,
+      "sourceHash": "c66e24625ec1362783e1db8fa4bdc503073e5796db9ce982fd40e2a56423351e",
+      "blockIds": [
+        "block-update-02-ev"
+      ]
+    }
+  ],
+  "audit": {
+    "highlightReviewVersion": 4,
+    "updateReviewVersion": 4,
+    "review": {
+      "content": "verified",
+      "modules": "verified",
+      "media": "verified",
+      "page": "verified"
+    },
+    "expectedHighlightCount": 4,
+    "sourceItemCount": 6,
+    "includedItemCount": 6,
+    "excludedItemCount": 0,
+    "highlightCount": 4,
+    "updateCount": 2,
+    "mediaCount": 4,
+    "mappedItemCount": 6,
+    "coverageRate": 1
+  }
+}

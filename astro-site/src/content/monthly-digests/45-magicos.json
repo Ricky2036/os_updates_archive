@@ -1,0 +1,830 @@
+{
+  "schemaVersion": 3,
+  "contentReviewVersion": 4,
+  "mediaReviewVersion": 4,
+  "articleId": "MagicOS_7月更新一览_(2025)",
+  "reviewStatus": "verified",
+  "sourceHash": "5ce1e795a176db77d856ddf9a098412dc723b917eb4d51aebc71e7485edb7039",
+  "highlights": [
+    {
+      "id": "highlight-01",
+      "module": "荣耀AI & YOYO",
+      "moduleSource": "explicit-heading",
+      "title": "AI帮写",
+      "description": "在回复消息、发帖、写作润色、商品点评时智慧创作个性化文案，在文字输入时长按唤醒即可体验。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-01-body",
+        "highlight-01-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-01"
+      ],
+      "media": [
+        {
+          "id": "highlight-01-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/45/highlight-01-960.webp",
+          "thumbnail": "assets/digests-v2/45/highlight-01-480.webp",
+          "avifSrc": "assets/digests-v2/45/highlight-01-960.avif",
+          "avifThumbnail": "assets/digests-v2/45/highlight-01-480.avif",
+          "alt": "AI帮写 功能演示",
+          "evidenceId": "highlight-01-demo",
+          "width": 480,
+          "height": 262
+        }
+      ]
+    },
+    {
+      "id": "highlight-02",
+      "module": "荣耀AI & YOYO",
+      "moduleSource": "explicit-heading",
+      "title": "YOYO建议骑行卡片",
+      "description": "扫码开锁单车/助力车时，在桌面、负一屏YOYO建议卡片集等位置显示骑行订单进度与费用信息，点击可直达订单详情页。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-02-body",
+        "highlight-02-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-02"
+      ],
+      "media": [
+        {
+          "id": "highlight-02-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/45/highlight-02-960.webp",
+          "thumbnail": "assets/digests-v2/45/highlight-02-480.webp",
+          "avifSrc": "assets/digests-v2/45/highlight-02-960.avif",
+          "avifThumbnail": "assets/digests-v2/45/highlight-02-480.avif",
+          "alt": "YOYO建议骑行卡片 功能演示",
+          "evidenceId": "highlight-02-demo",
+          "width": 480,
+          "height": 316
+        }
+      ]
+    },
+    {
+      "id": "highlight-03",
+      "module": "智慧互联",
+      "moduleSource": "explicit-heading",
+      "title": "全品牌高速互传",
+      "description": "打破 iOS、Android、HarmonyOS 系统壁垒，80+款机型支持跨品牌、免流量、高速互传图片、视频与文档。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-03-body",
+        "highlight-03-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-03"
+      ],
+      "media": [
+        {
+          "id": "highlight-03-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/45/highlight-03-960.webp",
+          "thumbnail": "assets/digests-v2/45/highlight-03-480.webp",
+          "avifSrc": "assets/digests-v2/45/highlight-03-960.avif",
+          "avifThumbnail": "assets/digests-v2/45/highlight-03-480.avif",
+          "alt": "全品牌高速互传 功能演示",
+          "evidenceId": "highlight-03-demo",
+          "width": 480,
+          "height": 391
+        }
+      ]
+    },
+    {
+      "id": "highlight-04",
+      "module": "智慧互联",
+      "moduleSource": "explicit-heading",
+      "title": "苹果备忘录与联系人传输",
+      "description": "苹果手机/平板上的备忘录、联系人数据可以轻松分享到荣耀手机/平板，跨品牌传输更自由。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-04-body",
+        "highlight-04-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-04"
+      ],
+      "media": [
+        {
+          "id": "highlight-04-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/45/highlight-04-960.webp",
+          "thumbnail": "assets/digests-v2/45/highlight-04-480.webp",
+          "avifSrc": "assets/digests-v2/45/highlight-04-960.avif",
+          "avifThumbnail": "assets/digests-v2/45/highlight-04-480.avif",
+          "alt": "苹果备忘录与联系人传输 功能演示",
+          "evidenceId": "highlight-04-demo",
+          "width": 480,
+          "height": 229
+        }
+      ]
+    },
+    {
+      "id": "highlight-05",
+      "module": "相机与图库",
+      "moduleSource": "explicit-heading",
+      "title": "AI智能抠图",
+      "description": "一键智能抠图，支持随意移位、缩放、镜像等，秒换背景生成氛围大片或纯色证件照。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-05-body",
+        "highlight-05-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-05"
+      ],
+      "media": [
+        {
+          "id": "highlight-05-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/45/highlight-05-960.webp",
+          "thumbnail": "assets/digests-v2/45/highlight-05-480.webp",
+          "avifSrc": "assets/digests-v2/45/highlight-05-960.avif",
+          "avifThumbnail": "assets/digests-v2/45/highlight-05-480.avif",
+          "alt": "AI智能抠图 功能演示",
+          "evidenceId": "highlight-05-demo",
+          "width": 480,
+          "height": 355
+        }
+      ]
+    },
+    {
+      "id": "highlight-06",
+      "module": "相机与图库",
+      "moduleSource": "explicit-heading",
+      "title": "AI胶片风格",
+      "description": "人像模式模拟专业级胶片滤镜，清新文艺、鲜艳柔和、温暖复古等 6 种胶片风格随心选，秒出故事感人像大片。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-06-body",
+        "highlight-06-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-06"
+      ],
+      "media": [
+        {
+          "id": "highlight-06-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/45/highlight-06-960.webp",
+          "thumbnail": "assets/digests-v2/45/highlight-06-480.webp",
+          "avifSrc": "assets/digests-v2/45/highlight-06-960.avif",
+          "avifThumbnail": "assets/digests-v2/45/highlight-06-480.avif",
+          "alt": "AI胶片风格 功能演示",
+          "evidenceId": "highlight-06-demo",
+          "width": 480,
+          "height": 391
+        }
+      ]
+    },
+    {
+      "id": "highlight-07",
+      "module": "荣耀文档",
+      "moduleSource": "explicit-heading",
+      "title": "文档AI帮写与自动备份",
+      "description": "荣耀文档新增 AI 帮写功能，智能创作处理文案；新增自动备份功能，文件损坏可一键找回本地历史版本。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-07-body",
+        "highlight-07-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-07"
+      ],
+      "media": [
+        {
+          "id": "highlight-07-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/45/highlight-07-960.webp",
+          "thumbnail": "assets/digests-v2/45/highlight-07-480.webp",
+          "avifSrc": "assets/digests-v2/45/highlight-07-960.avif",
+          "avifThumbnail": "assets/digests-v2/45/highlight-07-480.avif",
+          "alt": "文档AI帮写与自动备份 功能演示",
+          "evidenceId": "highlight-07-demo",
+          "width": 480,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "id": "highlight-08",
+      "module": "荣耀笔记",
+      "moduleSource": "explicit-heading",
+      "title": "手写笔形与列表动效优化",
+      "description": "手写支持更多笔形，提供个性化书写绘画体验；文件夹列表页滚动动效更丝滑细腻。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-08-body",
+        "highlight-08-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-08"
+      ],
+      "media": [
+        {
+          "id": "highlight-08-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/45/highlight-08-960.webp",
+          "thumbnail": "assets/digests-v2/45/highlight-08-480.webp",
+          "avifSrc": "assets/digests-v2/45/highlight-08-960.avif",
+          "avifThumbnail": "assets/digests-v2/45/highlight-08-480.avif",
+          "alt": "手写笔形与列表动效优化 功能演示",
+          "evidenceId": "highlight-08-demo",
+          "width": 480,
+          "height": 371
+        }
+      ]
+    },
+    {
+      "id": "highlight-09",
+      "module": "相机与图库",
+      "moduleSource": "explicit-heading",
+      "title": "相机水印质感升级",
+      "description": "新增白色全框、黑色全框、胶片边框、经典负片、复古胶卷、毕业季等质感水印，让每张照片自带高级感。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-09-body",
+        "highlight-09-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-09"
+      ],
+      "media": [
+        {
+          "id": "highlight-09-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/45/highlight-09-960.webp",
+          "thumbnail": "assets/digests-v2/45/highlight-09-480.webp",
+          "avifSrc": "assets/digests-v2/45/highlight-09-960.avif",
+          "avifThumbnail": "assets/digests-v2/45/highlight-09-480.avif",
+          "alt": "相机水印质感升级 功能演示",
+          "evidenceId": "highlight-09-demo",
+          "width": 480,
+          "height": 355
+        }
+      ]
+    },
+    {
+      "id": "highlight-10",
+      "module": "桌面与个性化",
+      "moduleSource": "explicit-heading",
+      "title": "动态照片锁屏",
+      "description": "支持将爱豆舞台、萌宠与旅途等 Live Photo 动态照片设置为锁屏壁纸，个性灵动。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-10-body",
+        "highlight-10-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-10"
+      ],
+      "media": [
+        {
+          "id": "highlight-10-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/45/highlight-10-960.webp",
+          "thumbnail": "assets/digests-v2/45/highlight-10-480.webp",
+          "avifSrc": "assets/digests-v2/45/highlight-10-960.avif",
+          "avifThumbnail": "assets/digests-v2/45/highlight-10-480.avif",
+          "alt": "动态照片锁屏 功能演示",
+          "evidenceId": "highlight-10-demo",
+          "width": 480,
+          "height": 338
+        }
+      ]
+    },
+    {
+      "id": "highlight-11",
+      "module": "应用市场",
+      "moduleSource": "explicit-heading",
+      "title": "首页下拉直达精彩",
+      "description": "应用市场首页轻轻下拉即可直达二楼精彩内容、精选游戏与惊喜活动。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-11-body",
+        "highlight-11-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-11"
+      ],
+      "media": [
+        {
+          "id": "highlight-11-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/45/highlight-11-960.webp",
+          "thumbnail": "assets/digests-v2/45/highlight-11-480.webp",
+          "avifSrc": "assets/digests-v2/45/highlight-11-960.avif",
+          "avifThumbnail": "assets/digests-v2/45/highlight-11-480.avif",
+          "alt": "首页下拉直达精彩 功能演示",
+          "evidenceId": "highlight-11-demo",
+          "width": 480,
+          "height": 355
+        }
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "id": "update-01",
+      "module": "系统基础体验",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "跨品牌互传协议稳定性增强，连接成功率显著提升。",
+      "description": "跨品牌互传协议稳定性增强，连接成功率显著提升。",
+      "evidenceIds": [
+        "update-01-source"
+      ],
+      "sourceItemIds": [
+        "source-update-01"
+      ]
+    },
+    {
+      "id": "update-02",
+      "module": "相机算法",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "人像胶片模式色彩饱和度与微反差细节调校优化。",
+      "description": "人像胶片模式色彩饱和度与微反差细节调校优化。",
+      "evidenceIds": [
+        "update-02-source"
+      ],
+      "sourceItemIds": [
+        "source-update-02"
+      ]
+    }
+  ],
+  "sourceItems": [
+    {
+      "id": "source-highlight-01",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "47344280ddb382839d82da05dea1df38f820dd56ae1de6c8810adc6c21829a21",
+      "blockIds": [
+        "block-highlight-01"
+      ],
+      "text": "荣耀AI & YOYO AI帮写 在回复消息、发帖、写作润色、商品点评时智慧创作个性化文案，在文字输入时长按唤醒即可体验。",
+      "targetIds": [
+        "highlight-01"
+      ]
+    },
+    {
+      "id": "source-highlight-02",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/0.webp",
+      "sourceIndex": 1,
+      "sourceHash": "7e8f77768400d537067d2ff040da5f2c57f5eb7f7898942f80dd37befcbc36a0",
+      "blockIds": [
+        "block-highlight-02"
+      ],
+      "text": "荣耀AI & YOYO YOYO建议骑行卡片 扫码开锁单车/助力车时，在桌面、负一屏YOYO建议卡片集等位置显示骑行订单进度与费用信息，点击可直达订单详情页。",
+      "targetIds": [
+        "highlight-02"
+      ]
+    },
+    {
+      "id": "source-highlight-03",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/0.webp",
+      "sourceIndex": 2,
+      "sourceHash": "fdd6d32636f71f8956246a74e8b4ad4e918b66507322ebe1762ab945e59b3d3c",
+      "blockIds": [
+        "block-highlight-03"
+      ],
+      "text": "智慧互联 全品牌高速互传 打破 iOS、Android、HarmonyOS 系统壁垒，80+款机型支持跨品牌、免流量、高速互传图片、视频与文档。",
+      "targetIds": [
+        "highlight-03"
+      ]
+    },
+    {
+      "id": "source-highlight-04",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/0.webp",
+      "sourceIndex": 3,
+      "sourceHash": "4b1da64b9700db88573bf81526c72681d65302b247817d832be03e740fbba09f",
+      "blockIds": [
+        "block-highlight-04"
+      ],
+      "text": "智慧互联 苹果备忘录与联系人传输 苹果手机/平板上的备忘录、联系人数据可以轻松分享到荣耀手机/平板，跨品牌传输更自由。",
+      "targetIds": [
+        "highlight-04"
+      ]
+    },
+    {
+      "id": "source-highlight-05",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/0.webp",
+      "sourceIndex": 4,
+      "sourceHash": "aadec9802f94a6421e60d54bbaed6198fc395b7407b7b5f24b39e3bbf3f47da6",
+      "blockIds": [
+        "block-highlight-05"
+      ],
+      "text": "相机与图库 AI智能抠图 一键智能抠图，支持随意移位、缩放、镜像等，秒换背景生成氛围大片或纯色证件照。",
+      "targetIds": [
+        "highlight-05"
+      ]
+    },
+    {
+      "id": "source-highlight-06",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/0.webp",
+      "sourceIndex": 5,
+      "sourceHash": "bacc173401441398fe51f96a007ab684fc0cd281e6ab9330ced71ec07f4fb8d8",
+      "blockIds": [
+        "block-highlight-06"
+      ],
+      "text": "相机与图库 AI胶片风格 人像模式模拟专业级胶片滤镜，清新文艺、鲜艳柔和、温暖复古等 6 种胶片风格随心选，秒出故事感人像大片。",
+      "targetIds": [
+        "highlight-06"
+      ]
+    },
+    {
+      "id": "source-highlight-07",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/1.webp",
+      "sourceIndex": 6,
+      "sourceHash": "6b76fd5b34d09af96373ccda4fae41fbcc4db9eae40c6becb2fbf43189f979eb",
+      "blockIds": [
+        "block-highlight-07"
+      ],
+      "text": "荣耀文档 文档AI帮写与自动备份 荣耀文档新增 AI 帮写功能，智能创作处理文案；新增自动备份功能，文件损坏可一键找回本地历史版本。",
+      "targetIds": [
+        "highlight-07"
+      ]
+    },
+    {
+      "id": "source-highlight-08",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/1.webp",
+      "sourceIndex": 7,
+      "sourceHash": "52e41f586e347c14cc329ca23e9a8402374728e1222238f7f872537a20373b6a",
+      "blockIds": [
+        "block-highlight-08"
+      ],
+      "text": "荣耀笔记 手写笔形与列表动效优化 手写支持更多笔形，提供个性化书写绘画体验；文件夹列表页滚动动效更丝滑细腻。",
+      "targetIds": [
+        "highlight-08"
+      ]
+    },
+    {
+      "id": "source-highlight-09",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/1.webp",
+      "sourceIndex": 8,
+      "sourceHash": "fb6837574a6e8b6564e1f3511016685538f69f62f3e7f425b4a2b322ddd5af3c",
+      "blockIds": [
+        "block-highlight-09"
+      ],
+      "text": "相机与图库 相机水印质感升级 新增白色全框、黑色全框、胶片边框、经典负片、复古胶卷、毕业季等质感水印，让每张照片自带高级感。",
+      "targetIds": [
+        "highlight-09"
+      ]
+    },
+    {
+      "id": "source-highlight-10",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/1.webp",
+      "sourceIndex": 9,
+      "sourceHash": "8fc63abcd3e1d15d0d70c2caa3c755bb4576e73654c719ad7ac367270652a1cc",
+      "blockIds": [
+        "block-highlight-10"
+      ],
+      "text": "桌面与个性化 动态照片锁屏 支持将爱豆舞台、萌宠与旅途等 Live Photo 动态照片设置为锁屏壁纸，个性灵动。",
+      "targetIds": [
+        "highlight-10"
+      ]
+    },
+    {
+      "id": "source-highlight-11",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/1.webp",
+      "sourceIndex": 10,
+      "sourceHash": "dd8b1e04cac5972e7fc44cb08e0ec28afcb336060afe9adb0319681ed747cd68",
+      "blockIds": [
+        "block-highlight-11"
+      ],
+      "text": "应用市场 首页下拉直达精彩 应用市场首页轻轻下拉即可直达二楼精彩内容、精选游戏与惊喜活动。",
+      "targetIds": [
+        "highlight-11"
+      ]
+    },
+    {
+      "id": "source-update-01",
+      "classification": "update",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/0.webp",
+      "sourceIndex": 11,
+      "sourceHash": "76042f35634500d186f4b7dc332feab770e16b693b10fc511742bebcb9ad5c30",
+      "blockIds": [
+        "block-update-01"
+      ],
+      "text": "系统基础体验 优化 跨品牌互传协议稳定性增强，连接成功率显著提升。",
+      "targetIds": [
+        "update-01"
+      ]
+    },
+    {
+      "id": "source-update-02",
+      "classification": "update",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/0.webp",
+      "sourceIndex": 12,
+      "sourceHash": "df9abb31315b5039b609754ab7803214f1c255f80fc8c26f2b0bd6fbec724721",
+      "blockIds": [
+        "block-update-02"
+      ],
+      "text": "相机算法 优化 人像胶片模式色彩饱和度与微反差细节调校优化。",
+      "targetIds": [
+        "update-02"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "highlight-01-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "01847de664f9e228c7217c9a081ccd574791821ef4f95a4c0efa9e1408355c16",
+      "blockIds": [
+        "block-highlight-01-body"
+      ]
+    },
+    {
+      "id": "highlight-01-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "c3a245cc785f9e931b42e6841322c7e365ccaefa01bd163a328a1b02888b6e64",
+      "blockIds": [
+        "block-highlight-01-demo"
+      ]
+    },
+    {
+      "id": "highlight-02-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/0.webp",
+      "sourceIndex": 1,
+      "sourceHash": "ae9f75a1c8af38ef105305ac5b6a409671d76462b9d33a2426878f76e77963d7",
+      "blockIds": [
+        "block-highlight-02-body"
+      ]
+    },
+    {
+      "id": "highlight-02-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/0.webp",
+      "sourceIndex": 1,
+      "sourceHash": "f9ce202c9eb8e2549bfa99ca04b8a21039540e541bcc7c7f6952e01c774ac8d4",
+      "blockIds": [
+        "block-highlight-02-demo"
+      ]
+    },
+    {
+      "id": "highlight-03-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/0.webp",
+      "sourceIndex": 2,
+      "sourceHash": "79dfa675c83fe235ce317c1437278f79cfe7c9e78c7ceca2ae3553d601fd58f4",
+      "blockIds": [
+        "block-highlight-03-body"
+      ]
+    },
+    {
+      "id": "highlight-03-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/0.webp",
+      "sourceIndex": 2,
+      "sourceHash": "a4960d36002e3448ba45bb53a83793a8c9bbfe2607ce33924bdc0826c6874926",
+      "blockIds": [
+        "block-highlight-03-demo"
+      ]
+    },
+    {
+      "id": "highlight-04-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/0.webp",
+      "sourceIndex": 3,
+      "sourceHash": "c9a5d48934e404e6ca980ac1222d80d721cf97431f9d9deaa10304dd5a1748a8",
+      "blockIds": [
+        "block-highlight-04-body"
+      ]
+    },
+    {
+      "id": "highlight-04-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/0.webp",
+      "sourceIndex": 3,
+      "sourceHash": "a599e5557955c727b033378e9b649abaeec7135d010543249adbd5d58d8e08e7",
+      "blockIds": [
+        "block-highlight-04-demo"
+      ]
+    },
+    {
+      "id": "highlight-05-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/0.webp",
+      "sourceIndex": 4,
+      "sourceHash": "06cb751e4f506c12b2e9ca6aa1e64fe48b287b61f014e5a5b365ccfd9628ae34",
+      "blockIds": [
+        "block-highlight-05-body"
+      ]
+    },
+    {
+      "id": "highlight-05-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/0.webp",
+      "sourceIndex": 4,
+      "sourceHash": "53c7f599cc2b6bd6343f4e8bbf1be10c8c251d6cdb139138dd26cfafd9273dbd",
+      "blockIds": [
+        "block-highlight-05-demo"
+      ]
+    },
+    {
+      "id": "highlight-06-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/0.webp",
+      "sourceIndex": 5,
+      "sourceHash": "8c6746d2139492aa5292e240c12165c77c3f9e3f9baa9aea69114414c3a8c4ee",
+      "blockIds": [
+        "block-highlight-06-body"
+      ]
+    },
+    {
+      "id": "highlight-06-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/0.webp",
+      "sourceIndex": 5,
+      "sourceHash": "3f2b6fe06d5e93103297d8542f66bac7a0064b73a8679422708781b098163283",
+      "blockIds": [
+        "block-highlight-06-demo"
+      ]
+    },
+    {
+      "id": "highlight-07-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/1.webp",
+      "sourceIndex": 6,
+      "sourceHash": "cbd1e976b9b8753a594749cf81059feebb9d8b67994f56d1ab18828a282136b0",
+      "blockIds": [
+        "block-highlight-07-body"
+      ]
+    },
+    {
+      "id": "highlight-07-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/1.webp",
+      "sourceIndex": 6,
+      "sourceHash": "d8a8425a0989451b9fdebc051383a91d46753ae5266c0d7a049222803f392774",
+      "blockIds": [
+        "block-highlight-07-demo"
+      ]
+    },
+    {
+      "id": "highlight-08-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/1.webp",
+      "sourceIndex": 7,
+      "sourceHash": "6975c89da94f1a37fe5a5762513c5501b99c9038c433ec765fccb651ad7b9922",
+      "blockIds": [
+        "block-highlight-08-body"
+      ]
+    },
+    {
+      "id": "highlight-08-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/1.webp",
+      "sourceIndex": 7,
+      "sourceHash": "7edcccb29c8da7762a0ae5fd740efa6d200aabf8b91b2ee2409b7ee6f0363b9f",
+      "blockIds": [
+        "block-highlight-08-demo"
+      ]
+    },
+    {
+      "id": "highlight-09-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/1.webp",
+      "sourceIndex": 8,
+      "sourceHash": "6407f160f5e8116105b49dae2aafe0d21684bf46a9463ba05661c9403f86445d",
+      "blockIds": [
+        "block-highlight-09-body"
+      ]
+    },
+    {
+      "id": "highlight-09-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/1.webp",
+      "sourceIndex": 8,
+      "sourceHash": "deffba0009da943358e6ec78b7db05019d59c50ef2477baa567440a755fb2954",
+      "blockIds": [
+        "block-highlight-09-demo"
+      ]
+    },
+    {
+      "id": "highlight-10-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/1.webp",
+      "sourceIndex": 9,
+      "sourceHash": "16b1f15caf80915630dc5e246fe02431779f3cd95e9fa87a8b603f92a34783d1",
+      "blockIds": [
+        "block-highlight-10-body"
+      ]
+    },
+    {
+      "id": "highlight-10-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/1.webp",
+      "sourceIndex": 9,
+      "sourceHash": "cbd701aff930c3b50852133865ee3e799b19fc0748df315fcc146b08995fc054",
+      "blockIds": [
+        "block-highlight-10-demo"
+      ]
+    },
+    {
+      "id": "highlight-11-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/1.webp",
+      "sourceIndex": 10,
+      "sourceHash": "3d7e982a168d645aa7d7d5577be5240954ba08cd33e039a9f5dac86e76a0c526",
+      "blockIds": [
+        "block-highlight-11-body"
+      ]
+    },
+    {
+      "id": "highlight-11-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/1.webp",
+      "sourceIndex": 10,
+      "sourceHash": "57a51fda7f9959ab5fc280b6383c58f79018e7a94f6076ab9addbe0866420ce9",
+      "blockIds": [
+        "block-highlight-11-demo"
+      ]
+    },
+    {
+      "id": "update-01-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/0.webp",
+      "sourceIndex": 11,
+      "sourceHash": "ef45a6c12d5e81ccdaf5e2856a9d5e2b8efe1ed668e5d478a49043ecc7ec7bc6",
+      "blockIds": [
+        "block-update-01-ev"
+      ]
+    },
+    {
+      "id": "update-02-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/MagicOS_7月更新一览_(2025)/0.webp",
+      "sourceIndex": 12,
+      "sourceHash": "fd4b9b9ae07c05f0f3d174bc1f914a5ca49541938cb4294f95124f21536b44df",
+      "blockIds": [
+        "block-update-02-ev"
+      ]
+    }
+  ],
+  "audit": {
+    "highlightReviewVersion": 4,
+    "updateReviewVersion": 4,
+    "review": {
+      "content": "verified",
+      "modules": "verified",
+      "media": "verified",
+      "page": "verified"
+    },
+    "expectedHighlightCount": 11,
+    "sourceItemCount": 13,
+    "includedItemCount": 13,
+    "excludedItemCount": 0,
+    "highlightCount": 11,
+    "updateCount": 2,
+    "mediaCount": 11,
+    "mappedItemCount": 13,
+    "coverageRate": 1
+  }
+}

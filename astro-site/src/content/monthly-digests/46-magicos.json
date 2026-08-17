@@ -1,0 +1,570 @@
+{
+  "schemaVersion": 3,
+  "contentReviewVersion": 4,
+  "mediaReviewVersion": 4,
+  "articleId": "MagicOS_8月更新一览_(2025)",
+  "reviewStatus": "verified",
+  "sourceHash": "dd887410b4f2cca48824580cd2823cf6ed382f7d5312d90fba96d2a933235817",
+  "highlights": [
+    {
+      "id": "highlight-01",
+      "module": "荣耀AI & YOYO",
+      "moduleSource": "explicit-heading",
+      "title": "AI通话助理",
+      "description": "新增心心念的 AI 通话助理功能，支持智能接听电话、通话语音实时转文字与通话要点智能摘要。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-01-body",
+        "highlight-01-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-01"
+      ],
+      "media": [
+        {
+          "id": "highlight-01-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/46/highlight-01-960.webp",
+          "thumbnail": "assets/digests-v2/46/highlight-01-480.webp",
+          "avifSrc": "assets/digests-v2/46/highlight-01-960.avif",
+          "avifThumbnail": "assets/digests-v2/46/highlight-01-480.avif",
+          "alt": "AI通话助理 功能演示",
+          "evidenceId": "highlight-01-demo",
+          "width": 480,
+          "height": 355
+        }
+      ]
+    },
+    {
+      "id": "highlight-02",
+      "module": "荣耀AI & YOYO",
+      "moduleSource": "explicit-heading",
+      "title": "YOYO打车与出行规划",
+      "description": "万事找 YOYO 解锁新技能，支持聚合打车叫车、车牌司机实时感知与跨城市出行综合规划助手。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-02-body",
+        "highlight-02-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-02"
+      ],
+      "media": [
+        {
+          "id": "highlight-02-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/46/highlight-02-960.webp",
+          "thumbnail": "assets/digests-v2/46/highlight-02-480.webp",
+          "avifSrc": "assets/digests-v2/46/highlight-02-960.avif",
+          "avifThumbnail": "assets/digests-v2/46/highlight-02-480.avif",
+          "alt": "YOYO打车与出行规划 功能演示",
+          "evidenceId": "highlight-02-demo",
+          "width": 480,
+          "height": 496
+        }
+      ]
+    },
+    {
+      "id": "highlight-03",
+      "module": "荣耀AI & YOYO",
+      "moduleSource": "explicit-heading",
+      "title": "YOYO问答、传送与识物",
+      "description": "支持拍照全能识物、多轮百科问答与选中文本/图片任意门快捷传送。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-03-body",
+        "highlight-03-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-03"
+      ],
+      "media": [
+        {
+          "id": "highlight-03-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/46/highlight-03-960.webp",
+          "thumbnail": "assets/digests-v2/46/highlight-03-480.webp",
+          "avifSrc": "assets/digests-v2/46/highlight-03-960.avif",
+          "avifThumbnail": "assets/digests-v2/46/highlight-03-480.avif",
+          "alt": "YOYO问答、传送与识物 功能演示",
+          "evidenceId": "highlight-03-demo",
+          "width": 480,
+          "height": 626
+        }
+      ]
+    },
+    {
+      "id": "highlight-04",
+      "module": "图库与相册",
+      "moduleSource": "explicit-heading",
+      "title": "图库智能清理建议",
+      "description": "智能识别相册中重复照片、相似连拍、模糊废片与大体积截图，提供一键瘦身清理建议。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-04-body",
+        "highlight-04-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-04"
+      ],
+      "media": [
+        {
+          "id": "highlight-04-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/46/highlight-04-960.webp",
+          "thumbnail": "assets/digests-v2/46/highlight-04-480.webp",
+          "avifSrc": "assets/digests-v2/46/highlight-04-960.avif",
+          "avifThumbnail": "assets/digests-v2/46/highlight-04-480.avif",
+          "alt": "图库智能清理建议 功能演示",
+          "evidenceId": "highlight-04-demo",
+          "width": 480,
+          "height": 496
+        }
+      ]
+    },
+    {
+      "id": "highlight-05",
+      "module": "系统交互",
+      "moduleSource": "explicit-heading",
+      "title": "荣耀任意门体验升级",
+      "description": "荣耀任意门拖拽触发灵敏度提升，单手轻拖一步直达导航、搜图、购物与社交分享。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-05-body",
+        "highlight-05-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-05"
+      ],
+      "media": [
+        {
+          "id": "highlight-05-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/46/highlight-05-960.webp",
+          "thumbnail": "assets/digests-v2/46/highlight-05-480.webp",
+          "avifSrc": "assets/digests-v2/46/highlight-05-960.avif",
+          "avifThumbnail": "assets/digests-v2/46/highlight-05-480.avif",
+          "alt": "荣耀任意门体验升级 功能演示",
+          "evidenceId": "highlight-05-demo",
+          "width": 480,
+          "height": 355
+        }
+      ]
+    },
+    {
+      "id": "highlight-06",
+      "module": "智慧互联",
+      "moduleSource": "explicit-heading",
+      "title": "换机克隆与荣耀互联",
+      "description": "换机克隆传输速度与稳定性提升，支持全品牌电脑与平板跨端互联协同。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-06-body",
+        "highlight-06-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-06"
+      ],
+      "media": [
+        {
+          "id": "highlight-06-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/46/highlight-06-960.webp",
+          "thumbnail": "assets/digests-v2/46/highlight-06-480.webp",
+          "avifSrc": "assets/digests-v2/46/highlight-06-960.avif",
+          "avifThumbnail": "assets/digests-v2/46/highlight-06-480.avif",
+          "alt": "换机克隆与荣耀互联 功能演示",
+          "evidenceId": "highlight-06-demo",
+          "width": 480,
+          "height": 574
+        }
+      ]
+    },
+    {
+      "id": "highlight-07",
+      "module": "桌面与个性化",
+      "moduleSource": "explicit-heading",
+      "title": "魔法锁屏与数字人互动",
+      "description": "魔法锁屏个性化动效丰富，支持荣耀 3D 数字人桌面趣味互动。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-07-body",
+        "highlight-07-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-07"
+      ],
+      "media": [
+        {
+          "id": "highlight-07-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/46/highlight-07-960.webp",
+          "thumbnail": "assets/digests-v2/46/highlight-07-480.webp",
+          "avifSrc": "assets/digests-v2/46/highlight-07-960.avif",
+          "avifThumbnail": "assets/digests-v2/46/highlight-07-480.avif",
+          "alt": "魔法锁屏与数字人互动 功能演示",
+          "evidenceId": "highlight-07-demo",
+          "width": 480,
+          "height": 365
+        }
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "id": "update-01",
+      "module": "系统性能",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "换机克隆中断自动断点续传机制优化。",
+      "description": "换机克隆中断自动断点续传机制优化。",
+      "evidenceIds": [
+        "update-01-source"
+      ],
+      "sourceItemIds": [
+        "source-update-01"
+      ]
+    },
+    {
+      "id": "update-02",
+      "module": "图库体验",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "相册滑动大图加载速度与缩略图缓存性能提升。",
+      "description": "相册滑动大图加载速度与缩略图缓存性能提升。",
+      "evidenceIds": [
+        "update-02-source"
+      ],
+      "sourceItemIds": [
+        "source-update-02"
+      ]
+    }
+  ],
+  "sourceItems": [
+    {
+      "id": "source-highlight-01",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_8月更新一览_(2025)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "9d7d46204310a22b311a339969617e953afcd404d69ff2a284b92909f8d73300",
+      "blockIds": [
+        "block-highlight-01"
+      ],
+      "text": "荣耀AI & YOYO AI通话助理 新增心心念的 AI 通话助理功能，支持智能接听电话、通话语音实时转文字与通话要点智能摘要。",
+      "targetIds": [
+        "highlight-01"
+      ]
+    },
+    {
+      "id": "source-highlight-02",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_8月更新一览_(2025)/0.webp",
+      "sourceIndex": 1,
+      "sourceHash": "cb71994846a2ba6b71b8f353e5485a160c62b2aff94440263d837e47a2a85dda",
+      "blockIds": [
+        "block-highlight-02"
+      ],
+      "text": "荣耀AI & YOYO YOYO打车与出行规划 万事找 YOYO 解锁新技能，支持聚合打车叫车、车牌司机实时感知与跨城市出行综合规划助手。",
+      "targetIds": [
+        "highlight-02"
+      ]
+    },
+    {
+      "id": "source-highlight-03",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_8月更新一览_(2025)/0.webp",
+      "sourceIndex": 2,
+      "sourceHash": "10d6d39eb3f78112a2752933a1fcf5c939645fcb25c1f0c04ebdec2c68fa160d",
+      "blockIds": [
+        "block-highlight-03"
+      ],
+      "text": "荣耀AI & YOYO YOYO问答、传送与识物 支持拍照全能识物、多轮百科问答与选中文本/图片任意门快捷传送。",
+      "targetIds": [
+        "highlight-03"
+      ]
+    },
+    {
+      "id": "source-highlight-04",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_8月更新一览_(2025)/0.webp",
+      "sourceIndex": 3,
+      "sourceHash": "5fc317b40c55b1054fbcb91a4a8bae7a49390209c580ee06c0bdaf679cf8c885",
+      "blockIds": [
+        "block-highlight-04"
+      ],
+      "text": "图库与相册 图库智能清理建议 智能识别相册中重复照片、相似连拍、模糊废片与大体积截图，提供一键瘦身清理建议。",
+      "targetIds": [
+        "highlight-04"
+      ]
+    },
+    {
+      "id": "source-highlight-05",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_8月更新一览_(2025)/0.webp",
+      "sourceIndex": 4,
+      "sourceHash": "49ae56e91687f2c8c7fe72710c429d5793750529a553323f37eedd62d95388d5",
+      "blockIds": [
+        "block-highlight-05"
+      ],
+      "text": "系统交互 荣耀任意门体验升级 荣耀任意门拖拽触发灵敏度提升，单手轻拖一步直达导航、搜图、购物与社交分享。",
+      "targetIds": [
+        "highlight-05"
+      ]
+    },
+    {
+      "id": "source-highlight-06",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_8月更新一览_(2025)/0.webp",
+      "sourceIndex": 5,
+      "sourceHash": "459c44922a55046312a8b920278e0189f9c318fafb1bad988463259772072f16",
+      "blockIds": [
+        "block-highlight-06"
+      ],
+      "text": "智慧互联 换机克隆与荣耀互联 换机克隆传输速度与稳定性提升，支持全品牌电脑与平板跨端互联协同。",
+      "targetIds": [
+        "highlight-06"
+      ]
+    },
+    {
+      "id": "source-highlight-07",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_8月更新一览_(2025)/0.webp",
+      "sourceIndex": 6,
+      "sourceHash": "c248662a6667251197056335c54cf60ed2b38b9e4718f77aea9e2959168a243b",
+      "blockIds": [
+        "block-highlight-07"
+      ],
+      "text": "桌面与个性化 魔法锁屏与数字人互动 魔法锁屏个性化动效丰富，支持荣耀 3D 数字人桌面趣味互动。",
+      "targetIds": [
+        "highlight-07"
+      ]
+    },
+    {
+      "id": "source-update-01",
+      "classification": "update",
+      "source": "public/assets/images/MagicOS_8月更新一览_(2025)/0.webp",
+      "sourceIndex": 7,
+      "sourceHash": "50f3c40ed355c695d2fc8839e5cbe48119fa65d58ce1905dccb0ab123754712a",
+      "blockIds": [
+        "block-update-01"
+      ],
+      "text": "系统性能 优化 换机克隆中断自动断点续传机制优化。",
+      "targetIds": [
+        "update-01"
+      ]
+    },
+    {
+      "id": "source-update-02",
+      "classification": "update",
+      "source": "public/assets/images/MagicOS_8月更新一览_(2025)/0.webp",
+      "sourceIndex": 8,
+      "sourceHash": "598e90cc0c99dcb1959fba3fee7fee99e2546944f9c6a4131ad0842a37114249",
+      "blockIds": [
+        "block-update-02"
+      ],
+      "text": "图库体验 优化 相册滑动大图加载速度与缩略图缓存性能提升。",
+      "targetIds": [
+        "update-02"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "highlight-01-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_8月更新一览_(2025)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "cd975f08da1d1170d40528b7b5cd9b7305c3b361a3538320bb156fb2ad578004",
+      "blockIds": [
+        "block-highlight-01-body"
+      ]
+    },
+    {
+      "id": "highlight-01-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_8月更新一览_(2025)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "b37b2903ca8a18814e257eeb345348db625fbc26be1d755f27994dd0b7e6babf",
+      "blockIds": [
+        "block-highlight-01-demo"
+      ]
+    },
+    {
+      "id": "highlight-02-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_8月更新一览_(2025)/0.webp",
+      "sourceIndex": 1,
+      "sourceHash": "e5267c465df78422baee744bc1a4dd93b05160e191d35581923ebe65c7cb1ca0",
+      "blockIds": [
+        "block-highlight-02-body"
+      ]
+    },
+    {
+      "id": "highlight-02-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_8月更新一览_(2025)/0.webp",
+      "sourceIndex": 1,
+      "sourceHash": "3833ff74d4e02550764def3ae64a58f1fc097346d976244980854aa0b14f351f",
+      "blockIds": [
+        "block-highlight-02-demo"
+      ]
+    },
+    {
+      "id": "highlight-03-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_8月更新一览_(2025)/0.webp",
+      "sourceIndex": 2,
+      "sourceHash": "5e341c8dae8a56b5a2405ca9c3bb0cf96e082df82ace53fefe3f6e76a7e1f102",
+      "blockIds": [
+        "block-highlight-03-body"
+      ]
+    },
+    {
+      "id": "highlight-03-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_8月更新一览_(2025)/0.webp",
+      "sourceIndex": 2,
+      "sourceHash": "ce7edab23256f5454b2964bbce06c0a5079823e59dd0293d0c1091b4468b0e4c",
+      "blockIds": [
+        "block-highlight-03-demo"
+      ]
+    },
+    {
+      "id": "highlight-04-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_8月更新一览_(2025)/0.webp",
+      "sourceIndex": 3,
+      "sourceHash": "9a2f1f791e3db860316caed13dc27e1d595cc7bfa09548cd41b48f0e855e4be3",
+      "blockIds": [
+        "block-highlight-04-body"
+      ]
+    },
+    {
+      "id": "highlight-04-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_8月更新一览_(2025)/0.webp",
+      "sourceIndex": 3,
+      "sourceHash": "d2b00e19aeb3661b36fea68d7ab920ce00f6834add3dae2a18943dc1f7b6a10e",
+      "blockIds": [
+        "block-highlight-04-demo"
+      ]
+    },
+    {
+      "id": "highlight-05-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_8月更新一览_(2025)/0.webp",
+      "sourceIndex": 4,
+      "sourceHash": "39671bb5396724143e3c5836b5867b277073ef954c3ca239c50408ab3b6bf36b",
+      "blockIds": [
+        "block-highlight-05-body"
+      ]
+    },
+    {
+      "id": "highlight-05-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_8月更新一览_(2025)/0.webp",
+      "sourceIndex": 4,
+      "sourceHash": "e70c221d27ac1f229b8c6112164233c272c113f5695381701a3e06a0aebb3464",
+      "blockIds": [
+        "block-highlight-05-demo"
+      ]
+    },
+    {
+      "id": "highlight-06-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_8月更新一览_(2025)/0.webp",
+      "sourceIndex": 5,
+      "sourceHash": "ce98a97b977bbba327b0c99d585c24ae15264b15278f92d8002b24ace8b62a71",
+      "blockIds": [
+        "block-highlight-06-body"
+      ]
+    },
+    {
+      "id": "highlight-06-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_8月更新一览_(2025)/0.webp",
+      "sourceIndex": 5,
+      "sourceHash": "3e6e60a46c4aba6d8731c9e091060f74a59c96d41ccc97e5ad82b9b1d58783cb",
+      "blockIds": [
+        "block-highlight-06-demo"
+      ]
+    },
+    {
+      "id": "highlight-07-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_8月更新一览_(2025)/0.webp",
+      "sourceIndex": 6,
+      "sourceHash": "20d57588606f42dbef8d4130103165308c4274456a3f226021c350d787b24df7",
+      "blockIds": [
+        "block-highlight-07-body"
+      ]
+    },
+    {
+      "id": "highlight-07-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_8月更新一览_(2025)/0.webp",
+      "sourceIndex": 6,
+      "sourceHash": "934b13026116615284fd25cdb2104df3136a9e824e949c4e0c15cc83f18fb6b7",
+      "blockIds": [
+        "block-highlight-07-demo"
+      ]
+    },
+    {
+      "id": "update-01-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/MagicOS_8月更新一览_(2025)/0.webp",
+      "sourceIndex": 7,
+      "sourceHash": "3f49215bdc1858fbab21306799bcca070ffb1e31d248dcb92a27e5e47dc6a50a",
+      "blockIds": [
+        "block-update-01-ev"
+      ]
+    },
+    {
+      "id": "update-02-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/MagicOS_8月更新一览_(2025)/0.webp",
+      "sourceIndex": 8,
+      "sourceHash": "0a7c832cc8813c342c42d51fa26d400cbe1daf83dee0fe990d519a9dce15eeea",
+      "blockIds": [
+        "block-update-02-ev"
+      ]
+    }
+  ],
+  "audit": {
+    "highlightReviewVersion": 4,
+    "updateReviewVersion": 4,
+    "review": {
+      "content": "verified",
+      "modules": "verified",
+      "media": "verified",
+      "page": "verified"
+    },
+    "expectedHighlightCount": 7,
+    "sourceItemCount": 9,
+    "includedItemCount": 9,
+    "excludedItemCount": 0,
+    "highlightCount": 7,
+    "updateCount": 2,
+    "mediaCount": 7,
+    "mappedItemCount": 9,
+    "coverageRate": 1
+  }
+}

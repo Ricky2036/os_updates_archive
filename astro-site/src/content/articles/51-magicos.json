@@ -1,0 +1,131 @@
+{
+  "articleId": "MagicOS_2月更新一览_(2026)",
+  "order": 51,
+  "title": "荣耀MagicOS 2月更新一览",
+  "brand": "magicos",
+  "year": 2026,
+  "publishedAt": "2026-02-12",
+  "slug": "51-honor-magicos-2026-02",
+  "kind": "gallery",
+  "legacyPath": "MagicOS_2月更新一览_(2026).html",
+  "html": "<style>.image-gallery { gap: 0 !important; } .image-gallery img { margin: 0 !important; border-radius: 0 !important; box-shadow: none !important; width: 100%; display: block; }</style>\n<section class=\"card\">\n        <div class=\"card-body\">\n          <div class=\"image-gallery\">\n            <img src=\"../../../assets/images/MagicOS_2月更新一览_(2026)/0.webp\" loading=\"lazy\" alt=\"荣耀MagicOS 2月更新一览 - 图0\">\n            <img src=\"../../../assets/images/MagicOS_2月更新一览_(2026)/1.webp\" loading=\"lazy\" alt=\"荣耀MagicOS 2月更新一览 - 图1\">\n            <img src=\"../../../assets/images/MagicOS_2月更新一览_(2026)/2.webp\" loading=\"lazy\" alt=\"荣耀MagicOS 2月更新一览 - 图2\">\n            <img src=\"../../../assets/images/MagicOS_2月更新一览_(2026)/3.webp\" loading=\"lazy\" alt=\"荣耀MagicOS 2月更新一览 - 图3\">\n            <img src=\"../../../assets/images/MagicOS_2月更新一览_(2026)/4.webp\" loading=\"lazy\" alt=\"荣耀MagicOS 2月更新一览 - 图4\">\n            <img src=\"../../../assets/images/MagicOS_2月更新一览_(2026)/5.webp\" loading=\"lazy\" alt=\"荣耀MagicOS 2月更新一览 - 图5\">\n            <img src=\"../../../assets/images/MagicOS_2月更新一览_(2026)/6.webp\" loading=\"lazy\" alt=\"荣耀MagicOS 2月更新一览 - 图6\">\n            <img src=\"../../../assets/images/MagicOS_2月更新一览_(2026)/7.webp\" loading=\"lazy\" alt=\"荣耀MagicOS 2月更新一览 - 图7\">\n            <img src=\"../../../assets/images/MagicOS_2月更新一览_(2026)/8.webp\" loading=\"lazy\" alt=\"荣耀MagicOS 2月更新一览 - 图8\">\n            <img src=\"../../../assets/images/MagicOS_2月更新一览_(2026)/9.webp\" loading=\"lazy\" alt=\"荣耀MagicOS 2月更新一览 - 图9\">\n            <img src=\"../../../assets/images/MagicOS_2月更新一览_(2026)/10.webp\" loading=\"lazy\" alt=\"荣耀MagicOS 2月更新一览 - 图10\">\n            <img src=\"../../../assets/images/MagicOS_2月更新一览_(2026)/11.webp\" loading=\"lazy\" alt=\"荣耀MagicOS 2月更新一览 - 图11\">\n            <img src=\"../../../assets/images/MagicOS_2月更新一览_(2026)/12.gif\" loading=\"lazy\" alt=\"荣耀MagicOS 2月更新一览 - 图12\">\n          </div>\n        </div>\n    </section>",
+  "media": [
+    {
+      "id": "media-1",
+      "kind": "image",
+      "src": "assets/images/MagicOS_2月更新一览_(2026)/0.webp",
+      "width": 1080,
+      "height": 1405,
+      "bytes": 170680,
+      "status": "ready"
+    },
+    {
+      "id": "media-2",
+      "kind": "image",
+      "src": "assets/images/MagicOS_2月更新一览_(2026)/1.webp",
+      "width": 1080,
+      "height": 2546,
+      "bytes": 158498,
+      "status": "ready"
+    },
+    {
+      "id": "media-3",
+      "kind": "image",
+      "src": "assets/images/MagicOS_2月更新一览_(2026)/2.webp",
+      "width": 1080,
+      "height": 1663,
+      "bytes": 123446,
+      "status": "ready"
+    },
+    {
+      "id": "media-4",
+      "kind": "image",
+      "src": "assets/images/MagicOS_2月更新一览_(2026)/3.webp",
+      "width": 1080,
+      "height": 2211,
+      "bytes": 197626,
+      "status": "ready"
+    },
+    {
+      "id": "media-5",
+      "kind": "image",
+      "src": "assets/images/MagicOS_2月更新一览_(2026)/4.webp",
+      "width": 1080,
+      "height": 1558,
+      "bytes": 124980,
+      "status": "ready"
+    },
+    {
+      "id": "media-6",
+      "kind": "image",
+      "src": "assets/images/MagicOS_2月更新一览_(2026)/5.webp",
+      "width": 1080,
+      "height": 2327,
+      "bytes": 256954,
+      "status": "ready"
+    },
+    {
+      "id": "media-7",
+      "kind": "image",
+      "src": "assets/images/MagicOS_2月更新一览_(2026)/6.webp",
+      "width": 1080,
+      "height": 2005,
+      "bytes": 148424,
+      "status": "ready"
+    },
+    {
+      "id": "media-8",
+      "kind": "image",
+      "src": "assets/images/MagicOS_2月更新一览_(2026)/7.webp",
+      "width": 1080,
+      "height": 1622,
+      "bytes": 117332,
+      "status": "ready"
+    },
+    {
+      "id": "media-9",
+      "kind": "image",
+      "src": "assets/images/MagicOS_2月更新一览_(2026)/8.webp",
+      "width": 1080,
+      "height": 1316,
+      "bytes": 146316,
+      "status": "ready"
+    },
+    {
+      "id": "media-10",
+      "kind": "image",
+      "src": "assets/images/MagicOS_2月更新一览_(2026)/9.webp",
+      "width": 1080,
+      "height": 2171,
+      "bytes": 132778,
+      "status": "ready"
+    },
+    {
+      "id": "media-11",
+      "kind": "image",
+      "src": "assets/images/MagicOS_2月更新一览_(2026)/10.webp",
+      "width": 1080,
+      "height": 1155,
+      "bytes": 71012,
+      "status": "ready"
+    },
+    {
+      "id": "media-12",
+      "kind": "image",
+      "src": "assets/images/MagicOS_2月更新一览_(2026)/11.webp",
+      "width": 1080,
+      "height": 1202,
+      "bytes": 226206,
+      "status": "ready"
+    },
+    {
+      "id": "media-13",
+      "kind": "animated-image",
+      "src": "assets/images/MagicOS_2月更新一览_(2026)/12.gif",
+      "width": 71,
+      "height": 44,
+      "bytes": 5435,
+      "status": "ready"
+    }
+  ]
+}

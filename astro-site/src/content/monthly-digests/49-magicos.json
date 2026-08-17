@@ -1,0 +1,570 @@
+{
+  "schemaVersion": 3,
+  "contentReviewVersion": 4,
+  "mediaReviewVersion": 4,
+  "articleId": "MagicOS_12月更新一览_(2025)",
+  "reviewStatus": "verified",
+  "sourceHash": "8a3bf95bad4858c0dcd0dfd13fdbfde59bf710fd2acd863725428361b03ab1e2",
+  "highlights": [
+    {
+      "id": "highlight-01",
+      "module": "荣耀AI & YOYO",
+      "moduleSource": "explicit-heading",
+      "title": "更多YOYO形象焕新",
+      "description": "YOYO助理 3D 视觉形象全新升级，支持更自然细腻的情感化拟真声音与个性化音色定制。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-01-body",
+        "highlight-01-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-01"
+      ],
+      "media": [
+        {
+          "id": "highlight-01-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/49/highlight-01-960.webp",
+          "thumbnail": "assets/digests-v2/49/highlight-01-480.webp",
+          "avifSrc": "assets/digests-v2/49/highlight-01-960.avif",
+          "avifThumbnail": "assets/digests-v2/49/highlight-01-480.avif",
+          "alt": "更多YOYO形象焕新 功能演示",
+          "evidenceId": "highlight-01-demo",
+          "width": 480,
+          "height": 287
+        }
+      ]
+    },
+    {
+      "id": "highlight-02",
+      "module": "荣耀AI & YOYO",
+      "moduleSource": "explicit-heading",
+      "title": "YOYO玩图（AI补光/调色/背景虚化）",
+      "description": "一句话体验 AI 人像补光、自动调色、AI 构图与背景景深虚化。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-02-body",
+        "highlight-02-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-02"
+      ],
+      "media": [
+        {
+          "id": "highlight-02-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/49/highlight-02-960.webp",
+          "thumbnail": "assets/digests-v2/49/highlight-02-480.webp",
+          "avifSrc": "assets/digests-v2/49/highlight-02-960.avif",
+          "avifThumbnail": "assets/digests-v2/49/highlight-02-480.avif",
+          "alt": "YOYO玩图（AI补光/调色/背景虚化） 功能演示",
+          "evidenceId": "highlight-02-demo",
+          "width": 480,
+          "height": 261
+        }
+      ]
+    },
+    {
+      "id": "highlight-03",
+      "module": "荣耀AI & YOYO",
+      "moduleSource": "explicit-heading",
+      "title": "AI全屏随心翻译",
+      "description": "支持全场景跨语言双向实时同传、外语网页全文对照翻译与选区即圈即译。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-03-body",
+        "highlight-03-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-03"
+      ],
+      "media": [
+        {
+          "id": "highlight-03-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/49/highlight-03-960.webp",
+          "thumbnail": "assets/digests-v2/49/highlight-03-480.webp",
+          "avifSrc": "assets/digests-v2/49/highlight-03-960.avif",
+          "avifThumbnail": "assets/digests-v2/49/highlight-03-480.avif",
+          "alt": "AI全屏随心翻译 功能演示",
+          "evidenceId": "highlight-03-demo",
+          "width": 480,
+          "height": 303
+        }
+      ]
+    },
+    {
+      "id": "highlight-04",
+      "module": "系统交互",
+      "moduleSource": "explicit-heading",
+      "title": "手速多快 响应就有多快",
+      "description": "系统手势触控采样率与打断动效响应速度提升，极速连击滑动依然丝滑跟手。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-04-body",
+        "highlight-04-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-04"
+      ],
+      "media": [
+        {
+          "id": "highlight-04-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/49/highlight-04-960.webp",
+          "thumbnail": "assets/digests-v2/49/highlight-04-480.webp",
+          "avifSrc": "assets/digests-v2/49/highlight-04-960.avif",
+          "avifThumbnail": "assets/digests-v2/49/highlight-04-480.avif",
+          "alt": "手速多快 响应就有多快 功能演示",
+          "evidenceId": "highlight-04-demo",
+          "width": 480,
+          "height": 250
+        }
+      ]
+    },
+    {
+      "id": "highlight-05",
+      "module": "生活与工具",
+      "moduleSource": "explicit-heading",
+      "title": "荣耀钱包刷卡胶囊与时钟优化",
+      "description": "刷卡灵动胶囊提醒更贴心；时钟功能新增距离下次响铃时间提醒。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-05-body",
+        "highlight-05-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-05"
+      ],
+      "media": [
+        {
+          "id": "highlight-05-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/49/highlight-05-960.webp",
+          "thumbnail": "assets/digests-v2/49/highlight-05-480.webp",
+          "avifSrc": "assets/digests-v2/49/highlight-05-960.avif",
+          "avifThumbnail": "assets/digests-v2/49/highlight-05-480.avif",
+          "alt": "荣耀钱包刷卡胶囊与时钟优化 功能演示",
+          "evidenceId": "highlight-05-demo",
+          "width": 480,
+          "height": 417
+        }
+      ]
+    },
+    {
+      "id": "highlight-06",
+      "module": "智慧互联",
+      "moduleSource": "explicit-heading",
+      "title": "荣耀全品牌互联升级",
+      "description": "与荣耀手机 & iPhone 一碰即传支持更多机型，连接速度与稳定性提升。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-06-body",
+        "highlight-06-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-06"
+      ],
+      "media": [
+        {
+          "id": "highlight-06-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/49/highlight-06-960.webp",
+          "thumbnail": "assets/digests-v2/49/highlight-06-480.webp",
+          "avifSrc": "assets/digests-v2/49/highlight-06-960.avif",
+          "avifThumbnail": "assets/digests-v2/49/highlight-06-480.avif",
+          "alt": "荣耀全品牌互联升级 功能演示",
+          "evidenceId": "highlight-06-demo",
+          "width": 480,
+          "height": 939
+        }
+      ]
+    },
+    {
+      "id": "highlight-07",
+      "module": "个性化",
+      "moduleSource": "explicit-heading",
+      "title": "荣耀500系列个性化主题上新",
+      "description": "专属代言人主题、奶龙摇摇乐主题、魔法家族贴贴乐与好运吉签主题上新。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-07-body",
+        "highlight-07-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-07"
+      ],
+      "media": [
+        {
+          "id": "highlight-07-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/49/highlight-07-960.webp",
+          "thumbnail": "assets/digests-v2/49/highlight-07-480.webp",
+          "avifSrc": "assets/digests-v2/49/highlight-07-960.avif",
+          "avifThumbnail": "assets/digests-v2/49/highlight-07-480.avif",
+          "alt": "荣耀500系列个性化主题上新 功能演示",
+          "evidenceId": "highlight-07-demo",
+          "width": 480,
+          "height": 313
+        }
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "id": "update-01",
+      "module": "隐私安全",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "应用敏感权限单次授权与隐私防追踪报告升级。",
+      "description": "应用敏感权限单次授权与隐私防追踪报告升级。",
+      "evidenceIds": [
+        "update-01-source"
+      ],
+      "sourceItemIds": [
+        "source-update-01"
+      ]
+    },
+    {
+      "id": "update-02",
+      "module": "音频体验",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "控制中心多设备快速音频投播切换更顺畅。",
+      "description": "控制中心多设备快速音频投播切换更顺畅。",
+      "evidenceIds": [
+        "update-02-source"
+      ],
+      "sourceItemIds": [
+        "source-update-02"
+      ]
+    }
+  ],
+  "sourceItems": [
+    {
+      "id": "source-highlight-01",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_12月更新一览_(2025)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "17f642c9531ddcce71187ea0dbf75617b97aa975c5f627f095c2a9a2f85d1804",
+      "blockIds": [
+        "block-highlight-01"
+      ],
+      "text": "荣耀AI & YOYO 更多YOYO形象焕新 YOYO助理 3D 视觉形象全新升级，支持更自然细腻的情感化拟真声音与个性化音色定制。",
+      "targetIds": [
+        "highlight-01"
+      ]
+    },
+    {
+      "id": "source-highlight-02",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_12月更新一览_(2025)/0.webp",
+      "sourceIndex": 1,
+      "sourceHash": "1cd540635d038576df0f859ffea9a5059e272aa84513a65ae2a01a2cf42e8cf7",
+      "blockIds": [
+        "block-highlight-02"
+      ],
+      "text": "荣耀AI & YOYO YOYO玩图（AI补光/调色/背景虚化） 一句话体验 AI 人像补光、自动调色、AI 构图与背景景深虚化。",
+      "targetIds": [
+        "highlight-02"
+      ]
+    },
+    {
+      "id": "source-highlight-03",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_12月更新一览_(2025)/0.webp",
+      "sourceIndex": 2,
+      "sourceHash": "5e518326e772ddaedfc00bb6e65e83acfbbd7808794afd7cf202ed437e85a8f4",
+      "blockIds": [
+        "block-highlight-03"
+      ],
+      "text": "荣耀AI & YOYO AI全屏随心翻译 支持全场景跨语言双向实时同传、外语网页全文对照翻译与选区即圈即译。",
+      "targetIds": [
+        "highlight-03"
+      ]
+    },
+    {
+      "id": "source-highlight-04",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_12月更新一览_(2025)/0.webp",
+      "sourceIndex": 3,
+      "sourceHash": "0abfe00d71994190ef96835bb354381ec54360b0c8d3972a742bef8e6b6bc225",
+      "blockIds": [
+        "block-highlight-04"
+      ],
+      "text": "系统交互 手速多快 响应就有多快 系统手势触控采样率与打断动效响应速度提升，极速连击滑动依然丝滑跟手。",
+      "targetIds": [
+        "highlight-04"
+      ]
+    },
+    {
+      "id": "source-highlight-05",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_12月更新一览_(2025)/0.webp",
+      "sourceIndex": 4,
+      "sourceHash": "aa84ced5756cb02ec6ea73c74e882ed8d5e599cbeae192f548db3da2c95b14f3",
+      "blockIds": [
+        "block-highlight-05"
+      ],
+      "text": "生活与工具 荣耀钱包刷卡胶囊与时钟优化 刷卡灵动胶囊提醒更贴心；时钟功能新增距离下次响铃时间提醒。",
+      "targetIds": [
+        "highlight-05"
+      ]
+    },
+    {
+      "id": "source-highlight-06",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_12月更新一览_(2025)/0.webp",
+      "sourceIndex": 5,
+      "sourceHash": "2cbb3895dff908b101d181949873f836387f71572e59e5d68d1c94acc7c1f44a",
+      "blockIds": [
+        "block-highlight-06"
+      ],
+      "text": "智慧互联 荣耀全品牌互联升级 与荣耀手机 & iPhone 一碰即传支持更多机型，连接速度与稳定性提升。",
+      "targetIds": [
+        "highlight-06"
+      ]
+    },
+    {
+      "id": "source-highlight-07",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_12月更新一览_(2025)/0.webp",
+      "sourceIndex": 6,
+      "sourceHash": "6a484f40f9c30fa3f14c74185c4020688673b4f9c7e6d515409687a638af2c66",
+      "blockIds": [
+        "block-highlight-07"
+      ],
+      "text": "个性化 荣耀500系列个性化主题上新 专属代言人主题、奶龙摇摇乐主题、魔法家族贴贴乐与好运吉签主题上新。",
+      "targetIds": [
+        "highlight-07"
+      ]
+    },
+    {
+      "id": "source-update-01",
+      "classification": "update",
+      "source": "public/assets/images/MagicOS_12月更新一览_(2025)/0.webp",
+      "sourceIndex": 7,
+      "sourceHash": "3cbf6a9d2099c746bd7b9728a40a18b15c7e6763c50cdb5a9dc97e584ca8b2b6",
+      "blockIds": [
+        "block-update-01"
+      ],
+      "text": "隐私安全 优化 应用敏感权限单次授权与隐私防追踪报告升级。",
+      "targetIds": [
+        "update-01"
+      ]
+    },
+    {
+      "id": "source-update-02",
+      "classification": "update",
+      "source": "public/assets/images/MagicOS_12月更新一览_(2025)/0.webp",
+      "sourceIndex": 8,
+      "sourceHash": "ed17e1cab8a1c25ec58a2cea9b174039e400896051be9c816198fb8c898e66a0",
+      "blockIds": [
+        "block-update-02"
+      ],
+      "text": "音频体验 优化 控制中心多设备快速音频投播切换更顺畅。",
+      "targetIds": [
+        "update-02"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "highlight-01-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_12月更新一览_(2025)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "7ebb3f0317d5241ba81bf5da7eb39f64adec3e511d6390d395fb81be21a24379",
+      "blockIds": [
+        "block-highlight-01-body"
+      ]
+    },
+    {
+      "id": "highlight-01-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_12月更新一览_(2025)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "7336ca6fc676a4498470d672cbbefc5ecf872244717d3a1e91e2a2948f65f65b",
+      "blockIds": [
+        "block-highlight-01-demo"
+      ]
+    },
+    {
+      "id": "highlight-02-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_12月更新一览_(2025)/0.webp",
+      "sourceIndex": 1,
+      "sourceHash": "631958f6f6962dfb3571507e98423b9d586dd5d48486ff9d5d5f744663a23758",
+      "blockIds": [
+        "block-highlight-02-body"
+      ]
+    },
+    {
+      "id": "highlight-02-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_12月更新一览_(2025)/0.webp",
+      "sourceIndex": 1,
+      "sourceHash": "1cf1fe7cee99a0c15db2b16ad9e7128163e9b5e4692839bd02f935dc3e12beed",
+      "blockIds": [
+        "block-highlight-02-demo"
+      ]
+    },
+    {
+      "id": "highlight-03-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_12月更新一览_(2025)/0.webp",
+      "sourceIndex": 2,
+      "sourceHash": "c1e4fc669cfe98785e76b86549cc6154c4c380a3702931ae82dfa9e0aca616b7",
+      "blockIds": [
+        "block-highlight-03-body"
+      ]
+    },
+    {
+      "id": "highlight-03-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_12月更新一览_(2025)/0.webp",
+      "sourceIndex": 2,
+      "sourceHash": "1067261eddcc6b406f2ae9ed74af259337d633509e70b9a47c02072b7492db3a",
+      "blockIds": [
+        "block-highlight-03-demo"
+      ]
+    },
+    {
+      "id": "highlight-04-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_12月更新一览_(2025)/0.webp",
+      "sourceIndex": 3,
+      "sourceHash": "57bed77b7c9ec8d61d99b71c9f6a7dee3dbc7723cb5505e4dd34b3d48831a593",
+      "blockIds": [
+        "block-highlight-04-body"
+      ]
+    },
+    {
+      "id": "highlight-04-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_12月更新一览_(2025)/0.webp",
+      "sourceIndex": 3,
+      "sourceHash": "a87b4566b29746bfe603f5507dad06f084e1c7538c7a81eb856b87bdf8674d21",
+      "blockIds": [
+        "block-highlight-04-demo"
+      ]
+    },
+    {
+      "id": "highlight-05-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_12月更新一览_(2025)/0.webp",
+      "sourceIndex": 4,
+      "sourceHash": "3ecce13093f6aefdfa7ef54e41ffbe623bf47daf35458b3b66ac50d0d9783ff4",
+      "blockIds": [
+        "block-highlight-05-body"
+      ]
+    },
+    {
+      "id": "highlight-05-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_12月更新一览_(2025)/0.webp",
+      "sourceIndex": 4,
+      "sourceHash": "51dc7d59d0e0ebdfee85079646a99fffc21f186fc430a799aea3e7aa572abe70",
+      "blockIds": [
+        "block-highlight-05-demo"
+      ]
+    },
+    {
+      "id": "highlight-06-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_12月更新一览_(2025)/0.webp",
+      "sourceIndex": 5,
+      "sourceHash": "2e928c5c2cc35623130ef467762d57ed7282739c2a86889d90414d23d29ae868",
+      "blockIds": [
+        "block-highlight-06-body"
+      ]
+    },
+    {
+      "id": "highlight-06-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_12月更新一览_(2025)/0.webp",
+      "sourceIndex": 5,
+      "sourceHash": "4d6b4d74be378649ef4a5410fea02371477fd57ab4b287efc8f870168a8464a1",
+      "blockIds": [
+        "block-highlight-06-demo"
+      ]
+    },
+    {
+      "id": "highlight-07-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_12月更新一览_(2025)/0.webp",
+      "sourceIndex": 6,
+      "sourceHash": "3a26e2aa520308789a75145a9e5f948a6ce7dc50934e611f653fc13f920d8653",
+      "blockIds": [
+        "block-highlight-07-body"
+      ]
+    },
+    {
+      "id": "highlight-07-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_12月更新一览_(2025)/0.webp",
+      "sourceIndex": 6,
+      "sourceHash": "abbc42b3bb7bdef5f9df3c2376055e89749864c828a11a3972b703814810eff8",
+      "blockIds": [
+        "block-highlight-07-demo"
+      ]
+    },
+    {
+      "id": "update-01-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/MagicOS_12月更新一览_(2025)/0.webp",
+      "sourceIndex": 7,
+      "sourceHash": "b07961922187c27c68083dc1c97c3e60668049b1ad555fd125e5f524b90671a5",
+      "blockIds": [
+        "block-update-01-ev"
+      ]
+    },
+    {
+      "id": "update-02-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/MagicOS_12月更新一览_(2025)/0.webp",
+      "sourceIndex": 8,
+      "sourceHash": "439949abbd597f125e34f7e3ec9cfedf60cfe7a8623a6bdb37e88dab175b2b47",
+      "blockIds": [
+        "block-update-02-ev"
+      ]
+    }
+  ],
+  "audit": {
+    "highlightReviewVersion": 4,
+    "updateReviewVersion": 4,
+    "review": {
+      "content": "verified",
+      "modules": "verified",
+      "media": "verified",
+      "page": "verified"
+    },
+    "expectedHighlightCount": 7,
+    "sourceItemCount": 9,
+    "includedItemCount": 9,
+    "excludedItemCount": 0,
+    "highlightCount": 7,
+    "updateCount": 2,
+    "mediaCount": 7,
+    "mappedItemCount": 9,
+    "coverageRate": 1
+  }
+}

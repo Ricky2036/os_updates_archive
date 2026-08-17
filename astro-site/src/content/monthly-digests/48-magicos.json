@@ -1,0 +1,440 @@
+{
+  "schemaVersion": 3,
+  "contentReviewVersion": 4,
+  "mediaReviewVersion": 4,
+  "articleId": "MagicOS_11月更新一览_(2025)",
+  "reviewStatus": "verified",
+  "sourceHash": "0e750c1c93284ed1fc3979e1f0ed6337d9b1ddc16470d4466a37790e8b59424d",
+  "highlights": [
+    {
+      "id": "highlight-01",
+      "module": "荣耀AI & YOYO",
+      "moduleSource": "explicit-heading",
+      "title": "YOYO看见（多模态视觉理解）",
+      "description": "多模态视觉理解能力重磅升级，摄像头对准物理世界或手机屏幕即可实时智能问答与深度解读。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-01-body",
+        "highlight-01-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-01"
+      ],
+      "media": [
+        {
+          "id": "highlight-01-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/48/highlight-01-960.webp",
+          "thumbnail": "assets/digests-v2/48/highlight-01-480.webp",
+          "avifSrc": "assets/digests-v2/48/highlight-01-960.avif",
+          "avifThumbnail": "assets/digests-v2/48/highlight-01-480.avif",
+          "alt": "YOYO看见（多模态视觉理解） 功能演示",
+          "evidenceId": "highlight-01-demo",
+          "width": 480,
+          "height": 939
+        }
+      ]
+    },
+    {
+      "id": "highlight-02",
+      "module": "荣耀AI & YOYO",
+      "moduleSource": "explicit-heading",
+      "title": "YOYO一语智控",
+      "description": "支持自然语言复杂多步指令执行，一句话完成跨应用多步操作、参数调节与系统设置。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-02-body",
+        "highlight-02-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-02"
+      ],
+      "media": [
+        {
+          "id": "highlight-02-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/48/highlight-02-960.webp",
+          "thumbnail": "assets/digests-v2/48/highlight-02-480.webp",
+          "avifSrc": "assets/digests-v2/48/highlight-02-960.avif",
+          "avifThumbnail": "assets/digests-v2/48/highlight-02-480.avif",
+          "alt": "YOYO一语智控 功能演示",
+          "evidenceId": "highlight-02-demo",
+          "width": 480,
+          "height": 939
+        }
+      ]
+    },
+    {
+      "id": "highlight-03",
+      "module": "智慧互联",
+      "moduleSource": "explicit-heading",
+      "title": "全品牌无感智联",
+      "description": "靠近即连，支持跨品牌手机、电脑、平板间无缝数据流转、文件闪传与剪贴板实时共享。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-03-body",
+        "highlight-03-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-03"
+      ],
+      "media": [
+        {
+          "id": "highlight-03-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/48/highlight-03-960.webp",
+          "thumbnail": "assets/digests-v2/48/highlight-03-480.webp",
+          "avifSrc": "assets/digests-v2/48/highlight-03-960.avif",
+          "avifThumbnail": "assets/digests-v2/48/highlight-03-480.avif",
+          "alt": "全品牌无感智联 功能演示",
+          "evidenceId": "highlight-03-demo",
+          "width": 480,
+          "height": 835
+        }
+      ]
+    },
+    {
+      "id": "highlight-04",
+      "module": "视觉与美学",
+      "moduleSource": "explicit-heading",
+      "title": "通透质感微拟态设计",
+      "description": "全新通透设计语言上线，系统各层级高斯模糊、环境光感知与微拟态质感更加灵动高级。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-04-body",
+        "highlight-04-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-04"
+      ],
+      "media": [
+        {
+          "id": "highlight-04-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/48/highlight-04-960.webp",
+          "thumbnail": "assets/digests-v2/48/highlight-04-480.webp",
+          "avifSrc": "assets/digests-v2/48/highlight-04-960.avif",
+          "avifThumbnail": "assets/digests-v2/48/highlight-04-480.avif",
+          "alt": "通透质感微拟态设计 功能演示",
+          "evidenceId": "highlight-04-demo",
+          "width": 480,
+          "height": 939
+        }
+      ]
+    },
+    {
+      "id": "highlight-05",
+      "module": "游戏体验",
+      "moduleSource": "explicit-heading",
+      "title": "游戏管家新工具",
+      "description": "游戏管家上线性能监控浮窗、触控采样率调节、边缘防误触与网络专属加速新工具。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-05-body",
+        "highlight-05-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-05"
+      ],
+      "media": [
+        {
+          "id": "highlight-05-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/48/highlight-05-960.webp",
+          "thumbnail": "assets/digests-v2/48/highlight-05-480.webp",
+          "avifSrc": "assets/digests-v2/48/highlight-05-960.avif",
+          "avifThumbnail": "assets/digests-v2/48/highlight-05-480.avif",
+          "alt": "游戏管家新工具 功能演示",
+          "evidenceId": "highlight-05-demo",
+          "width": 480,
+          "height": 574
+        }
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "id": "update-01",
+      "module": "系统性能",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "重载场景下 GPU 渲染管线负载均衡优化。",
+      "description": "重载场景下 GPU 渲染管线负载均衡优化。",
+      "evidenceIds": [
+        "update-01-source"
+      ],
+      "sourceItemIds": [
+        "source-update-01"
+      ]
+    },
+    {
+      "id": "update-02",
+      "module": "系统安全",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "恶意网址拦截库与应用反诈防护机制升级。",
+      "description": "恶意网址拦截库与应用反诈防护机制升级。",
+      "evidenceIds": [
+        "update-02-source"
+      ],
+      "sourceItemIds": [
+        "source-update-02"
+      ]
+    }
+  ],
+  "sourceItems": [
+    {
+      "id": "source-highlight-01",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_11月更新一览_(2025)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "0afd52c476081f6c27674809358ff5f18eb8873825e74fc9bfa6cd46334eab93",
+      "blockIds": [
+        "block-highlight-01"
+      ],
+      "text": "荣耀AI & YOYO YOYO看见（多模态视觉理解） 多模态视觉理解能力重磅升级，摄像头对准物理世界或手机屏幕即可实时智能问答与深度解读。",
+      "targetIds": [
+        "highlight-01"
+      ]
+    },
+    {
+      "id": "source-highlight-02",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_11月更新一览_(2025)/0.webp",
+      "sourceIndex": 1,
+      "sourceHash": "9a9384c9cf28af78c0ae61e8d95cd617f952d0f82e951048cc07966eac416e26",
+      "blockIds": [
+        "block-highlight-02"
+      ],
+      "text": "荣耀AI & YOYO YOYO一语智控 支持自然语言复杂多步指令执行，一句话完成跨应用多步操作、参数调节与系统设置。",
+      "targetIds": [
+        "highlight-02"
+      ]
+    },
+    {
+      "id": "source-highlight-03",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_11月更新一览_(2025)/0.webp",
+      "sourceIndex": 2,
+      "sourceHash": "fb852baa828d1124071919802b298a20d078628a9ed6e35cfa67618702e8f40a",
+      "blockIds": [
+        "block-highlight-03"
+      ],
+      "text": "智慧互联 全品牌无感智联 靠近即连，支持跨品牌手机、电脑、平板间无缝数据流转、文件闪传与剪贴板实时共享。",
+      "targetIds": [
+        "highlight-03"
+      ]
+    },
+    {
+      "id": "source-highlight-04",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_11月更新一览_(2025)/0.webp",
+      "sourceIndex": 3,
+      "sourceHash": "1b2eb7430066e7009201e8d60079795a57e9bf5488ff3eeee904d7b1b05b2472",
+      "blockIds": [
+        "block-highlight-04"
+      ],
+      "text": "视觉与美学 通透质感微拟态设计 全新通透设计语言上线，系统各层级高斯模糊、环境光感知与微拟态质感更加灵动高级。",
+      "targetIds": [
+        "highlight-04"
+      ]
+    },
+    {
+      "id": "source-highlight-05",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_11月更新一览_(2025)/0.webp",
+      "sourceIndex": 4,
+      "sourceHash": "654566b59a1bc74d652b055fc5266454ce4cf0a03c364370c3a015952296bc5e",
+      "blockIds": [
+        "block-highlight-05"
+      ],
+      "text": "游戏体验 游戏管家新工具 游戏管家上线性能监控浮窗、触控采样率调节、边缘防误触与网络专属加速新工具。",
+      "targetIds": [
+        "highlight-05"
+      ]
+    },
+    {
+      "id": "source-update-01",
+      "classification": "update",
+      "source": "public/assets/images/MagicOS_11月更新一览_(2025)/0.webp",
+      "sourceIndex": 5,
+      "sourceHash": "1a80256a7ca5bc9630dc0c2062251e739b8f6a918b8190f46b49a64aae52dbcf",
+      "blockIds": [
+        "block-update-01"
+      ],
+      "text": "系统性能 优化 重载场景下 GPU 渲染管线负载均衡优化。",
+      "targetIds": [
+        "update-01"
+      ]
+    },
+    {
+      "id": "source-update-02",
+      "classification": "update",
+      "source": "public/assets/images/MagicOS_11月更新一览_(2025)/0.webp",
+      "sourceIndex": 6,
+      "sourceHash": "74388dc6708555ea42f9ee504b76d6bca8c5c18af3dbe7671901339223ed7959",
+      "blockIds": [
+        "block-update-02"
+      ],
+      "text": "系统安全 优化 恶意网址拦截库与应用反诈防护机制升级。",
+      "targetIds": [
+        "update-02"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "highlight-01-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_11月更新一览_(2025)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "9ecbacb6e4d44ffd73b1cc5c937ad3963ce437d5c048284db341f453e576ea2e",
+      "blockIds": [
+        "block-highlight-01-body"
+      ]
+    },
+    {
+      "id": "highlight-01-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_11月更新一览_(2025)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "db8aa73a2ffa8a94cf522ecf0795d65d9d4855bff69ab6cb0b2ce43ec4319078",
+      "blockIds": [
+        "block-highlight-01-demo"
+      ]
+    },
+    {
+      "id": "highlight-02-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_11月更新一览_(2025)/0.webp",
+      "sourceIndex": 1,
+      "sourceHash": "8894f2b3bde31b4d7dbfad078f007e6b3b64816d205ad18f9b2399173527ead1",
+      "blockIds": [
+        "block-highlight-02-body"
+      ]
+    },
+    {
+      "id": "highlight-02-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_11月更新一览_(2025)/0.webp",
+      "sourceIndex": 1,
+      "sourceHash": "560dd43c5225db1258dd5634507b0a2fdb97e4aa312fb40d1f6dc775d53498a3",
+      "blockIds": [
+        "block-highlight-02-demo"
+      ]
+    },
+    {
+      "id": "highlight-03-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_11月更新一览_(2025)/0.webp",
+      "sourceIndex": 2,
+      "sourceHash": "84a1a20de29359f5870e065cc7887f24d7884b968a75f882d7c7d20acadc23f9",
+      "blockIds": [
+        "block-highlight-03-body"
+      ]
+    },
+    {
+      "id": "highlight-03-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_11月更新一览_(2025)/0.webp",
+      "sourceIndex": 2,
+      "sourceHash": "0f22b7a3ae5a2239973fc4788f9df199e91caf03013d3eaaa4b60cabf97a22c5",
+      "blockIds": [
+        "block-highlight-03-demo"
+      ]
+    },
+    {
+      "id": "highlight-04-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_11月更新一览_(2025)/0.webp",
+      "sourceIndex": 3,
+      "sourceHash": "23c94a15e8666c4cf0613d72efabfd1482288e371700918079ae4cac97e539f2",
+      "blockIds": [
+        "block-highlight-04-body"
+      ]
+    },
+    {
+      "id": "highlight-04-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_11月更新一览_(2025)/0.webp",
+      "sourceIndex": 3,
+      "sourceHash": "0b64c7053b3a7798febc7d5faabdcc070bddef0353bec7d8f298b69c922cf195",
+      "blockIds": [
+        "block-highlight-04-demo"
+      ]
+    },
+    {
+      "id": "highlight-05-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_11月更新一览_(2025)/0.webp",
+      "sourceIndex": 4,
+      "sourceHash": "3cd7c7368f891589120074f47e9c8de987d2a07fd5d29b082222f64edb14ba5d",
+      "blockIds": [
+        "block-highlight-05-body"
+      ]
+    },
+    {
+      "id": "highlight-05-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_11月更新一览_(2025)/0.webp",
+      "sourceIndex": 4,
+      "sourceHash": "ad6369d75d651b03d5fead5965cd5f6516ee82f83eab14c25fad740d76991866",
+      "blockIds": [
+        "block-highlight-05-demo"
+      ]
+    },
+    {
+      "id": "update-01-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/MagicOS_11月更新一览_(2025)/0.webp",
+      "sourceIndex": 5,
+      "sourceHash": "29473fb0be4af3292c22a19d22f142977e5d50686b23061125aab5ff1af404c9",
+      "blockIds": [
+        "block-update-01-ev"
+      ]
+    },
+    {
+      "id": "update-02-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/MagicOS_11月更新一览_(2025)/0.webp",
+      "sourceIndex": 6,
+      "sourceHash": "f42beea7519de935721d63b174808dc1595274b05a0a61fd712d1e6ad5574dd4",
+      "blockIds": [
+        "block-update-02-ev"
+      ]
+    }
+  ],
+  "audit": {
+    "highlightReviewVersion": 4,
+    "updateReviewVersion": 4,
+    "review": {
+      "content": "verified",
+      "modules": "verified",
+      "media": "verified",
+      "page": "verified"
+    },
+    "expectedHighlightCount": 5,
+    "sourceItemCount": 7,
+    "includedItemCount": 7,
+    "excludedItemCount": 0,
+    "highlightCount": 5,
+    "updateCount": 2,
+    "mediaCount": 5,
+    "mappedItemCount": 7,
+    "coverageRate": 1
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "articleId": "MagicOS_7月超大杯更新_(2026)",
+  "order": 57,
+  "title": "荣耀MagicOS 7月超大杯更新",
+  "brand": "magicos",
+  "year": 2026,
+  "publishedAt": "2026-07-15",
+  "slug": "57-honor-magicos-2026-07",
+  "kind": "gallery",
+  "legacyPath": "MagicOS_7月超大杯更新_(2026).html",
+  "html": "<style>.image-gallery { gap: 0 !important; } .image-gallery img { margin: 0 !important; border-radius: 0 !important; box-shadow: none !important; width: 100%; display: block; }</style>\n<section class=\"card\">\n        <div class=\"card-body\">\n          <div class=\"image-gallery\">\n            <img src=\"../../../assets/images/MagicOS_7月超大杯更新_(2026)/0.webp\" loading=\"lazy\" alt=\"荣耀MagicOS 7月超大杯更新 - 图0\">\n            <img src=\"../../../assets/images/MagicOS_7月超大杯更新_(2026)/1.webp\" loading=\"lazy\" alt=\"荣耀MagicOS 7月超大杯更新 - 图1\">\n            <img src=\"../../../assets/images/MagicOS_7月超大杯更新_(2026)/2.webp\" loading=\"lazy\" alt=\"荣耀MagicOS 7月超大杯更新 - 图2\">\n            <img src=\"../../../assets/images/MagicOS_7月超大杯更新_(2026)/3.webp\" loading=\"lazy\" alt=\"荣耀MagicOS 7月超大杯更新 - 图3\">\n            <img src=\"../../../assets/images/MagicOS_7月超大杯更新_(2026)/4.webp\" loading=\"lazy\" alt=\"荣耀MagicOS 7月超大杯更新 - 图4\">\n          </div>\n        </div>\n    </section>",
+  "media": [
+    {
+      "id": "media-1",
+      "kind": "image",
+      "src": "assets/images/MagicOS_7月超大杯更新_(2026)/0.webp",
+      "width": 1080,
+      "height": 1200,
+      "bytes": 51352,
+      "status": "ready"
+    },
+    {
+      "id": "media-2",
+      "kind": "image",
+      "src": "assets/images/MagicOS_7月超大杯更新_(2026)/1.webp",
+      "width": 1080,
+      "height": 4211,
+      "bytes": 172340,
+      "status": "ready"
+    },
+    {
+      "id": "media-3",
+      "kind": "image",
+      "src": "assets/images/MagicOS_7月超大杯更新_(2026)/2.webp",
+      "width": 1080,
+      "height": 4228,
+      "bytes": 165206,
+      "status": "ready"
+    },
+    {
+      "id": "media-4",
+      "kind": "image",
+      "src": "assets/images/MagicOS_7月超大杯更新_(2026)/3.webp",
+      "width": 1080,
+      "height": 4420,
+      "bytes": 278962,
+      "status": "ready"
+    },
+    {
+      "id": "media-5",
+      "kind": "image",
+      "src": "assets/images/MagicOS_7月超大杯更新_(2026)/4.webp",
+      "width": 1080,
+      "height": 4347,
+      "bytes": 298754,
+      "status": "ready"
+    }
+  ]
+}

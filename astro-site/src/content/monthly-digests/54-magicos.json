@@ -1,0 +1,765 @@
+{
+  "schemaVersion": 3,
+  "contentReviewVersion": 4,
+  "mediaReviewVersion": 4,
+  "articleId": "MagicOS_4月更新一览_(2026)",
+  "reviewStatus": "verified",
+  "sourceHash": "89a312d4844a52ad606045a9c209b184985266bd8dad57d3ff93d8ddf3fd2956",
+  "highlights": [
+    {
+      "id": "highlight-01",
+      "module": "桌面与个性化",
+      "moduleSource": "explicit-heading",
+      "title": "ColorWalk 春日锁屏与小组件",
+      "description": "锁屏界面支持自由添加运动步数、天气预警、日程等小组件。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-01-body",
+        "highlight-01-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-01"
+      ],
+      "media": [
+        {
+          "id": "highlight-01-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/54/highlight-01-960.webp",
+          "thumbnail": "assets/digests-v2/54/highlight-01-480.webp",
+          "avifSrc": "assets/digests-v2/54/highlight-01-960.avif",
+          "avifThumbnail": "assets/digests-v2/54/highlight-01-480.avif",
+          "alt": "ColorWalk 春日锁屏与小组件 功能演示",
+          "evidenceId": "highlight-01-demo",
+          "width": 480,
+          "height": 709
+        }
+      ]
+    },
+    {
+      "id": "highlight-02",
+      "module": "桌面与个性化",
+      "moduleSource": "explicit-heading",
+      "title": "锁屏自定义小组件添加",
+      "description": "锁屏自定义能力深度升级，支持一键添加更多常用小组件。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-02-body",
+        "highlight-02-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-02"
+      ],
+      "media": [
+        {
+          "id": "highlight-02-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/54/highlight-02-960.webp",
+          "thumbnail": "assets/digests-v2/54/highlight-02-480.webp",
+          "avifSrc": "assets/digests-v2/54/highlight-02-960.avif",
+          "avifThumbnail": "assets/digests-v2/54/highlight-02-480.avif",
+          "alt": "锁屏自定义小组件添加 功能演示",
+          "evidenceId": "highlight-02-demo",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "id": "highlight-03",
+      "module": "桌面与个性化",
+      "moduleSource": "explicit-heading",
+      "title": "官方春日壁纸氛围感上新",
+      "description": "主题商城上线多款官方春日专属氛围感壁纸，点亮春光。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-03-body",
+        "highlight-03-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-03"
+      ],
+      "media": [
+        {
+          "id": "highlight-03-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/54/highlight-03-960.webp",
+          "thumbnail": "assets/digests-v2/54/highlight-03-480.webp",
+          "avifSrc": "assets/digests-v2/54/highlight-03-960.avif",
+          "avifThumbnail": "assets/digests-v2/54/highlight-03-480.avif",
+          "alt": "官方春日壁纸氛围感上新 功能演示",
+          "evidenceId": "highlight-03-demo",
+          "width": 480,
+          "height": 709
+        }
+      ]
+    },
+    {
+      "id": "highlight-04",
+      "module": "桌面与个性化",
+      "moduleSource": "explicit-heading",
+      "title": "指纹解锁新增花朵样式",
+      "description": "指纹解锁新增春日花朵样式，轻触指纹绽放春日密码。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-04-body",
+        "highlight-04-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-04"
+      ],
+      "media": [
+        {
+          "id": "highlight-04-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/54/highlight-04-960.webp",
+          "thumbnail": "assets/digests-v2/54/highlight-04-480.webp",
+          "avifSrc": "assets/digests-v2/54/highlight-04-960.avif",
+          "avifThumbnail": "assets/digests-v2/54/highlight-04-480.avif",
+          "alt": "指纹解锁新增花朵样式 功能演示",
+          "evidenceId": "highlight-04-demo",
+          "width": 480,
+          "height": 434
+        }
+      ]
+    },
+    {
+      "id": "highlight-05",
+      "module": "桌面与个性化",
+      "moduleSource": "explicit-heading",
+      "title": "主题新增状态栏图标换肤",
+      "description": "主题商城新增状态栏图标、信号样式与电池条个性换肤。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-05-body",
+        "highlight-05-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-05"
+      ],
+      "media": [
+        {
+          "id": "highlight-05-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/54/highlight-05-960.webp",
+          "thumbnail": "assets/digests-v2/54/highlight-05-480.webp",
+          "avifSrc": "assets/digests-v2/54/highlight-05-960.avif",
+          "avifThumbnail": "assets/digests-v2/54/highlight-05-480.avif",
+          "alt": "主题新增状态栏图标换肤 功能演示",
+          "evidenceId": "highlight-05-demo",
+          "width": 480,
+          "height": 479
+        }
+      ]
+    },
+    {
+      "id": "highlight-06",
+      "module": "荣耀AI & YOYO",
+      "moduleSource": "explicit-heading",
+      "title": "侧边栏支持听歌识曲与AI字幕",
+      "description": "一键识别背景 BGM；外语观影支持静音实时中文字幕。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-06-body",
+        "highlight-06-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-06"
+      ],
+      "media": [
+        {
+          "id": "highlight-06-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/54/highlight-06-960.webp",
+          "thumbnail": "assets/digests-v2/54/highlight-06-480.webp",
+          "avifSrc": "assets/digests-v2/54/highlight-06-960.avif",
+          "avifThumbnail": "assets/digests-v2/54/highlight-06-480.avif",
+          "alt": "侧边栏支持听歌识曲与AI字幕 功能演示",
+          "evidenceId": "highlight-06-demo",
+          "width": 480,
+          "height": 709
+        }
+      ]
+    },
+    {
+      "id": "highlight-07",
+      "module": "智慧互联",
+      "moduleSource": "explicit-heading",
+      "title": "与Mac互联再升级（文件搜索/扩展副屏）",
+      "description": "Mac Finder 搜索管理手机文件；折叠屏展开秒变 Mac 扩展副屏。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-07-body",
+        "highlight-07-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-07"
+      ],
+      "media": [
+        {
+          "id": "highlight-07-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/54/highlight-07-960.webp",
+          "thumbnail": "assets/digests-v2/54/highlight-07-480.webp",
+          "avifSrc": "assets/digests-v2/54/highlight-07-960.avif",
+          "avifThumbnail": "assets/digests-v2/54/highlight-07-480.avif",
+          "alt": "与Mac互联再升级（文件搜索/扩展副屏） 功能演示",
+          "evidenceId": "highlight-07-demo",
+          "width": 480,
+          "height": 636
+        }
+      ]
+    },
+    {
+      "id": "highlight-08",
+      "module": "智慧互联",
+      "moduleSource": "explicit-heading",
+      "title": "iPhone 一键连接荣耀移动热点",
+      "description": "iPhone 免密一键发现并连接荣耀手机的便携移动热点。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-08-body",
+        "highlight-08-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-08"
+      ],
+      "media": [
+        {
+          "id": "highlight-08-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/54/highlight-08-960.webp",
+          "thumbnail": "assets/digests-v2/54/highlight-08-480.webp",
+          "avifSrc": "assets/digests-v2/54/highlight-08-960.avif",
+          "avifThumbnail": "assets/digests-v2/54/highlight-08-480.avif",
+          "alt": "iPhone 一键连接荣耀移动热点 功能演示",
+          "evidenceId": "highlight-08-demo",
+          "width": 480,
+          "height": 260
+        }
+      ]
+    },
+    {
+      "id": "highlight-09",
+      "module": "灵动胶囊",
+      "moduleSource": "explicit-heading",
+      "title": "优酷后台播放胶囊适配",
+      "description": "灵动胶囊深度适配优酷后台播放，音综节目后台快捷切歌暂停。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-09-body",
+        "highlight-09-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-09"
+      ],
+      "media": [
+        {
+          "id": "highlight-09-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/54/highlight-09-960.webp",
+          "thumbnail": "assets/digests-v2/54/highlight-09-480.webp",
+          "avifSrc": "assets/digests-v2/54/highlight-09-960.avif",
+          "avifThumbnail": "assets/digests-v2/54/highlight-09-480.avif",
+          "alt": "优酷后台播放胶囊适配 功能演示",
+          "evidenceId": "highlight-09-demo",
+          "width": 480,
+          "height": 465
+        }
+      ]
+    },
+    {
+      "id": "highlight-10",
+      "module": "荣耀AI & YOYO",
+      "moduleSource": "explicit-heading",
+      "title": "YOYO帮记多发言人会议纪要",
+      "description": "多发言人声纹识别与实时语音转文字，一键生成结构化会议纪要。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-10-body",
+        "highlight-10-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-10"
+      ],
+      "media": [
+        {
+          "id": "highlight-10-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/54/highlight-10-960.webp",
+          "thumbnail": "assets/digests-v2/54/highlight-10-480.webp",
+          "avifSrc": "assets/digests-v2/54/highlight-10-960.avif",
+          "avifThumbnail": "assets/digests-v2/54/highlight-10-480.avif",
+          "alt": "YOYO帮记多发言人会议纪要 功能演示",
+          "evidenceId": "highlight-10-demo",
+          "width": 480,
+          "height": 454
+        }
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "id": "update-01",
+      "module": "桌面动效",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "多应用连续启动与桌面退出动画跟手度与打断响应优化。",
+      "description": "多应用连续启动与桌面退出动画跟手度与打断响应优化。",
+      "evidenceIds": [
+        "update-01-source"
+      ],
+      "sourceItemIds": [
+        "source-update-01"
+      ]
+    },
+    {
+      "id": "update-02",
+      "module": "系统设置",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "蓝牙设备列表配对速度与信号强度显示优化。",
+      "description": "蓝牙设备列表配对速度与信号强度显示优化。",
+      "evidenceIds": [
+        "update-02-source"
+      ],
+      "sourceItemIds": [
+        "source-update-02"
+      ]
+    }
+  ],
+  "sourceItems": [
+    {
+      "id": "source-highlight-01",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/1.webp",
+      "sourceIndex": 0,
+      "sourceHash": "1ec7ce232029d471a2677ac8acd5f9fe6f889615561eeb149c6fe43debf26249",
+      "blockIds": [
+        "block-highlight-01"
+      ],
+      "text": "桌面与个性化 ColorWalk 春日锁屏与小组件 锁屏界面支持自由添加运动步数、天气预警、日程等小组件。",
+      "targetIds": [
+        "highlight-01"
+      ]
+    },
+    {
+      "id": "source-highlight-02",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/2.webp",
+      "sourceIndex": 1,
+      "sourceHash": "a6fb232efa658f49382fbeca95c3b4893d81efc1d58f12ab296e3ad9eeef977d",
+      "blockIds": [
+        "block-highlight-02"
+      ],
+      "text": "桌面与个性化 锁屏自定义小组件添加 锁屏自定义能力深度升级，支持一键添加更多常用小组件。",
+      "targetIds": [
+        "highlight-02"
+      ]
+    },
+    {
+      "id": "source-highlight-03",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/3.webp",
+      "sourceIndex": 2,
+      "sourceHash": "99e4e584b3383a5f75de77b175e0b5044ac00a294b587b2023ef93e2cddad96f",
+      "blockIds": [
+        "block-highlight-03"
+      ],
+      "text": "桌面与个性化 官方春日壁纸氛围感上新 主题商城上线多款官方春日专属氛围感壁纸，点亮春光。",
+      "targetIds": [
+        "highlight-03"
+      ]
+    },
+    {
+      "id": "source-highlight-04",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/4.webp",
+      "sourceIndex": 3,
+      "sourceHash": "2b20353f81b67ab1dbe4df727cb16d113d1efc281d01b7a11bd16e8a0b6cf101",
+      "blockIds": [
+        "block-highlight-04"
+      ],
+      "text": "桌面与个性化 指纹解锁新增花朵样式 指纹解锁新增春日花朵样式，轻触指纹绽放春日密码。",
+      "targetIds": [
+        "highlight-04"
+      ]
+    },
+    {
+      "id": "source-highlight-05",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/5.webp",
+      "sourceIndex": 4,
+      "sourceHash": "786c143bd4b7ddab31a1b743d3633011a05fe68b24b0c838d75471d0a8c8fb4e",
+      "blockIds": [
+        "block-highlight-05"
+      ],
+      "text": "桌面与个性化 主题新增状态栏图标换肤 主题商城新增状态栏图标、信号样式与电池条个性换肤。",
+      "targetIds": [
+        "highlight-05"
+      ]
+    },
+    {
+      "id": "source-highlight-06",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/6.webp",
+      "sourceIndex": 5,
+      "sourceHash": "0cbe046936cad5e512afbb83865f13f78899351fe4a696eb4f0a7dadbe2a713d",
+      "blockIds": [
+        "block-highlight-06"
+      ],
+      "text": "荣耀AI & YOYO 侧边栏支持听歌识曲与AI字幕 一键识别背景 BGM；外语观影支持静音实时中文字幕。",
+      "targetIds": [
+        "highlight-06"
+      ]
+    },
+    {
+      "id": "source-highlight-07",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/7.webp",
+      "sourceIndex": 6,
+      "sourceHash": "86ac2042455ba2eb2610903ed1a00e697a3e3a8d3354ac5c9308e6ded35df587",
+      "blockIds": [
+        "block-highlight-07"
+      ],
+      "text": "智慧互联 与Mac互联再升级（文件搜索/扩展副屏） Mac Finder 搜索管理手机文件；折叠屏展开秒变 Mac 扩展副屏。",
+      "targetIds": [
+        "highlight-07"
+      ]
+    },
+    {
+      "id": "source-highlight-08",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/8.webp",
+      "sourceIndex": 7,
+      "sourceHash": "aa79cf997bf0b6a44c1a472eea44d794af653173f5425f5860ab54457c777e93",
+      "blockIds": [
+        "block-highlight-08"
+      ],
+      "text": "智慧互联 iPhone 一键连接荣耀移动热点 iPhone 免密一键发现并连接荣耀手机的便携移动热点。",
+      "targetIds": [
+        "highlight-08"
+      ]
+    },
+    {
+      "id": "source-highlight-09",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/9.webp",
+      "sourceIndex": 8,
+      "sourceHash": "2d94641916a47f9609938c7e76891ac81e5270e65adacb72b22246125857e416",
+      "blockIds": [
+        "block-highlight-09"
+      ],
+      "text": "灵动胶囊 优酷后台播放胶囊适配 灵动胶囊深度适配优酷后台播放，音综节目后台快捷切歌暂停。",
+      "targetIds": [
+        "highlight-09"
+      ]
+    },
+    {
+      "id": "source-highlight-10",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/10.webp",
+      "sourceIndex": 9,
+      "sourceHash": "0a6a8d2b635c0cd4cac5560b45ee0a2545063eb354fd25fcb8f41105d9533a6e",
+      "blockIds": [
+        "block-highlight-10"
+      ],
+      "text": "荣耀AI & YOYO YOYO帮记多发言人会议纪要 多发言人声纹识别与实时语音转文字，一键生成结构化会议纪要。",
+      "targetIds": [
+        "highlight-10"
+      ]
+    },
+    {
+      "id": "source-update-01",
+      "classification": "update",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/0.webp",
+      "sourceIndex": 10,
+      "sourceHash": "82023ddb88b4fe29de13cfde2e3757de5fac9a834dbe7ad4e1a4e3ec5dff9de6",
+      "blockIds": [
+        "block-update-01"
+      ],
+      "text": "桌面动效 优化 多应用连续启动与桌面退出动画跟手度与打断响应优化。",
+      "targetIds": [
+        "update-01"
+      ]
+    },
+    {
+      "id": "source-update-02",
+      "classification": "update",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/0.webp",
+      "sourceIndex": 11,
+      "sourceHash": "e829e7cf84caa73f084b658315fd52642ab0a74fb3fc1178b94686b296f49421",
+      "blockIds": [
+        "block-update-02"
+      ],
+      "text": "系统设置 优化 蓝牙设备列表配对速度与信号强度显示优化。",
+      "targetIds": [
+        "update-02"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "highlight-01-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/1.webp",
+      "sourceIndex": 0,
+      "sourceHash": "ef107cc98dbc38529ba52d7cffbfd9ecdc24ea0c1155078deac6a46db5bfb18c",
+      "blockIds": [
+        "block-highlight-01-body"
+      ]
+    },
+    {
+      "id": "highlight-01-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/1.webp",
+      "sourceIndex": 0,
+      "sourceHash": "5db3409ec9a267dceea63ed5ef963628e205932652258c9e86ceb9653e8bc69e",
+      "blockIds": [
+        "block-highlight-01-demo"
+      ]
+    },
+    {
+      "id": "highlight-02-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/2.webp",
+      "sourceIndex": 1,
+      "sourceHash": "39e83780290932123248788b2edf1dd1babb3d575fed24612fb8dc292560a5dd",
+      "blockIds": [
+        "block-highlight-02-body"
+      ]
+    },
+    {
+      "id": "highlight-02-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/2.webp",
+      "sourceIndex": 1,
+      "sourceHash": "c76325fec64882d3d3656c9aa165d313f5428e87557e1d0c2a017819ca23fd38",
+      "blockIds": [
+        "block-highlight-02-demo"
+      ]
+    },
+    {
+      "id": "highlight-03-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/3.webp",
+      "sourceIndex": 2,
+      "sourceHash": "6ae4ba5614f537ac923edb76024fcbd33b7105be23643c68b8952854d83dfa1a",
+      "blockIds": [
+        "block-highlight-03-body"
+      ]
+    },
+    {
+      "id": "highlight-03-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/3.webp",
+      "sourceIndex": 2,
+      "sourceHash": "440ac109483fc21bb7c0de2fb828617793708e6c4505fca701aeeb3a783e027d",
+      "blockIds": [
+        "block-highlight-03-demo"
+      ]
+    },
+    {
+      "id": "highlight-04-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/4.webp",
+      "sourceIndex": 3,
+      "sourceHash": "f3d013b6cbb516a93a01b71f24af3580ac06c14ecf194187e7d9f46a82b2c257",
+      "blockIds": [
+        "block-highlight-04-body"
+      ]
+    },
+    {
+      "id": "highlight-04-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/4.webp",
+      "sourceIndex": 3,
+      "sourceHash": "052f8d5144c56ce61f319535d00b69185ccd7abc2df9a7a41c02262cd3cdf3ef",
+      "blockIds": [
+        "block-highlight-04-demo"
+      ]
+    },
+    {
+      "id": "highlight-05-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/5.webp",
+      "sourceIndex": 4,
+      "sourceHash": "b4f54f5d14c7d2affa8369ed0ebd5c433dd570d078899aab6ddb19229587e288",
+      "blockIds": [
+        "block-highlight-05-body"
+      ]
+    },
+    {
+      "id": "highlight-05-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/5.webp",
+      "sourceIndex": 4,
+      "sourceHash": "0b13abf8d24f95420cebc395f66ae77ec1e4a7ed58a9dff6bd5bd5bf3fe29942",
+      "blockIds": [
+        "block-highlight-05-demo"
+      ]
+    },
+    {
+      "id": "highlight-06-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/6.webp",
+      "sourceIndex": 5,
+      "sourceHash": "6b51a81b97aa0dedd83aff208465b38ee3b91adfd89202b0dbcde4c4c10bbf41",
+      "blockIds": [
+        "block-highlight-06-body"
+      ]
+    },
+    {
+      "id": "highlight-06-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/6.webp",
+      "sourceIndex": 5,
+      "sourceHash": "a23277b8172b67eb6649c8c26168f1b9382929bf68be9fc15e254a3ae564b00b",
+      "blockIds": [
+        "block-highlight-06-demo"
+      ]
+    },
+    {
+      "id": "highlight-07-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/7.webp",
+      "sourceIndex": 6,
+      "sourceHash": "8c177cd3252da8a0caac54dd44aecb4a20c551f0af81e174b23b134bbb5f9909",
+      "blockIds": [
+        "block-highlight-07-body"
+      ]
+    },
+    {
+      "id": "highlight-07-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/7.webp",
+      "sourceIndex": 6,
+      "sourceHash": "8a715d264ad6faed9d273fdcff16c2c4cae3decb7a22a5240660280f85062230",
+      "blockIds": [
+        "block-highlight-07-demo"
+      ]
+    },
+    {
+      "id": "highlight-08-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/8.webp",
+      "sourceIndex": 7,
+      "sourceHash": "8b3bc229d24a55d1350fcf79a1258c4de26df8c221b0f4168f413f6a6b9d1bbc",
+      "blockIds": [
+        "block-highlight-08-body"
+      ]
+    },
+    {
+      "id": "highlight-08-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/8.webp",
+      "sourceIndex": 7,
+      "sourceHash": "e7e3a2341ae50831e0b1f7e5df52381a156fa06b4dfb690b3dbf41ccdb395aa7",
+      "blockIds": [
+        "block-highlight-08-demo"
+      ]
+    },
+    {
+      "id": "highlight-09-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/9.webp",
+      "sourceIndex": 8,
+      "sourceHash": "c85644950b6e03b42046f5e6b4b793c553ca80063acfcd8d9300405198873822",
+      "blockIds": [
+        "block-highlight-09-body"
+      ]
+    },
+    {
+      "id": "highlight-09-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/9.webp",
+      "sourceIndex": 8,
+      "sourceHash": "fbc3fbf8d85ca99f0990402f39acbfaf99065854647a5a033f47e8c72217aa60",
+      "blockIds": [
+        "block-highlight-09-demo"
+      ]
+    },
+    {
+      "id": "highlight-10-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/10.webp",
+      "sourceIndex": 9,
+      "sourceHash": "b02b2111d09fd56f924b92e76e24968651de91bbabd3314690f13449e773f4cb",
+      "blockIds": [
+        "block-highlight-10-body"
+      ]
+    },
+    {
+      "id": "highlight-10-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/10.webp",
+      "sourceIndex": 9,
+      "sourceHash": "eb4ca9f4c6965a0d04ba6aefd57d2f789765de4c68013d671f590adcc5b908b3",
+      "blockIds": [
+        "block-highlight-10-demo"
+      ]
+    },
+    {
+      "id": "update-01-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/0.webp",
+      "sourceIndex": 10,
+      "sourceHash": "f62dc4fd4b04e8023808c25fd5f919e95c0eb87bce73362b5a0eec6f4039fecf",
+      "blockIds": [
+        "block-update-01-ev"
+      ]
+    },
+    {
+      "id": "update-02-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/MagicOS_4月更新一览_(2026)/0.webp",
+      "sourceIndex": 11,
+      "sourceHash": "ff5b779eb74b87a882cd028419a1e4fede60e6980cab592ce621fb8ccddf7d8f",
+      "blockIds": [
+        "block-update-02-ev"
+      ]
+    }
+  ],
+  "audit": {
+    "highlightReviewVersion": 4,
+    "updateReviewVersion": 4,
+    "review": {
+      "content": "verified",
+      "modules": "verified",
+      "media": "verified",
+      "page": "verified"
+    },
+    "expectedHighlightCount": 10,
+    "sourceItemCount": 12,
+    "includedItemCount": 12,
+    "excludedItemCount": 0,
+    "highlightCount": 10,
+    "updateCount": 2,
+    "mediaCount": 10,
+    "mappedItemCount": 12,
+    "coverageRate": 1
+  }
+}

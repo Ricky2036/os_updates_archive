@@ -1,6 +1,6 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 
-export type Brand = 'coloros' | 'originos' | 'hyperos';
+export type Brand = 'coloros' | 'originos' | 'hyperos' | 'magicos';
 export type ArchiveArticle = CollectionEntry<'articles'>;
 
 export const brandMeta: Record<Brand, { name: string; accent: string; soft: string; logo: string; summary: string }> = {
@@ -24,6 +24,13 @@ export const brandMeta: Record<Brand, { name: string; accent: string; soft: stri
     soft: '#f0f0f0',
     logo: 'assets/images/logo_hyperos.png',
     summary: 'Xiaomi 系统升级日志全记录，收录月度更新详情。',
+  },
+  magicos: {
+    name: 'MagicOS',
+    accent: '#2563eb',
+    soft: '#eff6ff',
+    logo: 'assets/images/logo_magicos.png',
+    summary: 'Honor 荣耀 MagicOS 系统月度更新与体验升级全记录。',
   },
 };
 

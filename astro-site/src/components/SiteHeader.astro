@@ -8,6 +8,7 @@ const { activeBrand, hasArchiveNav = false, hasMonthlyViewToggle = false, active
 const colorOSActive = activeBrand === 'coloros';
 const originOSActive = activeBrand === 'originos';
 const hyperOSActive = activeBrand === 'hyperos';
+const magicOSActive = activeBrand === 'magicos';
 
 const articles = await getArticles();
 const getLatestUrl = (brand: Brand) => {
@@ -17,6 +18,7 @@ const getLatestUrl = (brand: Brand) => {
 const colorOSLatestUrl = getLatestUrl('coloros');
 const originOSLatestUrl = getLatestUrl('originos');
 const hyperOSLatestUrl = getLatestUrl('hyperos');
+const magicOSLatestUrl = getLatestUrl('magicos');
 
 ---
 <header class:list={{ 'site-header': true, 'has-archive-nav': hasArchiveNav }}>
@@ -73,6 +75,15 @@ const hyperOSLatestUrl = getLatestUrl('hyperos');
     </a>
     <div class="brand-submenu" role="menu" aria-label="HyperOS 档案">
       <a class:list={{ active: true }} role="menuitem" href={hyperOSLatestUrl}>月更记录</a>
+    </div>
+  </div>
+  <div class:list={{ 'brand-menu': true, active: magicOSActive }}>
+    <a class="brand-tab brand-trigger" href={magicOSLatestUrl} aria-haspopup="menu" aria-expanded="false">
+      {magicOSActive && <div class="nav-highlight" transition:name="brand-highlight"></div>}
+      <span style="position: relative; z-index: 10;" data-text={brandMeta.magicos.name}>{brandMeta.magicos.name}</span><i aria-hidden="true"></i>
+    </a>
+    <div class="brand-submenu" role="menu" aria-label="MagicOS 档案">
+      <a class:list={{ active: true }} role="menuitem" href={magicOSLatestUrl}>月更记录</a>
     </div>
   </div>
 </nav>

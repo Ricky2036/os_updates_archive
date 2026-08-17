@@ -1,0 +1,32 @@
+{
+  "articleId": "MagicOS_9月更新一览_(2025)",
+  "order": 47,
+  "title": "荣耀MagicOS 9月更新一览",
+  "brand": "magicos",
+  "year": 2025,
+  "publishedAt": "2025-09-15",
+  "slug": "47-honor-magicos-2025-09",
+  "kind": "gallery",
+  "legacyPath": "MagicOS_9月更新一览_(2025).html",
+  "html": "<style>.image-gallery { gap: 0 !important; } .image-gallery img { margin: 0 !important; border-radius: 0 !important; box-shadow: none !important; width: 100%; display: block; }</style>\n<section class=\"card\">\n        <div class=\"card-body\">\n          <div class=\"image-gallery\">\n            <img src=\"../../../assets/images/MagicOS_9月更新一览_(2025)/0.webp\" loading=\"lazy\" alt=\"荣耀MagicOS 9月更新一览 - 图0\">\n            <img src=\"../../../assets/images/MagicOS_9月更新一览_(2025)/1.gif\" loading=\"lazy\" alt=\"荣耀MagicOS 9月更新一览 - 图1\">\n          </div>\n        </div>\n    </section>",
+  "media": [
+    {
+      "id": "media-1",
+      "kind": "image",
+      "src": "assets/images/MagicOS_9月更新一览_(2025)/0.webp",
+      "width": 1080,
+      "height": 10074,
+      "bytes": 787496,
+      "status": "ready"
+    },
+    {
+      "id": "media-2",
+      "kind": "animated-image",
+      "src": "assets/images/MagicOS_9月更新一览_(2025)/1.gif",
+      "width": 71,
+      "height": 44,
+      "bytes": 6506,
+      "status": "ready"
+    }
+  ]
+}

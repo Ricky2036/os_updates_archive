@@ -1,0 +1,570 @@
+{
+  "schemaVersion": 3,
+  "contentReviewVersion": 4,
+  "mediaReviewVersion": 4,
+  "articleId": "MagicOS_7月超大杯更新_(2026)",
+  "reviewStatus": "verified",
+  "sourceHash": "4d2a5d43ab0313de3216ec9881cd01e1f47da966da81c11bc9f7e855612ea7ff",
+  "highlights": [
+    {
+      "id": "highlight-01",
+      "module": "系统动效与交互",
+      "moduleSource": "explicit-heading",
+      "title": "多任务操作与后台应用切换动效",
+      "description": "后台多应用切换、滑动与批量删除动画更顺滑；多任务同步操作画面极致跟手不卡顿。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-01-body",
+        "highlight-01-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-01"
+      ],
+      "media": [
+        {
+          "id": "highlight-01-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/57/highlight-01-960.webp",
+          "thumbnail": "assets/digests-v2/57/highlight-01-480.webp",
+          "avifSrc": "assets/digests-v2/57/highlight-01-960.avif",
+          "avifThumbnail": "assets/digests-v2/57/highlight-01-480.avif",
+          "alt": "多任务操作与后台应用切换动效 功能演示",
+          "evidenceId": "highlight-01-demo",
+          "width": 480,
+          "height": 574
+        }
+      ]
+    },
+    {
+      "id": "highlight-02",
+      "module": "系统动效与交互",
+      "moduleSource": "explicit-heading",
+      "title": "应用点开收起连贯过渡动效",
+      "description": "三方应用内点开图片、侧边快捷栏打开 APP、下拉控制中心长按打开动效自然连贯。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-02-body",
+        "highlight-02-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-02"
+      ],
+      "media": [
+        {
+          "id": "highlight-02-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/57/highlight-02-960.webp",
+          "thumbnail": "assets/digests-v2/57/highlight-02-480.webp",
+          "avifSrc": "assets/digests-v2/57/highlight-02-960.avif",
+          "avifThumbnail": "assets/digests-v2/57/highlight-02-480.avif",
+          "alt": "应用点开收起连贯过渡动效 功能演示",
+          "evidenceId": "highlight-02-demo",
+          "width": 480,
+          "height": 626
+        }
+      ]
+    },
+    {
+      "id": "highlight-03",
+      "module": "灵动胶囊",
+      "moduleSource": "explicit-heading",
+      "title": "渐变通透视觉与排版优化",
+      "description": "灵动胶囊采用全新渐变通透毛玻璃视觉，优化来电与铁路 12306 火车行程排版，核心信息一眼可读。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-03-body",
+        "highlight-03-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-03"
+      ],
+      "media": [
+        {
+          "id": "highlight-03-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/57/highlight-03-960.webp",
+          "thumbnail": "assets/digests-v2/57/highlight-03-480.webp",
+          "avifSrc": "assets/digests-v2/57/highlight-03-960.avif",
+          "avifThumbnail": "assets/digests-v2/57/highlight-03-480.avif",
+          "alt": "渐变通透视觉与排版优化 功能演示",
+          "evidenceId": "highlight-03-demo",
+          "width": 480,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "id": "highlight-04",
+      "module": "灵动胶囊",
+      "moduleSource": "explicit-heading",
+      "title": "胶囊堆叠样式支持自定义",
+      "description": "灵动胶囊支持多任务堆叠展开与自定义卡片管理，个性又美观。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-04-body",
+        "highlight-04-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-04"
+      ],
+      "media": [
+        {
+          "id": "highlight-04-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/57/highlight-04-960.webp",
+          "thumbnail": "assets/digests-v2/57/highlight-04-480.webp",
+          "avifSrc": "assets/digests-v2/57/highlight-04-960.avif",
+          "avifThumbnail": "assets/digests-v2/57/highlight-04-480.avif",
+          "alt": "胶囊堆叠样式支持自定义 功能演示",
+          "evidenceId": "highlight-04-demo",
+          "width": 480,
+          "height": 409
+        }
+      ]
+    },
+    {
+      "id": "highlight-05",
+      "module": "生活与服务",
+      "moduleSource": "explicit-heading",
+      "title": "远程协助APP上线",
+      "description": "远距离守护长辈用机，支持一键发起协助、屏幕共享与协助操控长辈手机。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-05-body",
+        "highlight-05-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-05"
+      ],
+      "media": [
+        {
+          "id": "highlight-05-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/57/highlight-05-960.webp",
+          "thumbnail": "assets/digests-v2/57/highlight-05-480.webp",
+          "avifSrc": "assets/digests-v2/57/highlight-05-960.avif",
+          "avifThumbnail": "assets/digests-v2/57/highlight-05-480.avif",
+          "alt": "远程协助APP上线 功能演示",
+          "evidenceId": "highlight-05-demo",
+          "width": 480,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "id": "highlight-06",
+      "module": "智慧互联",
+      "moduleSource": "explicit-heading",
+      "title": "荣耀一碰传「朋友圈」上新",
+      "description": "深度集成酷狗音乐一碰分享歌曲歌单、美团天天膨胀神券一碰分享，一碰即享。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-06-body",
+        "highlight-06-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-06"
+      ],
+      "media": [
+        {
+          "id": "highlight-06-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/57/highlight-06-960.webp",
+          "thumbnail": "assets/digests-v2/57/highlight-06-480.webp",
+          "avifSrc": "assets/digests-v2/57/highlight-06-960.avif",
+          "avifThumbnail": "assets/digests-v2/57/highlight-06-480.avif",
+          "alt": "荣耀一碰传「朋友圈」上新 功能演示",
+          "evidenceId": "highlight-06-demo",
+          "width": 480,
+          "height": 835
+        }
+      ]
+    },
+    {
+      "id": "highlight-07",
+      "module": "系统交互",
+      "moduleSource": "explicit-heading",
+      "title": "荣耀任意门动图玩法升级（LIVE图/GIF）",
+      "description": "LIVE图支持拖拽保存至图库一拖即存原图秒享；GIF表情包支持跨应用拖拽免下载免存图。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-07-body",
+        "highlight-07-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-07"
+      ],
+      "media": [
+        {
+          "id": "highlight-07-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/57/highlight-07-960.webp",
+          "thumbnail": "assets/digests-v2/57/highlight-07-480.webp",
+          "avifSrc": "assets/digests-v2/57/highlight-07-960.avif",
+          "avifThumbnail": "assets/digests-v2/57/highlight-07-480.avif",
+          "alt": "荣耀任意门动图玩法升级（LIVE图/GIF） 功能演示",
+          "evidenceId": "highlight-07-demo",
+          "width": 480,
+          "height": 835
+        }
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "id": "update-01",
+      "module": "荣耀文档",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "跨端多设备协作编辑文档冲突合并算法优化。",
+      "description": "跨端多设备协作编辑文档冲突合并算法优化。",
+      "evidenceIds": [
+        "update-01-source"
+      ],
+      "sourceItemIds": [
+        "source-update-01"
+      ]
+    },
+    {
+      "id": "update-02",
+      "module": "系统安全",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "应用敏感权限单次授权保护与剪贴板防窥视提示。",
+      "description": "应用敏感权限单次授权保护与剪贴板防窥视提示。",
+      "evidenceIds": [
+        "update-02-source"
+      ],
+      "sourceItemIds": [
+        "source-update-02"
+      ]
+    }
+  ],
+  "sourceItems": [
+    {
+      "id": "source-highlight-01",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_7月超大杯更新_(2026)/1.webp",
+      "sourceIndex": 0,
+      "sourceHash": "bf89781ec6e200e3c71c31836c15f950e33460ce43556ea563effc62da6d780a",
+      "blockIds": [
+        "block-highlight-01"
+      ],
+      "text": "系统动效与交互 多任务操作与后台应用切换动效 后台多应用切换、滑动与批量删除动画更顺滑；多任务同步操作画面极致跟手不卡顿。",
+      "targetIds": [
+        "highlight-01"
+      ]
+    },
+    {
+      "id": "source-highlight-02",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_7月超大杯更新_(2026)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "bc3cec47334de4e165f62755db85586b329289841abd995ea392672585b34228",
+      "blockIds": [
+        "block-highlight-02"
+      ],
+      "text": "系统动效与交互 应用点开收起连贯过渡动效 三方应用内点开图片、侧边快捷栏打开 APP、下拉控制中心长按打开动效自然连贯。",
+      "targetIds": [
+        "highlight-02"
+      ]
+    },
+    {
+      "id": "source-highlight-03",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_7月超大杯更新_(2026)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "7cc1aec976710baccb96318ad39d63cdb01168b2f0894c97764703fdfee2adbb",
+      "blockIds": [
+        "block-highlight-03"
+      ],
+      "text": "灵动胶囊 渐变通透视觉与排版优化 灵动胶囊采用全新渐变通透毛玻璃视觉，优化来电与铁路 12306 火车行程排版，核心信息一眼可读。",
+      "targetIds": [
+        "highlight-03"
+      ]
+    },
+    {
+      "id": "source-highlight-04",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_7月超大杯更新_(2026)/2.webp",
+      "sourceIndex": 3,
+      "sourceHash": "dc50581e8f3918b4fcdcbbad7b398be31f954f7a379426ecae587d23cec5bfb1",
+      "blockIds": [
+        "block-highlight-04"
+      ],
+      "text": "灵动胶囊 胶囊堆叠样式支持自定义 灵动胶囊支持多任务堆叠展开与自定义卡片管理，个性又美观。",
+      "targetIds": [
+        "highlight-04"
+      ]
+    },
+    {
+      "id": "source-highlight-05",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_7月超大杯更新_(2026)/2.webp",
+      "sourceIndex": 4,
+      "sourceHash": "b5b48ceb92c2de1fbbd2fdeafb1157d918b1715a0c3d930ad3354de3c16bdb58",
+      "blockIds": [
+        "block-highlight-05"
+      ],
+      "text": "生活与服务 远程协助APP上线 远距离守护长辈用机，支持一键发起协助、屏幕共享与协助操控长辈手机。",
+      "targetIds": [
+        "highlight-05"
+      ]
+    },
+    {
+      "id": "source-highlight-06",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_7月超大杯更新_(2026)/3.webp",
+      "sourceIndex": 5,
+      "sourceHash": "ecbae5f43aa4d63784aeac2efb27d39d4b8aecca6cb866c88fbb71151572d8aa",
+      "blockIds": [
+        "block-highlight-06"
+      ],
+      "text": "智慧互联 荣耀一碰传「朋友圈」上新 深度集成酷狗音乐一碰分享歌曲歌单、美团天天膨胀神券一碰分享，一碰即享。",
+      "targetIds": [
+        "highlight-06"
+      ]
+    },
+    {
+      "id": "source-highlight-07",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_7月超大杯更新_(2026)/3.webp",
+      "sourceIndex": 6,
+      "sourceHash": "5bb5b67c8ffc6da743a6647e6b2f6c8b2225d98afb60ae42f124a0d1e8e18aaf",
+      "blockIds": [
+        "block-highlight-07"
+      ],
+      "text": "系统交互 荣耀任意门动图玩法升级（LIVE图/GIF） LIVE图支持拖拽保存至图库一拖即存原图秒享；GIF表情包支持跨应用拖拽免下载免存图。",
+      "targetIds": [
+        "highlight-07"
+      ]
+    },
+    {
+      "id": "source-update-01",
+      "classification": "update",
+      "source": "public/assets/images/MagicOS_7月超大杯更新_(2026)/0.webp",
+      "sourceIndex": 7,
+      "sourceHash": "2eca0025b484866e83e230656ec670ee1d1a5491b64845aac9531b29e9218f8d",
+      "blockIds": [
+        "block-update-01"
+      ],
+      "text": "荣耀文档 优化 跨端多设备协作编辑文档冲突合并算法优化。",
+      "targetIds": [
+        "update-01"
+      ]
+    },
+    {
+      "id": "source-update-02",
+      "classification": "update",
+      "source": "public/assets/images/MagicOS_7月超大杯更新_(2026)/0.webp",
+      "sourceIndex": 8,
+      "sourceHash": "b91704404998660445bea7ce8f16a4839efc42411f86bc3fe078b397ffc2aca7",
+      "blockIds": [
+        "block-update-02"
+      ],
+      "text": "系统安全 优化 应用敏感权限单次授权保护与剪贴板防窥视提示。",
+      "targetIds": [
+        "update-02"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "highlight-01-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_7月超大杯更新_(2026)/1.webp",
+      "sourceIndex": 0,
+      "sourceHash": "deb85bb4e7eae2038ee85f59e518bd43b32db58a456ea5645b24692736d8e715",
+      "blockIds": [
+        "block-highlight-01-body"
+      ]
+    },
+    {
+      "id": "highlight-01-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_7月超大杯更新_(2026)/1.webp",
+      "sourceIndex": 0,
+      "sourceHash": "51c2da95665cefdc732f5895c22e1123ce24c66ef59bfd57e4c0d957219bff9b",
+      "blockIds": [
+        "block-highlight-01-demo"
+      ]
+    },
+    {
+      "id": "highlight-02-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_7月超大杯更新_(2026)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "e6f02b2a81a79a396eeb732048dbe31a579d23bbf2666055b2f56a34776dbd40",
+      "blockIds": [
+        "block-highlight-02-body"
+      ]
+    },
+    {
+      "id": "highlight-02-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_7月超大杯更新_(2026)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "ce0011a1e8e18679bb86c83820fc63ea098b7548766a473a6f9f05c3968fb26a",
+      "blockIds": [
+        "block-highlight-02-demo"
+      ]
+    },
+    {
+      "id": "highlight-03-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_7月超大杯更新_(2026)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "4f4f945bca4c57a6f0f421ddf9172295be4eb3e90b4125c593aa394c43380d58",
+      "blockIds": [
+        "block-highlight-03-body"
+      ]
+    },
+    {
+      "id": "highlight-03-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_7月超大杯更新_(2026)/2.webp",
+      "sourceIndex": 2,
+      "sourceHash": "a581ba105c3056e3675e006a9e268fb35ee769dc2d0075c02316aa4030929ece",
+      "blockIds": [
+        "block-highlight-03-demo"
+      ]
+    },
+    {
+      "id": "highlight-04-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_7月超大杯更新_(2026)/2.webp",
+      "sourceIndex": 3,
+      "sourceHash": "1f586bf218501a7c01d9a210aaf4ea2e13120d920f52fdb9f7a359894163c8a5",
+      "blockIds": [
+        "block-highlight-04-body"
+      ]
+    },
+    {
+      "id": "highlight-04-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_7月超大杯更新_(2026)/2.webp",
+      "sourceIndex": 3,
+      "sourceHash": "546cc7a8bd14cbf56d4b0a3e115a3737633464e7a229175517cef9e3a3907f50",
+      "blockIds": [
+        "block-highlight-04-demo"
+      ]
+    },
+    {
+      "id": "highlight-05-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_7月超大杯更新_(2026)/2.webp",
+      "sourceIndex": 4,
+      "sourceHash": "647086f59028d747d3df5af998bd29cc4bb4be88732749a7bb1f0e825774e653",
+      "blockIds": [
+        "block-highlight-05-body"
+      ]
+    },
+    {
+      "id": "highlight-05-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_7月超大杯更新_(2026)/2.webp",
+      "sourceIndex": 4,
+      "sourceHash": "d9603e0a90c6a7f52122e6cbc4ef2896592f0e4efd6ea6bd165acc3aca634d3d",
+      "blockIds": [
+        "block-highlight-05-demo"
+      ]
+    },
+    {
+      "id": "highlight-06-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_7月超大杯更新_(2026)/3.webp",
+      "sourceIndex": 5,
+      "sourceHash": "352aaf47134c266076e623fe5c2deb96b10aacdec4168751bf7de9c9d080292b",
+      "blockIds": [
+        "block-highlight-06-body"
+      ]
+    },
+    {
+      "id": "highlight-06-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_7月超大杯更新_(2026)/3.webp",
+      "sourceIndex": 5,
+      "sourceHash": "a5d8e10a2414803c0d67e8a0dfeb44821f44779dcd458c667dec0129c226e459",
+      "blockIds": [
+        "block-highlight-06-demo"
+      ]
+    },
+    {
+      "id": "highlight-07-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_7月超大杯更新_(2026)/3.webp",
+      "sourceIndex": 6,
+      "sourceHash": "a081576bf2644acc81dc9e2285397546df2cf61a62d736effd9b8f2bf987db5e",
+      "blockIds": [
+        "block-highlight-07-body"
+      ]
+    },
+    {
+      "id": "highlight-07-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_7月超大杯更新_(2026)/3.webp",
+      "sourceIndex": 6,
+      "sourceHash": "b833bd1bf79f50fbe10795b47eaa0d3cfdd5e9394fe1eb0187df1e52b5e8b06a",
+      "blockIds": [
+        "block-highlight-07-demo"
+      ]
+    },
+    {
+      "id": "update-01-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/MagicOS_7月超大杯更新_(2026)/0.webp",
+      "sourceIndex": 7,
+      "sourceHash": "d225b5142e3c2982c3fe4c4c16e0966d826666dfe3caecea0f795a3f0b16064c",
+      "blockIds": [
+        "block-update-01-ev"
+      ]
+    },
+    {
+      "id": "update-02-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/MagicOS_7月超大杯更新_(2026)/0.webp",
+      "sourceIndex": 8,
+      "sourceHash": "990b06ae6237077c982329e0398ac71c41d775ded47a0cc7f884c12219d08626",
+      "blockIds": [
+        "block-update-02-ev"
+      ]
+    }
+  ],
+  "audit": {
+    "highlightReviewVersion": 4,
+    "updateReviewVersion": 4,
+    "review": {
+      "content": "verified",
+      "modules": "verified",
+      "media": "verified",
+      "page": "verified"
+    },
+    "expectedHighlightCount": 7,
+    "sourceItemCount": 9,
+    "includedItemCount": 9,
+    "excludedItemCount": 0,
+    "highlightCount": 7,
+    "updateCount": 2,
+    "mediaCount": 7,
+    "mappedItemCount": 9,
+    "coverageRate": 1
+  }
+}

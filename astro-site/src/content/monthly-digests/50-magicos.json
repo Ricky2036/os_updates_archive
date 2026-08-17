@@ -1,0 +1,505 @@
+{
+  "schemaVersion": 3,
+  "contentReviewVersion": 4,
+  "mediaReviewVersion": 4,
+  "articleId": "MagicOS_1月更新一览_(2026)",
+  "reviewStatus": "verified",
+  "sourceHash": "73c66e662ae2cd7cdaabf9af9ccf1f9da555446072e7be47599fab630af84773",
+  "highlights": [
+    {
+      "id": "highlight-01",
+      "module": "荣耀AI & YOYO",
+      "moduleSource": "explicit-heading",
+      "title": "YOYO建议外卖全流程跟踪",
+      "description": "YOYO 建议全程跟踪外卖配送进度与骑士位置，重要状态实时感知。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-01-body",
+        "highlight-01-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-01"
+      ],
+      "media": [
+        {
+          "id": "highlight-01-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/50/highlight-01-960.webp",
+          "thumbnail": "assets/digests-v2/50/highlight-01-480.webp",
+          "avifSrc": "assets/digests-v2/50/highlight-01-960.avif",
+          "avifThumbnail": "assets/digests-v2/50/highlight-01-480.avif",
+          "alt": "YOYO建议外卖全流程跟踪 功能演示",
+          "evidenceId": "highlight-01-demo",
+          "width": 480,
+          "height": 235
+        }
+      ]
+    },
+    {
+      "id": "highlight-02",
+      "module": "相机与图库",
+      "moduleSource": "explicit-heading",
+      "title": "相机AI追色覆盖更多机型",
+      "description": "相机/图库 AI 追色功能全面覆盖荣耀 Magic V5 与 Magic8 系列机型。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-02-body",
+        "highlight-02-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-02"
+      ],
+      "media": [
+        {
+          "id": "highlight-02-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/50/highlight-02-960.webp",
+          "thumbnail": "assets/digests-v2/50/highlight-02-480.webp",
+          "avifSrc": "assets/digests-v2/50/highlight-02-960.avif",
+          "avifThumbnail": "assets/digests-v2/50/highlight-02-480.avif",
+          "alt": "相机AI追色覆盖更多机型 功能演示",
+          "evidenceId": "highlight-02-demo",
+          "width": 480,
+          "height": 235
+        }
+      ]
+    },
+    {
+      "id": "highlight-03",
+      "module": "荣耀AI & YOYO",
+      "moduleSource": "explicit-heading",
+      "title": "荣耀笔记本填空式写作助手",
+      "description": "笔记本 YOYO 助理写作助手新增填空式模板，快速生成复杂方案与周报。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-03-body",
+        "highlight-03-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-03"
+      ],
+      "media": [
+        {
+          "id": "highlight-03-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/50/highlight-03-960.webp",
+          "thumbnail": "assets/digests-v2/50/highlight-03-480.webp",
+          "avifSrc": "assets/digests-v2/50/highlight-03-960.avif",
+          "avifThumbnail": "assets/digests-v2/50/highlight-03-480.avif",
+          "alt": "荣耀笔记本填空式写作助手 功能演示",
+          "evidenceId": "highlight-03-demo",
+          "width": 480,
+          "height": 391
+        }
+      ]
+    },
+    {
+      "id": "highlight-04",
+      "module": "桌面与个性化",
+      "moduleSource": "explicit-heading",
+      "title": "流畅动效一镜到底与带壳截图",
+      "description": "应用“从哪来回哪去”丝滑一镜到底过渡；截屏编辑新增手机外观边框。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-04-body",
+        "highlight-04-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-04"
+      ],
+      "media": [
+        {
+          "id": "highlight-04-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/50/highlight-04-960.webp",
+          "thumbnail": "assets/digests-v2/50/highlight-04-480.webp",
+          "avifSrc": "assets/digests-v2/50/highlight-04-960.avif",
+          "avifThumbnail": "assets/digests-v2/50/highlight-04-480.avif",
+          "alt": "流畅动效一镜到底与带壳截图 功能演示",
+          "evidenceId": "highlight-04-demo",
+          "width": 480,
+          "height": 417
+        }
+      ]
+    },
+    {
+      "id": "highlight-05",
+      "module": "智慧互联",
+      "moduleSource": "explicit-heading",
+      "title": "荣耀互联新增华为Windows设备",
+      "description": "荣耀全品牌互联新增华为 Windows 设备支持，笔记与数据无缝同步。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-05-body",
+        "highlight-05-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-05"
+      ],
+      "media": [
+        {
+          "id": "highlight-05-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/50/highlight-05-960.webp",
+          "thumbnail": "assets/digests-v2/50/highlight-05-480.webp",
+          "avifSrc": "assets/digests-v2/50/highlight-05-960.avif",
+          "avifThumbnail": "assets/digests-v2/50/highlight-05-480.avif",
+          "alt": "荣耀互联新增华为Windows设备 功能演示",
+          "evidenceId": "highlight-05-demo",
+          "width": 480,
+          "height": 261
+        }
+      ]
+    },
+    {
+      "id": "highlight-06",
+      "module": "安全与守护",
+      "moduleSource": "explicit-heading",
+      "title": "AI换脸检测硬核打假",
+      "description": "视频通话中智能检测对方是否通过 AI 换脸伪造，防范新型 AI 诈骗。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-06-body",
+        "highlight-06-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-06"
+      ],
+      "media": [
+        {
+          "id": "highlight-06-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/50/highlight-06-960.webp",
+          "thumbnail": "assets/digests-v2/50/highlight-06-480.webp",
+          "avifSrc": "assets/digests-v2/50/highlight-06-960.avif",
+          "avifThumbnail": "assets/digests-v2/50/highlight-06-480.avif",
+          "alt": "AI换脸检测硬核打假 功能演示",
+          "evidenceId": "highlight-06-demo",
+          "width": 480,
+          "height": 339
+        }
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "id": "update-01",
+      "module": "通信与网络",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "高铁与弱网环境下通信信号天线智能调优，通话不断连。",
+      "description": "高铁与弱网环境下通信信号天线智能调优，通话不断连。",
+      "evidenceIds": [
+        "update-01-source"
+      ],
+      "sourceItemIds": [
+        "source-update-01"
+      ]
+    },
+    {
+      "id": "update-02",
+      "module": "系统基础体验",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "节日红包助手提醒速度与灵敏度提升。",
+      "description": "节日红包助手提醒速度与灵敏度提升。",
+      "evidenceIds": [
+        "update-02-source"
+      ],
+      "sourceItemIds": [
+        "source-update-02"
+      ]
+    }
+  ],
+  "sourceItems": [
+    {
+      "id": "source-highlight-01",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_1月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "0a4d220598d9d4fd41d40a709b85734cbc30bf00e8de1a62c880fd954d1d57ff",
+      "blockIds": [
+        "block-highlight-01"
+      ],
+      "text": "荣耀AI & YOYO YOYO建议外卖全流程跟踪 YOYO 建议全程跟踪外卖配送进度与骑士位置，重要状态实时感知。",
+      "targetIds": [
+        "highlight-01"
+      ]
+    },
+    {
+      "id": "source-highlight-02",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_1月更新一览_(2026)/0.webp",
+      "sourceIndex": 1,
+      "sourceHash": "cda374bd6e9c3881ef2be8a275ed124e4c76052c3dd09488157ef08d41a75a12",
+      "blockIds": [
+        "block-highlight-02"
+      ],
+      "text": "相机与图库 相机AI追色覆盖更多机型 相机/图库 AI 追色功能全面覆盖荣耀 Magic V5 与 Magic8 系列机型。",
+      "targetIds": [
+        "highlight-02"
+      ]
+    },
+    {
+      "id": "source-highlight-03",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_1月更新一览_(2026)/0.webp",
+      "sourceIndex": 2,
+      "sourceHash": "3797949818696a8fa21ed8eb45a7680dc27321f0f34e0b7eb71ccfe899ec9347",
+      "blockIds": [
+        "block-highlight-03"
+      ],
+      "text": "荣耀AI & YOYO 荣耀笔记本填空式写作助手 笔记本 YOYO 助理写作助手新增填空式模板，快速生成复杂方案与周报。",
+      "targetIds": [
+        "highlight-03"
+      ]
+    },
+    {
+      "id": "source-highlight-04",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_1月更新一览_(2026)/1.webp",
+      "sourceIndex": 3,
+      "sourceHash": "8d30fc9da5fe01e19f4f54340578f1859fbceabb7feb94f1bc5b133ce65f623e",
+      "blockIds": [
+        "block-highlight-04"
+      ],
+      "text": "桌面与个性化 流畅动效一镜到底与带壳截图 应用“从哪来回哪去”丝滑一镜到底过渡；截屏编辑新增手机外观边框。",
+      "targetIds": [
+        "highlight-04"
+      ]
+    },
+    {
+      "id": "source-highlight-05",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_1月更新一览_(2026)/2.webp",
+      "sourceIndex": 4,
+      "sourceHash": "b327677419ecfe129acb58e626be390ec2d1aee4b71469237e41e93543ea8025",
+      "blockIds": [
+        "block-highlight-05"
+      ],
+      "text": "智慧互联 荣耀互联新增华为Windows设备 荣耀全品牌互联新增华为 Windows 设备支持，笔记与数据无缝同步。",
+      "targetIds": [
+        "highlight-05"
+      ]
+    },
+    {
+      "id": "source-highlight-06",
+      "classification": "highlight",
+      "source": "public/assets/images/MagicOS_1月更新一览_(2026)/3.webp",
+      "sourceIndex": 5,
+      "sourceHash": "89d797432984044dd7e9fdfd118e7b01ff46b5b0f089ce2348771ecade593e6a",
+      "blockIds": [
+        "block-highlight-06"
+      ],
+      "text": "安全与守护 AI换脸检测硬核打假 视频通话中智能检测对方是否通过 AI 换脸伪造，防范新型 AI 诈骗。",
+      "targetIds": [
+        "highlight-06"
+      ]
+    },
+    {
+      "id": "source-update-01",
+      "classification": "update",
+      "source": "public/assets/images/MagicOS_1月更新一览_(2026)/0.webp",
+      "sourceIndex": 6,
+      "sourceHash": "cd7fa482a3c199f5d5f448c80bb6f1f97022fe651633ccda82fb3d9a3b10aa49",
+      "blockIds": [
+        "block-update-01"
+      ],
+      "text": "通信与网络 优化 高铁与弱网环境下通信信号天线智能调优，通话不断连。",
+      "targetIds": [
+        "update-01"
+      ]
+    },
+    {
+      "id": "source-update-02",
+      "classification": "update",
+      "source": "public/assets/images/MagicOS_1月更新一览_(2026)/0.webp",
+      "sourceIndex": 7,
+      "sourceHash": "8842828a343cf181d3da37a2d67f028ae08cf1305cd04ef89abfcf57466824e0",
+      "blockIds": [
+        "block-update-02"
+      ],
+      "text": "系统基础体验 优化 节日红包助手提醒速度与灵敏度提升。",
+      "targetIds": [
+        "update-02"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "highlight-01-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_1月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "3003ef0fa09eeb887eda2f30d91993ca3637d497dbeb41e62cdf96d9c7289296",
+      "blockIds": [
+        "block-highlight-01-body"
+      ]
+    },
+    {
+      "id": "highlight-01-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_1月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "9aaaf0e3beb598f5fae7784b32cdd7cdb5f1823af7c37de2425ab435e6d716c4",
+      "blockIds": [
+        "block-highlight-01-demo"
+      ]
+    },
+    {
+      "id": "highlight-02-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_1月更新一览_(2026)/0.webp",
+      "sourceIndex": 1,
+      "sourceHash": "e7e018b08f08791e9c77d4b5312933602c2a4dca4ebeb76afc1a6248a5603c1e",
+      "blockIds": [
+        "block-highlight-02-body"
+      ]
+    },
+    {
+      "id": "highlight-02-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_1月更新一览_(2026)/0.webp",
+      "sourceIndex": 1,
+      "sourceHash": "74323b2ba7e2d5014afe718cdae0b4dd3956174e5ad18f00d37cc064623431f6",
+      "blockIds": [
+        "block-highlight-02-demo"
+      ]
+    },
+    {
+      "id": "highlight-03-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_1月更新一览_(2026)/0.webp",
+      "sourceIndex": 2,
+      "sourceHash": "72b43bdea4d1dabcc7db4c71296deba5bfb8acaf6ef118d229335373691dd95a",
+      "blockIds": [
+        "block-highlight-03-body"
+      ]
+    },
+    {
+      "id": "highlight-03-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_1月更新一览_(2026)/0.webp",
+      "sourceIndex": 2,
+      "sourceHash": "6ec408a5e7473d996af71383f9005ccc2807f281fe91f23349b6d6b6fce96255",
+      "blockIds": [
+        "block-highlight-03-demo"
+      ]
+    },
+    {
+      "id": "highlight-04-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_1月更新一览_(2026)/1.webp",
+      "sourceIndex": 3,
+      "sourceHash": "9fdca995f1acf34ba66e7adfb478f1dbff89eb04f28884ee29e1fcb88da67f60",
+      "blockIds": [
+        "block-highlight-04-body"
+      ]
+    },
+    {
+      "id": "highlight-04-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_1月更新一览_(2026)/1.webp",
+      "sourceIndex": 3,
+      "sourceHash": "246d3da3df315c043244a87e015d47993de06c042245ec54bbcd91cee4de9cf4",
+      "blockIds": [
+        "block-highlight-04-demo"
+      ]
+    },
+    {
+      "id": "highlight-05-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_1月更新一览_(2026)/2.webp",
+      "sourceIndex": 4,
+      "sourceHash": "a5a9b9f52a7130e3221939e7ebe9c22adb509c77c6bfe8a3731ea46c322b2545",
+      "blockIds": [
+        "block-highlight-05-body"
+      ]
+    },
+    {
+      "id": "highlight-05-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_1月更新一览_(2026)/2.webp",
+      "sourceIndex": 4,
+      "sourceHash": "df7ed56b55aca68675ac422dcc68370ff0563db233a2190690d424ee8e73d9c1",
+      "blockIds": [
+        "block-highlight-05-demo"
+      ]
+    },
+    {
+      "id": "highlight-06-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/MagicOS_1月更新一览_(2026)/3.webp",
+      "sourceIndex": 5,
+      "sourceHash": "9517d62d851868c21856fff6b1053ef9775d458aa0baf75aafb1afa5e9d7dd1d",
+      "blockIds": [
+        "block-highlight-06-body"
+      ]
+    },
+    {
+      "id": "highlight-06-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/MagicOS_1月更新一览_(2026)/3.webp",
+      "sourceIndex": 5,
+      "sourceHash": "b7b62af755f4643bfc523635511dc449797b77c39d9d1a9368084dbe2fe7d764",
+      "blockIds": [
+        "block-highlight-06-demo"
+      ]
+    },
+    {
+      "id": "update-01-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/MagicOS_1月更新一览_(2026)/0.webp",
+      "sourceIndex": 6,
+      "sourceHash": "256256e29f524d47a6265575a30d6b4dee431d738916359c03458d891c9b92db",
+      "blockIds": [
+        "block-update-01-ev"
+      ]
+    },
+    {
+      "id": "update-02-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/MagicOS_1月更新一览_(2026)/0.webp",
+      "sourceIndex": 7,
+      "sourceHash": "d5407735a58361323387be400984ef3a234005b580bee434bd6f0c9db89e1378",
+      "blockIds": [
+        "block-update-02-ev"
+      ]
+    }
+  ],
+  "audit": {
+    "highlightReviewVersion": 4,
+    "updateReviewVersion": 4,
+    "review": {
+      "content": "verified",
+      "modules": "verified",
+      "media": "verified",
+      "page": "verified"
+    },
+    "expectedHighlightCount": 6,
+    "sourceItemCount": 8,
+    "includedItemCount": 8,
+    "excludedItemCount": 0,
+    "highlightCount": 6,
+    "updateCount": 2,
+    "mediaCount": 6,
+    "mappedItemCount": 8,
+    "coverageRate": 1
+  }
+}
