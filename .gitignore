@@ -2,6 +2,6 @@
 __pycache__/
 *.pyc
 .env
-raw_ocr_results.json
-images/
+/raw_ocr_results.json
+/images/
 .workbuddy/
