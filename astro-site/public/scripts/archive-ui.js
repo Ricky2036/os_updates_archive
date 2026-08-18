@@ -171,6 +171,53 @@
       popoverRafId = requestAnimationFrame(loop);
     };
 
+    const getOptimalTabScrollLeft = (targetTab) => {
+      if (!brandSwitcher || !targetTab) return 0;
+      const items = Array.from(brandSwitcher.children);
+      const index = items.indexOf(targetTab);
+      if (index === -1) return 0;
+
+      const containerWidth = brandSwitcher.clientWidth;
+      const maxScroll = Math.max(0, brandSwitcher.scrollWidth - containerWidth);
+      if (maxScroll <= 0) return 0;
+
+      // 1. 首个菜单（首页）-> 靠最左显示（scrollLeft = 0）
+      if (index === 0) {
+        return 0;
+      }
+      // 2. 最后一个菜单（MagicOS）-> 靠最右显示（scrollLeft = maxScroll）
+      if (index === items.length - 1) {
+        return maxScroll;
+      }
+
+      // 3. 中间菜单（ColorOS / OriginOS / HyperOS 等）
+      // 确保其左侧相邻项与右侧相邻项均完整显示在可视区域内，避免过度滚动
+      const prevItem = items[index - 1];
+      const nextItem = items[index + 1];
+      const spanLeft = prevItem.offsetLeft;
+      const spanRight = nextItem.offsetLeft + nextItem.offsetWidth;
+      const spanWidth = spanRight - spanLeft;
+      const maskPadding = 14; // 避开边缘渐变蒙版，确保左邻和右邻100%完整可见
+
+      if (spanWidth + maskPadding * 2 <= containerWidth) {
+        const minAllowed = spanRight + maskPadding - containerWidth;
+        const maxAllowed = spanLeft - maskPadding;
+        const ideal = spanLeft + (spanWidth - containerWidth) / 2;
+        const bounded = Math.max(minAllowed, Math.min(maxAllowed, ideal));
+        return Math.max(0, Math.min(maxScroll, bounded));
+      } else if (spanWidth <= containerWidth) {
+        const minAllowed = spanRight - containerWidth;
+        const maxAllowed = spanLeft;
+        const ideal = spanLeft + (spanWidth - containerWidth) / 2;
+        const bounded = Math.max(minAllowed, Math.min(maxAllowed, ideal));
+        return Math.max(0, Math.min(maxScroll, bounded));
+      } else {
+        const itemLeft = targetTab.offsetLeft;
+        const itemWidth = targetTab.offsetWidth;
+        return Math.max(0, Math.min(maxScroll, itemLeft - (containerWidth / 2) + (itemWidth / 2)));
+      }
+    };
+
     if (brandSwitcher && mobileTabs.matches) {
       const updateScrollMask = () => {
         const isLeft = brandSwitcher.scrollLeft <= 2;
@@ -186,24 +233,28 @@
 
       window.addEventListener('resize', updatePopoverPosition, { passive: true, signal });
 
-      if (activeNavTab) {
-        const isFirst = activeNavTab === brandSwitcher.firstElementChild;
-        const isLast = !activeNavTab.nextElementSibling || activeNavTab === brandSwitcher.lastElementChild;
-        if (isFirst) {
-          brandSwitcher.scrollLeft = 0;
-        } else if (isLast) {
-          brandSwitcher.scrollLeft = brandSwitcher.scrollWidth;
-        } else {
-          const containerWidth = brandSwitcher.clientWidth;
-          const itemLeft = activeNavTab.offsetLeft;
-          const itemWidth = activeNavTab.offsetWidth;
-          brandSwitcher.scrollLeft = Math.max(0, itemLeft - (containerWidth / 2) + (itemWidth / 2));
-        }
+      const targetTab = activeNavTab ? (activeNavTab.closest('.brand-menu') || activeNavTab) : brandSwitcher.firstElementChild;
+      if (targetTab) {
+        brandSwitcher.scrollLeft = getOptimalTabScrollLeft(targetTab);
         updateScrollMask();
       } else {
         updateScrollMask();
       }
     }
+
+    const homeTab = document.querySelector('.home-tab');
+    homeTab?.addEventListener('click', () => {
+      if (mobileTabs.matches && brandSwitcher) {
+        brandSwitcher.scrollTo({ left: 0, behavior: 'smooth' });
+      }
+    }, { signal });
+
+    const magicOSTab = document.querySelector('.brand-tab[href*="magicos"]');
+    magicOSTab?.addEventListener('click', () => {
+      if (mobileTabs.matches && brandSwitcher) {
+        brandSwitcher.scrollTo({ left: brandSwitcher.scrollWidth, behavior: 'smooth' });
+      }
+    }, { signal });
 
     const brandMenus = document.querySelectorAll('.brand-menu');
 
@@ -267,19 +318,25 @@
 
       // Mobile tap on tab
       trigger?.addEventListener('click', (event) => {
-        if (mobileTabs.matches && items.length > 1) {
-          if (menu.classList.contains('active')) {
-            event.preventDefault();
-            if (currentOpenMenu === menu && mobilePopover.classList.contains('open')) {
-              closeBrandMenu();
+        if (mobileTabs.matches) {
+          const targetTab = menu || trigger.closest('.brand-menu') || trigger;
+          const targetScroll = getOptimalTabScrollLeft(targetTab);
+          brandSwitcher?.scrollTo({ left: targetScroll, behavior: 'smooth' });
+
+          if (items.length > 1) {
+            if (menu.classList.contains('active')) {
+              event.preventDefault();
+              if (currentOpenMenu === menu && mobilePopover.classList.contains('open')) {
+                closeBrandMenu();
+              } else {
+                openBrandMenu();
+              }
             } else {
-              openBrandMenu();
+              try {
+                const brandText = trigger.querySelector('span')?.getAttribute('data-text') || '';
+                sessionStorage.setItem('openBrandMenuOnLoad', brandText.toLowerCase());
+              } catch {}
             }
-          } else {
-            try {
-              const brandText = trigger.querySelector('span')?.getAttribute('data-text') || '';
-              sessionStorage.setItem('openBrandMenuOnLoad', brandText.toLowerCase());
-            } catch {}
           }
         }
       }, { signal });

@@ -434,16 +434,16 @@ body:has(.brand-menu.open) .monthly-view-toolbar { opacity: 0; visibility: hidde
     touch-action: pan-x;
     -webkit-overflow-scrolling: touch;
     overscroll-behavior-x: contain;
-    mask-image: linear-gradient(to right, transparent 0, #000 24px, #000 calc(100% - 24px), transparent 100%);
-    -webkit-mask-image: linear-gradient(to right, transparent 0, #000 24px, #000 calc(100% - 24px), transparent 100%);
+    mask-image: linear-gradient(to right, transparent 0, #000 12px, #000 calc(100% - 12px), transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, transparent 0, #000 12px, #000 calc(100% - 12px), transparent 100%);
   }
   .brand-switcher[data-mask-left="false"][data-mask-right="true"] {
-    mask-image: linear-gradient(to right, #000 0, #000 calc(100% - 24px), transparent 100%);
-    -webkit-mask-image: linear-gradient(to right, #000 0, #000 calc(100% - 24px), transparent 100%);
+    mask-image: linear-gradient(to right, #000 0, #000 calc(100% - 12px), transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, #000 0, #000 calc(100% - 12px), transparent 100%);
   }
   .brand-switcher[data-mask-left="true"][data-mask-right="false"] {
-    mask-image: linear-gradient(to right, transparent 0, #000 24px, #000 100%);
-    -webkit-mask-image: linear-gradient(to right, transparent 0, #000 24px, #000 100%);
+    mask-image: linear-gradient(to right, transparent 0, #000 12px, #000 100%);
+    -webkit-mask-image: linear-gradient(to right, transparent 0, #000 12px, #000 100%);
   }
   .brand-switcher[data-mask-left="false"][data-mask-right="false"] {
     mask-image: none;
@@ -462,7 +462,7 @@ body:has(.brand-menu.open) .monthly-view-toolbar { opacity: 0; visibility: hidde
     width: auto;
     min-width: max-content;
     height: 40px;
-    padding: 0 16px;
+    padding: 0 13px;
     border-radius: 999px;
     color: #7b8390;
     font-size: 13.5px;
