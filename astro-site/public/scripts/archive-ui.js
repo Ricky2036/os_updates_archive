@@ -338,6 +338,7 @@
       document.body.classList.remove('nav-open');
       menuButton?.setAttribute('aria-expanded', 'false');
       menuButton?.setAttribute('aria-label', '打开文章目录');
+      menuButton?.setAttribute('title', '打开目录');
     };
     const openMenu = () => {
       if (!archiveNav) return;
@@ -346,6 +347,7 @@
       document.body.classList.add('nav-open');
       menuButton?.setAttribute('aria-expanded', 'true');
       menuButton?.setAttribute('aria-label', '关闭文章目录');
+      menuButton?.setAttribute('title', '关闭目录');
       archiveNav.focus({ preventScroll: true });
     };
 

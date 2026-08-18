@@ -1,5 +1,4 @@
 ---
-import Icon from './Icon.astro';
 import { articlePath, assetPath, brandMeta, getArticles, type Brand } from '../lib/archive';
 
 interface Props { brand: Brand; selectedId?: string }
@@ -16,7 +15,6 @@ const navigationTitle = (title: string) => brand === 'coloros' ? title.replace(/
       <img src={assetPath(meta.logo)} alt={`${meta.name} Logo`} width="136" height="36" />
       <span>升级档案</span>
     </div>
-    <button class="nav-close" type="button" data-nav-close aria-label="关闭文章目录"><Icon name="close" /></button>
   </div>
   <div class="archive-list">
     {years.map((year) => (
