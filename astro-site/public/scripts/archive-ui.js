@@ -127,12 +127,13 @@
 
       trigger?.addEventListener('click', (event) => {
         if (mobileTabs.matches && items.length > 1) {
-          if (currentOpenMenu === menu && mobilePopover.classList.contains('open')) {
+          if (menu.classList.contains('active')) {
             event.preventDefault();
-            closeBrandMenu();
-          } else {
-            event.preventDefault();
-            openBrandMenu();
+            if (currentOpenMenu === menu && mobilePopover.classList.contains('open')) {
+              closeBrandMenu();
+            } else {
+              openBrandMenu();
+            }
           }
         }
       }, { signal });

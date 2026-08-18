@@ -56,7 +56,7 @@ const magicOSLatestUrl = getLatestUrl('magicos');
       <div class="brand-submenu" role="menu" aria-label="ColorOS 档案">
         <a class:list={{ active: activeColorOSSection === '15' }} role="menuitem" href={officialArchiveMeta['15'].route} data-astro-reload>ColorOS 15</a>
         <a class:list={{ active: activeColorOSSection === '16' }} role="menuitem" href={officialArchiveMeta['16'].route} data-astro-reload>ColorOS 16</a>
-        <a class:list={{ active: activeColorOSSection === 'monthly' }} role="menuitem" href={colorOSLatestUrl}>月更记录</a>
+        <a class:list={{ active: activeColorOSSection !== '15' && activeColorOSSection !== '16' }} role="menuitem" href={colorOSLatestUrl}>月更记录</a>
       </div>
     </div>
     <div class:list={{ 'brand-menu': true, active: originOSActive }}>
@@ -66,7 +66,7 @@ const magicOSLatestUrl = getLatestUrl('magicos');
       </a>
       <div class="brand-submenu" role="menu" aria-label="OriginOS 档案">
         <a class:list={{ active: activeOriginOSSection === 'originos6' }} role="menuitem" href={officialArchiveMeta['originos6'].route} data-astro-reload>OriginOS 6</a>
-        <a class:list={{ active: activeOriginOSSection === 'monthly' }} role="menuitem" href={originOSLatestUrl}>月更记录</a>
+        <a class:list={{ active: activeOriginOSSection !== 'originos6' }} role="menuitem" href={originOSLatestUrl}>月更记录</a>
       </div>
     </div>
     <div class:list={{ 'brand-menu': true, active: hyperOSActive }}>
