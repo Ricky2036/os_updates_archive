@@ -628,6 +628,113 @@
       signal.addEventListener('abort', () => observer.disconnect(), { once: true });
     });
 
+    document.body.classList.remove('page-slide-up-exit');
+
+    // Article footer navigation & Mobile pull-up gesture
+    const initArticleFooterNav = () => {
+      const footerNav = document.querySelector('[data-article-footer-nav]');
+      if (!footerNav) return;
+
+      const pullWrapper = footerNav.querySelector('[data-footer-pull-wrapper]');
+      const pullHintText = footerNav.querySelector('[data-pull-hint-text]');
+      const scrollTopBtn = footerNav.querySelector('[data-scroll-top]');
+      const nextUrl = footerNav.dataset.nextUrl;
+      const prevUrl = footerNav.dataset.prevUrl;
+
+      // Click to scroll to top
+      scrollTopBtn?.addEventListener('click', (e) => {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }, { signal });
+
+      // Mobile touch pull-up gesture
+      let touchStartY = 0;
+      let touchStartX = 0;
+      let isPulling = false;
+      let thresholdReached = false;
+      const PULL_THRESHOLD = 38;
+
+      const onTouchStart = (e) => {
+        if (e.touches.length !== 1) return;
+        touchStartY = e.touches[0].clientY;
+        touchStartX = e.touches[0].clientX;
+        isPulling = false;
+        thresholdReached = false;
+      };
+
+      const onTouchMove = (e) => {
+        if (e.touches.length !== 1 || !pullWrapper) return;
+        const currentY = e.touches[0].clientY;
+        const currentX = e.touches[0].clientX;
+        const dy = currentY - touchStartY;
+        const dx = currentX - touchStartX;
+
+        const atBottom = (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 30) || (footerNav.getBoundingClientRect().top <= window.innerHeight);
+
+        if (atBottom && dy < 0 && Math.abs(dy) > Math.abs(dx) && Math.abs(dy) > 6) {
+          isPulling = true;
+          footerNav.classList.add('is-pulling');
+          const pullDist = Math.abs(dy);
+          const damped = Math.min(85, Math.pow(pullDist, 0.72) * 1.6);
+          pullWrapper.style.transform = `translate3d(0, -${damped}px, 0)`;
+          pullWrapper.style.transition = 'none';
+
+          if (nextUrl) {
+            if (damped >= PULL_THRESHOLD) {
+              if (!thresholdReached) {
+                thresholdReached = true;
+                if ('vibrate' in navigator) {
+                  try { navigator.vibrate(10); } catch {}
+                }
+              }
+              footerNav.classList.add('is-threshold-reached');
+              if (pullHintText) pullHintText.textContent = '查看下一篇';
+            } else {
+              thresholdReached = false;
+              footerNav.classList.remove('is-threshold-reached');
+              if (pullHintText) pullHintText.textContent = '释放查看下一篇';
+            }
+          } else {
+            if (pullHintText) pullHintText.textContent = '已是最后一篇';
+          }
+        }
+      };
+
+      const onTouchEnd = () => {
+        if (!isPulling || !pullWrapper) return;
+        isPulling = false;
+        footerNav.classList.remove('is-pulling');
+
+        if (thresholdReached && nextUrl) {
+          footerNav.classList.add('is-loading');
+          pullWrapper.style.transition = 'transform 0.26s cubic-bezier(0.16, 1, 0.3, 1)';
+          pullWrapper.style.transform = 'translate3d(0, -56px, 0)';
+          if (pullHintText) pullHintText.textContent = '正在前往下一篇…';
+          document.body.classList.add('page-slide-up-exit');
+
+          setTimeout(() => {
+            window.location.href = nextUrl;
+          }, 180);
+        } else {
+          pullWrapper.style.transition = 'transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
+          pullWrapper.style.transform = 'translate3d(0, 0, 0)';
+          footerNav.classList.remove('is-threshold-reached');
+          setTimeout(() => {
+            if (pullWrapper) pullWrapper.style.transition = '';
+            if (pullHintText && nextUrl) pullHintText.textContent = '释放查看下一篇';
+          }, 380);
+        }
+        thresholdReached = false;
+      };
+
+      window.addEventListener('touchstart', onTouchStart, { passive: true, signal });
+      window.addEventListener('touchmove', onTouchMove, { passive: true, signal });
+      window.addEventListener('touchend', onTouchEnd, { passive: true, signal });
+      window.addEventListener('touchcancel', onTouchEnd, { passive: true, signal });
+    };
+
+    initArticleFooterNav();
+
     const routeMapElement = document.querySelector('#legacy-route-map');
     if (routeMapElement && location.hash.length > 1) {
       try {

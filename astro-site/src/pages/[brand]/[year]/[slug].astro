@@ -3,17 +3,28 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import ArchiveNav from '../../../components/ArchiveNav.astro';
 import Icon from '../../../components/Icon.astro';
 import MonthlyDigestView from '../../../components/MonthlyDigestView.astro';
-import { brandMeta, getArticles, sitePath, type ArchiveArticle, type Brand } from '../../../lib/archive';
+import { brandMeta, getArticles, sitePath, articlePath, type ArchiveArticle, type Brand } from '../../../lib/archive';
 import { getMonthlyDigest } from '../../../lib/monthly-digests';
 
 export async function getStaticPaths() {
-  return (await getArticles()).map((article) => ({
-    params: { brand: article.data.brand, year: String(article.data.year), slug: article.data.slug },
-    props: { article },
-  }));
+  const articles = await getArticles();
+  return articles.map((article) => {
+    const brandArticles = articles.filter((a) => a.data.brand === article.data.brand);
+    const index = brandArticles.findIndex((a) => a.data.articleId === article.data.articleId);
+    const prevArticle = index > 0 ? brandArticles[index - 1] : null;
+    const nextArticle = index >= 0 && index < brandArticles.length - 1 ? brandArticles[index + 1] : null;
+    return {
+      params: { brand: article.data.brand, year: String(article.data.year), slug: article.data.slug },
+      props: { article, prevArticle, nextArticle },
+    };
+  });
 }
 
-const { article } = Astro.props as { article: ArchiveArticle };
+const { article, prevArticle, nextArticle } = Astro.props as {
+  article: ArchiveArticle;
+  prevArticle?: ArchiveArticle | null;
+  nextArticle?: ArchiveArticle | null;
+};
 const data = article.data;
 const meta = brandMeta[data.brand as Brand];
 const mediaBase = import.meta.env.PUBLIC_MEDIA_BASE_URL?.replace(/\/$/, '');
@@ -84,7 +95,29 @@ const digest = digestEntry?.data.reviewStatus === 'verified' ? digestEntry : und
           )}
         </section>
       )}
-      <nav class="article-footer-nav"><a href="#main-content">回到本文顶部 ↑</a></nav>
+      <nav class="article-footer-nav" data-article-footer-nav data-next-url={nextArticle ? articlePath(nextArticle) : ''} data-prev-url={prevArticle ? articlePath(prevArticle) : ''}>
+        <div class="footer-pull-wrapper" data-footer-pull-wrapper>
+          <div class="article-footer-links" data-footer-links>
+            {prevArticle ? (
+              <a href={articlePath(prevArticle)} class="footer-nav-link" data-nav-prev>上一篇</a>
+            ) : (
+              <span class="footer-nav-link is-disabled">上一篇</span>
+            )}
+            <span class="footer-nav-divider" aria-hidden="true">｜</span>
+            {nextArticle ? (
+              <a href={articlePath(nextArticle)} class="footer-nav-link" data-nav-next>下一篇</a>
+            ) : (
+              <span class="footer-nav-link is-disabled">下一篇</span>
+            )}
+            <span class="footer-nav-divider" aria-hidden="true">｜</span>
+            <button type="button" class="footer-nav-link footer-nav-top" data-scroll-top>回顶部</button>
+          </div>
+          <div class="footer-pull-hint" data-footer-pull-hint aria-hidden="true">
+            <span class="pull-hint-icon">↑</span>
+            <span class="pull-hint-text" data-pull-hint-text>{nextArticle ? '查看下一篇' : '已是最后一篇'}</span>
+          </div>
+        </div>
+      </nav>
     </article>
   </main>
 </BaseLayout>
