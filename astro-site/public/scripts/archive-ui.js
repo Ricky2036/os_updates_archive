@@ -133,6 +133,40 @@
       }
     };
 
+    let isFlipping = false;
+    const flipToView = (root, targetView, persist = false) => {
+      const normalized = targetView === 'original' ? 'original' : 'digest';
+      const current = document.documentElement.dataset.monthlyView;
+      if (current === normalized || isFlipping) return;
+
+      const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (prefersReducedMotion) {
+        setMonthlyView(root, normalized, persist);
+        return;
+      }
+
+      isFlipping = true;
+      const isToOriginal = normalized === 'original';
+      const flipDirection = isToOriginal ? 'to-original' : 'to-digest';
+
+      if (isToOriginal) mountOriginal(root);
+
+      root.classList.add('is-flipping', `is-flipping-${flipDirection}-out`);
+      document.documentElement.classList.add('is-switching-view');
+
+      setTimeout(() => {
+        setMonthlyView(root, normalized, persist);
+        root.classList.remove(`is-flipping-${flipDirection}-out`);
+        root.classList.add(`is-flipping-${flipDirection}-in`);
+
+        setTimeout(() => {
+          root.classList.remove('is-flipping', `is-flipping-${flipDirection}-in`);
+          document.documentElement.classList.remove('is-switching-view');
+          isFlipping = false;
+        }, 280);
+      }, 220);
+    };
+
     document.querySelectorAll('[data-monthly-view-root]').forEach((root) => {
       let currentView = document.documentElement.dataset.monthlyView;
       if (!currentView) {
@@ -145,19 +179,13 @@
       }
       setMonthlyView(root, currentView);
       document.querySelectorAll('[data-monthly-view]').forEach((button) => button.addEventListener('click', () => {
-        document.documentElement.classList.add('is-switching-view');
-        void document.documentElement.offsetHeight;
-        setMonthlyView(root, button.dataset.monthlyView, true);
-        setTimeout(() => document.documentElement.classList.remove('is-switching-view'), 450);
+        flipToView(root, button.dataset.monthlyView, true);
       }, { signal }));
       document.querySelectorAll('[data-monthly-view-toggle]').forEach((button) => {
         button.addEventListener('click', () => {
-          document.documentElement.classList.add('is-switching-view');
-          void document.documentElement.offsetHeight;
           const current = document.documentElement.dataset.monthlyView;
           const next = current === 'original' ? 'digest' : 'original';
-          setMonthlyView(root, next, true);
-          setTimeout(() => document.documentElement.classList.remove('is-switching-view'), 450);
+          flipToView(root, next, true);
         }, { signal });
       });
     });
