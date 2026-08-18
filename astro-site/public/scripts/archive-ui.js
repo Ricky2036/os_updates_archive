@@ -411,6 +411,11 @@
       document.documentElement.dataset.monthlyView = normalized;
       root.querySelectorAll('[data-monthly-panel]').forEach((panel) => { panel.hidden = panel.dataset.monthlyPanel !== normalized; });
       document.querySelectorAll('[data-monthly-view]').forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.monthlyView === normalized)));
+      document.querySelectorAll('[data-monthly-view-toggle]').forEach((button) => {
+        const isDigest = normalized === 'digest';
+        button.setAttribute('aria-label', isDigest ? '切换为原始图文版' : '切换为文字精简版');
+        button.setAttribute('title', isDigest ? '切换为原始图文版' : '切换为文字精简版');
+      });
       if (persist) {
         try { localStorage.setItem('os-archive:monthly-view', normalized); } catch { /* storage is optional */ }
       }

@@ -629,28 +629,28 @@ body:has(.brand-menu.open) .monthly-view-toolbar { opacity: 0; visibility: hidde
 .header-view-toggle {
   position: relative;
   display: inline-flex;
-  width: 34px;
-  height: 34px;
+  width: 32px;
+  height: 32px;
   padding: 0;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgba(255, 255, 255, 0.7);
-  background: rgba(255, 255, 255, 0.55);
-  box-shadow: 0 2px 8px rgba(39, 63, 116, 0.06);
-  backdrop-filter: blur(12px);
-  color: #717985;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  color: #606873;
   cursor: pointer;
   border-radius: 50%;
   perspective: 400px;
-  transition: color 0.2s, background 0.2s, border-color 0.2s, box-shadow 0.2s, transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+  transition: color 0.2s, transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
   -webkit-tap-highlight-color: transparent;
 }
 .header-view-toggle:hover {
   color: var(--brand-accent, var(--ink));
-  background: rgba(255, 255, 255, 0.9);
-  border-color: rgba(255, 255, 255, 0.95);
-  box-shadow: 0 4px 14px rgba(39, 63, 116, 0.12);
-  transform: scale(1.08);
+  background: transparent;
+  box-shadow: none;
+  transform: scale(1.12);
 }
 .header-view-toggle:active {
   transform: scale(0.92);
@@ -663,21 +663,21 @@ body:has(.brand-menu.open) .monthly-view-toolbar { opacity: 0; visibility: hidde
   backface-visibility: hidden;
   transition: transform 0.45s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.3s ease;
 }
-html[data-monthly-view="digest"] .header-view-toggle .icon-original {
-  opacity: 0;
-  transform: rotateY(180deg) scale(0.5);
-  pointer-events: none;
-}
 html[data-monthly-view="digest"] .header-view-toggle .icon-digest {
-  opacity: 1;
-  transform: rotateY(0deg) scale(1);
-}
-html[data-monthly-view="original"] .header-view-toggle .icon-digest {
   opacity: 0;
   transform: rotateY(-180deg) scale(0.5);
   pointer-events: none;
 }
+html[data-monthly-view="digest"] .header-view-toggle .icon-original {
+  opacity: 1;
+  transform: rotateY(0deg) scale(1);
+}
 html[data-monthly-view="original"] .header-view-toggle .icon-original {
+  opacity: 0;
+  transform: rotateY(180deg) scale(0.5);
+  pointer-events: none;
+}
+html[data-monthly-view="original"] .header-view-toggle .icon-digest {
   opacity: 1;
   transform: rotateY(0deg) scale(1);
 }
