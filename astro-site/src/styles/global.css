@@ -40,7 +40,9 @@ h1, h2, h3, p { margin-top: 0; }
 .header-inner { display: flex; align-items: center; justify-content: space-between; width: min(var(--content), calc(100% - 40px)); height: 100%; margin: auto; }
 .brand-mark { display: inline-flex; align-items: center; gap: 10px; font-family: Georgia, "Songti SC", serif; font-size: 19px; font-weight: 800; }
 .brand-mark img { width: 32px; height: 32px; border-radius: 0; filter: drop-shadow(0 1px 4px rgba(55, 77, 130, 0.1)); }
-.brand-switcher { position: fixed; top: 36px; right: max(20px, calc((100vw - var(--content)) / 2)); z-index: 80; display: flex; align-items: center; gap: 22px; padding: 0; border: 0; background: transparent; transform: translateY(-50%); }
+@media (min-width: 761px) {
+  .brand-switcher { position: fixed; top: 36px; right: max(20px, calc((100vw - var(--content)) / 2)); z-index: 80; display: flex; align-items: center; gap: 22px; padding: 0; border: 0; background: transparent; transform: translateY(-50%); }
+}
 .brand-switcher > a, .brand-tab { position: relative; display: inline-flex; align-items: center; justify-content: center; height: 40px; padding: 0 2px; border: 0; color: #858b95; background: transparent; font: inherit; font-size: 14px; line-height: 1; cursor: pointer; transition: color .22s var(--ease); }
 .brand-switcher > a span, .brand-tab span { display: inline-flex; flex-direction: column; align-items: center; justify-content: center; }
 .brand-switcher > a span::after, .brand-tab span::after { content: attr(data-text); height: 0; visibility: hidden; overflow: hidden; user-select: none; pointer-events: none; font-weight: 720; }
