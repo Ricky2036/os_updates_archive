@@ -42,48 +42,50 @@ const magicOSLatestUrl = getLatestUrl('magicos');
     )}
   </div>
 </header>
-<nav class="brand-switcher" aria-label="主导航">
-  <a class:list={{ 'home-tab': true, active: !activeBrand }} href={sitePath()}>
-    {!activeBrand && <div class="nav-highlight" transition:name="brand-highlight"></div>}
-    <span style="position: relative; z-index: 10;" data-text="首页">首页</span>
-  </a>
-  <div class:list={{ 'brand-menu': true, active: colorOSActive }}>
-    <a class="brand-tab brand-trigger" href={colorOSLatestUrl} aria-haspopup="menu" aria-expanded="false">
-      {colorOSActive && <div class="nav-highlight" transition:name="brand-highlight"></div>}
-      <span style="position: relative; z-index: 10;" data-text={brandMeta.coloros.name}>{brandMeta.coloros.name}</span><i aria-hidden="true"></i>
+<nav class="brand-switcher-nav" aria-label="主导航">
+  <div class="brand-switcher" data-brand-switcher>
+    <a class:list={{ 'home-tab': true, active: !activeBrand }} href={sitePath()}>
+      {!activeBrand && <div class="nav-highlight" transition:name="brand-highlight"></div>}
+      <span style="position: relative; z-index: 10;" data-text="首页">首页</span>
     </a>
-    <div class="brand-submenu" role="menu" aria-label="ColorOS 档案">
-      <a class:list={{ active: activeColorOSSection === '15' }} role="menuitem" href={officialArchiveMeta['15'].route} data-astro-reload>ColorOS 15</a>
-      <a class:list={{ active: activeColorOSSection === '16' }} role="menuitem" href={officialArchiveMeta['16'].route} data-astro-reload>ColorOS 16</a>
-      <a class:list={{ active: activeColorOSSection === 'monthly' }} role="menuitem" href={colorOSLatestUrl}>月更记录</a>
+    <div class:list={{ 'brand-menu': true, active: colorOSActive }}>
+      <a class="brand-tab brand-trigger" href={colorOSLatestUrl} aria-haspopup="menu" aria-expanded="false">
+        {colorOSActive && <div class="nav-highlight" transition:name="brand-highlight"></div>}
+        <span style="position: relative; z-index: 10;" data-text={brandMeta.coloros.name}>{brandMeta.coloros.name}</span><i aria-hidden="true"></i>
+      </a>
+      <div class="brand-submenu" role="menu" aria-label="ColorOS 档案">
+        <a class:list={{ active: activeColorOSSection === '15' }} role="menuitem" href={officialArchiveMeta['15'].route} data-astro-reload>ColorOS 15</a>
+        <a class:list={{ active: activeColorOSSection === '16' }} role="menuitem" href={officialArchiveMeta['16'].route} data-astro-reload>ColorOS 16</a>
+        <a class:list={{ active: activeColorOSSection === 'monthly' }} role="menuitem" href={colorOSLatestUrl}>月更记录</a>
+      </div>
     </div>
-  </div>
-  <div class:list={{ 'brand-menu': true, active: originOSActive }}>
-    <a class="brand-tab brand-trigger" href={originOSLatestUrl} aria-haspopup="menu" aria-expanded="false">
-      {originOSActive && <div class="nav-highlight" transition:name="brand-highlight"></div>}
-      <span style="position: relative; z-index: 10;" data-text={brandMeta.originos.name}>{brandMeta.originos.name}</span><i aria-hidden="true"></i>
-    </a>
-    <div class="brand-submenu" role="menu" aria-label="OriginOS 档案">
-      <a class:list={{ active: activeOriginOSSection === 'originos6' }} role="menuitem" href={officialArchiveMeta['originos6'].route} data-astro-reload>OriginOS 6</a>
-      <a class:list={{ active: activeOriginOSSection === 'monthly' }} role="menuitem" href={originOSLatestUrl}>月更记录</a>
+    <div class:list={{ 'brand-menu': true, active: originOSActive }}>
+      <a class="brand-tab brand-trigger" href={originOSLatestUrl} aria-haspopup="menu" aria-expanded="false">
+        {originOSActive && <div class="nav-highlight" transition:name="brand-highlight"></div>}
+        <span style="position: relative; z-index: 10;" data-text={brandMeta.originos.name}>{brandMeta.originos.name}</span><i aria-hidden="true"></i>
+      </a>
+      <div class="brand-submenu" role="menu" aria-label="OriginOS 档案">
+        <a class:list={{ active: activeOriginOSSection === 'originos6' }} role="menuitem" href={officialArchiveMeta['originos6'].route} data-astro-reload>OriginOS 6</a>
+        <a class:list={{ active: activeOriginOSSection === 'monthly' }} role="menuitem" href={originOSLatestUrl}>月更记录</a>
+      </div>
     </div>
-  </div>
-  <div class:list={{ 'brand-menu': true, active: hyperOSActive }}>
-    <a class="brand-tab brand-trigger" href={hyperOSLatestUrl} aria-haspopup="menu" aria-expanded="false">
-      {hyperOSActive && <div class="nav-highlight" transition:name="brand-highlight"></div>}
-      <span style="position: relative; z-index: 10;" data-text={brandMeta.hyperos.name}>{brandMeta.hyperos.name}</span><i aria-hidden="true"></i>
-    </a>
-    <div class="brand-submenu" role="menu" aria-label="HyperOS 档案">
-      <a class:list={{ active: true }} role="menuitem" href={hyperOSLatestUrl}>月更记录</a>
+    <div class:list={{ 'brand-menu': true, active: hyperOSActive }}>
+      <a class="brand-tab brand-trigger" href={hyperOSLatestUrl} aria-haspopup="menu" aria-expanded="false">
+        {hyperOSActive && <div class="nav-highlight" transition:name="brand-highlight"></div>}
+        <span style="position: relative; z-index: 10;" data-text={brandMeta.hyperos.name}>{brandMeta.hyperos.name}</span><i aria-hidden="true"></i>
+      </a>
+      <div class="brand-submenu" role="menu" aria-label="HyperOS 档案">
+        <a class:list={{ active: true }} role="menuitem" href={hyperOSLatestUrl}>月更记录</a>
+      </div>
     </div>
-  </div>
-  <div class:list={{ 'brand-menu': true, active: magicOSActive }}>
-    <a class="brand-tab brand-trigger" href={magicOSLatestUrl} aria-haspopup="menu" aria-expanded="false">
-      {magicOSActive && <div class="nav-highlight" transition:name="brand-highlight"></div>}
-      <span style="position: relative; z-index: 10;" data-text={brandMeta.magicos.name}>{brandMeta.magicos.name}</span><i aria-hidden="true"></i>
-    </a>
-    <div class="brand-submenu" role="menu" aria-label="MagicOS 档案">
-      <a class:list={{ active: true }} role="menuitem" href={magicOSLatestUrl}>月更记录</a>
+    <div class:list={{ 'brand-menu': true, active: magicOSActive }}>
+      <a class="brand-tab brand-trigger" href={magicOSLatestUrl} aria-haspopup="menu" aria-expanded="false">
+        {magicOSActive && <div class="nav-highlight" transition:name="brand-highlight"></div>}
+        <span style="position: relative; z-index: 10;" data-text={brandMeta.magicos.name}>{brandMeta.magicos.name}</span><i aria-hidden="true"></i>
+      </a>
+      <div class="brand-submenu" role="menu" aria-label="MagicOS 档案">
+        <a class:list={{ active: true }} role="menuitem" href={magicOSLatestUrl}>月更记录</a>
+      </div>
     </div>
   </div>
 </nav>

@@ -19,20 +19,34 @@
 
     const brandSwitcher = document.querySelector('.brand-switcher');
     const activeNavTab = brandSwitcher?.querySelector('.active');
-    if (brandSwitcher && activeNavTab && mobileTabs.matches) {
-      setTimeout(() => {
-        try {
-          activeNavTab.scrollIntoView({ inline: 'center', block: 'nearest', behavior: 'smooth' });
-        } catch {
-          const containerWidth = brandSwitcher.clientWidth;
-          const itemLeft = activeNavTab.offsetLeft;
-          const itemWidth = activeNavTab.offsetWidth;
-          brandSwitcher.scrollTo({
-            left: Math.max(0, itemLeft - (containerWidth / 2) + (itemWidth / 2)),
-            behavior: 'smooth'
-          });
-        }
-      }, 50);
+    if (brandSwitcher && mobileTabs.matches) {
+      const updateScrollMask = () => {
+        const isLeft = brandSwitcher.scrollLeft <= 2;
+        const isRight = brandSwitcher.scrollLeft + brandSwitcher.clientWidth >= brandSwitcher.scrollWidth - 2;
+        brandSwitcher.dataset.maskLeft = String(!isLeft);
+        brandSwitcher.dataset.maskRight = String(!isRight);
+      };
+
+      brandSwitcher.addEventListener('scroll', updateScrollMask, { passive: true, signal });
+
+      if (activeNavTab) {
+        setTimeout(() => {
+          try {
+            activeNavTab.scrollIntoView({ inline: 'center', block: 'nearest', behavior: 'smooth' });
+          } catch {
+            const containerWidth = brandSwitcher.clientWidth;
+            const itemLeft = activeNavTab.offsetLeft;
+            const itemWidth = activeNavTab.offsetWidth;
+            brandSwitcher.scrollTo({
+              left: Math.max(0, itemLeft - (containerWidth / 2) + (itemWidth / 2)),
+              behavior: 'smooth'
+            });
+          }
+          setTimeout(updateScrollMask, 200);
+        }, 50);
+      } else {
+        updateScrollMask();
+      }
     }
 
     const setColorOSMenu = (open, focusFirst = false) => {
