@@ -625,11 +625,15 @@ body:has(.brand-menu.open) .monthly-view-toolbar { opacity: 0; visibility: hidde
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
 }
 
+.header-left-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .header-view-toggle,
 .menu-button {
   position: relative;
-  width: 32px;
-  height: 32px;
   padding: 0;
   align-items: center;
   justify-content: center;
@@ -647,9 +651,18 @@ body:has(.brand-menu.open) .monthly-view-toolbar { opacity: 0; visibility: hidde
 }
 .header-view-toggle {
   display: inline-flex;
+  width: 20px;
+  height: 20px;
+}
+.header-view-toggle::before {
+  content: '';
+  position: absolute;
+  inset: -6px;
 }
 .menu-button {
   display: none;
+  width: 32px;
+  height: 32px;
 }
 @media (max-width: 760px) {
   .menu-button {
