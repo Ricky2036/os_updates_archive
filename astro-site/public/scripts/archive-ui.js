@@ -68,7 +68,6 @@
       });
       if (mobilePopover) {
         mobilePopover.classList.remove('open');
-        mobilePopover.innerHTML = '';
       }
       currentOpenMenu = null;
     };
@@ -90,7 +89,10 @@
           mobilePopover.classList.add('open');
 
           mobilePopover.querySelectorAll('a').forEach(link => {
-            link.addEventListener('click', closeAllBrandMenus, { signal });
+            link.addEventListener('click', () => {
+              mobilePopover.classList.remove('open');
+              currentOpenMenu = null;
+            }, { signal });
           });
         }
 
@@ -104,7 +106,6 @@
         trigger?.setAttribute('aria-expanded', 'false');
         if (mobilePopover) {
           mobilePopover.classList.remove('open');
-          mobilePopover.innerHTML = '';
         }
         currentOpenMenu = null;
       };
