@@ -8,10 +8,6 @@
     const archiveNav = document.querySelector('#archive-nav');
     const backdrop = document.querySelector('[data-nav-backdrop]');
     const closeButton = document.querySelector('[data-nav-close]');
-    const colorOSMenu = document.querySelector('[data-coloros-menu]');
-    const colorOSTrigger = colorOSMenu?.querySelector('[data-coloros-trigger]');
-    const colorOSSubmenu = colorOSMenu?.querySelector('[data-coloros-submenu]');
-    const colorOSItems = [...(colorOSSubmenu?.querySelectorAll('[role="menuitem"]') ?? [])];
     const mobileTabs = window.matchMedia('(max-width: 760px)');
     let swipeStartY = null;
 
@@ -53,37 +49,130 @@
       }
     }
 
-    const setColorOSMenu = (open, focusFirst = false) => {
-      colorOSMenu?.classList.toggle('open', open);
-      colorOSTrigger?.setAttribute('aria-expanded', String(open));
-      if (open && focusFirst) colorOSItems[0]?.focus();
-    };
-    const closeColorOSMenu = () => setColorOSMenu(false);
+    const brandMenus = document.querySelectorAll('.brand-menu');
+    
+    let mobilePopover = document.querySelector('.mobile-brand-popover');
+    if (!mobilePopover) {
+      mobilePopover = document.createElement('div');
+      mobilePopover.className = 'mobile-brand-popover';
+      mobilePopover.setAttribute('role', 'menu');
+      document.body.appendChild(mobilePopover);
+    }
+    
+    let currentOpenMenu = null;
 
-    colorOSMenu?.addEventListener('pointerenter', () => setColorOSMenu(true), { signal });
-    colorOSMenu?.addEventListener('pointerleave', (event) => {
-      if (event.pointerType === 'mouse' && !colorOSMenu.contains(document.activeElement)) closeColorOSMenu();
+    const closeAllBrandMenus = () => {
+      brandMenus.forEach(m => {
+        m.classList.remove('open');
+        m.querySelector('.brand-trigger')?.setAttribute('aria-expanded', 'false');
+      });
+      if (mobilePopover) {
+        mobilePopover.classList.remove('open');
+        mobilePopover.innerHTML = '';
+      }
+      currentOpenMenu = null;
+    };
+
+    brandMenus.forEach(menu => {
+      const trigger = menu.querySelector('.brand-trigger');
+      const submenu = menu.querySelector('.brand-submenu');
+      const items = [...(submenu?.querySelectorAll('[role="menuitem"]') ?? [])];
+
+      const openBrandMenu = (focusFirst = false) => {
+        closeAllBrandMenus();
+        currentOpenMenu = menu;
+
+        if (mobileTabs.matches && trigger && submenu && items.length > 0) {
+          mobilePopover.innerHTML = submenu.innerHTML;
+          const rect = trigger.getBoundingClientRect();
+          const centerX = Math.max(95, Math.min(window.innerWidth - 95, rect.left + rect.width / 2));
+          mobilePopover.style.setProperty('--popover-x', `${centerX}px`);
+          mobilePopover.classList.add('open');
+
+          mobilePopover.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', closeAllBrandMenus, { signal });
+          });
+        }
+
+        menu.classList.add('open');
+        trigger?.setAttribute('aria-expanded', 'true');
+        if (focusFirst && items[0]) items[0].focus();
+      };
+
+      const closeBrandMenu = () => {
+        menu.classList.remove('open');
+        trigger?.setAttribute('aria-expanded', 'false');
+        if (mobilePopover) {
+          mobilePopover.classList.remove('open');
+          mobilePopover.innerHTML = '';
+        }
+        currentOpenMenu = null;
+      };
+
+      menu.addEventListener('pointerenter', () => {
+        if (!mobileTabs.matches) openBrandMenu();
+      }, { signal });
+
+      menu.addEventListener('pointerleave', (event) => {
+        if (!mobileTabs.matches && event.pointerType === 'mouse' && !menu.contains(document.activeElement)) {
+          closeBrandMenu();
+        }
+      }, { signal });
+
+      menu.addEventListener('focusout', (event) => {
+        if (!menu.contains(event.relatedTarget) && !mobileTabs.matches) {
+          closeBrandMenu();
+        }
+      }, { signal });
+
+      trigger?.addEventListener('click', (event) => {
+        if (mobileTabs.matches && items.length > 1) {
+          if (currentOpenMenu === menu && mobilePopover.classList.contains('open')) {
+            event.preventDefault();
+            closeBrandMenu();
+          } else {
+            event.preventDefault();
+            openBrandMenu();
+          }
+        }
+      }, { signal });
+
+      trigger?.addEventListener('keydown', (event) => {
+        if (['ArrowDown', 'ArrowUp', ' '].includes(event.key)) {
+          event.preventDefault();
+          openBrandMenu(true);
+        }
+        if (event.key === 'Escape') {
+          event.preventDefault();
+          closeBrandMenu();
+        }
+      }, { signal });
+
+      submenu?.addEventListener('keydown', (event) => {
+        const current = items.indexOf(document.activeElement);
+        if (event.key === 'ArrowDown') {
+          event.preventDefault();
+          items[(current + 1) % items.length]?.focus();
+        }
+        if (event.key === 'ArrowUp') {
+          event.preventDefault();
+          items[(current - 1 + items.length) % items.length]?.focus();
+        }
+        if (event.key === 'Escape') {
+          event.preventDefault();
+          closeBrandMenu();
+          trigger?.focus();
+        }
+      }, { signal });
+
+      items.forEach(item => item.addEventListener('click', closeAllBrandMenus, { signal }));
+    });
+
+    document.addEventListener('pointerdown', (event) => {
+      if (!event.target.closest('.brand-menu') && !event.target.closest('.mobile-brand-popover')) {
+        closeAllBrandMenus();
+      }
     }, { signal });
-    colorOSMenu?.addEventListener('focusout', (event) => {
-      if (!colorOSMenu.contains(event.relatedTarget) && !mobileTabs.matches) closeColorOSMenu();
-    }, { signal });
-    colorOSTrigger?.addEventListener('keydown', (event) => {
-      if (['ArrowDown', 'ArrowUp', ' '].includes(event.key)) { event.preventDefault(); setColorOSMenu(true, true); }
-      if (event.key === 'Escape') { event.preventDefault(); closeColorOSMenu(); }
-    }, { signal });
-    colorOSSubmenu?.addEventListener('keydown', (event) => {
-      const current = colorOSItems.indexOf(document.activeElement);
-      if (event.key === 'ArrowDown') { event.preventDefault(); colorOSItems[(current + 1) % colorOSItems.length]?.focus(); }
-      if (event.key === 'ArrowUp') { event.preventDefault(); colorOSItems[(current - 1 + colorOSItems.length) % colorOSItems.length]?.focus(); }
-      if (event.key === 'Escape') { event.preventDefault(); closeColorOSMenu(); colorOSTrigger?.focus(); }
-    }, { signal });
-    colorOSSubmenu?.addEventListener('pointerdown', (event) => { if (mobileTabs.matches) swipeStartY = event.clientY; }, { signal });
-    colorOSSubmenu?.addEventListener('pointerup', (event) => {
-      if (mobileTabs.matches && swipeStartY !== null && event.clientY - swipeStartY > 36) closeColorOSMenu();
-      swipeStartY = null;
-    }, { signal });
-    colorOSItems.forEach((item) => item.addEventListener('click', closeColorOSMenu, { signal }));
-    document.addEventListener('pointerdown', (event) => { if (!colorOSMenu?.contains(event.target)) closeColorOSMenu(); }, { signal });
 
     const closeMenu = () => {
       archiveNav?.classList.remove('open');
