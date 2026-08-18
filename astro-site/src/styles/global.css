@@ -365,10 +365,21 @@ body:has(.brand-menu.open) .monthly-view-toolbar { opacity: 0; visibility: hidde
   .digest-update-table { min-width: 460px; }
 }
 
-@media (max-width: 1023px) {
+@media (min-width: 761px) and (max-width: 1023px) {
+  .archive-layout, .article-layout {
+    gap: 32px;
+    width: calc(100% - 40px);
+  }
+}
+
+.brand-switcher-nav {
+  display: contents;
+}
+
+@media (max-width: 760px) {
   .archive-layout, .article-layout { display: block; width: min(100% - 32px, 760px); padding-top: 28px; }
   .menu-button { display: inline-flex; }
-  .site-header { z-index: 70; }
+  .site-header { height: 64px; z-index: 70; background: rgba(246,248,252,.72); box-shadow: 0 1px 0 rgba(255,255,255,.72), 0 8px 24px rgba(39,63,116,.05); -webkit-backdrop-filter: blur(20px) saturate(135%); backdrop-filter: blur(20px) saturate(135%); }
   .archive-nav { position: fixed; inset: 64px 0 auto; z-index: 60; width: auto; max-height: min(74vh, 620px); padding: 20px 16px 24px; background: rgba(246,248,252,.94); box-shadow: 0 24px 48px rgba(17,22,31,.16); transform: translateY(-115%); transition: transform .3s var(--ease); }
   .archive-nav.open { transform: translateY(0); }
   .nav-backdrop:not([hidden]) { position: fixed; inset: 64px 0 0; z-index: 50; display: block; background: rgba(17,21,28,.28); backdrop-filter: blur(3px); }
@@ -377,18 +388,6 @@ body:has(.brand-menu.open) .monthly-view-toolbar { opacity: 0; visibility: hidde
   .archive-list { padding-right: 4px; }
   .article-content { padding-top: 8px; }
   .content-intro { padding-top: 10px; }
-}
-
-.brand-switcher-nav {
-  display: contents;
-}
-
-@media (min-width: 761px) and (max-width: 1023px) {
-  .site-header.has-archive-nav + .brand-switcher-nav .brand-switcher { right: max(76px, calc((100vw - var(--content)) / 2 + 56px)); gap: 16px; }
-}
-
-@media (max-width: 760px) {
-  .site-header { height: 64px; background: rgba(246,248,252,.72); box-shadow: 0 1px 0 rgba(255,255,255,.72), 0 8px 24px rgba(39,63,116,.05); -webkit-backdrop-filter: blur(20px) saturate(135%); backdrop-filter: blur(20px) saturate(135%); }
   .header-inner, .landing-page { width: min(100% - 28px, 620px); }
   .brand-mark span { display: inline; font-size: 17px; }
   
@@ -629,7 +628,6 @@ body:has(.brand-menu.open) .monthly-view-toolbar { opacity: 0; visibility: hidde
 .header-view-toggle,
 .menu-button {
   position: relative;
-  display: inline-flex;
   width: 32px;
   height: 32px;
   padding: 0;
@@ -646,6 +644,17 @@ body:has(.brand-menu.open) .monthly-view-toolbar { opacity: 0; visibility: hidde
   perspective: 400px;
   transition: color 0.2s, transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
   -webkit-tap-highlight-color: transparent;
+}
+.header-view-toggle {
+  display: inline-flex;
+}
+.menu-button {
+  display: none;
+}
+@media (max-width: 760px) {
+  .menu-button {
+    display: inline-flex;
+  }
 }
 .header-view-toggle:hover,
 .menu-button:hover {
