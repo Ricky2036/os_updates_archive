@@ -17,6 +17,24 @@
 
     document.documentElement.classList.add('motion-ready');
 
+    const brandSwitcher = document.querySelector('.brand-switcher');
+    const activeNavTab = brandSwitcher?.querySelector('.active');
+    if (brandSwitcher && activeNavTab && mobileTabs.matches) {
+      setTimeout(() => {
+        try {
+          activeNavTab.scrollIntoView({ inline: 'center', block: 'nearest', behavior: 'smooth' });
+        } catch {
+          const containerWidth = brandSwitcher.clientWidth;
+          const itemLeft = activeNavTab.offsetLeft;
+          const itemWidth = activeNavTab.offsetWidth;
+          brandSwitcher.scrollTo({
+            left: Math.max(0, itemLeft - (containerWidth / 2) + (itemWidth / 2)),
+            behavior: 'smooth'
+          });
+        }
+      }, 50);
+    }
+
     const setColorOSMenu = (open, focusFirst = false) => {
       colorOSMenu?.classList.toggle('open', open);
       colorOSTrigger?.setAttribute('aria-expanded', String(open));
