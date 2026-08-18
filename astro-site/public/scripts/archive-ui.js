@@ -126,6 +126,7 @@
         }
       }, { signal });
 
+      // Mobile tap on tab
       trigger?.addEventListener('click', (event) => {
         if (mobileTabs.matches && items.length > 1) {
           if (menu.classList.contains('active')) {
@@ -135,6 +136,11 @@
             } else {
               openBrandMenu();
             }
+          } else {
+            try {
+              const brandText = trigger.querySelector('span')?.getAttribute('data-text') || '';
+              sessionStorage.setItem('openBrandMenuOnLoad', brandText.toLowerCase());
+            } catch {}
           }
         }
       }, { signal });
@@ -169,6 +175,44 @@
 
       items.forEach(item => item.addEventListener('click', closeAllBrandMenus, { signal }));
     });
+
+    // Check if we should auto-open menu on mobile load
+    if (mobileTabs.matches) {
+      try {
+        const pendingBrand = sessionStorage.getItem('openBrandMenuOnLoad');
+        if (pendingBrand) {
+          sessionStorage.removeItem('openBrandMenuOnLoad');
+          const targetMenu = [...brandMenus].find(m => {
+            const name = m.querySelector('.brand-trigger span')?.getAttribute('data-text')?.toLowerCase();
+            return name === pendingBrand;
+          });
+          if (targetMenu) {
+            setTimeout(() => {
+              const trigger = targetMenu.querySelector('.brand-trigger');
+              const submenu = targetMenu.querySelector('.brand-submenu');
+              const items = submenu?.querySelectorAll('[role="menuitem"]') ?? [];
+              if (submenu && items.length > 0) {
+                mobilePopover.innerHTML = submenu.innerHTML;
+                const rect = trigger.getBoundingClientRect();
+                const centerX = Math.max(95, Math.min(window.innerWidth - 95, rect.left + rect.width / 2));
+                mobilePopover.style.setProperty('--popover-x', `${centerX}px`);
+                mobilePopover.classList.add('open');
+                targetMenu.classList.add('open');
+                trigger?.setAttribute('aria-expanded', 'true');
+                currentOpenMenu = targetMenu;
+
+                mobilePopover.querySelectorAll('a').forEach(link => {
+                  link.addEventListener('click', () => {
+                    mobilePopover.classList.remove('open');
+                    currentOpenMenu = null;
+                  }, { signal });
+                });
+              }
+            }, 120);
+          }
+        }
+      } catch {}
+    }
 
     document.addEventListener('pointerdown', (event) => {
       if (!event.target.closest('.brand-menu') && !event.target.closest('.mobile-brand-popover')) {
