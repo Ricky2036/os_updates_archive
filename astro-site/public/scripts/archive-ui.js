@@ -13,6 +13,100 @@
 
     document.documentElement.classList.add('motion-ready');
 
+    const updatePersistedNav = () => {
+      const path = window.location.pathname;
+      const isHome = path === '/' || path === '' || (path.endsWith('/index.html') && !path.includes('/coloros') && !path.includes('/originos') && !path.includes('/hyperos') && !path.includes('/magicos'));
+      const isColorOS = path.includes('/coloros');
+      const isOriginOS = path.includes('/originos');
+      const isHyperOS = path.includes('/hyperos');
+      const isMagicOS = path.includes('/magicos');
+
+      const homeTab = document.querySelector('.home-tab');
+      if (homeTab) {
+        homeTab.classList.toggle('active', isHome);
+        let hl = homeTab.querySelector('.nav-highlight');
+        if (isHome && !hl) {
+          hl = document.createElement('div');
+          hl.className = 'nav-highlight';
+          homeTab.prepend(hl);
+        } else if (!isHome && hl) {
+          hl.remove();
+        }
+      }
+
+      const colorOSMenu = document.querySelector('.brand-menu:nth-child(2)');
+      if (colorOSMenu) {
+        colorOSMenu.classList.toggle('active', isColorOS);
+        const trigger = colorOSMenu.querySelector('.brand-trigger');
+        let hl = trigger?.querySelector('.nav-highlight');
+        if (isColorOS && !hl && trigger) {
+          hl = document.createElement('div');
+          hl.className = 'nav-highlight';
+          trigger.prepend(hl);
+        } else if (!isColorOS && hl) {
+          hl.remove();
+        }
+        const is15 = path.includes('/coloros/15');
+        const is16 = path.includes('/coloros/16');
+        const isMonthly = !is15 && !is16;
+        const subLinks = colorOSMenu.querySelectorAll('.brand-submenu a');
+        if (subLinks && subLinks.length >= 3) {
+          subLinks[0].classList.toggle('active', is15);
+          subLinks[1].classList.toggle('active', is16);
+          subLinks[2].classList.toggle('active', isMonthly);
+        }
+      }
+
+      const originOSMenu = document.querySelector('.brand-menu:nth-child(3)');
+      if (originOSMenu) {
+        originOSMenu.classList.toggle('active', isOriginOS);
+        const trigger = originOSMenu.querySelector('.brand-trigger');
+        let hl = trigger?.querySelector('.nav-highlight');
+        if (isOriginOS && !hl && trigger) {
+          hl = document.createElement('div');
+          hl.className = 'nav-highlight';
+          trigger.prepend(hl);
+        } else if (!isOriginOS && hl) {
+          hl.remove();
+        }
+        const is6 = path.includes('/originos/6');
+        const isMonthly = !is6;
+        const subLinks = originOSMenu.querySelectorAll('.brand-submenu a');
+        if (subLinks && subLinks.length >= 2) {
+          subLinks[0].classList.toggle('active', is6);
+          subLinks[1].classList.toggle('active', isMonthly);
+        }
+      }
+
+      const hyperOSTab = document.querySelector('.brand-tab[href*="hyperos"]');
+      if (hyperOSTab) {
+        hyperOSTab.classList.toggle('active', isHyperOS);
+        let hl = hyperOSTab.querySelector('.nav-highlight');
+        if (isHyperOS && !hl) {
+          hl = document.createElement('div');
+          hl.className = 'nav-highlight';
+          hyperOSTab.prepend(hl);
+        } else if (!isHyperOS && hl) {
+          hl.remove();
+        }
+      }
+
+      const magicOSTab = document.querySelector('.brand-tab[href*="magicos"]');
+      if (magicOSTab) {
+        magicOSTab.classList.toggle('active', isMagicOS);
+        let hl = magicOSTab.querySelector('.nav-highlight');
+        if (isMagicOS && !hl) {
+          hl = document.createElement('div');
+          hl.className = 'nav-highlight';
+          magicOSTab.prepend(hl);
+        } else if (!isMagicOS && hl) {
+          hl.remove();
+        }
+      }
+    };
+
+    updatePersistedNav();
+
     const brandSwitcher = document.querySelector('.brand-switcher');
     const activeNavTab = brandSwitcher?.querySelector('.active');
     if (brandSwitcher && mobileTabs.matches) {

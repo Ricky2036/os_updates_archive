@@ -47,15 +47,14 @@ h1, h2, h3, p { margin-top: 0; }
 .brand-switcher > a span, .brand-tab span { display: inline-flex; flex-direction: column; align-items: center; justify-content: center; }
 .brand-switcher > a span::after, .brand-tab span::after { content: attr(data-text); height: 0; visibility: hidden; overflow: hidden; user-select: none; pointer-events: none; font-weight: 720; }
 @media (max-width: 760px) { .brand-switcher > a span::after, .brand-tab span::after { font-weight: 760; } }
-.brand-switcher > a::after, .brand-tab::after { content: ''; position: absolute; right: 2px; bottom: 3px; left: 2px; height: 2px; border-radius: 999px; transform: scaleX(0); transform-origin: center; transition: transform .28s var(--ease), opacity .2s var(--ease); opacity: .82; }
+.brand-switcher > a::after, .brand-tab::after { content: ''; position: absolute; right: 2px; bottom: 3px; left: 2px; height: 2px; border-radius: 999px; transform: scaleX(0); transform-origin: center; transition: transform .2s var(--ease); opacity: .82; }
 .home-tab::after { background: linear-gradient(90deg, #53b8ff, #786cff); }
 .brand-tab::after { background: #00a99d; }
-.brand-switcher > a[href*="/originos/"]::after { background: #5267ff; }
+.brand-switcher > a[href*="/originos/"]::after, .brand-menu:has(a[href*="/originos/"]) .brand-tab::after { background: #5267ff; }
 .brand-switcher > a:hover, .brand-tab:hover { color: var(--ink); }
-.brand-switcher > a:hover::after, .brand-tab:hover::after { transform: scaleX(1); }
+.brand-switcher > a:not(.active):hover::after, .brand-menu:not(.active) .brand-tab:hover::after { transform: scaleX(1); }
 .brand-switcher > a.active, .brand-menu.active .brand-tab { color: var(--ink); font-weight: 720; }
-.brand-switcher > a.active::after, .brand-menu.active .brand-tab::after { transform: scaleX(0); }
-.brand-switcher > a.active:hover::after, .brand-menu.active .brand-tab:hover::after { transform: scaleX(1); opacity: 1; }
+.brand-switcher > a.active::after, .brand-menu.active .brand-tab::after { display: none; }
 .brand-menu { position: relative; display: flex; align-items: center; height: 40px; }
 .brand-trigger { display: inline-flex; align-items: center; }
 .brand-trigger i { display: none; }

@@ -42,7 +42,7 @@ const magicOSLatestUrl = getLatestUrl('magicos');
     )}
   </div>
 </header>
-<nav class="brand-switcher-nav" aria-label="主导航">
+<nav class="brand-switcher-nav" aria-label="主导航" transition:persist="brand-switcher-nav">
   <div class="brand-switcher" data-brand-switcher>
     <a class:list={{ 'home-tab': true, active: !activeBrand }} href={sitePath()}>
       {!activeBrand && <div class="nav-highlight" transition:name="brand-highlight"></div>}
