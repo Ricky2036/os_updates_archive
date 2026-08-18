@@ -19,5 +19,15 @@
       "bytes": 1052614,
       "status": "ready"
     }
-  ]
+  ],
+  "cover": {
+    "src": "assets/covers/7f96d302b5744700-1200.webp",
+    "srcset": "assets/covers/7f96d302b5744700-480.webp 480w, assets/covers/7f96d302b5744700-800.webp 800w, assets/covers/7f96d302b5744700-1200.webp 1200w",
+    "avifSrcset": "assets/covers/7f96d302b5744700-480.avif 480w, assets/covers/7f96d302b5744700-800.avif 800w, assets/covers/7f96d302b5744700-1200.avif 1200w",
+    "width": 1200,
+    "height": 675,
+    "alt": "荣耀MagicOS 11月更新一览 封面",
+    "dominantColor": "#e8f8f8",
+    "focalPoint": "50% 0%"
+  }
 }

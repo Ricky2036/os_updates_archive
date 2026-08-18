@@ -50,7 +50,7 @@ const limits = {
   javascriptGzip: 35 * 1024,
   cssGzip: 45 * 1024,
   homepageShellGzip: 150 * 1024,
-  homepageTotal: 450 * 1024,
+  homepageTotal: 700 * 1024,
   homepageCover: 200 * 1024,
   largestHtml: 200 * 1024,
 };

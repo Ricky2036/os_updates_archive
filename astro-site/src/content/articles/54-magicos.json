@@ -136,5 +136,15 @@
       "bytes": 93674,
       "status": "ready"
     }
-  ]
+  ],
+  "cover": {
+    "src": "assets/covers/95804a4ca1eb07a2-1200.webp",
+    "srcset": "assets/covers/95804a4ca1eb07a2-480.webp 480w, assets/covers/95804a4ca1eb07a2-800.webp 800w, assets/covers/95804a4ca1eb07a2-1200.webp 1200w",
+    "avifSrcset": "assets/covers/95804a4ca1eb07a2-480.avif 480w, assets/covers/95804a4ca1eb07a2-800.avif 800w, assets/covers/95804a4ca1eb07a2-1200.avif 1200w",
+    "width": 1200,
+    "height": 675,
+    "alt": "荣耀MagicOS 4月更新一览 封面",
+    "dominantColor": "#f8f8f8",
+    "focalPoint": "50% 0%"
+  }
 }

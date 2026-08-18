@@ -8,5 +8,15 @@
   "slug": "30-xiaomi-hyperos-2026-08",
   "kind": "gallery",
   "legacyPath": "HyperOS_8月更新一览_(2026).html",
-  "html": "<style>.image-gallery { gap: 0 !important; } .image-gallery img { margin: 0 !important; border-radius: 0 !important; box-shadow: none !important; }</style>\n<section class=\"card\">\n        <div class=\"card-body\">\n          <div class=\"image-gallery\">\n            <img src=\"../../../assets/images/HyperOS_8月更新一览_(2026)/0.webp\" loading=\"lazy\" alt=\"HyperOS 8月更新一览 - 图0\">\n          </div>\n        </div>\n    </section>"
+  "html": "<style>.image-gallery { gap: 0 !important; } .image-gallery img { margin: 0 !important; border-radius: 0 !important; box-shadow: none !important; }</style>\n<section class=\"card\">\n        <div class=\"card-body\">\n          <div class=\"image-gallery\">\n            <img src=\"../../../assets/images/HyperOS_8月更新一览_(2026)/0.webp\" loading=\"lazy\" alt=\"HyperOS 8月更新一览 - 图0\">\n          </div>\n        </div>\n    </section>",
+  "cover": {
+    "src": "assets/covers/95c94c67e3b251d1-1200.webp",
+    "srcset": "assets/covers/95c94c67e3b251d1-480.webp 480w, assets/covers/95c94c67e3b251d1-800.webp 800w, assets/covers/95c94c67e3b251d1-1200.webp 1200w",
+    "avifSrcset": "assets/covers/95c94c67e3b251d1-480.avif 480w, assets/covers/95c94c67e3b251d1-800.avif 800w, assets/covers/95c94c67e3b251d1-1200.avif 1200w",
+    "width": 1200,
+    "height": 675,
+    "alt": "小米HyperOS 8月更新一览 封面",
+    "dominantColor": "#f8f8f8",
+    "focalPoint": "50% 0%"
+  }
 }

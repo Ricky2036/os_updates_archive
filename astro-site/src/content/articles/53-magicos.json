@@ -28,5 +28,15 @@
       "bytes": 126732,
       "status": "ready"
     }
-  ]
+  ],
+  "cover": {
+    "src": "assets/covers/3315e1cef47fde76-1200.webp",
+    "srcset": "assets/covers/3315e1cef47fde76-480.webp 480w, assets/covers/3315e1cef47fde76-800.webp 800w, assets/covers/3315e1cef47fde76-1200.webp 1200w",
+    "avifSrcset": "assets/covers/3315e1cef47fde76-480.avif 480w, assets/covers/3315e1cef47fde76-800.avif 800w, assets/covers/3315e1cef47fde76-1200.avif 1200w",
+    "width": 1200,
+    "height": 675,
+    "alt": "荣耀MagicOS 春分3月特别更新 封面",
+    "dominantColor": "#f8f8e8",
+    "focalPoint": "50% 0%"
+  }
 }

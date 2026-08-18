@@ -8,5 +8,15 @@
   "slug": "41-xiaomi-hyperos-2024-12",
   "kind": "gallery",
   "legacyPath": "HyperOS_12月更新一览_(2024).html",
-  "html": "<style>.image-gallery { gap: 0 !important; } .image-gallery img { margin: 0 !important; border-radius: 0 !important; box-shadow: none !important; }</style>\n<section class=\"card\">\n        <div class=\"card-body\">\n          <div class=\"image-gallery\">\n            <img src=\"../../../assets/images/HyperOS_12月更新一览_(2024)/0.webp\" loading=\"lazy\" alt=\"HyperOS 12月更新一览 - 图0\">\n          </div>\n        </div>\n    </section>"
+  "html": "<style>.image-gallery { gap: 0 !important; } .image-gallery img { margin: 0 !important; border-radius: 0 !important; box-shadow: none !important; }</style>\n<section class=\"card\">\n        <div class=\"card-body\">\n          <div class=\"image-gallery\">\n            <img src=\"../../../assets/images/HyperOS_12月更新一览_(2024)/0.webp\" loading=\"lazy\" alt=\"HyperOS 12月更新一览 - 图0\">\n          </div>\n        </div>\n    </section>",
+  "cover": {
+    "src": "assets/covers/444ba7068161ace7-1200.webp",
+    "srcset": "assets/covers/444ba7068161ace7-480.webp 480w, assets/covers/444ba7068161ace7-800.webp 800w, assets/covers/444ba7068161ace7-1200.webp 1200w",
+    "avifSrcset": "assets/covers/444ba7068161ace7-480.avif 480w, assets/covers/444ba7068161ace7-800.avif 800w, assets/covers/444ba7068161ace7-1200.avif 1200w",
+    "width": 1200,
+    "height": 675,
+    "alt": "小米HyperOS 12月更新一览 封面",
+    "dominantColor": "#080808",
+    "focalPoint": "50% 0%"
+  }
 }
