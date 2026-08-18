@@ -46,9 +46,9 @@
         } else if (!isColorOS && hl) {
           hl.remove();
         }
-        const is15 = path.includes('/coloros/15');
-        const is16 = path.includes('/coloros/16');
-        const isMonthly = !is15 && !is16;
+        const is15 = /\/coloros\/15(\/|$)/.test(path);
+        const is16 = /\/coloros\/16(\/|$)/.test(path);
+        const isMonthly = isColorOS && !is15 && !is16;
         const subLinks = colorOSMenu.querySelectorAll('.brand-submenu a');
         if (subLinks && subLinks.length >= 3) {
           subLinks[0].classList.toggle('active', is15);
@@ -69,8 +69,8 @@
         } else if (!isOriginOS && hl) {
           hl.remove();
         }
-        const is6 = path.includes('/originos/6');
-        const isMonthly = !is6;
+        const is6 = /\/originos\/6(\/|$)/.test(path);
+        const isMonthly = isOriginOS && !is6;
         const subLinks = originOSMenu.querySelectorAll('.brand-submenu a');
         if (subLinks && subLinks.length >= 2) {
           subLinks[0].classList.toggle('active', is6);
@@ -90,11 +90,11 @@
         } else if (!isHyperOS && hl) {
           hl.remove();
         }
-        const is4 = path.includes('/hyperos/4');
-        const is3 = path.includes('/hyperos/3');
-        const is2 = path.includes('/hyperos/2');
-        const is1 = path.includes('/hyperos/1');
-        const isMonthly = !is4 && !is3 && !is2 && !is1;
+        const is4 = /\/hyperos\/4(\/|$)/.test(path);
+        const is3 = /\/hyperos\/3(\/|$)/.test(path);
+        const is2 = /\/hyperos\/2(\/|$)/.test(path);
+        const is1 = /\/hyperos\/1(\/|$)/.test(path);
+        const isMonthly = isHyperOS && !is4 && !is3 && !is2 && !is1;
         const subLinks = hyperOSMenu.querySelectorAll('.brand-submenu a');
         if (subLinks && subLinks.length >= 5) {
           subLinks[0].classList.toggle('active', is4);
@@ -123,41 +123,6 @@
 
     const brandSwitcher = document.querySelector('.brand-switcher');
     const activeNavTab = brandSwitcher?.querySelector('.active');
-    if (brandSwitcher && mobileTabs.matches) {
-      const updateScrollMask = () => {
-        const isLeft = brandSwitcher.scrollLeft <= 2;
-        const isRight = brandSwitcher.scrollLeft + brandSwitcher.clientWidth >= brandSwitcher.scrollWidth - 2;
-        brandSwitcher.dataset.maskLeft = String(!isLeft);
-        brandSwitcher.dataset.maskRight = String(!isRight);
-      };
-
-      brandSwitcher.addEventListener('scroll', updateScrollMask, { passive: true, signal });
-
-      if (activeNavTab) {
-        setTimeout(() => {
-          const isFirst = activeNavTab === brandSwitcher.firstElementChild;
-          const isLast = !activeNavTab.nextElementSibling || activeNavTab === brandSwitcher.lastElementChild;
-          if (isFirst) {
-            brandSwitcher.scrollTo({ left: 0, behavior: 'smooth' });
-          } else if (isLast) {
-            brandSwitcher.scrollTo({ left: brandSwitcher.scrollWidth, behavior: 'smooth' });
-          } else {
-            const containerWidth = brandSwitcher.clientWidth;
-            const itemLeft = activeNavTab.offsetLeft;
-            const itemWidth = activeNavTab.offsetWidth;
-            brandSwitcher.scrollTo({
-              left: Math.max(0, itemLeft - (containerWidth / 2) + (itemWidth / 2)),
-              behavior: 'smooth'
-            });
-          }
-          setTimeout(updateScrollMask, 250);
-        }, 50);
-      } else {
-        updateScrollMask();
-      }
-    }
-
-    const brandMenus = document.querySelectorAll('.brand-menu');
     
     let mobilePopover = document.querySelector('.mobile-brand-popover');
     if (!mobilePopover) {
@@ -168,6 +133,54 @@
     }
     
     let currentOpenMenu = null;
+
+    const updatePopoverPosition = () => {
+      if (!currentOpenMenu || !mobilePopover || !mobilePopover.classList.contains('open')) return;
+      const trigger = currentOpenMenu.querySelector('.brand-trigger');
+      if (trigger) {
+        const rect = trigger.getBoundingClientRect();
+        const popoverWidth = mobilePopover.offsetWidth || 150;
+        const halfW = popoverWidth / 2 + 10;
+        const centerX = Math.max(halfW, Math.min(window.innerWidth - halfW, rect.left + rect.width / 2));
+        mobilePopover.style.setProperty('--popover-x', `${centerX}px`);
+      }
+    };
+
+    if (brandSwitcher && mobileTabs.matches) {
+      const updateScrollMask = () => {
+        const isLeft = brandSwitcher.scrollLeft <= 2;
+        const isRight = brandSwitcher.scrollLeft + brandSwitcher.clientWidth >= brandSwitcher.scrollWidth - 2;
+        brandSwitcher.dataset.maskLeft = String(!isLeft);
+        brandSwitcher.dataset.maskRight = String(!isRight);
+      };
+
+      brandSwitcher.addEventListener('scroll', () => {
+        updateScrollMask();
+        updatePopoverPosition();
+      }, { passive: true, signal });
+
+      window.addEventListener('resize', updatePopoverPosition, { passive: true, signal });
+
+      if (activeNavTab) {
+        const isFirst = activeNavTab === brandSwitcher.firstElementChild;
+        const isLast = !activeNavTab.nextElementSibling || activeNavTab === brandSwitcher.lastElementChild;
+        if (isFirst) {
+          brandSwitcher.scrollLeft = 0;
+        } else if (isLast) {
+          brandSwitcher.scrollLeft = brandSwitcher.scrollWidth;
+        } else {
+          const containerWidth = brandSwitcher.clientWidth;
+          const itemLeft = activeNavTab.offsetLeft;
+          const itemWidth = activeNavTab.offsetWidth;
+          brandSwitcher.scrollLeft = Math.max(0, itemLeft - (containerWidth / 2) + (itemWidth / 2));
+        }
+        updateScrollMask();
+      } else {
+        updateScrollMask();
+      }
+    }
+
+    const brandMenus = document.querySelectorAll('.brand-menu');
 
     const closeAllBrandMenus = () => {
       brandMenus.forEach(m => {
@@ -191,10 +204,8 @@
 
         if (mobileTabs.matches && trigger && submenu && items.length > 0) {
           mobilePopover.innerHTML = submenu.innerHTML;
-          const rect = trigger.getBoundingClientRect();
-          const centerX = Math.max(95, Math.min(window.innerWidth - 95, rect.left + rect.width / 2));
-          mobilePopover.style.setProperty('--popover-x', `${centerX}px`);
           mobilePopover.classList.add('open');
+          updatePopoverPosition();
 
           mobilePopover.querySelectorAll('a').forEach(link => {
             link.addEventListener('click', () => {
@@ -304,14 +315,13 @@
               const submenu = targetMenu.querySelector('.brand-submenu');
               const items = submenu?.querySelectorAll('[role="menuitem"]') ?? [];
               if (submenu && items.length > 0) {
+                closeAllBrandMenus();
+                currentOpenMenu = targetMenu;
                 mobilePopover.innerHTML = submenu.innerHTML;
-                const rect = trigger.getBoundingClientRect();
-                const centerX = Math.max(95, Math.min(window.innerWidth - 95, rect.left + rect.width / 2));
-                mobilePopover.style.setProperty('--popover-x', `${centerX}px`);
                 mobilePopover.classList.add('open');
+                updatePopoverPosition();
                 targetMenu.classList.add('open');
                 trigger?.setAttribute('aria-expanded', 'true');
-                currentOpenMenu = targetMenu;
 
                 mobilePopover.querySelectorAll('a').forEach(link => {
                   link.addEventListener('click', () => {
@@ -320,7 +330,7 @@
                   }, { signal });
                 });
               }
-            }, 120);
+            }, 60);
           }
         }
       } catch {}

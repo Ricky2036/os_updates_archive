@@ -17,9 +17,10 @@ interface Props {
   activeBrand?: Brand | null;
   activeColorOSSection?: ColorOSSection;
   activeOriginOSSection?: ColorOSSection;
+  activeHyperOSSection?: string;
 }
 
-const { title, description = 'ColorOS 与 OriginOS 系统升级档案，快速、清晰地回顾每一次体验更新。', brand = 'coloros', canonicalPath = Astro.url.pathname, image = 'assets/images/logo.png', articleMeta, hasArchiveNav = false, hasMonthlyViewToggle = false, activeBrand = brand, activeColorOSSection, activeOriginOSSection } = Astro.props;
+const { title, description = 'ColorOS 与 OriginOS 系统升级档案，快速、清晰地回顾每一次体验更新。', brand = 'coloros', canonicalPath = Astro.url.pathname, image = 'assets/images/logo.png', articleMeta, hasArchiveNav = false, hasMonthlyViewToggle = false, activeBrand = brand, activeColorOSSection, activeOriginOSSection, activeHyperOSSection } = Astro.props;
 const meta = brandMeta[brand];
 const siteUrl = (import.meta.env.PUBLIC_SITE_URL || 'https://ricky2036.github.io/os_updates_archive').replace(/\/$/, '');
 const base = import.meta.env.BASE_URL || '/';
@@ -72,7 +73,7 @@ const jsonLd = articleMeta ? {
       <i class="ambient-blob blob-violet-b"></i>
     </div>
     <a class="skip-link" href="#main-content">跳到主要内容</a>
-    <SiteHeader activeBrand={activeBrand ?? undefined} hasArchiveNav={hasArchiveNav} hasMonthlyViewToggle={hasMonthlyViewToggle} activeColorOSSection={activeColorOSSection} activeOriginOSSection={activeOriginOSSection} />
+    <SiteHeader activeBrand={activeBrand ?? undefined} hasArchiveNav={hasArchiveNav} hasMonthlyViewToggle={hasMonthlyViewToggle} activeColorOSSection={activeColorOSSection} activeOriginOSSection={activeOriginOSSection} activeHyperOSSection={activeHyperOSSection} />
     <div id="main-content"><slot /></div>
     <script is:inline src={sitePath('scripts/archive-ui.js')} data-astro-rerun></script>
   </body>

@@ -487,7 +487,7 @@ body:has(.brand-menu.open) .monthly-view-toolbar { opacity: 0; visibility: hidde
     z-index: -1;
     border-radius: 999px;
     background: rgba(255, 255, 255, 0.95);
-    box-shadow: 0 2px 8px rgba(39, 63, 116, 0.12), inset 0 0 0 1px rgba(255, 255, 255, 0.9);
+    box-shadow: none;
     pointer-events: none;
   }
   ::view-transition-group(brand-highlight), ::view-transition-old(brand-highlight), ::view-transition-new(brand-highlight) {
@@ -517,13 +517,13 @@ body:has(.brand-menu.open) .monthly-view-toolbar { opacity: 0; visibility: hidde
   }
   .mobile-brand-popover {
     position: fixed;
-    bottom: calc(max(14px, env(safe-area-inset-bottom)) + 58px);
+    bottom: calc(max(14px, env(safe-area-inset-bottom)) + 56px);
     left: var(--popover-x, 50%);
     transform: translate(-50%, 8px) scale(0.95);
     display: grid;
-    width: 170px;
+    width: 150px;
     padding: 6px;
-    border-radius: 20px;
+    border-radius: 18px;
     border: 1px solid rgba(255, 255, 255, 0.88);
     background: rgba(246, 248, 252, 0.94);
     box-shadow: 0 16px 42px rgba(31, 44, 76, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.95);
