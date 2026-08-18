@@ -173,7 +173,11 @@
         }
       }, { signal });
 
-      items.forEach(item => item.addEventListener('click', closeAllBrandMenus, { signal }));
+      items.forEach(item => item.addEventListener('click', () => {
+        if (mobileTabs.matches) {
+          closeAllBrandMenus();
+        }
+      }, { signal }));
     });
 
     // Check if we should auto-open menu on mobile load
