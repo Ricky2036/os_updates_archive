@@ -710,10 +710,10 @@ html[data-monthly-view="original"] .header-view-toggle .icon-digest {
   transform: rotate(0deg) scale(1);
 }
 
-/* Menu toggle (Hamburger ↔ Close) */
+/* Menu toggle (Sidebar ↔ Close) */
 .menu-button .icon-close {
   opacity: 0;
-  transform: rotate(90deg) scale(0.82);
+  transform: rotate(-90deg) scale(0.82);
   pointer-events: none;
 }
 .menu-button .icon-menu {
@@ -723,7 +723,7 @@ html[data-monthly-view="original"] .header-view-toggle .icon-digest {
 .menu-button[aria-expanded="true"] .icon-menu,
 body.nav-open .menu-button .icon-menu {
   opacity: 0;
-  transform: rotate(-90deg) scale(0.82);
+  transform: rotate(90deg) scale(0.82);
   pointer-events: none;
 }
 .menu-button[aria-expanded="true"] .icon-close,
