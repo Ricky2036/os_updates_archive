@@ -36,7 +36,7 @@ const highlightHeading = isHyperOS4 ? '更新功能一览' : '更新亮点';
     <div class="digest-table-scroll" tabindex="0" role="region" aria-label="更新亮点表格，可左右滑动" data-digest-scroll>
       <table class="digest-table digest-highlight-table">
         <colgroup><col /><col /><col /><col /></colgroup>
-        <thead><tr><th scope="col">模块</th><th scope="col">更新点</th><th scope="col">详细更新说明</th><th scope="col">参考截图/视频</th></tr></thead>
+        <thead><tr><th scope="col">模块</th><th scope="col">更新点</th><th scope="col">详细更新说明</th><th scope="col">演示资源</th></tr></thead>
         <tbody>
           {highlightGroups.map((group) => (
             group.items.map((item, index) => (
@@ -67,7 +67,7 @@ const highlightHeading = isHyperOS4 ? '更新功能一览' : '更新亮点';
                         </button>
                       ))}
                     </div>
-                  ) : <span class="digest-media-empty">原档案未提供演示</span>}
+                  ) : <span class="digest-media-empty">/</span>}
                 </td>
               </tr>
             ))

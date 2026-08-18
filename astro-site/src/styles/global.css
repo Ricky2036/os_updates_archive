@@ -273,8 +273,8 @@ body:has(.brand-menu.open) .monthly-view-toolbar { opacity: 0; visibility: hidde
 .digest-highlight-table, .digest-update-table { table-layout: fixed; width: 100%; }
 .digest-highlight-table col:nth-child(1) { width: 15%; }
 .digest-highlight-table col:nth-child(2) { width: 21%; }
-.digest-highlight-table col:nth-child(3) { width: 41%; }
-.digest-highlight-table col:nth-child(4) { width: 23%; }
+.digest-highlight-table col:nth-child(3) { width: 43%; }
+.digest-highlight-table col:nth-child(4) { width: 21%; }
 .digest-update-table col:nth-child(1) { width: 18%; }
 .digest-update-table col:nth-child(2) { width: 14%; }
 .digest-update-table col:nth-child(3) { width: 68%; }
@@ -607,9 +607,9 @@ body:has(.brand-menu.open) .monthly-view-toolbar { opacity: 0; visibility: hidde
   .digest-table { width: 100%; font-size: 12px; line-height: 1.48; }
   .digest-highlight-table { min-width: 100%; width: 100%; table-layout: fixed; }
   .digest-highlight-table col:nth-child(1) { width: 16%; }
-  .digest-highlight-table col:nth-child(2) { width: 25%; }
+  .digest-highlight-table col:nth-child(2) { width: 21%; }
   .digest-highlight-table col:nth-child(3) { width: 42%; }
-  .digest-highlight-table col:nth-child(4) { width: 17%; }
+  .digest-highlight-table col:nth-child(4) { width: 21%; }
   .digest-update-table { min-width: 100%; width: 100%; table-layout: fixed; }
   .digest-update-table col:nth-child(1) { width: 19%; }
   .digest-update-table col:nth-child(2) { width: 17%; }
@@ -622,9 +622,9 @@ body:has(.brand-menu.open) .monthly-view-toolbar { opacity: 0; visibility: hidde
   .digest-module-inner svg { width: 14px; height: 14px; }
   .digest-title { font-size: 12px; font-weight: 700; }
   .digest-type { min-width: 32px; min-height: 20px; padding: 2px 5px; font-size: 9px; }
-  .digest-media-button { width: 100%; max-width: 52px; aspect-ratio: 16 / 9; border-radius: 5px; }
+  .digest-media-button { width: 100%; max-width: 60px; aspect-ratio: 16 / 9; border-radius: 5px; }
   .digest-media-button > span { min-width: 15px; height: 15px; font-size: 7px; padding: 0 2px; right: 2px; bottom: 2px; }
-  .digest-media-empty { font-size: 10px; line-height: 1.3; color: #9aa1ab; }
+  .digest-media-empty { font-size: 13px; font-weight: 700; color: #9aa1ab; }
   .digest-lightbox { width: calc(100vw - 20px); max-height: calc(100dvh - 20px); border-radius: 18px; }
   .digest-lightbox-stage { max-height: calc(100dvh - 130px); }
   .digest-lightbox-stage img, .digest-lightbox-stage video { max-height: calc(100dvh - 130px); }
