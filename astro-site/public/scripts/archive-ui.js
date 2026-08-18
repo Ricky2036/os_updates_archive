@@ -31,9 +31,13 @@
 
       if (activeNavTab) {
         setTimeout(() => {
-          try {
-            activeNavTab.scrollIntoView({ inline: 'center', block: 'nearest', behavior: 'smooth' });
-          } catch {
+          const isFirst = activeNavTab === brandSwitcher.firstElementChild;
+          const isLast = !activeNavTab.nextElementSibling || activeNavTab === brandSwitcher.lastElementChild;
+          if (isFirst) {
+            brandSwitcher.scrollTo({ left: 0, behavior: 'smooth' });
+          } else if (isLast) {
+            brandSwitcher.scrollTo({ left: brandSwitcher.scrollWidth, behavior: 'smooth' });
+          } else {
             const containerWidth = brandSwitcher.clientWidth;
             const itemLeft = activeNavTab.offsetLeft;
             const itemWidth = activeNavTab.offsetWidth;
@@ -42,7 +46,7 @@
               behavior: 'smooth'
             });
           }
-          setTimeout(updateScrollMask, 200);
+          setTimeout(updateScrollMask, 250);
         }, 50);
       } else {
         updateScrollMask();
