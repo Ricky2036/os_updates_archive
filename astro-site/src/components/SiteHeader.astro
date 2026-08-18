@@ -3,8 +3,8 @@ import Icon from './Icon.astro';
 import { brandMeta, sitePath, getArticles, articlePath, type Brand } from '../lib/archive';
 import { officialArchiveMeta, type ColorOSSection } from '../lib/official-archives';
 
-interface Props { activeBrand?: Brand; hasArchiveNav?: boolean; hasMonthlyViewToggle?: boolean; activeColorOSSection?: ColorOSSection; activeOriginOSSection?: ColorOSSection }
-const { activeBrand, hasArchiveNav = false, hasMonthlyViewToggle = false, activeColorOSSection = activeBrand === 'coloros' ? 'monthly' : undefined, activeOriginOSSection = activeBrand === 'originos' ? 'monthly' : undefined } = Astro.props;
+interface Props { activeBrand?: Brand; hasArchiveNav?: boolean; hasMonthlyViewToggle?: boolean; activeColorOSSection?: ColorOSSection; activeOriginOSSection?: ColorOSSection; activeHyperOSSection?: string; }
+const { activeBrand, hasArchiveNav = false, hasMonthlyViewToggle = false, activeColorOSSection = activeBrand === 'coloros' ? 'monthly' : undefined, activeOriginOSSection = activeBrand === 'originos' ? 'monthly' : undefined, activeHyperOSSection = activeBrand === 'hyperos' ? 'monthly' : undefined } = Astro.props;
 const colorOSActive = activeBrand === 'coloros';
 const originOSActive = activeBrand === 'originos';
 const hyperOSActive = activeBrand === 'hyperos';
@@ -69,10 +69,19 @@ const magicOSLatestUrl = getLatestUrl('magicos');
         <a class:list={{ active: activeOriginOSSection !== 'originos6' }} role="menuitem" href={originOSLatestUrl}>月更记录</a>
       </div>
     </div>
-    <a class:list={{ 'brand-tab': true, active: hyperOSActive }} href={hyperOSLatestUrl}>
-      {hyperOSActive && <div class="nav-highlight" transition:name="brand-highlight"></div>}
-      <span style="position: relative; z-index: 10;" data-text={brandMeta.hyperos.name}>{brandMeta.hyperos.name}</span>
-    </a>
+    <div class:list={{ 'brand-menu': true, active: hyperOSActive }}>
+      <a class="brand-tab brand-trigger" href={hyperOSLatestUrl} aria-haspopup="menu" aria-expanded="false">
+        {hyperOSActive && <div class="nav-highlight" transition:name="brand-highlight"></div>}
+        <span style="position: relative; z-index: 10;" data-text={brandMeta.hyperos.name}>{brandMeta.hyperos.name}</span><i aria-hidden="true"></i>
+      </a>
+      <div class="brand-submenu" role="menu" aria-label="HyperOS 档案">
+        <a class:list={{ active: activeHyperOSSection === '4' }} role="menuitem" href={officialArchiveMeta['hyperos4'].route} data-astro-reload>HyperOS 4</a>
+        <a class:list={{ active: activeHyperOSSection === '3' }} role="menuitem" href={officialArchiveMeta['hyperos3'].route} data-astro-reload>HyperOS 3</a>
+        <a class:list={{ active: activeHyperOSSection === '2' }} role="menuitem" href={officialArchiveMeta['hyperos2'].route} data-astro-reload>HyperOS 2</a>
+        <a class:list={{ active: activeHyperOSSection === '1' }} role="menuitem" href={officialArchiveMeta['hyperos1'].route} data-astro-reload>HyperOS 1</a>
+        <a class:list={{ active: activeHyperOSSection !== '1' && activeHyperOSSection !== '2' && activeHyperOSSection !== '3' && activeHyperOSSection !== '4' }} role="menuitem" href={hyperOSLatestUrl}>月更记录</a>
+      </div>
+    </div>
     <a class:list={{ 'brand-tab': true, active: magicOSActive }} href={magicOSLatestUrl}>
       {magicOSActive && <div class="nav-highlight" transition:name="brand-highlight"></div>}
       <span style="position: relative; z-index: 10;" data-text={brandMeta.magicos.name}>{brandMeta.magicos.name}</span>

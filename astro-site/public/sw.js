@@ -15,7 +15,17 @@ self.addEventListener('fetch', event => {
         'coloros-website-cn.allawnfs.com',
         'hm.baidu.com',
         'dsfs.oppo.com',
-        'vivo.com.cn'
+        'vivo.com.cn',
+        'hyperos.mi.com',
+        'os1.hyperos.mi.com',
+        'os2.hyperos.mi.com',
+        'os3.hyperos.mi.com',
+        'cdn-file.hyperos.mi.com',
+        'cdn-font.hyperos.mi.com',
+        'cdn.cnbj1.fds.api.mi-img.com',
+        'ssl-cdn.static.browser.mi-img.com',
+        'cia.hyperos.mi.com',
+        's01.mifile.cn'
     ];
 
     if (targetDomains.some(domain => url.hostname.includes(domain))) {

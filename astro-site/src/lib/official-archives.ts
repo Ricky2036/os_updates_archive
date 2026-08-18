@@ -1,6 +1,6 @@
 import { sitePath } from './archive';
 
-export type OfficialArchiveVersion = '15' | '16' | 'originos6';
+export type OfficialArchiveVersion = '15' | '16' | 'originos6' | 'hyperos1' | 'hyperos2' | 'hyperos3' | 'hyperos4';
 export type OfficialArchiveViewport = 'mobile' | 'pad' | 'desktop';
 export type ColorOSSection = 'monthly' | OfficialArchiveVersion;
 
@@ -21,7 +21,6 @@ export const officialArchiveMeta: Record<OfficialArchiveVersion, {
     label: 'ColorOS 15',
     folder: 'coloros15',
     route: sitePath('coloros/15/'),
-    // Puppeteer saved desktop as index.html and mobile as mobile.html
     entries: { desktop: 'index.html', pad: 'index.html', mobile: 'mobile.html' },
   },
   '16': {
@@ -38,17 +37,52 @@ export const officialArchiveMeta: Record<OfficialArchiveVersion, {
     route: sitePath('originos/6/'),
     entries: { desktop: 'originos.html', pad: 'originos.html', mobile: 'originos.html' },
   },
+  'hyperos1': {
+    title: 'Xiaomi HyperOS 1 官方网站存档',
+    label: 'HyperOS 1',
+    folder: 'hyperos1',
+    route: sitePath('hyperos/1/'),
+    entries: { desktop: 'index.html', pad: 'index.html', mobile: 'mobile.html' },
+  },
+  'hyperos2': {
+    title: 'Xiaomi HyperOS 2 官方网站存档',
+    label: 'HyperOS 2',
+    folder: 'hyperos2',
+    route: sitePath('hyperos/2/'),
+    entries: { desktop: 'index.html', pad: 'index.html', mobile: 'mobile.html' },
+  },
+  'hyperos3': {
+    title: 'Xiaomi HyperOS 3 官方网站存档',
+    label: 'HyperOS 3',
+    folder: 'hyperos3',
+    route: sitePath('hyperos/3/'),
+    entries: { desktop: 'index.html', pad: 'index.html', mobile: 'mobile.html' },
+  },
+  'hyperos4': {
+    title: 'Xiaomi HyperOS 4 官方网站存档',
+    label: 'HyperOS 4',
+    folder: 'hyperos4',
+    route: sitePath('hyperos/4/'),
+    entries: { desktop: 'index.html', pad: 'index.html', mobile: 'mobile.html' },
+  },
 };
 
 export function officialArchiveUrl(version: OfficialArchiveVersion, viewport: OfficialArchiveViewport) {
-  // Use the local self-hosted static files in the public directory
+  const entry = officialArchiveMeta[version].entries[viewport];
   if (version === '16') {
-    return sitePath(`official_archives/www.coloros.com/version/coloros16/${officialArchiveMeta[version].entries[viewport]}`);
+    return sitePath(`official_archives/www.coloros.com/version/coloros16/${entry}`);
   } else if (version === '15') {
-    // Return the native HTML path saved by Puppeteer
-    return sitePath(`official_archives/www.coloros.com/version/coloros15/${officialArchiveMeta[version].entries[viewport]}`);
+    return sitePath(`official_archives/www.coloros.com/version/coloros15/${entry}`);
   } else if (version === 'originos6') {
-    return sitePath(`official_archives/www.vivo.com.cn/${officialArchiveMeta[version].entries[viewport]}`);
+    return sitePath(`official_archives/www.vivo.com.cn/${entry}`);
+  } else if (version === 'hyperos1') {
+    return sitePath(`official_archives/os1.hyperos.mi.com/${entry}`);
+  } else if (version === 'hyperos2') {
+    return sitePath(`official_archives/os2.hyperos.mi.com/${entry}`);
+  } else if (version === 'hyperos3') {
+    return sitePath(`official_archives/os3.hyperos.mi.com/${entry}`);
+  } else if (version === 'hyperos4') {
+    return sitePath(`official_archives/hyperos.mi.com/${entry}`);
   }
   return '';
 }

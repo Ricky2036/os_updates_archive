@@ -78,16 +78,30 @@
         }
       }
 
-      const hyperOSTab = document.querySelector('.brand-tab[href*="hyperos"]');
-      if (hyperOSTab) {
-        hyperOSTab.classList.toggle('active', isHyperOS);
-        let hl = hyperOSTab.querySelector('.nav-highlight');
-        if (isHyperOS && !hl) {
+      const hyperOSMenu = document.querySelector('.brand-menu:nth-child(4)');
+      if (hyperOSMenu) {
+        hyperOSMenu.classList.toggle('active', isHyperOS);
+        const trigger = hyperOSMenu.querySelector('.brand-trigger');
+        let hl = trigger?.querySelector('.nav-highlight');
+        if (isHyperOS && !hl && trigger) {
           hl = document.createElement('div');
           hl.className = 'nav-highlight';
-          hyperOSTab.prepend(hl);
+          trigger.prepend(hl);
         } else if (!isHyperOS && hl) {
           hl.remove();
+        }
+        const is4 = path.includes('/hyperos/4');
+        const is3 = path.includes('/hyperos/3');
+        const is2 = path.includes('/hyperos/2');
+        const is1 = path.includes('/hyperos/1');
+        const isMonthly = !is4 && !is3 && !is2 && !is1;
+        const subLinks = hyperOSMenu.querySelectorAll('.brand-submenu a');
+        if (subLinks && subLinks.length >= 5) {
+          subLinks[0].classList.toggle('active', is4);
+          subLinks[1].classList.toggle('active', is3);
+          subLinks[2].classList.toggle('active', is2);
+          subLinks[3].classList.toggle('active', is1);
+          subLinks[4].classList.toggle('active', isMonthly);
         }
       }
 
