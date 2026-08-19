@@ -41,9 +41,31 @@ const extractMonthName = (id: string): string => {
   return '本月';
 };
 
+const generateMonthlySummary = (highlights: typeof data.highlights, updates: typeof data.updates): string => {
+  const totalCount = highlights.length + updates.length;
+  if (!highlights.length) {
+    if (updates.length) {
+      const topModules = [...new Set(updates.map(u => u.module))].slice(0, 3).join('、');
+      return `聚焦${topModules}等 ${totalCount} 项系统基础体验优化。`;
+    }
+    return '聚焦系统功能变化与日常体验全面升级。';
+  }
+
+  const topTitles = highlights.slice(0, 3).map(h => h.title);
+  if (topTitles.length === 1) {
+    return `重点升级${topTitles[0]}，共带来 ${totalCount} 项功能升级与细节体验优化。`;
+  }
+  if (topTitles.length === 2) {
+    return `重点升级${topTitles[0]}与${topTitles[1]}，共带来 ${totalCount} 项功能升级与细节体验优化。`;
+  }
+
+  const formattedTitles = `${topTitles.slice(0, -1).join('、')}及${topTitles[topTitles.length - 1]}`;
+  return `重点升级${formattedTitles}，共带来 ${totalCount} 项功能升级与细节体验优化。`;
+};
+
 const monthName = extractMonthName(data.articleId);
 const heading = isHyperOS4 ? '小米澎湃OS 4 更新说明' : `${monthName}升级一览`;
-const subtitle = isHyperOS4 ? '全面升级的一气呵成体验。' : '一句话总结本月更新重点！';
+const subtitle = isHyperOS4 ? '全面升级的一气呵成体验。' : generateMonthlySummary(data.highlights, data.updates);
 const highlightHeading = isHyperOS4 ? '更新功能一览' : '更新亮点';
 ---
 <section class="monthly-digest" data-monthly-digest aria-labelledby="digest-heading">
