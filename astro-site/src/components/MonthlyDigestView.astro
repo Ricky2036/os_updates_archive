@@ -17,13 +17,38 @@ for (const item of data.highlights) {
   }
 }
 const isHyperOS4 = data.articleId.includes('HyperOS_4');
-const heading = isHyperOS4 ? '小米澎湃OS 4 更新说明' : '本月更新一览';
-const subtitle = isHyperOS4 ? '全面升级的一气呵成体验。' : '聚焦功能变化与体验升级。点击缩略图查看高清动图与视频。';
+
+const monthMap: Record<string, string> = {
+  '1': '一月', '01': '一月', '一': '一月',
+  '2': '二月', '02': '二月', '二': '二月',
+  '3': '三月', '03': '三月', '三': '三月',
+  '4': '四月', '04': '四月', '四': '四月',
+  '5': '五月', '05': '五月', '五': '五月',
+  '6': '六月', '06': '六月', '六': '六月',
+  '7': '七月', '07': '七月', '七': '七月',
+  '8': '八月', '08': '八月', '八': '八月',
+  '9': '九月', '09': '九月', '九': '九月',
+  '10': '十月', '十': '十月',
+  '11': '十一月', '十一': '十一月',
+  '12': '十二月', '十二': '十二月'
+};
+
+const extractMonthName = (id: string): string => {
+  const m1 = id.match(/([0-9]{1,2}|[一二三四五六七八九十]+)月/);
+  if (m1 && monthMap[m1[1]]) return monthMap[m1[1]];
+  const m2 = id.match(/202[0-9][-_\.](\d{2})/);
+  if (m2 && monthMap[m2[1]]) return monthMap[m2[1]];
+  return '本月';
+};
+
+const monthName = extractMonthName(data.articleId);
+const heading = isHyperOS4 ? '小米澎湃OS 4 更新说明' : `${monthName}升级一览`;
+const subtitle = isHyperOS4 ? '全面升级的一气呵成体验。' : '一句话总结本月更新重点！';
 const highlightHeading = isHyperOS4 ? '更新功能一览' : '更新亮点';
 ---
 <section class="monthly-digest" data-monthly-digest aria-labelledby="digest-heading">
   <header class="digest-intro">
-    <p class="eyebrow">文字精简版</p>
+    <p class="eyebrow">文字精校版</p>
     <h2 id="digest-heading">{heading}</h2>
     <p>{subtitle}</p>
   </header>
