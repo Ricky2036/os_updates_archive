@@ -99,7 +99,7 @@ const digest = digestEntry?.data.reviewStatus === 'verified' ? digestEntry : und
         <div class="footer-pull-wrapper" data-footer-pull-wrapper>
           <div class="article-footer-links" data-footer-links>
             {prevArticle ? (
-              <a href={articlePath(prevArticle)} class="footer-nav-link" data-nav-prev>上一篇</a>
+              <a href={articlePath(prevArticle)} class="footer-nav-link" data-nav-prev data-astro-prefetch="hover">上一篇</a>
             ) : (
               <span class="footer-nav-link is-disabled">上一篇</span>
             )}
@@ -107,14 +107,14 @@ const digest = digestEntry?.data.reviewStatus === 'verified' ? digestEntry : und
             <button type="button" class="footer-nav-link footer-nav-top" data-scroll-top>回顶部</button>
             <span class="footer-nav-divider" aria-hidden="true">｜</span>
             {nextArticle ? (
-              <a href={articlePath(nextArticle)} class="footer-nav-link" data-nav-next>下一篇</a>
+              <a href={articlePath(nextArticle)} class="footer-nav-link" data-nav-next data-astro-prefetch="hover">下一篇</a>
             ) : (
               <span class="footer-nav-link is-disabled">下一篇</span>
             )}
           </div>
           <div class="footer-pull-hint" data-footer-pull-hint aria-hidden="true">
             <span class="pull-hint-icon">↑</span>
-            <span class="pull-hint-text" data-pull-hint-text>{nextArticle ? '查看下一篇' : '已是最后一篇'}</span>
+            <span class="pull-hint-text" data-pull-hint-text>{nextArticle ? '松手查看下一篇' : '已是最后一篇'}</span>
           </div>
         </div>
       </nav>

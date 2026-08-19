@@ -218,6 +218,51 @@
       }
     };
 
+    const setOptimisticActiveTab = (targetEl) => {
+      if (!targetEl || !brandSwitcher) return;
+      const targetTab = targetEl.closest('.brand-menu') || targetEl.closest('.home-tab') || targetEl.closest('.brand-tab');
+      if (!targetTab) return;
+
+      const allTabsAndMenus = brandSwitcher.querySelectorAll('.home-tab, .brand-menu, .brand-tab');
+      allTabsAndMenus.forEach(el => el.classList.remove('active'));
+      targetTab.classList.add('active');
+
+      const existingHl = brandSwitcher.querySelector('.nav-highlight');
+      if (existingHl) existingHl.remove();
+
+      const newHl = document.createElement('div');
+      newHl.className = 'nav-highlight';
+
+      const triggerOrAnchor = targetTab.querySelector('.brand-trigger') || targetTab;
+      triggerOrAnchor.prepend(newHl);
+
+      if (mobileTabs.matches) {
+        const targetScroll = getOptimalTabScrollLeft(targetTab);
+        brandSwitcher.scrollTo({ left: targetScroll, behavior: 'smooth' });
+      }
+    };
+
+    const prefetchUrl = (url) => {
+      if (!url || url.startsWith('#') || url.startsWith('javascript:')) return;
+      if (document.querySelector(`link[rel="prefetch"][href="${url}"]`)) return;
+      const link = document.createElement('link');
+      link.rel = 'prefetch';
+      link.href = url;
+      document.head.appendChild(link);
+    };
+
+    // Instant prefetch & optimistic highlight on touch
+    brandSwitcher?.addEventListener('pointerdown', (e) => {
+      const anchor = e.target.closest('a');
+      if (anchor) {
+        prefetchUrl(anchor.href);
+        const targetTab = anchor.closest('.brand-menu') || anchor.closest('.home-tab') || anchor.closest('.brand-tab');
+        if (targetTab && !targetTab.classList.contains('active')) {
+          setOptimisticActiveTab(targetTab);
+        }
+      }
+    }, { passive: true, signal });
+
     if (brandSwitcher && mobileTabs.matches) {
       const updateScrollMask = () => {
         const isLeft = brandSwitcher.scrollLeft <= 2;
@@ -245,6 +290,7 @@
     const homeTab = document.querySelector('.home-tab');
     homeTab?.addEventListener('click', () => {
       if (mobileTabs.matches && brandSwitcher) {
+        setOptimisticActiveTab(homeTab);
         brandSwitcher.scrollTo({ left: 0, behavior: 'smooth' });
       }
     }, { signal });
@@ -252,6 +298,7 @@
     const magicOSTab = document.querySelector('.brand-tab[href*="magicos"]');
     magicOSTab?.addEventListener('click', () => {
       if (mobileTabs.matches && brandSwitcher) {
+        setOptimisticActiveTab(magicOSTab);
         brandSwitcher.scrollTo({ left: brandSwitcher.scrollWidth, behavior: 'smooth' });
       }
     }, { signal });
@@ -284,9 +331,9 @@
           mobilePopover.classList.add('open');
           startTrackingPopover();
 
-          mobilePopover.querySelectorAll('a').forEach(link => {
-            link.addEventListener('click', () => {
-              closeAllBrandMenus();
+          mobilePopover.querySelectorAll('a').forEach(subLink => {
+            subLink.addEventListener('click', () => {
+              closeBrandMenu();
             }, { signal });
           });
         }
@@ -332,11 +379,14 @@
                 openBrandMenu();
               }
             } else {
+              setOptimisticActiveTab(menu);
               try {
                 const brandText = trigger.querySelector('span')?.getAttribute('data-text') || '';
                 sessionStorage.setItem('openBrandMenuOnLoad', brandText.toLowerCase());
               } catch {}
             }
+          } else {
+            setOptimisticActiveTab(menu);
           }
         }
       }, { signal });
@@ -628,7 +678,14 @@
       signal.addEventListener('abort', () => observer.disconnect(), { once: true });
     });
 
-    document.body.classList.remove('page-slide-up-exit');
+    document.body.classList.remove('page-card-exit-up');
+    if (sessionStorage.getItem('os-archive:pull-navigated') === 'true') {
+      sessionStorage.removeItem('os-archive:pull-navigated');
+      document.body.classList.add('page-card-enter-up');
+      setTimeout(() => {
+        document.body.classList.remove('page-card-enter-up');
+      }, 500);
+    }
 
     // Article footer navigation & Mobile pull-up gesture
     const initArticleFooterNav = () => {
@@ -652,7 +709,7 @@
       let touchStartX = 0;
       let isPulling = false;
       let thresholdReached = false;
-      const PULL_THRESHOLD = 38;
+      const PULL_THRESHOLD = 52; // +50% higher threshold (requires ~105px finger pull)
 
       const onTouchStart = (e) => {
         if (e.touches.length !== 1) return;
@@ -675,24 +732,26 @@
           isPulling = true;
           footerNav.classList.add('is-pulling');
           const pullDist = Math.abs(dy);
-          const damped = Math.min(85, Math.pow(pullDist, 0.72) * 1.6);
+          // Increased damping resistance (stronger rubber-band feel)
+          const damped = Math.min(95, Math.pow(pullDist, 0.68) * 2.2);
           pullWrapper.style.transform = `translate3d(0, -${damped}px, 0)`;
           pullWrapper.style.transition = 'none';
 
           if (nextUrl) {
+            prefetchUrl(nextUrl);
             if (damped >= PULL_THRESHOLD) {
               if (!thresholdReached) {
                 thresholdReached = true;
                 if ('vibrate' in navigator) {
-                  try { navigator.vibrate(10); } catch {}
+                  try { navigator.vibrate(12); } catch {}
                 }
               }
               footerNav.classList.add('is-threshold-reached');
-              if (pullHintText) pullHintText.textContent = '查看下一篇';
+              if (pullHintText) pullHintText.textContent = '松手查看下一篇';
             } else {
               thresholdReached = false;
               footerNav.classList.remove('is-threshold-reached');
-              if (pullHintText) pullHintText.textContent = '释放查看下一篇';
+              if (pullHintText) pullHintText.textContent = '松手查看下一篇';
             }
           } else {
             if (pullHintText) pullHintText.textContent = '已是最后一篇';
@@ -707,21 +766,22 @@
 
         if (thresholdReached && nextUrl) {
           footerNav.classList.add('is-loading');
-          pullWrapper.style.transition = 'transform 0.26s cubic-bezier(0.16, 1, 0.3, 1)';
-          pullWrapper.style.transform = 'translate3d(0, -56px, 0)';
+          pullWrapper.style.transition = 'transform 0.32s cubic-bezier(0.4, 0, 1, 1)';
+          pullWrapper.style.transform = 'translate3d(0, -90px, 0)';
           if (pullHintText) pullHintText.textContent = '正在前往下一篇…';
-          document.body.classList.add('page-slide-up-exit');
+          sessionStorage.setItem('os-archive:pull-navigated', 'true');
+          document.body.classList.add('page-card-exit-up');
 
           setTimeout(() => {
             window.location.href = nextUrl;
-          }, 180);
+          }, 200);
         } else {
           pullWrapper.style.transition = 'transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
           pullWrapper.style.transform = 'translate3d(0, 0, 0)';
           footerNav.classList.remove('is-threshold-reached');
           setTimeout(() => {
             if (pullWrapper) pullWrapper.style.transition = '';
-            if (pullHintText && nextUrl) pullHintText.textContent = '释放查看下一篇';
+            if (pullHintText && nextUrl) pullHintText.textContent = '松手查看下一篇';
           }, 380);
         }
         thresholdReached = false;

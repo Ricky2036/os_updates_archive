@@ -46,33 +46,33 @@ const magicOSLatestUrl = getLatestUrl('magicos');
 </header>
 <nav class="brand-switcher-nav" aria-label="主导航" transition:persist="brand-switcher-nav">
   <div class="brand-switcher" data-brand-switcher>
-    <a class:list={{ 'home-tab': true, active: !activeBrand }} href={sitePath()}>
+    <a class:list={{ 'home-tab': true, active: !activeBrand }} href={sitePath()} data-astro-prefetch="hover">
       {!activeBrand && <div class="nav-highlight" transition:name="brand-highlight"></div>}
       <span style="position: relative; z-index: 10;" data-text="首页">首页</span>
     </a>
     <div class:list={{ 'brand-menu': true, active: colorOSActive }}>
-      <a class="brand-tab brand-trigger" href={colorOSLatestUrl} aria-haspopup="menu" aria-expanded="false">
+      <a class="brand-tab brand-trigger" href={colorOSLatestUrl} aria-haspopup="menu" aria-expanded="false" data-astro-prefetch="hover">
         {colorOSActive && <div class="nav-highlight" transition:name="brand-highlight"></div>}
         <span style="position: relative; z-index: 10;" data-text={brandMeta.coloros.name}>{brandMeta.coloros.name}</span><i aria-hidden="true"></i>
       </a>
       <div class="brand-submenu" role="menu" aria-label="ColorOS 档案">
         <a class:list={{ active: activeColorOSSection === '15' }} role="menuitem" href={officialArchiveMeta['15'].route} data-astro-reload>ColorOS 15</a>
         <a class:list={{ active: activeColorOSSection === '16' }} role="menuitem" href={officialArchiveMeta['16'].route} data-astro-reload>ColorOS 16</a>
-        <a class:list={{ active: activeColorOSSection !== '15' && activeColorOSSection !== '16' }} role="menuitem" href={colorOSLatestUrl}>月更记录</a>
+        <a class:list={{ active: activeColorOSSection !== '15' && activeColorOSSection !== '16' }} role="menuitem" href={colorOSLatestUrl} data-astro-prefetch="hover">月更记录</a>
       </div>
     </div>
     <div class:list={{ 'brand-menu': true, active: originOSActive }}>
-      <a class="brand-tab brand-trigger" href={originOSLatestUrl} aria-haspopup="menu" aria-expanded="false">
+      <a class="brand-tab brand-trigger" href={originOSLatestUrl} aria-haspopup="menu" aria-expanded="false" data-astro-prefetch="hover">
         {originOSActive && <div class="nav-highlight" transition:name="brand-highlight"></div>}
         <span style="position: relative; z-index: 10;" data-text={brandMeta.originos.name}>{brandMeta.originos.name}</span><i aria-hidden="true"></i>
       </a>
       <div class="brand-submenu" role="menu" aria-label="OriginOS 档案">
         <a class:list={{ active: activeOriginOSSection === 'originos6' }} role="menuitem" href={officialArchiveMeta['originos6'].route} data-astro-reload>OriginOS 6</a>
-        <a class:list={{ active: activeOriginOSSection !== 'originos6' }} role="menuitem" href={originOSLatestUrl}>月更记录</a>
+        <a class:list={{ active: activeOriginOSSection !== 'originos6' }} role="menuitem" href={originOSLatestUrl} data-astro-prefetch="hover">月更记录</a>
       </div>
     </div>
     <div class:list={{ 'brand-menu': true, active: hyperOSActive }}>
-      <a class="brand-tab brand-trigger" href={hyperOSLatestUrl} aria-haspopup="menu" aria-expanded="false">
+      <a class="brand-tab brand-trigger" href={hyperOSLatestUrl} aria-haspopup="menu" aria-expanded="false" data-astro-prefetch="hover">
         {hyperOSActive && <div class="nav-highlight" transition:name="brand-highlight"></div>}
         <span style="position: relative; z-index: 10;" data-text={brandMeta.hyperos.name}>{brandMeta.hyperos.name}</span><i aria-hidden="true"></i>
       </a>
@@ -81,10 +81,10 @@ const magicOSLatestUrl = getLatestUrl('magicos');
         <a class:list={{ active: activeHyperOSSection === '3' }} role="menuitem" href={officialArchiveMeta['hyperos3'].route} data-astro-reload>HyperOS 3</a>
         <a class:list={{ active: activeHyperOSSection === '2' }} role="menuitem" href={officialArchiveMeta['hyperos2'].route} data-astro-reload>HyperOS 2</a>
         <a class:list={{ active: activeHyperOSSection === '1' }} role="menuitem" href={officialArchiveMeta['hyperos1'].route} data-astro-reload>HyperOS 1</a>
-        <a class:list={{ active: activeHyperOSSection !== '1' && activeHyperOSSection !== '2' && activeHyperOSSection !== '3' && activeHyperOSSection !== '4' }} role="menuitem" href={hyperOSLatestUrl}>月更记录</a>
+        <a class:list={{ active: activeHyperOSSection !== '1' && activeHyperOSSection !== '2' && activeHyperOSSection !== '3' && activeHyperOSSection !== '4' }} role="menuitem" href={hyperOSLatestUrl} data-astro-prefetch="hover">月更记录</a>
       </div>
     </div>
-    <a class:list={{ 'brand-tab': true, active: magicOSActive }} href={magicOSLatestUrl}>
+    <a class:list={{ 'brand-tab': true, active: magicOSActive }} href={magicOSLatestUrl} data-astro-prefetch="hover">
       {magicOSActive && <div class="nav-highlight" transition:name="brand-highlight"></div>}
       <span style="position: relative; z-index: 10;" data-text={brandMeta.magicos.name}>{brandMeta.magicos.name}</span>
     </a>
