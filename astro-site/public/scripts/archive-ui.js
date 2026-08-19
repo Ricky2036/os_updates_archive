@@ -530,9 +530,21 @@
       const current = document.documentElement.dataset.monthlyView;
       if (current === normalized || isFlipping) return;
 
+      // Update button state and icon rotation IMMEDIATELY (0ms) on click:
+      document.documentElement.dataset.monthlyView = normalized;
+      document.querySelectorAll('[data-monthly-view]').forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.monthlyView === normalized)));
+      document.querySelectorAll('[data-monthly-view-toggle]').forEach((button) => {
+        const isDigest = normalized === 'digest';
+        button.setAttribute('aria-label', isDigest ? '切换为原始图文版' : '切换为文字精校版');
+        button.setAttribute('title', isDigest ? '切换为原始图文版' : '切换为文字精校版');
+      });
+      if (persist) {
+        try { localStorage.setItem('os-archive:monthly-view', normalized); } catch { /* storage is optional */ }
+      }
+
       const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       if (prefersReducedMotion) {
-        setMonthlyView(root, normalized, persist);
+        setMonthlyView(root, normalized, false);
         return;
       }
 
@@ -542,11 +554,11 @@
 
       if (isToOriginal) mountOriginal(root);
 
-      root.classList.add('is-flipping', `is-flipping-${flipDirection}-out`);
       document.documentElement.classList.add('is-switching-view');
+      root.classList.add('is-flipping', `is-flipping-${flipDirection}-out`);
 
       setTimeout(() => {
-        setMonthlyView(root, normalized, persist);
+        setMonthlyView(root, normalized, false);
         root.classList.remove(`is-flipping-${flipDirection}-out`);
         root.classList.add(`is-flipping-${flipDirection}-in`);
 
