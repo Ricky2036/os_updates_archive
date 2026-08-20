@@ -784,7 +784,7 @@ body.page-card-exit-up .article-footer-nav {
   .digest-media-empty { font-size: 13px; font-weight: 700; color: #9aa1ab; }
   .digest-lightbox { width: calc(100vw - 20px); max-height: calc(100dvh - 20px); border-radius: 18px; }
   .digest-lightbox-stage { max-height: calc(100dvh - 130px); }
-  .article-footer-nav { margin-top: 32px; padding-top: 0; padding-bottom: calc(32px + 48px + max(14px, env(safe-area-inset-bottom, 0px))); }
+  .article-footer-nav { margin-top: 22px; padding-top: 0; padding-bottom: calc(22px + 48px + max(14px, env(safe-area-inset-bottom, 0px))); }
 }
 
 @media (max-width: 420px) {

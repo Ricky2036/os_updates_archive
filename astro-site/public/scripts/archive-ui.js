@@ -736,7 +736,7 @@
 
       const applyPullTransform = (dampedPx, transition = '') => {
         articleContent.style.transition = transition;
-        articleContent.style.transform = dampedPx > 0 ? `translate3d(0, -${dampedPx}px, 0)` : '';
+        articleContent.style.transform = `translate3d(0, -${dampedPx}px, 0)`;
       };
 
       const setThresholdState = (reached) => {
@@ -768,8 +768,10 @@
 
       const cancelPull = () => {
         isPulling = false;
-        applyPullTransform(0, 'transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275)');
+        thresholdReached = false;
+        footerNav.classList.remove('is-pulling');
         setThresholdState(false);
+        applyPullTransform(0, 'transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275)');
         setTimeout(() => {
           if (!isPulling) {
             articleContent.style.transition = '';
@@ -840,12 +842,12 @@
       };
 
       const onTouchEnd = () => {
-        if (!isPulling) return;
-        isPulling = false;
-        footerNav.classList.remove('is-pulling');
-
-        if (thresholdReached && nextUrl) {
-          triggerNavigation();
+        if (isPulling) {
+          if (thresholdReached && nextUrl) {
+            triggerNavigation();
+          } else {
+            cancelPull();
+          }
         } else {
           cancelPull();
         }
