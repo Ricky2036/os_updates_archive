@@ -743,9 +743,6 @@
       let isPulling = false;
       let thresholdReached = false;
       let cancelTimer = null;
-      // Increased deliberate physical threshold (~150px thumb drag, ~3.5cm on phone screen)
-      const TOUCH_THRESHOLD = 150;
-      const WHEEL_THRESHOLD = 75;
 
       const applyPullTransform = (dampedPx, transition = '') => {
         clearTimeout(cancelTimer);
