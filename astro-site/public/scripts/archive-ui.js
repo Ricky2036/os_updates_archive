@@ -732,8 +732,9 @@
       let isPulling = false;
       let thresholdReached = false;
       let cancelTimer = null;
-      const TOUCH_THRESHOLD = 85;
-      const WHEEL_THRESHOLD = 50;
+      // Increased deliberate physical threshold (~150px thumb drag, ~3.5cm on phone screen)
+      const TOUCH_THRESHOLD = 150;
+      const WHEEL_THRESHOLD = 75;
 
       const applyPullTransform = (dampedPx, transition = '') => {
         clearTimeout(cancelTimer);
@@ -835,7 +836,8 @@
           }
 
           const rawPull = Math.abs(dy);
-          const damped = Math.min(50, Math.pow(rawPull, 0.65) * 1.5);
+          // Controlled rubber-band curve: gentle pull follows finger, max 55px
+          const damped = Math.min(55, Math.pow(rawPull, 0.6) * 1.5);
           applyPullTransform(damped, 'none');
 
           if (nextUrl) {
