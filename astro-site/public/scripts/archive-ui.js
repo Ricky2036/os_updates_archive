@@ -116,7 +116,7 @@
       if (instant) {
         pill.style.transition = 'none';
       } else {
-        pill.style.transition = 'transform 0.28s cubic-bezier(0.25, 1, 0.5, 1), width 0.28s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.15s ease';
+        pill.style.transition = 'transform 0.44s cubic-bezier(0.16, 1, 0.3, 1), width 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.2s ease';
       }
 
       pill.style.transform = `translate3d(${left}px, 0, 0)`;
