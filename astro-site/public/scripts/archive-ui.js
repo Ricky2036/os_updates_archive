@@ -13,6 +13,16 @@
 
     document.documentElement.classList.add('motion-ready');
 
+    const getActiveNavTab = (switcher) => {
+      if (!switcher) return null;
+      const path = window.location.pathname;
+      if (path.includes('/coloros')) return switcher.querySelector('[data-brand="coloros"]');
+      if (path.includes('/originos')) return switcher.querySelector('[data-brand="originos"]');
+      if (path.includes('/hyperos')) return switcher.querySelector('[data-brand="hyperos"]');
+      if (path.includes('/magicos')) return switcher.querySelector('[data-brand="magicos"]');
+      return switcher.querySelector('.home-tab');
+    };
+
     const updatePersistedNav = () => {
       const path = window.location.pathname;
       const isHome = path === '/' || path === '' || (path.endsWith('/index.html') && !path.includes('/coloros') && !path.includes('/originos') && !path.includes('/hyperos') && !path.includes('/magicos'));
@@ -21,33 +31,15 @@
       const isHyperOS = path.includes('/hyperos');
       const isMagicOS = path.includes('/magicos');
 
-      const homeTab = document.querySelector('.home-tab');
-      if (homeTab) {
-        homeTab.classList.toggle('active', isHome);
-        let hl = homeTab.querySelector('.nav-highlight');
-        if (isHome && !hl) {
-          hl = document.createElement('div');
-          hl.className = 'nav-highlight';
-          hl.setAttribute('transition:name', 'brand-highlight');
-          homeTab.prepend(hl);
-        } else if (!isHome && hl) {
-          hl.remove();
-        }
-      }
+      const switcher = document.querySelector('.brand-switcher');
+      if (!switcher) return;
 
-      const colorOSMenu = document.querySelector('.brand-menu:nth-child(2), .brand-menu[data-brand="coloros"]');
+      const homeTab = switcher.querySelector('.home-tab');
+      if (homeTab) homeTab.classList.toggle('active', isHome);
+
+      const colorOSMenu = switcher.querySelector('.brand-menu[data-brand="coloros"]');
       if (colorOSMenu) {
         colorOSMenu.classList.toggle('active', isColorOS);
-        const trigger = colorOSMenu.querySelector('.brand-trigger');
-        let hl = trigger?.querySelector('.nav-highlight');
-        if (isColorOS && !hl && trigger) {
-          hl = document.createElement('div');
-          hl.className = 'nav-highlight';
-          hl.setAttribute('transition:name', 'brand-highlight');
-          trigger.prepend(hl);
-        } else if (!isColorOS && hl) {
-          hl.remove();
-        }
         const is15 = /\/coloros\/15(\/|$)/.test(path);
         const is16 = /\/coloros\/16(\/|$)/.test(path);
         const isMonthly = isColorOS && !is15 && !is16;
@@ -59,19 +51,9 @@
         }
       }
 
-      const originOSMenu = document.querySelector('.brand-menu:nth-child(3), .brand-menu[data-brand="originos"]');
+      const originOSMenu = switcher.querySelector('.brand-menu[data-brand="originos"]');
       if (originOSMenu) {
         originOSMenu.classList.toggle('active', isOriginOS);
-        const trigger = originOSMenu.querySelector('.brand-trigger');
-        let hl = trigger?.querySelector('.nav-highlight');
-        if (isOriginOS && !hl && trigger) {
-          hl = document.createElement('div');
-          hl.className = 'nav-highlight';
-          hl.setAttribute('transition:name', 'brand-highlight');
-          trigger.prepend(hl);
-        } else if (!isOriginOS && hl) {
-          hl.remove();
-        }
         const is6 = /\/originos\/6(\/|$)/.test(path);
         const isMonthly = isOriginOS && !is6;
         const subLinks = originOSMenu.querySelectorAll('.brand-submenu a');
@@ -81,19 +63,9 @@
         }
       }
 
-      const hyperOSMenu = document.querySelector('.brand-menu:nth-child(4), .brand-menu[data-brand="hyperos"]');
+      const hyperOSMenu = switcher.querySelector('.brand-menu[data-brand="hyperos"]');
       if (hyperOSMenu) {
         hyperOSMenu.classList.toggle('active', isHyperOS);
-        const trigger = hyperOSMenu.querySelector('.brand-trigger');
-        let hl = trigger?.querySelector('.nav-highlight');
-        if (isHyperOS && !hl && trigger) {
-          hl = document.createElement('div');
-          hl.className = 'nav-highlight';
-          hl.setAttribute('transition:name', 'brand-highlight');
-          trigger.prepend(hl);
-        } else if (!isHyperOS && hl) {
-          hl.remove();
-        }
         const is4 = /\/hyperos\/4(\/|$)/.test(path);
         const is3 = /\/hyperos\/3(\/|$)/.test(path);
         const is2 = /\/hyperos\/2(\/|$)/.test(path);
@@ -109,24 +81,64 @@
         }
       }
 
-      const magicOSTab = document.querySelector('.brand-tab[href*="magicos"], [data-brand="magicos"]');
+      const magicOSTab = switcher.querySelector('.brand-tab[data-brand="magicos"], a[data-brand="magicos"]');
       if (magicOSTab) {
         magicOSTab.classList.toggle('active', isMagicOS);
-        let hl = magicOSTab.querySelector('.nav-highlight');
-        if (isMagicOS && !hl) {
-          hl = document.createElement('div');
-          hl.className = 'nav-highlight';
-          hl.setAttribute('transition:name', 'brand-highlight');
-          magicOSTab.prepend(hl);
-        } else if (!isMagicOS && hl) {
-          hl.remove();
-        }
       }
     };
 
+    const updateNavSlidingPill = (targetTab = null, instant = false) => {
+      const brandSwitcher = document.querySelector('.brand-switcher');
+      if (!brandSwitcher) return;
+      let pill = brandSwitcher.querySelector('[data-nav-sliding-pill]');
+      if (!pill) {
+        pill = document.createElement('div');
+        pill.className = 'nav-sliding-pill';
+        pill.setAttribute('data-nav-sliding-pill', '');
+        pill.setAttribute('aria-hidden', 'true');
+        brandSwitcher.prepend(pill);
+      }
+
+      const activeTab = targetTab || getActiveNavTab(brandSwitcher);
+      if (!activeTab) {
+        pill.style.opacity = '0';
+        return;
+      }
+
+      const left = activeTab.offsetLeft;
+      const width = activeTab.offsetWidth;
+
+      if (width <= 0) {
+        requestAnimationFrame(() => updateNavSlidingPill(targetTab, instant));
+        return;
+      }
+
+      if (instant) {
+        pill.style.transition = 'none';
+      } else {
+        pill.style.transition = 'transform 0.28s cubic-bezier(0.25, 1, 0.5, 1), width 0.28s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.15s ease';
+      }
+
+      pill.style.transform = `translate3d(${left}px, 0, 0)`;
+      pill.style.width = `${width}px`;
+      pill.style.opacity = '1';
+    };
+
     updatePersistedNav();
-    
+    updateNavSlidingPill(null, true);
+    requestAnimationFrame(() => updateNavSlidingPill(null, false));
+
     const brandSwitcher = document.querySelector('.brand-switcher');
+    brandSwitcher?.querySelectorAll('.brand-tab, .home-tab').forEach((tab) => {
+      tab.addEventListener('click', () => {
+        const target = tab.closest('.brand-menu') || tab;
+        brandSwitcher.querySelectorAll('.active').forEach(el => el.classList.remove('active'));
+        target.classList.add('active');
+        tab.classList.add('active');
+        updateNavSlidingPill(target, false);
+      }, { signal });
+    });
+
     const activeNavTab = brandSwitcher?.querySelector('.active');
     
     let mobilePopover = document.querySelector('.mobile-brand-popover');

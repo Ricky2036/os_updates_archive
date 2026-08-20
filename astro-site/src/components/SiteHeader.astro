@@ -44,15 +44,14 @@ const magicOSLatestUrl = getLatestUrl('magicos');
     )}
   </div>
 </header>
-<nav class="brand-switcher-nav" aria-label="主导航">
+<nav class="brand-switcher-nav" aria-label="主导航" transition:persist="brand-switcher-nav">
   <div class="brand-switcher" data-brand-switcher>
+    <div class="nav-sliding-pill" data-nav-sliding-pill aria-hidden="true"></div>
     <a class:list={{ 'home-tab': true, active: !activeBrand }} href={sitePath()} data-astro-prefetch="hover">
-      {!activeBrand && <div class="nav-highlight" transition:name="brand-highlight"></div>}
       <span style="position: relative; z-index: 10;" data-text="首页">首页</span>
     </a>
     <div class:list={{ 'brand-menu': true, active: colorOSActive }} data-brand="coloros">
       <a class="brand-tab brand-trigger" href={colorOSLatestUrl} aria-haspopup="menu" aria-expanded="false" data-astro-prefetch="hover">
-        {colorOSActive && <div class="nav-highlight" transition:name="brand-highlight"></div>}
         <span style="position: relative; z-index: 10;" data-text={brandMeta.coloros.name}>{brandMeta.coloros.name}</span><i aria-hidden="true"></i>
       </a>
       <div class="brand-submenu" role="menu" aria-label="ColorOS 档案">
@@ -63,7 +62,6 @@ const magicOSLatestUrl = getLatestUrl('magicos');
     </div>
     <div class:list={{ 'brand-menu': true, active: originOSActive }} data-brand="originos">
       <a class="brand-tab brand-trigger" href={originOSLatestUrl} aria-haspopup="menu" aria-expanded="false" data-astro-prefetch="hover">
-        {originOSActive && <div class="nav-highlight" transition:name="brand-highlight"></div>}
         <span style="position: relative; z-index: 10;" data-text={brandMeta.originos.name}>{brandMeta.originos.name}</span><i aria-hidden="true"></i>
       </a>
       <div class="brand-submenu" role="menu" aria-label="OriginOS 档案">
@@ -73,7 +71,6 @@ const magicOSLatestUrl = getLatestUrl('magicos');
     </div>
     <div class:list={{ 'brand-menu': true, active: hyperOSActive }} data-brand="hyperos">
       <a class="brand-tab brand-trigger" href={hyperOSLatestUrl} aria-haspopup="menu" aria-expanded="false" data-astro-prefetch="hover">
-        {hyperOSActive && <div class="nav-highlight" transition:name="brand-highlight"></div>}
         <span style="position: relative; z-index: 10;" data-text={brandMeta.hyperos.name}>{brandMeta.hyperos.name}</span><i aria-hidden="true"></i>
       </a>
       <div class="brand-submenu" role="menu" aria-label="HyperOS 档案">
@@ -85,7 +82,6 @@ const magicOSLatestUrl = getLatestUrl('magicos');
       </div>
     </div>
     <a class:list={{ 'brand-tab': true, active: magicOSActive }} data-brand="magicos" href={magicOSLatestUrl} data-astro-prefetch="hover">
-      {magicOSActive && <div class="nav-highlight" transition:name="brand-highlight"></div>}
       <span style="position: relative; z-index: 10;" data-text={brandMeta.magicos.name}>{brandMeta.magicos.name}</span>
     </a>
   </div>

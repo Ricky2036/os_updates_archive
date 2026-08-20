@@ -622,15 +622,19 @@ body.page-card-exit-up .article-content {
     height: 40px;
     min-width: max-content;
   }
-  .nav-highlight {
-    display: block;
+  .nav-sliding-pill {
     position: absolute;
-    inset: 0;
-    z-index: -1;
+    top: 0;
+    left: 0;
+    height: 40px;
     border-radius: 999px;
     background: rgba(255, 255, 255, 0.95);
     box-shadow: none;
     pointer-events: none;
+    z-index: 0;
+    opacity: 0;
+    transition: transform 0.28s cubic-bezier(0.25, 1, 0.5, 1), width 0.28s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.15s ease;
+    will-change: transform, width;
   }
   ::view-transition-group(brand-highlight), ::view-transition-old(brand-highlight), ::view-transition-new(brand-highlight) {
     border-radius: 999px;
