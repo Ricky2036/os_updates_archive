@@ -818,6 +818,7 @@
       let touchStartY = 0;
       let touchStartX = 0;
       let pullAnchorY = 0;
+      const TOUCH_THRESHOLD = 120; // 120px of deliberate upward pull after arriving at bottom
 
       const onTouchStart = (e) => {
         if (e.touches.length !== 1) return;
@@ -844,7 +845,7 @@
         const pullDistance = pullAnchorY - currentY;
         const dx = Math.abs(currentX - touchStartX);
 
-        if (pullDistance > 6 && pullDistance > dx) {
+        if (pullDistance > 10 && pullDistance > dx * 1.2) {
           if (e.cancelable) {
             e.preventDefault();
           }
@@ -854,12 +855,12 @@
             footerNav.classList.add('is-pulling');
           }
 
-          const damped = Math.min(50, Math.pow(pullDistance, 0.68) * 1.4);
+          const damped = Math.min(48, Math.pow(pullDistance, 0.62) * 1.3);
           applyPullTransform(damped, 'none');
 
           if (nextUrl) {
             prefetchUrl(nextUrl);
-            setThresholdState(pullDistance >= 75);
+            setThresholdState(pullDistance >= TOUCH_THRESHOLD);
           } else {
             if (pullHintText) pullHintText.textContent = '已是最后一篇';
           }
@@ -890,13 +891,30 @@
       let wheelPullY = 0;
       let wheelEndTimeout = null;
       let isWheelActive = false;
+      let lastPageScrollTime = 0;
+
+      window.addEventListener('scroll', () => {
+        const scrollBottom = window.innerHeight + window.scrollY;
+        const docHeight = document.documentElement.scrollHeight;
+        if (scrollBottom < docHeight - 35) {
+          lastPageScrollTime = Date.now();
+        }
+      }, { passive: true, signal });
 
       const onWheel = (e) => {
         if (!nextUrl) return;
 
         const atBottom = isAtBottom();
+        // If the user was fast-scrolling down and arrived at bottom within 200ms,
+        // treat this as scroll momentum and ignore it to prevent accidental page turn!
+        const isRecentScrollMomentum = Date.now() - lastPageScrollTime < 200;
+
         if (atBottom && e.deltaY > 0) {
-          if (e.cancelable && (wheelPullY > 8 || e.deltaY > 15)) {
+          if (isRecentScrollMomentum) {
+            return;
+          }
+
+          if (e.cancelable && (wheelPullY > 25 || e.deltaY > 35)) {
             e.preventDefault();
           }
 
@@ -905,11 +923,12 @@
           isPulling = true;
           footerNav.classList.add('is-pulling');
 
-          wheelPullY += Math.abs(e.deltaY) * 0.75;
-          const damped = Math.min(55, Math.pow(wheelPullY, 0.65) * 1.5);
+          wheelPullY += Math.min(Math.abs(e.deltaY), 50) * 0.5;
+          const damped = Math.min(48, Math.pow(wheelPullY, 0.62) * 1.3);
           applyPullTransform(damped, 'none');
 
-          const isThreshold = damped >= 28 || wheelPullY >= 85;
+          // Requires deliberate continuous pull (wheelPullY >= 200 AND damped >= 36)
+          const isThreshold = wheelPullY >= 200 && damped >= 36;
           setThresholdState(isThreshold);
 
           clearTimeout(wheelEndTimeout);
@@ -923,15 +942,16 @@
             isWheelActive = false;
           }, 320);
         } else if (isWheelActive && e.deltaY < 0) {
-          wheelPullY = Math.max(0, wheelPullY - Math.abs(e.deltaY) * 0.8);
+          wheelPullY = Math.max(0, wheelPullY - Math.abs(e.deltaY) * 0.9);
           if (wheelPullY === 0) {
             clearTimeout(wheelEndTimeout);
             isWheelActive = false;
             cancelPull();
           } else {
-            const damped = Math.min(55, Math.pow(wheelPullY, 0.65) * 1.5);
+            const damped = Math.min(48, Math.pow(wheelPullY, 0.62) * 1.3);
             applyPullTransform(damped, 'none');
-            setThresholdState(damped >= 28 || wheelPullY >= 85);
+            const isThreshold = wheelPullY >= 200 && damped >= 36;
+            setThresholdState(isThreshold);
           }
         }
       };
