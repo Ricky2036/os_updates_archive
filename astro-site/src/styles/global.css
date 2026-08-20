@@ -469,19 +469,11 @@ body:has(.brand-menu.open) .monthly-view-toolbar { opacity: 0; visibility: hidde
 }
 
 /* Requirement 5: Card exit & enter animations */
-body.page-card-exit-up .article-content,
-body.page-card-exit-up .monthly-digest,
-body.page-card-exit-up .interactive-archive,
-body.page-card-exit-up .gallery-shell {
-  transform: translateY(-90px) scale(0.96);
+body.page-card-exit-up .article-content {
+  transform: translateY(-70px) scale(0.97);
   opacity: 0;
-  filter: blur(4px);
-  transition: transform 0.34s cubic-bezier(0.4, 0, 1, 1), opacity 0.28s ease, filter 0.28s ease;
-}
-body.page-card-exit-up .article-footer-nav {
-  transform: translateY(-90px);
-  opacity: 0;
-  transition: transform 0.34s cubic-bezier(0.4, 0, 1, 1), opacity 0.25s ease;
+  filter: blur(3px);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 1, 1), opacity 0.25s ease, filter 0.25s ease;
 }
 
 @keyframes pageCardEnterUp {

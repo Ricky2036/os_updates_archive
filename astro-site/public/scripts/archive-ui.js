@@ -732,8 +732,8 @@
       let isPulling = false;
       let thresholdReached = false;
       let cancelTimer = null;
-      // Deliberate physical pull threshold (~75px thumb drag, ~1.5cm on phone screen)
-      const RAW_PULL_THRESHOLD = 75;
+      // Deliberate physical pull threshold (~95px thumb drag, ~2cm on phone screen)
+      const RAW_PULL_THRESHOLD = 95;
 
       const applyPullTransform = (dampedPx, transition = '') => {
         clearTimeout(cancelTimer);
@@ -758,21 +758,17 @@
 
       const triggerNavigation = () => {
         footerNav.classList.add('is-loading');
-        applyPullTransform(96, 'transform 0.34s cubic-bezier(0.4, 0, 1, 1)');
-        if (pullHintText) pullHintText.textContent = '正在前往下一篇…';
-        sessionStorage.setItem('os-archive:pull-navigated', 'true');
         document.body.classList.add('page-card-exit-up');
+        sessionStorage.setItem('os-archive:pull-navigated', 'true');
 
         setTimeout(() => {
           window.location.href = nextUrl;
-        }, 200);
+        }, 180);
 
         // Safety fallback in case navigation is delayed or cancelled
         setTimeout(() => {
-          if (document.body.classList.contains('page-card-exit-up')) {
-            cancelPull();
-          }
-        }, 3000);
+          cancelPull();
+        }, 2000);
       };
 
       const cancelPull = () => {
@@ -783,8 +779,8 @@
         setThresholdState(false);
         clearTimeout(cancelTimer);
 
-        // Explicitly set transition and force WebKit style reflow before changing transform back to 0
-        articleContent.style.transition = 'transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.25s ease';
+        // Natural smooth spring-back
+        articleContent.style.transition = 'transform 0.35s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.25s ease';
         void articleContent.offsetHeight;
         articleContent.style.transform = 'translate3d(0, 0px, 0)';
         articleContent.style.opacity = '1';
@@ -796,7 +792,7 @@
             articleContent.style.opacity = '';
             if (pullHintText && nextUrl) pullHintText.textContent = '松手查看下一篇';
           }
-        }, 380);
+        }, 350);
       };
 
       const isAtBottom = () => {
@@ -840,13 +836,12 @@
 
           const rawPull = Math.max(0, pullOriginY - currentY);
           
-          // Prevent native iOS/Android overscroll bounce from interfering with custom pull
           if (rawPull > 4 && e.cancelable) {
             e.preventDefault();
           }
 
-          // Responsive follow-finger rubber-band curve
-          const damped = Math.min(65, Math.pow(rawPull, 0.72) * 1.8);
+          // Responsive follow-finger rubber-band curve capped at 50px
+          const damped = Math.min(50, Math.pow(rawPull, 0.65) * 1.5);
           applyPullTransform(damped, 'none');
 
           if (nextUrl) {
