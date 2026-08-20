@@ -732,8 +732,8 @@
       let isPulling = false;
       let thresholdReached = false;
       let cancelTimer = null;
-      // Deliberate physical pull threshold (~95px thumb drag, ~2cm on phone screen)
-      const RAW_PULL_THRESHOLD = 95;
+      const TOUCH_THRESHOLD = 85;
+      const WHEEL_THRESHOLD = 50;
 
       const applyPullTransform = (dampedPx, transition = '') => {
         clearTimeout(cancelTimer);
@@ -765,7 +765,7 @@
           window.location.href = nextUrl;
         }, 180);
 
-        // Safety fallback in case navigation is delayed or cancelled
+        // Fallback
         setTimeout(() => {
           cancelPull();
         }, 2000);
@@ -798,24 +798,21 @@
       const isAtBottom = () => {
         const scrollBottom = window.innerHeight + window.scrollY;
         const docHeight = document.documentElement.scrollHeight;
-        return scrollBottom >= docHeight - 12;
+        const rect = footerNav.getBoundingClientRect();
+        return scrollBottom >= docHeight - 20 || rect.bottom <= window.innerHeight + 15;
       };
 
       // --- Mobile Touch Gestures ---
       let touchStartY = 0;
       let touchStartX = 0;
-      let pullOriginY = 0;
-      let startedAtBottom = false;
 
       const onTouchStart = (e) => {
         if (e.touches.length !== 1) return;
         clearTimeout(cancelTimer);
         touchStartY = e.touches[0].clientY;
         touchStartX = e.touches[0].clientX;
-        pullOriginY = 0;
         isPulling = false;
         thresholdReached = false;
-        startedAtBottom = isAtBottom();
       };
 
       const onTouchMove = (e) => {
@@ -827,26 +824,23 @@
 
         const atBottom = isAtBottom();
 
-        if (atBottom && dy < -4 && Math.abs(dy) > Math.abs(dx) * 1.2) {
-          if (!isPulling) {
-            isPulling = true;
-            pullOriginY = startedAtBottom ? touchStartY : currentY;
-            footerNav.classList.add('is-pulling');
-          }
-
-          const rawPull = Math.max(0, pullOriginY - currentY);
-          
-          if (rawPull > 4 && e.cancelable) {
+        if (atBottom && dy < 0 && Math.abs(dy) > Math.abs(dx)) {
+          if (e.cancelable) {
             e.preventDefault();
           }
 
-          // Responsive follow-finger rubber-band curve capped at 50px
+          if (!isPulling) {
+            isPulling = true;
+            footerNav.classList.add('is-pulling');
+          }
+
+          const rawPull = Math.abs(dy);
           const damped = Math.min(50, Math.pow(rawPull, 0.65) * 1.5);
           applyPullTransform(damped, 'none');
 
           if (nextUrl) {
             prefetchUrl(nextUrl);
-            setThresholdState(rawPull >= RAW_PULL_THRESHOLD);
+            setThresholdState(rawPull >= TOUCH_THRESHOLD);
           } else {
             if (pullHintText) pullHintText.textContent = '已是最后一篇';
           }
@@ -891,12 +885,11 @@
           isPulling = true;
           footerNav.classList.add('is-pulling');
 
-          // Controlled accumulation requiring deliberate consecutive wheeling
           wheelPullY += Math.min(Math.abs(e.deltaY), 40) * 0.45;
           const damped = Math.min(85, Math.pow(wheelPullY, 0.58) * 2.1);
           applyPullTransform(damped, 'none');
 
-          setThresholdState(damped >= PULL_THRESHOLD);
+          setThresholdState(damped >= WHEEL_THRESHOLD);
 
           clearTimeout(wheelEndTimeout);
           wheelEndTimeout = setTimeout(() => {
@@ -917,7 +910,7 @@
           } else {
             const damped = Math.min(85, Math.pow(wheelPullY, 0.58) * 2.1);
             applyPullTransform(damped, 'none');
-            setThresholdState(damped >= PULL_THRESHOLD);
+            setThresholdState(damped >= WHEEL_THRESHOLD);
           }
         }
       };
