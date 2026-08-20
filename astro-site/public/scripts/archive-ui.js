@@ -731,8 +731,8 @@
 
       let isPulling = false;
       let thresholdReached = false;
-      // Stricter, higher threshold requiring deliberate pull gesture (~260px physical drag)
-      const PULL_THRESHOLD = 52;
+      // Deliberate physical pull threshold (~75px thumb drag, ~1.5cm on phone screen)
+      const RAW_PULL_THRESHOLD = 75;
 
       const applyPullTransform = (dampedPx, transition = '') => {
         articleContent.style.transition = transition;
@@ -768,7 +768,7 @@
 
       const cancelPull = () => {
         isPulling = false;
-        applyPullTransform(0, 'transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275)');
+        applyPullTransform(0, 'transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275)');
         setThresholdState(false);
         setTimeout(() => {
           if (!isPulling) {
@@ -776,20 +776,20 @@
             articleContent.style.transform = '';
             if (pullHintText && nextUrl) pullHintText.textContent = '松手查看下一篇';
           }
-        }, 400);
+        }, 380);
       };
 
       const isAtBottom = () => {
         const scrollBottom = window.innerHeight + window.scrollY;
         const docHeight = document.documentElement.scrollHeight;
-        // Strictly at the bottom edge (prevents triggering during normal page reading)
-        return scrollBottom >= docHeight - 6;
+        return scrollBottom >= docHeight - 12;
       };
 
       // --- Mobile Touch Gestures ---
       let touchStartY = 0;
       let touchStartX = 0;
       let pullOriginY = 0;
+      let startedAtBottom = false;
 
       const onTouchStart = (e) => {
         if (e.touches.length !== 1) return;
@@ -798,6 +798,7 @@
         pullOriginY = 0;
         isPulling = false;
         thresholdReached = false;
+        startedAtBottom = isAtBottom();
       };
 
       const onTouchMove = (e) => {
@@ -807,24 +808,34 @@
         const dy = currentY - touchStartY;
         const dx = currentX - touchStartX;
 
-        if (isAtBottom() && dy < -8 && Math.abs(dy) > Math.abs(dx) * 1.4) {
+        const atBottom = isAtBottom();
+
+        if (atBottom && dy < -4 && Math.abs(dy) > Math.abs(dx) * 1.2) {
           if (!isPulling) {
             isPulling = true;
-            pullOriginY = currentY;
+            pullOriginY = startedAtBottom ? touchStartY : currentY;
             footerNav.classList.add('is-pulling');
           }
 
-          const rawPull = Math.max(0, (pullOriginY || touchStartY) - currentY);
-          // High-damping resistance formula
-          const damped = Math.min(85, Math.pow(rawPull, 0.58) * 2.1);
+          const rawPull = Math.max(0, pullOriginY - currentY);
+          
+          // Prevent native iOS/Android overscroll bounce from interfering with custom pull
+          if (rawPull > 6 && e.cancelable) {
+            e.preventDefault();
+          }
+
+          // Responsive follow-finger rubber-band curve
+          const damped = Math.min(65, Math.pow(rawPull, 0.72) * 1.8);
           applyPullTransform(damped, 'none');
 
           if (nextUrl) {
             prefetchUrl(nextUrl);
-            setThresholdState(damped >= PULL_THRESHOLD);
+            setThresholdState(rawPull >= RAW_PULL_THRESHOLD);
           } else {
             if (pullHintText) pullHintText.textContent = '已是最后一篇';
           }
+        } else if (isPulling && dy >= 0) {
+          cancelPull();
         }
       };
 
@@ -841,7 +852,7 @@
       };
 
       window.addEventListener('touchstart', onTouchStart, { passive: true, signal });
-      window.addEventListener('touchmove', onTouchMove, { passive: true, signal });
+      window.addEventListener('touchmove', onTouchMove, { passive: false, signal });
       window.addEventListener('touchend', onTouchEnd, { passive: true, signal });
       window.addEventListener('touchcancel', onTouchEnd, { passive: true, signal });
 
