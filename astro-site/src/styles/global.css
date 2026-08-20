@@ -68,9 +68,7 @@ h1, h2, h3, p { margin-top: 0; }
 .nav-highlight { display: none; }
 .nav-close { display: none; }
 .menu-button { display: none; }
-@media (min-width: 761px) {
-  .brand-menu:not(.is-dismissed):hover .brand-submenu, .brand-menu:not(.is-dismissed):focus-within .brand-submenu { opacity: 1; pointer-events: auto; visibility: visible; transform: translate(-50%, 0) scale(1); }
-}
+
 
 .button { display: inline-flex; align-items: center; justify-content: center; gap: 9px; min-height: 48px; padding: 0 20px; border-radius: 999px; font-size: 14px; font-weight: 760; transition: transform .2s var(--ease), box-shadow .2s var(--ease); }
 .button:hover { transform: translateY(-2px); }

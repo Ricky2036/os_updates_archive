@@ -301,6 +301,15 @@
       }
     }, { signal });
 
+    // Desktop hover & dismissal state
+    let isNavClicked = false;
+    try {
+      if (sessionStorage.getItem('os-archive:nav-clicked') === 'true') {
+        isNavClicked = true;
+        sessionStorage.removeItem('os-archive:nav-clicked');
+      }
+    } catch {}
+
     const brandMenus = document.querySelectorAll('.brand-menu');
 
     const closeAllBrandMenus = () => {
@@ -319,9 +328,10 @@
       const trigger = menu.querySelector('.brand-trigger');
       const submenu = menu.querySelector('.brand-submenu');
       const items = [...(submenu?.querySelectorAll('[role="menuitem"]') ?? [])];
+      let hoverTimer = null;
 
       const openBrandMenu = (focusFirst = false) => {
-        if (menu.classList.contains('is-dismissed')) return;
+        if (isNavClicked) return;
         closeAllBrandMenus();
         currentOpenMenu = menu;
 
@@ -348,21 +358,26 @@
       };
 
       const closeBrandMenu = () => {
+        clearTimeout(hoverTimer);
         closeAllBrandMenus();
       };
 
       // Desktop: mouse hover opens popup menu
-      menu.addEventListener('pointerenter', (event) => {
-        if (!mobileTabs.matches && event.pointerType !== 'touch') {
-          menu.classList.remove('is-dismissed');
-          openBrandMenu();
+      menu.addEventListener('mouseenter', () => {
+        if (!mobileTabs.matches) {
+          if (isNavClicked) return;
+          clearTimeout(hoverTimer);
+          hoverTimer = setTimeout(() => {
+            if (!isNavClicked) openBrandMenu();
+          }, 35);
         }
       }, { signal });
 
       // Desktop: mouse leave resets dismissal state
-      menu.addEventListener('pointerleave', (event) => {
-        if (!mobileTabs.matches && event.pointerType === 'mouse') {
-          menu.classList.remove('is-dismissed');
+      menu.addEventListener('mouseleave', () => {
+        if (!mobileTabs.matches) {
+          clearTimeout(hoverTimer);
+          isNavClicked = false;
           closeBrandMenu();
         }
       }, { signal });
@@ -397,8 +412,9 @@
             closeBrandMenu();
           }
         } else {
-          // Desktop: clicking TAB immediately closes the popup menu
-          menu.classList.add('is-dismissed');
+          // Desktop: clicking TAB immediately closes popup and prevents re-opening on page transition
+          isNavClicked = true;
+          try { sessionStorage.setItem('os-archive:nav-clicked', 'true'); } catch {}
           closeBrandMenu();
 
           const targetHref = trigger.getAttribute('href');
@@ -412,7 +428,7 @@
       trigger?.addEventListener('keydown', (event) => {
         if (['ArrowDown', 'ArrowUp', ' '].includes(event.key)) {
           event.preventDefault();
-          menu.classList.remove('is-dismissed');
+          isNavClicked = false;
           openBrandMenu(true);
         }
         if (event.key === 'Escape') {
@@ -439,7 +455,8 @@
       }, { signal });
 
       items.forEach(item => item.addEventListener('click', (e) => {
-        menu.classList.add('is-dismissed');
+        isNavClicked = true;
+        try { sessionStorage.setItem('os-archive:nav-clicked', 'true'); } catch {}
         closeAllBrandMenus();
         const targetHref = item.getAttribute('href');
         if (targetHref && (window.location.pathname === targetHref || window.location.pathname.replace(/\/$/, '') === targetHref.replace(/\/$/, ''))) {
@@ -451,9 +468,18 @@
 
     document.querySelectorAll('.home-tab, .brand-tab:not(.brand-trigger)').forEach(tab => {
       tab.addEventListener('click', () => {
+        isNavClicked = true;
+        try { sessionStorage.setItem('os-archive:nav-clicked', 'true'); } catch {}
         closeAllBrandMenus();
       }, { signal });
     });
+
+    // Reset dismissal flag whenever mouse moves outside the brand switcher navbar
+    document.addEventListener('mousemove', (e) => {
+      if (isNavClicked && !e.target.closest('.brand-switcher-nav')) {
+        isNavClicked = false;
+      }
+    }, { signal, passive: true });
 
     document.addEventListener('pointerdown', (event) => {
       if (!event.target.closest('.brand-menu') && !event.target.closest('.mobile-brand-popover')) {
