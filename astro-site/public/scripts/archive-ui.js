@@ -321,6 +321,7 @@
       const items = [...(submenu?.querySelectorAll('[role="menuitem"]') ?? [])];
 
       const openBrandMenu = (focusFirst = false) => {
+        if (menu.classList.contains('is-dismissed')) return;
         closeAllBrandMenus();
         currentOpenMenu = menu;
 
@@ -350,12 +351,18 @@
         closeAllBrandMenus();
       };
 
-      menu.addEventListener('pointerenter', () => {
-        if (!mobileTabs.matches) openBrandMenu();
+      // Desktop: mouse hover opens popup menu
+      menu.addEventListener('pointerenter', (event) => {
+        if (!mobileTabs.matches && event.pointerType !== 'touch') {
+          menu.classList.remove('is-dismissed');
+          openBrandMenu();
+        }
       }, { signal });
 
+      // Desktop: mouse leave resets dismissal state
       menu.addEventListener('pointerleave', (event) => {
-        if (!mobileTabs.matches && event.pointerType === 'mouse' && !menu.contains(document.activeElement)) {
+        if (!mobileTabs.matches && event.pointerType === 'mouse') {
+          menu.classList.remove('is-dismissed');
           closeBrandMenu();
         }
       }, { signal });
@@ -366,7 +373,7 @@
         }
       }, { signal });
 
-      // Mobile tap on tab
+      // Tab click handler
       trigger?.addEventListener('click', (event) => {
         if (mobileTabs.matches) {
           const targetTab = menu || trigger.closest('.brand-menu') || trigger;
@@ -389,12 +396,23 @@
             setOptimisticActiveTab(menu);
             closeBrandMenu();
           }
+        } else {
+          // Desktop: clicking TAB immediately closes the popup menu
+          menu.classList.add('is-dismissed');
+          closeBrandMenu();
+
+          const targetHref = trigger.getAttribute('href');
+          if (targetHref && (window.location.pathname === targetHref || window.location.pathname.replace(/\/$/, '') === targetHref.replace(/\/$/, ''))) {
+            event.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }
         }
       }, { signal });
 
       trigger?.addEventListener('keydown', (event) => {
         if (['ArrowDown', 'ArrowUp', ' '].includes(event.key)) {
           event.preventDefault();
+          menu.classList.remove('is-dismissed');
           openBrandMenu(true);
         }
         if (event.key === 'Escape') {
@@ -420,11 +438,21 @@
         }
       }, { signal });
 
-      items.forEach(item => item.addEventListener('click', () => {
-        if (mobileTabs.matches) {
-          closeAllBrandMenus();
+      items.forEach(item => item.addEventListener('click', (e) => {
+        menu.classList.add('is-dismissed');
+        closeAllBrandMenus();
+        const targetHref = item.getAttribute('href');
+        if (targetHref && (window.location.pathname === targetHref || window.location.pathname.replace(/\/$/, '') === targetHref.replace(/\/$/, ''))) {
+          e.preventDefault();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
         }
       }, { signal }));
+    });
+
+    document.querySelectorAll('.home-tab, .brand-tab:not(.brand-trigger)').forEach(tab => {
+      tab.addEventListener('click', () => {
+        closeAllBrandMenus();
+      }, { signal });
     });
 
     document.addEventListener('pointerdown', (event) => {
