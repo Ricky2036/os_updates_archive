@@ -622,22 +622,15 @@ body.page-card-exit-up .article-content {
     height: 40px;
     min-width: max-content;
   }
-  .nav-sliding-pill {
+  .nav-highlight {
+    display: block;
     position: absolute;
-    top: 0;
-    left: 0;
-    height: 40px;
+    inset: 0;
+    z-index: -1;
     border-radius: 999px;
     background: rgba(255, 255, 255, 0.95);
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 2px 8px rgba(39, 63, 116, 0.12), inset 0 0 0 1px rgba(255, 255, 255, 0.9);
     pointer-events: none;
-    z-index: 0;
-    opacity: 0;
-    transition: transform 0.28s cubic-bezier(0.25, 1, 0.5, 1), width 0.28s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.2s ease;
-    will-change: transform, width;
-  }
-  .nav-highlight {
-    display: none;
   }
   ::view-transition-group(brand-highlight), ::view-transition-old(brand-highlight), ::view-transition-new(brand-highlight) {
     border-radius: 999px;

@@ -44,9 +44,8 @@ const magicOSLatestUrl = getLatestUrl('magicos');
     )}
   </div>
 </header>
-<nav class="brand-switcher-nav" aria-label="主导航" transition:persist="brand-switcher-nav">
+<nav class="brand-switcher-nav" aria-label="主导航">
   <div class="brand-switcher" data-brand-switcher>
-    <div class="nav-sliding-pill" data-nav-sliding-pill aria-hidden="true"></div>
     <a class:list={{ 'home-tab': true, active: !activeBrand }} href={sitePath()} data-astro-prefetch="hover">
       {!activeBrand && <div class="nav-highlight" transition:name="brand-highlight"></div>}
       <span style="position: relative; z-index: 10;" data-text="首页">首页</span>
