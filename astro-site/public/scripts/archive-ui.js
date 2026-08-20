@@ -817,12 +817,14 @@
       // --- Mobile Touch Gestures ---
       let touchStartY = 0;
       let touchStartX = 0;
+      let pullAnchorY = 0;
 
       const onTouchStart = (e) => {
         if (e.touches.length !== 1) return;
         clearTimeout(cancelTimer);
         touchStartY = e.touches[0].clientY;
         touchStartX = e.touches[0].clientX;
+        pullAnchorY = touchStartY;
         isPulling = false;
         thresholdReached = false;
       };
@@ -831,12 +833,18 @@
         if (e.touches.length !== 1) return;
         const currentY = e.touches[0].clientY;
         const currentX = e.touches[0].clientX;
-        const dy = currentY - touchStartY;
-        const dx = currentX - touchStartX;
-
         const atBottom = isAtBottom();
 
-        if (atBottom && dy < 0 && Math.abs(dy) > Math.abs(dx)) {
+        if (!atBottom) {
+          pullAnchorY = currentY;
+          if (isPulling) cancelPull();
+          return;
+        }
+
+        const pullDistance = pullAnchorY - currentY;
+        const dx = Math.abs(currentX - touchStartX);
+
+        if (pullDistance > 6 && pullDistance > dx) {
           if (e.cancelable) {
             e.preventDefault();
           }
@@ -846,18 +854,17 @@
             footerNav.classList.add('is-pulling');
           }
 
-          const rawPull = Math.abs(dy);
-          // Controlled rubber-band curve: gentle pull follows finger, max 55px
-          const damped = Math.min(55, Math.pow(rawPull, 0.6) * 1.5);
+          const damped = Math.min(50, Math.pow(pullDistance, 0.68) * 1.4);
           applyPullTransform(damped, 'none');
 
           if (nextUrl) {
             prefetchUrl(nextUrl);
-            setThresholdState(rawPull >= TOUCH_THRESHOLD);
+            setThresholdState(pullDistance >= 75);
           } else {
             if (pullHintText) pullHintText.textContent = '已是最后一篇';
           }
-        } else if (isPulling && dy >= 0) {
+        } else if (pullDistance <= 0 && isPulling) {
+          pullAnchorY = currentY;
           cancelPull();
         }
       };

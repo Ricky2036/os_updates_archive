@@ -603,7 +603,7 @@ body.page-card-exit-up .article-content {
     flex: 0 0 auto;
     width: auto;
     min-width: max-content;
-    height: 40px;
+    height: 100%;
     padding: 0 13px;
     border-radius: 999px;
     color: #7b8390;
@@ -619,14 +619,15 @@ body.page-card-exit-up .article-content {
     z-index: 1;
     flex: 0 0 auto;
     width: auto;
-    height: 40px;
+    height: 100%;
     min-width: max-content;
   }
   .nav-sliding-pill {
     position: absolute;
     top: 0;
+    bottom: 0;
     left: 0;
-    height: 40px;
+    height: 100%;
     border-radius: 999px;
     background: rgba(255, 255, 255, 0.95);
     box-shadow: none;
