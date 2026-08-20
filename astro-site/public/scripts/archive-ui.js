@@ -27,25 +27,18 @@
         let hl = homeTab.querySelector('.nav-highlight');
         if (isHome && !hl) {
           hl = document.createElement('div');
-          hl.className = 'nav-highlight';
-          homeTab.prepend(hl);
-        } else if (!isHome && hl) {
-          hl.remove();
-        }
-      }
+      const isHome = path === '/' || path === '';
+      const isColorOS = path.startsWith('/coloros');
+      const isOriginOS = path.startsWith('/originos');
+      const isHyperOS = path.startsWith('/hyperos');
+      const isMagicOS = path.startsWith('/magicos');
 
-      const colorOSMenu = document.querySelector('.brand-menu:nth-child(2)');
+      const homeTab = document.querySelector('.brand-switcher > .home-tab');
+      if (homeTab) homeTab.classList.toggle('active', isHome);
+
+      const colorOSMenu = document.querySelector('.brand-menu:nth-child(2), .brand-menu[data-brand="coloros"]');
       if (colorOSMenu) {
         colorOSMenu.classList.toggle('active', isColorOS);
-        const trigger = colorOSMenu.querySelector('.brand-trigger');
-        let hl = trigger?.querySelector('.nav-highlight');
-        if (isColorOS && !hl && trigger) {
-          hl = document.createElement('div');
-          hl.className = 'nav-highlight';
-          trigger.prepend(hl);
-        } else if (!isColorOS && hl) {
-          hl.remove();
-        }
         const is15 = /\/coloros\/15(\/|$)/.test(path);
         const is16 = /\/coloros\/16(\/|$)/.test(path);
         const isMonthly = isColorOS && !is15 && !is16;
@@ -57,18 +50,9 @@
         }
       }
 
-      const originOSMenu = document.querySelector('.brand-menu:nth-child(3)');
+      const originOSMenu = document.querySelector('.brand-menu:nth-child(3), .brand-menu[data-brand="originos"]');
       if (originOSMenu) {
         originOSMenu.classList.toggle('active', isOriginOS);
-        const trigger = originOSMenu.querySelector('.brand-trigger');
-        let hl = trigger?.querySelector('.nav-highlight');
-        if (isOriginOS && !hl && trigger) {
-          hl = document.createElement('div');
-          hl.className = 'nav-highlight';
-          trigger.prepend(hl);
-        } else if (!isOriginOS && hl) {
-          hl.remove();
-        }
         const is6 = /\/originos\/6(\/|$)/.test(path);
         const isMonthly = isOriginOS && !is6;
         const subLinks = originOSMenu.querySelectorAll('.brand-submenu a');
@@ -78,18 +62,9 @@
         }
       }
 
-      const hyperOSMenu = document.querySelector('.brand-menu:nth-child(4)');
+      const hyperOSMenu = document.querySelector('.brand-menu:nth-child(4), .brand-menu[data-brand="hyperos"]');
       if (hyperOSMenu) {
         hyperOSMenu.classList.toggle('active', isHyperOS);
-        const trigger = hyperOSMenu.querySelector('.brand-trigger');
-        let hl = trigger?.querySelector('.nav-highlight');
-        if (isHyperOS && !hl && trigger) {
-          hl = document.createElement('div');
-          hl.className = 'nav-highlight';
-          trigger.prepend(hl);
-        } else if (!isHyperOS && hl) {
-          hl.remove();
-        }
         const is4 = /\/hyperos\/4(\/|$)/.test(path);
         const is3 = /\/hyperos\/3(\/|$)/.test(path);
         const is2 = /\/hyperos\/2(\/|$)/.test(path);
@@ -105,23 +80,60 @@
         }
       }
 
-      const magicOSTab = document.querySelector('.brand-tab[href*="magicos"]');
+      const magicOSTab = document.querySelector('.brand-tab[href*="magicos"], [data-brand="magicos"]');
       if (magicOSTab) {
         magicOSTab.classList.toggle('active', isMagicOS);
-        let hl = magicOSTab.querySelector('.nav-highlight');
-        if (isMagicOS && !hl) {
-          hl = document.createElement('div');
-          hl.className = 'nav-highlight';
-          magicOSTab.prepend(hl);
-        } else if (!isMagicOS && hl) {
-          hl.remove();
-        }
       }
     };
 
+    const updateNavSlidingPill = (targetTab = null, instant = false) => {
+      const brandSwitcher = document.querySelector('.brand-switcher');
+      if (!brandSwitcher) return;
+      let pill = brandSwitcher.querySelector('[data-nav-sliding-pill]');
+      if (!pill) {
+        pill = document.createElement('div');
+        pill.className = 'nav-sliding-pill';
+        pill.setAttribute('data-nav-sliding-pill', '');
+        pill.setAttribute('aria-hidden', 'true');
+        brandSwitcher.prepend(pill);
+      }
+
+      const activeTab = targetTab || brandSwitcher.querySelector('.brand-menu.active .brand-tab, .brand-switcher > a.active');
+      if (!activeTab) {
+        pill.style.opacity = '0';
+        return;
+      }
+
+      const switcherRect = brandSwitcher.getBoundingClientRect();
+      const tabRect = activeTab.getBoundingClientRect();
+      const scrollLeft = brandSwitcher.scrollLeft;
+
+      const left = tabRect.left - switcherRect.left + scrollLeft;
+      const width = tabRect.width;
+
+      if (instant) {
+        pill.style.transition = 'none';
+      } else {
+        pill.style.transition = 'transform 0.28s cubic-bezier(0.25, 1, 0.5, 1), width 0.28s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.2s ease';
+      }
+
+      pill.style.transform = `translate3d(${left}px, 0, 0)`;
+      pill.style.width = `${width}px`;
+      pill.style.opacity = '1';
+    };
+
     updatePersistedNav();
+    requestAnimationFrame(() => {
+      updateNavSlidingPill(null, false);
+    });
 
     const brandSwitcher = document.querySelector('.brand-switcher');
+    brandSwitcher?.querySelectorAll('.brand-tab, .home-tab').forEach((tab) => {
+      tab.addEventListener('click', () => {
+        updateNavSlidingPill(tab, false);
+      }, { signal });
+    });
+
     const activeNavTab = brandSwitcher?.querySelector('.active');
     
     let mobilePopover = document.querySelector('.mobile-brand-popover');
@@ -878,7 +890,7 @@
 
         const atBottom = isAtBottom();
         if (atBottom && e.deltaY > 0) {
-          if (e.cancelable && (wheelPullY > 15 || e.deltaY > 25)) {
+          if (e.cancelable && (wheelPullY > 8 || e.deltaY > 15)) {
             e.preventDefault();
           }
 
@@ -887,11 +899,12 @@
           isPulling = true;
           footerNav.classList.add('is-pulling');
 
-          wheelPullY += Math.min(Math.abs(e.deltaY), 40) * 0.45;
-          const damped = Math.min(85, Math.pow(wheelPullY, 0.58) * 2.1);
+          wheelPullY += Math.abs(e.deltaY) * 0.75;
+          const damped = Math.min(55, Math.pow(wheelPullY, 0.65) * 1.5);
           applyPullTransform(damped, 'none');
 
-          setThresholdState(damped >= WHEEL_THRESHOLD);
+          const isThreshold = damped >= 28 || wheelPullY >= 85;
+          setThresholdState(isThreshold);
 
           clearTimeout(wheelEndTimeout);
           wheelEndTimeout = setTimeout(() => {
@@ -902,17 +915,17 @@
               cancelPull();
             }
             isWheelActive = false;
-          }, 280);
+          }, 320);
         } else if (isWheelActive && e.deltaY < 0) {
-          wheelPullY = Math.max(0, wheelPullY + e.deltaY * 0.7);
+          wheelPullY = Math.max(0, wheelPullY - Math.abs(e.deltaY) * 0.8);
           if (wheelPullY === 0) {
             clearTimeout(wheelEndTimeout);
             isWheelActive = false;
             cancelPull();
           } else {
-            const damped = Math.min(85, Math.pow(wheelPullY, 0.58) * 2.1);
+            const damped = Math.min(55, Math.pow(wheelPullY, 0.65) * 1.5);
             applyPullTransform(damped, 'none');
-            setThresholdState(damped >= WHEEL_THRESHOLD);
+            setThresholdState(damped >= 28 || wheelPullY >= 85);
           }
         }
       };
