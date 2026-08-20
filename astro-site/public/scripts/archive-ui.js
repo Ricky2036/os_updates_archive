@@ -766,27 +766,37 @@
         setTimeout(() => {
           window.location.href = nextUrl;
         }, 200);
+
+        // Safety fallback in case navigation is delayed or cancelled
+        setTimeout(() => {
+          if (document.body.classList.contains('page-card-exit-up')) {
+            cancelPull();
+          }
+        }, 3000);
       };
 
       const cancelPull = () => {
         isPulling = false;
         thresholdReached = false;
-        footerNav.classList.remove('is-pulling');
+        footerNav.classList.remove('is-pulling', 'is-threshold-reached', 'is-loading');
+        document.body.classList.remove('page-card-exit-up');
         setThresholdState(false);
         clearTimeout(cancelTimer);
 
         // Explicitly set transition and force WebKit style reflow before changing transform back to 0
-        articleContent.style.transition = 'transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
+        articleContent.style.transition = 'transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.25s ease';
         void articleContent.offsetHeight;
         articleContent.style.transform = 'translate3d(0, 0px, 0)';
+        articleContent.style.opacity = '1';
 
         cancelTimer = setTimeout(() => {
           if (!isPulling) {
             articleContent.style.transition = '';
             articleContent.style.transform = '';
+            articleContent.style.opacity = '';
             if (pullHintText && nextUrl) pullHintText.textContent = '松手查看下一篇';
           }
-        }, 400);
+        }, 380);
       };
 
       const isAtBottom = () => {
@@ -831,7 +841,7 @@
           const rawPull = Math.max(0, pullOriginY - currentY);
           
           // Prevent native iOS/Android overscroll bounce from interfering with custom pull
-          if (rawPull > 6 && e.cancelable) {
+          if (rawPull > 4 && e.cancelable) {
             e.preventDefault();
           }
 
