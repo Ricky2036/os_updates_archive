@@ -129,16 +129,6 @@
     requestAnimationFrame(() => updateNavSlidingPill(null, false));
 
     const brandSwitcher = document.querySelector('.brand-switcher');
-    brandSwitcher?.querySelectorAll('.brand-tab, .home-tab').forEach((tab) => {
-      tab.addEventListener('click', () => {
-        const target = tab.closest('.brand-menu') || tab;
-        brandSwitcher.querySelectorAll('.active').forEach(el => el.classList.remove('active'));
-        target.classList.add('active');
-        tab.classList.add('active');
-        updateNavSlidingPill(target, false);
-      }, { signal });
-    });
-
     const activeNavTab = brandSwitcher?.querySelector('.active');
     
     let mobilePopover = document.querySelector('.mobile-brand-popover');
@@ -243,15 +233,10 @@
       const allTabsAndMenus = brandSwitcher.querySelectorAll('.home-tab, .brand-menu, .brand-tab');
       allTabsAndMenus.forEach(el => el.classList.remove('active'));
       targetTab.classList.add('active');
+      const trigger = targetTab.querySelector('.brand-trigger');
+      if (trigger) trigger.classList.add('active');
 
-      const existingHl = brandSwitcher.querySelector('.nav-highlight');
-      if (existingHl) existingHl.remove();
-
-      const newHl = document.createElement('div');
-      newHl.className = 'nav-highlight';
-
-      const triggerOrAnchor = targetTab.querySelector('.brand-trigger') || targetTab;
-      triggerOrAnchor.prepend(newHl);
+      updateNavSlidingPill(targetTab, false);
 
       if (mobileTabs.matches) {
         const targetScroll = getOptimalTabScrollLeft(targetTab);
@@ -405,14 +390,15 @@
       // Tab click handler
       trigger?.addEventListener('click', (event) => {
         if (mobileTabs.matches) {
+          const isCurrentlyActive = menu.classList.contains('active');
           const targetTab = menu || trigger.closest('.brand-menu') || trigger;
           const targetScroll = getOptimalTabScrollLeft(targetTab);
           brandSwitcher?.scrollTo({ left: targetScroll, behavior: 'smooth' });
 
           if (items.length > 1) {
-            if (menu.classList.contains('active')) {
+            if (isCurrentlyActive) {
               event.preventDefault();
-              if (currentOpenMenu === menu && mobilePopover.classList.contains('open')) {
+              if (currentOpenMenu === menu && mobilePopover?.classList.contains('open')) {
                 closeBrandMenu();
               } else {
                 openBrandMenu();
@@ -422,8 +408,16 @@
               closeBrandMenu();
             }
           } else {
-            setOptimisticActiveTab(menu);
-            closeBrandMenu();
+            if (isCurrentlyActive) {
+              const targetHref = trigger.getAttribute('href');
+              if (targetHref && (window.location.pathname === targetHref || window.location.pathname.replace(/\/$/, '') === targetHref.replace(/\/$/, ''))) {
+                event.preventDefault();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }
+            } else {
+              setOptimisticActiveTab(menu);
+              closeBrandMenu();
+            }
           }
         } else {
           // Desktop: clicking TAB immediately closes popup and prevents re-opening while cursor lingers
