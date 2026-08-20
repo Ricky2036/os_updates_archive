@@ -664,12 +664,12 @@
       }, 500);
     }
 
-    // Article footer navigation & Mobile pull-up gesture
+    // Article footer navigation & Pull-up to next article (Touch + Mouse Wheel)
     const initArticleFooterNav = () => {
       const footerNav = document.querySelector('[data-article-footer-nav]');
       if (!footerNav) return;
 
-      const pullWrapper = footerNav.querySelector('[data-footer-pull-wrapper]');
+      const articleContent = document.querySelector('.article-content') || footerNav;
       const pullHintText = footerNav.querySelector('[data-pull-hint-text]');
       const scrollTopBtn = footerNav.querySelector('[data-scroll-top]');
       const nextUrl = footerNav.dataset.nextUrl;
@@ -681,12 +681,61 @@
         window.scrollTo({ top: 0, behavior: 'smooth' });
       }, { signal });
 
-      // Mobile touch pull-up gesture
-      let touchStartY = 0;
-      let touchStartX = 0;
       let isPulling = false;
       let thresholdReached = false;
-      const PULL_THRESHOLD = 52; // +50% higher threshold (requires ~105px finger pull)
+      const PULL_THRESHOLD = 46; // Threshold in damped pixels
+
+      const applyPullTransform = (dampedPx, transition = '') => {
+        articleContent.style.transition = transition;
+        articleContent.style.transform = dampedPx > 0 ? `translate3d(0, -${dampedPx}px, 0)` : '';
+      };
+
+      const setThresholdState = (reached) => {
+        thresholdReached = reached;
+        if (reached) {
+          footerNav.classList.add('is-threshold-reached');
+          if (pullHintText && nextUrl) pullHintText.textContent = '松手查看下一篇';
+        } else {
+          footerNav.classList.remove('is-threshold-reached');
+          if (pullHintText && nextUrl) pullHintText.textContent = '松手查看下一篇';
+        }
+      };
+
+      const triggerNavigation = () => {
+        footerNav.classList.add('is-loading');
+        applyPullTransform(90, 'transform 0.32s cubic-bezier(0.4, 0, 1, 1)');
+        if (pullHintText) pullHintText.textContent = '正在前往下一篇…';
+        sessionStorage.setItem('os-archive:pull-navigated', 'true');
+        document.body.classList.add('page-card-exit-up');
+
+        setTimeout(() => {
+          window.location.href = nextUrl;
+        }, 200);
+      };
+
+      const cancelPull = () => {
+        isPulling = false;
+        applyPullTransform(0, 'transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275)');
+        setThresholdState(false);
+        setTimeout(() => {
+          if (!isPulling) {
+            articleContent.style.transition = '';
+            articleContent.style.transform = '';
+            if (pullHintText && nextUrl) pullHintText.textContent = '松手查看下一篇';
+          }
+        }, 380);
+      };
+
+      const isAtBottom = () => {
+        const scrollBottom = window.innerHeight + window.scrollY;
+        const docHeight = document.documentElement.scrollHeight;
+        const footerRect = footerNav.getBoundingClientRect();
+        return (scrollBottom >= docHeight - 24) || (footerRect.bottom <= window.innerHeight + 50);
+      };
+
+      // --- Mobile Touch Gestures ---
+      let touchStartY = 0;
+      let touchStartX = 0;
 
       const onTouchStart = (e) => {
         if (e.touches.length !== 1) return;
@@ -697,38 +746,30 @@
       };
 
       const onTouchMove = (e) => {
-        if (e.touches.length !== 1 || !pullWrapper) return;
+        if (e.touches.length !== 1) return;
         const currentY = e.touches[0].clientY;
         const currentX = e.touches[0].clientX;
         const dy = currentY - touchStartY;
         const dx = currentX - touchStartX;
 
-        const atBottom = (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 30) || (footerNav.getBoundingClientRect().top <= window.innerHeight);
-
-        if (atBottom && dy < 0 && Math.abs(dy) > Math.abs(dx) && Math.abs(dy) > 6) {
+        if (isAtBottom() && dy < 0 && Math.abs(dy) > Math.abs(dx) && Math.abs(dy) > 6) {
           isPulling = true;
           footerNav.classList.add('is-pulling');
           const pullDist = Math.abs(dy);
-          // Increased damping resistance (stronger rubber-band feel)
           const damped = Math.min(95, Math.pow(pullDist, 0.68) * 2.2);
-          pullWrapper.style.transform = `translate3d(0, -${damped}px, 0)`;
-          pullWrapper.style.transition = 'none';
+          applyPullTransform(damped, 'none');
 
           if (nextUrl) {
             prefetchUrl(nextUrl);
             if (damped >= PULL_THRESHOLD) {
               if (!thresholdReached) {
-                thresholdReached = true;
                 if ('vibrate' in navigator) {
                   try { navigator.vibrate(12); } catch {}
                 }
               }
-              footerNav.classList.add('is-threshold-reached');
-              if (pullHintText) pullHintText.textContent = '松手查看下一篇';
+              setThresholdState(true);
             } else {
-              thresholdReached = false;
-              footerNav.classList.remove('is-threshold-reached');
-              if (pullHintText) pullHintText.textContent = '松手查看下一篇';
+              setThresholdState(false);
             }
           } else {
             if (pullHintText) pullHintText.textContent = '已是最后一篇';
@@ -737,37 +778,76 @@
       };
 
       const onTouchEnd = () => {
-        if (!isPulling || !pullWrapper) return;
+        if (!isPulling) return;
         isPulling = false;
         footerNav.classList.remove('is-pulling');
 
         if (thresholdReached && nextUrl) {
-          footerNav.classList.add('is-loading');
-          pullWrapper.style.transition = 'transform 0.32s cubic-bezier(0.4, 0, 1, 1)';
-          pullWrapper.style.transform = 'translate3d(0, -90px, 0)';
-          if (pullHintText) pullHintText.textContent = '正在前往下一篇…';
-          sessionStorage.setItem('os-archive:pull-navigated', 'true');
-          document.body.classList.add('page-card-exit-up');
-
-          setTimeout(() => {
-            window.location.href = nextUrl;
-          }, 200);
+          triggerNavigation();
         } else {
-          pullWrapper.style.transition = 'transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
-          pullWrapper.style.transform = 'translate3d(0, 0, 0)';
-          footerNav.classList.remove('is-threshold-reached');
-          setTimeout(() => {
-            if (pullWrapper) pullWrapper.style.transition = '';
-            if (pullHintText && nextUrl) pullHintText.textContent = '松手查看下一篇';
-          }, 380);
+          cancelPull();
         }
-        thresholdReached = false;
       };
 
       window.addEventListener('touchstart', onTouchStart, { passive: true, signal });
       window.addEventListener('touchmove', onTouchMove, { passive: true, signal });
       window.addEventListener('touchend', onTouchEnd, { passive: true, signal });
       window.addEventListener('touchcancel', onTouchEnd, { passive: true, signal });
+
+      // --- Desktop Mouse Wheel & Trackpad Gesture ---
+      let wheelPullY = 0;
+      let wheelEndTimeout = null;
+      let isWheelActive = false;
+
+      const onWheel = (e) => {
+        if (!nextUrl) return;
+
+        const atBottom = isAtBottom();
+        if (atBottom && e.deltaY > 0) {
+          if (e.cancelable && (wheelPullY > 8 || e.deltaY > 18)) {
+            e.preventDefault();
+          }
+
+          prefetchUrl(nextUrl);
+          isWheelActive = true;
+          isPulling = true;
+          footerNav.classList.add('is-pulling');
+
+          wheelPullY += Math.min(Math.abs(e.deltaY), 50) * 0.7;
+          const damped = Math.min(95, Math.pow(wheelPullY, 0.68) * 2.2);
+          applyPullTransform(damped, 'none');
+
+          if (damped >= PULL_THRESHOLD) {
+            setThresholdState(true);
+          } else {
+            setThresholdState(false);
+          }
+
+          clearTimeout(wheelEndTimeout);
+          wheelEndTimeout = setTimeout(() => {
+            if (thresholdReached && nextUrl) {
+              triggerNavigation();
+            } else {
+              wheelPullY = 0;
+              cancelPull();
+            }
+            isWheelActive = false;
+          }, 240);
+        } else if (isWheelActive && e.deltaY < 0) {
+          wheelPullY = Math.max(0, wheelPullY + e.deltaY * 0.8);
+          if (wheelPullY === 0) {
+            clearTimeout(wheelEndTimeout);
+            isWheelActive = false;
+            cancelPull();
+          } else {
+            const damped = Math.min(95, Math.pow(wheelPullY, 0.68) * 2.2);
+            applyPullTransform(damped, 'none');
+            setThresholdState(damped >= PULL_THRESHOLD);
+          }
+        }
+      };
+
+      window.addEventListener('wheel', onWheel, { passive: false, signal });
     };
 
     initArticleFooterNav();

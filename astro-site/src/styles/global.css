@@ -158,7 +158,7 @@ html.is-switching-view .article-layout { transition: width 0.4s var(--ease), gri
 .brand-article-list span { color: var(--muted); font-size: 12px; }
 .brand-article-list h3 { margin: 0; font-size: 17px; line-height: 1.45; }
 
-.article-content { padding: 0; }
+.article-content { padding: 0; will-change: transform; }
 .monthly-view {
   min-width: 0;
   perspective: 1600px;
