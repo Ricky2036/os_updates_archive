@@ -542,7 +542,7 @@ body.page-card-exit-up .article-content {
     z-index: 80;
     display: flex;
     align-items: center;
-    width: min(340px, calc(100vw - 32px));
+    width: min(308px, calc(100vw - 32px));
     height: 48px;
     padding: 4px;
     box-sizing: border-box;
@@ -629,7 +629,7 @@ body.page-card-exit-up .article-content {
     z-index: -1;
     border-radius: 999px;
     background: rgba(255, 255, 255, 0.95);
-    box-shadow: 0 2px 8px rgba(39, 63, 116, 0.12), inset 0 0 0 1px rgba(255, 255, 255, 0.9);
+    box-shadow: none;
     pointer-events: none;
   }
   ::view-transition-group(brand-highlight), ::view-transition-old(brand-highlight), ::view-transition-new(brand-highlight) {

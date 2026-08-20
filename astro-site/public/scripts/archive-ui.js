@@ -126,6 +126,9 @@
 
     updatePersistedNav();
     
+    const brandSwitcher = document.querySelector('.brand-switcher');
+    const activeNavTab = brandSwitcher?.querySelector('.active');
+    
     let mobilePopover = document.querySelector('.mobile-brand-popover');
     if (!mobilePopover) {
       mobilePopover = document.createElement('div');
