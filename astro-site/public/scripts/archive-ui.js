@@ -731,10 +731,12 @@
 
       let isPulling = false;
       let thresholdReached = false;
+      let cancelTimer = null;
       // Deliberate physical pull threshold (~75px thumb drag, ~1.5cm on phone screen)
       const RAW_PULL_THRESHOLD = 75;
 
       const applyPullTransform = (dampedPx, transition = '') => {
+        clearTimeout(cancelTimer);
         articleContent.style.transition = transition;
         articleContent.style.transform = `translate3d(0, -${dampedPx}px, 0)`;
       };
@@ -771,14 +773,20 @@
         thresholdReached = false;
         footerNav.classList.remove('is-pulling');
         setThresholdState(false);
-        applyPullTransform(0, 'transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275)');
-        setTimeout(() => {
+        clearTimeout(cancelTimer);
+
+        // Explicitly set transition and force WebKit style reflow before changing transform back to 0
+        articleContent.style.transition = 'transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
+        void articleContent.offsetHeight;
+        articleContent.style.transform = 'translate3d(0, 0px, 0)';
+
+        cancelTimer = setTimeout(() => {
           if (!isPulling) {
             articleContent.style.transition = '';
             articleContent.style.transform = '';
             if (pullHintText && nextUrl) pullHintText.textContent = '松手查看下一篇';
           }
-        }, 380);
+        }, 400);
       };
 
       const isAtBottom = () => {
@@ -795,6 +803,7 @@
 
       const onTouchStart = (e) => {
         if (e.touches.length !== 1) return;
+        clearTimeout(cancelTimer);
         touchStartY = e.touches[0].clientY;
         touchStartX = e.touches[0].clientX;
         pullOriginY = 0;
