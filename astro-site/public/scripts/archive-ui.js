@@ -683,7 +683,8 @@
 
       let isPulling = false;
       let thresholdReached = false;
-      const PULL_THRESHOLD = 46; // Threshold in damped pixels
+      // Stricter, higher threshold requiring deliberate pull gesture (~260px physical drag)
+      const PULL_THRESHOLD = 52;
 
       const applyPullTransform = (dampedPx, transition = '') => {
         articleContent.style.transition = transition;
@@ -691,10 +692,14 @@
       };
 
       const setThresholdState = (reached) => {
+        if (thresholdReached === reached) return;
         thresholdReached = reached;
         if (reached) {
           footerNav.classList.add('is-threshold-reached');
           if (pullHintText && nextUrl) pullHintText.textContent = '松手查看下一篇';
+          if ('vibrate' in navigator) {
+            try { navigator.vibrate(15); } catch {}
+          }
         } else {
           footerNav.classList.remove('is-threshold-reached');
           if (pullHintText && nextUrl) pullHintText.textContent = '松手查看下一篇';
@@ -703,7 +708,7 @@
 
       const triggerNavigation = () => {
         footerNav.classList.add('is-loading');
-        applyPullTransform(90, 'transform 0.32s cubic-bezier(0.4, 0, 1, 1)');
+        applyPullTransform(96, 'transform 0.34s cubic-bezier(0.4, 0, 1, 1)');
         if (pullHintText) pullHintText.textContent = '正在前往下一篇…';
         sessionStorage.setItem('os-archive:pull-navigated', 'true');
         document.body.classList.add('page-card-exit-up');
@@ -715,7 +720,7 @@
 
       const cancelPull = () => {
         isPulling = false;
-        applyPullTransform(0, 'transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275)');
+        applyPullTransform(0, 'transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275)');
         setThresholdState(false);
         setTimeout(() => {
           if (!isPulling) {
@@ -723,24 +728,26 @@
             articleContent.style.transform = '';
             if (pullHintText && nextUrl) pullHintText.textContent = '松手查看下一篇';
           }
-        }, 380);
+        }, 400);
       };
 
       const isAtBottom = () => {
         const scrollBottom = window.innerHeight + window.scrollY;
         const docHeight = document.documentElement.scrollHeight;
-        const footerRect = footerNav.getBoundingClientRect();
-        return (scrollBottom >= docHeight - 24) || (footerRect.bottom <= window.innerHeight + 50);
+        // Strictly at the bottom edge (prevents triggering during normal page reading)
+        return scrollBottom >= docHeight - 6;
       };
 
       // --- Mobile Touch Gestures ---
       let touchStartY = 0;
       let touchStartX = 0;
+      let pullOriginY = 0;
 
       const onTouchStart = (e) => {
         if (e.touches.length !== 1) return;
         touchStartY = e.touches[0].clientY;
         touchStartX = e.touches[0].clientX;
+        pullOriginY = 0;
         isPulling = false;
         thresholdReached = false;
       };
@@ -752,25 +759,21 @@
         const dy = currentY - touchStartY;
         const dx = currentX - touchStartX;
 
-        if (isAtBottom() && dy < 0 && Math.abs(dy) > Math.abs(dx) && Math.abs(dy) > 6) {
-          isPulling = true;
-          footerNav.classList.add('is-pulling');
-          const pullDist = Math.abs(dy);
-          const damped = Math.min(95, Math.pow(pullDist, 0.68) * 2.2);
+        if (isAtBottom() && dy < -8 && Math.abs(dy) > Math.abs(dx) * 1.4) {
+          if (!isPulling) {
+            isPulling = true;
+            pullOriginY = currentY;
+            footerNav.classList.add('is-pulling');
+          }
+
+          const rawPull = Math.max(0, (pullOriginY || touchStartY) - currentY);
+          // High-damping resistance formula
+          const damped = Math.min(85, Math.pow(rawPull, 0.58) * 2.1);
           applyPullTransform(damped, 'none');
 
           if (nextUrl) {
             prefetchUrl(nextUrl);
-            if (damped >= PULL_THRESHOLD) {
-              if (!thresholdReached) {
-                if ('vibrate' in navigator) {
-                  try { navigator.vibrate(12); } catch {}
-                }
-              }
-              setThresholdState(true);
-            } else {
-              setThresholdState(false);
-            }
+            setThresholdState(damped >= PULL_THRESHOLD);
           } else {
             if (pullHintText) pullHintText.textContent = '已是最后一篇';
           }
@@ -804,7 +807,7 @@
 
         const atBottom = isAtBottom();
         if (atBottom && e.deltaY > 0) {
-          if (e.cancelable && (wheelPullY > 8 || e.deltaY > 18)) {
+          if (e.cancelable && (wheelPullY > 15 || e.deltaY > 25)) {
             e.preventDefault();
           }
 
@@ -813,15 +816,12 @@
           isPulling = true;
           footerNav.classList.add('is-pulling');
 
-          wheelPullY += Math.min(Math.abs(e.deltaY), 50) * 0.7;
-          const damped = Math.min(95, Math.pow(wheelPullY, 0.68) * 2.2);
+          // Controlled accumulation requiring deliberate consecutive wheeling
+          wheelPullY += Math.min(Math.abs(e.deltaY), 40) * 0.45;
+          const damped = Math.min(85, Math.pow(wheelPullY, 0.58) * 2.1);
           applyPullTransform(damped, 'none');
 
-          if (damped >= PULL_THRESHOLD) {
-            setThresholdState(true);
-          } else {
-            setThresholdState(false);
-          }
+          setThresholdState(damped >= PULL_THRESHOLD);
 
           clearTimeout(wheelEndTimeout);
           wheelEndTimeout = setTimeout(() => {
@@ -832,15 +832,15 @@
               cancelPull();
             }
             isWheelActive = false;
-          }, 240);
+          }, 280);
         } else if (isWheelActive && e.deltaY < 0) {
-          wheelPullY = Math.max(0, wheelPullY + e.deltaY * 0.8);
+          wheelPullY = Math.max(0, wheelPullY + e.deltaY * 0.7);
           if (wheelPullY === 0) {
             clearTimeout(wheelEndTimeout);
             isWheelActive = false;
             cancelPull();
           } else {
-            const damped = Math.min(95, Math.pow(wheelPullY, 0.68) * 2.2);
+            const damped = Math.min(85, Math.pow(wheelPullY, 0.58) * 2.1);
             applyPullTransform(damped, 'none');
             setThresholdState(damped >= PULL_THRESHOLD);
           }
