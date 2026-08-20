@@ -301,14 +301,8 @@
       }
     }, { signal });
 
-    // Desktop hover & dismissal state
-    let isNavClicked = false;
-    try {
-      if (sessionStorage.getItem('os-archive:nav-clicked') === 'true') {
-        isNavClicked = true;
-        sessionStorage.removeItem('os-archive:nav-clicked');
-      }
-    } catch {}
+    // Desktop hover & dismissal state (window-level persistent across view transitions)
+    window.__osDismissedBrand = window.__osDismissedBrand ?? null;
 
     const brandMenus = document.querySelectorAll('.brand-menu');
 
@@ -328,10 +322,11 @@
       const trigger = menu.querySelector('.brand-trigger');
       const submenu = menu.querySelector('.brand-submenu');
       const items = [...(submenu?.querySelectorAll('[role="menuitem"]') ?? [])];
+      const brandKey = menu.dataset.brand || '';
       let hoverTimer = null;
 
       const openBrandMenu = (focusFirst = false) => {
-        if (isNavClicked) return;
+        if (window.__osDismissedBrand === brandKey) return;
         closeAllBrandMenus();
         currentOpenMenu = menu;
 
@@ -342,6 +337,7 @@
 
           mobilePopover.querySelectorAll('a').forEach(subLink => {
             subLink.addEventListener('click', (e) => {
+              window.__osDismissedBrand = brandKey;
               closeBrandMenu();
               const targetHref = subLink.getAttribute('href');
               if (targetHref && (window.location.pathname === targetHref || window.location.pathname.replace(/\/$/, '') === targetHref.replace(/\/$/, ''))) {
@@ -365,19 +361,20 @@
       // Desktop: mouse hover opens popup menu
       menu.addEventListener('mouseenter', () => {
         if (!mobileTabs.matches) {
-          if (isNavClicked) return;
+          if (window.__osDismissedBrand === brandKey) return;
+          // Hovering a different brand clears dismissal of previous brand
+          window.__osDismissedBrand = null;
           clearTimeout(hoverTimer);
           hoverTimer = setTimeout(() => {
-            if (!isNavClicked) openBrandMenu();
+            if (window.__osDismissedBrand !== brandKey) openBrandMenu();
           }, 35);
         }
       }, { signal });
 
-      // Desktop: mouse leave resets dismissal state
+      // Desktop: mouse leave closes menu
       menu.addEventListener('mouseleave', () => {
         if (!mobileTabs.matches) {
           clearTimeout(hoverTimer);
-          isNavClicked = false;
           closeBrandMenu();
         }
       }, { signal });
@@ -412,9 +409,8 @@
             closeBrandMenu();
           }
         } else {
-          // Desktop: clicking TAB immediately closes popup and prevents re-opening on page transition
-          isNavClicked = true;
-          try { sessionStorage.setItem('os-archive:nav-clicked', 'true'); } catch {}
+          // Desktop: clicking TAB immediately closes popup and prevents re-opening while cursor lingers
+          window.__osDismissedBrand = brandKey;
           closeBrandMenu();
 
           const targetHref = trigger.getAttribute('href');
@@ -428,7 +424,7 @@
       trigger?.addEventListener('keydown', (event) => {
         if (['ArrowDown', 'ArrowUp', ' '].includes(event.key)) {
           event.preventDefault();
-          isNavClicked = false;
+          window.__osDismissedBrand = null;
           openBrandMenu(true);
         }
         if (event.key === 'Escape') {
@@ -455,8 +451,7 @@
       }, { signal });
 
       items.forEach(item => item.addEventListener('click', (e) => {
-        isNavClicked = true;
-        try { sessionStorage.setItem('os-archive:nav-clicked', 'true'); } catch {}
+        window.__osDismissedBrand = brandKey;
         closeAllBrandMenus();
         const targetHref = item.getAttribute('href');
         if (targetHref && (window.location.pathname === targetHref || window.location.pathname.replace(/\/$/, '') === targetHref.replace(/\/$/, ''))) {
@@ -468,18 +463,17 @@
 
     document.querySelectorAll('.home-tab, .brand-tab:not(.brand-trigger)').forEach(tab => {
       tab.addEventListener('click', () => {
-        isNavClicked = true;
-        try { sessionStorage.setItem('os-archive:nav-clicked', 'true'); } catch {}
+        window.__osDismissedBrand = tab.getAttribute('data-brand') || 'home';
         closeAllBrandMenus();
       }, { signal });
     });
 
-    // Reset dismissal flag whenever mouse moves outside the brand switcher navbar
-    document.addEventListener('mousemove', (e) => {
-      if (isNavClicked && !e.target.closest('.brand-switcher-nav')) {
-        isNavClicked = false;
-      }
-    }, { signal, passive: true });
+    // Reset dismissed brand whenever mouse leaves the entire brand switcher navbar
+    const brandNav = document.querySelector('.brand-switcher-nav');
+    brandNav?.addEventListener('mouseleave', () => {
+      window.__osDismissedBrand = null;
+      closeAllBrandMenus();
+    }, { signal });
 
     document.addEventListener('pointerdown', (event) => {
       if (!event.target.closest('.brand-menu') && !event.target.closest('.mobile-brand-popover')) {
