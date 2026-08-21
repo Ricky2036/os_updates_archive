@@ -10,6 +10,12 @@ const u = (module, type, description, moduleSource = 'explicit-inline') => ({
 });
 
 export const reviewedUpdateOverrides = {
+  33: [
+    u('超级小爱', '新增', '“记一下”场景支持收藏与日程双触发，既收藏屏幕内容，又能通过小米超级岛推荐添加日程。', 'explicit-heading'),
+    u('超级小爱', '新增', '深度思考可后台生成并支持小米超级岛。', 'explicit-heading'),
+    u('超级小爱', '优化', '优化流式文本显示效果。', 'explicit-heading'),
+    u('超级小爱', '优化', '优化大图查看效果。', 'explicit-heading'),
+  ],
   40: [
     u('CarWith', '新增', '深色模式、浅色模式可跟随日出、日落自动切换。'),
     u('CarWith', '新增', '支持车机屏幕录制功能。'),

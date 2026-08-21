@@ -507,19 +507,6 @@ Object.assign(monthlyDigestSeeds, {
       u('远程控制', '修复', '页面显示异常的问题。'),
     ],
   },
-  31: { highlights: [], updates: [] },
-  32: { highlights: [], updates: [] },
-  33: { highlights: [], updates: [] },
-  34: { highlights: [], updates: [] },
-  35: { highlights: [], updates: [] },
-  36: { highlights: [], updates: [] },
-  37: { highlights: [], updates: [] },
-  38: { highlights: [], updates: [] },
-  39: { highlights: [], updates: [] },
-  40: { highlights: [], updates: [] },
-  41: { highlights: [], updates: [] },
-  42: { highlights: [], updates: [] },
-  43: { highlights: [], updates: [] },
 });
 
 export const targetMonthlyOrders = Object.keys(monthlyDigestSeeds).map(Number).sort((a, b) => a - b);

@@ -31,7 +31,7 @@
           "alt": "珍藏来时路，青春不落幕功能演示",
           "evidenceId": "highlight-01-demo",
           "width": 480,
-          "height": 531
+          "height": 289
         }
       ]
     }
@@ -423,8 +423,7 @@
       "blockIds": [
         "ocr-0006",
         "ocr-0007",
-        "ocr-0008",
-        "ocr-0009"
+        "ocr-0008"
       ],
       "text": "珍藏来时路，青春不落幕 新增毕业季限时水印，定格毕业瞬间，留存专属回忆。",
       "targetIds": [
@@ -931,6 +930,19 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
+        "ocr-0009"
+      ],
+      "text": "*「小米相册-编辑」需升级至2.3.0.8.3及以上版本",
+      "targetIds": [],
+      "exclusionReason": "disclaimer"
+    },
+    {
+      "id": "source-excluded-033",
+      "classification": "excluded",
+      "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
+      "blockIds": [
         "ocr-0010"
       ],
       "text": "笔记",
@@ -938,7 +950,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-033",
+      "id": "source-excluded-034",
       "classification": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -951,7 +963,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-034",
+      "id": "source-excluded-035",
       "classification": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -964,7 +976,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-035",
+      "id": "source-excluded-036",
       "classification": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -977,7 +989,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-036",
+      "id": "source-excluded-037",
       "classification": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -990,7 +1002,7 @@
       "exclusionReason": "disclaimer"
     },
     {
-      "id": "source-excluded-037",
+      "id": "source-excluded-038",
       "classification": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -1003,7 +1015,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-038",
+      "id": "source-excluded-039",
       "classification": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -1016,7 +1028,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-039",
+      "id": "source-excluded-040",
       "classification": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -1029,7 +1041,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-040",
+      "id": "source-excluded-041",
       "classification": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -1042,7 +1054,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-041",
+      "id": "source-excluded-042",
       "classification": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -1055,7 +1067,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-042",
+      "id": "source-excluded-043",
       "classification": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -1068,7 +1080,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-043",
+      "id": "source-excluded-044",
       "classification": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -1081,7 +1093,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-044",
+      "id": "source-excluded-045",
       "classification": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -1094,7 +1106,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-045",
+      "id": "source-excluded-046",
       "classification": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -1107,7 +1119,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-046",
+      "id": "source-excluded-047",
       "classification": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -1120,7 +1132,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-047",
+      "id": "source-excluded-048",
       "classification": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -1133,7 +1145,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-048",
+      "id": "source-excluded-049",
       "classification": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -1146,7 +1158,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-049",
+      "id": "source-excluded-050",
       "classification": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -1159,7 +1171,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-050",
+      "id": "source-excluded-051",
       "classification": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
       "sourceIndex": 0,
@@ -1183,14 +1195,13 @@
       "blockIds": [
         "ocr-0006",
         "ocr-0007",
-        "ocr-0008",
-        "ocr-0009"
+        "ocr-0008"
       ],
       "region": {
-        "x": 27,
+        "x": 32,
         "y": 1012,
-        "width": 953,
-        "height": 1044
+        "width": 949,
+        "height": 360
       },
       "note": "相册：珍藏来时路，青春不落幕标题与说明"
     },
@@ -1204,9 +1215,9 @@
       "blockIds": [],
       "region": {
         "x": 38,
-        "y": 1027,
+        "y": 1355,
         "width": 1004,
-        "height": 1111
+        "height": 605
       },
       "note": "相册：珍藏来时路，青春不落幕人工确认演示区域"
     },
@@ -1811,6 +1822,24 @@
       "sourceIndex": 0,
       "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
       "blockIds": [
+        "ocr-0009"
+      ],
+      "region": {
+        "x": 27,
+        "y": 1940,
+        "width": 661,
+        "height": 160
+      },
+      "note": "不进入表格：disclaimer"
+    },
+    {
+      "id": "source-excluded-033-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "8c6c039d187c03d96f9efce6987182732ce0d19e0d07a55ec4f391a52185a4d4",
+      "blockIds": [
         "ocr-0010"
       ],
       "region": {
@@ -1822,7 +1851,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-033-evidence",
+      "id": "source-excluded-034-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
@@ -1840,7 +1869,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-034-evidence",
+      "id": "source-excluded-035-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
@@ -1858,7 +1887,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-035-evidence",
+      "id": "source-excluded-036-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
@@ -1876,7 +1905,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-036-evidence",
+      "id": "source-excluded-037-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
@@ -1894,7 +1923,7 @@
       "note": "不进入表格：disclaimer"
     },
     {
-      "id": "source-excluded-037-evidence",
+      "id": "source-excluded-038-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
@@ -1912,7 +1941,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-038-evidence",
+      "id": "source-excluded-039-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
@@ -1930,7 +1959,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-039-evidence",
+      "id": "source-excluded-040-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
@@ -1948,7 +1977,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-040-evidence",
+      "id": "source-excluded-041-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
@@ -1966,7 +1995,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-041-evidence",
+      "id": "source-excluded-042-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
@@ -1984,7 +2013,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-042-evidence",
+      "id": "source-excluded-043-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
@@ -2002,7 +2031,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-043-evidence",
+      "id": "source-excluded-044-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
@@ -2020,7 +2049,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-044-evidence",
+      "id": "source-excluded-045-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
@@ -2038,7 +2067,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-045-evidence",
+      "id": "source-excluded-046-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
@@ -2056,7 +2085,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-046-evidence",
+      "id": "source-excluded-047-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
@@ -2074,7 +2103,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-047-evidence",
+      "id": "source-excluded-048-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
@@ -2092,7 +2121,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-048-evidence",
+      "id": "source-excluded-049-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
@@ -2110,7 +2139,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-049-evidence",
+      "id": "source-excluded-050-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
@@ -2128,7 +2157,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-050-evidence",
+      "id": "source-excluded-051-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/HyperOS_5月更新一览_(2026)/0.webp",
@@ -2156,13 +2185,13 @@
       "page": "verified"
     },
     "expectedHighlightCount": 1,
-    "sourceItemCount": 50,
+    "sourceItemCount": 51,
     "includedItemCount": 26,
-    "excludedItemCount": 24,
+    "excludedItemCount": 25,
     "highlightCount": 1,
     "updateCount": 25,
     "mediaCount": 1,
-    "mappedItemCount": 50,
+    "mappedItemCount": 51,
     "coverageRate": 1
   }
 }

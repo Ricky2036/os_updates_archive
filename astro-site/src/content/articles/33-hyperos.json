@@ -1,21 +1,21 @@
 {
   "articleId": "HyperOS_4月更新一览_(2026)",
   "order": 33,
-  "title": "小米HyperOS 4月更新一览",
+  "title": "小米澎湃OS 3 升级公告",
   "brand": "hyperos",
   "year": 2026,
-  "publishedAt": "2026-04-01",
+  "publishedAt": "2026-04-20",
   "slug": "33-xiaomi-hyperos-2026-04",
   "kind": "gallery",
   "legacyPath": "HyperOS_4月更新一览_(2026).html",
-  "html": "<style>.image-gallery { gap: 0 !important; } .image-gallery img { margin: 0 !important; border-radius: 0 !important; box-shadow: none !important; }</style>\n<section class=\"card\">\n        <div class=\"card-body\">\n          <div class=\"image-gallery\">\n            <img src=\"../../../assets/images/HyperOS_4月更新一览_(2026)/0.webp\" loading=\"lazy\" alt=\"HyperOS 4月更新一览 - 图0\">\n          </div>\n        </div>\n    </section>",
+  "html": "<style>.image-gallery { gap: 0 !important; } .image-gallery img { margin: 0 !important; border-radius: 0 !important; box-shadow: none !important; }</style>\n<section class=\"card\">\n        <div class=\"card-body\">\n          <div class=\"image-gallery\">\n            <img src=\"../../../assets/images/HyperOS_4月更新一览_(2026)/0.webp\" loading=\"lazy\" alt=\"小米澎湃OS 3 升级公告 - 图0\">\n            <img src=\"../../../assets/images/HyperOS_4月更新一览_(2026)/1.webp\" loading=\"lazy\" alt=\"小米澎湃OS 3 升级公告 - 图1\">\n            <img src=\"../../../assets/images/HyperOS_4月更新一览_(2026)/2.webp\" loading=\"lazy\" alt=\"小米澎湃OS 3 升级公告 - 图2\">\n          </div>\n        </div>\n    </section>",
   "cover": {
     "src": "assets/covers/82d20ff4c572760a-1200.webp",
     "srcset": "assets/covers/82d20ff4c572760a-480.webp 480w, assets/covers/82d20ff4c572760a-800.webp 800w, assets/covers/82d20ff4c572760a-1200.webp 1200w",
     "avifSrcset": "assets/covers/82d20ff4c572760a-480.avif 480w, assets/covers/82d20ff4c572760a-800.avif 800w, assets/covers/82d20ff4c572760a-1200.avif 1200w",
     "width": 1200,
     "height": 675,
-    "alt": "小米HyperOS 4月更新一览 封面",
+    "alt": "小米澎湃OS 3 升级公告 封面",
     "dominantColor": "#f8f8f8",
     "focalPoint": "50% 0%"
   }

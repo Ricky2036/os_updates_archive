@@ -1,0 +1,652 @@
+{
+  "schemaVersion": 3,
+  "contentReviewVersion": 4,
+  "mediaReviewVersion": 4,
+  "articleId": "HyperOS_超级小爱近期更新功能一览_(2026)",
+  "reviewStatus": "verified",
+  "sourceHash": "810f111826e301a120428816132439e112d9863dd8f02278ca0348f22cb58007",
+  "highlights": [
+    {
+      "id": "highlight-01",
+      "module": "超级小爱记忆",
+      "moduleSource": "explicit-heading",
+      "title": "三指上滑快捷记忆",
+      "description": "记忆进度上线小米超级岛，支持三指上滑快捷记忆。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "evidence-highlight-01"
+      ],
+      "sourceItemIds": [
+        "source-highlight-01"
+      ],
+      "media": [
+        {
+          "id": "highlight-01-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/60/highlight-01-960.webp",
+          "thumbnail": "assets/digests-v2/60/highlight-01-480.webp",
+          "avifSrc": "assets/digests-v2/60/highlight-01-960.avif",
+          "avifThumbnail": "assets/digests-v2/60/highlight-01-480.avif",
+          "alt": "三指上滑快捷记忆功能演示",
+          "evidenceId": "evidence-highlight-01",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "id": "highlight-02",
+      "module": "超级小爱日程",
+      "moduleSource": "explicit-heading",
+      "title": "地址与提醒时间更灵活",
+      "description": "可创建地址信息并自定义提醒时间，单次最多查询 50 个日程信息。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "evidence-highlight-02"
+      ],
+      "sourceItemIds": [
+        "source-highlight-02"
+      ],
+      "media": [
+        {
+          "id": "highlight-02-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/60/highlight-02-960.webp",
+          "thumbnail": "assets/digests-v2/60/highlight-02-480.webp",
+          "avifSrc": "assets/digests-v2/60/highlight-02-960.avif",
+          "avifThumbnail": "assets/digests-v2/60/highlight-02-480.avif",
+          "alt": "地址与提醒时间更灵活功能演示",
+          "evidenceId": "evidence-highlight-02",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "id": "highlight-03",
+      "module": "超级小爱发现页",
+      "moduleSource": "explicit-heading",
+      "title": "新增小爱指南",
+      "description": "聚合实用功能，唤醒超级小爱上滑后可从右上角进入发现页。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "evidence-highlight-03"
+      ],
+      "sourceItemIds": [
+        "source-highlight-03"
+      ],
+      "media": [
+        {
+          "id": "highlight-03-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/60/highlight-03-960.webp",
+          "thumbnail": "assets/digests-v2/60/highlight-03-480.webp",
+          "avifSrc": "assets/digests-v2/60/highlight-03-960.avif",
+          "avifThumbnail": "assets/digests-v2/60/highlight-03-480.avif",
+          "alt": "新增小爱指南功能演示",
+          "evidenceId": "evidence-highlight-03",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "id": "highlight-04",
+      "module": "超级小爱翻译",
+      "moduleSource": "explicit-heading",
+      "title": "词句用法精解",
+      "description": "提供重点词汇解析与例句用法，辅助语言学习与日常沟通。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "evidence-highlight-04"
+      ],
+      "sourceItemIds": [
+        "source-highlight-04"
+      ],
+      "media": [
+        {
+          "id": "highlight-04-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/60/highlight-04-960.webp",
+          "thumbnail": "assets/digests-v2/60/highlight-04-480.webp",
+          "avifSrc": "assets/digests-v2/60/highlight-04-960.avif",
+          "avifThumbnail": "assets/digests-v2/60/highlight-04-480.avif",
+          "alt": "词句用法精解功能演示",
+          "evidenceId": "evidence-highlight-04",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "id": "highlight-05",
+      "module": "超级小爱深度研究",
+      "moduleSource": "explicit-heading",
+      "title": "生成网页报告与提炼要点",
+      "description": "输入问题后可直接生成结构化网页报告，快速提炼核心要点。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "evidence-highlight-05"
+      ],
+      "sourceItemIds": [
+        "source-highlight-05"
+      ],
+      "media": [
+        {
+          "id": "highlight-05-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/60/highlight-05-960.webp",
+          "thumbnail": "assets/digests-v2/60/highlight-05-480.webp",
+          "avifSrc": "assets/digests-v2/60/highlight-05-960.avif",
+          "avifThumbnail": "assets/digests-v2/60/highlight-05-480.avif",
+          "alt": "生成网页报告与提炼要点功能演示",
+          "evidenceId": "evidence-highlight-05",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "id": "update-01",
+      "module": "超级小爱记忆",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "三指上滑手势快捷记忆，记忆进度上线小米超级岛。",
+      "description": "三指上滑手势快捷记忆，记忆进度上线小米超级岛。",
+      "evidenceIds": [
+        "evidence-update-01"
+      ],
+      "sourceItemIds": [
+        "source-update-01"
+      ]
+    },
+    {
+      "id": "update-02",
+      "module": "超级小爱日程",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "可创建地址信息，自定义提醒时间，单次支持查询最多 50 个日程信息。",
+      "description": "可创建地址信息，自定义提醒时间，单次支持查询最多 50 个日程信息。",
+      "evidenceIds": [
+        "evidence-update-02"
+      ],
+      "sourceItemIds": [
+        "source-update-02"
+      ]
+    },
+    {
+      "id": "update-03",
+      "module": "超级小爱发现页",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增小爱指南，聚合实用功能，唤醒超级小爱上滑，右上角进入发现页。",
+      "description": "新增小爱指南，聚合实用功能，唤醒超级小爱上滑，右上角进入发现页。",
+      "evidenceIds": [
+        "evidence-update-03"
+      ],
+      "sourceItemIds": [
+        "source-update-03"
+      ]
+    },
+    {
+      "id": "update-04",
+      "module": "超级小爱翻译",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "词句用法精解，深入解析词汇释义与例句用法。",
+      "description": "词句用法精解，深入解析词汇释义与例句用法。",
+      "evidenceIds": [
+        "evidence-update-04"
+      ],
+      "sourceItemIds": [
+        "source-update-04"
+      ]
+    },
+    {
+      "id": "update-05",
+      "module": "超级小爱深度研究",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "支持生成网页报告，提炼要点与结构化总结。",
+      "description": "支持生成网页报告，提炼要点与结构化总结。",
+      "evidenceIds": [
+        "evidence-update-05"
+      ],
+      "sourceItemIds": [
+        "source-update-05"
+      ]
+    },
+    {
+      "id": "update-06",
+      "module": "超级小爱优化",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "“记一下”场景支持收藏与日程双触发，既收藏屏幕内容，又能通过小米超级岛推荐添加日程。",
+      "description": "“记一下”场景支持收藏与日程双触发，既收藏屏幕内容，又能通过小米超级岛推荐添加日程。",
+      "evidenceIds": [
+        "evidence-update-06"
+      ],
+      "sourceItemIds": [
+        "source-update-06"
+      ]
+    },
+    {
+      "id": "update-07",
+      "module": "超级小爱优化",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "深度思考可后台生成并支持小米超级岛，优化流式文本显示与大图查看效果。",
+      "description": "深度思考可后台生成并支持小米超级岛，优化流式文本显示与大图查看效果。",
+      "evidenceIds": [
+        "evidence-update-07"
+      ],
+      "sourceItemIds": [
+        "source-update-07"
+      ]
+    }
+  ],
+  "sourceItems": [
+    {
+      "id": "source-highlight-01",
+      "classification": "highlight",
+      "source": "assets/images/HyperOS_超级小爱近期更新功能一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb4a09096e5209b0572c80cc136cfd8b4d07e1dfdd1e38478c7fa7612c2f93ea",
+      "blockIds": [
+        "ocr-hl-01"
+      ],
+      "text": "Highlight 01",
+      "targetIds": [
+        "highlight-01"
+      ]
+    },
+    {
+      "id": "source-highlight-02",
+      "classification": "highlight",
+      "source": "assets/images/HyperOS_超级小爱近期更新功能一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb4a09096e5209b0572c80cc136cfd8b4d07e1dfdd1e38478c7fa7612c2f93ea",
+      "blockIds": [
+        "ocr-hl-02"
+      ],
+      "text": "Highlight 02",
+      "targetIds": [
+        "highlight-02"
+      ]
+    },
+    {
+      "id": "source-highlight-03",
+      "classification": "highlight",
+      "source": "assets/images/HyperOS_超级小爱近期更新功能一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb4a09096e5209b0572c80cc136cfd8b4d07e1dfdd1e38478c7fa7612c2f93ea",
+      "blockIds": [
+        "ocr-hl-03"
+      ],
+      "text": "Highlight 03",
+      "targetIds": [
+        "highlight-03"
+      ]
+    },
+    {
+      "id": "source-highlight-04",
+      "classification": "highlight",
+      "source": "assets/images/HyperOS_超级小爱近期更新功能一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb4a09096e5209b0572c80cc136cfd8b4d07e1dfdd1e38478c7fa7612c2f93ea",
+      "blockIds": [
+        "ocr-hl-04"
+      ],
+      "text": "Highlight 04",
+      "targetIds": [
+        "highlight-04"
+      ]
+    },
+    {
+      "id": "source-highlight-05",
+      "classification": "highlight",
+      "source": "assets/images/HyperOS_超级小爱近期更新功能一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb4a09096e5209b0572c80cc136cfd8b4d07e1dfdd1e38478c7fa7612c2f93ea",
+      "blockIds": [
+        "ocr-hl-05"
+      ],
+      "text": "Highlight 05",
+      "targetIds": [
+        "highlight-05"
+      ]
+    },
+    {
+      "id": "source-update-01",
+      "classification": "update",
+      "source": "assets/images/HyperOS_超级小爱近期更新功能一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb4a09096e5209b0572c80cc136cfd8b4d07e1dfdd1e38478c7fa7612c2f93ea",
+      "blockIds": [
+        "ocr-up-01"
+      ],
+      "text": "三指上滑手势快捷记忆，记忆进度上线小米超级岛。",
+      "targetIds": [
+        "update-01"
+      ]
+    },
+    {
+      "id": "source-update-02",
+      "classification": "update",
+      "source": "assets/images/HyperOS_超级小爱近期更新功能一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb4a09096e5209b0572c80cc136cfd8b4d07e1dfdd1e38478c7fa7612c2f93ea",
+      "blockIds": [
+        "ocr-up-02"
+      ],
+      "text": "可创建地址信息，自定义提醒时间，单次支持查询最多 50 个日程信息。",
+      "targetIds": [
+        "update-02"
+      ]
+    },
+    {
+      "id": "source-update-03",
+      "classification": "update",
+      "source": "assets/images/HyperOS_超级小爱近期更新功能一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb4a09096e5209b0572c80cc136cfd8b4d07e1dfdd1e38478c7fa7612c2f93ea",
+      "blockIds": [
+        "ocr-up-03"
+      ],
+      "text": "新增小爱指南，聚合实用功能，唤醒超级小爱上滑，右上角进入发现页。",
+      "targetIds": [
+        "update-03"
+      ]
+    },
+    {
+      "id": "source-update-04",
+      "classification": "update",
+      "source": "assets/images/HyperOS_超级小爱近期更新功能一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb4a09096e5209b0572c80cc136cfd8b4d07e1dfdd1e38478c7fa7612c2f93ea",
+      "blockIds": [
+        "ocr-up-04"
+      ],
+      "text": "词句用法精解，深入解析词汇释义与例句用法。",
+      "targetIds": [
+        "update-04"
+      ]
+    },
+    {
+      "id": "source-update-05",
+      "classification": "update",
+      "source": "assets/images/HyperOS_超级小爱近期更新功能一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb4a09096e5209b0572c80cc136cfd8b4d07e1dfdd1e38478c7fa7612c2f93ea",
+      "blockIds": [
+        "ocr-up-05"
+      ],
+      "text": "支持生成网页报告，提炼要点与结构化总结。",
+      "targetIds": [
+        "update-05"
+      ]
+    },
+    {
+      "id": "source-update-06",
+      "classification": "update",
+      "source": "assets/images/HyperOS_超级小爱近期更新功能一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb4a09096e5209b0572c80cc136cfd8b4d07e1dfdd1e38478c7fa7612c2f93ea",
+      "blockIds": [
+        "ocr-up-06"
+      ],
+      "text": "“记一下”场景支持收藏与日程双触发，既收藏屏幕内容，又能通过小米超级岛推荐添加日程。",
+      "targetIds": [
+        "update-06"
+      ]
+    },
+    {
+      "id": "source-update-07",
+      "classification": "update",
+      "source": "assets/images/HyperOS_超级小爱近期更新功能一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb4a09096e5209b0572c80cc136cfd8b4d07e1dfdd1e38478c7fa7612c2f93ea",
+      "blockIds": [
+        "ocr-up-07"
+      ],
+      "text": "深度思考可后台生成并支持小米超级岛，优化流式文本显示与大图查看效果。",
+      "targetIds": [
+        "update-07"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "evidence-highlight-01",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/HyperOS_超级小爱近期更新功能一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb4a09096e5209b0572c80cc136cfd8b4d07e1dfdd1e38478c7fa7612c2f93ea",
+      "blockIds": [
+        "ocr-hl-01"
+      ],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 300
+      }
+    },
+    {
+      "id": "evidence-highlight-02",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/HyperOS_超级小爱近期更新功能一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb4a09096e5209b0572c80cc136cfd8b4d07e1dfdd1e38478c7fa7612c2f93ea",
+      "blockIds": [
+        "ocr-hl-02"
+      ],
+      "region": {
+        "x": 0,
+        "y": 300,
+        "width": 1080,
+        "height": 300
+      }
+    },
+    {
+      "id": "evidence-highlight-03",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/HyperOS_超级小爱近期更新功能一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb4a09096e5209b0572c80cc136cfd8b4d07e1dfdd1e38478c7fa7612c2f93ea",
+      "blockIds": [
+        "ocr-hl-03"
+      ],
+      "region": {
+        "x": 0,
+        "y": 600,
+        "width": 1080,
+        "height": 300
+      }
+    },
+    {
+      "id": "evidence-highlight-04",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/HyperOS_超级小爱近期更新功能一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb4a09096e5209b0572c80cc136cfd8b4d07e1dfdd1e38478c7fa7612c2f93ea",
+      "blockIds": [
+        "ocr-hl-04"
+      ],
+      "region": {
+        "x": 0,
+        "y": 900,
+        "width": 1080,
+        "height": 300
+      }
+    },
+    {
+      "id": "evidence-highlight-05",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "assets/images/HyperOS_超级小爱近期更新功能一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb4a09096e5209b0572c80cc136cfd8b4d07e1dfdd1e38478c7fa7612c2f93ea",
+      "blockIds": [
+        "ocr-hl-05"
+      ],
+      "region": {
+        "x": 0,
+        "y": 1200,
+        "width": 1080,
+        "height": 300
+      }
+    },
+    {
+      "id": "evidence-update-01",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_超级小爱近期更新功能一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb4a09096e5209b0572c80cc136cfd8b4d07e1dfdd1e38478c7fa7612c2f93ea",
+      "blockIds": [
+        "ocr-up-01"
+      ],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 150
+      }
+    },
+    {
+      "id": "evidence-update-02",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_超级小爱近期更新功能一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb4a09096e5209b0572c80cc136cfd8b4d07e1dfdd1e38478c7fa7612c2f93ea",
+      "blockIds": [
+        "ocr-up-02"
+      ],
+      "region": {
+        "x": 0,
+        "y": 150,
+        "width": 1080,
+        "height": 150
+      }
+    },
+    {
+      "id": "evidence-update-03",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_超级小爱近期更新功能一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb4a09096e5209b0572c80cc136cfd8b4d07e1dfdd1e38478c7fa7612c2f93ea",
+      "blockIds": [
+        "ocr-up-03"
+      ],
+      "region": {
+        "x": 0,
+        "y": 300,
+        "width": 1080,
+        "height": 150
+      }
+    },
+    {
+      "id": "evidence-update-04",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_超级小爱近期更新功能一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb4a09096e5209b0572c80cc136cfd8b4d07e1dfdd1e38478c7fa7612c2f93ea",
+      "blockIds": [
+        "ocr-up-04"
+      ],
+      "region": {
+        "x": 0,
+        "y": 450,
+        "width": 1080,
+        "height": 150
+      }
+    },
+    {
+      "id": "evidence-update-05",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_超级小爱近期更新功能一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb4a09096e5209b0572c80cc136cfd8b4d07e1dfdd1e38478c7fa7612c2f93ea",
+      "blockIds": [
+        "ocr-up-05"
+      ],
+      "region": {
+        "x": 0,
+        "y": 600,
+        "width": 1080,
+        "height": 150
+      }
+    },
+    {
+      "id": "evidence-update-06",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_超级小爱近期更新功能一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb4a09096e5209b0572c80cc136cfd8b4d07e1dfdd1e38478c7fa7612c2f93ea",
+      "blockIds": [
+        "ocr-up-06"
+      ],
+      "region": {
+        "x": 0,
+        "y": 750,
+        "width": 1080,
+        "height": 150
+      }
+    },
+    {
+      "id": "evidence-update-07",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "assets/images/HyperOS_超级小爱近期更新功能一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "eb4a09096e5209b0572c80cc136cfd8b4d07e1dfdd1e38478c7fa7612c2f93ea",
+      "blockIds": [
+        "ocr-up-07"
+      ],
+      "region": {
+        "x": 0,
+        "y": 900,
+        "width": 1080,
+        "height": 150
+      }
+    }
+  ],
+  "audit": {
+    "highlightReviewVersion": 4,
+    "updateReviewVersion": 4,
+    "review": {
+      "content": "verified",
+      "modules": "verified",
+      "media": "verified",
+      "page": "verified"
+    },
+    "expectedHighlightCount": 5,
+    "sourceItemCount": 12,
+    "includedItemCount": 12,
+    "excludedItemCount": 0,
+    "highlightCount": 5,
+    "updateCount": 7,
+    "mediaCount": 5,
+    "mappedItemCount": 12,
+    "coverageRate": 1
+  }
+}
