@@ -4,6 +4,7 @@ import { cacheControlFor, mimeFor, outputRoot, release, releaseRoot, sha256, sou
 
 const ignored = [
   '/.workbuddy/', '/打开存档.command', '/存档说明.txt', '/failed-urls.json', '/resource-map.json', '/_preview.png',
+  '/.DS_Store',
   '/mirror/hm.baidu.com/', '/mirror/www.googletagmanager.com/', '/thirdparty/hm.baidu.com/',
 ];
 const entries = ['index.html', 'pad.html', 'mobile.html'];
@@ -11,7 +12,7 @@ const textExtensions = new Set(['.html', '.js', '.json']);
 
 function shouldCopy(sourceBase, file) {
   const relative = `/${toPosix(path.relative(sourceBase, file))}`;
-  return !ignored.some((item) => relative.includes(item));
+  return !relative.endsWith('.bak') && !ignored.some((item) => relative.includes(item));
 }
 
 function stripTracking(html) {
@@ -135,7 +136,7 @@ if (videos !== 119) throw new Error(`Expected 119 archived videos, found ${video
 
 const manifest = {
   release,
-  source: sourceRoot,
+  source: 'offline-archive:ColorOS15+ColorOS16',
   generatedAt: new Date().toISOString(),
   summary: { files: files.length, videos, entryPages: 6, bytes: totalBytes },
   files,

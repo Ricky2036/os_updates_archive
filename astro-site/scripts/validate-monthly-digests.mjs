@@ -28,7 +28,7 @@ if (selector && targets.length !== 1) fail(`Expected one monthly article for sel
 const files = (await fs.readdir(digestDir).catch(() => [])).filter((name) => name.endsWith('.json')).sort();
 const allDigests = await Promise.all(files.map(async (file) => ({ file, data: JSON.parse(await fs.readFile(path.join(digestDir, file), 'utf8')) })));
 const selectedIds = new Set(targets.map((article) => article.articleId));
-const digests = selector ? allDigests.filter(({ data }) => selectedIds.has(data.articleId)) : allDigests;
+const digests = allDigests.filter(({ data }) => selectedIds.has(data.articleId));
 
 if (!selector && (targets.filter((item) => item.brand === 'coloros').length !== 15 || targets.filter((item) => item.brand === 'originos').length !== 9)) fail('Core monthly article inventory must retain 15 ColorOS and 9 OriginOS entries');
 if (digests.length !== targets.length) fail(`Expected ${targets.length} monthly digest files, found ${digests.length}`);

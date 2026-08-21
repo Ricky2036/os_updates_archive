@@ -64,7 +64,7 @@ npm run archive:serve
 开发环境未设置 `PUBLIC_OFFICIAL_ARCHIVE_BASE_URL` 时自动使用 `http://127.0.0.1:8765/v2026-07-30`。生产环境使用：
 
 ```bash
-PUBLIC_OFFICIAL_ARCHIVE_BASE_URL=https://official.osarchive.com/v2026-07-30 npm run build
+PUBLIC_OFFICIAL_ARCHIVE_BASE_URL=https://pub-677d8b9c16d84df684f908214461d60a.r2.dev/v2026-07-30 npm run build
 ```
 
 R2 桶名为 `os-official-archives`。创建仅允许读取/写入该桶的 S3 API 凭据并设置 `R2_ACCOUNT_ID`、`R2_ACCESS_KEY_ID`、`R2_SECRET_ACCESS_KEY` 后上传：
@@ -73,7 +73,7 @@ R2 桶名为 `os-official-archives`。创建仅允许读取/写入该桶的 S3 A
 npm run archive:upload
 ```
 
-Cloudflare 中将 `official.osarchive.com` 绑定到该 R2 桶；允许来自主站的 `GET`、`HEAD` 和 `Range` 请求，并暴露 `Accept-Ranges`、`Content-Range`、`Content-Length`。归档对象自带 MIME 与缓存头，HTML 使用短缓存，其他版本化资源使用一年不可变缓存。
+当前免费部署使用 Bucket 的 `r2.dev` 公共开发地址；允许来自主站的 `GET`、`HEAD` 和 `Range` 请求，并暴露 `Accept-Ranges`、`Content-Range`、`Content-Length`。归档对象自带 MIME 与缓存头，HTML 使用短缓存，其他版本化资源使用一年不可变缓存。`r2.dev` 存在限流，后续如有自定义域名可只替换 `PUBLIC_OFFICIAL_ARCHIVE_BASE_URL`。
 
 迁移中的缺失或零字节资源记录在 `public/manifests/migration-report.json`，不得通过空异常处理忽略。
 

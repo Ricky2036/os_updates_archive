@@ -32,7 +32,7 @@ try {
   await page.setRequestInterception(true);
   page.on('request', (request) => {
     const url = new URL(request.url());
-    if (url.hostname === 'official.osarchive.com') {
+    if (url.hostname === 'official.osarchive.com' || url.hostname.endsWith('.r2.dev')) {
       request.respond({ status: 200, contentType: 'text/html; charset=utf-8', body: '<!doctype html><html><body><main data-official-fixture>ColorOS official archive</main></body></html>' });
     } else request.continue();
   });

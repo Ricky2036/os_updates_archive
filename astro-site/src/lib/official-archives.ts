@@ -4,7 +4,7 @@ export type OfficialArchiveVersion = '15' | '16' | 'originos6' | 'hyperos1' | 'h
 export type OfficialArchiveViewport = 'mobile' | 'pad' | 'desktop';
 export type ColorOSSection = 'monthly' | OfficialArchiveVersion;
 
-const productionBase = 'https://official.osarchive.com/v2026-07-30';
+const productionBase = 'https://pub-677d8b9c16d84df684f908214461d60a.r2.dev/v2026-07-30';
 export const officialArchiveBase = (
   import.meta.env.PUBLIC_OFFICIAL_ARCHIVE_BASE_URL || productionBase
 ).replace(/\/$/, '');
@@ -69,10 +69,8 @@ export const officialArchiveMeta: Record<OfficialArchiveVersion, {
 
 export function officialArchiveUrl(version: OfficialArchiveVersion, viewport: OfficialArchiveViewport) {
   const entry = officialArchiveMeta[version].entries[viewport];
-  if (version === '16') {
-    return sitePath(`official_archives/www.coloros.com/version/coloros16/${entry}`);
-  } else if (version === '15') {
-    return sitePath(`official_archives/www.coloros.com/version/coloros15/${entry}`);
+  if (version === '15' || version === '16') {
+    return `${officialArchiveBase}/${officialArchiveMeta[version].folder}/${entry}`;
   } else if (version === 'originos6') {
     return sitePath(`official_archives/www.vivo.com.cn/${entry}`);
   } else if (version === 'hyperos1') {
