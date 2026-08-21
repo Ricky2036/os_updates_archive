@@ -58,7 +58,7 @@
           "alt": "文字宣言功能演示",
           "evidenceId": "highlight-02-demo",
           "width": 480,
-          "height": 308
+          "height": 320
         }
       ]
     },
@@ -87,7 +87,7 @@
           "alt": "QQ 音乐沉浸锁屏功能演示",
           "evidenceId": "highlight-03-demo",
           "width": 480,
-          "height": 379
+          "height": 317
         }
       ]
     },
@@ -116,7 +116,7 @@
           "alt": "车机服务效果功能演示",
           "evidenceId": "highlight-04-demo",
           "width": 480,
-          "height": 291
+          "height": 308
         }
       ]
     },
@@ -145,7 +145,7 @@
           "alt": "深度研究功能演示",
           "evidenceId": "highlight-05-demo",
           "width": 480,
-          "height": 335
+          "height": 306
         }
       ]
     },
@@ -174,7 +174,7 @@
           "alt": "易安检服务功能演示",
           "evidenceId": "highlight-06-demo",
           "width": 480,
-          "height": 354
+          "height": 314
         }
       ]
     },
@@ -203,7 +203,7 @@
           "alt": "侧边栏直达功能演示",
           "evidenceId": "highlight-07-demo",
           "width": 480,
-          "height": 392
+          "height": 316
         }
       ]
     }
@@ -823,7 +823,7 @@
       ],
       "text": "使用方法：在原子随身听个性化设置中，将封面样式切换为",
       "targetIds": [],
-      "exclusionReason": "demo-text"
+      "exclusionReason": "decoration"
     },
     {
       "id": "source-excluded-037",
@@ -836,7 +836,7 @@
       ],
       "text": "「歌曲封面」>播放音乐>锁屏界面点击左下角专辑封面",
       "targetIds": [],
-      "exclusionReason": "demo-text"
+      "exclusionReason": "decoration"
     },
     {
       "id": "source-excluded-038",
@@ -1330,7 +1330,7 @@
       ],
       "text": "使用方法：打开蓝心小V＞点击底部「深度研究」",
       "targetIds": [],
-      "exclusionReason": "demo-text"
+      "exclusionReason": "decoration"
     },
     {
       "id": "source-excluded-076",
@@ -1343,7 +1343,7 @@
       ],
       "text": "通关更快，节省时间。",
       "targetIds": [],
-      "exclusionReason": "demo-text"
+      "exclusionReason": "decoration"
     },
     {
       "id": "source-excluded-077",
@@ -1681,7 +1681,7 @@
       ],
       "text": "使用方法：",
       "targetIds": [],
-      "exclusionReason": "demo-text"
+      "exclusionReason": "decoration"
     },
     {
       "id": "source-excluded-103",
@@ -1694,7 +1694,7 @@
       ],
       "text": "1. 使用时侧滑停顿调起侧边栏>点击「识屏记」即可使用",
       "targetIds": [],
-      "exclusionReason": "demo-text"
+      "exclusionReason": "decoration"
     },
     {
       "id": "source-excluded-104",
@@ -1707,7 +1707,7 @@
       ],
       "text": "2. 在打开侧边栏后，点击侧边栏下方的\"<\"，点击\"编辑应用\"，",
       "targetIds": [],
-      "exclusionReason": "demo-text"
+      "exclusionReason": "decoration"
     },
     {
       "id": "source-excluded-105",
@@ -5649,9 +5649,9 @@
       "blockIds": [],
       "region": {
         "x": 38,
-        "y": 738,
+        "y": 701,
         "width": 1004,
-        "height": 645
+        "height": 670
       },
       "note": "锁屏：文字宣言人工确认演示区域"
     },
@@ -5684,9 +5684,9 @@
       "blockIds": [],
       "region": {
         "x": 38,
-        "y": 1751,
+        "y": 1807,
         "width": 1004,
-        "height": 792
+        "height": 663
       },
       "note": "锁屏：QQ 音乐沉浸锁屏人工确认演示区域"
     },
@@ -5719,9 +5719,9 @@
       "blockIds": [],
       "region": {
         "x": 38,
-        "y": 2894,
+        "y": 2931,
         "width": 1004,
-        "height": 608
+        "height": 645
       },
       "note": "小 V 光影：车机服务效果人工确认演示区域"
     },
@@ -5755,9 +5755,9 @@
       "blockIds": [],
       "region": {
         "x": 38,
-        "y": 741,
+        "y": 761,
         "width": 1004,
-        "height": 700
+        "height": 640
       },
       "note": "蓝心小 V：深度研究人工确认演示区域"
     },
@@ -5791,9 +5791,9 @@
       "blockIds": [],
       "region": {
         "x": 38,
-        "y": 1862,
+        "y": 1914,
         "width": 1004,
-        "height": 740
+        "height": 656
       },
       "note": "小布建议：易安检服务人工确认演示区域"
     },
@@ -5827,9 +5827,9 @@
       "blockIds": [],
       "region": {
         "x": 38,
-        "y": 3003,
+        "y": 3024,
         "width": 1004,
-        "height": 820
+        "height": 660
       },
       "note": "小布记忆：侧边栏直达人工确认演示区域"
     },
@@ -6363,7 +6363,7 @@
         "width": 886,
         "height": 105
       },
-      "note": "不进入表格：demo-text"
+      "note": "不进入表格：decoration"
     },
     {
       "id": "source-excluded-037-evidence",
@@ -6381,7 +6381,7 @@
         "width": 818,
         "height": 100
       },
-      "note": "不进入表格：demo-text"
+      "note": "不进入表格：decoration"
     },
     {
       "id": "source-excluded-038-evidence",
@@ -7065,7 +7065,7 @@
         "width": 733,
         "height": 110
       },
-      "note": "不进入表格：demo-text"
+      "note": "不进入表格：decoration"
     },
     {
       "id": "source-excluded-076-evidence",
@@ -7083,7 +7083,7 @@
         "width": 436,
         "height": 119
       },
-      "note": "不进入表格：demo-text"
+      "note": "不进入表格：decoration"
     },
     {
       "id": "source-excluded-077-evidence",
@@ -7551,7 +7551,7 @@
         "width": 167,
         "height": 107
       },
-      "note": "不进入表格：demo-text"
+      "note": "不进入表格：decoration"
     },
     {
       "id": "source-excluded-103-evidence",
@@ -7569,7 +7569,7 @@
         "width": 782,
         "height": 105
       },
-      "note": "不进入表格：demo-text"
+      "note": "不进入表格：decoration"
     },
     {
       "id": "source-excluded-104-evidence",
@@ -7587,7 +7587,7 @@
         "width": 859,
         "height": 115
       },
-      "note": "不进入表格：demo-text"
+      "note": "不进入表格：decoration"
     },
     {
       "id": "source-excluded-105-evidence",

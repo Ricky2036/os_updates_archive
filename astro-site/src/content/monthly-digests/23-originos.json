@@ -31,7 +31,7 @@
           "alt": "秒抢引擎抢红包功能演示",
           "evidenceId": "highlight-01-demo",
           "width": 480,
-          "height": 326
+          "height": 505
         }
       ]
     },
@@ -60,7 +60,7 @@
           "alt": "vivo 全家桶主题焕新功能演示",
           "evidenceId": "highlight-02-demo",
           "width": 480,
-          "height": 227
+          "height": 447
         }
       ]
     },
@@ -110,15 +110,13 @@
       "media": [
         {
           "id": "highlight-04-media-01",
-          "kind": "image",
-          "src": "assets/digests-v2/23/highlight-04-960.webp",
-          "thumbnail": "assets/digests-v2/23/highlight-04-480.webp",
-          "avifSrc": "assets/digests-v2/23/highlight-04-960.avif",
-          "avifThumbnail": "assets/digests-v2/23/highlight-04-480.avif",
+          "kind": "animated-image",
+          "src": "assets/legacy/interactive/5fc502d2262e778fcf0b016fe59c3829.gif",
+          "thumbnail": "assets/legacy/interactive/5fc502d2262e778fcf0b016fe59c3829.gif",
           "alt": "趣味光栅上新功能演示",
           "evidenceId": "highlight-04-demo",
           "width": 480,
-          "height": 372
+          "height": 799
         }
       ]
     },
@@ -147,7 +145,7 @@
           "alt": "小V建议新春卡片功能演示",
           "evidenceId": "highlight-05-demo",
           "width": 480,
-          "height": 324
+          "height": 469
         }
       ]
     },
@@ -176,7 +174,7 @@
           "alt": "横向个性时钟增加农历快捷信息功能演示",
           "evidenceId": "highlight-06-demo",
           "width": 480,
-          "height": 265
+          "height": 417
         }
       ]
     },
@@ -205,7 +203,7 @@
           "alt": "锁屏景深支持添加小组件功能演示",
           "evidenceId": "highlight-07-demo",
           "width": 480,
-          "height": 392
+          "height": 430
         }
       ]
     },
@@ -234,7 +232,7 @@
           "alt": "新春相册水印功能演示",
           "evidenceId": "highlight-08-demo",
           "width": 480,
-          "height": 415
+          "height": 435
         }
       ]
     },
@@ -263,7 +261,7 @@
           "alt": "热点上岛功能演示",
           "evidenceId": "highlight-09-demo",
           "width": 480,
-          "height": 207
+          "height": 418
         }
       ]
     },
@@ -292,7 +290,7 @@
           "alt": "摇一摇群组分享功能演示",
           "evidenceId": "highlight-10-demo",
           "width": 480,
-          "height": 216
+          "height": 390
         }
       ]
     },
@@ -321,7 +319,7 @@
           "alt": "LivePhoto AI消除功能演示",
           "evidenceId": "highlight-11-demo",
           "width": 480,
-          "height": 201
+          "height": 487
         }
       ]
     },
@@ -350,7 +348,7 @@
           "alt": "火车出行通知功能演示",
           "evidenceId": "highlight-12-demo",
           "width": 480,
-          "height": 181
+          "height": 440
         }
       ]
     },
@@ -379,7 +377,7 @@
           "alt": "蓝心小V旅行路书功能演示",
           "evidenceId": "highlight-13-demo",
           "width": 480,
-          "height": 221
+          "height": 477
         }
       ]
     },
@@ -408,7 +406,7 @@
           "alt": "小V写作 AI 神回复功能演示",
           "evidenceId": "highlight-14-demo",
           "width": 480,
-          "height": 231
+          "height": 477
         }
       ]
     }
@@ -715,9 +713,7 @@
         "ocr-0004",
         "ocr-0001",
         "ocr-0005",
-        "ocr-0002",
-        "ocr-0003",
-        "ocr-0006"
+        "ocr-0002"
       ],
       "text": "LivePhoto AI消除 路人一键消，春节 Live 轻松出片。",
       "targetIds": [
@@ -734,10 +730,7 @@
         "ocr-0004",
         "ocr-0001",
         "ocr-0005",
-        "ocr-0002",
-        "ocr-0003",
-        "ocr-0006",
-        "ocr-0007"
+        "ocr-0002"
       ],
       "text": "火车出行通知 行程动态一目了然，春节游玩马上出发。",
       "targetIds": [
@@ -1321,7 +1314,7 @@
       ],
       "text": "MO",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-055",
@@ -1334,7 +1327,7 @@
       ],
       "text": "RICHFLOWER",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-056",
@@ -1347,7 +1340,7 @@
       ],
       "text": "ViVO TWS 5",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-057",
@@ -1360,7 +1353,7 @@
       ],
       "text": "RICH FLOWER",
       "targetIds": [],
-      "exclusionReason": "duplicate"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-058",
@@ -1373,7 +1366,7 @@
       ],
       "text": "vive",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-059",
@@ -1386,7 +1379,7 @@
       ],
       "text": "R 100%",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-060",
@@ -1399,7 +1392,7 @@
       ],
       "text": "= 65%",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-061",
@@ -1412,7 +1405,7 @@
       ],
       "text": "限时上线至3月10日",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-062",
@@ -1854,7 +1847,7 @@
       ],
       "text": "10",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-096",
@@ -1867,7 +1860,7 @@
       ],
       "text": "日历",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-097",
@@ -1880,7 +1873,7 @@
       ],
       "text": "相册",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-098",
@@ -1893,7 +1886,7 @@
       ],
       "text": "ViVO",
       "targetIds": [],
-      "exclusionReason": "duplicate"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-099",
@@ -2244,7 +2237,7 @@
       ],
       "text": "已共享：68.8 MB",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-126",
@@ -2257,7 +2250,7 @@
       ],
       "text": "•牛U",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-127",
@@ -2270,7 +2263,7 @@
       ],
       "text": "19°C阴",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-128",
@@ -2283,7 +2276,7 @@
       ],
       "text": "18:11 日落",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-129",
@@ -2296,7 +2289,7 @@
       ],
       "text": "◎ 福田区",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-130",
@@ -2309,7 +2302,7 @@
       ],
       "text": "【步数--步",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-131",
@@ -2322,7 +2315,7 @@
       ],
       "text": "19%",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-132",
@@ -2335,7 +2328,7 @@
       ],
       "text": "1热量--千卡",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-133",
@@ -2348,7 +2341,7 @@
       ],
       "text": "【 中高强度--分钟",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-134",
@@ -2361,7 +2354,7 @@
       ],
       "text": "•空气优",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-135",
@@ -2374,7 +2367,7 @@
       ],
       "text": "22°C",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-136",
@@ -2387,7 +2380,7 @@
       ],
       "text": "16°C",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-137",
@@ -2426,7 +2419,7 @@
       ],
       "text": "都支持",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-140",
@@ -2543,7 +2536,7 @@
       ],
       "text": "vivo",
       "targetIds": [],
-      "exclusionReason": "duplicate"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-149",
@@ -2556,7 +2549,7 @@
       ],
       "text": "vho 官同",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-150",
@@ -2569,7 +2562,7 @@
       ],
       "text": "白用商日",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-151",
@@ -2582,7 +2575,7 @@
       ],
       "text": "30",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-152",
@@ -2595,7 +2588,7 @@
       ],
       "text": "潮环葡记",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-153",
@@ -2608,7 +2601,7 @@
       ],
       "text": "柑西",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-154",
@@ -2621,7 +2614,7 @@
       ],
       "text": "阊牌封特",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-155",
@@ -2634,7 +2627,7 @@
       ],
       "text": "日质",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-156",
@@ -2647,7 +2640,7 @@
       ],
       "text": "回",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-157",
@@ -2660,7 +2653,7 @@
       ],
       "text": "分享",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-158",
@@ -2673,10 +2666,49 @@
       ],
       "text": "添加到",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
       "id": "source-excluded-159",
+      "classification": "excluded",
+      "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
+      "sourceIndex": 13,
+      "sourceHash": "779d9af19fef811d82d81291938f8d87afcbb476c3dffb276a7d73714413a6be",
+      "blockIds": [
+        "ocr-0003"
+      ],
+      "text": "春节Live轻松出片",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-160",
+      "classification": "excluded",
+      "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
+      "sourceIndex": 13,
+      "sourceHash": "779d9af19fef811d82d81291938f8d87afcbb476c3dffb276a7d73714413a6be",
+      "blockIds": [
+        "ocr-0006"
+      ],
+      "text": "行程动态一目了然，",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-161",
+      "classification": "excluded",
+      "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
+      "sourceIndex": 13,
+      "sourceHash": "779d9af19fef811d82d81291938f8d87afcbb476c3dffb276a7d73714413a6be",
+      "blockIds": [
+        "ocr-0007"
+      ],
+      "text": "春节游玩\"马上\"出发",
+      "targetIds": [],
+      "exclusionReason": "decoration"
+    },
+    {
+      "id": "source-excluded-162",
       "classification": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
       "sourceIndex": 13,
@@ -2689,7 +2721,7 @@
       "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-160",
+      "id": "source-excluded-163",
       "classification": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
       "sourceIndex": 13,
@@ -2702,7 +2734,7 @@
       "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-161",
+      "id": "source-excluded-164",
       "classification": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
       "sourceIndex": 13,
@@ -2715,7 +2747,7 @@
       "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-162",
+      "id": "source-excluded-165",
       "classification": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
       "sourceIndex": 13,
@@ -2728,7 +2760,7 @@
       "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-163",
+      "id": "source-excluded-166",
       "classification": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
       "sourceIndex": 13,
@@ -2741,7 +2773,7 @@
       "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-164",
+      "id": "source-excluded-167",
       "classification": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
       "sourceIndex": 13,
@@ -2754,7 +2786,7 @@
       "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-165",
+      "id": "source-excluded-168",
       "classification": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
       "sourceIndex": 13,
@@ -2767,7 +2799,7 @@
       "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-166",
+      "id": "source-excluded-169",
       "classification": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
       "sourceIndex": 13,
@@ -2780,7 +2812,7 @@
       "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-167",
+      "id": "source-excluded-170",
       "classification": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
       "sourceIndex": 13,
@@ -2793,7 +2825,7 @@
       "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-168",
+      "id": "source-excluded-171",
       "classification": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
       "sourceIndex": 13,
@@ -2806,7 +2838,7 @@
       "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-169",
+      "id": "source-excluded-172",
       "classification": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
       "sourceIndex": 13,
@@ -2819,7 +2851,7 @@
       "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-170",
+      "id": "source-excluded-173",
       "classification": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
       "sourceIndex": 13,
@@ -2832,7 +2864,7 @@
       "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-171",
+      "id": "source-excluded-174",
       "classification": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
       "sourceIndex": 13,
@@ -2845,7 +2877,7 @@
       "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-172",
+      "id": "source-excluded-175",
       "classification": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
       "sourceIndex": 13,
@@ -2858,7 +2890,7 @@
       "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-173",
+      "id": "source-excluded-176",
       "classification": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
       "sourceIndex": 13,
@@ -2871,7 +2903,7 @@
       "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-174",
+      "id": "source-excluded-177",
       "classification": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
       "sourceIndex": 13,
@@ -2884,7 +2916,7 @@
       "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-175",
+      "id": "source-excluded-178",
       "classification": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
       "sourceIndex": 13,
@@ -2897,7 +2929,7 @@
       "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-176",
+      "id": "source-excluded-179",
       "classification": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
       "sourceIndex": 13,
@@ -2910,7 +2942,7 @@
       "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-177",
+      "id": "source-excluded-180",
       "classification": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
       "sourceIndex": 13,
@@ -2923,7 +2955,7 @@
       "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-178",
+      "id": "source-excluded-181",
       "classification": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
       "sourceIndex": 13,
@@ -2936,7 +2968,7 @@
       "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-179",
+      "id": "source-excluded-182",
       "classification": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
       "sourceIndex": 13,
@@ -2949,7 +2981,7 @@
       "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-180",
+      "id": "source-excluded-183",
       "classification": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
       "sourceIndex": 13,
@@ -2962,7 +2994,7 @@
       "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-181",
+      "id": "source-excluded-184",
       "classification": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
       "sourceIndex": 13,
@@ -2975,7 +3007,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-182",
+      "id": "source-excluded-185",
       "classification": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
       "sourceIndex": 13,
@@ -2988,7 +3020,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-183",
+      "id": "source-excluded-186",
       "classification": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
       "sourceIndex": 13,
@@ -3001,7 +3033,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-184",
+      "id": "source-excluded-187",
       "classification": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
       "sourceIndex": 13,
@@ -3014,7 +3046,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-185",
+      "id": "source-excluded-188",
       "classification": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
       "sourceIndex": 13,
@@ -3027,7 +3059,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-186",
+      "id": "source-excluded-189",
       "classification": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
       "sourceIndex": 13,
@@ -3040,7 +3072,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-187",
+      "id": "source-excluded-190",
       "classification": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
       "sourceIndex": 13,
@@ -3053,7 +3085,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-188",
+      "id": "source-excluded-191",
       "classification": "excluded",
       "source": "assets/images/interactive/1ae1bf00221d828cc9b06c8fb53aa9b5.png",
       "sourceIndex": 15,
@@ -3066,7 +3098,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-189",
+      "id": "source-excluded-192",
       "classification": "excluded",
       "source": "assets/images/interactive/1ae1bf00221d828cc9b06c8fb53aa9b5.png",
       "sourceIndex": 15,
@@ -3079,7 +3111,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-190",
+      "id": "source-excluded-193",
       "classification": "excluded",
       "source": "assets/images/interactive/1ae1bf00221d828cc9b06c8fb53aa9b5.png",
       "sourceIndex": 15,
@@ -3092,7 +3124,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-191",
+      "id": "source-excluded-194",
       "classification": "excluded",
       "source": "assets/images/interactive/1ae1bf00221d828cc9b06c8fb53aa9b5.png",
       "sourceIndex": 15,
@@ -3105,7 +3137,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-192",
+      "id": "source-excluded-195",
       "classification": "excluded",
       "source": "assets/images/interactive/93ad090402a4587f2d680fefc174c538.png",
       "sourceIndex": 16,
@@ -3118,7 +3150,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-193",
+      "id": "source-excluded-196",
       "classification": "excluded",
       "source": "assets/images/interactive/a978c5cab44623539985555dcc49f663.png",
       "sourceIndex": 17,
@@ -3131,7 +3163,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-194",
+      "id": "source-excluded-197",
       "classification": "excluded",
       "source": "assets/images/interactive/a978c5cab44623539985555dcc49f663.png",
       "sourceIndex": 17,
@@ -3144,7 +3176,7 @@
       "exclusionReason": "disclaimer"
     },
     {
-      "id": "source-excluded-195",
+      "id": "source-excluded-198",
       "classification": "excluded",
       "source": "assets/images/interactive/a978c5cab44623539985555dcc49f663.png",
       "sourceIndex": 17,
@@ -3157,7 +3189,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-196",
+      "id": "source-excluded-199",
       "classification": "excluded",
       "source": "assets/images/interactive/a978c5cab44623539985555dcc49f663.png",
       "sourceIndex": 17,
@@ -3170,7 +3202,7 @@
       "exclusionReason": "disclaimer"
     },
     {
-      "id": "source-excluded-197",
+      "id": "source-excluded-200",
       "classification": "excluded",
       "source": "assets/images/interactive/df736c55a429074c3582d344e9532571.png",
       "sourceIndex": 18,
@@ -3183,7 +3215,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-198",
+      "id": "source-excluded-201",
       "classification": "excluded",
       "source": "assets/images/interactive/df736c55a429074c3582d344e9532571.png",
       "sourceIndex": 18,
@@ -3196,7 +3228,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-199",
+      "id": "source-excluded-202",
       "classification": "excluded",
       "source": "assets/images/interactive/df736c55a429074c3582d344e9532571.png",
       "sourceIndex": 18,
@@ -3209,7 +3241,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-200",
+      "id": "source-excluded-203",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3222,7 +3254,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-201",
+      "id": "source-excluded-204",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3235,7 +3267,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-202",
+      "id": "source-excluded-205",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3248,7 +3280,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-203",
+      "id": "source-excluded-206",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3261,7 +3293,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-204",
+      "id": "source-excluded-207",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3274,7 +3306,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-205",
+      "id": "source-excluded-208",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3287,7 +3319,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-206",
+      "id": "source-excluded-209",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3300,7 +3332,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-207",
+      "id": "source-excluded-210",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3313,7 +3345,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-208",
+      "id": "source-excluded-211",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3326,7 +3358,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-209",
+      "id": "source-excluded-212",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3339,7 +3371,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-210",
+      "id": "source-excluded-213",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3352,7 +3384,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-211",
+      "id": "source-excluded-214",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3365,7 +3397,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-212",
+      "id": "source-excluded-215",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3378,7 +3410,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-213",
+      "id": "source-excluded-216",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3391,7 +3423,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-214",
+      "id": "source-excluded-217",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3404,7 +3436,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-215",
+      "id": "source-excluded-218",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3417,7 +3449,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-216",
+      "id": "source-excluded-219",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3430,7 +3462,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-217",
+      "id": "source-excluded-220",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3443,7 +3475,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-218",
+      "id": "source-excluded-221",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3456,7 +3488,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-219",
+      "id": "source-excluded-222",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3469,7 +3501,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-220",
+      "id": "source-excluded-223",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3482,7 +3514,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-221",
+      "id": "source-excluded-224",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3495,7 +3527,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-222",
+      "id": "source-excluded-225",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3508,7 +3540,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-223",
+      "id": "source-excluded-226",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3521,7 +3553,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-224",
+      "id": "source-excluded-227",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3534,7 +3566,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-225",
+      "id": "source-excluded-228",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3547,7 +3579,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-226",
+      "id": "source-excluded-229",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3560,7 +3592,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-227",
+      "id": "source-excluded-230",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3573,7 +3605,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-228",
+      "id": "source-excluded-231",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3586,7 +3618,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-229",
+      "id": "source-excluded-232",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3599,7 +3631,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-230",
+      "id": "source-excluded-233",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3612,7 +3644,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-231",
+      "id": "source-excluded-234",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3625,7 +3657,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-232",
+      "id": "source-excluded-235",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3638,7 +3670,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-233",
+      "id": "source-excluded-236",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3651,7 +3683,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-234",
+      "id": "source-excluded-237",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3664,7 +3696,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-235",
+      "id": "source-excluded-238",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3677,7 +3709,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-236",
+      "id": "source-excluded-239",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3690,7 +3722,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-237",
+      "id": "source-excluded-240",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3703,7 +3735,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-238",
+      "id": "source-excluded-241",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3716,7 +3748,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-239",
+      "id": "source-excluded-242",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3729,7 +3761,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-240",
+      "id": "source-excluded-243",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3742,7 +3774,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-241",
+      "id": "source-excluded-244",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3755,7 +3787,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-242",
+      "id": "source-excluded-245",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3768,7 +3800,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-243",
+      "id": "source-excluded-246",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3781,7 +3813,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-244",
+      "id": "source-excluded-247",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3794,7 +3826,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-245",
+      "id": "source-excluded-248",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3807,7 +3839,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-246",
+      "id": "source-excluded-249",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3820,7 +3852,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-247",
+      "id": "source-excluded-250",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3833,7 +3865,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-248",
+      "id": "source-excluded-251",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3846,7 +3878,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-249",
+      "id": "source-excluded-252",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3859,7 +3891,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-250",
+      "id": "source-excluded-253",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3872,7 +3904,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-251",
+      "id": "source-excluded-254",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3885,7 +3917,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-252",
+      "id": "source-excluded-255",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3898,7 +3930,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-253",
+      "id": "source-excluded-256",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3911,7 +3943,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-254",
+      "id": "source-excluded-257",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3924,7 +3956,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-255",
+      "id": "source-excluded-258",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3937,7 +3969,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-256",
+      "id": "source-excluded-259",
       "classification": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
       "sourceIndex": 19,
@@ -3950,7 +3982,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-257",
+      "id": "source-excluded-260",
       "classification": "excluded",
       "source": "assets/images/interactive/eec98cd316f285060f5d83cd6861aa57.png",
       "sourceIndex": 20,
@@ -3963,7 +3995,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-258",
+      "id": "source-excluded-261",
       "classification": "excluded",
       "source": "assets/images/interactive/eec98cd316f285060f5d83cd6861aa57.png",
       "sourceIndex": 20,
@@ -3976,7 +4008,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-259",
+      "id": "source-excluded-262",
       "classification": "excluded",
       "source": "assets/images/interactive/eec98cd316f285060f5d83cd6861aa57.png",
       "sourceIndex": 20,
@@ -3989,7 +4021,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-260",
+      "id": "source-excluded-263",
       "classification": "excluded",
       "source": "assets/images/interactive/eec98cd316f285060f5d83cd6861aa57.png",
       "sourceIndex": 20,
@@ -4002,7 +4034,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-261",
+      "id": "source-excluded-264",
       "classification": "excluded",
       "source": "assets/images/interactive/eec98cd316f285060f5d83cd6861aa57.png",
       "sourceIndex": 20,
@@ -4015,7 +4047,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-262",
+      "id": "source-excluded-265",
       "classification": "excluded",
       "source": "assets/images/interactive/eec98cd316f285060f5d83cd6861aa57.png",
       "sourceIndex": 20,
@@ -4028,7 +4060,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-263",
+      "id": "source-excluded-266",
       "classification": "excluded",
       "source": "assets/images/interactive/eec98cd316f285060f5d83cd6861aa57.png",
       "sourceIndex": 20,
@@ -4041,7 +4073,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-264",
+      "id": "source-excluded-267",
       "classification": "excluded",
       "source": "assets/images/interactive/eec98cd316f285060f5d83cd6861aa57.png",
       "sourceIndex": 20,
@@ -4054,7 +4086,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-265",
+      "id": "source-excluded-268",
       "classification": "excluded",
       "source": "assets/images/interactive/eec98cd316f285060f5d83cd6861aa57.png",
       "sourceIndex": 20,
@@ -4067,7 +4099,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-266",
+      "id": "source-excluded-269",
       "classification": "excluded",
       "source": "assets/images/interactive/eec98cd316f285060f5d83cd6861aa57.png",
       "sourceIndex": 20,
@@ -4080,7 +4112,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-267",
+      "id": "source-excluded-270",
       "classification": "excluded",
       "source": "assets/images/interactive/eec98cd316f285060f5d83cd6861aa57.png",
       "sourceIndex": 20,
@@ -4093,7 +4125,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-268",
+      "id": "source-excluded-271",
       "classification": "excluded",
       "source": "assets/images/interactive/28ae498fa4dfcd899e8781de88d285a5.png",
       "sourceIndex": 21,
@@ -4106,7 +4138,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-269",
+      "id": "source-excluded-272",
       "classification": "excluded",
       "source": "assets/images/interactive/28ae498fa4dfcd899e8781de88d285a5.png",
       "sourceIndex": 21,
@@ -4119,7 +4151,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-270",
+      "id": "source-excluded-273",
       "classification": "excluded",
       "source": "assets/images/interactive/28ae498fa4dfcd899e8781de88d285a5.png",
       "sourceIndex": 21,
@@ -4132,7 +4164,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-271",
+      "id": "source-excluded-274",
       "classification": "excluded",
       "source": "assets/images/interactive/28ae498fa4dfcd899e8781de88d285a5.png",
       "sourceIndex": 21,
@@ -4145,7 +4177,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-272",
+      "id": "source-excluded-275",
       "classification": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
       "sourceIndex": 22,
@@ -4158,7 +4190,7 @@
       "exclusionReason": "disclaimer"
     },
     {
-      "id": "source-excluded-273",
+      "id": "source-excluded-276",
       "classification": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
       "sourceIndex": 22,
@@ -4171,7 +4203,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-274",
+      "id": "source-excluded-277",
       "classification": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
       "sourceIndex": 22,
@@ -4184,7 +4216,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-275",
+      "id": "source-excluded-278",
       "classification": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
       "sourceIndex": 22,
@@ -4197,7 +4229,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-276",
+      "id": "source-excluded-279",
       "classification": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
       "sourceIndex": 22,
@@ -4210,7 +4242,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-277",
+      "id": "source-excluded-280",
       "classification": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
       "sourceIndex": 22,
@@ -4223,7 +4255,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-278",
+      "id": "source-excluded-281",
       "classification": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
       "sourceIndex": 22,
@@ -4236,7 +4268,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-279",
+      "id": "source-excluded-282",
       "classification": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
       "sourceIndex": 22,
@@ -4249,7 +4281,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-280",
+      "id": "source-excluded-283",
       "classification": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
       "sourceIndex": 22,
@@ -4262,7 +4294,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-281",
+      "id": "source-excluded-284",
       "classification": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
       "sourceIndex": 22,
@@ -4275,7 +4307,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-282",
+      "id": "source-excluded-285",
       "classification": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
       "sourceIndex": 22,
@@ -4288,7 +4320,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-283",
+      "id": "source-excluded-286",
       "classification": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
       "sourceIndex": 22,
@@ -4301,7 +4333,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-284",
+      "id": "source-excluded-287",
       "classification": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
       "sourceIndex": 22,
@@ -4314,7 +4346,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-285",
+      "id": "source-excluded-288",
       "classification": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
       "sourceIndex": 22,
@@ -4327,7 +4359,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-286",
+      "id": "source-excluded-289",
       "classification": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
       "sourceIndex": 22,
@@ -4340,7 +4372,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-287",
+      "id": "source-excluded-290",
       "classification": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
       "sourceIndex": 22,
@@ -4353,7 +4385,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-288",
+      "id": "source-excluded-291",
       "classification": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
       "sourceIndex": 22,
@@ -4366,7 +4398,7 @@
       "exclusionReason": "disclaimer"
     },
     {
-      "id": "source-excluded-289",
+      "id": "source-excluded-292",
       "classification": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
       "sourceIndex": 22,
@@ -4379,7 +4411,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-290",
+      "id": "source-excluded-293",
       "classification": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
       "sourceIndex": 23,
@@ -4392,7 +4424,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-291",
+      "id": "source-excluded-294",
       "classification": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
       "sourceIndex": 23,
@@ -4405,7 +4437,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-292",
+      "id": "source-excluded-295",
       "classification": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
       "sourceIndex": 23,
@@ -4418,7 +4450,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-293",
+      "id": "source-excluded-296",
       "classification": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
       "sourceIndex": 23,
@@ -4431,7 +4463,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-294",
+      "id": "source-excluded-297",
       "classification": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
       "sourceIndex": 23,
@@ -4444,7 +4476,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-295",
+      "id": "source-excluded-298",
       "classification": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
       "sourceIndex": 23,
@@ -4457,7 +4489,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-296",
+      "id": "source-excluded-299",
       "classification": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
       "sourceIndex": 23,
@@ -4470,7 +4502,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-297",
+      "id": "source-excluded-300",
       "classification": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
       "sourceIndex": 23,
@@ -4483,7 +4515,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-298",
+      "id": "source-excluded-301",
       "classification": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
       "sourceIndex": 23,
@@ -4496,7 +4528,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-299",
+      "id": "source-excluded-302",
       "classification": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
       "sourceIndex": 23,
@@ -4509,7 +4541,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-300",
+      "id": "source-excluded-303",
       "classification": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
       "sourceIndex": 23,
@@ -4522,7 +4554,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-301",
+      "id": "source-excluded-304",
       "classification": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
       "sourceIndex": 23,
@@ -4535,7 +4567,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-302",
+      "id": "source-excluded-305",
       "classification": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
       "sourceIndex": 23,
@@ -4548,7 +4580,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-303",
+      "id": "source-excluded-306",
       "classification": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
       "sourceIndex": 23,
@@ -4561,7 +4593,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-304",
+      "id": "source-excluded-307",
       "classification": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
       "sourceIndex": 23,
@@ -4574,7 +4606,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-305",
+      "id": "source-excluded-308",
       "classification": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
       "sourceIndex": 23,
@@ -4587,7 +4619,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-306",
+      "id": "source-excluded-309",
       "classification": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
       "sourceIndex": 23,
@@ -4600,7 +4632,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-307",
+      "id": "source-excluded-310",
       "classification": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
       "sourceIndex": 23,
@@ -4613,7 +4645,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-308",
+      "id": "source-excluded-311",
       "classification": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
       "sourceIndex": 23,
@@ -4626,7 +4658,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-309",
+      "id": "source-excluded-312",
       "classification": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
       "sourceIndex": 23,
@@ -4639,7 +4671,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-310",
+      "id": "source-excluded-313",
       "classification": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
       "sourceIndex": 23,
@@ -4652,7 +4684,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-311",
+      "id": "source-excluded-314",
       "classification": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
       "sourceIndex": 23,
@@ -4665,7 +4697,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-312",
+      "id": "source-excluded-315",
       "classification": "excluded",
       "source": "assets/images/interactive/b1d83688416ebdab3687fd6ba48fd4b9.png",
       "sourceIndex": 24,
@@ -4675,10 +4707,10 @@
       ],
       "text": "09:40",
       "targetIds": [],
-      "exclusionReason": "duplicate"
+      "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-313",
+      "id": "source-excluded-316",
       "classification": "excluded",
       "source": "assets/images/interactive/b1d83688416ebdab3687fd6ba48fd4b9.png",
       "sourceIndex": 24,
@@ -4688,10 +4720,10 @@
       ],
       "text": "深圳",
       "targetIds": [],
-      "exclusionReason": "duplicate"
+      "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-314",
+      "id": "source-excluded-317",
       "classification": "excluded",
       "source": "assets/images/interactive/b1d83688416ebdab3687fd6ba48fd4b9.png",
       "sourceIndex": 24,
@@ -4701,10 +4733,10 @@
       ],
       "text": "40",
       "targetIds": [],
-      "exclusionReason": "duplicate"
+      "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-315",
+      "id": "source-excluded-318",
       "classification": "excluded",
       "source": "assets/images/interactive/b1d83688416ebdab3687fd6ba48fd4b9.png",
       "sourceIndex": 24,
@@ -4714,10 +4746,10 @@
       ],
       "text": "10:00",
       "targetIds": [],
-      "exclusionReason": "duplicate"
+      "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-316",
+      "id": "source-excluded-319",
       "classification": "excluded",
       "source": "assets/images/interactive/b1d83688416ebdab3687fd6ba48fd4b9.png",
       "sourceIndex": 24,
@@ -4727,10 +4759,10 @@
       ],
       "text": "26°",
       "targetIds": [],
-      "exclusionReason": "duplicate"
+      "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-317",
+      "id": "source-excluded-320",
       "classification": "excluded",
       "source": "assets/images/interactive/b1d83688416ebdab3687fd6ba48fd4b9.png",
       "sourceIndex": 24,
@@ -4740,10 +4772,10 @@
       ],
       "text": "两午马年02/17具：",
       "targetIds": [],
-      "exclusionReason": "decoration"
+      "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-318",
+      "id": "source-excluded-321",
       "classification": "excluded",
       "source": "assets/images/interactive/b1d83688416ebdab3687fd6ba48fd4b9.png",
       "sourceIndex": 24,
@@ -4756,7 +4788,7 @@
       "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-319",
+      "id": "source-excluded-322",
       "classification": "excluded",
       "source": "assets/images/interactive/b1d83688416ebdab3687fd6ba48fd4b9.png",
       "sourceIndex": 24,
@@ -4769,7 +4801,7 @@
       "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-320",
+      "id": "source-excluded-323",
       "classification": "excluded",
       "source": "assets/images/interactive/b1d83688416ebdab3687fd6ba48fd4b9.png",
       "sourceIndex": 24,
@@ -4782,7 +4814,7 @@
       "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-321",
+      "id": "source-excluded-324",
       "classification": "excluded",
       "source": "assets/images/interactive/b1d83688416ebdab3687fd6ba48fd4b9.png",
       "sourceIndex": 24,
@@ -4795,7 +4827,7 @@
       "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-322",
+      "id": "source-excluded-325",
       "classification": "excluded",
       "source": "assets/images/interactive/b1d83688416ebdab3687fd6ba48fd4b9.png",
       "sourceIndex": 24,
@@ -4808,7 +4840,7 @@
       "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-323",
+      "id": "source-excluded-326",
       "classification": "excluded",
       "source": "assets/images/interactive/b1d83688416ebdab3687fd6ba48fd4b9.png",
       "sourceIndex": 24,
@@ -4821,7 +4853,7 @@
       "exclusionReason": "demo-text"
     },
     {
-      "id": "source-excluded-324",
+      "id": "source-excluded-327",
       "classification": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
       "sourceIndex": 25,
@@ -4834,7 +4866,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-325",
+      "id": "source-excluded-328",
       "classification": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
       "sourceIndex": 25,
@@ -4847,7 +4879,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-326",
+      "id": "source-excluded-329",
       "classification": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
       "sourceIndex": 25,
@@ -4860,7 +4892,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-327",
+      "id": "source-excluded-330",
       "classification": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
       "sourceIndex": 25,
@@ -4873,7 +4905,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-328",
+      "id": "source-excluded-331",
       "classification": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
       "sourceIndex": 25,
@@ -4886,7 +4918,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-329",
+      "id": "source-excluded-332",
       "classification": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
       "sourceIndex": 25,
@@ -4899,7 +4931,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-330",
+      "id": "source-excluded-333",
       "classification": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
       "sourceIndex": 25,
@@ -4912,7 +4944,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-331",
+      "id": "source-excluded-334",
       "classification": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
       "sourceIndex": 25,
@@ -4925,7 +4957,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-332",
+      "id": "source-excluded-335",
       "classification": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
       "sourceIndex": 25,
@@ -4938,7 +4970,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-333",
+      "id": "source-excluded-336",
       "classification": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
       "sourceIndex": 25,
@@ -4951,7 +4983,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-334",
+      "id": "source-excluded-337",
       "classification": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
       "sourceIndex": 25,
@@ -4964,7 +4996,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-335",
+      "id": "source-excluded-338",
       "classification": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
       "sourceIndex": 25,
@@ -4977,7 +5009,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-336",
+      "id": "source-excluded-339",
       "classification": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
       "sourceIndex": 25,
@@ -4990,7 +5022,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-337",
+      "id": "source-excluded-340",
       "classification": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
       "sourceIndex": 25,
@@ -5003,7 +5035,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-338",
+      "id": "source-excluded-341",
       "classification": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
       "sourceIndex": 25,
@@ -5016,7 +5048,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-339",
+      "id": "source-excluded-342",
       "classification": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
       "sourceIndex": 25,
@@ -5029,7 +5061,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-340",
+      "id": "source-excluded-343",
       "classification": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
       "sourceIndex": 25,
@@ -5042,7 +5074,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-341",
+      "id": "source-excluded-344",
       "classification": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
       "sourceIndex": 25,
@@ -5055,7 +5087,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-342",
+      "id": "source-excluded-345",
       "classification": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
       "sourceIndex": 25,
@@ -5068,7 +5100,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-343",
+      "id": "source-excluded-346",
       "classification": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
       "sourceIndex": 25,
@@ -5081,7 +5113,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-344",
+      "id": "source-excluded-347",
       "classification": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
       "sourceIndex": 25,
@@ -5094,7 +5126,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-345",
+      "id": "source-excluded-348",
       "classification": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
       "sourceIndex": 25,
@@ -5107,7 +5139,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-346",
+      "id": "source-excluded-349",
       "classification": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
       "sourceIndex": 25,
@@ -5120,7 +5152,7 @@
       "exclusionReason": "disclaimer"
     },
     {
-      "id": "source-excluded-347",
+      "id": "source-excluded-350",
       "classification": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
       "sourceIndex": 25,
@@ -5133,7 +5165,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-348",
+      "id": "source-excluded-351",
       "classification": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
       "sourceIndex": 25,
@@ -5146,7 +5178,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-349",
+      "id": "source-excluded-352",
       "classification": "excluded",
       "source": "assets/images/interactive/db6c53f3c8578da196ed8d1c523bd3d6.png",
       "sourceIndex": 26,
@@ -5159,7 +5191,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-350",
+      "id": "source-excluded-353",
       "classification": "excluded",
       "source": "assets/images/interactive/db6c53f3c8578da196ed8d1c523bd3d6.png",
       "sourceIndex": 26,
@@ -5172,7 +5204,7 @@
       "exclusionReason": "decoration"
     },
     {
-      "id": "source-excluded-351",
+      "id": "source-excluded-354",
       "classification": "excluded",
       "source": "assets/images/interactive/db6c53f3c8578da196ed8d1c523bd3d6.png",
       "sourceIndex": 26,
@@ -5185,7 +5217,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-352",
+      "id": "source-excluded-355",
       "classification": "excluded",
       "source": "assets/images/interactive/db6c53f3c8578da196ed8d1c523bd3d6.png",
       "sourceIndex": 26,
@@ -5198,7 +5230,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-353",
+      "id": "source-excluded-356",
       "classification": "excluded",
       "source": "assets/images/interactive/db6c53f3c8578da196ed8d1c523bd3d6.png",
       "sourceIndex": 26,
@@ -5211,7 +5243,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-354",
+      "id": "source-excluded-357",
       "classification": "excluded",
       "source": "assets/images/interactive/3c73a0acb45c0478fb6f965dc41fe54c.png",
       "sourceIndex": 27,
@@ -5224,7 +5256,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-355",
+      "id": "source-excluded-358",
       "classification": "excluded",
       "source": "assets/images/interactive/3c73a0acb45c0478fb6f965dc41fe54c.png",
       "sourceIndex": 27,
@@ -5237,7 +5269,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-356",
+      "id": "source-excluded-359",
       "classification": "excluded",
       "source": "assets/images/interactive/3c73a0acb45c0478fb6f965dc41fe54c.png",
       "sourceIndex": 27,
@@ -5250,7 +5282,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-357",
+      "id": "source-excluded-360",
       "classification": "excluded",
       "source": "assets/images/interactive/3c73a0acb45c0478fb6f965dc41fe54c.png",
       "sourceIndex": 27,
@@ -5263,7 +5295,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-358",
+      "id": "source-excluded-361",
       "classification": "excluded",
       "source": "assets/images/interactive/3c73a0acb45c0478fb6f965dc41fe54c.png",
       "sourceIndex": 27,
@@ -5276,7 +5308,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-359",
+      "id": "source-excluded-362",
       "classification": "excluded",
       "source": "assets/images/interactive/e3bddc049517d2df02af27cf4f658433.png",
       "sourceIndex": 30,
@@ -5289,7 +5321,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-360",
+      "id": "source-excluded-363",
       "classification": "excluded",
       "source": "assets/images/interactive/e3bddc049517d2df02af27cf4f658433.png",
       "sourceIndex": 30,
@@ -5302,7 +5334,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-361",
+      "id": "source-excluded-364",
       "classification": "excluded",
       "source": "assets/images/interactive/e3bddc049517d2df02af27cf4f658433.png",
       "sourceIndex": 30,
@@ -5315,7 +5347,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-362",
+      "id": "source-excluded-365",
       "classification": "excluded",
       "source": "assets/images/interactive/e3bddc049517d2df02af27cf4f658433.png",
       "sourceIndex": 30,
@@ -5328,7 +5360,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-363",
+      "id": "source-excluded-366",
       "classification": "excluded",
       "source": "assets/images/interactive/e3bddc049517d2df02af27cf4f658433.png",
       "sourceIndex": 30,
@@ -5341,7 +5373,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-364",
+      "id": "source-excluded-367",
       "classification": "excluded",
       "source": "assets/images/interactive/e3bddc049517d2df02af27cf4f658433.png",
       "sourceIndex": 30,
@@ -5354,7 +5386,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-365",
+      "id": "source-excluded-368",
       "classification": "excluded",
       "source": "assets/images/interactive/e3bddc049517d2df02af27cf4f658433.png",
       "sourceIndex": 30,
@@ -5367,7 +5399,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-366",
+      "id": "source-excluded-369",
       "classification": "excluded",
       "source": "assets/images/interactive/e3bddc049517d2df02af27cf4f658433.png",
       "sourceIndex": 30,
@@ -5380,7 +5412,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-367",
+      "id": "source-excluded-370",
       "classification": "excluded",
       "source": "assets/images/interactive/e3bddc049517d2df02af27cf4f658433.png",
       "sourceIndex": 30,
@@ -5393,7 +5425,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-368",
+      "id": "source-excluded-371",
       "classification": "excluded",
       "source": "assets/images/interactive/e3bddc049517d2df02af27cf4f658433.png",
       "sourceIndex": 30,
@@ -5406,7 +5438,7 @@
       "exclusionReason": "duplicate"
     },
     {
-      "id": "source-excluded-369",
+      "id": "source-excluded-372",
       "classification": "excluded",
       "source": "assets/images/interactive/e3bddc049517d2df02af27cf4f658433.png",
       "sourceIndex": 30,
@@ -5450,9 +5482,9 @@
       "blockIds": [],
       "region": {
         "x": 38,
-        "y": 512,
+        "y": 486,
         "width": 1004,
-        "height": 681
+        "height": 1056
       },
       "note": "红包：秒抢引擎抢红包人工确认演示区域"
     },
@@ -5486,9 +5518,9 @@
       "blockIds": [],
       "region": {
         "x": 38,
-        "y": 635,
+        "y": 532,
         "width": 1004,
-        "height": 475
+        "height": 935
       },
       "note": "主题：vivo 全家桶主题焕新人工确认演示区域"
     },
@@ -5520,10 +5552,10 @@
       "sourceHash": "384a8fde7d186c507d76379041395f62a007c88a91fb41563ef3b83fa3693d91",
       "blockIds": [],
       "region": {
-        "x": 43,
-        "y": 294,
-        "width": 1130,
-        "height": 756
+        "x": 0,
+        "y": 237,
+        "width": 1216,
+        "height": 813
       },
       "note": "主题：神驹贺岁新春主题人工确认演示区域"
     },
@@ -5551,15 +5583,15 @@
       "id": "highlight-04-demo",
       "kind": "image-region",
       "role": "demo-region",
-      "source": "assets/images/interactive/54b4b4aedf242103782a5f248ca634f9.png",
-      "sourceIndex": 5,
-      "sourceHash": "8cb65d6606785475ba68be72da82b7a8afc7bbd1fd22ae290ae22b8cb7096734",
+      "source": "assets/images/interactive/5fc502d2262e778fcf0b016fe59c3829.gif",
+      "sourceIndex": 6,
+      "sourceHash": "456cad591d2454a42da40200206e00e30910ad377d457c0e5f29c84591e0e46e",
       "blockIds": [],
       "region": {
-        "x": 38,
-        "y": 302,
-        "width": 1011,
-        "height": 783
+        "x": 0,
+        "y": 0,
+        "width": 640,
+        "height": 1066
       },
       "note": "主题：趣味光栅上新人工确认演示区域"
     },
@@ -5592,9 +5624,9 @@
       "blockIds": [],
       "region": {
         "x": 38,
-        "y": 311,
+        "y": 297,
         "width": 1004,
-        "height": 677
+        "height": 980
       },
       "note": "小布建议：小V建议新春卡片人工确认演示区域"
     },
@@ -5627,9 +5659,9 @@
       "blockIds": [],
       "region": {
         "x": 38,
-        "y": 290,
+        "y": 272,
         "width": 1004,
-        "height": 554
+        "height": 873
       },
       "note": "锁屏时钟：横向个性时钟增加农历快捷信息人工确认演示区域"
     },
@@ -5662,9 +5694,9 @@
       "blockIds": [],
       "region": {
         "x": 38,
-        "y": 266,
+        "y": 248,
         "width": 1004,
-        "height": 820
+        "height": 899
       },
       "note": "锁屏：锁屏景深支持添加小组件人工确认演示区域"
     },
@@ -5698,9 +5730,9 @@
       "blockIds": [],
       "region": {
         "x": 38,
-        "y": 608,
+        "y": 583,
         "width": 1004,
-        "height": 869
+        "height": 910
       },
       "note": "相册：新春相册水印人工确认演示区域"
     },
@@ -5733,9 +5765,9 @@
       "blockIds": [],
       "region": {
         "x": 38,
-        "y": 290,
+        "y": 272,
         "width": 1004,
-        "height": 434
+        "height": 875
       },
       "note": "原子岛：热点上岛人工确认演示区域"
     },
@@ -5768,9 +5800,9 @@
       "blockIds": [],
       "region": {
         "x": 38,
-        "y": 679,
+        "y": 655,
         "width": 1004,
-        "height": 452
+        "height": 815
       },
       "note": "互联：摇一摇群组分享人工确认演示区域"
     },
@@ -5785,15 +5817,13 @@
         "ocr-0004",
         "ocr-0001",
         "ocr-0005",
-        "ocr-0002",
-        "ocr-0003",
-        "ocr-0006"
+        "ocr-0002"
       ],
       "region": {
-        "x": 84,
+        "x": 87,
         "y": 68,
-        "width": 838,
-        "height": 177
+        "width": 789,
+        "height": 125
       },
       "note": "相册：LivePhoto AI消除标题与说明"
     },
@@ -5807,9 +5837,9 @@
       "blockIds": [],
       "region": {
         "x": 38,
-        "y": 252,
-        "width": 1004,
-        "height": 420
+        "y": 221,
+        "width": 486,
+        "height": 493
       },
       "note": "相册：LivePhoto AI消除人工确认演示区域"
     },
@@ -5824,16 +5854,13 @@
         "ocr-0004",
         "ocr-0001",
         "ocr-0005",
-        "ocr-0002",
-        "ocr-0003",
-        "ocr-0006",
-        "ocr-0007"
+        "ocr-0002"
       ],
       "region": {
-        "x": 84,
+        "x": 87,
         "y": 68,
-        "width": 847,
-        "height": 220
+        "width": 789,
+        "height": 125
       },
       "note": "小布建议：火车出行通知标题与说明"
     },
@@ -5846,10 +5873,10 @@
       "sourceHash": "779d9af19fef811d82d81291938f8d87afcbb476c3dffb276a7d73714413a6be",
       "blockIds": [],
       "region": {
-        "x": 38,
-        "y": 294,
-        "width": 1004,
-        "height": 378
+        "x": 556,
+        "y": 269,
+        "width": 486,
+        "height": 445
       },
       "note": "小布建议：火车出行通知人工确认演示区域"
     },
@@ -5885,9 +5912,9 @@
       "blockIds": [],
       "region": {
         "x": 38,
-        "y": 903,
-        "width": 1004,
-        "height": 462
+        "y": 893,
+        "width": 486,
+        "height": 483
       },
       "note": "蓝心小 V：蓝心小V旅行路书人工确认演示区域"
     },
@@ -5921,9 +5948,9 @@
       "sourceHash": "779d9af19fef811d82d81291938f8d87afcbb476c3dffb276a7d73714413a6be",
       "blockIds": [],
       "region": {
-        "x": 38,
-        "y": 882,
-        "width": 1004,
+        "x": 556,
+        "y": 893,
+        "width": 486,
         "height": 483
       },
       "note": "小 V 写作：小V写作 AI 神回复人工确认演示区域"
@@ -6652,7 +6679,7 @@
         "width": 75,
         "height": 54
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-055-evidence",
@@ -6670,7 +6697,7 @@
         "width": 125,
         "height": 45
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-056-evidence",
@@ -6688,7 +6715,7 @@
         "width": 89,
         "height": 37
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-057-evidence",
@@ -6706,7 +6733,7 @@
         "width": 117,
         "height": 61
       },
-      "note": "不进入表格：duplicate"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-058-evidence",
@@ -6724,7 +6751,7 @@
         "width": 66,
         "height": 38
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-059-evidence",
@@ -6742,7 +6769,7 @@
         "width": 68,
         "height": 40
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-060-evidence",
@@ -6760,7 +6787,7 @@
         "width": 61,
         "height": 37
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-061-evidence",
@@ -6778,7 +6805,7 @@
         "width": 349,
         "height": 66
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-062-evidence",
@@ -7390,7 +7417,7 @@
         "width": 70,
         "height": 54
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-096-evidence",
@@ -7408,7 +7435,7 @@
         "width": 61,
         "height": 44
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-097-evidence",
@@ -7426,7 +7453,7 @@
         "width": 63,
         "height": 44
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-098-evidence",
@@ -7444,7 +7471,7 @@
         "width": 94,
         "height": 42
       },
-      "note": "不进入表格：duplicate"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-099-evidence",
@@ -7930,7 +7957,7 @@
         "width": 222,
         "height": 48
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-126-evidence",
@@ -7948,7 +7975,7 @@
         "width": 158,
         "height": 56
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-127-evidence",
@@ -7966,7 +7993,7 @@
         "width": 98,
         "height": 42
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-128-evidence",
@@ -7984,7 +8011,7 @@
         "width": 104,
         "height": 38
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-129-evidence",
@@ -8002,7 +8029,7 @@
         "width": 112,
         "height": 42
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-130-evidence",
@@ -8020,7 +8047,7 @@
         "width": 132,
         "height": 42
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-131-evidence",
@@ -8038,7 +8065,7 @@
         "width": 122,
         "height": 80
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-132-evidence",
@@ -8056,7 +8083,7 @@
         "width": 153,
         "height": 43
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-133-evidence",
@@ -8074,7 +8101,7 @@
         "width": 192,
         "height": 42
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-134-evidence",
@@ -8092,7 +8119,7 @@
         "width": 95,
         "height": 40
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-135-evidence",
@@ -8110,7 +8137,7 @@
         "width": 64,
         "height": 36
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-136-evidence",
@@ -8128,7 +8155,7 @@
         "width": 64,
         "height": 36
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-137-evidence",
@@ -8182,7 +8209,7 @@
         "width": 152,
         "height": 72
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-140-evidence",
@@ -8344,7 +8371,7 @@
         "width": 64,
         "height": 41
       },
-      "note": "不进入表格：duplicate"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-149-evidence",
@@ -8362,7 +8389,7 @@
         "width": 66,
         "height": 38
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-150-evidence",
@@ -8380,7 +8407,7 @@
         "width": 62,
         "height": 38
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-151-evidence",
@@ -8398,7 +8425,7 @@
         "width": 52,
         "height": 48
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-152-evidence",
@@ -8416,7 +8443,7 @@
         "width": 64,
         "height": 38
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-153-evidence",
@@ -8434,7 +8461,7 @@
         "width": 48,
         "height": 38
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-154-evidence",
@@ -8452,7 +8479,7 @@
         "width": 62,
         "height": 39
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-155-evidence",
@@ -8470,7 +8497,7 @@
         "width": 45,
         "height": 38
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-156-evidence",
@@ -8488,7 +8515,7 @@
         "width": 45,
         "height": 43
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-157-evidence",
@@ -8506,7 +8533,7 @@
         "width": 48,
         "height": 38
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-158-evidence",
@@ -8524,10 +8551,64 @@
         "width": 57,
         "height": 38
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
       "id": "source-excluded-159-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
+      "sourceIndex": 13,
+      "sourceHash": "779d9af19fef811d82d81291938f8d87afcbb476c3dffb276a7d73714413a6be",
+      "blockIds": [
+        "ocr-0003"
+      ],
+      "region": {
+        "x": 84,
+        "y": 175,
+        "width": 310,
+        "height": 74
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-160-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
+      "sourceIndex": 13,
+      "sourceHash": "779d9af19fef811d82d81291938f8d87afcbb476c3dffb276a7d73714413a6be",
+      "blockIds": [
+        "ocr-0006"
+      ],
+      "region": {
+        "x": 588,
+        "y": 178,
+        "width": 335,
+        "height": 80
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-161-evidence",
+      "kind": "image-region",
+      "role": "excluded",
+      "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
+      "sourceIndex": 13,
+      "sourceHash": "779d9af19fef811d82d81291938f8d87afcbb476c3dffb276a7d73714413a6be",
+      "blockIds": [
+        "ocr-0007"
+      ],
+      "region": {
+        "x": 588,
+        "y": 224,
+        "width": 344,
+        "height": 77
+      },
+      "note": "不进入表格：decoration"
+    },
+    {
+      "id": "source-excluded-162-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
@@ -8545,7 +8626,7 @@
       "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-160-evidence",
+      "id": "source-excluded-163-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
@@ -8563,7 +8644,7 @@
       "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-161-evidence",
+      "id": "source-excluded-164-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
@@ -8581,7 +8662,7 @@
       "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-162-evidence",
+      "id": "source-excluded-165-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
@@ -8599,7 +8680,7 @@
       "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-163-evidence",
+      "id": "source-excluded-166-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
@@ -8617,7 +8698,7 @@
       "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-164-evidence",
+      "id": "source-excluded-167-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
@@ -8635,7 +8716,7 @@
       "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-165-evidence",
+      "id": "source-excluded-168-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
@@ -8653,7 +8734,7 @@
       "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-166-evidence",
+      "id": "source-excluded-169-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
@@ -8671,7 +8752,7 @@
       "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-167-evidence",
+      "id": "source-excluded-170-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
@@ -8689,7 +8770,7 @@
       "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-168-evidence",
+      "id": "source-excluded-171-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
@@ -8707,7 +8788,7 @@
       "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-169-evidence",
+      "id": "source-excluded-172-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
@@ -8725,7 +8806,7 @@
       "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-170-evidence",
+      "id": "source-excluded-173-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
@@ -8743,7 +8824,7 @@
       "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-171-evidence",
+      "id": "source-excluded-174-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
@@ -8761,7 +8842,7 @@
       "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-172-evidence",
+      "id": "source-excluded-175-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
@@ -8779,7 +8860,7 @@
       "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-173-evidence",
+      "id": "source-excluded-176-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
@@ -8797,7 +8878,7 @@
       "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-174-evidence",
+      "id": "source-excluded-177-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
@@ -8815,7 +8896,7 @@
       "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-175-evidence",
+      "id": "source-excluded-178-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
@@ -8833,7 +8914,7 @@
       "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-176-evidence",
+      "id": "source-excluded-179-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
@@ -8851,7 +8932,7 @@
       "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-177-evidence",
+      "id": "source-excluded-180-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
@@ -8869,7 +8950,7 @@
       "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-178-evidence",
+      "id": "source-excluded-181-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
@@ -8887,7 +8968,7 @@
       "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-179-evidence",
+      "id": "source-excluded-182-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
@@ -8905,7 +8986,7 @@
       "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-180-evidence",
+      "id": "source-excluded-183-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
@@ -8923,7 +9004,7 @@
       "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-181-evidence",
+      "id": "source-excluded-184-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
@@ -8941,7 +9022,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-182-evidence",
+      "id": "source-excluded-185-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
@@ -8959,7 +9040,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-183-evidence",
+      "id": "source-excluded-186-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
@@ -8977,7 +9058,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-184-evidence",
+      "id": "source-excluded-187-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
@@ -8995,7 +9076,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-185-evidence",
+      "id": "source-excluded-188-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
@@ -9013,7 +9094,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-186-evidence",
+      "id": "source-excluded-189-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
@@ -9031,7 +9112,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-187-evidence",
+      "id": "source-excluded-190-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/66c4750c1dc7ff3cddcdb197abd8d581.png",
@@ -9049,7 +9130,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-188-evidence",
+      "id": "source-excluded-191-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/1ae1bf00221d828cc9b06c8fb53aa9b5.png",
@@ -9067,7 +9148,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-189-evidence",
+      "id": "source-excluded-192-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/1ae1bf00221d828cc9b06c8fb53aa9b5.png",
@@ -9085,7 +9166,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-190-evidence",
+      "id": "source-excluded-193-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/1ae1bf00221d828cc9b06c8fb53aa9b5.png",
@@ -9103,7 +9184,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-191-evidence",
+      "id": "source-excluded-194-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/1ae1bf00221d828cc9b06c8fb53aa9b5.png",
@@ -9121,7 +9202,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-192-evidence",
+      "id": "source-excluded-195-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/93ad090402a4587f2d680fefc174c538.png",
@@ -9139,7 +9220,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-193-evidence",
+      "id": "source-excluded-196-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/a978c5cab44623539985555dcc49f663.png",
@@ -9157,7 +9238,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-194-evidence",
+      "id": "source-excluded-197-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/a978c5cab44623539985555dcc49f663.png",
@@ -9175,7 +9256,7 @@
       "note": "不进入表格：disclaimer"
     },
     {
-      "id": "source-excluded-195-evidence",
+      "id": "source-excluded-198-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/a978c5cab44623539985555dcc49f663.png",
@@ -9193,7 +9274,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-196-evidence",
+      "id": "source-excluded-199-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/a978c5cab44623539985555dcc49f663.png",
@@ -9211,7 +9292,7 @@
       "note": "不进入表格：disclaimer"
     },
     {
-      "id": "source-excluded-197-evidence",
+      "id": "source-excluded-200-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/df736c55a429074c3582d344e9532571.png",
@@ -9229,7 +9310,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-198-evidence",
+      "id": "source-excluded-201-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/df736c55a429074c3582d344e9532571.png",
@@ -9247,7 +9328,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-199-evidence",
+      "id": "source-excluded-202-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/df736c55a429074c3582d344e9532571.png",
@@ -9265,7 +9346,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-200-evidence",
+      "id": "source-excluded-203-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9283,7 +9364,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-201-evidence",
+      "id": "source-excluded-204-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9301,7 +9382,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-202-evidence",
+      "id": "source-excluded-205-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9319,7 +9400,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-203-evidence",
+      "id": "source-excluded-206-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9337,7 +9418,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-204-evidence",
+      "id": "source-excluded-207-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9355,7 +9436,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-205-evidence",
+      "id": "source-excluded-208-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9373,7 +9454,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-206-evidence",
+      "id": "source-excluded-209-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9391,7 +9472,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-207-evidence",
+      "id": "source-excluded-210-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9409,7 +9490,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-208-evidence",
+      "id": "source-excluded-211-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9427,7 +9508,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-209-evidence",
+      "id": "source-excluded-212-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9445,7 +9526,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-210-evidence",
+      "id": "source-excluded-213-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9463,7 +9544,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-211-evidence",
+      "id": "source-excluded-214-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9481,7 +9562,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-212-evidence",
+      "id": "source-excluded-215-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9499,7 +9580,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-213-evidence",
+      "id": "source-excluded-216-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9517,7 +9598,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-214-evidence",
+      "id": "source-excluded-217-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9535,7 +9616,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-215-evidence",
+      "id": "source-excluded-218-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9553,7 +9634,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-216-evidence",
+      "id": "source-excluded-219-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9571,7 +9652,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-217-evidence",
+      "id": "source-excluded-220-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9589,7 +9670,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-218-evidence",
+      "id": "source-excluded-221-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9607,7 +9688,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-219-evidence",
+      "id": "source-excluded-222-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9625,7 +9706,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-220-evidence",
+      "id": "source-excluded-223-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9643,7 +9724,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-221-evidence",
+      "id": "source-excluded-224-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9661,7 +9742,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-222-evidence",
+      "id": "source-excluded-225-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9679,7 +9760,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-223-evidence",
+      "id": "source-excluded-226-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9697,7 +9778,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-224-evidence",
+      "id": "source-excluded-227-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9715,7 +9796,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-225-evidence",
+      "id": "source-excluded-228-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9733,7 +9814,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-226-evidence",
+      "id": "source-excluded-229-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9751,7 +9832,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-227-evidence",
+      "id": "source-excluded-230-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9769,7 +9850,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-228-evidence",
+      "id": "source-excluded-231-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9787,7 +9868,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-229-evidence",
+      "id": "source-excluded-232-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9805,7 +9886,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-230-evidence",
+      "id": "source-excluded-233-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9823,7 +9904,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-231-evidence",
+      "id": "source-excluded-234-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9841,7 +9922,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-232-evidence",
+      "id": "source-excluded-235-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9859,7 +9940,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-233-evidence",
+      "id": "source-excluded-236-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9877,7 +9958,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-234-evidence",
+      "id": "source-excluded-237-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9895,7 +9976,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-235-evidence",
+      "id": "source-excluded-238-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9913,7 +9994,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-236-evidence",
+      "id": "source-excluded-239-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9931,7 +10012,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-237-evidence",
+      "id": "source-excluded-240-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9949,7 +10030,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-238-evidence",
+      "id": "source-excluded-241-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9967,7 +10048,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-239-evidence",
+      "id": "source-excluded-242-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -9985,7 +10066,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-240-evidence",
+      "id": "source-excluded-243-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -10003,7 +10084,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-241-evidence",
+      "id": "source-excluded-244-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -10021,7 +10102,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-242-evidence",
+      "id": "source-excluded-245-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -10039,7 +10120,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-243-evidence",
+      "id": "source-excluded-246-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -10057,7 +10138,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-244-evidence",
+      "id": "source-excluded-247-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -10075,7 +10156,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-245-evidence",
+      "id": "source-excluded-248-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -10093,7 +10174,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-246-evidence",
+      "id": "source-excluded-249-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -10111,7 +10192,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-247-evidence",
+      "id": "source-excluded-250-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -10129,7 +10210,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-248-evidence",
+      "id": "source-excluded-251-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -10147,7 +10228,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-249-evidence",
+      "id": "source-excluded-252-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -10165,7 +10246,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-250-evidence",
+      "id": "source-excluded-253-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -10183,7 +10264,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-251-evidence",
+      "id": "source-excluded-254-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -10201,7 +10282,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-252-evidence",
+      "id": "source-excluded-255-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -10219,7 +10300,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-253-evidence",
+      "id": "source-excluded-256-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -10237,7 +10318,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-254-evidence",
+      "id": "source-excluded-257-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -10255,7 +10336,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-255-evidence",
+      "id": "source-excluded-258-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -10273,7 +10354,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-256-evidence",
+      "id": "source-excluded-259-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0dda99e6b8f83fa2504817913a627cd2.png",
@@ -10291,7 +10372,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-257-evidence",
+      "id": "source-excluded-260-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/eec98cd316f285060f5d83cd6861aa57.png",
@@ -10309,7 +10390,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-258-evidence",
+      "id": "source-excluded-261-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/eec98cd316f285060f5d83cd6861aa57.png",
@@ -10327,7 +10408,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-259-evidence",
+      "id": "source-excluded-262-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/eec98cd316f285060f5d83cd6861aa57.png",
@@ -10345,7 +10426,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-260-evidence",
+      "id": "source-excluded-263-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/eec98cd316f285060f5d83cd6861aa57.png",
@@ -10363,7 +10444,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-261-evidence",
+      "id": "source-excluded-264-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/eec98cd316f285060f5d83cd6861aa57.png",
@@ -10381,7 +10462,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-262-evidence",
+      "id": "source-excluded-265-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/eec98cd316f285060f5d83cd6861aa57.png",
@@ -10399,7 +10480,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-263-evidence",
+      "id": "source-excluded-266-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/eec98cd316f285060f5d83cd6861aa57.png",
@@ -10417,7 +10498,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-264-evidence",
+      "id": "source-excluded-267-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/eec98cd316f285060f5d83cd6861aa57.png",
@@ -10435,7 +10516,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-265-evidence",
+      "id": "source-excluded-268-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/eec98cd316f285060f5d83cd6861aa57.png",
@@ -10453,7 +10534,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-266-evidence",
+      "id": "source-excluded-269-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/eec98cd316f285060f5d83cd6861aa57.png",
@@ -10471,7 +10552,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-267-evidence",
+      "id": "source-excluded-270-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/eec98cd316f285060f5d83cd6861aa57.png",
@@ -10489,7 +10570,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-268-evidence",
+      "id": "source-excluded-271-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/28ae498fa4dfcd899e8781de88d285a5.png",
@@ -10507,7 +10588,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-269-evidence",
+      "id": "source-excluded-272-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/28ae498fa4dfcd899e8781de88d285a5.png",
@@ -10525,7 +10606,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-270-evidence",
+      "id": "source-excluded-273-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/28ae498fa4dfcd899e8781de88d285a5.png",
@@ -10543,7 +10624,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-271-evidence",
+      "id": "source-excluded-274-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/28ae498fa4dfcd899e8781de88d285a5.png",
@@ -10561,7 +10642,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-272-evidence",
+      "id": "source-excluded-275-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
@@ -10579,7 +10660,7 @@
       "note": "不进入表格：disclaimer"
     },
     {
-      "id": "source-excluded-273-evidence",
+      "id": "source-excluded-276-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
@@ -10597,7 +10678,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-274-evidence",
+      "id": "source-excluded-277-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
@@ -10615,7 +10696,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-275-evidence",
+      "id": "source-excluded-278-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
@@ -10633,7 +10714,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-276-evidence",
+      "id": "source-excluded-279-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
@@ -10651,7 +10732,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-277-evidence",
+      "id": "source-excluded-280-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
@@ -10669,7 +10750,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-278-evidence",
+      "id": "source-excluded-281-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
@@ -10687,7 +10768,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-279-evidence",
+      "id": "source-excluded-282-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
@@ -10705,7 +10786,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-280-evidence",
+      "id": "source-excluded-283-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
@@ -10723,7 +10804,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-281-evidence",
+      "id": "source-excluded-284-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
@@ -10741,7 +10822,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-282-evidence",
+      "id": "source-excluded-285-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
@@ -10759,7 +10840,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-283-evidence",
+      "id": "source-excluded-286-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
@@ -10777,7 +10858,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-284-evidence",
+      "id": "source-excluded-287-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
@@ -10795,7 +10876,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-285-evidence",
+      "id": "source-excluded-288-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
@@ -10813,7 +10894,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-286-evidence",
+      "id": "source-excluded-289-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
@@ -10831,7 +10912,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-287-evidence",
+      "id": "source-excluded-290-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
@@ -10849,7 +10930,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-288-evidence",
+      "id": "source-excluded-291-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
@@ -10867,7 +10948,7 @@
       "note": "不进入表格：disclaimer"
     },
     {
-      "id": "source-excluded-289-evidence",
+      "id": "source-excluded-292-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/0abdb33705533be3a0453bd316e68f49.png",
@@ -10885,7 +10966,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-290-evidence",
+      "id": "source-excluded-293-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
@@ -10903,7 +10984,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-291-evidence",
+      "id": "source-excluded-294-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
@@ -10921,7 +11002,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-292-evidence",
+      "id": "source-excluded-295-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
@@ -10939,7 +11020,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-293-evidence",
+      "id": "source-excluded-296-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
@@ -10957,7 +11038,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-294-evidence",
+      "id": "source-excluded-297-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
@@ -10975,7 +11056,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-295-evidence",
+      "id": "source-excluded-298-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
@@ -10993,7 +11074,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-296-evidence",
+      "id": "source-excluded-299-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
@@ -11011,7 +11092,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-297-evidence",
+      "id": "source-excluded-300-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
@@ -11029,7 +11110,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-298-evidence",
+      "id": "source-excluded-301-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
@@ -11047,7 +11128,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-299-evidence",
+      "id": "source-excluded-302-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
@@ -11065,7 +11146,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-300-evidence",
+      "id": "source-excluded-303-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
@@ -11083,7 +11164,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-301-evidence",
+      "id": "source-excluded-304-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
@@ -11101,7 +11182,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-302-evidence",
+      "id": "source-excluded-305-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
@@ -11119,7 +11200,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-303-evidence",
+      "id": "source-excluded-306-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
@@ -11137,7 +11218,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-304-evidence",
+      "id": "source-excluded-307-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
@@ -11155,7 +11236,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-305-evidence",
+      "id": "source-excluded-308-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
@@ -11173,7 +11254,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-306-evidence",
+      "id": "source-excluded-309-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
@@ -11191,7 +11272,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-307-evidence",
+      "id": "source-excluded-310-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
@@ -11209,7 +11290,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-308-evidence",
+      "id": "source-excluded-311-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
@@ -11227,7 +11308,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-309-evidence",
+      "id": "source-excluded-312-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
@@ -11245,7 +11326,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-310-evidence",
+      "id": "source-excluded-313-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
@@ -11263,7 +11344,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-311-evidence",
+      "id": "source-excluded-314-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/8b4184e8d29248e9703d403fb35a0e88.png",
@@ -11281,7 +11362,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-312-evidence",
+      "id": "source-excluded-315-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/b1d83688416ebdab3687fd6ba48fd4b9.png",
@@ -11296,10 +11377,10 @@
         "width": 176,
         "height": 83
       },
-      "note": "不进入表格：duplicate"
+      "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-313-evidence",
+      "id": "source-excluded-316-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/b1d83688416ebdab3687fd6ba48fd4b9.png",
@@ -11314,10 +11395,10 @@
         "width": 60,
         "height": 35
       },
-      "note": "不进入表格：duplicate"
+      "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-314-evidence",
+      "id": "source-excluded-317-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/b1d83688416ebdab3687fd6ba48fd4b9.png",
@@ -11332,10 +11413,10 @@
         "width": 130,
         "height": 89
       },
-      "note": "不进入表格：duplicate"
+      "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-315-evidence",
+      "id": "source-excluded-318-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/b1d83688416ebdab3687fd6ba48fd4b9.png",
@@ -11350,10 +11431,10 @@
         "width": 151,
         "height": 71
       },
-      "note": "不进入表格：duplicate"
+      "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-316-evidence",
+      "id": "source-excluded-319-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/b1d83688416ebdab3687fd6ba48fd4b9.png",
@@ -11368,10 +11449,10 @@
         "width": 64,
         "height": 37
       },
-      "note": "不进入表格：duplicate"
+      "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-317-evidence",
+      "id": "source-excluded-320-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/b1d83688416ebdab3687fd6ba48fd4b9.png",
@@ -11386,10 +11467,10 @@
         "width": 154,
         "height": 48
       },
-      "note": "不进入表格：decoration"
+      "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-318-evidence",
+      "id": "source-excluded-321-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/b1d83688416ebdab3687fd6ba48fd4b9.png",
@@ -11407,7 +11488,7 @@
       "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-319-evidence",
+      "id": "source-excluded-322-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/b1d83688416ebdab3687fd6ba48fd4b9.png",
@@ -11425,7 +11506,7 @@
       "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-320-evidence",
+      "id": "source-excluded-323-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/b1d83688416ebdab3687fd6ba48fd4b9.png",
@@ -11443,7 +11524,7 @@
       "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-321-evidence",
+      "id": "source-excluded-324-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/b1d83688416ebdab3687fd6ba48fd4b9.png",
@@ -11461,7 +11542,7 @@
       "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-322-evidence",
+      "id": "source-excluded-325-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/b1d83688416ebdab3687fd6ba48fd4b9.png",
@@ -11479,7 +11560,7 @@
       "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-323-evidence",
+      "id": "source-excluded-326-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/b1d83688416ebdab3687fd6ba48fd4b9.png",
@@ -11497,7 +11578,7 @@
       "note": "不进入表格：demo-text"
     },
     {
-      "id": "source-excluded-324-evidence",
+      "id": "source-excluded-327-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
@@ -11515,7 +11596,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-325-evidence",
+      "id": "source-excluded-328-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
@@ -11533,7 +11614,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-326-evidence",
+      "id": "source-excluded-329-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
@@ -11551,7 +11632,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-327-evidence",
+      "id": "source-excluded-330-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
@@ -11569,7 +11650,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-328-evidence",
+      "id": "source-excluded-331-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
@@ -11587,7 +11668,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-329-evidence",
+      "id": "source-excluded-332-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
@@ -11605,7 +11686,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-330-evidence",
+      "id": "source-excluded-333-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
@@ -11623,7 +11704,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-331-evidence",
+      "id": "source-excluded-334-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
@@ -11641,7 +11722,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-332-evidence",
+      "id": "source-excluded-335-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
@@ -11659,7 +11740,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-333-evidence",
+      "id": "source-excluded-336-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
@@ -11677,7 +11758,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-334-evidence",
+      "id": "source-excluded-337-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
@@ -11695,7 +11776,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-335-evidence",
+      "id": "source-excluded-338-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
@@ -11713,7 +11794,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-336-evidence",
+      "id": "source-excluded-339-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
@@ -11731,7 +11812,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-337-evidence",
+      "id": "source-excluded-340-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
@@ -11749,7 +11830,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-338-evidence",
+      "id": "source-excluded-341-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
@@ -11767,7 +11848,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-339-evidence",
+      "id": "source-excluded-342-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
@@ -11785,7 +11866,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-340-evidence",
+      "id": "source-excluded-343-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
@@ -11803,7 +11884,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-341-evidence",
+      "id": "source-excluded-344-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
@@ -11821,7 +11902,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-342-evidence",
+      "id": "source-excluded-345-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
@@ -11839,7 +11920,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-343-evidence",
+      "id": "source-excluded-346-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
@@ -11857,7 +11938,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-344-evidence",
+      "id": "source-excluded-347-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
@@ -11875,7 +11956,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-345-evidence",
+      "id": "source-excluded-348-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
@@ -11893,7 +11974,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-346-evidence",
+      "id": "source-excluded-349-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
@@ -11911,7 +11992,7 @@
       "note": "不进入表格：disclaimer"
     },
     {
-      "id": "source-excluded-347-evidence",
+      "id": "source-excluded-350-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
@@ -11929,7 +12010,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-348-evidence",
+      "id": "source-excluded-351-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/343c7e3add5f7feb12431429af09c727.png",
@@ -11947,7 +12028,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-349-evidence",
+      "id": "source-excluded-352-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/db6c53f3c8578da196ed8d1c523bd3d6.png",
@@ -11965,7 +12046,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-350-evidence",
+      "id": "source-excluded-353-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/db6c53f3c8578da196ed8d1c523bd3d6.png",
@@ -11983,7 +12064,7 @@
       "note": "不进入表格：decoration"
     },
     {
-      "id": "source-excluded-351-evidence",
+      "id": "source-excluded-354-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/db6c53f3c8578da196ed8d1c523bd3d6.png",
@@ -12001,7 +12082,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-352-evidence",
+      "id": "source-excluded-355-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/db6c53f3c8578da196ed8d1c523bd3d6.png",
@@ -12019,7 +12100,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-353-evidence",
+      "id": "source-excluded-356-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/db6c53f3c8578da196ed8d1c523bd3d6.png",
@@ -12037,7 +12118,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-354-evidence",
+      "id": "source-excluded-357-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/3c73a0acb45c0478fb6f965dc41fe54c.png",
@@ -12055,7 +12136,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-355-evidence",
+      "id": "source-excluded-358-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/3c73a0acb45c0478fb6f965dc41fe54c.png",
@@ -12073,7 +12154,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-356-evidence",
+      "id": "source-excluded-359-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/3c73a0acb45c0478fb6f965dc41fe54c.png",
@@ -12091,7 +12172,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-357-evidence",
+      "id": "source-excluded-360-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/3c73a0acb45c0478fb6f965dc41fe54c.png",
@@ -12109,7 +12190,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-358-evidence",
+      "id": "source-excluded-361-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/3c73a0acb45c0478fb6f965dc41fe54c.png",
@@ -12127,7 +12208,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-359-evidence",
+      "id": "source-excluded-362-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/e3bddc049517d2df02af27cf4f658433.png",
@@ -12145,7 +12226,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-360-evidence",
+      "id": "source-excluded-363-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/e3bddc049517d2df02af27cf4f658433.png",
@@ -12163,7 +12244,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-361-evidence",
+      "id": "source-excluded-364-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/e3bddc049517d2df02af27cf4f658433.png",
@@ -12181,7 +12262,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-362-evidence",
+      "id": "source-excluded-365-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/e3bddc049517d2df02af27cf4f658433.png",
@@ -12199,7 +12280,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-363-evidence",
+      "id": "source-excluded-366-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/e3bddc049517d2df02af27cf4f658433.png",
@@ -12217,7 +12298,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-364-evidence",
+      "id": "source-excluded-367-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/e3bddc049517d2df02af27cf4f658433.png",
@@ -12235,7 +12316,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-365-evidence",
+      "id": "source-excluded-368-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/e3bddc049517d2df02af27cf4f658433.png",
@@ -12253,7 +12334,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-366-evidence",
+      "id": "source-excluded-369-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/e3bddc049517d2df02af27cf4f658433.png",
@@ -12271,7 +12352,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-367-evidence",
+      "id": "source-excluded-370-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/e3bddc049517d2df02af27cf4f658433.png",
@@ -12289,7 +12370,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-368-evidence",
+      "id": "source-excluded-371-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/e3bddc049517d2df02af27cf4f658433.png",
@@ -12307,7 +12388,7 @@
       "note": "不进入表格：duplicate"
     },
     {
-      "id": "source-excluded-369-evidence",
+      "id": "source-excluded-372-evidence",
       "kind": "image-region",
       "role": "excluded",
       "source": "assets/images/interactive/e3bddc049517d2df02af27cf4f658433.png",
@@ -12335,13 +12416,13 @@
       "page": "verified"
     },
     "expectedHighlightCount": 14,
-    "sourceItemCount": 369,
+    "sourceItemCount": 372,
     "includedItemCount": 23,
-    "excludedItemCount": 346,
+    "excludedItemCount": 349,
     "highlightCount": 14,
     "updateCount": 9,
     "mediaCount": 14,
-    "mappedItemCount": 369,
+    "mappedItemCount": 372,
     "coverageRate": 1
   }
 }
