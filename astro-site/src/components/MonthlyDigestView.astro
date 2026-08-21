@@ -1,9 +1,12 @@
 ---
-import { assetPath } from '../lib/archive';
+import { assetPath, type ArchiveArticle } from '../lib/archive';
 import type { MonthlyDigest } from '../lib/monthly-digests';
 
-interface Props { digest: MonthlyDigest }
-const { digest } = Astro.props;
+interface Props {
+  digest: MonthlyDigest;
+  article?: ArchiveArticle;
+}
+const { digest, article } = Astro.props;
 const data = digest.data;
 const typeClass = (type: string) => `digest-type digest-type-${type === '未标注' ? 'unknown' : type}`;
 
@@ -16,7 +19,7 @@ for (const item of data.highlights) {
     highlightGroups.push({ key, items: [item] });
   }
 }
-const isHyperOS4 = data.articleId.includes('HyperOS_4');
+const isMajorRelease = data.articleId === 'HyperOS_4_更新说明_(2026)' || article?.data.slug === '44-xiaomi-hyperos-4';
 
 const monthMap: Record<string, string> = {
   '1': '一月', '01': '一月', '一': '一月',
@@ -33,11 +36,21 @@ const monthMap: Record<string, string> = {
   '12': '十二月', '十二': '十二月'
 };
 
-const extractMonthName = (id: string): string => {
-  const m1 = id.match(/([0-9]{1,2}|[一二三四五六七八九十]+)月/);
-  if (m1 && monthMap[m1[1]]) return monthMap[m1[1]];
-  const m2 = id.match(/202[0-9][-_\.](\d{2})/);
-  if (m2 && monthMap[m2[1]]) return monthMap[m2[1]];
+const extractMonthName = (id: string, title?: string, publishedAt?: string): string => {
+  const mTitle = (title || '').match(/([0-9]{1,2}|[一二三四五六七八九十]+)月/);
+  if (mTitle && monthMap[mTitle[1]]) return monthMap[mTitle[1]];
+
+  const mId = id.match(/([0-9]{1,2}|[一二三四五六七八九十]+)月/);
+  if (mId && monthMap[mId[1]]) return monthMap[mId[1]];
+
+  if (publishedAt) {
+    const mDate = publishedAt.match(/202[0-9]-(\d{2})/);
+    if (mDate && monthMap[mDate[1]]) return monthMap[mDate[1]];
+  }
+
+  const mIdDate = id.match(/202[0-9][-_\.](\d{2})/);
+  if (mIdDate && monthMap[mIdDate[1]]) return monthMap[mIdDate[1]];
+
   return '本月';
 };
 
@@ -63,10 +76,10 @@ const generateMonthlySummary = (highlights: typeof data.highlights, updates: typ
   return `重点升级${formattedTitles}，共带来 ${totalCount} 项功能升级与细节体验优化。`;
 };
 
-const monthName = extractMonthName(data.articleId);
-const heading = isHyperOS4 ? '小米澎湃OS 4 更新说明' : `${monthName}升级一览`;
-const subtitle = isHyperOS4 ? '全面升级的一气呵成体验。' : generateMonthlySummary(data.highlights, data.updates);
-const highlightHeading = isHyperOS4 ? '更新功能一览' : '更新亮点';
+const monthName = extractMonthName(data.articleId, article?.data.title, article?.data.publishedAt);
+const heading = isMajorRelease ? '小米澎湃OS 4 更新说明' : `${monthName}升级一览`;
+const subtitle = isMajorRelease ? '全面升级的一气呵成体验。' : generateMonthlySummary(data.highlights, data.updates);
+const highlightHeading = isMajorRelease ? '更新功能一览' : '更新亮点';
 ---
 <section class="monthly-digest" data-monthly-digest aria-labelledby="digest-heading">
   <header class="digest-intro">

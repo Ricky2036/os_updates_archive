@@ -41,7 +41,7 @@ const digest = digestEntry?.data.reviewStatus === 'verified' ? digestEntry : und
       {digest ? (
         <div class="monthly-view" data-monthly-view-root>
           <section class="monthly-panel monthly-digest-panel" data-monthly-panel="digest">
-            <MonthlyDigestView digest={digest} />
+            <MonthlyDigestView digest={digest} article={article} />
           </section>
           <section class="monthly-panel monthly-original-panel" data-monthly-panel="original">
             <div data-original-mount></div>
