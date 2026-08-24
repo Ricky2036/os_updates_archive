@@ -1,0 +1,18 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=baidu-site-verification content=AYgZZLYPEc><meta name=description content=荣耀亲选是荣耀公司旗下精选电商网站,提供荣耀手机,荣耀笔记本,荣耀平板,穿戴产品,智慧屏,智能家居,亲选生态品等全场景智慧生活产品和服务。><meta name=keywords content="荣耀亲选, 亲选商城, 荣耀手机, 笔记本, 平板, 智慧屏, 智能穿戴"><link rel=canonical href=https://qinxuan.honor.com/ ><title>【荣耀亲选】荣耀亲选商城-亲选生态-荣耀全场景-亲选好物推荐</title><script>// 如果用户从移动端访问PC项目，重定向到wap的域名地址
+      const ua = window.navigator.userAgent || ''
+      const curUrl = window.top.location.href
+      // let urlArr = curUrl.split('?')
+      let redirect = ''
+      // if(urlArr[1]) {
+      //   redirect = "https://m.qinxuan.honor.cn?" + urlArr[1]
+      // }
+      const isPC = !(ua.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))
+      if (!isPC) {
+        if(curUrl.indexOf('qinxuan.honor') !== -1) {
+          window.location.href = curUrl.replace('qinxuan.honor', 'm.qinxuan.honor')
+        } else if(curUrl.indexOf('qinxuan-webuat.test') !== -1){
+          window.location.href = curUrl.replace('qinxuan-webuat.test', 'qinxuan-wapuat.test')
+        } else {
+          window.location.href = redirect || "https://m.qinxuan.honor.com"
+        }
+      }</script><link rel="shortcut icon" type=images/x-icon href=/static/img/favicon.ico><link href=/static/css/app.aee91e791896435c4d12afd9ec354ca7.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=/static/js/manifest.2050c7d77f9286a459ff.js></script><script type=text/javascript src=/static/js/vendor.22afa9cdfb1fd14300a8.js></script><script type=text/javascript src=/static/js/app.dd8e4935bac7772911fb.js></script></body></html>

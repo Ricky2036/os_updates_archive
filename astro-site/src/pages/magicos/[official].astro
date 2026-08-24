@@ -1,0 +1,106 @@
+---
+import { sitePath } from '../../lib/archive';
+import { officialArchiveMeta, officialArchiveUrl, type OfficialArchiveVersion } from '../../lib/official-archives';
+
+export function getStaticPaths() {
+  return (['10']).map((official) => ({ params: { official } }));
+}
+
+const version = 'magicos10' as OfficialArchiveVersion;
+const meta = officialArchiveMeta[version];
+const siteUrl = (import.meta.env.PUBLIC_SITE_URL || 'https://ricky2036.github.io/os_updates_archive').replace(/\/$/, '');
+const route = sitePath(`magicos/10/`);
+const base = import.meta.env.BASE_URL || '/';
+const relativeCanonical = route.startsWith(base) ? route.slice(base.length) : route.replace(/^\//, '');
+const canonical = new URL(relativeCanonical, `${siteUrl}/`).toString();
+const sources = {
+  mobile: officialArchiveUrl(version, 'mobile'),
+  pad: officialArchiveUrl(version, 'pad'),
+  desktop: officialArchiveUrl(version, 'desktop'),
+};
+---
+<!doctype html>
+<html lang="zh-CN" class="official-page">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      if ('serviceWorker' in navigator) {
+        // Register the proxy service worker for local official archives
+        navigator.serviceWorker.register((import.meta.env.BASE_URL || '/') + 'sw.js', { scope: import.meta.env.BASE_URL || '/' });
+      }
+    </script>
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+    <meta name="description" content={`${meta.label} 官方网站完整离线存档。`} />
+    <meta name="theme-color" content="#f3f7fc" />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href={sitePath('favicon.svg')} />
+    <title>{meta.title} · OS档案馆</title>
+    <style is:global>
+      :root { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif; color: #171a20; background: #f3f7fc; }
+      * { box-sizing: border-box; }
+      html, body, .official-shell { width: 100%; height: 100%; margin: 0; overflow: hidden; }
+      .official-shell { position: relative; isolation: isolate; background: radial-gradient(circle at 15% 10%, rgba(89,204,239,.2), transparent 38%), radial-gradient(circle at 85% 85%, rgba(120,91,246,.17), transparent 40%), #f3f7fc; }
+      .official-frame { position: absolute; inset: 0; z-index: 2; width: 100%; height: 100%; border: 0; opacity: 0; background: #fff; transition: opacity .24s ease; }
+      .official-shell.loaded .official-frame { opacity: 1; }
+      .official-loading, .official-error { position: absolute; inset: 0; z-index: 1; display: grid; place-items: center; padding: 24px; text-align: center; }
+      .official-status { display: grid; justify-items: center; gap: 14px; }
+      .official-status img { width: 42px; height: 42px; filter: drop-shadow(0 4px 12px rgba(55,77,130,.12)); }
+      .official-status strong { font-size: 17px; letter-spacing: -.02em; }
+      .official-spinner { width: 24px; height: 24px; border: 2px solid rgba(65,111,229,.16); border-top-color: #416fe5; border-radius: 50%; animation: official-spin .8s linear infinite; }
+      .official-error[hidden], .official-shell.loaded .official-loading { display: none; }
+      .official-error { z-index: 3; background: rgba(243,247,252,.94); backdrop-filter: blur(18px); }
+      .official-error p { max-width: 320px; margin: 0; color: #747b86; font-size: 13px; line-height: 1.7; }
+      .official-actions { display: flex; gap: 10px; }
+      .official-actions button, .official-actions a { min-height: 42px; padding: 0 18px; border: 0; border-radius: 999px; color: #171a20; background: rgba(255,255,255,.9); box-shadow: 0 8px 24px rgba(39,63,116,.12); font: inherit; font-size: 13px; font-weight: 720; text-decoration: none; cursor: pointer; }
+      .official-return { position: fixed; left: max(14px, env(safe-area-inset-left)); bottom: max(14px, env(safe-area-inset-bottom)); z-index: 5; display: inline-flex; align-items: center; gap: 9px; min-height: 42px; padding: 5px 14px 5px 6px; border: 1px solid rgba(255,255,255,.82); border-radius: 999px; color: #171a20; background: rgba(246,248,252,.8); box-shadow: 0 12px 34px rgba(31,44,76,.16); backdrop-filter: blur(18px) saturate(145%); font-size: 12px; font-weight: 760; text-decoration: none; -webkit-tap-highlight-color: transparent; }
+      .official-return img { width: 30px; height: 30px; }
+      .official-return:active { transform: scale(.96); }
+      @keyframes official-spin { to { transform: rotate(360deg); } }
+      @media (max-width: 600px) { .official-return { width: 42px; padding: 5px; } .official-return span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); } }
+      @media (prefers-reduced-motion: reduce) { .official-frame { transition: none; } .official-spinner { animation-duration: 1.6s; } }
+    </style>
+  </head>
+  <body>
+    <main class="official-shell" data-official-shell>
+      <div class="official-loading" aria-live="polite">
+        <div class="official-status"><img src={sitePath('assets/images/archive-mark.svg')} alt="" /><strong>{meta.label}</strong><i class="official-spinner" aria-hidden="true"></i></div>
+      </div>
+      <iframe
+        class="official-frame"
+        data-official-frame
+        title={meta.title}
+        sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox allow-presentation allow-modals allow-downloads"
+        allow="autoplay; fullscreen; picture-in-picture"
+        referrerpolicy="no-referrer"
+      ></iframe>
+      <section class="official-error" data-official-error hidden aria-live="assertive">
+        <div class="official-status">
+          <img src={sitePath('assets/images/archive-mark.svg')} alt="" />
+          <strong>暂时无法打开 {meta.label}</strong>
+          <p>网络连接时间较长，可以重新加载或返回月更记录。</p>
+          <div class="official-actions"><button type="button" data-official-retry>重新加载</button><a href={sitePath('magicos/')}>月更记录</a></div>
+        </div>
+      </section>
+    </main>
+    <a class="official-return" href={sitePath()} aria-label="返回 OS档案馆"><img src={sitePath('assets/images/archive-mark.svg')} alt="" /><span>返回档案馆</span></a>
+    <script is:inline define:vars={{ sources }}>
+      const shell = document.querySelector('[data-official-shell]');
+      const frame = document.querySelector('[data-official-frame]');
+      const error = document.querySelector('[data-official-error]');
+      const retry = document.querySelector('[data-official-retry]');
+      const viewport = innerWidth <= 600 ? 'mobile' : innerWidth <= 1024 ? 'pad' : 'desktop';
+      let timer;
+      const load = () => {
+        clearTimeout(timer);
+        shell.classList.remove('loaded');
+        error.hidden = true;
+        frame.src = sources[viewport];
+        timer = setTimeout(() => { if (!shell.classList.contains('loaded')) error.hidden = false; }, 12000);
+      };
+      frame.addEventListener('load', () => { clearTimeout(timer); error.hidden = true; shell.classList.add('loaded'); });
+      retry.addEventListener('click', load);
+      load();
+    </script>
+  </body>
+</html>

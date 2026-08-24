@@ -1,6 +1,6 @@
 import { sitePath } from './archive';
 
-export type OfficialArchiveVersion = '15' | '16' | 'originos6' | 'hyperos1' | 'hyperos2' | 'hyperos3' | 'hyperos4';
+export type OfficialArchiveVersion = '15' | '16' | 'originos6' | 'hyperos1' | 'hyperos2' | 'hyperos3' | 'hyperos4' | 'magicos10';
 export type OfficialArchiveViewport = 'mobile' | 'pad' | 'desktop';
 export type ColorOSSection = 'monthly' | OfficialArchiveVersion;
 
@@ -65,6 +65,13 @@ export const officialArchiveMeta: Record<OfficialArchiveVersion, {
     route: sitePath('hyperos/4/'),
     entries: { desktop: 'index.html', pad: 'index.html', mobile: 'mobile.html' },
   },
+  'magicos10': {
+    title: '荣耀MagicOS 10 官方网站存档',
+    label: 'MagicOS 10',
+    folder: 'magicos10',
+    route: sitePath('magicos/10/'),
+    entries: { desktop: 'index.html', pad: 'index.html', mobile: 'index.html' },
+  },
 };
 
 export function officialArchiveUrl(version: OfficialArchiveVersion, viewport: OfficialArchiveViewport) {
@@ -81,6 +88,8 @@ export function officialArchiveUrl(version: OfficialArchiveVersion, viewport: Of
     return sitePath(`official_archives/os3.hyperos.mi.com/${entry}`);
   } else if (version === 'hyperos4') {
     return sitePath(`official_archives/hyperos.mi.com/${entry}`);
+  } else if (version === 'magicos10') {
+    return sitePath(`official_archives/www.honor.com/cn/magic-os/${entry}`);
   }
   return '';
 }

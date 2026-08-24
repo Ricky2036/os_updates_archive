@@ -1,0 +1,55 @@
+.honor-layer-hihonor-protocol-common-layer{position:fixed;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.4);padding-top:20px;padding-bottom:20px;z-index:9999999999;align-items:center;justify-content:center;display:flex}
+.honor-layer-hihonor-protocol-common-layer.pc-column-bottom-hihonor-protocol-common-layer{align-items:flex-end}
+.honor-layer-hihonor-protocol-common-layer.pc-column-center-hihonor-protocol-common-layer{align-items:center}
+.honor-layer-hihonor-protocol-common-layer.pc-column-top-hihonor-protocol-common-layer{align-items:flex-start}
+.honor-layer-hihonor-protocol-common-layer.pc-row-bottom-hihonor-protocol-common-layer{justify-content:flex-end}
+.honor-layer-hihonor-protocol-common-layer.pc-row-center-hihonor-protocol-common-layer{justify-content:center}
+.honor-layer-hihonor-protocol-common-layer.pc-row-top-hihonor-protocol-common-layer{justify-content:flex-start}
+.none-hihonor-protocol-common-layer{display:none}
+.hidden-hihonor-protocol-common-layer{overflow:hidden !important}
+.container-hihonor-protocol-common-layer{background-color:#fff;min-width:504px;width:28.69vw;border-radius:10px;box-sizing:border-box;padding:44px 72px}
+.head-hihonor-protocol-common-layer{display:flex;justify-content:center;margin-bottom:30px;align-items:center}
+.close-icon-hihonor-protocol-common-layer{cursor:pointer}
+.content-hihonor-protocol-common-layer{font-size:16px;color:#333;letter-spacing:0;line-height:34px;max-height:16vw;overflow-y:auto}
+.btns-hihonor-protocol-common-layer{display:flex;flex-direction:row;justify-content:center;align-items:center}
+.title-hihonor-protocol-common-layer{font-size:20px;margin-left:10px;font-weight:600;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+.btns-hihonor-protocol-common-layer span{min-height:40px;min-width:94px;box-sizing:border-box;border-radius:28px;border:1px solid rgba(0,0,0,0.40);display:flex;justify-content:center;align-items:center;font-size:16px;color:#000;cursor:pointer;letter-spacing:0;margin:0 12px}
+.btns-hihonor-protocol-common-layer span.none-hihonor-protocol-common-layer{display:none}
+.btns-hihonor-protocol-common-layer span:hover{border-color:#000}
+.btns-hihonor-protocol-common-layer{margin-top:30px}
+.btns-hihonor-protocol-common-layer span.grey-hihonor-protocol-common-layer{border:1px solid #b2b2b2;color:#999}
+.btns-hihonor-protocol-common-layer span.black-hihonor-protocol-common-layer{border:1px solid #000;color:#000}
+.btns-hihonor-protocol-common-layer span.grey-hihonor-protocol-common-layer:hover{border:1px solid #000}
+.btns-hihonor-protocol-common-layer span.black-hihonor-protocol-common-layer:hover{background-color:#000;color:#e9e9e9}
+a.protocol-action-link{cursor:pointer}
+@media screen and (min-width:1920px){.container-hihonor-protocol-common-layer{padding:44px 72px}
+.title-hihonor-protocol-common-layer{margin:0 12px}
+}
+@media screen and (max-width:750px){.honor-layer-hihonor-protocol-common-layer{padding-bottom:4.4vw;padding-top:4.4vw;align-items:flex-end}
+.honor-layer-hihonor-protocol-common-layer.mobile-column-bottom-hihonor-protocol-common-layer{align-items:flex-end}
+.honor-layer-hihonor-protocol-common-layer.mobile-column-center-hihonor-protocol-common-layer{align-items:center}
+.honor-layer-hihonor-protocol-common-layer.mobile-column-top-hihonor-protocol-common-layer{align-items:flex-start}
+.honor-layer-hihonor-protocol-common-layer.mobile-row-bottom-hihonor-protocol-common-layer{justify-content:flex-end}
+.honor-layer-hihonor-protocol-common-layer.mobile-row-center-hihonor-protocol-common-layer{justify-content:center}
+.honor-layer-hihonor-protocol-common-layer.mobile-row-top-hihonor-protocol-common-layer{justify-content:flex-start}
+.container-hihonor-protocol-common-layer{min-width:auto;max-width:auto;width:90vw;border-radius:4.2666667vw;box-sizing:border-box;padding:5.333vw 5.8666vw}
+.content-hihonor-protocol-common-layer{font-size:3.2vw;line-height:5.866666vw;max-height:40vh}
+.status-icon-hihonor-protocol-common-layer{width:5.866666vw}
+.title-hihonor-protocol-common-layer{font-size:3.466666667vw;margin:0 1.4vw}
+.btns-hihonor-protocol-common-layer span{font-size:3.2vw;border-radius:32px;min-height:8.5333vw;min-width:27.73333vw;margin:0 4.53333vw}
+.btns-hihonor-protocol-common-layer{margin-top:8vw}
+}
+.honor-account-alert.container-hihonor-protocol-common-layer{position:relative;padding:40px;width:600px}
+.honor-account-alert .head-hihonor-protocol-common-layer{height:28px;font-weight:500;color:#000;font-size:22px;line-height:28px;margin-bottom:24px;text-align:center}
+.honor-account-alert .close-icon-hihonor-protocol-common-layer{position:absolute;top:-32px;right:0}
+.honor-account-alert .content-hihonor-protocol-common-layer{font-weight:500;color:#000;font-size:16px;line-height:24px;margin-bottom:24px}
+.honor-account-alert .btns-hihonor-protocol-common-layer{margin-top:24px}
+.honor-account-alert .login-reminder-hihonor-protocol-common-layer{background-color:#000;height:40px;border-radius:100px;font-weight:500;color:#fff;font-size:14px;line-height:18px;text-align:center;padding:11px 25px}
+@media screen and (max-width:750px){.honor-layer-hihonor-protocol-common-layer:has(.honor-account-alert){align-items:center}
+.honor-account-alert.container-hihonor-protocol-common-layer{width:89.3333vw;padding:6.4vw}
+.honor-account-alert .head-hihonor-protocol-common-layer{height:6.4vw;font-size:4.2667vw;line-height:6.4vw;margin-bottom:4.2667vw}
+.honor-account-alert .head-hihonor-protocol-common-layer .title-hihonor-protocol-common-layer{font-size:4.2667vw}
+.honor-account-alert .content-hihonor-protocol-common-layer{font-size:3.2vw;line-height:4.2667vw;margin-bottom:6.4vw}
+.honor-account-alert .btns-hihonor-protocol-common-layer{margin-top:6.4vw}
+.honor-account-alert .login-reminder-hihonor-protocol-common-layer{height:10.6667vw;font-size:3.7333vw;line-height:4.8vw;padding:2.9333vw 6.6667vw}
+}

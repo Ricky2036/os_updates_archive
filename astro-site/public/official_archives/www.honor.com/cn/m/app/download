@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, viewport-fit=cover,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="x5-fullscreen" content="true">
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+
+<title>
+下载客户端</title>
+<meta name="keywords" content="荣耀手机, 荣耀3C,荣耀畅玩版,荣耀3X,荣耀X1" />
+<meta name="description" content="荣耀商城是荣耀旗下面向全国服务的电子商务平台官网，提供正品荣耀手机(荣耀3C、畅玩版、3X、X1等)、平板电脑、配件等荣耀产品。品质保证！" />
+<link rel="shortcut icon" href="https://www.honor.com/cn/m/favicon.ico">
+<link href="https://hshop.honorfile.com/nwap/26080000/css/echannelApp/echannel/vmcss.css?20170421" rel="stylesheet" type="text/css">
+<script>
+var   cn_domain = '/cn/m';
+var   wap_domain = 'https://'+ window.location.host;
+var mediaPath = "https://hshop.honorfile.com/pimages/",
+  cartMaxNum = 100000 || 0,
+  cartDomain = (window.location.host).indexOf('hihonor') > -1 ? 'https://openapi-cn.c.hihonor.com' :"https://openapi-cn.c.honor.com",
+  cdnPath = "https://hshop.honorfile.com/nwap/26080000",
+  provinceIpDomain = "",
+  rbDomain = 'https://mbuy.honor.com/cn',
+  yyDomain = 'https://yy-cn.c.honor.com',
+  bIDomain = 'https://res.vmallres.com',
+  domain = wap_domain + cn_domain,
+  baseDomain = wap_domain,
+  sappIndex='https://www.hihonor.com/cn/sapp/index',
+  sappCategory='https://www.hihonor.com/cn/sapp/category',
+  h5CartUrl = (window.location.host).indexOf('hihonor') > -1 ? '​https://www.hihonor.com/cn/m/cart' :"https://www.honor.com/cn/m/cart",
+  imagePath = 'https://hshop.honorfile.com/nwap/26080000/images',
+  openApiDomain = (window.location.host).indexOf('hihonor') > -1 ? 'https://openapi-cn.c.hihonor.com' :"https://openapi-cn.c.honor.com",
+  ipsDomain = 'https://payment.honor.com',
+  qxDomain = "https://qinxuan-wapuat.test.honor.com",
+  dapDomain = 'https://dap-cn.c.hihonor.com',
+  appDomain = "https://www.hihonor.com",
+  arsDomain = "https://hshop.honorfile.com",
+  wapDomain = wap_domain + cn_domain,
+  appLoginPath = wap_domain + cn_domain + "/account/applogin",
+  ryLogout = 'https://cuep-sg.hihonor.com/abroad/auth/logout',
+  muduDomain = 'http://hihonor.evp.mudu.tv',
+  upDomain = 'id1.hihonor.com',
+  mall_company = '荣耀',
+  mall_name = '荣耀商城',
+  mall_account = '荣耀账号',
+  mall_brief_sub_company = '荣耀终端',
+  mall_sub_company = '荣耀终端股份有限公司',
+  mall_service_agreement_link ='https://www.honor.com/minisite/cloudservice/honorstore/terms.htm?code=CN&language=zh_Hans_CN&branchid=0',
+  mall_privacy_statement_link = 'https://www.honor.com/minisite/cloudservice/honorstore/privacy-statement.htm?code=CN&language=zh-cn&branchid=0',
+  sale_message_subscription_link = 'https://www.honor.com/cn/msale/notification.html',
+  bi_report_web = 'https://metrics1.data.hicloud.com:6447/webv1',
+  bi_report_analytics = 'https://res.honorfile.com/bi/hianalytics.js',
+  logo_mall_path = 'https://hshop.honorfile.com/nwap/26080000/images',
+  MALL_COUNTRY = 'CN',
+  MALL_LANGUAGE = 'zh-CN',
+  MALL_DOMAIN = (window.location.host).indexOf('hihonor') > -1 ? '.' + 'hihonor.com' : '.' + 'honor.com',
+  CONFIRM_DATA_TRANSFER = '0',
+  be_wap_domain = cn_domain,
+  mall_prd_entity = 'VMALL-HUAWEIDEVICE',
+  <!-- 同盾风控参数 -->
+  tongdun_risk_switch = 'true',
+  tongdun_risk_info = '{"partner" : "Honor",   "appName" : "Honor_web",   "fpHost" : "https://fp.tongdun.net",   "imgLoaded" : true,   "imgLoadedSrc" : "https://fp.tongdun.net/fp/clear.png?",   "jssdkUrl" : "static.tongdun.net/v3/fm.js"}';
+
+  isUseUemProd =  '1';
+  uemAppId ='6affa82b47b23d66b9b7c33831d032af';
+
+  <!-- 同盾风控默认值 -->
+  var tmpRiskInfo = {
+    "partner": "Honor",
+    "appName": "Honor_web",
+    "fpHost": "https://fp.tongdun.net",
+    "imgLoaded": true,
+    "imgLoadedSrc": "https://fp.tongdun.net/fp/clear.png?",
+    "jssdkUrl": "static.tongdun.net/v3/fm.js"
+  };
+
+  <!-- 对同盾风控参数做解析处理 -->
+  if (tongdun_risk_info && typeof tongdun_risk_info == 'string') {
+    try {
+      tongdun_risk_info = JSON.parse(tongdun_risk_info)
+      if (!(tongdun_risk_info && Object.keys(tongdun_risk_info).length)) {
+        tongdun_risk_info = tmpRiskInfo
+      }
+    } catch (err) {
+      tongdun_risk_info = tmpRiskInfo
+    }
+  } else {
+    tongdun_risk_info = tmpRiskInfo
+  }
+</script>
+<link href="https://hshop.honorfile.com/nwap/26080000/css/echannelApp/help/main.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+<div id="appHeader" style="display: none;">
+  <div class="fixedHeader"></div>
+  <div class="fixedHeader top">荣耀商城</div>
+    <!-- js引入, 大数据相关js -->
+    <div>
+    <script type="text/javascript" src="https://hshop.honorfile.com/wapStaticSource/trackSDK-EC.js"></script>
+</div>
+</div>
+
+<article class="breadcrumb " id="breadcrumb">
+    <header id="shortCutId">
+        <a id="btn-back" href="javascript:history.go(-1);"></a>
+        <h1 id="pageTitle">下载客户端</h1>
+    </header>
+
+    <!-- 21030531-捷径栏-start 购物车小按钮-->
+    <section class="shortcut" id="shortcut-btn">
+        <ul>
+        </ul>
+    </section>
+    <!-- 21030531-捷径栏-end -->
+</article>
+
+<script>
+if (navigator.userAgent.indexOf('AliApp') > -1) {
+    document.writeln('<script src="https://appx/web-view.min.js"' + '>' + '<' + '/' + 'script>');
+  }
+</script>
+<script src="https://hshop.honorfile.com/nwap/26080000/js/echannelApp/common/jquery-3.5.0.min.js"></script>
+
+<script src="https://hshop.honorfile.com/nwap/26080000/js/echannelApp/common/esapi.js"></script>
+<script src="https://hshop.honorfile.com/nwap/26080000/js/echannelApp/common/Base.esapi.properties.js"></script>
+<script src="https://hshop.honorfile.com/nwap/26080000/js/echannelApp/common/ecWap.js"></script>
+<script src="https://hshop.honorfile.com/nwap/26080000/js/echannelApp/common/base.js"></script>
+<script>
+    // 订单列表 – MP环境隐藏右上角购物车按钮
+    var isNative = function() {  // 商城APK 跟 商城IOS
+        var u = window.navigator.userAgent.toLowerCase();
+        return u.indexOf('hihonorstore-apk') > -1 || u.indexOf('hshop-iosapp') > -1 ||  u.indexOf('hshop-hosapp') > -1;
+    }
+    if(isNative() && document.getElementById('breadcrumb')){
+      document.getElementById('breadcrumb').style.display = 'none'
+    }
+
+	uploadSearch = function(){
+		var keyword = document.getElementById('keyword').value;
+		ecWap.paq('trackLink','200090101','link',{'searchWord':keyword,'click':'1'});
+	}
+
+	endWith = function (str,endStr){
+		var d=str.length-endStr.length;
+	    return (d>=0 && str.lastIndexOf(endStr)==d);
+    };
+    // 亲选APK隐藏头部
+    var isHChoicehApk = function () {
+        var ua = navigator.userAgent.toLowerCase();
+        return !!ua.match(/hihonorchoice-apk/i);
+    }
+    var isfansClubAPK = function () {
+        var ua = navigator.userAgent.toLowerCase();
+        return !!ua.match(/honorfansclub/i);
+    }
+    if(isHChoicehApk() || isfansClubAPK()) {
+        document.getElementById('breadcrumb').style.display = 'none'
+        document.getElementsByTagName("body")[0].className = 'hiddenTitle'
+    }
+    // HonorE环境隐藏头部
+    var getHonorE = function() {
+        //HonorE环境，userAgent为HonorE-AnyOffice
+        var ua = navigator.userAgent.toLowerCase();
+        return !!ua.match(/honore-anyoffice/i);
+    }
+    if (getHonorE()) {
+        document.getElementById('breadcrumb').style.display = 'none'
+        document.getElementsByTagName("body")[0].className = 'hiddenTitle'
+    }
+
+    
+    // 域名切换，购物车图标取动态
+    let cartUrl =  (window.location.host).indexOf('hihonor') > -1 ? '​https://www.hihonor.com/cn/m/cart' :"https://www.honor.com/cn/m/cart"
+    $('#prdDetailShoppingCart').attr('href',cartUrl)
+
+</script>
+<div class="hr-48"></div>
+<!-- 商城APP下载引导页 -->
+<article class="wap-download-bootpage bg-limit">
+ <div class="wap-download-weixin-layer" style="display:none"></div>
+  <div class="wap-download-bottombox" style="bottom: 1%;">
+    <div class="wap-download-ads hide">
+      <div class="wap-download-ads-one">下载APP，领取新人专享见面礼</div>
+      <div class="wap-download-ads-two">好礼100%送，最高抽<span class="wap-download-bold">99999积分</span></div>
+    </div>
+    <div class="wap-download-bootpage-btnbox">
+       <span class="wap-download-bootpage-btn" onclick="ecWap.download()">点击下载APP</span>
+    </div>
+    <div class="wap-download-bootpage-bottom clickHistoryGo">
+      <a href="javascript:;" onclick="ecWap.continue()">继续使用触屏版浏览&nbsp;></a>
+    </div>
+	<div class="wap-download-bootpage-bottom downloadPre" style="margin-top: 1.43rem;color: gray;">
+		<div style="font-size: 10px;color: #B3B3B3;text-align: center;font-weight: 200;">应用名称:荣耀商城 <span style="display: inline-block;width: 0px;height: 8px;padding: 0;border-left: 1px solid #B3B3B3;margin: auto 3px;"></span> 开发者:荣耀终端股份有限公司</div>
+		<div class='more' style="margin-top: 4.6px;box-sizing: border-box;display: flex;/* padding: 0 2.0rem; */justify-content: center;font-size: 12px;font-size: 10px;color: #9B9B9;">
+			<a href="https://agreement.itsec.honor.com/asm/agrFile/getHtmlFile?agrNo=1044&country=cn&branchId=0&langCode=zh-cn" style="font-size: 10px;color: #999999!important;text-align: center;font-weight: 200;">查看权限</a>
+			<span style="display: inline-block;width: 0px;height: 8px;padding: 0;border-left: 1px solid #B3B3B3;margin: auto 5px;"></span>
+			<a href="https://agreement.itsec.hihonor.com/asm/agrFile/getHtmlFile?agrNo=1024&country=cn&branchId=0&langCode=zh-cn" style="font-size: 10px;color: #999999 !important;text-align: center;font-weight: 200;">隐私政策</a>
+		</div>
+    </div>
+  </div>
+</article>
+<!-- 20141216-app-html-end -->
+<script src="https://hshop.honorfile.com/nwap/26080000/js/echannelApp/common/jquery-3.5.0.min.js"></script>
+<script src="https://hshop.honorfile.com/nwap/26080000/js/echannelApp/common/swiper.js"></script>
+
+<script type="text/javascript">
+  if (/MicroMessenger/i.test(navigator.userAgent)) {
+    document.writeln('<script src="https://hshop.honorfile.com/nwap/26080000/js/echannelApp/common/jweixin-1.6.0.js"' + '>' + '<' + '/' + 'script>');
+  } else if (navigator.userAgent.indexOf('AliApp') > -1) {
+    document.writeln('<script src="https://appx/web-view.min.js"' + '>' + '<' + '/' + 'script>');
+  }
+</script>
+<script src="https://hshop.honorfile.com/nwap/26080000/js/echannelApp/??/common/esapi.js,/common/Base.esapi.properties.js,/common/ecWap.js,/common/base.js"></script>
+
+<!--同盾风控相关配置项值获取-->
+<script>
+  if (!tongdun_risk_switch || !tongdun_risk_info) {
+    var tongdun_risk_switch = 'true',
+      tongdun_risk_info = '{"partner" : "Honor",   "appName" : "Honor_web",   "fpHost" : "https://fp.tongdun.net",   "imgLoaded" : true,   "imgLoadedSrc" : "https://fp.tongdun.net/fp/clear.png?",   "jssdkUrl" : "static.tongdun.net/v3/fm.js"}',
+      // 同盾风控默认值
+      tmpRiskInfo = {
+        "partner": "Honor",
+        "appName": "Honor_web",
+        "fpHost": "https://fp.tongdun.net",
+        "imgLoaded": true,
+        "imgLoadedSrc": "https://fp.tongdun.net/fp/clear.png?",
+        "jssdkUrl": "static.tongdun.net/v3/fm.js"
+      };
+
+    // 对同盾风控参数做解析处理
+    if (tongdun_risk_info && typeof tongdun_risk_info == 'string') {
+      try {
+        tongdun_risk_info = JSON.parse(tongdun_risk_info)
+        if (!(tongdun_risk_info && Object.keys(tongdun_risk_info).length)) {
+          tongdun_risk_info = tmpRiskInfo
+        }
+      } catch (err) {
+        tongdun_risk_info = tmpRiskInfo
+      }
+    } else {
+      tongdun_risk_info = tmpRiskInfo
+    }
+  }
+
+  /**
+	* @description 根据同盾风控参数，处理接口/payment/process.json的入参
+	* @param reqObj 请求的入参
+	*/
+	function handleObjByRisk(reqObj) {
+		if (typeof reqObj == 'object' && tongdun_risk_switch && tongdun_risk_switch == 'true') {
+			var u = window.navigator.userAgent.toLowerCase();
+			// apk
+			if((u.indexOf('hihonorstore-apk') > -1) && vmallAndroid.getCustomerStatus) { // 包含getCustomerStatus方法，APK版本>=12.300，老版本按照WAP走
+				reqObj['customerStatus'] = hshopAndroid.getCustomerStatus();
+				reqObj['riskSessionId'] = hshopAndroid.getBlackBox();
+				reqObj['clientAppVersion'] = hshopAndroid.getClientVersionCode();
+				reqObj['clientOSName'] = hshopAndroid.getClientOS();
+			} else if((u.indexOf('hshop-hosapp') > -1) && HShopOpenHarmony && HShopOpenHarmony.getCustomerStatus) { // 鸿蒙系统
+				reqObj['customerStatus'] = hshopHarmony.getCustomerStatus();
+				reqObj['riskSessionId'] = hshopHarmony.getBlackBox();
+				reqObj['clientAppVersion'] = hshopHarmony.getClientVersionCode();
+				reqObj['clientOSName'] = hshopHarmony.getClientOS();
+			} else {
+				// wap
+				var hasLogin = ecWap.cookie.get('uid') && ecWap.cookie.get('hasLogin');
+				reqObj['customerStatus'] = hasLogin ? '0' : '1';	//客户账户状态：'1' = Guest Account，'0' = Registered Account
+				reqObj['riskSessionId'] = window.localStorage.getItem('wapBlackbox') || '';
+			}
+			return reqObj
+		} else {
+			return reqObj
+		}
+	}
+</script>
+<script src="https://hshop.honorfile.com/nwap/26080000/js/echannelApp/common/ecWap.common.js?20210108"></script>
+<script src="https://hshop.honorfile.com/nwap/26080000/js/echannelApp/common/pull_up_Appclient.js?20210209"></script>
+<iframe src="/cn/m/pullApp.html" id="pullApp" style="width:0px;height:0px;position:absolute"></iframe>
+<script>
+ecWap = window.parent.ecWap;
+ecWap.mall_client_linehome = 'hshop://com.hihonor.hshop/live/home';
+ecWap.mall_client_product_detail = 'hshop://com.hihonor.hshop/productDetail';
+ecWap.mall_client_pullupapp = 'vmall://com.hihonor.vmall/wapPullUpApp';
+ecWap.pull_up_app_link = 'hshop://com.hihonor.hshop/pullUpApp';
+ecWap.zhixuan_pullup = 'zhixuan://com.huawei.com/pullUp';
+ecWap.wechat_pull_app = 'https://a.app.qq.com/o/simple.jsp?pkgname=com.hihonor.vmall&android_schema=';
+$(function(){
+  if (ecWap.isiOS()) {
+    window.location.href = "https://apps.apple.com/cn/app/%E8%8D%A3%E8%80%80%E5%95%86%E5%9F%8E/id1597250575";
+    return;
+  }
+	ecWap.paq('trackLink', '200430000', 'link', {'load':'1'});
+	$(".jq-iconfont-areas").css({"position":"absolute","top":"100%"});
+	//微信不展示 头部
+	var ua = window.navigator.userAgent.toLowerCase();
+	// 判断是否由微信进入,前往应用宝
+	if (ua.match(/MicroMessenger/i) == 'micromessenger') {
+		//微信不展示 我们自己的头部
+		$("#breadcrumb").css({'display':'none'})
+		$(".wap-download-bootpage").css({'top':'0'})
+		//如果由微信进入不展示页脚，只引导打开浏览器
+		$('.v4 , .n09-footer ,.footer ,.jq-iconfont-areas ,.vm-vmall-vue-wrap').css({'display':'none'})
+	} else {
+		// 非微信环境下 展示奖励文案
+		$('.wap-download-ads').removeClass('hide')
+	}
+	// 返回首页
+	$('.clickHistoryGo a').click(function(){
+		if (document.referrer) {
+			window.history.go(-1);
+		} else {
+			window.location.href = window.location.origin;
+		}
+	});
+	ecWap.download = function() {
+		ecWap.paq('trackLink', '200430001', 'link', {'click':'1'});
+		// 判断下载链接
+		var url = 'https://res.honorfile.com/vmallclient/HwVmall.apk';
+		  url = "https&#x3a;&#x2f;&#x2f;file06.c.hihonor.com&#x2f;hshopclient&#x2f;HonorShop31868440868714486813.apk".transHtmlAttribute();
+		if (ecWap.isiOS()) {
+		 // 前往APPstore
+      url = 'https&#x3a;&#x2f;&#x2f;www.honor.com&#x2f;cn&#x2f;m&#x2f;'.transHtmlAttribute();
+		}
+		var ua = window.navigator.userAgent.toLowerCase();
+		// 判断是否由微信进入,前往应用宝
+		if (ua.match(/MicroMessenger/i) == 'micromessenger') {
+			//location.href = ecWap.pullUpAppclient.action;
+			 // 由微信进入,打开遮罩层 前往应用宝
+            $(".wap-download-weixin-layer").show()
+			// 禁止页面滑动
+			$("body").css({'overflow':'hidden'})
+			return false;
+		}
+		// shopdc来源不做自动拉起
+		if (ecWap.cmb.getQueryStringByName('from') == 'shopdc') {
+      window.location.href = url;
+			return false;
+		}
+	    var t = 2000, hasApp = true;
+	    var t1 = Date.now();
+	    var ifr = document.createElement("iframe");
+	    ifr.src = ecWap.pullUpAppclient.action;
+		  ifr.style.display = 'none';
+	    document.body.appendChild(ifr);
+	    setTimeout(function () {
+	      var t2 = Date.now();
+	      if (!t1 || t2 - t1 < t + 100) {
+					window.location.href = url;
+	      } else {
+	      	return false;
+	      }
+	    }, t);
+	}
+	ecWap.continue = function() {
+		window.location.href = '/cn/m';
+		ecWap.paq('trackLink', '200430002', 'link', {'click':'1'});
+	}
+	// 2.4.3 域名切换，动态获取域名
+    let el = $('.more a')
+    for(let i = 0; i < el.length; i++){
+		let href = $(el[i]).attr('href')
+		href = href.replace(/hihonor/gi, ecWap.hostUrl())
+		$(el[i]).attr('href',href)
+	}
+});
+</script>
+<!-- model中无isApk，或者有isApk且为false，则展示页脚 -->
+<section class="hide" id="bottom-area">
+  <div></div>
+</section>
+
+<script>
+  $(document).ready(function () {
+    var uri = document.location.pathname;
+    if (null == uri || '' == uri || '/member/exchange' == uri) uri = '/';
+
+    if (ecWap.isSAPP()) {
+      $("#bottom-area").hide();
+    }
+
+    if(!ecWap.isNative()) {
+      $('#bottom-area').removeClass('hide')
+    }
+  });
+
+  var isNative = ''
+  var isApk = ''
+
+  go2PC = function () {
+    Utils.cookie.set('redirectWap', '1', {
+      domain: '.' +'honor.com'
+    });
+    window.location.href = 'https://www.honor.com/cn/shop';
+  };
+</script>
+<script>
+  (function(){
+      window.Utils || (window.Utils={});
+      Utils.cookie = {
+          // 获取Cookie
+          get: function(key) {
+              var f = null;
+              if (document.cookie && document.cookie != "") {
+                  var cookies = document.cookie.split(";");
+                  for (var idx = 0; idx < cookies.length; idx++) {
+                      var cookie = (cookies[idx] || "").replace(/^(\s|\u00A0)+|(\s|\u00A0)+$/g, "");
+                      if (cookie.substring(0, key.length + 1) == (key + "=")) {
+
+                          var e = function(j) {
+                              j = j.replace(/\+/g, " ");
+                              var h = '()<>@,;:\\"/[]?={}';
+                              for (var g = 0; g < h.length; g++) {
+                                  if (j.indexOf(h.charAt(g)) != -1) {
+                                      if (j.startWith('"')) {
+                                          j = j.substring(1);
+                                      }
+                                      if (j.endWith('"')) {
+                                          j = j.substring(0, j.length - 1);
+                                      } break;
+                                  }
+                              }
+                              return decodeURIComponent(j);
+                          };
+
+                          f = e(cookie.substring(key.length + 1)); break;
+                      }
+                  }
+              }
+              return f;
+          },
+          // 设置Cookie
+          set: function(key, val, c) {
+              c = c || {};
+              if (val === null) {
+                  val = "";
+                  c.expires = -1;
+              }
+              var expires = "";
+              if (c.expires && (typeof c.expires == "number" || c.expires.toUTCString)) {
+                  var now;
+                  if (typeof c.expires == "number") {
+                      now = new Date();
+                      now.setTime(now.getTime() + (c.expires * 24 * 60 * 60 * 1000));
+                  } else {
+                      now = c.expires;
+                  }
+                  expires = "; expires=" + now.toUTCString();
+              }
+              var path = "; path=" + (c.path || "/");
+              var domain = c.domain ? "; domain=" + (c.domain) : "";
+              var secure = c.secure ? "; secure=" : "";
+              document.cookie = [key, "=", encodeURIComponent(val), expires, path, domain, secure].join("");
+          },
+          // 删除Cookie
+          remove : function(key) {
+              this.set(key, null);
+          }
+      };
+    //   兼容农行顶部加固定头部
+      var fiexedDom = document.querySelector('#appHeader')
+        if (fiexedDom) {
+            if (Utils.cookie.get('cps_id') == '96706') {
+                fiexedDom.style.display = 'block'
+            } else {
+                fiexedDom.style.display = 'none'
+            }
+        }
+      var curUri = document.location.pathname;
+      if (curUri == '/cn/m/personal/' || curUri == '/cn/m/personal'){
+          document.getElementById('btn-back').setAttribute("style","display: none;");
+          document.getElementById('pageTitle').setAttribute("style","margin-left: 1.14em;");
+      }else if(curUri == '/cn/m/order/address/manager' || curUri == '/cn/m/order/address/manager/'
+              || curUri == '/cn/m/member/recycle/index') {
+          document.getElementById('btn-back').setAttribute('href', '/cn/m/personal');
+      }else if(curUri == '/cn/m/order/create/' || curUri == '/cn/m/order/create') {
+          document.getElementById('btn-back').setAttribute('href', '/cn/m');
+      }else if(curUri == '/cn/m/order/priority/create/' || curUri == '/cn/m/order/priority/create'){
+          document.getElementById('btn-back').setAttribute('href', '/cn/m');
+      }else if(curUri == '/cn/m/payment/ipsCallback/' || curUri == '/cn/m/payment/ipsCallback'){
+          if(ecWap.isWx) {
+            document.getElementById('btn-back').setAttribute('href', 'javascript:ecWap.gotoIndex();');
+          }else {
+            document.getElementById('btn-back').setAttribute('href', '/cn/m');
+          }
+      }else if(curUri == '/cn/m/member/point' || curUri == '/cn/m/member/point/'){
+          document.getElementById('btn-back').setAttribute('href', '/cn/m/personal');
+      }else if(curUri == '/cn/m/member/rma/create/' || curUri == '/cn/m/member/rma/create' ){
+          document.getElementById('btn-back').setAttribute('href', '/cn/m/personal');
+      }else if(curUri == '/cn/m/member/gotoPay/' || curUri == '/cn/m/member/gotoPay'){
+          if(document.location.search.indexOf("backto") != -1) {
+              var result = window.location.search.match(new RegExp("[\?\&]" + "backto" + "=([^\&]+)","i"));
+              if(result.length > 1) {
+                  document.getElementById('btn-back').setAttribute('href', "/cn/m/redict/validate?url="+result[1]);
+              }
+          }else{
+              document.getElementById('btn-back').setAttribute('href', '/cn/m');
+          }
+      }else if(curUri == '/cn/m/member/order/' || curUri == '/cn/m/member/order' || curUri == '/cn/m/address/manager' || curUri == '/cn/m/address/manager/') {
+          if(document.location.search.indexOf("backto") != -1) {
+              var result = window.location.search.match(new RegExp("[\?\&]" + "backto" + "=([^\&]+)","i"));
+              if(result.length > 1) {
+                  document.getElementById('btn-back').setAttribute('href', 'javascript:void(0);');
+                  document.getElementById('btn-back').setAttribute('onclick', 'Utils.cookie.remove("btn-back");ecWap.navigateTo(\"'+ecWap.encodeForAttr(result[1])+'\")');
+                  Utils.cookie.set('btn-back', result[1], {expires:1/144});
+              }
+          } else if(Utils.cookie.get('btn-back') != null) {
+              document.getElementById('btn-back').setAttribute('href', 'javascript:void(0);');
+              document.getElementById('btn-back').setAttribute('onclick', 'Utils.cookie.remove("btn-back");ecWap.navigateTo(\"'+ecWap.encodeForAttr(Utils.cookie.get('btn-back'))+'\")');
+              Utils.cookie.set('btn-back', Utils.cookie.get('btn-back'), {expires:1/144});
+          } else if(document.location.search.indexOf("fromMsgCenter") != -1){
+              document.getElementById('btn-back').setAttribute("href", "/cn/m/message/index");
+          } else if(document.referrer && document.referrer.indexOf("/cn/m/thirdparty/wechat/vcode/") > -1) {
+              document.getElementById('btn-back').setAttribute('href', '/cn/m/thirdparty/wechat/vcode/detail');
+          } else {
+            if (location.href.indexOf('from=personalChildren') === -1 || window.navigator.userAgent.toLowerCase().indexOf('hihonorstore-apk') == -1) {
+                if (curUri == '/cn/m/address/manager' || curUri == '/cn/m/address/manager/') {
+                    document.getElementById('btn-back').setAttribute('href', '/cn/m/setting/index')
+                } else { 
+                    document.getElementById('btn-back').setAttribute('href', '/cn/m/personal')
+                }
+            }
+          }
+      }
+      else if(curUri == '/cn/m/member/privilege/' || curUri == '/cn/m/member/privilege'){
+          document.getElementById('btn-back').setAttribute('href', '/cn/m/personal');
+      }else if(curUri == '/cn/m/member/unpaidOrder' || curUri == '/cn/m/member/unpaidOrder/' || curUri == '/cn/m/member/unreceiptOrder'|| curUri == '/cn/m/member/unreceiptOrder/' || curUri == '/member/evaluateOrder' || curUri == '/member/evaluateOrder/'){
+          document.getElementById('btn-back').setAttribute('href', '/cn/m/personal');
+      }else if(curUri == '/cn/m/shoppingCart'){
+         document.getElementById('btn-back').setAttribute("style","display: none;");
+         document.getElementById('pageTitle').setAttribute("style","margin-left: 1.14em;");//去掉购物车返回按钮，样式修改
+      }else if(curUri == '/cn/m/category/view'){
+        var breadcrumb = document.getElementById('breadcrumb');
+         breadcrumb.parentNode.removeChild(breadcrumb);//分类页面不展示title，加搜索栏
+      }else if(curUri == '/cn/m/member/rma/record/' || curUri == '/cn/m/member/rma/record'){
+        document.getElementById('btn-back').setAttribute('href', '/cn/m/member/rmaList/index');
+      }else if(curUri == '/cn/m/member/rma/index/' || curUri == '/cn/m/member/rma/index' || curUri == '/cn/m/member/rmaList/index/' || curUri == '/cn/m/member/rmaList/index'){
+        document.getElementById('btn-back').setAttribute('href', '/cn/m/personal');
+      }
+  })();
+
+  if('5' == "")
+  {
+    var defaultSearchWord = "";
+    if (null != defaultSearchWord && "" != defaultSearchWord){
+        document.getElementById("keyword").setAttribute("placeholder", defaultSearchWord);
+    }
+  }
+
+  </script>
+</body>
+</html>

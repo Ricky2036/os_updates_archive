@@ -81,9 +81,16 @@
         }
       }
 
-      const magicOSTab = switcher.querySelector('.brand-tab[data-brand="magicos"], a[data-brand="magicos"]');
-      if (magicOSTab) {
-        magicOSTab.classList.toggle('active', isMagicOS);
+      const magicOSMenu = switcher.querySelector('.brand-menu[data-brand="magicos"]');
+      if (magicOSMenu) {
+        magicOSMenu.classList.toggle('active', isMagicOS);
+        const is10 = /\/magicos\/10(\/|$)/.test(path);
+        const isMonthly = isMagicOS && !is10;
+        const subLinks = magicOSMenu.querySelectorAll('.brand-submenu a');
+        if (subLinks && subLinks.length >= 2) {
+          subLinks[0].classList.toggle('active', is10);
+          subLinks[1].classList.toggle('active', isMonthly);
+        }
       }
     };
 
@@ -290,15 +297,6 @@
       if (mobileTabs.matches && brandSwitcher) {
         setOptimisticActiveTab(homeTab);
         brandSwitcher.scrollTo({ left: 0, behavior: 'smooth' });
-        closeAllBrandMenus();
-      }
-    }, { signal });
-
-    const magicOSTab = document.querySelector('.brand-tab[href*="magicos"]');
-    magicOSTab?.addEventListener('click', () => {
-      if (mobileTabs.matches && brandSwitcher) {
-        setOptimisticActiveTab(magicOSTab);
-        brandSwitcher.scrollTo({ left: brandSwitcher.scrollWidth, behavior: 'smooth' });
         closeAllBrandMenus();
       }
     }, { signal });
