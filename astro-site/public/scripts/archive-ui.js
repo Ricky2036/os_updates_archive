@@ -501,8 +501,10 @@
     // Reset dismissed brand whenever mouse leaves the entire brand switcher navbar
     const brandNav = document.querySelector('.brand-switcher-nav');
     brandNav?.addEventListener('mouseleave', () => {
-      window.__osDismissedBrand = null;
-      closeAllBrandMenus();
+      if (!mobileTabs.matches) {
+        window.__osDismissedBrand = null;
+        closeAllBrandMenus();
+      }
     }, { signal });
 
     document.addEventListener('pointerdown', (event) => {
