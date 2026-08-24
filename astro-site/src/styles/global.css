@@ -821,6 +821,13 @@ body.page-card-exit-up .article-content {
   perspective: 400px;
   transition: color 0.2s cubic-bezier(0.32, 0.72, 0, 1), transform 0.15s cubic-bezier(0.32, 0.72, 0, 1);
   -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+.header-view-toggle:focus,
+.header-view-toggle:focus-visible,
+.menu-button:focus,
+.menu-button:focus-visible {
+  outline: none;
 }
 .header-view-toggle {
   display: inline-flex;
@@ -842,11 +849,13 @@ body.page-card-exit-up .article-content {
     display: inline-flex;
   }
 }
-.header-view-toggle:hover,
-.menu-button:hover {
-  color: var(--brand-accent, var(--ink));
-  background: transparent;
-  box-shadow: none;
+@media (hover: hover) and (pointer: fine) {
+  .header-view-toggle:hover,
+  .menu-button:hover {
+    color: var(--brand-accent, var(--ink));
+    background: transparent;
+    box-shadow: none;
+  }
 }
 .header-view-toggle:active,
 .menu-button:active {

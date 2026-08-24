@@ -305,6 +305,7 @@
 
     // Desktop hover & dismissal state (window-level persistent across view transitions)
     window.__osDismissedBrand = window.__osDismissedBrand ?? null;
+    window.__osLastDismissTime = window.__osLastDismissTime ?? 0;
 
     const brandMenus = document.querySelectorAll('.brand-menu');
 
@@ -329,6 +330,7 @@
 
       const openBrandMenu = (focusFirst = false) => {
         if (window.__osDismissedBrand === brandKey) return;
+        if (Date.now() - (window.__osLastDismissTime || 0) < 400) return;
         closeAllBrandMenus();
         currentOpenMenu = menu;
 
@@ -340,6 +342,7 @@
           mobilePopover.querySelectorAll('a').forEach(subLink => {
             subLink.addEventListener('click', (e) => {
               window.__osDismissedBrand = brandKey;
+              window.__osLastDismissTime = Date.now();
               closeBrandMenu();
               const targetHref = subLink.getAttribute('href');
               if (targetHref && (window.location.pathname === targetHref || window.location.pathname.replace(/\/$/, '') === targetHref.replace(/\/$/, ''))) {
@@ -360,24 +363,28 @@
         closeAllBrandMenus();
       };
 
-      // Desktop: mouse hover opens popup menu
+      // Desktop: mouse hover opens popup menu with hover-intent delay (160ms)
       menu.addEventListener('mouseenter', () => {
         if (!mobileTabs.matches) {
           if (window.__osDismissedBrand === brandKey) return;
-          // Hovering a different brand clears dismissal of previous brand
-          window.__osDismissedBrand = null;
+          if (Date.now() - (window.__osLastDismissTime || 0) < 400) return;
           clearTimeout(hoverTimer);
           hoverTimer = setTimeout(() => {
-            if (window.__osDismissedBrand !== brandKey) openBrandMenu();
-          }, 35);
+            if (window.__osDismissedBrand !== brandKey && Date.now() - (window.__osLastDismissTime || 0) >= 400) {
+              openBrandMenu();
+            }
+          }, 160);
         }
       }, { signal });
 
-      // Desktop: mouse leave closes menu
+      // Desktop: mouse leave closes menu and clears dismissal
       menu.addEventListener('mouseleave', () => {
         if (!mobileTabs.matches) {
           clearTimeout(hoverTimer);
           closeBrandMenu();
+          if (window.__osDismissedBrand === brandKey) {
+            window.__osDismissedBrand = null;
+          }
         }
       }, { signal });
 
@@ -386,6 +393,17 @@
           closeBrandMenu();
         }
       }, { signal });
+
+      // Desktop: clicking submenu links also immediately closes menu and sets dismissal
+      submenu?.querySelectorAll('a').forEach(subLink => {
+        subLink.addEventListener('click', () => {
+          if (!mobileTabs.matches) {
+            window.__osDismissedBrand = brandKey;
+            window.__osLastDismissTime = Date.now();
+            closeBrandMenu();
+          }
+        }, { signal });
+      });
 
       // Tab click handler
       trigger?.addEventListener('click', (event) => {
@@ -422,6 +440,7 @@
         } else {
           // Desktop: clicking TAB immediately closes popup and prevents re-opening while cursor lingers
           window.__osDismissedBrand = brandKey;
+          window.__osLastDismissTime = Date.now();
           closeBrandMenu();
 
           const targetHref = trigger.getAttribute('href');
@@ -499,6 +518,7 @@
       menuButton?.setAttribute('aria-expanded', 'false');
       menuButton?.setAttribute('aria-label', '打开文章目录');
       menuButton?.setAttribute('title', '打开目录');
+      menuButton?.blur();
     };
     const openMenu = () => {
       if (!archiveNav) return;
@@ -511,7 +531,13 @@
       archiveNav.focus({ preventScroll: true });
     };
 
-    menuButton?.addEventListener('click', () => archiveNav?.classList.contains('open') ? closeMenu() : openMenu(), { signal });
+    menuButton?.addEventListener('click', () => {
+      menuButton.blur();
+      archiveNav?.classList.contains('open') ? closeMenu() : openMenu();
+    }, { signal });
+    menuButton?.addEventListener('touchend', () => {
+      menuButton.blur();
+    }, { passive: true, signal });
     closeButton?.addEventListener('click', closeMenu, { signal });
     backdrop?.addEventListener('click', closeMenu, { signal });
     archiveNav?.querySelectorAll('a').forEach((link) => link.addEventListener('click', closeMenu, { signal }));
@@ -645,10 +671,14 @@
       }, { signal }));
       document.querySelectorAll('[data-monthly-view-toggle]').forEach((button) => {
         button.addEventListener('click', () => {
+          button.blur();
           const current = document.documentElement.dataset.monthlyView;
           const next = current === 'original' ? 'digest' : 'original';
           flipToView(root, next, true);
         }, { signal });
+        button.addEventListener('touchend', () => {
+          button.blur();
+        }, { passive: true, signal });
       });
     });
 
