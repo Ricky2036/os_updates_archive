@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8" />
+    <title>荣耀商城政府补贴正式上线   </title>
+    <meta name="keywords" content="HONOR 荣耀Magic V3系列、荣耀200系列、荣耀90系列、荣耀Magic6系列，荣耀Magic V2、荣耀Magic6系列、荣耀Magic5系列、荣耀5G、荣耀MagicBook系列、荣耀平板、荣耀手表、荣耀智慧屏、荣耀、荣耀商城" />
+    <meta name="description" content="荣耀商城是荣耀官方自营电商平台，提供HONOR荣耀手机(荣耀折叠屏、Maigc系列、数字系列、X系列等)、荣耀平板、电脑、穿戴、智慧屏等覆盖生活全场景的智能产品和服务" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <link rel="canonical" href="">
+    <link rel="alternate" href="" media="only screen and (max-width: 720px)">
+    <link rel="alternate" hreflang="zh-CN" href=""/>
+    <link rel="shortcut icon" href="" />
+		                <meta property="og:giftInfo" content="">
+            <style>
+        @font-face {
+            font-family: 'HONORSansBrand-Regular';
+            src:  url('https://hshop.honorfile.com/tdcsNew/cdn/tangram/modules/common/pc/font/HONORSansBrand-Regular.woff') format('woff');
+            font-style: normal;
+            font-weight: 500
+        }
+        @font-face {
+            font-family: 'HONORSansBrand-DemiBold';
+            src:  url('https://hshop.honorfile.com/tdcsNew/cdn/tangram/modules/common/pc/font/HONORSansBrand-DemiBold.woff') format('woff');
+            font-style: normal;
+        }
+        html, body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, textarea, div, p, a, span, b, em, th, td, button {
+            font-family: 'HONORSansBrand-Regular';
+        }
+    </style>
+    <script>
+    (function (window) {
+                var document = window.document;
+        // 下线跳转
+        // 1.页面已下线
+        // 2.是否有url 
+        // 2.1.有-弹框-点击事件 弹框 跳转
+        // 2.2.没有-保持现状
+        var offlineConfig = {
+            time: "2027/01/31 23:59:59+0800",
+            url: "https://www.honor.com/cn/shop"
+        }
+        if (new Date(offlineConfig.time) < new Date()) {
+            window.addEventListener('DOMContentLoaded', function() {
+                if(!offlineConfig.url){
+                    // 没有配置下线链接-保持现状
+                    let videos = document.querySelectorAll('video')
+                    videos.forEach(item=>{item.style.pointerEvents ='none'})
+                    let gameFrame = document.querySelectorAll('.gameFrame')
+                    gameFrame.forEach(item=>{item && item.style && (item.style.pointerEvents ='none')})
+                    if('CN'=='CNNR'){
+                        // 配置下线链接-弹窗
+                        var pageOfflineJumpLinkAll = window.document.querySelector('.pageOfflineJumpLinkAll');
+                        pageOfflineJumpLinkAll.style.display = 'block';
+                        document.body.style.overflow = 'hidden';
+                    }else{
+                        window.document.addEventListener('click',function(e){
+                            e.stopPropagation();
+                            e.preventDefault();
+                            alert('页面已下线');
+                        },true)
+                    }
+                }else {
+                    // 配置下线链接-弹窗
+                    var pageOfflineJumpLinkAll = window.document.querySelector('.pageOfflineJumpLinkAll');
+                    pageOfflineJumpLinkAll.style.display = 'block';
+                    document.body.style.overflow = 'hidden';
+                }
+        
+                var pageOfflineJumpLinkBtn = window.document.querySelector('.pageOfflineJumpLinkBtn');
+                pageOfflineJumpLinkBtn.addEventListener('click', function() {
+                    if(offlineConfig.url){
+                        // 如果配链接就跳链接
+                        document.body.style.overflow = 'auto';
+                        window.location.href = offlineConfig.url;
+                    }
+                },true);
+            });
+        }
+        // 国际化
+        window.pageConfig = {
+            "cdnPath":{
+                "css":"https://hshop.honorfile.com/tdcsNew",
+                "js":"https://hshop.honorfile.com/tdcsNew"
+            },
+            "pageId":"29415",
+            "locale":"zh-CN",
+            "areaCode":"CN",
+            "publishTime":"2026-07-21 15:32:53+0800",
+            "pageName":"荣耀商城国补政府补贴正式上线   ",
+            "whiteListExternal":"",
+             "isShareFlag":"false",            "honorFlag":"true",
+            "cdnDomain": "https://hshop.honorfile.com/tdcsNew",
+            "domain": "https://www.honor.com/cn/shop",
+             "jumpappflag":"true",             "pageOfflineJumpLink":"",
+            "registerUrl": "https://hnid-drcn.cloud.honor.com/CAS/portal/userRegister/regbyphone.html?reqClientType=25&loginChannel=25000200&themeName=cloudTheme&lang=zh-cn&countryCode=cn",
+            "infoLink": "",
+            "bindingPhoneNumUrl": "",
+            "openapiDomain": "https://openapi-cn.c.hihonor.com",
+            "openapiHonorDomain": "https://openapi-cn.c.honor.com",
+            "domainHonorWap": "https://www.honor.com/cn/m",
+            "timeZone": "8",
+            "dapDomain": "https://dap-cn.c.hihonor.com",
+            "personalCenterPath": "/v/member",
+            "tenantId": "CN",
+            "pmsCdnDomain": "https://hshop.honorfile.com/pimages",
+            "abTestDomain": "https://abtest.digital.hihonor.com",
+            "abTimeout": "1000",
+            "eqxOasSwitch": "1",
+            "privacyInfo": `亲，参与商城有奖活动，需要使用您的"手机号码"和收货信息，用于获奖后联系和奖品发放。`,
+            "wxMiniProConfig": `{
+  "miniProConfig": [
+    {
+      "id": "4814",
+      "name": "湖北省",
+      "path": "",
+      "wxProgramId":"gh_10ec7ae440cb",
+      "mpAddress":"hubei"
+    },
+    {
+      "id": "6819",
+      "name": "重庆",
+      "path": "pages/index/index?from=honor_app",
+      "wxProgramId":"gh_55addd727905",
+      "mpAddress":""
+    },
+    {
+      "id": "3510",
+      "name": "北京",
+      "path": "",
+      "wxProgramId":"gh_e3b81975fe3c",
+      "mpAddress":"beijing"
+    },
+    {
+      "id": "4158",
+      "name": "贵州省",
+      "path": "pages/webView/index?webUrl=https%3A%2F%2Ftradein-h5.onebuygz.com%2F%23%2F%3FcouponType%3D2",
+      "wxProgramId":"gh_3639c683d45e",
+      "mpAddress":"guizhou"
+    }
+  ]
+}`,
+                        "realNameAuthUrl": "https://hnid-drcn.cloud.honor.com/AMW/mobile/userCenter/real_name_auth.html?service=${realNameAuthUrl}&loginChannel=26000005&reqClientType=26&lang=zh-cn&themeName=blue&displayType=2",
+            "realNameAuthUrlIos": "https://hnid-drcn.cloud.honor.com/AMW/mobile/userCenter/real_name_auth.html?loginChannel=26000020&reqClientType=26&lang=zh-cn&themeName=blue&displayType=2&service=${realNameAuthUrl}",
+            "realNameAuthUrlMp": "https://hnid-drcn.cloud.honor.com/AMW/mobile/userCenter/real_name_auth.html?loginChannel=26000003&reqClientType=26&lang=zh-cn&themeName=blue&displayType=2&service=${realNameAuthUrl}",
+                                    "dapCloudDomain": "",
+            "idc":"az7",
+            "tgPlatform": 'PC',
+                        "shareParams":{
+                    shareTitle: "",
+                    shareImage:'',
+                    shareUrl:"",
+                    shareContent: ""
+                },
+                "giftInfo": "",
+            "version": "20260721153253",
+            "memberDomain": `https://selfservice-mng-cn.hihonor.com`,
+            "memberHonorDomain": `https://umm-cn.honor.com`,
+            "eduPurchaseGroupId": `1590718864`,
+            "teacherCertifiedGroupId": `1755607770`,
+            "dapABCDomain": `https://firefly.abchina.com.cn/firefly-collection/Collect/MobileData`,
+            "agriculturalBankFlag":`{
+    "agriculturalBankFlag": [
+        {
+            "title": "总行_荣耀商城_首页",
+            "mark": "yhzc"
+        },
+        {
+            "title": "总行_荣耀商城_荣耀超级新品季",
+            "mark": "ryscnyyh"
+        },
+        {
+            "title": "总行_荣耀商城_feed流单品",
+            "mark": "nhfeeds"
+        }
+    ]
+}`,
+            "downloadCloudQuickPass":`https://appmarket-h5.cloud.honor.com/h5/share/latest/index.html?shareId=1901823193662029824&shareTo=copyLink#/`,
+            "outStationJump":`{
+  "outStationJump": [
+    {
+        "id": "38530001",
+        "name": "全国",
+        "jumpType": {
+            "1":"none"
+        }
+    },
+    {
+        "id": "38530002",
+        "name": "广东省",
+        "jumpType": {"1": "quickPass"}
+    },
+	{
+		"id": "3853",
+        "name": "广东粤换新",
+        "jumpType": {
+            "1": "none",
+            "3": "none"
+        }
+	},
+    {
+      "id": "4814",
+      "name": "湖北省",
+      "jumpType": {"1":"miniProgram"}
+    },
+    {
+      "id": "5399",
+      "name": "辽宁省",
+      "jumpType": {"1":"quickPass"}
+    },
+    {
+      "id": "6147",
+      "name": "四川省",
+      "jumpType": {"1":"quickPass"}
+    },
+    {
+      "id": "6008",
+      "name": "陕西省",
+      "jumpType": {"1":"quickPass"}
+    },
+    {
+      "id": "5873",
+      "name": "山西省",
+      "jumpType": {"1":"quickPass"}
+    },
+    {
+      "id": "6565",
+      "name": "云南省",
+      "jumpType": {"1":"quickPass"}
+    },
+    {
+      "id": "6126",
+      "name": "上海",
+      "jumpType": {"1":"quickPass","2":"none","3":"none"}
+    },
+    {
+        "id": "6819",
+        "name": "重庆",
+        "jumpType": {"1":"quickPass","2":"none","3":"miniProgram"}
+    },
+    {
+        "id": "4304",
+        "name": "河北省",
+        "jumpType": {"1":"quickPass"}
+    },
+    {
+        "id": "3511",
+        "name": "安徽省",
+        "jumpType": {"1": "quickPass"}
+    },
+    {
+        "id": "5714",
+        "name": "山东省",
+        "jumpType": {"1": "quickPass"}
+    },
+    {
+        "id": "3510",
+        "name": "北京",
+        "jumpType": {"2": "miniProgram"}
+    },
+    {
+        "id": "4035",
+        "name": "广西省",
+        "jumpType": {"1": "quickPass"}
+    },
+    {
+        "id": "5285",
+        "name": "江西省",
+        "jumpType": {"1": "quickPass"}
+    },
+    {
+        "id": "6711",
+        "name": "浙江省",
+        "jumpType": {"1": "quickPass"}
+    },
+    {
+        "id": "4935",
+        "name": "湖南省",
+        "jumpType": {"1": "quickPass"}
+    },
+    {
+        "id": "5147",
+        "name": "江苏省",
+        "jumpType": {"1":"quickPass","2": "none"}
+    },
+    {
+        "id": "3656",
+        "name": "福建省",
+        "jumpType": {"1": "quickPass"}
+    },
+    {
+        "id": "5516",
+        "name": "内蒙古",
+        "jumpType": {"1": "quickPass"}
+    },
+    {
+        "id": "5073",
+        "name": "吉林省",
+        "jumpType": {"1": "quickPass"}
+    },
+    {
+        "id": "4261",
+        "name": "海南省",
+        "jumpType": {"1": "quickPass"}
+    },
+    {
+        "id": "6349",
+        "name": "天津市",
+        "jumpType": {"1": "quickPass"}
+    },
+    {
+        "id": "4672",
+        "name": "黑龙江",
+        "jumpType": {"1": "quickPass"}
+    },
+    {
+        "id": "4158",
+        "name": "贵州省",
+        "jumpType": {"1": "miniProgram"}
+    }
+  ]
+}`,
+            "receiveNaSubTips":`{
+    "android": [
+        {
+            "noCloudQuickPass": "未安装云闪付APP，请去应用市场获取",
+            "noWechat": "小程序跳转失败，请重试或确认是否安装微信APP",
+            "versionCheck": "当前版本无法享受国补，请升级版本后重试"
+        }
+    ],
+    "ios": [
+        {
+            "noWechat": "小程序跳转失败，请重试或确认是否安装微信APP",
+            "versionCheck": "当前版本无法享受国补，请升级版本后重试"
+        }
+    ],
+    "mp": [
+        {
+            "toHMallAPP": "请前往荣耀商城APP领取"
+        }
+    ]
+}`,
+            "qrCodeDomain":``,
+            "retailDomain":``,
+            "cibPara":`MTI=`,
+        };
+                    if(window.location.href.indexOf('.honor.com') > 0){
+                pageConfig.openapiDomain = pageConfig.openapiHonorDomain
+            }
+                    })(window);
+</script>
+        <link rel="stylesheet" type="text/css"
+          href="https://hshop.honorfile.com/tdcsNew/cdn/tangram/modules/common/pc/css/common.css?v=20260721153253">
+                                        <link rel="stylesheet" href="https://hshop.honorfile.com/tdcsNew/cdn/tangram/modules/common/mb/css/swiper.min.css?v=20260721153253" id="hash-1056863107">
+                                                                                            <style id="hash-370186249">
+    /*图模块*/.mod-pic{position:relative}.mod-pic .J_anchors{top:0}.mod-pic .pic-wrap{position: relative; z-index: 1;width: 10000%; left: 50%; margin-left: -5000%; overflow: hidden; text-align: center;}
+    </style>
+                                                        <link rel="stylesheet" href="https://hshop.honorfile.com/tdcsNew/cdn/tangram/modules/pictures/pc/css/style.css?v=20260721153253" id="hash-1404687445">
+                                                                                <style id="hash-2078306141">
+    /*PC领券*/.mod-coupons .mod22-carnival-coupons-wrp{overflow:hidden;margin:0 auto;position:relative;}.mod-coupons .mod22-carnival-coupons{position:relative;left:50%;*zoom:1;_position:relative;}.mod-coupons .mod22-carnival-coupons-href{position:relative;margin:0 auto;height:0;z-index:1;}.mod-coupons .mod22-carnival-coupons-href a{position:absolute;display:block;background:url('data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==');}
+    </style>
+                                    </head>
+<body style="padding-bottom:100px;background-color:rgba(72, 210, 94, 1); ">
+<div class="J_page"  id="cmp-page-29415" prototype-id="1" instance-id="29415" data-title="基础模板">
+<div style="display:none;">
+                </div>
+<div
+    class="J_mod mod-pic  "
+    modename="picturesmod"
+    data-compresswebpflag="true"
+    data-popupconfig='{"title":"图"}'
+    style=" position: relative; margin-top:0px;"
+    data-wap="iswap"
+    data-config='{"moduleType":""}'
+    data-analytics='{"Id":"4","name":"图模块"}'
+    data-component="1"
+    data-distributionHotFlag=""  
+    data-deeplinkHotFlag=""   
+    data-popupHotFlag=""  
+    data-jumpHotFlag=""  
+    data-couponHotFlag=""   
+    data-distribution="distributionHot"
+     id="cmp-mod-693541" prototype-id="4" instance-id="693541" data-title="图模块"
+    >
+    <style>
+    .pictureCard .style2 .aRow .mainTitle {
+        text-align:left;
+    }
+    </style>
+    <!-- 图模块 -->
+    <div id="gpsID-693541" class="hrefs tg_gpsId "></div>
+                <div class="pictureCard"  data-load="true"                         
+        data-load="true"  
+        data-action-code="800030011"
+        data-action-name="图组件曝光"
+        data-model-id="4"
+        data-model-id-name="图"
+        data-id="1"
+        data-id-name="上传图片"
+                    data-type="不支持链接分发"
+                data-moduleInstance-id="693541">
+                    <div
+                class="style1"
+                style="display: flex;justify-content: center; height:$tools.math.div($params.style1.picHeight, 1)px;                margin-left:0px;
+                padding:0 0px;">
+                <div class="styl1_containter" style="position: relative;">
+                    <a
+                        style="height:100%;display:inline-block"
+                                                    href="javascript:;"
+                        >
+                                             <img src="https://hshop.honorfile.com/shopdc/pic/2025620/0/53fb16aa-0e31-4dc4-9db4-1dc014d1e5e7.png?https://hshop.honorfile.com/shopdc/pic/2025620/0/53fb16aa-0e31-4dc4-9db4-1dc014d1e5e7.png" style="height:100%"/>
+                                         </a>
+                                </div>
+            </div>
+            </div>
+</div><div style="display:none;">
+                </div>
+<div
+    class="J_mod mod-pic  "
+    modename="picturesmod"
+    data-compresswebpflag="true"
+    data-popupconfig='{"title":"图"}'
+    style=" position: relative; margin-top:0px;"
+    data-wap="iswap"
+    data-config='{"moduleType":""}'
+    data-analytics='{"Id":"4","name":"图模块"}'
+    data-component="1"
+    data-distributionHotFlag=""  
+    data-deeplinkHotFlag=""   
+    data-popupHotFlag=""  
+    data-jumpHotFlag=""  
+    data-couponHotFlag=""   
+    data-distribution="distributionHot"
+     id="cmp-mod-693542" prototype-id="4" instance-id="693542" data-title="图模块"
+    >
+    <style>
+    .pictureCard .style2 .aRow .mainTitle {
+        text-align:left;
+    }
+    </style>
+    <!-- 图模块 -->
+    <div id="gpsID-693542" class="hrefs tg_gpsId "></div>
+                <div class="pictureCard"  data-load="true"                         
+        data-load="true"  
+        data-action-code="800030011"
+        data-action-name="图组件曝光"
+        data-model-id="4"
+        data-model-id-name="图"
+        data-id="1"
+        data-id-name="上传图片"
+                    data-type="不支持链接分发"
+                data-moduleInstance-id="693542">
+                    <div
+                class="style1"
+                style="display: flex;justify-content: center; height:$tools.math.div($params.style1.picHeight, 1)px;                margin-left:0px;
+                padding:0 0px;">
+                <div class="styl1_containter" style="position: relative;">
+                    <a
+                        style="height:100%;display:inline-block"
+                                                    href="javascript:;"
+                        >
+                                             <img src="https://hshop.honorfile.com/shopdc/pic/202616/0/ce999b2d-d214-4196-b91c-de2ee9d40cc4.png?https://hshop.honorfile.com/shopdc/pic/202616/0/ce999b2d-d214-4196-b91c-de2ee9d40cc4.png" style="height:100%"/>
+                                         </a>
+                                </div>
+            </div>
+            </div>
+</div><div style="display:none;">
+                </div>
+<div
+    class="J_mod mod-pic  "
+    modename="picturesmod"
+    data-compresswebpflag="true"
+    data-popupconfig='{"title":"图"}'
+    style=" position: relative; margin-top:0px;"
+    data-wap="iswap"
+    data-config='{"moduleType":""}'
+    data-analytics='{"Id":"4","name":"图模块"}'
+    data-component="1"
+    data-distributionHotFlag=""  
+    data-deeplinkHotFlag=""   
+    data-popupHotFlag=""  
+    data-jumpHotFlag=""  
+    data-couponHotFlag=""   
+    data-distribution="distributionHot"
+     id="cmp-mod-693543" prototype-id="4" instance-id="693543" data-title="图模块"
+    >
+    <style>
+    .pictureCard .style2 .aRow .mainTitle {
+        text-align:left;
+    }
+    </style>
+    <!-- 图模块 -->
+    <div id="gpsID-693543" class="hrefs tg_gpsId "></div>
+                <div class="pictureCard"  data-load="true"                         
+        data-load="true"  
+        data-action-code="800030011"
+        data-action-name="图组件曝光"
+        data-model-id="4"
+        data-model-id-name="图"
+        data-id="1"
+        data-id-name="上传图片"
+                    data-type="不支持链接分发"
+                data-moduleInstance-id="693543">
+                    <div
+                class="style1"
+                style="display: flex;justify-content: center; height:$tools.math.div($params.style1.picHeight, 1)px;                margin-left:0px;
+                padding:0 0px;">
+                <div class="styl1_containter" style="position: relative;">
+                    <a
+                        style="height:100%;display:inline-block"
+                                                    href="javascript:;"
+                        >
+                                             <img src="https://hshop.honorfile.com/shopdc/pic/2025315/0/6c468e66-46c3-410e-8f0d-690babbe1a0d.png?https://hshop.honorfile.com/shopdc/pic/2025315/0/6c468e66-46c3-410e-8f0d-690babbe1a0d.png" style="height:100%"/>
+                                         </a>
+                                </div>
+            </div>
+            </div>
+</div><div style="display:none;">
+                </div>
+<div
+    class="J_mod mod-pic  "
+    modename="picturesmod"
+    data-compresswebpflag="true"
+    data-popupconfig='{"title":"图"}'
+    style=" position: relative; margin-top:0px;"
+    data-wap="iswap"
+    data-config='{"moduleType":""}'
+    data-analytics='{"Id":"4","name":"图模块"}'
+    data-component="1"
+    data-distributionHotFlag=""  
+    data-deeplinkHotFlag=""   
+    data-popupHotFlag=""  
+    data-jumpHotFlag=""  
+    data-couponHotFlag=""   
+    data-distribution="distributionHot"
+     id="cmp-mod-693544" prototype-id="4" instance-id="693544" data-title="图模块"
+    >
+    <style>
+    .pictureCard .style2 .aRow .mainTitle {
+        text-align:left;
+    }
+    </style>
+    <!-- 图模块 -->
+    <div id="gpsID-693544" class="hrefs tg_gpsId "></div>
+                <div class="pictureCard"  data-load="true"                         
+        data-load="true"  
+        data-action-code="800030011"
+        data-action-name="图组件曝光"
+        data-model-id="4"
+        data-model-id-name="图"
+        data-id="1"
+        data-id-name="上传图片"
+                    data-type="不支持链接分发"
+                data-moduleInstance-id="693544">
+                    <div
+                class="style1"
+                style="display: flex;justify-content: center; height:$tools.math.div($params.style1.picHeight, 1)px;                margin-left:0px;
+                padding:0 0px;">
+                <div class="styl1_containter" style="position: relative;">
+                    <a
+                        style="height:100%;display:inline-block"
+                                                    href="javascript:;"
+                        >
+                                             <img src="https://hshop.honorfile.com/shopdc/pic/2025620/0/87bafa9a-d64d-4e23-9699-17b20debbce9.png?https://hshop.honorfile.com/shopdc/pic/2025620/0/87bafa9a-d64d-4e23-9699-17b20debbce9.png" style="height:100%"/>
+                                         </a>
+                                </div>
+            </div>
+            </div>
+</div><div style="display:none;">
+                            true
+                    </div>
+<div
+    class="J_mod mod-pic  "
+    modename="picturesmod"
+    data-compresswebpflag="true"
+    data-popupconfig='{"title":"图"}'
+    style=" position: relative; margin-top:0px;"
+    data-wap="iswap"
+    data-config='{"moduleType":""}'
+    data-analytics='{"Id":"4","name":"图模块"}'
+    data-component="1"
+    data-distributionHotFlag="true"  
+    data-deeplinkHotFlag=""   
+    data-popupHotFlag=""  
+    data-jumpHotFlag=""  
+    data-couponHotFlag=""   
+    data-distribution="distributionHot"
+     id="cmp-mod-693545" prototype-id="4" instance-id="693545" data-title="图模块"
+    >
+    <style>
+    .pictureCard .style2 .aRow .mainTitle {
+        text-align:left;
+    }
+    </style>
+    <!-- 图模块 -->
+    <div id="gpsID-693545" class="hrefs tg_gpsId "></div>
+                <div class="pictureCard"  data-load="true"                         
+        data-load="true"  
+        data-action-code="800030011"
+        data-action-name="图组件曝光"
+        data-model-id="4"
+        data-model-id-name="图"
+        data-id="1"
+        data-id-name="上传图片"
+                    data-type="支持链接分发"
+                data-moduleInstance-id="693545">
+                    <div
+                class="style1"
+                style="display: flex;justify-content: center; height:$tools.math.div($params.style1.picHeight, 1)px;                margin-left:0px;
+                padding:0 0px;">
+                <div class="styl1_containter" style="position: relative;">
+                    <a
+                        style="height:100%;display:inline-block"
+                                                    href="javascript:;"
+                        >
+                                             <img src="https://hshop.honorfile.com/shopdc/pic/202658/0/00a8baec-83f2-428b-81a5-19d8ae4115d4.png?https://hshop.honorfile.com/shopdc/pic/202658/0/00a8baec-83f2-428b-81a5-19d8ae4115d4.png" style="height:100%"/>
+                                         </a>
+                                                                                <div style='display:none' 
+                            class='distriRepot' 
+                            data-distributionALink="distributionHotAlink"    
+                            data-distributionConfig = '[{"disTrbArr":[],"gpsID":"","widthPer":0.322,"index":0,"topPer":0.8402,"remark":"","isLogin":false,"heightPer":0.1241,"top":"84.02%","left":"50.160000000000004%","linkUrl":"https://retail.honor.com/dist/questionnaire/?questionnaireId=67bfddc5ed0f1d13a70c48b7","width":"32.2%","leftPer":0.5016,"hotType":"linkDistributionHot","openInNewWindow":true,"height":"12.41%"}]'
+                            data-track="true" 
+                            data-action-code="800040004"
+                            data-action-name="图组件热区点击"
+                            data-model-id="4"
+                            data-model-id-name="图"
+                            data-id="1"
+                            data-id-name="上传图片"
+                            data-moduleInstance-id="693545"
+                            data-location=""
+                            data-type='支持链接分发'>
+                        </div>
+                                                                                                    <div
+                            class="J_anchor anchor-distributionHotList"
+                            data-distributionALink="distributionHotAlink" 
+                            data-distributionConfig = '[]'
+                            data-islogin="false"
+                            data-linkUrl="https://retail.honor.com/dist/questionnaire/?questionnaireId=67bfddc5ed0f1d13a70c48b7"
+                            data-distributionLinkUrl = ''
+                            data-action-code="800040004"
+                            data-action-name="图组件热区点击"
+                            data-model-id="4"
+                            data-model-id-name="图"
+                            data-id="1"
+                            data-id-name="上传图片"
+                            data-moduleInstance-id="693545"
+                            data-location="1"
+                            data-type='支持链接分发'
+                            style="width:32.2%; 
+                            height:12.41%; 
+                            left:50.160000000000004%; 
+                            top:84.02%;" 
+                            >
+                            </div>
+                                                                                                                                                                                                                                            </div>
+            </div>
+            </div>
+</div><div style="display:none;">
+                            true
+                    </div>
+<div
+    class="J_mod mod-pic  "
+    modename="picturesmod"
+    data-compresswebpflag="true"
+    data-popupconfig='{"title":"图"}'
+    style=" position: relative; margin-top:0px;"
+    data-wap="iswap"
+    data-config='{"moduleType":""}'
+    data-analytics='{"Id":"4","name":"图模块"}'
+    data-component="1"
+    data-distributionHotFlag="true"  
+    data-deeplinkHotFlag=""   
+    data-popupHotFlag=""  
+    data-jumpHotFlag=""  
+    data-couponHotFlag=""   
+    data-distribution="distributionHot"
+     id="cmp-mod-693547" prototype-id="4" instance-id="693547" data-title="图模块"
+    >
+    <style>
+    .pictureCard .style2 .aRow .mainTitle {
+        text-align:left;
+    }
+    </style>
+    <!-- 图模块 -->
+    <div id="gpsID-693547" class="hrefs tg_gpsId "></div>
+                <div class="pictureCard"  data-load="true"                         
+        data-load="true"  
+        data-action-code="800030011"
+        data-action-name="图组件曝光"
+        data-model-id="4"
+        data-model-id-name="图"
+        data-id="1"
+        data-id-name="上传图片"
+                    data-type="支持链接分发"
+                data-moduleInstance-id="693547">
+                    <div
+                class="style1"
+                style="display: flex;justify-content: center; height:$tools.math.div($params.style1.picHeight, 1)px;                margin-left:0px;
+                padding:0 0px;">
+                <div class="styl1_containter" style="position: relative;">
+                    <a
+                        style="height:100%;display:inline-block"
+                                                    href="javascript:;"
+                        >
+                                             <img src="https://hshop.honorfile.com/shopdc/pic/2025526/0/4cd90504-ff1d-4d62-ac2b-743dda8452d6.png?https://hshop.honorfile.com/shopdc/pic/2025526/0/4cd90504-ff1d-4d62-ac2b-743dda8452d6.png" style="height:100%"/>
+                                         </a>
+                                                                                <div style='display:none' 
+                            class='distriRepot' 
+                            data-distributionALink="distributionHotAlink"    
+                            data-distributionConfig = '[{"disTrbArr":[],"gpsID":"","widthPer":0.5567,"index":0,"topPer":0.22729999999999995,"remark":"","isLogin":false,"heightPer":0.7727,"top":"22.729999999999993%","left":"20.549999999999997%","linkUrl":"https://www.honor.com/cn/shop/notice-16840","width":"55.669999999999995%","leftPer":0.2055,"hotType":"linkDistributionHot","openInNewWindow":true,"height":"77.27000000000001%"}]'
+                            data-track="true" 
+                            data-action-code="800040004"
+                            data-action-name="图组件热区点击"
+                            data-model-id="4"
+                            data-model-id-name="图"
+                            data-id="1"
+                            data-id-name="上传图片"
+                            data-moduleInstance-id="693547"
+                            data-location=""
+                            data-type='支持链接分发'>
+                        </div>
+                                                                                                    <div
+                            class="J_anchor anchor-distributionHotList"
+                            data-distributionALink="distributionHotAlink" 
+                            data-distributionConfig = '[]'
+                            data-islogin="false"
+                            data-linkUrl="https://www.honor.com/cn/shop/notice-16840"
+                            data-distributionLinkUrl = ''
+                            data-action-code="800040004"
+                            data-action-name="图组件热区点击"
+                            data-model-id="4"
+                            data-model-id-name="图"
+                            data-id="1"
+                            data-id-name="上传图片"
+                            data-moduleInstance-id="693547"
+                            data-location="1"
+                            data-type='支持链接分发'
+                            style="width:55.669999999999995%; 
+                            height:77.27000000000001%; 
+                            left:20.549999999999997%; 
+                            top:22.729999999999993%;" 
+                            >
+                            </div>
+                                                                                                                                                                                                                                            </div>
+            </div>
+            </div>
+</div>
+</div>
+
+            
+        <!-- 除了app,并且是国内环境都引入jssdk -->
+    <script src="https://dap-cn.c.hihonor.com/dap/jssdk.js?v=20260721153253"></script>
+    
+<!-- 除了app,并且是云服务环境都引入hajssdk -->
+                    <script src="https://hshop.honorfile.com/oas/ars.js"></script>
+            <script src="https://hshop.honorfile.com/tdcsNew/cdn/tangram/modules/common/pc/js/jquery-3.5.0.min.js"></script>
+    <script src="https://hshop.honorfile.com/tdcsNew/cdn/tangram/modules/common/pc/js/config-pc-HN.js?v=20260721153253"></script>
+    <script src="https://hshop.honorfile.com/tdcsNew/cdn/tangram/modules/common/pc/js/locale/zh-CN-HN.js?v=20260721153253"></script>
+    <script src="https://hshop.honorfile.com/tdcsNew/cdn/tangram/modules/common/pub/gt.js?v=20260721153253"></script>
+    <script src="https://hshop.honorfile.com/tdcsNew/cdn/tangram/modules/common/pc/js/utils.js?v=20260721153253"></script>
+    <!--wap 只要开关打开了就引入拉起app的js -->
+    <!-- 除了app,并且是云服务环境都引入hajssdk -->
+                        <!-- pc端引入 -->
+        <script src="https://dap-cn.c.hihonor.com/dap/trackSDK-EC.js?v=20260721153253"></script>
+        <script src="https://hshop.honorfile.com/tdcsNew/cdn/tangram/modules/common/pc/js/tg_report.js?v=20260721153253"></script>
+                                                                <script src="https://hshop.honorfile.com/tdcsNew/cdn/tangram/modules/pictures/pc/js/swiper.min.js?v=20260721153253"
+                    id="hash--969056045"   ></script>
+                                                                                                        <script src="https://hshop.honorfile.com/tdcsNew/cdn/tangram/modules/pictures/pc/js/commonPic.js?v=20260721153253"
+                    id="hash--1302651510"   ></script>
+                                    </body>
+</html>

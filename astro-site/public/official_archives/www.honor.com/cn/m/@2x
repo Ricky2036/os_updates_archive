@@ -1,0 +1,136 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta http-equiv=Content-Security-Policy content=upgrade-insecure-requests><meta name=viewport content="width=device-width,viewport-fit=cover,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><title></title><meta data-vmid=keywords name=keywords content="" data-vue-meta=true><meta data-vmid=description name=description content="" data-vue-meta=true><link rel="shortcut icon" href=/cn/m/favicon.ico><link rel=canonical href=https://www.honor.com/cn/shop/ ><style lang=css>.fixedHeader{
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        width: 100%;
+        height: 2rem;
+        background-color:#fff;
+      }
+      .fixedHeader.top{
+        position:fixed;
+        top:0;
+        z-index:999;
+        font-size:20px;
+      }
+      body {
+        font-family: 'HONORSansBrand' !important;
+        color-scheme: light only;
+      }
+      .before-loading {
+        width: 100%;
+        height: 100vh;
+        z-index: 9999;
+        position: fixed;
+        display: none;
+      }
+      .loader {
+        width: 80px;
+        height: 80px;
+        position: relative;
+        margin-left: -5px;
+      }
+      .dot {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 5px;
+        height: 5px;
+        background: #666666;
+        border-radius: 50%;
+        transform-origin: center center;
+        /* 每个点旋转 30 度，translate 用于让它分布在圆周上 */
+        transform: rotate(calc(-30deg * var(--i))) translate(30px);
+        animation: light 1.2s linear infinite;
+        animation-delay: calc(var(--i) * -0.1s);
+      }
+      @keyframes light {
+        0% { 
+          background-color: #666666;
+          width: 10px;
+          height: 10px;
+        }
+        100% { 
+          background-color: #D0D0D0;
+          width: 5px;
+          height: 5px;
+        }
+      }
+      .loading-text {
+        margin-top: 12px;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: normal;
+        color: rgba(0, 0, 0, 0.6);
+      }</style><script>var mediaPath = 'https://hshopb.honorfile.com/pimages',
+        qxMediaPath = 'https://hshop.honorfile.com/pimages/cnqx',
+        wapDomain = 'https://www.hihonor.com/cn/m',
+        qxDomain='https://m.qinxuan.hihonor.com',
+        shopdcDomain = 'https://www.hihonor.com/cn/msale',
+        openApiDomain = 'https://openapi-cn.c.hihonor.com',
+        openApiAisaDomain = 'https://openapi-ai-cn.c.hihonor.com',
+        asrDomain='https://apigw.yun.hihonor.com/api/asr'// 语音识别
+        cdnPath = 'https://hshopb.honorfile.com',
+        measyDomain = 'https://www.hihonor.com/cn/measy/index.html',
+        arsDomain = 'https://hshop.honorfile.com',
+        dapDomain = 'https://dap-cn.c.hihonor.com',
+        clubDomain = 'https://iforum-cn.c.hihonor.com',
+        ipsCashierDomain = 'https://payment.honor.com',
+        cookieDomain = '.hihonor.com',
+        country = 'CN',
+        language = 'zh-CN',
+        cnqx='/cnqx',
+        bigDataABTestDomain = 'https://abtest.digital.hihonor.com',
+        beCode = 'CN',
+        // pointsUrl = 'https://selfservice-mng-cn.hihonor.com/h5/myHonor/points-mall/index.html?pageCode=points_mall&endId=honorMall#/';
+        pointsUrl = 'https://umm-cn.honor.com/h5/myHonor/points-mall/index.html?pageCode=points_mall&endId=honorMall&fromId=wap#';
+        hsbApiUrl = 'https://api.huishoubao.com';
+
+      // 对IPS的域名，根据当前环境进行动态修改: 默认是现网环境，测试环境加载对应测试环境的域名；开发环境加载对应开发环境的域名
+      if (window.location.host.indexOf('uat.test.') > -1) {
+        ipsCashierDomain = 'https://finance-uat.test.honor.com'
+        qxMediaPath = 'https://picuat2.test.hihonor.com/pimages/omstestpms/picture-cnqx'
+        qxDomain='https://qinxuan-wapuat.test.hihonor.com'
+        cnqx='/picture-cnqx'
+        openApiAisaDomain = 'https://openapiuat-cn.test.hihonor.com'
+        hsbApiUrl = 'https://api-test.huishoubao.com'
+        clubDomain = 'https://iforum-cn-sit.test.honor.com'
+        asrDomain='https://apigw-beta.test.hihonor.com/api/funAsr-dmz'// 语音识别
+      } else if (window.location.host.indexOf('dev.test.') > -1) {
+        ipsCashierDomain = 'https://finance-dev.test.hihonor.com'
+        qxMediaPath = 'https://picdev.test.hihonor.com/pmscdn/picture-cnqx'
+        qxDomain='https://qinxuan-wapdev.test.hihonor.com'
+        cnqx='/picture-cnqx'
+        openApiAisaDomain = 'https://openapidev-cn.test.hihonor.com'
+        clubDomain = 'https://iforum-cn-sit.test.honor.com'
+        asrDomain='https://apigw-beta.test.hihonor.com/api/funAsr-dmz'// 语音识别
+      }</script><script type=text/javascript>if (/MicroMessenger/i.test(navigator.userAgent)) {
+        document.writeln('<script src="'+ cdnPath + '/nwap/26080000/' + 'js/echannelApp/common/jweixin-1.6.0.js"' + '>' + '<' + '/' + 'script>');
+      } else if (navigator.userAgent.indexOf('AliApp') > -1) {
+        document.writeln('<script src="https://appx/web-view.min.js"' + '>' + '<' + '/' + 'script>');
+      }
+      // 加载IPS前置收银台插件
+      // document.writeln('<script src="'+ ipsCashierDomain + '/ips/webstatic/pre/cashier/preCashier.js"' + '>' + '<' + '/' + 'script>');
+
+      //2.4.3域名切换 host获取当前域名，定义全局变量
+      window.hostUrl = window.location.host.split('.')[window.location.host.split('.').length - 2]
+      wapDomain = wapDomain.replace(/hihonor/gi, window.hostUrl)
+      qxDomain = qxDomain.replace(/hihonor/gi, window.hostUrl)
+      shopdcDomain = shopdcDomain.replace(/hihonor/gi, window.hostUrl)
+      openApiDomain = openApiDomain.replace(/hihonor/gi, window.hostUrl)
+      openApiAisaDomain = openApiAisaDomain.replace(/hihonor/gi, window.hostUrl)
+      measyDomain = measyDomain.replace(/hihonor/gi, window.hostUrl)
+      cookieDomain = cookieDomain.replace(/hihonor/gi, window.hostUrl)
+      clubDomain = clubDomain.replace(/hihonor/gi, window.hostUrl)</script><link href=https://hshopb.honorfile.com/nwap/26080000/staticm/css/app.edd69a7.css rel=stylesheet></head><body><div id=beforePageLoading class="fixedHeader before-loading"><div><div class=loader><div class=dot style=--i:0;></div><div class=dot style=--i:1;></div><div class=dot style=--i:2;></div><div class=dot style=--i:3;></div><div class=dot style=--i:4;></div><div class=dot style=--i:5;></div><div class=dot style=--i:6;></div><div class=dot style=--i:7;></div><div class=dot style=--i:8;></div><div class=dot style=--i:9;></div><div class=dot style=--i:10;></div><div class=dot style=--i:11;></div></div><div class=loading-text>正在加载</div></div></div><script type=text/javascript>// 只针对订单确认页和订单列表页添加loading效果
+      if (window.location.href.indexOf('cn/m/v/order/confirm') > -1 || window.location.href.indexOf('cn/m/member/orderList') > -1) {
+        var loadDom = document.getElementById('beforePageLoading');
+        if (loadDom) {
+          loadDom.style.display = 'flex';
+        }
+      }</script><div id=app class=vm-vmall-vue-wrap><div id=appHeader style="display: none;"><div class=fixedHeader></div><div class="fixedHeader top"></div></div><router-view></router-view><section class="hungBars hide" id=hungBars><a class=button-tops></a></section></div><script type=text/javascript src=https://hshopb.honorfile.com/nwap/26080000/staticm/js/manifest.6edaec4.js></script><script type=text/javascript src=https://hshopb.honorfile.com/nwap/26080000/staticm/js/vendor.4c009df.js></script><script type=text/javascript src=https://hshopb.honorfile.com/nwap/26080000/staticm/js/app.65561d6.js></script></body></html>

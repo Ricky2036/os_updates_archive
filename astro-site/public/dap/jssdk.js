@@ -1,0 +1,1 @@
+window.sendDapData = function(){}; window.dataLayer = window.dataLayer || [];

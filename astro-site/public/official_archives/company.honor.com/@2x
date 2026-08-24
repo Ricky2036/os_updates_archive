@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=utf-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <title>企业购</title>
+    <link href=https://file05.c.hihonor.com/o2oc/c20260723/dist/fusion/css/chunk-libs.css?2026-07-29 16:17:53 rel=stylesheet>
+    <link href=https://file05.c.hihonor.com/o2oc/c20260723/dist/fusion/css/app.css?2026-07-29 16:17:53 rel=stylesheet>
+    <script>
+        var staticsMain = 'https://file05.c.hihonor.com/o2oc/c20260723';
+    </script>
+
+</head>
+<body>
+<div id=app></div>
+<script src=https://file05.c.hihonor.com/o2oc/c20260723/dist/fusion/js/chunk-elementUI.js?2026-07-29 16:17:53></script>
+<script src=https://file05.c.hihonor.com/o2oc/c20260723/dist/fusion/js/chunk-libs.js?2026-07-29 16:17:53></script>
+<script src=https://file05.c.hihonor.com/o2oc/c20260723/dist/fusion/js/app.js?2026-07-29 16:17:53></script>
+</body>
+</html>

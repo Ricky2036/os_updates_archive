@@ -1,0 +1,86 @@
+<!DOCTYPE html><html><head><meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1"><meta name=viewport content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1"><meta http-equiv=cache-control content=no-cache><meta http-equiv=Pragma content=no-cache><meta http-equiv=expires content=0><meta name=screen-orientation content=portrait><meta name=x5-orientation content=portrait><meta name=format-detection content="telephone=no"><meta name=format-detection content="email=no"><meta name=apple-mobile-web-app-capable content=yes><meta name=full-screen content=yes><meta name=browsermode content=application><meta name=x5-fullscreen content=true><meta name=x5-page-mode content=app><meta charset=utf-8><meta name=renderer content=webkit><meta http-equiv=Content-Security-Policy content=upgrade-insecure-requests><title>荣耀智能客服YOYO</title><link name=labelIcon rel="shortcut icon" href="" type=image/x-icon><style>.dark {
+        background-color: #000;
+      }</style><script>if (document.cookie.indexOf('accessArea=') < 0) {
+        document.cookie = 'accessArea=prod-tc'
+        location.reload()
+      }
+      if (window.location.href.indexOf('darkMode=1') > -1) {
+        document.querySelector(':root').className = 'dark'
+      }</script></head><body><noscript><strong>We're sorry but customer_service doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=https://dap-cn.c.hihonor.com/dap/jssdk.js></script><script src=https://dapm-sdk-1311258067.cos.ap-beijing.myqcloud.com/3.2.0.200/dapm-vue-sdk.js></script><script>try {
+        // 判断是不是海外:
+        const currentUrl = window.location.href
+        const name = 'language'
+        const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)')
+        const results = regex.exec(currentUrl)
+
+        const language =
+          results && results[2]
+            ? decodeURIComponent(results[2].replace(/\+/g, ' '))
+            : ''
+        const languageLower = language.toLowerCase()
+
+        const isDomestic = !language || languageLower === 'chinese'
+
+        if (!isDomestic) {
+          JSAnalysisSDK.setReportUrl('/drobot/data/dapReport')
+        } else {
+          JSAnalysisSDK.setReportUrl(
+            'https://dap-cn.c.hihonor.com/dap/report'
+          )
+        }
+      } catch (err) {
+        console.log('dap初始化失败：', err)
+      }</script><script>var LIM = {
+        jumper: function() {
+          var myEvent = null
+          if ('ActiveXObject' in window) {
+            myEvent = document.createEvent('CustomEvent')
+            myEvent.initCustomEvent('event_name', false, false, {
+              title: '自定义连接人工客服事件',
+              target: event.srcElement.innerText
+            })
+          } else {
+            myEvent = new CustomEvent('event_name', {
+              detail: {
+                title: '自定义连接人工客服事件',
+                target: event.target.innerText
+              }
+            })
+          }
+
+          if (window.dispatchEvent) {
+            window.dispatchEvent(myEvent)
+          } else {
+            window.fireEvent(myEvent)
+          }
+        }
+      }
+
+      var isIE9 = function() {
+        return window.navigator.userAgent.indexOf('MSIE 9.0') > -1
+      }
+      // ie9 now 对象报错问题
+      if (isIE9() && window.performance) {
+        window.performance.now = function() {
+          return +new Date() - performance.timing.navigationStart
+        }
+      }
+
+      // 输出打包时间
+      window.BUILD_TIME = '2026-07-28 18:15:58'</script><script>function loadScript() {
+        const script = document.createElement('script')
+        // script.src = '//api.map.baidu.com/getscript?ak=Yo6Ch70aZ00xGZYrjCIsDYuP9FVPhDnw&v=2.0&services=false'
+        script.src =
+          '//api.map.baidu.com/getscript?ak=4L7ccxGiR0aaL1pim5sxvkrBdktJFoTI&v=2.0&services=false'
+        script.async = true
+
+        // 加载成功时的回调
+        script.onload = function() {}
+
+        // 加载失败时的回调
+        script.onerror = function() {}
+
+        // 将脚本添加到页面中
+        document.head.appendChild(script)
+      }
+      loadScript()</script><script type=text/javascript src=./js/manifest.95f6e21a5f1e544127cc.js></script><script type=text/javascript src=./js/vendor.47f49bbac300b503fe00.js></script><script type=text/javascript src=./js/app.6cc47c2c92a2383ed499.js></script></body></html>

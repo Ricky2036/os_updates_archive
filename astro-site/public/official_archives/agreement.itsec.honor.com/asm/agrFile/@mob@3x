@@ -1,0 +1,2021 @@
+<!DOCTYPE html>
+<html dir="ltr">
+<head>
+    <title>关于服务支持推荐服务与隐私的声明</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0 , user-scalable=no"/>
+    <link rel="icon" href="../image/favicon.ico" type="image/x-icon"/>
+    <style type="module">
+        @media (prefers-color-scheme: dark) {
+            body, .loading {
+                background-color: #000000;
+            }
+        }
+    </style>
+    <style>
+        .fileContent{
+            position:relative;
+            display: none;
+            height:100%;
+        }
+        .fileContent.isDisplay {
+            display: block;
+        }
+        .fileContent.fileContentZh p {
+            text-align: justify;
+            word-break: break-all;
+        }
+        .fileContent.fileContentZh a {
+            word-break: break-all;
+        }
+        .fileContent.fileContentEn p {
+          word-break: break-word;
+        }
+        .fileContent.fileContentEn td {
+          word-break: break-word;
+        }
+        .fileContent.fileContentIos .custom_cn2 {
+          list-style-type: none;
+        }
+        .fileContent table {
+          border-collapse: collapse;
+        }
+        .fileContent.fileContentIos table {
+          border-collapse: collapse;
+        }
+        .loading {
+            display: block;
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 999999;
+            opacity: 1;
+        }
+        #linkDiv{
+            display:none;
+            position:absolute;
+            font-size:10px;
+            color:rgba(0, 0, 0, 0.6);
+            padding:3px;
+            margin:0 auto;
+            white-space: nowrap;
+            border:1px solid #ccc;
+            border-radius:5px;
+            background-color:#fff;
+        }
+        #linkText{
+            margin:0 5px;
+        }
+        #linkDiv .btn{
+            font-size:10px;
+            border: 1px solid #dcdde0;
+            border-radius: 4px;
+            color: #1d1e38;
+        }
+        .versionWeb{
+            display: none;
+            position: fixed;
+            z-index: 9999;
+            left:16px;
+            right:16px;
+            bottom: calc(16px + var(--native-tip-bar-padding-bottom, 0px));
+            border-radius:16px;
+            max-height: calc(80% - var(--native-tip-bar-padding-bottom, 0px));
+            opacity: 1;
+            background-color: #ffffff;
+        }
+        .versionWeb .historyList .versionTitle {
+            font-size: 16px;
+            border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+            color: rgba(0, 0, 0, 0.6);
+        }
+        .versionWeb.isDarkMode .historyList .versionTitle {
+            border-bottom: 0.5px solid rgba(239, 239, 239, 0.2);
+            color: rgb(239, 239, 239);
+        }
+        .versionWeb .historyList .versionTitle:focus,
+        .versionWeb .historyList .versionTitle:focus-visible {
+            background-color: #256FFF26;
+        }
+        .versionWeb.isDarkMode .historyList .versionTitle:focus,
+        .versionWeb.isDarkMode .historyList .versionTitle:focus-visible {
+            background-color: #3D7FFF33;
+        }
+        .versionWeb .linkStyleBtn:focus {
+            background-color: #0000000d;
+        }
+        .versionWeb.isDarkMode .linkStyleBtn:focus {
+            background-color: #ffffff0d;
+        }
+        .versionWeb.isDarkMode {
+            background-color: var(--custom-bg-color, #000000);
+        }
+        .versionWeb.isDisplay {
+            display: flex;
+            flex-direction: column;
+        }
+        .versionPc {
+          display: none;
+        }
+        #container .versionWebMask {
+            display: none;
+            z-index: 9900;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            padding: 0;
+            width: 200vw;
+            height: 200vh;
+            background-color: #0000004d;
+        }
+        #container.isDarkMode .versionWebMask {
+            background-color: #3f3f3f99;
+        }
+        #container.isDisplay .versionWebMask {
+            display: block;
+        }
+        body.isDarkMode .list-num1-paddingleft-1::before,
+        body.isDarkMode .list-num2-paddingleft-1::before,
+        body.isDarkMode .list-cn-paddingleft-1::before,
+        body.isDarkMode .list-cn1-paddingleft-1::before,
+        body.isDarkMode .list-cn2-paddingleft-1::before,
+        body.isDarkMode .custom-unordered {
+            color: rgb(239, 239, 239);
+        }
+        .historyTitle{
+            display:flex;
+            align-items:center;
+            flex: 0 0 56px;
+            color:rgba(0,0,0,0.9);
+            font-size:20px;
+            font-weight:600;
+            padding-left:24px;
+        }
+        .downIcon{
+           position: absolute;
+           width: 15px;
+           height:15px;
+           margin-bottom: -2px;
+        }
+        .downIcon svg {
+            display: block;
+            width: 15px;
+            height: 15px;
+        }
+        .downIcon svg path {
+            fill-opacity: 0.38;
+        }
+        .downIcon.isDarkMode svg path {
+            fill: #fff;
+            fill-opacity: 0.38;
+        }
+        .versionTitle{
+            display: inline-block;
+            font-size: 16px;
+            font-weight:500;
+            height: 48px;
+            line-height: 48px;
+            cursor: pointer;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            color: rgba(0, 0, 0, 0.6);
+        }
+        .cancel{
+            font-size:16px;
+            font-weight:600;
+            flex: 0 0 56px;
+            line-height: 48px;
+            color:#256fff;
+            text-align: center;
+            margin: 8px 16px 0;
+            cursor:pointer;
+            -webkit-tap-highlight-color: transparent; 
+            -webkit-touch-callout: none;
+        }
+        .cancelText{
+            display: inline-block;
+            width: 100%;
+            height:36px;
+            line-height:36px;
+            border-radius:18px;
+        }
+        .linkStyleBtn {
+            border: none;
+            background-color: transparent;
+            font-family: inherit;
+            font-size: 16px;
+            color: inherit;
+            font-weight: inherit;
+            cursor: pointer;
+        }
+        .historyList {
+          padding: 2px 24px;
+          flex: 1;
+          overflow-y: auto;
+        }
+        .versionBody{
+            -webkit-tap-highlight-color:rgba(0,0,0,0);
+        }
+        .versionBody:active {
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+        .versionWeb.isDarkMode .versionBody:active {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        html[dir=rtl] .historyTitle {
+            padding-left: 0;
+            padding-right: 24px;
+        }
+    </style>
+</head>
+<body id="bodyContainer">
+    <div id="container">
+        <div id="loading" class="loading"></div>
+        <div class="fileContent">
+             <h1 label="标题" style="margin: 0px; color: rgba(0, 0, 0, 0.9);"><img id="honor_privacy_logo" src="data:image/png;base64,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"/></h1><h1 label="标题" style="margin: 0px; color: rgba(0, 0, 0, 0.9);">关于服务支持推荐服务与隐私的声明</h1><h2 label="副标题" style="margin: 0px; color: rgba(0, 0, 0, 0.6);">发布日期：2022年01月19日</h2><p>为了向您提供更加丰富的功能服务，在您同意服务支持推荐服务用户协议的情况下，服务支持将向您提供推荐服务，为您推荐感兴趣的产品和内容。</p><ol class="custom_num1 list-paddingleft-1" style="list-style-type: num1;"><li class="list-num-2-1 list-num1-paddingleft-1"><p>我们如何收集和使用您的个人信息</p></li></ol><p>我们会根据合法、正当、必要、透明的原则，基于本声明所述的目的，收集和使用您的个人信息。如果我们将您的个人信息用于本声明未载明的其它用途，或基于其他特定目的而收集您的个人信息，我们将以合理的方式告知您，如需要获取您的同意，我们将在使用前征得您的同意。</p><p>为了向您提供推荐服务，履行我们的合同义务，荣耀将基于以下目的处理和使用您的个人信息：</p><ol class="custom_num2 list-paddingleft-1" style="list-style-type: num2;"><li class="list-num-3-1 list-num2-paddingleft-1"><p>向您推荐您感兴趣的内容</p></li></ol><p>我们基于您使用荣耀相关服务的信息与荣耀账号信息来帮助您发现更符合您的内容。例如，基于您之前在“服务支持”中的搜索、浏览、下载、更新或评论信息，推荐您可能感兴趣的内容。为了提供更好的内容推荐，我们还会使用与本应用相关的统计信息，此类信息将从用户体验改进计划处获取。</p><p>为了向您提供更加优质的用户体验，我们可能会将您的荣耀账号信息、交易信息、浏览信息、关注的信息和我们自行采集的用户个人信息进行关联并进行数据分析，用来向您展示您感兴趣的商品或服务。</p><p>在您使用“服务支持”应用期间，我们会收集您的设备标识符（OAID、SN），为您提供个性化的内容推送服务。</p><p>&nbsp;如果您不想收到这些推荐内容，您可以点击登录图标，选择“服务个人中心”&gt;“推荐服务”的设置中关闭您的相应的推荐服务开关，即可停用个性化推荐功能。</p><p>上述操作路径可能因不同版本而略有差异</p><ol class="custom_num1 list-paddingleft-1" style="list-style-type: num1;"><li class="list-num-2-1 list-num1-paddingleft-1"><p>对未成年人的保护</p></li></ol><p>本应用仅供成年人使用。如果您是未满14周岁的未成年人，需要您的父母或监护人同意您使用本应用并同意相关应用的服务条款。父母或监护人也应采取适当的预防措施来保护未成年人，包括监督其对本应用的使用。</p><ol class="custom_num1 list-paddingleft-1" style="list-style-type: num1;"><li class="list-num-2-1 list-num1-paddingleft-1"><p>管理您的数据</p></li></ol><ol class="custom_num2 list-paddingleft-1" style="list-style-type: num2;"><li class="list-num-3-1 list-num2-paddingleft-1"><p>行使您的拒绝权</p></li></ol><p>您可以点击登录图标，选择“服务个人中心”&gt;“停止服务”，勾选并停止相关服务。</p><p>您可以点击登录图标，选择“服务个人中心”&gt;“推荐服务”，取消勾选，关闭推荐服务。</p><p>上述操作路径可能因不同版本而略有差异。</p><p>如您对您的数据主体权利有进一步要求或存在任何疑问、意见或建议，可通过本声明中“如何联系我们”章节中所述方式与我们取得联系，并行使您的相关权利。</p><ol class="custom_num1 list-paddingleft-1" style="list-style-type: num1;"><li class="list-num-2-1 list-num1-paddingleft-1"><p>数据存储地点及期限</p></li></ol><p>上述信息将会传输并保存至中华人民共和国境内的服务器。</p><p>我们仅在实现本声明所述目的所必需的时间内保留您的个人信息，并在超出下述保留时间后删除或匿名化处理您的个人信息，除非法律法规另有要求。</p><p>您的设备标识符、荣耀账号信息将被保存两（2）年。但当进行统计分析用途时，您的加密后的设备标识符会加密传输并保存在服务器，存储期限为三（3）年。</p><p>此外，当我们的产品或服务发生停止运营的情形时，我们将以推送通知、公告等形式通知您，并在合理的期限内删除您的个人信息或进行匿名化处理。</p><ol class="custom_num1 list-paddingleft-1" style="list-style-type: num1;"><li class="list-num-2-1 list-num1-paddingleft-1"><p>如何联系我们</p></li></ol><p>我们设立了个人信息保护专职部门（或个人信息保护专员），如果您对您个人信息相关事宜有任何问题、意见或者建议，您可以通过访问<a href="https://www.honor.com/cn/privacy/feedback/" target="_blank" textvalue="隐私问题页面">隐私问题页面</a>联系我们，我们会尽快回复。</p><p>如果您对我们的回复不满意，特别是当我们的个人信息处理行为损害了您的合法权益时，您还可以通过向有管辖权的人民法院提起诉讼、向行业自律协会或政府相关管理机构投诉等外部途径进行解决。您也可以向我们了解可能适用的相关投诉途径的信息。</p><p>荣耀将始终遵照我们的隐私政策来收集和使用您的信息。有关我们的隐私政策，可参阅<a href="https://www.honor.com/cn/privacy/privacy-policy/" target="_blank" textvalue="隐私与个人信息保护政策">隐私与个人信息保护政策</a>。</p><p style="text-align: center;"><br/></p> <title></title>
+        </div>
+        <div class="versionPc">
+            <div class="historyTitlePc" onclick="showHistoryList()">
+                <span class="leftIcon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.6.1 9 7.6q-.15.15-.3 0L1.2.1Q.9-.05.6.1L.1.6q-.15.3 0 .6l7.5 7.5c.7.7 1.7.7 2.4 0l7.5-7.5c.1-.1.1-.4 0-.5L17 .2c-.1-.2-.3-.2-.4-.1" transform="translate(3.155 7.742)"/></svg></span>
+                <span>历史版本隐私声明</span>
+            </div>
+            <div class="historyListPc">
+                    <div class="versionTitlePc">
+                        版本20220118
+                    </div>
+            </div>
+        </div>
+        <div class="versionWeb">
+            <div class="historyTitle">
+                <span>历史版本隐私声明</span>
+            </div>
+            <div class="historyList">
+                    <div class="versionBody">
+                        <a href="#20220118" class="versionTitle">
+                            版本20220118
+                        </a>
+                    </div>
+            </div>
+            <div class="cancel" onclick="onCancel()">
+                <button class="cancelText linkStyleBtn">取消</button>
+            </div>
+        </div>
+        <div id="linkDiv" tabindex="-1">
+            <span id="linkText"></span>
+            <button type="button" class="btn" onclick="closeLink()">copy</button>
+        </div>
+        <div class="versionWebMask"></div>
+    </div>
+</body>
+<script>
+(function () {
+    function p(a, c) {
+        document.addEventListener
+            ? a.addEventListener("scroll", c, !1)
+            : a.attachEvent("scroll", c);
+    }
+    function u(a) {
+        document.body
+            ? a()
+            : document.addEventListener
+            ? document.addEventListener("DOMContentLoaded", function b() {
+                    document.removeEventListener("DOMContentLoaded", b);
+                    a();
+                })
+            : document.attachEvent("onreadystatechange", function g() {
+                    if (
+                        "interactive" == document.readyState ||
+                        "complete" == document.readyState
+                    )
+                        document.detachEvent("onreadystatechange", g), a();
+                });
+    }
+    function w(a) {
+        this.g = document.createElement("div");
+        this.g.setAttribute("aria-hidden", "true");
+        this.g.appendChild(document.createTextNode(a));
+        this.h = document.createElement("span");
+        this.i = document.createElement("span");
+        this.m = document.createElement("span");
+        this.j = document.createElement("span");
+        this.l = -1;
+        this.h.style.cssText =
+            "max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;";
+        this.i.style.cssText =
+            "max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;";
+        this.j.style.cssText =
+            "max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;";
+        this.m.style.cssText =
+            "display:inline-block;width:200%;height:200%;font-size:16px;max-width:none;";
+        this.h.appendChild(this.m);
+        this.i.appendChild(this.j);
+        this.g.appendChild(this.h);
+        this.g.appendChild(this.i);
+    }
+    function x(a, c) {
+        a.g.style.cssText =
+            "max-width:none;min-width:20px;min-height:20px;display:inline-block;overflow:hidden;position:absolute;width:auto;margin:0;padding:0;top:-999px;white-space:nowrap;font-synthesis:none;font:" +
+            c +
+            ";";
+    }
+    function B(a) {
+        var c = a.g.offsetWidth,
+            b = c + 100;
+        a.j.style.width = b + "px";
+        a.i.scrollLeft = b;
+        a.h.scrollLeft = a.h.scrollWidth + 100;
+        return a.l !== c ? ((a.l = c), !0) : !1;
+    }
+    function C(a, c) {
+        function b() {
+            var e = g;
+            B(e) && null !== e.g.parentNode && c(e.l);
+        }
+        var g = a;
+        p(a.h, b);
+        p(a.i, b);
+        B(a);
+    }
+    function D(a, c, b) {
+        c = c || {};
+        b = b || window;
+        this.family = a;
+        this.style = c.style || "normal";
+        this.weight = c.weight || "normal";
+        this.stretch = c.stretch || "normal";
+        this.context = b;
+    }
+    var E = null,
+        F = null,
+        G = null,
+        H = null;
+    function I(a) {
+        null === F &&
+            (M(a) && /Apple/.test(window.navigator.vendor)
+                ? ((a = /AppleWebKit\/([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))/.exec(
+                        window.navigator.userAgent
+                    )),
+                    (F = !!a && 603 > parseInt(a[1], 10)))
+                : (F = !1));
+        return F;
+    }
+    function M(a) {
+        null === H && (H = !!a.document.fonts);
+        return H;
+    }
+    function N(a, c) {
+        var b = a.style,
+            g = a.weight;
+        if (null === G) {
+            var e = document.createElement("div");
+            try {
+                e.style.font = "condensed 100px sans-serif";
+            } catch (q) {}
+            G = "" !== e.style.font;
+        }
+        return [b, g, G ? a.stretch : "", "100px", c].join(" ");
+    }
+    D.prototype.load = function (a, c) {
+        var b = this,
+            g = a || "BESbswy",
+            e = 0,
+            q = c || 3e3,
+            J = new Date().getTime();
+        return new Promise(function (K, L) {
+            if (M(b.context) && !I(b.context)) {
+                var O = new Promise(function (r, t) {
+                        function h() {
+                            new Date().getTime() - J >= q
+                                ? t(Error("" + q + "ms timeout exceeded"))
+                                : b.context.document.fonts
+                                        .load(N(b, '"' + b.family + '"'), g)
+                                        .then(function (n) {
+                                            1 <= n.length ? r() : setTimeout(h, 25);
+                                        }, t);
+                        }
+                        h();
+                    }),
+                    P = new Promise(function (r, t) {
+                        e = setTimeout(function () {
+                            t(Error("" + q + "ms timeout exceeded"));
+                        }, q);
+                    });
+                Promise.race([P, O]).then(function () {
+                    clearTimeout(e);
+                    K(b);
+                }, L);
+            } else
+                u(function () {
+                    function r() {
+                        var d;
+                        if (
+                            (d =
+                                (-1 != k && -1 != l) ||
+                                (-1 != k && -1 != m) ||
+                                (-1 != l && -1 != m))
+                        )
+                            (d = k != l && k != m && l != m) ||
+                                (null === E &&
+                                    ((d = /AppleWebKit\/([0-9]+)(?:\.([0-9]+))/.exec(
+                                        window.navigator.userAgent
+                                    )),
+                                    (E =
+                                        !!d &&
+                                        (536 > parseInt(d[1], 10) ||
+                                            (536 === parseInt(d[1], 10) &&
+                                                11 >= parseInt(d[2], 10))))),
+                                (d =
+                                    E &&
+                                    ((k == y && l == y && m == y) ||
+                                        (k == z && l == z && m == z) ||
+                                        (k == A && l == A && m == A)))),
+                                (d = !d);
+                        d &&
+                            (null !== f.parentNode && f.parentNode.removeChild(f),
+                            clearTimeout(e),
+                            K(b));
+                    }
+                    function t() {
+                        if (new Date().getTime() - J >= q)
+                            null !== f.parentNode && f.parentNode.removeChild(f),
+                                L(Error("" + q + "ms timeout exceeded"));
+                        else {
+                            var d = b.context.document.hidden;
+                            if (!0 === d || void 0 === d)
+                                (k = h.g.offsetWidth),
+                                    (l = n.g.offsetWidth),
+                                    (m = v.g.offsetWidth),
+                                    r();
+                            e = setTimeout(t, 50);
+                        }
+                    }
+                    var h = new w(g),
+                        n = new w(g),
+                        v = new w(g),
+                        k = -1,
+                        l = -1,
+                        m = -1,
+                        y = -1,
+                        z = -1,
+                        A = -1,
+                        f = document.createElement("div");
+                    f.dir = "ltr";
+                    x(h, N(b, "sans-serif"));
+                    x(n, N(b, "serif"));
+                    x(v, N(b, "monospace"));
+                    f.appendChild(h.g);
+                    f.appendChild(n.g);
+                    f.appendChild(v.g);
+                    b.context.document.body.appendChild(f);
+                    y = h.g.offsetWidth;
+                    z = n.g.offsetWidth;
+                    A = v.g.offsetWidth;
+                    t();
+                    C(h, function (d) {
+                        k = d;
+                        r();
+                    });
+                    x(h, N(b, '"' + b.family + '",sans-serif'));
+                    C(n, function (d) {
+                        l = d;
+                        r();
+                    });
+                    x(n, N(b, '"' + b.family + '",serif'));
+                    C(v, function (d) {
+                        m = d;
+                        r();
+                    });
+                    x(v, N(b, '"' + b.family + '",monospace'));
+                });
+        });
+    };
+    "object" === typeof module
+        ? (module.exports = D)
+        : ((window.FontFaceObserver = D),
+            (window.FontFaceObserver.prototype.load = D.prototype.load));
+})();
+</script>
+<script>
+    var agrNo = 1096;
+    var country = "cn";
+    var branchId = 0;
+    var language = "zh-cn";
+    var categoryId = 0;
+    var historyDisplay = false;
+    var myZgBase64Font = "";
+    var kmKhBase64Font = "";
+    let versionWeb=document.getElementsByClassName("versionWeb")[0];
+    let versionPc=document.getElementsByClassName("versionPc")[0];
+    let cancelText=document.getElementsByClassName("cancelText")[0];
+    let fileContentEle = document.getElementsByClassName('fileContent')[0];
+    let mobileAgent = /(Mobile|Android|iPhone|SymbianOS|BlackBerry|Windows Phone|iPad|iPod)/i.test(navigator.userAgent)
+    let isClientTypeApk = location.href.indexOf("clientType=apk") !== -1;
+    const [DARK_WORD, LIGHT_WORD, GRAY_WORD] = ['dark', 'light', 'gray'];
+    const TYPE_LIST = [DARK_WORD, LIGHT_WORD, GRAY_WORD];
+    const [DARK_BG, LIGHT_BG, INFO_BG] = ["#000000", "#FFFFFF", "#F2F3F6"];
+    const THEME_SET = new Map([
+        [DARK_WORD, DARK_BG],
+        [LIGHT_WORD, LIGHT_BG],
+        [GRAY_WORD, INFO_BG]
+    ]);
+    let themeType = LIGHT_WORD;
+    let lastThemeName = '';
+    try {
+        let lastIndexThemeName = window.location.href.lastIndexOf('themeName');
+        lastThemeName = lastIndexThemeName !== -1 ? window.location.href.slice(lastIndexThemeName).split('&')[0].replace(/#.*/, '').split('=')[1] : '';
+    } catch (err) {
+        lastThemeName = '';
+        let paramSet = window.location.search.slice(1).split('&');
+        for (let i = paramSet.length - 1; i >= 0; i--) {
+            let keyValue = paramSet[i].split('=');
+            if (keyValue[0] === 'themeName') {
+                lastThemeName = keyValue[1];
+                break;
+            }
+        }
+    }
+    let isDarkTheme = lastThemeName === DARK_WORD;
+    if (isDarkTheme) {
+        themeType = DARK_WORD;
+    } else if (location.href.indexOf("bgColor=gray") >= 0) {
+        themeType = GRAY_WORD;
+        versionPc.style.backgroundColor = getThemeColor(themeType);
+    }
+    let loadingEle = document.getElementById('loading');
+    document.body.style.backgroundColor = getThemeColor(themeType);
+    document.body.setAttribute('style', document.body.getAttribute('style') + ';--custom-bg-color:' + getThemeColor(themeType) + ';')
+    loadingEle && (loadingEle.style.backgroundColor = getThemeColor(themeType));
+    if (categoryId === 6 && !isDarkTheme) {
+        document.body.style.backgroundColor = INFO_BG;
+        document.body.setAttribute('style', document.body.getAttribute('style') + ';--custom-bg-color:' + INFO_BG + ';')
+        loadingEle && (loadingEle.style.backgroundColor = INFO_BG);
+    }
+    function getThemeColor(themeType) {
+        return isDarkTheme ? DARK_BG : (categoryId === 6) ? INFO_BG : !TYPE_LIST.includes(themeType) ? LIGHT_BG : THEME_SET.get(themeType);
+    }
+    if (myZgBase64Font) {
+        let styleEle = document.createElement('style');
+        const styleContent = "@font-face { font-family: MY_ZG; src: url(data:font/truetype;charset=utf-8;base64," + myZgBase64Font + ") format('truetype'); } body, * { font-family: MY_ZG !important; }";
+        styleEle.textContent = styleContent;
+        document.head.appendChild(styleEle);
+    }    
+    if (kmKhBase64Font) {
+        let styleEle = document.createElement('style');
+        const styleContent = "@font-face { font-family: KM_KH; src: url(data:font/truetype;charset=utf-8;base64," + kmKhBase64Font + ") format('truetype'); } body, * { font-family: KM_KH !important; }";
+        styleEle.textContent = styleContent;
+        document.head.appendChild(styleEle);
+    }
+    window.nativeTipBarGetPaddingCallback = function(paddingResult) {
+        if (paddingResult) {
+            try {
+                let padding = JSON.parse(paddingResult);
+                let pb = typeof padding.paddingBottom === 'number' ? padding.paddingBottom + 'px' : '0px';
+                document.documentElement.style.setProperty('--native-tip-bar-padding-bottom', pb);
+            } catch (e) {
+                console.log('getNativeTipBarPadding parse error:', e);
+            }
+        }
+    };
+    function fetchNativeTipBarPadding() {
+        if (window.webLoader && typeof window.webLoader.getNativeTipBarPadding === 'function') {
+            let paddingResultSync = window.webLoader.getNativeTipBarPadding();
+            // 兼容老的 APK 端版本
+            window.nativeTipBarGetPaddingCallback(paddingResultSync);
+        }
+    }
+    fetchNativeTipBarPadding();
+    window.addEventListener('resize', fetchNativeTipBarPadding, false);
+    loadStyle();
+    function isIOS() {
+        const userAgent = navigator.userAgent;
+        const platform = navigator.platform;
+        if (/iPhone|iPod|iPad/.test(userAgent) && !window.MSStream) {
+            return true;
+        }
+        if (/Macintosh/.test(userAgent) && navigator.maxTouchPoints && navigator.maxTouchPoints >= 1) {
+            return true;
+        }
+        if (platform.includes('Mac') || userAgent.includes('Macintosh')) {
+            return true;
+        }
+        return false;
+    }
+    if (!isIOS()) {
+        let HYQiHei = new FontFaceObserver('HYQiHei-55S');
+        HYQiHei && HYQiHei.load(null, 2000).then(() => {
+            console.log('字体加载ing')
+            HYQiHei = null;
+        }).catch(() => {
+            console.log('字体加载出错')
+        }).finally(() => {
+            resetListCounter();
+            console.log('字体加载结束')
+            setTimeout(() => {
+                loadingEle.setAttribute('style', 'display:none !important;position:absolute !important;z-index:-99999 !important;opacity:0 !important;');
+            }, 100);
+        });
+    } else {
+        resetListCounter();
+        setTimeout(() => {
+            loadingEle.setAttribute('style', 'display:none !important;position:absolute !important;z-index:-99999 !important;opacity:0 !important;');
+        }, 400);
+    }
+    if(['zh-cn','zh-hk','zh-tw'].includes(language)){
+        fileContentEle.classList.add('fileContentZh');
+    } else {
+        fileContentEle.classList.add('fileContentEn');
+    }
+    if (isDarkTheme) {
+        document.body.classList.add('isDarkMode');
+    }
+    let privacyLogo = document.getElementById("honor_privacy_logo");
+    if (privacyLogo) {
+        let privacyLogoSrc = privacyLogo.getAttribute('src');
+        if (isDarkTheme) {
+            privacyLogo.src = "../image/honor_dark_header.svg"
+            versionWeb.classList.add('isDarkMode');
+        } else {
+            privacyLogo.src = "../image/honor_white_header.svg"
+        }
+    }
+    let userAgreementLogo = document.getElementById("user_agreement_logo");
+    if (userAgreementLogo) {
+        let userAgreementLogoSrc = userAgreementLogo.getAttribute('src');
+        if (isDarkTheme) {
+            userAgreementLogo.src = "../image/user_agreement_dark.svg"
+        } else {
+            userAgreementLogo.src = "../image/user_agreement_light.svg"
+        }
+    }
+    changeMoreClass()
+    changeOlStyle()
+    function changeMoreClass() {
+        let moreBtnEle = document.getElementsByClassName('more')[0];
+        if (moreBtnEle) {
+            moreBtnEle.style.display= "";
+            moreBtnEle.style.textAlign= "center";
+            moreBtnEle.style.margin= "0px";
+            moreBtnEle.style.color= "rgba(0, 0, 0, 0.9)";
+        }
+    }
+    const TAB_FOCUS_TAG = ['a', 'button', 'input', 'textarea', 'select'];
+    const ALL_FOCUS_ELE = TAB_FOCUS_TAG.map(tag => Array.from(document.getElementsByTagName(tag))).flat();
+    const VERSION_WEB_FOCUS_ELE = TAB_FOCUS_TAG.map(tag => Array.from(versionWeb.getElementsByTagName(tag))).flat();
+    function addHistoryIcon(){
+        if (historyDisplay){
+            let h2s = document.getElementsByTagName("h2");
+            if(h2s.length>0){
+              const h2Ele = h2s[0];
+              h2Ele.innerHTML = h2Ele.innerHTML.replace(/\<br\s?\/?\>/g, '');
+              let icon = document.createElement("span");
+              icon.classList.add('downIcon');
+              icon.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.6.1 9 7.6q-.15.15-.3 0L1.2.1Q.9-.05.6.1L.1.6q-.15.3 0 .6l7.5 7.5c.7.7 1.7.7 2.4 0l7.5-7.5c.1-.1.1-.4 0-.5L17 .2c-.1-.2-.3-.2-.4-.1" transform="translate(3.155 7.742)"/></svg>';
+              let container = document.getElementById('container');
+                if(isDarkTheme){
+                    icon.classList.add('isDarkMode');
+                    container.classList.add('isDarkMode');
+                }else{
+                    container.classList.remove('isDarkMode');
+                }
+                h2s[0].appendChild(icon);
+                h2s[0].addEventListener("click",function(){
+                    versionWeb.classList.add('isDisplay');
+                    container && container.classList.add('isDisplay');
+                    document.body.style.overflowY = "hidden";
+                    if(isDarkTheme){
+                        versionWeb.classList.add('isDarkMode');
+                    }else{
+                        versionWeb.classList.remove('isDarkMode');
+                    }
+                    Array.from(document.getElementsByClassName("versionBody")).forEach(function(ele) {
+                        ele.style.backgroundColor = "";
+                    });
+                    ALL_FOCUS_ELE.forEach(ele => ele.setAttribute('tabindex', -1));
+                    VERSION_WEB_FOCUS_ELE.forEach(ele => ele.setAttribute('tabindex', 0));
+                    fileContentEle.setAttribute('aria-hidden', true);
+                })
+            }
+            }
+            let versionBody = document.getElementsByClassName("versionBody");
+            if(versionBody.length>0){
+                for (let item = 0; item < versionBody.length; item++) {
+                    versionBody[versionBody.length-1].style["border"]="none"
+                    versionBody[item].onclick=function(e){
+                        e.preventDefault();
+                        let url = "https://agreement.itsec.honor.com/asm/agrFile/getHtmlFile" + "?agrNo=" + agrNo + "&country=" + country + "&branchId=" + branchId + "&version=" + e.target.innerText.substr(-8) + "&langCode=" + language;
+                        if (themeType === GRAY_WORD) {
+                            url += "&bgColor=" + themeType
+                        } else {
+                            url += "&themeName=" + themeType
+                        }
+                        document.body.style.backgroundColor = getThemeColor(themeType);
+                        versionWeb.classList.remove('isDisplay');
+                        let container = document.getElementById('container');
+                        container && container.classList.remove('isDisplay');
+                        document.body.style.overflowY = "scroll";
+                        ALL_FOCUS_ELE.forEach(ele => ele.setAttribute('tabindex', 0));
+                        fileContentEle.setAttribute('aria-hidden', false);
+                        window.location.href = url;
+                    }
+                }
+            }
+    }
+    function onCancel(){
+        cancelText.onmouseover=function(e){
+            if(isDarkTheme){
+                e.target.style.backgroundColor = "rgb(38,38,38)";
+            }else{
+                e.target.style.backgroundColor = LIGHT_BG;
+            }
+        }
+        cancelText.onmouseout=function(e){
+            e.target.style.backgroundColor = getThemeColor(themeType);
+        }
+        cancelText.onclick=function(e){
+            e.target.style.backgroundColor = getThemeColor(themeType);
+        }
+        versionWeb.classList.remove('isDisplay');
+        let container = document.getElementById('container');
+        container && container.classList.remove('isDisplay');
+        document.body.style.overflowY = "scroll";
+        ALL_FOCUS_ELE.forEach(ele => ele.setAttribute('tabindex', 0));
+        fileContentEle.setAttribute('aria-hidden', false);
+    }
+    function addHistoryPc(){
+        let versionPc = document.getElementsByClassName('versionPc')[0];
+        let historyTitlePc = document.getElementsByClassName('historyTitlePc')[0];
+        let historyListPc = document.getElementsByClassName("historyListPc")[0];
+        let versionTitleList=document.getElementsByClassName("versionTitlePc");
+        let versionNum = getParam("version");
+        Array.from(versionTitleList).forEach(ele => {
+          if (ele.innerText.replace(/\D/ig, '') === versionNum) {
+            ele.classList.add('isActive');
+          } else {
+            ele.classList.remove('isActive');
+          }
+        });
+        let leftIcon = document.getElementsByClassName("leftIcon")[0];
+        if(isDarkTheme){
+            versionPc && versionPc.classList.add('isDarkMode');
+            historyTitlePc && historyTitlePc.classList.add('isDarkMode');
+            historyListPc && historyListPc.classList.add('isDarkMode');
+            Array.from(versionTitleList).forEach(ele => {
+              ele.classList.add('isDarkMode');
+            })
+            leftIcon.classList.add('isDarkMode');
+        }else{
+            versionPc && versionPc.classList.remove('isDarkMode');
+            historyTitlePc && historyTitlePc.classList.remove('isDarkMode');
+            historyListPc && historyListPc.classList.remove('isDarkMode');
+            Array.from(versionTitleList).forEach(ele => {
+              ele.classList.remove('isDarkMode');
+            })
+            leftIcon.classList.remove('isDarkMode');
+        }
+        if (historyDisplay) {
+            versionPc && versionPc.classList.add('isDisplay');
+        }else{
+            versionPc && versionPc.classList.remove('isDisplay');
+        }
+    }
+    function showHistoryList(){
+        let historyListPc = document.getElementsByClassName("historyListPc")[0];
+        let leftIcon = document.getElementsByClassName("leftIcon")[0];
+        historyListPc.classList.toggle('isDisplay');
+        leftIcon.classList.toggle('isDisplay');
+
+        historyListPc.addEventListener('click', event => {
+          let targetEle = event.target;
+          if (targetEle.className.includes('versionTitlePc')) {
+            let url = "https://agreement.itsec.honor.com/asm/agrFile/getHtmlFile" + "?agrNo=" + agrNo + "&country=" + country + "&branchId=" + branchId
+                + "&version=" + targetEle.innerText.substr(-8) + "&langCode=" + language;
+            document.body.style.backgroundColor = getThemeColor(themeType);
+            if (themeType === GRAY_WORD) {
+                url = url + "&bgColor=gray";
+            } else {
+                url = url + "&themeName=" + themeType;
+            }
+            window.location.replace(url);
+          }
+        });
+    }
+    let moreDivs = document.getElementsByClassName("more");
+    if (moreDivs && moreDivs.length>0) {
+        let div = moreDivs[0];
+        if (div) {
+            div.innerText = div.innerText.toUpperCase().charAt(0) + div.innerText.toLowerCase().slice(1);
+            let needReadMore = false;
+            if (window.hicareJsInterface && window.hicareJsInterface.needReadMore) {
+                needReadMore = window.hicareJsInterface.needReadMore();
+            }
+            if (needReadMore) {
+                div.style.display = "block";
+                if (isDarkTheme) {
+                    div.style.color = "#256fff";
+                }
+            } else {
+                div.style.display = "none";
+            }
+        }
+    }
+    function showMore() {
+        if (window.hicareJsInterface && window.hicareJsInterface.jumpOOBE) {
+            window.hicareJsInterface.jumpOOBE();
+        }
+    }
+    function loadCssResource(url, callbackSet) {
+        let link = document.createElement("link");
+        link.setAttribute("type", "text/css");
+        link.setAttribute("rel", "stylesheet");
+        link.setAttribute("href", url);
+        link.onload = function () {
+          callbackSet.forEach(cb => cb());
+          setTimeout(() => {
+            this.onload = null;
+          }, 20);
+        }
+        link.onerror = function() {
+          callbackSet.forEach(cb => cb());
+        }
+        document.head.appendChild(link);
+    }
+    function getParam(name) {
+        var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)');
+        var hrefPart = window.location.href.split('?');
+        var r = hrefPart[1] ? hrefPart[1].match(reg) : null;
+        if (r != null) {
+            return r[2]
+        }
+        return ''
+    }
+    var linkUrl;
+    function closeLink(){
+        let oInput = document.createElement('input')
+        oInput.value = linkUrl
+        document.body.appendChild(oInput)
+        oInput.select()
+        document.execCommand('Copy')
+        oInput.remove()
+        document.getElementById("linkDiv").style.display = "none";
+    }
+    function appletLink(){
+        if (/MicroMessenger/i.test(navigator.userAgent)) {
+            //判断是是否微信客户端
+            var script = document.createElement("script");
+            script.setAttribute("type", "text/javascript");
+            script.setAttribute("src", "https://res.wx.qq.com/open/js/jweixin-1.6.0.js");
+            script.onload = function () {
+                //判断是否微信小程序
+                wx.miniProgram.getEnv((res)=>{
+                    if(res.miniprogram){
+                        appletLinkJump()
+                    }
+                })
+            }
+            document.head.appendChild(script);
+        }else if(/AlipayClient/.test(navigator.userAgent)){
+            //判断是是否支付宝客户端
+            var script = document.createElement("script");
+            script.setAttribute("type", "text/javascript");
+            script.setAttribute("src", "https://appx/web-view.min.js");
+            script.onload = function () {
+                //判断是否支付宝小程序
+                 my.getEnv((res)=>{
+                     if(res.miniprogram){
+                        appletLinkJump()
+                     }
+                 })
+            }
+            document.head.appendChild(script);
+        }else{
+            darkLinkJump()
+        }
+    }
+    function appletLinkJump(){
+         let list = document.getElementsByTagName("a");
+         let remainList = document.querySelectorAll('.span-parent>a');
+         let historyList = document.querySelectorAll('.historyList a');
+         let remainArr = Array.from(remainList).concat(Array.from(historyList));
+         let aList=Array.from(list).filter(el => !remainArr.includes(el))
+         let linkDiv=document.getElementById("linkDiv")
+         for(let i=0;i<aList.length;i++){
+            aList[i].onclick=function(event){
+              linkUrl = aList[i].getAttribute('href');
+              if(linkUrl.indexOf('hihonor.com')===-1 && linkUrl.indexOf('honor.com')===-1 && linkUrl.indexOf('mailto:')===-1 && !/^#.+/ig.test(linkUrl)){
+                  event.stopImmediatePropagation();
+                  event.preventDefault();
+                  linkDiv.style.display = "block"
+                  let linkDivLeft = event.pageX - 130;
+                  linkDivLeft = Math.max(30, linkDivLeft);
+                  linkDivLeft = Math.min(linkDivLeft, (screen?screen.width:document.documentElement.clientWidth) - 260 - 30);
+                  linkDiv.style.left=linkDivLeft+'px'
+                  linkDiv.style.top=(event.pageY + 7)+'px'
+                  document.getElementById("linkText").innerText="点击复制按钮可复制链接至浏览器打开"
+                  document.addEventListener('click', function (event) {
+                    if(!linkDiv.contains(event.target)) {
+                      linkDiv.style.display = "none"
+                    }
+                  });
+              }
+              if (includesUrl(linkUrl) && !/^#.+/ig.test(linkUrl)) {
+                const HASH_VALUE = aList[i].hash;
+                const WITHOUT_HASH = linkUrl.replace(new RegExp(HASH_VALUE + "$", "i"), "");
+                if (isDarkTheme) {
+                  aList[i].setAttribute('href', WITHOUT_HASH + "&themeName=" + themeType + HASH_VALUE)
+                } else if (location.href.indexOf("bgColor=gray") >= 0) {
+                  aList[i].setAttribute('href', WITHOUT_HASH + "&bgColor=" + themeType + HASH_VALUE)
+                }
+              }
+            }
+         }
+    }
+    function darkLinkJump(){
+        let allLinks = document.getElementsByTagName('a');
+        let excludeList = new Set([
+            ...document.querySelectorAll('.span-parent>a'),
+            ...document.querySelectorAll('a.no-dark'),
+            ...document.querySelectorAll('a.versionTitle'),
+            ...document.querySelectorAll('.pdf-download>a')
+        ]);
+        let aList = Array.from(allLinks).filter(el => !excludeList.has(el));
+        aList.forEach((aEle) => {
+            aEle.addEventListener('click',function(e){
+                if(mobileAgent&&this.getAttribute("data-mytarget")!="_blank"){
+                    this.target = "_self"
+                }
+                let param = '';
+                if (themeType === GRAY_WORD) {
+                    param = "bgColor=" + themeType
+                } else {
+                    param = "themeName=" + themeType
+                }
+                if (themeType !== LIGHT_WORD && includesUrl(aEle.href) && !(aEle.href.includes(param)) && !/^#.+/ig.test(aEle.getAttribute('href'))) {
+                    const HASH_VALUE = aEle.hash;
+                    const WITHOUT_HASH = aEle.href.replace(new RegExp(HASH_VALUE + "$", "i"), "");
+                    aEle.href = WITHOUT_HASH.concat("&" + param, HASH_VALUE);
+                }
+                if (isClientTypeApk && !(aEle.href.includes("clientType=apk")) && includesUrl(aEle.href) && !/^#.+/ig.test(aEle.getAttribute('href'))) {
+                    const HASH_VALUE = aEle.hash;
+                    const WITHOUT_HASH = aEle.href.replace(new RegExp(HASH_VALUE + "$", "i"), "");
+                    aEle.href = WITHOUT_HASH.concat("&clientType=apk", HASH_VALUE);
+                }
+            })
+        });
+    }
+        function includesUrl(url) {
+            if (Object.prototype.toString.apply(url).slice(8, -1) === 'String') {
+                const PROD_ORIGIN_SET = [
+                    'agreement.itsec.hihonor.com/asm/agrFile/getHtmlFile',
+                    'apigw.yun.hihonor.com/api/ams/asm/agrFile/getHtmlFile',
+                    'apig.hihonor.com/api/ams/asm/agrFile/getHtmlFile',
+                    'agreement.itsec.honor.com/asm/agrFile/getHtmlFile',
+                    'apigw.yun.honor.com/api/ams/asm/agrFile/getHtmlFile'
+                ]
+                return !!(PROD_ORIGIN_SET.find(item => url.includes(item)));
+            }
+            return false;
+        }
+    function changeOlStyle() {
+        if (isIOS()) {
+            fileContentEle.classList.add('fileContentIos');
+            document.documentElement.classList.add('isIOS');
+        }
+    }
+    function loadStyle() {
+        let fileContent=document.getElementsByClassName('fileContent')[0];
+        const [WAP_FONT_STYLE, IFRAME_FONT_STYLE, PC_FONT_STYLE] = ['../css/agreement_WAP.css', '../css/iframe.css', '../css/agreement_PC.css'];
+        const CLIENT_TYPE = getParam("clientType");
+        setDoubleSubTitleClass()
+        if (CLIENT_TYPE === "wap") {
+            loadCssResource(WAP_FONT_STYLE, [darkLinkJump, addHistoryIcon, showFileContent])
+        }else if(CLIENT_TYPE === "apk"){
+            loadCssResource(IFRAME_FONT_STYLE, [addHistoryIcon, appletLink, showFileContent])
+        }else{
+            if (mobileAgent || (CLIENT_TYPE === "applet")) {
+                loadCssResource(IFRAME_FONT_STYLE, [addHistoryIcon, appletLink, showFileContent])
+            } else {
+                loadCssResource(PC_FONT_STYLE, [darkLinkJump, addHistoryPc, showFileContent])
+            }
+        }
+    }
+    function setDoubleSubTitleClass(){
+        let h2s = document.getElementsByTagName("h2");
+        if(h2s.length>1 && h2s[0].nextSibling===h2s[1]){
+            h2s[0].classList.add('compact')
+        }
+    }
+    function showFileContent(element) {
+      let fileContent = element;
+      if (!fileContent) {
+        fileContent = document.getElementsByClassName('fileContent')[0];
+      }
+      fileContent.classList.add('isDisplay');
+    }
+    function resetListCounter() {
+        const listSet = Array.from(
+            document.getElementsByClassName("list-paddingleft-1")
+        );
+        const primaryList = listSet.filter(item => {
+            return item.className.search("(custom_num1|custom_num2|custom_cn|custom_cn1)") !== -1 && item.className.search("custom_cn2") === -1;
+        });
+        try {
+            let itemSet = [];
+            primaryList.forEach((ele, idx) => {
+                if (ele.className.search("custom_num1") !== -1) {
+                    itemSet && itemSet.push({"level_1": ele});
+                    let currentLast = itemSet && itemSet.length - 1;
+                    itemSet && !itemSet[currentLast].childs && (itemSet[currentLast].childs = []);
+                } else if (ele.className.search("custom_num2") !== -1) {
+                    let currentLast = itemSet.length - 1;
+                    let ST = itemSet[currentLast];
+                    let STC = ST && ST.childs;
+                    STC && STC.push({"level_2": ele});
+                    STC && !STC[STC.length - 1].childs && (STC[STC.length - 1].childs = [])
+                } else if (ele.className.search("custom_cn") !== -1 && ele.className.search("custom_cn1") === -1 && ele.className.search("custom_cn2") === -1) {
+                    let currentLast = itemSet.length - 1;
+                    let ST = itemSet[currentLast];
+                    let STC = ST && ST.childs[ST.childs.length - 1] && ST.childs[ST.childs.length - 1].childs;
+                    STC && STC.push({"level_3": ele});
+                    STC && !STC[STC.length - 1].childs && (STC[STC.length - 1].childs = []);
+                } else if (ele.className.search("custom_cn1") !== -1) {
+                    let currentLast = itemSet.length - 1;
+                    let ST = itemSet[currentLast];
+                    let STC = ST && ST.childs[ST.childs.length - 1] && ST.childs[ST.childs.length - 1].childs[ST.childs[ST.childs.length - 1].childs.length - 1] && ST.childs[ST.childs.length - 1].childs[ST.childs[ST.childs.length - 1].childs.length - 1].childs;
+                    STC && STC.push({"level_4":ele})
+                }
+            });
+            let level1Count = 0;
+            itemSet.forEach((ele, idx) => {
+                Array.from(ele.level_1.children).forEach((eleChild, eleIdx) => {
+                    eleChild.setAttribute(
+                        "style",
+                        "counter-reset: section1 " +
+                            level1Count +
+                            ";" +
+                            eleChild.getAttribute("style")
+                    );
+                    level1Count++;
+                });
+                let level2Count = 0;
+                ele.childs.forEach((level2, idx2) => {
+                    Array.from(level2.level_2.children).forEach((level2Child, level2Idx) => {
+                        level2Child.setAttribute(
+                            "style",
+                            "counter-reset: section1 " +
+                                level1Count +
+                                " subsection " +
+                                level2Count +
+                                ";" +
+                                level2Child.getAttribute("style")
+                        );
+                        level2Count++;
+                    });
+                    let level3Count = 0;
+                    level2.childs.forEach((level3, idx3) => {
+                        Array.from(level3.level_3.children).forEach((level3Child, level3Idx) => {
+                            level3Child.setAttribute(
+                                "style",
+                                "counter-reset: section1 " +
+                                    level1Count +
+                                    " subsection " +
+                                    level2Count +
+                                    " section2 " +
+                                    level3Count +
+                                    ";" +
+                                    level3Child.getAttribute("style")
+                            );
+                            level3Count++;
+                        });
+                        let level4Count = 0;
+                        level3.childs.forEach((level4, idx4) => {
+                            Array.from(level4.level_4.children).forEach(
+                                (level4Child, level4Idx) => {
+                                    level4Child.setAttribute(
+                                        "style",
+                                        "counter-reset: section1 " +
+                                            level1Count +
+                                            " subsection " +
+                                            level2Count +
+                                            " section2 " +
+                                            level3Count +
+                                            " section3 " +
+                                            level4Count +
+                                            ";" +
+                                            level4Child.getAttribute("style")
+                                    );
+                                    level4Count++;
+                                }
+                            );
+                        });
+                    });
+                });
+            });
+            const time1 = window.performance.now();
+        } catch (err) {
+            console.error("列表使用错误，请规范嵌套使用一、二、三、四级列表");
+        }
+    }
+    try {
+        const FALSEY_SET = ['', null, undefined];
+        const IMG_TAG_SET = ['img', 'picture', 'svg', 'canvas', 'object', 'embed', 'iframe'];
+        const IMAGE_SET = IMG_TAG_SET.map(tag => Array.from(document.getElementsByTagName(tag))).flat();
+        IMAGE_SET.forEach(ele => {
+            if (FALSEY_SET.includes(ele.getAttribute('alt')) && FALSEY_SET.includes(ele.getAttribute('aria-label')) && FALSEY_SET.includes(ele.getAttribute('aria-labelledby'))) {
+                ele.setAttribute('aria-hidden', true)
+            }
+        });
+        const TABLE_SET = Array.from(document.getElementsByTagName('table'));
+        if (TABLE_SET && TABLE_SET.length) {
+            TABLE_SET.forEach(table => {
+                table.setAttribute('style', table.getAttribute('style').replace(/(margin\:\s*0\s*)(\!important)/gi, '$1'))
+            })
+        }
+    } catch (err) {
+        console.error("SET ATTRIBUTE ARIA-HIDDEN ERROR", err);
+    }
+    try {
+        let ignoreUnorderLists = Array.from(document.getElementsByClassName('custom_cn2'));
+        ignoreUnorderLists.forEach(olEle => {
+            let olChilds = Array.from(olEle.children);
+            let spanEle = document.createElement('span');
+            spanEle && spanEle.classList && spanEle.classList.add('custom-unordered');
+            spanEle && spanEle.classList && spanEle.setAttribute('aria-hidden', true);
+            spanEle.textContent = "•";
+            olChilds.forEach(liEle => {
+                let liChilds = Array.from(liEle.children);
+                let linkSet = liEle.getElementsByTagName('a');
+                if (!linkSet.length) {
+                    liEle.setAttribute('aria-label', liEle.textContent);
+                    let otherTags = Array.from(liEle.querySelectorAll('strong, em'));
+                    otherTags.forEach(node => {
+                        !['true', 'false', ''].includes(node.getAttribute('aria-hidden')) && node.setAttribute('aria-hidden', true);
+                    })
+                }
+                liEle.prepend(spanEle.cloneNode(true));
+            })
+        })
+    } catch (err) {
+        console.error("IGNORE MEANINGLESS ERROR", err);
+    }
+    try {
+        let ignoreOrderLists = Array.from(document.getElementsByClassName('custom_num1'));
+        ignoreOrderLists.forEach(ulEle => {
+            let ulChilds = Array.from(ulEle.children);
+            ulChilds.forEach(liEle => {
+                let paragraphEle = liEle.getElementsByTagName('p')[0];
+                paragraphEle && paragraphEle.removeAttribute('id');
+                let anchorNodes = Array.from(liEle.getElementsByTagName('a'));
+                anchorNodes[0] && liEle.setAttribute('id', anchorNodes[0].getAttribute('name'));
+                anchorNodes.forEach(anchorEle => {
+                    anchorEle && anchorEle.remove();
+                })
+            })
+        })
+    } catch (err) {
+        console.log("IGNORE ORDERED ERROR", err)
+    }
+    try {
+        let ignoreParagraphs = Array.from(document.querySelectorAll('.fileContent > p, .custom_cn2 p'));
+        ignoreParagraphs = ignoreParagraphs.filter(paragraphELe => {
+            let hasImg = paragraphELe.getElementsByTagName('img').length;
+            let emptyNode = paragraphELe.innerText.trim() === '';
+            return !hasImg && !emptyNode;
+        })
+        ignoreParagraphs.forEach(paragraphELe => {
+            if (!paragraphELe.getElementsByClassName('span-parent').length) {
+                let linkSet = paragraphELe.getElementsByTagName('a');
+                if (linkSet.length) {
+                    let hasOtherTag = paragraphELe.querySelectorAll('strong, em').length;
+                    if (hasOtherTag) {
+                        let contentSet = paragraphELe.innerHTML.split(/<a.+?<\/a>/g);
+                        let fragment = new DocumentFragment();
+                        contentSet.forEach((item, index) => {
+                            let spanEle = document.createElement('span');
+                            spanEle.setAttribute('aria-label', item.replace(/<\/??(strong|em)[^><]{0,}?>/g, '').replace(/<\/??[^><]{0,}?>/g, ''));
+                            spanEle.innerHTML = item.replace(/(<)(span|strong|em)/g, '$1$2 aria-hidden="true" ');
+                            fragment.append(spanEle);
+                            linkSet[0] && (fragment.append(linkSet[0]));
+                        });
+                        paragraphELe.innerHTML = '';
+                        paragraphELe.append(fragment);
+                    }
+                } else {
+                    paragraphELe.setAttribute('aria-label', paragraphELe.innerText);
+                    let otherTag = Array.from(paragraphELe.querySelectorAll('strong, em'));
+                    otherTag.forEach(ele => {
+                        !['true', 'false', ''].includes(ele.getAttribute('aria-hidden')) && ele.setAttribute('aria-hidden', true);
+                    })
+                }
+            }
+        });
+    } catch (err) {
+        console.log("IGNORE PARAGRAPH ELEMENT ERROR", err)
+    }
+</script>
+<script>
+function checkLinkContent(node) {
+    try {
+        if (node == null || typeof node !== 'object' || node.nodeType == null || node.nodeType !== Node.ELEMENT_NODE) return false;
+        const CONTENT_REG = /(:\/\/|mailto:|tel:)/ig;
+        return node.innerText ? CONTENT_REG.test(node.innerText) : false ;
+    } catch (err) {
+        return false;
+    }
+};
+    window.addEventListener("load", function () {
+        if (!document.title.trim()) {
+            let titleNodes = document.getElementsByTagName("title");
+            let customTitle = titleNodes[1] && titleNodes[1].innerText.trim();
+            if (customTitle) {
+                titleNodes[0].innerText = customTitle;
+            } else if (!titleNodes[0].innerText.trim()) {
+                if ((O = document.getElementsByTagName("h1")).length > 0) {
+                    titleNodes[0].innerText = O[0] && O[0].innerText.trim() || O[1] && O[1].innerText.trim();
+                }
+            }
+        }
+        var e = document.querySelectorAll("table");
+        if (e && e.length > 0)
+            for (var t = 0; t < e.length; t++) {
+                var n = document.createElement("div");
+                (n.style.overflow = "auto"),
+                    e[t].parentNode.replaceChild(n, e[t]),
+                    n.appendChild(e[t]);
+            }
+        var l = document.getElementsByClassName("list-num1-paddingleft-1"),
+            r = document.getElementsByClassName("list-num2-paddingleft-1"),
+            o = document.getElementsByClassName("list-cn-paddingleft-1"),
+            a = document.getElementsByClassName("list-cn1-paddingleft-1");
+        if (l && l.length > 0)
+            for (t = 0; t < l.length; t++) {
+                var s = l[t].getElementsByTagName("span");
+                if (s && s.length > 0) {
+                    var m = s[0].style.fontFamily;
+                    m &&
+                        l[t].setAttribute(
+                            "style",
+                            l[t].getAttribute("style") + ";font-family:" + m
+                        );
+                }
+            }
+        if (r && r.length > 0)
+            for (t = 0; t < r.length; t++) {
+                var i = r[t].getElementsByTagName("span");
+                if (i && i.length > 0) {
+                    var c = i[0].style.fontFamily;
+                    c &&
+                        r[t].setAttribute(
+                            "style",
+                            r[t].getAttribute("style") + ";font-family:" + c
+                        );
+                }
+            }
+        if (o && o.length > 0)
+            for (t = 0; t < o.length; t++) {
+                var g = o[t].getElementsByTagName("span");
+                if (g && g.length > 0) {
+                    var d = g[0].style.fontFamily;
+                    d &&
+                        o[t].setAttribute(
+                            "style",
+                            o[t].getAttribute("style") + ";font-family:" + d
+                        );
+                }
+            }
+        if (a && a.length > 0)
+            for (t = 0; t < a.length; t++) {
+                var u = a[t].getElementsByTagName("span");
+                if (u && u.length > 0) {
+                    var f = u[0].style.fontFamily;
+                    f &&
+                        a[t].setAttribute(
+                            "style",
+                            a[t].getAttribute("style") + ";font-family:" + f
+                        );
+                }
+            }
+        String.prototype.startsWith ||
+            (String.prototype.startsWith = function (e, t) {
+                return (
+                    (t = !t || t < 0 ? 0 : +t), this.substring(t, t + e.length) === e
+                );
+            });
+        (y = document.getElementsByTagName("*")), (p = y.length);
+        var y,
+            p,
+            b = function () {
+                return /terms/.test(document.location.href);
+            },
+            v = function () {
+                return /parental-notice/.test(document.location.href);
+            },
+            N = function () {
+                return /privacy-statement/.test(document.location.href);
+            },
+            E = function (e) {
+                return !!document.getElementById(e);
+            },
+            B = function () {
+                try {
+                    top, window;
+                } catch (e) {}
+                return "";
+            },
+            _ = function (e) {
+                if (top != window) var t = top.location.search;
+                else t = document.location.search;
+                for (
+                    var n = t ? t.split("&") : [], l = n.length - 1;
+                    l >= 0;
+                    l--
+                ) {
+                    var o = n[l].split("="),
+                        a = o[0];
+                    if ((0 == l && (a = a.split("?")[1]), e == a)) return o[1];
+                }
+                return "";
+            },
+            x = function (e) {
+                var t = document.location.pathname.match(/.*(\w\w-\w\w)\.htm$/);
+                return t && 2 == t.length ? t[1] : "";
+            },
+            A = function (e) {
+                for (
+                    var t = document.location.search,
+                        n = t ? t.split("&") : [],
+                        l = 0,
+                        r = n.length;
+                    l < r;
+                    l++
+                ) {
+                    var o = n[l].split("="),
+                        a = o[0];
+                    if ((0 == l && (a = a.split("?")[1]), e == a)) return o[1];
+                }
+                return "";
+            },
+            C = function (e) {
+                var t = !1;
+                try {
+                    "2" == _("branchid") && (t = !0);
+                } catch (e) {
+                    "2" == A("themeName") && (t = !0);
+                }
+                return t;
+            },
+            k = function (e) {
+                for (var t = ["my-mm", "my-zg"], n = 0; n < t.length; n++)
+                    if (x() == t[n])
+                        for (
+                            var l = document.getElementsByTagName("p"), r = 0;
+                            r < l.length;
+                            r++
+                        )
+                            e
+                                ? l[r].setAttribute(
+                                        "style",
+                                        "line-height:200%!important;color:rgba(239, 239, 239, 0.66);"
+                                    )
+                                : l[r].setAttribute("style", "line-height:200%!important;");
+            };
+        !(function () {
+            for (
+                var e = document.querySelectorAll("a[href]"), t = 0;
+                t < e.length;
+                t++
+            )
+                "cnsitenolink" == e[t].getAttribute                                   .setAttribute(
+                                        "style",
+                                        "width: 32px;height: 32px;margin-top: 16px;"
+                                    )
+                            : "dark" == e &&
+                                E("honorhonor_black_terms_logo") &&
+                                document
+                                    .getElementById("honorhonor_black_terms_logo")
+                                    .setAttribute(
+                                        "style",
+                                        "width: 32px;height: 32px;margin-top: 16px;"
+                                    )
+                        : (v() || N()) &&
+                            ("blue" == e && E("honor_privacy_logo")
+                                ? document
+                                        .getElementById("honor_privacy_logo")
+                                        .setAttribute(
+                                            "style",
+                                            "width: 32px;height: 32px;margin-top: 16px;"
+                                        )
+                                : "dark" == e && E("honor_privacy_logo"));
+                })(U),
+            (function (e) {
+                if ("dark" === e) {
+                    for (
+                        var t = document.querySelectorAll("table td"),
+                            n = document.querySelectorAll("table th"),
+                            l = 0;
+                        l < t.length;
+                        l++
+                    )
+                        (t[l].style.border = "1.2px solid rgb(230, 230, 230)"),
+                            (t[l].style.color = "rgb(255, 255, 255)"),
+                            (t[l].style["z-index"] = "9999");
+                    for (var l = 0; l < n.length; l++)
+                        (n[l].style.border = "1.2px solid rgb(255, 255, 255)"),
+                            (n[l].style.color = "rgb(255, 255, 255)"),
+                            (t[l].style["z-index"] = "9999");
+                }
+            })(V),
+            (!/AALA/.test(document.location.href) || C() || v()) &&
+                E("moreBtn") &&
+                (document.getElementById("moreBtn").style.display = "none"),
+            w;
+    });
+</script>
+</html>
+ast = itemSet && itemSet.length - 1;
+                    itemSet && !itemSet[currentLast].childs && (itemSet[currentLast].childs = []);
+                } else if (ele.className.search("custom_num2") !== -1) {
+                    let currentLast = itemSet.length - 1;
+                    let ST = itemSet[currentLast];
+                    let STC = ST && ST.childs;
+                    STC && STC.push({"level_2": ele});
+                    STC && !STC[STC.length - 1].childs && (STC[STC.length - 1].childs = [])
+                } else if (ele.className.search("custom_cn") !== -1 && ele.className.search("custom_cn1") === -1 && ele.className.search("custom_cn2") === -1) {
+                    let currentLast = itemSet.length - 1;
+                    let ST = itemSet[currentLast];
+                    let STC = ST && ST.childs[ST.childs.length - 1] && ST.childs[ST.childs.length - 1].childs;
+                    STC && STC.push({"level_3": ele});
+                    STC && !STC[STC.length - 1].childs && (STC[STC.length - 1].childs = []);
+                } else if (ele.className.search("custom_cn1") !== -1) {
+                    let currentLast = itemSet.length - 1;
+                    let ST = itemSet[currentLast];
+                    let STC = ST && ST.childs[ST.childs.length - 1] && ST.childs[ST.childs.length - 1].childs[ST.childs[ST.childs.length - 1].childs.length - 1] && ST.childs[ST.childs.length - 1].childs[ST.childs[ST.childs.length - 1].childs.length - 1].childs;
+                    STC && STC.push({"level_4":ele})
+                }
+            });
+            let level1Count = 0;
+            itemSet.forEach((ele, idx) => {
+                Array.from(ele.level_1.children).forEach((eleChild, eleIdx) => {
+                    eleChild.setAttribute(
+                        "style",
+                        "counter-reset: section1 " +
+                            level1Count +
+                            ";" +
+                            eleChild.getAttribute("style")
+                    );
+                    level1Count++;
+                });
+                let level2Count = 0;
+                ele.childs.forEach((level2, idx2) => {
+                    Array.from(level2.level_2.children).forEach((level2Child, level2Idx) => {
+                        level2Child.setAttribute(
+                            "style",
+                            "counter-reset: section1 " +
+                                level1Count +
+                                " subsection " +
+                                level2Count +
+                                ";" +
+                                level2Child.getAttribute("style")
+                        );
+                        level2Count++;
+                    });
+                    let level3Count = 0;
+                    level2.childs.forEach((level3, idx3) => {
+                        Array.from(level3.level_3.children).forEach((level3Child, level3Idx) => {
+                            level3Child.setAttribute(
+                                "style",
+                                "counter-reset: section1 " +
+                                    level1Count +
+                                    " subsection " +
+                                    level2Count +
+                                    " section2 " +
+                                    level3Count +
+                                    ";" +
+                                    level3Child.getAttribute("style")
+                            );
+                            level3Count++;
+                        });
+                        let level4Count = 0;
+                        level3.childs.forEach((level4, idx4) => {
+                            Array.from(level4.level_4.children).forEach(
+                                (level4Child, level4Idx) => {
+                                    level4Child.setAttribute(
+                                        "style",
+                                        "counter-reset: section1 " +
+                                            level1Count +
+                                            " subsection " +
+                                            level2Count +
+                                            " section2 " +
+                                            level3Count +
+                                            " section3 " +
+                                            level4Count +
+                                            ";" +
+                                            level4Child.getAttribute("style")
+                                    );
+                                    level4Count++;
+                                }
+                            );
+                        });
+                    });
+                });
+            });
+            const time1 = window.performance.now();
+        } catch (err) {
+            console.error("列表使用错误，请规范嵌套使用一、二、三、四级列表");
+        }
+    }
+    try {
+        const FALSEY_SET = ['', null, undefined];
+        const IMG_TAG_SET = ['img', 'picture', 'svg', 'canvas', 'object', 'embed', 'iframe'];
+        const IMAGE_SET = IMG_TAG_SET.map(tag => Array.from(document.getElementsByTagName(tag))).flat();
+        IMAGE_SET.forEach(ele => {
+            if (FALSEY_SET.includes(ele.getAttribute('alt')) && FALSEY_SET.includes(ele.getAttribute('aria-label')) && FALSEY_SET.includes(ele.getAttribute('aria-labelledby'))) {
+                ele.setAttribute('aria-hidden', true)
+            }
+        });
+        const TABLE_SET = Array.from(document.getElementsByTagName('table'));
+        if (TABLE_SET && TABLE_SET.length) {
+            TABLE_SET.forEach(table => {
+                table.setAttribute('style', table.getAttribute('style').replace(/(margin\:\s*0\s*)(\!important)/gi, '$1'))
+            })
+        }
+    } catch (err) {
+        console.error("SET ATTRIBUTE ARIA-HIDDEN ERROR", err);
+    }
+    try {
+        let ignoreUnorderLists = Array.from(document.getElementsByClassName('custom_cn2'));
+        ignoreUnorderLists.forEach(olEle => {
+            let olChilds = Array.from(olEle.children);
+            let spanEle = document.createElement('span');
+            spanEle && spanEle.classList && spanEle.classList.add('custom-unordered');
+            spanEle && spanEle.classList && spanEle.setAttribute('aria-hidden', true);
+            spanEle.textContent = "•";
+            olChilds.forEach(liEle => {
+                let liChilds = Array.from(liEle.children);
+                let linkSet = liEle.getElementsByTagName('a');
+                if (!linkSet.length) {
+                    liEle.setAttribute('aria-label', liEle.textContent);
+                    let otherTags = Array.from(liEle.querySelectorAll('strong, em'));
+                    otherTags.forEach(node => {
+                        !['true', 'false', ''].includes(node.getAttribute('aria-hidden')) && node.setAttribute('aria-hidden', true);
+                    })
+                }
+                liEle.prepend(spanEle.cloneNode(true));
+            })
+        })
+    } catch (err) {
+        console.error("IGNORE MEANINGLESS ERROR", err);
+    }
+    try {
+        let ignoreOrderLists = Array.from(document.getElementsByClassName('custom_num1'));
+        ignoreOrderLists.forEach(ulEle => {
+            let ulChilds = Array.from(ulEle.children);
+            ulChilds.forEach(liEle => {
+                let paragraphEle = liEle.getElementsByTagName('p')[0];
+                paragraphEle && paragraphEle.removeAttribute('id');
+                let anchorNodes = Array.from(liEle.getElementsByTagName('a'));
+                anchorNodes[0] && liEle.setAttribute('id', anchorNodes[0].getAttribute('name'));
+                anchorNodes.forEach(anchorEle => {
+   ),
+            (!/AALA/.test(document.location.href) || C() || v()) &&
+                E("moreBtn") &&
+                (document.getElementById("moreBtn").style.display = "none"),
+            w;
+    });
+</script>
+</html>
+(document.querySelectorAll('.fileContent > p, .custom_cn2 p'));
+        ignoreParagraphs = ignoreParagraphs.filter(paragraphELe => {
+            let hasImg = paragraphELe.getElementsByTagName('img').length;
+            let emptyNode = paragraphELe.innerText.trim() === '';
+            return !hasImg && !emptyNode;
+        })
+        ignoreParagraphs.forEach(paragraphELe => {
+            if (!paragraphELe.getElementsByClassName('span-parent').length) {
+                let linkSet = paragraphELe.getElementsByTagName('a');
+                if (linkSet.length) {
+                    let hasOtherTag = paragraphELe.querySelectorAll('strong, em').length;
+                    if (hasOtherTag) {
+                        let contentSet = paragraphELe.innerHTML.split(/<a.+?<\/a>/g);
+                        let fragment = new DocumentFragment();
+                        contentSet.forEach((item, index) => {
+                            let spanEle = document.createElement('span');
+                            spanEle.setAttribute('aria-label', item.replace(/<\/??(strong|em)[^><]{0,}?>/g, '').replace(/<\/??[^><]{0,}?>/g, ''));
+                            spanEle.innerHTML = item.replace(/(<)(span|strong|em)/g, '$1$2 aria-hidden="true" ');
+                            fragment.append(spanEle);
+                            linkSet[0] && (fragment.append(linkSet[0]));
+                        });
+                        paragraphELe.innerHTML = '';
+                        paragraphELe.append(fragment);
+                    }
+                } else {
+                    paragraphELe.setAttribute('aria-label', paragraphELe.innerText);
+                    let otherTag = Array.from(paragraphELe.querySelectorAll('strong, em'));
+                    otherTag.forEach(ele => {
+                        !['true', 'false', ''].includes(ele.getAttribute('aria-hidden')) && ele.setAttribute('aria-hidden', true);
+                    })
+                }
+            }
+        });
+    } catch (err) {
+        console.log("IGNORE PARAGRAPH ELEMENT ERROR", err)
+    }
+</script>
+<script>
+function checkLinkContent(node) {
+    try {
+        if (node == null || typeof node !== 'object' || node.nodeType == null || node.nodeType !== Node.ELEMENT_NODE) return false;
+        const CONTENT_REG = /(:\/\/|mailto:|tel:)/ig;
+        return node.innerText ? CONTENT_REG.test(node.innerText) : false ;
+    } catch (err) {
+        return false;
+    }
+};
+    window.addEventListener("load", function () {
+        if (!document.title.trim()) {
+            let titleNodes = document.getElementsByTagName("title");
+            let customTitle = titleNodes[1] && titleNodes[1].innerText.trim();
+            if (customTitle) {
+                titleNodes[0].innerText = customTitle;
+            } else if (!titleNodes[0].innerText.trim()) {
+                if ((O = document.getElementsByTagName("h1")).length > 0) {
+                    titleNodes[0].innerText = O[0] && O[0].innerText.trim() || O[1] && O[1].innerText.trim();
+                }
+            }
+        }
+        var e = document.querySelectorAll("table");
+        if (e && e.length > 0)
+            for (var t = 0; t < e.length; t++) {
+                var n = document.createElement("div");
+                (n.style.overflow = "auto"),
+                    e[t].parentNode.replaceChild(n, e[t]),
+                    n.appendChild(e[t]);
+            }
+        var l = document.getElementsByClassName("list-num1-paddingleft-1"),
+            r = document.getElementsByClassName("list-num2-paddingleft-1"),
+            o = document.getElementsByClassName("list-cn-paddingleft-1"),
+            a = document.getElementsByClassName("list-cn1-paddingleft-1");
+        if (l && l.length > 0)
+            for (t = 0; t < l.length; t++) {
+                var s = l[t].getElementsByTagName("span");
+                if (s && s.length > 0) {
+                    var m = s[0].style.fontFamily;
+                    m &&
+                        l[t].setAttribute(
+                            "style",
+                            l[t].getAttribute("style") + ";font-family:" + m
+                        );
+                }
+            }
+        if (r && r.length > 0)
+            for (t = 0; t < r.length; t++) {
+                var i = r[t].getElementsByTagName("span");
+                if (i && i.length > 0) {
+                    var c = i[0].style.fontFamily;
+                    c &&
+                        r[t].setAttribute(
+                            "style",
+                            r[t].getAttribute("style") + ";font-family:" + c
+                        );
+                }
+            }
+        if (o && o.length > 0)
+            for (t = 0; t < o.length; t++) {
+                var g = o[t].getElementsByTagName("span");
+                if (g && g.length > 0) {
+                    var d = g[0].style.fontFamily;
+                    d &&
+                        o[t].setAttribute(
+                            "style",
+                            o[t].getAttribute("style") + ";font-family:" + d
+                        );
+                }
+            }
+        if (a && a.length > 0)
+            for (t = 0; t < a.length; t++) {
+                var u = a[t].getElementsByTagName("span");
+                if (u && u.length > 0) {
+                    var f = u[0].style.fontFamily;
+                    f &&
+                        a[t].setAttribute(
+                            "style",
+                            a[t].getAttribute("style") + ";font-family:" + f
+                        );
+                }
+            }
+        String.prototype.startsWith ||
+            (String.prototype.startsWith = function (e, t) {
+                return (
+                    (t = !t || t < 0 ? 0 : +t), this.substring(t, t + e.length) === e
+                );
+            });
+        (y = document.getElementsByTagName("*")), (p = y.length);
+        var y,
+            p,
+            b = function () {
+                return /terms/.test(document.location.href);
+            },
+            v = function () {
+                return /parental-notice/.test(document.location.href);
+            },
+            N = function () {
+                return /privacy-statement/.test(document.location.href);
+            },
+            E = function (e) {
+                return !!document.getElementById(e);
+            },
+            B = function () {
+                try {
+                    top, window;
+                } catch (e) {}
+                return "";
+            },
+            _ = function (e) {
+                if (top != window) var t = top.location.search;
+                else t = document.location.search;
+                for (
+                    var n = t ? t.split("&") : [], l = n.length - 1;
+                    l >= 0;
+                    l--
+                ) {
+                    var o = n[l].split("="),
+                        a = o[0];
+                    if ((0 == l && (a = a.split("?")[1]), e == a)) return o[1];
+                }
+                return "";
+            },
+            x = function (e) {
+                var t = document.location.pathname.match(/.*(\w\w-\w\w)\.htm$/);
+                return t && 2 == t.length ? t[1] : "";
+            },
+            A = function (e) {
+                for (
+                    var t = document.location.search,
+                        n = t ? t.split("&") : [],
+                        l = 0,
+                        r = n.length;
+                    l < r;
+                    l++
+                ) {
+                    var o = n[l].split("="),
+                        a = o[0];
+                    if ((0 == l && (a = a.split("?")[1]), e == a)) return o[1];
+                }
+                return "";
+            },
+            C = function (e) {
+                var t = !1;
+                try {
+                    "2" == _("branchid") && (t = !0);
+                } catch (e) {
+                    "2" == A("themeName") && (t = !0);
+                }
+                return t;
+            },
+            k = function (e) {
+                for (var t = ["my-mm", "my-zg"], n = 0; n < t.length; n++)
+                    if (x() == t[n])
+                        for (
+                            var l = document.getElementsByTagName("p"), r = 0;
+                            r < l.length;
+                            r++
+                        )
+                            e
+                                ? l[r].setAttribute(
+                                        "style",
+                                        "line-height:200%!important;color:rgba(239, 239, 239, 0.66);"
+                                    )
+                                : l[r].setAttribute("style", "line-height:200%!important;");
+            };
+        !(function () {
+            for (
+                var e = document.querySelectorAll("a[href]"), t = 0;
+                t < e.length;
+                t++
+            )
+                "cnsitenolink" == e[t].getAttribute("href") &&
+                    ((e[t].style = "word-break:break-all"),
+                    e[t].removeAttribute("class"),
+                    e[t].removeAttribute("target"),
+                    e[t].removeAttribute("href"));
+        })();
+        var w = !1;
+        try {
+            "dark" == _("themeName") && (w = !0);
+        } catch (e) {
+            "dark" == A("themeName") && (w = !0);
+        }
+        if (w) {
+            document.body.style.backgroundColor = "#000000";
+            var T = document.getElementsByClassName("downIcon"),
+                S = document.getElementsByClassName("leftIcon"),
+                I = document.getElementsByClassName("historyTitle"),
+                q = document.getElementsByClassName("versionPc"),
+                F = document.getElementsByClassName("cancel");
+            T.length > 0 &&
+                (T[0].style.filter = "drop-shadow(rgb(239, 239, 239) 0px 0px)"),
+                S.length > 0 &&
+                    (S[0].style.filter = "drop-shadow(rgb(239, 239, 239) 0px 0px)"),
+                I.length > 0 && (I[0].style.color = "rgba(239, 239, 239)"),
+                F.length > 0 && (F[0].style.color = "#5790FF"),
+                q.length > 0 &&
+                    ((q[0].style.color = "rgba(239, 239, 239)"),
+                    (q[0].style.backgroundColor = "rgb(0, 0, 0)"));
+            var R = document.getElementsByClassName("magicui_color_gray_10");
+            "parental-notice" == B() &&
+                0 == R.length &&
+                (R = document.getElementsByClassName("bp-section"));
+            for (t = 0; t < R.length; t++)
+                R[t].style.color = "rgba(239, 239, 239)";
+            var z = document.querySelectorAll("p>span"),
+                D = document.querySelectorAll("p");
+            if (z.length > 0)
+                for (t = 0; t < z.length; t++)
+                    z[t].style.color = "rgba(239, 239, 239)";
+            if (D.length > 0)
+                for (t = 0; t < D.length; t++)
+                    D[t].style.color = "rgba(239, 239, 239)";
+            var O,
+                L = document.getElementsByClassName("span-parent");
+            if (L.length > 0)
+                for (var P = 0; P < L.length; P++)
+                    L[P].style.setProperty(
+                        "background-color",
+                        "rgb(239,239,239,0.12)",
+                        "important"
+                    );
+            if ((O = document.getElementsByTagName("h1")).length > 0)
+                for (t = 0; t < O.length; t++)
+                    O[t].style.color = "rgba(239, 239, 239)";
+            var W = document.getElementsByTagName("strong");
+            if (W.length > 0)
+                for (t = 0; t < W.length; t++)
+                    W[t].style.color = "rgba(239, 239, 239)";
+            var j = document.getElementsByTagName("h2");
+            if (j.length > 0)
+                for (t = 0; t < j.length; t++)
+                    j[t].style.color = "rgba(239, 239, 239)";
+            var $ = document.getElementsByTagName("h3");
+            if ($.length > 0)
+                for (t = 0; t < $.length; t++)
+                    $[t].style.color = "rgba(239, 239, 239)";
+            var H4 = document.getElementsByTagName("h4");
+            if (H4.length > 0)
+                for (t = 0; t < H4.length; t++)
+                    H4[t].style.color = "rgba(239, 239, 239)";
+            var H5 = document.getElementsByTagName("h5");
+            if (H5.length > 0)
+                for (t = 0; t < H5.length; t++)
+                    H5[t].style.color = "rgba(239, 239, 239)";
+            var H6 = document.getElementsByTagName("h6");
+            if (H6.length > 0)
+                for (t = 0; t < H6.length; t++)
+                    H6[t].style.color = "rgba(239, 239, 239)";
+            var G = document.querySelectorAll("a>span");
+            if (G.length > 0)
+                for (t = 0; t < G.length; t++) G[t].style.color = "#006CDE";
+            document.getElementsByClassName("title").length > 0 &&
+                document.getElementsByClassName("title")[0] &&
+                (document.getElementsByClassName("title")[0].style.color =
+                    "rgba(239, 239, 239)");
+        }
+        k(w);
+        var H = document.getElementsByTagName("a"),
+            J = document.getElementsByClassName(
+                "magicui_magicui_functional_blue"
+            ),
+            K = document.getElementById("moreBtn");
+        if (K) {
+            var M = document.createElement("style"),
+                Q = document.createTextNode(
+                    ".more-blue{color: #256fff} .more-dark{color: #006CDE} .more-honor{color: #256fff}"
+                );
+            M.appendChild(Q),
+                document.getElementsByTagName("head")[0].appendChild(M);
+        } else K = {};
+        var U,
+            V = (function () {
+                var e = "";
+                try {
+                    e = _("themeName");
+                } catch (t) {
+                    e = A("themeName");
+                }
+                return e;
+            })();
+        if (H.length > 0) {
+            for (t = 0; t < H.length; t++) {
+                try { let siblingText = H[t].nextSibling.wholeText; if (/^\u00a0/.test(siblingText)) { H[t].insertAdjacentText('afterend', ' '); } } catch (err) { H[t].insertAdjacentText('afterend', ' '); }
+                (H[t].style["font-size"] = "inherit"),
+                    (H[t].style["word-break"] = checkLinkContent(H[t])
+                        ? "break-all"
+                        : "break-word"),
+                    H[t].href
+                        ? "blue" == V
+                            ? ((H[t].style.color = "#256fff"),
+                                (K.className = K.className + " more-blue"))
+                            : "dark" == V
+                            ? ((H[t].style.color = "#006CDE"),
+                                (K.className = K.className + " more-dark"))
+                            : ((H[t].style.color = "#256fff"),
+                                (K.className = K.className + " more-honor"))
+                        : (H[t].style.cursor = "default");
+            }
+        }
+        if (J.length > 0) {
+            for (t = 0; t < J.length; t++) {
+                J[t].style.color =
+                    "blue" == V ? "#256fff" : "dark" == V ? "#006CDE" : "#256fff";
+            }
+        }
+        function X(e, t, n) {
+            if (-1 != e.indexOf("&")) {
+                var l = e.split("&"),
+                    r = [],
+                    o = "";
+                l.forEach(function (e, l) {
+                    -1 != e.indexOf(t + "=") ? r.push(t + "=" + n) : r.push(e);
+                }),
+                    (o = r.join("&"));
+            } else o = e;
+            return o;
+        }
+        !(function (e) {
+            var t = document.getElementsByTagName("a");
+            if (t.length > 0)
+                for (var n = 0; n < t.length; n++) {
+                    var l = t[n].getAttribute("href"),
+                        r =
+                            /terms|privacy-statement|privacy-cookie|parental-notice/.test(
+                                l
+                            );
+                    if (r) {
+                        var o = "";
+                        (o =
+                            -1 != l.indexOf("?")
+                                ? -1 != l.indexOf("themeName=")
+                                    ? X(l, "themeName", e)
+                                    : l + "&themeName=" + e
+                                : l + "?themeName=" + e),
+                            t[n].setAttribute("href", o);
+                    }
+                }
+        })(V),
+            ("blue" != (U = V) && "dark" != U) ||
+                (function (e) {
+                    b()
+                        ? "blue" == e && E("honor_terms_logo")
+                            ? document
+                                    .getElementById("honor_terms_logo")
+                                    .setAttribute(
+                                        "style",
+                                        "width: 32px;height: 32px;margin-top: 16px;"
+                                    )
+                            : "dark" == e &&
+                                E("honorhonor_black_terms_logo") &&
+                                document
+                                    .getElementById("honorhonor_black_terms_logo")
+                                    .setAttribute(
+                                        "style",
+                                        "width: 32px;height: 32px;margin-top: 16px;"
+                                    )
+                        : (v() || N()) &&
+                            ("blue" == e && E("honor_privacy_logo")
+                                ? document
+                                        .getElementById("honor_privacy_logo")
+                                        .setAttribute(
+                                            "style",
+                                            "width: 32px;height: 32px;margin-top: 16px;"
+                                        )
+                                : "dark" == e && E("honor_privacy_logo"));
+                })(U),
+            (function (e) {
+                if ("dark" === e) {
+                    for (
+                        var t = document.querySelectorAll("table td"),
+                            n = document.querySelectorAll("table th"),
+                            l = 0;
+                        l < t.length;
+                        l++
+                    )
+                        (t[l].style.border = "1.2px solid rgb(230, 230, 230)"),
+                            (t[l].style.color = "rgb(255, 255, 255)"),
+                            (t[l].style["z-index"] = "9999");
+                    for (var l = 0; l < n.length; l++)
+                        (n[l].style.border = "1.2px solid rgb(255, 255, 255)"),
+                            (n[l].style.color = "rgb(255, 255, 255)"),
+                            (t[l].style["z-index"] = "9999");
+                }
+            })(V),
+            (!/AALA/.test(document.location.href) || C() || v()) &&
+                E("moreBtn") &&
+                (document.getElementById("moreBtn").style.display = "none"),
+            w;
+    });
+</script>
+</html>

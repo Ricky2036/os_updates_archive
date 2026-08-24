@@ -1,0 +1,1024 @@
+<!doctype html>
+<html lang="zh" >
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Language" content="zh-cn"/>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"/>
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    
+    <script>
+        domainYY = 'https://yy-cn.c.honor.com';
+        domainRush = 'https://buy.honor.com/cn';
+        domainMain = 'https://www.honor.com/cn/shop';
+        hChoiceDomain = '';
+        domainWap = 'https://www.honor.com/cn/m';
+        imagePath = 'https://hshop.honorfile.com/2026081310/images';
+        domainAccount = 'https://www.honor.com/cn/shop';
+        isUseAccount = 'false';
+        upBindPhoneAddr = 'https://hnid-drcn.cloud.honor.com/AMW/portal/bindPhoneAccount.html?lang=zh-cn&themeName=cloudTheme&reqClientType=25';
+        dominWapRecycle = '';
+        scriptPath = 'https://hshop.honorfile.com/2026081310/js';
+        openApiDomain = 'https://openapi-cn.c.honor.com';
+        timeOutInfo = '服务器开小差了，请稍后再试！';
+        addressFrontRegex = '';
+        easeBuyDomain = 'https://www.honor.com/cn/easy';
+        scriptPaths = 'https://hshop.honorfile.com/2026081310/js';
+        dapDomain = 'https://dap-cn.c.hihonor.com';
+        riskTimeOut = '200';
+        orderPayLimitNum = '6';
+        loginWindowType = '';
+        loginWindowSupportedBrowsers = 'Chrome|Safari';
+        lastBroswedCount = '10';
+
+        //加载系统配置表中商城公共配置项
+        mallCompany = '荣耀';
+        mallName = '荣耀商城';
+        mallBriefSubCompany = '荣耀终端';
+        mallSubCompany = '荣耀终端股份有限公司';
+        mallPrdEntity = 'VMALL-HUAWEIDEVICE';
+        mallCountry = 'CN';
+        //商品开售提醒页面 mall和honor的logo
+        mallSaleReminLogo = 'https://file07.c.hihonor.com/pimages//common/images/71596708931610769517.png';
+        honorSaleRemindLogo = 'https://file05.c.hihonor.com/images/echannel/honor/logo_honor.png';
+        mallSpecialareLogo = 'https://file05.c.hihonor.com/pimages/sale/2020-12/20201223-135321.png';
+        webDownloadAppImg = 'https://file05.c.hihonor.com/pimages/pages/cdnImages/47095277880617259074.jpg';
+        mallWechatSearchImg = 'https://file07.c.hihonor.com/pimages//common/images/71596708931610769517.png';
+        // 第三方域名
+        salevmall = 'https://www.honor.com/cn/sale';
+        //商城域名
+        mallDomain = 'honor.com';
+        //荣耀商城隐私协议域名
+        honorPrivacyDomain = 'https://www.hihonor.com';
+        //荣耀域名后面的统一路径
+        bePath = '/cn/shop';
+        //荣耀--登出接口url
+        honorLogoutUrl = 'https://cuep-sg.honor.com/abroad/auth/logout';
+        // 数据迁移开关，0：关闭；1：开启
+        isMigrationSupport = '0';
+        //荣耀公司内购政策
+        purchasePoliceUrl = 'https://w3.hihonor.com/announce/#/detail?id=402980';
+        //webp开关
+        indexWebpEnable = 'false';
+        pdpWebpEnable = 'false';
+        //纪念日置灰
+        isGray = '';
+        isHomePage="";
+
+        isUseUemProd = 'true';
+        uemAppId = '76befa025dcd343b9b6c479b35467b56';
+        uemConfig = '{ "isProd": "1", "appKey": "76befa025dcd343b9b6c479b35467b56" }';
+
+        try {
+            if (document.cookie.indexOf('redirectWap=1') < 0 && /Android|webOS|iPhone|iPad|iPod|BlackBerry|OpenHarmony/i.test(navigator.userAgent)) {
+                var r = null;
+                if(isHomePage) location.href = domainWap
+                if (['/honor', '/notice'].indexOf(location.pathname) > -1) {
+                    location.href = domainWap + location.pathname.substr(bePath.length) + location.search;
+                } else if ([bePath, bePath + '/index.html'].indexOf(location.pathname) > -1) {
+                    location.href = domainWap + location.search;
+                } else if (bePath + '/recycle' === location.pathname) {
+                    location.href = dominWapRecycle;
+                } else if (r = (location.pathname.substr(bePath.length).match(/^\/(?:product|order\/easebuy)\/(\d+)\.html$/) || [])[1]) {
+                    location.href = domainWap + '/product/' + r + '.html' + location.search;
+                } else if (r = (location.pathname.substr(bePath.length).match(/^\/list\-(\d+)/) || [])[1]) {
+                    location.href = domainWap + "/category/detail" + '-' + r + '-' + r + location.search;
+                }else if((bePath + "/newpriority") === location.pathname){
+	                location.href = domainWap+location.pathname.substr(bePath.length)+location.search+location.hash;
+                }else if([bePath, bePath + '/member/order'].indexOf(location.pathname) > -1){
+                    location.href = domainWap+'/member/order';
+                }
+            }
+        } catch (err) {
+        
+        }
+    </script>
+    <script src="https://hshop.honorfile.com/2026081310/js/??/common/uem-utils.js" namespace="ec"></script>
+<title>&#x3010;&#x8363;&#x8000;&#x5546;&#x57ce;&#x624b;&#x673a;&#x5ba2;&#x6237;&#x7aef;&#x3011;&#x6211;&#x7684;&#x638c;&#x4e0a;&#x62a2;&#x8d2d;&#x795e;&#x5668;&#x3001;APP&#x4e0b;&#x8f7d;&#x20;-&#x20;&#x8363;&#x8000;&#x5546;&#x57ce;</title>
+<meta name="description" content="&#x3010;&#x8363;&#x8000;&#x5546;&#x57ce;&#x5ba2;&#x6237;&#x7aef;&#x20;&#x6211;&#x7684;&#x638c;&#x4e0a;&#x62a2;&#x8d2d;&#x795e;&#x5668;&#x3011;&#x4e0d;&#x7ba1;&#x60a8;&#x662f;&#x5728;&#x8def;&#x4e0a;&#x3001;&#x5f00;&#x4f1a;&#x3001;&#x4e0a;&#x8bfe;&#x8fd8;&#x662f;&#x5bb6;&#x91cc;&#x6c99;&#x53d1;&#x4e0a;&#xff0c;&#x90fd;&#x80fd;&#x7b2c;&#x4e00;&#x65f6;&#x95f4;&#x9884;&#x7ea6;&#x62a2;&#x8d2d;&#x534e;&#x4e3a;&#x3001;&#x8363;&#x8000;&#x65b0;&#x54c1;&#xff0c;&#x5148;&#x4eba;&#x4e00;&#x6b65;&#xff01;&#x7acb;&#x5373;&#x4e0b;&#x8f7d;&#x5ba2;&#x6237;&#x7aef;&#xff0c;&#x8363;&#x8000;6&#x20;Plus&#x3001;&#x8363;&#x8000;6&#x3001;&#x7545;&#x73a9;4X&#x3001;Mate7&#x3001;3C&#x7545;&#x73a9;&#x7248;&#x3001;&#x8363;&#x8000;3C&#x8ddf;&#x60a8;&#x8d70;&#xff01;" />  
+<meta name="keywords" content="&#x8363;&#x8000;&#x5546;&#x57ce;APP&#x4e0b;&#x8f7d;&#x3001;&#x8363;&#x8000;&#x5546;&#x57ce;&#x3001;&#x8363;&#x8000;&#x5546;&#x57ce;&#x624b;&#x673a;&#x5ba2;&#x6237;&#x7aef;" /><link rel="shortcut icon" href="https://www.honor.com/cn/shop/favicon.ico" />
+<link rel="preconnect" href="https://openapi-cn.c.honor.com">
+<link href="https://hshop.honorfile.com/2026081310/css/echannel/ec.core.base.min.css?20170722" rel="stylesheet" type="text/css">
+<link href="https://hshop.honorfile.com/2026081310/css/echannel/index.min.css?20210924" rel="stylesheet" type="text/css"><link href="https://hshop.honorfile.com/2026081310/css/order/main.min.css?20180212" rel="stylesheet" type="text/css">
+<link href="https://hshop.honorfile.com/2026081310/css/product/main.min.css?20170710" rel="stylesheet" type="text/css"><script src="https://hshop.honorfile.com/2026081310/js/common/jsapi.js?20141025" namespace="ec"></script>
+<script src="https://hshop.honorfile.com/2026081310/js/common/base/jquery-3.5.0.js"></script>
+<script src="https://hshop.honorfile.com/2026081310/js/common/base/jquery-migrate-1.4.1.js"></script>
+<script src="https://hshop.honorfile.com/2026081310/js/common/base/jquery-migrate-3.1.0.js"></script>
+<script src="https://hshop.honorfile.com/2026081310/js/common/base/helper.js?191129"></script>
+<script src="https://hshop.honorfile.com/2026081310/js/common/ec.core.js?20141025"></script>
+<script src="https://hshop.honorfile.com/2026081310/js/echannel/ec.business.js?20171028"></script>
+<script src="https://hshop.honorfile.com/2026081310/js/echannel/base.js?20191012"></script>
+<script src="https://hshop.honorfile.com/2026081310/js/echannel/slider.js?20170426"></script>
+<script src="https://hshop.honorfile.com/2026081310/js/echannel/swiper.min.js?20170426"></script>
+<script src="https://hshop.honorfile.com/2026081310/js/common/xss.js"></script>
+<script src="https://hshop.honorfile.com/2026081310/js/common/anonymity.js"></script>
+<!--[if lt IE 9]><script src="https://hshop.honorfile.com/2026081310/js/common/html5shiv.js"></script> <![endif]--></head>
+<body class="wide">
+<div class="top-banner" id="top-banner-block"></div>
+<div class="shortcut">
+    <div class="layout">
+        <div class="s-sub">
+			<ul>
+    <li>
+        <a href="https://www.honor.com/cn/brand/" target="_blank" _href="https://www.honor.com/cn/brand/" textvalue="关于荣耀">关于荣耀</a>
+    </li>
+    <li>
+        <a href="https://www.honor.com/cn/news/" target="_blank">新闻</a><br/>
+    </li>
+    <li>
+        <a href="https://www.honor.com/cn/" target="_blank">荣耀官网</a>
+    </li>
+    <li id="li-enterprise-preferential" class="hide">
+        <a target="_blank" href="https://www.honor.com/cn/shop/v/member/enterprise">优惠内购</a>
+    </li>
+    <li>
+        <a href="https://www.honor.com/cn/shop/privilege" target="_blank" _href="https://www.honor.com/cn/shop/privilege" textvalue="会员">会员</a>
+    </li>
+    <li>
+        <a href="https://company.honor.com/cn" target="_blank" _href="https://company.honor.com/cn">企业购</a>
+    </li>
+    <li>
+        <a href="https://club.honor.com/cn/rd.php?id=1315" target="_blank" _href="https://club.honor.com/cn/rd.php?id=1315">荣耀俱乐部</a><br/>
+    </li>
+</ul>
+        </div>
+        <div class="s-main ">
+            <ul>
+                <li id="unlogin_status">
+                    <div id="top_unlogin" class="i-login">
+                            <a href="https://hnid-drcn.cloud.honor.com/CAS/portal/userRegister/regbyphone.html?service=https%3A%2F%2Fhnoauth-login.cloud.honor.com%2Foauth2%2Fv3%2Fauthorize%3Fresponse_type%3Dcode%26client_id%3D103747863%26redirect_uri%3Dhttps%253A%252F%252Fwww.honor.com%252Fcn%252Fshop%252Faccount%252FloginWithCode%253Furl%253Dhttps%25253A%25252F%25252Fwww.honor.com%25252Fcn%25252Fshop%26scope%3Demail%2Bprofile%2Bopenid%2Bhttps%253A%252F%252Fwww.hihonor.com%252Fauth%252Faccount%252Fbase.profile%2Bhttps%253A%252F%252Fwww.hihonor.com%252Fauth%252Faccount%252Faccountlist%2Bhttps%253A%252F%252Fwww.hihonor.com%252Fauth%252Faccount%252Fbirthday%26access_type%3Doffline%26lang%3Dzh-cn%26themeName%3Dblue%26login_channel%3D26000000%26req_client_type%3D26%26sL%3D0&loginChannel=26000000&reqClientType=26&lang=zh-cn" rel="nofollow" onclick = "pushLoginMsg('注册','')">&nbsp;&nbsp;注册</a>
+                            <a id="top-index-loginUrl" href="javascript:;" rel="nofollow" onclick="pushLoginMsgInfoPerson('登录','')">登录</a>
+                    </div>
+                </li>
+                <li id="login_status" class="hide">
+                    <div id="top_login" class="s-dropdown hide">
+                        <div id="red_point" class="h">
+                                <a class="icon-dropdown" href="https://www.honor.com/cn/shop/v/member?t=1787554140640" rel="nofollow" target="_blank" onclick = "pushLoginMsg('已登录','用户名')"><span id="up_loginName"></span></a>&nbsp;
+                        </div>
+                        <div class="b">
+                            <div class="dropdown-person"> 
+                                <ul>
+                                    <li class="icon-information">
+                                            <a href="https://www.honor.com/cn/shop/v/member?t=1787554140640" rel="nofollow"  target="_blank" onclick = "pushLoginMsg('已登录','我的商城')">我的商城</a>
+                                    </li>
+                                    <li class="icon-logout">
+                                          <a href="javascript:;" onclick="ec.logout()" rel="nofollow">退出登录</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li><a href="javascript:;" onclick = "pushMyOrderMsg()">我的订单</a></li>
+                
+                    <li>
+                        <div class="s-dropdown s-dropdown-minicart">
+                            <div class="h h-wide" id="header-toolbar-minicart">
+                                <a href="https://www.honor.com/cn/shop/v/cart" class="icon-minicart" rel="nofollow" target="_blank" onclick = "pushMyCartMsg()">
+                                    <span>购物车(<span id="header-cart-total">0</span>)</span>
+                                </a>
+                            </div>
+                            <div class="b" id="header-toolbar-minicart-content">
+                                <!-- 2017-06-19-迷你购物车-start -->
+                                <div class="dropdown-minicart">
+                                    <div class="minicart-pro-empty " id="minicart-pro-empty">
+                                        <p><span class="icon-minicart"></span></p>
+                                        <p id="cartInfo" >购物车商品加载中，请稍后~</p>
+                                        <a class="hide minicartBtn" href="https://www.honor.com/cn/shop">去逛逛吧</a>
+                                    </div>
+                                    <div class="minicart-pro-list minicart-pro-list-scroll hide" id="minicart-pro-list-block">
+                                        <ul id="minicart-goods-list"></ul>
+                                        <div class="minicart-pro-settleup" id="minicart-pro-settleup">
+                                            <p>
+                                                <span>总计：</span>
+                                                <span><b id="micro-cart-totalPrice">&yen;&nbsp;0</b><s id="micro-cart-totalOriginPrice">&yen;&nbsp;0</s></span>
+                                            </p>
+                                            <a class="button-minicart" id="button-minicart-go2confirm" href="javascript:;" onclick="ec.minicart.confirm()" >结算</a>
+                                            <a class="button-minicart disabled" id="disbutton-minicart-go2confirm" href="javascript:;" style="display:none;">结算</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 2017-06-19-迷你购物车-end -->
+                            </div>
+                            <!-- vue订单确认页开关 -->
+                            <div class="hide web_vue_checkout_enable" attr="<p>
+    true
+</p>"></div>
+                            <!-- vue大购物车开关 -->
+                            <div class="hide web_vue_cart_enable " attr="<p>
+    true
+</p>"></div>
+                            <!-- vue个人中心开关 -->
+                            <div class="hide web_vue_personal_enable " attr="<p>true</p>"></div>
+                        </div>
+                    </li>
+                
+                 <li class="downloadApp">
+                 	<div class="s-dropdown" data-tpl="jTplDownloadApp">
+                 		<div class="h">
+							<a class="icon-dropdown">手机端</a>
+					 	</div>
+					</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- 2017-06-19-捷径栏-end -->
+
+<script type="text/javascript">
+var accountCenterUrl="https://hnid-drcn.cloud.honor.com/AMW/portal/userCenter/index.html?reqClientType=25&loginChannel=25000000&themeName=cloudTheme&lang=zh-cn";
+var isHomePage="";
+ec.mediaPath = "https://hshop.honorfile.com/pimages/";
+checkIEVersion();
+</script>
+
+<script id="ec-binding-phone" type="text/x-template">
+    <div id="ec-binding-phone-1" class="ec-binding-phone-box hide">
+        <!-- 20141011-绑定安全手机号提示-start -->
+        <div class="box-phone01">
+            <div class="h">
+                <i></i>
+            </div>
+            <div class="b">
+                <p class="title">绑定手机号码</p>
+                <p>为了给您提供更好的服务，建议您将登录的邮箱账号进行手机号码绑定，绑定后邮箱账号和绑定的手机号码都可以作为登录账号，<em class="red">不绑定将不能提交订单。</em></p>
+            </div>
+        </div>
+        <div class="box-button">
+            <a class="box-ok" href="javascript:;" id="ec-binding-phone-url-1"><span>立即绑定</span></a></a>
+        </div>
+        <!-- 20141011-绑定安全手机号提示-end -->
+    </div>
+    <div id="ec-binding-phone-2" class="ec-binding-phone-box hide">
+        <!-- 20141424-绑定安全手机号提示-start -->
+        <div class="box-phone01">
+            <div class="h">
+                <i></i>
+            </div>
+            <div class="b">
+                <p class="title">绑定手机号码</p>
+                <p>请您在新打开的页面中完成绑定手机号操作，完成绑定后请根据您的情况点击下面的按钮。</p>
+            </div>
+        </div>
+        <div class="box-button">
+            <a class="box-cancel" href="javascript:;" id="ec-binding-phone-url-2"><span>重新绑定</span></a>
+            <a class="box-ok" href="javascript:;" onclick="ec.binding.resetShow()"><span>绑定成功</span></a>
+        </div>
+        <!-- 20141424-绑定安全手机号提示-end -->
+    </div>
+    <div id="ec-binding-phone-3" class="ec-binding-phone-box hide">
+        <!-- 20141424-安全手机号绑定提示失败-start -->
+        <div class="box-phone01">
+            <div class="h">
+                <i></i>
+            </div>
+            <div class="b">
+                <p class="title">对不起，您未成功绑定手机号</p>
+                <p>为了您在商城正常购物、保护您的权益，请您绑定一个手机号码以享受荣耀商城的所有服务。</p>
+            </div>
+        </div>
+        <div class="box-button">
+            <a href="javascript:;" class="box-ok" onclick="ec.binding.showOk()" id="ec-binding-phone-url-3" ><span>立即绑定</span></a>
+        </div>
+        <!-- 20141424-安全手机号绑定提示失败-end -->
+    </div>
+    <div id="ec-binding-phone-4" class="ec-binding-phone-box hide">
+        <!-- 20150824-手机号绑定未绑定-start -->
+        <div class="box-phone01">
+            <div class="h">
+                <i></i>
+            </div>
+            <div class="b">
+                <p class="title">绑定手机号码</p>
+                <p>为了给您提供更好的服务，建议您将登录的邮箱账号进行手机号码绑定，绑定后邮箱账号和绑定的手机号码都可以作为登录账号；<em class="red">自</em><em id="bindEndDate4State4" class="red"></em><em class="red">号起，若不绑定将不能提交订单。</em></p>
+            </div>
+        </div>
+        <div class="box-button">
+            <a class="box-cancel" href="javascript:;" onclick="ec.binding.closeState4();"><span>下次再说</span></a>
+            <a class="box-ok" href="javascript:;" id="ec-binding-phone-url-4"><span>立即绑定</span></a>
+        </div>
+        <!-- 20150824-安全手机号绑定提示失败-end -->
+    </div>
+    <div id="ec-binding-phone-5" class="ec-binding-phone-box hide">
+        <!-- 20141424-安全手机号绑定提示失败-start -->
+        <div class="box-phone01">
+            <div class="h">
+                <i></i>
+            </div>
+            <div class="b">
+                <p class="title">绑定手机号码</p>
+                <p>您输入的手机已被注册，您可以选择使用手机号重新登录或者重新绑定手机！</p>
+            </div>
+        </div>
+        <div class="box-button">
+            <a class="box-cancel" href="https://www.honor.com/cn/shop/account/login" id="ec-binding-phone-reLogin-5"><span>重新登录</span></a>')
+            <a class="box-ok" href="javascript:;" id="ec-binding-phone-url-5"><span>重新绑定</span></a>
+        </div>
+        <!-- 20141424-安全手机号绑定提示失败-end -->
+    </div>
+</script>
+
+<script type="text/x-template" id="jTplDownloadApp">
+<div class="b"><div class="dropdown-code"><div class="clearfix dropdown-code-detail"><a href="https://www.honor.com/cn/shop/appdownload" target="_blank"><img class="code-img" src="https://hshop.honorfile.com/pimages//pages/cdnImages/11520122716712102511.png" title="" data_ue_src="https://hshop.honorfile.com/pimages//pages/cdnImages/11520122716712102511.png" width="90" height="90" border="0" hspace="0" vspace="0" style="width: 90px; height: 90px;"/></a> 
+ &nbsp; &nbsp;<div class="code-info"><h2>荣耀商城APP</h2><span class="icon-andrid fl mgr-5"></span><span class="icon-ios fl"></span><span class="icon-wechat fl"></span></div></div><div class="clearfix dropdown-code-detail"><a><img class="code-img" src="https://hshop.honorfile.com/pimages//pages/templateContent/15002852358715820051.jpg" title="&amp;#x5546;&amp;#x57ce;&amp;#x516c;&amp;#x4f17;&amp;#x53f7;.jpg" data_ue_src="https://hshop.honorfile.com/pimages//pages/templateContent/15002852358715820051.jpg"/></a> 
+ &nbsp; &nbsp;<div class="code-info"><h2>荣耀商城公众号</h2><p>微信扫一扫</p><span class="icon-wechat"></span> &nbsp; &nbsp; &nbsp;</div></div><div class="clearfix dropdown-code-detail"><a><img class="code-img" src="https://hshop.honorfile.com/pimages//pages/templateContent/33582157358715128533.jpg" title="&amp;#x5546;&amp;#x57ce;&amp;#x5c0f;&amp;#x7a0b;&amp;#x5e8f;.jpg" data_ue_src="https://hshop.honorfile.com/pimages//pages/templateContent/33582157358715128533.jpg"/></a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<div class="code-info"><h2>微信小程序</h2><span class="icon-wechat"></span> &nbsp; &nbsp; &nbsp;</div></div></div></div>
+</script><link href="https://hshop.honorfile.com/2026081310/css/mobile/main.min.css" rel="stylesheet" type="text/css" />
+<div class="header"><div class="layout"><!-- 2017-06-19-logo-文字-start --><div class="left"><div class="logo logo-word"><a href="index.html" title="荣耀商城"><img src="https://file05.c.hihonor.com/pimages//pages/cdnImages/66103598101619530166.png" alt="荣耀商城" data_ue_src="https://file05.c.hihonor.com/pimages//pages/cdnImages/66103598101619530166.png" width="160" height="31" border="0" hspace="0" vspace="0" title="" style="width: 160px; height: 31px;"/></a> &nbsp;<span>荣耀商城App下载</span> &nbsp; &nbsp; &nbsp;</div></div><div class="right"><!-- 2017-06-19-导航-start --><div class="naver"><ul class="clearfix"><li><a class="current" href="javascript:;">Android手机</a></li><!--<li id="app-op"><a href="javascript:;" onclick="javascript:_changeDisplay(&#39;content-app-op&#39;);">iOS及其它手机</a></li>--><li><a href="javascript:;">官方微信</a></li><!--<li id="app-alipay"><a href="javascript:;" onclick="javascript:_changeDisplay(&#39;content-app-alipay&#39;);">支付宝服务窗</a></li>--></ul></div></div></div></div><div class="app-android-banner-area"><div class="app-android-banner-main"><div class="layout clearfix"><div class="app-android-banner-img"><!--修改手机图片--> <img src="https://hshop.honorfile.com/pimages//pages/cdnImages/57065125997712156075.png" alt="荣耀商城Android客户端" data_ue_src="https://hshop.honorfile.com/pimages//pages/cdnImages/57065125997712156075.png" width="494" height="617" border="0" hspace="0" vspace="0" title="" style="width: 494px; height: 617px;"/></div><div class="fl"><div class="app-android-banner-title"><h2>下载荣耀商城APP</h2><span></span></div><div class="app-android-banner-qrcode clearfix"><p class="app-android-qrcode"><!--修改二维码图片--> &nbsp;<img src="https://hshop.honorfile.com/pimages//pages/cdnImages/69542375997717324596.jpg" alt="荣耀商城Android客户端" data_ue_src="https://hshop.honorfile.com/pimages//pages/cdnImages/69542375997717324596.jpg" width="130" height="130" border="0" hspace="0" vspace="0" title="" style="width: 130px; height: 130px;"/>&nbsp; <span>扫码下载荣耀商城APP</span></p><div class="fl"><!--修改APK下载地址--><p class="app-android-download"><a href="https://file06.c.hihonor.com/hshopclient/HonorShop13646636421613664631.apk" class="app-android"><span>Android版下载</span></a><a href="https://apps.apple.com/cn/app/%E8%8D%A3%E8%80%80%E5%95%86%E5%9F%8E/id1597250575" class="app-ios"><span>App store下载</span></a></p><div class="app-android-banner-tips"><p>注册100%送好礼，免费领耳机赠品券</p><p>邀请好友购物最高返利<span class="red">9%</span></p></div></div></div></div></div></div><!--修改背景图片--><div class="app-android-banner-bg"><img src="https://hshop.honorfile.com/shopdc/pic/202332/0/cf9df138-f0ef-4880-9834-83de4e83d8c4.jpg"/></div></div><div class="layout"><div class="app-detail-tab-area app-android-area"></div><!-- 20140915-app详情-其它手机-start --><div class="app-detail-tab-area app-op-area hide"><div class="app-op-banner-area"><div class="app-op-banner-title"><span>手机浏览器访问</span> &nbsp; &nbsp; &nbsp;<h2><a href="https://m.vmall.com/Cps/CpsTrack?cid=12012&url=https://m.vmall.com/index" target="_blank">hihonor.com/cn/m</a></h2></div><div class="app-op-banner-qrcode"><p class="app-op-qrcode"><img src="https://res.vmallres.com/appdownload/mobile/app_op_qrcode_vmall.png?20160122" alt="iOS及其它手机"/><span>扫描二维码快速访问</span></p></div><div class="app-op-banner-img"><img src="https://res.vmallres.com/appdownload/mobile/app_op_banner_vmall.jpg" alt="iOS及其它手机"/></div></div><div class="app-op-skill-area"><div class="h"><h3>快速访问技能 <span>get√</span></h3></div><div class="b"><table border="0"><tbody><tr class="firstRow"><td><h4>技能1 将hihonor.com/cn/m添加为书签</h4><p>1. 在浏览器里打开hihonor.com/cn/m</p><p>2. 点击【共享】按钮---&gt; 点击【书签】，按照提示存储书签。</p><p>3. 从书签列表里点击【荣耀商城】快速访问。</p><p><em>*以Safari for iOS为例</em></p><p><img src="https://res.vmallres.com/appdownload/mobile/app_op_skill_vmall_1.jpg" alt="将hihonor.com/cn/m添加为书签"/></p></td><td><h4>技能2 将hihonor.com/cn/m添加到主屏幕</h4><p>1. 在浏览器里打开hihonor.com/cn/m</p><p>2. 点击【共享】按钮---&gt; 点击【添加到主屏幕】。</p><p>3. 点击手机屏幕上生成的【荣耀商城】图标快速访问。</p><p><em>*以Safari for iOS为例</em></p><p><img src="https://res.vmallres.com/appdownload/mobile/app_op_skill_vmall_2.jpg" alt="将hihonor.com/cn/m添加到主屏幕"/></p></td></tr></tbody></table></div></div></div><!-- 20140915-app详情-其它手机-end --> &nbsp; &nbsp;<!-- 20140915-app详情-微信-start --><div class="app-detail-tab-area app-weixin-area hide"><div class="app-weixin-banner-area"><div class="app-weixin-banner-title"><h2>关注微信公众号【荣耀商城】</h2><p>方法一：微信中搜索【荣耀商城】--&gt;点击【关注】</p><p>方法二：微信扫一扫</p></div><div class="app-weixin-banner-qrcode"><p class="app-weixin-qrcode"><img src="https://file05.c.hihonor.com/pimages//pages/cdnImages/26376388101618367362.jpg" alt="官方微信"/><span>微信扫一扫</span></p></div><div class="app-weixin-banner-img"><img src="https://file05.c.hihonor.com/pimages//pages/cdnImages/20425388101618352402.jpg" alt="官方微信"/></div></div><div class="app-weixin-feature-area"><ul class="clearfix"><li><p><em class="icon-app-feature-sale"></em></p><h3>精彩活动</h3><p>抢购、特惠、抽奖...活动享不停</p></li><li><p><em class="icon-app-feature-new"></em></p><h3>新品推介</h3><p>新品上市第一时间抢购</p></li><li><p><em class="icon-app-feature-order"></em></p><h3>订单查询</h3><p>订单、物流状态随时查询</p></li><li><p><em class="icon-app-feature-service"></em></p><h3>自助服务</h3><p>售后网点、商品信息尽在掌握</p></li></ul></div></div><!-- 20140915-app详情-微信-end --> &nbsp; &nbsp;<!-- 20140915-app详情-支付宝-start --><div class="app-detail-tab-area app-alipay-area hide"><div class="app-alipay-banner-area"><div class="app-alipay-banner-title"><h2>添加支付宝钱包服务窗【荣耀商城】</h2><p>方法一：手机支付宝钱包中搜索【荣耀商城】--&gt;点击【添加服务窗】</p><p>方法二：支付宝钱包扫一扫</p></div><div class="app-alipay-banner-qrcode"><p class="app-alipay-qrcode"><img src="https://res.vmallres.com/appdownload/mobile/app_alipay_qrcode_vmall.png?20160122" alt="支付宝服务窗"/><span>支付宝钱包扫一扫</span></p></div><div class="app-alipay-banner-img"><img src="https://res.vmallres.com/appdownload/mobile/app_alipay_banner_vmall.jpg" alt="支付宝服务窗"/></div></div><div class="app-alipay-feature-area"><ul class="clearfix"><li><p><em class="icon-app-feature-pay"></em></p><h3>支付便捷</h3><p>直接使用支付宝钱包支付</p></li><li><p><em class="icon-app-feature-push"></em></p><h3>活动推送</h3><p>预约抢购、抽奖特惠活动推送</p></li><li><p><em class="icon-app-feature-order"></em></p><h3>订单查询</h3><p>订单、物流状态随时查询</p></li><li><p><em class="icon-app-feature-service"></em></p><h3>自助服务</h3><p>售后网点、商品信息尽在掌握</p></li></ul></div></div><!-- 20140915-app详情-支付宝-end --></div><div class="hr-40"></div><p><br/></p><p></p>
+
+
+
+
+<script type="text/javascript">
+ec.load("ajax");
+   ec.appPath = "&#x2f;home&#x2f;tomcat&#x2f;hshopclient&#x2f;HonorShop31868440868714486813.apk".transHtmlAttribute();
+ec.code.addService({showService : true , showTools : true , live800Url4Web : "https://yoyo.honor.com/#/?botcode=21011",serviceRobotThirdUrl4web : "https://yoyo.hihonor.com/?botcode=21013"});
+   $(function(){  
+      var oldPath = $(".app-android-download .app-android").attr("href");
+      var newPaths =  ec.appPath.split("/");
+      var newPath = "$1"+newPaths[newPaths.length-1];
+      var oldPath = oldPath.replace(/(.*\/).*/,newPath);
+      
+       $(".app-android-download .app-android").attr("href",oldPath);
+    }); 
+</script>
+
+<!--口号-20121025 -->
+ <div class="slogan-container">
+    <div class="slogan">
+        <ul>
+            <li class="s1"><a target="_blank" href="https://www.honor.com/cn/shop/help/faq-226.html"  rel="nofollow" onclick = "pushFootAdvertMsg('公司介绍','https://www.honor.com/cn/shop/help/faq-226.html')"><i></i>官方商城 品质保证</a></li>
+            <li class="s2"><a target="_blank" href="https://www.honor.com/cn/shop/help/faq-1996.html"  rel="nofollow" onclick = "pushFootAdvertMsg('退换货政策','https://www.honor.com/cn/shop/help/faq-1996.html')"><i></i>7天退货 15天换货</a></li>
+            <li class="s3">
+                <a target="_blank" href="https://www.honor.com/cn/shop/help/faq-136.html"  rel="nofollow" onclick = "pushFootAdvertMsg('物流帮助','https://www.honor.com/cn/shop/help/faq-136.html')"><i></i>
+                    <span>48元起免运费</span>
+                </a>
+            </li>
+            <li class="s4"><a target="_blank" href="https://www.honor.com/cn/support/service-center/"  rel="nofollow" onclick = "pushFootAdvertMsg('服务中心','https://www.honor.com/cn/support/service-center/')"><i></i>1800+服务店 全国联保</a></li>
+        </ul>
+    </div>
+</div>
+<!--口号-end -->
+
+<!-- 2017-02-15-服务-start -->
+<div class="service-container">
+    <div class="service">
+        <div class="service-l fl">
+			<div><dl><dt><p class="title">推荐产品</p></dt><dd><ol><li><a href="https://www.honor.com/cn/shop/v/search?categoryId=36" target="_blank" _href="https://www.honor.com/cn/shop/v/search?categoryId=36" textvalue="手机">手机</a></li><li><a href="https://www.honor.com/cn/shop/v/search?categoryId=676" target="_blank" _href="https://www.honor.com/cn/shop/v/search?categoryId=676" textvalue="笔记本">笔记本</a></li><li><a href="https://www.honor.com/cn/shop/v/search?categoryId=678" target="_blank" _href="https://www.honor.com/cn/shop/v/search?categoryId=678" textvalue="平板">平板</a></li><li><a href="https://www.honor.com/cn/shop/v/search?categoryId=59" target="_self" _href="https://www.honor.com/cn/shop/v/search?categoryId=59" textvalue="智能穿戴">智能穿戴</a></li><li><p><a href="https://www.honor.com/cn/shop/v/search?categoryId=54" target="_blank" _href="https://www.honor.com/cn/shop/v/search?categoryId=54" textvalue="配件">配件</a></p></li></ol></dd></dl><dl><dt><p class="title">品牌</p></dt><dd><ol><li><a href="https://www.honor.com/cn/brand/" target="_blank" _href="https://www.honor.com/cn/brand/">关于荣耀</a></li><li><a href="https://www.honor.com/cn/news/" target="_blank" _href="https://www.honor.com/cn/news/">新闻</a><br/></li><li><a href="https://www.honor.com/cn/activity/" target="_blank" _href="https://www.honor.com/cn/activity/">活动</a></li><li><p><a href="https://www.honor.com/cn/video/" target="_blank" _href="https://www.honor.com/cn/video/">视频</a></p></li><li><p><a href="https://www.honor.com/cn/career/" target="_blank" _href="https://www.honor.com/cn/career/">加入荣耀</a></p></li></ol><p></p></dd></dl><dl><dt><p class="title">购物相关</p></dt><dd><ol><li><a href="https://www.honor.com/cn/shop/help/faq-116.html" target="_blank" _href="https://www.honor.com/cn/shop/help/faq-116.html">购物指南</a></li><li><a href="https://www.honor.com/cn/shop/help/faq-1996.html" target="_blank" _href="https://www.honor.com/cn/shop/help/faq-1996.html" textvalue="退换货政策">退换货政策</a></li></ol><ol><li><a href="https://www.honor.com/cn/shop/help/faq-136.html" target="_blank" _href="https://www.honor.com/cn/shop/help/faq-136.html" textvalue="配送方式">配送方式</a></li><li><a href="https://www.honor.com/cn/shop/help/faq-118.html" target="_blank" _href="https://www.honor.com/cn/shop/help/faq-118.html" textvalue="支付方式">支付方式</a></li><li><a href="https://www.honor.com/cn/shop/help/category-42.html" target="_blank" _href="https://www.honor.com/cn/shop/help/category-42.html" textvalue="常见问题">常见问题</a></li></ol></dd></dl><dl><dt><p class="title">服务支持</p></dt><dd><ol><li><a href="https://www.honor.com/cn/shop/order/batteryRenew" target="_blank" _href="https://www.honor.com/cn/shop/order/batteryRenew">增值服务</a></li><li><a href="https://www.honor.com/cn/support/warrantypolicy/" target="_blank" _href="https://www.honor.com/cn/support/warrantypolicy/">保修政策</a></li></ol><p></p><ol><li><p><a href="https://www.honor.com/cn/support/sparepart-price/" target="_blank" _href="https://www.honor.com/cn/support/sparepart-price/">备件价格查询</a></p></li><li><p><a href="https://www.honor.com/cn/shop/notice-14570" target="_blank" _href="https://www.honor.com/cn/shop/notice-14570">会员服务规则</a></p></li><li><p><a href="https://www.honor.com/cn/sale/help/jgbh01.html" target="_blank" _href="https://www.honor.com/cn/sale/help/jgbh01.html">价格保护规则</a></p></li></ol><p></p><p></p><p></p></dd></dl><dl><dt><p class="title">快速链接</p></dt><dd><ol><li><p><a href="https://club.honor.com/cn/rd.php?id=1314" target="_self" _href="https://club.honor.com/cn/rd.php?id=1314">荣耀俱乐部</a></p></li></ol></dd></dl></div><script src="https://dap-cn.c.hihonor.com/dap/ars.js?20210531"></script>
+        </div>
+        <div class="service-r fl">
+            <dl>
+                <dd><a id="tools-nav-service-robotim-button" rel="nofollow" onclick = "pushlowService()" href="javascript:;"  class="onlineBtn"><p>在线客服</p></a></dd>
+            </dl>
+            <div class="service-code clearfix">
+                <h2>关注荣耀</h2><ul><p><img src="https://hshop.honorfile.com/pimages//pages/templateContent/78885299748719258887.jpg" style="width: 80px; height: 80px;" title="20260723-172523.jpg" data_ue_src="https://hshop.honorfile.com/pimages//pages/templateContent/78885299748719258887.jpg" width="80" height="80" border="0" hspace="0" vspace="0"/></p></ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 2017-02-15-服务-end -->
+
+<!-- 2017-02-15-底部-start -->
+<div class="footer-container">
+    <div class="layout">
+        <div class="footer-warrant-area fl"><ul class="footer-warrant-link"><li><a href="https://agreement.itsec.honor.com/asm/agrFile/getHtmlFile?agrNo=1024&country=cn&branchId=0&langCode=zh-cn" target="_blank">关于荣耀商城与隐私的声明</a></li><li><a href="https://agreement.itsec.honor.com/asm/agrFile/getHtmlFile?agrNo=1025&country=cn&branchId=0&langCode=zh-cn" target="_blank">荣耀商城服务协议</a></li><li><a href="https://www.nmpa.gov.cn/ylqx/index.html" target="_blank">质量公告</a></li><li><a href="https://agreement.itsec.honor.com/asm/agrFile/getHtmlFile?agrNo=1045&country=cn&branchId=0&langCode=zh-cn" target="_blank">关于cookies</a></li><li><a href="https://hshop.honorfile.com/pimages//pages/cdnImages/69340230338713204396.png" target="_blank" _href="https://hshop.honorfile.com/pimages//pages/cdnImages/69340230338713204396.png" textvalue="医疗器械网络交易服务第三方平台备案证书-（粤）网械平台备字[2022]第00044号">医疗器械网络交易服务第三方平台备案证书-（粤）网械平台备字[2022]第00044号</a></li><li><a href="https://hshop.honorfile.com/pimages//pages/cdnImages/31189130338713198113.png" target="_blank" _href="https://hshop.honorfile.com/pimages//pages/cdnImages/31189130338713198113.png" textvalue="互联网药品信息服务备案凭证-粤网药信备字[2025]第01012号">互联网药品信息服务备案凭证-粤网药信备字[2025]第01012号</a></li></ul><div class="footer-warrant-link2"><ul><li>Copyright<span> © </span> 2020-2026&nbsp;<span>荣耀终端股份有限公司</span> 版权所有</li><li><a href="http://beian.miit.gov.cn/" target="_blank">粤ICP备20047157号</a></li><li><a href="https://beian.mps.gov.cn/#/query/webSearch?code=44030002002883" target="_blank" style="float:left;">粤公网安备 </a><a href="https://beian.mps.gov.cn/#/query/webSearch?code=44030002002883" target="_blank" style="float:left;">44030002002883</a>&nbsp;&nbsp;</li><li>增值电信业务许可证：粤B2-20201081&nbsp;</li><a href="https://hshop.honorfile.com/pimages//pages/cdnImages/67728258491715282776.png" target="_blank" _href="https://hshop.honorfile.com/pimages//pages/cdnImages/67728258491715282776.png"><img src="https://file07.c.hihonor.com/pimages//pages/templateContent/54718326091612381745.png" title="screenshot_20210421165514794.png" style="width:90px;height:32px;"/></a></ul></div></div>
+    </div>
+</div>
+<!-- 2017-02-15-底部-end -->
+<!-- 大数据页面热力图SDK -->
+    <div>
+    <script type="text/javascript" src="https://hshop.honorfile.com/wapStaticSource/trackSDK-EC.js"></script>
+</div>
+
+<script>
+$('.js-feedback').on('click', function(e) {
+  e.preventDefault();
+  ec.survery.open();
+  pushRightHelpMsg(3);
+})
+</script>
+<!--确认对话框-->
+<div id="ec_ui_confirm" class="popup-area popup-define-area hide">
+    <div class="b">
+        <p id="ec_ui_confirm_msg"></p>
+        <div class="popup-button-area"><a id="ec_ui_confirm_yes" href="javascript:;" class="button-action-yes"><span>是</span></a><a id="ec_ui_confirm_no" href="javascript:;" class="button-action-no"><span>否</span></a></div>
+    </div>
+    <div class="f"><s class="icon-arrow-down"></s></div>
+</div>
+
+<!--新确认对话框-->
+<div id="ec_ui_confirm_new" class="popup-area-new hide">
+    <div class="b">
+        <p id="ec_ui_confirm_new_msg"></p>
+        <div class="popup-button-area"><a id="ec_ui_confirm_new_yes" href="javascript:;" class="box-button-style-1"><span>是</span></a><a id="ec_ui_confirm_new_no" href="javascript:;" class="box-button-style-1"><span>否</span></a></div>
+    </div>
+    <div class="f"><s class="icon-arrow-down-new"></s></div>
+</div>
+
+<!--提示对话框-->
+<div id="ec_ui_tips" class="popup-area popup-define-area hide">
+    <div class="b">
+        <p id="ec_ui_tips_msg" class="tac"></p>
+        <div class="popup-button-area tac"><a id="ec_ui_tips_yes" href="javascript:;" class="button-action-yes" title="确定"><span>确定</span></a></div>
+    </div>
+    <div class="f"><s class="icon-arrow-down"></s></div>
+</div>
+
+<div class="float-botton">
+    <div class="float-main common">
+        <div class="event-float-layout index-channel-floor">
+            <!--添加 fixed  position: fixed !important;top: 20px;z-index: 500;-->
+            <div class="event-float">
+                <div>
+                    <ul class="hover-list">
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2018-10-26-悬浮工具栏-start -->
+        <!-- 20170518-商品简介-按钮-start -->
+        <div class="hungBar j-hungBar">
+            <div class="hungBar-content">
+                                <div class="hungBar-common">
+                    <a target="_blank" onclick="pushRightHelpMsg(1)" href="javascript:;" class="hungBar-cart" ><span style="display:none;"></span><i>购物车</i></a>
+                    <a id="tools-nav-service-robotim" onclick = "pushRightServiceHelpMsg(2)" href="javascript:;" class="hungBar-service" ><i>在线客服</i></a>
+                    <input type="hidden" name="serviceHref" id="servicehrefId" value="" />
+                    <input type="hidden" name="serviceProxyHref" id="serviceProxyHrefId" value="" />
+                    <a id="tools-nav-survery" onclick = "pushRightHelpMsg(3)" href="https://www.honor.com/cn/shop/help/index.html" target="_blank" class="hungBar-feedback" ><i>自助服务</i></a>
+                </div>
+            </div>
+        </div>
+        <!-- 2018-10-26-悬浮工具栏-end -->
+    </div>
+    <div class="float-main backTop">
+        <div class="hungBar j-hungBar">
+            <div class="hungBar-common"><a href="javascript:;" class="hungBar-top"  id="hungBar-top"><i>返回顶部</i></a></div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--意见反馈box-->
+<div id="survery-box" class="ol_box_4 hide" style="width:600px;">
+    <div class="box-ct">
+        <div class="box-header">
+            <div class="box-tl"></div>
+            <div class="box-tc">
+                <div class="box-tc1"></div>
+                <div class="box-tc2"><a class="box-close" title="关闭" onclick="ec.survery.close();" href="javascript:;"></a><span class="box-title">意见反馈</span></div>
+            </div>
+            <div class="box-tr"></div>
+        </div>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+            <tr>
+                <td class="box-cl"></td>
+                <td class="box-cc">
+                    <div class="box-content">
+                        <!-- -表单-意见反馈-start -->
+                        <div class="form-feedback-area">
+                            <div class="b">
+                                <div class="form-edit-area">
+                                    <form autocomplete="off" id="form-feedback">
+                                        <div class="form-edit-table">
+                                            <table cellspacing="0" cellpadding="0" border="0">
+                                                <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <select name="type" id="surverytype">
+                                                            <option>请选择疑问类型</option>
+                                                            <option>商品质量（手机、平板等软、硬件质量）</option>
+                                                            <option>商品缺货</option>
+                                                            <option>物流发货（发货快慢、发错货、送件人态度等）</option>
+                                                            <option>售后服务（服务网点、维修、退换货、客服）</option>
+                                                            <option>网站问题（商城功能失效、不好用等）</option>
+                                                            <option>其他问题</option>
+                                                        </select>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <b>您的问题与建议</b><span id="errMsg"></span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><textarea name="content" id="surveryContent" type="textarea" class="textarea"></textarea></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><b>您的联系方式</b></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><input type="text" name="contact" id="surveryContact"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="fl">
+                                                            <input type="text" maxlength="4" class="identify" name="code" id="surveryVerify" onkeyup="if(this.value.length==4){ec.survery.validate();}">&nbsp;&nbsp;<img id="surveryVerifyImg" onclick="ec.survery.reloadCode()" class="vam" alt="验证码">&nbsp;&nbsp;&nbsp;&nbsp;<span class="vam"><a class="u" href="javascript:;" onclick="ec.survery.reloadCode();">换一张</a></span>
+                                                        </div>
+                                                        <div class="fr">
+                                                            <a href="javascript:;" onclick="ec.survery.submit();" class="button-action-yes"><span>提交</span></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- -表单-意见反馈-end -->
+                    </div>
+                </td>
+                <td class="box-cr"></td>
+            </tr>
+            </tbody>
+        </table>
+        <div class="box-bottom">
+            <div class="box-bl"></div>
+            <div class="box-bc"></div>
+            <div class="box-br"></div>
+        </div>
+    </div>
+</div>
+
+<div id="globleParameter" class="hide" context="https://www.honor.com/cn/shop" stylePath="https://hshop.honorfile.com/2026081310/css" scriptPath="https://hshop.honorfile.com/2026081310/js" imagePath="https://hshop.honorfile.com/2026081310/images" mediaPath="https://hshop.honorfile.com/pimages/" ></div>
+
+<form action="https://www.honor.com/cn/shop/order/confirmcart" id="miniCartForm" method="post"></form>
+
+<script>
+
+    ec.load("ec.box" , {loadType : "lazy"});
+    /**
+     *功能：给鼠标移动到s-dropdown上面的时候，记得给他多添加一个hover类样式
+     *目的是兼容ie6
+     */
+    $(function(){
+        $(".s-dropdown").hover(function(){
+            var jTpl = $(this).attr('data-tpl');
+            if (jTpl && $(this).find('.b').length < 1) {
+                $(this).append(document.getElementById(jTpl).innerHTML);
+                $(this).removeAttr('data-tpl');
+            }
+            $(this).addClass("hover");
+        },function(){
+            $(this).removeClass("hover");
+        });
+        var maxcolor=$('.top-banner-max').find('p').children('a').css("background-color");
+        var mincolor=$('.top-banner-min').find('p').children('a').css("background-color");
+
+        $('.top-banner-max').css({"background-color":maxcolor,overflow:"hidden"});
+        $('.top-banner-min').css({"background-color":mincolor,overflow:"hidden"});
+    });
+
+    //显示全球导航选择层
+    function showSelectRegion(){
+        var box = new ec.box($("#selectRegion-tips").val(),
+            {
+                boxid : "region-select-box",
+                boxclass : "ol_box_4",
+                title : "Please select your country or region",
+                width : 700,
+                showButton : false,
+                autoPosition:false,
+                onopen: function(box){
+                },
+                onok : function(box){
+                },
+                oncancel : function(box){
+                    box.close();
+                    $(".ol_box_mask").remove();
+                },
+                onclose : function(box){
+                    $(".ol_box_mask").remove();
+                }
+            });
+
+        box.open();
+
+        $(".box-title").css("font-size","24px");
+        $("#region-select-box").css("height","auto");
+        $(".ol_box_mask").click(function(){box.close();});
+
+        $(".box-header").unbind("mousemove");
+        $(".box-header").unbind("mousedown");
+
+        var divTop=document.getElementById("region-select-box").offsetTop;
+        $("#region-select-box").mousedown(function (e){
+            var e=e||window.event;
+            var region = document.getElementById("region-select-box");
+
+            var leftX = e.clientX - region.offsetLeft;
+            var topY = e.clientY - region.offsetTop;
+            $("#region-select-box").mousemove(function (event) {
+                var e=event||window.event;
+                var left=    e.clientX - leftX;
+                var top=e.clientY - topY;
+
+                if(e.clientX - leftX<20-region.offsetWidth){
+                    left=20-region.offsetWidth;
+                }
+                if(e.clientY - topY<20-region.offsetHeight){
+                    top=20-region.offsetHeight;
+                }
+
+                if(e.clientY - topY+20>=$(window).height()){
+                    top=$(window).height() - 20;
+                }
+                if(e.clientX - leftX+20>=$(window).width()){
+                    left=$(window).width() - 20;
+                }
+                $("#region-select-box").css({"left": left, "top": top});
+                divTop=top;
+
+            });
+        });
+        $("#region-select-box").mouseup(function () {
+            $("#region-select-box").unbind("mousemove");
+        });
+        $(window).scroll(function () {
+            $("#region-select-box").offset({ top: divTop });
+        });
+    }
+
+    ec.load("ec.slider", {
+        loadType : "lazy",
+        callback : function() {
+            $("#ec-erweima").slider({
+                width:     91, //必须
+                height:     96, //必须
+                style : 1,                    //1显示分页，2只显示左右箭头,3两者都显示
+                pause : 120000,           //间隔时间
+                auto : true
+            });
+        }
+    });
+
+    ec.ready(function(){
+        try
+        {
+            ec.minicart.readyContent();
+            var $miniCart = $('#header-toolbar-minicart-content');
+            $('#header-toolbar-minicart').hover(function (){
+                if(ec.checkBrowerIE()){
+                    var act = (document.activeElement || {}).id;
+                    if(act=='search-kw'){
+                        $("#search-kw").blur();
+                    }
+                }
+
+                $(this).unbind("mouseenter");
+                ec.minicart.content();
+            }, function (){
+                $(this).bind("mouseenter",function(){
+                    if(ec.checkBrowerIE()){
+                        var act = (document.activeElement || {}).id;
+                        if(act=='search-kw'){
+                            $("#search-kw").blur();
+                        }
+                    }
+
+                    $(this).unbind("mouseenter");
+                    ec.minicart.content();
+                });
+            });
+
+            $('#up_loginName-hover').hover(function (){
+                if(ec.checkBrowerIE()){
+                    var act = (document.activeElement || {}).id;
+                    if(act=='search-kw'){
+                        $("#search-kw").blur();
+                    }
+                }
+                $(this).unbind("mouseenter");
+            }, function (){
+                $(this).bind("mouseenter",function(){
+                    if(ec.checkBrowerIE()){
+                        var act = (document.activeElement || {}).id;
+                        if(act=='search-kw'){
+                            $("#search-kw").blur();
+                        }
+                    }
+                    $(this).unbind("mouseenter");
+                });
+            });
+
+        }catch (err){
+
+        }
+    });
+    // 更新购物车数字
+    $(function(){
+        $('.j-hungBar .hungBar-cart').hover(function(){
+            ec.minicart.updateMiniCartNum();
+        });
+    });
+
+
+    //百度站长工具，代码自动推送
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https'){
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else{
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+
+    function pushMyOrderMsg() {
+        if (!ec.account.isLogin()) {
+            ec.dapClick(300450001, {
+                "sourceid": 18,
+                "load": 1
+            });
+        }
+        ec.account.afterLogin(function() {
+            var web_vue_personal_enable  = $('.web_vue_personal_enable').attr('attr'); 
+            if($.trim(web_vue_personal_enable) && web_vue_personal_enable.indexOf('true')>-1){
+                window.location.href = domainMain + '/v/member/order';
+            }else{
+                ec.redirectTo("https://www.honor.com/cn/shop/member/order?t=1787554140645");
+            }
+        });
+        ec.dapClick(300000301, {
+            "click": "1"
+        });
+    }
+
+    function pushlowService(){
+        var serviceHref = $("#servicehrefId").val();
+
+        // TODO for Test
+        serviceHref = serviceHref || 'https://yoyo.test.honor.com/?botcode=21011&enterurl=https%3A%2F%2Fuat.test.honor.com%2Fcn%2Fshopnull&k=1&from=06&remark='
+
+        console.log('zzy pushlowService serviceHref====', serviceHref)
+
+        if(!ec.account.isLogin()) {
+            ec.dapClick(300450001, {
+                "sourceid": 24,
+                "load": 1
+            });
+        }
+        // 跳转登录之前，先存储登录回调地址
+        window.localStorage.setItem('loginCallbackUrl', serviceHref);
+        ec.account.afterLogin(function() {
+            window.open(domainMain + '/v/loginCallback', "_blank");
+        }, '', domainMain + '/v/loginCallback');
+    }
+
+    function pushMyCartMsg() {
+        ec.dapClick(300000401, {
+            "click": "1"
+        });
+    }
+
+    function pushCartProMsg(skuId, url, location) {
+        ec.dapClick(300000402, {
+            "SKUID": skuId,
+            "URL": url,
+            "location": location,
+            "click": "1"
+        });
+    }
+
+    function pushFootAdvertMsg(name, url) {
+        ec.dapClick(300000501, {
+            "name": name,
+            "URL": url,
+            "click": "1"
+        });
+    }
+
+    $('#j-footer').on('click', '.footer-warrant-area  a', function() {
+      var dapData = {
+        "URL": $(this).attr("href"),
+        "click": "1"
+      };
+      if ($(this).find('img').length > 0) {
+        dapData.ADID = $(this).find("img").attr("src");
+      } else {
+        dapData.name = $(this).text();
+      }
+      ec.dapClick(300000502, dapData);
+    });
+
+    function pushRightServiceHelpMsg(index) {
+        if (!ec.account.isLogin()) {
+            // 判断是否是商详页
+            if(window.location.pathname.indexOf('/product')>-1){
+                ec.dapClick(300450001, {
+                "sourceid": 20,
+                "load": 1
+                })
+            }else{
+                ec.dapClick(300450001, {
+                "sourceid": 24,
+                "load": 1
+                });
+            }
+        }
+        //运营商编码
+        var serviceHrefSeCode = $("#serviceHelpSeCodeId").val();
+        //相应商品的sbomcode
+        var serviceHrefSbomcode = $("#serviceHelpSbomId").val();
+        //运营商名称
+        var serviceHelpSeName = $("#serviceHelpSeNameId").val();
+		
+		//品牌名称
+		var serviceHelpBrandName = $("#serviceHelpBrandNameId").val();
+		//品牌编码
+		var serviceHelpBrandCode = $("#serviceHelpBrandCodeId").val();
+
+        var serviceHref = "";
+        //点击客服页面的标识
+        var serviceFlag = $("#serviceRefId").val();
+        //内购客服标识
+        var innerFlag = false;
+        if(serviceFlag && serviceFlag == "1"){
+            //商品详情页
+            serviceHref = $("#servicehrefId").val().replace("&from=06","&from=01");
+            if (window.location.href.indexOf("source=inner") > -1){
+                if (ec.account.onlineServiceInfo && ec.account.onlineServiceInfo.linkUrl){
+                    serviceHref = ec.account.onlineServiceInfo.linkUrl.transHtmlAttribute();
+                    innerFlag = true;
+                } else {
+                    alertBox('无法连接在线客服，请稍后再试');
+                    return;
+                }
+            }
+        }else if (serviceFlag && serviceFlag == "3"){
+            //订单详情页 /我的订单页 /订单修改页 /收货地址管理页
+            serviceHref = $("#servicehrefId").val().replace("&from=06","&from=03");
+        }else if (serviceFlag && serviceFlag == "4"){
+            //我的退换货页 /退换货详情页 / 申请退换货页
+            serviceHref = $("#servicehrefId").val().replace("&from=06","&from=04");
+        }else if (serviceFlag && serviceFlag == "7"){
+            //消息中心
+            serviceHref = $("#servicehrefId").val().replace("&from=06","&from=07");
+        }else if (serviceFlag && serviceFlag == "5"){
+            //帮助中心
+            serviceHref = $("#servicehrefId").val().replace("&from=06","&from=05");
+        }else if (serviceFlag && serviceFlag == "8"){
+            //内购
+            if (ec.account.onlineServiceInfo && ec.account.onlineServiceInfo.linkUrl){
+                serviceHref = ec.account.onlineServiceInfo.linkUrl.transHtmlAttribute();
+                innerFlag = true;
+            } else {
+                alertBox('无法连接在线客服，请稍后再试');
+                return;
+            }
+        }else{
+            serviceHref = $("#servicehrefId").val();
+        }
+
+        if (!innerFlag){
+            //需要拼接到url上的参数
+            var serviceHrefSbomcodeParm = "&sbomCode=" + serviceHrefSbomcode;
+            var serviceHrefSeCodeParm = "&seCode=" + serviceHrefSeCode;
+            var serviceHrefSeNameParm = "&seName=" + serviceHelpSeName;
+            var serviceHrefBrandNameParm = "&brandName=" + serviceHelpBrandName;
+            var servicehrefBrandCodeParm = "&brandCode=" + serviceHelpBrandCode;
+
+            if (serviceHrefSbomcode){
+                serviceHref += serviceHrefSbomcodeParm;
+            }
+            if (serviceHelpBrandCode) {
+                serviceHref += servicehrefBrandCodeParm;
+            }
+            if (serviceHelpBrandName) {
+                serviceHref += serviceHrefBrandNameParm;
+            }
+            //代销商品
+            if(serviceHrefSeCode && serviceHrefSeCode != "VMALL-HUAWEIDEVICE"){
+                
+                if ($("#serviceProxyHrefId").val() && $("#serviceProxyHrefId").val() != "") {
+                    serviceHref = "";
+                    if(serviceFlag && serviceFlag == "1"){
+                        //商品详情页
+                        serviceHref = $("#serviceProxyHrefId").val().replace("&from=06","&from=01");
+                    }else if (serviceFlag && serviceFlag == "3"){
+                        //订单详情页 /我的订单页 /订单修改页 /收货地址管理页
+                        serviceHref = $("#serviceProxyHrefId").val().replace("&from=06","&from=03");
+                    }else if (serviceFlag && serviceFlag == "4"){
+                        //我的退换货页 /退换货详情页 / 申请退换货页
+                        serviceHref = $("#serviceProxyHrefId").val().replace("&from=06","&from=04");
+                    }
+                    if(serviceHrefSbomcode){
+                        serviceHref += serviceHrefSbomcodeParm;
+                    }
+                    if (serviceHelpBrandCode) {
+                        serviceHref += servicehrefBrandCodeParm;
+                    }
+                    if (serviceHelpBrandName) {
+                        serviceHref += serviceHrefBrandNameParm;
+                    }
+                    serviceHref += serviceHrefSeCodeParm;
+                    serviceHref += serviceHrefSeNameParm;
+                }
+            }
+        }
+
+        // TODO for Test
+        serviceHref = serviceHref || 'https://yoyo.test.honor.com/?botcode=21011&enterurl=https%3A%2F%2Fuat.test.honor.com%2Fcn%2Fshopnull&k=1&from=06&remark='
+        
+        console.log('zzy pushRightServiceHelpMsg serviceHref====', serviceHref);
+
+        if(serviceFlag && serviceFlag == "-1"){
+            //游客购订单详情页面，不需要拉起登录
+            window.open(serviceHref, "_blank");
+        }else{
+            // 跳转登录之前，先存储登录回调地址
+            window.localStorage.setItem('loginCallbackUrl', serviceHref);
+            ec.account.afterLogin(function() {
+                window.open(domainMain + '/v/loginCallback', "_blank");
+            }, '', domainMain + '/v/loginCallback');
+        }
+
+        var buttonName = ['', '购物车', '在线客服', '自助服务'][index];
+        ec.dapClick(300000601, {
+            "buttonName": buttonName,
+            "click": "1",
+            'index': index
+        });
+    }
+
+    //右侧浮层点击方法
+    function pushRightHelpMsg(index) {
+        if(index==1){
+            // 购物车
+            // 对接vue订单确认页的开关
+            var web_vue_cart_enable  = $('.web_vue_cart_enable').attr('attr'); 
+            if($.trim(web_vue_cart_enable) && web_vue_cart_enable.indexOf('true')>-1){
+                window.location.href = domainMain + '/v/cart';
+            }else{
+                window.location.href = domainMain + '/cart2';
+            } 	
+        }
+
+        var buttonName = ['', '购物车', '在线客服', '自助服务'][index];
+        ec.dapClick(300000601, {
+            "buttonName": buttonName,
+            "click": "1",
+            'index': index
+        });
+    }
+
+    jump = function(url,obj){
+        if(typeof(obj.html()) != "undefined" && obj.html() != null && obj.html() != ""){
+            pushFootAdvertMsg($(this).html(),url);
+        }
+        var win = ec.openWindow(url);
+        win.opener = null ;
+    }
+
+    function pushProHotMsg(skuCode) {
+        ec.dapClick(300020701, {
+            "productId": ec.product.id,
+            "SKUCode": (ec.product.getSkuInfo(ec.product.getSku()) || {}).code,
+            "linkSKUCode": skuCode,
+            "click": "1"
+        });
+    }
+
+    jump_link = function(url) {
+        return;
+    }
+
+    //购物车关闭提示
+    function cartTipsHide(){
+        $('#cart-tips').hide();
+    }
+</script>
+
+<script>
+    new Slider({//友情链接
+        objid: '#serverlink',
+        listname: '.service-list',
+        listitem: 'ol',
+        shownum: 1
+    }).init();
+
+    $(".fl").find("dd").find("a").bind("click",function(){
+        var HREF = "";
+        HREF = this.href;
+        var name = this.innerHTML;
+        if(HREF==null || HREF == ""){
+            return;
+        }
+        if(this.id=="tools-nav-service-robotim-button"){
+            name = "商城服务热线"; // todo 
+        }
+        if(this.className=="service-btn btn-report"){
+            name = "不良信息举报";
+        }
+        pushFootAdvertMsg(name,HREF);
+    });
+
+</script>
+</body></html>
