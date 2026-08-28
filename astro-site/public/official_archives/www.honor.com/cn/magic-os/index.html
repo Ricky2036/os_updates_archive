@@ -694,6 +694,46 @@
   }
 </script>
 
+
+<style>
+  /* Fix section-connect desktop background inside TV and Laptop */
+  .magicos10 .section-connect .desktop-wrapper .desktop,
+  .magicos10 .section-connect .desktop-wrapper .desktop img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .magicos10 .section-connect .item-wrapper .item3 .desktop-wrapper .desktop {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .magicos10 .section-connect .item-wrapper .item3 .desktop-wrapper .desktop img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* Fix section-clock swiper-slide images */
+  .magicos10 .section-clock .swiper-container-clock .swiper-slide .desktop,
+  .magicos10 .section-clock .swiper-container-clock .swiper-slide .desktop img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+</style>
+
 </head>
     
 	
@@ -20333,7 +20373,7 @@ body.custom-cursor * {
       </div>
       <div class="swiper-container swiper-container-lockscreen">
         <div class="swiper-wrapper">
-          <div class="swiper-slide slide1">
+          <div class="swiper-slide slide1 magicos10-mobShow">
             <picture class="shadow">
               <source media="(max-aspect-ratio:12/10) and (max-width:500px)" type="image/avif" srcset="../../../www-file.honor.com/content/dam/honor/cn/magic-os-10/imgs/section-lockscreen/magicos10-lockscreen-shadow@mob.avif">
               <source media="(max-aspect-ratio:12/10) and (max-width:500px)" type="image/webp" srcset="../../../www-file.honor.com/content/dam/honor/cn/magic-os-10/imgs/section-lockscreen/magicos10-lockscreen-shadow@mob.webp">
