@@ -5,6 +5,9 @@ const site = path.resolve(import.meta.dirname, '..');
 const contentDir = path.join(site, 'src/content/articles');
 const compatDir = path.join(site, 'public/compat');
 const manifestDir = path.join(site, 'public/manifests');
+const magicPagePath = path.join(site, 'src/pages/magicos/[official].astro');
+const officialConfigPath = path.join(site, 'src/lib/official-archives.ts');
+const serviceWorkerPath = path.join(site, 'public/sw.js');
 const files = (await fs.readdir(contentDir)).filter((name) => name.endsWith('.json')).sort();
 const articles = await Promise.all(files.map(async (name) => JSON.parse(await fs.readFile(path.join(contentDir, name), 'utf8'))));
 const fail = (message) => { throw new Error(message); };
@@ -29,4 +32,8 @@ const migration = JSON.parse(await fs.readFile(path.join(manifestDir, 'migration
 if (migration.articles > articles.length || migration.interactive !== interactive.length) fail('Migration report does not match the migrated catalog');
 const official = JSON.parse(await fs.readFile(path.join(manifestDir, 'official-archives.json'), 'utf8'));
 if (official.release !== 'v2026-07-30' || official.entryPages !== 6 || official.videos !== 119 || official.files !== 380) fail('Official ColorOS archive manifest is incomplete');
+const magicPage = await fs.readFile(magicPagePath, 'utf8');
+if (/serviceWorker\.register/.test(magicPage)) fail('MagicOS iframe must not register the root Service Worker');
+const officialConfig = await fs.readFile(officialConfigPath, 'utf8');
+if (!officialConfig.includes('PUBLIC_MAGICOS_ARCHIVE_BASE_URL')) fail('MagicOS archive CDN configuration is missing');
 console.log(`Content verified: ${articles.length} articles, ${interactive.length} interactive pages, ${videos.filter((video) => video.status === 'ready').length}/${videos.length} article videos, ${official.videos} official archive videos.`);

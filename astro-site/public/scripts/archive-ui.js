@@ -1,13 +1,62 @@
 (() => {
+  const getCurrentArchiveElements = () => ({
+    menuButton: document.querySelector('.menu-button'),
+    archiveNav: document.querySelector('#archive-nav'),
+    backdrop: document.querySelector('[data-nav-backdrop]'),
+  });
+
+  const closeArchiveMenu = () => {
+    const current = getCurrentArchiveElements();
+    current.archiveNav?.classList.remove('open');
+    if (current.backdrop) current.backdrop.hidden = true;
+    document.body.classList.remove('nav-open');
+    current.menuButton?.setAttribute('aria-expanded', 'false');
+    current.menuButton?.setAttribute('aria-label', '打开文章目录');
+    current.menuButton?.setAttribute('title', '打开目录');
+    current.menuButton?.blur();
+  };
+
+  const openArchiveMenu = () => {
+    const current = getCurrentArchiveElements();
+    if (!current.menuButton || !current.archiveNav) return;
+    current.archiveNav.classList.add('open');
+    if (current.backdrop) current.backdrop.hidden = false;
+    document.body.classList.add('nav-open');
+    current.menuButton.setAttribute('aria-expanded', 'true');
+    current.menuButton.setAttribute('aria-label', '关闭文章目录');
+    current.menuButton.setAttribute('title', '关闭目录');
+    current.archiveNav.focus({ preventScroll: true });
+  };
+
+  const toggleArchiveMenu = () => {
+    const { archiveNav } = getCurrentArchiveElements();
+    archiveNav?.classList.contains('open') ? closeArchiveMenu() : openArchiveMenu();
+  };
+
+  // The document survives Astro ClientRouter swaps. Bind this delegated
+  // control once so the first press on a newly swapped header is never lost
+  // while page-specific listeners are being refreshed.
+  if (!window.__osArchiveControlsBound) {
+    document.addEventListener('pointerdown', (event) => {
+      const target = event.target instanceof Element ? event.target : null;
+      if (!target?.closest('.menu-button')) return;
+      event.preventDefault();
+      toggleArchiveMenu();
+    }, true);
+    document.addEventListener('keydown', (event) => {
+      const target = event.target instanceof Element ? event.target : null;
+      if (!target?.closest('.menu-button') || !['Enter', ' '].includes(event.key)) return;
+      event.preventDefault();
+      toggleArchiveMenu();
+    }, true);
+    window.__osArchiveControlsBound = true;
+  }
+
   function initArchiveUI() {
     window.__osArchiveController?.abort();
     const controller = new AbortController();
     window.__osArchiveController = controller;
     const { signal } = controller;
-    const menuButton = document.querySelector('.menu-button');
-    const archiveNav = document.querySelector('#archive-nav');
-    const backdrop = document.querySelector('[data-nav-backdrop]');
-    const closeButton = document.querySelector('[data-nav-close]');
     const mobileTabs = window.matchMedia('(max-width: 760px)');
     let swipeStartY = null;
 
@@ -187,7 +236,10 @@
 
     const getOptimalTabScrollLeft = (targetTab) => {
       if (!brandSwitcher || !targetTab) return 0;
-      const items = Array.from(brandSwitcher.children);
+      // Only navigation entries participate in the scroll calculation. The
+      // animated pill is also a direct child, but it is purely decorative and
+      // must not shift the logical tab indexes.
+      const items = Array.from(brandSwitcher.querySelectorAll(':scope > .home-tab, :scope > .brand-menu'));
       const index = items.indexOf(targetTab);
       if (index === -1) return 0;
 
@@ -511,41 +563,18 @@
       }
     }, { signal });
 
-    const closeMenu = () => {
-      archiveNav?.classList.remove('open');
-      if (backdrop) backdrop.hidden = true;
-      document.body.classList.remove('nav-open');
-      menuButton?.setAttribute('aria-expanded', 'false');
-      menuButton?.setAttribute('aria-label', '打开文章目录');
-      menuButton?.setAttribute('title', '打开目录');
-      menuButton?.blur();
-    };
-    const openMenu = () => {
-      if (!archiveNav) return;
-      archiveNav.classList.add('open');
-      if (backdrop) backdrop.hidden = false;
-      document.body.classList.add('nav-open');
-      menuButton?.setAttribute('aria-expanded', 'true');
-      menuButton?.setAttribute('aria-label', '关闭文章目录');
-      menuButton?.setAttribute('title', '关闭目录');
-      archiveNav.focus({ preventScroll: true });
-    };
+    const closeMenu = closeArchiveMenu;
 
-    menuButton?.addEventListener('click', () => {
-      menuButton.blur();
-      archiveNav?.classList.contains('open') ? closeMenu() : openMenu();
+    document.addEventListener('click', (event) => {
+      const target = event.target instanceof Element ? event.target : null;
+      if (target?.closest('[data-nav-close], [data-nav-backdrop], #archive-nav a')) closeMenu();
     }, { signal });
-    menuButton?.addEventListener('touchend', () => {
-      menuButton.blur();
-    }, { passive: true, signal });
-    closeButton?.addEventListener('click', closeMenu, { signal });
-    backdrop?.addEventListener('click', closeMenu, { signal });
-    archiveNav?.querySelectorAll('a').forEach((link) => link.addEventListener('click', closeMenu, { signal }));
 
     document.addEventListener('keydown', (event) => {
-      if (event.key === 'Escape') { closeMenu(); closeColorOSMenu(); }
-      if (event.key === 'Tab' && archiveNav?.classList.contains('open')) {
-        const focusable = [...archiveNav.querySelectorAll('a,button,input,[tabindex]:not([tabindex="-1"])')].filter((element) => !element.hidden);
+      if (event.key === 'Escape') { closeMenu(); closeAllBrandMenus(); }
+      const currentArchiveNav = document.querySelector('#archive-nav');
+      if (event.key === 'Tab' && currentArchiveNav?.classList.contains('open')) {
+        const focusable = [...currentArchiveNav.querySelectorAll('a,button,input,[tabindex]:not([tabindex="-1"])')].filter((element) => !element.hidden);
         if (!focusable.length) return;
         const first = focusable[0];
         const last = focusable.at(-1);
@@ -998,9 +1027,10 @@
     }
   }
 
-  if (!window.__osArchivePageLoadBound) {
-    document.addEventListener('astro:page-load', initArchiveUI);
-    window.__osArchivePageLoadBound = true;
+  if (window.__osArchivePageLoadHandler) {
+    document.removeEventListener('astro:page-load', window.__osArchivePageLoadHandler);
   }
+  window.__osArchivePageLoadHandler = initArchiveUI;
+  document.addEventListener('astro:page-load', window.__osArchivePageLoadHandler);
   initArchiveUI();
 })();

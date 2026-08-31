@@ -20,6 +20,9 @@
     "archive:verify": "node scripts/verify-official-archives.mjs",
     "archive:serve": "node scripts/serve-official-archives.mjs",
     "archive:upload": "node scripts/upload-official-archives.mjs",
+    "archive:prepare:magicos": "node scripts/prepare-magicos-archive.mjs",
+    "archive:verify:magicos": "node scripts/verify-magicos-archive.mjs",
+    "archive:upload:magicos": "node scripts/upload-official-archives.mjs --magicos",
     "verify": "npm run test:content && npm run digest:validate && npm run check && npm run build && npm run test:browser"
   },
   "dependencies": {

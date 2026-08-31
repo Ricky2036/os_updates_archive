@@ -23,10 +23,7 @@ self.addEventListener('fetch', event => {
         'cdn.cnbj1.fds.api.mi-img.com',
         'ssl-cdn.static.browser.mi-img.com',
         'cia.hyperos.mi.com',
-        's01.mifile.cn',
-        'honor.com',
-        'hihonor.com',
-        'www-file.honor.com'
+        's01.mifile.cn'
     ];
 
     const url = new URL(event.request.url);
@@ -43,19 +40,6 @@ self.addEventListener('fetch', event => {
         const basePath = scopeUrl.pathname.replace(/\/$/, '');
         const targetPath = `${basePath}/official_archives/${domain}${url.pathname}`;
         
-        event.respondWith(
-            fetch(targetPath).then(response => {
-                if (!response.ok) return fetch(event.request);
-                return response;
-            }).catch(() => fetch(event.request))
-        );
-        return;
-    }
-
-    if (url.pathname.startsWith('/content/dam/') || url.pathname.startsWith('/etc/') || url.pathname.startsWith('/etc.clientlibs/')) {
-        const scopeUrl = new URL(self.registration.scope);
-        const basePath = scopeUrl.pathname.replace(/\/$/, '');
-        const targetPath = `${basePath}/official_archives/www.honor.com${url.pathname}`;
         event.respondWith(
             fetch(targetPath).then(response => {
                 if (!response.ok) return fetch(event.request);

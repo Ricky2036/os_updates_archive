@@ -509,9 +509,33 @@ body.page-card-exit-up .article-content {
 
 @media (min-width: 761px) and (max-width: 1023px) {
   .archive-layout, .article-layout {
-    gap: 32px;
+    display: block;
     width: calc(100% - 40px);
   }
+  .site-header.has-archive-nav .menu-button { display: inline-flex; }
+  .site-header.has-archive-nav + .brand-switcher-nav .brand-switcher { right: 72px; }
+  .archive-nav {
+    position: fixed;
+    inset: 72px 0 auto;
+    z-index: 60;
+    width: auto;
+    max-height: min(74vh, 620px);
+    padding: 20px 24px 24px;
+    background: rgba(246,248,252,.94);
+    box-shadow: 0 24px 48px rgba(17,22,31,.16);
+    transform: translateY(-115%);
+    transition: transform .3s var(--ease);
+  }
+  .archive-nav.open { transform: translateY(0); }
+  .nav-backdrop:not([hidden]) {
+    position: fixed;
+    inset: 72px 0 0;
+    z-index: 50;
+    display: block;
+    background: rgba(17,21,28,.28);
+    backdrop-filter: blur(3px);
+  }
+  .nav-close { display: none !important; }
 }
 
 .brand-switcher-nav {

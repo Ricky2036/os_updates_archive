@@ -53,11 +53,11 @@ const jsonLd = articleMeta ? {
     <link rel="manifest" href={sitePath('site.webmanifest')} />
     <title>{title} · OS档案馆</title>
     <script is:inline>
-      (() => {
+      document.addEventListener('astro:page-load', () => {
         try {
           document.documentElement.dataset.monthlyView = localStorage.getItem('os-archive:monthly-view') === 'original' ? 'original' : 'digest';
         } catch { document.documentElement.dataset.monthlyView = 'digest'; }
-      })();
+      }, { once: true });
     </script>
     {jsonLd && <script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
     <ClientRouter />

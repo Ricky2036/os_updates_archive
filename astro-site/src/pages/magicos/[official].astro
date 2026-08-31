@@ -23,12 +23,6 @@ const sources = {
 <html lang="zh-CN" class="official-page">
   <head>
     <meta charset="UTF-8" />
-    <script>
-      if ('serviceWorker' in navigator) {
-        // Register the proxy service worker for local official archives
-        navigator.serviceWorker.register((import.meta.env.BASE_URL || '/') + 'sw.js', { scope: import.meta.env.BASE_URL || '/' });
-      }
-    </script>
     <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
     <meta name="description" content={`${meta.label} 官方网站完整离线存档。`} />
     <meta name="theme-color" content="#f3f7fc" />
@@ -51,8 +45,8 @@ const sources = {
       .official-error[hidden], .official-shell.loaded .official-loading { display: none; }
       .official-error { z-index: 3; background: rgba(243,247,252,.94); backdrop-filter: blur(18px); }
       .official-error p { max-width: 320px; margin: 0; color: #747b86; font-size: 13px; line-height: 1.7; }
-      .official-actions { display: flex; gap: 10px; }
-      .official-actions button, .official-actions a { min-height: 42px; padding: 0 18px; border: 0; border-radius: 999px; color: #171a20; background: rgba(255,255,255,.9); box-shadow: 0 8px 24px rgba(39,63,116,.12); font: inherit; font-size: 13px; font-weight: 720; text-decoration: none; cursor: pointer; }
+      .official-actions { display: flex; gap: 10px; justify-content: center; align-items: center; }
+      .official-actions button, .official-actions a { display: inline-flex; align-items: center; justify-content: center; min-height: 42px; height: 42px; line-height: 1; padding: 0 20px; border: 0; border-radius: 999px; color: #171a20; background: rgba(255,255,255,.9); box-shadow: 0 8px 24px rgba(39,63,116,.12); font: inherit; font-size: 13px; font-weight: 720; text-decoration: none; cursor: pointer; box-sizing: border-box; }
       .official-return { position: fixed; left: max(14px, env(safe-area-inset-left)); bottom: max(14px, env(safe-area-inset-bottom)); z-index: 5; display: inline-flex; align-items: center; gap: 9px; min-height: 42px; padding: 5px 14px 5px 6px; border: 1px solid rgba(255,255,255,.82); border-radius: 999px; color: #171a20; background: rgba(246,248,252,.8); box-shadow: 0 12px 34px rgba(31,44,76,.16); backdrop-filter: blur(18px) saturate(145%); font-size: 12px; font-weight: 760; text-decoration: none; -webkit-tap-highlight-color: transparent; }
       .official-return img { width: 30px; height: 30px; }
       .official-return:active { transform: scale(.96); }

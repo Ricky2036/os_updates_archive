@@ -8,6 +8,9 @@ const productionBase = 'https://pub-677d8b9c16d84df684f908214461d60a.r2.dev/v202
 export const officialArchiveBase = (
   import.meta.env.PUBLIC_OFFICIAL_ARCHIVE_BASE_URL || productionBase
 ).replace(/\/$/, '');
+export const magicOSArchiveBase = (
+  import.meta.env.PUBLIC_MAGICOS_ARCHIVE_BASE_URL || ''
+).replace(/\/$/, '');
 
 export const officialArchiveMeta: Record<OfficialArchiveVersion, {
   title: string;
@@ -89,6 +92,9 @@ export function officialArchiveUrl(version: OfficialArchiveVersion, viewport: Of
   } else if (version === 'hyperos4') {
     return sitePath(`official_archives/hyperos.mi.com/${entry}`);
   } else if (version === 'magicos10') {
+    if (magicOSArchiveBase) {
+      return `${magicOSArchiveBase}/${entry}`;
+    }
     return sitePath(`official_archives/www.honor.com/cn/magic-os/${entry}`);
   }
   return '';

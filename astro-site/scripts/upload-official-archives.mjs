@@ -7,6 +7,8 @@ import { outputRoot, releaseRoot, sha256 } from './official-archive-common.mjs';
 
 const dryRun = process.argv.includes('--dry-run');
 const onlyManifest = process.argv.includes('--only-manifest');
+const entryOnly = process.argv.includes('--entry-only');
+const magicOSOnly = process.argv.includes('--magicos');
 const required = ['R2_ACCOUNT_ID', 'R2_ACCESS_KEY_ID', 'R2_SECRET_ACCESS_KEY'];
 if (!dryRun) for (const key of required) if (!process.env[key]) throw new Error(`Missing required environment variable: ${key}`);
 const accountId = process.env.R2_ACCOUNT_ID;
@@ -15,14 +17,17 @@ const secretKey = process.env.R2_SECRET_ACCESS_KEY;
 const bucket = process.env.R2_BUCKET || 'os-official-archives';
 const concurrency = Math.max(1, Math.min(8, Number(process.env.R2_UPLOAD_CONCURRENCY || 3)));
 const transport = process.env.R2_UPLOAD_TRANSPORT || 'fetch';
-const manifestPath = path.join(releaseRoot, 'manifest.json');
+const manifestPath = path.join(releaseRoot, magicOSOnly ? 'magicos-manifest.json' : 'manifest.json');
 const manifest = JSON.parse(await fs.readFile(manifestPath, 'utf8').catch(() => { throw new Error('Prepared archives are missing. Run npm run archive:prepare first.'); }));
 const manifestStat = await fs.stat(manifestPath);
 const manifestUpload = {
   path: path.relative(outputRoot, manifestPath).split(path.sep).join('/'), size: manifestStat.size, sha256: await sha256(manifestPath),
   mime: 'application/json; charset=utf-8', cacheControl: 'public, max-age=300, must-revalidate',
 };
-const uploads = onlyManifest ? [manifestUpload] : [...manifest.files, manifestUpload];
+const selectedFiles = entryOnly
+  ? manifest.files.filter((file) => /\/index\.html$/i.test(file.path))
+  : manifest.files;
+const uploads = onlyManifest ? [manifestUpload] : [...selectedFiles, manifestUpload];
 
 const hash = (value) => createHash('sha256').update(value).digest('hex');
 const hmac = (key, value, encoding) => createHmac('sha256', key).update(value).digest(encoding);
@@ -54,13 +59,21 @@ async function uploadWithCurl(file, absolute) {
   });
 }
 
+let completed = 0;
+function report(file) {
+  completed += 1;
+  if (uploads.length <= 20 || completed === uploads.length || completed % 100 === 0) {
+    console.log(`${dryRun ? 'Validated' : 'Uploaded'} ${completed}/${uploads.length}: ${file.path}`);
+  }
+}
+
 async function upload(file, attempt = 1) {
-  if (dryRun) { console.log(`[dry-run] ${file.path} (${file.size} bytes)`); return; }
+  if (dryRun) { report(file); return; }
   const absolute = path.join(outputRoot, file.path);
   if (transport === 'curl') {
     try {
       await uploadWithCurl(file, absolute);
-      console.log(`Uploaded ${file.path}`);
+      report(file);
       return;
     } catch (error) {
       if (attempt >= 3) throw error;
@@ -98,7 +111,7 @@ async function upload(file, attempt = 1) {
       headers: { ...signed, Authorization: authorization, 'Content-Length': String(file.size) },
     });
     if (!response.ok) throw new Error(`HTTP ${response.status}: ${(await response.text()).slice(0, 300)}`);
-    console.log(`Uploaded ${file.path}`);
+    report(file);
   } catch (error) {
     if (attempt >= 3) throw error;
     await new Promise((resolve) => setTimeout(resolve, 800 * 2 ** (attempt - 1)));

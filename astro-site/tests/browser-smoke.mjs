@@ -37,6 +37,7 @@ try {
     } else request.continue();
   });
   page.on('console', (message) => { if (message.type() === 'error') errors.push(message.text()); });
+  page.on('pageerror', (error) => errors.push(`Page error: ${error.message}`));
   page.on('requestfailed', (request) => {
     const reason = request.failure()?.errorText ?? '';
     if (!reason.includes('ERR_ABORTED')) errors.push(`Request failed (${reason}): ${request.url()}`);
@@ -53,22 +54,23 @@ try {
     if (layout.menu) throw new Error('Homepage rendered an orphan archive menu button');
   }
 
-  await page.hover('[data-coloros-trigger]');
-  await page.waitForFunction(() => getComputedStyle(document.querySelector('[data-coloros-submenu]')).opacity === '1');
+  await page.hover('.brand-menu[data-brand="coloros"] .brand-trigger');
+  await page.waitForFunction(() => getComputedStyle(document.querySelector('.brand-menu[data-brand="coloros"] .brand-submenu')).opacity === '1');
   const desktopHomeTab = await page.$eval('.home-tab', (element) => ({ visible: getComputedStyle(element).display !== 'none', active: element.classList.contains('active'), hoverLine: getComputedStyle(element, '::after').backgroundImage }));
   if (!desktopHomeTab.visible || !desktopHomeTab.active || desktopHomeTab.hoverLine === 'none') throw new Error(`Homepage tab is missing its active or hover treatment: ${JSON.stringify(desktopHomeTab)}`);
-  if (await page.$eval('[data-coloros-trigger] i', (element) => getComputedStyle(element).display !== 'none')) throw new Error('ColorOS dropdown arrow is still visible');
-  const desktopColorOSMenu = await page.$$eval('[data-coloros-submenu] a', (items) => items.map((item) => ({ text: item.textContent.trim(), path: new URL(item.href).pathname })));
+  if (await page.$eval('.brand-menu[data-brand="coloros"] .brand-trigger i', (element) => getComputedStyle(element).display !== 'none')) throw new Error('ColorOS dropdown arrow is still visible');
+  const desktopColorOSMenu = await page.$$eval('.brand-menu[data-brand="coloros"] .brand-submenu a', (items) => items.map((item) => ({ text: item.textContent.trim(), path: new URL(item.href).pathname })));
   if (desktopColorOSMenu.map((item) => item.text).join('|') !== 'ColorOS 15|ColorOS 16|月更记录') throw new Error(`Desktop ColorOS menu is incomplete: ${JSON.stringify(desktopColorOSMenu)}`);
-  if (!await page.$$eval('[data-coloros-submenu] a', (items) => items.every((item) => getComputedStyle(item).textAlign === 'center'))) throw new Error('ColorOS submenu labels are not centered');
-  await page.focus('[data-coloros-trigger]');
+  if (!await page.$$eval('.brand-menu[data-brand="coloros"] .brand-submenu a', (items) => items.every((item) => getComputedStyle(item).textAlign === 'center'))) throw new Error('ColorOS submenu labels are not centered');
+  await page.focus('.brand-menu[data-brand="coloros"] .brand-trigger');
   await page.keyboard.press('ArrowDown');
   if (await page.evaluate(() => document.activeElement?.textContent?.trim()) !== 'ColorOS 15') throw new Error('Desktop ColorOS menu did not move focus with ArrowDown');
   await page.keyboard.press('Escape');
-  if (await page.$eval('[data-coloros-trigger]', (element) => element.getAttribute('aria-expanded')) !== 'false') throw new Error('Desktop ColorOS menu did not close with Escape');
-  await page.click('[data-coloros-trigger]');
-  await page.waitForFunction(() => location.pathname.includes('/coloros/2026/01-oppo-coloros-2026/'));
-  if (!page.url().includes('/coloros/2026/01-oppo-coloros-2026/')) throw new Error(`Desktop ColorOS tab did not open monthly updates: ${page.url()}`);
+  if (await page.$eval('.brand-menu[data-brand="coloros"] .brand-trigger', (element) => element.getAttribute('aria-expanded')) !== 'false') throw new Error('Desktop ColorOS menu did not close with Escape');
+  const desktopColorOSLatest = await page.$eval('.brand-menu[data-brand="coloros"] .brand-trigger', (element) => new URL(element.href).pathname);
+  await page.click('.brand-menu[data-brand="coloros"] .brand-trigger');
+  await page.waitForFunction((expected) => location.pathname === expected, {}, desktopColorOSLatest);
+  if (new URL(page.url()).pathname !== desktopColorOSLatest) throw new Error(`Desktop ColorOS tab did not open monthly updates: ${page.url()}`);
   const desktopNavBeforeScroll = await page.$eval('.brand-switcher', (element) => element.getBoundingClientRect().top);
   await page.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight));
   const desktopNavAfterScroll = await page.$eval('.brand-switcher', (element) => {
@@ -79,13 +81,44 @@ try {
 
   await page.setViewport({ width: 390, height: 820 });
   await page.goto(`${origin}/originos/2026/21-originos-6/`, { waitUntil: 'networkidle0' });
-  await page.click('[data-coloros-trigger]');
-  await page.waitForFunction(() => location.pathname.includes('/coloros/2026/01-oppo-coloros-2026/'));
-  if (!page.url().includes('/coloros/2026/01-oppo-coloros-2026/')) throw new Error(`Mobile ColorOS tab did not open the latest monthly update: ${page.url()}`);
+  const mobileColorOSLatest = await page.$eval('.brand-menu[data-brand="coloros"] .brand-trigger', (element) => new URL(element.href).pathname);
+  const mobileNavigationReady = page.evaluate(() => new Promise((resolve) => {
+    document.addEventListener('astro:page-load', () => resolve(true), { once: true });
+  }));
+  await page.click('.brand-menu[data-brand="coloros"] .brand-trigger');
+  await page.waitForFunction((expected) => location.pathname === expected, {}, mobileColorOSLatest);
+  await mobileNavigationReady;
+  await page.evaluate(() => new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve))));
+  await page.waitForSelector('.menu-button[aria-controls="archive-nav"]');
+  await page.waitForFunction(() => document.querySelector('.menu-button')?.getAttribute('aria-expanded') === 'false');
+  if (new URL(page.url()).pathname !== mobileColorOSLatest) throw new Error(`Mobile ColorOS tab did not open the latest monthly update: ${page.url()}`);
   await page.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight));
-  const mobileTabs = await page.$eval('.brand-switcher', (element) => ({ bottom: element.getBoundingClientRect().bottom, viewport: innerHeight, position: getComputedStyle(element).position }));
+  const mobileTabs = await page.$eval('.brand-switcher-nav', (element) => ({ bottom: element.getBoundingClientRect().bottom, viewport: innerHeight, position: getComputedStyle(element).position }));
   if (mobileTabs.position !== 'fixed' || mobileTabs.bottom > mobileTabs.viewport || mobileTabs.viewport - mobileTabs.bottom > 40) throw new Error(`Mobile brand tabs do not stay near the viewport bottom: ${JSON.stringify(mobileTabs)}`);
   await page.click('.menu-button');
+  try {
+    await page.waitForFunction(() => document.querySelector('#archive-nav')?.classList.contains('open'), { timeout: 2000 });
+  } catch (error) {
+    const drawerState = await page.evaluate(() => ({
+      expanded: document.querySelector('.menu-button')?.getAttribute('aria-expanded'),
+      open: document.querySelector('#archive-nav')?.classList.contains('open'),
+      controllerAborted: window.__osArchiveController?.signal?.aborted,
+      controlsBound: window.__osArchiveControlsBound,
+      pageLoadHandler: typeof window.__osArchivePageLoadHandler,
+      bodyClass: document.body.className,
+      buttonRect: (() => {
+        const rect = document.querySelector('.menu-button')?.getBoundingClientRect();
+        return rect ? { left: rect.left, top: rect.top, right: rect.right, bottom: rect.bottom } : null;
+      })(),
+      centerTarget: (() => {
+        const rect = document.querySelector('.menu-button')?.getBoundingClientRect();
+        if (!rect) return null;
+        const target = document.elementFromPoint(rect.left + rect.width / 2, rect.top + rect.height / 2);
+        return { tag: target?.tagName, className: target?.getAttribute?.('class') };
+      })(),
+    }));
+    throw new Error(`Mobile archive drawer did not open: ${JSON.stringify({ drawerState, errors })}`, { cause: error });
+  }
   if (!await page.$eval('#archive-nav', (element) => element.classList.contains('open'))) throw new Error('Mobile archive drawer did not open');
   await page.keyboard.press('Escape');
   if (await page.$eval('#archive-nav', (element) => element.classList.contains('open'))) throw new Error('Mobile archive drawer did not close with Escape');
@@ -96,11 +129,11 @@ try {
     await page.goto(`${origin}/originos/2026/21-originos-6/`, { waitUntil: 'networkidle0' });
     const mobileTabGeometry = await page.evaluate(() => {
       const nav = document.querySelector('.brand-switcher').getBoundingClientRect();
-      const tabs = [...document.querySelectorAll('.brand-switcher > a, .brand-switcher > .coloros-menu')].map((element) => {
+      const tabs = [...document.querySelectorAll('.brand-switcher > .home-tab, .brand-switcher > .brand-menu')].map((element) => {
         const rect = element.getBoundingClientRect();
         return { left: rect.left, right: rect.right, top: rect.top, bottom: rect.bottom, width: rect.width, centerY: rect.top + rect.height / 2 };
       });
-      const labels = [...document.querySelectorAll('.brand-switcher > a, .brand-switcher > .coloros-menu > .brand-tab')].map((element) => {
+      const labels = [...document.querySelectorAll('.brand-switcher > .home-tab, .brand-switcher > .brand-menu > .brand-tab')].map((element) => {
         const tab = element.getBoundingClientRect();
         const range = document.createRange();
         range.selectNodeContents(element.querySelector('span') ?? element);
@@ -111,21 +144,28 @@ try {
           labelCenterY: label.top + label.height / 2,
         };
       });
-      const active = document.querySelector('.brand-switcher > a.active, .coloros-menu.active .brand-tab').getBoundingClientRect();
-      return { nav: { left: nav.left, right: nav.right, top: nav.top, bottom: nav.bottom }, tabs, labels, active: { left: active.left, right: active.right, top: active.top, bottom: active.bottom } };
+      const active = document.querySelector('.brand-switcher > a.active, .brand-menu.active .brand-tab').getBoundingClientRect();
+      return {
+        nav: { left: nav.left, right: nav.right, top: nav.top, bottom: nav.bottom },
+        tabs,
+        labels,
+        active: { left: active.left, right: active.right, top: active.top, bottom: active.bottom },
+        scroll: { left: document.querySelector('.brand-switcher').scrollLeft, width: document.querySelector('.brand-switcher').clientWidth },
+      };
     });
-    const widths = mobileTabGeometry.tabs.map((tab) => tab.width);
     const centers = mobileTabGeometry.tabs.map((tab) => tab.centerY);
-    if (Math.max(...widths) - Math.min(...widths) > .5 || Math.max(...centers) - Math.min(...centers) > .5) throw new Error(`Mobile tabs are not equal and aligned at ${width}px: ${JSON.stringify(mobileTabGeometry)}`);
+    if (mobileTabGeometry.tabs.length !== 5 || Math.max(...centers) - Math.min(...centers) > .5) throw new Error(`Mobile tabs are incomplete or vertically misaligned at ${width}px: ${JSON.stringify(mobileTabGeometry)}`);
     if (mobileTabGeometry.labels.some((label) => label.display !== 'flex' && label.display !== 'inline-flex') || mobileTabGeometry.labels.some((label) => Math.abs(label.tabCenterY - label.labelCenterY) > 1)) throw new Error(`Mobile tab labels are not vertically centered at ${width}px: ${JSON.stringify(mobileTabGeometry)}`);
-    if (mobileTabGeometry.tabs.some((tab) => tab.left < mobileTabGeometry.nav.left || tab.right > mobileTabGeometry.nav.right) || mobileTabGeometry.active.left < mobileTabGeometry.nav.left || mobileTabGeometry.active.right > mobileTabGeometry.nav.right || mobileTabGeometry.active.top < mobileTabGeometry.nav.top || mobileTabGeometry.active.bottom > mobileTabGeometry.nav.bottom) throw new Error(`Mobile tab escapes its container at ${width}px: ${JSON.stringify(mobileTabGeometry)}`);
+    const sortedTabs = [...mobileTabGeometry.tabs].sort((a, b) => a.left - b.left);
+    if (sortedTabs.some((tab, index) => index > 0 && tab.left < sortedTabs[index - 1].right - .5)) throw new Error(`Mobile tabs overlap at ${width}px: ${JSON.stringify(mobileTabGeometry)}`);
+    if (mobileTabGeometry.active.left < mobileTabGeometry.nav.left - 1 || mobileTabGeometry.active.right > mobileTabGeometry.nav.right + 1 || mobileTabGeometry.active.top < mobileTabGeometry.nav.top || mobileTabGeometry.active.bottom > mobileTabGeometry.nav.bottom) throw new Error(`Active mobile tab escapes its scroll viewport at ${width}px: ${JSON.stringify(mobileTabGeometry)}`);
   }
 
   for (const width of [768, 840, 960]) {
     await page.setViewport({ width, height: 900, deviceScaleFactor: 1 });
     await page.goto(`${origin}/originos/2026/21-originos-6/`, { waitUntil: 'networkidle0' });
     const tabletHeader = await page.evaluate(() => {
-      const tabs = [...document.querySelectorAll('.brand-switcher > a, .brand-switcher > .coloros-menu > .brand-tab')];
+      const tabs = [...document.querySelectorAll('.brand-switcher > .home-tab, .brand-switcher > .brand-menu > .brand-tab')];
       const centers = tabs.map((element) => {
         const rect = element.getBoundingClientRect();
         return rect.top + rect.height / 2;
@@ -138,7 +178,7 @@ try {
     if (tabletHeader.gap < 8) throw new Error(`Brand tabs overlap the archive menu at ${width}px: ${JSON.stringify(tabletHeader)}`);
   }
 
-  for (const [width, expectedEntry] of [[390, 'mobile.html'], [768, 'pad.html'], [1440, 'index.html']]) {
+  for (const [width, expectedEntry] of [[390, 'mobile.html'], [768, 'index.html'], [1440, 'index.html']]) {
     await page.setViewport({ width, height: 900, deviceScaleFactor: 1 });
     const response = await page.goto(`${origin}/coloros/15/`, { waitUntil: 'networkidle0' });
     if (!response?.ok()) throw new Error(`ColorOS 15 official route returned ${response?.status()}`);
@@ -156,6 +196,18 @@ try {
   await page.goto(`${origin}/coloros/16/`, { waitUntil: 'networkidle0' });
   await page.waitForSelector('[data-official-shell].loaded');
   if (!await page.$eval('[data-official-frame]', (element) => element.src.endsWith('/coloros16/index.html'))) throw new Error('ColorOS 16 official archive route is incorrect');
+
+  await page.goto(`${origin}/magicos/10/`, { waitUntil: 'networkidle0' });
+  await page.waitForSelector('[data-official-shell].loaded');
+  const magicOSState = await page.$eval('[data-official-frame]', (element) => ({
+    src: element.src,
+    sandbox: element.getAttribute('sandbox') ?? '',
+    overflow: document.body.scrollWidth - innerWidth,
+    returnLink: Boolean(document.querySelector('.official-return')),
+  }));
+  if (!magicOSState.src.endsWith('/magicos10/cn/magic-os/index.html')) throw new Error(`MagicOS 10 official archive route is incorrect: ${magicOSState.src}`);
+  if (magicOSState.sandbox.includes('allow-same-origin')) throw new Error(`MagicOS iframe lost cross-origin isolation: ${magicOSState.sandbox}`);
+  if (!magicOSState.sandbox.includes('allow-scripts') || !magicOSState.returnLink || magicOSState.overflow > 1) throw new Error(`MagicOS immersive shell is incomplete: ${JSON.stringify(magicOSState)}`);
 
   const articles = await Promise.all((await fs.readdir(path.join(site, 'src/content/articles'))).filter((name) => name.endsWith('.json')).map(async (name) => JSON.parse(await fs.readFile(path.join(site, 'src/content/articles', name), 'utf8'))));
   await page.setViewport({ width: 1280, height: 900 });
