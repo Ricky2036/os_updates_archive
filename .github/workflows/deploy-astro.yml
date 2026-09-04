@@ -41,6 +41,7 @@ jobs:
           PUBLIC_SITE_URL: https://ricky2036.github.io/os_updates_archive
           PUBLIC_BASE_PATH: /os_updates_archive/
           PUBLIC_OFFICIAL_ARCHIVE_BASE_URL: https://pub-677d8b9c16d84df684f908214461d60a.r2.dev/v2026-07-30
+          PUBLIC_CLOUDFLARE_WEB_ANALYTICS_TOKEN: ${{ secrets.CLOUDFLARE_WEB_ANALYTICS_TOKEN }}
         run: npm run build
 
       - name: Configure Pages
