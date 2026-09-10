@@ -1,0 +1,1088 @@
+{
+  "schemaVersion": 3,
+  "contentReviewVersion": 4,
+  "mediaReviewVersion": 4,
+  "articleId": "OPPO_ColorOS_九月系统升级一览_(2026)",
+  "reviewStatus": "verified",
+  "sourceHash": "900027de8ff55e5cb1c0151ce9114c9d1aee2d9de1cc58cc6e41f55c8cac7854",
+  "highlights": [
+    {
+      "id": "highlight-01",
+      "module": "相册",
+      "moduleSource": "explicit-heading",
+      "title": "修改照片拍摄时间",
+      "description": "支持修改照片拍摄时间，自由调整原片拍摄日期与时间。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-01-body",
+        "highlight-01-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-01"
+      ],
+      "media": [
+        {
+          "id": "highlight-01-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/61/highlight-01-960.webp",
+          "thumbnail": "assets/digests-v2/61/highlight-01-480.webp",
+          "avifSrc": "assets/digests-v2/61/highlight-01-960.avif",
+          "avifThumbnail": "assets/digests-v2/61/highlight-01-480.avif",
+          "alt": "修改照片拍摄时间 功能演示",
+          "evidenceId": "highlight-01-demo",
+          "width": 480,
+          "height": 456
+        }
+      ]
+    },
+    {
+      "id": "highlight-02",
+      "module": "相册",
+      "moduleSource": "explicit-heading",
+      "title": "照片页筛选优化",
+      "description": "优化照片页筛选，支持隐藏自建图集的图片和视频。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-02-body",
+        "highlight-02-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-02"
+      ],
+      "media": [
+        {
+          "id": "highlight-02-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/61/highlight-02-960.webp",
+          "thumbnail": "assets/digests-v2/61/highlight-02-480.webp",
+          "avifSrc": "assets/digests-v2/61/highlight-02-960.avif",
+          "avifThumbnail": "assets/digests-v2/61/highlight-02-480.avif",
+          "alt": "照片页筛选优化 功能演示",
+          "evidenceId": "highlight-02-demo",
+          "width": 480,
+          "height": 665
+        }
+      ]
+    },
+    {
+      "id": "highlight-03",
+      "module": "相册",
+      "moduleSource": "explicit-heading",
+      "title": "批量收藏与取消收藏",
+      "description": "支持图片视频批量收藏和批量取消收藏，整理相册更高效。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-03-body",
+        "highlight-03-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-03"
+      ],
+      "media": [
+        {
+          "id": "highlight-03-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/61/highlight-03-960.webp",
+          "thumbnail": "assets/digests-v2/61/highlight-03-480.webp",
+          "avifSrc": "assets/digests-v2/61/highlight-03-960.avif",
+          "avifThumbnail": "assets/digests-v2/61/highlight-03-480.avif",
+          "alt": "批量收藏与取消收藏 功能演示",
+          "evidenceId": "highlight-03-demo",
+          "width": 480,
+          "height": 289
+        }
+      ]
+    },
+    {
+      "id": "highlight-04",
+      "module": "相册",
+      "moduleSource": "explicit-heading",
+      "title": "图集页支持日期视图",
+      "description": "图集页支持日期视图，查找和浏览图片视频更便捷高效。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-04-body",
+        "highlight-04-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-04"
+      ],
+      "media": [
+        {
+          "id": "highlight-04-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/61/highlight-04-960.webp",
+          "thumbnail": "assets/digests-v2/61/highlight-04-480.webp",
+          "avifSrc": "assets/digests-v2/61/highlight-04-960.avif",
+          "avifThumbnail": "assets/digests-v2/61/highlight-04-480.avif",
+          "alt": "图集页支持日期视图 功能演示",
+          "evidenceId": "highlight-04-demo",
+          "width": 480,
+          "height": 687
+        }
+      ]
+    },
+    {
+      "id": "highlight-05",
+      "module": "钱包",
+      "moduleSource": "explicit-heading",
+      "title": "新增快捷展码",
+      "description": "双击电源键秒出券码，到店核销、观影取票超方便。已支持猫眼电影票及抖音团购。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-05-body",
+        "highlight-05-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-05"
+      ],
+      "media": [
+        {
+          "id": "highlight-05-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/61/highlight-05-960.webp",
+          "thumbnail": "assets/digests-v2/61/highlight-05-480.webp",
+          "avifSrc": "assets/digests-v2/61/highlight-05-960.avif",
+          "avifThumbnail": "assets/digests-v2/61/highlight-05-480.avif",
+          "alt": "新增快捷展码 功能演示",
+          "evidenceId": "highlight-05-demo",
+          "width": 480,
+          "height": 434
+        }
+      ]
+    },
+    {
+      "id": "highlight-06",
+      "module": "流体云",
+      "moduleSource": "explicit-heading",
+      "title": "红绿灯巡航覆盖百度地图",
+      "description": "驾车时无需打开导航应用，也可在流体云实时查看红绿灯倒计时。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-06-body",
+        "highlight-06-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-06"
+      ],
+      "media": [
+        {
+          "id": "highlight-06-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/61/highlight-06-960.webp",
+          "thumbnail": "assets/digests-v2/61/highlight-06-480.webp",
+          "avifSrc": "assets/digests-v2/61/highlight-06-960.avif",
+          "avifThumbnail": "assets/digests-v2/61/highlight-06-480.avif",
+          "alt": "红绿灯巡航覆盖百度地图 功能演示",
+          "evidenceId": "highlight-06-demo",
+          "width": 480,
+          "height": 311
+        }
+      ]
+    },
+    {
+      "id": "highlight-07",
+      "module": "天气",
+      "moduleSource": "explicit-heading",
+      "title": "新增特别关注城市提醒",
+      "description": "标记你关心的城市，出现极端天气、气温异动将主动推送提醒。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-07-body",
+        "highlight-07-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-07"
+      ],
+      "media": [
+        {
+          "id": "highlight-07-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/61/highlight-07-960.webp",
+          "thumbnail": "assets/digests-v2/61/highlight-07-480.webp",
+          "avifSrc": "assets/digests-v2/61/highlight-07-960.avif",
+          "avifThumbnail": "assets/digests-v2/61/highlight-07-480.avif",
+          "alt": "新增特别关注城市提醒 功能演示",
+          "evidenceId": "highlight-07-demo",
+          "width": 480,
+          "height": 383
+        }
+      ]
+    },
+    {
+      "id": "highlight-08",
+      "module": "智慧车载",
+      "moduleSource": "explicit-heading",
+      "title": "车机投屏音乐升级",
+      "description": "全新界面设计，锁屏岛同款全屏歌词显示，听歌更有氛围。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-08-body",
+        "highlight-08-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-08"
+      ],
+      "media": [
+        {
+          "id": "highlight-08-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/61/highlight-08-960.webp",
+          "thumbnail": "assets/digests-v2/61/highlight-08-480.webp",
+          "avifSrc": "assets/digests-v2/61/highlight-08-960.avif",
+          "avifThumbnail": "assets/digests-v2/61/highlight-08-480.avif",
+          "alt": "车机投屏音乐升级 功能演示",
+          "evidenceId": "highlight-08-demo",
+          "width": 480,
+          "height": 398
+        }
+      ]
+    },
+    {
+      "id": "highlight-09",
+      "module": "小布识屏",
+      "moduleSource": "explicit-heading",
+      "title": "新增智能抠图",
+      "description": "一键抠出喜欢的图片元素，生成专属贴纸，轻松创作素材。支持人物、宠物、美食等多种主体。",
+      "mediaStatus": "available",
+      "evidenceIds": [
+        "highlight-09-body",
+        "highlight-09-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-09"
+      ],
+      "media": [
+        {
+          "id": "highlight-09-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/61/highlight-09-960.webp",
+          "thumbnail": "assets/digests-v2/61/highlight-09-480.webp",
+          "avifSrc": "assets/digests-v2/61/highlight-09-960.avif",
+          "avifThumbnail": "assets/digests-v2/61/highlight-09-480.avif",
+          "alt": "新增智能抠图 功能演示",
+          "evidenceId": "highlight-09-demo",
+          "width": 480,
+          "height": 398
+        }
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "id": "update-01",
+      "module": "OPPO AI",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "随口记语音内容合并功能，支持将多条相关的语音记录合并为一条。",
+      "description": "随口记语音内容合并功能，支持将多条相关的语音记录合并为一条。",
+      "evidenceIds": [
+        "update-01-source"
+      ],
+      "sourceItemIds": [
+        "source-update-01"
+      ]
+    },
+    {
+      "id": "update-02",
+      "module": "OPPO AI",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "在小布建议上，显示随身翻译官卡片，出境时自动展示，一键直达翻译功能。",
+      "description": "在小布建议上，显示随身翻译官卡片，出境时自动展示，一键直达翻译功能。",
+      "evidenceIds": [
+        "update-02-source"
+      ],
+      "sourceItemIds": [
+        "source-update-02"
+      ]
+    },
+    {
+      "id": "update-03",
+      "module": "OPPO AI",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "支持在流体云上，显示支付宝智能助手任务进度。",
+      "description": "支持在流体云上，显示支付宝智能助手任务进度。",
+      "evidenceIds": [
+        "update-03-source"
+      ],
+      "sourceItemIds": [
+        "source-update-03"
+      ]
+    },
+    {
+      "id": "update-04",
+      "module": "OPPO AI",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "旅行合集地图功能，支持滑动查看单天行程时，展示当天的路线地图，及各地点之间的驾车耗时。",
+      "description": "旅行合集地图功能，支持滑动查看单天行程时，展示当天的路线地图，及各地点之间的驾车耗时。",
+      "evidenceIds": [
+        "update-04-source"
+      ],
+      "sourceItemIds": [
+        "source-update-04"
+      ]
+    },
+    {
+      "id": "update-05",
+      "module": "OPPO AI",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "小布记忆记账洞见功能，点击「我的账单」左上角自动生成的消费偏好标签，可跳转查看相关账单明细。",
+      "description": "小布记忆记账洞见功能，点击「我的账单」左上角自动生成的消费偏好标签，可跳转查看相关账单明细。",
+      "evidenceIds": [
+        "update-05-source"
+      ],
+      "sourceItemIds": [
+        "source-update-05"
+      ]
+    },
+    {
+      "id": "update-06",
+      "module": "设备互联",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "车机经典投屏界面布局，调整卡片、任务栏尺寸比例与应用列表间距。",
+      "description": "车机经典投屏界面布局，调整卡片、任务栏尺寸比例与应用列表间距。",
+      "evidenceIds": [
+        "update-06-source"
+      ],
+      "sourceItemIds": [
+        "source-update-06"
+      ]
+    },
+    {
+      "id": "update-07",
+      "module": "日历",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "日历月视图浏览体验，在月视图中下拉即可展开查看当月全部日程与待办，整月安排一目了然。",
+      "description": "日历月视图浏览体验，在月视图中下拉即可展开查看当月全部日程与待办，整月安排一目了然。",
+      "evidenceIds": [
+        "update-07-source"
+      ],
+      "sourceItemIds": [
+        "source-update-07"
+      ]
+    },
+    {
+      "id": "update-08",
+      "module": "系统",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "支持在控制中心添加「系统加速」、「病毒扫描」快捷功能图标。",
+      "description": "支持在控制中心添加「系统加速」、「病毒扫描」快捷功能图标。",
+      "evidenceIds": [
+        "update-08-source"
+      ],
+      "sourceItemIds": [
+        "source-update-08"
+      ]
+    },
+    {
+      "id": "update-09",
+      "module": "系统",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "在私密保险箱中添加文件的体验，支持在首页批量选择多个格式的文件，选择后自动分格式存放。",
+      "description": "在私密保险箱中添加文件的体验，支持在首页批量选择多个格式的文件，选择后自动分格式存放。",
+      "evidenceIds": [
+        "update-09-source"
+      ],
+      "sourceItemIds": [
+        "source-update-09"
+      ]
+    }
+  ],
+  "sourceItems": [
+    {
+      "id": "source-highlight-01",
+      "classification": "highlight",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "69c4b025374080462cb2c93c4057c0f7ba7324dede46d49ec1d28f06edfbbd1d",
+      "blockIds": [
+        "block-highlight-01"
+      ],
+      "text": "修改照片拍摄时间 支持修改照片拍摄时间，自由调整原片拍摄日期与时间。",
+      "targetIds": [
+        "highlight-01"
+      ]
+    },
+    {
+      "id": "source-highlight-02",
+      "classification": "highlight",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "69c4b025374080462cb2c93c4057c0f7ba7324dede46d49ec1d28f06edfbbd1d",
+      "blockIds": [
+        "block-highlight-02"
+      ],
+      "text": "照片页筛选优化 优化照片页筛选，支持隐藏自建图集的图片和视频。",
+      "targetIds": [
+        "highlight-02"
+      ]
+    },
+    {
+      "id": "source-highlight-03",
+      "classification": "highlight",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "69c4b025374080462cb2c93c4057c0f7ba7324dede46d49ec1d28f06edfbbd1d",
+      "blockIds": [
+        "block-highlight-03"
+      ],
+      "text": "批量收藏与取消收藏 支持图片视频批量收藏和批量取消收藏，整理相册更高效。",
+      "targetIds": [
+        "highlight-03"
+      ]
+    },
+    {
+      "id": "source-highlight-04",
+      "classification": "highlight",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "69c4b025374080462cb2c93c4057c0f7ba7324dede46d49ec1d28f06edfbbd1d",
+      "blockIds": [
+        "block-highlight-04"
+      ],
+      "text": "图集页支持日期视图 图集页支持日期视图，查找和浏览图片视频更便捷高效。",
+      "targetIds": [
+        "highlight-04"
+      ]
+    },
+    {
+      "id": "source-highlight-05",
+      "classification": "highlight",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "69c4b025374080462cb2c93c4057c0f7ba7324dede46d49ec1d28f06edfbbd1d",
+      "blockIds": [
+        "block-highlight-05"
+      ],
+      "text": "新增快捷展码 双击电源键秒出券码，到店核销、观影取票超方便。已支持猫眼电影票及抖音团购。",
+      "targetIds": [
+        "highlight-05"
+      ]
+    },
+    {
+      "id": "source-highlight-06",
+      "classification": "highlight",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "69c4b025374080462cb2c93c4057c0f7ba7324dede46d49ec1d28f06edfbbd1d",
+      "blockIds": [
+        "block-highlight-06"
+      ],
+      "text": "红绿灯巡航覆盖百度地图 驾车时无需打开导航应用，也可在流体云实时查看红绿灯倒计时。",
+      "targetIds": [
+        "highlight-06"
+      ]
+    },
+    {
+      "id": "source-highlight-07",
+      "classification": "highlight",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "69c4b025374080462cb2c93c4057c0f7ba7324dede46d49ec1d28f06edfbbd1d",
+      "blockIds": [
+        "block-highlight-07"
+      ],
+      "text": "新增特别关注城市提醒 标记你关心的城市，出现极端天气、气温异动将主动推送提醒。",
+      "targetIds": [
+        "highlight-07"
+      ]
+    },
+    {
+      "id": "source-highlight-08",
+      "classification": "highlight",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "69c4b025374080462cb2c93c4057c0f7ba7324dede46d49ec1d28f06edfbbd1d",
+      "blockIds": [
+        "block-highlight-08"
+      ],
+      "text": "车机投屏音乐升级 全新界面设计，锁屏岛同款全屏歌词显示，听歌更有氛围。",
+      "targetIds": [
+        "highlight-08"
+      ]
+    },
+    {
+      "id": "source-highlight-09",
+      "classification": "highlight",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "69c4b025374080462cb2c93c4057c0f7ba7324dede46d49ec1d28f06edfbbd1d",
+      "blockIds": [
+        "block-highlight-09"
+      ],
+      "text": "新增智能抠图 一键抠出喜欢的图片元素，生成专属贴纸，轻松创作素材。支持人物、宠物、美食等多种主体。",
+      "targetIds": [
+        "highlight-09"
+      ]
+    },
+    {
+      "id": "source-update-01",
+      "classification": "update",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "62aa33fa71795d1592865c8fe8c9ef0c8da2db60d859c5b584f77fa31347dc94",
+      "blockIds": [
+        "block-update-01"
+      ],
+      "text": "随口记语音内容合并功能，支持将多条相关的语音记录合并为一条。",
+      "targetIds": [
+        "update-01"
+      ]
+    },
+    {
+      "id": "source-update-02",
+      "classification": "update",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "62aa33fa71795d1592865c8fe8c9ef0c8da2db60d859c5b584f77fa31347dc94",
+      "blockIds": [
+        "block-update-02"
+      ],
+      "text": "在小布建议上，显示随身翻译官卡片，出境时自动展示，一键直达翻译功能。",
+      "targetIds": [
+        "update-02"
+      ]
+    },
+    {
+      "id": "source-update-03",
+      "classification": "update",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "62aa33fa71795d1592865c8fe8c9ef0c8da2db60d859c5b584f77fa31347dc94",
+      "blockIds": [
+        "block-update-03"
+      ],
+      "text": "支持在流体云上，显示支付宝智能助手任务进度。",
+      "targetIds": [
+        "update-03"
+      ]
+    },
+    {
+      "id": "source-update-04",
+      "classification": "update",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "62aa33fa71795d1592865c8fe8c9ef0c8da2db60d859c5b584f77fa31347dc94",
+      "blockIds": [
+        "block-update-04"
+      ],
+      "text": "旅行合集地图功能，支持滑动查看单天行程时，展示当天的路线地图，及各地点之间的驾车耗时。",
+      "targetIds": [
+        "update-04"
+      ]
+    },
+    {
+      "id": "source-update-05",
+      "classification": "update",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "62aa33fa71795d1592865c8fe8c9ef0c8da2db60d859c5b584f77fa31347dc94",
+      "blockIds": [
+        "block-update-05"
+      ],
+      "text": "小布记忆记账洞见功能，点击「我的账单」左上角自动生成的消费偏好标签，可跳转查看相关账单明细。",
+      "targetIds": [
+        "update-05"
+      ]
+    },
+    {
+      "id": "source-update-06",
+      "classification": "update",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "62aa33fa71795d1592865c8fe8c9ef0c8da2db60d859c5b584f77fa31347dc94",
+      "blockIds": [
+        "block-update-06"
+      ],
+      "text": "车机经典投屏界面布局，调整卡片、任务栏尺寸比例与应用列表间距。",
+      "targetIds": [
+        "update-06"
+      ]
+    },
+    {
+      "id": "source-update-07",
+      "classification": "update",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "62aa33fa71795d1592865c8fe8c9ef0c8da2db60d859c5b584f77fa31347dc94",
+      "blockIds": [
+        "block-update-07"
+      ],
+      "text": "日历月视图浏览体验，在月视图中下拉即可展开查看当月全部日程与待办，整月安排一目了然。",
+      "targetIds": [
+        "update-07"
+      ]
+    },
+    {
+      "id": "source-update-08",
+      "classification": "update",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "62aa33fa71795d1592865c8fe8c9ef0c8da2db60d859c5b584f77fa31347dc94",
+      "blockIds": [
+        "block-update-08"
+      ],
+      "text": "支持在控制中心添加「系统加速」、「病毒扫描」快捷功能图标。",
+      "targetIds": [
+        "update-08"
+      ]
+    },
+    {
+      "id": "source-update-09",
+      "classification": "update",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "62aa33fa71795d1592865c8fe8c9ef0c8da2db60d859c5b584f77fa31347dc94",
+      "blockIds": [
+        "block-update-09"
+      ],
+      "text": "在私密保险箱中添加文件的体验，支持在首页批量选择多个格式的文件，选择后自动分格式存放。",
+      "targetIds": [
+        "update-09"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "highlight-01-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "69c4b025374080462cb2c93c4057c0f7ba7324dede46d49ec1d28f06edfbbd1d",
+      "blockIds": [
+        "block-highlight-01"
+      ],
+      "region": {
+        "x": 47,
+        "y": 2048,
+        "width": 1087,
+        "height": 491
+      },
+      "note": "相册：修改照片拍摄时间标题与说明"
+    },
+    {
+      "id": "highlight-02-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "69c4b025374080462cb2c93c4057c0f7ba7324dede46d49ec1d28f06edfbbd1d",
+      "blockIds": [
+        "block-highlight-02"
+      ],
+      "region": {
+        "x": 47,
+        "y": 3440,
+        "width": 1087,
+        "height": 491
+      },
+      "note": "相册：照片页筛选优化标题与说明"
+    },
+    {
+      "id": "highlight-03-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "69c4b025374080462cb2c93c4057c0f7ba7324dede46d49ec1d28f06edfbbd1d",
+      "blockIds": [
+        "block-highlight-03"
+      ],
+      "region": {
+        "x": 47,
+        "y": 5243,
+        "width": 1087,
+        "height": 491
+      },
+      "note": "相册：批量收藏与取消收藏标题与说明"
+    },
+    {
+      "id": "highlight-04-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "69c4b025374080462cb2c93c4057c0f7ba7324dede46d49ec1d28f06edfbbd1d",
+      "blockIds": [
+        "block-highlight-04"
+      ],
+      "region": {
+        "x": 47,
+        "y": 6226,
+        "width": 1087,
+        "height": 491
+      },
+      "note": "相册：图集页支持日期视图标题与说明"
+    },
+    {
+      "id": "highlight-05-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "69c4b025374080462cb2c93c4057c0f7ba7324dede46d49ec1d28f06edfbbd1d",
+      "blockIds": [
+        "block-highlight-05"
+      ],
+      "region": {
+        "x": 47,
+        "y": 8437,
+        "width": 1087,
+        "height": 491
+      },
+      "note": "钱包：新增快捷展码标题与说明"
+    },
+    {
+      "id": "highlight-06-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "69c4b025374080462cb2c93c4057c0f7ba7324dede46d49ec1d28f06edfbbd1d",
+      "blockIds": [
+        "block-highlight-06"
+      ],
+      "region": {
+        "x": 47,
+        "y": 10157,
+        "width": 1087,
+        "height": 491
+      },
+      "note": "流体云：红绿灯巡航覆盖百度地图标题与说明"
+    },
+    {
+      "id": "highlight-07-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "69c4b025374080462cb2c93c4057c0f7ba7324dede46d49ec1d28f06edfbbd1d",
+      "blockIds": [
+        "block-highlight-07"
+      ],
+      "region": {
+        "x": 47,
+        "y": 11501,
+        "width": 1087,
+        "height": 491
+      },
+      "note": "天气：新增特别关注城市提醒标题与说明"
+    },
+    {
+      "id": "highlight-08-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "69c4b025374080462cb2c93c4057c0f7ba7324dede46d49ec1d28f06edfbbd1d",
+      "blockIds": [
+        "block-highlight-08"
+      ],
+      "region": {
+        "x": 47,
+        "y": 13024,
+        "width": 1087,
+        "height": 491
+      },
+      "note": "智慧车载：车机投屏音乐升级标题与说明"
+    },
+    {
+      "id": "highlight-09-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "69c4b025374080462cb2c93c4057c0f7ba7324dede46d49ec1d28f06edfbbd1d",
+      "blockIds": [
+        "block-highlight-09"
+      ],
+      "region": {
+        "x": 47,
+        "y": 14745,
+        "width": 1087,
+        "height": 491
+      },
+      "note": "小布识屏：新增智能抠图标题与说明"
+    },
+    {
+      "id": "highlight-01-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "69c4b025374080462cb2c93c4057c0f7ba7324dede46d49ec1d28f06edfbbd1d",
+      "blockIds": [],
+      "region": {
+        "x": 47,
+        "y": 2539,
+        "width": 1087,
+        "height": 1032
+      },
+      "note": "相册：修改照片拍摄时间人工确认演示区域"
+    },
+    {
+      "id": "highlight-02-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "69c4b025374080462cb2c93c4057c0f7ba7324dede46d49ec1d28f06edfbbd1d",
+      "blockIds": [],
+      "region": {
+        "x": 47,
+        "y": 3932,
+        "width": 1087,
+        "height": 1507
+      },
+      "note": "相册：照片页筛选优化人工确认演示区域"
+    },
+    {
+      "id": "highlight-03-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "69c4b025374080462cb2c93c4057c0f7ba7324dede46d49ec1d28f06edfbbd1d",
+      "blockIds": [],
+      "region": {
+        "x": 47,
+        "y": 5734,
+        "width": 1087,
+        "height": 655
+      },
+      "note": "相册：批量收藏与取消收藏人工确认演示区域"
+    },
+    {
+      "id": "highlight-04-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "69c4b025374080462cb2c93c4057c0f7ba7324dede46d49ec1d28f06edfbbd1d",
+      "blockIds": [],
+      "region": {
+        "x": 47,
+        "y": 6717,
+        "width": 1087,
+        "height": 1556
+      },
+      "note": "相册：图集页支持日期视图人工确认演示区域"
+    },
+    {
+      "id": "highlight-05-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "69c4b025374080462cb2c93c4057c0f7ba7324dede46d49ec1d28f06edfbbd1d",
+      "blockIds": [],
+      "region": {
+        "x": 47,
+        "y": 8929,
+        "width": 1087,
+        "height": 983
+      },
+      "note": "钱包：新增快捷展码人工确认演示区域"
+    },
+    {
+      "id": "highlight-06-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "69c4b025374080462cb2c93c4057c0f7ba7324dede46d49ec1d28f06edfbbd1d",
+      "blockIds": [],
+      "region": {
+        "x": 47,
+        "y": 10649,
+        "width": 1087,
+        "height": 704
+      },
+      "note": "流体云：红绿灯巡航覆盖百度地图人工确认演示区域"
+    },
+    {
+      "id": "highlight-07-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "69c4b025374080462cb2c93c4057c0f7ba7324dede46d49ec1d28f06edfbbd1d",
+      "blockIds": [],
+      "region": {
+        "x": 47,
+        "y": 11992,
+        "width": 1087,
+        "height": 868
+      },
+      "note": "天气：新增特别关注城市提醒人工确认演示区域"
+    },
+    {
+      "id": "highlight-08-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "69c4b025374080462cb2c93c4057c0f7ba7324dede46d49ec1d28f06edfbbd1d",
+      "blockIds": [],
+      "region": {
+        "x": 47,
+        "y": 13516,
+        "width": 1087,
+        "height": 901
+      },
+      "note": "智慧车载：车机投屏音乐升级人工确认演示区域"
+    },
+    {
+      "id": "highlight-09-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "69c4b025374080462cb2c93c4057c0f7ba7324dede46d49ec1d28f06edfbbd1d",
+      "blockIds": [],
+      "region": {
+        "x": 47,
+        "y": 15236,
+        "width": 1087,
+        "height": 901
+      },
+      "note": "小布识屏：新增智能抠图人工确认演示区域"
+    },
+    {
+      "id": "update-01-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "62aa33fa71795d1592865c8fe8c9ef0c8da2db60d859c5b584f77fa31347dc94",
+      "blockIds": [
+        "block-update-01"
+      ]
+    },
+    {
+      "id": "update-02-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "62aa33fa71795d1592865c8fe8c9ef0c8da2db60d859c5b584f77fa31347dc94",
+      "blockIds": [
+        "block-update-02"
+      ]
+    },
+    {
+      "id": "update-03-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "62aa33fa71795d1592865c8fe8c9ef0c8da2db60d859c5b584f77fa31347dc94",
+      "blockIds": [
+        "block-update-03"
+      ]
+    },
+    {
+      "id": "update-04-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "62aa33fa71795d1592865c8fe8c9ef0c8da2db60d859c5b584f77fa31347dc94",
+      "blockIds": [
+        "block-update-04"
+      ]
+    },
+    {
+      "id": "update-05-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "62aa33fa71795d1592865c8fe8c9ef0c8da2db60d859c5b584f77fa31347dc94",
+      "blockIds": [
+        "block-update-05"
+      ]
+    },
+    {
+      "id": "update-06-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "62aa33fa71795d1592865c8fe8c9ef0c8da2db60d859c5b584f77fa31347dc94",
+      "blockIds": [
+        "block-update-06"
+      ]
+    },
+    {
+      "id": "update-07-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "62aa33fa71795d1592865c8fe8c9ef0c8da2db60d859c5b584f77fa31347dc94",
+      "blockIds": [
+        "block-update-07"
+      ]
+    },
+    {
+      "id": "update-08-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "62aa33fa71795d1592865c8fe8c9ef0c8da2db60d859c5b584f77fa31347dc94",
+      "blockIds": [
+        "block-update-08"
+      ]
+    },
+    {
+      "id": "update-09-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/OPPO_ColorOS_九月系统升级一览_(2026)/1.webp",
+      "sourceIndex": 1,
+      "sourceHash": "62aa33fa71795d1592865c8fe8c9ef0c8da2db60d859c5b584f77fa31347dc94",
+      "blockIds": [
+        "block-update-09"
+      ]
+    }
+  ],
+  "audit": {
+    "highlightReviewVersion": 4,
+    "updateReviewVersion": 4,
+    "review": {
+      "content": "verified",
+      "modules": "verified",
+      "media": "verified",
+      "page": "verified"
+    },
+    "expectedHighlightCount": 9,
+    "sourceItemCount": 18,
+    "includedItemCount": 18,
+    "excludedItemCount": 0,
+    "highlightCount": 9,
+    "updateCount": 9,
+    "mediaCount": 9,
+    "mappedItemCount": 18,
+    "coverageRate": 1
+  }
+}
