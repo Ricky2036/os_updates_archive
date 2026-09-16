@@ -6,7 +6,9 @@ const localSource = path.resolve(process.env.MAGICOS_ARCHIVE_SOURCE || path.join
 const legacySource = path.resolve(import.meta.dirname, '../public/official_archives/www.honor.com');
 const source = await fs.stat(localSource).then(() => localSource).catch(() => legacySource);
 const destination = path.join(releaseRoot, 'magicos10');
-const entrySource = path.join(source, 'cn/magic-os/index.html');
+const entrySource10 = path.join(source, 'cn/magic-os-10/index.html');
+const entrySourceDefault = path.join(source, 'cn/magic-os/index.html');
+const entrySource = await fs.stat(entrySource10).then(() => entrySource10).catch(() => entrySourceDefault);
 const maxBytes = 650 * 1024 * 1024;
 
 const requiredTrees = [

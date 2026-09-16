@@ -33,16 +33,30 @@
     archiveNav?.classList.contains('open') ? closeArchiveMenu() : openArchiveMenu();
   };
 
+  let lastPointerToggle = 0;
+  const handleMenuButtonTrigger = (event) => {
+    const target = event.target instanceof Element ? event.target : null;
+    const btn = target?.closest('.menu-button');
+    if (!btn) return;
+    const now = Date.now();
+    if (event.type === 'click') {
+      event.preventDefault();
+      if (now - lastPointerToggle < 600) {
+        return;
+      }
+    } else if (event.type === 'pointerdown') {
+      lastPointerToggle = now;
+    }
+    event.preventDefault();
+    toggleArchiveMenu();
+  };
+
   // The document survives Astro ClientRouter swaps. Bind this delegated
   // control once so the first press on a newly swapped header is never lost
   // while page-specific listeners are being refreshed.
   if (!window.__osArchiveControlsBound) {
-    document.addEventListener('pointerdown', (event) => {
-      const target = event.target instanceof Element ? event.target : null;
-      if (!target?.closest('.menu-button')) return;
-      event.preventDefault();
-      toggleArchiveMenu();
-    }, true);
+    document.addEventListener('pointerdown', handleMenuButtonTrigger, true);
+    document.addEventListener('click', handleMenuButtonTrigger, true);
     document.addEventListener('keydown', (event) => {
       const target = event.target instanceof Element ? event.target : null;
       if (!target?.closest('.menu-button') || !['Enter', ' '].includes(event.key)) return;
@@ -133,12 +147,14 @@
       const magicOSMenu = switcher.querySelector('.brand-menu[data-brand="magicos"]');
       if (magicOSMenu) {
         magicOSMenu.classList.toggle('active', isMagicOS);
+        const is11 = /\/magicos\/11(\/|$)/.test(path);
         const is10 = /\/magicos\/10(\/|$)/.test(path);
-        const isMonthly = isMagicOS && !is10;
+        const isMonthly = isMagicOS && !is10 && !is11;
         const subLinks = magicOSMenu.querySelectorAll('.brand-submenu a');
-        if (subLinks && subLinks.length >= 2) {
-          subLinks[0].classList.toggle('active', is10);
-          subLinks[1].classList.toggle('active', isMonthly);
+        if (subLinks && subLinks.length >= 3) {
+          subLinks[0].classList.toggle('active', is11);
+          subLinks[1].classList.toggle('active', is10);
+          subLinks[2].classList.toggle('active', isMonthly);
         }
       }
     };

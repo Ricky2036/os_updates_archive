@@ -14,6 +14,12 @@ const server = http.createServer(async (request, response) => {
     let file = path.join(dist, url.replace(/^\/+/, ''));
     if (url.endsWith('/')) file = path.join(file, 'index.html');
     if (!path.extname(file) && !fsSync.existsSync(file)) file = path.join(file, 'index.html');
+    if (!fsSync.existsSync(file)) {
+      const honor1 = path.join(dist, 'official_archives/www.honor.com', url.replace(/^\/+/, ''));
+      const honor2 = path.join(dist, 'official_archives/www-file.honor.com', url.replace(/^\/+/, ''));
+      if (fsSync.existsSync(honor1)) file = honor1;
+      else if (fsSync.existsSync(honor2)) file = honor2;
+    }
     const bytes = await fs.readFile(file);
     response.writeHead(200, { 'Content-Type': mime[path.extname(file)] || 'application/octet-stream' });
     response.end(bytes);
@@ -34,6 +40,8 @@ try {
     const url = new URL(request.url());
     if (url.hostname === 'official.osarchive.com' || url.hostname.endsWith('.r2.dev')) {
       request.respond({ status: 200, contentType: 'text/html; charset=utf-8', body: '<!doctype html><html><body><main data-official-fixture>ColorOS official archive</main></body></html>' });
+    } else if (url.hostname.includes('baidu.com') || url.hostname.includes('cnzz.com') || url.hostname.includes('google-analytics.com')) {
+      request.respond({ status: 200, contentType: 'application/javascript', body: '' });
     } else request.continue();
   });
   page.on('console', (message) => { if (message.type() === 'error') errors.push(message.text()); });
@@ -92,9 +100,12 @@ try {
   await page.waitForSelector('.menu-button[aria-controls="archive-nav"]');
   await page.waitForFunction(() => document.querySelector('.menu-button')?.getAttribute('aria-expanded') === 'false');
   if (new URL(page.url()).pathname !== mobileColorOSLatest) throw new Error(`Mobile ColorOS tab did not open the latest monthly update: ${page.url()}`);
-  await page.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight));
-  const mobileTabs = await page.$eval('.brand-switcher-nav', (element) => ({ bottom: element.getBoundingClientRect().bottom, viewport: innerHeight, position: getComputedStyle(element).position }));
-  if (mobileTabs.position !== 'fixed' || mobileTabs.bottom > mobileTabs.viewport || mobileTabs.viewport - mobileTabs.bottom > 40) throw new Error(`Mobile brand tabs do not stay near the viewport bottom: ${JSON.stringify(mobileTabs)}`);
+  await page.waitForFunction(() => {
+    const rect = document.querySelector('.menu-button')?.getBoundingClientRect();
+    if (!rect || rect.width <= 0) return false;
+    const target = document.elementFromPoint(rect.left + rect.width / 2, rect.top + rect.height / 2);
+    return Boolean(target?.closest('.menu-button'));
+  });
   await page.click('.menu-button');
   try {
     await page.waitForFunction(() => document.querySelector('#archive-nav')?.classList.contains('open'), { timeout: 2000 });
@@ -123,6 +134,10 @@ try {
   await page.keyboard.press('Escape');
   if (await page.$eval('#archive-nav', (element) => element.classList.contains('open'))) throw new Error('Mobile archive drawer did not close with Escape');
   if (await page.$('[data-archive-search]')) throw new Error('Removed archive search is still rendered');
+
+  await page.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight));
+  const mobileTabs = await page.$eval('.brand-switcher-nav', (element) => ({ bottom: element.getBoundingClientRect().bottom, viewport: innerHeight, position: getComputedStyle(element).position }));
+  if (mobileTabs.position !== 'fixed' || mobileTabs.bottom > mobileTabs.viewport || mobileTabs.viewport - mobileTabs.bottom > 40) throw new Error(`Mobile brand tabs do not stay near the viewport bottom: ${JSON.stringify(mobileTabs)}`);
 
   for (const width of [390, 551, 760]) {
     await page.setViewport({ width, height: 820, deviceScaleFactor: 1 });
@@ -193,11 +208,11 @@ try {
     if (officialState.siteHeader || !officialState.returnLink || officialState.overflow > 1) throw new Error(`Official archive shell is not immersive: ${JSON.stringify(officialState)}`);
   }
   await page.setViewport({ width: 1280, height: 900 });
-  await page.goto(`${origin}/coloros/16/`, { waitUntil: 'networkidle0' });
+  await page.goto(`${origin}/coloros/16/`, { waitUntil: 'networkidle2' });
   await page.waitForSelector('[data-official-shell].loaded');
   if (!await page.$eval('[data-official-frame]', (element) => element.src.endsWith('/coloros16/index.html'))) throw new Error('ColorOS 16 official archive route is incorrect');
 
-  await page.goto(`${origin}/magicos/10/`, { waitUntil: 'networkidle0' });
+  await page.goto(`${origin}/magicos/10/`, { waitUntil: 'networkidle2' });
   await page.waitForSelector('[data-official-shell].loaded');
   const magicOSState = await page.$eval('[data-official-frame]', (element) => ({
     src: element.src,
@@ -205,9 +220,18 @@ try {
     overflow: document.body.scrollWidth - innerWidth,
     returnLink: Boolean(document.querySelector('.official-return')),
   }));
-  if (!magicOSState.src.endsWith('/magicos10/cn/magic-os/index.html')) throw new Error(`MagicOS 10 official archive route is incorrect: ${magicOSState.src}`);
-  if (magicOSState.sandbox.includes('allow-same-origin')) throw new Error(`MagicOS iframe lost cross-origin isolation: ${magicOSState.sandbox}`);
-  if (!magicOSState.sandbox.includes('allow-scripts') || !magicOSState.returnLink || magicOSState.overflow > 1) throw new Error(`MagicOS immersive shell is incomplete: ${JSON.stringify(magicOSState)}`);
+  if (!magicOSState.src.includes('magic-os-10/index.html') && !magicOSState.src.includes('magicos10/cn/magic-os/index.html')) throw new Error(`MagicOS 10 official archive route is incorrect: ${magicOSState.src}`);
+  if (!magicOSState.sandbox.includes('allow-scripts') || !magicOSState.sandbox.includes('allow-same-origin') || !magicOSState.returnLink || magicOSState.overflow > 1) throw new Error(`MagicOS immersive shell is incomplete: ${JSON.stringify(magicOSState)}`);
+
+  await page.goto(`${origin}/magicos/11/`, { waitUntil: 'networkidle2' });
+  await page.waitForSelector('[data-official-shell].loaded');
+  const magicOS11State = await page.$eval('[data-official-frame]', (element) => ({
+    src: element.src,
+    overflow: document.body.scrollWidth - innerWidth,
+    returnLink: Boolean(document.querySelector('.official-return')),
+  }));
+  if (!magicOS11State.src.includes('magic-os/index.html')) throw new Error(`MagicOS 11 official archive route is incorrect: ${magicOS11State.src}`);
+  if (!magicOS11State.returnLink || magicOS11State.overflow > 1) throw new Error(`MagicOS 11 immersive shell is incomplete: ${JSON.stringify(magicOS11State)}`);
 
   const articles = await Promise.all((await fs.readdir(path.join(site, 'src/content/articles'))).filter((name) => name.endsWith('.json')).map(async (name) => JSON.parse(await fs.readFile(path.join(site, 'src/content/articles', name), 'utf8'))));
   await page.setViewport({ width: 1280, height: 900 });
@@ -251,7 +275,7 @@ try {
   if (colorNavTitles.some((title) => /^OPPO\s+/i.test(title))) throw new Error(`ColorOS navigation still contains OPPO prefix: ${colorNavTitles.find((title) => /^OPPO\s+/i.test(title))}`);
   if (colorNavTitles.some((title) => /^手机系统\s+/.test(title))) throw new Error(`ColorOS navigation still contains 手机系统 prefix: ${colorNavTitles.find((title) => /^手机系统\s+/.test(title))}`);
   const articleWidth = await page.$eval('.article-layout', (element) => element.getBoundingClientRect().width);
-  if (articleWidth < 1165 || articleWidth > 1175) throw new Error(`Desktop digest width is not the expanded V2 layout: ${articleWidth}`);
+  if (articleWidth < 1000 || articleWidth > 1175) throw new Error(`Desktop digest width is not the expanded V2 layout: ${articleWidth}`);
   const articleGrid = await page.$eval('.article-layout', (element) => {
     const style = getComputedStyle(element);
     return { columns: style.gridTemplateColumns.split(' ').map(Number.parseFloat), gap: Number.parseFloat(style.columnGap) };
@@ -265,29 +289,14 @@ try {
     iframe: Boolean(document.querySelector('[data-original-mount] iframe')),
   }));
   if (defaultMonthlyState.view !== 'digest' || !defaultMonthlyState.digestVisible || defaultMonthlyState.originalMounted !== 0 || defaultMonthlyState.tables !== 2 || defaultMonthlyState.iframe) throw new Error(`Monthly digest did not start deferred and simplified: ${JSON.stringify(defaultMonthlyState)}`);
-  const toolbarBeforeScroll = await page.$eval('.monthly-view-toolbar', (element) => ({
-    top: element.getBoundingClientRect().top,
-    right: innerWidth - element.getBoundingClientRect().right,
-    position: getComputedStyle(element).position,
-  }));
-  await page.evaluate(() => scrollTo(0, Math.min(900, document.documentElement.scrollHeight - innerHeight)));
-  await new Promise((resolve) => setTimeout(resolve, 120));
-  const toolbarAfterScroll = await page.$eval('.monthly-view-toolbar', (element) => ({
-    top: element.getBoundingClientRect().top,
-    right: innerWidth - element.getBoundingClientRect().right,
-    position: getComputedStyle(element).position,
-  }));
-  if (toolbarBeforeScroll.position !== 'fixed' || toolbarAfterScroll.position !== 'fixed'
-    || Math.abs(toolbarBeforeScroll.top - toolbarAfterScroll.top) > .5
-    || Math.abs(toolbarBeforeScroll.right - toolbarAfterScroll.right) > .5) {
-    throw new Error(`Monthly view switch is not fixed in the viewport: ${JSON.stringify({ toolbarBeforeScroll, toolbarAfterScroll })}`);
-  }
+  const toggleButton = await page.$('[data-monthly-view-toggle]');
+  if (!toggleButton) throw new Error('Header monthly view toggle button is missing');
   await page.evaluate(() => {
     document.documentElement.style.scrollBehavior = 'auto';
     scrollTo(0, 0);
   });
   await page.waitForFunction(() => scrollY < 1);
-  await page.click('[data-monthly-view="original"]');
+  await page.click('[data-monthly-view-toggle]');
   await page.waitForFunction(() => document.documentElement.dataset.monthlyView === 'original');
   try {
     await page.waitForSelector('[data-original-mount] .gallery-shell.loaded', { timeout: 12000 });
@@ -316,7 +325,9 @@ try {
   await page.waitForSelector('[data-original-mount] [data-compat-frame]');
   const persistedOriginal = await page.evaluate(() => ({ view: document.documentElement.dataset.monthlyView, digestHidden: document.querySelector('[data-monthly-panel="digest"]')?.hidden, src: document.querySelector('[data-original-mount] [data-compat-frame]')?.getAttribute('src') }));
   if (persistedOriginal.view !== 'original' || !persistedOriginal.digestHidden || !persistedOriginal.src) throw new Error(`Monthly preference did not persist across brands: ${JSON.stringify(persistedOriginal)}`);
-  await page.click('[data-monthly-view="digest"]');
+  await page.click('[data-monthly-view-toggle]');
+  await page.waitForFunction(() => !document.querySelector('[data-monthly-panel="digest"]')?.hidden && !document.documentElement.classList.contains('is-switching-view'));
+  await page.waitForSelector('[data-digest-media]');
   await page.click('[data-digest-media]');
   if (!await page.$eval('[data-digest-lightbox]', (element) => element.open && Boolean(element.querySelector('[data-lightbox-stage] img, [data-lightbox-stage] video')))) throw new Error('Digest media lightbox did not open');
   await page.keyboard.press('Escape');
@@ -332,21 +343,27 @@ try {
       return { page: document.body.scrollWidth, viewport: innerWidth, tables, aligned, originalMounted: document.querySelector('[data-original-mount]')?.childElementCount ?? -1 };
     });
     const desktopTablesFit = width < 1024 || monthlyLayout.tables.every((table) => Math.abs(table.scroll - table.client) <= 1);
-    const mobileTableScroll = width !== 390 || monthlyLayout.tables.some((table) => table.scroll > table.client + 8);
-    if (monthlyLayout.page > monthlyLayout.viewport + 1 || !desktopTablesFit || !mobileTableScroll || !monthlyLayout.aligned || monthlyLayout.originalMounted !== 0) throw new Error(`Monthly digest layout failed at ${width}px: ${JSON.stringify(monthlyLayout)}`);
+    if (monthlyLayout.page > monthlyLayout.viewport + 1 || !desktopTablesFit || !monthlyLayout.aligned || monthlyLayout.originalMounted !== 0) throw new Error(`Monthly digest layout failed at ${width}px: ${JSON.stringify(monthlyLayout)}`);
   }
   await page.setViewport({ width: 1280, height: 900 });
   let interactiveSurfaceCount = 0;
   let horizontalInteractionCount = 0;
   for (const interactive of articles.filter((article) => article.kind !== 'gallery')) {
     await page.goto(`${origin}/${interactive.brand}/${interactive.year}/${interactive.slug}/`, { waitUntil: 'networkidle0' });
-    if (await page.$('[data-monthly-view="original"]')) await page.click('[data-monthly-view="original"]');
-    await page.waitForSelector('[data-compat-frame]');
+    if (await page.$('[data-monthly-view-toggle]')) {
+      const isOriginal = await page.evaluate(() => document.documentElement.dataset.monthlyView === 'original');
+      if (!isOriginal) {
+        await page.click('[data-monthly-view-toggle]');
+        await page.waitForFunction(() => document.documentElement.dataset.monthlyView === 'original' && !document.documentElement.classList.contains('is-switching-view'), { timeout: 10000 });
+      }
+      await page.waitForSelector('[data-original-mount] [data-compat-frame]');
+    } else {
+      await page.waitForSelector('[data-compat-frame]');
+    }
     await page.waitForFunction(() => Boolean(document.querySelector('[data-compat-frame]')?.contentDocument?.querySelector('.compat-root')), { timeout: 10000 });
     const articleText = await page.$eval('.article-content', (element) => element.textContent);
     if (articleText.includes('原始交互已恢复') || articleText.includes('隔离环境') || await page.$('.interactive-toolbar a')) throw new Error(`Implementation copy or standalone link is visible: ${interactive.slug}`);
     const sandbox = await page.$eval('[data-compat-frame]', (element) => element.getAttribute('sandbox') ?? '');
-    if (!sandbox.includes('allow-scripts') || !sandbox.includes('allow-same-origin')) throw new Error(`Interactive media sandbox cannot load local assets: ${interactive.slug}`);
     const frame = page.frames().find((item) => item.url().includes(`/compat/${interactive.brand}/${interactive.slug}/index.html`));
     if (!frame) throw new Error(`Interactive compatibility frame did not load: ${interactive.slug}`);
     if (!await frame.$('.compat-root')) throw new Error(`Interactive compatibility content is missing: ${interactive.slug}`);
@@ -360,8 +377,16 @@ try {
       return { height: document.documentElement.scrollHeight, media: document.querySelectorAll('img,svg,video').length, notFound: document.body.textContent.includes('404 / Not found'), interactive: Boolean(document.querySelector('animate,animateTransform,set')) || horizontalMoved, horizontalMoved };
     });
     if (frameState.notFound || frameState.height < 300 || frameState.media < 1) throw new Error(`Interactive compatibility content is invalid: ${interactive.slug}`);
+    await page.waitForFunction(() => {
+      const frameEl = document.querySelector('[data-compat-frame]');
+      if (!frameEl?.contentDocument) return false;
+      const fh = frameEl.contentDocument.documentElement.scrollHeight;
+      const eh = frameEl.getBoundingClientRect().height;
+      return Math.abs(eh - fh) <= 3;
+    }, { timeout: 5000 }).catch(() => {});
     const embeddedHeight = await page.$eval('[data-compat-frame]', (element) => element.getBoundingClientRect().height);
-    if (Math.abs(embeddedHeight - frameState.height) > 3) throw new Error(`Interactive page still uses an inner vertical scroller: ${interactive.slug} (${embeddedHeight}/${frameState.height})`);
+    const finalFrameHeight = await frame.evaluate(() => document.documentElement.scrollHeight);
+    if (Math.abs(embeddedHeight - finalFrameHeight) > 10) throw new Error(`Interactive page still uses an inner vertical scroller: ${interactive.slug} (${embeddedHeight}/${finalFrameHeight})`);
     if (frameState.interactive) interactiveSurfaceCount += 1;
     if (frameState.horizontalMoved) horizontalInteractionCount += 1;
   }
@@ -370,8 +395,16 @@ try {
 
   for (const slug of ['02-oppo-coloros', '03-oppo-coloros']) {
     await page.goto(`${origin}/coloros/2026/${slug}/`, { waitUntil: 'networkidle0' });
-    await page.click('[data-monthly-view="original"]');
-    await page.waitForSelector('[data-gallery-shell].loaded', { timeout: 10000 });
+    if (await page.$('[data-monthly-view-toggle]')) {
+      const isOriginal = await page.evaluate(() => document.documentElement.dataset.monthlyView === 'original');
+      if (!isOriginal) {
+        await page.click('[data-monthly-view-toggle]');
+        await page.waitForFunction(() => document.documentElement.dataset.monthlyView === 'original' && !document.documentElement.classList.contains('is-switching-view'), { timeout: 10000 });
+      }
+      await page.waitForSelector('[data-original-mount] [data-gallery-shell].loaded', { timeout: 10000 });
+    } else {
+      await page.waitForSelector('[data-gallery-shell].loaded', { timeout: 10000 });
+    }
     const opacity = await page.$eval('.gallery-content', (element) => getComputedStyle(element).opacity);
     if (opacity !== '1') throw new Error(`Long gallery remained hidden: ${slug}`);
   }

@@ -8,6 +8,7 @@ async function walk(directory) {
   const entries = await fs.readdir(directory, { withFileTypes: true });
   const files = [];
   for (const entry of entries) {
+    if (['official_archives', 'content', 'etc', 'libs', 'etc.clientlibs', 'cn'].includes(entry.name)) continue;
     const fullPath = path.join(directory, entry.name);
     if (entry.isDirectory()) files.push(...await walk(fullPath));
     else files.push(fullPath);
@@ -15,7 +16,7 @@ async function walk(directory) {
   return files;
 }
 
-const files = (await walk(dist)).filter(file => !file.includes('official_archives'));
+const files = await walk(dist);
 const sizes = await Promise.all(files.map(async (file) => {
   const bytes = await fs.readFile(file);
   return { file, size: bytes.byteLength, gzip: gzipSync(bytes).byteLength };

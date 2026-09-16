@@ -3,13 +3,17 @@ import { sitePath } from '../../lib/archive';
 import { officialArchiveMeta, officialArchiveUrl, type OfficialArchiveVersion } from '../../lib/official-archives';
 
 export function getStaticPaths() {
-  return (['10']).map((official) => ({ params: { official } }));
+  return [
+    { params: { official: '10' }, props: { version: 'magicos10' as OfficialArchiveVersion } },
+    { params: { official: '11' }, props: { version: 'magicos11' as OfficialArchiveVersion } },
+  ];
 }
 
-const version = 'magicos10' as OfficialArchiveVersion;
+const { version } = Astro.props;
+const { official } = Astro.params;
 const meta = officialArchiveMeta[version];
 const siteUrl = (import.meta.env.PUBLIC_SITE_URL || 'https://ricky2036.github.io/os_updates_archive').replace(/\/$/, '');
-const route = sitePath(`magicos/10/`);
+const route = sitePath(`magicos/${official}/`);
 const base = import.meta.env.BASE_URL || '/';
 const relativeCanonical = route.startsWith(base) ? route.slice(base.length) : route.replace(/^\//, '');
 const canonical = new URL(relativeCanonical, `${siteUrl}/`).toString();
