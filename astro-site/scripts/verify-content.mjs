@@ -7,7 +7,6 @@ const compatDir = path.join(site, 'public/compat');
 const manifestDir = path.join(site, 'public/manifests');
 const magicPagePath = path.join(site, 'src/pages/magicos/[official].astro');
 const officialConfigPath = path.join(site, 'src/lib/official-archives.ts');
-const serviceWorkerPath = path.join(site, 'public/sw.js');
 const files = (await fs.readdir(contentDir)).filter((name) => name.endsWith('.json')).sort();
 const articles = await Promise.all(files.map(async (name) => JSON.parse(await fs.readFile(path.join(contentDir, name), 'utf8'))));
 const fail = (message) => { throw new Error(message); };
@@ -16,7 +15,7 @@ if (!articles.length) fail('No articles found');
 if (new Set(articles.map((article) => article.articleId)).size !== articles.length) fail('Article IDs are not unique');
 if (new Set(articles.map((article) => `${article.brand}/${article.year}/${article.slug}`)).size !== articles.length) fail('Article routes are not unique');
 const interactive = articles.filter((article) => article.kind !== 'gallery');
-if (interactive.length !== 16) fail(`Expected 16 interactive articles, found ${interactive.length}`);
+if (interactive.length !== 17) fail(`Expected 17 interactive articles, found ${interactive.length}`);
 for (const article of articles) {
   if (!article.title || !article.legacyPath || !article.cover) fail(`Incomplete metadata: ${article.articleId}`);
   if (article.kind === 'gallery' && !article.html) fail(`Gallery has no HTML: ${article.articleId}`);
