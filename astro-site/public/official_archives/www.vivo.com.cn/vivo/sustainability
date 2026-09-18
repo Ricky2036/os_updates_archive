@@ -1,0 +1,1018 @@
+<!DOCTYPE html><html  lang="zh-CN" class="extra-desktop-style"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>可持续发展 - vivo智能手机官方网站</title>
+<script src="https://portalstatic-cn.vivo.com/js/jquery-3.6.0.min.js" type="text/javascript" id="jquery-3.6.0.min-js"></script>
+<script src="https://portalstatic-cn.vivo.com/js/common.js" type="text/javascript" id="vivo-cn-common-js"></script>
+<script src="https://portalstatic-cn.vivo.com/js/buryingPoint.js" type="text/javascript" id="cn-buryingPoint-js"></script>
+<script src="https://portalstatic-cn.vivo.com/js/lib.js" type="text/javascript" id="vivo-cn-lib-js"></script>
+<script src="https://portalstatic-cn.vivo.com/js/cn-video-js.min.js" type="text/javascript" id="vivo-cn-video-js"></script>
+<style>:root { --brandColor: #415fff;--brandDarkColor: #546fff;--brandHoverColor: rgba(65, 95, 255, 0.73);--global-font-family: "vivoSansSC","VIVO-FONT-WEB-BOLD","VIVO-FONT-NAV-BOLD",sans-serif,微软雅黑; }</style>
+<style>true</style>
+<link rel="stylesheet" href="//asia-exstatic.vivoglobal.com/static/bus/include/cn-header/dist/css/index_8c54916.css">
+<link rel="stylesheet" href="//asia-exstatic.vivoglobal.com/static/bus/common/css/vicon_eb95211.css">
+<style>html,body{overflow: visible;}</style>
+<link rel="stylesheet" href="https://portalstatic-cn.vivo.com/css/cn-base.css" id="vivo-cn-base-css">
+<link rel="stylesheet" href="https://portalstatic-cn.vivo.com/css/cn-video-js.min.css" id="vivo-cn-video-js-css">
+<link rel="stylesheet" href="https://h5.vivo.com.cn/pcvivo/productCss/supplementProductCss.css" id="vivo-product-supplement-css">
+<link rel="stylesheet" href="https://portalstatic-cn.vivo.com/_nuxt/entry.B834TZnp.css" crossorigin>
+<link rel="stylesheet" href="https://portalstatic-cn.vivo.com/_nuxt/default.65LdwTmY.css" crossorigin>
+<link rel="stylesheet" href="https://portalstatic-cn.vivo.com/_nuxt/index.C7cftnEl.css" crossorigin>
+<link rel="stylesheet" href="https://portalstatic-cn.vivo.com/_nuxt/index.DMi5mYwm.css" crossorigin>
+<link rel="modulepreload" as="script" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/DliVVojO.js">
+<link rel="modulepreload" as="script" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/swY2moNO.js">
+<link rel="modulepreload" as="script" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/BWjUOQWb.js">
+<link rel="modulepreload" as="script" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/gz6Dlv0R.js">
+<link rel="modulepreload" as="script" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/CyfQnM1W.js">
+<link rel="modulepreload" as="script" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/B9CUtv_L.js">
+<link rel="preload" as="fetch" fetchpriority="low" crossorigin="anonymous" href="https://portalstatic-cn.vivo.com/_nuxt/builds/meta/57c42470-b277-41f4-90d9-4b64f500e6c8.json">
+<link rel="dns-prefetch" href="//asia-exstatic.vivoglobal.com">
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+<link rel="dns-prefetch" href="//asia-exstatic-vivofs.vivo.com">
+<link rel="prefetch" as="image" type="image/x-icon" href="https://portalstatic-cn.vivo.com/_nuxt/favicon-iqoo.D8dd7MA_.ico">
+<link rel="prefetch" as="style" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/noHF.D4URACS4.css">
+<link rel="prefetch" as="script" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/B40WWwIr.js">
+<link rel="prefetch" as="image" type="image/png" href="https://portalstatic-cn.vivo.com/_nuxt/wechat.DfvKeLMW.png">
+<link rel="prefetch" as="image" type="image/png" href="https://portalstatic-cn.vivo.com/_nuxt/vivo-miniProgram.BQ7dTvNJ.png">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta name="format-detection" content="telephone=no,email=no">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAAHdbkFIAAAAAXNSR0IArs4c6QAAB9tJREFUeAHtW2uoVUUUXvtopiREVkoJJZZWRPTETFLTq2FkBEU+ivAqGF41KqwgxbxZFpRRoal5Qa+Q+Cj8kVrS7ZoPKIOS+tHDLFNBQclukJRaelrf3nedvfbs9zl7n63g+nFmZs16zZrHnlkzxyKGEZPKf3HSE3kNlkV7rLBKISxxxscplUhBYMPW1s5MZyLlCoGunv8k0d//OJgKwchGIuG6+3aisU0GAYr3PeEQgVighKZI4eQpIl0JvIUfbmoZqQmfr7Is+CGwUogrRgrCTG0CsV5XCs4m0E0EESrF2K7CBcfMnc4GDyIa97RglavhGFQCfv/TSfEb24pIP7hywnOxGsJZnZqKHxc+77S+z6XRLAufcwcFKD0WNE0gemQM0ZkzRKOm+AWJ78XFPgHCEkQYhAsVgAphaN9F1DDYEa01OxijCYJMk9bejdA2srG8nAf91DSaeYyOaltltXt6IY0Am9ai7ZVxkJoZDGUaXpsAlpGdAPT75vdgVzSArn2lS1OxABO+x4VEC9Rkd8mcnAyu8c+4NRUBslLedYtbqXMD+7klvWBUBKBalhrR5LIQLWt2SuZw9gjQkq+5ymVvW+HkP9ji4iTnEQCkaGiZLyREXTqplq51cZKrrJqCQApNWBd0U0SwpkPeZwGQpqYDh4ENhtrmAssMtCBYVzAWAjqCq+KxXS0aaC8oDY3loWfKtCOeJVOKDv7+9rKqWYyyNKOUdiXMUjlk1TwIajWocAN8M3kIr2avGEti2CyOa/04Xg2m8W5BgykrcCLz1tKzaEPA2Gm8ez2hRUXn179FdNklLs2e34iaXnLLkgvsAuxLTUs3LSN6+F5hi06xBmrlc94OVg4pgR7Q4pe8SHR9fxdz9BjRhFluWee6dyP6eLnG8LZoMn+8IzbagR7QIqbPJ0ILBHrz9lGv8oJ/sMGvHF6MUg7eWA+IgqBxMYb3Uqf+JVr9BtEVlwsl0U/7iGB4EkhsgAgLar3UIZ3Ng2/XdxoTnY/tApMdbh2ndiVS/8sBZ+CmUQ7e1B4QhVmlJexysxJWjRxLmEY0lrdhsyvlvFPsBdparb0VA0ZPKjectuhdnjbX5aj8OM+mNVtbLT7bO2AbwGfyP7ioFk6pzi8tWTSsvdXaWbJdX2flaJbswAqdBdwdLanXgSw7hcfbxEIN4Mb0LNqA83vC4j3g25TiAI9vP2D390TP8re+WkDsa8WrztkfMnb/wPJe90rzDUJRDrLbbuRPL+9sq4U1b7rKIWPDp35JPgMkTiCk5rZa8HGpGe1AFOSLb/1cPgMQZ8AWWgO22GmgR3ciM1ryAMdcg8BnAIjM/Tu22DrMEiRI4zYu0SUnZBG2OQ00AOx6J4yyhGmQjwKcHUqGVDPkofkNUrfqS+4vieMLFrH9OJjxqJfCHFPe2pjTsdlvuDvozuG0MFjLo14Dtuc6dqXrJB/qARCg38zg1salwupNERjDoUVDkrNBpAEQZvYfgmY4BZmgA2uoM8eQSS/lWANAaPbjU48Lu5PiWkMDxg7GUBJIZAD6Ef2pAccxQLcL3GsTB0Nkjh3BB6WJDACj2Z84C87hmMGWFq/Y9Z/EH0g1R2IDwIRznwa5kdC4Zet0KT6fygCc+6LiprjJSwupDIDwybOJcBA1AQdW3BSmhUK35TA2tQfStjCOvlADePOzp1ADupRpRgnH5Dg35VTfgdu3Es7odTeCb+0QqkfDKvEBFEY3lgf8R9RSz0AF9NYNuOF8DJgKp4tO2wF2w8v0FSPrGqMQIwpIO3jU3WlHiBAZ4l7/rAAjCleJ+GAJYbHCLSnIALQdN2Z5xgQLaloytWh7od+hZGbmS3XeAfn69+yXfn4EnP19lK+FvvioqW7FAqJ+fU2sW/55v3NexhO+egLCX7jNjorZ7T9ENGVOtFWxUwACdn4TLgQGIFgU9xAyXEL6GuiCzqjGw+a4xkNzrANANG8R0aLVyAUDXr8hGD30juD6LLHQYQa+TfmwFTYngVQhgWs5/Le02X3SFqRgQxvR4ghnBfEkxc18jOih0eHUp3kaNjVzzORgOI1Zk8oBYEZwdiXfe0QN+b0ctIEhfB+aCfDFLi2ZFz3kjxzjgNELRCdSBoYSTQHdihMniSbOItrxtcZ68wOuduaofrvjpUhegoy4+Q5bYFPaxsOK1A4Q05sX87rwvpT8Ka5pcLUz5FZ/XVIMnpFBBmSFAWyALdVC6ilgKkqyLuCKwYzym3LMsryQN/FSrma+C69Oa3YAhOHF2MrXoteFH/cRzXw5Pm6Oa9LFc4lu6K/N9Oarne9eKU6p6imghWHuxa0LaNBHfHnY62LN6c2jDjRRja9lvnu1OaVMHCCC49aFi3oQffgO0aCbhMNNgUMdaMKg1vkeJDeTKWAKTrsuJJnv05qJfj1oaqq9nIsDYFaSdSGJ+VnO9yB9mU4BrUDWhU3bNDZdHrzVft+TasptBGgD+vYhwr/HonaPmh69jlc1h45obD75ujhAmz74ZqL7hxNdyU7pbd/NEB3lV5OHubGbt6d7+avlVpuvuwOqNTQvPqwBx/MSfg7IPY4/4645BwzNxUS0nTee/M6kzi+3c2lNWqG4IW617rE/g3aGH1OzjI60cs5B+g48HEebYbs9AsxGdD6lH8/4YXx91JfTyD/Wm/xnURnP9Q+xPTv4NcQ6PEgwbfsf5DA3HXM0nG0AAAAASUVORK5CYII=">
+<meta name="keywords" content>
+<meta name="description" content>
+<meta name="robots" content>
+<meta name="facebook-domain-verification" content="0q2ryjis6o0fzvez07tvvutzgde34a">
+<meta name="google-site-verification" content="E-7gZJW4cW6Cf7VJQpdOKF6gQ6mwyrfguXubRyJSW4M">
+<script type="text/javascript">
+        var sZeus = document.createElement('script');
+        sZeus.onload = sZeus.onreadystatechange = function () {
+          if (!this.readyState || this.readyState === 'loaded' || this.readyState === 'complete') {
+            sZeus.onload = sZeus.onreadystatechange = null;
+            window.VMonitor && window.VMonitor.init({
+              id: 'lsYkPuCe',  // 页面应用id
+              reportRender: false,  // 手动性能上报
+              zeusEnv: 'prd',  // zeusEnv：环境区分。prod：生产；test：测试；pre:预发
+              branchName: 'master'  // branchName: 业务代码git分支名
+            });
+          }
+        };
+        sZeus.src = '//sentinelapi.vivo.com.cn/jssdk/vmonitor.min.js';
+        document.head.appendChild(sZeus);
+      </script>
+<link rel="stylesheet" href="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1788149113093/css/webfonts.css" id="vivo-overview-css-1">
+<link rel="stylesheet" href="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1788149113093/css/app.css" id="vivo-overview-css-2">
+<script id="vivo-cn-global-var">var gloablVAR = {
+          videoMaskTheme: "white",
+          pageTAG: 3,
+          h5SdkSwitch: "true",
+        };</script>
+<script id="vivo-product-image-host">var IMAGE_HOST = "https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1788149113093/";</script>
+<script type="module" src="https://portalstatic-cn.vivo.com/_nuxt/DliVVojO.js" crossorigin></script><script type="module">import.meta.url;import("_").catch(()=>1);(async function*(){})().next();if(location.protocol!="file:"){window.__vite_is_modern_browser=true}</script><script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy chunks, syntax error above and the same error below should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script></head><body><!--teleport start anchor--><!----><!--teleport anchor--><div id="__nuxt"><div class="app"><!--[--><header id="gw_header" class="new-head-wrap"><!----><div class="mini-head"><div id="vivo-head-wrap"
+     class="vp-head   vp-head-theme-black"
+     >
+    <div id="cn-head-theme"></div>
+    <div class="vp-head-wrap">
+            <div class="vp-head-wrap-pc">
+                <div class="vp-head-topbar-pc">
+                    <div>
+                        <ul class="vp-head-topbar-navs">
+                                <li><a href=""
+                                       data-head-click-stat="cfrom=01|03|002|003&name=品牌">品牌</a>
+                                </li>
+                                <li><a href=""
+                                       data-head-click-stat="cfrom=01|03|002|003&name=OriginOS">OriginOS</a>
+                                </li>
+                                <li><a href=""
+                                       data-head-click-stat="cfrom=01|03|002|003&name=体验店">体验店</a>
+                                </li>
+                                <li><a href=""
+                                       data-head-click-stat="cfrom=01|03|002|003&name=官网社区">官网社区</a>
+                                </li>
+                        </ul>
+                        <div class="vp-head-top-user">
+                                <a href="https://shopact.vivo.com.cn/pcspace/wk221129f1431101"
+                                   class="vp-vivo-app">
+                                    <span>下载APP</span>
+                                </a>
+                            <a class="vp-user-shopcart" href="https://shop.vivo.com.cn/shoppingcart"
+                               data-head-click-stat="cfrom=01|03|002|002&position=1"></a>
+                            <div class="vp-user-login-box">
+                                <span class="vp-head-member-login">个人中心</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vp-head-mainbar-pc" >
+                    <div class="vp-head-logo">
+                        <a href="//www.vivo.com.cn" role="link" aria-label="vivo" data-head-click-stat="cfrom=01|03|002|001&name=vivo"> </a>
+                    </div>
+                    <div class="vp-head-site">
+                        <div class="vp-head-site-wrap">
+                            <div class="vp-head-site-navs">
+                                <div class="vp-head-site-navs-container">
+                                        <ul class="vp-head-site-navs-7">
+                                                <li >
+                                                    <a
+                                                        id="" href=""
+                                                        data-url=""
+                                                        class="vp-vivo-head-"
+                                                        data-head-click-stat="cfrom=01|03|002|003&name=X系列"><span
+                                                            class="main">X系列</span><span
+                                                            class="sub">X</span></a>
+                                                </li>
+                                                <li >
+                                                    <a
+                                                        id="" href=""
+                                                        data-url=""
+                                                        class="vp-vivo-head-"
+                                                        data-head-click-stat="cfrom=01|03|002|003&name=S系列"><span
+                                                            class="main">S系列</span><span
+                                                            class="sub">S</span></a>
+                                                </li>
+                                                <li >
+                                                    <a
+                                                        id="" href=""
+                                                        data-url=""
+                                                        class="vp-vivo-head-"
+                                                        data-head-click-stat="cfrom=01|03|002|003&name=Y系列"><span
+                                                            class="main">Y系列</span><span
+                                                            class="sub">Y</span></a>
+                                                </li>
+                                                <li >
+                                                    <a
+                                                        id="" href=""
+                                                        data-url=""
+                                                        class="vp-vivo-head-"
+                                                        data-head-click-stat="cfrom=01|03|002|003&name=iQOO手机"><span
+                                                            class="main">iQOO手机</span><span
+                                                            class="sub">iQOO手机</span></a>
+                                                </li>
+                                                <li >
+                                                    <a
+                                                        id="" href=""
+                                                        data-url=""
+                                                        class="vp-vivo-head-"
+                                                        data-head-click-stat="cfrom=01|03|002|003&name=智能硬件"><span
+                                                            class="main">智能硬件</span><span
+                                                            class="sub">智能硬件</span></a>
+                                                </li>
+                                                <li >
+                                                    <a
+                                                        id="" href=""
+                                                        data-url=""
+                                                        class="vp-vivo-head-"
+                                                        data-head-click-stat="cfrom=01|03|002|003&name=商城"><span
+                                                            class="main">商城</span><span
+                                                            class="sub">商城</span></a>
+                                                </li>
+                                                <li >
+                                                    <a
+                                                        id="" href=""
+                                                        data-url=""
+                                                        class="vp-vivo-head-"
+                                                        data-head-click-stat="cfrom=01|03|002|003&name=服务"><span
+                                                            class="main">服务</span><span
+                                                            class="sub">服务</span></a>
+                                                </li>
+                                        </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vp-head-search-btn">
+                        <div>
+                            <span class="vp-head-search-open"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vp-head-wrap-wap vp-head-show-app">
+                <div class="vp-head-wap-common-box">
+                    <div class="vp-head-download common-header-suspended">
+            <div data-head-click-stat="cfrom=04|03|062|062" class="vp-head-download-click">
+            <div class="vp-head-download-img">
+                <img class="vp-head-img-floating vp-head-lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" alt="官网APP">
+                <img class="vp-head-img-button vp-head-lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" alt="按钮">
+            </div>
+            <div class="vp-head-download-wx"></div>
+        </div>
+    <span data-head-click-stat="cfrom=05|03|062|063" class="vp-head-download-close"></span>
+
+    <script type="text/javascript">
+        var vpHeaderFloat = {
+            pageBoundary: 720,
+            needDeeplink: (!window.H5Interface && 0) ? 1 : 0,
+            deeplinkUrl: '',
+            blockBrowser: 'DeviceType\/tablet|UCBrowser|VivoSpace|AlipayClient|AliApp\\(AP|wxwork|miniProgram',
+            blockCid: 'toutiao_pz|tt-sem|w-1-kp-x70|xiaov',
+            blockCookie: 'DeviceType\/tablet|UCBrowser|VivoSpace|AlipayClient|AliApp\\(AP|wxwork|miniProgram',
+            isVivo: '1',
+            target: 'vivoportal',
+            wxTokenSwitch: 'true',
+            imgObj: {
+                'vivoFloatingImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753166059999/88be9f038031c75c78c4ed227e6fbeb1.png',
+                'vivoButtonImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753166071502/28e0ff5547eab74a14c51ea9091a26d8.png',
+                'vivoDownLoadUrl': 'https://h5.vivo.com.cn/mall/download/index.html',
+                'floatingImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753168266859/c092cf0613b0504e542cd7cd948ff1d5.png',
+                'buttonImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753168290953/e3eb324e70b13ec24fa84a1ae9f2db19.png',
+                'downLoadUrl': 'https://h5.vivo.com.cn/mall/download/index.html',
+            }
+        }
+    </script>
+</div>
+                    <div class="vp-head-common">
+                        <span class="vp-head-left-feature" role="button" aria-label="菜单" aria-expanded="false"></span>
+                        <div class="vp-head-logo" aria-label="vivo">
+                            <a href="//www.vivo.com.cn"></a>
+                        </div>
+                        <div class="vp-head-right-feature">
+                            <a href="//www.vivo.com.cn/search/index" class="vp-head-btns-search search-index-link" aria-label="搜索"></a>
+                                <a class="vp-head-btns-shop" href="//shop.vivo.com.cn/" aria-label="商城"
+                                   data-head-click-stat="cfrom=1042"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+
+<script type="text/javascript" id="vp-head-header-script">
+    var vpHeader = {
+        pageType: 'responsive',
+        pageBoundary: 1199,
+        clientId: '30',
+        memberIsCus: false,
+        headerType: 0,
+        target: 'vivoportal',
+        ceilingType: 0,
+        showDownLink: 1,
+        darkWords: [],
+        headTheme: 'black'
+    };
+    var VP_Emmiter;
+</script>
+<style>
+
+</style>
+</div></header><main><!--[--><div class="product-detail is-cn" data-v-0e028e03><!--[--><div class="product-nav-bar-box public" data-v-02af7faf><div id="series-id" class="product-nav-bar" data-name="可持续发展" data-theme="white" data-v-02af7faf><div class="nav-bar-wrap" data-v-02af7faf><div class="product-name-list" data-v-02af7faf><div class="pc-name-box" data-v-02af7faf><!--[--><span class="active" data-v-02af7faf><a href="javascript:;" data-v-02af7faf>可持续发展</a></span><!--]--></div></div><div class="product-controls" data-v-02af7faf><ul class="product-tabs" data-v-02af7faf><!--[--><li data-v-02af7faf><a href="https://www.vivo.com.cn/vivo/education/" data-v-02af7faf>普惠教育</a></li><li data-v-02af7faf><a href="https://wuzhangai.vivo.com?from=CSR_HomePage" data-v-02af7faf>vivo 无障碍</a></li><!--]--></ul><a href="#report" data-v-02af7faf><button class="buy-btn" data-v-02af7faf>2024 vivo可持续发展报告</button></a></div></div></div></div><!--teleport start--><!--teleport end--><!--]--><div id="vivo-product-resource" class="cn-sustainability" data-v-0e028e03><div id="vivo-product-wrap" class="unvisible J_replace_content"> 
+ <div style="display:none"></div> 
+ <div class="product-main-wrapper"> 
+  <div class="product-main-content"> 
+   <div class="umx-stage csr-kv" data-track="{'type':'viewstate','params':{'cfrom':'01|03|003|033','name':'CSR','position':'1','total':'9'}}"> 
+    <div class="umx-figure-box"> 
+     <div class="umx-figure"> 
+      <figure class="umx-f1 lazy-imageom"></figure> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="umx-stage csr-tvc" data-track="{'type':'viewstate','params':{'cfrom':'01|03|003|033','name':'CSR','position':'2','total':'9'}}"> 
+    <div class="csr-tvc-wrapper"> 
+     <div class="csr-tvc-content"> 
+      <div class="csr-tvc-text"> 
+       <div class="csr-tvc-logo"></div> 
+       <p class="csr-tvc-intro">我们坚持长期主义，践行绿色发展，追求商业永续，创造更多社会价值，让每个人都能享受科技带来的幸福与美好。</p> 
+       <div id="csr-tvc-play-btn" class="csr-tvc-btn" data-url="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/files/1658797307735/vivo%E5%8F%AF%E6%8C%81%E7%BB%AD%E5%8F%91%E5%B1%95%E4%B8%BB%E9%A2%98%E8%A7%86%E9%A2%91.mp4" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'2','button_name':'观看影片','pointsname':'观看影片'}}"> 
+        <svg width="9px" height="10px" viewbox="0 0 9 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+         <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> 
+          <g transform="translate(-191.000000, -1503.000000)"> 
+           <g transform="translate(0.000000, 1056.000000)"> 
+            <g transform="translate(191.590898, 439.000000)" fill="#000000"> 
+             <path d="M4.40703919,9.6512627 L8.54100032,16.2656005 C8.68150128,16.490402 8.61316216,16.7865382 8.38836062,16.9270392 C8.31207345,16.9747187 8.2239226,17 8.13396113,17 L-0.133961132,17 C-0.399057812,17 -0.613961132,16.7850967 -0.613961132,16.52 C-0.613961132,16.4300385 -0.588679799,16.3418877 -0.541000318,16.2656005 L3.59296081,9.6512627 C3.73346177,9.42646116 4.02959796,9.35812204 4.25439949,9.498623 C4.31620867,9.53725374 4.36840845,9.58945351 4.40703919,9.6512627 Z" transform="translate(4.000000, 13.000000) rotate(-270.000000) translate(-4.000000, -13.000000) " /> 
+            </g> 
+           </g> 
+          </g> 
+         </g> 
+        </svg> 
+        <span>观看影片</span> 
+       </div> 
+      </div> 
+      <div class="csr-tvc-img"> 
+       <div class="umx-csr-tvc-animate-box"></div> 
+       <img class="umx-csr-tvc-animate-box-img" src> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="umx-stage csr-boss" data-track="{'type':'viewstate','params':{'cfrom':'01|03|003|033','name':'CSR','position':'3','total':'9'}}"> 
+    <div class="csr-boss-wrapper swiper"> 
+     <ul class="csr-boss-list swiper-wrapper"> 
+      <li class="csr-boss-item boss-item1 swiper-slide"> 
+       <div class="boss-inner"> 
+        <div class="boss-content"> 
+         <div class="boss-man"> 
+          <div class="boss-avatar"></div> 
+          <div class="umx-boss-info"> 
+           <p class="boss-name">沈炜</p> 
+           <p class="boss-title">vivo 创始人、<br>首席执行官</p> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="boss-text"> 
+         <p>人，是科技的答案。<br><br>vivo 走过三十年，一直在做的也是这件事：让技术回到具体的人。不是停在实验室里，不是停在发布会上，而是回到每一个真实的日子里，回到工作、学习、热爱、生活，回到每一个人的日常和当下的感受。</p> 
+         <div class="boss-btn umx-mb-hide" data-modalname="crs-boss-modal" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'3','button_name':'了解更多','pointsname':'了解更多'}}"> 
+          <span>了解更多</span> 
+          <svg width="6px" height="11px" viewbox="0 0 6 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+           <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> 
+            <g transform="translate(-1596.000000, -2269.000000)"> 
+             <g transform="translate(0.000000, 1774.000000)"> 
+              <g transform="translate(191.000000, 94.000000)" stroke="#000000" stroke-width="1.1"> 
+               <g transform="translate(1342.000000, 393.000000)"> 
+                <polyline points="64 9 68 13.5388147 64 18" /> 
+               </g> 
+              </g> 
+             </g> 
+            </g> 
+           </g> 
+          </svg> 
+         </div> 
+        </div> 
+        <div class="boss-btn umx-mb-show" data-modalname="crs-boss-modal" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'3','button_name':'了解更多','pointsname':'了解更多'}}"> 
+         <span>了解更多</span> 
+         <svg width="6px" height="11px" viewbox="0 0 6 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+          <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> 
+           <g transform="translate(-1596.000000, -2269.000000)"> 
+            <g transform="translate(0.000000, 1774.000000)"> 
+             <g transform="translate(191.000000, 94.000000)" stroke="#000000" stroke-width="1.1"> 
+              <g transform="translate(1342.000000, 393.000000)"> 
+               <polyline points="64 9 68 13.5388147 64 18" /> 
+              </g> 
+             </g> 
+            </g> 
+           </g> 
+          </g> 
+         </svg> 
+        </div> 
+       </div> </li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div class="umx-stage csr-strategy" data-animate> 
+    <div class="csr-strategy-wrapper"> 
+     <ul class="csr-strategy-list umx-mb-hide"> 
+      <li class="csr-strategy-item current" data-track="{'type':'viewstate','params':{'cfrom':'01|03|003|033','name':'CSR','position':'4','total':'9'}}"> 
+       <div class="strategy-inner"> 
+        <div class="strategy-bg technology-sharing-bg"></div> 
+        <div class="strategy-gradient"></div> 
+        <div class="strategy-text"> 
+         <h2 class="strategy-title">科技共享</h2> 
+         <div class="strategy-des"> 
+          <p>持续科技创新，坚守数字责任，让每个用户都能享受科技带来的便捷与美好，联接美好数字未来。</p> 
+          <div class="strategy-btn" data-modalname="technology-sharing" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'4','button_name':'了解更多','pointsname':'了解更多'}}"> 
+           <span>了解更多</span> 
+           <svg width="6px" height="11px" viewbox="0 0 6 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> 
+             <g transform="translate(-1433.000000, -3067.000000)" stroke="#FFFFFF" stroke-width="1.1"> 
+              <g transform="translate(0.000000, 2410.000000)"> 
+               <g transform="translate(195.503912, 178.000000)"> 
+                <g transform="translate(511.796557, 0.000000)"> 
+                 <g transform="translate(656.000000, 480.000000)"> 
+                  <polyline points="70.6995305 0 74.6995305 4.53881474 70.6995305 9" /> 
+                 </g> 
+                </g> 
+               </g> 
+              </g> 
+             </g> 
+            </g> 
+           </svg> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="strategy-poster"> 
+        <div class="strategy-icon technology-sharing-icon"></div> 
+        <p class="strategy-name">科技共享</p> 
+       </div> </li> 
+      <li class="csr-strategy-item" data-track="{'type':'viewstate','params':{'cfrom':'01|03|003|033','name':'CSR','position':'5','total':'9'}}"> 
+       <div class="strategy-inner"> 
+        <div class="strategy-bg green-symbiosis-bg"></div> 
+        <div class="strategy-gradient"></div> 
+        <div class="strategy-text"> 
+         <h2 class="strategy-title">绿色共生</h2> 
+         <div class="strategy-des"> 
+          <p>通过低碳践行，绿色运营，推行循环经济发展，打造可持续产品，共同守护地球家园，奔赴美好绿色未来。</p> 
+          <div class="strategy-btn" data-modalname="green-symbiosis" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'5','button_name':'了解更多','pointsname':'了解更多'}}"> 
+           <span>了解更多</span> 
+           <svg width="6px" height="11px" viewbox="0 0 6 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> 
+             <g transform="translate(-1433.000000, -3067.000000)" stroke="#FFFFFF" stroke-width="1.1"> 
+              <g transform="translate(0.000000, 2410.000000)"> 
+               <g transform="translate(195.503912, 178.000000)"> 
+                <g transform="translate(511.796557, 0.000000)"> 
+                 <g transform="translate(656.000000, 480.000000)"> 
+                  <polyline points="70.6995305 0 74.6995305 4.53881474 70.6995305 9" /> 
+                 </g> 
+                </g> 
+               </g> 
+              </g> 
+             </g> 
+            </g> 
+           </svg> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="strategy-poster"> 
+        <div class="strategy-icon green-symbiosis-icon"></div> 
+        <p class="strategy-name">绿色共生</p> 
+       </div> </li> 
+      <li class="csr-strategy-item" data-track="{'type':'viewstate','params':{'cfrom':'01|03|003|033','name':'CSR','position':'6','total':'9'}}"> 
+       <div class="strategy-inner"> 
+        <div class="strategy-bg value-creation-bg"></div> 
+        <div class="strategy-gradient"></div> 
+        <div class="strategy-text"> 
+         <h2 class="strategy-title">价值共创</h2> 
+         <div class="strategy-des"> 
+          <p>重视员工权益与发展，携手合作伙伴赋能互助，共建互信共赢的和谐生态平台，创造美好价值未来。</p> 
+          <div class="strategy-btn" data-modalname="value-creation" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'6','button_name':'了解更多','pointsname':'了解更多'}}"> 
+           <span>了解更多</span> 
+           <svg width="6px" height="11px" viewbox="0 0 6 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> 
+             <g transform="translate(-1433.000000, -3067.000000)" stroke="#FFFFFF" stroke-width="1.1"> 
+              <g transform="translate(0.000000, 2410.000000)"> 
+               <g transform="translate(195.503912, 178.000000)"> 
+                <g transform="translate(511.796557, 0.000000)"> 
+                 <g transform="translate(656.000000, 480.000000)"> 
+                  <polyline points="70.6995305 0 74.6995305 4.53881474 70.6995305 9" /> 
+                 </g> 
+                </g> 
+               </g> 
+              </g> 
+             </g> 
+            </g> 
+           </svg> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="strategy-poster"> 
+        <div class="strategy-icon value-creation-icon"></div> 
+        <p class="strategy-name">价值共创</p> 
+       </div> </li> 
+      <li class="csr-strategy-item" data-track="{'type':'viewstate','params':{'cfrom':'01|03|003|033','name':'CSR','position':'7','total':'9'}}"> 
+       <div class="strategy-inner"> 
+        <div class="strategy-bg social-good-bg"></div> 
+        <div class="strategy-gradient"></div> 
+        <div class="strategy-text"> 
+         <h2 class="strategy-title">社会共益</h2> 
+         <div class="strategy-des"> 
+          <p>稳健发展，加强风险与商业道德管理，关注社区发展，助力社会共益，推动美好责任未来。</p> 
+          <div class="strategy-btn" data-modalname="social-good" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'7','button_name':'了解更多','pointsname':'了解更多'}}"> 
+           <span>了解更多</span> 
+           <svg width="6px" height="11px" viewbox="0 0 6 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> 
+             <g transform="translate(-1433.000000, -3067.000000)" stroke="#FFFFFF" stroke-width="1.1"> 
+              <g transform="translate(0.000000, 2410.000000)"> 
+               <g transform="translate(195.503912, 178.000000)"> 
+                <g transform="translate(511.796557, 0.000000)"> 
+                 <g transform="translate(656.000000, 480.000000)"> 
+                  <polyline points="70.6995305 0 74.6995305 4.53881474 70.6995305 9" /> 
+                 </g> 
+                </g> 
+               </g> 
+              </g> 
+             </g> 
+            </g> 
+           </svg> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="strategy-poster"> 
+        <div class="strategy-icon social-good-icon"></div> 
+        <p class="strategy-name">社会共益</p> 
+       </div> </li> 
+     </ul> 
+     <div id="csr-strategy-swiper" class="swiper"> 
+      <ul class="csr-strategy-mobile-list swiper-wrapper"> 
+       <li class="csr-strategy-mobile-item swiper-slide" data-track="{'type':'viewstate','params':{'cfrom':'01|03|003|033','name':'CSR','position':'4','total':'9'}}"> 
+        <div class="strategy-mobile-inner"> 
+         <div class="strategy-mobile-title"> 
+          <div class="strategy-mobile-poster"> 
+           <div class="strategy-mobile-icon technology-sharing-icon"></div> 
+           <span class="strategy-mobile-name">科技共享</span> 
+          </div> 
+          <p class="strategy-mobile-text">持续科技创新，坚守数字责任，让每个用户都能享受科技带来的便捷与美好，联接美好数字未来。</p> 
+         </div> 
+         <div class="strategy-mobile-bg technology-sharing-bg"></div> 
+         <div class="strategy-mobile-btn" data-modalname="technology-sharing" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'4','button_name':'了解更多','pointsname':'了解更多'}}"> 
+          <span>了解更多</span> 
+          <svg width="6px" height="11px" viewbox="0 0 6 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+           <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> 
+            <g transform="translate(-1433.000000, -3067.000000)" stroke="#000000" stroke-width="1.1"> 
+             <g transform="translate(0.000000, 2410.000000)"> 
+              <g transform="translate(195.503912, 178.000000)"> 
+               <g transform="translate(511.796557, 0.000000)"> 
+                <g transform="translate(656.000000, 480.000000)"> 
+                 <polyline points="70.6995305 0 74.6995305 4.53881474 70.6995305 9" /> 
+                </g> 
+               </g> 
+              </g> 
+             </g> 
+            </g> 
+           </g> 
+          </svg> 
+         </div> 
+        </div> </li> 
+       <li class="csr-strategy-mobile-item swiper-slide" data-track="{'type':'viewstate','params':{'cfrom':'01|03|003|033','name':'CSR','position':'5','total':'9'}}"> 
+        <div class="strategy-mobile-inner"> 
+         <div class="strategy-mobile-title"> 
+          <div class="strategy-mobile-poster"> 
+           <div class="strategy-mobile-icon green-symbiosis-icon"></div> 
+           <span class="strategy-mobile-name">绿色共生</span> 
+          </div> 
+          <p class="strategy-mobile-text">通过低碳践行，绿色运营，推行循环经济发展，打造可持续产品，共同守护地球家园，奔赴美好绿色未来。</p> 
+         </div> 
+         <div class="strategy-mobile-bg green-symbiosis-bg"></div> 
+         <div class="strategy-mobile-btn" data-modalname="green-symbiosis" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'5','button_name':'了解更多','pointsname':'了解更多'}}"> 
+          <span>了解更多</span> 
+          <svg width="6px" height="11px" viewbox="0 0 6 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+           <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> 
+            <g transform="translate(-1433.000000, -3067.000000)" stroke="#000000" stroke-width="1.1"> 
+             <g transform="translate(0.000000, 2410.000000)"> 
+              <g transform="translate(195.503912, 178.000000)"> 
+               <g transform="translate(511.796557, 0.000000)"> 
+                <g transform="translate(656.000000, 480.000000)"> 
+                 <polyline points="70.6995305 0 74.6995305 4.53881474 70.6995305 9" /> 
+                </g> 
+               </g> 
+              </g> 
+             </g> 
+            </g> 
+           </g> 
+          </svg> 
+         </div> 
+        </div> </li> 
+       <li class="csr-strategy-mobile-item swiper-slide" data-track="{'type':'viewstate','params':{'cfrom':'01|03|003|033','name':'CSR','position':'6','total':'9'}}"> 
+        <div class="strategy-mobile-inner"> 
+         <div class="strategy-mobile-title"> 
+          <div class="strategy-mobile-poster"> 
+           <div class="strategy-mobile-icon value-creation-icon"></div> 
+           <span class="strategy-mobile-name">价值共创</span> 
+          </div> 
+          <p class="strategy-mobile-text">重视员工权益与发展，携手合作伙伴赋能互助，共建互信共赢的和谐生态平台，创造美好价值未来。</p> 
+         </div> 
+         <div class="strategy-mobile-bg value-creation-bg"></div> 
+         <div class="strategy-mobile-btn" data-modalname="value-creation" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'6','button_name':'了解更多','pointsname':'了解更多'}}"> 
+          <span>了解更多</span> 
+          <svg width="6px" height="11px" viewbox="0 0 6 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+           <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> 
+            <g transform="translate(-1433.000000, -3067.000000)" stroke="#000000" stroke-width="1.1"> 
+             <g transform="translate(0.000000, 2410.000000)"> 
+              <g transform="translate(195.503912, 178.000000)"> 
+               <g transform="translate(511.796557, 0.000000)"> 
+                <g transform="translate(656.000000, 480.000000)"> 
+                 <polyline points="70.6995305 0 74.6995305 4.53881474 70.6995305 9" /> 
+                </g> 
+               </g> 
+              </g> 
+             </g> 
+            </g> 
+           </g> 
+          </svg> 
+         </div> 
+        </div> </li> 
+       <li class="csr-strategy-mobile-item swiper-slide" data-track="{'type':'viewstate','params':{'cfrom':'01|03|003|033','name':'CSR','position':'7','total':'9'}}"> 
+        <div class="strategy-mobile-inner"> 
+         <div class="strategy-mobile-title"> 
+          <div class="strategy-mobile-poster"> 
+           <div class="strategy-mobile-icon social-good-icon"></div> 
+           <span class="strategy-mobile-name">社会共益</span> 
+          </div> 
+          <p class="strategy-mobile-text">稳健发展，加强风险与商业道德管理，关注社区发展，助力社会共益，推动美好责任未来。</p> 
+         </div> 
+         <div class="strategy-mobile-bg social-good-bg"></div> 
+         <div class="strategy-mobile-btn" data-modalname="social-good" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'7','button_name':'了解更多','pointsname':'了解更多'}}"> 
+          <span>了解更多</span> 
+          <svg width="6px" height="11px" viewbox="0 0 6 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+           <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> 
+            <g transform="translate(-1433.000000, -3067.000000)" stroke="#000000" stroke-width="1.1"> 
+             <g transform="translate(0.000000, 2410.000000)"> 
+              <g transform="translate(195.503912, 178.000000)"> 
+               <g transform="translate(511.796557, 0.000000)"> 
+                <g transform="translate(656.000000, 480.000000)"> 
+                 <polyline points="70.6995305 0 74.6995305 4.53881474 70.6995305 9" /> 
+                </g> 
+               </g> 
+              </g> 
+             </g> 
+            </g> 
+           </g> 
+          </svg> 
+         </div> 
+        </div> </li> 
+      </ul> 
+      <div class="swiper-pagination csr-strategy-mobile-dots"></div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="umx-stage csr-news" data-track="{'type':'viewstate','params':{'cfrom':'01|03|003|033','name':'CSR','position':'8','total':'9'}}"> 
+    <div class="csr-news-wrapper"> 
+     <h2 class="csr-news-title">vivo 将持续创造<br class="umx-mb-hide">更多<br class="umx-mb-show">社会价值。 
+      <div class="csr-news-arrow umx-mb-hide"> 
+       <div class="arrow-btn prve-arrow news-arrow-hide"></div> 
+       <div class="arrow-btn next-arrow"></div> 
+      </div> </h2> 
+     <div id="csr-news-swiper" class="csr-news-content swiper"> 
+      <ul class="csr-news-list swiper-wrapper"> 
+       <li class="csr-news-item swiper-slide"> 
+        <div class="news-poster poster10"> 
+         <a href="https://www.vivo.com.cn/brand/news/detail?id=1210&amp;type=0" target="_blank"></a> 
+        </div> 
+        <div class="news-info"> 
+         <p class="news-type"></p> 
+         <h2 class="news-title">vivo携手中国听力医学发展基金会，持续以AI科技赋能无障碍</h2> 
+         <div class="news-more"> 
+          <span class="news-data">2023 年 11 月 1 日</span> 
+          <a class="news-btn" href="https://www.vivo.com.cn/brand/news/detail?id=1210&amp;type=0" target="_blank" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-1','button_name':'了解更多','pointsname':'了解更多'}}"> <span>了解更多</span> 
+           <svg width="6px" height="9px" viewbox="0 0 6 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> 
+             <g transform="translate(-980.000000, -4109.000000)" stroke="#000000" stroke-width="0.946"> 
+              <g transform="translate(-10.000000, 3232.000000)"> 
+               <g transform="translate(586.000000, 511.000000)"> 
+                <g transform="translate(350.000000, 359.000000)"> 
+                 <polyline points="55.4012 7.60731429 58.8412 11.4437799 55.4012 15.2146286" /> 
+                </g> 
+               </g> 
+              </g> 
+             </g> 
+            </g> 
+           </svg> </a> 
+         </div> 
+        </div> </li> 
+       <li class="csr-news-item swiper-slide"> 
+        <div class="news-poster poster9"> 
+         <a href="https://www.vivo.com.cn/brand/news/detail?id=1138&amp;type=0" target="_blank"></a> 
+        </div> 
+        <div class="news-info"> 
+         <p class="news-type"></p> 
+         <h2 class="news-title">vivo举办“OriginOS 国际爱耳日特别活动”</h2> 
+         <div class="news-more"> 
+          <span class="news-data">2023 年 3 月 3 日</span> 
+          <a class="news-btn" href="https://www.vivo.com.cn/brand/news/detail?id=1138&amp;type=0" target="_blank" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-1','button_name':'了解更多','pointsname':'了解更多'}}"> <span>了解更多</span> 
+           <svg width="6px" height="9px" viewbox="0 0 6 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> 
+             <g transform="translate(-980.000000, -4109.000000)" stroke="#000000" stroke-width="0.946"> 
+              <g transform="translate(-10.000000, 3232.000000)"> 
+               <g transform="translate(586.000000, 511.000000)"> 
+                <g transform="translate(350.000000, 359.000000)"> 
+                 <polyline points="55.4012 7.60731429 58.8412 11.4437799 55.4012 15.2146286" /> 
+                </g> 
+               </g> 
+              </g> 
+             </g> 
+            </g> 
+           </svg> </a> 
+         </div> 
+        </div> </li> 
+       <li class="csr-news-item swiper-slide"> 
+        <div class="news-poster poster8"> 
+         <a href="https://www.vivo.com.cn/brand/news/detail?id=1129&amp;type=0" target="_blank"></a> 
+        </div> 
+        <div class="news-info"> 
+         <p class="news-type"></p> 
+         <h2 class="news-title">用有温度的科技打破信息孤岛，“声声有息公益计划”让爱无碍。</h2> 
+         <div class="news-more"> 
+          <span class="news-data">2023 年 1 月 11 日</span> 
+          <a class="news-btn" href="https://www.vivo.com.cn/brand/news/detail?id=1129&amp;type=0" target="_blank" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-2','button_name':'了解更多','pointsname':'了解更多'}}"> <span>了解更多</span> 
+           <svg width="6px" height="9px" viewbox="0 0 6 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> 
+             <g transform="translate(-980.000000, -4109.000000)" stroke="#000000" stroke-width="0.946"> 
+              <g transform="translate(-10.000000, 3232.000000)"> 
+               <g transform="translate(586.000000, 511.000000)"> 
+                <g transform="translate(350.000000, 359.000000)"> 
+                 <polyline points="55.4012 7.60731429 58.8412 11.4437799 55.4012 15.2146286" /> 
+                </g> 
+               </g> 
+              </g> 
+             </g> 
+            </g> 
+           </svg> </a> 
+         </div> 
+        </div> </li> 
+       <li class="csr-news-item swiper-slide"> 
+        <div class="news-poster poster7"> 
+         <a href="https://www.vivo.com.cn/brand/news/detail?id=1127&amp;type=0" target="_blank"></a> 
+        </div> 
+        <div class="news-info"> 
+         <p class="news-type"></p> 
+         <h2 class="news-title">科技助力生态建设，vivo国家公园守护行动响应COP15倡议。</h2> 
+         <div class="news-more"> 
+          <span class="news-data">2022 年 12 月 14 日</span> 
+          <a class="news-btn" href="https://www.vivo.com.cn/brand/news/detail?id=1127&amp;type=0" target="_blank" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-3','button_name':'了解更多','pointsname':'了解更多'}}"> <span>了解更多</span> 
+           <svg width="6px" height="9px" viewbox="0 0 6 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> 
+             <g transform="translate(-980.000000, -4109.000000)" stroke="#000000" stroke-width="0.946"> 
+              <g transform="translate(-10.000000, 3232.000000)"> 
+               <g transform="translate(586.000000, 511.000000)"> 
+                <g transform="translate(350.000000, 359.000000)"> 
+                 <polyline points="55.4012 7.60731429 58.8412 11.4437799 55.4012 15.2146286" /> 
+                </g> 
+               </g> 
+              </g> 
+             </g> 
+            </g> 
+           </svg> </a> 
+         </div> 
+        </div> </li> 
+       <li class="csr-news-item swiper-slide"> 
+        <div class="news-poster poster6"> 
+         <a href="https://www.vivo.com.cn/brand/news/detail?id=1085&amp;type=0" target="_blank"></a> 
+        </div> 
+        <div class="news-info"> 
+         <p class="news-type"></p> 
+         <h2 class="news-title">为听障毕业生就业筑梦，vivo“声声有息”公益计划再起航。</h2> 
+         <div class="news-more"> 
+          <span class="news-data">2022 年 9 月 25 日</span> 
+          <a class="news-btn" href="https://www.vivo.com.cn/brand/news/detail?id=1085&amp;type=0" target="_blank" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-4','button_name':'了解更多','pointsname':'了解更多'}}"> <span>了解更多</span> 
+           <svg width="6px" height="9px" viewbox="0 0 6 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> 
+             <g transform="translate(-980.000000, -4109.000000)" stroke="#000000" stroke-width="0.946"> 
+              <g transform="translate(-10.000000, 3232.000000)"> 
+               <g transform="translate(586.000000, 511.000000)"> 
+                <g transform="translate(350.000000, 359.000000)"> 
+                 <polyline points="55.4012 7.60731429 58.8412 11.4437799 55.4012 15.2146286" /> 
+                </g> 
+               </g> 
+              </g> 
+             </g> 
+            </g> 
+           </svg> </a> 
+         </div> 
+        </div> </li> 
+       <li class="csr-news-item swiper-slide"> 
+        <div class="news-poster poster1"> 
+         <a href="https://www.vivo.com.cn/brand/news/detail?id=1072&amp;type=0" target="_blank"></a> 
+        </div> 
+        <div class="news-info"> 
+         <p class="news-type"></p> 
+         <h2 class="news-title">vivo发起国家公园守护行动，以科技创新助力生物多样性保护。</h2> 
+         <div class="news-more"> 
+          <span class="news-data">2022 年 7 月 22 日</span> 
+          <a class="news-btn" href="https://www.vivo.com.cn/brand/news/detail?id=1072&amp;type=0" target="_blank" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-5','button_name':'了解更多','pointsname':'了解更多'}}"> <span>了解更多</span> 
+           <svg width="6px" height="9px" viewbox="0 0 6 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> 
+             <g transform="translate(-980.000000, -4109.000000)" stroke="#000000" stroke-width="0.946"> 
+              <g transform="translate(-10.000000, 3232.000000)"> 
+               <g transform="translate(586.000000, 511.000000)"> 
+                <g transform="translate(350.000000, 359.000000)"> 
+                 <polyline points="55.4012 7.60731429 58.8412 11.4437799 55.4012 15.2146286" /> 
+                </g> 
+               </g> 
+              </g> 
+             </g> 
+            </g> 
+           </svg> </a> 
+         </div> 
+        </div> </li> 
+       <li class="csr-news-item swiper-slide"> 
+        <div class="news-poster poster2"> 
+         <a href="https://www.vivo.com.cn/brand/news/detail?id=1063&amp;type=0" target="_blank"></a> 
+        </div> 
+        <div class="news-info"> 
+         <p class="news-type"></p> 
+         <h2 class="news-title">聚焦听障关怀，vivo以科技赋能无障碍环境建设。</h2> 
+         <div class="news-more"> 
+          <span class="news-data">2022 年 6 月 15 日</span> 
+          <a class="news-btn" href="https://www.vivo.com.cn/brand/news/detail?id=1063&amp;type=0" target="_blank" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-6','button_name':'了解更多','pointsname':'了解更多'}}"> <span>了解更多</span> 
+           <svg width="6px" height="9px" viewbox="0 0 6 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> 
+             <g transform="translate(-980.000000, -4109.000000)" stroke="#000000" stroke-width="0.946"> 
+              <g transform="translate(-10.000000, 3232.000000)"> 
+               <g transform="translate(586.000000, 511.000000)"> 
+                <g transform="translate(350.000000, 359.000000)"> 
+                 <polyline points="55.4012 7.60731429 58.8412 11.4437799 55.4012 15.2146286" /> 
+                </g> 
+               </g> 
+              </g> 
+             </g> 
+            </g> 
+           </svg> </a> 
+         </div> 
+        </div> </li> 
+       <li class="csr-news-item swiper-slide"> 
+        <div class="news-poster poster3"> 
+         <a href="https://www.vivo.com.cn/brand/news/detail?id=1032&amp;type=0" target="_blank"></a> 
+        </div> 
+        <div class="news-info"> 
+         <p class="news-type"></p> 
+         <h2 class="news-title">迎“全国爱耳日”，vivo“声声有息”公益计划启新程。</h2> 
+         <div class="news-more"> 
+          <span class="news-data">2022 年 3 月 02 日</span> 
+          <a class="news-btn" href="https://www.vivo.com.cn/brand/news/detail?id=1032&amp;type=0" target="_blank" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-7','button_name':'了解更多','pointsname':'了解更多'}}"> <span>了解更多</span> 
+           <svg width="6px" height="9px" viewbox="0 0 6 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> 
+             <g transform="translate(-980.000000, -4109.000000)" stroke="#000000" stroke-width="0.946"> 
+              <g transform="translate(-10.000000, 3232.000000)"> 
+               <g transform="translate(586.000000, 511.000000)"> 
+                <g transform="translate(350.000000, 359.000000)"> 
+                 <polyline points="55.4012 7.60731429 58.8412 11.4437799 55.4012 15.2146286" /> 
+                </g> 
+               </g> 
+              </g> 
+             </g> 
+            </g> 
+           </svg> </a> 
+         </div> 
+        </div> </li> 
+       <li class="csr-news-item swiper-slide"> 
+        <div class="news-poster poster4"> 
+         <a href="https://www.vivo.com.cn/brand/news/detail?id=1015&amp;type=0" target="_blank"></a> 
+        </div> 
+        <div class="news-info"> 
+         <p class="news-type"></p> 
+         <h2 class="news-title">2021 vivo开发者大会：聚焦行业建设，携手共建产业繁荣。</h2> 
+         <div class="news-more"> 
+          <span class="news-data">2021 年 12 月 16 日</span> 
+          <a class="news-btn" href="http://www.vivo.com.cn/brand/news/detail?id=1015&amp;type=0" target="_blank" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-8','button_name':'了解更多','pointsname':'了解更多'}}"> <span>了解更多</span> 
+           <svg width="6px" height="9px" viewbox="0 0 6 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> 
+             <g transform="translate(-980.000000, -4109.000000)" stroke="#000000" stroke-width="0.946"> 
+              <g transform="translate(-10.000000, 3232.000000)"> 
+               <g transform="translate(586.000000, 511.000000)"> 
+                <g transform="translate(350.000000, 359.000000)"> 
+                 <polyline points="55.4012 7.60731429 58.8412 11.4437799 55.4012 15.2146286" /> 
+                </g> 
+               </g> 
+              </g> 
+             </g> 
+            </g> 
+           </svg> </a> 
+         </div> 
+        </div> </li> 
+       <li class="csr-news-item swiper-slide"> 
+        <div class="news-poster poster5"> 
+         <a href="https://www.vivo.com.cn/brand/news/detail?id=1006&amp;type=0" target="_blank"></a> 
+        </div> 
+        <div class="news-info"> 
+         <p class="news-type"></p> 
+         <h2 class="news-title">中国听力医学发展基金会携手vivo 启动“声声有息”公益计划。</h2> 
+         <div class="news-more"> 
+          <span class="news-data">2021 年 12 月 02 日</span> 
+          <a class="news-btn" href="https://www.vivo.com.cn/brand/news/detail?id=1006&amp;type=0" target="_blank" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-9','button_name':'了解更多','pointsname':'了解更多'}}"> <span>了解更多</span> 
+           <svg width="6px" height="9px" viewbox="0 0 6 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> 
+             <g transform="translate(-980.000000, -4109.000000)" stroke="#000000" stroke-width="0.946"> 
+              <g transform="translate(-10.000000, 3232.000000)"> 
+               <g transform="translate(586.000000, 511.000000)"> 
+                <g transform="translate(350.000000, 359.000000)"> 
+                 <polyline points="55.4012 7.60731429 58.8412 11.4437799 55.4012 15.2146286" /> 
+                </g> 
+               </g> 
+              </g> 
+             </g> 
+            </g> 
+           </svg> </a> 
+         </div> 
+        </div> </li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="umx-stage csr-report" id="report" data-track="{'type':'viewstate','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9','total':'9'}}"> 
+    <div class="csr-report-wrapper"> 
+     <div class="csr-report-logo lazy-imageom"></div> 
+     <h2 class="csr-report-title">2025 vivo 可持续发展报告</h2> 
+     <div class="csr-report-btn-list"> 
+      <div class="csr-report-preview-btn"> 
+       <a class="csr-report-link" type="application/pdf" target="_blank" href="https://wwwresstatic.vivo.com.cn/vivoportal/files/resource/files/1785728871315/2025%20vivo%E5%8F%AF%E6%8C%81%E7%BB%AD%E5%8F%91%E5%B1%95%E6%8A%A5%E5%91%8A.pdf" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-1','button_name':'预览','pointsname':'预览'}}">预览</a> 
+      </div> 
+      <div class="csr-report-download-btn"> 
+       <a class="csr-report-link csr-report-download-2025" download href="./images/2025vivo可持续发展报告.zip" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-2','button_name':'下载报告','pointsname':'下载报告'}}"> 
+        <svg width="16" height="15" viewbox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg"> 
+         <path fill-rule="evenodd" clip-rule="evenodd" d="M13.7383 6.78271C14.104 6.78271 14.4004 7.07915 14.4004 7.44482V13.2383C14.4004 13.604 14.104 13.9004 13.7383 13.9004H2.26172C1.89605 13.9004 1.59961 13.604 1.59961 13.2383V7.4475C1.59961 7.08182 1.89605 6.78539 2.26172 6.78539C2.62739 6.78539 2.92383 7.08182 2.92383 7.4475V12.5762H13.0762V7.44482C13.0762 7.07915 13.3726 6.78271 13.7383 6.78271Z" fill="white" /> 
+         <path fill-rule="evenodd" clip-rule="evenodd" d="M4.71963 6.69851C4.97945 6.44119 5.39867 6.44321 5.65599 6.70303L8.0271 9.09717L10.3982 6.70303C10.6555 6.44321 11.0748 6.44119 11.3346 6.69851C11.5944 6.95582 11.5964 7.37504 11.3391 7.63486L8.49754 10.504C8.37319 10.6296 8.20381 10.7002 8.0271 10.7002C7.85039 10.7002 7.68101 10.6296 7.55666 10.504L4.71511 7.63486C4.45779 7.37504 4.45982 6.95582 4.71963 6.69851Z" fill="white" /> 
+         <path fill-rule="evenodd" clip-rule="evenodd" d="M8.05469 0.934082C8.42036 0.934082 8.7168 1.23052 8.7168 1.59619V9.87256C8.7168 10.2382 8.42036 10.5347 8.05469 10.5347C7.68901 10.5347 7.39258 10.2382 7.39258 9.87256V1.59619C7.39258 1.23052 7.68901 0.934082 8.05469 0.934082Z" fill="white" /> 
+        </svg> <span>下载报告</span> </a> 
+      </div> 
+     </div> 
+     <h2 class="csr-report-title">vivo 低碳行动白皮书</h2> 
+     <div class="csr-report-btn-list"> 
+      <div class="csr-report-preview-btn"> 
+       <a class="csr-report-link" type="application/pdf" target="_blank" href="https://wwwresstatic.vivo.com.cn/vivoportal/files/resource/files/1725879702055/vivo低碳行动白皮书.pdf" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-3','button_name':'预览','pointsname':'预览'}}">预览</a> 
+      </div> 
+      <div class="csr-report-download-btn"> 
+       <a class="csr-report-link csr-report-ditan-download" download href="./images/vivo低碳行动白皮书.zip" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-4','button_name':'下载报告','pointsname':'下载报告'}}"> 
+        <svg width="16" height="15" viewbox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg"> 
+         <path fill-rule="evenodd" clip-rule="evenodd" d="M13.7383 6.78271C14.104 6.78271 14.4004 7.07915 14.4004 7.44482V13.2383C14.4004 13.604 14.104 13.9004 13.7383 13.9004H2.26172C1.89605 13.9004 1.59961 13.604 1.59961 13.2383V7.4475C1.59961 7.08182 1.89605 6.78539 2.26172 6.78539C2.62739 6.78539 2.92383 7.08182 2.92383 7.4475V12.5762H13.0762V7.44482C13.0762 7.07915 13.3726 6.78271 13.7383 6.78271Z" fill="white" /> 
+         <path fill-rule="evenodd" clip-rule="evenodd" d="M4.71963 6.69851C4.97945 6.44119 5.39867 6.44321 5.65599 6.70303L8.0271 9.09717L10.3982 6.70303C10.6555 6.44321 11.0748 6.44119 11.3346 6.69851C11.5944 6.95582 11.5964 7.37504 11.3391 7.63486L8.49754 10.504C8.37319 10.6296 8.20381 10.7002 8.0271 10.7002C7.85039 10.7002 7.68101 10.6296 7.55666 10.504L4.71511 7.63486C4.45779 7.37504 4.45982 6.95582 4.71963 6.69851Z" fill="white" /> 
+         <path fill-rule="evenodd" clip-rule="evenodd" d="M8.05469 0.934082C8.42036 0.934082 8.7168 1.23052 8.7168 1.59619V9.87256C8.7168 10.2382 8.42036 10.5347 8.05469 10.5347C7.68901 10.5347 7.39258 10.2382 7.39258 9.87256V1.59619C7.39258 1.23052 7.68901 0.934082 8.05469 0.934082Z" fill="white" /> 
+        </svg> <span>下载报告</span> </a> 
+      </div> 
+     </div> 
+     <h2 class="csr-report-title">X300&amp;X300 Pro 产品环境报告</h2> 
+     <div class="csr-report-btn-list"> 
+      <div class="csr-report-preview-btn"> 
+       <a class="csr-report-link" type="application/pdf" target="_blank" href="https://wwwresstatic.vivo.com.cn/vivoportal/files/resource/files/1768463889740/X300&amp;X300%20Pro%20%E4%BA%A7%E5%93%81%E7%8E%AF%E5%A2%83%E6%8A%A5%E5%91%8A.pdf" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-11','button_name':'预览','pointsname':'预览'}}">预览</a> 
+      </div> 
+      <div class="csr-report-download-btn"> 
+       <a class="csr-report-link csr-report-x300-download" download href="./images/X300&amp;X300Pro产品环境报告.zip" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-12','button_name':'下载报告','pointsname':'下载报告'}}"> 
+        <svg width="16" height="15" viewbox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg"> 
+         <path fill-rule="evenodd" clip-rule="evenodd" d="M13.7383 6.78271C14.104 6.78271 14.4004 7.07915 14.4004 7.44482V13.2383C14.4004 13.604 14.104 13.9004 13.7383 13.9004H2.26172C1.89605 13.9004 1.59961 13.604 1.59961 13.2383V7.4475C1.59961 7.08182 1.89605 6.78539 2.26172 6.78539C2.62739 6.78539 2.92383 7.08182 2.92383 7.4475V12.5762H13.0762V7.44482C13.0762 7.07915 13.3726 6.78271 13.7383 6.78271Z" fill="white" /> 
+         <path fill-rule="evenodd" clip-rule="evenodd" d="M4.71963 6.69851C4.97945 6.44119 5.39867 6.44321 5.65599 6.70303L8.0271 9.09717L10.3982 6.70303C10.6555 6.44321 11.0748 6.44119 11.3346 6.69851C11.5944 6.95582 11.5964 7.37504 11.3391 7.63486L8.49754 10.504C8.37319 10.6296 8.20381 10.7002 8.0271 10.7002C7.85039 10.7002 7.68101 10.6296 7.55666 10.504L4.71511 7.63486C4.45779 7.37504 4.45982 6.95582 4.71963 6.69851Z" fill="white" /> 
+         <path fill-rule="evenodd" clip-rule="evenodd" d="M8.05469 0.934082C8.42036 0.934082 8.7168 1.23052 8.7168 1.59619V9.87256C8.7168 10.2382 8.42036 10.5347 8.05469 10.5347C7.68901 10.5347 7.39258 10.2382 7.39258 9.87256V1.59619C7.39258 1.23052 7.68901 0.934082 8.05469 0.934082Z" fill="white" /> 
+        </svg> <span>下载报告</span> </a> 
+      </div> 
+     </div> 
+     <div class="csr-report-more-list"> 
+      <div class="csr-report-more-wrapper"> 
+       <div class="csr-report-more-content"> 
+        <div class="csr-report-more-item"> 
+         <h3>2021 vivo 可持续发展报告</h3> 
+         <div class="csr-report-more-item-btn"> 
+          <a type="application/pdf" target="_blank" href="https://wwwresstatic.vivo.com.cn/vivoportal/files/resource/files/1725874578222/2021%20vivo%E5%8F%AF%E6%8C%81%E7%BB%AD%E5%8F%91%E5%B1%95%E6%8A%A5%E5%91%8A.pdf" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-5','button_name':'预览','pointsname':'预览'}}">预览</a> 
+          <a class="csr-report-download-2021" download href="./images/2021vivo可持续发展报告.zip" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-6','button_name':'下载报告','pointsname':'下载（PDF）'}}">下载（PDF）</a> 
+         </div> 
+        </div> 
+        <div class="csr-report-more-item"> 
+         <h3>2022 vivo 可持续发展报告</h3> 
+         <div class="csr-report-more-item-btn"> 
+          <a type="application/pdf" target="_blank" href="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/files/1691464012330/2022%20vivo%E5%8F%AF%E6%8C%81%E7%BB%AD%E5%8F%91%E5%B1%95%E6%8A%A5%E5%91%8A.pdf" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-7','button_name':'预览','pointsname':'预览'}}">预览</a> 
+          <a class="csr-report-download-2022" download href="./images/2022vivo可持续发展报告.zip" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-8','button_name':'下载报告','pointsname':'下载（PDF）'}}">下载（PDF）</a> 
+         </div> 
+        </div> 
+        <div class="csr-report-more-item"> 
+         <h3>2023 vivo 可持续发展报告</h3> 
+         <div class="csr-report-more-item-btn"> 
+          <a type="application/pdf" target="_blank" href="https://wwwresstatic.vivo.com.cn/vivoportal/files/resource/files/1726038356353/2023%20vivo%E5%8F%AF%E6%8C%81%E7%BB%AD%E5%8F%91%E5%B1%95%E6%8A%A5%E5%91%8A.pdf" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-9','button_name':'预览','pointsname':'预览'}}">预览</a> 
+          <a class="csr-report-download-2023" download href="./images/2023vivo可持续发展报告.zip" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-10','button_name':'下载报告','pointsname':'下载（PDF）'}}">下载（PDF）</a> 
+         </div> 
+        </div> 
+        <div class="csr-report-more-item"> 
+         <h3>2024 vivo 可持续发展报告</h3> 
+         <div class="csr-report-more-item-btn"> 
+          <a type="application/pdf" target="_blank" href="https://wwwresstatic.vivo.com.cn/vivoportal/files/resource/files/1768463685110/2024%20vivo%E5%8F%AF%E6%8C%81%E7%BB%AD%E5%8F%91%E5%B1%95%E6%8A%A5%E5%91%8A.pdf" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-11','button_name':'预览','pointsname':'预览'}}">预览</a> 
+          <a class="csr-report-download-2024" download href="./images/2024vivo可持续发展报告.zip" data-track="{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-12','button_name':'下载报告','pointsname':'下载（PDF）'}}">下载（PDF）</a> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="csr-report-more-btn csr-report-more-btn-open"> 
+       <span>阅读往年可持续发展报告</span> 
+       <svg width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> 
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.02036 10.3886L13.0585 5.35049L13.9424 6.23438L8.02036 12.1564L2.09834 6.23437L2.98223 5.35049L8.02036 10.3886Z" fill="#1D1D1F" /> 
+       </svg> 
+      </div> 
+      <div class="csr-report-more-btn csr-report-more-btn-close"> 
+       <span>隐藏往年可持续发展报告</span> 
+       <svg width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> 
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.02036 5.61137L13.0585 10.6495L13.9424 9.76562L8.02036 3.84361L2.09834 9.76563L2.98223 10.6495L8.02036 5.61137Z" fill="#1D1D1F" /> 
+       </svg> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <script></script> 
+   <div class="csr-modal-wrapper"> 
+    <div class="csr-modal-box"> 
+     <div class="csr-close-box"> 
+      <div class="csr-close-btn"> 
+       <img src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1788149113093/images/csr-modal-close.svg"> 
+      </div> 
+     </div> 
+     <div class="csr-modal-content"> 
+      <h2 class="modal-maintitle">本心而为，雁行致远</h2> 
+      <p class="modal-subtitle">vivo创始人、总裁兼首席执行官 沈炜</p> 
+      <p class="modal-tips">发表于“2022 vivo可持续发展报告责任寄语”</p> 
+      <p class="modal-text">vivo的可持续发展之路，当坚守“本心而为”。“本心”就是相信自己内心真实的热爱和渴望，“而为”则是用充满创造力的方式去实现它。</p> 
+      <p class="modal-text">vivo的本心，是通过伟大产品和科技创新为用户的生活创造愉悦体验，为世界带来有意义的改变。科技创新是人类社会可持续发展的第一推动力，科技照亮美好未来，是科技企业的本分，也是vivo的初心和梦想。</p> 
+      <p class="modal-text">vivo在企业愿景和联合国可持续发展目标（SDGs）的指引下，确定了可持续发展战略的四大方向:“科技共享”、“绿色共生”、“价值共创”、“社会共益”。我们希冀通过搭建更包容的数字桥梁，践行绿色经营理念，建立互信共赢价值生态，以公益行动助力社会平衡发展，为世界带来更多幸福与美好。</p> 
+      <p class="modal-text"><span class="modal-text-bold">科技共享层面，我们正在把“让科技惠及每一个人”的理念变成现实</span>。vivo把专业的影像能力赋予每一个人，让人人都可以用极致的光影书写自己的“时间简史”，把精彩定格，让回忆真切；AI、芯片等底层技术上的创新，使我们的操作系统更加流畅、易用，也让用户的视觉、听觉、商务办公等各方面的能力得到增强，让更多人享受到了科技进步带来的美好。例如，我们推出的“手语翻译官”功能将手语、语音、文字互融互传，有效辅助了听障人士与他人的基础对话；我们还积极推进手机适老化，上线了语音助手、读屏操作、紧急医疗等功能，助力老年用户享受更便利的数字生活。</p> 
+      <p class="modal-text"><span class="modal-text-bold">绿色共生层面，尊重自然、顺应自然、回馈自然，是vivo企业发展的必经之路</span>。vivo将绿色经营作为企业创新和发展的机遇，我们在2022年建成的光伏电站，每年将为vivo提供清洁电力近400万度；我们把绿色经营理念融入价值链的每一个环节，在产品的设计、包装、材料选型、电子废弃物回收等环节中不断改进，在创新中创造价值、达成环保。2022年，我们还从源头上选用了更多可再生、可降解材料，用植物油墨全面取代传统油墨，以降低不可再生资源的消耗，提高铝合金材料再利用率。这些创新推动了循环经济发展，为共同守护地球家园，奔赴美好绿色未来贡献了我们应尽的绵薄之力。</p> 
+      <p class="modal-text"><span class="modal-text-bold">价值共创层面，我们坚信“雁行致远”，与志同道合的伙伴同行，才能更稳健地抵达目的地</span>。vivo选择与国内外各领域优秀的合作伙伴携手共赢，带动产业链发展，共同为用户创造极致的产品体验。我们与供应链伙伴共同研发，攻克技术难关，以差异化创新来创造新市场；我们向开发者伙伴开放软硬件平台及开发工具，共建网络安全生态；我们通过数字化管理平台与代理伙伴高效合作，全方位助力提升客户管理及门店运营效率。</p> 
+      <p class="modal-text"><span class="modal-text-bold">社会共益层面，作为全球企业公民，vivo立足企业的技术优势和人文理念，落地多元化公益行动</span>。2022年，我们启动了“童画未来公益计划”，通过赋能乡村老师上好美育课，让每一个孩子都能发现美、感受美、创造美；“山川草木，井灶池塘，皆有精气”，我们需要与自然和谐相处，因此，vivo发起了“国家公园守护行动”，助力巡护员守护生物多样性；有爱无碍，科技的使命是不让任何一人掉队，我们致力于科技普惠与关怀，持续推进“声声有息公益计划”，助力信息无障碍环境建设。</p> 
+      <p class="modal-text">未来不是被预见，而是被创造。只有遵从本心，做真正热爱的事，才能激发源源不断的想象力和创造力，而创造力因同频而共振，因共振而澎湃。vivo将始终坚守“本心而为”，与更多同道中人“雁行致远”，驰而不息，久久为功，共创更美好、更磅礴、更可持续的美好未来！</p> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="csr-modal-content umx-hide"> 
+    <h2 class="modal-maintitle">乐众之乐 自得其乐</h2> 
+    <p class="modal-subtitle">vivo创始人、总裁兼首席执行官 沈炜</p> 
+    <p class="modal-text">vivo从创业之初走到今天，已经29个年头了，站在当下，无论是行业前景，还是企业能力的质变，都让我们对未来比任何时期更加充满期待。</p> 
+    <p class="modal-text">“做正确的事，并把事情做正确”，我们的信心来自于把握确定性的能力。如何在不确定性中找到确定性呢？越是纷纷扰扰，越要回到初心，初心是我们最初的目标，是我们出发的地方。我常常把企业看作一个人，人活在世上的终极目标是快乐，这份快乐并不首先是自己的独乐，而是建立在众乐前提下，才有可能的可持续与健康的自己真快乐，所以企业存在的价值首先就是要为人们创造快乐。一个企业最基本的社会责任就是持续稳健地经营，只有这样才有能力让用户、员工、伙伴、股东四个直接利益相关者都快乐。为5亿多用户打造极致的产品，为数万员工的家庭幸福，为上下游产业链的升级，为股东的合理回报，企业存续的每一刻都在创造价值、创造快乐，企业本身也在创造中享受快乐，正所谓乐众之乐，自得其乐。</p> 
+    <p class="modal-text">我们企业创造快乐的方式是用科技照亮美好未来，随着企业能力的提升，我们可以在更大一些的范围，做更多力所能及的事，结合自身业务并对标联合国可持续发展目标（SDGs），vivo形成了可持续发展四大方向:“科技共享”、“绿色共生”、“价值共创”、“社会共益”，通过搭建更包容的数字桥梁，践行绿色发展理念，建立互信共赢价值生态，为世界带来更多幸福与美好。</p> 
+    <p class="modal-text">科技共享，就是一个企业要努力让技术进步具备普世价值，正如人类对火的使用一样。vivo努力让每一个人，无论财富的多少、技能的高低、知识的足缺，都能受益于技术的进步，去做到此前无法完成的事。2023年vivo发布了自己的技术品牌“蓝科技”，当蓝心大模型成为知心的私人助理时，当蓝海电池让充电从每天一充变成两天一充时，当坐在“山顶”的观众，也能拍到演唱会舞台时，当专业创作者也能用手机创作超短片电影时……，用户会惊喜于vivo的极致和用心，而vivo也能感受到用户的快乐和欢欣，这就是科技共享真正的意义。</p> 
+    <p class="modal-text">绿色共生，就是每个人、每个企业，在我们生活的共同而惟一的自然生态环境之中，都在贡献，而不是破坏。vivo首次发布《vivo低碳行动白皮书》，从碳管治、碳盘查、碳目标与碳减排四大维度出发，应对气候变化挑战。我们确定了2035年实现自身运营层面碳排放较2021年下降50%、2050年实现自身运营层面碳中和的目标。同时我们也引入了微晶玻璃、“碳元重组”等先进材料和技术，提升产品的可持续性；我们推动供应商使用无铅铜等环保材料，将纳入管控的有害物质增加到52种；我们完成了vivo总部光伏发电项目二期建设，实施了生产、办公系统的节能优化，年节电约713万度。“绿色”是没有止境的旅程，vivo始终在用科技去做到尽善尽美，用创新把我们的责任转化成商业机会和更可持续的运营。</p> 
+    <p class="modal-text">价值共创，不仅是智慧的交融，更是价值观与理想的共鸣。时代的浪潮，既创造伟大，也淘汰英雄。只有与志同道合的伙伴众乐同行，让创新之光照耀彼此的生长，树木成林、更迭有序，才能更好地穿越周期。我们充分利用自身在价值链和行业中的影响力，与伙伴们共同推动前沿技术的创新和突破，致力于生成式大模型在端侧的落地，不断拓展移动影像的行业能力边界，定义芯片全大核架构，积极参与紧急位置服务、网络保护等通信领域标准制定……，为行业的健康、可持续发展贡献力量。</p> 
+    <p class="modal-text">社会共益，是一个涟漪泛起另一个涟漪，是用爱去温暖世界的每一个角落。不仅自然环境是一个生态系统，人、企业与社会也处在无形的生态之中。在我看来，所有人都是一个整体，科技之光虽求普照，也难免有阴凉之处。企业通过自发的公益行为，对社会和科技进步再平衡。2023年，我们将蓝心大模型成功应用于 “vivo看见”， “vivo看见”专为视觉障碍人士定制，已有10万用户，视障用户通过vivo手机对环境的全面感知，“看见”了外面的世界。手机终于可以成为“便携电子导盲犬”，这让我们振奋，也让我们看到了AI和影像在公益上不可思议的力量。</p> 
+    <p class="modal-text">我们还看到了以科技浸润美育的可能性，“vivo童画未来美育计划”已耕耘乡村美育两年有余，不仅把创造力和美的种子播撒到了四省六县的乡村，还会在每年暑假把孩子们邀请到vivo全球总部，在vivo员工志愿者的陪伴下，参观实验室，感受和体验设计、影像与科技之美，这些美育实践活动不仅拓宽了孩子们的视野，更打开了想象力的边界。跟随vivo品牌全球化的步伐，2023年，“vivo童画未来美育计划“也去到了东南亚、拉美等多个国家及地区，为发展中国家贫困儿童的全面发展创造了新的可能。</p> 
+    <p class="modal-text">29年来，“独乐乐，不如众乐乐”是我们与企业经营伙伴、与社会、与自然相处的经营哲学。快乐，是最真挚的奉献，也是最纯粹的收获。“立志用功，如种树然”，我们只管埋头种因，把用户和伙伴的快乐作为自己快乐的源泉，自然而然地也将收获内心的平和与满足。</p> 
+   </div> 
+  </div> 
+ </div> 
+ <div class="product-detail-wrapper clear-transform"></div> 
+ <i class="expand-container-mask"></i> 
+ <div class="expand-container-button ec-botton-close"> 
+  <div class="ec-button-wrapper ec-close-btn"> 
+   <a href="#"> <b class="iconfont-symbol-products ico-symbol-close1"></b> </a> 
+  </div> 
+ </div> 
+ <script>var _hmt=_hmt||[];!function(){var e=document.createElement("script");e.src="https://hm.baidu.com/hm.js?9ef7debb81babe8b94af7f2c274869fd";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}()</script> 
+</div></div></div><!--]--><span></span></main><!----><!--]--></div></div><div id="teleports"></div><script src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1788149113093/script/product.js" type="text/javascript" id="vivo-overview-js-1"></script>
+<script src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1788149113093/script/TweenMax.min.js" type="text/javascript" id="vivo-overview-js-2"></script>
+<script src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1788149113093/script/video-js.min.js" type="text/javascript" id="vivo-overview-js-3"></script>
+<script src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1788149113093/script/gsap.min.js" type="text/javascript" id="vivo-overview-js-4"></script>
+<script src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1788149113093/script/ScrollTrigger.min.js" type="text/javascript" id="vivo-overview-js-5"></script>
+<script src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1788149113093/script/stickyfill.min.js" type="text/javascript" id="vivo-overview-js-6"></script>
+<script src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1788149113093/script/app.js" type="text/javascript" id="vivo-overview-js-7"></script>
+<script type="application/json" data-nuxt-data="nuxt-app" data-ssr="true" id="__NUXT_DATA__">[["ShallowReactive",1],{"data":2,"state":39,"once":108,"_errors":110,"serverRendered":38,"path":100},["ShallowReactive",3],{"$fLnJQMHBLTmdTqqHpg1HsW6PsUUhikdFrqj6FLq-cJYM":4,"$fVy-tfMFs9TJkLTP9Ei4aQgz5FSiC8jHUyw5zV-zQdlU":25},{"success":5,"code":6,"msg":7,"data":8},"1","200","success",{"pageResource":9,"cssArray":10,"jsArray":13,"watermark":21,"navigationFontColor":22,"resourceDomain":23,"vivoPortal3D":24},"\u003Cdiv id=\"vivo-product-wrap\" class=\"unvisible J_replace_content\"> \n \u003Cdiv style=\"display:none\">\u003C/div> \n \u003Cdiv class=\"product-main-wrapper\"> \n  \u003Cdiv class=\"product-main-content\"> \n   \u003Cdiv class=\"umx-stage csr-kv\" data-track=\"{'type':'viewstate','params':{'cfrom':'01|03|003|033','name':'CSR','position':'1','total':'9'}}\"> \n    \u003Cdiv class=\"umx-figure-box\"> \n     \u003Cdiv class=\"umx-figure\"> \n      \u003Cfigure class=\"umx-f1 lazy-imageom\">\u003C/figure> \n     \u003C/div> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"umx-stage csr-tvc\" data-track=\"{'type':'viewstate','params':{'cfrom':'01|03|003|033','name':'CSR','position':'2','total':'9'}}\"> \n    \u003Cdiv class=\"csr-tvc-wrapper\"> \n     \u003Cdiv class=\"csr-tvc-content\"> \n      \u003Cdiv class=\"csr-tvc-text\"> \n       \u003Cdiv class=\"csr-tvc-logo\">\u003C/div> \n       \u003Cp class=\"csr-tvc-intro\">我们坚持长期主义，践行绿色发展，追求商业永续，创造更多社会价值，让每个人都能享受科技带来的幸福与美好。\u003C/p> \n       \u003Cdiv id=\"csr-tvc-play-btn\" class=\"csr-tvc-btn\" data-url=\"https://wwwstatic.vivo.com.cn/vivoportal/files/resource/files/1658797307735/vivo%E5%8F%AF%E6%8C%81%E7%BB%AD%E5%8F%91%E5%B1%95%E4%B8%BB%E9%A2%98%E8%A7%86%E9%A2%91.mp4\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'2','button_name':'观看影片','pointsname':'观看影片'}}\"> \n        \u003Csvg width=\"9px\" height=\"10px\" viewbox=\"0 0 9 10\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> \n         \u003Cg stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"> \n          \u003Cg transform=\"translate(-191.000000, -1503.000000)\"> \n           \u003Cg transform=\"translate(0.000000, 1056.000000)\"> \n            \u003Cg transform=\"translate(191.590898, 439.000000)\" fill=\"#000000\"> \n             \u003Cpath d=\"M4.40703919,9.6512627 L8.54100032,16.2656005 C8.68150128,16.490402 8.61316216,16.7865382 8.38836062,16.9270392 C8.31207345,16.9747187 8.2239226,17 8.13396113,17 L-0.133961132,17 C-0.399057812,17 -0.613961132,16.7850967 -0.613961132,16.52 C-0.613961132,16.4300385 -0.588679799,16.3418877 -0.541000318,16.2656005 L3.59296081,9.6512627 C3.73346177,9.42646116 4.02959796,9.35812204 4.25439949,9.498623 C4.31620867,9.53725374 4.36840845,9.58945351 4.40703919,9.6512627 Z\" transform=\"translate(4.000000, 13.000000) rotate(-270.000000) translate(-4.000000, -13.000000) \" /> \n            \u003C/g> \n           \u003C/g> \n          \u003C/g> \n         \u003C/g> \n        \u003C/svg> \n        \u003Cspan>观看影片\u003C/span> \n       \u003C/div> \n      \u003C/div> \n      \u003Cdiv class=\"csr-tvc-img\"> \n       \u003Cdiv class=\"umx-csr-tvc-animate-box\">\u003C/div> \n       \u003Cimg class=\"umx-csr-tvc-animate-box-img\" src> \n      \u003C/div> \n     \u003C/div> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"umx-stage csr-boss\" data-track=\"{'type':'viewstate','params':{'cfrom':'01|03|003|033','name':'CSR','position':'3','total':'9'}}\"> \n    \u003Cdiv class=\"csr-boss-wrapper swiper\"> \n     \u003Cul class=\"csr-boss-list swiper-wrapper\"> \n      \u003Cli class=\"csr-boss-item boss-item1 swiper-slide\"> \n       \u003Cdiv class=\"boss-inner\"> \n        \u003Cdiv class=\"boss-content\"> \n         \u003Cdiv class=\"boss-man\"> \n          \u003Cdiv class=\"boss-avatar\">\u003C/div> \n          \u003Cdiv class=\"umx-boss-info\"> \n           \u003Cp class=\"boss-name\">沈炜\u003C/p> \n           \u003Cp class=\"boss-title\">vivo 创始人、\u003Cbr>首席执行官\u003C/p> \n          \u003C/div> \n         \u003C/div> \n        \u003C/div> \n        \u003Cdiv class=\"boss-text\"> \n         \u003Cp>人，是科技的答案。\u003Cbr>\u003Cbr>vivo 走过三十年，一直在做的也是这件事：让技术回到具体的人。不是停在实验室里，不是停在发布会上，而是回到每一个真实的日子里，回到工作、学习、热爱、生活，回到每一个人的日常和当下的感受。\u003C/p> \n         \u003Cdiv class=\"boss-btn umx-mb-hide\" data-modalname=\"crs-boss-modal\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'3','button_name':'了解更多','pointsname':'了解更多'}}\"> \n          \u003Cspan>了解更多\u003C/span> \n          \u003Csvg width=\"6px\" height=\"11px\" viewbox=\"0 0 6 11\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> \n           \u003Cg stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"> \n            \u003Cg transform=\"translate(-1596.000000, -2269.000000)\"> \n             \u003Cg transform=\"translate(0.000000, 1774.000000)\"> \n              \u003Cg transform=\"translate(191.000000, 94.000000)\" stroke=\"#000000\" stroke-width=\"1.1\"> \n               \u003Cg transform=\"translate(1342.000000, 393.000000)\"> \n                \u003Cpolyline points=\"64 9 68 13.5388147 64 18\" /> \n               \u003C/g> \n              \u003C/g> \n             \u003C/g> \n            \u003C/g> \n           \u003C/g> \n          \u003C/svg> \n         \u003C/div> \n        \u003C/div> \n        \u003Cdiv class=\"boss-btn umx-mb-show\" data-modalname=\"crs-boss-modal\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'3','button_name':'了解更多','pointsname':'了解更多'}}\"> \n         \u003Cspan>了解更多\u003C/span> \n         \u003Csvg width=\"6px\" height=\"11px\" viewbox=\"0 0 6 11\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> \n          \u003Cg stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"> \n           \u003Cg transform=\"translate(-1596.000000, -2269.000000)\"> \n            \u003Cg transform=\"translate(0.000000, 1774.000000)\"> \n             \u003Cg transform=\"translate(191.000000, 94.000000)\" stroke=\"#000000\" stroke-width=\"1.1\"> \n              \u003Cg transform=\"translate(1342.000000, 393.000000)\"> \n               \u003Cpolyline points=\"64 9 68 13.5388147 64 18\" /> \n              \u003C/g> \n             \u003C/g> \n            \u003C/g> \n           \u003C/g> \n          \u003C/g> \n         \u003C/svg> \n        \u003C/div> \n       \u003C/div> \u003C/li> \n     \u003C/ul> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"umx-stage csr-strategy\" data-animate> \n    \u003Cdiv class=\"csr-strategy-wrapper\"> \n     \u003Cul class=\"csr-strategy-list umx-mb-hide\"> \n      \u003Cli class=\"csr-strategy-item current\" data-track=\"{'type':'viewstate','params':{'cfrom':'01|03|003|033','name':'CSR','position':'4','total':'9'}}\"> \n       \u003Cdiv class=\"strategy-inner\"> \n        \u003Cdiv class=\"strategy-bg technology-sharing-bg\">\u003C/div> \n        \u003Cdiv class=\"strategy-gradient\">\u003C/div> \n        \u003Cdiv class=\"strategy-text\"> \n         \u003Ch2 class=\"strategy-title\">科技共享\u003C/h2> \n         \u003Cdiv class=\"strategy-des\"> \n          \u003Cp>持续科技创新，坚守数字责任，让每个用户都能享受科技带来的便捷与美好，联接美好数字未来。\u003C/p> \n          \u003Cdiv class=\"strategy-btn\" data-modalname=\"technology-sharing\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'4','button_name':'了解更多','pointsname':'了解更多'}}\"> \n           \u003Cspan>了解更多\u003C/span> \n           \u003Csvg width=\"6px\" height=\"11px\" viewbox=\"0 0 6 11\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> \n            \u003Cg stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"> \n             \u003Cg transform=\"translate(-1433.000000, -3067.000000)\" stroke=\"#FFFFFF\" stroke-width=\"1.1\"> \n              \u003Cg transform=\"translate(0.000000, 2410.000000)\"> \n               \u003Cg transform=\"translate(195.503912, 178.000000)\"> \n                \u003Cg transform=\"translate(511.796557, 0.000000)\"> \n                 \u003Cg transform=\"translate(656.000000, 480.000000)\"> \n                  \u003Cpolyline points=\"70.6995305 0 74.6995305 4.53881474 70.6995305 9\" /> \n                 \u003C/g> \n                \u003C/g> \n               \u003C/g> \n              \u003C/g> \n             \u003C/g> \n            \u003C/g> \n           \u003C/svg> \n          \u003C/div> \n         \u003C/div> \n        \u003C/div> \n       \u003C/div> \n       \u003Cdiv class=\"strategy-poster\"> \n        \u003Cdiv class=\"strategy-icon technology-sharing-icon\">\u003C/div> \n        \u003Cp class=\"strategy-name\">科技共享\u003C/p> \n       \u003C/div> \u003C/li> \n      \u003Cli class=\"csr-strategy-item\" data-track=\"{'type':'viewstate','params':{'cfrom':'01|03|003|033','name':'CSR','position':'5','total':'9'}}\"> \n       \u003Cdiv class=\"strategy-inner\"> \n        \u003Cdiv class=\"strategy-bg green-symbiosis-bg\">\u003C/div> \n        \u003Cdiv class=\"strategy-gradient\">\u003C/div> \n        \u003Cdiv class=\"strategy-text\"> \n         \u003Ch2 class=\"strategy-title\">绿色共生\u003C/h2> \n         \u003Cdiv class=\"strategy-des\"> \n          \u003Cp>通过低碳践行，绿色运营，推行循环经济发展，打造可持续产品，共同守护地球家园，奔赴美好绿色未来。\u003C/p> \n          \u003Cdiv class=\"strategy-btn\" data-modalname=\"green-symbiosis\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'5','button_name':'了解更多','pointsname':'了解更多'}}\"> \n           \u003Cspan>了解更多\u003C/span> \n           \u003Csvg width=\"6px\" height=\"11px\" viewbox=\"0 0 6 11\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> \n            \u003Cg stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"> \n             \u003Cg transform=\"translate(-1433.000000, -3067.000000)\" stroke=\"#FFFFFF\" stroke-width=\"1.1\"> \n              \u003Cg transform=\"translate(0.000000, 2410.000000)\"> \n               \u003Cg transform=\"translate(195.503912, 178.000000)\"> \n                \u003Cg transform=\"translate(511.796557, 0.000000)\"> \n                 \u003Cg transform=\"translate(656.000000, 480.000000)\"> \n                  \u003Cpolyline points=\"70.6995305 0 74.6995305 4.53881474 70.6995305 9\" /> \n                 \u003C/g> \n                \u003C/g> \n               \u003C/g> \n              \u003C/g> \n             \u003C/g> \n            \u003C/g> \n           \u003C/svg> \n          \u003C/div> \n         \u003C/div> \n        \u003C/div> \n       \u003C/div> \n       \u003Cdiv class=\"strategy-poster\"> \n        \u003Cdiv class=\"strategy-icon green-symbiosis-icon\">\u003C/div> \n        \u003Cp class=\"strategy-name\">绿色共生\u003C/p> \n       \u003C/div> \u003C/li> \n      \u003Cli class=\"csr-strategy-item\" data-track=\"{'type':'viewstate','params':{'cfrom':'01|03|003|033','name':'CSR','position':'6','total':'9'}}\"> \n       \u003Cdiv class=\"strategy-inner\"> \n        \u003Cdiv class=\"strategy-bg value-creation-bg\">\u003C/div> \n        \u003Cdiv class=\"strategy-gradient\">\u003C/div> \n        \u003Cdiv class=\"strategy-text\"> \n         \u003Ch2 class=\"strategy-title\">价值共创\u003C/h2> \n         \u003Cdiv class=\"strategy-des\"> \n          \u003Cp>重视员工权益与发展，携手合作伙伴赋能互助，共建互信共赢的和谐生态平台，创造美好价值未来。\u003C/p> \n          \u003Cdiv class=\"strategy-btn\" data-modalname=\"value-creation\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'6','button_name':'了解更多','pointsname':'了解更多'}}\"> \n           \u003Cspan>了解更多\u003C/span> \n           \u003Csvg width=\"6px\" height=\"11px\" viewbox=\"0 0 6 11\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> \n            \u003Cg stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"> \n             \u003Cg transform=\"translate(-1433.000000, -3067.000000)\" stroke=\"#FFFFFF\" stroke-width=\"1.1\"> \n              \u003Cg transform=\"translate(0.000000, 2410.000000)\"> \n               \u003Cg transform=\"translate(195.503912, 178.000000)\"> \n                \u003Cg transform=\"translate(511.796557, 0.000000)\"> \n                 \u003Cg transform=\"translate(656.000000, 480.000000)\"> \n                  \u003Cpolyline points=\"70.6995305 0 74.6995305 4.53881474 70.6995305 9\" /> \n                 \u003C/g> \n                \u003C/g> \n               \u003C/g> \n              \u003C/g> \n             \u003C/g> \n            \u003C/g> \n           \u003C/svg> \n          \u003C/div> \n         \u003C/div> \n        \u003C/div> \n       \u003C/div> \n       \u003Cdiv class=\"strategy-poster\"> \n        \u003Cdiv class=\"strategy-icon value-creation-icon\">\u003C/div> \n        \u003Cp class=\"strategy-name\">价值共创\u003C/p> \n       \u003C/div> \u003C/li> \n      \u003Cli class=\"csr-strategy-item\" data-track=\"{'type':'viewstate','params':{'cfrom':'01|03|003|033','name':'CSR','position':'7','total':'9'}}\"> \n       \u003Cdiv class=\"strategy-inner\"> \n        \u003Cdiv class=\"strategy-bg social-good-bg\">\u003C/div> \n        \u003Cdiv class=\"strategy-gradient\">\u003C/div> \n        \u003Cdiv class=\"strategy-text\"> \n         \u003Ch2 class=\"strategy-title\">社会共益\u003C/h2> \n         \u003Cdiv class=\"strategy-des\"> \n          \u003Cp>稳健发展，加强风险与商业道德管理，关注社区发展，助力社会共益，推动美好责任未来。\u003C/p> \n          \u003Cdiv class=\"strategy-btn\" data-modalname=\"social-good\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'7','button_name':'了解更多','pointsname':'了解更多'}}\"> \n           \u003Cspan>了解更多\u003C/span> \n           \u003Csvg width=\"6px\" height=\"11px\" viewbox=\"0 0 6 11\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> \n            \u003Cg stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"> \n             \u003Cg transform=\"translate(-1433.000000, -3067.000000)\" stroke=\"#FFFFFF\" stroke-width=\"1.1\"> \n              \u003Cg transform=\"translate(0.000000, 2410.000000)\"> \n               \u003Cg transform=\"translate(195.503912, 178.000000)\"> \n                \u003Cg transform=\"translate(511.796557, 0.000000)\"> \n                 \u003Cg transform=\"translate(656.000000, 480.000000)\"> \n                  \u003Cpolyline points=\"70.6995305 0 74.6995305 4.53881474 70.6995305 9\" /> \n                 \u003C/g> \n                \u003C/g> \n               \u003C/g> \n              \u003C/g> \n             \u003C/g> \n            \u003C/g> \n           \u003C/svg> \n          \u003C/div> \n         \u003C/div> \n        \u003C/div> \n       \u003C/div> \n       \u003Cdiv class=\"strategy-poster\"> \n        \u003Cdiv class=\"strategy-icon social-good-icon\">\u003C/div> \n        \u003Cp class=\"strategy-name\">社会共益\u003C/p> \n       \u003C/div> \u003C/li> \n     \u003C/ul> \n     \u003Cdiv id=\"csr-strategy-swiper\" class=\"swiper\"> \n      \u003Cul class=\"csr-strategy-mobile-list swiper-wrapper\"> \n       \u003Cli class=\"csr-strategy-mobile-item swiper-slide\" data-track=\"{'type':'viewstate','params':{'cfrom':'01|03|003|033','name':'CSR','position':'4','total':'9'}}\"> \n        \u003Cdiv class=\"strategy-mobile-inner\"> \n         \u003Cdiv class=\"strategy-mobile-title\"> \n          \u003Cdiv class=\"strategy-mobile-poster\"> \n           \u003Cdiv class=\"strategy-mobile-icon technology-sharing-icon\">\u003C/div> \n           \u003Cspan class=\"strategy-mobile-name\">科技共享\u003C/span> \n          \u003C/div> \n          \u003Cp class=\"strategy-mobile-text\">持续科技创新，坚守数字责任，让每个用户都能享受科技带来的便捷与美好，联接美好数字未来。\u003C/p> \n         \u003C/div> \n         \u003Cdiv class=\"strategy-mobile-bg technology-sharing-bg\">\u003C/div> \n         \u003Cdiv class=\"strategy-mobile-btn\" data-modalname=\"technology-sharing\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'4','button_name':'了解更多','pointsname':'了解更多'}}\"> \n          \u003Cspan>了解更多\u003C/span> \n          \u003Csvg width=\"6px\" height=\"11px\" viewbox=\"0 0 6 11\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> \n           \u003Cg stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"> \n            \u003Cg transform=\"translate(-1433.000000, -3067.000000)\" stroke=\"#000000\" stroke-width=\"1.1\"> \n             \u003Cg transform=\"translate(0.000000, 2410.000000)\"> \n              \u003Cg transform=\"translate(195.503912, 178.000000)\"> \n               \u003Cg transform=\"translate(511.796557, 0.000000)\"> \n                \u003Cg transform=\"translate(656.000000, 480.000000)\"> \n                 \u003Cpolyline points=\"70.6995305 0 74.6995305 4.53881474 70.6995305 9\" /> \n                \u003C/g> \n               \u003C/g> \n              \u003C/g> \n             \u003C/g> \n            \u003C/g> \n           \u003C/g> \n          \u003C/svg> \n         \u003C/div> \n        \u003C/div> \u003C/li> \n       \u003Cli class=\"csr-strategy-mobile-item swiper-slide\" data-track=\"{'type':'viewstate','params':{'cfrom':'01|03|003|033','name':'CSR','position':'5','total':'9'}}\"> \n        \u003Cdiv class=\"strategy-mobile-inner\"> \n         \u003Cdiv class=\"strategy-mobile-title\"> \n          \u003Cdiv class=\"strategy-mobile-poster\"> \n           \u003Cdiv class=\"strategy-mobile-icon green-symbiosis-icon\">\u003C/div> \n           \u003Cspan class=\"strategy-mobile-name\">绿色共生\u003C/span> \n          \u003C/div> \n          \u003Cp class=\"strategy-mobile-text\">通过低碳践行，绿色运营，推行循环经济发展，打造可持续产品，共同守护地球家园，奔赴美好绿色未来。\u003C/p> \n         \u003C/div> \n         \u003Cdiv class=\"strategy-mobile-bg green-symbiosis-bg\">\u003C/div> \n         \u003Cdiv class=\"strategy-mobile-btn\" data-modalname=\"green-symbiosis\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'5','button_name':'了解更多','pointsname':'了解更多'}}\"> \n          \u003Cspan>了解更多\u003C/span> \n          \u003Csvg width=\"6px\" height=\"11px\" viewbox=\"0 0 6 11\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> \n           \u003Cg stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"> \n            \u003Cg transform=\"translate(-1433.000000, -3067.000000)\" stroke=\"#000000\" stroke-width=\"1.1\"> \n             \u003Cg transform=\"translate(0.000000, 2410.000000)\"> \n              \u003Cg transform=\"translate(195.503912, 178.000000)\"> \n               \u003Cg transform=\"translate(511.796557, 0.000000)\"> \n                \u003Cg transform=\"translate(656.000000, 480.000000)\"> \n                 \u003Cpolyline points=\"70.6995305 0 74.6995305 4.53881474 70.6995305 9\" /> \n                \u003C/g> \n               \u003C/g> \n              \u003C/g> \n             \u003C/g> \n            \u003C/g> \n           \u003C/g> \n          \u003C/svg> \n         \u003C/div> \n        \u003C/div> \u003C/li> \n       \u003Cli class=\"csr-strategy-mobile-item swiper-slide\" data-track=\"{'type':'viewstate','params':{'cfrom':'01|03|003|033','name':'CSR','position':'6','total':'9'}}\"> \n        \u003Cdiv class=\"strategy-mobile-inner\"> \n         \u003Cdiv class=\"strategy-mobile-title\"> \n          \u003Cdiv class=\"strategy-mobile-poster\"> \n           \u003Cdiv class=\"strategy-mobile-icon value-creation-icon\">\u003C/div> \n           \u003Cspan class=\"strategy-mobile-name\">价值共创\u003C/span> \n          \u003C/div> \n          \u003Cp class=\"strategy-mobile-text\">重视员工权益与发展，携手合作伙伴赋能互助，共建互信共赢的和谐生态平台，创造美好价值未来。\u003C/p> \n         \u003C/div> \n         \u003Cdiv class=\"strategy-mobile-bg value-creation-bg\">\u003C/div> \n         \u003Cdiv class=\"strategy-mobile-btn\" data-modalname=\"value-creation\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'6','button_name':'了解更多','pointsname':'了解更多'}}\"> \n          \u003Cspan>了解更多\u003C/span> \n          \u003Csvg width=\"6px\" height=\"11px\" viewbox=\"0 0 6 11\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> \n           \u003Cg stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"> \n            \u003Cg transform=\"translate(-1433.000000, -3067.000000)\" stroke=\"#000000\" stroke-width=\"1.1\"> \n             \u003Cg transform=\"translate(0.000000, 2410.000000)\"> \n              \u003Cg transform=\"translate(195.503912, 178.000000)\"> \n               \u003Cg transform=\"translate(511.796557, 0.000000)\"> \n                \u003Cg transform=\"translate(656.000000, 480.000000)\"> \n                 \u003Cpolyline points=\"70.6995305 0 74.6995305 4.53881474 70.6995305 9\" /> \n                \u003C/g> \n               \u003C/g> \n              \u003C/g> \n             \u003C/g> \n            \u003C/g> \n           \u003C/g> \n          \u003C/svg> \n         \u003C/div> \n        \u003C/div> \u003C/li> \n       \u003Cli class=\"csr-strategy-mobile-item swiper-slide\" data-track=\"{'type':'viewstate','params':{'cfrom':'01|03|003|033','name':'CSR','position':'7','total':'9'}}\"> \n        \u003Cdiv class=\"strategy-mobile-inner\"> \n         \u003Cdiv class=\"strategy-mobile-title\"> \n          \u003Cdiv class=\"strategy-mobile-poster\"> \n           \u003Cdiv class=\"strategy-mobile-icon social-good-icon\">\u003C/div> \n           \u003Cspan class=\"strategy-mobile-name\">社会共益\u003C/span> \n          \u003C/div> \n          \u003Cp class=\"strategy-mobile-text\">稳健发展，加强风险与商业道德管理，关注社区发展，助力社会共益，推动美好责任未来。\u003C/p> \n         \u003C/div> \n         \u003Cdiv class=\"strategy-mobile-bg social-good-bg\">\u003C/div> \n         \u003Cdiv class=\"strategy-mobile-btn\" data-modalname=\"social-good\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'7','button_name':'了解更多','pointsname':'了解更多'}}\"> \n          \u003Cspan>了解更多\u003C/span> \n          \u003Csvg width=\"6px\" height=\"11px\" viewbox=\"0 0 6 11\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> \n           \u003Cg stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"> \n            \u003Cg transform=\"translate(-1433.000000, -3067.000000)\" stroke=\"#000000\" stroke-width=\"1.1\"> \n             \u003Cg transform=\"translate(0.000000, 2410.000000)\"> \n              \u003Cg transform=\"translate(195.503912, 178.000000)\"> \n               \u003Cg transform=\"translate(511.796557, 0.000000)\"> \n                \u003Cg transform=\"translate(656.000000, 480.000000)\"> \n                 \u003Cpolyline points=\"70.6995305 0 74.6995305 4.53881474 70.6995305 9\" /> \n                \u003C/g> \n               \u003C/g> \n              \u003C/g> \n             \u003C/g> \n            \u003C/g> \n           \u003C/g> \n          \u003C/svg> \n         \u003C/div> \n        \u003C/div> \u003C/li> \n      \u003C/ul> \n      \u003Cdiv class=\"swiper-pagination csr-strategy-mobile-dots\">\u003C/div> \n     \u003C/div> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"umx-stage csr-news\" data-track=\"{'type':'viewstate','params':{'cfrom':'01|03|003|033','name':'CSR','position':'8','total':'9'}}\"> \n    \u003Cdiv class=\"csr-news-wrapper\"> \n     \u003Ch2 class=\"csr-news-title\">vivo 将持续创造\u003Cbr class=\"umx-mb-hide\">更多\u003Cbr class=\"umx-mb-show\">社会价值。 \n      \u003Cdiv class=\"csr-news-arrow umx-mb-hide\"> \n       \u003Cdiv class=\"arrow-btn prve-arrow news-arrow-hide\">\u003C/div> \n       \u003Cdiv class=\"arrow-btn next-arrow\">\u003C/div> \n      \u003C/div> \u003C/h2> \n     \u003Cdiv id=\"csr-news-swiper\" class=\"csr-news-content swiper\"> \n      \u003Cul class=\"csr-news-list swiper-wrapper\"> \n       \u003Cli class=\"csr-news-item swiper-slide\"> \n        \u003Cdiv class=\"news-poster poster10\"> \n         \u003Ca href=\"https://www.vivo.com.cn/brand/news/detail?id=1210&amp;type=0\" target=\"_blank\">\u003C/a> \n        \u003C/div> \n        \u003Cdiv class=\"news-info\"> \n         \u003Cp class=\"news-type\">\u003C/p> \n         \u003Ch2 class=\"news-title\">vivo携手中国听力医学发展基金会，持续以AI科技赋能无障碍\u003C/h2> \n         \u003Cdiv class=\"news-more\"> \n          \u003Cspan class=\"news-data\">2023 年 11 月 1 日\u003C/span> \n          \u003Ca class=\"news-btn\" href=\"https://www.vivo.com.cn/brand/news/detail?id=1210&amp;type=0\" target=\"_blank\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-1','button_name':'了解更多','pointsname':'了解更多'}}\"> \u003Cspan>了解更多\u003C/span> \n           \u003Csvg width=\"6px\" height=\"9px\" viewbox=\"0 0 6 9\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> \n            \u003Cg stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"> \n             \u003Cg transform=\"translate(-980.000000, -4109.000000)\" stroke=\"#000000\" stroke-width=\"0.946\"> \n              \u003Cg transform=\"translate(-10.000000, 3232.000000)\"> \n               \u003Cg transform=\"translate(586.000000, 511.000000)\"> \n                \u003Cg transform=\"translate(350.000000, 359.000000)\"> \n                 \u003Cpolyline points=\"55.4012 7.60731429 58.8412 11.4437799 55.4012 15.2146286\" /> \n                \u003C/g> \n               \u003C/g> \n              \u003C/g> \n             \u003C/g> \n            \u003C/g> \n           \u003C/svg> \u003C/a> \n         \u003C/div> \n        \u003C/div> \u003C/li> \n       \u003Cli class=\"csr-news-item swiper-slide\"> \n        \u003Cdiv class=\"news-poster poster9\"> \n         \u003Ca href=\"https://www.vivo.com.cn/brand/news/detail?id=1138&amp;type=0\" target=\"_blank\">\u003C/a> \n        \u003C/div> \n        \u003Cdiv class=\"news-info\"> \n         \u003Cp class=\"news-type\">\u003C/p> \n         \u003Ch2 class=\"news-title\">vivo举办“OriginOS 国际爱耳日特别活动”\u003C/h2> \n         \u003Cdiv class=\"news-more\"> \n          \u003Cspan class=\"news-data\">2023 年 3 月 3 日\u003C/span> \n          \u003Ca class=\"news-btn\" href=\"https://www.vivo.com.cn/brand/news/detail?id=1138&amp;type=0\" target=\"_blank\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-1','button_name':'了解更多','pointsname':'了解更多'}}\"> \u003Cspan>了解更多\u003C/span> \n           \u003Csvg width=\"6px\" height=\"9px\" viewbox=\"0 0 6 9\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> \n            \u003Cg stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"> \n             \u003Cg transform=\"translate(-980.000000, -4109.000000)\" stroke=\"#000000\" stroke-width=\"0.946\"> \n              \u003Cg transform=\"translate(-10.000000, 3232.000000)\"> \n               \u003Cg transform=\"translate(586.000000, 511.000000)\"> \n                \u003Cg transform=\"translate(350.000000, 359.000000)\"> \n                 \u003Cpolyline points=\"55.4012 7.60731429 58.8412 11.4437799 55.4012 15.2146286\" /> \n                \u003C/g> \n               \u003C/g> \n              \u003C/g> \n             \u003C/g> \n            \u003C/g> \n           \u003C/svg> \u003C/a> \n         \u003C/div> \n        \u003C/div> \u003C/li> \n       \u003Cli class=\"csr-news-item swiper-slide\"> \n        \u003Cdiv class=\"news-poster poster8\"> \n         \u003Ca href=\"https://www.vivo.com.cn/brand/news/detail?id=1129&amp;type=0\" target=\"_blank\">\u003C/a> \n        \u003C/div> \n        \u003Cdiv class=\"news-info\"> \n         \u003Cp class=\"news-type\">\u003C/p> \n         \u003Ch2 class=\"news-title\">用有温度的科技打破信息孤岛，“声声有息公益计划”让爱无碍。\u003C/h2> \n         \u003Cdiv class=\"news-more\"> \n          \u003Cspan class=\"news-data\">2023 年 1 月 11 日\u003C/span> \n          \u003Ca class=\"news-btn\" href=\"https://www.vivo.com.cn/brand/news/detail?id=1129&amp;type=0\" target=\"_blank\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-2','button_name':'了解更多','pointsname':'了解更多'}}\"> \u003Cspan>了解更多\u003C/span> \n           \u003Csvg width=\"6px\" height=\"9px\" viewbox=\"0 0 6 9\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> \n            \u003Cg stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"> \n             \u003Cg transform=\"translate(-980.000000, -4109.000000)\" stroke=\"#000000\" stroke-width=\"0.946\"> \n              \u003Cg transform=\"translate(-10.000000, 3232.000000)\"> \n               \u003Cg transform=\"translate(586.000000, 511.000000)\"> \n                \u003Cg transform=\"translate(350.000000, 359.000000)\"> \n                 \u003Cpolyline points=\"55.4012 7.60731429 58.8412 11.4437799 55.4012 15.2146286\" /> \n                \u003C/g> \n               \u003C/g> \n              \u003C/g> \n             \u003C/g> \n            \u003C/g> \n           \u003C/svg> \u003C/a> \n         \u003C/div> \n        \u003C/div> \u003C/li> \n       \u003Cli class=\"csr-news-item swiper-slide\"> \n        \u003Cdiv class=\"news-poster poster7\"> \n         \u003Ca href=\"https://www.vivo.com.cn/brand/news/detail?id=1127&amp;type=0\" target=\"_blank\">\u003C/a> \n        \u003C/div> \n        \u003Cdiv class=\"news-info\"> \n         \u003Cp class=\"news-type\">\u003C/p> \n         \u003Ch2 class=\"news-title\">科技助力生态建设，vivo国家公园守护行动响应COP15倡议。\u003C/h2> \n         \u003Cdiv class=\"news-more\"> \n          \u003Cspan class=\"news-data\">2022 年 12 月 14 日\u003C/span> \n          \u003Ca class=\"news-btn\" href=\"https://www.vivo.com.cn/brand/news/detail?id=1127&amp;type=0\" target=\"_blank\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-3','button_name':'了解更多','pointsname':'了解更多'}}\"> \u003Cspan>了解更多\u003C/span> \n           \u003Csvg width=\"6px\" height=\"9px\" viewbox=\"0 0 6 9\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> \n            \u003Cg stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"> \n             \u003Cg transform=\"translate(-980.000000, -4109.000000)\" stroke=\"#000000\" stroke-width=\"0.946\"> \n              \u003Cg transform=\"translate(-10.000000, 3232.000000)\"> \n               \u003Cg transform=\"translate(586.000000, 511.000000)\"> \n                \u003Cg transform=\"translate(350.000000, 359.000000)\"> \n                 \u003Cpolyline points=\"55.4012 7.60731429 58.8412 11.4437799 55.4012 15.2146286\" /> \n                \u003C/g> \n               \u003C/g> \n              \u003C/g> \n             \u003C/g> \n            \u003C/g> \n           \u003C/svg> \u003C/a> \n         \u003C/div> \n        \u003C/div> \u003C/li> \n       \u003Cli class=\"csr-news-item swiper-slide\"> \n        \u003Cdiv class=\"news-poster poster6\"> \n         \u003Ca href=\"https://www.vivo.com.cn/brand/news/detail?id=1085&amp;type=0\" target=\"_blank\">\u003C/a> \n        \u003C/div> \n        \u003Cdiv class=\"news-info\"> \n         \u003Cp class=\"news-type\">\u003C/p> \n         \u003Ch2 class=\"news-title\">为听障毕业生就业筑梦，vivo“声声有息”公益计划再起航。\u003C/h2> \n         \u003Cdiv class=\"news-more\"> \n          \u003Cspan class=\"news-data\">2022 年 9 月 25 日\u003C/span> \n          \u003Ca class=\"news-btn\" href=\"https://www.vivo.com.cn/brand/news/detail?id=1085&amp;type=0\" target=\"_blank\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-4','button_name':'了解更多','pointsname':'了解更多'}}\"> \u003Cspan>了解更多\u003C/span> \n           \u003Csvg width=\"6px\" height=\"9px\" viewbox=\"0 0 6 9\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> \n            \u003Cg stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"> \n             \u003Cg transform=\"translate(-980.000000, -4109.000000)\" stroke=\"#000000\" stroke-width=\"0.946\"> \n              \u003Cg transform=\"translate(-10.000000, 3232.000000)\"> \n               \u003Cg transform=\"translate(586.000000, 511.000000)\"> \n                \u003Cg transform=\"translate(350.000000, 359.000000)\"> \n                 \u003Cpolyline points=\"55.4012 7.60731429 58.8412 11.4437799 55.4012 15.2146286\" /> \n                \u003C/g> \n               \u003C/g> \n              \u003C/g> \n             \u003C/g> \n            \u003C/g> \n           \u003C/svg> \u003C/a> \n         \u003C/div> \n        \u003C/div> \u003C/li> \n       \u003Cli class=\"csr-news-item swiper-slide\"> \n        \u003Cdiv class=\"news-poster poster1\"> \n         \u003Ca href=\"https://www.vivo.com.cn/brand/news/detail?id=1072&amp;type=0\" target=\"_blank\">\u003C/a> \n        \u003C/div> \n        \u003Cdiv class=\"news-info\"> \n         \u003Cp class=\"news-type\">\u003C/p> \n         \u003Ch2 class=\"news-title\">vivo发起国家公园守护行动，以科技创新助力生物多样性保护。\u003C/h2> \n         \u003Cdiv class=\"news-more\"> \n          \u003Cspan class=\"news-data\">2022 年 7 月 22 日\u003C/span> \n          \u003Ca class=\"news-btn\" href=\"https://www.vivo.com.cn/brand/news/detail?id=1072&amp;type=0\" target=\"_blank\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-5','button_name':'了解更多','pointsname':'了解更多'}}\"> \u003Cspan>了解更多\u003C/span> \n           \u003Csvg width=\"6px\" height=\"9px\" viewbox=\"0 0 6 9\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> \n            \u003Cg stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"> \n             \u003Cg transform=\"translate(-980.000000, -4109.000000)\" stroke=\"#000000\" stroke-width=\"0.946\"> \n              \u003Cg transform=\"translate(-10.000000, 3232.000000)\"> \n               \u003Cg transform=\"translate(586.000000, 511.000000)\"> \n                \u003Cg transform=\"translate(350.000000, 359.000000)\"> \n                 \u003Cpolyline points=\"55.4012 7.60731429 58.8412 11.4437799 55.4012 15.2146286\" /> \n                \u003C/g> \n               \u003C/g> \n              \u003C/g> \n             \u003C/g> \n            \u003C/g> \n           \u003C/svg> \u003C/a> \n         \u003C/div> \n        \u003C/div> \u003C/li> \n       \u003Cli class=\"csr-news-item swiper-slide\"> \n        \u003Cdiv class=\"news-poster poster2\"> \n         \u003Ca href=\"https://www.vivo.com.cn/brand/news/detail?id=1063&amp;type=0\" target=\"_blank\">\u003C/a> \n        \u003C/div> \n        \u003Cdiv class=\"news-info\"> \n         \u003Cp class=\"news-type\">\u003C/p> \n         \u003Ch2 class=\"news-title\">聚焦听障关怀，vivo以科技赋能无障碍环境建设。\u003C/h2> \n         \u003Cdiv class=\"news-more\"> \n          \u003Cspan class=\"news-data\">2022 年 6 月 15 日\u003C/span> \n          \u003Ca class=\"news-btn\" href=\"https://www.vivo.com.cn/brand/news/detail?id=1063&amp;type=0\" target=\"_blank\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-6','button_name':'了解更多','pointsname':'了解更多'}}\"> \u003Cspan>了解更多\u003C/span> \n           \u003Csvg width=\"6px\" height=\"9px\" viewbox=\"0 0 6 9\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> \n            \u003Cg stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"> \n             \u003Cg transform=\"translate(-980.000000, -4109.000000)\" stroke=\"#000000\" stroke-width=\"0.946\"> \n              \u003Cg transform=\"translate(-10.000000, 3232.000000)\"> \n               \u003Cg transform=\"translate(586.000000, 511.000000)\"> \n                \u003Cg transform=\"translate(350.000000, 359.000000)\"> \n                 \u003Cpolyline points=\"55.4012 7.60731429 58.8412 11.4437799 55.4012 15.2146286\" /> \n                \u003C/g> \n               \u003C/g> \n              \u003C/g> \n             \u003C/g> \n            \u003C/g> \n           \u003C/svg> \u003C/a> \n         \u003C/div> \n        \u003C/div> \u003C/li> \n       \u003Cli class=\"csr-news-item swiper-slide\"> \n        \u003Cdiv class=\"news-poster poster3\"> \n         \u003Ca href=\"https://www.vivo.com.cn/brand/news/detail?id=1032&amp;type=0\" target=\"_blank\">\u003C/a> \n        \u003C/div> \n        \u003Cdiv class=\"news-info\"> \n         \u003Cp class=\"news-type\">\u003C/p> \n         \u003Ch2 class=\"news-title\">迎“全国爱耳日”，vivo“声声有息”公益计划启新程。\u003C/h2> \n         \u003Cdiv class=\"news-more\"> \n          \u003Cspan class=\"news-data\">2022 年 3 月 02 日\u003C/span> \n          \u003Ca class=\"news-btn\" href=\"https://www.vivo.com.cn/brand/news/detail?id=1032&amp;type=0\" target=\"_blank\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-7','button_name':'了解更多','pointsname':'了解更多'}}\"> \u003Cspan>了解更多\u003C/span> \n           \u003Csvg width=\"6px\" height=\"9px\" viewbox=\"0 0 6 9\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> \n            \u003Cg stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"> \n             \u003Cg transform=\"translate(-980.000000, -4109.000000)\" stroke=\"#000000\" stroke-width=\"0.946\"> \n              \u003Cg transform=\"translate(-10.000000, 3232.000000)\"> \n               \u003Cg transform=\"translate(586.000000, 511.000000)\"> \n                \u003Cg transform=\"translate(350.000000, 359.000000)\"> \n                 \u003Cpolyline points=\"55.4012 7.60731429 58.8412 11.4437799 55.4012 15.2146286\" /> \n                \u003C/g> \n               \u003C/g> \n              \u003C/g> \n             \u003C/g> \n            \u003C/g> \n           \u003C/svg> \u003C/a> \n         \u003C/div> \n        \u003C/div> \u003C/li> \n       \u003Cli class=\"csr-news-item swiper-slide\"> \n        \u003Cdiv class=\"news-poster poster4\"> \n         \u003Ca href=\"https://www.vivo.com.cn/brand/news/detail?id=1015&amp;type=0\" target=\"_blank\">\u003C/a> \n        \u003C/div> \n        \u003Cdiv class=\"news-info\"> \n         \u003Cp class=\"news-type\">\u003C/p> \n         \u003Ch2 class=\"news-title\">2021 vivo开发者大会：聚焦行业建设，携手共建产业繁荣。\u003C/h2> \n         \u003Cdiv class=\"news-more\"> \n          \u003Cspan class=\"news-data\">2021 年 12 月 16 日\u003C/span> \n          \u003Ca class=\"news-btn\" href=\"http://www.vivo.com.cn/brand/news/detail?id=1015&amp;type=0\" target=\"_blank\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-8','button_name':'了解更多','pointsname':'了解更多'}}\"> \u003Cspan>了解更多\u003C/span> \n           \u003Csvg width=\"6px\" height=\"9px\" viewbox=\"0 0 6 9\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> \n            \u003Cg stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"> \n             \u003Cg transform=\"translate(-980.000000, -4109.000000)\" stroke=\"#000000\" stroke-width=\"0.946\"> \n              \u003Cg transform=\"translate(-10.000000, 3232.000000)\"> \n               \u003Cg transform=\"translate(586.000000, 511.000000)\"> \n                \u003Cg transform=\"translate(350.000000, 359.000000)\"> \n                 \u003Cpolyline points=\"55.4012 7.60731429 58.8412 11.4437799 55.4012 15.2146286\" /> \n                \u003C/g> \n               \u003C/g> \n              \u003C/g> \n             \u003C/g> \n            \u003C/g> \n           \u003C/svg> \u003C/a> \n         \u003C/div> \n        \u003C/div> \u003C/li> \n       \u003Cli class=\"csr-news-item swiper-slide\"> \n        \u003Cdiv class=\"news-poster poster5\"> \n         \u003Ca href=\"https://www.vivo.com.cn/brand/news/detail?id=1006&amp;type=0\" target=\"_blank\">\u003C/a> \n        \u003C/div> \n        \u003Cdiv class=\"news-info\"> \n         \u003Cp class=\"news-type\">\u003C/p> \n         \u003Ch2 class=\"news-title\">中国听力医学发展基金会携手vivo 启动“声声有息”公益计划。\u003C/h2> \n         \u003Cdiv class=\"news-more\"> \n          \u003Cspan class=\"news-data\">2021 年 12 月 02 日\u003C/span> \n          \u003Ca class=\"news-btn\" href=\"https://www.vivo.com.cn/brand/news/detail?id=1006&amp;type=0\" target=\"_blank\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-9','button_name':'了解更多','pointsname':'了解更多'}}\"> \u003Cspan>了解更多\u003C/span> \n           \u003Csvg width=\"6px\" height=\"9px\" viewbox=\"0 0 6 9\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> \n            \u003Cg stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"> \n             \u003Cg transform=\"translate(-980.000000, -4109.000000)\" stroke=\"#000000\" stroke-width=\"0.946\"> \n              \u003Cg transform=\"translate(-10.000000, 3232.000000)\"> \n               \u003Cg transform=\"translate(586.000000, 511.000000)\"> \n                \u003Cg transform=\"translate(350.000000, 359.000000)\"> \n                 \u003Cpolyline points=\"55.4012 7.60731429 58.8412 11.4437799 55.4012 15.2146286\" /> \n                \u003C/g> \n               \u003C/g> \n              \u003C/g> \n             \u003C/g> \n            \u003C/g> \n           \u003C/svg> \u003C/a> \n         \u003C/div> \n        \u003C/div> \u003C/li> \n      \u003C/ul> \n     \u003C/div> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"umx-stage csr-report\" id=\"report\" data-track=\"{'type':'viewstate','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9','total':'9'}}\"> \n    \u003Cdiv class=\"csr-report-wrapper\"> \n     \u003Cdiv class=\"csr-report-logo lazy-imageom\">\u003C/div> \n     \u003Ch2 class=\"csr-report-title\">2025 vivo 可持续发展报告\u003C/h2> \n     \u003Cdiv class=\"csr-report-btn-list\"> \n      \u003Cdiv class=\"csr-report-preview-btn\"> \n       \u003Ca class=\"csr-report-link\" type=\"application/pdf\" target=\"_blank\" href=\"https://wwwresstatic.vivo.com.cn/vivoportal/files/resource/files/1785728871315/2025%20vivo%E5%8F%AF%E6%8C%81%E7%BB%AD%E5%8F%91%E5%B1%95%E6%8A%A5%E5%91%8A.pdf\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-1','button_name':'预览','pointsname':'预览'}}\">预览\u003C/a> \n      \u003C/div> \n      \u003Cdiv class=\"csr-report-download-btn\"> \n       \u003Ca class=\"csr-report-link csr-report-download-2025\" download href=\"./images/2025vivo可持续发展报告.zip\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-2','button_name':'下载报告','pointsname':'下载报告'}}\"> \n        \u003Csvg width=\"16\" height=\"15\" viewbox=\"0 0 16 15\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"> \n         \u003Cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M13.7383 6.78271C14.104 6.78271 14.4004 7.07915 14.4004 7.44482V13.2383C14.4004 13.604 14.104 13.9004 13.7383 13.9004H2.26172C1.89605 13.9004 1.59961 13.604 1.59961 13.2383V7.4475C1.59961 7.08182 1.89605 6.78539 2.26172 6.78539C2.62739 6.78539 2.92383 7.08182 2.92383 7.4475V12.5762H13.0762V7.44482C13.0762 7.07915 13.3726 6.78271 13.7383 6.78271Z\" fill=\"white\" /> \n         \u003Cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M4.71963 6.69851C4.97945 6.44119 5.39867 6.44321 5.65599 6.70303L8.0271 9.09717L10.3982 6.70303C10.6555 6.44321 11.0748 6.44119 11.3346 6.69851C11.5944 6.95582 11.5964 7.37504 11.3391 7.63486L8.49754 10.504C8.37319 10.6296 8.20381 10.7002 8.0271 10.7002C7.85039 10.7002 7.68101 10.6296 7.55666 10.504L4.71511 7.63486C4.45779 7.37504 4.45982 6.95582 4.71963 6.69851Z\" fill=\"white\" /> \n         \u003Cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M8.05469 0.934082C8.42036 0.934082 8.7168 1.23052 8.7168 1.59619V9.87256C8.7168 10.2382 8.42036 10.5347 8.05469 10.5347C7.68901 10.5347 7.39258 10.2382 7.39258 9.87256V1.59619C7.39258 1.23052 7.68901 0.934082 8.05469 0.934082Z\" fill=\"white\" /> \n        \u003C/svg> \u003Cspan>下载报告\u003C/span> \u003C/a> \n      \u003C/div> \n     \u003C/div> \n     \u003Ch2 class=\"csr-report-title\">vivo 低碳行动白皮书\u003C/h2> \n     \u003Cdiv class=\"csr-report-btn-list\"> \n      \u003Cdiv class=\"csr-report-preview-btn\"> \n       \u003Ca class=\"csr-report-link\" type=\"application/pdf\" target=\"_blank\" href=\"https://wwwresstatic.vivo.com.cn/vivoportal/files/resource/files/1725879702055/vivo低碳行动白皮书.pdf\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-3','button_name':'预览','pointsname':'预览'}}\">预览\u003C/a> \n      \u003C/div> \n      \u003Cdiv class=\"csr-report-download-btn\"> \n       \u003Ca class=\"csr-report-link csr-report-ditan-download\" download href=\"./images/vivo低碳行动白皮书.zip\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-4','button_name':'下载报告','pointsname':'下载报告'}}\"> \n        \u003Csvg width=\"16\" height=\"15\" viewbox=\"0 0 16 15\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"> \n         \u003Cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M13.7383 6.78271C14.104 6.78271 14.4004 7.07915 14.4004 7.44482V13.2383C14.4004 13.604 14.104 13.9004 13.7383 13.9004H2.26172C1.89605 13.9004 1.59961 13.604 1.59961 13.2383V7.4475C1.59961 7.08182 1.89605 6.78539 2.26172 6.78539C2.62739 6.78539 2.92383 7.08182 2.92383 7.4475V12.5762H13.0762V7.44482C13.0762 7.07915 13.3726 6.78271 13.7383 6.78271Z\" fill=\"white\" /> \n         \u003Cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M4.71963 6.69851C4.97945 6.44119 5.39867 6.44321 5.65599 6.70303L8.0271 9.09717L10.3982 6.70303C10.6555 6.44321 11.0748 6.44119 11.3346 6.69851C11.5944 6.95582 11.5964 7.37504 11.3391 7.63486L8.49754 10.504C8.37319 10.6296 8.20381 10.7002 8.0271 10.7002C7.85039 10.7002 7.68101 10.6296 7.55666 10.504L4.71511 7.63486C4.45779 7.37504 4.45982 6.95582 4.71963 6.69851Z\" fill=\"white\" /> \n         \u003Cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M8.05469 0.934082C8.42036 0.934082 8.7168 1.23052 8.7168 1.59619V9.87256C8.7168 10.2382 8.42036 10.5347 8.05469 10.5347C7.68901 10.5347 7.39258 10.2382 7.39258 9.87256V1.59619C7.39258 1.23052 7.68901 0.934082 8.05469 0.934082Z\" fill=\"white\" /> \n        \u003C/svg> \u003Cspan>下载报告\u003C/span> \u003C/a> \n      \u003C/div> \n     \u003C/div> \n     \u003Ch2 class=\"csr-report-title\">X300&amp;X300 Pro 产品环境报告\u003C/h2> \n     \u003Cdiv class=\"csr-report-btn-list\"> \n      \u003Cdiv class=\"csr-report-preview-btn\"> \n       \u003Ca class=\"csr-report-link\" type=\"application/pdf\" target=\"_blank\" href=\"https://wwwresstatic.vivo.com.cn/vivoportal/files/resource/files/1768463889740/X300&amp;X300%20Pro%20%E4%BA%A7%E5%93%81%E7%8E%AF%E5%A2%83%E6%8A%A5%E5%91%8A.pdf\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-11','button_name':'预览','pointsname':'预览'}}\">预览\u003C/a> \n      \u003C/div> \n      \u003Cdiv class=\"csr-report-download-btn\"> \n       \u003Ca class=\"csr-report-link csr-report-x300-download\" download href=\"./images/X300&amp;X300Pro产品环境报告.zip\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-12','button_name':'下载报告','pointsname':'下载报告'}}\"> \n        \u003Csvg width=\"16\" height=\"15\" viewbox=\"0 0 16 15\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"> \n         \u003Cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M13.7383 6.78271C14.104 6.78271 14.4004 7.07915 14.4004 7.44482V13.2383C14.4004 13.604 14.104 13.9004 13.7383 13.9004H2.26172C1.89605 13.9004 1.59961 13.604 1.59961 13.2383V7.4475C1.59961 7.08182 1.89605 6.78539 2.26172 6.78539C2.62739 6.78539 2.92383 7.08182 2.92383 7.4475V12.5762H13.0762V7.44482C13.0762 7.07915 13.3726 6.78271 13.7383 6.78271Z\" fill=\"white\" /> \n         \u003Cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M4.71963 6.69851C4.97945 6.44119 5.39867 6.44321 5.65599 6.70303L8.0271 9.09717L10.3982 6.70303C10.6555 6.44321 11.0748 6.44119 11.3346 6.69851C11.5944 6.95582 11.5964 7.37504 11.3391 7.63486L8.49754 10.504C8.37319 10.6296 8.20381 10.7002 8.0271 10.7002C7.85039 10.7002 7.68101 10.6296 7.55666 10.504L4.71511 7.63486C4.45779 7.37504 4.45982 6.95582 4.71963 6.69851Z\" fill=\"white\" /> \n         \u003Cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M8.05469 0.934082C8.42036 0.934082 8.7168 1.23052 8.7168 1.59619V9.87256C8.7168 10.2382 8.42036 10.5347 8.05469 10.5347C7.68901 10.5347 7.39258 10.2382 7.39258 9.87256V1.59619C7.39258 1.23052 7.68901 0.934082 8.05469 0.934082Z\" fill=\"white\" /> \n        \u003C/svg> \u003Cspan>下载报告\u003C/span> \u003C/a> \n      \u003C/div> \n     \u003C/div> \n     \u003Cdiv class=\"csr-report-more-list\"> \n      \u003Cdiv class=\"csr-report-more-wrapper\"> \n       \u003Cdiv class=\"csr-report-more-content\"> \n        \u003Cdiv class=\"csr-report-more-item\"> \n         \u003Ch3>2021 vivo 可持续发展报告\u003C/h3> \n         \u003Cdiv class=\"csr-report-more-item-btn\"> \n          \u003Ca type=\"application/pdf\" target=\"_blank\" href=\"https://wwwresstatic.vivo.com.cn/vivoportal/files/resource/files/1725874578222/2021%20vivo%E5%8F%AF%E6%8C%81%E7%BB%AD%E5%8F%91%E5%B1%95%E6%8A%A5%E5%91%8A.pdf\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-5','button_name':'预览','pointsname':'预览'}}\">预览\u003C/a> \n          \u003Ca class=\"csr-report-download-2021\" download href=\"./images/2021vivo可持续发展报告.zip\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-6','button_name':'下载报告','pointsname':'下载（PDF）'}}\">下载（PDF）\u003C/a> \n         \u003C/div> \n        \u003C/div> \n        \u003Cdiv class=\"csr-report-more-item\"> \n         \u003Ch3>2022 vivo 可持续发展报告\u003C/h3> \n         \u003Cdiv class=\"csr-report-more-item-btn\"> \n          \u003Ca type=\"application/pdf\" target=\"_blank\" href=\"https://wwwstatic.vivo.com.cn/vivoportal/files/resource/files/1691464012330/2022%20vivo%E5%8F%AF%E6%8C%81%E7%BB%AD%E5%8F%91%E5%B1%95%E6%8A%A5%E5%91%8A.pdf\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-7','button_name':'预览','pointsname':'预览'}}\">预览\u003C/a> \n          \u003Ca class=\"csr-report-download-2022\" download href=\"./images/2022vivo可持续发展报告.zip\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-8','button_name':'下载报告','pointsname':'下载（PDF）'}}\">下载（PDF）\u003C/a> \n         \u003C/div> \n        \u003C/div> \n        \u003Cdiv class=\"csr-report-more-item\"> \n         \u003Ch3>2023 vivo 可持续发展报告\u003C/h3> \n         \u003Cdiv class=\"csr-report-more-item-btn\"> \n          \u003Ca type=\"application/pdf\" target=\"_blank\" href=\"https://wwwresstatic.vivo.com.cn/vivoportal/files/resource/files/1726038356353/2023%20vivo%E5%8F%AF%E6%8C%81%E7%BB%AD%E5%8F%91%E5%B1%95%E6%8A%A5%E5%91%8A.pdf\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-9','button_name':'预览','pointsname':'预览'}}\">预览\u003C/a> \n          \u003Ca class=\"csr-report-download-2023\" download href=\"./images/2023vivo可持续发展报告.zip\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-10','button_name':'下载报告','pointsname':'下载（PDF）'}}\">下载（PDF）\u003C/a> \n         \u003C/div> \n        \u003C/div> \n        \u003Cdiv class=\"csr-report-more-item\"> \n         \u003Ch3>2024 vivo 可持续发展报告\u003C/h3> \n         \u003Cdiv class=\"csr-report-more-item-btn\"> \n          \u003Ca type=\"application/pdf\" target=\"_blank\" href=\"https://wwwresstatic.vivo.com.cn/vivoportal/files/resource/files/1768463685110/2024%20vivo%E5%8F%AF%E6%8C%81%E7%BB%AD%E5%8F%91%E5%B1%95%E6%8A%A5%E5%91%8A.pdf\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-11','button_name':'预览','pointsname':'预览'}}\">预览\u003C/a> \n          \u003Ca class=\"csr-report-download-2024\" download href=\"./images/2024vivo可持续发展报告.zip\" data-track=\"{'type':'click','params':{'cfrom':'01|03|003|033','name':'CSR','position':'9-12','button_name':'下载报告','pointsname':'下载（PDF）'}}\">下载（PDF）\u003C/a> \n         \u003C/div> \n        \u003C/div> \n       \u003C/div> \n      \u003C/div> \n      \u003Cdiv class=\"csr-report-more-btn csr-report-more-btn-open\"> \n       \u003Cspan>阅读往年可持续发展报告\u003C/span> \n       \u003Csvg width=\"16\" height=\"16\" viewbox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"> \n        \u003Cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M8.02036 10.3886L13.0585 5.35049L13.9424 6.23438L8.02036 12.1564L2.09834 6.23437L2.98223 5.35049L8.02036 10.3886Z\" fill=\"#1D1D1F\" /> \n       \u003C/svg> \n      \u003C/div> \n      \u003Cdiv class=\"csr-report-more-btn csr-report-more-btn-close\"> \n       \u003Cspan>隐藏往年可持续发展报告\u003C/span> \n       \u003Csvg width=\"16\" height=\"16\" viewbox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"> \n        \u003Cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M8.02036 5.61137L13.0585 10.6495L13.9424 9.76562L8.02036 3.84361L2.09834 9.76563L2.98223 10.6495L8.02036 5.61137Z\" fill=\"#1D1D1F\" /> \n       \u003C/svg> \n      \u003C/div> \n     \u003C/div> \n    \u003C/div> \n   \u003C/div> \n   \u003Cscript>\u003C/script> \n   \u003Cdiv class=\"csr-modal-wrapper\"> \n    \u003Cdiv class=\"csr-modal-box\"> \n     \u003Cdiv class=\"csr-close-box\"> \n      \u003Cdiv class=\"csr-close-btn\"> \n       \u003Cimg src=\"https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1788149113093/images/csr-modal-close.svg\"> \n      \u003C/div> \n     \u003C/div> \n     \u003Cdiv class=\"csr-modal-content\"> \n      \u003Ch2 class=\"modal-maintitle\">本心而为，雁行致远\u003C/h2> \n      \u003Cp class=\"modal-subtitle\">vivo创始人、总裁兼首席执行官 沈炜\u003C/p> \n      \u003Cp class=\"modal-tips\">发表于“2022 vivo可持续发展报告责任寄语”\u003C/p> \n      \u003Cp class=\"modal-text\">vivo的可持续发展之路，当坚守“本心而为”。“本心”就是相信自己内心真实的热爱和渴望，“而为”则是用充满创造力的方式去实现它。\u003C/p> \n      \u003Cp class=\"modal-text\">vivo的本心，是通过伟大产品和科技创新为用户的生活创造愉悦体验，为世界带来有意义的改变。科技创新是人类社会可持续发展的第一推动力，科技照亮美好未来，是科技企业的本分，也是vivo的初心和梦想。\u003C/p> \n      \u003Cp class=\"modal-text\">vivo在企业愿景和联合国可持续发展目标（SDGs）的指引下，确定了可持续发展战略的四大方向:“科技共享”、“绿色共生”、“价值共创”、“社会共益”。我们希冀通过搭建更包容的数字桥梁，践行绿色经营理念，建立互信共赢价值生态，以公益行动助力社会平衡发展，为世界带来更多幸福与美好。\u003C/p> \n      \u003Cp class=\"modal-text\">\u003Cspan class=\"modal-text-bold\">科技共享层面，我们正在把“让科技惠及每一个人”的理念变成现实\u003C/span>。vivo把专业的影像能力赋予每一个人，让人人都可以用极致的光影书写自己的“时间简史”，把精彩定格，让回忆真切；AI、芯片等底层技术上的创新，使我们的操作系统更加流畅、易用，也让用户的视觉、听觉、商务办公等各方面的能力得到增强，让更多人享受到了科技进步带来的美好。例如，我们推出的“手语翻译官”功能将手语、语音、文字互融互传，有效辅助了听障人士与他人的基础对话；我们还积极推进手机适老化，上线了语音助手、读屏操作、紧急医疗等功能，助力老年用户享受更便利的数字生活。\u003C/p> \n      \u003Cp class=\"modal-text\">\u003Cspan class=\"modal-text-bold\">绿色共生层面，尊重自然、顺应自然、回馈自然，是vivo企业发展的必经之路\u003C/span>。vivo将绿色经营作为企业创新和发展的机遇，我们在2022年建成的光伏电站，每年将为vivo提供清洁电力近400万度；我们把绿色经营理念融入价值链的每一个环节，在产品的设计、包装、材料选型、电子废弃物回收等环节中不断改进，在创新中创造价值、达成环保。2022年，我们还从源头上选用了更多可再生、可降解材料，用植物油墨全面取代传统油墨，以降低不可再生资源的消耗，提高铝合金材料再利用率。这些创新推动了循环经济发展，为共同守护地球家园，奔赴美好绿色未来贡献了我们应尽的绵薄之力。\u003C/p> \n      \u003Cp class=\"modal-text\">\u003Cspan class=\"modal-text-bold\">价值共创层面，我们坚信“雁行致远”，与志同道合的伙伴同行，才能更稳健地抵达目的地\u003C/span>。vivo选择与国内外各领域优秀的合作伙伴携手共赢，带动产业链发展，共同为用户创造极致的产品体验。我们与供应链伙伴共同研发，攻克技术难关，以差异化创新来创造新市场；我们向开发者伙伴开放软硬件平台及开发工具，共建网络安全生态；我们通过数字化管理平台与代理伙伴高效合作，全方位助力提升客户管理及门店运营效率。\u003C/p> \n      \u003Cp class=\"modal-text\">\u003Cspan class=\"modal-text-bold\">社会共益层面，作为全球企业公民，vivo立足企业的技术优势和人文理念，落地多元化公益行动\u003C/span>。2022年，我们启动了“童画未来公益计划”，通过赋能乡村老师上好美育课，让每一个孩子都能发现美、感受美、创造美；“山川草木，井灶池塘，皆有精气”，我们需要与自然和谐相处，因此，vivo发起了“国家公园守护行动”，助力巡护员守护生物多样性；有爱无碍，科技的使命是不让任何一人掉队，我们致力于科技普惠与关怀，持续推进“声声有息公益计划”，助力信息无障碍环境建设。\u003C/p> \n      \u003Cp class=\"modal-text\">未来不是被预见，而是被创造。只有遵从本心，做真正热爱的事，才能激发源源不断的想象力和创造力，而创造力因同频而共振，因共振而澎湃。vivo将始终坚守“本心而为”，与更多同道中人“雁行致远”，驰而不息，久久为功，共创更美好、更磅礴、更可持续的美好未来！\u003C/p> \n     \u003C/div> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"csr-modal-content umx-hide\"> \n    \u003Ch2 class=\"modal-maintitle\">乐众之乐 自得其乐\u003C/h2> \n    \u003Cp class=\"modal-subtitle\">vivo创始人、总裁兼首席执行官 沈炜\u003C/p> \n    \u003Cp class=\"modal-text\">vivo从创业之初走到今天，已经29个年头了，站在当下，无论是行业前景，还是企业能力的质变，都让我们对未来比任何时期更加充满期待。\u003C/p> \n    \u003Cp class=\"modal-text\">“做正确的事，并把事情做正确”，我们的信心来自于把握确定性的能力。如何在不确定性中找到确定性呢？越是纷纷扰扰，越要回到初心，初心是我们最初的目标，是我们出发的地方。我常常把企业看作一个人，人活在世上的终极目标是快乐，这份快乐并不首先是自己的独乐，而是建立在众乐前提下，才有可能的可持续与健康的自己真快乐，所以企业存在的价值首先就是要为人们创造快乐。一个企业最基本的社会责任就是持续稳健地经营，只有这样才有能力让用户、员工、伙伴、股东四个直接利益相关者都快乐。为5亿多用户打造极致的产品，为数万员工的家庭幸福，为上下游产业链的升级，为股东的合理回报，企业存续的每一刻都在创造价值、创造快乐，企业本身也在创造中享受快乐，正所谓乐众之乐，自得其乐。\u003C/p> \n    \u003Cp class=\"modal-text\">我们企业创造快乐的方式是用科技照亮美好未来，随着企业能力的提升，我们可以在更大一些的范围，做更多力所能及的事，结合自身业务并对标联合国可持续发展目标（SDGs），vivo形成了可持续发展四大方向:“科技共享”、“绿色共生”、“价值共创”、“社会共益”，通过搭建更包容的数字桥梁，践行绿色发展理念，建立互信共赢价值生态，为世界带来更多幸福与美好。\u003C/p> \n    \u003Cp class=\"modal-text\">科技共享，就是一个企业要努力让技术进步具备普世价值，正如人类对火的使用一样。vivo努力让每一个人，无论财富的多少、技能的高低、知识的足缺，都能受益于技术的进步，去做到此前无法完成的事。2023年vivo发布了自己的技术品牌“蓝科技”，当蓝心大模型成为知心的私人助理时，当蓝海电池让充电从每天一充变成两天一充时，当坐在“山顶”的观众，也能拍到演唱会舞台时，当专业创作者也能用手机创作超短片电影时……，用户会惊喜于vivo的极致和用心，而vivo也能感受到用户的快乐和欢欣，这就是科技共享真正的意义。\u003C/p> \n    \u003Cp class=\"modal-text\">绿色共生，就是每个人、每个企业，在我们生活的共同而惟一的自然生态环境之中，都在贡献，而不是破坏。vivo首次发布《vivo低碳行动白皮书》，从碳管治、碳盘查、碳目标与碳减排四大维度出发，应对气候变化挑战。我们确定了2035年实现自身运营层面碳排放较2021年下降50%、2050年实现自身运营层面碳中和的目标。同时我们也引入了微晶玻璃、“碳元重组”等先进材料和技术，提升产品的可持续性；我们推动供应商使用无铅铜等环保材料，将纳入管控的有害物质增加到52种；我们完成了vivo总部光伏发电项目二期建设，实施了生产、办公系统的节能优化，年节电约713万度。“绿色”是没有止境的旅程，vivo始终在用科技去做到尽善尽美，用创新把我们的责任转化成商业机会和更可持续的运营。\u003C/p> \n    \u003Cp class=\"modal-text\">价值共创，不仅是智慧的交融，更是价值观与理想的共鸣。时代的浪潮，既创造伟大，也淘汰英雄。只有与志同道合的伙伴众乐同行，让创新之光照耀彼此的生长，树木成林、更迭有序，才能更好地穿越周期。我们充分利用自身在价值链和行业中的影响力，与伙伴们共同推动前沿技术的创新和突破，致力于生成式大模型在端侧的落地，不断拓展移动影像的行业能力边界，定义芯片全大核架构，积极参与紧急位置服务、网络保护等通信领域标准制定……，为行业的健康、可持续发展贡献力量。\u003C/p> \n    \u003Cp class=\"modal-text\">社会共益，是一个涟漪泛起另一个涟漪，是用爱去温暖世界的每一个角落。不仅自然环境是一个生态系统，人、企业与社会也处在无形的生态之中。在我看来，所有人都是一个整体，科技之光虽求普照，也难免有阴凉之处。企业通过自发的公益行为，对社会和科技进步再平衡。2023年，我们将蓝心大模型成功应用于 “vivo看见”， “vivo看见”专为视觉障碍人士定制，已有10万用户，视障用户通过vivo手机对环境的全面感知，“看见”了外面的世界。手机终于可以成为“便携电子导盲犬”，这让我们振奋，也让我们看到了AI和影像在公益上不可思议的力量。\u003C/p> \n    \u003Cp class=\"modal-text\">我们还看到了以科技浸润美育的可能性，“vivo童画未来美育计划”已耕耘乡村美育两年有余，不仅把创造力和美的种子播撒到了四省六县的乡村，还会在每年暑假把孩子们邀请到vivo全球总部，在vivo员工志愿者的陪伴下，参观实验室，感受和体验设计、影像与科技之美，这些美育实践活动不仅拓宽了孩子们的视野，更打开了想象力的边界。跟随vivo品牌全球化的步伐，2023年，“vivo童画未来美育计划“也去到了东南亚、拉美等多个国家及地区，为发展中国家贫困儿童的全面发展创造了新的可能。\u003C/p> \n    \u003Cp class=\"modal-text\">29年来，“独乐乐，不如众乐乐”是我们与企业经营伙伴、与社会、与自然相处的经营哲学。快乐，是最真挚的奉献，也是最纯粹的收获。“立志用功，如种树然”，我们只管埋头种因，把用户和伙伴的快乐作为自己快乐的源泉，自然而然地也将收获内心的平和与满足。\u003C/p> \n   \u003C/div> \n  \u003C/div> \n \u003C/div> \n \u003Cdiv class=\"product-detail-wrapper clear-transform\">\u003C/div> \n \u003Ci class=\"expand-container-mask\">\u003C/i> \n \u003Cdiv class=\"expand-container-button ec-botton-close\"> \n  \u003Cdiv class=\"ec-button-wrapper ec-close-btn\"> \n   \u003Ca href=\"#\"> \u003Cb class=\"iconfont-symbol-products ico-symbol-close1\">\u003C/b> \u003C/a> \n  \u003C/div> \n \u003C/div> \n \u003Cscript>var _hmt=_hmt||[];!function(){var e=document.createElement(\"script\");e.src=\"https://hm.baidu.com/hm.js?9ef7debb81babe8b94af7f2c274869fd\";var t=document.getElementsByTagName(\"script\")[0];t.parentNode.insertBefore(e,t)}()\u003C/script> \n\u003C/div>",[11,12],"https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1788149113093/css/webfonts.css","https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1788149113093/css/app.css",[14,15,16,17,18,19,20],"https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1788149113093/script/product.js","https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1788149113093/script/TweenMax.min.js","https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1788149113093/script/video-js.min.js","https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1788149113093/script/gsap.min.js","https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1788149113093/script/ScrollTrigger.min.js","https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1788149113093/script/stickyfill.min.js","https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1788149113093/script/app.js",null,"white","https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1788149113093/","0",{"success":5,"code":6,"msg":7,"data":26},{"canonicalFlag":5,"hasParam":24,"hasGallery":24,"hasGallery360":24,"hasOverview":24,"shopUrl":27,"sellState":28,"shopEntry":29,"isFos":28,"product":30,"category":21,"productChannels":35,"linkNames":36},"",1,0,{"name":31,"code":32,"marketPrice":33,"promotionPrice":27,"seoTitle":34,"seoKeyword":27,"seoDescription":27},"可持续发展","sustainability","0.00","可持续发展 - vivo智能手机官方网站",[],[37],{"name":31,"selected":38},true,["Reactive",40],{"$sglobalConfig":41,"$sbaseUrl":99,"$sserverUrl":99,"$sisMobile":50,"$sisApp":50,"$sisCV":38,"$srequestUri":100,"$sfirstCanonical":27,"$sisLogin":50,"$shfUpdated":50,"$sfooterNavPath":101,"$scdnUrl":105,"$sheaderHeight":106,"$sscrollTop":29,"$ssecondCanonical":27,"$sproductTabInfo":26,"$sredirectUrl":107,"$soverviewPageData":8},{"baseInfo":42,"language":70,"officialHF":89,"isLoadGTM":50,"isLoadAbTasty":50,"contactInfoList":98},{"regionCode":43,"brandMark":44,"languageCode":45,"googleSearch":46,"headerPath":47,"gaSwitch":38,"oneTrustConfig":21,"target":48,"loginUrl":49,"appHeaderFooterRemoved":21,"isGDPR":50,"trackCenter":51,"trackVersion":52,"trackSwitch":38,"isPiwikPro":50,"cnStaticHost":53,"thirdOnlineCustomer":27,"layoutShow":24,"suspendSwitch":5,"appEntrySwitch":5,"noticeBoard":54,"userResearchList":61,"vivoBrowserSupport":28,"vivoSpace":50,"currentEnv":67,"videoMaskTheme":22,"vivoStaticHost":68,"vivoWebHost":69},"cn","vivo","zh_CN","E-7gZJW4cW6Cf7VJQpdOKF6gQ6mwyrfguXubRyJSW4M","/cn","vivoportal","https://passport.vivo.com.cn/v3/web/login/authorize?client_id=30&redirect_uri=",false,"asia","v4.9.3","https://wwwstatic.vivo.com.cn/vivoportal/files/image/",{"id":28,"noticeTitle":55,"linkContent":56,"linkUrl":57,"isShow":29,"isJump":28,"isValid":28,"countryId":28,"createBy":58,"createTime":59,"updateBy":58,"updateTime":60},"关于vivo及iQOO部分产品建议零售价调整的说明","点击查看","https://mshopact.vivo.com.cn/vivospace/wk26031139b762ab","11002946",1773315170000,1773803519000,[62,65],{"fileName":63,"fileUrl":64,"channelType":28},"vivo官网体验评价","https://wukongapi.vivo.com.cn/wukongtopic/wenjuan/3936/index",{"fileName":63,"fileUrl":66,"channelType":29},"https://wukongapi.vivo.com.cn/wukongtopic/wenjuan/3937/index","prd","https://asia-exstatic.vivoglobal.com","https://www.vivo.com",{"homeBannerSlideDown":71,"moreNewProducts":-1,"homeBannerSmallTitle":72,"exploreVivo":73,"exploreIqoo":-1,"exploreJovi":-1,"backTop":-1,"supportContactUs":74,"productOverview":75,"productGallery":76,"productParameter":77,"commonBuyNow":78,"productionHalt":-1,"productSoldOut":79,"productBuyRetailers":80,"commonPreBook":81,"commonProducts":82,"IMEIProductColor":83,"productOnlineStore":84,"commonLoadMore":85,"productInformationSheet":86,"energyConsumptionLevel":87,"productInformationRoHS":-1,"productPreviewTip":-1,"commonBreadcrumb":88},"向下滑动","发现更多","探索vivo","联系我们","产品概览","画廊","规格参数","立即购买","缺货","专卖店购买","立即预定","产品","产品颜色","在线商城","更多","产品信息","能耗级别","面包屑导航",{"commonCss":27,"commonJs":27,"cookieLastVersion":27,"footerHtml":27,"headerHtmlMini":90,"headerHtml":27,"oneTrustConfig":91,"publicKey":27,"cssUrlArr":92,"cssStyle":27,"cssUrl":27,"scriptUrl":27,"footColorStyle":5},"\u003Cdiv id=\"vivo-head-wrap\"\n     class=\"vp-head   vp-head-theme-black\"\n     >\n    \u003Cdiv id=\"cn-head-theme\">\u003C/div>\n    \u003Cdiv class=\"vp-head-wrap\">\n            \u003Cdiv class=\"vp-head-wrap-pc\">\n                \u003Cdiv class=\"vp-head-topbar-pc\">\n                    \u003Cdiv>\n                        \u003Cul class=\"vp-head-topbar-navs\">\n                                \u003Cli>\u003Ca href=\"\"\n                                       data-head-click-stat=\"cfrom=01|03|002|003&name=品牌\">品牌\u003C/a>\n                                \u003C/li>\n                                \u003Cli>\u003Ca href=\"\"\n                                       data-head-click-stat=\"cfrom=01|03|002|003&name=OriginOS\">OriginOS\u003C/a>\n                                \u003C/li>\n                                \u003Cli>\u003Ca href=\"\"\n                                       data-head-click-stat=\"cfrom=01|03|002|003&name=体验店\">体验店\u003C/a>\n                                \u003C/li>\n                                \u003Cli>\u003Ca href=\"\"\n                                       data-head-click-stat=\"cfrom=01|03|002|003&name=官网社区\">官网社区\u003C/a>\n                                \u003C/li>\n                        \u003C/ul>\n                        \u003Cdiv class=\"vp-head-top-user\">\n                                \u003Ca href=\"https://shopact.vivo.com.cn/pcspace/wk221129f1431101\"\n                                   class=\"vp-vivo-app\">\n                                    \u003Cspan>下载APP\u003C/span>\n                                \u003C/a>\n                            \u003Ca class=\"vp-user-shopcart\" href=\"https://shop.vivo.com.cn/shoppingcart\"\n                               data-head-click-stat=\"cfrom=01|03|002|002&position=1\">\u003C/a>\n                            \u003Cdiv class=\"vp-user-login-box\">\n                                \u003Cspan class=\"vp-head-member-login\">个人中心\u003C/span>\n                            \u003C/div>\n                        \u003C/div>\n                    \u003C/div>\n                \u003C/div>\n                \u003Cdiv class=\"vp-head-mainbar-pc\" >\n                    \u003Cdiv class=\"vp-head-logo\">\n                        \u003Ca href=\"//www.vivo.com.cn\" role=\"link\" aria-label=\"vivo\" data-head-click-stat=\"cfrom=01|03|002|001&name=vivo\"> \u003C/a>\n                    \u003C/div>\n                    \u003Cdiv class=\"vp-head-site\">\n                        \u003Cdiv class=\"vp-head-site-wrap\">\n                            \u003Cdiv class=\"vp-head-site-navs\">\n                                \u003Cdiv class=\"vp-head-site-navs-container\">\n                                        \u003Cul class=\"vp-head-site-navs-7\">\n                                                \u003Cli >\n                                                    \u003Ca\n                                                        id=\"\" href=\"\"\n                                                        data-url=\"\"\n                                                        class=\"vp-vivo-head-\"\n                                                        data-head-click-stat=\"cfrom=01|03|002|003&name=X系列\">\u003Cspan\n                                                            class=\"main\">X系列\u003C/span>\u003Cspan\n                                                            class=\"sub\">X\u003C/span>\u003C/a>\n                                                \u003C/li>\n                                                \u003Cli >\n                                                    \u003Ca\n                                                        id=\"\" href=\"\"\n                                                        data-url=\"\"\n                                                        class=\"vp-vivo-head-\"\n                                                        data-head-click-stat=\"cfrom=01|03|002|003&name=S系列\">\u003Cspan\n                                                            class=\"main\">S系列\u003C/span>\u003Cspan\n                                                            class=\"sub\">S\u003C/span>\u003C/a>\n                                                \u003C/li>\n                                                \u003Cli >\n                                                    \u003Ca\n                                                        id=\"\" href=\"\"\n                                                        data-url=\"\"\n                                                        class=\"vp-vivo-head-\"\n                                                        data-head-click-stat=\"cfrom=01|03|002|003&name=Y系列\">\u003Cspan\n                                                            class=\"main\">Y系列\u003C/span>\u003Cspan\n                                                            class=\"sub\">Y\u003C/span>\u003C/a>\n                                                \u003C/li>\n                                                \u003Cli >\n                                                    \u003Ca\n                                                        id=\"\" href=\"\"\n                                                        data-url=\"\"\n                                                        class=\"vp-vivo-head-\"\n                                                        data-head-click-stat=\"cfrom=01|03|002|003&name=iQOO手机\">\u003Cspan\n                                                            class=\"main\">iQOO手机\u003C/span>\u003Cspan\n                                                            class=\"sub\">iQOO手机\u003C/span>\u003C/a>\n                                                \u003C/li>\n                                                \u003Cli >\n                                                    \u003Ca\n                                                        id=\"\" href=\"\"\n                                                        data-url=\"\"\n                                                        class=\"vp-vivo-head-\"\n                                                        data-head-click-stat=\"cfrom=01|03|002|003&name=智能硬件\">\u003Cspan\n                                                            class=\"main\">智能硬件\u003C/span>\u003Cspan\n                                                            class=\"sub\">智能硬件\u003C/span>\u003C/a>\n                                                \u003C/li>\n                                                \u003Cli >\n                                                    \u003Ca\n                                                        id=\"\" href=\"\"\n                                                        data-url=\"\"\n                                                        class=\"vp-vivo-head-\"\n                                                        data-head-click-stat=\"cfrom=01|03|002|003&name=商城\">\u003Cspan\n                                                            class=\"main\">商城\u003C/span>\u003Cspan\n                                                            class=\"sub\">商城\u003C/span>\u003C/a>\n                                                \u003C/li>\n                                                \u003Cli >\n                                                    \u003Ca\n                                                        id=\"\" href=\"\"\n                                                        data-url=\"\"\n                                                        class=\"vp-vivo-head-\"\n                                                        data-head-click-stat=\"cfrom=01|03|002|003&name=服务\">\u003Cspan\n                                                            class=\"main\">服务\u003C/span>\u003Cspan\n                                                            class=\"sub\">服务\u003C/span>\u003C/a>\n                                                \u003C/li>\n                                        \u003C/ul>\n                                \u003C/div>\n                            \u003C/div>\n                        \u003C/div>\n                    \u003C/div>\n                    \u003Cdiv class=\"vp-head-search-btn\">\n                        \u003Cdiv>\n                            \u003Cspan class=\"vp-head-search-open\">\u003C/span>\n                        \u003C/div>\n                    \u003C/div>\n                \u003C/div>\n            \u003C/div>\n            \u003Cdiv class=\"vp-head-wrap-wap vp-head-show-app\">\n                \u003Cdiv class=\"vp-head-wap-common-box\">\n                    \u003Cdiv class=\"vp-head-download common-header-suspended\">\n            \u003Cdiv data-head-click-stat=\"cfrom=04|03|062|062\" class=\"vp-head-download-click\">\n            \u003Cdiv class=\"vp-head-download-img\">\n                \u003Cimg class=\"vp-head-img-floating vp-head-lazyload\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=\" alt=\"官网APP\">\n                \u003Cimg class=\"vp-head-img-button vp-head-lazyload\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=\" alt=\"按钮\">\n            \u003C/div>\n            \u003Cdiv class=\"vp-head-download-wx\">\u003C/div>\n        \u003C/div>\n    \u003Cspan data-head-click-stat=\"cfrom=05|03|062|063\" class=\"vp-head-download-close\">\u003C/span>\n\n    \u003Cscript type=\"text/javascript\">\n        var vpHeaderFloat = {\n            pageBoundary: 720,\n            needDeeplink: (!window.H5Interface && 0) ? 1 : 0,\n            deeplinkUrl: '',\n            blockBrowser: 'DeviceType\\/tablet|UCBrowser|VivoSpace|AlipayClient|AliApp\\\\(AP|wxwork|miniProgram',\n            blockCid: 'toutiao_pz|tt-sem|w-1-kp-x70|xiaov',\n            blockCookie: 'DeviceType\\/tablet|UCBrowser|VivoSpace|AlipayClient|AliApp\\\\(AP|wxwork|miniProgram',\n            isVivo: '1',\n            target: 'vivoportal',\n            wxTokenSwitch: 'true',\n            imgObj: {\n                'vivoFloatingImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753166059999/88be9f038031c75c78c4ed227e6fbeb1.png',\n                'vivoButtonImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753166071502/28e0ff5547eab74a14c51ea9091a26d8.png',\n                'vivoDownLoadUrl': 'https://h5.vivo.com.cn/mall/download/index.html',\n                'floatingImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753168266859/c092cf0613b0504e542cd7cd948ff1d5.png',\n                'buttonImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753168290953/e3eb324e70b13ec24fa84a1ae9f2db19.png',\n                'downLoadUrl': 'https://h5.vivo.com.cn/mall/download/index.html',\n            }\n        }\n    \u003C/script>\n\u003C/div>\n                    \u003Cdiv class=\"vp-head-common\">\n                        \u003Cspan class=\"vp-head-left-feature\" role=\"button\" aria-label=\"菜单\" aria-expanded=\"false\">\u003C/span>\n                        \u003Cdiv class=\"vp-head-logo\" aria-label=\"vivo\">\n                            \u003Ca href=\"//www.vivo.com.cn\">\u003C/a>\n                        \u003C/div>\n                        \u003Cdiv class=\"vp-head-right-feature\">\n                            \u003Ca href=\"//www.vivo.com.cn/search/index\" class=\"vp-head-btns-search search-index-link\" aria-label=\"搜索\">\u003C/a>\n                                \u003Ca class=\"vp-head-btns-shop\" href=\"//shop.vivo.com.cn/\" aria-label=\"商城\"\n                                   data-head-click-stat=\"cfrom=1042\">\u003C/a>\n                        \u003C/div>\n                    \u003C/div>\n                \u003C/div>\n            \u003C/div>\n    \u003C/div>\n\u003C/div>\n\n\u003Cscript type=\"text/javascript\" id=\"vp-head-header-script\">\n    var vpHeader = {\n        pageType: 'responsive',\n        pageBoundary: 1199,\n        clientId: '30',\n        memberIsCus: false,\n        headerType: 0,\n        target: 'vivoportal',\n        ceilingType: 0,\n        showDownLink: 1,\n        darkWords: [],\n        headTheme: 'black'\n    };\n    var VP_Emmiter;\n\u003C/script>\n\u003Cstyle>\n\n\u003C/style>\n",{},[93,96],{"rel":94,"href":95},"stylesheet","//asia-exstatic.vivoglobal.com/static/bus/include/cn-header/dist/css/index_8c54916.css",{"rel":94,"href":97},"//asia-exstatic.vivoglobal.com/static/bus/common/css/vicon_eb95211.css",[],"https://www.vivo.com.cn","/vivo/sustainability",{"firstPath":102,"secondPath":104},{"name":-1,"url":103},"/products-undefined.html",{"name":31},"https://portalstatic-cn.vivo.com/",60,"https://passport.vivo.com.cn/v3/web/login/authorize?client_id=30&redirect_uri=https%3A%2F%2Fwww.vivo.com.cn%2Fvivo%2Fsustainability",["Set",109],"$g-eZeBzBAM",["ShallowReactive",111],{"$fLnJQMHBLTmdTqqHpg1HsW6PsUUhikdFrqj6FLq-cJYM":21,"$fVy-tfMFs9TJkLTP9Ei4aQgz5FSiC8jHUyw5zV-zQdlU":21}]</script>
+<script>window.__NUXT__={};window.__NUXT__.config={public:{},app:{baseURL:"/",buildId:"57c42470-b277-41f4-90d9-4b64f500e6c8",buildAssetsDir:"/_nuxt/",cdnURL:"https://portalstatic-cn.vivo.com/"}}</script><script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script nomodule crossorigin id="vite-legacy-polyfill" src="https://portalstatic-cn.vivo.com/_nuxt/BcP1sRmP-legacy.js"></script><script nomodule crossorigin id="vite-legacy-entry" data-src="https://portalstatic-cn.vivo.com/_nuxt/Cmt9O-JX-legacy.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script></body></html>

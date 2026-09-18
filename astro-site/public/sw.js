@@ -14,6 +14,8 @@ self.addEventListener('fetch', event => {
         'hm.baidu.com',
         'dsfs.oppo.com',
         'vivo.com.cn',
+        'iqoo.com',
+        'res.wx.qq.com',
         'hyperos.mi.com',
         'os1.hyperos.mi.com',
         'os2.hyperos.mi.com',
@@ -61,6 +63,33 @@ self.addEventListener('fetch', event => {
                 if (!response.ok) return fetch(`${basePath}/official_archives/www-file.honor.com${url.pathname}`);
                 return response;
             }).catch(() => fetch(event.request))
+        );
+        return;
+    }
+
+    if (url.pathname.startsWith('/zip/')) {
+        const scopeUrl = new URL(self.registration.scope);
+        const basePath = scopeUrl.pathname.replace(/\/$/, '');
+        const targetPath = `${basePath}/official_archives/wwwstatic.vivo.com.cn/vivoportal/files/resource/funtouch/1789652280489${url.pathname}`;
+        
+        event.respondWith(
+            fetch(targetPath).then(response => {
+                if (!response.ok) return fetch(event.request);
+                return response;
+            }).catch(() => fetch(event.request))
+        );
+        return;
+    }
+
+    const lowerPath = url.pathname.toLowerCase();
+    if (lowerPath.startsWith('/portal/open/api/') || lowerPath.startsWith('/header/login/') || lowerPath.startsWith('/eden/flyheart') || lowerPath.startsWith('/h5/monitor') || lowerPath.includes('vmonitor')) {
+        const cb = url.searchParams.get('callback') || url.searchParams.get('jsoncallback');
+        const body = cb ? `${cb}({"code":0,"data":{}})` : '{"code":0,"data":{}}';
+        event.respondWith(
+            new Response(body, {
+                status: 200,
+                headers: { 'Content-Type': cb ? 'application/javascript' : 'application/json' }
+            })
         );
         return;
     }

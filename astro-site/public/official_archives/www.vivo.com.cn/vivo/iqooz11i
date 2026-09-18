@@ -1,0 +1,968 @@
+<!DOCTYPE html><html  lang="zh-CN" class="extra-desktop-style"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>iQOO Z11i - vivo智能手机官方网站</title>
+<script src="https://portalstatic-cn.vivo.com/js/jquery-3.6.0.min.js" type="text/javascript" id="jquery-3.6.0.min-js"></script>
+<script src="https://portalstatic-cn.vivo.com/js/common.js" type="text/javascript" id="vivo-cn-common-js"></script>
+<script src="https://portalstatic-cn.vivo.com/js/buryingPoint.js" type="text/javascript" id="cn-buryingPoint-js"></script>
+<script src="https://portalstatic-cn.vivo.com/js/lib.js" type="text/javascript" id="vivo-cn-lib-js"></script>
+<script src="https://portalstatic-cn.vivo.com/js/cn-video-js.min.js" type="text/javascript" id="vivo-cn-video-js"></script>
+<style>:root { --brandColor: #415fff;--brandDarkColor: #546fff;--brandHoverColor: rgba(65, 95, 255, 0.73);--global-font-family: "vivoSansSC","VIVO-FONT-WEB-BOLD","VIVO-FONT-NAV-BOLD",sans-serif,微软雅黑; }</style>
+<style>true</style>
+<link rel="stylesheet" href="//asia-exstatic.vivoglobal.com/static/bus/include/cn-header/dist/css/index_8c54916.css">
+<link rel="stylesheet" href="//asia-exstatic.vivoglobal.com/static/bus/common/css/vicon_eb95211.css">
+<style>html,body{overflow: visible;}</style>
+<link rel="stylesheet" href="https://portalstatic-cn.vivo.com/css/cn-base.css" id="vivo-cn-base-css">
+<link rel="stylesheet" href="https://portalstatic-cn.vivo.com/css/cn-video-js.min.css" id="vivo-cn-video-js-css">
+<link rel="stylesheet" href="https://h5.vivo.com.cn/pcvivo/productCss/supplementProductCss.css" id="vivo-product-supplement-css">
+<link rel="stylesheet" href="https://portalstatic-cn.vivo.com/_nuxt/entry.B834TZnp.css" crossorigin>
+<link rel="stylesheet" href="https://portalstatic-cn.vivo.com/_nuxt/default.65LdwTmY.css" crossorigin>
+<link rel="stylesheet" href="https://portalstatic-cn.vivo.com/_nuxt/index.C7cftnEl.css" crossorigin>
+<link rel="stylesheet" href="https://portalstatic-cn.vivo.com/_nuxt/index.DMi5mYwm.css" crossorigin>
+<link rel="modulepreload" as="script" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/DliVVojO.js">
+<link rel="modulepreload" as="script" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/swY2moNO.js">
+<link rel="modulepreload" as="script" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/BWjUOQWb.js">
+<link rel="modulepreload" as="script" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/gz6Dlv0R.js">
+<link rel="modulepreload" as="script" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/CyfQnM1W.js">
+<link rel="modulepreload" as="script" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/B9CUtv_L.js">
+<link rel="preload" as="fetch" fetchpriority="low" crossorigin="anonymous" href="https://portalstatic-cn.vivo.com/_nuxt/builds/meta/57c42470-b277-41f4-90d9-4b64f500e6c8.json">
+<link rel="dns-prefetch" href="//asia-exstatic.vivoglobal.com">
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+<link rel="dns-prefetch" href="//asia-exstatic-vivofs.vivo.com">
+<link rel="prefetch" as="image" type="image/x-icon" href="https://portalstatic-cn.vivo.com/_nuxt/favicon-iqoo.D8dd7MA_.ico">
+<link rel="prefetch" as="style" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/noHF.D4URACS4.css">
+<link rel="prefetch" as="script" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/B40WWwIr.js">
+<link rel="prefetch" as="image" type="image/png" href="https://portalstatic-cn.vivo.com/_nuxt/wechat.DfvKeLMW.png">
+<link rel="prefetch" as="image" type="image/png" href="https://portalstatic-cn.vivo.com/_nuxt/vivo-miniProgram.BQ7dTvNJ.png">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta name="format-detection" content="telephone=no,email=no">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAAHdbkFIAAAAAXNSR0IArs4c6QAAB9tJREFUeAHtW2uoVUUUXvtopiREVkoJJZZWRPTETFLTq2FkBEU+ivAqGF41KqwgxbxZFpRRoal5Qa+Q+Cj8kVrS7ZoPKIOS+tHDLFNBQclukJRaelrf3nedvfbs9zl7n63g+nFmZs16zZrHnlkzxyKGEZPKf3HSE3kNlkV7rLBKISxxxscplUhBYMPW1s5MZyLlCoGunv8k0d//OJgKwchGIuG6+3aisU0GAYr3PeEQgVighKZI4eQpIl0JvIUfbmoZqQmfr7Is+CGwUogrRgrCTG0CsV5XCs4m0E0EESrF2K7CBcfMnc4GDyIa97RglavhGFQCfv/TSfEb24pIP7hywnOxGsJZnZqKHxc+77S+z6XRLAufcwcFKD0WNE0gemQM0ZkzRKOm+AWJ78XFPgHCEkQYhAsVgAphaN9F1DDYEa01OxijCYJMk9bejdA2srG8nAf91DSaeYyOaltltXt6IY0Am9ai7ZVxkJoZDGUaXpsAlpGdAPT75vdgVzSArn2lS1OxABO+x4VEC9Rkd8mcnAyu8c+4NRUBslLedYtbqXMD+7klvWBUBKBalhrR5LIQLWt2SuZw9gjQkq+5ymVvW+HkP9ji4iTnEQCkaGiZLyREXTqplq51cZKrrJqCQApNWBd0U0SwpkPeZwGQpqYDh4ENhtrmAssMtCBYVzAWAjqCq+KxXS0aaC8oDY3loWfKtCOeJVOKDv7+9rKqWYyyNKOUdiXMUjlk1TwIajWocAN8M3kIr2avGEti2CyOa/04Xg2m8W5BgykrcCLz1tKzaEPA2Gm8ez2hRUXn179FdNklLs2e34iaXnLLkgvsAuxLTUs3LSN6+F5hi06xBmrlc94OVg4pgR7Q4pe8SHR9fxdz9BjRhFluWee6dyP6eLnG8LZoMn+8IzbagR7QIqbPJ0ILBHrz9lGv8oJ/sMGvHF6MUg7eWA+IgqBxMYb3Uqf+JVr9BtEVlwsl0U/7iGB4EkhsgAgLar3UIZ3Ng2/XdxoTnY/tApMdbh2ndiVS/8sBZ+CmUQ7e1B4QhVmlJexysxJWjRxLmEY0lrdhsyvlvFPsBdparb0VA0ZPKjectuhdnjbX5aj8OM+mNVtbLT7bO2AbwGfyP7ioFk6pzi8tWTSsvdXaWbJdX2flaJbswAqdBdwdLanXgSw7hcfbxEIN4Mb0LNqA83vC4j3g25TiAI9vP2D390TP8re+WkDsa8WrztkfMnb/wPJe90rzDUJRDrLbbuRPL+9sq4U1b7rKIWPDp35JPgMkTiCk5rZa8HGpGe1AFOSLb/1cPgMQZ8AWWgO22GmgR3ciM1ryAMdcg8BnAIjM/Tu22DrMEiRI4zYu0SUnZBG2OQ00AOx6J4yyhGmQjwKcHUqGVDPkofkNUrfqS+4vieMLFrH9OJjxqJfCHFPe2pjTsdlvuDvozuG0MFjLo14Dtuc6dqXrJB/qARCg38zg1salwupNERjDoUVDkrNBpAEQZvYfgmY4BZmgA2uoM8eQSS/lWANAaPbjU48Lu5PiWkMDxg7GUBJIZAD6Ef2pAccxQLcL3GsTB0Nkjh3BB6WJDACj2Z84C87hmMGWFq/Y9Z/EH0g1R2IDwIRznwa5kdC4Zet0KT6fygCc+6LiprjJSwupDIDwybOJcBA1AQdW3BSmhUK35TA2tQfStjCOvlADePOzp1ADupRpRgnH5Dg35VTfgdu3Es7odTeCb+0QqkfDKvEBFEY3lgf8R9RSz0AF9NYNuOF8DJgKp4tO2wF2w8v0FSPrGqMQIwpIO3jU3WlHiBAZ4l7/rAAjCleJ+GAJYbHCLSnIALQdN2Z5xgQLaloytWh7od+hZGbmS3XeAfn69+yXfn4EnP19lK+FvvioqW7FAqJ+fU2sW/55v3NexhO+egLCX7jNjorZ7T9ENGVOtFWxUwACdn4TLgQGIFgU9xAyXEL6GuiCzqjGw+a4xkNzrANANG8R0aLVyAUDXr8hGD30juD6LLHQYQa+TfmwFTYngVQhgWs5/Le02X3SFqRgQxvR4ghnBfEkxc18jOih0eHUp3kaNjVzzORgOI1Zk8oBYEZwdiXfe0QN+b0ctIEhfB+aCfDFLi2ZFz3kjxzjgNELRCdSBoYSTQHdihMniSbOItrxtcZ68wOuduaofrvjpUhegoy4+Q5bYFPaxsOK1A4Q05sX87rwvpT8Ka5pcLUz5FZ/XVIMnpFBBmSFAWyALdVC6ilgKkqyLuCKwYzym3LMsryQN/FSrma+C69Oa3YAhOHF2MrXoteFH/cRzXw5Pm6Oa9LFc4lu6K/N9Oarne9eKU6p6imghWHuxa0LaNBHfHnY62LN6c2jDjRRja9lvnu1OaVMHCCC49aFi3oQffgO0aCbhMNNgUMdaMKg1vkeJDeTKWAKTrsuJJnv05qJfj1oaqq9nIsDYFaSdSGJ+VnO9yB9mU4BrUDWhU3bNDZdHrzVft+TasptBGgD+vYhwr/HonaPmh69jlc1h45obD75ujhAmz74ZqL7hxNdyU7pbd/NEB3lV5OHubGbt6d7+avlVpuvuwOqNTQvPqwBx/MSfg7IPY4/4645BwzNxUS0nTee/M6kzi+3c2lNWqG4IW617rE/g3aGH1OzjI60cs5B+g48HEebYbs9AsxGdD6lH8/4YXx91JfTyD/Wm/xnURnP9Q+xPTv4NcQ6PEgwbfsf5DA3HXM0nG0AAAAASUVORK5CYII=">
+<meta name="keywords" content="iqoo，iqoo z11，iqoo z11i，6500mAh 蓝海大电池，SGS五星抗跌耐摔认证，第二代骁龙4，120Hz 护眼电竞屏">
+<meta name="description" content="6500mAh 蓝海大电池，SGS五星抗跌耐摔认证，第二代骁龙4，120Hz 护眼电竞屏">
+<meta name="robots" content>
+<meta name="facebook-domain-verification" content="0q2ryjis6o0fzvez07tvvutzgde34a">
+<meta name="google-site-verification" content="E-7gZJW4cW6Cf7VJQpdOKF6gQ6mwyrfguXubRyJSW4M">
+<script type="text/javascript">
+        var sZeus = document.createElement('script');
+        sZeus.onload = sZeus.onreadystatechange = function () {
+          if (!this.readyState || this.readyState === 'loaded' || this.readyState === 'complete') {
+            sZeus.onload = sZeus.onreadystatechange = null;
+            window.VMonitor && window.VMonitor.init({
+              id: 'lsYkPuCe',  // 页面应用id
+              reportRender: false,  // 手动性能上报
+              zeusEnv: 'prd',  // zeusEnv：环境区分。prod：生产；test：测试；pre:预发
+              branchName: 'master'  // branchName: 业务代码git分支名
+            });
+          }
+        };
+        sZeus.src = '//sentinelapi.vivo.com.cn/jssdk/vmonitor.min.js';
+        document.head.appendChild(sZeus);
+      </script>
+<link rel="stylesheet" href="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1782973717183/css/product.css" id="vivo-overview-css-1">
+<link rel="stylesheet" href="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1782973717183/css/webfonts.css" id="vivo-overview-css-2">
+<link rel="stylesheet" href="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1782973717183/css/app.css" id="vivo-overview-css-3">
+<link rel="stylesheet" href="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1782973717183/css/video-js.min.css" id="vivo-overview-css-4">
+<script id="vivo-cn-global-var">var gloablVAR = {
+          videoMaskTheme: "white",
+          pageTAG: 3,
+          h5SdkSwitch: "true",
+        };</script>
+<script id="vivo-product-image-host">var IMAGE_HOST = "https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1782973717183/";</script>
+<script type="module" src="https://portalstatic-cn.vivo.com/_nuxt/DliVVojO.js" crossorigin></script><script type="module">import.meta.url;import("_").catch(()=>1);(async function*(){})().next();if(location.protocol!="file:"){window.__vite_is_modern_browser=true}</script><script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy chunks, syntax error above and the same error below should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script></head><body><!--teleport start anchor--><!----><!--teleport anchor--><div id="__nuxt"><div class="app"><!--[--><header id="gw_header" class="new-head-wrap"><!----><div class="mini-head"><div id="vivo-head-wrap"
+     class="vp-head   vp-head-theme-black"
+     >
+    <div id="cn-head-theme"></div>
+    <div class="vp-head-wrap">
+            <div class="vp-head-wrap-pc">
+                <div class="vp-head-topbar-pc">
+                    <div>
+                        <ul class="vp-head-topbar-navs">
+                                <li><a href=""
+                                       data-head-click-stat="cfrom=01|03|002|003&name=品牌">品牌</a>
+                                </li>
+                                <li><a href=""
+                                       data-head-click-stat="cfrom=01|03|002|003&name=OriginOS">OriginOS</a>
+                                </li>
+                                <li><a href=""
+                                       data-head-click-stat="cfrom=01|03|002|003&name=体验店">体验店</a>
+                                </li>
+                                <li><a href=""
+                                       data-head-click-stat="cfrom=01|03|002|003&name=官网社区">官网社区</a>
+                                </li>
+                        </ul>
+                        <div class="vp-head-top-user">
+                                <a href="https://shopact.vivo.com.cn/pcspace/wk221129f1431101"
+                                   class="vp-vivo-app">
+                                    <span>下载APP</span>
+                                </a>
+                            <a class="vp-user-shopcart" href="https://shop.vivo.com.cn/shoppingcart"
+                               data-head-click-stat="cfrom=01|03|002|002&position=1"></a>
+                            <div class="vp-user-login-box">
+                                <span class="vp-head-member-login">个人中心</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vp-head-mainbar-pc" >
+                    <div class="vp-head-logo">
+                        <a href="//www.vivo.com.cn" role="link" aria-label="vivo" data-head-click-stat="cfrom=01|03|002|001&name=vivo"> </a>
+                    </div>
+                    <div class="vp-head-site">
+                        <div class="vp-head-site-wrap">
+                            <div class="vp-head-site-navs">
+                                <div class="vp-head-site-navs-container">
+                                        <ul class="vp-head-site-navs-7">
+                                                <li >
+                                                    <a
+                                                        id="" href=""
+                                                        data-url=""
+                                                        class="vp-vivo-head-"
+                                                        data-head-click-stat="cfrom=01|03|002|003&name=X系列"><span
+                                                            class="main">X系列</span><span
+                                                            class="sub">X</span></a>
+                                                </li>
+                                                <li >
+                                                    <a
+                                                        id="" href=""
+                                                        data-url=""
+                                                        class="vp-vivo-head-"
+                                                        data-head-click-stat="cfrom=01|03|002|003&name=S系列"><span
+                                                            class="main">S系列</span><span
+                                                            class="sub">S</span></a>
+                                                </li>
+                                                <li >
+                                                    <a
+                                                        id="" href=""
+                                                        data-url=""
+                                                        class="vp-vivo-head-"
+                                                        data-head-click-stat="cfrom=01|03|002|003&name=Y系列"><span
+                                                            class="main">Y系列</span><span
+                                                            class="sub">Y</span></a>
+                                                </li>
+                                                <li >
+                                                    <a
+                                                        id="" href=""
+                                                        data-url=""
+                                                        class="vp-vivo-head-"
+                                                        data-head-click-stat="cfrom=01|03|002|003&name=iQOO手机"><span
+                                                            class="main">iQOO手机</span><span
+                                                            class="sub">iQOO手机</span></a>
+                                                </li>
+                                                <li >
+                                                    <a
+                                                        id="" href=""
+                                                        data-url=""
+                                                        class="vp-vivo-head-"
+                                                        data-head-click-stat="cfrom=01|03|002|003&name=智能硬件"><span
+                                                            class="main">智能硬件</span><span
+                                                            class="sub">智能硬件</span></a>
+                                                </li>
+                                                <li >
+                                                    <a
+                                                        id="" href=""
+                                                        data-url=""
+                                                        class="vp-vivo-head-"
+                                                        data-head-click-stat="cfrom=01|03|002|003&name=商城"><span
+                                                            class="main">商城</span><span
+                                                            class="sub">商城</span></a>
+                                                </li>
+                                                <li >
+                                                    <a
+                                                        id="" href=""
+                                                        data-url=""
+                                                        class="vp-vivo-head-"
+                                                        data-head-click-stat="cfrom=01|03|002|003&name=服务"><span
+                                                            class="main">服务</span><span
+                                                            class="sub">服务</span></a>
+                                                </li>
+                                        </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vp-head-search-btn">
+                        <div>
+                            <span class="vp-head-search-open"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vp-head-wrap-wap vp-head-show-app">
+                <div class="vp-head-wap-common-box">
+                    <div class="vp-head-download common-header-suspended">
+            <div data-head-click-stat="cfrom=04|03|062|062" class="vp-head-download-click">
+            <div class="vp-head-download-img">
+                <img class="vp-head-img-floating vp-head-lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" alt="官网APP">
+                <img class="vp-head-img-button vp-head-lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" alt="按钮">
+            </div>
+            <div class="vp-head-download-wx"></div>
+        </div>
+    <span data-head-click-stat="cfrom=05|03|062|063" class="vp-head-download-close"></span>
+
+    <script type="text/javascript">
+        var vpHeaderFloat = {
+            pageBoundary: 720,
+            needDeeplink: (!window.H5Interface && 0) ? 1 : 0,
+            deeplinkUrl: '',
+            blockBrowser: 'DeviceType\/tablet|UCBrowser|VivoSpace|AlipayClient|AliApp\\(AP|wxwork|miniProgram',
+            blockCid: 'toutiao_pz|tt-sem|w-1-kp-x70|xiaov',
+            blockCookie: 'DeviceType\/tablet|UCBrowser|VivoSpace|AlipayClient|AliApp\\(AP|wxwork|miniProgram',
+            isVivo: '1',
+            target: 'vivoportal',
+            wxTokenSwitch: 'true',
+            imgObj: {
+                'vivoFloatingImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753166059999/88be9f038031c75c78c4ed227e6fbeb1.png',
+                'vivoButtonImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753166071502/28e0ff5547eab74a14c51ea9091a26d8.png',
+                'vivoDownLoadUrl': 'https://h5.vivo.com.cn/mall/download/index.html',
+                'floatingImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753168266859/c092cf0613b0504e542cd7cd948ff1d5.png',
+                'buttonImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753168290953/e3eb324e70b13ec24fa84a1ae9f2db19.png',
+                'downLoadUrl': 'https://h5.vivo.com.cn/mall/download/index.html',
+            }
+        }
+    </script>
+</div>
+                    <div class="vp-head-common">
+                        <span class="vp-head-left-feature" role="button" aria-label="菜单" aria-expanded="false"></span>
+                        <div class="vp-head-logo" aria-label="vivo">
+                            <a href="//www.vivo.com.cn"></a>
+                        </div>
+                        <div class="vp-head-right-feature">
+                            <a href="//www.vivo.com.cn/search/index" class="vp-head-btns-search search-index-link" aria-label="搜索"></a>
+                                <a class="vp-head-btns-shop" href="//shop.vivo.com.cn/" aria-label="商城"
+                                   data-head-click-stat="cfrom=1042"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+
+<script type="text/javascript" id="vp-head-header-script">
+    var vpHeader = {
+        pageType: 'responsive',
+        pageBoundary: 1199,
+        clientId: '30',
+        memberIsCus: false,
+        headerType: 0,
+        target: 'vivoportal',
+        ceilingType: 0,
+        showDownLink: 1,
+        darkWords: [],
+        headTheme: 'black'
+    };
+    var VP_Emmiter;
+</script>
+<style>
+
+</style>
+</div></header><main><!--[--><div class="product-detail is-cn" data-v-0e028e03><!--[--><div class="product-nav-bar-box public" data-v-02af7faf><div id="series-id" class="product-nav-bar" data-name="iQOO Z11i" data-theme="white" data-v-02af7faf><div class="nav-bar-wrap" data-v-02af7faf><div class="product-name-list" data-v-02af7faf><div class="pc-name-box" data-v-02af7faf><!--[--><span class="active" data-v-02af7faf><a href="javascript:;" data-v-02af7faf>iQOO Z11i</a></span><span class="" data-v-02af7faf><a href="/vivo/iqooz11s/" data-v-02af7faf>iQOO Z11S</a></span><span class="" data-v-02af7faf><a href="/vivo/iqooz11x/" data-v-02af7faf>iQOO Z11x</a></span><span class="" data-v-02af7faf><a href="/vivo/iqooz11/" data-v-02af7faf>iQOO Z11</a></span><span class="" data-v-02af7faf><a href="/vivo/iqooz11turbo/" data-v-02af7faf>iQOO Z11 Turbo</a></span><!--]--></div></div><div class="product-controls" data-v-02af7faf><ul class="product-tabs" data-v-02af7faf><!--[--><li class="active" data-v-02af7faf><a href="javascript:;" data-v-02af7faf>产品概览</a></li><!----><!----><li class="" data-v-02af7faf><a href="https://www.vivo.com.cn/vivo/param/iqooz11i" data-v-02af7faf>规格参数</a></li><!--]--></ul><!--[--><button class="buy-btn" data-v-02af7faf>立即购买</button><!--]--></div></div></div></div><!--teleport start--><!--teleport end--><!--]--><div id="vivo-product-resource" class="cn-iqooz11i" data-v-0e028e03><div id="vivo-product-wrap" class="unvisible J_replace_content"> 
+ <div style="display:none"></div> 
+ <div class="product-main-wrapper"> 
+  <div class="product-main-content"> 
+   <div class="umx-stage iqooz11i-nav umx-dark-mode"> 
+    <div class="umx-progress"> 
+     <ul> 
+      <li class="umx-li1"> <a> <p uimix-text="iqooz11i-nav-1" class="umx-li1-p">性能</p> </a> 
+       <div class="umx-line"> 
+        <div class="umx-line-c umx-line-c1"></div> 
+       </div> </li> 
+      <li class="umx-li2"> <a> <p uimix-text="iqooz11i-nav-2" class="umx-li2-p">体验</p> </a> 
+       <div class="umx-line"> 
+        <div class="umx-line-c umx-line-c2"></div> 
+       </div> </li> 
+      <li class="umx-li3"> <a> <p uimix-text="iqooz11i-nav-3" class="umx-li3-p">外观</p> </a> 
+       <div class="umx-line"> 
+        <div class="umx-line-c umx-line-c3"></div> 
+       </div> </li> 
+      <li class="umx-li4"> <a> <p uimix-text="iqooz11i-nav-4" class="umx-li4-p">影像</p> </a> 
+       <div class="umx-line"> 
+        <div class="umx-line-c umx-line-c4"></div> 
+       </div> </li> 
+      <li class="umx-li5"> <a> <p uimix-text="iqooz11i-nav-4" class="umx-li5-p">OS</p> </a> </li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div class="umx-stage iqooz11i-kv umx-dark-mode" data-track="{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'1','total':'21'}}"> 
+    <div class="umx-figure-box"> 
+     <div class="umx-video-box"> 
+      <div class="umx-kv-video umx-kv-video-video1"></div> 
+      <img class="umx-kv-video-img umx-kv-video-img1" src alt> 
+     </div> 
+     <figure class="umx-f1 lazy-imageom"></figure> 
+    </div> 
+   </div> 
+   <div class="umx-stage iqooz11i-ksp umx-dark-mode" data-track="{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'2','total':'21'}}"> 
+    <div class="umx-figure-box"> 
+     <div class="umx-figure umx-figure1 umx-data-speed"> 
+      <a href> 
+       <figure class="umx-f1 lazy-imageom"></figure> 
+       <div class="umx-txt-box"> 
+        <strong uimix-text="iqooz11i-ksp-1">6500mAh 蓝海大电池<sup>1</sup> &nbsp;<br class="umx-mb-show">5 年长久耐用</strong> 
+        <p uimix-text="iqooz11i-ksp-2">长效续航，时刻尽兴</p> 
+       </div> </a> 
+     </div> 
+     <div class="umx-figure umx-figure2 umx-data-speed"> 
+      <a href> 
+       <figure class="umx-f2 lazy-imageom"></figure> 
+       <div class="umx-txt-box"> 
+        <strong uimix-text="iqooz11i-ksp-3">高通第二代骁龙 4</strong> 
+        <p uimix-text="iqooz11i-ksp-4">强劲 5G，稳定流畅</p> 
+       </div> </a> 
+     </div> 
+     <div class="umx-figure umx-figure3 umx-data-speed"> 
+      <a href> 
+       <figure class="umx-f3 lazy-imageom"></figure> 
+       <div class="umx-txt-box"> 
+        <strong uimix-text="iqooz11i-ksp-5">120Hz 护眼电竞屏</strong> 
+        <p uimix-text="iqooz11i-ksp-6">莱茵低蓝光认证</p> 
+       </div> </a> 
+     </div> 
+     <div class="umx-figure umx-figure4 umx-data-speed"> 
+      <a href> 
+       <figure class="umx-f4 lazy-imageom"></figure> 
+       <div class="umx-txt-box"> 
+        <strong uimix-text="iqooz11i-ksp-7">IP65 <br class="umx-mb-show">防尘抗水<sup>6</sup></strong> 
+        <p uimix-text="iqooz11i-ksp-8">防护有度，<br class="umx-mb-show">安心随行</p> 
+       </div> </a> 
+     </div> 
+     <div class="umx-figure umx-figure5 umx-data-speed"> 
+      <a href> 
+       <figure class="umx-f5 lazy-imageom"></figure> 
+       <div class="umx-txt-box"> 
+        <strong uimix-text="iqooz11i-ksp-9">SGS 五星整机<br class="umx-mb-hide">抗跌耐摔认证<sup>7</sup></strong> 
+        <p uimix-text="iqooz11i-ksp-10">经得起磕碰，<br class="umx-mb-show">日常放心用</p> 
+       </div> </a> 
+     </div> 
+     <div class="umx-figure umx-figure6 umx-data-speed"> 
+      <a href> 
+       <figure class="umx-f6 lazy-imageom"></figure> 
+       <div class="umx-txt-box"> 
+        <strong uimix-text="iqooz11i-ksp-11">经典外观</strong> 
+        <p uimix-text="iqooz11i-ksp-12">耐看气质，<br class="umx-mb-show">舒适握感</p> 
+       </div> </a> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="umx-content-progress1"> 
+    <div class="umx-stage iqooz11i-chapter1 umx-dark-mode" data-track="{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'3','total':'21'}}"> 
+     <div class="umx-chapter-box"> 
+      <figure class="umx-f1 umx-data-speed lazy-imageom"></figure> 
+     </div> 
+    </div> 
+    <div class="umx-stage iqooz11i-battery umx-dark-mode" data-track="{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'4','total':'21'}}"> 
+     <div class="umx-section umx-s1"> 
+      <div class="umx-title umx-data-speed"> 
+       <p uimix-text="iqooz11i-battery-1" class="umx-vice-title umx-linear">6500mAh 蓝海大电池<sup>1</sup></p> 
+       <p uimix-text="iqooz11i-battery-2" class="umx-main-title">能量充沛，尽兴每刻</p> 
+       <p uimix-text="iqooz11i-battery-3" class="umx-intro">超长续航实力，助你减少外出电量焦虑，使用更安心。</p> 
+      </div> 
+     </div> 
+     <div class="umx-figure"> 
+      <figure class="umx-f1 umx-data-speed-figure lazy-imageom"></figure> 
+     </div> 
+     <p uimix-text="iqooz11i-battery-4" class="umx-innertips">*广告创意，请以实物为准。</p> 
+     <ul class="umx-data-items umx-data-speed-pc"> 
+      <li class="umx-li1 umx-data-speed-wap"> 
+       <div class="umx-strong-box"> 
+        <strong class="umx-42" uimix-text="iqooz11i-battery-5">21 小时<sup>2</sup></strong> 
+        <p class="umx-17" uimix-text="iqooz11i-battery-6">播放短视频约</p> 
+       </div> </li> 
+      <li class="umx-li1 umx-data-speed-wap"> 
+       <div class="umx-strong-box"> 
+        <strong class="umx-42" uimix-text="iqooz11i-battery-7">9.7 小时<sup>2</sup></strong> 
+        <p class="umx-17" uimix-text="iqooz11i-battery-8">超长导航约</p> 
+       </div> </li> 
+      <li class="umx-li1 umx-data-speed-wap"> 
+       <div class="umx-strong-box"> 
+        <strong class="umx-42" uimix-text="iqooz11i-battery-9">32 小时<sup>2</sup></strong> 
+        <p class="umx-17" uimix-text="iqooz11i-battery-10">连续通话约</p> 
+       </div> </li> 
+      <li class="umx-li1 umx-data-speed-wap"> 
+       <div class="umx-strong-box"> 
+        <strong class="umx-42" uimix-text="iqooz11i-battery-11">约 4 小时待机<sup>2</sup></strong> 
+        <p class="umx-17" uimix-text="iqooz11i-battery-12">1% 低电应急</p> 
+       </div> </li> 
+      <li class="umx-li1 umx-data-speed-wap"> 
+       <div class="umx-strong-box"> 
+        <strong class="umx-42" uimix-text="iqooz11i-battery-13">约 20 分钟通话<sup>2</sup></strong> 
+        <p class="umx-17" uimix-text="iqooz11i-battery-14">1% 低电应急</p> 
+       </div> </li> 
+     </ul> 
+    </div> 
+    <div class="umx-stage iqooz11i-durable umx-dark-mode" data-track="{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'5','total':'21'}}"> 
+     <div class="umx-section umx-s1"> 
+      <div class="umx-title umx-data-speed"> 
+       <p uimix-text="iqooz11i-durable-1" class="umx-vice-title umx-linear">电池 5 年长久耐用<sup>3</sup></p> 
+       <p uimix-text="iqooz11i-durable-2" class="umx-main-title">持久耐用，依然好用</p> 
+       <p uimix-text="iqooz11i-durable-3" class="umx-intro">软硬件全面加持，在 vivo 实验室常温下实现 1600 次充放电循环后电池健康度仍不低于 80%，<br class="umx-mb-hide">模拟日常（1.2 天 1 次满充满放）约等于使用 5 年，久用也好用。</p> 
+      </div> 
+     </div> 
+     <div class="umx-figure"> 
+      <figure class="umx-f1 lazy-imageom"></figure> 
+      <figure class="umx-f2 lazy-imageom"></figure> 
+      <figure class="umx-f3 lazy-imageom"></figure> 
+     </div> 
+     <div class="umx-section umx-s2"> 
+      <div class="umx-title umx-data-speed"> 
+       <p uimix-text="iqooz11i-durable-4" class="umx-main-title umx-main-46">自研电池健康算法</p> 
+      </div> 
+     </div> 
+     <ul class="umx-data-items umx-data-speed-pc"> 
+      <li class="umx-li1 umx-data-speed-wap"> 
+       <div class="umx-icon umx-icon1 lazy-imageom"></div> 
+       <div class="umx-strong-box"> 
+        <strong uimix-text="iqooz11i-durable-5" class="umx-25">夜充保护</strong> 
+        <p uimix-text="iqooz11i-durable-6" class="umx-17">智能学习睡眠习惯，<br class="umx-mb-show">避免过充。</p> 
+       </div> </li> 
+      <li class="umx-li1 umx-data-speed-wap"> 
+       <div class="umx-icon umx-icon2 lazy-imageom"></div> 
+       <div class="umx-strong-box"> 
+        <strong uimix-text="iqooz11i-durable-7" class="umx-25">长充保护</strong> 
+        <p uimix-text="iqooz11i-durable-8" class="umx-17">智能识别手机长时间充电，<br class="umx-mb-hide">自动开启长充保护。</p> 
+       </div> </li> 
+      <li class="umx-li1 umx-data-speed-wap"> 
+       <div class="umx-icon umx-icon3 lazy-imageom"></div> 
+       <div class="umx-strong-box"> 
+        <strong uimix-text="iqooz11i-durable-9" class="umx-25">高温保护</strong> 
+        <p uimix-text="iqooz11i-durable-10" class="umx-17">智能调节充电电流大小，<br class="umx-mb-hide">调控手机温升。</p> 
+       </div> </li> 
+      <li class="umx-li1 umx-data-speed-wap"> 
+       <div class="umx-icon umx-icon4 lazy-imageom"></div> 
+       <div class="umx-strong-box"> 
+        <strong uimix-text="iqooz11i-durable-11" class="umx-25">电池健康度显示</strong> 
+        <p uimix-text="iqooz11i-durable-12" class="umx-17">随时掌控电池<br class="umx-mb-show">健康情况。</p> 
+       </div> </li> 
+     </ul> 
+    </div> 
+    <div class="umx-stage iqooz11i-cpu umx-dark-mode" data-track="{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'6','total':'21'}}"> 
+     <div class="umx-section umx-s1"> 
+      <div class="umx-title umx-data-speed"> 
+       <p uimix-text="iqooz11i-cpu-1" class="umx-vice-title umx-linear">高通第二代骁龙 4</p> 
+       <p uimix-text="iqooz11i-cpu-2" class="umx-main-title">强劲 5G，稳定流畅</p> 
+       <p uimix-text="iqooz11i-cpu-3" class="umx-intro">搭载高通第二代骁龙 4 芯片，兼具低功耗与高性能，带来强劲、<br class="umx-mb-hide">稳定的 5G 体验，多任务处理和基础运算能力持久高效释放。</p> 
+      </div> 
+     </div> 
+     <div class="umx-figure"> 
+      <figure class="umx-f1 lazy-imageom"></figure> 
+     </div> 
+    </div> 
+    <div class="umx-stage iqooz11i-screen umx-dark-mode" data-track="{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'7','total':'21'}}"> 
+     <div class="umx-section umx-s1"> 
+      <div class="umx-title umx-data-speed"> 
+       <p uimix-text="iqooz11i-screen-1" class="umx-vice-title umx-linear">120Hz 护眼电竞屏*</p> 
+       <p uimix-text="iqooz11i-screen-2" class="umx-main-title">莱茵低蓝光认证</p> 
+       <p uimix-text="iqooz11i-screen-3" class="umx-intro">通过莱茵低蓝光专业测试认证，有效过滤有害蓝光，无论室内、室外、强光、暗光，都能带来舒适的体验。</p> 
+      </div> 
+     </div> 
+     <div class="umx-figure"> 
+      <figure class="umx-f1 umx-data-speed-figure lazy-imageom"></figure> 
+     </div> 
+     <p uimix-text="iqooz11i-screen-16" class="umx-innertips umx-innertips1 umx-data-speed-wap">*游戏画面为广告创意，仅供参考，请以实际体验为准。</p> 
+     <ul class="umx-data-items umx-data-speed-pc"> 
+      <li class="umx-li1 umx-data-speed-wap umx-order-mb-1"> 
+       <div class="umx-strong-box"> 
+        <strong class="umx-42" uimix-text="iqooz11i-screen-4">6.74</strong> 
+        <p class="umx-17" uimix-text="iqooz11i-screen-5">英寸<sup>4</sup></p> 
+       </div> </li> 
+      <li class="umx-li1 umx-data-speed-wap umx-order-mb-5"> 
+       <div class="umx-strong-box"> 
+        <strong class="umx-42" uimix-text="iqooz11i-screen-6">HBM 1200 nits</strong> 
+        <p class="umx-17" uimix-text="iqooz11i-screen-7">超高亮度<sup>5</sup></p> 
+       </div> </li> 
+      <li class="umx-li1 umx-data-speed-wap umx-order-mb-2"> 
+       <div class="umx-strong-box"> 
+        <strong class="umx-42" uimix-text="iqooz11i-screen-8">120Hz*</strong> 
+        <p class="umx-17" uimix-text="iqooz11i-screen-9">高刷新率</p> 
+       </div> </li> 
+      <li class="umx-li1 umx-data-speed-wap umx-order-mb-3"> 
+       <div class="umx-strong-box"> 
+        <strong class="umx-42" uimix-text="iqooz11i-screen-10">深色模式</strong> 
+        <p class="umx-17" uimix-text="iqooz11i-screen-11">省电、护眼</p> 
+       </div> </li> 
+      <li class="umx-li1 umx-data-speed-wap umx-order-mb-6"> 
+       <div class="umx-strong-box"> 
+        <strong class="umx-42 strong-bottom" uimix-text="iqooz11i-screen-12">真 DC 无频闪调光</strong> 
+       </div> </li> 
+      <li class="umx-li1 umx-data-speed-wap umx-order-mb-4"> 
+       <div class="umx-strong-box"> 
+        <strong class="umx-42 strong-bottom" uimix-text="iqooz11i-screen-13">类纸显示*</strong> 
+       </div> </li> 
+      <li class="umx-li1 umx-data-speed-wap umx-order-mb-7"> 
+       <div class="umx-strong-box"> 
+        <div class="umx-icon umx-icon1 lazy-imageom"></div> 
+        <p class="umx-17" uimix-text="iqooz11i-screen-15">专业护眼模式 <br class="umx-mb-hide">莱茵低蓝光认证*</p> 
+       </div> </li> 
+     </ul> 
+     <p uimix-text="iqooz11i-screen-16" class="umx-innertips umx-innertips2 umx-data-speed-wap">*120Hz 仅部分场景支持，请以实际体验为准。本产品非医疗器械，不具有疾病治疗功能，护眼是指通过多维度技术以实现缓解眼部疲劳、降低眼部不适感。<br>*类纸显示开启路径为：“设置-快捷与辅助-无障碍-色彩和动画-色彩校正-色彩校正-灰度模式”，可以实现类纸显示效果。<br>*在打开护眼模式，护眼效果设置最强条件下通过了 TÜV 莱茵低蓝光认证。</p> 
+    </div> 
+   </div> 
+   <div class="umx-content-progress2"> 
+    <div class="umx-stage iqooz11i-chapter2 umx-dark-mode" data-track="{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'8','total':'21'}}"> 
+     <div class="umx-chapter-box"> 
+      <figure class="umx-f2 umx-data-speed lazy-imageom"></figure> 
+     </div> 
+    </div> 
+    <div class="umx-stage iqooz11i-water umx-dark-mode" data-track="{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'9','total':'21'}}"> 
+     <div class="umx-section"> 
+      <div class="umx-title umx-data-speed"> 
+       <p uimix-text="iqooz11i-water-0" class="umx-vice-title umx-linear">IP65 级防尘抗水<sup>6</sup></p> 
+       <p uimix-text="iqooz11i-water-1" class="umx-main-title">防护有度，安心随行</p> 
+       <p uimix-text="iqooz11i-water-2" class="umx-intro">可应对沙尘环境与日常雨淋、泼溅，日常使用超安心。</p> 
+      </div> 
+     </div> 
+     <div class="umx-figure"> 
+      <figure class="umx-f1 umx-data-speed-figure lazy-imageom"></figure> 
+     </div> 
+     <p uimix-text="iqooz11i-water-31" class="umx-innertips">*广告创意，本产品非专业防水手机，请以实际使用为准。</p> 
+    </div> 
+    <div class="umx-stage iqooz11i-structure umx-dark-mode" data-track="{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'10','total':'21'}}"> 
+     <div class="umx-section umx-s1"> 
+      <div class="umx-title"> 
+       <div class="umx-title-box umx-data-speed"> 
+        <p uimix-text="iqooz11i-structure-1" class="umx-vice-title umx-linear">SGS 五星整机抗跌耐摔认证<sup>7</sup></p> 
+        <p uimix-text="iqooz11i-structure-2" class="umx-main-title">四重防护，<br class="umx-mb-hide">不止一面抗摔</p> 
+        <p uimix-text="iqooz11i-structure-3" class="umx-intro">从内到外采用四重防护，经过严苛高度、严苛次数及多角度跌落测试，真正做到抗刮又抗摔，非常耐用。</p> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="umx-figure"> 
+      <figure class="umx-f1 umx-data-speed-figure lazy-imageom"></figure> 
+     </div> 
+     <p uimix-text="iqooz11i-battery-31" class="umx-innertips">*广告创意，手机作为精密电子产品，跌落仍有损坏风险，请注意避免碰撞、跌落。</p> 
+     <ul class="umx-data-items umx-data-items2 umx-data-speed-pc"> 
+      <li class="umx-li1 umx-data-speed-wap"> 
+       <div class="umx-icon umx-icon1 lazy-imageom"></div> 
+       <div class="umx-strong-box"> 
+        <strong class="umx-25" uimix-text="iqooz11i-structure-4">金刚抗摔保护膜</strong> 
+        <p class="umx-17" uimix-text="iqooz11i-structure-5">多层加厚，稳定抗摔。</p> 
+       </div> </li> 
+      <li class="umx-li1 umx-data-speed-wap"> 
+       <div class="umx-icon umx-icon2 lazy-imageom"></div> 
+       <div class="umx-strong-box"> 
+        <strong class="umx-25" uimix-text="iqooz11i-structure-6">屏幕金刚盾玻璃</strong> 
+        <p class="umx-17" uimix-text="iqooz11i-structure-7">0.68T 超厚钢化玻璃</p> 
+       </div> </li> 
+      <li class="umx-li1 umx-data-speed-wap"> 
+       <div class="umx-icon umx-icon3 lazy-imageom"></div> 
+       <div class="umx-strong-box"> 
+        <strong class="umx-25" uimix-text="iqooz11i-structure-8">金刚磐石架构</strong> 
+        <p class="umx-17" uimix-text="iqooz11i-structure-9">采用加强缓震设计，<br class="umx-mb-show">全方位防摔。</p> 
+       </div> </li> 
+      <li class="umx-li1 umx-data-speed-wap"> 
+       <div class="umx-icon umx-icon4 lazy-imageom"></div> 
+       <div class="umx-strong-box"> 
+        <strong class="umx-25" uimix-text="iqooz11i-structure-10">抗摔手机壳</strong> 
+        <p class="umx-17" uimix-text="iqooz11i-structure-11">新增安全气囊设计，<br class="umx-mb-show">防护更强。</p> 
+       </div> </li> 
+     </ul> 
+    </div> 
+    <div class="umx-stage iqooz11i-test umx-dark-mode" data-track="{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'11','total':'21'}}"> 
+     <div class="umx-section umx-s1"> 
+      <div class="umx-title umx-data-speed"> 
+       <p uimix-text="iqooz11i-test-1" class="umx-main-title">严苛测试，依旧耐用</p> 
+      </div> 
+     </div> 
+     <div class="umx-figure-box umx-data-speed-pc"> 
+      <div class="umx-figure umx-data-speed-wap"> 
+       <figure class="umx-f1 lazy-imageom"></figure> 
+       <ul class="umx-data-items umx-data-items1"> 
+        <li class="umx-li1"> <strong uimix-text="iqooz11i-test-9">频繁使用</strong> </li> 
+        <li class="umx-li1"> <strong class="umx-32" uimix-text="iqooz11i-test-10">10000 次</strong> <p class="umx-14" uimix-text="iqooz11i-test-11">USB 插拔<sup>8</sup></p> </li> 
+        <li class="umx-li1 li-left"> <strong class="umx-32" uimix-text="iqooz11i-test-12">70000 次</strong> <p class="umx-14" uimix-text="iqooz11i-test-13">音量键按压<sup>8</sup></p> </li> 
+        <li class="umx-li1"> <strong class="umx-32" uimix-text="iqooz11i-test-14">150000 次</strong> <p class="umx-14" uimix-text="iqooz11i-test-15">电源键按压<sup>8</sup></p> </li> 
+       </ul> 
+      </div> 
+      <div class="umx-figure umx-data-speed-wap"> 
+       <figure class="umx-f2 lazy-imageom"></figure> 
+       <ul class="umx-data-items umx-data-items2"> 
+        <li class="umx-li1"> <strong uimix-text="iqooz11i-test-16">严苛环境工作</strong> </li> 
+        <li class="umx-li1"> <strong class="umx-32" uimix-text="iqooz11i-test-17">-20℃</strong> <p class="umx-14" uimix-text="iqooz11i-test-18">严苛低温下仍可工作<sup>9</sup></p> </li> 
+        <li class="umx-li1 li-left"> <strong class="umx-32" uimix-text="iqooz11i-test-19">50℃</strong> <p class="umx-14" uimix-text="iqooz11i-test-20">严苛高温下仍可工作<sup>9</sup></p> </li> 
+       </ul> 
+      </div> 
+     </div> 
+     <p uimix-text="iqooz11i-battery-21" class="umx-innertips">*手机作为精密电子产品，请勿长期在超低 / 超高温环境下使用。</p> 
+    </div> 
+    <div class="umx-stage iqooz11i-life umx-dark-mode" data-track="{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'12','total':'21'}}"> 
+     <div class="umx-section umx-s1"> 
+      <div class="umx-title umx-data-speed"> 
+       <p uimix-text="iqooz11i-life-1" class="umx-main-title">智能又好用，生活更简单</p> 
+      </div> 
+     </div> 
+     <ul class="umx-data-items umx-data-items2"> 
+      <li class="umx-li1 umx-data-speed"> 
+       <figure class="umx-f2 lazy-imageom"></figure> 
+       <div class="umx-strong-box"> 
+        <strong class="umx-36" uimix-text="iqooz11i-life-4">呼吸灯提醒</strong> 
+        <p class="umx-17" uimix-text="iqooz11i-life-5">搭配灵动 RGB 呼吸灯，<br class="umx-mb-hide">不错过每一个电话和每一条讯息。</p> 
+       </div> </li> 
+      <li class="umx-li1 umx-data-speed"> 
+       <figure class="umx-f1 lazy-imageom"></figure> 
+       <div class="umx-strong-box"> 
+        <strong class="umx-36" uimix-text="iqooz11i-life-2">红外遥控</strong> 
+        <p class="umx-17" uimix-text="iqooz11i-life-3">手机能当遥控器，支持操控 <br class="umx-mb-hide">3000+ 个品牌家居设备。</p> 
+       </div> </li> 
+      <li class="umx-data-speed"> 
+       <div class="umx-icon umx-icon1 lazy-imageom"></div> 
+       <div class="umx-strong-box"> 
+        <strong class="umx-36" uimix-text="iqooz11i-life-6">湿手油手双触控</strong> 
+       </div> </li> 
+      <li class="umx-data-speed"> 
+       <div class="umx-icon umx-icon2 lazy-imageom"></div> 
+       <div class="umx-strong-box"> 
+        <strong class="umx-36" uimix-text="iqooz11i-life-7">5<span>×</span> 超级手电筒</strong> 
+       </div> </li> 
+      <li class="umx-data-speed"> 
+       <div class="umx-icon umx-icon3 lazy-imageom"></div> 
+       <div class="umx-strong-box"> 
+        <strong class="umx-36" uimix-text="iqooz11i-life-8">150% 大音量</strong> 
+       </div> </li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div class="umx-content-progress3"> 
+    <div class="umx-stage iqooz11i-color" data-track="{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'13','total':'21'}}"> 
+     <div class="umx-section umx-s1"> 
+      <div class="umx-title umx-data-speed"> 
+       <p uimix-text="iqooz11i-color-1" class="umx-main-title umx-main-title1 umx-active">经典设计<span class="umx-comma">，</span><br class="umx-mb-show">一眼舒适</p> 
+       <p uimix-text="iqooz11i-color-2" class="umx-main-title umx-main-title2">经典设计<span class="umx-comma">，</span><br class="umx-mb-show">一眼舒适</p> 
+       <p uimix-text="iqooz11i-color-3" class="umx-main-title umx-main-title3">经典设计<span class="umx-comma">，</span><br class="umx-mb-show">一眼舒适</p> 
+      </div> 
+     </div> 
+     <div class="swiper-container-color-box"> 
+      <div class="swiper-container-color"> 
+       <div class="umx-figure-box swiper-wrapper"> 
+        <div class="umx-figure umx-figure1 swiper-slide"> 
+         <figure class="umx-f1 lazy-imageom"></figure> 
+        </div> 
+        <div class="umx-figure umx-figure2 swiper-slide"> 
+         <figure class="umx-f2 lazy-imageom"></figure> 
+        </div> 
+        <div class="umx-figure umx-figure3 swiper-slide"> 
+         <figure class="umx-f3 lazy-imageom"></figure> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="color-button-box"> 
+      <ul class="swiper-pagination-color"> 
+       <li class="umx-active swiper-pagination-bullet"> 
+        <div class="button-color color-golden active1"> 
+         <svg xmlns="http://www.w3.org/2000/svg" width="42" height="47" viewbox="0 0 42 47" fill="none"> 
+          <rect x="1" y="1" width="40" height="45" rx="12" stroke="url(#paint0_linear_678_5100)" stroke-width="2" /> 
+          <defs> 
+           <lineargradient id="paint0_linear_678_5100" x1="3.35011" y1="9.24177e-07" x2="46.7359" y2="47.9427" gradientunits="userSpaceOnUse"> 
+            <stop stop-color="#CAE4FF" /> 
+            <stop offset="1" stop-color="#84A5C6" /> 
+           </lineargradient> 
+          </defs> 
+         </svg> 
+        </div> 
+        <div class="umx-icon umx-icon1"></div> </li> 
+       <li class="umx-active swiper-pagination-bullet"> 
+        <div class="button-color"> 
+         <svg xmlns="http://www.w3.org/2000/svg" width="42" height="47" viewbox="0 0 42 47" fill="none"> 
+          <rect x="1" y="1" width="40" height="45" rx="12" stroke="url(#paint0_linear_535_2721)" stroke-width="2" /> 
+          <rect x="1" y="1" width="40" height="45" rx="12" stroke="url(#paint1_linear_535_2721)" stroke-width="2" /> 
+          <defs> 
+           <lineargradient id="paint0_linear_535_2721" x1="3.35011" y1="9.24177e-07" x2="46.7359" y2="47.9427" gradientunits="userSpaceOnUse"> 
+            <stop stop-color="#CAE4FF" /> 
+            <stop offset="1" stop-color="#84A5C6" /> 
+           </lineargradient> 
+           <lineargradient id="paint1_linear_535_2721" x1="36.4737" y1="47" x2="0.311387" y2="3.91301" gradientunits="userSpaceOnUse"> 
+            <stop stop-color="#BAA595" /> 
+            <stop offset="1" stop-color="#F9F6F4" /> 
+           </lineargradient> 
+          </defs> 
+         </svg> 
+        </div> 
+        <div class="umx-icon umx-icon2"></div> </li> 
+       <li class="swiper-pagination-bullet"> 
+        <div class="button-color"> 
+         <svg xmlns="http://www.w3.org/2000/svg" width="42" height="47" viewbox="0 0 42 47" fill="none"> 
+          <rect x="1" y="1" width="40" height="45" rx="12" stroke="url(#paint2_linear_535_2735)" stroke-width="2" /> 
+          <defs> 
+           <lineargradient id="paint2_linear_535_2735" x1="57" y1="68" x2="-1.6971" y2="6.35142" gradientunits="userSpaceOnUse"> 
+            <stop stop-color="#151625" /> 
+            <stop offset="1" stop-color="#69708F" /> 
+           </lineargradient> 
+          </defs> 
+         </svg> 
+        </div> 
+        <div class="umx-icon umx-icon3"></div> </li> 
+      </ul> 
+      <div class="umx-txt-box"> 
+       <strong uimix-text="iqooz11i-color-4" class="umx-active"><span>青峰</span></strong> 
+       <strong uimix-text="iqooz11i-color-5"><span>沙漠金</span></strong> 
+       <strong uimix-text="iqooz11i-color-6"><span>墨影</span></strong> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="umx-stage iqooz11i-design umx-stage_sticky" data-track="{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'14','total':'21'}}"> 
+     <div class="umx-stickyBox"> 
+      <div class="umx-figure-current-box"> 
+       <div class="umx-figure-current umx-data-speed"> 
+        <div class="umx-figure-box umx-design-wrapper"> 
+         <div class="umx-design-box swiper-wrapper"> 
+          <div class="umx-figure umx-figure1 swiper-slide"> 
+           <div class="umx-figure-center"> 
+            <div class="umx-txt-box"> 
+             <strong class="umx-36" uimix-text="iqooz11i-design-1">经典双镜组</strong> 
+             <p class="umx-17" uimix-text="iqooz11i-adesigni-2">简约大气，经典耐看。</p> 
+            </div> 
+            <div class="umx-f-box umx-f-box1"> 
+             <figure class="umx-f1 lazy-imageom"></figure> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="umx-figure umx-figure2 swiper-slide"> 
+           <div class="umx-figure-center"> 
+            <div class="umx-txt-box"> 
+             <strong class="umx-36" uimix-text="iqooz11i-design-3">利落直立中框</strong> 
+             <p class="umx-17" uimix-text="iqooz11i-adesigni-4">握持舒适，取放自如。</p> 
+            </div> 
+            <div class="umx-f-box"> 
+             <figure class="umx-f2 lazy-imageom"></figure> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="umx-figure umx-figure3 swiper-slide"> 
+           <div class="umx-figure-center"> 
+            <div class="umx-txt-box"> 
+             <strong class="umx-36" uimix-text="iqooz11i-design-5">灵动呼吸灯环</strong> 
+             <p class="umx-17" uimix-text="iqooz11i-adesigni-6">重要讯息，不错过。</p> 
+            </div> 
+            <div class="umx-f-box"> 
+             <figure class="umx-f3 lazy-imageom"></figure> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="swiper-monster-line"> 
+       <div class="swiper-pagination-box"> 
+        <div class="swiper-pagination swiper-pagination-design"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="umx-content-progress4"> 
+    <div class="umx-stage iqooz11i-chapter4" data-track="{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'15','total':'21'}}"> 
+     <div class="umx-chapter-box umx-chapter-box4"> 
+      <div class="umx-section umx-data-speed"> 
+       <div class="umx-title"> 
+        <p uimix-text="iqooz11i-chapter4-1" class="umx-main-title">超清实力<span class="umx-comma">，</span><br class="umx-mb-show">一拍即美</p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="umx-stage iqooz11i-camera" data-track="{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'16','total':'21'}}"> 
+     <div class="umx-figure umx-data-speed"> 
+      <div class="line-box"> 
+       <div class="umx-txt-box txt-box1"> 
+        <p uimix-text="iqooz11i-camera-1" class="umx-42">红外遥控模组</p> 
+        <i class="umx-line1"></i> 
+       </div> 
+       <div class="umx-txt-box txt-box2"> 
+        <strong uimix-text="iqooz11i-camera-2" class="umx-42">1300 万像素</strong> 
+        <p uimix-text="iqooz11i-camera-3" class="umx-17">主摄镜头</p> 
+        <i class="umx-line2"></i> 
+       </div> 
+       <div class="umx-txt-box txt-box3"> 
+        <strong uimix-text="iqooz11i-camera-4" class="umx-42">500 万像素</strong> 
+        <p uimix-text="iqooz11i-camera-5" class="umx-17">前置镜头</p> 
+        <i class="umx-line3"></i> 
+       </div> 
+      </div> 
+      <figure class="umx-f1 lazy-imageom"></figure> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="umx-content-progress5"> 
+    <div class="umx-stage iqooz11i-os-top" data-track="{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'17','total':'21'}}"> 
+     <div class="umx-figure umx-data-speed"> 
+      <figure class="umx-f1 lazy-imageom"></figure> 
+     </div> 
+    </div> 
+    <div class="umx-stage iqooz11i-os umx-stage_sticky"> 
+     <div class="umx-section"> 
+      <div class="umx-title umx-data-speed"> 
+       <p uimix-text="iqooz11-os-1" class="umx-vice-title umx-linear">简易模式 2.0</p> 
+       <p uimix-text="iqooz11-os-2" class="umx-main-title">清爽界面，用机更简单</p> 
+      </div> 
+     </div> 
+     <div class="umx-stickyBox"> 
+      <div class="umx-figure-current-box"> 
+       <div class="umx-figure-current umx-data-speed"> 
+        <div class="umx-figure-box umx-os-wrapper"> 
+         <div class="umx-os-box swiper-wrapper"> 
+          <div class="umx-figure umx-figure1 swiper-slide"> 
+           <div class="umx-figure-center"> 
+            <div class="umx-txt-box"> 
+             <strong class="umx-36" uimix-text="iqooz11i-os-3">更简洁的焕新桌面</strong> 
+             <p class="umx-17" uimix-text="iqooz11i-os-4">字体加粗更清晰，桌面布局更清爽。</p> 
+            </div> 
+            <div class="umx-f-box umx-f-box1"> 
+             <figure class="umx-f1 lazy-imageom"></figure> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="umx-figure umx-figure2 swiper-slide"> 
+           <div class="umx-figure-center"> 
+            <div class="umx-txt-box"> 
+             <strong class="umx-36" uimix-text="iqooz11i-os-5">更高效的常用操作</strong> 
+             <p class="umx-17" uimix-text="iqooz11i-os-6">扫码、付款、手电筒一键直达。</p> 
+            </div> 
+            <div class="umx-f-box"> 
+             <figure class="umx-f2 lazy-imageom"></figure> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="umx-figure umx-figure3 swiper-slide"> 
+           <div class="umx-figure-center"> 
+            <div class="umx-txt-box"> 
+             <strong class="umx-36" uimix-text="iqooz11i-os-7">更周全的安全守护</strong> 
+             <p class="umx-17" uimix-text="iqooz11i-os-8">默认拦截开屏摇一摇广告跳转和管控外部来源应用安装，<br class="umx-mb-hide">智能拦截骚扰来电。</p> 
+            </div> 
+            <div class="umx-f-box"> 
+             <figure class="umx-f3 lazy-imageom"></figure> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="umx-figure umx-figure4 swiper-slide"> 
+           <div class="umx-figure-center"> 
+            <div class="umx-txt-box"> 
+             <strong class="umx-36" uimix-text="iqooz11i-os-9">更贴心的家人关怀</strong> 
+             <p class="umx-17" uimix-text="iqooz11i-os-10">远程协助家人解决用机问题，位置动态随时掌握，<br class="umx-mb-hide">安全风险及时提醒，家人用机更安心。</p> 
+            </div> 
+            <div class="umx-f-box"> 
+             <figure class="umx-f4 lazy-imageom"></figure> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="swiper-monster-line"> 
+       <div class="swiper-pagination-box"> 
+        <div class="swiper-pagination swiper-pagination-os"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="umx-stage iqooz11i-child" data-track="{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'18','total':'21'}}"> 
+     <div class="umx-section umx-s1"> 
+      <div class="umx-title"> 
+       <div class="umx-title-box umx-data-speed"> 
+        <p uimix-text="iqooz11i-child-1" class="umx-vice-title umx-linear">孩子守护</p> 
+        <p uimix-text="iqooz11i-child-2" class="umx-main-title">守护孩子健康用机</p> 
+        <p uimix-text="iqooz11i-child-3" class="umx-intro">精准管控游戏等应用时长，培养自律习惯；实时提醒不当用机环境或用机姿势；更有实时位置共享，相伴安心出行。</p> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="umx-figure umx-data-speed"> 
+      <figure class="umx-f1 lazy-imageom"></figure> 
+     </div> 
+    </div> 
+    <div class="umx-stage iqooz11i-memory" data-track="{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'19','total':'21'}}"> 
+     <div class="umx-figure-box"> 
+      <figure class="umx-f1 lazy-imageom"></figure> 
+      <figure class="umx-icon1 lazy-imageom"></figure> 
+      <figure class="umx-icon2 lazy-imageom"></figure> 
+      <figure class="umx-icon3 lazy-imageom"></figure> 
+      <figure class="umx-icon4 lazy-imageom"></figure> 
+      <figure class="umx-icon5 lazy-imageom"></figure> 
+      <figure class="umx-icon6 lazy-imageom"></figure> 
+      <figure class="umx-icon7 lazy-imageom"></figure> 
+      <figure class="umx-icon8 lazy-imageom"></figure> 
+      <figure class="umx-icon9 lazy-imageom"></figure> 
+     </div> 
+     <div class="umx-section"> 
+      <div class="umx-title umx-data-speed"> 
+       <p uimix-text="iqooz11i-memory-0" class="umx-vice-title umx-linear">50 个月流畅<sup>10</sup></p> 
+       <p uimix-text="iqooz11i-memory-1" class="umx-main-title">长久用，也好用</p> 
+       <p uimix-text="iqooz11i-memory-2" class="umx-intro">自研运存算法全新升级，运行更流畅，存储更从容，至高支持<br class="umx-mb-hide">（8GB + 8GB）+ 256GB，实现超 50 个月持久流畅。</p> 
+      </div> 
+     </div> 
+     <ul class="umx-data-items umx-data-speed-pc"> 
+      <li class="umx-li1 umx-data-speed-wap"> 
+       <div class="umx-svg umx-svg1 lazy-imageom"></div> 
+       <div class="umx-strong-box"> 
+        <strong uimix-text="iqooz11i-memory-4" class="umx-linear">内存扩容，体验跃升<sup>11</sup></strong> 
+        <strong uimix-text="iqooz11i-memory-5" class="umx-42">至高（8GB + 8GB）</strong> 
+        <p uimix-text="iqooz11i-memory-6" class="umx-17">开启内存融合后，至高 19 个 app 后台同开。</p> 
+       </div> </li> 
+      <li class="umx-li1 umx-data-speed-wap"> 
+       <div class="umx-svg umx-svg2 lazy-imageom"></div> 
+       <div class="umx-strong-box"> 
+        <strong uimix-text="iqooz11i-memory-7" class="umx-linear">存储压缩，空间更大<sup>11</sup></strong> 
+        <strong uimix-text="iqooz11i-memory-8" class="umx-42">至高多存 20GB</strong> 
+        <p uimix-text="iqooz11i-memory-9" class="umx-17">至高存储 6.5 万张照片 ｜ 至高安装 128 个游戏</p> 
+       </div> </li> 
+     </ul> 
+    </div> 
+    <div class="umx-stage iqooz11i-packlist" data-track="{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'20','total':'21'}}"> 
+     <div class="umx-section"> 
+      <div class="umx-title umx-data-speed"> 
+       <p uimix-text="iqooz11i-packlist-1" class="umx-main-title">包装清单</p> 
+       <p uimix-text="iqooz11i-packlist-2" class="umx-intro">手机 × 1、充电器 × 1、数据线 × 1、快速入门指南 × 1、取卡针 × 1、手机保护壳 × 1</p> 
+      </div> 
+     </div> 
+     <div class="umx-figure-box umx-current"> 
+      <figure class="umx-f7 lazy-imageom"></figure> 
+      <figure class="umx-f6 lazy-imageom"></figure> 
+      <figure class="umx-f5 lazy-imageom"></figure> 
+      <figure class="umx-f4 lazy-imageom"></figure> 
+      <figure class="umx-f3 lazy-imageom"></figure> 
+      <figure class="umx-f2 lazy-imageom"></figure> 
+      <figure class="umx-f1 lazy-imageom"></figure> 
+     </div> 
+     <p class="umx-innertips" uimix-text="iqooz11i-packlist-4">*手机出厂时已贴好原装屏幕保护膜。以上包装清单仅供参考，产品配色以实际购买为准。</p> 
+    </div> 
+   </div> 
+   <div class="umx-stage umx-stage-tips" data-track="{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'21','total':'21'}}"> 
+    <div class="umx-tip-content"> 
+     <h4 uimix-text="iqooz11i-tips-0">备注：</h4> 
+     <ul class="umx-case"> 
+      <li uimix-text="iqooz11i-tips-1">本产品采用单电芯设计：典型容量：6500mAh（3.91V），典型能量：25.42Wh；额定容量：6355mAh（3.91V），额定能量：24.85Wh。</li> 
+      <li uimix-text="iqooz11i-tips-2">数据源自 vivo 实验室，通话、待机测试场景：Wi-Fi 网络、熄屏，音量 63dB；其他测试场景：Wi-Fi 网络、屏幕亮度 150 nits，音量 63dB；实际情况因测试环境、测试软件等不同而略有差异，请以实际体验为准。</li> 
+      <li uimix-text="iqooz11i-tips-3">电池健康数据源自 vivo 实验室，常温下 1600 次循环后剩余容量 ≥80%，按实验室模拟用户日常（1.2 天 1 次满充满放），约等于使用 5 年。实际会因为测试设备、测试环境、个人使用方式与习惯等不同而产生差异。</li> 
+      <li uimix-text="iqooz11i-tips-4">屏幕尺寸为按照标准矩形测量的屏幕直角对角线的长度，实际可视区域略小。</li> 
+      <li uimix-text="iqooz11i-tips-5">手机屏幕触发 HBM 模式，亮度至高可达 1200 nits。数据源自 vivo 实验室，请以实际使用情况为准。</li> 
+      <li uimix-text="iqooz11i-tips-6">数据源自 vivo 实验室，生活场景与实验环境存在差异，请以实际体验为准。该机型并非专业防水手机，在正常使用状态下可防溅、防尘，在受控实验室条件下经测试，其效果在 GB/T4208-2017（国内）标准下达到 IP65 级别。防溅、防尘功能并非永久有效，防护性能可能会因日常磨损而下降。请勿在潮湿状态下为手机充电；请参阅手机内置使用说明了解清洁和干燥说明。由于浸入液体而导致的损坏不在保修范围之内。</li> 
+      <li uimix-text="iqooz11i-tips-7">获得 SGS 五星整机抗跌耐摔认证，测试项目包含多角度跌落测试、严苛高度抗摔和严苛次数抗摔。实际体验可能会因使用环境条件，测试设置不同存在差异，请以实际体验为准。手机属于精密电子产品，手机跌落、碰撞仍有损坏风险，日常使用需注意避免跌落、碰撞。</li> 
+      <li uimix-text="iqooz11i-tips-8">数据源自 vivo 实验室，实际体验可能会因使用环境条件，测试设置不同存在差异。</li> 
+      <li uimix-text="iqooz11i-tips-9">数据源自 vivo 实验室，严苛温度下的可靠性测试为：手机在严苛温度下长时间放置，直至稳定达到目标温度后，测试手机的基础功能。实际情况因测试环境、测试软件等不同而略有差异，请以实际体验为准。</li> 
+      <li uimix-text="iqooz11i-tips-10">数据源自 vivo 实验室，采用 8GB + 256GB 内存版本测试，50 个月持久流畅非指绝对流畅不卡顿，因机器老化、网络环境、个人使用习惯等因素不同，体验可能有所差异，请以实际体验为准。</li> 
+      <li uimix-text="iqooz11i-tips-11">数据源自 vivo 实验室，实际效果与应用大小、数量、用机时长有关，请以实际体验为准。内存融合技术可实现部分 ROM 空间调度给 RAM 使用，8GB + 256GB、8GB + 128GB 版本通过内存融合技术，至高可达到扩展 8GB 运行内存的效果，6GB + 128GB 版本通过内存融合技术至高可达到扩展 6GB 运行内存的效果，请以实际使用效果为准。由于手机系统和预装的程序占据了部分运存、存储空间，实际可用空间少于标识值，至高可节省 20GB 存储空间，超清照片约 4MB / 张计算，游戏约 2GB / 款计算，请以实际使用体验为准。</li> 
+      <li class="umx-xh umx-xh-mt" uimix-text="iqooz11i-tips-bottom-0"><span>* </span>以上页面中产品效果（包括但不限于外观、颜色、尺寸、结构图）和屏幕显示内容（包括但不限于背景、UI、配图）为广告创意展示，部分图片由 AI 生成，仅供示意参考，请以实物为准。</li> 
+      <li class="umx-xh umx-xh-mt" uimix-text="iqooz11i-tips-bottom-1"><span>* </span>数据源自 vivo 实验室，受产品配置和制造工艺、测量方法的影响，实际产品尺寸可能有所差异，请以实物为准。</li> 
+      <li class="umx-xh" uimix-text="iqooz11i-tips-bottom-2"><span>* </span>如无特殊备注说明，以上页面的数据及参数为 vivo 实验室标准环境下的测试结果，实际使用中可能因产品软件版本、设备状况、个体差异、使用习惯和环境因素不同而有所差异，请以实际使用情况为准。</li> 
+      <li class="umx-xh" uimix-text="iqooz11i-tips-bottom-3"><span>* </span>由于产品的某些规格、参数、零部件、外观细节可能因供应商更换或生产批次等原因发生变化，vivo 将根据调整实时更新页面内的描述，请以实际使用的情况为准。</li> 
+      <li class="umx-xh" uimix-text="iqooz11i-tips-bottom-5"><span>* </span>全新支持未成年人模式，保护未成年人用机网络安全，请前往“设置”&gt;“健康使用设备”&gt;“未成年人模式”开启。</li> 
+     </ul> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+ <div class="product-detail-wrapper clear-transform"></div> 
+ <i class="expand-container-mask"></i> 
+ <div class="expand-container-button ec-botton-close"> 
+  <div class="ec-button-wrapper ec-close-btn"> 
+   <a href="#"> <b class="iconfont-symbol-products ico-symbol-close1"></b> </a> 
+  </div> 
+ </div> 
+ <script>var _hmt=_hmt||[];!function(){var e=document.createElement("script");e.src="https://hm.baidu.com/hm.js?9ef7debb81babe8b94af7f2c274869fd";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}()</script> 
+</div></div></div><!--]--><span></span></main><!----><!--]--></div></div><div id="teleports"></div><script src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1782973717183/script/product.js" type="text/javascript" id="vivo-overview-js-1"></script>
+<script src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1782973717183/script/gsap.min.js" type="text/javascript" id="vivo-overview-js-2"></script>
+<script src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1782973717183/script/ScrollTrigger.min.js" type="text/javascript" id="vivo-overview-js-3"></script>
+<script src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1782973717183/script/stickyfill.min.js" type="text/javascript" id="vivo-overview-js-4"></script>
+<script src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1782973717183/script/swiper-bundle.min.js" type="text/javascript" id="vivo-overview-js-5"></script>
+<script src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1782973717183/script/app.js" type="text/javascript" id="vivo-overview-js-6"></script>
+<script type="application/json" data-nuxt-data="nuxt-app" data-ssr="true" id="__NUXT_DATA__">[["ShallowReactive",1],{"data":2,"state":58,"once":127,"_errors":129,"serverRendered":44,"path":119},["ShallowReactive",3],{"$fUIXiM6PMqSZGb72wLViI5cZF2JwOvHRQN-nr3YPdNmk":4,"$fBT1orxdgR8Fx5lKsQ1dAFvqHeb1lAIqhvmWHTn5k7TU":26},{"success":5,"code":6,"msg":7,"data":8},"1","200","success",{"pageResource":9,"cssArray":10,"jsArray":15,"watermark":22,"navigationFontColor":23,"resourceDomain":24,"vivoPortal3D":25},"\u003Cdiv id=\"vivo-product-wrap\" class=\"unvisible J_replace_content\"> \n \u003Cdiv style=\"display:none\">\u003C/div> \n \u003Cdiv class=\"product-main-wrapper\"> \n  \u003Cdiv class=\"product-main-content\"> \n   \u003Cdiv class=\"umx-stage iqooz11i-nav umx-dark-mode\"> \n    \u003Cdiv class=\"umx-progress\"> \n     \u003Cul> \n      \u003Cli class=\"umx-li1\"> \u003Ca> \u003Cp uimix-text=\"iqooz11i-nav-1\" class=\"umx-li1-p\">性能\u003C/p> \u003C/a> \n       \u003Cdiv class=\"umx-line\"> \n        \u003Cdiv class=\"umx-line-c umx-line-c1\">\u003C/div> \n       \u003C/div> \u003C/li> \n      \u003Cli class=\"umx-li2\"> \u003Ca> \u003Cp uimix-text=\"iqooz11i-nav-2\" class=\"umx-li2-p\">体验\u003C/p> \u003C/a> \n       \u003Cdiv class=\"umx-line\"> \n        \u003Cdiv class=\"umx-line-c umx-line-c2\">\u003C/div> \n       \u003C/div> \u003C/li> \n      \u003Cli class=\"umx-li3\"> \u003Ca> \u003Cp uimix-text=\"iqooz11i-nav-3\" class=\"umx-li3-p\">外观\u003C/p> \u003C/a> \n       \u003Cdiv class=\"umx-line\"> \n        \u003Cdiv class=\"umx-line-c umx-line-c3\">\u003C/div> \n       \u003C/div> \u003C/li> \n      \u003Cli class=\"umx-li4\"> \u003Ca> \u003Cp uimix-text=\"iqooz11i-nav-4\" class=\"umx-li4-p\">影像\u003C/p> \u003C/a> \n       \u003Cdiv class=\"umx-line\"> \n        \u003Cdiv class=\"umx-line-c umx-line-c4\">\u003C/div> \n       \u003C/div> \u003C/li> \n      \u003Cli class=\"umx-li5\"> \u003Ca> \u003Cp uimix-text=\"iqooz11i-nav-4\" class=\"umx-li5-p\">OS\u003C/p> \u003C/a> \u003C/li> \n     \u003C/ul> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"umx-stage iqooz11i-kv umx-dark-mode\" data-track=\"{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'1','total':'21'}}\"> \n    \u003Cdiv class=\"umx-figure-box\"> \n     \u003Cdiv class=\"umx-video-box\"> \n      \u003Cdiv class=\"umx-kv-video umx-kv-video-video1\">\u003C/div> \n      \u003Cimg class=\"umx-kv-video-img umx-kv-video-img1\" src alt> \n     \u003C/div> \n     \u003Cfigure class=\"umx-f1 lazy-imageom\">\u003C/figure> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"umx-stage iqooz11i-ksp umx-dark-mode\" data-track=\"{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'2','total':'21'}}\"> \n    \u003Cdiv class=\"umx-figure-box\"> \n     \u003Cdiv class=\"umx-figure umx-figure1 umx-data-speed\"> \n      \u003Ca href> \n       \u003Cfigure class=\"umx-f1 lazy-imageom\">\u003C/figure> \n       \u003Cdiv class=\"umx-txt-box\"> \n        \u003Cstrong uimix-text=\"iqooz11i-ksp-1\">6500mAh 蓝海大电池\u003Csup>1\u003C/sup> &nbsp;\u003Cbr class=\"umx-mb-show\">5 年长久耐用\u003C/strong> \n        \u003Cp uimix-text=\"iqooz11i-ksp-2\">长效续航，时刻尽兴\u003C/p> \n       \u003C/div> \u003C/a> \n     \u003C/div> \n     \u003Cdiv class=\"umx-figure umx-figure2 umx-data-speed\"> \n      \u003Ca href> \n       \u003Cfigure class=\"umx-f2 lazy-imageom\">\u003C/figure> \n       \u003Cdiv class=\"umx-txt-box\"> \n        \u003Cstrong uimix-text=\"iqooz11i-ksp-3\">高通第二代骁龙 4\u003C/strong> \n        \u003Cp uimix-text=\"iqooz11i-ksp-4\">强劲 5G，稳定流畅\u003C/p> \n       \u003C/div> \u003C/a> \n     \u003C/div> \n     \u003Cdiv class=\"umx-figure umx-figure3 umx-data-speed\"> \n      \u003Ca href> \n       \u003Cfigure class=\"umx-f3 lazy-imageom\">\u003C/figure> \n       \u003Cdiv class=\"umx-txt-box\"> \n        \u003Cstrong uimix-text=\"iqooz11i-ksp-5\">120Hz 护眼电竞屏\u003C/strong> \n        \u003Cp uimix-text=\"iqooz11i-ksp-6\">莱茵低蓝光认证\u003C/p> \n       \u003C/div> \u003C/a> \n     \u003C/div> \n     \u003Cdiv class=\"umx-figure umx-figure4 umx-data-speed\"> \n      \u003Ca href> \n       \u003Cfigure class=\"umx-f4 lazy-imageom\">\u003C/figure> \n       \u003Cdiv class=\"umx-txt-box\"> \n        \u003Cstrong uimix-text=\"iqooz11i-ksp-7\">IP65 \u003Cbr class=\"umx-mb-show\">防尘抗水\u003Csup>6\u003C/sup>\u003C/strong> \n        \u003Cp uimix-text=\"iqooz11i-ksp-8\">防护有度，\u003Cbr class=\"umx-mb-show\">安心随行\u003C/p> \n       \u003C/div> \u003C/a> \n     \u003C/div> \n     \u003Cdiv class=\"umx-figure umx-figure5 umx-data-speed\"> \n      \u003Ca href> \n       \u003Cfigure class=\"umx-f5 lazy-imageom\">\u003C/figure> \n       \u003Cdiv class=\"umx-txt-box\"> \n        \u003Cstrong uimix-text=\"iqooz11i-ksp-9\">SGS 五星整机\u003Cbr class=\"umx-mb-hide\">抗跌耐摔认证\u003Csup>7\u003C/sup>\u003C/strong> \n        \u003Cp uimix-text=\"iqooz11i-ksp-10\">经得起磕碰，\u003Cbr class=\"umx-mb-show\">日常放心用\u003C/p> \n       \u003C/div> \u003C/a> \n     \u003C/div> \n     \u003Cdiv class=\"umx-figure umx-figure6 umx-data-speed\"> \n      \u003Ca href> \n       \u003Cfigure class=\"umx-f6 lazy-imageom\">\u003C/figure> \n       \u003Cdiv class=\"umx-txt-box\"> \n        \u003Cstrong uimix-text=\"iqooz11i-ksp-11\">经典外观\u003C/strong> \n        \u003Cp uimix-text=\"iqooz11i-ksp-12\">耐看气质，\u003Cbr class=\"umx-mb-show\">舒适握感\u003C/p> \n       \u003C/div> \u003C/a> \n     \u003C/div> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"umx-content-progress1\"> \n    \u003Cdiv class=\"umx-stage iqooz11i-chapter1 umx-dark-mode\" data-track=\"{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'3','total':'21'}}\"> \n     \u003Cdiv class=\"umx-chapter-box\"> \n      \u003Cfigure class=\"umx-f1 umx-data-speed lazy-imageom\">\u003C/figure> \n     \u003C/div> \n    \u003C/div> \n    \u003Cdiv class=\"umx-stage iqooz11i-battery umx-dark-mode\" data-track=\"{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'4','total':'21'}}\"> \n     \u003Cdiv class=\"umx-section umx-s1\"> \n      \u003Cdiv class=\"umx-title umx-data-speed\"> \n       \u003Cp uimix-text=\"iqooz11i-battery-1\" class=\"umx-vice-title umx-linear\">6500mAh 蓝海大电池\u003Csup>1\u003C/sup>\u003C/p> \n       \u003Cp uimix-text=\"iqooz11i-battery-2\" class=\"umx-main-title\">能量充沛，尽兴每刻\u003C/p> \n       \u003Cp uimix-text=\"iqooz11i-battery-3\" class=\"umx-intro\">超长续航实力，助你减少外出电量焦虑，使用更安心。\u003C/p> \n      \u003C/div> \n     \u003C/div> \n     \u003Cdiv class=\"umx-figure\"> \n      \u003Cfigure class=\"umx-f1 umx-data-speed-figure lazy-imageom\">\u003C/figure> \n     \u003C/div> \n     \u003Cp uimix-text=\"iqooz11i-battery-4\" class=\"umx-innertips\">*广告创意，请以实物为准。\u003C/p> \n     \u003Cul class=\"umx-data-items umx-data-speed-pc\"> \n      \u003Cli class=\"umx-li1 umx-data-speed-wap\"> \n       \u003Cdiv class=\"umx-strong-box\"> \n        \u003Cstrong class=\"umx-42\" uimix-text=\"iqooz11i-battery-5\">21 小时\u003Csup>2\u003C/sup>\u003C/strong> \n        \u003Cp class=\"umx-17\" uimix-text=\"iqooz11i-battery-6\">播放短视频约\u003C/p> \n       \u003C/div> \u003C/li> \n      \u003Cli class=\"umx-li1 umx-data-speed-wap\"> \n       \u003Cdiv class=\"umx-strong-box\"> \n        \u003Cstrong class=\"umx-42\" uimix-text=\"iqooz11i-battery-7\">9.7 小时\u003Csup>2\u003C/sup>\u003C/strong> \n        \u003Cp class=\"umx-17\" uimix-text=\"iqooz11i-battery-8\">超长导航约\u003C/p> \n       \u003C/div> \u003C/li> \n      \u003Cli class=\"umx-li1 umx-data-speed-wap\"> \n       \u003Cdiv class=\"umx-strong-box\"> \n        \u003Cstrong class=\"umx-42\" uimix-text=\"iqooz11i-battery-9\">32 小时\u003Csup>2\u003C/sup>\u003C/strong> \n        \u003Cp class=\"umx-17\" uimix-text=\"iqooz11i-battery-10\">连续通话约\u003C/p> \n       \u003C/div> \u003C/li> \n      \u003Cli class=\"umx-li1 umx-data-speed-wap\"> \n       \u003Cdiv class=\"umx-strong-box\"> \n        \u003Cstrong class=\"umx-42\" uimix-text=\"iqooz11i-battery-11\">约 4 小时待机\u003Csup>2\u003C/sup>\u003C/strong> \n        \u003Cp class=\"umx-17\" uimix-text=\"iqooz11i-battery-12\">1% 低电应急\u003C/p> \n       \u003C/div> \u003C/li> \n      \u003Cli class=\"umx-li1 umx-data-speed-wap\"> \n       \u003Cdiv class=\"umx-strong-box\"> \n        \u003Cstrong class=\"umx-42\" uimix-text=\"iqooz11i-battery-13\">约 20 分钟通话\u003Csup>2\u003C/sup>\u003C/strong> \n        \u003Cp class=\"umx-17\" uimix-text=\"iqooz11i-battery-14\">1% 低电应急\u003C/p> \n       \u003C/div> \u003C/li> \n     \u003C/ul> \n    \u003C/div> \n    \u003Cdiv class=\"umx-stage iqooz11i-durable umx-dark-mode\" data-track=\"{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'5','total':'21'}}\"> \n     \u003Cdiv class=\"umx-section umx-s1\"> \n      \u003Cdiv class=\"umx-title umx-data-speed\"> \n       \u003Cp uimix-text=\"iqooz11i-durable-1\" class=\"umx-vice-title umx-linear\">电池 5 年长久耐用\u003Csup>3\u003C/sup>\u003C/p> \n       \u003Cp uimix-text=\"iqooz11i-durable-2\" class=\"umx-main-title\">持久耐用，依然好用\u003C/p> \n       \u003Cp uimix-text=\"iqooz11i-durable-3\" class=\"umx-intro\">软硬件全面加持，在 vivo 实验室常温下实现 1600 次充放电循环后电池健康度仍不低于 80%，\u003Cbr class=\"umx-mb-hide\">模拟日常（1.2 天 1 次满充满放）约等于使用 5 年，久用也好用。\u003C/p> \n      \u003C/div> \n     \u003C/div> \n     \u003Cdiv class=\"umx-figure\"> \n      \u003Cfigure class=\"umx-f1 lazy-imageom\">\u003C/figure> \n      \u003Cfigure class=\"umx-f2 lazy-imageom\">\u003C/figure> \n      \u003Cfigure class=\"umx-f3 lazy-imageom\">\u003C/figure> \n     \u003C/div> \n     \u003Cdiv class=\"umx-section umx-s2\"> \n      \u003Cdiv class=\"umx-title umx-data-speed\"> \n       \u003Cp uimix-text=\"iqooz11i-durable-4\" class=\"umx-main-title umx-main-46\">自研电池健康算法\u003C/p> \n      \u003C/div> \n     \u003C/div> \n     \u003Cul class=\"umx-data-items umx-data-speed-pc\"> \n      \u003Cli class=\"umx-li1 umx-data-speed-wap\"> \n       \u003Cdiv class=\"umx-icon umx-icon1 lazy-imageom\">\u003C/div> \n       \u003Cdiv class=\"umx-strong-box\"> \n        \u003Cstrong uimix-text=\"iqooz11i-durable-5\" class=\"umx-25\">夜充保护\u003C/strong> \n        \u003Cp uimix-text=\"iqooz11i-durable-6\" class=\"umx-17\">智能学习睡眠习惯，\u003Cbr class=\"umx-mb-show\">避免过充。\u003C/p> \n       \u003C/div> \u003C/li> \n      \u003Cli class=\"umx-li1 umx-data-speed-wap\"> \n       \u003Cdiv class=\"umx-icon umx-icon2 lazy-imageom\">\u003C/div> \n       \u003Cdiv class=\"umx-strong-box\"> \n        \u003Cstrong uimix-text=\"iqooz11i-durable-7\" class=\"umx-25\">长充保护\u003C/strong> \n        \u003Cp uimix-text=\"iqooz11i-durable-8\" class=\"umx-17\">智能识别手机长时间充电，\u003Cbr class=\"umx-mb-hide\">自动开启长充保护。\u003C/p> \n       \u003C/div> \u003C/li> \n      \u003Cli class=\"umx-li1 umx-data-speed-wap\"> \n       \u003Cdiv class=\"umx-icon umx-icon3 lazy-imageom\">\u003C/div> \n       \u003Cdiv class=\"umx-strong-box\"> \n        \u003Cstrong uimix-text=\"iqooz11i-durable-9\" class=\"umx-25\">高温保护\u003C/strong> \n        \u003Cp uimix-text=\"iqooz11i-durable-10\" class=\"umx-17\">智能调节充电电流大小，\u003Cbr class=\"umx-mb-hide\">调控手机温升。\u003C/p> \n       \u003C/div> \u003C/li> \n      \u003Cli class=\"umx-li1 umx-data-speed-wap\"> \n       \u003Cdiv class=\"umx-icon umx-icon4 lazy-imageom\">\u003C/div> \n       \u003Cdiv class=\"umx-strong-box\"> \n        \u003Cstrong uimix-text=\"iqooz11i-durable-11\" class=\"umx-25\">电池健康度显示\u003C/strong> \n        \u003Cp uimix-text=\"iqooz11i-durable-12\" class=\"umx-17\">随时掌控电池\u003Cbr class=\"umx-mb-show\">健康情况。\u003C/p> \n       \u003C/div> \u003C/li> \n     \u003C/ul> \n    \u003C/div> \n    \u003Cdiv class=\"umx-stage iqooz11i-cpu umx-dark-mode\" data-track=\"{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'6','total':'21'}}\"> \n     \u003Cdiv class=\"umx-section umx-s1\"> \n      \u003Cdiv class=\"umx-title umx-data-speed\"> \n       \u003Cp uimix-text=\"iqooz11i-cpu-1\" class=\"umx-vice-title umx-linear\">高通第二代骁龙 4\u003C/p> \n       \u003Cp uimix-text=\"iqooz11i-cpu-2\" class=\"umx-main-title\">强劲 5G，稳定流畅\u003C/p> \n       \u003Cp uimix-text=\"iqooz11i-cpu-3\" class=\"umx-intro\">搭载高通第二代骁龙 4 芯片，兼具低功耗与高性能，带来强劲、\u003Cbr class=\"umx-mb-hide\">稳定的 5G 体验，多任务处理和基础运算能力持久高效释放。\u003C/p> \n      \u003C/div> \n     \u003C/div> \n     \u003Cdiv class=\"umx-figure\"> \n      \u003Cfigure class=\"umx-f1 lazy-imageom\">\u003C/figure> \n     \u003C/div> \n    \u003C/div> \n    \u003Cdiv class=\"umx-stage iqooz11i-screen umx-dark-mode\" data-track=\"{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'7','total':'21'}}\"> \n     \u003Cdiv class=\"umx-section umx-s1\"> \n      \u003Cdiv class=\"umx-title umx-data-speed\"> \n       \u003Cp uimix-text=\"iqooz11i-screen-1\" class=\"umx-vice-title umx-linear\">120Hz 护眼电竞屏*\u003C/p> \n       \u003Cp uimix-text=\"iqooz11i-screen-2\" class=\"umx-main-title\">莱茵低蓝光认证\u003C/p> \n       \u003Cp uimix-text=\"iqooz11i-screen-3\" class=\"umx-intro\">通过莱茵低蓝光专业测试认证，有效过滤有害蓝光，无论室内、室外、强光、暗光，都能带来舒适的体验。\u003C/p> \n      \u003C/div> \n     \u003C/div> \n     \u003Cdiv class=\"umx-figure\"> \n      \u003Cfigure class=\"umx-f1 umx-data-speed-figure lazy-imageom\">\u003C/figure> \n     \u003C/div> \n     \u003Cp uimix-text=\"iqooz11i-screen-16\" class=\"umx-innertips umx-innertips1 umx-data-speed-wap\">*游戏画面为广告创意，仅供参考，请以实际体验为准。\u003C/p> \n     \u003Cul class=\"umx-data-items umx-data-speed-pc\"> \n      \u003Cli class=\"umx-li1 umx-data-speed-wap umx-order-mb-1\"> \n       \u003Cdiv class=\"umx-strong-box\"> \n        \u003Cstrong class=\"umx-42\" uimix-text=\"iqooz11i-screen-4\">6.74\u003C/strong> \n        \u003Cp class=\"umx-17\" uimix-text=\"iqooz11i-screen-5\">英寸\u003Csup>4\u003C/sup>\u003C/p> \n       \u003C/div> \u003C/li> \n      \u003Cli class=\"umx-li1 umx-data-speed-wap umx-order-mb-5\"> \n       \u003Cdiv class=\"umx-strong-box\"> \n        \u003Cstrong class=\"umx-42\" uimix-text=\"iqooz11i-screen-6\">HBM 1200 nits\u003C/strong> \n        \u003Cp class=\"umx-17\" uimix-text=\"iqooz11i-screen-7\">超高亮度\u003Csup>5\u003C/sup>\u003C/p> \n       \u003C/div> \u003C/li> \n      \u003Cli class=\"umx-li1 umx-data-speed-wap umx-order-mb-2\"> \n       \u003Cdiv class=\"umx-strong-box\"> \n        \u003Cstrong class=\"umx-42\" uimix-text=\"iqooz11i-screen-8\">120Hz*\u003C/strong> \n        \u003Cp class=\"umx-17\" uimix-text=\"iqooz11i-screen-9\">高刷新率\u003C/p> \n       \u003C/div> \u003C/li> \n      \u003Cli class=\"umx-li1 umx-data-speed-wap umx-order-mb-3\"> \n       \u003Cdiv class=\"umx-strong-box\"> \n        \u003Cstrong class=\"umx-42\" uimix-text=\"iqooz11i-screen-10\">深色模式\u003C/strong> \n        \u003Cp class=\"umx-17\" uimix-text=\"iqooz11i-screen-11\">省电、护眼\u003C/p> \n       \u003C/div> \u003C/li> \n      \u003Cli class=\"umx-li1 umx-data-speed-wap umx-order-mb-6\"> \n       \u003Cdiv class=\"umx-strong-box\"> \n        \u003Cstrong class=\"umx-42 strong-bottom\" uimix-text=\"iqooz11i-screen-12\">真 DC 无频闪调光\u003C/strong> \n       \u003C/div> \u003C/li> \n      \u003Cli class=\"umx-li1 umx-data-speed-wap umx-order-mb-4\"> \n       \u003Cdiv class=\"umx-strong-box\"> \n        \u003Cstrong class=\"umx-42 strong-bottom\" uimix-text=\"iqooz11i-screen-13\">类纸显示*\u003C/strong> \n       \u003C/div> \u003C/li> \n      \u003Cli class=\"umx-li1 umx-data-speed-wap umx-order-mb-7\"> \n       \u003Cdiv class=\"umx-strong-box\"> \n        \u003Cdiv class=\"umx-icon umx-icon1 lazy-imageom\">\u003C/div> \n        \u003Cp class=\"umx-17\" uimix-text=\"iqooz11i-screen-15\">专业护眼模式 \u003Cbr class=\"umx-mb-hide\">莱茵低蓝光认证*\u003C/p> \n       \u003C/div> \u003C/li> \n     \u003C/ul> \n     \u003Cp uimix-text=\"iqooz11i-screen-16\" class=\"umx-innertips umx-innertips2 umx-data-speed-wap\">*120Hz 仅部分场景支持，请以实际体验为准。本产品非医疗器械，不具有疾病治疗功能，护眼是指通过多维度技术以实现缓解眼部疲劳、降低眼部不适感。\u003Cbr>*类纸显示开启路径为：“设置-快捷与辅助-无障碍-色彩和动画-色彩校正-色彩校正-灰度模式”，可以实现类纸显示效果。\u003Cbr>*在打开护眼模式，护眼效果设置最强条件下通过了 TÜV 莱茵低蓝光认证。\u003C/p> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"umx-content-progress2\"> \n    \u003Cdiv class=\"umx-stage iqooz11i-chapter2 umx-dark-mode\" data-track=\"{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'8','total':'21'}}\"> \n     \u003Cdiv class=\"umx-chapter-box\"> \n      \u003Cfigure class=\"umx-f2 umx-data-speed lazy-imageom\">\u003C/figure> \n     \u003C/div> \n    \u003C/div> \n    \u003Cdiv class=\"umx-stage iqooz11i-water umx-dark-mode\" data-track=\"{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'9','total':'21'}}\"> \n     \u003Cdiv class=\"umx-section\"> \n      \u003Cdiv class=\"umx-title umx-data-speed\"> \n       \u003Cp uimix-text=\"iqooz11i-water-0\" class=\"umx-vice-title umx-linear\">IP65 级防尘抗水\u003Csup>6\u003C/sup>\u003C/p> \n       \u003Cp uimix-text=\"iqooz11i-water-1\" class=\"umx-main-title\">防护有度，安心随行\u003C/p> \n       \u003Cp uimix-text=\"iqooz11i-water-2\" class=\"umx-intro\">可应对沙尘环境与日常雨淋、泼溅，日常使用超安心。\u003C/p> \n      \u003C/div> \n     \u003C/div> \n     \u003Cdiv class=\"umx-figure\"> \n      \u003Cfigure class=\"umx-f1 umx-data-speed-figure lazy-imageom\">\u003C/figure> \n     \u003C/div> \n     \u003Cp uimix-text=\"iqooz11i-water-31\" class=\"umx-innertips\">*广告创意，本产品非专业防水手机，请以实际使用为准。\u003C/p> \n    \u003C/div> \n    \u003Cdiv class=\"umx-stage iqooz11i-structure umx-dark-mode\" data-track=\"{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'10','total':'21'}}\"> \n     \u003Cdiv class=\"umx-section umx-s1\"> \n      \u003Cdiv class=\"umx-title\"> \n       \u003Cdiv class=\"umx-title-box umx-data-speed\"> \n        \u003Cp uimix-text=\"iqooz11i-structure-1\" class=\"umx-vice-title umx-linear\">SGS 五星整机抗跌耐摔认证\u003Csup>7\u003C/sup>\u003C/p> \n        \u003Cp uimix-text=\"iqooz11i-structure-2\" class=\"umx-main-title\">四重防护，\u003Cbr class=\"umx-mb-hide\">不止一面抗摔\u003C/p> \n        \u003Cp uimix-text=\"iqooz11i-structure-3\" class=\"umx-intro\">从内到外采用四重防护，经过严苛高度、严苛次数及多角度跌落测试，真正做到抗刮又抗摔，非常耐用。\u003C/p> \n       \u003C/div> \n      \u003C/div> \n     \u003C/div> \n     \u003Cdiv class=\"umx-figure\"> \n      \u003Cfigure class=\"umx-f1 umx-data-speed-figure lazy-imageom\">\u003C/figure> \n     \u003C/div> \n     \u003Cp uimix-text=\"iqooz11i-battery-31\" class=\"umx-innertips\">*广告创意，手机作为精密电子产品，跌落仍有损坏风险，请注意避免碰撞、跌落。\u003C/p> \n     \u003Cul class=\"umx-data-items umx-data-items2 umx-data-speed-pc\"> \n      \u003Cli class=\"umx-li1 umx-data-speed-wap\"> \n       \u003Cdiv class=\"umx-icon umx-icon1 lazy-imageom\">\u003C/div> \n       \u003Cdiv class=\"umx-strong-box\"> \n        \u003Cstrong class=\"umx-25\" uimix-text=\"iqooz11i-structure-4\">金刚抗摔保护膜\u003C/strong> \n        \u003Cp class=\"umx-17\" uimix-text=\"iqooz11i-structure-5\">多层加厚，稳定抗摔。\u003C/p> \n       \u003C/div> \u003C/li> \n      \u003Cli class=\"umx-li1 umx-data-speed-wap\"> \n       \u003Cdiv class=\"umx-icon umx-icon2 lazy-imageom\">\u003C/div> \n       \u003Cdiv class=\"umx-strong-box\"> \n        \u003Cstrong class=\"umx-25\" uimix-text=\"iqooz11i-structure-6\">屏幕金刚盾玻璃\u003C/strong> \n        \u003Cp class=\"umx-17\" uimix-text=\"iqooz11i-structure-7\">0.68T 超厚钢化玻璃\u003C/p> \n       \u003C/div> \u003C/li> \n      \u003Cli class=\"umx-li1 umx-data-speed-wap\"> \n       \u003Cdiv class=\"umx-icon umx-icon3 lazy-imageom\">\u003C/div> \n       \u003Cdiv class=\"umx-strong-box\"> \n        \u003Cstrong class=\"umx-25\" uimix-text=\"iqooz11i-structure-8\">金刚磐石架构\u003C/strong> \n        \u003Cp class=\"umx-17\" uimix-text=\"iqooz11i-structure-9\">采用加强缓震设计，\u003Cbr class=\"umx-mb-show\">全方位防摔。\u003C/p> \n       \u003C/div> \u003C/li> \n      \u003Cli class=\"umx-li1 umx-data-speed-wap\"> \n       \u003Cdiv class=\"umx-icon umx-icon4 lazy-imageom\">\u003C/div> \n       \u003Cdiv class=\"umx-strong-box\"> \n        \u003Cstrong class=\"umx-25\" uimix-text=\"iqooz11i-structure-10\">抗摔手机壳\u003C/strong> \n        \u003Cp class=\"umx-17\" uimix-text=\"iqooz11i-structure-11\">新增安全气囊设计，\u003Cbr class=\"umx-mb-show\">防护更强。\u003C/p> \n       \u003C/div> \u003C/li> \n     \u003C/ul> \n    \u003C/div> \n    \u003Cdiv class=\"umx-stage iqooz11i-test umx-dark-mode\" data-track=\"{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'11','total':'21'}}\"> \n     \u003Cdiv class=\"umx-section umx-s1\"> \n      \u003Cdiv class=\"umx-title umx-data-speed\"> \n       \u003Cp uimix-text=\"iqooz11i-test-1\" class=\"umx-main-title\">严苛测试，依旧耐用\u003C/p> \n      \u003C/div> \n     \u003C/div> \n     \u003Cdiv class=\"umx-figure-box umx-data-speed-pc\"> \n      \u003Cdiv class=\"umx-figure umx-data-speed-wap\"> \n       \u003Cfigure class=\"umx-f1 lazy-imageom\">\u003C/figure> \n       \u003Cul class=\"umx-data-items umx-data-items1\"> \n        \u003Cli class=\"umx-li1\"> \u003Cstrong uimix-text=\"iqooz11i-test-9\">频繁使用\u003C/strong> \u003C/li> \n        \u003Cli class=\"umx-li1\"> \u003Cstrong class=\"umx-32\" uimix-text=\"iqooz11i-test-10\">10000 次\u003C/strong> \u003Cp class=\"umx-14\" uimix-text=\"iqooz11i-test-11\">USB 插拔\u003Csup>8\u003C/sup>\u003C/p> \u003C/li> \n        \u003Cli class=\"umx-li1 li-left\"> \u003Cstrong class=\"umx-32\" uimix-text=\"iqooz11i-test-12\">70000 次\u003C/strong> \u003Cp class=\"umx-14\" uimix-text=\"iqooz11i-test-13\">音量键按压\u003Csup>8\u003C/sup>\u003C/p> \u003C/li> \n        \u003Cli class=\"umx-li1\"> \u003Cstrong class=\"umx-32\" uimix-text=\"iqooz11i-test-14\">150000 次\u003C/strong> \u003Cp class=\"umx-14\" uimix-text=\"iqooz11i-test-15\">电源键按压\u003Csup>8\u003C/sup>\u003C/p> \u003C/li> \n       \u003C/ul> \n      \u003C/div> \n      \u003Cdiv class=\"umx-figure umx-data-speed-wap\"> \n       \u003Cfigure class=\"umx-f2 lazy-imageom\">\u003C/figure> \n       \u003Cul class=\"umx-data-items umx-data-items2\"> \n        \u003Cli class=\"umx-li1\"> \u003Cstrong uimix-text=\"iqooz11i-test-16\">严苛环境工作\u003C/strong> \u003C/li> \n        \u003Cli class=\"umx-li1\"> \u003Cstrong class=\"umx-32\" uimix-text=\"iqooz11i-test-17\">-20℃\u003C/strong> \u003Cp class=\"umx-14\" uimix-text=\"iqooz11i-test-18\">严苛低温下仍可工作\u003Csup>9\u003C/sup>\u003C/p> \u003C/li> \n        \u003Cli class=\"umx-li1 li-left\"> \u003Cstrong class=\"umx-32\" uimix-text=\"iqooz11i-test-19\">50℃\u003C/strong> \u003Cp class=\"umx-14\" uimix-text=\"iqooz11i-test-20\">严苛高温下仍可工作\u003Csup>9\u003C/sup>\u003C/p> \u003C/li> \n       \u003C/ul> \n      \u003C/div> \n     \u003C/div> \n     \u003Cp uimix-text=\"iqooz11i-battery-21\" class=\"umx-innertips\">*手机作为精密电子产品，请勿长期在超低 / 超高温环境下使用。\u003C/p> \n    \u003C/div> \n    \u003Cdiv class=\"umx-stage iqooz11i-life umx-dark-mode\" data-track=\"{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'12','total':'21'}}\"> \n     \u003Cdiv class=\"umx-section umx-s1\"> \n      \u003Cdiv class=\"umx-title umx-data-speed\"> \n       \u003Cp uimix-text=\"iqooz11i-life-1\" class=\"umx-main-title\">智能又好用，生活更简单\u003C/p> \n      \u003C/div> \n     \u003C/div> \n     \u003Cul class=\"umx-data-items umx-data-items2\"> \n      \u003Cli class=\"umx-li1 umx-data-speed\"> \n       \u003Cfigure class=\"umx-f2 lazy-imageom\">\u003C/figure> \n       \u003Cdiv class=\"umx-strong-box\"> \n        \u003Cstrong class=\"umx-36\" uimix-text=\"iqooz11i-life-4\">呼吸灯提醒\u003C/strong> \n        \u003Cp class=\"umx-17\" uimix-text=\"iqooz11i-life-5\">搭配灵动 RGB 呼吸灯，\u003Cbr class=\"umx-mb-hide\">不错过每一个电话和每一条讯息。\u003C/p> \n       \u003C/div> \u003C/li> \n      \u003Cli class=\"umx-li1 umx-data-speed\"> \n       \u003Cfigure class=\"umx-f1 lazy-imageom\">\u003C/figure> \n       \u003Cdiv class=\"umx-strong-box\"> \n        \u003Cstrong class=\"umx-36\" uimix-text=\"iqooz11i-life-2\">红外遥控\u003C/strong> \n        \u003Cp class=\"umx-17\" uimix-text=\"iqooz11i-life-3\">手机能当遥控器，支持操控 \u003Cbr class=\"umx-mb-hide\">3000+ 个品牌家居设备。\u003C/p> \n       \u003C/div> \u003C/li> \n      \u003Cli class=\"umx-data-speed\"> \n       \u003Cdiv class=\"umx-icon umx-icon1 lazy-imageom\">\u003C/div> \n       \u003Cdiv class=\"umx-strong-box\"> \n        \u003Cstrong class=\"umx-36\" uimix-text=\"iqooz11i-life-6\">湿手油手双触控\u003C/strong> \n       \u003C/div> \u003C/li> \n      \u003Cli class=\"umx-data-speed\"> \n       \u003Cdiv class=\"umx-icon umx-icon2 lazy-imageom\">\u003C/div> \n       \u003Cdiv class=\"umx-strong-box\"> \n        \u003Cstrong class=\"umx-36\" uimix-text=\"iqooz11i-life-7\">5\u003Cspan>×\u003C/span> 超级手电筒\u003C/strong> \n       \u003C/div> \u003C/li> \n      \u003Cli class=\"umx-data-speed\"> \n       \u003Cdiv class=\"umx-icon umx-icon3 lazy-imageom\">\u003C/div> \n       \u003Cdiv class=\"umx-strong-box\"> \n        \u003Cstrong class=\"umx-36\" uimix-text=\"iqooz11i-life-8\">150% 大音量\u003C/strong> \n       \u003C/div> \u003C/li> \n     \u003C/ul> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"umx-content-progress3\"> \n    \u003Cdiv class=\"umx-stage iqooz11i-color\" data-track=\"{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'13','total':'21'}}\"> \n     \u003Cdiv class=\"umx-section umx-s1\"> \n      \u003Cdiv class=\"umx-title umx-data-speed\"> \n       \u003Cp uimix-text=\"iqooz11i-color-1\" class=\"umx-main-title umx-main-title1 umx-active\">经典设计\u003Cspan class=\"umx-comma\">，\u003C/span>\u003Cbr class=\"umx-mb-show\">一眼舒适\u003C/p> \n       \u003Cp uimix-text=\"iqooz11i-color-2\" class=\"umx-main-title umx-main-title2\">经典设计\u003Cspan class=\"umx-comma\">，\u003C/span>\u003Cbr class=\"umx-mb-show\">一眼舒适\u003C/p> \n       \u003Cp uimix-text=\"iqooz11i-color-3\" class=\"umx-main-title umx-main-title3\">经典设计\u003Cspan class=\"umx-comma\">，\u003C/span>\u003Cbr class=\"umx-mb-show\">一眼舒适\u003C/p> \n      \u003C/div> \n     \u003C/div> \n     \u003Cdiv class=\"swiper-container-color-box\"> \n      \u003Cdiv class=\"swiper-container-color\"> \n       \u003Cdiv class=\"umx-figure-box swiper-wrapper\"> \n        \u003Cdiv class=\"umx-figure umx-figure1 swiper-slide\"> \n         \u003Cfigure class=\"umx-f1 lazy-imageom\">\u003C/figure> \n        \u003C/div> \n        \u003Cdiv class=\"umx-figure umx-figure2 swiper-slide\"> \n         \u003Cfigure class=\"umx-f2 lazy-imageom\">\u003C/figure> \n        \u003C/div> \n        \u003Cdiv class=\"umx-figure umx-figure3 swiper-slide\"> \n         \u003Cfigure class=\"umx-f3 lazy-imageom\">\u003C/figure> \n        \u003C/div> \n       \u003C/div> \n      \u003C/div> \n     \u003C/div> \n     \u003Cdiv class=\"color-button-box\"> \n      \u003Cul class=\"swiper-pagination-color\"> \n       \u003Cli class=\"umx-active swiper-pagination-bullet\"> \n        \u003Cdiv class=\"button-color color-golden active1\"> \n         \u003Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"42\" height=\"47\" viewbox=\"0 0 42 47\" fill=\"none\"> \n          \u003Crect x=\"1\" y=\"1\" width=\"40\" height=\"45\" rx=\"12\" stroke=\"url(#paint0_linear_678_5100)\" stroke-width=\"2\" /> \n          \u003Cdefs> \n           \u003Clineargradient id=\"paint0_linear_678_5100\" x1=\"3.35011\" y1=\"9.24177e-07\" x2=\"46.7359\" y2=\"47.9427\" gradientunits=\"userSpaceOnUse\"> \n            \u003Cstop stop-color=\"#CAE4FF\" /> \n            \u003Cstop offset=\"1\" stop-color=\"#84A5C6\" /> \n           \u003C/lineargradient> \n          \u003C/defs> \n         \u003C/svg> \n        \u003C/div> \n        \u003Cdiv class=\"umx-icon umx-icon1\">\u003C/div> \u003C/li> \n       \u003Cli class=\"umx-active swiper-pagination-bullet\"> \n        \u003Cdiv class=\"button-color\"> \n         \u003Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"42\" height=\"47\" viewbox=\"0 0 42 47\" fill=\"none\"> \n          \u003Crect x=\"1\" y=\"1\" width=\"40\" height=\"45\" rx=\"12\" stroke=\"url(#paint0_linear_535_2721)\" stroke-width=\"2\" /> \n          \u003Crect x=\"1\" y=\"1\" width=\"40\" height=\"45\" rx=\"12\" stroke=\"url(#paint1_linear_535_2721)\" stroke-width=\"2\" /> \n          \u003Cdefs> \n           \u003Clineargradient id=\"paint0_linear_535_2721\" x1=\"3.35011\" y1=\"9.24177e-07\" x2=\"46.7359\" y2=\"47.9427\" gradientunits=\"userSpaceOnUse\"> \n            \u003Cstop stop-color=\"#CAE4FF\" /> \n            \u003Cstop offset=\"1\" stop-color=\"#84A5C6\" /> \n           \u003C/lineargradient> \n           \u003Clineargradient id=\"paint1_linear_535_2721\" x1=\"36.4737\" y1=\"47\" x2=\"0.311387\" y2=\"3.91301\" gradientunits=\"userSpaceOnUse\"> \n            \u003Cstop stop-color=\"#BAA595\" /> \n            \u003Cstop offset=\"1\" stop-color=\"#F9F6F4\" /> \n           \u003C/lineargradient> \n          \u003C/defs> \n         \u003C/svg> \n        \u003C/div> \n        \u003Cdiv class=\"umx-icon umx-icon2\">\u003C/div> \u003C/li> \n       \u003Cli class=\"swiper-pagination-bullet\"> \n        \u003Cdiv class=\"button-color\"> \n         \u003Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"42\" height=\"47\" viewbox=\"0 0 42 47\" fill=\"none\"> \n          \u003Crect x=\"1\" y=\"1\" width=\"40\" height=\"45\" rx=\"12\" stroke=\"url(#paint2_linear_535_2735)\" stroke-width=\"2\" /> \n          \u003Cdefs> \n           \u003Clineargradient id=\"paint2_linear_535_2735\" x1=\"57\" y1=\"68\" x2=\"-1.6971\" y2=\"6.35142\" gradientunits=\"userSpaceOnUse\"> \n            \u003Cstop stop-color=\"#151625\" /> \n            \u003Cstop offset=\"1\" stop-color=\"#69708F\" /> \n           \u003C/lineargradient> \n          \u003C/defs> \n         \u003C/svg> \n        \u003C/div> \n        \u003Cdiv class=\"umx-icon umx-icon3\">\u003C/div> \u003C/li> \n      \u003C/ul> \n      \u003Cdiv class=\"umx-txt-box\"> \n       \u003Cstrong uimix-text=\"iqooz11i-color-4\" class=\"umx-active\">\u003Cspan>青峰\u003C/span>\u003C/strong> \n       \u003Cstrong uimix-text=\"iqooz11i-color-5\">\u003Cspan>沙漠金\u003C/span>\u003C/strong> \n       \u003Cstrong uimix-text=\"iqooz11i-color-6\">\u003Cspan>墨影\u003C/span>\u003C/strong> \n      \u003C/div> \n     \u003C/div> \n    \u003C/div> \n    \u003Cdiv class=\"umx-stage iqooz11i-design umx-stage_sticky\" data-track=\"{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'14','total':'21'}}\"> \n     \u003Cdiv class=\"umx-stickyBox\"> \n      \u003Cdiv class=\"umx-figure-current-box\"> \n       \u003Cdiv class=\"umx-figure-current umx-data-speed\"> \n        \u003Cdiv class=\"umx-figure-box umx-design-wrapper\"> \n         \u003Cdiv class=\"umx-design-box swiper-wrapper\"> \n          \u003Cdiv class=\"umx-figure umx-figure1 swiper-slide\"> \n           \u003Cdiv class=\"umx-figure-center\"> \n            \u003Cdiv class=\"umx-txt-box\"> \n             \u003Cstrong class=\"umx-36\" uimix-text=\"iqooz11i-design-1\">经典双镜组\u003C/strong> \n             \u003Cp class=\"umx-17\" uimix-text=\"iqooz11i-adesigni-2\">简约大气，经典耐看。\u003C/p> \n            \u003C/div> \n            \u003Cdiv class=\"umx-f-box umx-f-box1\"> \n             \u003Cfigure class=\"umx-f1 lazy-imageom\">\u003C/figure> \n            \u003C/div> \n           \u003C/div> \n          \u003C/div> \n          \u003Cdiv class=\"umx-figure umx-figure2 swiper-slide\"> \n           \u003Cdiv class=\"umx-figure-center\"> \n            \u003Cdiv class=\"umx-txt-box\"> \n             \u003Cstrong class=\"umx-36\" uimix-text=\"iqooz11i-design-3\">利落直立中框\u003C/strong> \n             \u003Cp class=\"umx-17\" uimix-text=\"iqooz11i-adesigni-4\">握持舒适，取放自如。\u003C/p> \n            \u003C/div> \n            \u003Cdiv class=\"umx-f-box\"> \n             \u003Cfigure class=\"umx-f2 lazy-imageom\">\u003C/figure> \n            \u003C/div> \n           \u003C/div> \n          \u003C/div> \n          \u003Cdiv class=\"umx-figure umx-figure3 swiper-slide\"> \n           \u003Cdiv class=\"umx-figure-center\"> \n            \u003Cdiv class=\"umx-txt-box\"> \n             \u003Cstrong class=\"umx-36\" uimix-text=\"iqooz11i-design-5\">灵动呼吸灯环\u003C/strong> \n             \u003Cp class=\"umx-17\" uimix-text=\"iqooz11i-adesigni-6\">重要讯息，不错过。\u003C/p> \n            \u003C/div> \n            \u003Cdiv class=\"umx-f-box\"> \n             \u003Cfigure class=\"umx-f3 lazy-imageom\">\u003C/figure> \n            \u003C/div> \n           \u003C/div> \n          \u003C/div> \n         \u003C/div> \n        \u003C/div> \n       \u003C/div> \n      \u003C/div> \n      \u003Cdiv class=\"swiper-monster-line\"> \n       \u003Cdiv class=\"swiper-pagination-box\"> \n        \u003Cdiv class=\"swiper-pagination swiper-pagination-design\">\u003C/div> \n       \u003C/div> \n      \u003C/div> \n     \u003C/div> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"umx-content-progress4\"> \n    \u003Cdiv class=\"umx-stage iqooz11i-chapter4\" data-track=\"{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'15','total':'21'}}\"> \n     \u003Cdiv class=\"umx-chapter-box umx-chapter-box4\"> \n      \u003Cdiv class=\"umx-section umx-data-speed\"> \n       \u003Cdiv class=\"umx-title\"> \n        \u003Cp uimix-text=\"iqooz11i-chapter4-1\" class=\"umx-main-title\">超清实力\u003Cspan class=\"umx-comma\">，\u003C/span>\u003Cbr class=\"umx-mb-show\">一拍即美\u003C/p> \n       \u003C/div> \n      \u003C/div> \n     \u003C/div> \n    \u003C/div> \n    \u003Cdiv class=\"umx-stage iqooz11i-camera\" data-track=\"{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'16','total':'21'}}\"> \n     \u003Cdiv class=\"umx-figure umx-data-speed\"> \n      \u003Cdiv class=\"line-box\"> \n       \u003Cdiv class=\"umx-txt-box txt-box1\"> \n        \u003Cp uimix-text=\"iqooz11i-camera-1\" class=\"umx-42\">红外遥控模组\u003C/p> \n        \u003Ci class=\"umx-line1\">\u003C/i> \n       \u003C/div> \n       \u003Cdiv class=\"umx-txt-box txt-box2\"> \n        \u003Cstrong uimix-text=\"iqooz11i-camera-2\" class=\"umx-42\">1300 万像素\u003C/strong> \n        \u003Cp uimix-text=\"iqooz11i-camera-3\" class=\"umx-17\">主摄镜头\u003C/p> \n        \u003Ci class=\"umx-line2\">\u003C/i> \n       \u003C/div> \n       \u003Cdiv class=\"umx-txt-box txt-box3\"> \n        \u003Cstrong uimix-text=\"iqooz11i-camera-4\" class=\"umx-42\">500 万像素\u003C/strong> \n        \u003Cp uimix-text=\"iqooz11i-camera-5\" class=\"umx-17\">前置镜头\u003C/p> \n        \u003Ci class=\"umx-line3\">\u003C/i> \n       \u003C/div> \n      \u003C/div> \n      \u003Cfigure class=\"umx-f1 lazy-imageom\">\u003C/figure> \n     \u003C/div> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"umx-content-progress5\"> \n    \u003Cdiv class=\"umx-stage iqooz11i-os-top\" data-track=\"{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'17','total':'21'}}\"> \n     \u003Cdiv class=\"umx-figure umx-data-speed\"> \n      \u003Cfigure class=\"umx-f1 lazy-imageom\">\u003C/figure> \n     \u003C/div> \n    \u003C/div> \n    \u003Cdiv class=\"umx-stage iqooz11i-os umx-stage_sticky\"> \n     \u003Cdiv class=\"umx-section\"> \n      \u003Cdiv class=\"umx-title umx-data-speed\"> \n       \u003Cp uimix-text=\"iqooz11-os-1\" class=\"umx-vice-title umx-linear\">简易模式 2.0\u003C/p> \n       \u003Cp uimix-text=\"iqooz11-os-2\" class=\"umx-main-title\">清爽界面，用机更简单\u003C/p> \n      \u003C/div> \n     \u003C/div> \n     \u003Cdiv class=\"umx-stickyBox\"> \n      \u003Cdiv class=\"umx-figure-current-box\"> \n       \u003Cdiv class=\"umx-figure-current umx-data-speed\"> \n        \u003Cdiv class=\"umx-figure-box umx-os-wrapper\"> \n         \u003Cdiv class=\"umx-os-box swiper-wrapper\"> \n          \u003Cdiv class=\"umx-figure umx-figure1 swiper-slide\"> \n           \u003Cdiv class=\"umx-figure-center\"> \n            \u003Cdiv class=\"umx-txt-box\"> \n             \u003Cstrong class=\"umx-36\" uimix-text=\"iqooz11i-os-3\">更简洁的焕新桌面\u003C/strong> \n             \u003Cp class=\"umx-17\" uimix-text=\"iqooz11i-os-4\">字体加粗更清晰，桌面布局更清爽。\u003C/p> \n            \u003C/div> \n            \u003Cdiv class=\"umx-f-box umx-f-box1\"> \n             \u003Cfigure class=\"umx-f1 lazy-imageom\">\u003C/figure> \n            \u003C/div> \n           \u003C/div> \n          \u003C/div> \n          \u003Cdiv class=\"umx-figure umx-figure2 swiper-slide\"> \n           \u003Cdiv class=\"umx-figure-center\"> \n            \u003Cdiv class=\"umx-txt-box\"> \n             \u003Cstrong class=\"umx-36\" uimix-text=\"iqooz11i-os-5\">更高效的常用操作\u003C/strong> \n             \u003Cp class=\"umx-17\" uimix-text=\"iqooz11i-os-6\">扫码、付款、手电筒一键直达。\u003C/p> \n            \u003C/div> \n            \u003Cdiv class=\"umx-f-box\"> \n             \u003Cfigure class=\"umx-f2 lazy-imageom\">\u003C/figure> \n            \u003C/div> \n           \u003C/div> \n          \u003C/div> \n          \u003Cdiv class=\"umx-figure umx-figure3 swiper-slide\"> \n           \u003Cdiv class=\"umx-figure-center\"> \n            \u003Cdiv class=\"umx-txt-box\"> \n             \u003Cstrong class=\"umx-36\" uimix-text=\"iqooz11i-os-7\">更周全的安全守护\u003C/strong> \n             \u003Cp class=\"umx-17\" uimix-text=\"iqooz11i-os-8\">默认拦截开屏摇一摇广告跳转和管控外部来源应用安装，\u003Cbr class=\"umx-mb-hide\">智能拦截骚扰来电。\u003C/p> \n            \u003C/div> \n            \u003Cdiv class=\"umx-f-box\"> \n             \u003Cfigure class=\"umx-f3 lazy-imageom\">\u003C/figure> \n            \u003C/div> \n           \u003C/div> \n          \u003C/div> \n          \u003Cdiv class=\"umx-figure umx-figure4 swiper-slide\"> \n           \u003Cdiv class=\"umx-figure-center\"> \n            \u003Cdiv class=\"umx-txt-box\"> \n             \u003Cstrong class=\"umx-36\" uimix-text=\"iqooz11i-os-9\">更贴心的家人关怀\u003C/strong> \n             \u003Cp class=\"umx-17\" uimix-text=\"iqooz11i-os-10\">远程协助家人解决用机问题，位置动态随时掌握，\u003Cbr class=\"umx-mb-hide\">安全风险及时提醒，家人用机更安心。\u003C/p> \n            \u003C/div> \n            \u003Cdiv class=\"umx-f-box\"> \n             \u003Cfigure class=\"umx-f4 lazy-imageom\">\u003C/figure> \n            \u003C/div> \n           \u003C/div> \n          \u003C/div> \n         \u003C/div> \n        \u003C/div> \n       \u003C/div> \n      \u003C/div> \n      \u003Cdiv class=\"swiper-monster-line\"> \n       \u003Cdiv class=\"swiper-pagination-box\"> \n        \u003Cdiv class=\"swiper-pagination swiper-pagination-os\">\u003C/div> \n       \u003C/div> \n      \u003C/div> \n     \u003C/div> \n    \u003C/div> \n    \u003Cdiv class=\"umx-stage iqooz11i-child\" data-track=\"{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'18','total':'21'}}\"> \n     \u003Cdiv class=\"umx-section umx-s1\"> \n      \u003Cdiv class=\"umx-title\"> \n       \u003Cdiv class=\"umx-title-box umx-data-speed\"> \n        \u003Cp uimix-text=\"iqooz11i-child-1\" class=\"umx-vice-title umx-linear\">孩子守护\u003C/p> \n        \u003Cp uimix-text=\"iqooz11i-child-2\" class=\"umx-main-title\">守护孩子健康用机\u003C/p> \n        \u003Cp uimix-text=\"iqooz11i-child-3\" class=\"umx-intro\">精准管控游戏等应用时长，培养自律习惯；实时提醒不当用机环境或用机姿势；更有实时位置共享，相伴安心出行。\u003C/p> \n       \u003C/div> \n      \u003C/div> \n     \u003C/div> \n     \u003Cdiv class=\"umx-figure umx-data-speed\"> \n      \u003Cfigure class=\"umx-f1 lazy-imageom\">\u003C/figure> \n     \u003C/div> \n    \u003C/div> \n    \u003Cdiv class=\"umx-stage iqooz11i-memory\" data-track=\"{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'19','total':'21'}}\"> \n     \u003Cdiv class=\"umx-figure-box\"> \n      \u003Cfigure class=\"umx-f1 lazy-imageom\">\u003C/figure> \n      \u003Cfigure class=\"umx-icon1 lazy-imageom\">\u003C/figure> \n      \u003Cfigure class=\"umx-icon2 lazy-imageom\">\u003C/figure> \n      \u003Cfigure class=\"umx-icon3 lazy-imageom\">\u003C/figure> \n      \u003Cfigure class=\"umx-icon4 lazy-imageom\">\u003C/figure> \n      \u003Cfigure class=\"umx-icon5 lazy-imageom\">\u003C/figure> \n      \u003Cfigure class=\"umx-icon6 lazy-imageom\">\u003C/figure> \n      \u003Cfigure class=\"umx-icon7 lazy-imageom\">\u003C/figure> \n      \u003Cfigure class=\"umx-icon8 lazy-imageom\">\u003C/figure> \n      \u003Cfigure class=\"umx-icon9 lazy-imageom\">\u003C/figure> \n     \u003C/div> \n     \u003Cdiv class=\"umx-section\"> \n      \u003Cdiv class=\"umx-title umx-data-speed\"> \n       \u003Cp uimix-text=\"iqooz11i-memory-0\" class=\"umx-vice-title umx-linear\">50 个月流畅\u003Csup>10\u003C/sup>\u003C/p> \n       \u003Cp uimix-text=\"iqooz11i-memory-1\" class=\"umx-main-title\">长久用，也好用\u003C/p> \n       \u003Cp uimix-text=\"iqooz11i-memory-2\" class=\"umx-intro\">自研运存算法全新升级，运行更流畅，存储更从容，至高支持\u003Cbr class=\"umx-mb-hide\">（8GB + 8GB）+ 256GB，实现超 50 个月持久流畅。\u003C/p> \n      \u003C/div> \n     \u003C/div> \n     \u003Cul class=\"umx-data-items umx-data-speed-pc\"> \n      \u003Cli class=\"umx-li1 umx-data-speed-wap\"> \n       \u003Cdiv class=\"umx-svg umx-svg1 lazy-imageom\">\u003C/div> \n       \u003Cdiv class=\"umx-strong-box\"> \n        \u003Cstrong uimix-text=\"iqooz11i-memory-4\" class=\"umx-linear\">内存扩容，体验跃升\u003Csup>11\u003C/sup>\u003C/strong> \n        \u003Cstrong uimix-text=\"iqooz11i-memory-5\" class=\"umx-42\">至高（8GB + 8GB）\u003C/strong> \n        \u003Cp uimix-text=\"iqooz11i-memory-6\" class=\"umx-17\">开启内存融合后，至高 19 个 app 后台同开。\u003C/p> \n       \u003C/div> \u003C/li> \n      \u003Cli class=\"umx-li1 umx-data-speed-wap\"> \n       \u003Cdiv class=\"umx-svg umx-svg2 lazy-imageom\">\u003C/div> \n       \u003Cdiv class=\"umx-strong-box\"> \n        \u003Cstrong uimix-text=\"iqooz11i-memory-7\" class=\"umx-linear\">存储压缩，空间更大\u003Csup>11\u003C/sup>\u003C/strong> \n        \u003Cstrong uimix-text=\"iqooz11i-memory-8\" class=\"umx-42\">至高多存 20GB\u003C/strong> \n        \u003Cp uimix-text=\"iqooz11i-memory-9\" class=\"umx-17\">至高存储 6.5 万张照片 ｜ 至高安装 128 个游戏\u003C/p> \n       \u003C/div> \u003C/li> \n     \u003C/ul> \n    \u003C/div> \n    \u003Cdiv class=\"umx-stage iqooz11i-packlist\" data-track=\"{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'20','total':'21'}}\"> \n     \u003Cdiv class=\"umx-section\"> \n      \u003Cdiv class=\"umx-title umx-data-speed\"> \n       \u003Cp uimix-text=\"iqooz11i-packlist-1\" class=\"umx-main-title\">包装清单\u003C/p> \n       \u003Cp uimix-text=\"iqooz11i-packlist-2\" class=\"umx-intro\">手机 × 1、充电器 × 1、数据线 × 1、快速入门指南 × 1、取卡针 × 1、手机保护壳 × 1\u003C/p> \n      \u003C/div> \n     \u003C/div> \n     \u003Cdiv class=\"umx-figure-box umx-current\"> \n      \u003Cfigure class=\"umx-f7 lazy-imageom\">\u003C/figure> \n      \u003Cfigure class=\"umx-f6 lazy-imageom\">\u003C/figure> \n      \u003Cfigure class=\"umx-f5 lazy-imageom\">\u003C/figure> \n      \u003Cfigure class=\"umx-f4 lazy-imageom\">\u003C/figure> \n      \u003Cfigure class=\"umx-f3 lazy-imageom\">\u003C/figure> \n      \u003Cfigure class=\"umx-f2 lazy-imageom\">\u003C/figure> \n      \u003Cfigure class=\"umx-f1 lazy-imageom\">\u003C/figure> \n     \u003C/div> \n     \u003Cp class=\"umx-innertips\" uimix-text=\"iqooz11i-packlist-4\">*手机出厂时已贴好原装屏幕保护膜。以上包装清单仅供参考，产品配色以实际购买为准。\u003C/p> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"umx-stage umx-stage-tips\" data-track=\"{'type':'viewstate','params':{'cfrom':'00003','pagecode':'003','product':'iQOO Z11i','block':'21','total':'21'}}\"> \n    \u003Cdiv class=\"umx-tip-content\"> \n     \u003Ch4 uimix-text=\"iqooz11i-tips-0\">备注：\u003C/h4> \n     \u003Cul class=\"umx-case\"> \n      \u003Cli uimix-text=\"iqooz11i-tips-1\">本产品采用单电芯设计：典型容量：6500mAh（3.91V），典型能量：25.42Wh；额定容量：6355mAh（3.91V），额定能量：24.85Wh。\u003C/li> \n      \u003Cli uimix-text=\"iqooz11i-tips-2\">数据源自 vivo 实验室，通话、待机测试场景：Wi-Fi 网络、熄屏，音量 63dB；其他测试场景：Wi-Fi 网络、屏幕亮度 150 nits，音量 63dB；实际情况因测试环境、测试软件等不同而略有差异，请以实际体验为准。\u003C/li> \n      \u003Cli uimix-text=\"iqooz11i-tips-3\">电池健康数据源自 vivo 实验室，常温下 1600 次循环后剩余容量 ≥80%，按实验室模拟用户日常（1.2 天 1 次满充满放），约等于使用 5 年。实际会因为测试设备、测试环境、个人使用方式与习惯等不同而产生差异。\u003C/li> \n      \u003Cli uimix-text=\"iqooz11i-tips-4\">屏幕尺寸为按照标准矩形测量的屏幕直角对角线的长度，实际可视区域略小。\u003C/li> \n      \u003Cli uimix-text=\"iqooz11i-tips-5\">手机屏幕触发 HBM 模式，亮度至高可达 1200 nits。数据源自 vivo 实验室，请以实际使用情况为准。\u003C/li> \n      \u003Cli uimix-text=\"iqooz11i-tips-6\">数据源自 vivo 实验室，生活场景与实验环境存在差异，请以实际体验为准。该机型并非专业防水手机，在正常使用状态下可防溅、防尘，在受控实验室条件下经测试，其效果在 GB/T4208-2017（国内）标准下达到 IP65 级别。防溅、防尘功能并非永久有效，防护性能可能会因日常磨损而下降。请勿在潮湿状态下为手机充电；请参阅手机内置使用说明了解清洁和干燥说明。由于浸入液体而导致的损坏不在保修范围之内。\u003C/li> \n      \u003Cli uimix-text=\"iqooz11i-tips-7\">获得 SGS 五星整机抗跌耐摔认证，测试项目包含多角度跌落测试、严苛高度抗摔和严苛次数抗摔。实际体验可能会因使用环境条件，测试设置不同存在差异，请以实际体验为准。手机属于精密电子产品，手机跌落、碰撞仍有损坏风险，日常使用需注意避免跌落、碰撞。\u003C/li> \n      \u003Cli uimix-text=\"iqooz11i-tips-8\">数据源自 vivo 实验室，实际体验可能会因使用环境条件，测试设置不同存在差异。\u003C/li> \n      \u003Cli uimix-text=\"iqooz11i-tips-9\">数据源自 vivo 实验室，严苛温度下的可靠性测试为：手机在严苛温度下长时间放置，直至稳定达到目标温度后，测试手机的基础功能。实际情况因测试环境、测试软件等不同而略有差异，请以实际体验为准。\u003C/li> \n      \u003Cli uimix-text=\"iqooz11i-tips-10\">数据源自 vivo 实验室，采用 8GB + 256GB 内存版本测试，50 个月持久流畅非指绝对流畅不卡顿，因机器老化、网络环境、个人使用习惯等因素不同，体验可能有所差异，请以实际体验为准。\u003C/li> \n      \u003Cli uimix-text=\"iqooz11i-tips-11\">数据源自 vivo 实验室，实际效果与应用大小、数量、用机时长有关，请以实际体验为准。内存融合技术可实现部分 ROM 空间调度给 RAM 使用，8GB + 256GB、8GB + 128GB 版本通过内存融合技术，至高可达到扩展 8GB 运行内存的效果，6GB + 128GB 版本通过内存融合技术至高可达到扩展 6GB 运行内存的效果，请以实际使用效果为准。由于手机系统和预装的程序占据了部分运存、存储空间，实际可用空间少于标识值，至高可节省 20GB 存储空间，超清照片约 4MB / 张计算，游戏约 2GB / 款计算，请以实际使用体验为准。\u003C/li> \n      \u003Cli class=\"umx-xh umx-xh-mt\" uimix-text=\"iqooz11i-tips-bottom-0\">\u003Cspan>* \u003C/span>以上页面中产品效果（包括但不限于外观、颜色、尺寸、结构图）和屏幕显示内容（包括但不限于背景、UI、配图）为广告创意展示，部分图片由 AI 生成，仅供示意参考，请以实物为准。\u003C/li> \n      \u003Cli class=\"umx-xh umx-xh-mt\" uimix-text=\"iqooz11i-tips-bottom-1\">\u003Cspan>* \u003C/span>数据源自 vivo 实验室，受产品配置和制造工艺、测量方法的影响，实际产品尺寸可能有所差异，请以实物为准。\u003C/li> \n      \u003Cli class=\"umx-xh\" uimix-text=\"iqooz11i-tips-bottom-2\">\u003Cspan>* \u003C/span>如无特殊备注说明，以上页面的数据及参数为 vivo 实验室标准环境下的测试结果，实际使用中可能因产品软件版本、设备状况、个体差异、使用习惯和环境因素不同而有所差异，请以实际使用情况为准。\u003C/li> \n      \u003Cli class=\"umx-xh\" uimix-text=\"iqooz11i-tips-bottom-3\">\u003Cspan>* \u003C/span>由于产品的某些规格、参数、零部件、外观细节可能因供应商更换或生产批次等原因发生变化，vivo 将根据调整实时更新页面内的描述，请以实际使用的情况为准。\u003C/li> \n      \u003Cli class=\"umx-xh\" uimix-text=\"iqooz11i-tips-bottom-5\">\u003Cspan>* \u003C/span>全新支持未成年人模式，保护未成年人用机网络安全，请前往“设置”&gt;“健康使用设备”&gt;“未成年人模式”开启。\u003C/li> \n     \u003C/ul> \n    \u003C/div> \n   \u003C/div> \n  \u003C/div> \n \u003C/div> \n \u003Cdiv class=\"product-detail-wrapper clear-transform\">\u003C/div> \n \u003Ci class=\"expand-container-mask\">\u003C/i> \n \u003Cdiv class=\"expand-container-button ec-botton-close\"> \n  \u003Cdiv class=\"ec-button-wrapper ec-close-btn\"> \n   \u003Ca href=\"#\"> \u003Cb class=\"iconfont-symbol-products ico-symbol-close1\">\u003C/b> \u003C/a> \n  \u003C/div> \n \u003C/div> \n \u003Cscript>var _hmt=_hmt||[];!function(){var e=document.createElement(\"script\");e.src=\"https://hm.baidu.com/hm.js?9ef7debb81babe8b94af7f2c274869fd\";var t=document.getElementsByTagName(\"script\")[0];t.parentNode.insertBefore(e,t)}()\u003C/script> \n\u003C/div>",[11,12,13,14],"https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1782973717183/css/product.css","https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1782973717183/css/webfonts.css","https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1782973717183/css/app.css","https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1782973717183/css/video-js.min.css",[16,17,18,19,20,21],"https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1782973717183/script/product.js","https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1782973717183/script/gsap.min.js","https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1782973717183/script/ScrollTrigger.min.js","https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1782973717183/script/stickyfill.min.js","https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1782973717183/script/swiper-bundle.min.js","https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1782973717183/script/app.js",null,"white","https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1782973717183/","0",{"success":5,"code":6,"msg":7,"data":27},{"canonicalFlag":5,"hasParam":5,"hasGallery":25,"hasGallery360":25,"hasOverview":5,"shopUrl":28,"sellState":29,"shopEntry":29,"isFos":29,"product":30,"category":37,"productChannels":40,"linkNames":41},"https://shop.vivo.com.cn/product/10026472",0,{"name":31,"code":32,"marketPrice":33,"promotionPrice":33,"seoTitle":34,"seoKeyword":35,"seoDescription":36},"iQOO Z11i","iqooz11i","","iQOO Z11i - vivo智能手机官方网站","iqoo，iqoo z11，iqoo z11i，6500mAh 蓝海大电池，SGS五星抗跌耐摔认证，第二代骁龙4，120Hz 护眼电竞屏","6500mAh 蓝海大电池，SGS五星抗跌耐摔认证，第二代骁龙4，120Hz 护眼电竞屏",{"code":38,"name":39},"iqoo","iQOO",[],[42,45,49,52,55],{"name":31,"url":43,"sortPosition":29,"selected":44},"/vivo/iqooz11i/",true,{"name":46,"url":47,"sortPosition":29,"selected":48},"iQOO Z11S","/vivo/iqooz11s/",false,{"name":50,"url":51,"sortPosition":29,"selected":48},"iQOO Z11x","/vivo/iqooz11x/",{"name":53,"url":54,"sortPosition":29,"selected":48},"iQOO Z11","/vivo/iqooz11/",{"name":56,"url":57,"sortPosition":29,"selected":48},"iQOO Z11 Turbo","/vivo/iqooz11turbo/",["Reactive",59],{"$sglobalConfig":60,"$sbaseUrl":118,"$sserverUrl":118,"$sisMobile":48,"$sisApp":48,"$sisCV":44,"$srequestUri":119,"$sfirstCanonical":33,"$sisLogin":48,"$shfUpdated":48,"$sfooterNavPath":120,"$scdnUrl":124,"$sheaderHeight":125,"$sscrollTop":29,"$ssecondCanonical":33,"$sproductTabInfo":27,"$sredirectUrl":126,"$soverviewPageData":8},{"baseInfo":61,"language":89,"officialHF":108,"isLoadGTM":48,"isLoadAbTasty":48,"contactInfoList":117},{"regionCode":62,"brandMark":63,"languageCode":64,"googleSearch":65,"headerPath":66,"gaSwitch":44,"oneTrustConfig":22,"target":67,"loginUrl":68,"appHeaderFooterRemoved":22,"isGDPR":48,"trackCenter":69,"trackVersion":70,"trackSwitch":44,"isPiwikPro":48,"cnStaticHost":71,"thirdOnlineCustomer":33,"layoutShow":25,"suspendSwitch":5,"appEntrySwitch":5,"noticeBoard":72,"userResearchList":80,"vivoBrowserSupport":73,"vivoSpace":48,"currentEnv":86,"videoMaskTheme":23,"vivoStaticHost":87,"vivoWebHost":88},"cn","vivo","zh_CN","E-7gZJW4cW6Cf7VJQpdOKF6gQ6mwyrfguXubRyJSW4M","/cn","vivoportal","https://passport.vivo.com.cn/v3/web/login/authorize?client_id=30&redirect_uri=","asia","v4.9.3","https://wwwstatic.vivo.com.cn/vivoportal/files/image/",{"id":73,"noticeTitle":74,"linkContent":75,"linkUrl":76,"isShow":29,"isJump":73,"isValid":73,"countryId":73,"createBy":77,"createTime":78,"updateBy":77,"updateTime":79},1,"关于vivo及iQOO部分产品建议零售价调整的说明","点击查看","https://mshopact.vivo.com.cn/vivospace/wk26031139b762ab","11002946",1773315170000,1773803519000,[81,84],{"fileName":82,"fileUrl":83,"channelType":73},"vivo官网体验评价","https://wukongapi.vivo.com.cn/wukongtopic/wenjuan/3936/index",{"fileName":82,"fileUrl":85,"channelType":29},"https://wukongapi.vivo.com.cn/wukongtopic/wenjuan/3937/index","prd","https://asia-exstatic.vivoglobal.com","https://www.vivo.com",{"homeBannerSlideDown":90,"moreNewProducts":-1,"homeBannerSmallTitle":91,"exploreVivo":92,"exploreIqoo":-1,"exploreJovi":-1,"backTop":-1,"supportContactUs":93,"productOverview":94,"productGallery":95,"productParameter":96,"commonBuyNow":97,"productionHalt":-1,"productSoldOut":98,"productBuyRetailers":99,"commonPreBook":100,"commonProducts":101,"IMEIProductColor":102,"productOnlineStore":103,"commonLoadMore":104,"productInformationSheet":105,"energyConsumptionLevel":106,"productInformationRoHS":-1,"productPreviewTip":-1,"commonBreadcrumb":107},"向下滑动","发现更多","探索vivo","联系我们","产品概览","画廊","规格参数","立即购买","缺货","专卖店购买","立即预定","产品","产品颜色","在线商城","更多","产品信息","能耗级别","面包屑导航",{"commonCss":33,"commonJs":33,"cookieLastVersion":33,"footerHtml":33,"headerHtmlMini":109,"headerHtml":33,"oneTrustConfig":110,"publicKey":33,"cssUrlArr":111,"cssStyle":33,"cssUrl":33,"scriptUrl":33,"footColorStyle":5},"\u003Cdiv id=\"vivo-head-wrap\"\n     class=\"vp-head   vp-head-theme-black\"\n     >\n    \u003Cdiv id=\"cn-head-theme\">\u003C/div>\n    \u003Cdiv class=\"vp-head-wrap\">\n            \u003Cdiv class=\"vp-head-wrap-pc\">\n                \u003Cdiv class=\"vp-head-topbar-pc\">\n                    \u003Cdiv>\n                        \u003Cul class=\"vp-head-topbar-navs\">\n                                \u003Cli>\u003Ca href=\"\"\n                                       data-head-click-stat=\"cfrom=01|03|002|003&name=品牌\">品牌\u003C/a>\n                                \u003C/li>\n                                \u003Cli>\u003Ca href=\"\"\n                                       data-head-click-stat=\"cfrom=01|03|002|003&name=OriginOS\">OriginOS\u003C/a>\n                                \u003C/li>\n                                \u003Cli>\u003Ca href=\"\"\n                                       data-head-click-stat=\"cfrom=01|03|002|003&name=体验店\">体验店\u003C/a>\n                                \u003C/li>\n                                \u003Cli>\u003Ca href=\"\"\n                                       data-head-click-stat=\"cfrom=01|03|002|003&name=官网社区\">官网社区\u003C/a>\n                                \u003C/li>\n                        \u003C/ul>\n                        \u003Cdiv class=\"vp-head-top-user\">\n                                \u003Ca href=\"https://shopact.vivo.com.cn/pcspace/wk221129f1431101\"\n                                   class=\"vp-vivo-app\">\n                                    \u003Cspan>下载APP\u003C/span>\n                                \u003C/a>\n                            \u003Ca class=\"vp-user-shopcart\" href=\"https://shop.vivo.com.cn/shoppingcart\"\n                               data-head-click-stat=\"cfrom=01|03|002|002&position=1\">\u003C/a>\n                            \u003Cdiv class=\"vp-user-login-box\">\n                                \u003Cspan class=\"vp-head-member-login\">个人中心\u003C/span>\n                            \u003C/div>\n                        \u003C/div>\n                    \u003C/div>\n                \u003C/div>\n                \u003Cdiv class=\"vp-head-mainbar-pc\" >\n                    \u003Cdiv class=\"vp-head-logo\">\n                        \u003Ca href=\"//www.vivo.com.cn\" role=\"link\" aria-label=\"vivo\" data-head-click-stat=\"cfrom=01|03|002|001&name=vivo\"> \u003C/a>\n                    \u003C/div>\n                    \u003Cdiv class=\"vp-head-site\">\n                        \u003Cdiv class=\"vp-head-site-wrap\">\n                            \u003Cdiv class=\"vp-head-site-navs\">\n                                \u003Cdiv class=\"vp-head-site-navs-container\">\n                                        \u003Cul class=\"vp-head-site-navs-7\">\n                                                \u003Cli >\n                                                    \u003Ca\n                                                        id=\"\" href=\"\"\n                                                        data-url=\"\"\n                                                        class=\"vp-vivo-head-\"\n                                                        data-head-click-stat=\"cfrom=01|03|002|003&name=X系列\">\u003Cspan\n                                                            class=\"main\">X系列\u003C/span>\u003Cspan\n                                                            class=\"sub\">X\u003C/span>\u003C/a>\n                                                \u003C/li>\n                                                \u003Cli >\n                                                    \u003Ca\n                                                        id=\"\" href=\"\"\n                                                        data-url=\"\"\n                                                        class=\"vp-vivo-head-\"\n                                                        data-head-click-stat=\"cfrom=01|03|002|003&name=S系列\">\u003Cspan\n                                                            class=\"main\">S系列\u003C/span>\u003Cspan\n                                                            class=\"sub\">S\u003C/span>\u003C/a>\n                                                \u003C/li>\n                                                \u003Cli >\n                                                    \u003Ca\n                                                        id=\"\" href=\"\"\n                                                        data-url=\"\"\n                                                        class=\"vp-vivo-head-\"\n                                                        data-head-click-stat=\"cfrom=01|03|002|003&name=Y系列\">\u003Cspan\n                                                            class=\"main\">Y系列\u003C/span>\u003Cspan\n                                                            class=\"sub\">Y\u003C/span>\u003C/a>\n                                                \u003C/li>\n                                                \u003Cli >\n                                                    \u003Ca\n                                                        id=\"\" href=\"\"\n                                                        data-url=\"\"\n                                                        class=\"vp-vivo-head-\"\n                                                        data-head-click-stat=\"cfrom=01|03|002|003&name=iQOO手机\">\u003Cspan\n                                                            class=\"main\">iQOO手机\u003C/span>\u003Cspan\n                                                            class=\"sub\">iQOO手机\u003C/span>\u003C/a>\n                                                \u003C/li>\n                                                \u003Cli >\n                                                    \u003Ca\n                                                        id=\"\" href=\"\"\n                                                        data-url=\"\"\n                                                        class=\"vp-vivo-head-\"\n                                                        data-head-click-stat=\"cfrom=01|03|002|003&name=智能硬件\">\u003Cspan\n                                                            class=\"main\">智能硬件\u003C/span>\u003Cspan\n                                                            class=\"sub\">智能硬件\u003C/span>\u003C/a>\n                                                \u003C/li>\n                                                \u003Cli >\n                                                    \u003Ca\n                                                        id=\"\" href=\"\"\n                                                        data-url=\"\"\n                                                        class=\"vp-vivo-head-\"\n                                                        data-head-click-stat=\"cfrom=01|03|002|003&name=商城\">\u003Cspan\n                                                            class=\"main\">商城\u003C/span>\u003Cspan\n                                                            class=\"sub\">商城\u003C/span>\u003C/a>\n                                                \u003C/li>\n                                                \u003Cli >\n                                                    \u003Ca\n                                                        id=\"\" href=\"\"\n                                                        data-url=\"\"\n                                                        class=\"vp-vivo-head-\"\n                                                        data-head-click-stat=\"cfrom=01|03|002|003&name=服务\">\u003Cspan\n                                                            class=\"main\">服务\u003C/span>\u003Cspan\n                                                            class=\"sub\">服务\u003C/span>\u003C/a>\n                                                \u003C/li>\n                                        \u003C/ul>\n                                \u003C/div>\n                            \u003C/div>\n                        \u003C/div>\n                    \u003C/div>\n                    \u003Cdiv class=\"vp-head-search-btn\">\n                        \u003Cdiv>\n                            \u003Cspan class=\"vp-head-search-open\">\u003C/span>\n                        \u003C/div>\n                    \u003C/div>\n                \u003C/div>\n            \u003C/div>\n            \u003Cdiv class=\"vp-head-wrap-wap vp-head-show-app\">\n                \u003Cdiv class=\"vp-head-wap-common-box\">\n                    \u003Cdiv class=\"vp-head-download common-header-suspended\">\n            \u003Cdiv data-head-click-stat=\"cfrom=04|03|062|062\" class=\"vp-head-download-click\">\n            \u003Cdiv class=\"vp-head-download-img\">\n                \u003Cimg class=\"vp-head-img-floating vp-head-lazyload\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=\" alt=\"官网APP\">\n                \u003Cimg class=\"vp-head-img-button vp-head-lazyload\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=\" alt=\"按钮\">\n            \u003C/div>\n            \u003Cdiv class=\"vp-head-download-wx\">\u003C/div>\n        \u003C/div>\n    \u003Cspan data-head-click-stat=\"cfrom=05|03|062|063\" class=\"vp-head-download-close\">\u003C/span>\n\n    \u003Cscript type=\"text/javascript\">\n        var vpHeaderFloat = {\n            pageBoundary: 720,\n            needDeeplink: (!window.H5Interface && 0) ? 1 : 0,\n            deeplinkUrl: '',\n            blockBrowser: 'DeviceType\\/tablet|UCBrowser|VivoSpace|AlipayClient|AliApp\\\\(AP|wxwork|miniProgram',\n            blockCid: 'toutiao_pz|tt-sem|w-1-kp-x70|xiaov',\n            blockCookie: 'DeviceType\\/tablet|UCBrowser|VivoSpace|AlipayClient|AliApp\\\\(AP|wxwork|miniProgram',\n            isVivo: '1',\n            target: 'vivoportal',\n            wxTokenSwitch: 'true',\n            imgObj: {\n                'vivoFloatingImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753166059999/88be9f038031c75c78c4ed227e6fbeb1.png',\n                'vivoButtonImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753166071502/28e0ff5547eab74a14c51ea9091a26d8.png',\n                'vivoDownLoadUrl': 'https://h5.vivo.com.cn/mall/download/index.html',\n                'floatingImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753168266859/c092cf0613b0504e542cd7cd948ff1d5.png',\n                'buttonImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753168290953/e3eb324e70b13ec24fa84a1ae9f2db19.png',\n                'downLoadUrl': 'https://h5.vivo.com.cn/mall/download/index.html',\n            }\n        }\n    \u003C/script>\n\u003C/div>\n                    \u003Cdiv class=\"vp-head-common\">\n                        \u003Cspan class=\"vp-head-left-feature\" role=\"button\" aria-label=\"菜单\" aria-expanded=\"false\">\u003C/span>\n                        \u003Cdiv class=\"vp-head-logo\" aria-label=\"vivo\">\n                            \u003Ca href=\"//www.vivo.com.cn\">\u003C/a>\n                        \u003C/div>\n                        \u003Cdiv class=\"vp-head-right-feature\">\n                            \u003Ca href=\"//www.vivo.com.cn/search/index\" class=\"vp-head-btns-search search-index-link\" aria-label=\"搜索\">\u003C/a>\n                                \u003Ca class=\"vp-head-btns-shop\" href=\"//shop.vivo.com.cn/\" aria-label=\"商城\"\n                                   data-head-click-stat=\"cfrom=1042\">\u003C/a>\n                        \u003C/div>\n                    \u003C/div>\n                \u003C/div>\n            \u003C/div>\n    \u003C/div>\n\u003C/div>\n\n\u003Cscript type=\"text/javascript\" id=\"vp-head-header-script\">\n    var vpHeader = {\n        pageType: 'responsive',\n        pageBoundary: 1199,\n        clientId: '30',\n        memberIsCus: false,\n        headerType: 0,\n        target: 'vivoportal',\n        ceilingType: 0,\n        showDownLink: 1,\n        darkWords: [],\n        headTheme: 'black'\n    };\n    var VP_Emmiter;\n\u003C/script>\n\u003Cstyle>\n\n\u003C/style>\n",{},[112,115],{"rel":113,"href":114},"stylesheet","//asia-exstatic.vivoglobal.com/static/bus/include/cn-header/dist/css/index_8c54916.css",{"rel":113,"href":116},"//asia-exstatic.vivoglobal.com/static/bus/common/css/vicon_eb95211.css",[],"https://www.vivo.com.cn","/vivo/iqooz11i",{"firstPath":121,"secondPath":123},{"name":39,"url":122},"/products-iqoo.html",{"name":31},"https://portalstatic-cn.vivo.com/",60,"https://passport.vivo.com.cn/v3/web/login/authorize?client_id=30&redirect_uri=https%3A%2F%2Fwww.vivo.com.cn%2Fvivo%2Fiqooz11i",["Set",128],"$g-eZeBzBAM",["ShallowReactive",130],{"$fUIXiM6PMqSZGb72wLViI5cZF2JwOvHRQN-nr3YPdNmk":22,"$fBT1orxdgR8Fx5lKsQ1dAFvqHeb1lAIqhvmWHTn5k7TU":22}]</script>
+<script>window.__NUXT__={};window.__NUXT__.config={public:{},app:{baseURL:"/",buildId:"57c42470-b277-41f4-90d9-4b64f500e6c8",buildAssetsDir:"/_nuxt/",cdnURL:"https://portalstatic-cn.vivo.com/"}}</script><script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script nomodule crossorigin id="vite-legacy-polyfill" src="https://portalstatic-cn.vivo.com/_nuxt/BcP1sRmP-legacy.js"></script><script nomodule crossorigin id="vite-legacy-entry" data-src="https://portalstatic-cn.vivo.com/_nuxt/Cmt9O-JX-legacy.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script></body></html>

@@ -1,0 +1,1184 @@
+<!DOCTYPE html><html  lang="zh-CN" class="extra-desktop-style"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>vivo蔡司影像 - vivo智能手机官方网站</title>
+<script src="https://portalstatic-cn.vivo.com/js/jquery-3.6.0.min.js" type="text/javascript" id="jquery-3.6.0.min-js"></script>
+<script src="https://portalstatic-cn.vivo.com/js/common.js" type="text/javascript" id="vivo-cn-common-js"></script>
+<script src="https://portalstatic-cn.vivo.com/js/buryingPoint.js" type="text/javascript" id="cn-buryingPoint-js"></script>
+<script src="https://portalstatic-cn.vivo.com/js/lib.js" type="text/javascript" id="vivo-cn-lib-js"></script>
+<script src="https://portalstatic-cn.vivo.com/js/cn-video-js.min.js" type="text/javascript" id="vivo-cn-video-js"></script>
+<style>:root { --brandColor: #415fff;--brandDarkColor: #546fff;--brandHoverColor: rgba(65, 95, 255, 0.73);--global-font-family: "vivoSansSC","VIVO-FONT-WEB-BOLD","VIVO-FONT-NAV-BOLD",sans-serif,微软雅黑; }</style>
+<style>true</style>
+<link rel="stylesheet" href="//asia-exstatic.vivoglobal.com/static/bus/include/cn-header/dist/css/index_8c54916.css">
+<link rel="stylesheet" href="//asia-exstatic.vivoglobal.com/static/bus/common/css/vicon_eb95211.css">
+<style>html,body{overflow: visible;}</style>
+<link rel="stylesheet" href="https://portalstatic-cn.vivo.com/css/cn-base.css" id="vivo-cn-base-css">
+<link rel="stylesheet" href="https://portalstatic-cn.vivo.com/css/cn-video-js.min.css" id="vivo-cn-video-js-css">
+<link rel="stylesheet" href="https://h5.vivo.com.cn/pcvivo/productCss/supplementProductCss.css" id="vivo-product-supplement-css">
+<link rel="stylesheet" href="https://portalstatic-cn.vivo.com/_nuxt/entry.B834TZnp.css" crossorigin>
+<link rel="stylesheet" href="https://portalstatic-cn.vivo.com/_nuxt/default.65LdwTmY.css" crossorigin>
+<link rel="stylesheet" href="https://portalstatic-cn.vivo.com/_nuxt/index.C7cftnEl.css" crossorigin>
+<link rel="stylesheet" href="https://portalstatic-cn.vivo.com/_nuxt/index.DMi5mYwm.css" crossorigin>
+<link rel="modulepreload" as="script" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/DliVVojO.js">
+<link rel="modulepreload" as="script" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/swY2moNO.js">
+<link rel="modulepreload" as="script" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/BWjUOQWb.js">
+<link rel="modulepreload" as="script" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/gz6Dlv0R.js">
+<link rel="modulepreload" as="script" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/CyfQnM1W.js">
+<link rel="modulepreload" as="script" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/B9CUtv_L.js">
+<link rel="preload" as="fetch" fetchpriority="low" crossorigin="anonymous" href="https://portalstatic-cn.vivo.com/_nuxt/builds/meta/57c42470-b277-41f4-90d9-4b64f500e6c8.json">
+<link rel="dns-prefetch" href="//asia-exstatic.vivoglobal.com">
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+<link rel="dns-prefetch" href="//asia-exstatic-vivofs.vivo.com">
+<link rel="prefetch" as="image" type="image/x-icon" href="https://portalstatic-cn.vivo.com/_nuxt/favicon-iqoo.D8dd7MA_.ico">
+<link rel="prefetch" as="style" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/noHF.D4URACS4.css">
+<link rel="prefetch" as="script" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/B40WWwIr.js">
+<link rel="prefetch" as="image" type="image/png" href="https://portalstatic-cn.vivo.com/_nuxt/wechat.DfvKeLMW.png">
+<link rel="prefetch" as="image" type="image/png" href="https://portalstatic-cn.vivo.com/_nuxt/vivo-miniProgram.BQ7dTvNJ.png">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta name="format-detection" content="telephone=no,email=no">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAAHdbkFIAAAAAXNSR0IArs4c6QAAB9tJREFUeAHtW2uoVUUUXvtopiREVkoJJZZWRPTETFLTq2FkBEU+ivAqGF41KqwgxbxZFpRRoal5Qa+Q+Cj8kVrS7ZoPKIOS+tHDLFNBQclukJRaelrf3nedvfbs9zl7n63g+nFmZs16zZrHnlkzxyKGEZPKf3HSE3kNlkV7rLBKISxxxscplUhBYMPW1s5MZyLlCoGunv8k0d//OJgKwchGIuG6+3aisU0GAYr3PeEQgVighKZI4eQpIl0JvIUfbmoZqQmfr7Is+CGwUogrRgrCTG0CsV5XCs4m0E0EESrF2K7CBcfMnc4GDyIa97RglavhGFQCfv/TSfEb24pIP7hywnOxGsJZnZqKHxc+77S+z6XRLAufcwcFKD0WNE0gemQM0ZkzRKOm+AWJ78XFPgHCEkQYhAsVgAphaN9F1DDYEa01OxijCYJMk9bejdA2srG8nAf91DSaeYyOaltltXt6IY0Am9ai7ZVxkJoZDGUaXpsAlpGdAPT75vdgVzSArn2lS1OxABO+x4VEC9Rkd8mcnAyu8c+4NRUBslLedYtbqXMD+7klvWBUBKBalhrR5LIQLWt2SuZw9gjQkq+5ymVvW+HkP9ji4iTnEQCkaGiZLyREXTqplq51cZKrrJqCQApNWBd0U0SwpkPeZwGQpqYDh4ENhtrmAssMtCBYVzAWAjqCq+KxXS0aaC8oDY3loWfKtCOeJVOKDv7+9rKqWYyyNKOUdiXMUjlk1TwIajWocAN8M3kIr2avGEti2CyOa/04Xg2m8W5BgykrcCLz1tKzaEPA2Gm8ez2hRUXn179FdNklLs2e34iaXnLLkgvsAuxLTUs3LSN6+F5hi06xBmrlc94OVg4pgR7Q4pe8SHR9fxdz9BjRhFluWee6dyP6eLnG8LZoMn+8IzbagR7QIqbPJ0ILBHrz9lGv8oJ/sMGvHF6MUg7eWA+IgqBxMYb3Uqf+JVr9BtEVlwsl0U/7iGB4EkhsgAgLar3UIZ3Ng2/XdxoTnY/tApMdbh2ndiVS/8sBZ+CmUQ7e1B4QhVmlJexysxJWjRxLmEY0lrdhsyvlvFPsBdparb0VA0ZPKjectuhdnjbX5aj8OM+mNVtbLT7bO2AbwGfyP7ioFk6pzi8tWTSsvdXaWbJdX2flaJbswAqdBdwdLanXgSw7hcfbxEIN4Mb0LNqA83vC4j3g25TiAI9vP2D390TP8re+WkDsa8WrztkfMnb/wPJe90rzDUJRDrLbbuRPL+9sq4U1b7rKIWPDp35JPgMkTiCk5rZa8HGpGe1AFOSLb/1cPgMQZ8AWWgO22GmgR3ciM1ryAMdcg8BnAIjM/Tu22DrMEiRI4zYu0SUnZBG2OQ00AOx6J4yyhGmQjwKcHUqGVDPkofkNUrfqS+4vieMLFrH9OJjxqJfCHFPe2pjTsdlvuDvozuG0MFjLo14Dtuc6dqXrJB/qARCg38zg1salwupNERjDoUVDkrNBpAEQZvYfgmY4BZmgA2uoM8eQSS/lWANAaPbjU48Lu5PiWkMDxg7GUBJIZAD6Ef2pAccxQLcL3GsTB0Nkjh3BB6WJDACj2Z84C87hmMGWFq/Y9Z/EH0g1R2IDwIRznwa5kdC4Zet0KT6fygCc+6LiprjJSwupDIDwybOJcBA1AQdW3BSmhUK35TA2tQfStjCOvlADePOzp1ADupRpRgnH5Dg35VTfgdu3Es7odTeCb+0QqkfDKvEBFEY3lgf8R9RSz0AF9NYNuOF8DJgKp4tO2wF2w8v0FSPrGqMQIwpIO3jU3WlHiBAZ4l7/rAAjCleJ+GAJYbHCLSnIALQdN2Z5xgQLaloytWh7od+hZGbmS3XeAfn69+yXfn4EnP19lK+FvvioqW7FAqJ+fU2sW/55v3NexhO+egLCX7jNjorZ7T9ENGVOtFWxUwACdn4TLgQGIFgU9xAyXEL6GuiCzqjGw+a4xkNzrANANG8R0aLVyAUDXr8hGD30juD6LLHQYQa+TfmwFTYngVQhgWs5/Le02X3SFqRgQxvR4ghnBfEkxc18jOih0eHUp3kaNjVzzORgOI1Zk8oBYEZwdiXfe0QN+b0ctIEhfB+aCfDFLi2ZFz3kjxzjgNELRCdSBoYSTQHdihMniSbOItrxtcZ68wOuduaofrvjpUhegoy4+Q5bYFPaxsOK1A4Q05sX87rwvpT8Ka5pcLUz5FZ/XVIMnpFBBmSFAWyALdVC6ilgKkqyLuCKwYzym3LMsryQN/FSrma+C69Oa3YAhOHF2MrXoteFH/cRzXw5Pm6Oa9LFc4lu6K/N9Oarne9eKU6p6imghWHuxa0LaNBHfHnY62LN6c2jDjRRja9lvnu1OaVMHCCC49aFi3oQffgO0aCbhMNNgUMdaMKg1vkeJDeTKWAKTrsuJJnv05qJfj1oaqq9nIsDYFaSdSGJ+VnO9yB9mU4BrUDWhU3bNDZdHrzVft+TasptBGgD+vYhwr/HonaPmh69jlc1h45obD75ujhAmz74ZqL7hxNdyU7pbd/NEB3lV5OHubGbt6d7+avlVpuvuwOqNTQvPqwBx/MSfg7IPY4/4645BwzNxUS0nTee/M6kzi+3c2lNWqG4IW617rE/g3aGH1OzjI60cs5B+g48HEebYbs9AsxGdD6lH8/4YXx91JfTyD/Wm/xnURnP9Q+xPTv4NcQ6PEgwbfsf5DA3HXM0nG0AAAAASUVORK5CYII=">
+<meta name="keywords" content>
+<meta name="description" content>
+<meta name="robots" content>
+<meta name="facebook-domain-verification" content="0q2ryjis6o0fzvez07tvvutzgde34a">
+<meta name="google-site-verification" content="E-7gZJW4cW6Cf7VJQpdOKF6gQ6mwyrfguXubRyJSW4M">
+<script type="text/javascript">
+        var sZeus = document.createElement('script');
+        sZeus.onload = sZeus.onreadystatechange = function () {
+          if (!this.readyState || this.readyState === 'loaded' || this.readyState === 'complete') {
+            sZeus.onload = sZeus.onreadystatechange = null;
+            window.VMonitor && window.VMonitor.init({
+              id: 'lsYkPuCe',  // 页面应用id
+              reportRender: false,  // 手动性能上报
+              zeusEnv: 'prd',  // zeusEnv：环境区分。prod：生产；test：测试；pre:预发
+              branchName: 'master'  // branchName: 业务代码git分支名
+            });
+          }
+        };
+        sZeus.src = '//sentinelapi.vivo.com.cn/jssdk/vmonitor.min.js';
+        document.head.appendChild(sZeus);
+      </script>
+<link rel="stylesheet" href="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1747018978712/css/webfonts.css" id="vivo-overview-css-1">
+<link rel="stylesheet" href="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1747018978712/css/app.css" id="vivo-overview-css-2">
+<link rel="stylesheet" href="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1747018978712/css/video-js.min.css" id="vivo-overview-css-3">
+<script id="vivo-cn-global-var">var gloablVAR = {
+          videoMaskTheme: "white",
+          pageTAG: 3,
+          h5SdkSwitch: "true",
+        };</script>
+<script id="vivo-product-image-host">var IMAGE_HOST = "https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1747018978712/";</script>
+<script type="module" src="https://portalstatic-cn.vivo.com/_nuxt/DliVVojO.js" crossorigin></script><script type="module">import.meta.url;import("_").catch(()=>1);(async function*(){})().next();if(location.protocol!="file:"){window.__vite_is_modern_browser=true}</script><script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy chunks, syntax error above and the same error below should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script></head><body><div id="__nuxt"><div class="app"><!--[--><header id="gw_header" class="new-head-wrap"><!----><div class="mini-head"><div id="vivo-head-wrap"
+     class="vp-head   vp-head-theme-black"
+     >
+    <div id="cn-head-theme"></div>
+    <div class="vp-head-wrap">
+            <div class="vp-head-wrap-pc">
+                <div class="vp-head-topbar-pc">
+                    <div>
+                        <ul class="vp-head-topbar-navs">
+                                <li><a href=""
+                                       data-head-click-stat="cfrom=01|03|002|003&name=品牌">品牌</a>
+                                </li>
+                                <li><a href=""
+                                       data-head-click-stat="cfrom=01|03|002|003&name=OriginOS">OriginOS</a>
+                                </li>
+                                <li><a href=""
+                                       data-head-click-stat="cfrom=01|03|002|003&name=体验店">体验店</a>
+                                </li>
+                                <li><a href=""
+                                       data-head-click-stat="cfrom=01|03|002|003&name=官网社区">官网社区</a>
+                                </li>
+                        </ul>
+                        <div class="vp-head-top-user">
+                                <a href="https://shopact.vivo.com.cn/pcspace/wk221129f1431101"
+                                   class="vp-vivo-app">
+                                    <span>下载APP</span>
+                                </a>
+                            <a class="vp-user-shopcart" href="https://shop.vivo.com.cn/shoppingcart"
+                               data-head-click-stat="cfrom=01|03|002|002&position=1"></a>
+                            <div class="vp-user-login-box">
+                                <span class="vp-head-member-login">个人中心</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vp-head-mainbar-pc" >
+                    <div class="vp-head-logo">
+                        <a href="//www.vivo.com.cn" role="link" aria-label="vivo" data-head-click-stat="cfrom=01|03|002|001&name=vivo"> </a>
+                    </div>
+                    <div class="vp-head-site">
+                        <div class="vp-head-site-wrap">
+                            <div class="vp-head-site-navs">
+                                <div class="vp-head-site-navs-container">
+                                        <ul class="vp-head-site-navs-7">
+                                                <li >
+                                                    <a
+                                                        id="" href=""
+                                                        data-url=""
+                                                        class="vp-vivo-head-"
+                                                        data-head-click-stat="cfrom=01|03|002|003&name=X系列"><span
+                                                            class="main">X系列</span><span
+                                                            class="sub">X</span></a>
+                                                </li>
+                                                <li >
+                                                    <a
+                                                        id="" href=""
+                                                        data-url=""
+                                                        class="vp-vivo-head-"
+                                                        data-head-click-stat="cfrom=01|03|002|003&name=S系列"><span
+                                                            class="main">S系列</span><span
+                                                            class="sub">S</span></a>
+                                                </li>
+                                                <li >
+                                                    <a
+                                                        id="" href=""
+                                                        data-url=""
+                                                        class="vp-vivo-head-"
+                                                        data-head-click-stat="cfrom=01|03|002|003&name=Y系列"><span
+                                                            class="main">Y系列</span><span
+                                                            class="sub">Y</span></a>
+                                                </li>
+                                                <li >
+                                                    <a
+                                                        id="" href=""
+                                                        data-url=""
+                                                        class="vp-vivo-head-"
+                                                        data-head-click-stat="cfrom=01|03|002|003&name=iQOO手机"><span
+                                                            class="main">iQOO手机</span><span
+                                                            class="sub">iQOO手机</span></a>
+                                                </li>
+                                                <li >
+                                                    <a
+                                                        id="" href=""
+                                                        data-url=""
+                                                        class="vp-vivo-head-"
+                                                        data-head-click-stat="cfrom=01|03|002|003&name=智能硬件"><span
+                                                            class="main">智能硬件</span><span
+                                                            class="sub">智能硬件</span></a>
+                                                </li>
+                                                <li >
+                                                    <a
+                                                        id="" href=""
+                                                        data-url=""
+                                                        class="vp-vivo-head-"
+                                                        data-head-click-stat="cfrom=01|03|002|003&name=商城"><span
+                                                            class="main">商城</span><span
+                                                            class="sub">商城</span></a>
+                                                </li>
+                                                <li >
+                                                    <a
+                                                        id="" href=""
+                                                        data-url=""
+                                                        class="vp-vivo-head-"
+                                                        data-head-click-stat="cfrom=01|03|002|003&name=服务"><span
+                                                            class="main">服务</span><span
+                                                            class="sub">服务</span></a>
+                                                </li>
+                                        </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vp-head-search-btn">
+                        <div>
+                            <span class="vp-head-search-open"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vp-head-wrap-wap vp-head-show-app">
+                <div class="vp-head-wap-common-box">
+                    <div class="vp-head-download common-header-suspended">
+            <div data-head-click-stat="cfrom=04|03|062|062" class="vp-head-download-click">
+            <div class="vp-head-download-img">
+                <img class="vp-head-img-floating vp-head-lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" alt="官网APP">
+                <img class="vp-head-img-button vp-head-lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" alt="按钮">
+            </div>
+            <div class="vp-head-download-wx"></div>
+        </div>
+    <span data-head-click-stat="cfrom=05|03|062|063" class="vp-head-download-close"></span>
+
+    <script type="text/javascript">
+        var vpHeaderFloat = {
+            pageBoundary: 720,
+            needDeeplink: (!window.H5Interface && 0) ? 1 : 0,
+            deeplinkUrl: '',
+            blockBrowser: 'DeviceType\/tablet|UCBrowser|VivoSpace|AlipayClient|AliApp\\(AP|wxwork|miniProgram',
+            blockCid: 'toutiao_pz|tt-sem|w-1-kp-x70|xiaov',
+            blockCookie: 'DeviceType\/tablet|UCBrowser|VivoSpace|AlipayClient|AliApp\\(AP|wxwork|miniProgram',
+            isVivo: '1',
+            target: 'vivoportal',
+            wxTokenSwitch: 'true',
+            imgObj: {
+                'vivoFloatingImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753166059999/88be9f038031c75c78c4ed227e6fbeb1.png',
+                'vivoButtonImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753166071502/28e0ff5547eab74a14c51ea9091a26d8.png',
+                'vivoDownLoadUrl': 'https://h5.vivo.com.cn/mall/download/index.html',
+                'floatingImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753168266859/c092cf0613b0504e542cd7cd948ff1d5.png',
+                'buttonImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753168290953/e3eb324e70b13ec24fa84a1ae9f2db19.png',
+                'downLoadUrl': 'https://h5.vivo.com.cn/mall/download/index.html',
+            }
+        }
+    </script>
+</div>
+                    <div class="vp-head-common">
+                        <span class="vp-head-left-feature" role="button" aria-label="菜单" aria-expanded="false"></span>
+                        <div class="vp-head-logo" aria-label="vivo">
+                            <a href="//www.vivo.com.cn"></a>
+                        </div>
+                        <div class="vp-head-right-feature">
+                            <a href="//www.vivo.com.cn/search/index" class="vp-head-btns-search search-index-link" aria-label="搜索"></a>
+                                <a class="vp-head-btns-shop" href="//shop.vivo.com.cn/" aria-label="商城"
+                                   data-head-click-stat="cfrom=1042"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+
+<script type="text/javascript" id="vp-head-header-script">
+    var vpHeader = {
+        pageType: 'responsive',
+        pageBoundary: 1199,
+        clientId: '30',
+        memberIsCus: false,
+        headerType: 0,
+        target: 'vivoportal',
+        ceilingType: 0,
+        showDownLink: 1,
+        darkWords: [],
+        headTheme: 'black'
+    };
+    var VP_Emmiter;
+</script>
+<style>
+
+</style>
+</div></header><main><!--[--><div class="product-detail is-cn" data-v-0e028e03><!----><div id="vivo-product-resource" class="cn-vivozeiss" data-v-0e028e03><div id="vivo-product-wrap" class="unvisible J_replace_content"> 
+ <div style="display:none"></div> 
+ <div class="product-main-wrapper"> 
+  <div class="product-main-content"> 
+   <div class="umx-stage zeiss-tvc"> 
+    <div class="umx-figure-bg"> 
+     <figure class="umx-tvc-bg lazy-imageom"></figure> 
+     <div class="umx-section"> 
+      <div class="umx-title"> 
+       <i class="umx-tvc-logo lazy-imageom"></i> 
+       <p class="umx-main-title">超越眼之所见</p> 
+       <a href="#" class="umx-tvc-button" data-trigger="innervideo" data-resource="{'url': 'https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1680488854175/images/X60-%E8%94%A1%E5%8F%B8%E5%93%81%E7%89%8C%E5%90%88%E4%BD%9C%E5%AE%A3%E4%BC%A0%E7%89%87-PC.mp4', 'poster': 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7', 'width':960, 'height':540}"> <span>观看影片</span> 
+        <svg width="20px" height="20px" viewbox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+         <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> 
+          <g transform="translate(-988.000000, -579.000000)" stroke="#FFFFFF"> 
+           <g transform="translate(696.000000, 265.000000)"> 
+            <g transform="translate(184.000000, 296.000000)"> 
+             <g transform="translate(108.000000, 18.000000)"> 
+              <circle cx="10" cy="10" r="9.5" /> 
+              <path d="M10.375,6.22548095 C10.1956403,6.12192756 9.9912872,6.10087745 9.80588572,6.15055563 C9.62048423,6.20023381 9.45403434,6.32064027 9.35048095,6.5 L6.54367061,11.5625 C6.54367061,11.7696068 6.62761722,11.9571068 6.76334053,12.0928301 C6.89906383,12.2285534 7.08656383,12.3125 7.29367061,12.3125 L13.0813294,12.2120191 C13.2606891,12.1084657 13.3810956,11.9420158 13.4307738,11.7566143 C13.4804519,11.5712128 13.4594018,11.3668597 13.3558484,11.1875 L10.375,6.22548095 Z" transform="translate(10.000000, 10.000000) rotate(-270.000000) translate(-10.000000, -10.000000)" /> 
+             </g> 
+            </g> 
+           </g> 
+          </g> 
+         </g> 
+        </svg> </a> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="umx-stage zeiss-history umx-stage_sticky"> 
+    <div class="umx-horizontal-scroll-wrapper umx-stage_sticky"> 
+     <div class="umx-stickyBox"> 
+      <div class="umx-section"> 
+       <div class="umx-title"> 
+        <p class="umx-main-title"><i class="umx-history-logo"></i>光学先驱，百年蔡司。</p> 
+        <p class="umx-intro">蔡司创立于1846年，拥有超过175年的历史，致力于塑造技术领域的未来，在半导体制造技术、<br class="umx-mb-hide">工业质量与研究、医疗技术和消费品领域均有卓越建树，是世界公认的光学先驱。</p> 
+       </div> 
+      </div> 
+      <div class="umx-history-list"> 
+       <div class="umx-history-progress"> 
+        <div class="umx-box-line"> 
+         <p class="umx-progress-text"><span class="umx-progress-current">01</span>/<span class="umx-progress-total">04</span></p> 
+        </div> 
+       </div> 
+       <div class="umx-horizontal-wrapper"> 
+        <div class="umx-figure"> 
+         <div class="umx-figure-text"> 
+          <p class="umx-figure-title"><span>50</span>个蔡司镜头进入太空<br>记录人类伟大时刻</p> 
+         </div> 
+         <figure class="umx-history-f1 lazy-imageom"></figure> 
+        </div> 
+        <div class="umx-figure"> 
+         <div class="umx-figure-text"> 
+          <p class="umx-figure-title">全球<span>80%</span>的微芯片<br>都是由带有蔡司光学镜头的 <br class="umx-mb-show">ASML 光刻机制造</p> 
+         </div> 
+         <figure class="umx-history-f2 lazy-imageom"></figure> 
+        </div> 
+        <div class="umx-figure"> 
+         <div class="umx-figure-text"> 
+          <p class="umx-figure-title">蔡司镜头<span>3</span>次<br>获得奥斯卡科学工程奖</p> 
+         </div> 
+         <figure class="umx-history-f3 lazy-imageom"></figure> 
+        </div> 
+        <div class="umx-figure"> 
+         <div class="umx-figure-text"> 
+          <p class="umx-figure-title"><span>1902</span>年<br>蔡司设计出小巧而强大的天塞镜头<br>为手机摄影奠定了基础</p> 
+         </div> 
+         <figure class="umx-history-f4 lazy-imageom"></figure> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="umx-stage zeiss-joint umx-stage_sticky"> 
+    <div class="umx-section"> 
+     <div class="umx-title"> 
+      <p class="umx-main-title">强强联合，<br>迈向影像新高度</p> 
+     </div> 
+    </div> 
+    <div class="umx-stickyBox"> 
+     <div class="umx-joint-list"> 
+      <div class="umx-figure-wrapper"> 
+       <figure class="umx-figure-item umx-joint-f1 lazy-imageom"> 
+        <div class="umx-joint-text-mb"> 
+         <div class="umx-joint-text-content"> 
+          <h2 class="umx-joint-text-title">未来研究</h2> 
+          <p class="umx-joint-text-intro">成立 vivo 蔡司联合影像实验室，聚焦移动影像消费者需求与行业技术突破。</p> 
+         </div> 
+         <a class="umx-joint-text-link joint-video-link" href="#" data-trigger="innervideo" data-resource="{'url': 'https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1680488854175/images/%E8%94%A1%E5%8F%B8-%E6%9C%AA%E6%9D%A5%E7%A0%94%E7%A9%B6-PC.mp4', 'poster': 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7', 'width':960, 'height':540}"> 播放视频 </a> 
+        </div> 
+       </figure> 
+       <figure class="umx-figure-item umx-joint-f2 lazy-imageom"> 
+        <div class="umx-joint-text-mb"> 
+         <div class="umx-joint-text-content"> 
+          <h2 class="umx-joint-text-title">创新产品</h2> 
+          <p class="umx-joint-text-intro">打造 vivo 蔡司联合影像系统，为 vivo 高端产品定制研发，提升高端产品影像体验。</p> 
+         </div> 
+         <a class="umx-joint-text-link" href="https://www.vivo.com/products-x.html" target="_blank">立即购买</a> 
+        </div> 
+       </figure> 
+       <figure class="umx-figure-item umx-joint-f3 lazy-imageom"> 
+        <div class="umx-joint-text-mb"> 
+         <div class="umx-joint-text-content"> 
+          <h2 class="umx-joint-text-title">人文创作</h2> 
+          <p class="umx-joint-text-intro">联合发起影像加手机摄影大赛，让记录变得随时随地，每一幕饱含温度的瞬间都被更多人看见。</p> 
+         </div> 
+         <a class="umx-joint-text-link" href="https://visionplus.vivo.com/" target="_blank">了解更多</a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="umx-text-wrapper"> 
+       <div class="umx-joint-text-item umx-joint-t1"> 
+        <div class="umx-joint-text-progress"> 
+         <strong class="umx-joint-current-progress">01</strong> 
+         <span class="umx-joint-total-progress">/03</span> 
+        </div> 
+        <div class="umx-joint-text-content"> 
+         <h2 class="umx-joint-text-title">未来研究</h2> 
+         <p class="umx-joint-text-intro">成立 vivo 蔡司联合影像实验室，聚焦移动影像消费者需求与行业技术突破。</p> 
+        </div> 
+        <a class="umx-joint-text-link joint-video-link" href="#" data-trigger="innervideo" data-resource="{'url': 'https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1680488854175/images/%E8%94%A1%E5%8F%B8-%E6%9C%AA%E6%9D%A5%E7%A0%94%E7%A9%B6-PC.mp4', 'poster': 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7', 'width':960, 'height':540}"> 播放视频 </a> 
+       </div> 
+       <div class="umx-joint-text-item umx-joint-t2"> 
+        <div class="umx-joint-text-progress"> 
+         <strong class="umx-joint-current-progress">02</strong> 
+         <span class="umx-joint-total-progress">/03</span> 
+        </div> 
+        <div class="umx-joint-text-content"> 
+         <h2 class="umx-joint-text-title">创新产品</h2> 
+         <p class="umx-joint-text-intro">打造 vivo 蔡司联合影像系统，为 vivo 高端产品定制研发，提升高端产品影像体验。</p> 
+        </div> 
+        <a class="umx-joint-text-link" href="https://www.vivo.com/products-x.html" target="_blank">立即购买</a> 
+       </div> 
+       <div class="umx-joint-text-item umx-joint-t3"> 
+        <div class="umx-joint-text-progress"> 
+         <strong class="umx-joint-current-progress">03</strong> 
+         <span class="umx-joint-total-progress">/03</span> 
+        </div> 
+        <div class="umx-joint-text-content"> 
+         <h2 class="umx-joint-text-title">人文创作</h2> 
+         <p class="umx-joint-text-intro">联合发起影像加手机摄影大赛，让记录变得随时随地，每一幕饱含温度的瞬间都被更多人看见。</p> 
+        </div> 
+        <a class="umx-joint-text-link" href="https://visionplus.vivo.com/" target="_blank">了解更多</a> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="umx-stage zeiss-master"> 
+    <div class="umx-section"> 
+     <div class="umx-title"> 
+      <p class="umx-main-title">大师摄影，捕捉精彩</p> 
+     </div> 
+    </div> 
+    <div class="umx-master-list"> 
+     <div class="umx-avatar-wrapper"> 
+      <div class="umx-avatar-item current"> 
+       <figure class="umx-avatar-img1 lazy-imageom"></figure> 
+       <div class="umx-avatar-info"> 
+        <h3>Francesco Gola</h3> 
+        <p>擅长领域：海景</p> 
+       </div> 
+      </div> 
+      <div class="umx-avatar-item"> 
+       <figure class="umx-avatar-img2 lazy-imageom"></figure> 
+       <div class="umx-avatar-info"> 
+        <h3>Michael Portillo</h3> 
+        <p>擅长领域：风光</p> 
+       </div> 
+      </div> 
+      <div class="umx-avatar-item"> 
+       <figure class="umx-avatar-img3 lazy-imageom"></figure> 
+       <div class="umx-avatar-info"> 
+        <h3>Jakub Polomski</h3> 
+        <p>擅长领域：旅行</p> 
+       </div> 
+      </div> 
+      <div class="umx-avatar-item"> 
+       <figure class="umx-avatar-img4 lazy-imageom"></figure> 
+       <div class="umx-avatar-info"> 
+        <h3>Timm Allrich</h3> 
+        <p>擅长领域：风光</p> 
+       </div> 
+      </div> 
+      <div class="umx-avatar-item"> 
+       <figure class="umx-avatar-img5 lazy-imageom"></figure> 
+       <div class="umx-avatar-info"> 
+        <h3>Gabriel Santos</h3> 
+        <p>擅长领域：自然、旅行</p> 
+       </div> 
+      </div> 
+      <div class="umx-avatar-item"> 
+       <figure class="umx-avatar-img6 lazy-imageom"></figure> 
+       <div class="umx-avatar-info"> 
+        <h3>黄天祥</h3> 
+        <p>擅长领域：旅行、夜景</p> 
+       </div> 
+      </div> 
+      <div class="umx-avatar-item"> 
+       <figure class="umx-avatar-img7 lazy-imageom"></figure> 
+       <div class="umx-avatar-info"> 
+        <h3>贾睿</h3> 
+        <p>擅长领域：人像</p> 
+       </div> 
+      </div> 
+      <div class="umx-avatar-item"> 
+       <figure class="umx-avatar-img8 lazy-imageom"></figure> 
+       <div class="umx-avatar-info"> 
+        <h3>范晓东</h3> 
+        <p>擅长领域：城市风光</p> 
+       </div> 
+      </div> 
+      <div class="umx-avatar-item"> 
+       <figure class="umx-avatar-img9 lazy-imageom"></figure> 
+       <div class="umx-avatar-info"> 
+        <h3>黎怀楠</h3> 
+        <p>擅长领域：人像、时尚</p> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="umx-text-wrapper"> 
+      <div class="umx-master-arrow umx-top-arrow lazy-imageom"></div> 
+      <div class="umx-text-scroller"> 
+       <div class="umx-text-content"> 
+        <div class="umx-master-table-button current" data-index="0"> 
+         <div class="umx-master-avatar master-avatar-1"></div> 
+         <h3 class="umx-master-title">Francesco Gola</h3> 
+         <h4 class="umx-master-desc">擅长领域：海景</h4> 
+        </div> 
+        <div class="umx-master-table-button" data-index="1"> 
+         <div class="umx-master-avatar master-avatar-2"></div> 
+         <h3 class="umx-master-title">Michael Portillo</h3> 
+         <h4 class="umx-master-desc">擅长领域：风光</h4> 
+        </div> 
+        <div class="umx-master-table-button" data-index="2"> 
+         <div class="umx-master-avatar master-avatar-3"></div> 
+         <h3 class="umx-master-title">Jakub Polomski</h3> 
+         <h4 class="umx-master-desc">擅长领域：旅行</h4> 
+        </div> 
+        <div class="umx-master-table-button" data-index="3"> 
+         <div class="umx-master-avatar master-avatar-4"></div> 
+         <h3 class="umx-master-title">Timm Allrich</h3> 
+         <h4 class="umx-master-desc">擅长领域：风光</h4> 
+        </div> 
+        <div class="umx-master-table-button" data-index="4"> 
+         <div class="umx-master-avatar master-avatar-5"></div> 
+         <h3 class="umx-master-title">Gabriel Santos</h3> 
+         <h4 class="umx-master-desc">擅长领域：自然、旅行</h4> 
+        </div> 
+        <div class="umx-master-table-button" data-index="5"> 
+         <div class="umx-master-avatar master-avatar-6"></div> 
+         <h3 class="umx-master-title">黄天祥</h3> 
+         <h4 class="umx-master-desc">擅长领域：旅行、夜景</h4> 
+        </div> 
+        <div class="umx-master-table-button" data-index="6"> 
+         <div class="umx-master-avatar master-avatar-7"></div> 
+         <h3 class="umx-master-title">贾睿</h3> 
+         <h4 class="umx-master-desc">擅长领域：人像</h4> 
+        </div> 
+        <div class="umx-master-table-button" data-index="7"> 
+         <div class="umx-master-avatar master-avatar-8"></div> 
+         <h3 class="umx-master-title">范晓东</h3> 
+         <h4 class="umx-master-desc">擅长领域：城市风光</h4> 
+        </div> 
+        <div class="umx-master-table-button" data-index="8"> 
+         <div class="umx-master-avatar master-avatar-9"></div> 
+         <h3 class="umx-master-title">黎怀楠</h3> 
+         <h4 class="umx-master-desc">擅长领域：人像、时尚</h4> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="umx-master-arrow umx-down-arrow lazy-imageom"></div> 
+     </div> 
+     <div class="umx-figure-wrapper"> 
+      <div class="umx-master-img-list current"> 
+       <figure class="umx-master-f1-1 lazy-imageom current"></figure> 
+       <figure class="umx-master-f1-2 lazy-imageom"></figure> 
+       <figure class="umx-master-f1-3 lazy-imageom"></figure> 
+       <figure class="umx-master-f1-4 lazy-imageom"></figure> 
+       <figure class="umx-master-f1-5 lazy-imageom"></figure> 
+       <figure class="umx-master-f1-6 lazy-imageom"></figure> 
+       <figure class="umx-master-f1-7 lazy-imageom"></figure> 
+      </div> 
+      <div class="umx-master-img-list"> 
+       <figure class="umx-master-f2-1 lazy-imageom current"></figure> 
+       <figure class="umx-master-f2-2 lazy-imageom"></figure> 
+       <figure class="umx-master-f2-3 lazy-imageom"></figure> 
+       <figure class="umx-master-f2-4 lazy-imageom"></figure> 
+       <figure class="umx-master-f2-5 lazy-imageom"></figure> 
+       <figure class="umx-master-f2-6 lazy-imageom"></figure> 
+      </div> 
+      <div class="umx-master-img-list"> 
+       <figure class="umx-master-f3-1 lazy-imageom current"></figure> 
+       <figure class="umx-master-f3-2 lazy-imageom"></figure> 
+       <figure class="umx-master-f3-3 lazy-imageom"></figure> 
+       <figure class="umx-master-f3-4 lazy-imageom"></figure> 
+       <figure class="umx-master-f3-5 lazy-imageom"></figure> 
+       <figure class="umx-master-f3-6 lazy-imageom"></figure> 
+       <figure class="umx-master-f3-7 lazy-imageom"></figure> 
+       <figure class="umx-master-f3-8 lazy-imageom"></figure> 
+      </div> 
+      <div class="umx-master-img-list"> 
+       <figure class="umx-master-f4-1 lazy-imageom current umx-horizontal-background"></figure> 
+       <figure class="umx-master-f4-2 lazy-imageom"></figure> 
+       <figure class="umx-master-f4-3 lazy-imageom"></figure> 
+       <figure class="umx-master-f4-4 lazy-imageom"></figure> 
+      </div> 
+      <div class="umx-master-img-list"> 
+       <figure class="umx-master-f5-1 lazy-imageom current umx-horizontal-background"></figure> 
+       <figure class="umx-master-f5-2 lazy-imageom"></figure> 
+       <figure class="umx-master-f5-3 lazy-imageom umx-horizontal-background"></figure> 
+       <figure class="umx-master-f5-4 lazy-imageom"></figure> 
+       <figure class="umx-master-f5-5 lazy-imageom"></figure> 
+       <figure class="umx-master-f5-6 lazy-imageom umx-horizontal-background"></figure> 
+       <figure class="umx-master-f5-7 lazy-imageom"></figure> 
+       <figure class="umx-master-f5-8 lazy-imageom"></figure> 
+       <figure class="umx-master-f5-9 lazy-imageom"></figure> 
+      </div> 
+      <div class="umx-master-img-list"> 
+       <figure class="umx-master-f6-1 lazy-imageom current"></figure> 
+       <figure class="umx-master-f6-2 lazy-imageom"></figure> 
+       <figure class="umx-master-f6-3 lazy-imageom"></figure> 
+      </div> 
+      <div class="umx-master-img-list"> 
+       <figure class="umx-master-f7-5 lazy-imageom current"></figure> 
+       <figure class="umx-master-f7-6 lazy-imageom"></figure> 
+       <figure class="umx-master-f7-7 lazy-imageom"></figure> 
+       <figure class="umx-master-f7-8 lazy-imageom"></figure> 
+       <figure class="umx-master-f7-1 lazy-imageom"></figure> 
+       <figure class="umx-master-f7-2 lazy-imageom"></figure> 
+       <figure class="umx-master-f7-3 lazy-imageom"></figure> 
+       <figure class="umx-master-f7-4 lazy-imageom"></figure> 
+      </div> 
+      <div class="umx-master-img-list"> 
+       <figure class="umx-master-f8-1 lazy-imageom current"></figure> 
+       <figure class="umx-master-f8-2 lazy-imageom"></figure> 
+       <figure class="umx-master-f8-3 lazy-imageom"></figure> 
+       <figure class="umx-master-f8-4 lazy-imageom"></figure> 
+       <figure class="umx-master-f8-5 lazy-imageom"></figure> 
+       <figure class="umx-master-f8-6 lazy-imageom"></figure> 
+       <figure class="umx-master-f8-7 lazy-imageom"></figure> 
+      </div> 
+      <div class="umx-master-img-list"> 
+       <figure class="umx-master-f9-1 lazy-imageom current"></figure> 
+       <figure class="umx-master-f9-2 lazy-imageom"></figure> 
+       <figure class="umx-master-f9-3 lazy-imageom"></figure> 
+      </div> 
+      <div class="umx-master-switch"> 
+       <div class="umx-box-line"> 
+        <p class="umx-progress-text"><span class="umx-progress-current">01</span>/<span class="umx-progress-total">07</span></p> 
+       </div> 
+       <div class="umx-master-arrow umx-left-arrow lazy-imageom"></div> 
+       <div class="umx-master-arrow umx-right-arrow lazy-imageom"></div> 
+      </div> 
+      <div class="umx-zeiss-master-switch-progress"> 
+       <span class="umx-zeiss-master-switch-current-progress">01</span>/
+       <span class="umx-zeiss-master-switch-total-progress">07</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="umx-master-mb-picture-options-container"> 
+     <div class="umx-master-mb-picture-drop-button" data-options="pictures"> 
+      <span class="umx-master-mb-picture-current-name">Francesco Gola</span> 
+      <span class="umx-master-mb-picture-arrow-down"></span> 
+     </div> 
+     <div class="umx-master-mb-picture-arrow-button"> 
+      <div class="umx-master-mb-picture-arrow-left"> 
+       <svg version="1.1" xmlns="http://www.w3.org/2000/svg" fill="transparent" viewbox="0 0 60 60"> 
+        <circle class="grey" cx="30" cy="30" r="28" /> 
+        <circle class="black" cx="30" cy="30" r="28" /> 
+       </svg> 
+       <span class="umx-master-mb-arrow-left"></span> 
+      </div> 
+      <div class="umx-master-mb-picture-arrow-right"> 
+       <svg version="1.1" xmlns="http://www.w3.org/2000/svg" fill="transparent" viewbox="0 0 60 60"> 
+        <circle class="grey" cx="30" cy="30" r="28" /> 
+        <circle class="black" cx="30" cy="30" r="28" /> 
+       </svg> 
+       <span class="umx-master-mb-arrow-right"></span> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="umx-stage zeiss-telephoto"> 
+    <div class="umx-section"> 
+     <div class="umx-title"> 
+      <p class="umx-main-title">蔡司 APO 超级长焦镜头 II</p> 
+      <p class="umx-intro">更小巧的体积却蕴含大神通，进光量大幅提升了 38%，同时拥有更好的 5.0 级防抖性能，<br class="umx-mb-hide">实现更清晰明亮更稳定的拍摄效果。</p> 
+     </div> 
+    </div> 
+    <div class="umx-video-box"> 
+     <figure class="umx-f1 lazy-imageom"></figure> 
+     <div class="umx-data-wrapper"> 
+      <div class="umx-video-inner-text-list"> 
+       <div class="umx-video-inner-text-item"> 
+        <h2>2 亿</h2> 
+        <p>像素</p> 
+       </div> 
+       <div class="umx-video-inner-text-item"> 
+        <h2>38%</h2> 
+        <p>进光量提升</p> 
+       </div> 
+       <div class="umx-video-inner-text-item"> 
+        <h2>1G+6P</h2> 
+        <p>浮动牵镜组</p> 
+       </div> 
+       <div class="umx-video-inner-text-item"> 
+        <h2>CIPA 5.0</h2> 
+        <p>专业级防抖</p> 
+       </div> 
+      </div> 
+      <div class="umx-video-inner-text-list"> 
+       <div class="umx-video-inner-text-item"> 
+        <h2>“超光”棱镜</h2> 
+        <p>棱镜结构</p> 
+       </div> 
+       <div class="umx-video-inner-text-item"> 
+        <h2>超高反银膜</h2> 
+        <p>98% 以上光转化率</p> 
+       </div> 
+       <div class="umx-video-inner-text-item"> 
+        <h2>NPS 镀膜</h2> 
+        <p>小于 0.15% 光反射率</p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="umx-stage zeiss-focus"> 
+    <div class="umx-section"> 
+     <div class="umx-title"> 
+      <p class="umx-main-title">vivo 蔡司 2.35x 长焦增距镜<br>更远大的场面，开挂上阵</p> 
+      <p class="umx-intro">vivo 蔡司 2.35x 长焦增距镜，专门为 X200 Ultra 85mm 长焦镜头设计，采用强大的开普勒结构提升远摄清晰画质，<br class="umx-mb-hide">与 85mm 长焦镜头搭配升级成为等效 200mm 焦距的超长焦镜头，舞台观看演出，长焦风光和人像拍摄，更远更震撼。</p> 
+     </div> 
+    </div> 
+    <div class="umx-figure-box"> 
+     <figure class="umx-f1 lazy-imageom"></figure> 
+    </div> 
+   </div> 
+   <div class="umx-stage zeiss-gallery"> 
+    <div class="umx-gallery-wrapper"> 
+     <div class="umx-gallery-left"> 
+      <div class="umx-gallery-left-img-list swiper"> 
+       <div class="swiper-wrapper"> 
+        <div class="swiper-slide"> 
+         <figure class="umx-detail-f1 lazy-imageom"></figure> 
+        </div> 
+        <div class="swiper-slide"> 
+         <figure class="umx-detail-f2 lazy-imageom"></figure> 
+        </div> 
+        <div class="swiper-slide"> 
+         <figure class="umx-detail-f3 lazy-imageom"></figure> 
+        </div> 
+        <div class="swiper-slide"> 
+         <figure class="umx-detail-f4 lazy-imageom"></figure> 
+        </div> 
+       </div> 
+       <div class="swiper-pagination"></div> 
+       <div class="umx-gallery-button-prev"></div> 
+       <div class="umx-gallery-button-next"></div> 
+      </div> 
+      <div class="umx-gallery-left-section"> 
+       <figure class="umx-f1 lazy-imageom"></figure> 
+       <div class="umx-gallery-content"> 
+        <h2 class="umx-gallery-title">X200 Ultra</h2> 
+        <p class="umx-gallery-intro">大场面 V 单掌控</p> 
+        <div class="umx-gallery-link umx-gallery-x200u-btn">
+         更多样张
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="umx-gallery-right"> 
+      <div class="umx-gallery-right-item"> 
+       <figure class="umx-f3 lazy-imageom"></figure> 
+       <div class="umx-gallery-content"> 
+        <h2 class="umx-gallery-title">X200 系列</h2> 
+        <p class="umx-gallery-intro">蓝血影像灭霸</p> 
+        <div class="umx-gallery-link umx-gallery-x200-btn">
+         更多样张
+        </div> 
+       </div> 
+      </div> 
+      <div class="umx-gallery-right-item"> 
+       <figure class="umx-f2 lazy-imageom"></figure> 
+       <div class="umx-gallery-content"> 
+        <h2 class="umx-gallery-title">X100 系列</h2> 
+        <p class="umx-gallery-intro">满分旗舰</p> 
+        <div class="umx-gallery-link umx-gallery-x100-btn">
+         更多样张
+        </div> 
+       </div> 
+      </div> 
+      <div class="umx-gallery-right-item"> 
+       <figure class="umx-f4 lazy-imageom"></figure> 
+       <div class="umx-gallery-content"> 
+        <h2 class="umx-gallery-title">X Fold3</h2> 
+        <p class="umx-gallery-intro">悬停蔡司影像</p> 
+        <div class="umx-gallery-link umx-gallery-xfold2-btn">
+         更多样张
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="umx-stage zeiss-lensbag"> 
+    <div class="umx-section"> 
+     <div class="umx-title"> 
+      <p class="umx-main-title">随手一拍，直出大片</p> 
+     </div> 
+    </div> 
+    <div class="umx-lensbag-list"> 
+     <div class="umx-figure-wrapper"> 
+      <div class="umx-lensbag-img-list current"> 
+       <figure class="umx-lensbag-f2-5 lazy-imageom current"></figure> 
+       <figure class="umx-lensbag-f2-6 lazy-imageom"></figure> 
+       <figure class="umx-lensbag-f2-1 lazy-imageom"></figure> 
+       <figure class="umx-lensbag-f2-2 lazy-imageom"></figure> 
+       <figure class="umx-lensbag-f2-3 lazy-imageom"></figure> 
+       <figure class="umx-lensbag-f2-4 lazy-imageom"></figure> 
+      </div> 
+      <div class="umx-lensbag-img-list"> 
+       <figure class="umx-lensbag-f3-4 lazy-imageom current"></figure> 
+       <figure class="umx-lensbag-f3-3 lazy-imageom"></figure> 
+       <figure class="umx-lensbag-f3-1 lazy-imageom"></figure> 
+       <figure class="umx-lensbag-f3-2 lazy-imageom"></figure> 
+      </div> 
+      <div class="umx-lensbag-img-list"> 
+       <figure class="umx-lensbag-f4-4 lazy-imageom current"></figure> 
+       <figure class="umx-lensbag-f4-3 lazy-imageom"></figure> 
+       <figure class="umx-lensbag-f4-1 lazy-imageom"></figure> 
+       <figure class="umx-lensbag-f4-2 lazy-imageom"></figure> 
+      </div> 
+      <div class="umx-lensbag-img-list"> 
+       <figure class="umx-lensbag-f5-3 lazy-imageom current"></figure> 
+       <figure class="umx-lensbag-f5-1 lazy-imageom"></figure> 
+       <figure class="umx-lensbag-f5-2 lazy-imageom"></figure> 
+      </div> 
+      <div class="umx-lensbag-img-list"> 
+       <figure class="umx-lensbag-f6-5 lazy-imageom current"></figure> 
+       <figure class="umx-lensbag-f6-4 lazy-imageom"></figure> 
+       <figure class="umx-lensbag-f6-1 lazy-imageom"></figure> 
+       <figure class="umx-lensbag-f6-2 lazy-imageom"></figure> 
+       <figure class="umx-lensbag-f6-3 lazy-imageom"></figure> 
+      </div> 
+      <div class="umx-lensbag-img-list"> 
+       <figure class="umx-lensbag-f7-1 lazy-imageom current"></figure> 
+       <figure class="umx-lensbag-f7-2 lazy-imageom"></figure> 
+       <figure class="umx-lensbag-f7-3 lazy-imageom"></figure> 
+       <figure class="umx-lensbag-f7-4 lazy-imageom umx-horizontal-background"></figure> 
+      </div> 
+      <div class="umx-lensbag-img-list"> 
+       <figure class="umx-lensbag-f11-8 lazy-imageom current"></figure> 
+       <figure class="umx-lensbag-f11-6 lazy-imageom"></figure> 
+       <figure class="umx-lensbag-f11-7 lazy-imageom"></figure> 
+       <figure class="umx-lensbag-f11-1 lazy-imageom"></figure> 
+       <figure class="umx-lensbag-f11-2 lazy-imageom"></figure> 
+       <figure class="umx-lensbag-f11-3 lazy-imageom"></figure> 
+       <figure class="umx-lensbag-f11-4 lazy-imageom"></figure> 
+       <figure class="umx-lensbag-f11-5 lazy-imageom"></figure> 
+      </div> 
+      <div class="umx-lensbag-img-list"> 
+       <figure class="umx-lensbag-f1-1 lazy-imageom current"></figure> 
+       <figure class="umx-lensbag-f1-2 lazy-imageom"></figure> 
+       <figure class="umx-lensbag-f1-3 lazy-imageom"></figure> 
+       <figure class="umx-lensbag-f1-4 lazy-imageom"></figure> 
+      </div> 
+      <div class="umx-lensbag-img-list umx-lensbag-video-model"> 
+       <div class="zeiss-lensbag-video current"> 
+        <div class="umx-lensbag-video umx-lensbag-video-video1"></div> 
+        <img class="umx-lensbag-video-img umx-lensbag-video-img1" src alt="vivo"> 
+        <div class="lensbag-video-satus-button umx-mb-hide"></div> 
+        <a class="lensbag-video-satus-button umx-mb-show" href="#" data-trigger="innervideo" data-resource="{'url': 'https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1688635727864/images/zeiss-lensbag-video1-lg.mp4', 'poster': 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7', 'width':960, 'height':540}"></a> 
+       </div> 
+       <div class="zeiss-lensbag-video"> 
+        <div class="umx-lensbag-video umx-lensbag-video-video2"></div> 
+        <img class="umx-lensbag-video-img umx-lensbag-video-img2" src alt="vivo"> 
+        <div class="lensbag-video-satus-button umx-mb-hide"></div> 
+        <a class="lensbag-video-satus-button umx-mb-show" href="#" data-trigger="innervideo" data-resource="{'url': 'https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1688635727864/images/zeiss-lensbag-video2-lg.mp4', 'poster': 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7', 'width':960, 'height':540}"></a> 
+       </div> 
+       <div class="zeiss-lensbag-video"> 
+        <div class="umx-lensbag-video umx-lensbag-video-video3"></div> 
+        <img class="umx-lensbag-video-img umx-lensbag-video-img3" src alt="vivo"> 
+        <div class="lensbag-video-satus-button umx-mb-hide"></div> 
+        <a class="lensbag-video-satus-button umx-mb-show" href="#" data-trigger="innervideo" data-resource="{'url': 'https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1688635727864/images/zeiss-lensbag-video3-lg.mp4', 'poster': 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7', 'width':960, 'height':540}"></a> 
+       </div> 
+       <div class="zeiss-lensbag-video"> 
+        <div class="umx-lensbag-video umx-lensbag-video-video4"></div> 
+        <img class="umx-lensbag-video-img umx-lensbag-video-img4" src alt="vivo"> 
+        <div class="lensbag-video-satus-button umx-mb-hide"></div> 
+        <a class="lensbag-video-satus-button umx-mb-show" href="#" data-trigger="innervideo" data-resource="{'url': 'https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1688635727864/images/zeiss-lensbag-video4-lg.mp4', 'poster': 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7', 'width':960, 'height':540}"></a> 
+       </div> 
+      </div> 
+      <div class="umx-lensbag-img-list"> 
+       <figure class="umx-lensbag-f10-6 lazy-imageom current"></figure> 
+       <figure class="umx-lensbag-f10-7 lazy-imageom"></figure> 
+       <figure class="umx-lensbag-f10-8 lazy-imageom"></figure> 
+       <figure class="umx-lensbag-f10-9 lazy-imageom"></figure> 
+       <figure class="umx-lensbag-f10-1 lazy-imageom"></figure> 
+       <figure class="umx-lensbag-f10-2 lazy-imageom"></figure> 
+       <figure class="umx-lensbag-f10-3 lazy-imageom"></figure> 
+       <figure class="umx-lensbag-f10-4 lazy-imageom"></figure> 
+       <figure class="umx-lensbag-f10-5 lazy-imageom"></figure> 
+      </div> 
+      <div class="umx-lensbag-switch"> 
+       <div class="umx-box-line"> 
+        <i class="umx-box-progress-line"></i> 
+        <p class="umx-progress-text"><span class="umx-progress-current">01</span>/<span class="umx-progress-total">06</span></p> 
+       </div> 
+       <div class="umx-lensbag-arrow umx-left-arrow lazy-imageom"></div> 
+       <div class="umx-lensbag-arrow umx-right-arrow lazy-imageom"></div> 
+      </div> 
+      <div class="umx-zeiss-lensbag-switch-progress"> 
+       <span class="umx-zeiss-lensbag-switch-current-progress">01</span>/
+       <span class="umx-zeiss-lensbag-switch-total-progress">06</span> 
+      </div> 
+     </div> 
+     <div class="umx-text-wrapper"> 
+      <div class="umx-text-content"> 
+       <h3 class="umx-lensbag-title umx-lensbag-button current">蔡司镜头包</h3> 
+       <div class="umx-text-item current"> 
+        <h3 class="umx-lensbag-inner-title umx-lensbag-table-button current" data-index="0">蔡司耀斑人像</h3> 
+        <h3 class="umx-lensbag-inner-title umx-lensbag-table-button" data-index="1">蔡司 Biotar 风格虚化</h3> 
+        <h3 class="umx-lensbag-inner-title umx-lensbag-table-button" data-index="2">蔡司 Distagon 风格虚化</h3> 
+        <h3 class="umx-lensbag-inner-title umx-lensbag-table-button" data-index="3">蔡司 Sonnar 风格虚化</h3> 
+        <h3 class="umx-lensbag-inner-title umx-lensbag-table-button" data-index="4">蔡司 Planar 风格虚化</h3> 
+        <h3 class="umx-lensbag-inner-title umx-lensbag-table-button" data-index="5">蔡司 Cinematic 风格虚化</h3> 
+        <h3 class="umx-lensbag-inner-title umx-lensbag-table-button" data-index="6">蔡司 B-Speed 风格虚化</h3> 
+       </div> 
+       <h3 class="umx-lensbag-title umx-lensbag-table-button" data-index="7">蔡司微缩虚化</h3> 
+       <h3 class="umx-lensbag-title umx-lensbag-table-button" data-index="8">蔡司 Cinematic 电影模式</h3> 
+       <h3 class="umx-lensbag-title umx-lensbag-table-button" data-index="9">蔡司全焦段人像</h3> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="umx-lensbag-mb-picture-options-container"> 
+     <div class="umx-lensbag-mb-picture-drop-button" data-options="pictures"> 
+      <span class="umx-lensbag-mb-picture-current-name">蔡司耀斑人像</span> 
+      <span class="umx-lensbag-mb-picture-arrow-down"></span> 
+     </div> 
+     <div class="umx-lensbag-mb-picture-arrow-button"> 
+      <div class="umx-lensbag-mb-picture-arrow-left"> 
+       <svg version="1.1" xmlns="http://www.w3.org/2000/svg" fill="transparent" viewbox="0 0 60 60"> 
+        <circle class="grey" cx="30" cy="30" r="28" /> 
+        <circle class="black" cx="30" cy="30" r="28" /> 
+       </svg> 
+       <span class="umx-lensbag-mb-arrow-left"></span> 
+      </div> 
+      <div class="umx-lensbag-mb-picture-arrow-right"> 
+       <svg version="1.1" xmlns="http://www.w3.org/2000/svg" fill="transparent" viewbox="0 0 60 60"> 
+        <circle class="grey" cx="30" cy="30" r="28" /> 
+        <circle class="black" cx="30" cy="30" r="28" /> 
+       </svg> 
+       <span class="umx-lensbag-mb-arrow-right"></span> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="umx-stage zeiss-sale"> 
+    <div class="umx-section"> 
+     <div class="umx-title"> 
+      <p class="umx-main-title">心动瞬间，即刻拥有</p> 
+      <p class="umx-intro">马上拥有一台vivo联合蔡司研发的移动影像新标杆，体验更加追求极致的手机影像，前往官网了解更多。</p> 
+     </div> 
+    </div> 
+    <div class="umx-sale-list"> 
+     <div class="umx-sale-wrapper"> 
+      <div class="umx-sale-item"> 
+       <figure class="umx-sale-f1 lazy-imageom"></figure> 
+       <figure class="umx-sale-slogan1 umx-sale-slogan lazy-imageom"></figure> 
+       <a class="umx-sale-link" href="https://www.vivo.com.cn/vivo/x200ultra" target="_blank">立即购买</a> 
+       <span class="umx-sale-tips">*产品图片仅供参考，请以实物为准。</span> 
+       <div class="umx-sale-item-mask"> 
+        <p>X200 Ultra</p> 
+       </div> 
+      </div> 
+      <div class="umx-sale-item"> 
+       <figure class="umx-sale-f2 lazy-imageom"></figure> 
+       <figure class="umx-sale-slogan2 umx-sale-slogan lazy-imageom"></figure> 
+       <a class="umx-sale-link" href="https://www.vivo.com.cn/vivo/x200s" target="_blank">立即购买</a> 
+       <span class="umx-sale-tips">*产品图片仅供参考，请以实物为准。</span> 
+       <div class="umx-sale-item-mask"> 
+        <p>X200s</p> 
+       </div> 
+      </div> 
+      <div class="umx-sale-item"> 
+       <figure class="umx-sale-f4 lazy-imageom"></figure> 
+       <figure class="umx-sale-slogan4 umx-sale-slogan lazy-imageom"></figure> 
+       <a class="umx-sale-link" href="https://www.vivo.com.cn/vivo/x200" target="_blank">立即购买</a> 
+       <span class="umx-sale-tips">*产品图片仅供参考，请以实物为准。</span> 
+       <div class="umx-sale-item-mask"> 
+        <p>X200</p> 
+       </div> 
+      </div> 
+      <div class="umx-sale-item"> 
+       <figure class="umx-sale-f3 lazy-imageom"></figure> 
+       <figure class="umx-sale-slogan3 umx-sale-slogan lazy-imageom"></figure> 
+       <a class="umx-sale-link" href="https://www.vivo.com.cn/vivo/xfold3" target="_blank">立即购买</a> 
+       <span class="umx-sale-tips">*产品图片仅供参考，请以实物为准。</span> 
+       <div class="umx-sale-item-mask"> 
+        <p>X Fold3</p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="umx-stage zeiss-news"> 
+    <div class="umx-section"> 
+     <div class="umx-title"> 
+      <p class="umx-main-title">相关新闻</p> 
+     </div> 
+    </div> 
+    <div class="umx-news-list"> 
+     <div class="umx-news-wrapper"> 
+      <div class="umx-news-item"> 
+       <figure class="umx-news-f4 lazy-imageom"></figure> 
+       <div class="umx-figure-text"> 
+        <h4 class="umx-news-title">vivo发布两大影像战略 坚持为用户提供人性化专业影像体验</h4> 
+        <p class="umx-news-intro">2022年10月24日，vivo影像战略发布会正式召开。会上，vivo盘点了之前在影像理念上的坚持，即通过专业化的能力还原眼之所见，超越眼之所见，并将专业影像技术赋能每一个人，持续为消费者提供人性化的专业影像体验。</p> 
+        <div class="umx-news-info"> 
+         <p class="umx-news-info-date">2022 年 10 月 24 日</p> 
+         <a class="umx-news-info-link" href="https://www.vivo.com.cn/brand/news/detail?id=1097&amp;type=0" target="_blank">了解更多</a> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="umx-news-item"> 
+       <figure class="umx-news-f3 lazy-imageom"></figure> 
+       <div class="umx-figure-text"> 
+        <h4 class="umx-news-title">蔡司175周年庆活动开展，与 vivo 共话“光的艺术”</h4> 
+        <p class="umx-news-intro">影像是时代的切片，也是生活的瞬间。影像让每个人能够更具想象力和创作力，让更多人都能享受到自由创作的快乐，是移动影像发展的初心。</p> 
+        <div class="umx-news-info"> 
+         <p class="umx-news-info-date">2021 年 11 月 21 日</p> 
+         <a class="umx-news-info-link" href="https://www.vivo.com.cn/brand/news/detail?id=1000&amp;type=2" target="_blank">了解更多</a> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="umx-news-item"> 
+       <figure class="umx-news-f2 lazy-imageom"></figure> 
+       <div class="umx-figure-text"> 
+        <h4 class="umx-news-title">蔡司175周年专访：vivo 高级副总裁倪旭东畅谈“影像观”</h4> 
+        <p class="umx-news-intro">每天有超过10亿张照片诞生，其中绝大多数源自手机影像。从拍到到拍清，从记录到表达，手机影像对大众生活的重要性一直在提升。</p> 
+        <div class="umx-news-info"> 
+         <p class="umx-news-info-date">2021 年 10 月 18 日</p> 
+         <a class="umx-news-info-link" href="https://www.vivo.com.cn/brand/news/detail?id=992&amp;type=1" target="_blank">了解更多</a> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="umx-news-item"> 
+       <figure class="umx-news-f1 lazy-imageom"></figure> 
+       <div class="umx-figure-text"> 
+        <h4 class="umx-news-title">vivo宣布与蔡司开启全球影像战略合作</h4> 
+        <p class="umx-news-intro">2020年12月17日，深圳 —— vivo 正式宣布与全球影像光学的开创者、奠基者和引领者蔡司成为全球影像战略伙伴。</p> 
+        <div class="umx-news-info"> 
+         <p class="umx-news-info-date">2020 年 12 月 17 日</p> 
+         <a class="umx-news-info-link" href="https://www.vivo.com.cn/brand/news/detail?id=909&amp;type=2" target="_blank">了解更多</a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="umx-stage umx-stage-tips"> 
+    <div class="umx-tip-content"> 
+     <h4>备注</h4> 
+     <ul class="umx-case"> 
+      <li>以上样张效果仅供参考，不同拍摄模式的像素可能存在差异，部分样张大小经过裁剪，仅供参考，请以实际拍摄效果为准。</li> 
+      <li>页面内的手机外观示意图、内部结构图及产品效果仅供参考，实际可能因光线环境、生产批次的不同，存在颜色、丝印等细节差异，请以实物为准。</li> 
+      <li>除非特别说明，以上页面的数据及参数为我司实验室标准环境下的测试结果，数据及参数的实际情况（例如：光圈参数）会因测试环境、测试软件、供应商材料批次等不同略有差异。</li> 
+     </ul> 
+    </div> 
+    <div class="umx-tips-box"></div> 
+   </div> 
+  </div> 
+ </div> 
+ <div class="product-detail-wrapper clear-transform"></div> 
+ <i class="expand-container-mask"></i> 
+ <div class="umx-orther-page"> 
+  <div class="x100-dive-panel umx-dark-mode umx-lazyload-img" aria-hidden="true"> 
+   <div class="x100-dive-content"> 
+    <div class="x100-details-scroll"> 
+     <div class="umx-stickyBox umx-stickyBox1"> 
+      <div class="umx-figure-x100 umx-figure"> 
+       <figure class="x100-f1 lazy-imageom"></figure> 
+       <figure class="x100-f2 lazy-imageom"></figure> 
+       <figure class="x100-f3 lazy-imageom"></figure> 
+       <figure class="x100-f4 lazy-imageom"></figure> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="umx-gallery-progress"> 
+    <div class="umx-gallery-progress-content"> 
+     <strong class="umx-gallery-current-progress">01</strong> 
+     <span class="umx-gallery-total-progress">/<i>04</i></span> 
+    </div> 
+   </div> 
+   <div class="close-box"> 
+    <svg class="umx-close-svg" xmlns="http://www.w3.org/2000/svg" width="49" height="48" viewbox="0 0 49 48" fill="none"> 
+     <circle cx="24.3398" cy="24" r="23" stroke="black" stroke-width="2" /> 
+     <path d="M33.3398 15L15.3398 33" stroke="black" stroke-width="2" stroke-linecap="square" /> 
+     <path d="M33.3398 33L15.3398 15" stroke="black" stroke-width="2" stroke-linecap="square" /> 
+    </svg> 
+   </div> 
+  </div> 
+  <div class="x200-dive-panel umx-dark-mode umx-lazyload-img" aria-hidden="true"> 
+   <div class="x200-dive-content"> 
+    <div class="x200-details-scroll"> 
+     <div class="umx-stickyBox umx-stickyBox1"> 
+      <div class="umx-figure-x200 umx-figure"> 
+       <figure class="x200-f1 lazy-imageom"></figure> 
+       <figure class="x200-f2 lazy-imageom"></figure> 
+       <figure class="x200-f3 lazy-imageom"></figure> 
+       <figure class="x200-f4 lazy-imageom"></figure> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="umx-gallery-progress"> 
+    <div class="umx-gallery-progress-content"> 
+     <strong class="umx-gallery-current-progress">01</strong> 
+     <span class="umx-gallery-total-progress">/<i>04</i></span> 
+    </div> 
+   </div> 
+   <div class="close-box"> 
+    <svg class="umx-close-svg" xmlns="http://www.w3.org/2000/svg" width="49" height="48" viewbox="0 0 49 48" fill="none"> 
+     <circle cx="24.3398" cy="24" r="23" stroke="black" stroke-width="2" /> 
+     <path d="M33.3398 15L15.3398 33" stroke="black" stroke-width="2" stroke-linecap="square" /> 
+     <path d="M33.3398 33L15.3398 15" stroke="black" stroke-width="2" stroke-linecap="square" /> 
+    </svg> 
+   </div> 
+  </div> 
+  <div class="x200u-dive-panel umx-dark-mode umx-lazyload-img" aria-hidden="true"> 
+   <div class="x200u-dive-content"> 
+    <div class="x200u-details-scroll"> 
+     <div class="umx-stickyBox umx-stickyBox1"> 
+      <div class="umx-figure-x200u umx-figure"> 
+       <figure class="x200u-f1 lazy-imageom"></figure> 
+       <figure class="x200u-f2 lazy-imageom"></figure> 
+       <figure class="x200u-f3 lazy-imageom"></figure> 
+       <figure class="x200u-f4 lazy-imageom"></figure> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="umx-gallery-progress"> 
+    <div class="umx-gallery-progress-content"> 
+     <strong class="umx-gallery-current-progress">01</strong> 
+     <span class="umx-gallery-total-progress">/<i>04</i></span> 
+    </div> 
+   </div> 
+   <div class="close-box"> 
+    <svg class="umx-close-svg" xmlns="http://www.w3.org/2000/svg" width="49" height="48" viewbox="0 0 49 48" fill="none"> 
+     <circle cx="24.3398" cy="24" r="23" stroke="black" stroke-width="2" /> 
+     <path d="M33.3398 15L15.3398 33" stroke="black" stroke-width="2" stroke-linecap="square" /> 
+     <path d="M33.3398 33L15.3398 15" stroke="black" stroke-width="2" stroke-linecap="square" /> 
+    </svg> 
+   </div> 
+  </div> 
+  <div class="xflip-dive-panel umx-dark-mode umx-lazyload-img" aria-hidden="true"> 
+   <div class="xflip-dive-content"> 
+    <div class="xflip-details-scroll"> 
+     <div class="umx-stickyBox umx-stickyBox1"> 
+      <div class="umx-figure-xflip umx-figure"> 
+       <figure class="xflip-f1 lazy-imageom"></figure> 
+       <figure class="xflip-f2 lazy-imageom"></figure> 
+       <figure class="xflip-f3 lazy-imageom"></figure> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="umx-gallery-progress"> 
+    <div class="umx-gallery-progress-content"> 
+     <strong class="umx-gallery-current-progress">01</strong> 
+     <span class="umx-gallery-total-progress">/<i>03</i></span> 
+    </div> 
+   </div> 
+   <div class="close-box"> 
+    <svg class="umx-close-svg" xmlns="http://www.w3.org/2000/svg" width="49" height="48" viewbox="0 0 49 48" fill="none"> 
+     <circle cx="24.3398" cy="24" r="23" stroke="black" stroke-width="2" /> 
+     <path d="M33.3398 15L15.3398 33" stroke="black" stroke-width="2" stroke-linecap="square" /> 
+     <path d="M33.3398 33L15.3398 15" stroke="black" stroke-width="2" stroke-linecap="square" /> 
+    </svg> 
+   </div> 
+  </div> 
+  <div class="xfold2-dive-panel umx-dark-mode umx-lazyload-img" aria-hidden="true"> 
+   <div class="xfold2-dive-content"> 
+    <div class="xfold2-details-scroll"> 
+     <div class="umx-stickyBox umx-stickyBox1"> 
+      <div class="umx-figure-xfold2 umx-figure"> 
+       <figure class="xfold2-f1 lazy-imageom"></figure> 
+       <figure class="xfold2-f2 lazy-imageom"></figure> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="umx-gallery-progress"> 
+    <div class="umx-gallery-progress-content"> 
+     <strong class="umx-gallery-current-progress">01</strong> 
+     <span class="umx-gallery-total-progress">/<i>02</i></span> 
+    </div> 
+   </div> 
+   <div class="close-box"> 
+    <svg class="umx-close-svg" xmlns="http://www.w3.org/2000/svg" width="49" height="48" viewbox="0 0 49 48" fill="none"> 
+     <circle cx="24.3398" cy="24" r="23" stroke="black" stroke-width="2" /> 
+     <path d="M33.3398 15L15.3398 33" stroke="black" stroke-width="2" stroke-linecap="square" /> 
+     <path d="M33.3398 33L15.3398 15" stroke="black" stroke-width="2" stroke-linecap="square" /> 
+    </svg> 
+   </div> 
+  </div> 
+ </div> 
+ <div class="expand-container-button ec-botton-close"> 
+  <div class="ec-button-wrapper ec-close-btn"> 
+   <a href="#"> <b class="iconfont-symbol-products ico-symbol-close1"></b> </a> 
+  </div> 
+ </div> 
+ <script>var _hmt=_hmt||[];!function(){var e=document.createElement("script");e.src="https://hm.baidu.com/hm.js?9ef7debb81babe8b94af7f2c274869fd";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}()</script> 
+</div></div></div><!--]--><span></span></main><!----><!--]--></div></div><div id="teleports"></div><script src="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1747018978712/hm.baidu.com/hm.js?9ef7debb81babe8b94af7f2c274869fd" type="text/javascript" id="vivo-overview-js-1"></script>
+<script src="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1747018978712/https:/hm.baidu.com/hm.js?9ef7debb81babe8b94af7f2c274869fd" type="text/javascript" id="vivo-overview-js-2"></script>
+<script src="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1747018978712/script/gsap.min.js" type="text/javascript" id="vivo-overview-js-3"></script>
+<script src="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1747018978712/script/ScrollTrigger.min.js" type="text/javascript" id="vivo-overview-js-4"></script>
+<script src="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1747018978712/script/stickyfill.min.js" type="text/javascript" id="vivo-overview-js-5"></script>
+<script src="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1747018978712/script/app.js" type="text/javascript" id="vivo-overview-js-6"></script>
+<script type="application/json" data-nuxt-data="nuxt-app" data-ssr="true" id="__NUXT_DATA__">[["ShallowReactive",1],{"data":2,"state":40,"once":109,"_errors":111,"serverRendered":39,"path":101},["ShallowReactive",3],{"$fNc3VOEUEQM2rCE421wUvusms31M04_TRq-ZiqF_qA9k":4,"$f-bvlzOgtAnoXtgwzBC9mjNjLccOEKVOT9sudwdMla6s":25},{"success":5,"code":6,"msg":7,"data":8},"1","200","success",{"pageResource":9,"cssArray":10,"jsArray":14,"watermark":21,"navigationFontColor":22,"resourceDomain":23,"vivoPortal3D":24},"\u003Cdiv id=\"vivo-product-wrap\" class=\"unvisible J_replace_content\"> \n \u003Cdiv style=\"display:none\">\u003C/div> \n \u003Cdiv class=\"product-main-wrapper\"> \n  \u003Cdiv class=\"product-main-content\"> \n   \u003Cdiv class=\"umx-stage zeiss-tvc\"> \n    \u003Cdiv class=\"umx-figure-bg\"> \n     \u003Cfigure class=\"umx-tvc-bg lazy-imageom\">\u003C/figure> \n     \u003Cdiv class=\"umx-section\"> \n      \u003Cdiv class=\"umx-title\"> \n       \u003Ci class=\"umx-tvc-logo lazy-imageom\">\u003C/i> \n       \u003Cp class=\"umx-main-title\">超越眼之所见\u003C/p> \n       \u003Ca href=\"#\" class=\"umx-tvc-button\" data-trigger=\"innervideo\" data-resource=\"{'url': 'https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1680488854175/images/X60-%E8%94%A1%E5%8F%B8%E5%93%81%E7%89%8C%E5%90%88%E4%BD%9C%E5%AE%A3%E4%BC%A0%E7%89%87-PC.mp4', 'poster': 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7', 'width':960, 'height':540}\"> \u003Cspan>观看影片\u003C/span> \n        \u003Csvg width=\"20px\" height=\"20px\" viewbox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> \n         \u003Cg stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"> \n          \u003Cg transform=\"translate(-988.000000, -579.000000)\" stroke=\"#FFFFFF\"> \n           \u003Cg transform=\"translate(696.000000, 265.000000)\"> \n            \u003Cg transform=\"translate(184.000000, 296.000000)\"> \n             \u003Cg transform=\"translate(108.000000, 18.000000)\"> \n              \u003Ccircle cx=\"10\" cy=\"10\" r=\"9.5\" /> \n              \u003Cpath d=\"M10.375,6.22548095 C10.1956403,6.12192756 9.9912872,6.10087745 9.80588572,6.15055563 C9.62048423,6.20023381 9.45403434,6.32064027 9.35048095,6.5 L6.54367061,11.5625 C6.54367061,11.7696068 6.62761722,11.9571068 6.76334053,12.0928301 C6.89906383,12.2285534 7.08656383,12.3125 7.29367061,12.3125 L13.0813294,12.2120191 C13.2606891,12.1084657 13.3810956,11.9420158 13.4307738,11.7566143 C13.4804519,11.5712128 13.4594018,11.3668597 13.3558484,11.1875 L10.375,6.22548095 Z\" transform=\"translate(10.000000, 10.000000) rotate(-270.000000) translate(-10.000000, -10.000000)\" /> \n             \u003C/g> \n            \u003C/g> \n           \u003C/g> \n          \u003C/g> \n         \u003C/g> \n        \u003C/svg> \u003C/a> \n      \u003C/div> \n     \u003C/div> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"umx-stage zeiss-history umx-stage_sticky\"> \n    \u003Cdiv class=\"umx-horizontal-scroll-wrapper umx-stage_sticky\"> \n     \u003Cdiv class=\"umx-stickyBox\"> \n      \u003Cdiv class=\"umx-section\"> \n       \u003Cdiv class=\"umx-title\"> \n        \u003Cp class=\"umx-main-title\">\u003Ci class=\"umx-history-logo\">\u003C/i>光学先驱，百年蔡司。\u003C/p> \n        \u003Cp class=\"umx-intro\">蔡司创立于1846年，拥有超过175年的历史，致力于塑造技术领域的未来，在半导体制造技术、\u003Cbr class=\"umx-mb-hide\">工业质量与研究、医疗技术和消费品领域均有卓越建树，是世界公认的光学先驱。\u003C/p> \n       \u003C/div> \n      \u003C/div> \n      \u003Cdiv class=\"umx-history-list\"> \n       \u003Cdiv class=\"umx-history-progress\"> \n        \u003Cdiv class=\"umx-box-line\"> \n         \u003Cp class=\"umx-progress-text\">\u003Cspan class=\"umx-progress-current\">01\u003C/span>/\u003Cspan class=\"umx-progress-total\">04\u003C/span>\u003C/p> \n        \u003C/div> \n       \u003C/div> \n       \u003Cdiv class=\"umx-horizontal-wrapper\"> \n        \u003Cdiv class=\"umx-figure\"> \n         \u003Cdiv class=\"umx-figure-text\"> \n          \u003Cp class=\"umx-figure-title\">\u003Cspan>50\u003C/span>个蔡司镜头进入太空\u003Cbr>记录人类伟大时刻\u003C/p> \n         \u003C/div> \n         \u003Cfigure class=\"umx-history-f1 lazy-imageom\">\u003C/figure> \n        \u003C/div> \n        \u003Cdiv class=\"umx-figure\"> \n         \u003Cdiv class=\"umx-figure-text\"> \n          \u003Cp class=\"umx-figure-title\">全球\u003Cspan>80%\u003C/span>的微芯片\u003Cbr>都是由带有蔡司光学镜头的 \u003Cbr class=\"umx-mb-show\">ASML 光刻机制造\u003C/p> \n         \u003C/div> \n         \u003Cfigure class=\"umx-history-f2 lazy-imageom\">\u003C/figure> \n        \u003C/div> \n        \u003Cdiv class=\"umx-figure\"> \n         \u003Cdiv class=\"umx-figure-text\"> \n          \u003Cp class=\"umx-figure-title\">蔡司镜头\u003Cspan>3\u003C/span>次\u003Cbr>获得奥斯卡科学工程奖\u003C/p> \n         \u003C/div> \n         \u003Cfigure class=\"umx-history-f3 lazy-imageom\">\u003C/figure> \n        \u003C/div> \n        \u003Cdiv class=\"umx-figure\"> \n         \u003Cdiv class=\"umx-figure-text\"> \n          \u003Cp class=\"umx-figure-title\">\u003Cspan>1902\u003C/span>年\u003Cbr>蔡司设计出小巧而强大的天塞镜头\u003Cbr>为手机摄影奠定了基础\u003C/p> \n         \u003C/div> \n         \u003Cfigure class=\"umx-history-f4 lazy-imageom\">\u003C/figure> \n        \u003C/div> \n       \u003C/div> \n      \u003C/div> \n     \u003C/div> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"umx-stage zeiss-joint umx-stage_sticky\"> \n    \u003Cdiv class=\"umx-section\"> \n     \u003Cdiv class=\"umx-title\"> \n      \u003Cp class=\"umx-main-title\">强强联合，\u003Cbr>迈向影像新高度\u003C/p> \n     \u003C/div> \n    \u003C/div> \n    \u003Cdiv class=\"umx-stickyBox\"> \n     \u003Cdiv class=\"umx-joint-list\"> \n      \u003Cdiv class=\"umx-figure-wrapper\"> \n       \u003Cfigure class=\"umx-figure-item umx-joint-f1 lazy-imageom\"> \n        \u003Cdiv class=\"umx-joint-text-mb\"> \n         \u003Cdiv class=\"umx-joint-text-content\"> \n          \u003Ch2 class=\"umx-joint-text-title\">未来研究\u003C/h2> \n          \u003Cp class=\"umx-joint-text-intro\">成立 vivo 蔡司联合影像实验室，聚焦移动影像消费者需求与行业技术突破。\u003C/p> \n         \u003C/div> \n         \u003Ca class=\"umx-joint-text-link joint-video-link\" href=\"#\" data-trigger=\"innervideo\" data-resource=\"{'url': 'https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1680488854175/images/%E8%94%A1%E5%8F%B8-%E6%9C%AA%E6%9D%A5%E7%A0%94%E7%A9%B6-PC.mp4', 'poster': 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7', 'width':960, 'height':540}\"> 播放视频 \u003C/a> \n        \u003C/div> \n       \u003C/figure> \n       \u003Cfigure class=\"umx-figure-item umx-joint-f2 lazy-imageom\"> \n        \u003Cdiv class=\"umx-joint-text-mb\"> \n         \u003Cdiv class=\"umx-joint-text-content\"> \n          \u003Ch2 class=\"umx-joint-text-title\">创新产品\u003C/h2> \n          \u003Cp class=\"umx-joint-text-intro\">打造 vivo 蔡司联合影像系统，为 vivo 高端产品定制研发，提升高端产品影像体验。\u003C/p> \n         \u003C/div> \n         \u003Ca class=\"umx-joint-text-link\" href=\"https://www.vivo.com/products-x.html\" target=\"_blank\">立即购买\u003C/a> \n        \u003C/div> \n       \u003C/figure> \n       \u003Cfigure class=\"umx-figure-item umx-joint-f3 lazy-imageom\"> \n        \u003Cdiv class=\"umx-joint-text-mb\"> \n         \u003Cdiv class=\"umx-joint-text-content\"> \n          \u003Ch2 class=\"umx-joint-text-title\">人文创作\u003C/h2> \n          \u003Cp class=\"umx-joint-text-intro\">联合发起影像加手机摄影大赛，让记录变得随时随地，每一幕饱含温度的瞬间都被更多人看见。\u003C/p> \n         \u003C/div> \n         \u003Ca class=\"umx-joint-text-link\" href=\"https://visionplus.vivo.com/\" target=\"_blank\">了解更多\u003C/a> \n        \u003C/div> \n       \u003C/figure> \n      \u003C/div> \n      \u003Cdiv class=\"umx-text-wrapper\"> \n       \u003Cdiv class=\"umx-joint-text-item umx-joint-t1\"> \n        \u003Cdiv class=\"umx-joint-text-progress\"> \n         \u003Cstrong class=\"umx-joint-current-progress\">01\u003C/strong> \n         \u003Cspan class=\"umx-joint-total-progress\">/03\u003C/span> \n        \u003C/div> \n        \u003Cdiv class=\"umx-joint-text-content\"> \n         \u003Ch2 class=\"umx-joint-text-title\">未来研究\u003C/h2> \n         \u003Cp class=\"umx-joint-text-intro\">成立 vivo 蔡司联合影像实验室，聚焦移动影像消费者需求与行业技术突破。\u003C/p> \n        \u003C/div> \n        \u003Ca class=\"umx-joint-text-link joint-video-link\" href=\"#\" data-trigger=\"innervideo\" data-resource=\"{'url': 'https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1680488854175/images/%E8%94%A1%E5%8F%B8-%E6%9C%AA%E6%9D%A5%E7%A0%94%E7%A9%B6-PC.mp4', 'poster': 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7', 'width':960, 'height':540}\"> 播放视频 \u003C/a> \n       \u003C/div> \n       \u003Cdiv class=\"umx-joint-text-item umx-joint-t2\"> \n        \u003Cdiv class=\"umx-joint-text-progress\"> \n         \u003Cstrong class=\"umx-joint-current-progress\">02\u003C/strong> \n         \u003Cspan class=\"umx-joint-total-progress\">/03\u003C/span> \n        \u003C/div> \n        \u003Cdiv class=\"umx-joint-text-content\"> \n         \u003Ch2 class=\"umx-joint-text-title\">创新产品\u003C/h2> \n         \u003Cp class=\"umx-joint-text-intro\">打造 vivo 蔡司联合影像系统，为 vivo 高端产品定制研发，提升高端产品影像体验。\u003C/p> \n        \u003C/div> \n        \u003Ca class=\"umx-joint-text-link\" href=\"https://www.vivo.com/products-x.html\" target=\"_blank\">立即购买\u003C/a> \n       \u003C/div> \n       \u003Cdiv class=\"umx-joint-text-item umx-joint-t3\"> \n        \u003Cdiv class=\"umx-joint-text-progress\"> \n         \u003Cstrong class=\"umx-joint-current-progress\">03\u003C/strong> \n         \u003Cspan class=\"umx-joint-total-progress\">/03\u003C/span> \n        \u003C/div> \n        \u003Cdiv class=\"umx-joint-text-content\"> \n         \u003Ch2 class=\"umx-joint-text-title\">人文创作\u003C/h2> \n         \u003Cp class=\"umx-joint-text-intro\">联合发起影像加手机摄影大赛，让记录变得随时随地，每一幕饱含温度的瞬间都被更多人看见。\u003C/p> \n        \u003C/div> \n        \u003Ca class=\"umx-joint-text-link\" href=\"https://visionplus.vivo.com/\" target=\"_blank\">了解更多\u003C/a> \n       \u003C/div> \n      \u003C/div> \n     \u003C/div> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"umx-stage zeiss-master\"> \n    \u003Cdiv class=\"umx-section\"> \n     \u003Cdiv class=\"umx-title\"> \n      \u003Cp class=\"umx-main-title\">大师摄影，捕捉精彩\u003C/p> \n     \u003C/div> \n    \u003C/div> \n    \u003Cdiv class=\"umx-master-list\"> \n     \u003Cdiv class=\"umx-avatar-wrapper\"> \n      \u003Cdiv class=\"umx-avatar-item current\"> \n       \u003Cfigure class=\"umx-avatar-img1 lazy-imageom\">\u003C/figure> \n       \u003Cdiv class=\"umx-avatar-info\"> \n        \u003Ch3>Francesco Gola\u003C/h3> \n        \u003Cp>擅长领域：海景\u003C/p> \n       \u003C/div> \n      \u003C/div> \n      \u003Cdiv class=\"umx-avatar-item\"> \n       \u003Cfigure class=\"umx-avatar-img2 lazy-imageom\">\u003C/figure> \n       \u003Cdiv class=\"umx-avatar-info\"> \n        \u003Ch3>Michael Portillo\u003C/h3> \n        \u003Cp>擅长领域：风光\u003C/p> \n       \u003C/div> \n      \u003C/div> \n      \u003Cdiv class=\"umx-avatar-item\"> \n       \u003Cfigure class=\"umx-avatar-img3 lazy-imageom\">\u003C/figure> \n       \u003Cdiv class=\"umx-avatar-info\"> \n        \u003Ch3>Jakub Polomski\u003C/h3> \n        \u003Cp>擅长领域：旅行\u003C/p> \n       \u003C/div> \n      \u003C/div> \n      \u003Cdiv class=\"umx-avatar-item\"> \n       \u003Cfigure class=\"umx-avatar-img4 lazy-imageom\">\u003C/figure> \n       \u003Cdiv class=\"umx-avatar-info\"> \n        \u003Ch3>Timm Allrich\u003C/h3> \n        \u003Cp>擅长领域：风光\u003C/p> \n       \u003C/div> \n      \u003C/div> \n      \u003Cdiv class=\"umx-avatar-item\"> \n       \u003Cfigure class=\"umx-avatar-img5 lazy-imageom\">\u003C/figure> \n       \u003Cdiv class=\"umx-avatar-info\"> \n        \u003Ch3>Gabriel Santos\u003C/h3> \n        \u003Cp>擅长领域：自然、旅行\u003C/p> \n       \u003C/div> \n      \u003C/div> \n      \u003Cdiv class=\"umx-avatar-item\"> \n       \u003Cfigure class=\"umx-avatar-img6 lazy-imageom\">\u003C/figure> \n       \u003Cdiv class=\"umx-avatar-info\"> \n        \u003Ch3>黄天祥\u003C/h3> \n        \u003Cp>擅长领域：旅行、夜景\u003C/p> \n       \u003C/div> \n      \u003C/div> \n      \u003Cdiv class=\"umx-avatar-item\"> \n       \u003Cfigure class=\"umx-avatar-img7 lazy-imageom\">\u003C/figure> \n       \u003Cdiv class=\"umx-avatar-info\"> \n        \u003Ch3>贾睿\u003C/h3> \n        \u003Cp>擅长领域：人像\u003C/p> \n       \u003C/div> \n      \u003C/div> \n      \u003Cdiv class=\"umx-avatar-item\"> \n       \u003Cfigure class=\"umx-avatar-img8 lazy-imageom\">\u003C/figure> \n       \u003Cdiv class=\"umx-avatar-info\"> \n        \u003Ch3>范晓东\u003C/h3> \n        \u003Cp>擅长领域：城市风光\u003C/p> \n       \u003C/div> \n      \u003C/div> \n      \u003Cdiv class=\"umx-avatar-item\"> \n       \u003Cfigure class=\"umx-avatar-img9 lazy-imageom\">\u003C/figure> \n       \u003Cdiv class=\"umx-avatar-info\"> \n        \u003Ch3>黎怀楠\u003C/h3> \n        \u003Cp>擅长领域：人像、时尚\u003C/p> \n       \u003C/div> \n      \u003C/div> \n     \u003C/div> \n     \u003Cdiv class=\"umx-text-wrapper\"> \n      \u003Cdiv class=\"umx-master-arrow umx-top-arrow lazy-imageom\">\u003C/div> \n      \u003Cdiv class=\"umx-text-scroller\"> \n       \u003Cdiv class=\"umx-text-content\"> \n        \u003Cdiv class=\"umx-master-table-button current\" data-index=\"0\"> \n         \u003Cdiv class=\"umx-master-avatar master-avatar-1\">\u003C/div> \n         \u003Ch3 class=\"umx-master-title\">Francesco Gola\u003C/h3> \n         \u003Ch4 class=\"umx-master-desc\">擅长领域：海景\u003C/h4> \n        \u003C/div> \n        \u003Cdiv class=\"umx-master-table-button\" data-index=\"1\"> \n         \u003Cdiv class=\"umx-master-avatar master-avatar-2\">\u003C/div> \n         \u003Ch3 class=\"umx-master-title\">Michael Portillo\u003C/h3> \n         \u003Ch4 class=\"umx-master-desc\">擅长领域：风光\u003C/h4> \n        \u003C/div> \n        \u003Cdiv class=\"umx-master-table-button\" data-index=\"2\"> \n         \u003Cdiv class=\"umx-master-avatar master-avatar-3\">\u003C/div> \n         \u003Ch3 class=\"umx-master-title\">Jakub Polomski\u003C/h3> \n         \u003Ch4 class=\"umx-master-desc\">擅长领域：旅行\u003C/h4> \n        \u003C/div> \n        \u003Cdiv class=\"umx-master-table-button\" data-index=\"3\"> \n         \u003Cdiv class=\"umx-master-avatar master-avatar-4\">\u003C/div> \n         \u003Ch3 class=\"umx-master-title\">Timm Allrich\u003C/h3> \n         \u003Ch4 class=\"umx-master-desc\">擅长领域：风光\u003C/h4> \n        \u003C/div> \n        \u003Cdiv class=\"umx-master-table-button\" data-index=\"4\"> \n         \u003Cdiv class=\"umx-master-avatar master-avatar-5\">\u003C/div> \n         \u003Ch3 class=\"umx-master-title\">Gabriel Santos\u003C/h3> \n         \u003Ch4 class=\"umx-master-desc\">擅长领域：自然、旅行\u003C/h4> \n        \u003C/div> \n        \u003Cdiv class=\"umx-master-table-button\" data-index=\"5\"> \n         \u003Cdiv class=\"umx-master-avatar master-avatar-6\">\u003C/div> \n         \u003Ch3 class=\"umx-master-title\">黄天祥\u003C/h3> \n         \u003Ch4 class=\"umx-master-desc\">擅长领域：旅行、夜景\u003C/h4> \n        \u003C/div> \n        \u003Cdiv class=\"umx-master-table-button\" data-index=\"6\"> \n         \u003Cdiv class=\"umx-master-avatar master-avatar-7\">\u003C/div> \n         \u003Ch3 class=\"umx-master-title\">贾睿\u003C/h3> \n         \u003Ch4 class=\"umx-master-desc\">擅长领域：人像\u003C/h4> \n        \u003C/div> \n        \u003Cdiv class=\"umx-master-table-button\" data-index=\"7\"> \n         \u003Cdiv class=\"umx-master-avatar master-avatar-8\">\u003C/div> \n         \u003Ch3 class=\"umx-master-title\">范晓东\u003C/h3> \n         \u003Ch4 class=\"umx-master-desc\">擅长领域：城市风光\u003C/h4> \n        \u003C/div> \n        \u003Cdiv class=\"umx-master-table-button\" data-index=\"8\"> \n         \u003Cdiv class=\"umx-master-avatar master-avatar-9\">\u003C/div> \n         \u003Ch3 class=\"umx-master-title\">黎怀楠\u003C/h3> \n         \u003Ch4 class=\"umx-master-desc\">擅长领域：人像、时尚\u003C/h4> \n        \u003C/div> \n       \u003C/div> \n      \u003C/div> \n      \u003Cdiv class=\"umx-master-arrow umx-down-arrow lazy-imageom\">\u003C/div> \n     \u003C/div> \n     \u003Cdiv class=\"umx-figure-wrapper\"> \n      \u003Cdiv class=\"umx-master-img-list current\"> \n       \u003Cfigure class=\"umx-master-f1-1 lazy-imageom current\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f1-2 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f1-3 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f1-4 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f1-5 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f1-6 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f1-7 lazy-imageom\">\u003C/figure> \n      \u003C/div> \n      \u003Cdiv class=\"umx-master-img-list\"> \n       \u003Cfigure class=\"umx-master-f2-1 lazy-imageom current\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f2-2 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f2-3 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f2-4 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f2-5 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f2-6 lazy-imageom\">\u003C/figure> \n      \u003C/div> \n      \u003Cdiv class=\"umx-master-img-list\"> \n       \u003Cfigure class=\"umx-master-f3-1 lazy-imageom current\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f3-2 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f3-3 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f3-4 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f3-5 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f3-6 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f3-7 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f3-8 lazy-imageom\">\u003C/figure> \n      \u003C/div> \n      \u003Cdiv class=\"umx-master-img-list\"> \n       \u003Cfigure class=\"umx-master-f4-1 lazy-imageom current umx-horizontal-background\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f4-2 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f4-3 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f4-4 lazy-imageom\">\u003C/figure> \n      \u003C/div> \n      \u003Cdiv class=\"umx-master-img-list\"> \n       \u003Cfigure class=\"umx-master-f5-1 lazy-imageom current umx-horizontal-background\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f5-2 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f5-3 lazy-imageom umx-horizontal-background\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f5-4 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f5-5 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f5-6 lazy-imageom umx-horizontal-background\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f5-7 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f5-8 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f5-9 lazy-imageom\">\u003C/figure> \n      \u003C/div> \n      \u003Cdiv class=\"umx-master-img-list\"> \n       \u003Cfigure class=\"umx-master-f6-1 lazy-imageom current\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f6-2 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f6-3 lazy-imageom\">\u003C/figure> \n      \u003C/div> \n      \u003Cdiv class=\"umx-master-img-list\"> \n       \u003Cfigure class=\"umx-master-f7-5 lazy-imageom current\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f7-6 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f7-7 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f7-8 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f7-1 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f7-2 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f7-3 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f7-4 lazy-imageom\">\u003C/figure> \n      \u003C/div> \n      \u003Cdiv class=\"umx-master-img-list\"> \n       \u003Cfigure class=\"umx-master-f8-1 lazy-imageom current\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f8-2 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f8-3 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f8-4 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f8-5 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f8-6 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f8-7 lazy-imageom\">\u003C/figure> \n      \u003C/div> \n      \u003Cdiv class=\"umx-master-img-list\"> \n       \u003Cfigure class=\"umx-master-f9-1 lazy-imageom current\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f9-2 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-master-f9-3 lazy-imageom\">\u003C/figure> \n      \u003C/div> \n      \u003Cdiv class=\"umx-master-switch\"> \n       \u003Cdiv class=\"umx-box-line\"> \n        \u003Cp class=\"umx-progress-text\">\u003Cspan class=\"umx-progress-current\">01\u003C/span>/\u003Cspan class=\"umx-progress-total\">07\u003C/span>\u003C/p> \n       \u003C/div> \n       \u003Cdiv class=\"umx-master-arrow umx-left-arrow lazy-imageom\">\u003C/div> \n       \u003Cdiv class=\"umx-master-arrow umx-right-arrow lazy-imageom\">\u003C/div> \n      \u003C/div> \n      \u003Cdiv class=\"umx-zeiss-master-switch-progress\"> \n       \u003Cspan class=\"umx-zeiss-master-switch-current-progress\">01\u003C/span>/\n       \u003Cspan class=\"umx-zeiss-master-switch-total-progress\">07\u003C/span> \n      \u003C/div> \n     \u003C/div> \n    \u003C/div> \n    \u003Cdiv class=\"umx-master-mb-picture-options-container\"> \n     \u003Cdiv class=\"umx-master-mb-picture-drop-button\" data-options=\"pictures\"> \n      \u003Cspan class=\"umx-master-mb-picture-current-name\">Francesco Gola\u003C/span> \n      \u003Cspan class=\"umx-master-mb-picture-arrow-down\">\u003C/span> \n     \u003C/div> \n     \u003Cdiv class=\"umx-master-mb-picture-arrow-button\"> \n      \u003Cdiv class=\"umx-master-mb-picture-arrow-left\"> \n       \u003Csvg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"transparent\" viewbox=\"0 0 60 60\"> \n        \u003Ccircle class=\"grey\" cx=\"30\" cy=\"30\" r=\"28\" /> \n        \u003Ccircle class=\"black\" cx=\"30\" cy=\"30\" r=\"28\" /> \n       \u003C/svg> \n       \u003Cspan class=\"umx-master-mb-arrow-left\">\u003C/span> \n      \u003C/div> \n      \u003Cdiv class=\"umx-master-mb-picture-arrow-right\"> \n       \u003Csvg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"transparent\" viewbox=\"0 0 60 60\"> \n        \u003Ccircle class=\"grey\" cx=\"30\" cy=\"30\" r=\"28\" /> \n        \u003Ccircle class=\"black\" cx=\"30\" cy=\"30\" r=\"28\" /> \n       \u003C/svg> \n       \u003Cspan class=\"umx-master-mb-arrow-right\">\u003C/span> \n      \u003C/div> \n     \u003C/div> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"umx-stage zeiss-telephoto\"> \n    \u003Cdiv class=\"umx-section\"> \n     \u003Cdiv class=\"umx-title\"> \n      \u003Cp class=\"umx-main-title\">蔡司 APO 超级长焦镜头 II\u003C/p> \n      \u003Cp class=\"umx-intro\">更小巧的体积却蕴含大神通，进光量大幅提升了 38%，同时拥有更好的 5.0 级防抖性能，\u003Cbr class=\"umx-mb-hide\">实现更清晰明亮更稳定的拍摄效果。\u003C/p> \n     \u003C/div> \n    \u003C/div> \n    \u003Cdiv class=\"umx-video-box\"> \n     \u003Cfigure class=\"umx-f1 lazy-imageom\">\u003C/figure> \n     \u003Cdiv class=\"umx-data-wrapper\"> \n      \u003Cdiv class=\"umx-video-inner-text-list\"> \n       \u003Cdiv class=\"umx-video-inner-text-item\"> \n        \u003Ch2>2 亿\u003C/h2> \n        \u003Cp>像素\u003C/p> \n       \u003C/div> \n       \u003Cdiv class=\"umx-video-inner-text-item\"> \n        \u003Ch2>38%\u003C/h2> \n        \u003Cp>进光量提升\u003C/p> \n       \u003C/div> \n       \u003Cdiv class=\"umx-video-inner-text-item\"> \n        \u003Ch2>1G+6P\u003C/h2> \n        \u003Cp>浮动牵镜组\u003C/p> \n       \u003C/div> \n       \u003Cdiv class=\"umx-video-inner-text-item\"> \n        \u003Ch2>CIPA 5.0\u003C/h2> \n        \u003Cp>专业级防抖\u003C/p> \n       \u003C/div> \n      \u003C/div> \n      \u003Cdiv class=\"umx-video-inner-text-list\"> \n       \u003Cdiv class=\"umx-video-inner-text-item\"> \n        \u003Ch2>“超光”棱镜\u003C/h2> \n        \u003Cp>棱镜结构\u003C/p> \n       \u003C/div> \n       \u003Cdiv class=\"umx-video-inner-text-item\"> \n        \u003Ch2>超高反银膜\u003C/h2> \n        \u003Cp>98% 以上光转化率\u003C/p> \n       \u003C/div> \n       \u003Cdiv class=\"umx-video-inner-text-item\"> \n        \u003Ch2>NPS 镀膜\u003C/h2> \n        \u003Cp>小于 0.15% 光反射率\u003C/p> \n       \u003C/div> \n      \u003C/div> \n     \u003C/div> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"umx-stage zeiss-focus\"> \n    \u003Cdiv class=\"umx-section\"> \n     \u003Cdiv class=\"umx-title\"> \n      \u003Cp class=\"umx-main-title\">vivo 蔡司 2.35x 长焦增距镜\u003Cbr>更远大的场面，开挂上阵\u003C/p> \n      \u003Cp class=\"umx-intro\">vivo 蔡司 2.35x 长焦增距镜，专门为 X200 Ultra 85mm 长焦镜头设计，采用强大的开普勒结构提升远摄清晰画质，\u003Cbr class=\"umx-mb-hide\">与 85mm 长焦镜头搭配升级成为等效 200mm 焦距的超长焦镜头，舞台观看演出，长焦风光和人像拍摄，更远更震撼。\u003C/p> \n     \u003C/div> \n    \u003C/div> \n    \u003Cdiv class=\"umx-figure-box\"> \n     \u003Cfigure class=\"umx-f1 lazy-imageom\">\u003C/figure> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"umx-stage zeiss-gallery\"> \n    \u003Cdiv class=\"umx-gallery-wrapper\"> \n     \u003Cdiv class=\"umx-gallery-left\"> \n      \u003Cdiv class=\"umx-gallery-left-img-list swiper\"> \n       \u003Cdiv class=\"swiper-wrapper\"> \n        \u003Cdiv class=\"swiper-slide\"> \n         \u003Cfigure class=\"umx-detail-f1 lazy-imageom\">\u003C/figure> \n        \u003C/div> \n        \u003Cdiv class=\"swiper-slide\"> \n         \u003Cfigure class=\"umx-detail-f2 lazy-imageom\">\u003C/figure> \n        \u003C/div> \n        \u003Cdiv class=\"swiper-slide\"> \n         \u003Cfigure class=\"umx-detail-f3 lazy-imageom\">\u003C/figure> \n        \u003C/div> \n        \u003Cdiv class=\"swiper-slide\"> \n         \u003Cfigure class=\"umx-detail-f4 lazy-imageom\">\u003C/figure> \n        \u003C/div> \n       \u003C/div> \n       \u003Cdiv class=\"swiper-pagination\">\u003C/div> \n       \u003Cdiv class=\"umx-gallery-button-prev\">\u003C/div> \n       \u003Cdiv class=\"umx-gallery-button-next\">\u003C/div> \n      \u003C/div> \n      \u003Cdiv class=\"umx-gallery-left-section\"> \n       \u003Cfigure class=\"umx-f1 lazy-imageom\">\u003C/figure> \n       \u003Cdiv class=\"umx-gallery-content\"> \n        \u003Ch2 class=\"umx-gallery-title\">X200 Ultra\u003C/h2> \n        \u003Cp class=\"umx-gallery-intro\">大场面 V 单掌控\u003C/p> \n        \u003Cdiv class=\"umx-gallery-link umx-gallery-x200u-btn\">\n         更多样张\n        \u003C/div> \n       \u003C/div> \n      \u003C/div> \n     \u003C/div> \n     \u003Cdiv class=\"umx-gallery-right\"> \n      \u003Cdiv class=\"umx-gallery-right-item\"> \n       \u003Cfigure class=\"umx-f3 lazy-imageom\">\u003C/figure> \n       \u003Cdiv class=\"umx-gallery-content\"> \n        \u003Ch2 class=\"umx-gallery-title\">X200 系列\u003C/h2> \n        \u003Cp class=\"umx-gallery-intro\">蓝血影像灭霸\u003C/p> \n        \u003Cdiv class=\"umx-gallery-link umx-gallery-x200-btn\">\n         更多样张\n        \u003C/div> \n       \u003C/div> \n      \u003C/div> \n      \u003Cdiv class=\"umx-gallery-right-item\"> \n       \u003Cfigure class=\"umx-f2 lazy-imageom\">\u003C/figure> \n       \u003Cdiv class=\"umx-gallery-content\"> \n        \u003Ch2 class=\"umx-gallery-title\">X100 系列\u003C/h2> \n        \u003Cp class=\"umx-gallery-intro\">满分旗舰\u003C/p> \n        \u003Cdiv class=\"umx-gallery-link umx-gallery-x100-btn\">\n         更多样张\n        \u003C/div> \n       \u003C/div> \n      \u003C/div> \n      \u003Cdiv class=\"umx-gallery-right-item\"> \n       \u003Cfigure class=\"umx-f4 lazy-imageom\">\u003C/figure> \n       \u003Cdiv class=\"umx-gallery-content\"> \n        \u003Ch2 class=\"umx-gallery-title\">X Fold3\u003C/h2> \n        \u003Cp class=\"umx-gallery-intro\">悬停蔡司影像\u003C/p> \n        \u003Cdiv class=\"umx-gallery-link umx-gallery-xfold2-btn\">\n         更多样张\n        \u003C/div> \n       \u003C/div> \n      \u003C/div> \n     \u003C/div> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"umx-stage zeiss-lensbag\"> \n    \u003Cdiv class=\"umx-section\"> \n     \u003Cdiv class=\"umx-title\"> \n      \u003Cp class=\"umx-main-title\">随手一拍，直出大片\u003C/p> \n     \u003C/div> \n    \u003C/div> \n    \u003Cdiv class=\"umx-lensbag-list\"> \n     \u003Cdiv class=\"umx-figure-wrapper\"> \n      \u003Cdiv class=\"umx-lensbag-img-list current\"> \n       \u003Cfigure class=\"umx-lensbag-f2-5 lazy-imageom current\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f2-6 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f2-1 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f2-2 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f2-3 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f2-4 lazy-imageom\">\u003C/figure> \n      \u003C/div> \n      \u003Cdiv class=\"umx-lensbag-img-list\"> \n       \u003Cfigure class=\"umx-lensbag-f3-4 lazy-imageom current\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f3-3 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f3-1 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f3-2 lazy-imageom\">\u003C/figure> \n      \u003C/div> \n      \u003Cdiv class=\"umx-lensbag-img-list\"> \n       \u003Cfigure class=\"umx-lensbag-f4-4 lazy-imageom current\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f4-3 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f4-1 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f4-2 lazy-imageom\">\u003C/figure> \n      \u003C/div> \n      \u003Cdiv class=\"umx-lensbag-img-list\"> \n       \u003Cfigure class=\"umx-lensbag-f5-3 lazy-imageom current\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f5-1 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f5-2 lazy-imageom\">\u003C/figure> \n      \u003C/div> \n      \u003Cdiv class=\"umx-lensbag-img-list\"> \n       \u003Cfigure class=\"umx-lensbag-f6-5 lazy-imageom current\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f6-4 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f6-1 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f6-2 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f6-3 lazy-imageom\">\u003C/figure> \n      \u003C/div> \n      \u003Cdiv class=\"umx-lensbag-img-list\"> \n       \u003Cfigure class=\"umx-lensbag-f7-1 lazy-imageom current\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f7-2 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f7-3 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f7-4 lazy-imageom umx-horizontal-background\">\u003C/figure> \n      \u003C/div> \n      \u003Cdiv class=\"umx-lensbag-img-list\"> \n       \u003Cfigure class=\"umx-lensbag-f11-8 lazy-imageom current\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f11-6 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f11-7 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f11-1 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f11-2 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f11-3 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f11-4 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f11-5 lazy-imageom\">\u003C/figure> \n      \u003C/div> \n      \u003Cdiv class=\"umx-lensbag-img-list\"> \n       \u003Cfigure class=\"umx-lensbag-f1-1 lazy-imageom current\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f1-2 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f1-3 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f1-4 lazy-imageom\">\u003C/figure> \n      \u003C/div> \n      \u003Cdiv class=\"umx-lensbag-img-list umx-lensbag-video-model\"> \n       \u003Cdiv class=\"zeiss-lensbag-video current\"> \n        \u003Cdiv class=\"umx-lensbag-video umx-lensbag-video-video1\">\u003C/div> \n        \u003Cimg class=\"umx-lensbag-video-img umx-lensbag-video-img1\" src alt=\"vivo\"> \n        \u003Cdiv class=\"lensbag-video-satus-button umx-mb-hide\">\u003C/div> \n        \u003Ca class=\"lensbag-video-satus-button umx-mb-show\" href=\"#\" data-trigger=\"innervideo\" data-resource=\"{'url': 'https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1688635727864/images/zeiss-lensbag-video1-lg.mp4', 'poster': 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7', 'width':960, 'height':540}\">\u003C/a> \n       \u003C/div> \n       \u003Cdiv class=\"zeiss-lensbag-video\"> \n        \u003Cdiv class=\"umx-lensbag-video umx-lensbag-video-video2\">\u003C/div> \n        \u003Cimg class=\"umx-lensbag-video-img umx-lensbag-video-img2\" src alt=\"vivo\"> \n        \u003Cdiv class=\"lensbag-video-satus-button umx-mb-hide\">\u003C/div> \n        \u003Ca class=\"lensbag-video-satus-button umx-mb-show\" href=\"#\" data-trigger=\"innervideo\" data-resource=\"{'url': 'https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1688635727864/images/zeiss-lensbag-video2-lg.mp4', 'poster': 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7', 'width':960, 'height':540}\">\u003C/a> \n       \u003C/div> \n       \u003Cdiv class=\"zeiss-lensbag-video\"> \n        \u003Cdiv class=\"umx-lensbag-video umx-lensbag-video-video3\">\u003C/div> \n        \u003Cimg class=\"umx-lensbag-video-img umx-lensbag-video-img3\" src alt=\"vivo\"> \n        \u003Cdiv class=\"lensbag-video-satus-button umx-mb-hide\">\u003C/div> \n        \u003Ca class=\"lensbag-video-satus-button umx-mb-show\" href=\"#\" data-trigger=\"innervideo\" data-resource=\"{'url': 'https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1688635727864/images/zeiss-lensbag-video3-lg.mp4', 'poster': 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7', 'width':960, 'height':540}\">\u003C/a> \n       \u003C/div> \n       \u003Cdiv class=\"zeiss-lensbag-video\"> \n        \u003Cdiv class=\"umx-lensbag-video umx-lensbag-video-video4\">\u003C/div> \n        \u003Cimg class=\"umx-lensbag-video-img umx-lensbag-video-img4\" src alt=\"vivo\"> \n        \u003Cdiv class=\"lensbag-video-satus-button umx-mb-hide\">\u003C/div> \n        \u003Ca class=\"lensbag-video-satus-button umx-mb-show\" href=\"#\" data-trigger=\"innervideo\" data-resource=\"{'url': 'https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1688635727864/images/zeiss-lensbag-video4-lg.mp4', 'poster': 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7', 'width':960, 'height':540}\">\u003C/a> \n       \u003C/div> \n      \u003C/div> \n      \u003Cdiv class=\"umx-lensbag-img-list\"> \n       \u003Cfigure class=\"umx-lensbag-f10-6 lazy-imageom current\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f10-7 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f10-8 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f10-9 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f10-1 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f10-2 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f10-3 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f10-4 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-lensbag-f10-5 lazy-imageom\">\u003C/figure> \n      \u003C/div> \n      \u003Cdiv class=\"umx-lensbag-switch\"> \n       \u003Cdiv class=\"umx-box-line\"> \n        \u003Ci class=\"umx-box-progress-line\">\u003C/i> \n        \u003Cp class=\"umx-progress-text\">\u003Cspan class=\"umx-progress-current\">01\u003C/span>/\u003Cspan class=\"umx-progress-total\">06\u003C/span>\u003C/p> \n       \u003C/div> \n       \u003Cdiv class=\"umx-lensbag-arrow umx-left-arrow lazy-imageom\">\u003C/div> \n       \u003Cdiv class=\"umx-lensbag-arrow umx-right-arrow lazy-imageom\">\u003C/div> \n      \u003C/div> \n      \u003Cdiv class=\"umx-zeiss-lensbag-switch-progress\"> \n       \u003Cspan class=\"umx-zeiss-lensbag-switch-current-progress\">01\u003C/span>/\n       \u003Cspan class=\"umx-zeiss-lensbag-switch-total-progress\">06\u003C/span> \n      \u003C/div> \n     \u003C/div> \n     \u003Cdiv class=\"umx-text-wrapper\"> \n      \u003Cdiv class=\"umx-text-content\"> \n       \u003Ch3 class=\"umx-lensbag-title umx-lensbag-button current\">蔡司镜头包\u003C/h3> \n       \u003Cdiv class=\"umx-text-item current\"> \n        \u003Ch3 class=\"umx-lensbag-inner-title umx-lensbag-table-button current\" data-index=\"0\">蔡司耀斑人像\u003C/h3> \n        \u003Ch3 class=\"umx-lensbag-inner-title umx-lensbag-table-button\" data-index=\"1\">蔡司 Biotar 风格虚化\u003C/h3> \n        \u003Ch3 class=\"umx-lensbag-inner-title umx-lensbag-table-button\" data-index=\"2\">蔡司 Distagon 风格虚化\u003C/h3> \n        \u003Ch3 class=\"umx-lensbag-inner-title umx-lensbag-table-button\" data-index=\"3\">蔡司 Sonnar 风格虚化\u003C/h3> \n        \u003Ch3 class=\"umx-lensbag-inner-title umx-lensbag-table-button\" data-index=\"4\">蔡司 Planar 风格虚化\u003C/h3> \n        \u003Ch3 class=\"umx-lensbag-inner-title umx-lensbag-table-button\" data-index=\"5\">蔡司 Cinematic 风格虚化\u003C/h3> \n        \u003Ch3 class=\"umx-lensbag-inner-title umx-lensbag-table-button\" data-index=\"6\">蔡司 B-Speed 风格虚化\u003C/h3> \n       \u003C/div> \n       \u003Ch3 class=\"umx-lensbag-title umx-lensbag-table-button\" data-index=\"7\">蔡司微缩虚化\u003C/h3> \n       \u003Ch3 class=\"umx-lensbag-title umx-lensbag-table-button\" data-index=\"8\">蔡司 Cinematic 电影模式\u003C/h3> \n       \u003Ch3 class=\"umx-lensbag-title umx-lensbag-table-button\" data-index=\"9\">蔡司全焦段人像\u003C/h3> \n      \u003C/div> \n     \u003C/div> \n    \u003C/div> \n    \u003Cdiv class=\"umx-lensbag-mb-picture-options-container\"> \n     \u003Cdiv class=\"umx-lensbag-mb-picture-drop-button\" data-options=\"pictures\"> \n      \u003Cspan class=\"umx-lensbag-mb-picture-current-name\">蔡司耀斑人像\u003C/span> \n      \u003Cspan class=\"umx-lensbag-mb-picture-arrow-down\">\u003C/span> \n     \u003C/div> \n     \u003Cdiv class=\"umx-lensbag-mb-picture-arrow-button\"> \n      \u003Cdiv class=\"umx-lensbag-mb-picture-arrow-left\"> \n       \u003Csvg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"transparent\" viewbox=\"0 0 60 60\"> \n        \u003Ccircle class=\"grey\" cx=\"30\" cy=\"30\" r=\"28\" /> \n        \u003Ccircle class=\"black\" cx=\"30\" cy=\"30\" r=\"28\" /> \n       \u003C/svg> \n       \u003Cspan class=\"umx-lensbag-mb-arrow-left\">\u003C/span> \n      \u003C/div> \n      \u003Cdiv class=\"umx-lensbag-mb-picture-arrow-right\"> \n       \u003Csvg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"transparent\" viewbox=\"0 0 60 60\"> \n        \u003Ccircle class=\"grey\" cx=\"30\" cy=\"30\" r=\"28\" /> \n        \u003Ccircle class=\"black\" cx=\"30\" cy=\"30\" r=\"28\" /> \n       \u003C/svg> \n       \u003Cspan class=\"umx-lensbag-mb-arrow-right\">\u003C/span> \n      \u003C/div> \n     \u003C/div> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"umx-stage zeiss-sale\"> \n    \u003Cdiv class=\"umx-section\"> \n     \u003Cdiv class=\"umx-title\"> \n      \u003Cp class=\"umx-main-title\">心动瞬间，即刻拥有\u003C/p> \n      \u003Cp class=\"umx-intro\">马上拥有一台vivo联合蔡司研发的移动影像新标杆，体验更加追求极致的手机影像，前往官网了解更多。\u003C/p> \n     \u003C/div> \n    \u003C/div> \n    \u003Cdiv class=\"umx-sale-list\"> \n     \u003Cdiv class=\"umx-sale-wrapper\"> \n      \u003Cdiv class=\"umx-sale-item\"> \n       \u003Cfigure class=\"umx-sale-f1 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-sale-slogan1 umx-sale-slogan lazy-imageom\">\u003C/figure> \n       \u003Ca class=\"umx-sale-link\" href=\"https://www.vivo.com.cn/vivo/x200ultra\" target=\"_blank\">立即购买\u003C/a> \n       \u003Cspan class=\"umx-sale-tips\">*产品图片仅供参考，请以实物为准。\u003C/span> \n       \u003Cdiv class=\"umx-sale-item-mask\"> \n        \u003Cp>X200 Ultra\u003C/p> \n       \u003C/div> \n      \u003C/div> \n      \u003Cdiv class=\"umx-sale-item\"> \n       \u003Cfigure class=\"umx-sale-f2 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-sale-slogan2 umx-sale-slogan lazy-imageom\">\u003C/figure> \n       \u003Ca class=\"umx-sale-link\" href=\"https://www.vivo.com.cn/vivo/x200s\" target=\"_blank\">立即购买\u003C/a> \n       \u003Cspan class=\"umx-sale-tips\">*产品图片仅供参考，请以实物为准。\u003C/span> \n       \u003Cdiv class=\"umx-sale-item-mask\"> \n        \u003Cp>X200s\u003C/p> \n       \u003C/div> \n      \u003C/div> \n      \u003Cdiv class=\"umx-sale-item\"> \n       \u003Cfigure class=\"umx-sale-f4 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-sale-slogan4 umx-sale-slogan lazy-imageom\">\u003C/figure> \n       \u003Ca class=\"umx-sale-link\" href=\"https://www.vivo.com.cn/vivo/x200\" target=\"_blank\">立即购买\u003C/a> \n       \u003Cspan class=\"umx-sale-tips\">*产品图片仅供参考，请以实物为准。\u003C/span> \n       \u003Cdiv class=\"umx-sale-item-mask\"> \n        \u003Cp>X200\u003C/p> \n       \u003C/div> \n      \u003C/div> \n      \u003Cdiv class=\"umx-sale-item\"> \n       \u003Cfigure class=\"umx-sale-f3 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"umx-sale-slogan3 umx-sale-slogan lazy-imageom\">\u003C/figure> \n       \u003Ca class=\"umx-sale-link\" href=\"https://www.vivo.com.cn/vivo/xfold3\" target=\"_blank\">立即购买\u003C/a> \n       \u003Cspan class=\"umx-sale-tips\">*产品图片仅供参考，请以实物为准。\u003C/span> \n       \u003Cdiv class=\"umx-sale-item-mask\"> \n        \u003Cp>X Fold3\u003C/p> \n       \u003C/div> \n      \u003C/div> \n     \u003C/div> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"umx-stage zeiss-news\"> \n    \u003Cdiv class=\"umx-section\"> \n     \u003Cdiv class=\"umx-title\"> \n      \u003Cp class=\"umx-main-title\">相关新闻\u003C/p> \n     \u003C/div> \n    \u003C/div> \n    \u003Cdiv class=\"umx-news-list\"> \n     \u003Cdiv class=\"umx-news-wrapper\"> \n      \u003Cdiv class=\"umx-news-item\"> \n       \u003Cfigure class=\"umx-news-f4 lazy-imageom\">\u003C/figure> \n       \u003Cdiv class=\"umx-figure-text\"> \n        \u003Ch4 class=\"umx-news-title\">vivo发布两大影像战略 坚持为用户提供人性化专业影像体验\u003C/h4> \n        \u003Cp class=\"umx-news-intro\">2022年10月24日，vivo影像战略发布会正式召开。会上，vivo盘点了之前在影像理念上的坚持，即通过专业化的能力还原眼之所见，超越眼之所见，并将专业影像技术赋能每一个人，持续为消费者提供人性化的专业影像体验。\u003C/p> \n        \u003Cdiv class=\"umx-news-info\"> \n         \u003Cp class=\"umx-news-info-date\">2022 年 10 月 24 日\u003C/p> \n         \u003Ca class=\"umx-news-info-link\" href=\"https://www.vivo.com.cn/brand/news/detail?id=1097&amp;type=0\" target=\"_blank\">了解更多\u003C/a> \n        \u003C/div> \n       \u003C/div> \n      \u003C/div> \n      \u003Cdiv class=\"umx-news-item\"> \n       \u003Cfigure class=\"umx-news-f3 lazy-imageom\">\u003C/figure> \n       \u003Cdiv class=\"umx-figure-text\"> \n        \u003Ch4 class=\"umx-news-title\">蔡司175周年庆活动开展，与 vivo 共话“光的艺术”\u003C/h4> \n        \u003Cp class=\"umx-news-intro\">影像是时代的切片，也是生活的瞬间。影像让每个人能够更具想象力和创作力，让更多人都能享受到自由创作的快乐，是移动影像发展的初心。\u003C/p> \n        \u003Cdiv class=\"umx-news-info\"> \n         \u003Cp class=\"umx-news-info-date\">2021 年 11 月 21 日\u003C/p> \n         \u003Ca class=\"umx-news-info-link\" href=\"https://www.vivo.com.cn/brand/news/detail?id=1000&amp;type=2\" target=\"_blank\">了解更多\u003C/a> \n        \u003C/div> \n       \u003C/div> \n      \u003C/div> \n      \u003Cdiv class=\"umx-news-item\"> \n       \u003Cfigure class=\"umx-news-f2 lazy-imageom\">\u003C/figure> \n       \u003Cdiv class=\"umx-figure-text\"> \n        \u003Ch4 class=\"umx-news-title\">蔡司175周年专访：vivo 高级副总裁倪旭东畅谈“影像观”\u003C/h4> \n        \u003Cp class=\"umx-news-intro\">每天有超过10亿张照片诞生，其中绝大多数源自手机影像。从拍到到拍清，从记录到表达，手机影像对大众生活的重要性一直在提升。\u003C/p> \n        \u003Cdiv class=\"umx-news-info\"> \n         \u003Cp class=\"umx-news-info-date\">2021 年 10 月 18 日\u003C/p> \n         \u003Ca class=\"umx-news-info-link\" href=\"https://www.vivo.com.cn/brand/news/detail?id=992&amp;type=1\" target=\"_blank\">了解更多\u003C/a> \n        \u003C/div> \n       \u003C/div> \n      \u003C/div> \n      \u003Cdiv class=\"umx-news-item\"> \n       \u003Cfigure class=\"umx-news-f1 lazy-imageom\">\u003C/figure> \n       \u003Cdiv class=\"umx-figure-text\"> \n        \u003Ch4 class=\"umx-news-title\">vivo宣布与蔡司开启全球影像战略合作\u003C/h4> \n        \u003Cp class=\"umx-news-intro\">2020年12月17日，深圳 —— vivo 正式宣布与全球影像光学的开创者、奠基者和引领者蔡司成为全球影像战略伙伴。\u003C/p> \n        \u003Cdiv class=\"umx-news-info\"> \n         \u003Cp class=\"umx-news-info-date\">2020 年 12 月 17 日\u003C/p> \n         \u003Ca class=\"umx-news-info-link\" href=\"https://www.vivo.com.cn/brand/news/detail?id=909&amp;type=2\" target=\"_blank\">了解更多\u003C/a> \n        \u003C/div> \n       \u003C/div> \n      \u003C/div> \n     \u003C/div> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"umx-stage umx-stage-tips\"> \n    \u003Cdiv class=\"umx-tip-content\"> \n     \u003Ch4>备注\u003C/h4> \n     \u003Cul class=\"umx-case\"> \n      \u003Cli>以上样张效果仅供参考，不同拍摄模式的像素可能存在差异，部分样张大小经过裁剪，仅供参考，请以实际拍摄效果为准。\u003C/li> \n      \u003Cli>页面内的手机外观示意图、内部结构图及产品效果仅供参考，实际可能因光线环境、生产批次的不同，存在颜色、丝印等细节差异，请以实物为准。\u003C/li> \n      \u003Cli>除非特别说明，以上页面的数据及参数为我司实验室标准环境下的测试结果，数据及参数的实际情况（例如：光圈参数）会因测试环境、测试软件、供应商材料批次等不同略有差异。\u003C/li> \n     \u003C/ul> \n    \u003C/div> \n    \u003Cdiv class=\"umx-tips-box\">\u003C/div> \n   \u003C/div> \n  \u003C/div> \n \u003C/div> \n \u003Cdiv class=\"product-detail-wrapper clear-transform\">\u003C/div> \n \u003Ci class=\"expand-container-mask\">\u003C/i> \n \u003Cdiv class=\"umx-orther-page\"> \n  \u003Cdiv class=\"x100-dive-panel umx-dark-mode umx-lazyload-img\" aria-hidden=\"true\"> \n   \u003Cdiv class=\"x100-dive-content\"> \n    \u003Cdiv class=\"x100-details-scroll\"> \n     \u003Cdiv class=\"umx-stickyBox umx-stickyBox1\"> \n      \u003Cdiv class=\"umx-figure-x100 umx-figure\"> \n       \u003Cfigure class=\"x100-f1 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"x100-f2 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"x100-f3 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"x100-f4 lazy-imageom\">\u003C/figure> \n      \u003C/div> \n     \u003C/div> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"umx-gallery-progress\"> \n    \u003Cdiv class=\"umx-gallery-progress-content\"> \n     \u003Cstrong class=\"umx-gallery-current-progress\">01\u003C/strong> \n     \u003Cspan class=\"umx-gallery-total-progress\">/\u003Ci>04\u003C/i>\u003C/span> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"close-box\"> \n    \u003Csvg class=\"umx-close-svg\" xmlns=\"http://www.w3.org/2000/svg\" width=\"49\" height=\"48\" viewbox=\"0 0 49 48\" fill=\"none\"> \n     \u003Ccircle cx=\"24.3398\" cy=\"24\" r=\"23\" stroke=\"black\" stroke-width=\"2\" /> \n     \u003Cpath d=\"M33.3398 15L15.3398 33\" stroke=\"black\" stroke-width=\"2\" stroke-linecap=\"square\" /> \n     \u003Cpath d=\"M33.3398 33L15.3398 15\" stroke=\"black\" stroke-width=\"2\" stroke-linecap=\"square\" /> \n    \u003C/svg> \n   \u003C/div> \n  \u003C/div> \n  \u003Cdiv class=\"x200-dive-panel umx-dark-mode umx-lazyload-img\" aria-hidden=\"true\"> \n   \u003Cdiv class=\"x200-dive-content\"> \n    \u003Cdiv class=\"x200-details-scroll\"> \n     \u003Cdiv class=\"umx-stickyBox umx-stickyBox1\"> \n      \u003Cdiv class=\"umx-figure-x200 umx-figure\"> \n       \u003Cfigure class=\"x200-f1 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"x200-f2 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"x200-f3 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"x200-f4 lazy-imageom\">\u003C/figure> \n      \u003C/div> \n     \u003C/div> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"umx-gallery-progress\"> \n    \u003Cdiv class=\"umx-gallery-progress-content\"> \n     \u003Cstrong class=\"umx-gallery-current-progress\">01\u003C/strong> \n     \u003Cspan class=\"umx-gallery-total-progress\">/\u003Ci>04\u003C/i>\u003C/span> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"close-box\"> \n    \u003Csvg class=\"umx-close-svg\" xmlns=\"http://www.w3.org/2000/svg\" width=\"49\" height=\"48\" viewbox=\"0 0 49 48\" fill=\"none\"> \n     \u003Ccircle cx=\"24.3398\" cy=\"24\" r=\"23\" stroke=\"black\" stroke-width=\"2\" /> \n     \u003Cpath d=\"M33.3398 15L15.3398 33\" stroke=\"black\" stroke-width=\"2\" stroke-linecap=\"square\" /> \n     \u003Cpath d=\"M33.3398 33L15.3398 15\" stroke=\"black\" stroke-width=\"2\" stroke-linecap=\"square\" /> \n    \u003C/svg> \n   \u003C/div> \n  \u003C/div> \n  \u003Cdiv class=\"x200u-dive-panel umx-dark-mode umx-lazyload-img\" aria-hidden=\"true\"> \n   \u003Cdiv class=\"x200u-dive-content\"> \n    \u003Cdiv class=\"x200u-details-scroll\"> \n     \u003Cdiv class=\"umx-stickyBox umx-stickyBox1\"> \n      \u003Cdiv class=\"umx-figure-x200u umx-figure\"> \n       \u003Cfigure class=\"x200u-f1 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"x200u-f2 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"x200u-f3 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"x200u-f4 lazy-imageom\">\u003C/figure> \n      \u003C/div> \n     \u003C/div> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"umx-gallery-progress\"> \n    \u003Cdiv class=\"umx-gallery-progress-content\"> \n     \u003Cstrong class=\"umx-gallery-current-progress\">01\u003C/strong> \n     \u003Cspan class=\"umx-gallery-total-progress\">/\u003Ci>04\u003C/i>\u003C/span> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"close-box\"> \n    \u003Csvg class=\"umx-close-svg\" xmlns=\"http://www.w3.org/2000/svg\" width=\"49\" height=\"48\" viewbox=\"0 0 49 48\" fill=\"none\"> \n     \u003Ccircle cx=\"24.3398\" cy=\"24\" r=\"23\" stroke=\"black\" stroke-width=\"2\" /> \n     \u003Cpath d=\"M33.3398 15L15.3398 33\" stroke=\"black\" stroke-width=\"2\" stroke-linecap=\"square\" /> \n     \u003Cpath d=\"M33.3398 33L15.3398 15\" stroke=\"black\" stroke-width=\"2\" stroke-linecap=\"square\" /> \n    \u003C/svg> \n   \u003C/div> \n  \u003C/div> \n  \u003Cdiv class=\"xflip-dive-panel umx-dark-mode umx-lazyload-img\" aria-hidden=\"true\"> \n   \u003Cdiv class=\"xflip-dive-content\"> \n    \u003Cdiv class=\"xflip-details-scroll\"> \n     \u003Cdiv class=\"umx-stickyBox umx-stickyBox1\"> \n      \u003Cdiv class=\"umx-figure-xflip umx-figure\"> \n       \u003Cfigure class=\"xflip-f1 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"xflip-f2 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"xflip-f3 lazy-imageom\">\u003C/figure> \n      \u003C/div> \n     \u003C/div> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"umx-gallery-progress\"> \n    \u003Cdiv class=\"umx-gallery-progress-content\"> \n     \u003Cstrong class=\"umx-gallery-current-progress\">01\u003C/strong> \n     \u003Cspan class=\"umx-gallery-total-progress\">/\u003Ci>03\u003C/i>\u003C/span> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"close-box\"> \n    \u003Csvg class=\"umx-close-svg\" xmlns=\"http://www.w3.org/2000/svg\" width=\"49\" height=\"48\" viewbox=\"0 0 49 48\" fill=\"none\"> \n     \u003Ccircle cx=\"24.3398\" cy=\"24\" r=\"23\" stroke=\"black\" stroke-width=\"2\" /> \n     \u003Cpath d=\"M33.3398 15L15.3398 33\" stroke=\"black\" stroke-width=\"2\" stroke-linecap=\"square\" /> \n     \u003Cpath d=\"M33.3398 33L15.3398 15\" stroke=\"black\" stroke-width=\"2\" stroke-linecap=\"square\" /> \n    \u003C/svg> \n   \u003C/div> \n  \u003C/div> \n  \u003Cdiv class=\"xfold2-dive-panel umx-dark-mode umx-lazyload-img\" aria-hidden=\"true\"> \n   \u003Cdiv class=\"xfold2-dive-content\"> \n    \u003Cdiv class=\"xfold2-details-scroll\"> \n     \u003Cdiv class=\"umx-stickyBox umx-stickyBox1\"> \n      \u003Cdiv class=\"umx-figure-xfold2 umx-figure\"> \n       \u003Cfigure class=\"xfold2-f1 lazy-imageom\">\u003C/figure> \n       \u003Cfigure class=\"xfold2-f2 lazy-imageom\">\u003C/figure> \n      \u003C/div> \n     \u003C/div> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"umx-gallery-progress\"> \n    \u003Cdiv class=\"umx-gallery-progress-content\"> \n     \u003Cstrong class=\"umx-gallery-current-progress\">01\u003C/strong> \n     \u003Cspan class=\"umx-gallery-total-progress\">/\u003Ci>02\u003C/i>\u003C/span> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"close-box\"> \n    \u003Csvg class=\"umx-close-svg\" xmlns=\"http://www.w3.org/2000/svg\" width=\"49\" height=\"48\" viewbox=\"0 0 49 48\" fill=\"none\"> \n     \u003Ccircle cx=\"24.3398\" cy=\"24\" r=\"23\" stroke=\"black\" stroke-width=\"2\" /> \n     \u003Cpath d=\"M33.3398 15L15.3398 33\" stroke=\"black\" stroke-width=\"2\" stroke-linecap=\"square\" /> \n     \u003Cpath d=\"M33.3398 33L15.3398 15\" stroke=\"black\" stroke-width=\"2\" stroke-linecap=\"square\" /> \n    \u003C/svg> \n   \u003C/div> \n  \u003C/div> \n \u003C/div> \n \u003Cdiv class=\"expand-container-button ec-botton-close\"> \n  \u003Cdiv class=\"ec-button-wrapper ec-close-btn\"> \n   \u003Ca href=\"#\"> \u003Cb class=\"iconfont-symbol-products ico-symbol-close1\">\u003C/b> \u003C/a> \n  \u003C/div> \n \u003C/div> \n \u003Cscript>var _hmt=_hmt||[];!function(){var e=document.createElement(\"script\");e.src=\"https://hm.baidu.com/hm.js?9ef7debb81babe8b94af7f2c274869fd\";var t=document.getElementsByTagName(\"script\")[0];t.parentNode.insertBefore(e,t)}()\u003C/script> \n\u003C/div>",[11,12,13],"https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1747018978712/css/webfonts.css","https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1747018978712/css/app.css","https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1747018978712/css/video-js.min.css",[15,16,17,18,19,20],"https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1747018978712/hm.baidu.com/hm.js?9ef7debb81babe8b94af7f2c274869fd","https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1747018978712/https:/hm.baidu.com/hm.js?9ef7debb81babe8b94af7f2c274869fd","https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1747018978712/script/gsap.min.js","https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1747018978712/script/ScrollTrigger.min.js","https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1747018978712/script/stickyfill.min.js","https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1747018978712/script/app.js",null,"white","https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1747018978712/","0",{"success":5,"code":6,"msg":7,"data":26},{"canonicalFlag":5,"hasParam":24,"hasGallery":24,"hasGallery360":24,"hasOverview":24,"shopUrl":27,"sellState":28,"shopEntry":28,"isFos":29,"product":30,"category":21,"productChannels":36,"linkNames":37},"https://shop.vivo.com.cn/product/10006794",0,1,{"name":31,"code":32,"marketPrice":33,"promotionPrice":21,"seoTitle":34,"seoKeyword":35,"seoDescription":35},"vivo蔡司影像","vivozeiss","5499.00","vivo蔡司影像 - vivo智能手机官方网站","",[],[38],{"name":31,"selected":39},true,["Reactive",41],{"$sglobalConfig":42,"$sbaseUrl":100,"$sserverUrl":100,"$sisMobile":51,"$sisApp":51,"$sisCV":39,"$srequestUri":101,"$sfirstCanonical":35,"$sisLogin":51,"$shfUpdated":51,"$sfooterNavPath":102,"$scdnUrl":106,"$sheaderHeight":107,"$sscrollTop":28,"$ssecondCanonical":35,"$sproductTabInfo":26,"$sredirectUrl":108,"$soverviewPageData":8},{"baseInfo":43,"language":71,"officialHF":90,"isLoadGTM":51,"isLoadAbTasty":51,"contactInfoList":99},{"regionCode":44,"brandMark":45,"languageCode":46,"googleSearch":47,"headerPath":48,"gaSwitch":39,"oneTrustConfig":21,"target":49,"loginUrl":50,"appHeaderFooterRemoved":21,"isGDPR":51,"trackCenter":52,"trackVersion":53,"trackSwitch":39,"isPiwikPro":51,"cnStaticHost":54,"thirdOnlineCustomer":35,"layoutShow":24,"suspendSwitch":5,"appEntrySwitch":5,"noticeBoard":55,"userResearchList":62,"vivoBrowserSupport":29,"vivoSpace":51,"currentEnv":68,"videoMaskTheme":22,"vivoStaticHost":69,"vivoWebHost":70},"cn","vivo","zh_CN","E-7gZJW4cW6Cf7VJQpdOKF6gQ6mwyrfguXubRyJSW4M","/cn","vivoportal","https://passport.vivo.com.cn/v3/web/login/authorize?client_id=30&redirect_uri=",false,"asia","v4.9.3","https://wwwstatic.vivo.com.cn/vivoportal/files/image/",{"id":29,"noticeTitle":56,"linkContent":57,"linkUrl":58,"isShow":28,"isJump":29,"isValid":29,"countryId":29,"createBy":59,"createTime":60,"updateBy":59,"updateTime":61},"关于vivo及iQOO部分产品建议零售价调整的说明","点击查看","https://mshopact.vivo.com.cn/vivospace/wk26031139b762ab","11002946",1773315170000,1773803519000,[63,66],{"fileName":64,"fileUrl":65,"channelType":29},"vivo官网体验评价","https://wukongapi.vivo.com.cn/wukongtopic/wenjuan/3936/index",{"fileName":64,"fileUrl":67,"channelType":28},"https://wukongapi.vivo.com.cn/wukongtopic/wenjuan/3937/index","prd","https://asia-exstatic.vivoglobal.com","https://www.vivo.com",{"homeBannerSlideDown":72,"moreNewProducts":-1,"homeBannerSmallTitle":73,"exploreVivo":74,"exploreIqoo":-1,"exploreJovi":-1,"backTop":-1,"supportContactUs":75,"productOverview":76,"productGallery":77,"productParameter":78,"commonBuyNow":79,"productionHalt":-1,"productSoldOut":80,"productBuyRetailers":81,"commonPreBook":82,"commonProducts":83,"IMEIProductColor":84,"productOnlineStore":85,"commonLoadMore":86,"productInformationSheet":87,"energyConsumptionLevel":88,"productInformationRoHS":-1,"productPreviewTip":-1,"commonBreadcrumb":89},"向下滑动","发现更多","探索vivo","联系我们","产品概览","画廊","规格参数","立即购买","缺货","专卖店购买","立即预定","产品","产品颜色","在线商城","更多","产品信息","能耗级别","面包屑导航",{"commonCss":35,"commonJs":35,"cookieLastVersion":35,"footerHtml":35,"headerHtmlMini":91,"headerHtml":35,"oneTrustConfig":92,"publicKey":35,"cssUrlArr":93,"cssStyle":35,"cssUrl":35,"scriptUrl":35,"footColorStyle":5},"\u003Cdiv id=\"vivo-head-wrap\"\n     class=\"vp-head   vp-head-theme-black\"\n     >\n    \u003Cdiv id=\"cn-head-theme\">\u003C/div>\n    \u003Cdiv class=\"vp-head-wrap\">\n            \u003Cdiv class=\"vp-head-wrap-pc\">\n                \u003Cdiv class=\"vp-head-topbar-pc\">\n                    \u003Cdiv>\n                        \u003Cul class=\"vp-head-topbar-navs\">\n                                \u003Cli>\u003Ca href=\"\"\n                                       data-head-click-stat=\"cfrom=01|03|002|003&name=品牌\">品牌\u003C/a>\n                                \u003C/li>\n                                \u003Cli>\u003Ca href=\"\"\n                                       data-head-click-stat=\"cfrom=01|03|002|003&name=OriginOS\">OriginOS\u003C/a>\n                                \u003C/li>\n                                \u003Cli>\u003Ca href=\"\"\n                                       data-head-click-stat=\"cfrom=01|03|002|003&name=体验店\">体验店\u003C/a>\n                                \u003C/li>\n                                \u003Cli>\u003Ca href=\"\"\n                                       data-head-click-stat=\"cfrom=01|03|002|003&name=官网社区\">官网社区\u003C/a>\n                                \u003C/li>\n                        \u003C/ul>\n                        \u003Cdiv class=\"vp-head-top-user\">\n                                \u003Ca href=\"https://shopact.vivo.com.cn/pcspace/wk221129f1431101\"\n                                   class=\"vp-vivo-app\">\n                                    \u003Cspan>下载APP\u003C/span>\n                                \u003C/a>\n                            \u003Ca class=\"vp-user-shopcart\" href=\"https://shop.vivo.com.cn/shoppingcart\"\n                               data-head-click-stat=\"cfrom=01|03|002|002&position=1\">\u003C/a>\n                            \u003Cdiv class=\"vp-user-login-box\">\n                                \u003Cspan class=\"vp-head-member-login\">个人中心\u003C/span>\n                            \u003C/div>\n                        \u003C/div>\n                    \u003C/div>\n                \u003C/div>\n                \u003Cdiv class=\"vp-head-mainbar-pc\" >\n                    \u003Cdiv class=\"vp-head-logo\">\n                        \u003Ca href=\"//www.vivo.com.cn\" role=\"link\" aria-label=\"vivo\" data-head-click-stat=\"cfrom=01|03|002|001&name=vivo\"> \u003C/a>\n                    \u003C/div>\n                    \u003Cdiv class=\"vp-head-site\">\n                        \u003Cdiv class=\"vp-head-site-wrap\">\n                            \u003Cdiv class=\"vp-head-site-navs\">\n                                \u003Cdiv class=\"vp-head-site-navs-container\">\n                                        \u003Cul class=\"vp-head-site-navs-7\">\n                                                \u003Cli >\n                                                    \u003Ca\n                                                        id=\"\" href=\"\"\n                                                        data-url=\"\"\n                                                        class=\"vp-vivo-head-\"\n                                                        data-head-click-stat=\"cfrom=01|03|002|003&name=X系列\">\u003Cspan\n                                                            class=\"main\">X系列\u003C/span>\u003Cspan\n                                                            class=\"sub\">X\u003C/span>\u003C/a>\n                                                \u003C/li>\n                                                \u003Cli >\n                                                    \u003Ca\n                                                        id=\"\" href=\"\"\n                                                        data-url=\"\"\n                                                        class=\"vp-vivo-head-\"\n                                                        data-head-click-stat=\"cfrom=01|03|002|003&name=S系列\">\u003Cspan\n                                                            class=\"main\">S系列\u003C/span>\u003Cspan\n                                                            class=\"sub\">S\u003C/span>\u003C/a>\n                                                \u003C/li>\n                                                \u003Cli >\n                                                    \u003Ca\n                                                        id=\"\" href=\"\"\n                                                        data-url=\"\"\n                                                        class=\"vp-vivo-head-\"\n                                                        data-head-click-stat=\"cfrom=01|03|002|003&name=Y系列\">\u003Cspan\n                                                            class=\"main\">Y系列\u003C/span>\u003Cspan\n                                                            class=\"sub\">Y\u003C/span>\u003C/a>\n                                                \u003C/li>\n                                                \u003Cli >\n                                                    \u003Ca\n                                                        id=\"\" href=\"\"\n                                                        data-url=\"\"\n                                                        class=\"vp-vivo-head-\"\n                                                        data-head-click-stat=\"cfrom=01|03|002|003&name=iQOO手机\">\u003Cspan\n                                                            class=\"main\">iQOO手机\u003C/span>\u003Cspan\n                                                            class=\"sub\">iQOO手机\u003C/span>\u003C/a>\n                                                \u003C/li>\n                                                \u003Cli >\n                                                    \u003Ca\n                                                        id=\"\" href=\"\"\n                                                        data-url=\"\"\n                                                        class=\"vp-vivo-head-\"\n                                                        data-head-click-stat=\"cfrom=01|03|002|003&name=智能硬件\">\u003Cspan\n                                                            class=\"main\">智能硬件\u003C/span>\u003Cspan\n                                                            class=\"sub\">智能硬件\u003C/span>\u003C/a>\n                                                \u003C/li>\n                                                \u003Cli >\n                                                    \u003Ca\n                                                        id=\"\" href=\"\"\n                                                        data-url=\"\"\n                                                        class=\"vp-vivo-head-\"\n                                                        data-head-click-stat=\"cfrom=01|03|002|003&name=商城\">\u003Cspan\n                                                            class=\"main\">商城\u003C/span>\u003Cspan\n                                                            class=\"sub\">商城\u003C/span>\u003C/a>\n                                                \u003C/li>\n                                                \u003Cli >\n                                                    \u003Ca\n                                                        id=\"\" href=\"\"\n                                                        data-url=\"\"\n                                                        class=\"vp-vivo-head-\"\n                                                        data-head-click-stat=\"cfrom=01|03|002|003&name=服务\">\u003Cspan\n                                                            class=\"main\">服务\u003C/span>\u003Cspan\n                                                            class=\"sub\">服务\u003C/span>\u003C/a>\n                                                \u003C/li>\n                                        \u003C/ul>\n                                \u003C/div>\n                            \u003C/div>\n                        \u003C/div>\n                    \u003C/div>\n                    \u003Cdiv class=\"vp-head-search-btn\">\n                        \u003Cdiv>\n                            \u003Cspan class=\"vp-head-search-open\">\u003C/span>\n                        \u003C/div>\n                    \u003C/div>\n                \u003C/div>\n            \u003C/div>\n            \u003Cdiv class=\"vp-head-wrap-wap vp-head-show-app\">\n                \u003Cdiv class=\"vp-head-wap-common-box\">\n                    \u003Cdiv class=\"vp-head-download common-header-suspended\">\n            \u003Cdiv data-head-click-stat=\"cfrom=04|03|062|062\" class=\"vp-head-download-click\">\n            \u003Cdiv class=\"vp-head-download-img\">\n                \u003Cimg class=\"vp-head-img-floating vp-head-lazyload\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=\" alt=\"官网APP\">\n                \u003Cimg class=\"vp-head-img-button vp-head-lazyload\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=\" alt=\"按钮\">\n            \u003C/div>\n            \u003Cdiv class=\"vp-head-download-wx\">\u003C/div>\n        \u003C/div>\n    \u003Cspan data-head-click-stat=\"cfrom=05|03|062|063\" class=\"vp-head-download-close\">\u003C/span>\n\n    \u003Cscript type=\"text/javascript\">\n        var vpHeaderFloat = {\n            pageBoundary: 720,\n            needDeeplink: (!window.H5Interface && 0) ? 1 : 0,\n            deeplinkUrl: '',\n            blockBrowser: 'DeviceType\\/tablet|UCBrowser|VivoSpace|AlipayClient|AliApp\\\\(AP|wxwork|miniProgram',\n            blockCid: 'toutiao_pz|tt-sem|w-1-kp-x70|xiaov',\n            blockCookie: 'DeviceType\\/tablet|UCBrowser|VivoSpace|AlipayClient|AliApp\\\\(AP|wxwork|miniProgram',\n            isVivo: '1',\n            target: 'vivoportal',\n            wxTokenSwitch: 'true',\n            imgObj: {\n                'vivoFloatingImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753166059999/88be9f038031c75c78c4ed227e6fbeb1.png',\n                'vivoButtonImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753166071502/28e0ff5547eab74a14c51ea9091a26d8.png',\n                'vivoDownLoadUrl': 'https://h5.vivo.com.cn/mall/download/index.html',\n                'floatingImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753168266859/c092cf0613b0504e542cd7cd948ff1d5.png',\n                'buttonImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753168290953/e3eb324e70b13ec24fa84a1ae9f2db19.png',\n                'downLoadUrl': 'https://h5.vivo.com.cn/mall/download/index.html',\n            }\n        }\n    \u003C/script>\n\u003C/div>\n                    \u003Cdiv class=\"vp-head-common\">\n                        \u003Cspan class=\"vp-head-left-feature\" role=\"button\" aria-label=\"菜单\" aria-expanded=\"false\">\u003C/span>\n                        \u003Cdiv class=\"vp-head-logo\" aria-label=\"vivo\">\n                            \u003Ca href=\"//www.vivo.com.cn\">\u003C/a>\n                        \u003C/div>\n                        \u003Cdiv class=\"vp-head-right-feature\">\n                            \u003Ca href=\"//www.vivo.com.cn/search/index\" class=\"vp-head-btns-search search-index-link\" aria-label=\"搜索\">\u003C/a>\n                                \u003Ca class=\"vp-head-btns-shop\" href=\"//shop.vivo.com.cn/\" aria-label=\"商城\"\n                                   data-head-click-stat=\"cfrom=1042\">\u003C/a>\n                        \u003C/div>\n                    \u003C/div>\n                \u003C/div>\n            \u003C/div>\n    \u003C/div>\n\u003C/div>\n\n\u003Cscript type=\"text/javascript\" id=\"vp-head-header-script\">\n    var vpHeader = {\n        pageType: 'responsive',\n        pageBoundary: 1199,\n        clientId: '30',\n        memberIsCus: false,\n        headerType: 0,\n        target: 'vivoportal',\n        ceilingType: 0,\n        showDownLink: 1,\n        darkWords: [],\n        headTheme: 'black'\n    };\n    var VP_Emmiter;\n\u003C/script>\n\u003Cstyle>\n\n\u003C/style>\n",{},[94,97],{"rel":95,"href":96},"stylesheet","//asia-exstatic.vivoglobal.com/static/bus/include/cn-header/dist/css/index_8c54916.css",{"rel":95,"href":98},"//asia-exstatic.vivoglobal.com/static/bus/common/css/vicon_eb95211.css",[],"https://www.vivo.com.cn","/vivo/vivozeiss",{"firstPath":103,"secondPath":105},{"name":-1,"url":104},"/products-undefined.html",{"name":31},"https://portalstatic-cn.vivo.com/",60,"https://passport.vivo.com.cn/v3/web/login/authorize?client_id=30&redirect_uri=https%3A%2F%2Fwww.vivo.com.cn%2Fvivo%2Fvivozeiss",["Set",110],"$g-eZeBzBAM",["ShallowReactive",112],{"$fNc3VOEUEQM2rCE421wUvusms31M04_TRq-ZiqF_qA9k":21,"$f-bvlzOgtAnoXtgwzBC9mjNjLccOEKVOT9sudwdMla6s":21}]</script>
+<script>window.__NUXT__={};window.__NUXT__.config={public:{},app:{baseURL:"/",buildId:"57c42470-b277-41f4-90d9-4b64f500e6c8",buildAssetsDir:"/_nuxt/",cdnURL:"https://portalstatic-cn.vivo.com/"}}</script><script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script nomodule crossorigin id="vite-legacy-polyfill" src="https://portalstatic-cn.vivo.com/_nuxt/BcP1sRmP-legacy.js"></script><script nomodule crossorigin id="vite-legacy-entry" data-src="https://portalstatic-cn.vivo.com/_nuxt/Cmt9O-JX-legacy.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script></body></html>

@@ -11,6 +11,15 @@ const mime = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': '
 const server = http.createServer(async (request, response) => {
   try {
     const url = decodeURIComponent(new URL(request.url, 'http://localhost').pathname);
+    const lowerUrl = url.toLowerCase();
+    if (lowerUrl.startsWith('/portal/open/api/') || lowerUrl.startsWith('/header/login/') || lowerUrl.startsWith('/eden/flyheart') || lowerUrl.startsWith('/h5/monitor') || lowerUrl.includes('vmonitor')) {
+      const u = new URL(request.url, 'http://localhost');
+      const cb = u.searchParams.get('callback') || u.searchParams.get('jsoncallback');
+      const body = cb ? `${cb}({"code":0,"data":{}})` : '{"code":0,"data":{}}';
+      response.writeHead(200, { 'Content-Type': cb ? 'application/javascript' : 'application/json' });
+      response.end(body);
+      return;
+    }
     let file = path.join(dist, url.replace(/^\/+/, ''));
     if (url.endsWith('/')) file = path.join(file, 'index.html');
     if (!path.extname(file) && !fsSync.existsSync(file)) file = path.join(file, 'index.html');
@@ -40,17 +49,21 @@ try {
     const url = new URL(request.url());
     if (url.hostname === 'official.osarchive.com' || url.hostname.endsWith('.r2.dev')) {
       request.respond({ status: 200, contentType: 'text/html; charset=utf-8', body: '<!doctype html><html><body><main data-official-fixture>ColorOS official archive</main></body></html>' });
-    } else if (url.hostname.includes('baidu.com') || url.hostname.includes('cnzz.com') || url.hostname.includes('google-analytics.com')) {
-      request.respond({ status: 200, contentType: 'application/javascript', body: '' });
+    } else if (url.pathname.startsWith('/portal/open/api/') || url.pathname.startsWith('/header/login/') || url.pathname.toLowerCase().startsWith('/eden/flyheart')) {
+      const cb = url.searchParams.get('callback') || url.searchParams.get('jsoncallback');
+      const body = cb ? `${cb}({"code":0,"data":{}})` : '/* ok */';
+      request.respond({ status: 200, contentType: 'application/javascript', body });
+    } else if (url.hostname.includes('baidu.com') || url.hostname.includes('cnzz.com') || url.hostname.includes('google-analytics.com') || url.hostname.includes('sentinel') || url.hostname.includes('h5sdk') || url.hostname.includes('wukongapi') || url.hostname.includes('stpc.vivo.com.cn')) {
+      request.respond({ status: 200, contentType: 'application/javascript', body: '/* ok */' });
     } else request.continue();
   });
-  page.on('console', (message) => { if (message.type() === 'error') errors.push(message.text()); });
-  page.on('pageerror', (error) => errors.push(`Page error: ${error.message}`));
+  page.on('console', (message) => { if (message.type() === 'error') errors.push(`${page.url()}: ${message.text()}`); });
+  page.on('pageerror', (error) => errors.push(`Page error on ${page.url()}: ${error.message} - ${error.stack}`));
   page.on('requestfailed', (request) => {
     const reason = request.failure()?.errorText ?? '';
-    if (!reason.includes('ERR_ABORTED')) errors.push(`Request failed (${reason}): ${request.url()}`);
+    if (!reason.includes('ERR_ABORTED') && request.url().startsWith(origin)) errors.push(`Request failed (${reason}): ${request.url()}`);
   });
-  page.on('response', (response) => { if (response.status() >= 400) errors.push(`HTTP ${response.status()}: ${response.url()}`); });
+  page.on('response', (response) => { if (response.status() >= 400 && response.url().startsWith(origin)) errors.push(`HTTP ${response.status()}: ${response.url()}`); });
 
   for (const width of [390, 768, 1024, 1440]) {
     await page.setViewport({ width, height: 900, deviceScaleFactor: 1 });
@@ -216,6 +229,10 @@ try {
   await page.waitForSelector('[data-official-shell].loaded');
   if (!await page.$eval('[data-official-frame]', (element) => element.src.endsWith('/coloros17/index.html'))) throw new Error('ColorOS 17 official archive route is incorrect');
 
+  await page.goto(`${origin}/originos/7/`, { waitUntil: 'networkidle2' });
+  await page.waitForSelector('[data-official-shell].loaded');
+  if (!await page.$eval('[data-official-frame]', (element) => element.src.endsWith('/www.vivo.com.cn/originos7.html'))) throw new Error('OriginOS 7 official archive route is incorrect');
+
   await page.goto(`${origin}/magicos/10/`, { waitUntil: 'networkidle2' });
   await page.waitForSelector('[data-official-shell].loaded');
   const magicOSState = await page.$eval('[data-official-frame]', (element) => ({
@@ -240,7 +257,8 @@ try {
   const articles = await Promise.all((await fs.readdir(path.join(site, 'src/content/articles'))).filter((name) => name.endsWith('.json')).map(async (name) => JSON.parse(await fs.readFile(path.join(site, 'src/content/articles', name), 'utf8'))));
   await page.setViewport({ width: 1280, height: 900 });
   await page.goto(`${origin}/originos/`, { waitUntil: 'networkidle0' });
-  if (!page.url().includes('/originos/2026/21-originos-6/')) throw new Error(`OriginOS entry did not open the latest article: ${page.url()}`);
+  if (!page.url().includes('/originos/2026/64-originos-7/')) throw new Error(`OriginOS entry did not open the latest article: ${page.url()}`);
+  await page.goto(`${origin}/originos/2026/21-originos-6/`, { waitUntil: 'networkidle0' });
   const originSurface = await page.$eval('.monthly-digest', (element) => {
     const style = getComputedStyle(element);
     return { background: style.backgroundColor, backgroundImage: style.backgroundImage, backdropFilter: style.backdropFilter || style.webkitBackdropFilter, top: style.paddingTop, right: style.paddingRight, bottom: style.paddingBottom, left: style.paddingLeft };

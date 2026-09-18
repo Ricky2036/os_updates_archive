@@ -66,8 +66,9 @@ const magicOSLatestUrl = getLatestUrl('magicos');
         <span style="position: relative; z-index: 10;" data-text={brandMeta.originos.name}>{brandMeta.originos.name}</span><i aria-hidden="true"></i>
       </a>
       <div class="brand-submenu" role="menu" aria-label="OriginOS 档案">
+        <a class:list={{ active: activeOriginOSSection === 'originos7' }} role="menuitem" href={officialArchiveMeta['originos7'].route} data-astro-reload>OriginOS 7</a>
         <a class:list={{ active: activeOriginOSSection === 'originos6' }} role="menuitem" href={officialArchiveMeta['originos6'].route} data-astro-reload>OriginOS 6</a>
-        <a class:list={{ active: activeOriginOSSection !== 'originos6' }} role="menuitem" href={originOSLatestUrl} data-astro-prefetch="hover">月更记录</a>
+        <a class:list={{ active: activeOriginOSSection !== 'originos6' && activeOriginOSSection !== 'originos7' }} role="menuitem" href={originOSLatestUrl} data-astro-prefetch="hover">月更记录</a>
       </div>
     </div>
     <div class:list={{ 'brand-menu': true, active: hyperOSActive }} data-brand="hyperos">

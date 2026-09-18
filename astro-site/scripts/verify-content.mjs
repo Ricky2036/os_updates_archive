@@ -15,7 +15,7 @@ if (!articles.length) fail('No articles found');
 if (new Set(articles.map((article) => article.articleId)).size !== articles.length) fail('Article IDs are not unique');
 if (new Set(articles.map((article) => `${article.brand}/${article.year}/${article.slug}`)).size !== articles.length) fail('Article routes are not unique');
 const interactive = articles.filter((article) => article.kind !== 'gallery');
-if (interactive.length !== 17) fail(`Expected 17 interactive articles, found ${interactive.length}`);
+if (interactive.length !== 18) fail(`Expected 18 interactive articles, found ${interactive.length}`);
 for (const article of articles) {
   if (!article.title || !article.legacyPath || !article.cover) fail(`Incomplete metadata: ${article.articleId}`);
   if (article.kind === 'gallery' && !article.html) fail(`Gallery has no HTML: ${article.articleId}`);

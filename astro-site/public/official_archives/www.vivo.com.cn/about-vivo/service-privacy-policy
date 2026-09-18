@@ -1,0 +1,2747 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta content="telephone=no,email=no" name="format-detection">
+<meta name="facebook-domain-verification" content="0q2ryjis6o0fzvez07tvvutzgde34a" />
+<style>
+.bottom-crumbs-left {
+display: flex;
+align-items: center;
+}
+#vcm-v-banner-sdk a:focus ,#vcm-v-banner-sdk button:focus {
+outline: auto;
+}
+</style>
+<meta name="google-site-verification" content="E-7gZJW4cW6Cf7VJQpdOKF6gQ6mwyrfguXubRyJSW4M" />
+<title>vivo 中国</title>
+<meta name="title" content="vivo 中国"/>
+<meta name="keywords" content="vivo 中国"/>
+<meta name="description" content="vivo 中国"/>
+<meta name="robots" content="index"/>
+<link rel="canonical" href="https://www.vivo.com.cn/about-vivo/service-privacy-policy">
+<link rel="dns-prefetch" href="//asia-exstatic.vivoglobal.com" />
+<link rel="dns-prefetch" href="//www.googletagmanager.com" />
+<link rel="dns-prefetch" href="//www.google-analytics.com" />
+<link rel="dns-prefetch" href="//asia-exstatic-vivofs.vivo.com" />
+<link rel="shortcut icon" href="//asia-exstatic.vivoglobal.com/static/favicon-vivo_0549efd.ico" type="image/vnd.microsoft.icon" />
+<link rel="icon" href="//asia-exstatic.vivoglobal.com/static/favicon-vivo_0549efd.ico" type="image/vnd.microsoft.icon" />
+<style>
+@media (max-width: 359px) {
+#vcm-v-banner-sdk .vcm-v-group-btn {
+width: 100% !important;
+}
+#vcm-v-dialog-sdk .vcm-v-footer-btn {
+width: 100% !important;
+}
+}
+</style>
+<script>
+var VIVO_WEB_HOST = "https://www.vivo.com";
+var VIVO_STATIC_HOST = "https://asia-exstatic.vivoglobal.com";
+var VI_GLOBAL_NOWTIME = new Date().getTime();
+var globalVar = {
+isApp: /(VivoExSpace)|(iQOOExSpace)|(VivoPortalNoHF)/i.test(navigator.userAgent.toLowerCase()),
+mobileFlag: '0',
+brandMark: 'vivo',
+darkModel: '',
+regionId: 'cn',
+languageCode: 'zh_CN',
+userOpenId: '',
+isUserLogin: 'false',
+isPiwikPro: 'false',
+loginUrl: 'https://passport.vivo.com/cn/v3/web/login/authorize?client_id=30&redirect_uri=http%3A%2F%2Fwww.vivo.com.cn%3A80%2Fcn%2Fabout-vivo%2Fservice-privacy-policy',
+privacyLastVersion: '' || '0', // 隐私政策版本号
+cookieLastVersion: '' || '0', // cookie政策版本号
+path: '',
+layoutShow: '0',
+appHeaderFooterRemoved: '',
+publicKey: 'MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtphemyQeO26vLbyQM1z4a1v34sd044FnYGUxMQrgeQC68J6wEvXymrVAsVTVRFXfSH5QtHSVVEas3g4WGU4yB59AsAs2mpphmuDWnb2gFn4bCKHUKhMI605eBVFXZvDkOBkAtYDYkHvArLhaciHncQ+h9upQ5OF+pomaIWYcl/QIDAQAB', // 公钥
+isComplianceStates: false,
+appAgreedPrivacyVersion: '0',
+privacylastUpdateTime: '',
+isSwCacheEnable: false,
+version: 'v4.9.3',
+dataCenter: 'asia',
+gaSwitch: 'true', // GA埋点开关
+abTastySwitch: 'false',
+currentEnv: 'prd',
+trackSwitch: 'true', // 大数据埋点开关
+privacyPromptStrUrl: '/cn/about-vivo/privacy-policy',
+afterServicePromptStrUrl: '/cn/about-vivo/after-service-policy',
+oneTrustShow: false,
+intermediaryUrl: '/cn/intermediary?redirectTo=',
+isGtmFlag: false,
+isAbTastyFlag: false,
+noticeBoard: {
+noticeTitle: '关于vivo及iQOO部分产品建议零售价调整的说明',
+linkContent: '点击查看',
+linkUrl: 'https://mshopact.vivo.com.cn/vivospace/wk26031139b762ab',
+isShow: '0',
+isJump: '1'
+},
+servicePopup: {
+popTitle: '',
+popContent: '',
+isShow: '0'
+},
+fwShowSwitch: 1,
+vivoSpace: false
+}
+var globalAPI = {
+setCookie: function (params) {
+var content = ''
+if (params.expire) {
+// expire是小时数，合规限制cookie最多存3年
+if (params.expire > 3 * 365 * 24) {
+params.expire = 3 * 365 * 24
+}
+content += ';expires=' + new Date((new Date()).getTime() + params.expire * 60 * 60 * 1000).toGMTString()
+}
+if (params.domain) {
+content += ';domain=' + params.domain
+}
+document.cookie = params.key + '=' + escape(params.value) + content + ';path=/' + globalVar.regionId + ';secure=true'
+},
+getCookie: function (key) {
+var cookieValue = ''
+var search = key + '='
+if (document.cookie.length > 0) {
+var offset = document.cookie.indexOf(search)
+if (offset !== -1) {
+offset += search.length
+var end = document.cookie.indexOf(';', offset)
+if (end === -1) {
+end = document.cookie.length
+}
+cookieValue = unescape(document.cookie.substring(offset, end))
+}
+}
+return cookieValue
+},
+setLocalStorage: function (params) {
+// expire是小时数
+var obj = { data: params.value }
+if (params.expire) {
+obj.time = Date.now()
+obj.expire = params.expire * 60 * 60 * 1000
+}
+localStorage.setItem(params.key, JSON.stringify(obj))
+},
+getLocalStorage: function (key) {
+var val = localStorage.getItem(key)
+if (!val) {
+return val
+}
+val = JSON.parse(val)
+if (val.expire && Date.now() - val.time > val.expire) {
+localStorage.removeItem(key)
+return null
+}
+return val.data
+},
+gaPushFun: function (params) {
+if (globalVar.gaSwitch !== 'true') {
+return false
+}
+if (globalVar.oneTrustShow && globalVar.isPiwikPro !== 'true') {
+var VCMConsent = globalAPI.getCookie('VCMConsent')
+if (VCMConsent) {
+var activeGroups = JSON.parse(VCMConsent).activeGroups
+if (activeGroups && activeGroups.indexOf('3') === -1) {
+return false
+}
+}
+}
+window.dataLayer.push(params)
+},
+addGTM: function () {
+if (globalVar.regionId === 'cn' && globalVar.gaSwitch !== 'true') {
+return false
+}
+var gtmKey = globalVar.brandMark === 'iqoo' ? 'GTM-KHQFJS5' : (globalVar.isPiwikPro === 'true' ? 'GTM-T67WT6B' : 'GTM-WPPMHB7')
+;(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer',gtmKey);
+globalVar.isGtmFlag = true
+},
+addAbTasty: function () {
+if (globalVar.brandMark !== 'vivo' && globalVar.abTastySwitch !== 'true') {
+return false
+}
+;(function (i, s, o, g, r, a, m) {
+i["abtiming"] = 1 * new Date();
+a = s.createElement(o),
+m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+})(window, document, "script", "//try.abtasty.com/4ba860bab525699b2f20a9987d009647.js");
+globalVar.isAbTastyFlag = true
+}
+}
+/* 埋点初始化代码 */
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+"siteVersion": "new official"
+})
+</script>
+<script>
+!function(a,b){function c(){var b=f.getBoundingClientRect().width;b/i>768&&(b=768*i);var c=b/10.8;f.style.fontSize=c+"px",k.rem=a.rem=c}var d,e=a.document,f=e.documentElement,g=e.querySelector('meta[name="viewport"]'),h=e.querySelector('meta[name="flexible"]'),i=0,j=0,k=b.flexible||(b.flexible={});if(g){var l=g.getAttribute("content").match(/initial\-scale=([\d\.]+)/);l&&(j=parseFloat(l[1]),i=parseInt(1/j))}else if(h){var m=h.getAttribute("content");if(m){var n=m.match(/initial\-dpr=([\d\.]+)/),o=m.match(/maximum\-dpr=([\d\.]+)/);n&&(i=parseFloat(n[1]),j=parseFloat((1/i).toFixed(2))),o&&(i=parseFloat(o[1]),j=parseFloat((1/i).toFixed(2)))}}if(!i&&!j){var p=a.navigator.userAgent,q=(!!p.match(/android/gi),!!p.match(/iphone/gi)),r=q&&!!p.match(/OS 9_3/),s=a.devicePixelRatio;i=q&&!r?s>=3&&(!i||i>=3)?3:s>=2&&(!i||i>=2)?2:1:1,j=1/i}if(f.setAttribute("data-dpr",i),!g)if(g=e.createElement("meta"),g.setAttribute("name","viewport"),g.setAttribute("content","initial-scale="+j+", maximum-scale="+j+", minimum-scale="+j+", user-scalable=no"),f.firstElementChild)f.firstElementChild.appendChild(g);else{var t=e.createElement("div");t.appendChild(g),e.write(t.innerHTML)}a.addEventListener("resize",function(){clearTimeout(d),d=setTimeout(c,0)},!1),a.addEventListener("pageshow",function(a){a.persisted&&(clearTimeout(d),d=setTimeout(c,0))},!1),"complete"===e.readyState?e.body.style.fontSize=12*i+"px":e.addEventListener("DOMContentLoaded",function(){e.body.style.fontSize=12*i+"px"},!1),c(),k.dpr=a.dpr=i,k.refreshRem=c,k.rem2px=function(a){var b=parseFloat(a)*this.rem;return"string"==typeof a&&a.match(/rem$/)&&(b+="px"),b},k.px2rem=function(a){var b=parseFloat(a)/this.rem;return"string"==typeof a&&a.match(/px$/)&&(b+="rem"),b}}(window,window.lib||(window.lib={}));
+!(function(c){function a(){c.documentElement.className+=" vivo-webp";}var w=localStorage.getItem('vivo-webp');if(!w||w!=='A'){var b=new Image();b.onload=function(){if(b.width===1){a();localStorage.setItem('vivo-webp','A');}};b.src='data:image/webp;base64,UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA==';}else{a();}}(document));
+</script>
+<link href="//asia-exstatic.vivoglobal.com/static/bus/include/cn-header/dist/css/index_8c54916.css" rel="stylesheet">
+<link id="global-vivo-icon" href="//asia-exstatic.vivoglobal.com/static/bus/common/css/vicon_eb95211.css" rel="stylesheet" type="text/css">
+<style>
+@font-face {
+font-family: 'AvenirNext';
+src: url('//asia-exstatic.vivoglobal.com/static/font/AvenirNext/AvenirNextRegular_17c1dc8.eot'),url('//asia-exstatic.vivoglobal.com/static/font/AvenirNext/AvenirNextRegular_6b6dbe3.woff2') format('woff2'),url('//asia-exstatic.vivoglobal.com/static/font/AvenirNext/AvenirNextRegular_2d26b87.woff') format('woff'),url('//asia-exstatic.vivoglobal.com/static/font/AvenirNext/AvenirNextRegular_c99fe90.ttf') format('truetype'),url('//asia-exstatic.vivoglobal.com/static/font/AvenirNext/AvenirNextRegular_e7a17f8.svg') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'WebRupee';
+src: url('//asia-exstatic.vivoglobal.com/static/font/currency/WebRupee.V2.0_b9b282e.eot'),url('//asia-exstatic.vivoglobal.com/static/font/currency/WebRupee.V2.0_5dc4203.woff2') format('woff2'),url('//asia-exstatic.vivoglobal.com/static/font/currency/WebRupee.V2.0_5bb128f.woff') format('woff'),url('//asia-exstatic.vivoglobal.com/static/font/currency/WebRupee.V2.0_388288f.ttf') format('truetype'),url('//asia-exstatic.vivoglobal.com/static/font/currency/WebRupee.V2.0_77414ca.svg') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'languageFont';
+src: url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1757499328384/1482917796f50f5ee43d658e26cd5fa3.eot') ,url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1757499335949/5f170b507681df81271412c6b73b6269.woff2') format('woff2'),url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1757499343283/2b2b3e2826c184139250311c58ea09fb.woff') format('woff'),url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1757499699573/012b4a936a04ed30850a94f2a17f2b71.ttf') format('truetype'),url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1757499712837/a0a97b7cc30fe05aff7c1c86c2c44845.svg') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'languageFont1';
+src: url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1757499738840/30c3b1e2d7611bc28fac034a493dd96a.eot') ,url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1757499745940/57cbacfe6fbda825af0aaa8e41d79578.woff2') format('woff2'),url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1757499758154/d14916483d346a1061ba9def26caff1d.woff') format('woff'),url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1757499770336/750f2311c2f6491db16325fdb700cd6c.ttf') format('truetype'),url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1757499776650/9cfafa208ac2ea731e66308b654a0078.svg') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'languageFont2';
+src: url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753164825732/868dbc9be5f4b1f124a10e066504257b.eot') ,url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753164832072/8592631b479b8932cf0f58d9fceb9496.woff2') format('woff2'),url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753164838379/6381b07992df4628ffd95cf248b93ac6.woff') format('woff'),url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753164843920/4a453eba91ad0ae0bf67430958c4954b.ttf') format('truetype'),url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753164850220/9030f28313f8f2f3637e452fde359add.svg') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'languageFont3';
+src: url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753164876651/4fb8eefcb413b582fe656da17adb030f.eot') ,url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753164881838/2a8e5405063cab7f3c6de23c0fefbbaf.woff2') format('woff2'),url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753164886514/ebf95071194be7b091c120685a38d18b.woff') format('woff'),url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753164924653/e973a38fbbe9f701c629dd16bcb6cb31.ttf') format('truetype'),url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753164930169/33bdc60e14f6ddc37f3ceffbbcd680ff.svg') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'languageFont4';
+src: url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753165006690/8275a41201ecaad99888ac78059002d0.eot') ,url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753165012262/d3097eda87e93ce2381bdae5d6d14a7d.woff2') format('woff2'),url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753165017354/81e038707c32ae962c49f2aa8492551e.woff') format('woff'),url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753165022429/f35a6c4cada2c08e0b751568afd0b2a7.ttf') format('truetype'),url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753165027836/1046048abf83af4513ceeca61f82ee6f.svg') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'languageFont5';
+src: url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1757500815135/7c648b95dba505d94edf80a59cdd2cf2.eot') ,url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1757500825436/3ff91fcab7a350ea8888c3797c21900e.woff2') format('woff2'),url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1757500832409/ab4fb4d69bd8687da023b63b323f194c.woff') format('woff'),url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1757500840012/ead8b6cb89515573251bfb1d1a19debd.ttf') format('truetype'),url('https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1757500846923/a5f9b5532a7a3e5ef2530529c3b18862.svg') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+.public *,
+.vep-public *,
+#vcm-v-consent-sdk * {
+font-family: "languageFont","languageFont1","languageFont2","languageFont3","languageFont4","languageFont5","AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+}
+</style>
+<link href="//asia-exstatic.vivoglobal.com/static/bus/common/css/vicon_eb95211.css" rel="stylesheet" type="text/css">
+<link href="//asia-exstatic.vivoglobal.com/static/bus/include/vep-new-global/dist/css/vivo_a8d66a1.css" rel="stylesheet" type="text/css">
+<link href="//asia-exstatic.vivoglobal.com/static/bus/index/rich/dist/css/vivo_0ab1cb9.css" rel="stylesheet" type="text/css">
+<script src="//asia-exstatic.vivoglobal.com/static/bus/common/js/jquery.min.3.3.1_7679e5a.js"></script>
+<script src="//asia-exstatic.vivoglobal.com/static/bus/common/js/global.pack_be52ea3.js"></script>
+<script>
+window.onload = function(){
+const vcmHeaderLogo = $(".vcm-v-header-logo>img")
+const vcmWin = $("#vcm-v-banner-sdk")
+const vcmBtn = $(".vcm-v-group-btn")
+if(globalVar.brandMark === 'jovi'){
+$('#vcm-v-dialog-sdk .vcm-v-header-logo')?.css({'width':'82px','height':'auto','margin-top':'28.3px','margin-right':'23px'})
+// vcmHeaderLogo?.attr('src','/static/img/icon/vcm-logo-jovi.svg')
+vcmHeaderLogo?.attr('src','/static/img/image/vcm-logo-jovi.png')
+}
+if(vcmWin.length) {
+vcmWin.attr('tabindex', '0').focus()
+}
+if(vcmBtn.length && $('body').is(".portal-font-scale-4, .portal-font-scale-5")){
+vcmBtn?.css({
+'overflow':'hidden',
+'text-overflow':'ellipsis',
+'white-space':'nowrap',
+'display':'block'
+})
+}
+if(vcmBtn.length && $('body').is(".portal-font-scale-6, .portal-font-scale-7")){
+vcmBtn?.css({
+'padding': '30px 20px'
+})
+}
+}
+</script>
+</head>
+<body class="veu-header-relative" data-nav="Home" data-app-page="none-cookie" data-category="legal">
+<script>
+window._env='非vivoapp'
+</script>
+<header id="header" class="new-head-wrap">
+<div id="vivo-head-wrap"
+class="vp-head vp-head-theme-black"
+>
+<div id="cn-head-theme"></div>
+<div class="vp-head-wrap">
+<div class="vp-head-wrap-pc">
+<div class="vp-head-topbar-pc">
+<div>
+<ul class="vp-head-topbar-navs">
+<li><a id="1" href="https://www.vivo.com.cn/brand/home"
+data-url="https://www.vivo.com.cn/brand/home"
+class="vp-vivo-head-品牌"
+data-head-click-stat="cfrom=01|03|002|003&name=品牌">品牌</a>
+</li>
+<li><a id="2" href="https://www.vivo.com.cn/originos"
+data-url="https://www.vivo.com.cn/originos"
+class="vp-vivo-head-OriginOS"
+data-head-click-stat="cfrom=01|03|002|003&name=OriginOS">OriginOS</a>
+</li>
+<li><a id="3" href="https://www.vivo.com.cn/store"
+data-url="https://www.vivo.com.cn/store"
+class="vp-vivo-head-体验店"
+data-head-click-stat="cfrom=01|03|002|003&name=体验店">体验店</a>
+</li>
+<li><a id="4" href="https://bbs.vivo.com.cn/newbbs/"
+data-url="https://bbs.vivo.com.cn/newbbs/"
+class="vp-vivo-head-官网社区"
+data-head-click-stat="cfrom=01|03|002|003&name=官网社区">官网社区</a>
+</li>
+</ul>
+<div class="vp-head-top-user">
+<a href="https://shopact.vivo.com.cn/pcspace/wk221129f1431101"
+class="vp-vivo-app">
+<span>下载APP</span>
+<div class="vp-vivo-app-qrCode">
+<img class="vp-vivo-app-qrCode-img"
+data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/files/1695178441055/5DsI1k7YlPy53.png"
+src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D">
+<span>扫描下载 vivo官网APP</span>
+</div>
+</a>
+<a class="vp-user-shopcart" href="https://shop.vivo.com.cn/shoppingcart"
+data-head-click-stat="cfrom=01|03|002|002&position=1"></a>
+<div class="vp-user-login-box">
+<span class="vp-head-member-login">个人中心</span>
+<div class="vp-head-user-lists">
+<div class="vp-head-user-login">
+<div class="vp-head-user-content">
+<a class="vp-user-login" href="javascript:void (0)"
+data-head-click-stat="cfrom=01|03|002|002&position=4">登录</a>
+</div>
+<div class="vp-head-user-content">
+<a class="vp-user-register" href="javascript:void (0)"
+data-head-click-stat="cfrom=01|03|002|002&position=5">注册</a>
+</div>
+</div>
+<div class="vp-head-user-logged">
+<div class="vp-head-user-content">
+<a class="vp-head-user-shop-pc" href="//shop.vivo.com.cn/my/"
+data-head-click-stat="cfrom=01|03|002|002&position=3">我的商城</a>
+</div>
+<div class="vp-head-user-content">
+<a class="vp-head-user-order-pc" href="//shop.vivo.com.cn/my/order"
+data-head-click-stat="cfrom=01|03|002|002&position=2">我的订单</a>
+</div>
+<div class="vp-head-user-content">
+<a class="vp-head-user-home vp-head-user-home-pc"
+href="//passport.vivo.com.cn/v3/web/login/authorize?client_id=30"
+data-head-click-stat="cfrom=01|03|002|002&position=6">账号中心</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="vp-head-mainbar-pc" >
+<div class="vp-head-logo">
+<a href="//www.vivo.com.cn" role="link" aria-label="vivo" data-head-click-stat="cfrom=01|03|002|001&name=vivo"> </a>
+</div>
+<div class="vp-head-site">
+<div class="vp-head-site-layer"></div>
+<div class="vp-head-site-wrap">
+<div class="vp-head-site-navs">
+<div class="vp-head-site-navs-container">
+<ul class="vp-head-site-navs-7">
+<li class="vp-head-series">
+<a
+id="1" href="https://www.vivo.com.cn/products-x.html"
+data-url="https://www.vivo.com.cn/products-x.html"
+class="vp-vivo-head-X系列"
+data-head-click-stat="cfrom=01|03|002|003&name=X系列"><span
+class="main">X系列</span><span
+class="sub">X系列</span></a>
+</li>
+<li class="vp-head-series">
+<a
+id="2" href="https://www.vivo.com.cn/products-s.html"
+data-url="https://www.vivo.com.cn/products-s.html"
+class="vp-vivo-head-S系列"
+data-head-click-stat="cfrom=01|03|002|003&name=S系列"><span
+class="main">S系列</span><span
+class="sub">S系列</span></a>
+</li>
+<li class="vp-head-series">
+<a
+id="3" href="https://www.vivo.com.cn/products-y.html"
+data-url="https://www.vivo.com.cn/products-y.html"
+class="vp-vivo-head-Y系列"
+data-head-click-stat="cfrom=01|03|002|003&name=Y系列"><span
+class="main">Y系列</span><span
+class="sub">Y系列</span></a>
+</li>
+<li class="vp-head-series">
+<a
+id="4" href="https://www.vivo.com.cn/products-iqoo.html"
+data-url="https://www.vivo.com.cn/products-iqoo.html"
+class="vp-vivo-head-iQOO手机"
+data-head-click-stat="cfrom=01|03|002|003&name=iQOO手机"><span
+class="main">iQOO手机</span><span
+class="sub">iQOO手机</span></a>
+</li>
+<li class="vp-head-series">
+<a
+id="5" href="https://www.vivo.com.cn/products-accessory.html"
+data-url="https://www.vivo.com.cn/products-accessory.html"
+class="vp-vivo-head-智能硬件"
+data-head-click-stat="cfrom=01|03|002|003&name=智能硬件"><span
+class="main">智能硬件</span><span
+class="sub">智能硬件</span></a>
+</li>
+<li >
+<a
+id="6" href="https://shop.vivo.com.cn/"
+data-url="https://shop.vivo.com.cn/"
+class="vp-vivo-head-商城"
+data-head-click-stat="cfrom=01|03|002|003&name=商城"><span
+class="main">商城</span><span
+class="sub">商城</span></a>
+</li>
+<li >
+<a
+id="7" href="https://www.vivo.com.cn/service.html"
+data-url="https://www.vivo.com.cn/service.html"
+class="vp-vivo-head-服务"
+data-head-click-stat="cfrom=01|03|002|003&name=服务"><span
+class="main">服务</span><span
+class="sub">服务</span></a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="vp-head-search-btn">
+<div>
+<span class="vp-head-search-confirm"></span>
+<span class="vp-head-search-close"></span>
+<span class="vp-head-search-open"></span>
+</div>
+</div>
+<div class="vp-head-search-wrap">
+<div>
+<div class="vp-head-search-box">
+<div class="vp-head-search-input">
+<input type="text" placeholder="请输入搜索内容">
+</div>
+<div class="vp-head-search-content">
+<div class="vp-head-search-recommend">
+<dl>
+<dt>大家都在搜</dt>
+<dd data-type="1">
+<a href="https://www.vivo.com/vivo/xfold6/"
+data-head-click-stat='version=3.0.0&cfrom=01|03|031|092&position=0&keyword=X Fold6&kw_type=1'>X Fold6</a>
+</dd>
+<dd data-type="1">
+<a href="https://www.vivo.com.cn/vivo/s60/"
+data-head-click-stat='version=3.0.0&cfrom=01|03|031|092&position=1&keyword=S60&kw_type=1'>S60</a>
+</dd>
+<dd data-type="1">
+<a href="https://www.vivo.com.cn/vivo/x300ultra/"
+data-head-click-stat='version=3.0.0&cfrom=01|03|031|092&position=2&keyword=X300 Ultra&kw_type=1'>X300 Ultra</a>
+</dd>
+<dd data-type="1">
+<a href="https://www.vivo.com.cn/vivo/vivopad6pro/"
+data-head-click-stat='version=3.0.0&cfrom=01|03|031|092&position=3&keyword=vivo Pad6 Pro&kw_type=1'>vivo Pad6 Pro</a>
+</dd>
+<dd data-type="1">
+<a href="https://shop.vivo.com.cn/product/10011785"
+data-head-click-stat='version=3.0.0&cfrom=01|03|031|092&position=4&keyword=iQOO Z11&kw_type=1'>iQOO Z11</a>
+</dd>
+<dd data-type="1">
+<a href="https://shop.vivo.com.cn/product/10011638"
+data-head-click-stat='version=3.0.0&cfrom=01|03|031|092&position=5&keyword=iQOO 15 Ultra&kw_type=1'>iQOO 15 Ultra</a>
+</dd>
+<dd data-type="1">
+<a href="https://www.vivo.com.cn/store"
+data-head-click-stat='version=3.0.0&cfrom=01|03|031|092&position=6&keyword=查找体验店&kw_type=1'>查找体验店</a>
+</dd>
+</dl>
+</div>
+<div class="vp-head-search-result"></div>
+<div class="vp-head-search-tip">
+<dl>
+<dt>全局搜索</dt>
+<dd>暂无匹配结果</dd>
+</dl>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="vp-head-products-mask-new"></div>
+<div class="vp-head-menu-series">
+<div class="vp-head-series-wrapper">
+<div class="vp-head-series-products vp-head-menu-series-list0 "
+data-series="X系列">
+<div class="vp-head-series-products-box ">
+<ul class="vp-head-product-wrapper"
+data-product-num="8">
+<li>
+<a href="https://wukongapi.vivo.com.cn/wukongtopic/activity/link/x500pc"
+data-head-click-stat="cfrom=01|03|002|002&name=X500 Pro Max 预约&series=X系列">
+<div class="vp-head-product-img-5">
+<div class="vp-head-product-img-5-5 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1788952890948/ed5e7e8fdcddae61cdaf517f8e8a8559.png"
+class="vp-head-lazyload"
+alt="X500 Pro Max 预约">
+</div>
+<div class="vp-head-product-img-5-4 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1788952885649/e0eece278c35ceee7b59919b4eac2705.png"
+class="vp-head-lazyload"
+alt="X500 Pro Max 预约">
+</div>
+<div class="vp-head-product-img-5-3 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1788952878714/e2d2912974e0be48fee8e9193274d843.png"
+class="vp-head-lazyload"
+alt="X500 Pro Max 预约">
+</div>
+<div class="vp-head-product-img-5-2 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1788952873128/71087008a75d630fb68baf379286c58d.png"
+alt="X500 Pro Max 预约"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-5-1 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1788952867569/8db534fe34139d685e8b3491a2464014.png"
+alt="X500 Pro Max 预约"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name vp-head-product-new">X500 Pro Max 预约</p>
+</a>
+</li>
+<li>
+<a href="https://wukongapi.vivo.com.cn/wukongtopic/activity/link/x500pc"
+data-head-click-stat="cfrom=01|03|002|002&name=X500 Pro 预约&series=X系列">
+<div class="vp-head-product-img-5">
+<div class="vp-head-product-img-5-5 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1788953239828/12a84dae8d137b94b15068d12c553f27.png"
+class="vp-head-lazyload"
+alt="X500 Pro 预约">
+</div>
+<div class="vp-head-product-img-5-4 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1788953230412/72cd16451e77d4943ab702bd182a633b.png"
+class="vp-head-lazyload"
+alt="X500 Pro 预约">
+</div>
+<div class="vp-head-product-img-5-3 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1788953225425/ed5df8566ad3fc5cf964680bb26dd505.png"
+class="vp-head-lazyload"
+alt="X500 Pro 预约">
+</div>
+<div class="vp-head-product-img-5-2 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1788953219901/d7ebdd1957fb929ce9fd6ef9b478dfa1.png"
+alt="X500 Pro 预约"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-5-1 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1788953211393/c15ae42ec92e71c8c6a634339ef25f26.png"
+alt="X500 Pro 预约"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name vp-head-product-new">X500 Pro 预约</p>
+</a>
+</li>
+<li>
+<a href="https://wukongapi.vivo.com.cn/wukongtopic/activity/link/x500pc"
+data-head-click-stat="cfrom=01|03|002|002&name=X500 预约&series=X系列">
+<div class="vp-head-product-img-5">
+<div class="vp-head-product-img-5-5 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1788953318874/b99e8496b945d901f0a6a02d07a7ef1f.png"
+class="vp-head-lazyload"
+alt="X500 预约">
+</div>
+<div class="vp-head-product-img-5-4 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1788953313747/8707ac57426a02689deb2b1af453bc22.png"
+class="vp-head-lazyload"
+alt="X500 预约">
+</div>
+<div class="vp-head-product-img-5-3 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1788953306980/e11c458732aded074c2f433e3b871a67.png"
+class="vp-head-lazyload"
+alt="X500 预约">
+</div>
+<div class="vp-head-product-img-5-2 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1788953298359/d4e136d55b7aff3936dd07e407be614d.png"
+alt="X500 预约"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-5-1 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1788953292906/b64ccbf2f3eb9fd7182c4cade39a9598.png"
+alt="X500 预约"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name vp-head-product-new">X500 预约</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com/vivo/xfold6/"
+data-head-click-stat="cfrom=01|03|002|002&name=X Fold6&series=X系列">
+<div class="vp-head-product-img-1">
+<div class="vp-head-product-img-1-1 vp-head-product-img-center">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1781516227712/31f279fc466aaaa74d7ce91e7ea4dd07.png"
+alt="X Fold6"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name">X Fold6</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com.cn/vivo/x300e/"
+data-head-click-stat="cfrom=01|03|002|002&name=X300 E&series=X系列">
+<div class="vp-head-product-img-4">
+<div class="vp-head-product-img-4-4 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1785118231988/67d21887293396143234c7a8c87be3a7.png"
+class="vp-head-lazyload"
+alt="X300 E">
+</div>
+<div class="vp-head-product-img-4-3 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1785118223660/549e9b783071703c49efc80fb2a1906e.png"
+class="vp-head-lazyload"
+alt="X300 E">
+</div>
+<div class="vp-head-product-img-4-2 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1785118216063/11c59e5240005bcca2e7b823e6d87e71.png"
+alt="X300 E"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-4-1 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1785118209919/356aff8bb24dd87205f54533a0df5e10.png"
+alt="X300 E"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name">X300 E</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com.cn/vivo/x300ultra/"
+data-head-click-stat="cfrom=01|03|002|002&name=X300 Ultra&series=X系列">
+<div class="vp-head-product-img-4">
+<div class="vp-head-product-img-4-4 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1774255643011/e4797db1a5d44c2e123f64c444ea5f69.png"
+class="vp-head-lazyload"
+alt="X300 Ultra">
+</div>
+<div class="vp-head-product-img-4-3 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1774255634173/a994fbfebee3322ef298db9c57553fa5.png"
+class="vp-head-lazyload"
+alt="X300 Ultra">
+</div>
+<div class="vp-head-product-img-4-2 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1774255624983/b1f8ef2aaf8dd10fe601534bda8d91e2.png"
+alt="X300 Ultra"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-4-1 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1774255620084/0d937ed6afa747073b921264a83bfb04.png"
+alt="X300 Ultra"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name">X300 Ultra</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com.cn/vivo/x300s/"
+data-head-click-stat="cfrom=01|03|002|002&name=X300s&series=X系列">
+<div class="vp-head-product-img-5">
+<div class="vp-head-product-img-5-5 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1774255545091/99907c304a0ce2e5540dbbabd60ace0c.png"
+class="vp-head-lazyload"
+alt="X300s">
+</div>
+<div class="vp-head-product-img-5-4 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1774255537089/77245c76cdc332de90eff9d8d201e079.png"
+class="vp-head-lazyload"
+alt="X300s">
+</div>
+<div class="vp-head-product-img-5-3 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1774255530343/29a2f2ed6d714242dc6129f4384f7ab6.png"
+class="vp-head-lazyload"
+alt="X300s">
+</div>
+<div class="vp-head-product-img-5-2 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1774255521930/40ad0c07951f2ffbf2196b173ab2ad0c.png"
+alt="X300s"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-5-1 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1774255517084/af532db10a559d595ac14b46c8bbc52d.png"
+alt="X300s"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name">X300s</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com.cn/vivo/x300pro/"
+data-head-click-stat="cfrom=01|03|002|002&name=X300 Pro&series=X系列">
+<div class="vp-head-product-img-5">
+<div class="vp-head-product-img-5-5 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1760497837651/63197eac444e6b8d1595b211c234b599.png"
+class="vp-head-lazyload"
+alt="X300 Pro">
+</div>
+<div class="vp-head-product-img-5-4 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1760497832066/3108501981eab73badbb3374a7fb430c.png"
+class="vp-head-lazyload"
+alt="X300 Pro">
+</div>
+<div class="vp-head-product-img-5-3 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1760497825616/bf73fb98258d78b8ad31dd1310cdb6bf.png"
+class="vp-head-lazyload"
+alt="X300 Pro">
+</div>
+<div class="vp-head-product-img-5-2 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1760497819028/a06d7204b6fd87d4c3ae2441c506677e.png"
+alt="X300 Pro"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-5-1 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1760497812680/3d7f9edf7e610acde3d69baf889d5717.png"
+alt="X300 Pro"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name">X300 Pro</p>
+</a>
+</li>
+</ul>
+</div>
+<div class="vp-head-product-links-default">
+<div class="vp-head-product-links-wrapper">
+<a class="vp-head-product-links-line"
+href="https://www.vivo.com.cn/products-x.html"
+data-url="https://www.vivo.com.cn/products-x.html"
+data-head-click-stat="cfrom=01|03|002|027&element_name=全部X机型">
+<span class="vp-head-product-name">全部X机型</span>
+</a>
+<a href="//www.vivo.com.cn/vivo/product/contrast?series=4&source=navi"
+data-head-click-stat="cfrom=01|03|002|027&element_name=对比X机型">
+<span class="vp-head-product-name">对比X机型</span>
+</a>
+</div>
+<div class="vp-head-product-btn">
+<span class="vp-head-product-prev vp-head-product-btn-disabled"></span>
+<span class="vp-head-product-next"></span>
+</div>
+</div>
+</div>
+<div class="vp-head-series-products vp-head-menu-series-list1 "
+data-series="S系列">
+<div class="vp-head-series-products-box ">
+<ul class="vp-head-product-wrapper"
+data-product-num="8">
+<li>
+<a href="https://www.vivo.com.cn/vivo/s60/"
+data-head-click-stat="cfrom=01|03|002|002&name=S60&series=S系列">
+<div class="vp-head-product-img-4">
+<div class="vp-head-product-img-4-4 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1780059798454/a05ed97a7b11f90e0be7c847ab1d82ea.png"
+class="vp-head-lazyload"
+alt="S60">
+</div>
+<div class="vp-head-product-img-4-3 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1780059789536/01f51cd2d47158362cd589f2d2263320.png"
+class="vp-head-lazyload"
+alt="S60">
+</div>
+<div class="vp-head-product-img-4-2 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1780059778041/6ad1cd903956923e0125f487a1d7fb15.png"
+alt="S60"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-4-1 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1780059772027/c8ef4703c18056375950390770336476.png"
+alt="S60"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name vp-head-product-new">S60</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com.cn/vivo/s60e/"
+data-head-click-stat="cfrom=01|03|002|002&name=S60 元气版&series=S系列">
+<div class="vp-head-product-img-4">
+<div class="vp-head-product-img-4-4 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1780059859121/6b665ed46b57e4f522b51987a511b8db.png"
+class="vp-head-lazyload"
+alt="S60 元气版">
+</div>
+<div class="vp-head-product-img-4-3 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1780059849373/e82f3e909e8e1f9c4b59952f1995c5a2.png"
+class="vp-head-lazyload"
+alt="S60 元气版">
+</div>
+<div class="vp-head-product-img-4-2 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1780059839021/b680a97b6c28f711d66cafa75d7370b3.png"
+alt="S60 元气版"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-4-1 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1780059833390/fc6f75e76533573460b2b53c7748ba06.png"
+alt="S60 元气版"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name vp-head-product-new">S60 元气版</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com.cn/vivo/s50promini/"
+data-head-click-stat="cfrom=01|03|002|002&name=S50 Pro mini&series=S系列">
+<div class="vp-head-product-img-4">
+<div class="vp-head-product-img-4-4 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1764837624791/7907b9b4652e13f8d3c0d4933a46f152.png"
+class="vp-head-lazyload"
+alt="S50 Pro mini">
+</div>
+<div class="vp-head-product-img-4-3 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1764837618279/3aa452ea0019ce9eea6377d005c388f9.png"
+class="vp-head-lazyload"
+alt="S50 Pro mini">
+</div>
+<div class="vp-head-product-img-4-2 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1764837611824/a74259316bed57759900c65102f6aede.png"
+alt="S50 Pro mini"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-4-1 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1764837607331/44311adfa8f3ab92c2a6ce334b753daf.png"
+alt="S50 Pro mini"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name">S50 Pro mini</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com.cn/vivo/s50/"
+data-head-click-stat="cfrom=01|03|002|002&name=S50&series=S系列">
+<div class="vp-head-product-img-5">
+<div class="vp-head-product-img-5-5 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1764837433615/8910130423c54ecda22628f74a32ff17.png"
+class="vp-head-lazyload"
+alt="S50">
+</div>
+<div class="vp-head-product-img-5-4 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1764837426743/1ba20bcc5c4ef867fd482b90e4bbb9dd.png"
+class="vp-head-lazyload"
+alt="S50">
+</div>
+<div class="vp-head-product-img-5-3 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1764837419179/2a5793301d22114c06412d695dd9baf5.png"
+class="vp-head-lazyload"
+alt="S50">
+</div>
+<div class="vp-head-product-img-5-2 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1764837411749/fef7e5b664b23ff671ba1582f8ea22ba.png"
+alt="S50"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-5-1 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1764837406788/f9497d08a990ae2526c5c878a2e05c53.png"
+alt="S50"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name">S50</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com.cn/vivo/s30promini/"
+data-head-click-stat="cfrom=01|03|002|002&name=S30 Pro mini&series=S系列">
+<div class="vp-head-product-img-5">
+<div class="vp-head-product-img-5-5 ">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20250516/9d8bd988d8e473e7137524794ee6b539.png"
+class="vp-head-lazyload"
+alt="S30 Pro mini">
+</div>
+<div class="vp-head-product-img-5-4 ">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20250516/f8c6fcc910ba03dce2b681bf040fc119.png"
+class="vp-head-lazyload"
+alt="S30 Pro mini">
+</div>
+<div class="vp-head-product-img-5-3 ">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20250516/35dda11da2b0ddf5e70b6f356ba9a030.png"
+class="vp-head-lazyload"
+alt="S30 Pro mini">
+</div>
+<div class="vp-head-product-img-5-2 ">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20250516/f85bd718008bfd26f96d5006ad26f4db.png"
+alt="S30 Pro mini"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-5-1 ">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20250516/f51f574aa8e1e513eac0afe846204972.png"
+alt="S30 Pro mini"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name">S30 Pro mini</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com.cn/vivo/s30/"
+data-head-click-stat="cfrom=01|03|002|002&name=S30&series=S系列">
+<div class="vp-head-product-img-5">
+<div class="vp-head-product-img-5-5 ">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20250516/001770aa6faa05d54b54a7bb403a6bb0.png"
+class="vp-head-lazyload"
+alt="S30">
+</div>
+<div class="vp-head-product-img-5-4 ">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20250516/c22befd55fe754112e7a3a6cce2f7f81.png"
+class="vp-head-lazyload"
+alt="S30">
+</div>
+<div class="vp-head-product-img-5-3 ">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20250516/38a6f920c7e5474e613b63d0e278f319.png"
+class="vp-head-lazyload"
+alt="S30">
+</div>
+<div class="vp-head-product-img-5-2 ">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20250516/9037ae405dccc2d9ca2d2b9a3046f556.png"
+alt="S30"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-5-1 ">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20250516/5b63bff28f0c7a91065c103eea43c17f.png"
+alt="S30"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name">S30</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com.cn/vivo/s20pro/"
+data-head-click-stat="cfrom=01|03|002|002&name=S20 Pro&series=S系列">
+<div class="vp-head-product-img-4">
+<div class="vp-head-product-img-4-4 ">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20241119/787ce4d8203b467158acb0c95e1b9b65.png"
+class="vp-head-lazyload"
+alt="S20 Pro">
+</div>
+<div class="vp-head-product-img-4-3 ">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20241119/87c295bb5d61bca41d0ff0829bfe965c.png"
+class="vp-head-lazyload"
+alt="S20 Pro">
+</div>
+<div class="vp-head-product-img-4-2 ">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20241119/f255fe11e2166d798184956a060a00c7.png"
+alt="S20 Pro"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-4-1 ">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20241119/19d1c75b9f3c064644693eac78ffa5bc.png"
+alt="S20 Pro"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name">S20 Pro</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com.cn/vivo/s20/"
+data-head-click-stat="cfrom=01|03|002|002&name=S20&series=S系列">
+<div class="vp-head-product-img-4">
+<div class="vp-head-product-img-4-4 ">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20241119/828228dddd3f33205cc2c5e34bf2e5ad.png"
+class="vp-head-lazyload"
+alt="S20">
+</div>
+<div class="vp-head-product-img-4-3 ">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20241119/bcc6c4ac63312c024dcd29ccbc0b97de.png"
+class="vp-head-lazyload"
+alt="S20">
+</div>
+<div class="vp-head-product-img-4-2 ">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20241119/a722b1dcbee001f51610f71022e0a9b8.png"
+alt="S20"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-4-1 ">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20241119/cd9a4392e297e0f75175bf9004844353.png"
+alt="S20"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name">S20</p>
+</a>
+</li>
+</ul>
+</div>
+<div class="vp-head-product-links-default">
+<div class="vp-head-product-links-wrapper">
+<a class="vp-head-product-links-line"
+href="https://www.vivo.com.cn/products-s.html"
+data-url="https://www.vivo.com.cn/products-s.html"
+data-head-click-stat="cfrom=01|03|002|027&element_name=全部S机型">
+<span class="vp-head-product-name">全部S机型</span>
+</a>
+<a href="//www.vivo.com.cn/vivo/product/contrast?series=17&source=navi"
+data-head-click-stat="cfrom=01|03|002|027&element_name=对比S机型">
+<span class="vp-head-product-name">对比S机型</span>
+</a>
+</div>
+<div class="vp-head-product-btn">
+<span class="vp-head-product-prev vp-head-product-btn-disabled"></span>
+<span class="vp-head-product-next"></span>
+</div>
+</div>
+</div>
+<div class="vp-head-series-products vp-head-menu-series-list2 "
+data-series="Y系列">
+<div class="vp-head-series-products-box ">
+<ul class="vp-head-product-wrapper"
+data-product-num="8">
+<li>
+<a href="https://www.vivo.com.cn/vivo/y600turbo/"
+data-head-click-stat="cfrom=01|03|002|002&name=Y600 Turbo&series=Y系列">
+<div class="vp-head-product-img-4">
+<div class="vp-head-product-img-4-4 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1779674648543/4f88e0f041f906f76a128bc79e3f0677.png"
+class="vp-head-lazyload"
+alt="Y600 Turbo">
+</div>
+<div class="vp-head-product-img-4-3 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1779674640600/46d6056c2c5d35405bd4f78b6394c2c0.png"
+class="vp-head-lazyload"
+alt="Y600 Turbo">
+</div>
+<div class="vp-head-product-img-4-2 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1779674614682/cd5d7edda3cfff0b5a78b5ff42d1c6ec.png"
+alt="Y600 Turbo"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-4-1 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1779674608020/6c338c3e4ae286eb9c0837afb2c1ab60.png"
+alt="Y600 Turbo"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name vp-head-product-new">Y600 Turbo</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com.cn/vivo/y600pro/"
+data-head-click-stat="cfrom=01|03|002|002&name=Y600 Pro&series=Y系列">
+<div class="vp-head-product-img-5">
+<div class="vp-head-product-img-5-5 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1776829941509/8cddbfc9af9556042969eff38e2f7f3a.png"
+class="vp-head-lazyload"
+alt="Y600 Pro">
+</div>
+<div class="vp-head-product-img-5-4 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1776829933976/1727f441a916c9cd800dcea5cee68b81.png"
+class="vp-head-lazyload"
+alt="Y600 Pro">
+</div>
+<div class="vp-head-product-img-5-3 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1776829926959/436f2c7635fffc450d4f420222e6ca67.png"
+class="vp-head-lazyload"
+alt="Y600 Pro">
+</div>
+<div class="vp-head-product-img-5-2 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1776829919889/5be6f1fcd7e10f71cf24423a32f5dede.png"
+alt="Y600 Pro"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-5-1 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1776829914946/50c122e5a454710f6a40e2ff2f5465f7.png"
+alt="Y600 Pro"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name vp-head-product-new">Y600 Pro</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com.cn/vivo/y6/"
+data-head-click-stat="cfrom=01|03|002|002&name=Y6&series=Y系列">
+<div class="vp-head-product-img-4">
+<div class="vp-head-product-img-4-4 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1776154160210/95cac17977ba5906e8bd13d49e68d017.png"
+class="vp-head-lazyload"
+alt="Y6">
+</div>
+<div class="vp-head-product-img-4-3 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1776154151139/18bd234d042e7454fc91cd6981fbb09e.png"
+class="vp-head-lazyload"
+alt="Y6">
+</div>
+<div class="vp-head-product-img-4-2 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1776154143295/85bf5b9a084cf24f1dcd411a97de3f99.png"
+alt="Y6"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-4-1 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1776154132473/0fb96c9b78fc31f344a380b5a610b28a.png"
+alt="Y6"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name vp-head-product-new">Y6</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com.cn/vivo/y60/"
+data-head-click-stat="cfrom=01|03|002|002&name=Y60&series=Y系列">
+<div class="vp-head-product-img-4">
+<div class="vp-head-product-img-4-4 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1776154256031/ac9bb59b6e36a3ef539ddfb4ca56ff34.png"
+class="vp-head-lazyload"
+alt="Y60">
+</div>
+<div class="vp-head-product-img-4-3 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1776154248849/68f8cb8ddac5973fe0464b77fb43788a.png"
+class="vp-head-lazyload"
+alt="Y60">
+</div>
+<div class="vp-head-product-img-4-2 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1776154240856/7360976bbb69e6b329fce9f23191dc7f.png"
+alt="Y60"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-4-1 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1776154227672/cc7b6deeb3f6599664865bf032f2edfa.png"
+alt="Y60"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name vp-head-product-new">Y60</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com.cn/vivo/y500pro"
+data-head-click-stat="cfrom=01|03|002|002&name=Y500 Pro&series=Y系列">
+<div class="vp-head-product-img-5">
+<div class="vp-head-product-img-5-5 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1762242921427/00e3019f5960a2c6cbf32d33238fa8a3.png"
+class="vp-head-lazyload"
+alt="Y500 Pro">
+</div>
+<div class="vp-head-product-img-5-4 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1762242914470/ea48a76d210d3d0c7320830f219cd76e.png"
+class="vp-head-lazyload"
+alt="Y500 Pro">
+</div>
+<div class="vp-head-product-img-5-3 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1762242907479/7e894f4c28a237817ec201414d38cad1.png"
+class="vp-head-lazyload"
+alt="Y500 Pro">
+</div>
+<div class="vp-head-product-img-5-2 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1762242899868/265d9673224accf15f869396191bf717.png"
+alt="Y500 Pro"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-5-1 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1762242896398/ebd362d62e5d5adbcb38eb136105a90e.png"
+alt="Y500 Pro"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name">Y500 Pro</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com.cn/vivo/y500/"
+data-head-click-stat="cfrom=01|03|002|002&name=Y500&series=Y系列">
+<div class="vp-head-product-img-4">
+<div class="vp-head-product-img-4-4 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1755857625162/01bfce3d94657786dd40f14d8537e7fb.png"
+class="vp-head-lazyload"
+alt="Y500">
+</div>
+<div class="vp-head-product-img-4-3 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1755857620961/6b3f1303a163a2f0d7c23a06d783b35b.png"
+class="vp-head-lazyload"
+alt="Y500">
+</div>
+<div class="vp-head-product-img-4-2 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1755857616833/8969ce797c305beb8ba0730c862565d4.png"
+alt="Y500"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-4-1 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1755857611708/aab61e66dfa97edb2792a52907bc77a0.png"
+alt="Y500"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name">Y500</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com.cn/vivo/y505G/"
+data-head-click-stat="cfrom=01|03|002|002&name=Y50 5G&series=Y系列">
+<div class="vp-head-product-img-4">
+<div class="vp-head-product-img-4-4 ">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20250717/707c6fb2335d9b625569154e0785f2b7.png"
+class="vp-head-lazyload"
+alt="Y50 5G">
+</div>
+<div class="vp-head-product-img-4-3 ">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20250717/f5837dfcae1edb3cff86df2e0d413ab4.png"
+class="vp-head-lazyload"
+alt="Y50 5G">
+</div>
+<div class="vp-head-product-img-4-2 ">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20250717/ba4328f766e89d49b0c22f7c0d137432.png"
+alt="Y50 5G"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-4-1 ">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20250717/ede901862c9b18ed59d7c5c492d044e4.png"
+alt="Y50 5G"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name">Y50 5G</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com.cn/vivo/y50m5G/"
+data-head-click-stat="cfrom=01|03|002|002&name=Y50m 5G&series=Y系列">
+<div class="vp-head-product-img-4">
+<div class="vp-head-product-img-4-4 ">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20250717/e6ea8bc25613ce790420b9587d603977.png"
+class="vp-head-lazyload"
+alt="Y50m 5G">
+</div>
+<div class="vp-head-product-img-4-3 ">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20250717/1adcdbbb102bc9fd476b4c5fc9e844bd.png"
+class="vp-head-lazyload"
+alt="Y50m 5G">
+</div>
+<div class="vp-head-product-img-4-2 ">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20250717/902284d80a9553157a70357881745cad.png"
+alt="Y50m 5G"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-4-1 ">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20250717/720f592a6a62a9b64e9f0b72a00a44fb.png"
+alt="Y50m 5G"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name">Y50m 5G</p>
+</a>
+</li>
+</ul>
+</div>
+<div class="vp-head-product-links-default">
+<div class="vp-head-product-links-wrapper">
+<a class="vp-head-product-links-line"
+href="https://www.vivo.com.cn/products-y.html"
+data-url="https://www.vivo.com.cn/products-y.html"
+data-head-click-stat="cfrom=01|03|002|027&element_name=全部Y机型">
+<span class="vp-head-product-name">全部Y机型</span>
+</a>
+<a href="//www.vivo.com.cn/vivo/product/contrast?series=5&source=navi"
+data-head-click-stat="cfrom=01|03|002|027&element_name=对比Y机型">
+<span class="vp-head-product-name">对比Y机型</span>
+</a>
+</div>
+<div class="vp-head-product-btn">
+<span class="vp-head-product-prev vp-head-product-btn-disabled"></span>
+<span class="vp-head-product-next"></span>
+</div>
+</div>
+</div>
+<div class="vp-head-series-products vp-head-menu-series-list3 "
+data-series="iQOO手机">
+<div class="vp-head-series-products-box ">
+<ul class="vp-head-product-wrapper"
+data-product-num="8">
+<li>
+<a href="https://shop.vivo.com.cn/product/10062805"
+data-head-click-stat="cfrom=01|03|002|002&name=iQOO 16 预约&series=iQOO手机">
+<div class="vp-head-product-img-1">
+<div class="vp-head-product-img-1-1 vp-head-product-img-center">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1789436468459/997dbac1212db4b64c04dac3dcd327d9.png"
+alt="iQOO 16 预约"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name vp-head-product-new">iQOO 16 预约</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com.cn/vivo/iqooneo11zun"
+data-head-click-stat="cfrom=01|03|002|002&name=iQOO Neo11 至尊版&series=iQOO手机">
+<div class="vp-head-product-img-4">
+<div class="vp-head-product-img-4-4 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1787047412158/1a274c19bf4bc3eeecf1a48f1b9f04c0.png"
+class="vp-head-lazyload"
+alt="iQOO Neo11 至尊版">
+</div>
+<div class="vp-head-product-img-4-3 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1787047405091/d148c9f93b4ffacf0aab46996eaadbf9.png"
+class="vp-head-lazyload"
+alt="iQOO Neo11 至尊版">
+</div>
+<div class="vp-head-product-img-4-2 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1786087199179/9cd9894341fce497fa947fa46366abcd.png"
+alt="iQOO Neo11 至尊版"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-4-1 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1786087182202/15dfa00669760aaefc88134368c34ca1.png"
+alt="iQOO Neo11 至尊版"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name vp-head-product-new">iQOO Neo11 至尊版</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com.cn/vivo/iqooz11s/"
+data-head-click-stat="cfrom=01|03|002|002&name=iQOO Z11S&series=iQOO手机">
+<div class="vp-head-product-img-4">
+<div class="vp-head-product-img-4-4 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1787047447195/44fe5c6e8c7cd4fa2447f4f8c3dee308.png"
+class="vp-head-lazyload"
+alt="iQOO Z11S">
+</div>
+<div class="vp-head-product-img-4-3 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1787047443054/a22e05644786c3b7a3b4bb843b996dfb.png"
+class="vp-head-lazyload"
+alt="iQOO Z11S">
+</div>
+<div class="vp-head-product-img-4-2 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1786087082482/6909664ecc39d9d83d82638820f2cde2.png"
+alt="iQOO Z11S"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-4-1 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1786086843370/fe89241b53d860631d604bb0277bfd31.png"
+alt="iQOO Z11S"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name vp-head-product-new">iQOO Z11S</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com.cn/vivo/iqooz11i"
+data-head-click-stat="cfrom=01|03|002|002&name=iQOO Z11i&series=iQOO手机">
+<div class="vp-head-product-img-4">
+<div class="vp-head-product-img-4-4 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1782696472330/373829067454332a2ba7605308404a7b.png"
+class="vp-head-lazyload"
+alt="iQOO Z11i">
+</div>
+<div class="vp-head-product-img-4-3 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1782696442910/79ceae951b3d85b61280d2106219e1a8.png"
+class="vp-head-lazyload"
+alt="iQOO Z11i">
+</div>
+<div class="vp-head-product-img-4-2 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1782696429654/8d4e376c1930c0349bf6b5347f79f4e7.png"
+alt="iQOO Z11i"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-4-1 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1782696273750/a95212518ce232b784aae23d4f74f88c.png"
+alt="iQOO Z11i"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name">iQOO Z11i</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com.cn/vivo/iqoo15t/"
+data-head-click-stat="cfrom=01|03|002|002&name=iQOO 15T&series=iQOO手机">
+<div class="vp-head-product-img-4">
+<div class="vp-head-product-img-4-4 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1779263473997/7477184b5b3737428b849ffd3500a929.png"
+class="vp-head-lazyload"
+alt="iQOO 15T">
+</div>
+<div class="vp-head-product-img-4-3 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1779263468474/b7b72df53ac675f260735f203c4d3d3a.png"
+class="vp-head-lazyload"
+alt="iQOO 15T">
+</div>
+<div class="vp-head-product-img-4-2 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1779263451269/3811985eedc9063bddaae2885aedd409.png"
+alt="iQOO 15T"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-4-1 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1779263322949/116187385d1b21171ba5263734635db7.png"
+alt="iQOO 15T"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name">iQOO 15T</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com.cn/vivo/iqooz11/"
+data-head-click-stat="cfrom=01|03|002|002&name=iQOO Z11&series=iQOO手机">
+<div class="vp-head-product-img-4">
+<div class="vp-head-product-img-4-4 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1774514907502/74aaa649f6945318ddff2f7356ba958d.png"
+class="vp-head-lazyload"
+alt="iQOO Z11">
+</div>
+<div class="vp-head-product-img-4-3 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1774514903135/5b29bcfac4e63c68734922aa0cfd3d0d.png"
+class="vp-head-lazyload"
+alt="iQOO Z11">
+</div>
+<div class="vp-head-product-img-4-2 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1774514727455/38b49d1474c213d3363c4808a096f3e0.png"
+alt="iQOO Z11"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-4-1 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1774514712892/86f3158f9781a30d2d5036add90def1a.png"
+alt="iQOO Z11"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name">iQOO Z11</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com.cn/vivo/iqoo15ultra/"
+data-head-click-stat="cfrom=01|03|002|002&name=iQOO 15 Ultra&series=iQOO手机">
+<div class="vp-head-product-img-3">
+<div class="vp-head-product-img-3-3 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1770196218407/bb266b6536dd4e0f0b7795af8566b295.png"
+class="vp-head-lazyload"
+alt="iQOO 15 Ultra">
+</div>
+<div class="vp-head-product-img-3-2 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1770196214633/bbec2b4b24fb418c756da029c7e0bac0.png"
+alt="iQOO 15 Ultra"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-3-1 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1770196208830/557a9dc6fa6d31f0225fbdd8f65d1246.png"
+alt="iQOO 15 Ultra"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name">iQOO 15 Ultra</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com.cn/vivo/iqooz11turbo"
+data-head-click-stat="cfrom=01|03|002|002&name=iQOO Z11 Turbo&series=iQOO手机">
+<div class="vp-head-product-img-5">
+<div class="vp-head-product-img-5-5 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1768473221057/48250e8593fbbffeac6b5f5ce06b7ca2.png"
+class="vp-head-lazyload"
+alt="iQOO Z11 Turbo">
+</div>
+<div class="vp-head-product-img-5-4 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1768473217644/4d39996dd0a9b714d604dcd713133915.png"
+class="vp-head-lazyload"
+alt="iQOO Z11 Turbo">
+</div>
+<div class="vp-head-product-img-5-3 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1768473213083/d168db6e62e74879515084c76d29069a.png"
+class="vp-head-lazyload"
+alt="iQOO Z11 Turbo">
+</div>
+<div class="vp-head-product-img-5-2 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1768473209371/44c9916e9d2a97aed56e6c4fa939e222.png"
+alt="iQOO Z11 Turbo"
+class="vp-head-prelazyload">
+</div>
+<div class="vp-head-product-img-5-1 ">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1768473203176/0f6bd1c665a079b00ed8cf5f346eb3bd.png"
+alt="iQOO Z11 Turbo"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name">iQOO Z11 Turbo</p>
+</a>
+</li>
+</ul>
+</div>
+<div class="vp-head-product-links-default">
+<div class="vp-head-product-links-wrapper">
+<a class="vp-head-product-links-line"
+href="https://www.vivo.com.cn/products-iqoo.html"
+data-url="https://www.vivo.com.cn/products-iqoo.html"
+data-head-click-stat="cfrom=01|03|002|027&element_name=全部iQOO机型">
+<span class="vp-head-product-name">全部iQOO机型</span>
+</a>
+<a href="//www.vivo.com.cn/vivo/product/contrast?series=16&source=navi"
+data-head-click-stat="cfrom=01|03|002|027&element_name=对比iQOO机型">
+<span class="vp-head-product-name">对比iQOO机型</span>
+</a>
+</div>
+<div class="vp-head-product-btn">
+<span class="vp-head-product-prev vp-head-product-btn-disabled"></span>
+<span class="vp-head-product-next"></span>
+</div>
+</div>
+</div>
+<div class="vp-head-series-products vp-head-menu-series-list4 "
+data-series="智能硬件">
+<div class="vp-head-series-products-box ">
+<ul class="vp-head-product-wrapper"
+data-product-num="8">
+<li>
+<a href="https://wukongapi.vivo.com.cn/wukongtopic/activity/link/x500pc"
+data-head-click-stat="cfrom=01|03|002|002&name=vivo WATCH 6 预约&series=智能硬件">
+<div class="vp-head-product-img-1">
+<div class="vp-head-product-img-1-1 vp-head-product-img-center">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1788951033773/97d99852c2cce4befe19d902a78b481f.png"
+alt="vivo WATCH 6 预约"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name vp-head-product-new">vivo WATCH 6 预约</p>
+</a>
+</li>
+<li>
+<a href="https://wukongapi.vivo.com.cn/wukongtopic/activity/link/x500pc"
+data-head-click-stat="cfrom=01|03|002|002&name=vivo Buds Clip 耳夹耳机 预约&series=智能硬件">
+<div class="vp-head-product-img-1">
+<div class="vp-head-product-img-1-1 vp-head-product-img-center">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1788951507720/736df5dacedea18d3d1a5c5db7c8b522.png"
+alt="vivo Buds Clip 耳夹耳机 预约"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name vp-head-product-new">vivo Buds Clip 耳夹耳机 预约</p>
+</a>
+</li>
+<li>
+<a href="https://wukongapi.vivo.com.cn/wukongtopic/activity/link/iQOO16PC"
+data-head-click-stat="cfrom=01|03|002|002&name=iQOO 头戴电竞耳机 预约&series=智能硬件">
+<div class="vp-head-product-img-1">
+<div class="vp-head-product-img-1-1 vp-head-product-img-center">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1788832054778/352a920f6e4cd2554738c92b340ee0c1.png"
+alt="iQOO 头戴电竞耳机 预约"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name vp-head-product-new">iQOO 头戴电竞耳机 预约</p>
+</a>
+</li>
+<li>
+<a href="https://wukongapi.vivo.com.cn/wukongtopic/activity/link/iQOO16PC"
+data-head-click-stat="cfrom=01|03|002|002&name=iQOO Pad Ultra 预约&series=智能硬件">
+<div class="vp-head-product-img-1">
+<div class="vp-head-product-img-1-1 vp-head-product-img-center">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1789544389731/8b9e09d0924a3ff721e180fc998f8bef.png"
+alt="iQOO Pad Ultra 预约"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name vp-head-product-new">iQOO Pad Ultra 预约</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com/vivo/vivotws5pro/"
+data-head-click-stat="cfrom=01|03|002|002&name=vivo TWS 5 Pro&series=智能硬件">
+<div class="vp-head-product-img-1">
+<div class="vp-head-product-img-1-1 vp-head-product-img-center">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1781517695880/ef06353b0fa07d927a51e75da24fc55d.png"
+alt="vivo TWS 5 Pro"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name">vivo TWS 5 Pro</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com.cn/vivo/vivopad6pro/"
+data-head-click-stat="cfrom=01|03|002|002&name=vivo Pad6 Pro&series=智能硬件">
+<div class="vp-head-product-img-1">
+<div class="vp-head-product-img-1-1 vp-head-product-img-center">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1774256214183/6f2858ece5e4c91e3a3c3ca9e1ddbae2.png"
+alt="vivo Pad6 Pro"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name">vivo Pad6 Pro</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com.cn/vivo/vivoheadphones/"
+data-head-click-stat="cfrom=01|03|002|002&name=vivo 头戴降噪耳机&series=智能硬件">
+<div class="vp-head-product-img-1">
+<div class="vp-head-product-img-1-1 vp-head-product-img-center">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1779955218781/a024d879d33f22f11fbff8cf05917a3b.png"
+alt="vivo 头戴降噪耳机"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name">vivo 头戴降噪耳机</p>
+</a>
+</li>
+<li>
+<a href="https://www.vivo.com.cn/vivo/vivovision/"
+data-head-click-stat="cfrom=01|03|002|002&name=vivo Vision&series=智能硬件">
+<div class="vp-head-product-img-1">
+<div class="vp-head-product-img-1-1 vp-head-product-img-center">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1755777898954/a89981001c8e44b73e53b241800a3423.png"
+alt="vivo Vision"
+class="vp-head-prelazyload">
+</div>
+</div>
+<p class="vp-head-product-name">vivo Vision</p>
+</a>
+</li>
+</ul>
+</div>
+<div class="vp-head-product-links-default">
+<div class="vp-head-product-links-wrapper">
+<a
+href="https://www.vivo.com.cn/products-accessory.html"
+data-url="https://www.vivo.com.cn/products-accessory.html"
+data-head-click-stat="cfrom=01|03|002|027&element_name=全部智能硬件">
+<span class="vp-head-product-name">全部智能硬件</span>
+</a>
+</div>
+<div class="vp-head-product-btn">
+<span class="vp-head-product-prev vp-head-product-btn-disabled"></span>
+<span class="vp-head-product-next"></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="vp-head-wrap-wap vp-head-show-app">
+<div class="vp-head-wap-layer"></div>
+<div class="vp-head-wap-common-box">
+<div class="vp-head-download common-header-suspended">
+<div data-head-click-stat="cfrom=04|03|062|062" class="vp-head-download-click">
+<div class="vp-head-download-img">
+<img class="vp-head-img-floating vp-head-lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" alt="官网APP">
+<img class="vp-head-img-button vp-head-lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" alt="按钮">
+</div>
+<div class="vp-head-download-wx"></div>
+</div>
+<span data-head-click-stat="cfrom=05|03|062|063" class="vp-head-download-close"></span>
+<script type="text/javascript">
+var vpHeaderFloat = {
+pageBoundary: 720,
+needDeeplink: (!window.H5Interface && 0) ? 1 : 0,
+deeplinkUrl: '',
+blockBrowser: 'DeviceType\/tablet|UCBrowser|VivoSpace|AlipayClient|AliApp\\(AP|wxwork|miniProgram',
+blockCid: 'toutiao_pz|tt-sem|w-1-kp-x70|xiaov',
+blockCookie: 'DeviceType\/tablet|UCBrowser|VivoSpace|AlipayClient|AliApp\\(AP|wxwork|miniProgram',
+isVivo: '1',
+target: 'vivoportal',
+wxTokenSwitch: 'true',
+imgObj: {
+'vivoFloatingImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753166059999/88be9f038031c75c78c4ed227e6fbeb1.png',
+'vivoButtonImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753166071502/28e0ff5547eab74a14c51ea9091a26d8.png',
+'vivoDownLoadUrl': 'https://h5.vivo.com.cn/mall/download/index.html',
+'floatingImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753168266859/c092cf0613b0504e542cd7cd948ff1d5.png',
+'buttonImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753168290953/e3eb324e70b13ec24fa84a1ae9f2db19.png',
+'downLoadUrl': 'https://h5.vivo.com.cn/mall/download/index.html',
+}
+}
+</script>
+</div>
+<div class="vp-head-common">
+<span class="vp-head-left-feature" role="button" aria-label="菜单" aria-expanded="false"></span>
+<div class="vp-head-logo" aria-label="vivo">
+<a href="//www.vivo.com.cn"></a>
+</div>
+<div class="vp-head-right-feature">
+<a href="//www.vivo.com.cn/search/index" class="vp-head-btns-search search-index-link" aria-label="搜索"></a>
+<a class="vp-head-btns-shop" href="//shop.vivo.com.cn/" aria-label="商城"
+data-head-click-stat="cfrom=1042"></a>
+</div>
+</div>
+</div>
+<div class="vp-head-menu" aria-hidden="true">
+<div class="vp-head-menu-wrap">
+<ul class="vp-head-navs">
+<li class="vp-head-menu-lists "
+data-series="X系列">
+<p class="vp-head-nav-name" aria-expanded="false" role="button">
+<span>X系列</span>
+<span class="icon" aria-hidden="true" tabindex="-1"></span>
+</p>
+<div aria-hidden="true" class="vp-head-product vp-head-product-9 ">
+<div class="vp-head-product-inner">
+<div class="vp-head-product-wrapper">
+<div class="vp-head-product-lists">
+<a href="https://wukongapi.vivo.com.cn/wukongtopic/activity/link/x500pc"
+data-head-click-stat="cfrom=01|03|002|002&name=X500 Pro Max 预约&series=X系列">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1788952900620/123677f9b82bfa9f2601a734d556c7cb.png"
+class="vp-head-lazyload"
+alt="X500 Pro Max 预约">
+</div>
+<p aria-hidden="true">X500 Pro Max 预约</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://wukongapi.vivo.com.cn/wukongtopic/activity/link/x500pc"
+data-head-click-stat="cfrom=01|03|002|002&name=X500 Pro 预约&series=X系列">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1788953251789/fb983ffd73606799292dbf68f353a4c9.png"
+class="vp-head-lazyload"
+alt="X500 Pro 预约">
+</div>
+<p aria-hidden="true">X500 Pro 预约</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://wukongapi.vivo.com.cn/wukongtopic/activity/link/x500pc"
+data-head-click-stat="cfrom=01|03|002|002&name=X500 预约&series=X系列">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1788953327788/210a45ff5e5010fa3f17fb9c8420cc2c.png"
+class="vp-head-lazyload"
+alt="X500 预约">
+</div>
+<p aria-hidden="true">X500 预约</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com/vivo/xfold6/"
+data-head-click-stat="cfrom=01|03|002|002&name=X Fold6&series=X系列">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1781516233367/6e675014307bb9137564015ec8ac5d92.png"
+class="vp-head-lazyload"
+alt="X Fold6">
+</div>
+<p aria-hidden="true">X Fold6</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/x300e/"
+data-head-click-stat="cfrom=01|03|002|002&name=X300 E&series=X系列">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1785118247388/10fe98757d050837447ba9750faeb925.png"
+class="vp-head-lazyload"
+alt="X300 E">
+</div>
+<p aria-hidden="true">X300 E</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/x300ultra/"
+data-head-click-stat="cfrom=01|03|002|002&name=X300 Ultra&series=X系列">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1774255648934/8b641453ff133b31658a6fc59faafac8.png"
+class="vp-head-lazyload"
+alt="X300 Ultra">
+</div>
+<p aria-hidden="true">X300 Ultra</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/x300s/"
+data-head-click-stat="cfrom=01|03|002|002&name=X300s&series=X系列">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1774255554612/ecde4fa37973ab19ea38abe592df2071.png"
+class="vp-head-lazyload"
+alt="X300s">
+</div>
+<p aria-hidden="true">X300s</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/x300pro/"
+data-head-click-stat="cfrom=01|03|002|002&name=X300 Pro&series=X系列">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1760497816073/cf0bfa2759ed93e578474a87df6c9a6e.png"
+class="vp-head-lazyload"
+alt="X300 Pro">
+</div>
+<p aria-hidden="true">X300 Pro</p>
+</a>
+</div>
+</div>
+</div>
+<div class="vp-head-product-links-default">
+<div class="vp-head-product-links-wrapper">
+<a class="vp-head-product-links-line"
+href="https://www.vivo.com.cn/products-x.html"
+data-head-click-stat="cfrom=01|03|002|027&element_name=全部X机型">
+<span class="vp-head-product-name">全部X机型</span>
+</a>
+<a href="//www.vivo.com.cn/vivo/product/contrast?series=4&source=navi"
+data-head-click-stat="cfrom=01|03|002|027&element_name=对比X机型">
+<span class="vp-head-product-name">对比X机型</span>
+</a>
+</div>
+<div class="vp-head-product-btn">
+<span class="vp-head-product-prev vp-head-product-btn-disabled"></span>
+<span class="vp-head-product-next"></span>
+</div>
+</div>
+</div>
+</li>
+<li class="vp-head-menu-lists "
+data-series="S系列">
+<p class="vp-head-nav-name" aria-expanded="false" role="button">
+<span>S系列</span>
+<span class="icon" aria-hidden="true" tabindex="-1"></span>
+</p>
+<div aria-hidden="true" class="vp-head-product vp-head-product-9 ">
+<div class="vp-head-product-inner">
+<div class="vp-head-product-wrapper">
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/s60/"
+data-head-click-stat="cfrom=01|03|002|002&name=S60&series=S系列">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1780059808295/9b79ce49276aeb0fe9c9497e65f151a1.png"
+class="vp-head-lazyload"
+alt="S60">
+</div>
+<p aria-hidden="true">S60</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/s60e/"
+data-head-click-stat="cfrom=01|03|002|002&name=S60 元气版&series=S系列">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1780059869863/68852b5fa456b6727110b7ed2144c9f6.png"
+class="vp-head-lazyload"
+alt="S60 元气版">
+</div>
+<p aria-hidden="true">S60 元气版</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/s50promini/"
+data-head-click-stat="cfrom=01|03|002|002&name=S50 Pro mini&series=S系列">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1764837632520/92ecb96d22339856284c6fc7522535f3.png"
+class="vp-head-lazyload"
+alt="S50 Pro mini">
+</div>
+<p aria-hidden="true">S50 Pro mini</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/s50/"
+data-head-click-stat="cfrom=01|03|002|002&name=S50&series=S系列">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1764837443380/06f28d1f3880deda40222493f1771cc6.png"
+class="vp-head-lazyload"
+alt="S50">
+</div>
+<p aria-hidden="true">S50</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/s30promini/"
+data-head-click-stat="cfrom=01|03|002|002&name=S30 Pro mini&series=S系列">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20250516/eff0d205daaf61282325f09503bc99b6.png"
+class="vp-head-lazyload"
+alt="S30 Pro mini">
+</div>
+<p aria-hidden="true">S30 Pro mini</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/s30/"
+data-head-click-stat="cfrom=01|03|002|002&name=S30&series=S系列">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20250516/908797e1271bb360511915433f582738.png"
+class="vp-head-lazyload"
+alt="S30">
+</div>
+<p aria-hidden="true">S30</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/s20pro/"
+data-head-click-stat="cfrom=01|03|002|002&name=S20 Pro&series=S系列">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20241119/62137dbed460469270123e8b284e3ad9.png"
+class="vp-head-lazyload"
+alt="S20 Pro">
+</div>
+<p aria-hidden="true">S20 Pro</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/s20/"
+data-head-click-stat="cfrom=01|03|002|002&name=S20&series=S系列">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20241119/3005402eceb9a6f05b40fe603040c726.png"
+class="vp-head-lazyload"
+alt="S20">
+</div>
+<p aria-hidden="true">S20</p>
+</a>
+</div>
+</div>
+</div>
+<div class="vp-head-product-links-default">
+<div class="vp-head-product-links-wrapper">
+<a class="vp-head-product-links-line"
+href="https://www.vivo.com.cn/products-s.html"
+data-head-click-stat="cfrom=01|03|002|027&element_name=全部S机型">
+<span class="vp-head-product-name">全部S机型</span>
+</a>
+<a href="//www.vivo.com.cn/vivo/product/contrast?series=17&source=navi"
+data-head-click-stat="cfrom=01|03|002|027&element_name=对比S机型">
+<span class="vp-head-product-name">对比S机型</span>
+</a>
+</div>
+<div class="vp-head-product-btn">
+<span class="vp-head-product-prev vp-head-product-btn-disabled"></span>
+<span class="vp-head-product-next"></span>
+</div>
+</div>
+</div>
+</li>
+<li class="vp-head-menu-lists "
+data-series="Y系列">
+<p class="vp-head-nav-name" aria-expanded="false" role="button">
+<span>Y系列</span>
+<span class="icon" aria-hidden="true" tabindex="-1"></span>
+</p>
+<div aria-hidden="true" class="vp-head-product vp-head-product-9 ">
+<div class="vp-head-product-inner">
+<div class="vp-head-product-wrapper">
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/y600turbo/"
+data-head-click-stat="cfrom=01|03|002|002&name=Y600 Turbo&series=Y系列">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1779674656451/2a17ac4445365907bf3c72658759c063.png"
+class="vp-head-lazyload"
+alt="Y600 Turbo">
+</div>
+<p aria-hidden="true">Y600 Turbo</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/y600pro/"
+data-head-click-stat="cfrom=01|03|002|002&name=Y600 Pro&series=Y系列">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1776829569363/5d9a9c912cf52e4b5990e8efbf4dde8e.png"
+class="vp-head-lazyload"
+alt="Y600 Pro">
+</div>
+<p aria-hidden="true">Y600 Pro</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/y6/"
+data-head-click-stat="cfrom=01|03|002|002&name=Y6&series=Y系列">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1776154136796/e223d4d78d2443a9a4b178ce33d0b164.png"
+class="vp-head-lazyload"
+alt="Y6">
+</div>
+<p aria-hidden="true">Y6</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/y60/"
+data-head-click-stat="cfrom=01|03|002|002&name=Y60&series=Y系列">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1776154234188/9d30539c2b05da4d1227263cf6d1f152.png"
+class="vp-head-lazyload"
+alt="Y60">
+</div>
+<p aria-hidden="true">Y60</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/y500pro"
+data-head-click-stat="cfrom=01|03|002|002&name=Y500 Pro&series=Y系列">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1762242930764/a01839c29dc7b88bc8879b9d924b9fee.png"
+class="vp-head-lazyload"
+alt="Y500 Pro">
+</div>
+<p aria-hidden="true">Y500 Pro</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/y500/"
+data-head-click-stat="cfrom=01|03|002|002&name=Y500&series=Y系列">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1755857630721/117c78914e97e281f98c9d604dab13cf.png"
+class="vp-head-lazyload"
+alt="Y500">
+</div>
+<p aria-hidden="true">Y500</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/y505G/"
+data-head-click-stat="cfrom=01|03|002|002&name=Y50 5G&series=Y系列">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20250717/b34aa93baafe0b981b8e0de384070ec9.png"
+class="vp-head-lazyload"
+alt="Y50 5G">
+</div>
+<p aria-hidden="true">Y50 5G</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/y50m5G/"
+data-head-click-stat="cfrom=01|03|002|002&name=Y50m 5G&series=Y系列">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://wwwstatic.vivo.com.cn/vivoportal/files/image/navi/20250717/129a3f6f27860e2d07934aec623c9e86.png"
+class="vp-head-lazyload"
+alt="Y50m 5G">
+</div>
+<p aria-hidden="true">Y50m 5G</p>
+</a>
+</div>
+</div>
+</div>
+<div class="vp-head-product-links-default">
+<div class="vp-head-product-links-wrapper">
+<a class="vp-head-product-links-line"
+href="https://www.vivo.com.cn/products-y.html"
+data-head-click-stat="cfrom=01|03|002|027&element_name=全部Y机型">
+<span class="vp-head-product-name">全部Y机型</span>
+</a>
+<a href="//www.vivo.com.cn/vivo/product/contrast?series=5&source=navi"
+data-head-click-stat="cfrom=01|03|002|027&element_name=对比Y机型">
+<span class="vp-head-product-name">对比Y机型</span>
+</a>
+</div>
+<div class="vp-head-product-btn">
+<span class="vp-head-product-prev vp-head-product-btn-disabled"></span>
+<span class="vp-head-product-next"></span>
+</div>
+</div>
+</div>
+</li>
+<li class="vp-head-menu-lists "
+data-series="iQOO手机">
+<p class="vp-head-nav-name" aria-expanded="false" role="button">
+<span>iQOO手机</span>
+<span class="icon" aria-hidden="true" tabindex="-1"></span>
+</p>
+<div aria-hidden="true" class="vp-head-product vp-head-product-9 ">
+<div class="vp-head-product-inner">
+<div class="vp-head-product-wrapper">
+<div class="vp-head-product-lists">
+<a href="https://shop.vivo.com.cn/product/10062805"
+data-head-click-stat="cfrom=01|03|002|002&name=iQOO 16 预约&series=iQOO手机">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1789436474177/5f09b32b7c07b37ac1e709c417d280ee.png"
+class="vp-head-lazyload"
+alt="iQOO 16 预约">
+</div>
+<p aria-hidden="true">iQOO 16 预约</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/iqooneo11zun"
+data-head-click-stat="cfrom=01|03|002|002&name=iQOO Neo11 至尊版&series=iQOO手机">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1786087192805/de37351af1fef051a660bc19950a4cdc.png"
+class="vp-head-lazyload"
+alt="iQOO Neo11 至尊版">
+</div>
+<p aria-hidden="true">iQOO Neo11 至尊版</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/iqooz11s/"
+data-head-click-stat="cfrom=01|03|002|002&name=iQOO Z11S&series=iQOO手机">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1786086851272/a74f66e22580f4ebedea5aea8b7d8618.png"
+class="vp-head-lazyload"
+alt="iQOO Z11S">
+</div>
+<p aria-hidden="true">iQOO Z11S</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/iqooz11i"
+data-head-click-stat="cfrom=01|03|002|002&name=iQOO Z11i&series=iQOO手机">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1782696246006/ce4ce48e9e4c5b7822f94a2b345c8de6.png"
+class="vp-head-lazyload"
+alt="iQOO Z11i">
+</div>
+<p aria-hidden="true">iQOO Z11i</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/iqoo15t/"
+data-head-click-stat="cfrom=01|03|002|002&name=iQOO 15T&series=iQOO手机">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1779263331104/3f340d15d98ed04cba5e3f124318f865.png"
+class="vp-head-lazyload"
+alt="iQOO 15T">
+</div>
+<p aria-hidden="true">iQOO 15T</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/iqooz11/"
+data-head-click-stat="cfrom=01|03|002|002&name=iQOO Z11&series=iQOO手机">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1774514733997/1d3f0562931c046ca7afefae687cbd46.png"
+class="vp-head-lazyload"
+alt="iQOO Z11">
+</div>
+<p aria-hidden="true">iQOO Z11</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/iqoo15ultra/"
+data-head-click-stat="cfrom=01|03|002|002&name=iQOO 15 Ultra&series=iQOO手机">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1770196251460/f6d22a42ce329f2739a3dc2378291b1a.png"
+class="vp-head-lazyload"
+alt="iQOO 15 Ultra">
+</div>
+<p aria-hidden="true">iQOO 15 Ultra</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/iqooz11turbo"
+data-head-click-stat="cfrom=01|03|002|002&name=iQOO Z11 Turbo&series=iQOO手机">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1768473225397/fb3cb874c3808102d0d01208623e9fe4.png"
+class="vp-head-lazyload"
+alt="iQOO Z11 Turbo">
+</div>
+<p aria-hidden="true">iQOO Z11 Turbo</p>
+</a>
+</div>
+</div>
+</div>
+<div class="vp-head-product-links-default">
+<div class="vp-head-product-links-wrapper">
+<a class="vp-head-product-links-line"
+href="https://www.vivo.com.cn/products-iqoo.html"
+data-head-click-stat="cfrom=01|03|002|027&element_name=全部iQOO机型">
+<span class="vp-head-product-name">全部iQOO机型</span>
+</a>
+<a href="//www.vivo.com.cn/vivo/product/contrast?series=16&source=navi"
+data-head-click-stat="cfrom=01|03|002|027&element_name=对比iQOO机型">
+<span class="vp-head-product-name">对比iQOO机型</span>
+</a>
+</div>
+<div class="vp-head-product-btn">
+<span class="vp-head-product-prev vp-head-product-btn-disabled"></span>
+<span class="vp-head-product-next"></span>
+</div>
+</div>
+</div>
+</li>
+<li class="vp-head-menu-lists "
+data-series="智能硬件">
+<p class="vp-head-nav-name" aria-expanded="false" role="button">
+<span>智能硬件</span>
+<span class="icon" aria-hidden="true" tabindex="-1"></span>
+</p>
+<div aria-hidden="true" class="vp-head-product vp-head-product-9 ">
+<div class="vp-head-product-inner">
+<div class="vp-head-product-wrapper">
+<div class="vp-head-product-lists">
+<a href="https://wukongapi.vivo.com.cn/wukongtopic/activity/link/x500pc"
+data-head-click-stat="cfrom=01|03|002|002&name=vivo WATCH 6 预约&series=智能硬件">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1788951038844/ba174889e24a3c1332a4b2f21c2e3daf.png"
+class="vp-head-lazyload"
+alt="vivo WATCH 6 预约">
+</div>
+<p aria-hidden="true">vivo WATCH 6 预约</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://wukongapi.vivo.com.cn/wukongtopic/activity/link/x500pc"
+data-head-click-stat="cfrom=01|03|002|002&name=vivo Buds Clip 耳夹耳机 预约&series=智能硬件">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1788951503690/4f24c9554d4b86f5a6e47f8892f332fc.png"
+class="vp-head-lazyload"
+alt="vivo Buds Clip 耳夹耳机 预约">
+</div>
+<p aria-hidden="true">vivo Buds Clip 耳夹耳机 预约</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://wukongapi.vivo.com.cn/wukongtopic/activity/link/iQOO16PC"
+data-head-click-stat="cfrom=01|03|002|002&name=iQOO 头戴电竞耳机 预约&series=智能硬件">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1788832057511/36b7226d95de0a652ff0afd7845aab6e.png"
+class="vp-head-lazyload"
+alt="iQOO 头戴电竞耳机 预约">
+</div>
+<p aria-hidden="true">iQOO 头戴电竞耳机 预约</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://wukongapi.vivo.com.cn/wukongtopic/activity/link/iQOO16PC"
+data-head-click-stat="cfrom=01|03|002|002&name=iQOO Pad Ultra 预约&series=智能硬件">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1789544393694/e486c901a7a912373ab0889b88775caf.png"
+class="vp-head-lazyload"
+alt="iQOO Pad Ultra 预约">
+</div>
+<p aria-hidden="true">iQOO Pad Ultra 预约</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com/vivo/vivotws5pro/"
+data-head-click-stat="cfrom=01|03|002|002&name=vivo TWS 5 Pro&series=智能硬件">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1781517699849/cf4837c7223a9e077b67ac6ddf1a390a.png"
+class="vp-head-lazyload"
+alt="vivo TWS 5 Pro">
+</div>
+<p aria-hidden="true">vivo TWS 5 Pro</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/vivopad6pro/"
+data-head-click-stat="cfrom=01|03|002|002&name=vivo Pad6 Pro&series=智能硬件">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1774256209650/22a1b79cbb387983392b1c53c54369f4.png"
+class="vp-head-lazyload"
+alt="vivo Pad6 Pro">
+</div>
+<p aria-hidden="true">vivo Pad6 Pro</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/vivoheadphones/"
+data-head-click-stat="cfrom=01|03|002|002&name=vivo 头戴降噪耳机&series=智能硬件">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1779955223948/4a90dfe12d4785de2febdf909126df2e.png"
+class="vp-head-lazyload"
+alt="vivo 头戴降噪耳机">
+</div>
+<p aria-hidden="true">vivo 头戴降噪耳机</p>
+</a>
+</div>
+<div class="vp-head-product-lists">
+<a href="https://www.vivo.com.cn/vivo/vivovision/"
+data-head-click-stat="cfrom=01|03|002|002&name=vivo Vision&series=智能硬件">
+<div class="vp-head-product-img">
+<img data-vp-head-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1755777752686/38c5e45284a044a9ea03974386da6f3b.png"
+class="vp-head-lazyload"
+alt="vivo Vision">
+</div>
+<p aria-hidden="true">vivo Vision</p>
+</a>
+</div>
+</div>
+</div>
+<div class="vp-head-product-links-default">
+<div class="vp-head-product-links-wrapper">
+<a class="vp-head-product-links-line"
+href="https://www.vivo.com.cn/products-accessory.html"
+data-head-click-stat="cfrom=01|03|002|027&element_name=全部智能硬件">
+<span class="vp-head-product-name">全部智能硬件</span>
+</a>
+</div>
+<div class="vp-head-product-btn">
+<span class="vp-head-product-prev vp-head-product-btn-disabled"></span>
+<span class="vp-head-product-next"></span>
+</div>
+</div>
+</div>
+</li>
+<li class="vp-head-menu-link vp-head-wap-click-active"
+data-head-click-stat="cfrom=01|03|002|003&name=商城"><a
+href="https://shop.vivo.com.cn/">商城</a></li>
+<li class="vp-head-menu-link vp-head-wap-click-active"
+data-head-click-stat="cfrom=01|03|002|003&name=服务"><a
+href="https://www.vivo.com.cn/service.html">服务</a></li>
+</ul>
+<ul class="vp-head-topbar">
+<li class="vp-head-wap-click-active"
+data-head-click-stat="cfrom=01|03|002|003&name=品牌"><a
+id="1"
+href="https://www.vivo.com.cn/brand/home">品牌</a></li>
+<li class="vp-head-wap-click-active"
+data-head-click-stat="cfrom=01|03|002|003&name=OriginOS"><a
+id="2"
+href="https://www.vivo.com.cn/originos">OriginOS</a></li>
+<li class="vp-head-wap-click-active"
+data-head-click-stat="cfrom=01|03|002|003&name=体验店"><a
+id="3"
+href="https://www.vivo.com.cn/store">体验店</a></li>
+<li class="vp-head-wap-click-active"
+data-head-click-stat="cfrom=01|03|002|003&name=官网社区"><a
+id="4"
+href="https://bbs.vivo.com.cn/newbbs/">官网社区</a></li>
+</ul>
+<ul class="vp-head-login-wrap">
+<li>
+<a class="vp-user-login" href="javascript:void (0)"
+data-head-click-stat="cfrom=01|03|002|002&position=4">登录 </a>或<a
+class="vp-user-register" href="javascript:void (0)"
+data-head-click-stat="cfrom=01|03|002|002&position=5"> 注册</a>
+</li>
+</ul>
+<ul class="vp-head-member-center">
+<li class="vp-head-member-myshop vp-head-wap-click-active"><a
+href="https://shop.vivo.com.cn/wap/my/"
+data-head-click-stat="cfrom=01|03|002|002&position=3">我的商城</a>
+</li>
+<li class="vp-head-member-myorder vp-head-wap-click-active"><a
+href="https://shop.vivo.com.cn/wap/my/order"
+data-head-click-stat="cfrom=01|03|002|002&position=2">我的订单</a>
+</li>
+<li class="vp-head-member-password vp-head-wap-click-active">
+<a class="vp-head-user-home"
+data-head-click-stat="cfrom=01|03|002|002&position=6"
+href="//passport.vivo.com.cn/v3/web/login/authorize?client_id=30">帐号中心</a>
+</li>
+</ul>
+<ul class="vp-head-country">
+<li><a href="//www.vivo.com.cn/intPortal/index">Select Location</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" id="vp-head-header-script">
+var vpHeader = {
+pageType: 'responsive',
+pageBoundary: 1199,
+clientId: '30',
+memberIsCus: false,
+headerType: 0,
+target: '',
+ceilingType: 0,
+showDownLink: 1,
+darkWords: [{"name":"X300 Ultra"},{"name":"X Fold6"},{"name":"S60"},{"name":"iQOO 15 Ultra"},{"name":"vivo Pad6 Pro"},{"name":"iQOO Z11"},{"name":"查找体验店"}],
+headTheme: 'black'
+};
+var VP_Emmiter;
+</script>
+<style>
+@media screen and (max-width: 768px) {
+.bannner-container .banner-sm-wraper .banner-sm-box .banner-sm-item:nth-child(3) .banner-sm-content, .bannner-container .banner-sm-wraper .banner-sm-box .banner-sm-item:nth-child(4) .banner-sm-content {
+height: auto !important;
+}
+}
+.vivo-container .stage1 .figure-box .figure .button-group2 .textlink .textlink-box a p, .stage1 .section .title .textlink .textlink-box a p {
+font-family: "FZLT-ZHJ";
+}
+.vivo-container .stage1 .section .title .textlink .textlink-box a p {
+display: flex;
+align-items: center;
+}
+.vivo-container .stage1 .figure-box .figure .button-group2 .textlink .textlink-box a p span {
+display: inline-flex;
+}
+</style>
+<style>
+@font-face {
+font-family: 'VIVO-FONT-NAV';
+src: url("https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753164825732/868dbc9be5f4b1f124a10e066504257b.eot") format('embedded-opentype'),url("https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753164832072/8592631b479b8932cf0f58d9fceb9496.woff2") format('woff2'),url("https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753164838379/6381b07992df4628ffd95cf248b93ac6.woff") format('woff'),url("https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753164843920/4a453eba91ad0ae0bf67430958c4954b.ttf") format('truetype'),url("https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753164850220/9030f28313f8f2f3637e452fde359add.svg") format('svg');
+}
+@font-face {
+font-family: 'VIVO-FONT-NAV-BOLD';
+src: url("https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753164876651/4fb8eefcb413b582fe656da17adb030f.eot") format('embedded-opentype'),url("https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753164881838/2a8e5405063cab7f3c6de23c0fefbbaf.woff2") format('woff2'),url("https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753164886514/ebf95071194be7b091c120685a38d18b.woff") format('woff'),url("https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753164924653/e973a38fbbe9f701c629dd16bcb6cb31.ttf") format('truetype'),url("https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753164930169/33bdc60e14f6ddc37f3ceffbbcd680ff.svg") format('svg');
+}
+</style>
+</header>
+<main>
+<div class="public public_graybg common_richtest_crumb">
+<!-- 顶部面包屑导航， vivo官网隐私政策 -->
+<div class="container common_top_crumb">
+<a class="no-flip-over" href="/">首页</a>
+<p class="arr no-flip-over">&gt;</p>
+<p class="no-flip-over">隐私政策</p>
+</div>
+</div>
+<!-- 富文本页面 -->
+<div class="public common_richtest-bg">
+<div class="container common_richtest">
+<h1 class="no-flip-over">vivo服务隐私政策</h1>
+<h2 class="no-flip-over"></h2>
+<!-- 富文本代码 -->
+<div class="common_richtest-richtext no-flip-over"><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-align: center;line-height: 24px"><br/></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">“<span style="font-size: inherit;color: inherit">vivo</span>服务”（以下统称“本服务”）是由维沃移动通信有限公司（以下简称“<span style="font-size: inherit;color: inherit">vivo”</span>或<span style="font-size: inherit;color: inherit">“</span>我们<span style="font-size: inherit;color: inherit">”</span>）为您提供的<span style="font-size: inherit;color: inherit">vivo</span>官方客户服务及售后服务支持。 &nbsp;</span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">vivo<span style="color: inherit;line-height: 24px">深知个人信息对您的重要性，并将竭尽全力保护您的个人信息安全，恪守权责一致、目的明确、选择同意、最小必要、确保安全、主体参与、公开透明原则，以保护您的个人信息。同时，<span style="font-size: inherit;color: inherit">vivo</span>承诺将按照业界成熟的安全标准，采取相应的安全措施保护您的个人信息。</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">在您使用本服务的过程中，我们可能会收集和使用您的个人信息，我们将通过本隐私政策告知您本服务的个人信息处理规则，请您务必认真阅读本政策，在确认充分了解并同意后使用我们的产品及服务。<strong style="font-size: inherit;color: inherit">请您注意，本隐私政策适用于<span style="font-size: inherit;color: inherit">vivo</span>为您提供的线上及线下客户服务及售后服务支持，服务对象包括但不限于<span style="font-size: inherit;color: inherit">vivo</span>手机、平板、手表等移动智能终端设备。如果您要在本服务中使用第三方提供的服务，请仔细查看第三方的隐私政策。如果您不同意本隐私政策的任何内容，您应该立即停止使用本服务。当您开始接受“<span style="font-size: inherit;color: inherit">vivo</span>服务”支持<span style="font-size: inherit;color: inherit">,</span>即表示您已经同意我们按照本政策来收集、保存、使用、共享、保护您的个人信息。</strong></span></p><p style="margin-top: 0px;margin-right: 35px;margin-bottom: 0px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">本政策具体内容如下：</span></p><p class="MsoListParagraph" style="margin: 0px 35px 0px 61px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif"><span style="font-size: inherit;color: inherit">1.<span style="font-variant-numeric: normal;font-variant-east-asian: normal;font-variant-alternates: normal;font-kerning: auto;font-optical-sizing: auto;font-feature-settings: normal;font-variation-settings: normal;font-variant-position: normal;font-stretch: normal;font-size: 9px;line-height: normal;font-family: &#39;Times New Roman&#39;;color: inherit">&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</span><span style="color: inherit;line-height: 24px">我们为什么要收集您的个人信息</span></span></span></p><p class="MsoListParagraph" style="margin: 0px 35px 0px 61px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif"><span style="font-size: inherit;color: inherit">2.<span style="font-variant-numeric: normal;font-variant-east-asian: normal;font-variant-alternates: normal;font-kerning: auto;font-optical-sizing: auto;font-feature-settings: normal;font-variation-settings: normal;font-variant-position: normal;font-stretch: normal;font-size: 9px;line-height: normal;font-family: &#39;Times New Roman&#39;;color: inherit">&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</span><span style="color: inherit;line-height: 24px">我们将如何收集和使用您的个人信息</span></span></span></p><p class="MsoListParagraph" style="margin: 0px 35px 0px 61px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif"><span style="font-size: inherit;color: inherit">3.<span style="font-variant-numeric: normal;font-variant-east-asian: normal;font-variant-alternates: normal;font-kerning: auto;font-optical-sizing: auto;font-feature-settings: normal;font-variation-settings: normal;font-variant-position: normal;font-stretch: normal;font-size: 9px;line-height: normal;font-family: &#39;Times New Roman&#39;;color: inherit">&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</span><span style="color: inherit;line-height: 24px">我们如何共享您的个人信息</span></span></span></p><p class="MsoListParagraph" style="margin: 0px 35px 0px 61px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif"><span style="font-size: inherit;color: inherit">4.<span style="font-variant-numeric: normal;font-variant-east-asian: normal;font-variant-alternates: normal;font-kerning: auto;font-optical-sizing: auto;font-feature-settings: normal;font-variation-settings: normal;font-variant-position: normal;font-stretch: normal;font-size: 9px;line-height: normal;font-family: &#39;Times New Roman&#39;;color: inherit">&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</span><span style="color: inherit;line-height: 24px">个人信息管理</span></span></span></p><p class="MsoListParagraph" style="margin: 0px 35px 0px 61px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif"><span style="font-size: inherit;color: inherit">5.<span style="font-variant-numeric: normal;font-variant-east-asian: normal;font-variant-alternates: normal;font-kerning: auto;font-optical-sizing: auto;font-feature-settings: normal;font-variation-settings: normal;font-variant-position: normal;font-stretch: normal;font-size: 9px;line-height: normal;font-family: &#39;Times New Roman&#39;;color: inherit">&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</span><span style="color: inherit;line-height: 24px">我们如何处理儿童的个人信息</span></span></span></p><p class="MsoListParagraph" style="margin: 0px 35px 0px 61px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif"><span style="font-size: inherit;color: inherit">6.<span style="font-variant-numeric: normal;font-variant-east-asian: normal;font-variant-alternates: normal;font-kerning: auto;font-optical-sizing: auto;font-feature-settings: normal;font-variation-settings: normal;font-variant-position: normal;font-stretch: normal;font-size: 9px;line-height: normal;font-family: &#39;Times New Roman&#39;;color: inherit">&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</span><span style="color: inherit;line-height: 24px">您的个人信息如何保存</span></span></span></p><p class="MsoListParagraph" style="margin: 0px 35px 0px 61px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif"><span style="font-size: inherit;color: inherit">7.<span style="font-variant-numeric: normal;font-variant-east-asian: normal;font-variant-alternates: normal;font-kerning: auto;font-optical-sizing: auto;font-feature-settings: normal;font-variation-settings: normal;font-variant-position: normal;font-stretch: normal;font-size: 9px;line-height: normal;font-family: &#39;Times New Roman&#39;;color: inherit">&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</span><span style="color: inherit;line-height: 24px">本政策如何更新</span></span></span></p><p class="MsoListParagraph" style="margin: 0px 35px 0px 61px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif"><span style="font-size: inherit;color: inherit">8.<span style="font-variant-numeric: normal;font-variant-east-asian: normal;font-variant-alternates: normal;font-kerning: auto;font-optical-sizing: auto;font-feature-settings: normal;font-variation-settings: normal;font-variant-position: normal;font-stretch: normal;font-size: 9px;line-height: normal;font-family: &#39;Times New Roman&#39;;color: inherit">&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</span><span style="color: inherit;line-height: 24px">如何联系我们</span></span></span></p><p class="MsoListParagraph" style="margin: 0px 35px 0px 61px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">&nbsp;</span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">1.<strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px">我们为什么要收集您的个人信息</span></strong></span></strong></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">为了完成官方客户服务或售后服务支持功能，调查分析问题以不断提高服务质量；同时高效识别场景，为您提供场景化、个性化服务以帮助您高效便捷地管理生活与工作、为您带来更好的用户体验，我们可能会依据提供服务的必要性不时地获取您的部分个人信息。同时，我们还可能会根据国家法律法规或政府主管部门的要求，收集您的信息和数据。</span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">当我们处理您的个人数据时，我们可能会基于以下合法性基础中的一种或多种，具体包括：</span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">①<span style="font-size: inherit;color: inherit"><span style="font-size: inherit;color: inherit">&nbsp;&nbsp;</span>我们可能基于您的同意处理您的个人数据，如响应您的主动投诉与您联系或为您排查您反馈的问题；</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">②<span style="font-size: inherit;color: inherit"><span style="font-size: inherit;color: inherit">&nbsp;&nbsp;</span>我们可能为履行与您之间的合同所必需处理您的个人数据。如基于售后维修等合同关系，实现您的相关请求需要处理您的个人数据；</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">③<span style="font-size: inherit;color: inherit"><span style="font-size: inherit;color: inherit">&nbsp;&nbsp;</span>我们可能基于我们或第三方的合法利益处理您的个人数据。如我们与代理商就售后服务相关业务进行必要的结算，保障经营自主权的实现以及确保代理商的规则遵从，执行紧急避险等目的时，我们会基于我们或第三方的合法利益处理您的个人数据；</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">④&nbsp;<span style="font-size: inherit;color: inherit"><span style="font-size: inherit;color: inherit">&nbsp;&nbsp;</span>我们还可能基于履行法定义务处理您的个人数据；</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">⑤&nbsp;<span style="font-size: inherit;color: inherit"><span style="font-size: inherit;color: inherit">&nbsp;&nbsp;</span>其他法律法规明确规定可以不经您的同意处理您的个人信息的场景。</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">&nbsp;</span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">2.<strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px">我们将如何收集和使用您的个人信息</span></strong></span></strong></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">2.1<strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px">检测维修服务：<span style="color: inherit;line-height: 24px">如您的<span style="font-size: inherit;color: inherit">vivo</span>设备出现故障或其他异常问题，您可以前往我们的官方售后服务中心进行设备的检测与维修，我们部分服务中心还可提供远程协助服务。为向您提供上述服务，我们需要获取维修服务所必需的个人信息，如<strong style="font-size: inherit;color: inherit">您的姓名、电话号码、验证码、维修订单号、设备硬件信息（如设备型号、设备标识符<span style="font-size: inherit;color: inherit">IMEI</span>号及硬件参数信息）、操作系统信息（包括网络及开关状态信息、版本号）、错误日志、使用记录、应用程序列表及应用信息、外观描述、故障描述、故障原因、解决方案等</strong>，鉴于故障原因的多样性，您可以在具体检测维修服务中知晓我们处理的您的个人信息，具体以您设备故障检测维修所必须的信息为准。为保证远程协助服务的服务质量，我们会对远程服务的过程进行录音和录屏，录音和录屏的储存时间将不会超过<span style="font-size: inherit;color: inherit">1</span>个月。如送修人不是机主本人，我们还将收集送修人相关信息，包括<strong style="font-size: inherit;color: inherit">送修人姓名、送修人电话</strong>。</span></span></strong></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">2.2<strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px">账号登录：<span style="color: inherit;line-height: 24px">vivo<span style="color: inherit;line-height: 24px">服务支持账号登录，如您在本服务内登录<span style="font-size: inherit;color: inherit">vivo</span>账号，我们会获取您的<span style="font-size: inherit;color: inherit">vivo</span>账号信息，用于服务通行标识及账号信息展示及账号校验。</span></span></span></strong></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">2.3<strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px">在线客服服务：<span style="color: inherit;line-height: 24px">您可以通过各个渠道入口点击进入我们的在线客服服务，如您使用在线客服服务，我们会按照《<span style="font-size: inherit;color: inherit">vivo</span>在线客服隐私政策》声明的数据处理规则处理您的个人信息。</span></span></strong></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">2.4<strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px">热线服务：<span style="color: inherit;line-height: 24px">如您拨打我们的官方热线电话向我们进行咨询和问题反馈，我们需要记录您在电话中向我们主动提供的信息（如电话号码、手机型号、设备<span style="font-size: inherit;color: inherit">imei</span>，具体以您提交的信息为准），同时我们会保存与<strong style="font-size: inherit;color: inherit">您的通话记录及录音</strong>，用于记录并内部反馈分析解答您的问题，回溯服务质量及改善服务体验，必要时与您再次联系。</span></span></strong></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">我们会在您与我们的在线或热线客服坐席交流的过程中，向您明确告知我们需要收集上述哪些个人信息，您可以选择是否提供该等信息。您理解，如您拒绝提供该等信息，我们可能无法为您解决相应问题。</span></strong></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">2.5<strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px">邮件反馈服务：<span style="color: inherit;line-height: 24px">您可以通过我们的官方邮箱向我们反馈您在使用<span style="font-size: inherit;color: inherit">vivo</span>设备中遇到的问题，我们会获取您的邮件地址以及<strong style="font-size: inherit;color: inherit">您在邮件中主动提交给我们的信息（具体以您提交的信息为准），同时我们会保存与您的邮件沟通记录</strong>，用于记录并内部反馈分析解答您的问题，回溯服务质量及改善服务体验，必要时与您再次联系。</span></span></strong></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">2.6<strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px">查询服务：<span style="color: inherit;line-height: 24px">您可以通过<span style="font-size: inherit;color: inherit">vivo</span>官网服务界面，进行设备真伪查询、网点查询、备件价格查询及服务进度查询。为完成您的服务进度查询，我们需要获取您的手机号码或<span style="font-size: inherit;color: inherit">vivo</span>账号用于匹配您的服务记录；为进行设备真伪查询，我们需要校验您的设备<span style="font-size: inherit;color: inherit">imei</span>（仅限手机）、<span style="font-size: inherit;color: inherit">sn</span>（仅限平板电脑、智能手表）及其他设备防伪码（如手写笔、耳机）；为进行备件价格查询服务，我们需要处理您的产品型号信息，我们会在完成查询校验后删除您的上述信息，不会对该信息进行保存。</span></span></strong></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">2.7<strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px">寄修服务：<span style="color: inherit;line-height: 24px">当您使用本服务内的寄修服务时，我们需要获取您在页面内主动提交的信息，包括姓名、电话号码、上门时间、您的取件及收件地址、您的产品型号及故障问题。</span></span></strong></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">2.8<strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px">保障服务：<span style="color: inherit;line-height: 24px">当您购买了<span style="font-size: inherit;color: inherit">vivo</span>的设备保障服务需要进行售后延保与维修等操作时，我们需要获取您的姓名、电话、设备标识符（<span style="font-size: inherit;color: inherit">imei</span>及其他智能终端硬件标识信息）、认证码，用于将您购买的保障服务与您的设备进行绑定以及服务查询。</span></span></strong></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">2.9<strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px">预约服务：<span style="color: inherit;line-height: 24px">当您需要预约前往线下官方售后服务中心网点时，我们需要获取您你在页面内主动提交的信息，包括您的产品型号、预约时间、姓名及手机号码，用于记录您的预约并在您预约时间之前与您联系。</span></span></strong></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">2.10<strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px">上门服务：<span style="color: inherit;line-height: 24px">为解决您所反馈的诉求，必要时我们会在征求您同意的前提下向您提供上门服务，为提供上述服务，我们需要获取您的姓名、手机号码、详细地址、以及其他您主动提供的信息（如产品型号、故障信息问题，具体以您实际向我们提交的为准）。</span></span></strong></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">2.11<strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px">权益领取：<span style="color: inherit;line-height: 24px">为向您提供线上及线下的优惠券或其他权益的领取和查看功能，我们会使用您的<span style="font-size: inherit;color: inherit">vivo</span>账号信息， &nbsp; &nbsp;用于将您领取的优惠券及其他权益和您的<span style="font-size: inherit;color: inherit">vivo</span>账号进行关联。</span></span></strong></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">2.12<strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px">回访调研：<span style="color: inherit;line-height: 24px">为了解我们为您提供的官方客户服务的整体服务质量，对代理商进行考核，或进一步分析设备存在的故障问题，以便我们进一步进行产品的改善与优化，我们会获取您的手机号码，用于服务后的满意度及产品优化反馈回访调研并保留您在回访中反馈和提交的内容。</span></span></strong></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">2.13<strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px">活动信息推送：<span style="color: inherit;line-height: 24px">经您明确同意，我们会使用您在本服务中留下的手机号码，用于向您推送售后活动信息。我们仅会在您明确同意的情形下才会向您推送此类活动信息。</span></span></strong></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">2.14<strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px">故障分析与产品优化：<span style="color: inherit;line-height: 24px">经您明确同意，我们会将您更换后的坏料或坏机，经删除设备中可识别个人信息后，设备不做恢复出厂设置处理，将剩余的非识别信息用于内部分析，且留存的数据不会用于识别您的身份或与关联您的其他信息。此外，我们也会基于您在使用本服务过程中获取的信息，用于内部产品的故障分析，以进一步改善优化我们的产品。</span></span></strong></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">2.15<strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px">意见反馈：<span style="color: inherit;line-height: 24px">当您进入帮助与反馈页面，我们会自动收集并上传您的<strong style="font-size: inherit;color: inherit">补充设备标识符（<span style="font-size: inherit;color: inherit">vaid</span>）</strong>，用于向您展示您的历史反馈记录。当您在帮助与反馈中提交具体的意见时，我们会获取您在意见反馈时提交的问题详情描述、上传的图片、联系方式（如手机号、邮箱等），用于分析问题原因，以及联系您反馈问题处理详情。</span></span></strong></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">2.16<span style="color: inherit;line-height: 24px">为了解决您在使用本服务过程中提出的问题，我们可能需要在服务提供所必须的范围内，在内部查询您在<span style="font-size: inherit;color: inherit">vivo</span>其他服务中的相关个人信息，例如您通过在线客服或热线服务查询与设备有关的权益信息，我们会通过您的<span style="font-size: inherit;color: inherit">vivo</span>账号调用和查询其他<span style="font-size: inherit;color: inherit">vivo</span>服务中相关联的信息（如账号积分、钱包支付记录、积分兑换情况、充值记录、消费记录），又如，为了响应您的故障问题，我们需要关联您的一些故障日志或点击操作信息，为您解决您提出的故障问题，以响应您的诉求。</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">2.17<span style="color: inherit;line-height: 24px">除了上述列明的使用场景外，您的个人信息可能出于以下目的被使用：</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">1<span style="color: inherit;line-height: 24px">）我们可能会将本服务内各项服务的信息以及您在<span style="font-size: inherit;color: inherit">vivo</span>软件服务中提供或生成的信息结合起来，进行综合统计、分析，做出特征模型并进行用户画像，为您提供更加个性化、便捷的服务。</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">2<span style="color: inherit;line-height: 24px">）我们可能将业务中收集的个人信息用于统计分析和改进运营，该信息将不会与您个人相关联。例如通过点击、操作行为的统计分析，从而进行已有或全新产品、服务的研发、推广、改进；又如为改进我们系统而进行的技术改造、网络维护、故障排除、内部政策与流程制定、生成内部报告等。</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">3<span style="color: inherit;line-height: 24px">）统计本服务涉及服务或产品功能的使用情况，并与公众或第三方分享整体的统计信息，这些信息不会关联或识别您。<span style="font-size: inherit;color: inherit"><span style="font-size: inherit;color: inherit">&nbsp;</span></span></span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">&nbsp;</span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">3.<strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px">我们如何共享您的个人信息</span></strong></span></strong></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">3.1<span style="color: inherit;line-height: 24px">除以下情形外，我们不会对外共享您的个人信息：</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">1<span style="color: inherit;line-height: 24px">） &nbsp; &nbsp;事先获得您的明确授权或同意：获得您的明确同意后，我们会与您指定的第三方共享您的个人信息；</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">2<span style="color: inherit;line-height: 24px">） &nbsp; &nbsp;履行协议所必须的共享：为履行您与我们签署的相关协议在必要范围内共享您的个人信息；</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">3<span style="color: inherit;line-height: 24px">） &nbsp; &nbsp;在法定情形下的共享：根据适用的法律法规、法律程序、诉讼<span style="font-size: inherit;color: inherit">/</span>仲裁、政府的强制命令、监管要求而需共享您的个人信息；</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">4<span style="color: inherit;line-height: 24px">） &nbsp; &nbsp;业务关联主体内共享：基于您选择的服务所必须，您的个人信息可能会在我们的关联公司之间共享。我们只会共享必要的个人信息，且这种共享受本声明目的的约束。并且，在将信息提供给关联主体前，我们将尽商业上的合理努力评估该关联主体所收集信息的合法性、正当性和必要性。我们会尽力要求关联主体对您的信息采取保护措施。</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">5<span style="color: inherit;line-height: 24px">） &nbsp; &nbsp;<span style="font-size: inherit;color: inherit">&nbsp;与合作方共享：为了向您提供更完善、优质的产品和服务，本服务的某些服务将由合作方提供，因此，我们可能会与合作方共享您的某些个人信息。我们仅会出于合法、正当、必要、特定、明确的目的共享您的个人信息，并且只会共享为您提供服务所必要的个人信息。为了保障您的个人信息安全和隐私，我们通过协议约定明确了合作伙伴对您的个人信息的保护责任、义务和要求。我们将要求我们的合作方无权将共享的个人信息用于任何其他用途。<strong style="font-size: inherit;color: inherit">合作方可能有其独立的隐私政策和用户协议，我们建议您阅读并遵守第三方的用户协议及隐私政策。</strong>具体合作方类型如下：</span></span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">①各地代理商：我们的线下官方售后服务中心，由我们在各地的代理商负责维护与运营，如您前往线下官方售后服务中心要求我们提供官方服务支持，或要求我们提供上门服务，我们会委托我们的代理商收集您反馈的问题及其他您主动提交的信息（具体以您反馈或提交的范围为准），并将该些信息录入我们的系统内，用于我们和代理商共同进行分析及解决您所反馈的问题。</span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">②物流服务提供商：当您使用本服务内的寄修服务时，为向您提供物流服务，我们需要将您的姓名联系电话及地址信息共享至我们选定的物流服务提供商顺丰，三方隐私政策详见<span style="font-size: inherit;color: inherit">&nbsp;&nbsp; &nbsp; &nbsp;https://www.sf-express.com/we/ow/chn/sc/product-promotion/privacy-policy/currentVersion/index。</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">③<span style="font-size: inherit;color: inherit">vivo</span>互联网业务运营商：当您向我们反馈<span style="font-size: inherit;color: inherit">vivo</span>手机互联网业务相关问题时（如游戏中心、应用商店等，具体以声明为下属运营方的<span style="font-size: inherit;color: inherit">vivo</span>产品为准），相关客户服务及售后服务将由我们的互联网业务供应商广东天宸网络科技有限公司为您提供，同时，为响应您的诉求，我们会将您向我们主动提供的信息共享至上述互联网业务运营商。</span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">3.2&nbsp;<span style="color: inherit;line-height: 24px">在为您提供服务的过程中，您可能通过我们的平台选择使用第三方的产品或服务。我们不为第三方的产品或服务提供任何担保，第三方的产品或服务适用第三方自行向您展示的用户服务协议及隐私政策规则为您提供服务，请在选择第三方服务前，认真阅读并确保知悉相关规则内容。</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">&nbsp;</span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">4.<span style="font-size: inherit;color: inherit">&nbsp;&nbsp;</span><strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px">个人信息管理</span></strong></span></strong></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">4.1<span style="color: inherit;line-height: 24px">查询、更正、访问</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">您可以通过<span style="font-size: inherit;color: inherit">vivo</span>官方网站<span style="font-size: inherit;color: inherit">-</span>服务界面对应的服务入口，查询、访问您所提供和填写的个人信息以及您通过选择我们的服务生成的服务记录信息。</span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">如果您选择线下检测维修服务，您可以通过我们提供的售后维修工单查询我们处理的您的个人信息。</span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">您也可以通过“<span style="font-size: inherit;color: inherit">8.</span>如何联系我们<span style="font-size: inherit;color: inherit">”</span>中列明的方式，向我们提出查询、更正、访问您个人信息的请求。</span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">4.2<span style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px">获取个人信息副本</span></span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">您可以通过“<span style="font-size: inherit;color: inherit">8.</span>如何联系我们”中列明的方式，向我们提出获取您个人信息副本的请求。</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">特别地，如您需要在本服务内咨询或针对具体<span style="font-size: inherit;color: inherit">vivo</span>软件产品的获取个人信息副本的事项，您可以在电脑端，使用<span style="font-size: inherit;color: inherit">vivo</span>账号登录“<span style="font-size: inherit;color: inherit">vivo</span>隐私中心”<span style="font-size: inherit;color: inherit"><span style="font-size: inherit;color: inherit">&nbsp;（</span><a href="https://privacy.vivo.com.cn/" style="font-size: inherit;cursor: pointer;outline: none 0px;-webkit-tap-highlight-color: transparent"><span style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px">https://privacy.vivo.com.cn/<span style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px">），然后点击下方“管理您的数据和隐私”，来对具体<span style="font-size: inherit;color: inherit">vivo</span>软件产品的个人信息进行复制和导出（具体支持产品以页面内列明的产品为准）。</span></span></span></span></a></span></span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">4.3<span style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px">撤回同意</span></span></span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">对于预约和寄修服务，您可以通过进入对应的服务入口取消预约以撤回同意。</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">您也可以通过“<span style="font-size: inherit;color: inherit">8.</span>如何联系我们<span style="font-size: inherit;color: inherit">”</span>中列明的方式改变您授权我们继续收集您个人信息的范围或撤回您的授权。</span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">请您理解，每个业务功能需要一些基本的个人信息才能得以完成，当您撤回同意或授权后，我们无法继续为您提供撤回同意或授权所对应的服务，也不再处理您相应的个人信息。但您撤回同意或授权的决定，不会影响此前基于您的授权开展的个人信息处理活动。</span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">4.4<span style="color: inherit;line-height: 24px">删除</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">在以下情形下，您可以通过“<span style="font-size: inherit;color: inherit">8.</span>如何联系我们<span style="font-size: inherit;color: inherit">”</span>中列明的方式向我们提出删除请求：</span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">1<span style="color: inherit;line-height: 24px">）如果处理您个人信息的处理目的已实现、无法实现或者为实现处理目的不再必要；</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">2<span style="color: inherit;line-height: 24px">）如果我们停止提供产品或者服务，或者保存期限已届满；</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">3<span style="color: inherit;line-height: 24px">）如果您撤回同意；</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">4<span style="color: inherit;line-height: 24px">）如果我们处理个人信息违反了法律法规规定或与您之间的约定。</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">特别地，如您需要在本服务内咨询或针对具体<span style="font-size: inherit;color: inherit">vivo</span>软件产品的行使个人信息删除权，您可以在电脑端，使用<span style="font-size: inherit;color: inherit">vivo</span>账号登录<span style="font-size: inherit;color: inherit">“vivo</span>隐私中心<span style="font-size: inherit;color: inherit">”<span style="font-size: inherit;color: inherit">（<span style="font-size: inherit;color: inherit"><a href="https://privacy.vivo.com.cn/" style="font-size: inherit;cursor: pointer;outline: none 0px;-webkit-tap-highlight-color: transparent"><span style="color: inherit;line-height: 24px">https://privacy.vivo.com.cn/<span style="color: inherit;line-height: 24px">），然后点击下方<span style="font-size: inherit;color: inherit">“</span>管理您的数据和隐私<span style="font-size: inherit;color: inherit">”</span>，来对具体<span style="font-size: inherit;color: inherit">vivo</span>软件产品的个人信息进行删除（具体支持产品以页面内列明的产品为准）。</span></span></a></span></span></span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">4.5<span style="color: inherit;line-height: 24px">响应您的请求</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">为保障安全，我们可能会先要求您验证自己的身份，然后再处理您的请求。请您理解，与法律法规要求相悖，或给国家、社会、<span style="font-size: inherit;color: inherit">vivo</span>、及其他组织或个人合法权益带来风险，或违背公序良俗的请求，我们可能会予以拒绝。在符合法律法规的前提下，基于现有技术能力、安全管控措施的限制，您所发起的个人信息请求可能无法得到立即、迅速的响应和处理，若您的请求被受理，我们会在<span style="font-size: inherit;color: inherit">15</span>个工作日内回复您的数据权利行使请求，并通知从我们获得您的个人信息的实体，要求其及时删除。在此期间，我们将严格地对您的信息进行安全存储与隔离，直至完成您所提起的请求。</span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">&nbsp;</span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">5.<strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px">我们如何处理儿童的个人信息</span></strong></span></strong></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">您理解，我们的服务主要面向成年人。但如您使用本服务反馈未成年人相关问题，我们将会依据您的指示处理您所反馈的未成年人个人信息。我们非常重视对未成年人个人信息的保护。根据相关法律法规的规定，若你是<span style="font-size: inherit;color: inherit">18</span>周岁以下的未成年人，请您的监护人仔细阅读本政策，并在使用本服务前事先取得您监护人的书面同意。若你是未成年人的监护人，当你对你所监护的未成年人的个人信息有相关疑问时，请通过“<span style="font-size: inherit;color: inherit">8.</span>如何联系我们”中向您声明的联系方式与我们联系。</span></strong></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">特别地，若您是<span style="font-size: inherit;color: inherit">14</span>周岁以下的儿童，我们还专门制定了《儿童隐私保护声明》，儿童及其监护人在使用本服务前，还应仔细阅读我们的《儿童隐私保护声明》。只有在取得监护人对《儿童隐私保护声明》的同意后，儿童方可使用本服务。如您为<span style="font-size: inherit;color: inherit">14</span>周岁以下的儿童的监护人，当您向我们反馈儿童相关问题或向我们提供儿童个人信息时，我们将按《儿童隐私保护声明》中声明的措施对儿童个人信息进行保护。</span></strong></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">&nbsp;</span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">6.<strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px">您的个人信息如何保存</span></strong></span></strong></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">6.1<span style="color: inherit;line-height: 24px">保存期限。除下述场景外，在您使用本产品期间，我们会持续保存您的个人信息。我们将遵循现行法律法规的最短期限保留您的现有个人信息，保存期间内您的个人信息不会被用作其他非法律法规允许用途，逾期我们将会对其进行匿名化处理。</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">1<span style="color: inherit;line-height: 24px">）您使用在线客服、热线服务、邮件反馈服务、寄修服务、保障服务、上门服务、预约服务或接受我们的回访调研时，在上述服务中获取的您的个人信息，我们将会在服务器保存<span style="font-size: inherit;color: inherit">3</span>年。</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">6.2<span style="color: inherit;line-height: 24px">存放地域。您的个人信息，将在中国内地存储和使用。</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">&nbsp;</span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">7.<strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px">本政策如何更新</span></strong></span></strong></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">请您理解，我们向您提供的功能和服务是不断更新和发展的，如果某一功能或服务未在前述说明中且需要收集您的信息，我们会通过页面提示、交互流程、网站公告、另行签署协议等方式另行向您说明信息收集的内容、范围和目的，以征得您的同意。</span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">&nbsp;</span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">8.<strong style="font-size: inherit;color: inherit"><span style="color: inherit;line-height: 24px">如何联系我们</span></strong></span></strong></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">如果您有任何疑问、意见或建议，您可以通过拨打我们的客服电话<span style="font-size: inherit;color: inherit">95033</span>、登录<span style="font-size: inherit;color: inherit">vivo</span>官网<a href="https://www.vivo.com" target="_self"><span style="font-size: inherit;color: inherit">https://www.vivo.com &nbsp;联系在线客服、或向&nbsp;&nbsp;privacy@vivo.com发送邮件与我们联系。</span></a></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">本协议未列明的具体隐私政策事宜（包括但不限于<span style="font-size: inherit;color: inherit">“</span>如何转让、公开披露您的个人信息<span style="font-size: inherit;color: inherit">”</span>、<span style="font-size: inherit;color: inherit">“</span>信息和数据完整性<span style="font-size: inherit;color: inherit">”</span>、<span style="font-size: inherit;color: inherit">“</span>数据跨境传输<span style="font-size: inherit;color: inherit">”</span>等），请参照并以<span style="font-size: inherit;color: inherit">vivo</span>隐私政策为准，详见：<span style="font-size: inherit;color: inherit">http://www.vivo.com/about-vivo/privacy-policy</span></span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">您选择接受本服务即表明您已经同意并授权我们收集、处理、分析您的上述信息。</span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">&nbsp;</span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">更新时间：<span style="font-size: inherit;color: inherit">2024</span>年<span style="font-size: inherit;color: inherit">1</span>月<span style="font-size: inherit;color: inherit">18</span>日</span></p><p style="margin-top: 10px;margin-bottom: 10px;padding: 0px;font-family: VIVO-FONT-WEB, sans-serif;text-wrap: wrap;text-indent: 32px;line-height: 24px"><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif">生效时间：<span style="font-size: inherit;color: inherit">2024</span>年<span style="font-size: inherit;color: inherit">1</span>月<span style="font-size: inherit;color: inherit">18</span>日</span></p><p><span style="color: inherit;line-height: 24px;font-family: 微软雅黑, sans-serif"><br/></span></p><p><br/></p></div>
+</div>
+</div>
+<input type='hidden' value='1528' id="J_data4TrackCfromVaule" />
+</main>
+<div class="public page-sidebar">
+<div class="sidebar-user-research">
+<div class="user-research-icon vicon-user-research" tabindex="0" role="button" aria-label="Questionnaire"></div>
+<div class="user-research-shade">
+<div class="user-research-box">
+<i class="user-research-close vicon-bar-close" role="button" tabindex="0" aria-label="close"></i>
+<p class="user-research-tips pc-hide no-flip-over">vivo官网体验评价</p>
+<div class="user-research-button pc-hide">
+<a class="user-research-link no-flip-over" href="https://wukongapi.vivo.com.cn/wukongtopic/wenjuan/3936/index">点我评价</a>
+</div>
+<p class="user-research-tips wap-hide no-flip-over">vivo官网体验评价</p>
+<div class="user-research-button wap-hide">
+<a class="user-research-link no-flip-over" href="https://wukongapi.vivo.com.cn/wukongtopic/wenjuan/3937/index">点我评价</a>
+</div>
+</div>
+</div>
+</div>
+<div class="sidebar-back-top">
+<button class="back-top-icon vicon-back-top" aria-label="Back to top"></button>
+</div>
+</div> <footer id="footer">
+<div id="vivo-foot-wrap" class="vivo-foot-wrap new-foot-wrap">
+<div id="vivo-foot-path" class="public bottom-crumbs">
+<div class="bottom-crumbs-content" role="navigation" aria-label="面包屑导航">
+<div class="bottom-crumbs-left">
+<a class="bottom-crumbs-logo no-flip-over vicon-logo-vivo" data-domain="www.vivo.com.cn" href="/" aria-label="vivo"></a>
+</div>
+<ul class="bottom-crumbs-list">
+<li class="bottom-crumbs-item">
+<i class="bottom-crumbs-icon vicon-right-arrow" aria-hidden="true"></i>
+<span class="bottom-crumbs-link no-flip-over" aria-current="page">隐私政策</span>
+</li>
+</ul>
+</div>
+</div>
+<div data-track="{type:'viewstate',params:{version:'v4.9.3',cfrom:'01|02|002|092'}}" id="vivo-foot-wrap" data-foot-theme="black"
+class="vp-foot " >
+<div id="vivo-foot-content">
+<ul class="vp-foot-category-list">
+<li>
+<dl class="vp-foot-category">
+<dt>了解产品</dt>
+<dd><a data-head-click-stat="cfrom=01|01|011&name=X系列"
+href="https://www.vivo.com.cn/products-x.html">X系列</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|01|011&name=S系列"
+href="https://www.vivo.com.cn/products-s.html">S系列</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|01|011&name=Y系列"
+href="https://www.vivo.com.cn/products-y.html">Y系列</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=iQOO手机"
+href="https://www.vivo.com.cn/products-iqoo.html">iQOO手机</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=智能硬件"
+href="https://www.vivo.com.cn/products-accessory.html">智能硬件</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|01|011&name=T系列"
+href="https://www.vivo.com.cn/products-t.html">T系列</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|01|011&name=NEX系列"
+href="https://www.vivo.com.cn/products-nex.html">NEX系列</a>
+</dd>
+</dl>
+</li>
+<li>
+<dl class="vp-foot-category">
+<dt>在线购买</dt>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=官方商城"
+href="https://shop.vivo.com.cn/">官方商城</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=选购手机"
+href="https://shop.vivo.com.cn/product/phone">选购手机</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=选购配件"
+href="https://shop.vivo.com.cn/product/parts">选购配件</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=订单查询"
+href="https://shop.vivo.com.cn/my/order">订单查询</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=官网APP下载"
+href="https://shopact.vivo.com.cn/pcspace/wk221129f1431101">官网APP下载</a>
+</dd>
+</dl>
+</li>
+<li>
+<dl class="vp-foot-category">
+<dt>服务支持</dt>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=真伪查询"
+href="https://support.vivo.com.cn/service/authenticityCheck">真伪查询</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=服务网点"
+href="https://www.vivo.com.cn/service/map.html">服务网点</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=查找手机"
+href="https://find.vivo.com.cn/">查找手机</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=常见问题"
+href="https://www.vivo.com.cn/service/questions/all">常见问题</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=服务政策"
+href="https://www.vivo.com.cn/service/policy">服务政策</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=环保回收"
+href="https://zhan.vivo.com.cn/vivoserve/wk22062883d354b4">环保回收</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=安全公告"
+href="https://www.vivo.com.cn/service/security-advisory">安全公告</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=服务隐私政策"
+href="https://www.vivo.com.cn/about-vivo/service-privacy-policy">服务隐私政策</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=Log还原LUTs下载"
+href="https://zhan.vivo.com.cn/experience/wk240909115effe4">Log还原LUTs下载</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=vivo 办公套件"
+href="https://pc.vivo.com/#/">vivo 办公套件</a>
+</dd>
+</dl>
+</li>
+<li>
+<dl class="vp-foot-category">
+<dt>商务合作</dt>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=供应商协同平台"
+href="https://supplier.vivo.xyz/#/login/registerIndex">供应商协同平台</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=开放平台"
+href="https://dev.vivo.com.cn/">开放平台</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=vivo 企业业务"
+href="https://www.vivo.com/cooperation/index">vivo 企业业务</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=廉正合规"
+href="https://mshopact.vivo.com.cn/vivoserve/wk2503249259a0b0">廉正合规</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=国补营业执照"
+href="https://shopact.vivo.com.cn/pcspace/wk250308fba6bd7e">国补营业执照</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=无线电发射设备销售备案"
+href="https://wxdxsba.miit.gov.cn/qrCodeSelect.action?rowguid=a44beabd88f04a4b94e5c5fd603e1173">无线电发射设备销售备案</a>
+</dd>
+</dl>
+</li>
+<li>
+<dl class="vp-foot-category">
+<dt>关于vivo</dt>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=vivo 简介"
+href="https://www.vivo.com.cn/brand/about">vivo 简介</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=工作机会"
+href="https://hr.vivo.com/home/">工作机会</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=新闻资讯"
+href="https://www.vivo.com.cn/brand/news/list">新闻资讯</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=隐私中心"
+href="https://privacy.vivo.com.cn/">隐私中心</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=可持续发展"
+href="https://www.vivo.com.cn/vivo/sustainability">可持续发展</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=vivo 蔡司影像"
+href="https://www.vivo.com.cn/vivo/vivozeiss">vivo 蔡司影像</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=开发者社区"
+href="https://developers.vivo.com/">开发者社区</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=蓝河操作系统"
+href="https://blueos.vivo.com/system">蓝河操作系统</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=vivo 通信"
+href="https://mobile.vivo.com/">vivo 通信</a>
+</dd>
+<dd><a data-head-click-stat="cfrom=01|03|002|007&name=vivo 智能车载"
+href="https://car.vivo.com/home">vivo 智能车载</a>
+</dd>
+</dl>
+</li>
+</ul>
+<div class="vp-foot-contact">
+<a data-head-click-stat="cfrom=01|03|002|008&name=在线客服" class="vp-foot-online" target="_blank"
+href="https://www.vivo.com.cn/kefu">在线客服</a>
+<div class="vp-foot-phoneBox">
+<p>7*24小时服务热线</p>
+<a class="vp-foot-phone" href="tel:95033"
+data-head-click-stat="cfrom=01|03|002|010&name=7*24小时服务热线">95033</a>
+<span class="vp-foot-phone">95033</span>
+</div>
+<div class="vp-foot-phoneBox">
+<p>7*24小时尊享服务热线<br/>(适用于X Fold、X Flip、X Ultra、iQOO Ultra、X Note、NEX系列)</p>
+<a class="vp-foot-phone" href="tel:400-679-9688"
+data-head-click-stat="cfrom=01|03|002|010&name=7*24小时尊享服务热线<br/>(适用于X Fold、X Flip、X Ultra、iQOO Ultra、X Note、NEX系列)">400-679-9688</a>
+<span class="vp-foot-phone">400-679-9688</span>
+</div>
+<div class="vp-foot-phoneBox vp-foot-emailBox">
+<p>服务监督邮箱</p>
+<a class="vp-foot-email" href="https://mshopact.vivo.com.cn/vivoserve/wk25032524ceed5a"
+data-head-click-stat="cfrom=01|03|002|010&name=服务监督邮箱">vivo@vivo.com.cn</a>
+</div>
+<div class="vp-foot-vivoCare">
+<span>关注vivo</span>
+<ul class="vp-foot-codeList">
+<li
+data-title="" data-subtitle="" data-wapimgurl="">
+<img class="follow-us-svg" src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753168227063/9c0529b8fe8e15bd0f9f10a417074576.svg" alt="">
+<img class="follow-us-svg hover" src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753168235547/613118a09ebfe6d16d49a4a3cd6f4d5e.svg">
+<a data-head-click-stat="cfrom=01|03|002|009&name=关注vivo&position=1"
+target="_blank" href="//weibo.com/vivomobile"></a>
+</li>
+<li class="follow-float-click"
+data-title="vivo官方商城" data-subtitle="长按保存图片，微信扫描关注" data-wapimgurl="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753171132589/c5189c5980028c43276fdf19f661988b.png">
+<img class="follow-us-svg" src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753168461799/ceeacfb89afa646a34e36ecd623d7029.svg" alt="true">
+<img class="follow-us-svg hover" src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753168466965/1ca7261b75b3f98ad30a3bb9e75c0623.svg">
+<span data-head-click-stat="cfrom=01|03|002|009&name=关注vivo&position=2"></span>
+<div class="vp-foot-QRCode">
+<img class="qr-code" data-vp-footer-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753170074887/b9058819debe5413856d6fdbd5bf0c2a.png">
+<span>vivo官方商城</span>
+</div>
+</li>
+<li class="follow-float-click"
+data-title="vivo智能手机" data-subtitle="长按保存图片，支付宝扫描关注" data-wapimgurl="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753171143726/b508bcfd8a53b99f10deed077b226eaf.png">
+<img class="follow-us-svg" src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753168513519/80f0ddf69bc91b2eaa48c68ce844ba47.svg" alt="true">
+<img class="follow-us-svg hover" src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753168506713/c10e2a4ddf225ad89dfd3a98281a8b1b.svg">
+<span data-head-click-stat="cfrom=01|03|002|009&name=关注vivo&position=3"></span>
+<div class="vp-foot-QRCode">
+<img class="qr-code" data-vp-footer-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753170390786/44af493dca44df627a172115960e9172.png">
+<span>vivo智能手机</span>
+</div>
+</li>
+<li class="follow-float-click"
+data-title="vivo官方商城" data-subtitle="长按保存图片，小程序扫描关注" data-wapimgurl="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753171150169/efc6d8af7f83c3d8372135f80a6cb417.png">
+<img class="follow-us-svg" src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753171697513/2059277e724680e2661c7ce68c1bc2ca.svg" alt="true">
+<img class="follow-us-svg hover" src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753168546425/ad9894e3e3ec6746aa07efa4497e3a29.svg">
+<span data-head-click-stat="cfrom=01|03|002|009&name=关注vivo&position=4"></span>
+<div class="vp-foot-QRCode">
+<img class="qr-code" data-vp-footer-src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753170340574/1c13786bb0a06cfa9f341fac29f84266.png">
+<span>vivo官方商城</span>
+</div>
+</li>
+<li
+data-title="" data-subtitle="" data-wapimgurl="">
+<img class="follow-us-svg" src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753168592083/d5bc3fd998cf638828cc412a9ce54eec.svg" alt="">
+<img class="follow-us-svg hover" src="https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753168597265/ba724996379381b16120a35e118a7b66.svg">
+<a data-head-click-stat="cfrom=01|03|002|009&name=关注vivo&position=5"
+target="_blank" href="//bbs.vivo.com.cn/newbbs/"></a>
+</li>
+</ul>
+<ul class="vp-foot-qrcode-list">
+<li>
+<div>
+<img data-vp-footer-src="" src="">
+<p class="vp-foot-name"></p>
+<p class="vp-foot-prompt"></p>
+<span class="vp-foot-close"></span>
+</div>
+</li>
+</ul>
+</div>
+<a class="vp-foot-country" href="//www.vivo.com/cn/index/ipredirection"
+data-head-click-stat="version=1.3.0&pageview=官网首页&cfrom=01|03|002|011">Select Location</a>
+</div>
+</div>
+<div class="vp-foot-bottom">
+<p class="vp-foot-copyright" id="vp-vivoportal-copyright">
+<span id="companyName">©2014-2026 广东天宸网络科技有限公司 版权所有</span>
+<span class="vp-foot-copyright-line"> | </span>
+<span class="vp-foot-copyright-main">
+<a href="https://www.vivo.com.cn/about-vivo/vivo-privacy-policy" class="noraml-link">隐私政策</a>
+<span> | </span>
+<a href="https://www.vivo.com.cn/about-vivo/user-agreement" class="noraml-link">用户协议</a>
+<span> | </span>
+<a href="https://www.vivo.com.cn/about-vivo/business-license" class="noraml-link">资质主体</a>
+<span> | </span>
+<a href="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/files/1677035831085/074d9005-773d-42b4-85b2-1b02beea3c67.png" class="noraml-link">粤B2-20150324</a>
+<span> | </span>
+<a href="https://beian.miit.gov.cn/#/Integrated/index" class="noraml-link">粤ICP备14052990号-2</a>
+<span> | </span>
+<a href="https://beian.mps.gov.cn/#/query/webSearch" class="noraml-link">粤公网安备44190002004246号</a>
+<span> | </span>
+</span>
+<a class="vp-foot-country" href="//www.vivo.com/cn/index/ipredirection"
+data-head-click-stat="version=1.3.0&pageview=官网首页&cfrom=01|03|002|011">Select Location</a>
+</p>
+</div>
+<script type="text/javascript" id="vp-head-footer-script">
+var vpFooter = {
+pageType: 'responsive',
+pageBoundary: 1199
+}
+</script>
+<style>
+body .productColor .rightBox .sizeImage > img {
+height: auto;
+}
+</style>
+</div>
+</div>
+</footer>
+</body>
+<script type="text/javascript" src="//asia-exstatic.vivoglobal.com/static/bus/include/cn-header/dist/js/index.pack_495eea9.js" crossorigin="anonymous"></script> <script src="//asia-exstatic.vivoglobal.com/static/bus/common/js/public_ffaaaf5.js"></script>
+<script>
+(function () {
+if (globalVar.oneTrustShow) {
+$('body').on('click', '#vcm-v-group-accept, #vcm-v-footer-save, #vcm-v-footer-accept', function () {
+var VCMConsent = globalAPI.getCookie('VCMConsent')
+if (VCMConsent) {
+var activeGroups = JSON.parse(VCMConsent).activeGroups
+if (activeGroups && activeGroups.indexOf('3') > -1) {
+if (globalVar.gaSwitch === 'true' && !globalVar.isGtmFlag) {
+globalAPI.addGTM()
+}
+if (globalVar.abTastySwitch === 'true' && !globalVar.isAbTastyFlag) {
+globalAPI.addAbTasty()
+}
+}
+}
+}).on('click', '.onetrust-v-privacy-url', function () {
+window.location.href = '/cn/about-vivo/privacy-policy'
+}).on('click', '.onetrust-v-cookie-url', function () {
+window.location.href = '/cn/about-vivo/cookie-policy'
+}).on('click', '#vcm-v-close-btn', function () {
+window.vcmPreventFocusOut && window.vcmPreventFocusOut.close(this)
+})
+} else {
+if (globalVar.gaSwitch === 'true' && !globalVar.isGtmFlag) {
+globalAPI.addGTM()
+}
+if (globalVar.abTastySwitch === 'true' && !globalVar.isAbTastyFlag) {
+globalAPI.addAbTasty()
+}
+}
+})()
+</script>
+</html>

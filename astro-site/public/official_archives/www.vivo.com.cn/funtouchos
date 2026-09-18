@@ -1,0 +1,642 @@
+<!DOCTYPE html><html  lang="zh-CN" class="extra-desktop-style"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Funtouch OS - vivo智能手机官方网站</title>
+<script src="https://portalstatic-cn.vivo.com/js/jquery-3.6.0.min.js" type="text/javascript" id="jquery-3.6.0.min-js"></script>
+<script src="https://portalstatic-cn.vivo.com/js/common.js" type="text/javascript" id="vivo-cn-common-js"></script>
+<script src="https://portalstatic-cn.vivo.com/js/buryingPoint.js" type="text/javascript" id="cn-buryingPoint-js"></script>
+<script src="https://portalstatic-cn.vivo.com/js/lib.js" type="text/javascript" id="vivo-cn-lib-js"></script>
+<script src="https://portalstatic-cn.vivo.com/js/cn-video-js.min.js" type="text/javascript" id="vivo-cn-video-js"></script>
+<style>:root { --brandColor: #415fff;--brandDarkColor: #546fff;--brandHoverColor: rgba(65, 95, 255, 0.73);--global-font-family: "vivoSansSC","VIVO-FONT-WEB-BOLD","VIVO-FONT-NAV-BOLD",sans-serif,微软雅黑; }</style>
+<style>true</style>
+<link rel="stylesheet" href="//asia-exstatic.vivoglobal.com/static/bus/include/cn-header/dist/css/index_8c54916.css">
+<link rel="stylesheet" href="//asia-exstatic.vivoglobal.com/static/bus/common/css/vicon_eb95211.css">
+<style>html,body{overflow: visible;}</style>
+<link rel="stylesheet" href="https://portalstatic-cn.vivo.com/css/cn-base.css" id="vivo-cn-base-css">
+<link rel="stylesheet" href="https://portalstatic-cn.vivo.com/css/cn-video-js.min.css" id="vivo-cn-video-js-css">
+<link rel="stylesheet" href="https://h5.vivo.com.cn/pcvivo/productCss/supplementProductCss.css" id="vivo-product-supplement-css">
+<link rel="stylesheet" href="https://portalstatic-cn.vivo.com/_nuxt/entry.B834TZnp.css" crossorigin>
+<link rel="stylesheet" href="https://portalstatic-cn.vivo.com/_nuxt/default.65LdwTmY.css" crossorigin>
+<link rel="stylesheet" href="https://portalstatic-cn.vivo.com/_nuxt/index.C7cftnEl.css" crossorigin>
+<link rel="stylesheet" href="https://portalstatic-cn.vivo.com/_nuxt/index.DMi5mYwm.css" crossorigin>
+<link rel="modulepreload" as="script" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/DliVVojO.js">
+<link rel="modulepreload" as="script" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/swY2moNO.js">
+<link rel="modulepreload" as="script" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/BWjUOQWb.js">
+<link rel="modulepreload" as="script" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/gz6Dlv0R.js">
+<link rel="modulepreload" as="script" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/CyfQnM1W.js">
+<link rel="modulepreload" as="script" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/B9CUtv_L.js">
+<link rel="preload" as="fetch" fetchpriority="low" crossorigin="anonymous" href="https://portalstatic-cn.vivo.com/_nuxt/builds/meta/57c42470-b277-41f4-90d9-4b64f500e6c8.json">
+<link rel="dns-prefetch" href="//asia-exstatic.vivoglobal.com">
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+<link rel="dns-prefetch" href="//asia-exstatic-vivofs.vivo.com">
+<link rel="prefetch" as="image" type="image/x-icon" href="https://portalstatic-cn.vivo.com/_nuxt/favicon-iqoo.D8dd7MA_.ico">
+<link rel="prefetch" as="style" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/noHF.D4URACS4.css">
+<link rel="prefetch" as="script" crossorigin href="https://portalstatic-cn.vivo.com/_nuxt/B40WWwIr.js">
+<link rel="prefetch" as="image" type="image/png" href="https://portalstatic-cn.vivo.com/_nuxt/wechat.DfvKeLMW.png">
+<link rel="prefetch" as="image" type="image/png" href="https://portalstatic-cn.vivo.com/_nuxt/vivo-miniProgram.BQ7dTvNJ.png">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta name="format-detection" content="telephone=no,email=no">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,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">
+<meta name="keywords" content="funtouchos,funtouchos3,funtouch os,funtouch os3,vivo操作系统,vivo手机系统,android,安卓">
+<meta name="description" content="Funtouch OS 秉持 Original Design 理念，采用中纯度水彩色、平衡的图标性格表达，仿物理世界的直感操作和交互动效，让形式追随功能，在虚拟与现实中探索更为自然的平衡。">
+<meta name="robots" content>
+<meta name="facebook-domain-verification" content="0q2ryjis6o0fzvez07tvvutzgde34a">
+<meta name="google-site-verification" content="E-7gZJW4cW6Cf7VJQpdOKF6gQ6mwyrfguXubRyJSW4M">
+<script type="text/javascript">
+        var sZeus = document.createElement('script');
+        sZeus.onload = sZeus.onreadystatechange = function () {
+          if (!this.readyState || this.readyState === 'loaded' || this.readyState === 'complete') {
+            sZeus.onload = sZeus.onreadystatechange = null;
+            window.VMonitor && window.VMonitor.init({
+              id: 'lsYkPuCe',  // 页面应用id
+              reportRender: false,  // 手动性能上报
+              zeusEnv: 'prd',  // zeusEnv：环境区分。prod：生产；test：测试；pre:预发
+              branchName: 'master'  // branchName: 业务代码git分支名
+            });
+          }
+        };
+        sZeus.src = '//sentinelapi.vivo.com.cn/jssdk/vmonitor.min.js';
+        document.head.appendChild(sZeus);
+      </script>
+<link rel="stylesheet" href="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1607658219277/favicon.ico" id="vivo-overview-css-1">
+<link rel="stylesheet" href="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1607658219277/css/video-js.min_3a2db9d.css" id="vivo-overview-css-2">
+<link rel="stylesheet" href="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1607658219277/css/index.min.css" id="vivo-overview-css-3">
+<script id="vivo-cn-global-var">var gloablVAR = {
+          videoMaskTheme: "white",
+          pageTAG: 3,
+          h5SdkSwitch: "true",
+        };</script>
+<script id="vivo-product-image-host">var IMAGE_HOST = "https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1607658219277/";</script>
+<script type="module" src="https://portalstatic-cn.vivo.com/_nuxt/DliVVojO.js" crossorigin></script><script type="module">import.meta.url;import("_").catch(()=>1);(async function*(){})().next();if(location.protocol!="file:"){window.__vite_is_modern_browser=true}</script><script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy chunks, syntax error above and the same error below should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script></head><body><div id="__nuxt"><div class="app"><!--[--><header id="gw_header" class="new-head-wrap"><!----><div class="mini-head"><div id="vivo-head-wrap"
+     class="vp-head   vp-head-theme-black"
+     >
+    <div id="cn-head-theme"></div>
+    <div class="vp-head-wrap">
+            <div class="vp-head-wrap-pc">
+                <div class="vp-head-topbar-pc">
+                    <div>
+                        <ul class="vp-head-topbar-navs">
+                                <li><a href=""
+                                       data-head-click-stat="cfrom=01|03|002|003&name=品牌">品牌</a>
+                                </li>
+                                <li><a href=""
+                                       data-head-click-stat="cfrom=01|03|002|003&name=OriginOS">OriginOS</a>
+                                </li>
+                                <li><a href=""
+                                       data-head-click-stat="cfrom=01|03|002|003&name=体验店">体验店</a>
+                                </li>
+                                <li><a href=""
+                                       data-head-click-stat="cfrom=01|03|002|003&name=官网社区">官网社区</a>
+                                </li>
+                        </ul>
+                        <div class="vp-head-top-user">
+                                <a href="https://shopact.vivo.com.cn/pcspace/wk221129f1431101"
+                                   class="vp-vivo-app">
+                                    <span>下载APP</span>
+                                </a>
+                            <a class="vp-user-shopcart" href="https://shop.vivo.com.cn/shoppingcart"
+                               data-head-click-stat="cfrom=01|03|002|002&position=1"></a>
+                            <div class="vp-user-login-box">
+                                <span class="vp-head-member-login">个人中心</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vp-head-mainbar-pc" >
+                    <div class="vp-head-logo">
+                        <a href="//www.vivo.com.cn" role="link" aria-label="vivo" data-head-click-stat="cfrom=01|03|002|001&name=vivo"> </a>
+                    </div>
+                    <div class="vp-head-site">
+                        <div class="vp-head-site-wrap">
+                            <div class="vp-head-site-navs">
+                                <div class="vp-head-site-navs-container">
+                                        <ul class="vp-head-site-navs-7">
+                                                <li >
+                                                    <a
+                                                        id="" href=""
+                                                        data-url=""
+                                                        class="vp-vivo-head-"
+                                                        data-head-click-stat="cfrom=01|03|002|003&name=X系列"><span
+                                                            class="main">X系列</span><span
+                                                            class="sub">X</span></a>
+                                                </li>
+                                                <li >
+                                                    <a
+                                                        id="" href=""
+                                                        data-url=""
+                                                        class="vp-vivo-head-"
+                                                        data-head-click-stat="cfrom=01|03|002|003&name=S系列"><span
+                                                            class="main">S系列</span><span
+                                                            class="sub">S</span></a>
+                                                </li>
+                                                <li >
+                                                    <a
+                                                        id="" href=""
+                                                        data-url=""
+                                                        class="vp-vivo-head-"
+                                                        data-head-click-stat="cfrom=01|03|002|003&name=Y系列"><span
+                                                            class="main">Y系列</span><span
+                                                            class="sub">Y</span></a>
+                                                </li>
+                                                <li >
+                                                    <a
+                                                        id="" href=""
+                                                        data-url=""
+                                                        class="vp-vivo-head-"
+                                                        data-head-click-stat="cfrom=01|03|002|003&name=iQOO手机"><span
+                                                            class="main">iQOO手机</span><span
+                                                            class="sub">iQOO手机</span></a>
+                                                </li>
+                                                <li >
+                                                    <a
+                                                        id="" href=""
+                                                        data-url=""
+                                                        class="vp-vivo-head-"
+                                                        data-head-click-stat="cfrom=01|03|002|003&name=智能硬件"><span
+                                                            class="main">智能硬件</span><span
+                                                            class="sub">智能硬件</span></a>
+                                                </li>
+                                                <li >
+                                                    <a
+                                                        id="" href=""
+                                                        data-url=""
+                                                        class="vp-vivo-head-"
+                                                        data-head-click-stat="cfrom=01|03|002|003&name=商城"><span
+                                                            class="main">商城</span><span
+                                                            class="sub">商城</span></a>
+                                                </li>
+                                                <li >
+                                                    <a
+                                                        id="" href=""
+                                                        data-url=""
+                                                        class="vp-vivo-head-"
+                                                        data-head-click-stat="cfrom=01|03|002|003&name=服务"><span
+                                                            class="main">服务</span><span
+                                                            class="sub">服务</span></a>
+                                                </li>
+                                        </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vp-head-search-btn">
+                        <div>
+                            <span class="vp-head-search-open"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vp-head-wrap-wap vp-head-show-app">
+                <div class="vp-head-wap-common-box">
+                    <div class="vp-head-download common-header-suspended">
+            <div data-head-click-stat="cfrom=04|03|062|062" class="vp-head-download-click">
+            <div class="vp-head-download-img">
+                <img class="vp-head-img-floating vp-head-lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" alt="官网APP">
+                <img class="vp-head-img-button vp-head-lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" alt="按钮">
+            </div>
+            <div class="vp-head-download-wx"></div>
+        </div>
+    <span data-head-click-stat="cfrom=05|03|062|063" class="vp-head-download-close"></span>
+
+    <script type="text/javascript">
+        var vpHeaderFloat = {
+            pageBoundary: 720,
+            needDeeplink: (!window.H5Interface && 0) ? 1 : 0,
+            deeplinkUrl: '',
+            blockBrowser: 'DeviceType\/tablet|UCBrowser|VivoSpace|AlipayClient|AliApp\\(AP|wxwork|miniProgram',
+            blockCid: 'toutiao_pz|tt-sem|w-1-kp-x70|xiaov',
+            blockCookie: 'DeviceType\/tablet|UCBrowser|VivoSpace|AlipayClient|AliApp\\(AP|wxwork|miniProgram',
+            isVivo: '1',
+            target: 'vivoportal',
+            wxTokenSwitch: 'true',
+            imgObj: {
+                'vivoFloatingImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753166059999/88be9f038031c75c78c4ed227e6fbeb1.png',
+                'vivoButtonImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753166071502/28e0ff5547eab74a14c51ea9091a26d8.png',
+                'vivoDownLoadUrl': 'https://h5.vivo.com.cn/mall/download/index.html',
+                'floatingImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753168266859/c092cf0613b0504e542cd7cd948ff1d5.png',
+                'buttonImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753168290953/e3eb324e70b13ec24fa84a1ae9f2db19.png',
+                'downLoadUrl': 'https://h5.vivo.com.cn/mall/download/index.html',
+            }
+        }
+    </script>
+</div>
+                    <div class="vp-head-common">
+                        <span class="vp-head-left-feature" role="button" aria-label="菜单" aria-expanded="false"></span>
+                        <div class="vp-head-logo" aria-label="vivo">
+                            <a href="//www.vivo.com.cn"></a>
+                        </div>
+                        <div class="vp-head-right-feature">
+                            <a href="//www.vivo.com.cn/search/index" class="vp-head-btns-search search-index-link" aria-label="搜索"></a>
+                                <a class="vp-head-btns-shop" href="//shop.vivo.com.cn/" aria-label="商城"
+                                   data-head-click-stat="cfrom=1042"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+
+<script type="text/javascript" id="vp-head-header-script">
+    var vpHeader = {
+        pageType: 'responsive',
+        pageBoundary: 1199,
+        clientId: '30',
+        memberIsCus: false,
+        headerType: 0,
+        target: 'vivoportal',
+        ceilingType: 0,
+        showDownLink: 1,
+        darkWords: [],
+        headTheme: 'black'
+    };
+    var VP_Emmiter;
+</script>
+<style>
+
+</style>
+</div></header><main><!--[--><div class="product-detail is-cn" data-v-0e028e03><!----><div id="vivo-product-resource" class="cn-funtouchos" data-v-0e028e03><div id="vivo-product-wrap" class="unvisible J_replace_content"> 
+ <section class="fos10-section-kv animate" animate> 
+  <figure class="bg-all"></figure> 
+  <div class="inner-content"> 
+   <figure class="f-a"></figure> 
+   <figure class="f-logo"></figure> 
+   <a class="fos_video_btn" href="javascript:void(0);" data-trigger="popvideo" data-pop-video="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/files/1576494971563/20191216/FuntouchOS10_B.mp4">
+    <figure class="f-btn"></figure></a> 
+  </div> 
+ </section> 
+ <section class="fos10-section-origin" animate> 
+  <figure class="bg-all"></figure> 
+  <div class="content"> 
+   <div class="fos10-title">
+    探索自然，回归本源
+   </div> 
+   <div class="fos10-desc">
+    回归最真实、自然的感官状态，不为博取眼球，寻求体验上短暂的刺激。Funtouch OS 秉持 Original Design 理念，采用中纯度水彩色、平衡的图标性格表达，仿物理世界的直感操作和交互动效，让形式追随功能，在虚拟与现实中探索更为自然的平衡。
+   </div> 
+  </div> 
+  <div class="figures"> 
+   <figure class="f-note"></figure> 
+   <figure class="f-choice"></figure> 
+   <figure class="f-clock"></figure> 
+   <figure class="f-command"></figure> 
+   <figure class="f-contact"></figure> 
+   <figure class="f-optimization"></figure> 
+   <figure class="f-recorder"></figure> 
+   <figure class="f-timer"></figure> 
+   <figure class="f-compass"></figure> 
+   <figure class="bg-blur"></figure> 
+  </div> 
+ </section> 
+ <section class="fos10-section-icons" animate> 
+  <div class="content"> 
+   <div class="fos10-title">
+    全新桌面图标
+   </div> 
+   <div class="fos10-desc">
+    去风格化的视觉表达，还原物体最原始直观的印象，更纯正自然的第一色环色彩，恰如其分的黑白灰区域分布，营造轻盈、舒适的感官体验。
+   </div> 
+  </div> 
+  <div class="figures"> 
+   <figure class="f-clock"></figure> 
+   <figure class="f-music"></figure> 
+   <figure class="f-theme"></figure> 
+   <figure class="f-appstore"></figure> 
+   <figure class="f-calendar"></figure> 
+   <figure class="f-settings"></figure> 
+   <figure class="f-safe"></figure> 
+   <figure class="f-note"></figure> 
+   <figure class="f-vivo"></figure> 
+   <figure class="f-album"></figure> 
+   <figure class="f-file"></figure> 
+   <figure class="f-weather"></figure> 
+  </div> 
+ </section> 
+ <section class="fos10-section-offscreen" animate> 
+  <div class="bg-color"></div> 
+  <figure id="offscreen-bg" class="bg-all"></figure> 
+  <div class="content"> 
+   <div class="fos10-title">
+    独属的一方世界，感观熄屏美学
+   </div> 
+   <div class="fos10-desc">
+    全新感观熄屏时钟给你带来静谧的时光提醒，在如此快节奏的高压时代下感受时间变化的魅力与诗意，让时间的流逝变得温柔而美好。
+   </div> 
+  </div> 
+  <div class="figures"> 
+   <video id="offscreen-video1" muted="true" src="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1607658219277/images/fos10_offscreen_frame.mp4" playsinline="true" webkit-playsinline="true"></video> 
+   <figure class="f-time"></figure> 
+   <figure class="f-frame"></figure> 
+  </div> 
+ </section> 
+ <section class="fos10-section-wallpaper"> 
+  <video id="wallpaper-video1" preload muted="true" src="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1607658219277/images/fos10_wallpaper_bg1.mp4" playsinline="true" webkit-playsinline="true"></video> 
+  <video id="wallpaper-video2" style="display: none;" preload muted="true" src="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1607658219277/images/fos10_wallpaper_bg2.mp4" playsinline="true" webkit-playsinline="true"></video> 
+  <div class="content"> 
+   <div class="fos10-title">
+    动态壁纸，技术与美学的突破
+   </div> 
+   <div class="fos10-desc">
+    vivo Wallpaper x Roman De Giuli
+   </div> 
+   <div class="fos10-desc">
+    携手德国艺术家 Roman，通过微距流体摄影模拟海水交汇产生的奇妙变化，重塑自然界的海洋之谜。
+   </div> 
+  </div> 
+  <figure class="f-frame"></figure> 
+  <div id="wallpaper-btn" class="f-text">
+   更换样式
+  </div> 
+ </section> 
+ <section class="fos10-section-service" animate> 
+  <div class="content" animate> 
+   <div class="inner-text"> 
+    <div class="fos10-title">
+     Jovi 贴心服务
+    </div> 
+    <div class="fos10-desc">
+     Jovi 能够为你提供多种贴心服务，帮助你护理肤质，让出行更便捷更省心。
+    </div> 
+   </div> 
+  </div> 
+  <div class="fos10-cards figures"> 
+   <figure class="card-item f-health" animate></figure> 
+   <figure class="card-item f-skin" animate></figure> 
+   <figure class="card-item active f-boarding" animate></figure> 
+   <figure class="card-item f-reminder" animate></figure> 
+  </div> 
+ </section> 
+ <section class="fos10-section-things" animate> 
+  <figure class="bg-a"></figure> 
+  <div class="content fos10-selects-related"> 
+   <div class="left"> 
+    <div class="fos10-title">
+     Jovi 物联
+    </div> 
+    <div class="fos10-desc">
+     Jovi 物联能够简单、智能、高效的管理你的智能设备，多设备联动，为你营造轻松惬意的生活体验。回家开门、夜间起床、室内运动等场景下，家里的智能设备联动开启、关闭，你的家就是这样“善解人意”。
+    </div> 
+    <div class="fos10-selects figures"> 
+     <figure class="select-item f-home active" data-name="s1"></figure> 
+     <figure class="select-item f-intelligence" data-name="s2"></figure> 
+    </div> 
+   </div> 
+   <div class="phones"> 
+    <figure class="f-phone1"></figure> 
+    <figure class="f-phone2"></figure> 
+   </div> 
+  </div> 
+ </section> 
+ <section class="fos10-section-favorite fos10-tabs-related" animate> 
+  <figure class="bg-all"></figure> 
+  <div class="content"> 
+   <div class="inner-content"> 
+    <div class="inner-text"> 
+     <div class="fos10-title">
+      Jovi 收藏
+     </div> 
+     <div class="fos10-tabs"> 
+      <div class="tab-bar"></div> 
+      <div class="tab-item active" animate data-name="tab1"> 
+       <div class="fos10-subtitle">
+        全局收藏能力
+       </div> 
+       <div class="fos10-desc">
+        双指长按屏幕即可将文章、文件、商品、视频、小说、商铺等内容添加到Jovi 收藏，你可以在Jovi 收藏中统一管理、高效检索收藏过的内容。
+       </div> 
+       <figure class="f-phone-m"></figure> 
+      </div> 
+      <div class="tab-item" animate data-name="tab2"> 
+       <div class="fos10-subtitle">
+        收藏磁钉
+       </div> 
+       <div class="fos10-desc">
+        阅读文章无需担心中途打断，将文章放“磁钉”就可以安心去做其它事，完事后可以通过“磁钉”打开之前阅读的文章。
+       </div> 
+       <video class="f-video-m" autoplay loop muted="true" src="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1607658219277/images/fos10_fmm.mp4" playsinline="true" webkit-playsinline="true"></video> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="figures"> 
+     <figure class="f-phone"></figure> 
+     <video id="favorite-video1" autoplay loop muted="true" src="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1607658219277/images/fos10_fmm.mp4" playsinline="true" webkit-playsinline="true"></video> 
+    </div> 
+   </div> 
+  </div> 
+ </section> 
+ <section class="fos10-section-drive" animate> 
+  <div class="content"> 
+   <div class="inner-text"> 
+    <div class="fos10-title">
+     驾驶场景
+    </div> 
+    <div class="fos10-desc">
+     在驾驶场景中，无需解锁手机，直接在锁屏上就可以使用快捷功能，如一键开启i音乐、快速拨打电话/发送微信并通过Jovi 语音选择收信人、语音播报微信消息、出停车场时快速打开“扫码付”。抛开驾车过程中会遇到的繁琐步骤，让驾车变得更简洁、省心。
+    </div> 
+   </div> 
+   <figure class="f-phone"></figure> 
+  </div> 
+  <div class="bg-b"> 
+   <figure class="bg-box1"></figure> 
+   <figure class="bg-box2"></figure> 
+   <figure class="bg-box3"></figure> 
+   <figure class="bg-box4"></figure> 
+  </div> 
+ </section> 
+ <section class="fos10-section-fonts fos10-tabs-related" animate> 
+  <figure class="bg-all"></figure> 
+  <div class="content"> 
+   <div class="inner-text"> 
+    <div class="fos10-title">
+     字体定制
+    </div> 
+    <div class="fos10-desc">
+     你也可以成为“书法家”，在屏幕上撰写一段汉字，i 主题的字体定制功能会根据字迹自动为你生成个性化字体包，并在手机上全局应用字体包，整台手机都是你的“书法展”。
+    </div> 
+    <div class="fos10-tabs"> 
+     <div class="tab-bar"></div> 
+     <div class="tab-item active" data-name="tab1"> 
+      <div class="fos10-subtitle">
+       生成字体
+      </div> 
+      <figure class="f-phone1-m"></figure> 
+      <figure class="f-phone2-m"></figure> 
+     </div> 
+     <div class="tab-item" data-name="tab2"> 
+      <div class="fos10-subtitle">
+       应用字体
+      </div> 
+      <figure class="f-phone3-m"></figure> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="figures"> 
+    <figure class="f-phone1"></figure> 
+    <figure class="f-phone2"></figure> 
+    <figure class="f-phone3"></figure> 
+   </div> 
+  </div> 
+ </section> 
+ <section class="fos10-section-baby fos10-selects-related" animate> 
+  <figure class="bg-all"></figure> 
+  <div class="content"> 
+   <div class="inner-text"> 
+    <div class="fos10-title">
+     儿童模式
+    </div> 
+    <div class="fos10-desc">
+     有了儿童模式，你不用再担心孩子无节制的玩手机了。儿童模式会根据孩子的年龄段推荐合适的内容，让孩子在娱乐的同时获得成长。家长可以通过儿童模式生成的“成长报告”了解孩子的使用记录，促进与孩子的沟通。
+    </div> 
+    <div class="fos10-selects figures"> 
+     <figure class="select-item f-03" data-name="s1"></figure> 
+     <figure class="select-item f-612" data-name="s2"></figure> 
+    </div> 
+   </div> 
+   <div class="phones"> 
+    <figure class="f-phone1"></figure> 
+    <figure class="f-phone2"></figure> 
+   </div> 
+  </div> 
+ </section> 
+ <section class="fos10-section-cloud fos10-tabs-related" animate> 
+  <div class="content"> 
+   <figure class="bg-a"></figure> 
+   <div class="inner-text"> 
+    <div class="fos10-title">
+     云服务
+    </div> 
+    <div class="fos10-tabs"> 
+     <div class="tab-bar"></div> 
+     <figure class="f-phone1-m"></figure> 
+     <div class="tab-item active" data-name="tab1"> 
+      <div class="fos10-subtitle">
+       VIP 权益
+      </div> 
+      <div class="fos10-desc">
+       VIP 用户尊享6大权益：超大存储空间、大文件上传、赠送手机主题、尊享身份标识、广告免打扰、海量数据上传。
+      </div> 
+     </div> 
+     <figure class="f-phone2-m"></figure> 
+     <div class="tab-item" data-name="tab2"> 
+      <div class="fos10-subtitle">
+       免费存储空间
+      </div> 
+      <div class="fos10-desc">
+       5G存储空间免费使用，最高可升级至1T超大存储空间，满足你的“大胃口”。
+      </div> 
+     </div> 
+     <figure class="f-phone3-m"></figure> 
+     <div class="tab-item" data-name="tab3"> 
+      <div class="fos10-subtitle">
+       一键备份
+      </div> 
+      <div class="fos10-desc">
+       手机上各项资料一键备份至云端，无需繁琐步骤。
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="figures"> 
+    <figure class="f-phone1"></figure> 
+    <figure class="f-phone2"></figure> 
+    <figure class="f-phone3"></figure> 
+   </div> 
+  </div> 
+ </section> 
+ <section class="fos10-section-search" animate> 
+  <div class="content"> 
+   <div class="inner-text"> 
+    <div class="fos10-title">
+     全局搜索
+    </div> 
+    <div class="fos10-desc">
+     桌面下滑即可进入全局搜索，它懂你心思，深层理解语义，能够呈现更合你意图的搜索结果。
+    </div> 
+   </div> 
+   <figure class="f-phone"></figure> 
+  </div> 
+  <div class="bg-b"> 
+   <div class="bg-inner"> 
+    <figure class="bg-input"></figure> 
+    <figure class="bg-history"></figure> 
+   </div> 
+  </div> 
+ </section> 
+ <section class="fos10-section-album fos10-tabs-related"> 
+  <div class="content c1" animate> 
+   <div class="fos10-title">
+    相册
+   </div> 
+   <div class="figures"> 
+    <figure class="f-phone1"></figure> 
+    <figure class="f-phone2"></figure> 
+    <figure class="f-phone3"></figure> 
+   </div> 
+  </div> 
+  <div class="content c2" animate> 
+   <div class="inner-text"> 
+    <div class="fos10-subtitle">
+     AI 剪辑
+    </div> 
+    <div class="fos10-desc">
+     智能识别视频中的人物和精彩片段，自动生成专属精彩故事短片。提供多套滤镜、音乐、字幕以及快慢播特效等，让您的视频更有格调。
+    </div> 
+   </div> 
+   <figure class="f-phone1-m"></figure> 
+  </div> 
+  <div class="content c3" animate> 
+   <div class="inner-text"> 
+    <div class="fos10-tabs"> 
+     <div class="tab-bar"></div> 
+     <figure class="f-tab1-m"></figure> 
+     <div class="tab-item active" data-name="tab1"> 
+      <div class="fos10-subtitle">
+       AI 抠图
+      </div> 
+      <div class="fos10-desc">
+       AI 抠图可通过算法识别将照片中的人物与背景分离，你可以自由缩放人物大小和调整角度，加上相册提供的丰富背景图库，一张照片可以搭配出各式各样的趣味效果。
+      </div> 
+     </div> 
+     <figure class="f-tab2-m"></figure> 
+     <div class="tab-item" data-name="tab2"> 
+      <div class="fos10-subtitle">
+       趣美颜
+      </div> 
+      <div class="fos10-desc">
+       强大的补妆功能，丰富的妆容效果，随心打造你的专属美颜。
+      </div> 
+     </div> 
+     <figure class="f-tab3-m"></figure> 
+     <div class="tab-item" data-name="tab3"> 
+      <div class="fos10-subtitle">
+       光影光效
+      </div> 
+      <div class="fos10-desc">
+       无需高端摄影器材，轻松点击一下就可以为你的照片增加充满艺术感的光影效果。
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="figures"> 
+    <figure class="f-tab1"></figure> 
+    <figure class="f-tab2"></figure> 
+    <figure class="f-tab3"></figure> 
+   </div> 
+  </div> 
+ </section> 
+ <div class="fos10-statement"> 
+  <div class="content"> 
+   <div class="label">
+    备注：
+   </div> 
+   <div class="value">
+    本页面中的 UI 图、手机轮廓或手机外观图仅用于效果展示，不同机型的UI、功能可能会有所差异，请以手机实际呈现的 UI、提供的功能为准。如有疑问请向我们的客服咨询。
+   </div> 
+  </div> 
+ </div> 
+</div></div></div><!--]--><span></span></main><!----><!--]--></div></div><div id="teleports"></div><script src="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1607658219277/script/video-js.min_ab7bcb8.js" type="text/javascript" id="vivo-overview-js-1"></script>
+<script src="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1607658219277/script/lib.js" type="text/javascript" id="vivo-overview-js-2"></script>
+<script src="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1607658219277/script/funtouch.js" type="text/javascript" id="vivo-overview-js-3"></script>
+<script src="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1607658219277/script/index.min.js" type="text/javascript" id="vivo-overview-js-4"></script>
+<script type="application/json" data-nuxt-data="nuxt-app" data-ssr="true" id="__NUXT_DATA__">[["ShallowReactive",1],{"data":2,"state":39,"once":108,"_errors":110,"serverRendered":38,"path":100},["ShallowReactive",3],{"$ffaGpnqX0jvaAeWyQxk6CrA5IBgbCPKm-vs9iZWxL8Wk":4,"$f0vdddanqucQcaYn9RHF0upsRNpQr8oU4NHYBk_FoWV8":23},{"success":5,"code":6,"msg":7,"data":8},"1","200","success",{"pageResource":9,"cssArray":10,"jsArray":14,"watermark":19,"navigationFontColor":20,"resourceDomain":21,"vivoPortal3D":22},"\u003Cdiv id=\"vivo-product-wrap\" class=\"unvisible J_replace_content\"> \n \u003Csection class=\"fos10-section-kv animate\" animate> \n  \u003Cfigure class=\"bg-all\">\u003C/figure> \n  \u003Cdiv class=\"inner-content\"> \n   \u003Cfigure class=\"f-a\">\u003C/figure> \n   \u003Cfigure class=\"f-logo\">\u003C/figure> \n   \u003Ca class=\"fos_video_btn\" href=\"javascript:void(0);\" data-trigger=\"popvideo\" data-pop-video=\"https://wwwstatic.vivo.com.cn/vivoportal/files/resource/files/1576494971563/20191216/FuntouchOS10_B.mp4\">\n    \u003Cfigure class=\"f-btn\">\u003C/figure>\u003C/a> \n  \u003C/div> \n \u003C/section> \n \u003Csection class=\"fos10-section-origin\" animate> \n  \u003Cfigure class=\"bg-all\">\u003C/figure> \n  \u003Cdiv class=\"content\"> \n   \u003Cdiv class=\"fos10-title\">\n    探索自然，回归本源\n   \u003C/div> \n   \u003Cdiv class=\"fos10-desc\">\n    回归最真实、自然的感官状态，不为博取眼球，寻求体验上短暂的刺激。Funtouch OS 秉持 Original Design 理念，采用中纯度水彩色、平衡的图标性格表达，仿物理世界的直感操作和交互动效，让形式追随功能，在虚拟与现实中探索更为自然的平衡。\n   \u003C/div> \n  \u003C/div> \n  \u003Cdiv class=\"figures\"> \n   \u003Cfigure class=\"f-note\">\u003C/figure> \n   \u003Cfigure class=\"f-choice\">\u003C/figure> \n   \u003Cfigure class=\"f-clock\">\u003C/figure> \n   \u003Cfigure class=\"f-command\">\u003C/figure> \n   \u003Cfigure class=\"f-contact\">\u003C/figure> \n   \u003Cfigure class=\"f-optimization\">\u003C/figure> \n   \u003Cfigure class=\"f-recorder\">\u003C/figure> \n   \u003Cfigure class=\"f-timer\">\u003C/figure> \n   \u003Cfigure class=\"f-compass\">\u003C/figure> \n   \u003Cfigure class=\"bg-blur\">\u003C/figure> \n  \u003C/div> \n \u003C/section> \n \u003Csection class=\"fos10-section-icons\" animate> \n  \u003Cdiv class=\"content\"> \n   \u003Cdiv class=\"fos10-title\">\n    全新桌面图标\n   \u003C/div> \n   \u003Cdiv class=\"fos10-desc\">\n    去风格化的视觉表达，还原物体最原始直观的印象，更纯正自然的第一色环色彩，恰如其分的黑白灰区域分布，营造轻盈、舒适的感官体验。\n   \u003C/div> \n  \u003C/div> \n  \u003Cdiv class=\"figures\"> \n   \u003Cfigure class=\"f-clock\">\u003C/figure> \n   \u003Cfigure class=\"f-music\">\u003C/figure> \n   \u003Cfigure class=\"f-theme\">\u003C/figure> \n   \u003Cfigure class=\"f-appstore\">\u003C/figure> \n   \u003Cfigure class=\"f-calendar\">\u003C/figure> \n   \u003Cfigure class=\"f-settings\">\u003C/figure> \n   \u003Cfigure class=\"f-safe\">\u003C/figure> \n   \u003Cfigure class=\"f-note\">\u003C/figure> \n   \u003Cfigure class=\"f-vivo\">\u003C/figure> \n   \u003Cfigure class=\"f-album\">\u003C/figure> \n   \u003Cfigure class=\"f-file\">\u003C/figure> \n   \u003Cfigure class=\"f-weather\">\u003C/figure> \n  \u003C/div> \n \u003C/section> \n \u003Csection class=\"fos10-section-offscreen\" animate> \n  \u003Cdiv class=\"bg-color\">\u003C/div> \n  \u003Cfigure id=\"offscreen-bg\" class=\"bg-all\">\u003C/figure> \n  \u003Cdiv class=\"content\"> \n   \u003Cdiv class=\"fos10-title\">\n    独属的一方世界，感观熄屏美学\n   \u003C/div> \n   \u003Cdiv class=\"fos10-desc\">\n    全新感观熄屏时钟给你带来静谧的时光提醒，在如此快节奏的高压时代下感受时间变化的魅力与诗意，让时间的流逝变得温柔而美好。\n   \u003C/div> \n  \u003C/div> \n  \u003Cdiv class=\"figures\"> \n   \u003Cvideo id=\"offscreen-video1\" muted=\"true\" src=\"https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1607658219277/images/fos10_offscreen_frame.mp4\" playsinline=\"true\" webkit-playsinline=\"true\">\u003C/video> \n   \u003Cfigure class=\"f-time\">\u003C/figure> \n   \u003Cfigure class=\"f-frame\">\u003C/figure> \n  \u003C/div> \n \u003C/section> \n \u003Csection class=\"fos10-section-wallpaper\"> \n  \u003Cvideo id=\"wallpaper-video1\" preload muted=\"true\" src=\"https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1607658219277/images/fos10_wallpaper_bg1.mp4\" playsinline=\"true\" webkit-playsinline=\"true\">\u003C/video> \n  \u003Cvideo id=\"wallpaper-video2\" style=\"display: none;\" preload muted=\"true\" src=\"https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1607658219277/images/fos10_wallpaper_bg2.mp4\" playsinline=\"true\" webkit-playsinline=\"true\">\u003C/video> \n  \u003Cdiv class=\"content\"> \n   \u003Cdiv class=\"fos10-title\">\n    动态壁纸，技术与美学的突破\n   \u003C/div> \n   \u003Cdiv class=\"fos10-desc\">\n    vivo Wallpaper x Roman De Giuli\n   \u003C/div> \n   \u003Cdiv class=\"fos10-desc\">\n    携手德国艺术家 Roman，通过微距流体摄影模拟海水交汇产生的奇妙变化，重塑自然界的海洋之谜。\n   \u003C/div> \n  \u003C/div> \n  \u003Cfigure class=\"f-frame\">\u003C/figure> \n  \u003Cdiv id=\"wallpaper-btn\" class=\"f-text\">\n   更换样式\n  \u003C/div> \n \u003C/section> \n \u003Csection class=\"fos10-section-service\" animate> \n  \u003Cdiv class=\"content\" animate> \n   \u003Cdiv class=\"inner-text\"> \n    \u003Cdiv class=\"fos10-title\">\n     Jovi 贴心服务\n    \u003C/div> \n    \u003Cdiv class=\"fos10-desc\">\n     Jovi 能够为你提供多种贴心服务，帮助你护理肤质，让出行更便捷更省心。\n    \u003C/div> \n   \u003C/div> \n  \u003C/div> \n  \u003Cdiv class=\"fos10-cards figures\"> \n   \u003Cfigure class=\"card-item f-health\" animate>\u003C/figure> \n   \u003Cfigure class=\"card-item f-skin\" animate>\u003C/figure> \n   \u003Cfigure class=\"card-item active f-boarding\" animate>\u003C/figure> \n   \u003Cfigure class=\"card-item f-reminder\" animate>\u003C/figure> \n  \u003C/div> \n \u003C/section> \n \u003Csection class=\"fos10-section-things\" animate> \n  \u003Cfigure class=\"bg-a\">\u003C/figure> \n  \u003Cdiv class=\"content fos10-selects-related\"> \n   \u003Cdiv class=\"left\"> \n    \u003Cdiv class=\"fos10-title\">\n     Jovi 物联\n    \u003C/div> \n    \u003Cdiv class=\"fos10-desc\">\n     Jovi 物联能够简单、智能、高效的管理你的智能设备，多设备联动，为你营造轻松惬意的生活体验。回家开门、夜间起床、室内运动等场景下，家里的智能设备联动开启、关闭，你的家就是这样“善解人意”。\n    \u003C/div> \n    \u003Cdiv class=\"fos10-selects figures\"> \n     \u003Cfigure class=\"select-item f-home active\" data-name=\"s1\">\u003C/figure> \n     \u003Cfigure class=\"select-item f-intelligence\" data-name=\"s2\">\u003C/figure> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"phones\"> \n    \u003Cfigure class=\"f-phone1\">\u003C/figure> \n    \u003Cfigure class=\"f-phone2\">\u003C/figure> \n   \u003C/div> \n  \u003C/div> \n \u003C/section> \n \u003Csection class=\"fos10-section-favorite fos10-tabs-related\" animate> \n  \u003Cfigure class=\"bg-all\">\u003C/figure> \n  \u003Cdiv class=\"content\"> \n   \u003Cdiv class=\"inner-content\"> \n    \u003Cdiv class=\"inner-text\"> \n     \u003Cdiv class=\"fos10-title\">\n      Jovi 收藏\n     \u003C/div> \n     \u003Cdiv class=\"fos10-tabs\"> \n      \u003Cdiv class=\"tab-bar\">\u003C/div> \n      \u003Cdiv class=\"tab-item active\" animate data-name=\"tab1\"> \n       \u003Cdiv class=\"fos10-subtitle\">\n        全局收藏能力\n       \u003C/div> \n       \u003Cdiv class=\"fos10-desc\">\n        双指长按屏幕即可将文章、文件、商品、视频、小说、商铺等内容添加到Jovi 收藏，你可以在Jovi 收藏中统一管理、高效检索收藏过的内容。\n       \u003C/div> \n       \u003Cfigure class=\"f-phone-m\">\u003C/figure> \n      \u003C/div> \n      \u003Cdiv class=\"tab-item\" animate data-name=\"tab2\"> \n       \u003Cdiv class=\"fos10-subtitle\">\n        收藏磁钉\n       \u003C/div> \n       \u003Cdiv class=\"fos10-desc\">\n        阅读文章无需担心中途打断，将文章放“磁钉”就可以安心去做其它事，完事后可以通过“磁钉”打开之前阅读的文章。\n       \u003C/div> \n       \u003Cvideo class=\"f-video-m\" autoplay loop muted=\"true\" src=\"https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1607658219277/images/fos10_fmm.mp4\" playsinline=\"true\" webkit-playsinline=\"true\">\u003C/video> \n      \u003C/div> \n     \u003C/div> \n    \u003C/div> \n    \u003Cdiv class=\"figures\"> \n     \u003Cfigure class=\"f-phone\">\u003C/figure> \n     \u003Cvideo id=\"favorite-video1\" autoplay loop muted=\"true\" src=\"https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1607658219277/images/fos10_fmm.mp4\" playsinline=\"true\" webkit-playsinline=\"true\">\u003C/video> \n    \u003C/div> \n   \u003C/div> \n  \u003C/div> \n \u003C/section> \n \u003Csection class=\"fos10-section-drive\" animate> \n  \u003Cdiv class=\"content\"> \n   \u003Cdiv class=\"inner-text\"> \n    \u003Cdiv class=\"fos10-title\">\n     驾驶场景\n    \u003C/div> \n    \u003Cdiv class=\"fos10-desc\">\n     在驾驶场景中，无需解锁手机，直接在锁屏上就可以使用快捷功能，如一键开启i音乐、快速拨打电话/发送微信并通过Jovi 语音选择收信人、语音播报微信消息、出停车场时快速打开“扫码付”。抛开驾车过程中会遇到的繁琐步骤，让驾车变得更简洁、省心。\n    \u003C/div> \n   \u003C/div> \n   \u003Cfigure class=\"f-phone\">\u003C/figure> \n  \u003C/div> \n  \u003Cdiv class=\"bg-b\"> \n   \u003Cfigure class=\"bg-box1\">\u003C/figure> \n   \u003Cfigure class=\"bg-box2\">\u003C/figure> \n   \u003Cfigure class=\"bg-box3\">\u003C/figure> \n   \u003Cfigure class=\"bg-box4\">\u003C/figure> \n  \u003C/div> \n \u003C/section> \n \u003Csection class=\"fos10-section-fonts fos10-tabs-related\" animate> \n  \u003Cfigure class=\"bg-all\">\u003C/figure> \n  \u003Cdiv class=\"content\"> \n   \u003Cdiv class=\"inner-text\"> \n    \u003Cdiv class=\"fos10-title\">\n     字体定制\n    \u003C/div> \n    \u003Cdiv class=\"fos10-desc\">\n     你也可以成为“书法家”，在屏幕上撰写一段汉字，i 主题的字体定制功能会根据字迹自动为你生成个性化字体包，并在手机上全局应用字体包，整台手机都是你的“书法展”。\n    \u003C/div> \n    \u003Cdiv class=\"fos10-tabs\"> \n     \u003Cdiv class=\"tab-bar\">\u003C/div> \n     \u003Cdiv class=\"tab-item active\" data-name=\"tab1\"> \n      \u003Cdiv class=\"fos10-subtitle\">\n       生成字体\n      \u003C/div> \n      \u003Cfigure class=\"f-phone1-m\">\u003C/figure> \n      \u003Cfigure class=\"f-phone2-m\">\u003C/figure> \n     \u003C/div> \n     \u003Cdiv class=\"tab-item\" data-name=\"tab2\"> \n      \u003Cdiv class=\"fos10-subtitle\">\n       应用字体\n      \u003C/div> \n      \u003Cfigure class=\"f-phone3-m\">\u003C/figure> \n     \u003C/div> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"figures\"> \n    \u003Cfigure class=\"f-phone1\">\u003C/figure> \n    \u003Cfigure class=\"f-phone2\">\u003C/figure> \n    \u003Cfigure class=\"f-phone3\">\u003C/figure> \n   \u003C/div> \n  \u003C/div> \n \u003C/section> \n \u003Csection class=\"fos10-section-baby fos10-selects-related\" animate> \n  \u003Cfigure class=\"bg-all\">\u003C/figure> \n  \u003Cdiv class=\"content\"> \n   \u003Cdiv class=\"inner-text\"> \n    \u003Cdiv class=\"fos10-title\">\n     儿童模式\n    \u003C/div> \n    \u003Cdiv class=\"fos10-desc\">\n     有了儿童模式，你不用再担心孩子无节制的玩手机了。儿童模式会根据孩子的年龄段推荐合适的内容，让孩子在娱乐的同时获得成长。家长可以通过儿童模式生成的“成长报告”了解孩子的使用记录，促进与孩子的沟通。\n    \u003C/div> \n    \u003Cdiv class=\"fos10-selects figures\"> \n     \u003Cfigure class=\"select-item f-03\" data-name=\"s1\">\u003C/figure> \n     \u003Cfigure class=\"select-item f-612\" data-name=\"s2\">\u003C/figure> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"phones\"> \n    \u003Cfigure class=\"f-phone1\">\u003C/figure> \n    \u003Cfigure class=\"f-phone2\">\u003C/figure> \n   \u003C/div> \n  \u003C/div> \n \u003C/section> \n \u003Csection class=\"fos10-section-cloud fos10-tabs-related\" animate> \n  \u003Cdiv class=\"content\"> \n   \u003Cfigure class=\"bg-a\">\u003C/figure> \n   \u003Cdiv class=\"inner-text\"> \n    \u003Cdiv class=\"fos10-title\">\n     云服务\n    \u003C/div> \n    \u003Cdiv class=\"fos10-tabs\"> \n     \u003Cdiv class=\"tab-bar\">\u003C/div> \n     \u003Cfigure class=\"f-phone1-m\">\u003C/figure> \n     \u003Cdiv class=\"tab-item active\" data-name=\"tab1\"> \n      \u003Cdiv class=\"fos10-subtitle\">\n       VIP 权益\n      \u003C/div> \n      \u003Cdiv class=\"fos10-desc\">\n       VIP 用户尊享6大权益：超大存储空间、大文件上传、赠送手机主题、尊享身份标识、广告免打扰、海量数据上传。\n      \u003C/div> \n     \u003C/div> \n     \u003Cfigure class=\"f-phone2-m\">\u003C/figure> \n     \u003Cdiv class=\"tab-item\" data-name=\"tab2\"> \n      \u003Cdiv class=\"fos10-subtitle\">\n       免费存储空间\n      \u003C/div> \n      \u003Cdiv class=\"fos10-desc\">\n       5G存储空间免费使用，最高可升级至1T超大存储空间，满足你的“大胃口”。\n      \u003C/div> \n     \u003C/div> \n     \u003Cfigure class=\"f-phone3-m\">\u003C/figure> \n     \u003Cdiv class=\"tab-item\" data-name=\"tab3\"> \n      \u003Cdiv class=\"fos10-subtitle\">\n       一键备份\n      \u003C/div> \n      \u003Cdiv class=\"fos10-desc\">\n       手机上各项资料一键备份至云端，无需繁琐步骤。\n      \u003C/div> \n     \u003C/div> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"figures\"> \n    \u003Cfigure class=\"f-phone1\">\u003C/figure> \n    \u003Cfigure class=\"f-phone2\">\u003C/figure> \n    \u003Cfigure class=\"f-phone3\">\u003C/figure> \n   \u003C/div> \n  \u003C/div> \n \u003C/section> \n \u003Csection class=\"fos10-section-search\" animate> \n  \u003Cdiv class=\"content\"> \n   \u003Cdiv class=\"inner-text\"> \n    \u003Cdiv class=\"fos10-title\">\n     全局搜索\n    \u003C/div> \n    \u003Cdiv class=\"fos10-desc\">\n     桌面下滑即可进入全局搜索，它懂你心思，深层理解语义，能够呈现更合你意图的搜索结果。\n    \u003C/div> \n   \u003C/div> \n   \u003Cfigure class=\"f-phone\">\u003C/figure> \n  \u003C/div> \n  \u003Cdiv class=\"bg-b\"> \n   \u003Cdiv class=\"bg-inner\"> \n    \u003Cfigure class=\"bg-input\">\u003C/figure> \n    \u003Cfigure class=\"bg-history\">\u003C/figure> \n   \u003C/div> \n  \u003C/div> \n \u003C/section> \n \u003Csection class=\"fos10-section-album fos10-tabs-related\"> \n  \u003Cdiv class=\"content c1\" animate> \n   \u003Cdiv class=\"fos10-title\">\n    相册\n   \u003C/div> \n   \u003Cdiv class=\"figures\"> \n    \u003Cfigure class=\"f-phone1\">\u003C/figure> \n    \u003Cfigure class=\"f-phone2\">\u003C/figure> \n    \u003Cfigure class=\"f-phone3\">\u003C/figure> \n   \u003C/div> \n  \u003C/div> \n  \u003Cdiv class=\"content c2\" animate> \n   \u003Cdiv class=\"inner-text\"> \n    \u003Cdiv class=\"fos10-subtitle\">\n     AI 剪辑\n    \u003C/div> \n    \u003Cdiv class=\"fos10-desc\">\n     智能识别视频中的人物和精彩片段，自动生成专属精彩故事短片。提供多套滤镜、音乐、字幕以及快慢播特效等，让您的视频更有格调。\n    \u003C/div> \n   \u003C/div> \n   \u003Cfigure class=\"f-phone1-m\">\u003C/figure> \n  \u003C/div> \n  \u003Cdiv class=\"content c3\" animate> \n   \u003Cdiv class=\"inner-text\"> \n    \u003Cdiv class=\"fos10-tabs\"> \n     \u003Cdiv class=\"tab-bar\">\u003C/div> \n     \u003Cfigure class=\"f-tab1-m\">\u003C/figure> \n     \u003Cdiv class=\"tab-item active\" data-name=\"tab1\"> \n      \u003Cdiv class=\"fos10-subtitle\">\n       AI 抠图\n      \u003C/div> \n      \u003Cdiv class=\"fos10-desc\">\n       AI 抠图可通过算法识别将照片中的人物与背景分离，你可以自由缩放人物大小和调整角度，加上相册提供的丰富背景图库，一张照片可以搭配出各式各样的趣味效果。\n      \u003C/div> \n     \u003C/div> \n     \u003Cfigure class=\"f-tab2-m\">\u003C/figure> \n     \u003Cdiv class=\"tab-item\" data-name=\"tab2\"> \n      \u003Cdiv class=\"fos10-subtitle\">\n       趣美颜\n      \u003C/div> \n      \u003Cdiv class=\"fos10-desc\">\n       强大的补妆功能，丰富的妆容效果，随心打造你的专属美颜。\n      \u003C/div> \n     \u003C/div> \n     \u003Cfigure class=\"f-tab3-m\">\u003C/figure> \n     \u003Cdiv class=\"tab-item\" data-name=\"tab3\"> \n      \u003Cdiv class=\"fos10-subtitle\">\n       光影光效\n      \u003C/div> \n      \u003Cdiv class=\"fos10-desc\">\n       无需高端摄影器材，轻松点击一下就可以为你的照片增加充满艺术感的光影效果。\n      \u003C/div> \n     \u003C/div> \n    \u003C/div> \n   \u003C/div> \n   \u003Cdiv class=\"figures\"> \n    \u003Cfigure class=\"f-tab1\">\u003C/figure> \n    \u003Cfigure class=\"f-tab2\">\u003C/figure> \n    \u003Cfigure class=\"f-tab3\">\u003C/figure> \n   \u003C/div> \n  \u003C/div> \n \u003C/section> \n \u003Cdiv class=\"fos10-statement\"> \n  \u003Cdiv class=\"content\"> \n   \u003Cdiv class=\"label\">\n    备注：\n   \u003C/div> \n   \u003Cdiv class=\"value\">\n    本页面中的 UI 图、手机轮廓或手机外观图仅用于效果展示，不同机型的UI、功能可能会有所差异，请以手机实际呈现的 UI、提供的功能为准。如有疑问请向我们的客服咨询。\n   \u003C/div> \n  \u003C/div> \n \u003C/div> \n\u003C/div>",[11,12,13],"https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1607658219277/favicon.ico","https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1607658219277/css/video-js.min_3a2db9d.css","https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1607658219277/css/index.min.css",[15,16,17,18],"https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1607658219277/script/video-js.min_ab7bcb8.js","https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1607658219277/script/lib.js","https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1607658219277/script/funtouch.js","https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1607658219277/script/index.min.js",null,"white","https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1607658219277/","0",{"success":5,"code":6,"msg":7,"data":24},{"canonicalFlag":5,"hasParam":22,"hasGallery":22,"hasGallery360":22,"hasOverview":22,"shopUrl":25,"sellState":26,"shopEntry":26,"isFos":27,"product":28,"category":19,"productChannels":35,"linkNames":36},"",0,1,{"name":29,"code":30,"marketPrice":31,"promotionPrice":19,"seoTitle":32,"seoKeyword":33,"seoDescription":34},"Funtouch OS","funtouchos","0.00","Funtouch OS - vivo智能手机官方网站","funtouchos,funtouchos3,funtouch os,funtouch os3,vivo操作系统,vivo手机系统,android,安卓","Funtouch OS 秉持 Original Design 理念，采用中纯度水彩色、平衡的图标性格表达，仿物理世界的直感操作和交互动效，让形式追随功能，在虚拟与现实中探索更为自然的平衡。",[],[37],{"name":29,"selected":38},true,["Reactive",40],{"$sglobalConfig":41,"$sbaseUrl":99,"$sserverUrl":99,"$sisMobile":50,"$sisApp":50,"$sisCV":38,"$srequestUri":100,"$sfirstCanonical":25,"$sisLogin":50,"$shfUpdated":50,"$sfooterNavPath":101,"$scdnUrl":105,"$sheaderHeight":106,"$sscrollTop":26,"$ssecondCanonical":25,"$sproductTabInfo":24,"$sredirectUrl":107,"$soverviewPageData":8},{"baseInfo":42,"language":70,"officialHF":89,"isLoadGTM":50,"isLoadAbTasty":50,"contactInfoList":98},{"regionCode":43,"brandMark":44,"languageCode":45,"googleSearch":46,"headerPath":47,"gaSwitch":38,"oneTrustConfig":19,"target":48,"loginUrl":49,"appHeaderFooterRemoved":19,"isGDPR":50,"trackCenter":51,"trackVersion":52,"trackSwitch":38,"isPiwikPro":50,"cnStaticHost":53,"thirdOnlineCustomer":25,"layoutShow":22,"suspendSwitch":5,"appEntrySwitch":5,"noticeBoard":54,"userResearchList":61,"vivoBrowserSupport":27,"vivoSpace":50,"currentEnv":67,"videoMaskTheme":20,"vivoStaticHost":68,"vivoWebHost":69},"cn","vivo","zh_CN","E-7gZJW4cW6Cf7VJQpdOKF6gQ6mwyrfguXubRyJSW4M","/cn","vivoportal","https://passport.vivo.com.cn/v3/web/login/authorize?client_id=30&redirect_uri=",false,"asia","v4.9.3","https://wwwstatic.vivo.com.cn/vivoportal/files/image/",{"id":27,"noticeTitle":55,"linkContent":56,"linkUrl":57,"isShow":26,"isJump":27,"isValid":27,"countryId":27,"createBy":58,"createTime":59,"updateBy":58,"updateTime":60},"关于vivo及iQOO部分产品建议零售价调整的说明","点击查看","https://mshopact.vivo.com.cn/vivospace/wk26031139b762ab","11002946",1773315170000,1773803519000,[62,65],{"fileName":63,"fileUrl":64,"channelType":27},"vivo官网体验评价","https://wukongapi.vivo.com.cn/wukongtopic/wenjuan/3936/index",{"fileName":63,"fileUrl":66,"channelType":26},"https://wukongapi.vivo.com.cn/wukongtopic/wenjuan/3937/index","prd","https://asia-exstatic.vivoglobal.com","https://www.vivo.com",{"homeBannerSlideDown":71,"moreNewProducts":-1,"homeBannerSmallTitle":72,"exploreVivo":73,"exploreIqoo":-1,"exploreJovi":-1,"backTop":-1,"supportContactUs":74,"productOverview":75,"productGallery":76,"productParameter":77,"commonBuyNow":78,"productionHalt":-1,"productSoldOut":79,"productBuyRetailers":80,"commonPreBook":81,"commonProducts":82,"IMEIProductColor":83,"productOnlineStore":84,"commonLoadMore":85,"productInformationSheet":86,"energyConsumptionLevel":87,"productInformationRoHS":-1,"productPreviewTip":-1,"commonBreadcrumb":88},"向下滑动","发现更多","探索vivo","联系我们","产品概览","画廊","规格参数","立即购买","缺货","专卖店购买","立即预定","产品","产品颜色","在线商城","更多","产品信息","能耗级别","面包屑导航",{"commonCss":25,"commonJs":25,"cookieLastVersion":25,"footerHtml":25,"headerHtmlMini":90,"headerHtml":25,"oneTrustConfig":91,"publicKey":25,"cssUrlArr":92,"cssStyle":25,"cssUrl":25,"scriptUrl":25,"footColorStyle":5},"\u003Cdiv id=\"vivo-head-wrap\"\n     class=\"vp-head   vp-head-theme-black\"\n     >\n    \u003Cdiv id=\"cn-head-theme\">\u003C/div>\n    \u003Cdiv class=\"vp-head-wrap\">\n            \u003Cdiv class=\"vp-head-wrap-pc\">\n                \u003Cdiv class=\"vp-head-topbar-pc\">\n                    \u003Cdiv>\n                        \u003Cul class=\"vp-head-topbar-navs\">\n                                \u003Cli>\u003Ca href=\"\"\n                                       data-head-click-stat=\"cfrom=01|03|002|003&name=品牌\">品牌\u003C/a>\n                                \u003C/li>\n                                \u003Cli>\u003Ca href=\"\"\n                                       data-head-click-stat=\"cfrom=01|03|002|003&name=OriginOS\">OriginOS\u003C/a>\n                                \u003C/li>\n                                \u003Cli>\u003Ca href=\"\"\n                                       data-head-click-stat=\"cfrom=01|03|002|003&name=体验店\">体验店\u003C/a>\n                                \u003C/li>\n                                \u003Cli>\u003Ca href=\"\"\n                                       data-head-click-stat=\"cfrom=01|03|002|003&name=官网社区\">官网社区\u003C/a>\n                                \u003C/li>\n                        \u003C/ul>\n                        \u003Cdiv class=\"vp-head-top-user\">\n                                \u003Ca href=\"https://shopact.vivo.com.cn/pcspace/wk221129f1431101\"\n                                   class=\"vp-vivo-app\">\n                                    \u003Cspan>下载APP\u003C/span>\n                                \u003C/a>\n                            \u003Ca class=\"vp-user-shopcart\" href=\"https://shop.vivo.com.cn/shoppingcart\"\n                               data-head-click-stat=\"cfrom=01|03|002|002&position=1\">\u003C/a>\n                            \u003Cdiv class=\"vp-user-login-box\">\n                                \u003Cspan class=\"vp-head-member-login\">个人中心\u003C/span>\n                            \u003C/div>\n                        \u003C/div>\n                    \u003C/div>\n                \u003C/div>\n                \u003Cdiv class=\"vp-head-mainbar-pc\" >\n                    \u003Cdiv class=\"vp-head-logo\">\n                        \u003Ca href=\"//www.vivo.com.cn\" role=\"link\" aria-label=\"vivo\" data-head-click-stat=\"cfrom=01|03|002|001&name=vivo\"> \u003C/a>\n                    \u003C/div>\n                    \u003Cdiv class=\"vp-head-site\">\n                        \u003Cdiv class=\"vp-head-site-wrap\">\n                            \u003Cdiv class=\"vp-head-site-navs\">\n                                \u003Cdiv class=\"vp-head-site-navs-container\">\n                                        \u003Cul class=\"vp-head-site-navs-7\">\n                                                \u003Cli >\n                                                    \u003Ca\n                                                        id=\"\" href=\"\"\n                                                        data-url=\"\"\n                                                        class=\"vp-vivo-head-\"\n                                                        data-head-click-stat=\"cfrom=01|03|002|003&name=X系列\">\u003Cspan\n                                                            class=\"main\">X系列\u003C/span>\u003Cspan\n                                                            class=\"sub\">X\u003C/span>\u003C/a>\n                                                \u003C/li>\n                                                \u003Cli >\n                                                    \u003Ca\n                                                        id=\"\" href=\"\"\n                                                        data-url=\"\"\n                                                        class=\"vp-vivo-head-\"\n                                                        data-head-click-stat=\"cfrom=01|03|002|003&name=S系列\">\u003Cspan\n                                                            class=\"main\">S系列\u003C/span>\u003Cspan\n                                                            class=\"sub\">S\u003C/span>\u003C/a>\n                                                \u003C/li>\n                                                \u003Cli >\n                                                    \u003Ca\n                                                        id=\"\" href=\"\"\n                                                        data-url=\"\"\n                                                        class=\"vp-vivo-head-\"\n                                                        data-head-click-stat=\"cfrom=01|03|002|003&name=Y系列\">\u003Cspan\n                                                            class=\"main\">Y系列\u003C/span>\u003Cspan\n                                                            class=\"sub\">Y\u003C/span>\u003C/a>\n                                                \u003C/li>\n                                                \u003Cli >\n                                                    \u003Ca\n                                                        id=\"\" href=\"\"\n                                                        data-url=\"\"\n                                                        class=\"vp-vivo-head-\"\n                                                        data-head-click-stat=\"cfrom=01|03|002|003&name=iQOO手机\">\u003Cspan\n                                                            class=\"main\">iQOO手机\u003C/span>\u003Cspan\n                                                            class=\"sub\">iQOO手机\u003C/span>\u003C/a>\n                                                \u003C/li>\n                                                \u003Cli >\n                                                    \u003Ca\n                                                        id=\"\" href=\"\"\n                                                        data-url=\"\"\n                                                        class=\"vp-vivo-head-\"\n                                                        data-head-click-stat=\"cfrom=01|03|002|003&name=智能硬件\">\u003Cspan\n                                                            class=\"main\">智能硬件\u003C/span>\u003Cspan\n                                                            class=\"sub\">智能硬件\u003C/span>\u003C/a>\n                                                \u003C/li>\n                                                \u003Cli >\n                                                    \u003Ca\n                                                        id=\"\" href=\"\"\n                                                        data-url=\"\"\n                                                        class=\"vp-vivo-head-\"\n                                                        data-head-click-stat=\"cfrom=01|03|002|003&name=商城\">\u003Cspan\n                                                            class=\"main\">商城\u003C/span>\u003Cspan\n                                                            class=\"sub\">商城\u003C/span>\u003C/a>\n                                                \u003C/li>\n                                                \u003Cli >\n                                                    \u003Ca\n                                                        id=\"\" href=\"\"\n                                                        data-url=\"\"\n                                                        class=\"vp-vivo-head-\"\n                                                        data-head-click-stat=\"cfrom=01|03|002|003&name=服务\">\u003Cspan\n                                                            class=\"main\">服务\u003C/span>\u003Cspan\n                                                            class=\"sub\">服务\u003C/span>\u003C/a>\n                                                \u003C/li>\n                                        \u003C/ul>\n                                \u003C/div>\n                            \u003C/div>\n                        \u003C/div>\n                    \u003C/div>\n                    \u003Cdiv class=\"vp-head-search-btn\">\n                        \u003Cdiv>\n                            \u003Cspan class=\"vp-head-search-open\">\u003C/span>\n                        \u003C/div>\n                    \u003C/div>\n                \u003C/div>\n            \u003C/div>\n            \u003Cdiv class=\"vp-head-wrap-wap vp-head-show-app\">\n                \u003Cdiv class=\"vp-head-wap-common-box\">\n                    \u003Cdiv class=\"vp-head-download common-header-suspended\">\n            \u003Cdiv data-head-click-stat=\"cfrom=04|03|062|062\" class=\"vp-head-download-click\">\n            \u003Cdiv class=\"vp-head-download-img\">\n                \u003Cimg class=\"vp-head-img-floating vp-head-lazyload\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=\" alt=\"官网APP\">\n                \u003Cimg class=\"vp-head-img-button vp-head-lazyload\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=\" alt=\"按钮\">\n            \u003C/div>\n            \u003Cdiv class=\"vp-head-download-wx\">\u003C/div>\n        \u003C/div>\n    \u003Cspan data-head-click-stat=\"cfrom=05|03|062|063\" class=\"vp-head-download-close\">\u003C/span>\n\n    \u003Cscript type=\"text/javascript\">\n        var vpHeaderFloat = {\n            pageBoundary: 720,\n            needDeeplink: (!window.H5Interface && 0) ? 1 : 0,\n            deeplinkUrl: '',\n            blockBrowser: 'DeviceType\\/tablet|UCBrowser|VivoSpace|AlipayClient|AliApp\\\\(AP|wxwork|miniProgram',\n            blockCid: 'toutiao_pz|tt-sem|w-1-kp-x70|xiaov',\n            blockCookie: 'DeviceType\\/tablet|UCBrowser|VivoSpace|AlipayClient|AliApp\\\\(AP|wxwork|miniProgram',\n            isVivo: '1',\n            target: 'vivoportal',\n            wxTokenSwitch: 'true',\n            imgObj: {\n                'vivoFloatingImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753166059999/88be9f038031c75c78c4ed227e6fbeb1.png',\n                'vivoButtonImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753166071502/28e0ff5547eab74a14c51ea9091a26d8.png',\n                'vivoDownLoadUrl': 'https://h5.vivo.com.cn/mall/download/index.html',\n                'floatingImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753168266859/c092cf0613b0504e542cd7cd948ff1d5.png',\n                'buttonImg': 'https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1753168290953/e3eb324e70b13ec24fa84a1ae9f2db19.png',\n                'downLoadUrl': 'https://h5.vivo.com.cn/mall/download/index.html',\n            }\n        }\n    \u003C/script>\n\u003C/div>\n                    \u003Cdiv class=\"vp-head-common\">\n                        \u003Cspan class=\"vp-head-left-feature\" role=\"button\" aria-label=\"菜单\" aria-expanded=\"false\">\u003C/span>\n                        \u003Cdiv class=\"vp-head-logo\" aria-label=\"vivo\">\n                            \u003Ca href=\"//www.vivo.com.cn\">\u003C/a>\n                        \u003C/div>\n                        \u003Cdiv class=\"vp-head-right-feature\">\n                            \u003Ca href=\"//www.vivo.com.cn/search/index\" class=\"vp-head-btns-search search-index-link\" aria-label=\"搜索\">\u003C/a>\n                                \u003Ca class=\"vp-head-btns-shop\" href=\"//shop.vivo.com.cn/\" aria-label=\"商城\"\n                                   data-head-click-stat=\"cfrom=1042\">\u003C/a>\n                        \u003C/div>\n                    \u003C/div>\n                \u003C/div>\n            \u003C/div>\n    \u003C/div>\n\u003C/div>\n\n\u003Cscript type=\"text/javascript\" id=\"vp-head-header-script\">\n    var vpHeader = {\n        pageType: 'responsive',\n        pageBoundary: 1199,\n        clientId: '30',\n        memberIsCus: false,\n        headerType: 0,\n        target: 'vivoportal',\n        ceilingType: 0,\n        showDownLink: 1,\n        darkWords: [],\n        headTheme: 'black'\n    };\n    var VP_Emmiter;\n\u003C/script>\n\u003Cstyle>\n\n\u003C/style>\n",{},[93,96],{"rel":94,"href":95},"stylesheet","//asia-exstatic.vivoglobal.com/static/bus/include/cn-header/dist/css/index_8c54916.css",{"rel":94,"href":97},"//asia-exstatic.vivoglobal.com/static/bus/common/css/vicon_eb95211.css",[],"https://www.vivo.com.cn","/vivo/funtouchos",{"firstPath":102,"secondPath":104},{"name":-1,"url":103},"/products-undefined.html",{"name":29},"https://portalstatic-cn.vivo.com/",60,"https://passport.vivo.com.cn/v3/web/login/authorize?client_id=30&redirect_uri=https%3A%2F%2Fwww.vivo.com.cn%2Fvivo%2Ffuntouchos",["Set",109],"$g-eZeBzBAM",["ShallowReactive",111],{"$ffaGpnqX0jvaAeWyQxk6CrA5IBgbCPKm-vs9iZWxL8Wk":19,"$f0vdddanqucQcaYn9RHF0upsRNpQr8oU4NHYBk_FoWV8":19}]</script>
+<script>window.__NUXT__={};window.__NUXT__.config={public:{},app:{baseURL:"/",buildId:"57c42470-b277-41f4-90d9-4b64f500e6c8",buildAssetsDir:"/_nuxt/",cdnURL:"https://portalstatic-cn.vivo.com/"}}</script><script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script nomodule crossorigin id="vite-legacy-polyfill" src="https://portalstatic-cn.vivo.com/_nuxt/BcP1sRmP-legacy.js"></script><script nomodule crossorigin id="vite-legacy-entry" data-src="https://portalstatic-cn.vivo.com/_nuxt/Cmt9O-JX-legacy.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script></body></html>

@@ -1,6 +1,6 @@
 import { sitePath } from './archive';
 
-export type OfficialArchiveVersion = '15' | '16' | '17' | 'originos6' | 'hyperos1' | 'hyperos2' | 'hyperos3' | 'hyperos4' | 'magicos10' | 'magicos11';
+export type OfficialArchiveVersion = '15' | '16' | '17' | 'originos6' | 'originos7' | 'hyperos1' | 'hyperos2' | 'hyperos3' | 'hyperos4' | 'magicos10' | 'magicos11';
 export type OfficialArchiveViewport = 'mobile' | 'pad' | 'desktop';
 export type ColorOSSection = 'monthly' | OfficialArchiveVersion;
 
@@ -46,6 +46,13 @@ export const officialArchiveMeta: Record<OfficialArchiveVersion, {
     folder: 'originos6',
     route: sitePath('originos/6/'),
     entries: { desktop: 'originos.html', pad: 'originos.html', mobile: 'originos.html' },
+  },
+  'originos7': {
+    title: 'OriginOS 7 官方网站存档',
+    label: 'OriginOS 7',
+    folder: 'originos7',
+    route: sitePath('originos/7/'),
+    entries: { desktop: 'originos7.html', pad: 'originos7.html', mobile: 'originos7_mobile.html' },
   },
   'hyperos1': {
     title: 'Xiaomi HyperOS 1 官方网站存档',
@@ -98,6 +105,8 @@ export function officialArchiveUrl(version: OfficialArchiveVersion, viewport: Of
   } else if (version === '17') {
     return sitePath(`official_archives/www.coloros.com/version/coloros17/${entry}`);
   } else if (version === 'originos6') {
+    return sitePath(`official_archives/www.vivo.com.cn/${entry}`);
+  } else if (version === 'originos7') {
     return sitePath(`official_archives/www.vivo.com.cn/${entry}`);
   } else if (version === 'hyperos1') {
     return sitePath(`official_archives/os1.hyperos.mi.com/${entry}`);
