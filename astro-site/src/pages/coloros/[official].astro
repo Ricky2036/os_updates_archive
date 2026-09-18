@@ -3,7 +3,7 @@ import { sitePath } from '../../lib/archive';
 import { officialArchiveMeta, officialArchiveUrl, type OfficialArchiveVersion } from '../../lib/official-archives';
 
 export function getStaticPaths() {
-  return (['15', '16'] as OfficialArchiveVersion[]).map((official) => ({ params: { official } }));
+  return (['15', '16', '17'] as OfficialArchiveVersion[]).map((official) => ({ params: { official } }));
 }
 
 const version = Astro.params.official as OfficialArchiveVersion;

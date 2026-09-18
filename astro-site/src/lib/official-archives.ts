@@ -1,6 +1,6 @@
 import { sitePath } from './archive';
 
-export type OfficialArchiveVersion = '15' | '16' | 'originos6' | 'hyperos1' | 'hyperos2' | 'hyperos3' | 'hyperos4' | 'magicos10' | 'magicos11';
+export type OfficialArchiveVersion = '15' | '16' | '17' | 'originos6' | 'hyperos1' | 'hyperos2' | 'hyperos3' | 'hyperos4' | 'magicos10' | 'magicos11';
 export type OfficialArchiveViewport = 'mobile' | 'pad' | 'desktop';
 export type ColorOSSection = 'monthly' | OfficialArchiveVersion;
 
@@ -32,6 +32,13 @@ export const officialArchiveMeta: Record<OfficialArchiveVersion, {
     folder: 'coloros16',
     route: sitePath('coloros/16/'),
     entries: { desktop: 'index.html', pad: 'index.html', mobile: 'index.html' },
+  },
+  '17': {
+    title: 'ColorOS 17 官方网站存档',
+    label: 'ColorOS 17',
+    folder: 'coloros17',
+    route: sitePath('coloros/17/'),
+    entries: { desktop: 'index.html', pad: 'index.html', mobile: 'mobile.html' },
   },
   'originos6': {
     title: 'OriginOS 6 官方网站存档',
@@ -88,6 +95,8 @@ export function officialArchiveUrl(version: OfficialArchiveVersion, viewport: Of
   const entry = officialArchiveMeta[version].entries[viewport];
   if (version === '15' || version === '16') {
     return `${officialArchiveBase}/${officialArchiveMeta[version].folder}/${entry}`;
+  } else if (version === '17') {
+    return sitePath(`official_archives/www.coloros.com/version/coloros17/${entry}`);
   } else if (version === 'originos6') {
     return sitePath(`official_archives/www.vivo.com.cn/${entry}`);
   } else if (version === 'hyperos1') {

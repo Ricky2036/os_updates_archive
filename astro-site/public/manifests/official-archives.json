@@ -8,6 +8,7 @@
   "bytes": 1187977358,
   "versions": {
     "15": { "folder": "coloros15", "entries": ["index.html", "pad.html", "mobile.html"] },
-    "16": { "folder": "coloros16", "entries": ["index.html", "pad.html", "mobile.html"] }
+    "16": { "folder": "coloros16", "entries": ["index.html", "pad.html", "mobile.html"] },
+    "17": { "folder": "coloros17", "entries": ["index.html", "mobile.html"] }
   }
 }
