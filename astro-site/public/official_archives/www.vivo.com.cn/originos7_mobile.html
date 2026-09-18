@@ -39,6 +39,50 @@ font-display: swap;
 
 <link href="./zip/css/style.CBmkncMh.css" rel="stylesheet" type="text/css" />
 <script src="../res.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
+<style>
+
+/* Fix object-fit specificity and little-v phone deformation */
+.zn-video-wrapper video.object-cover,
+.zn-video-wrapper.object-cover video,
+.zn-video-wrapper picture.object-cover,
+.zn-video-wrapper picture.object-cover img,
+.zn-video-wrapper img.object-cover,
+.zn-video-wrapper img[data-poster].object-cover {
+  object-fit: cover !important;
+}
+.zn-video-wrapper video.object-contain,
+.zn-video-wrapper.object-contain video,
+.zn-video-wrapper picture.object-contain,
+.zn-video-wrapper picture.object-contain img,
+.zn-video-wrapper img.object-contain,
+.zn-video-wrapper img[data-poster].object-contain {
+  object-fit: contain !important;
+}
+.zn-video-wrapper video.object-fill,
+.zn-video-wrapper.object-fill video,
+.zn-video-wrapper picture.object-fill,
+.zn-video-wrapper picture.object-fill img,
+.zn-video-wrapper img.object-fill,
+.zn-video-wrapper img[data-poster].object-fill {
+  object-fit: fill !important;
+}
+.zn-video-wrapper video.object-top,
+.zn-video-wrapper.object-top video,
+.zn-video-wrapper picture.object-top,
+.zn-video-wrapper picture.object-top img,
+.zn-video-wrapper img.object-top,
+.zn-video-wrapper img[data-poster].object-top {
+  object-position: center top !important;
+}
+[data-little-v-video] video,
+[data-little-v-video] img,
+[data-little-v-last-frame] img,
+[data-little-v-glow] img {
+  object-fit: cover !important;
+  object-position: center top !important;
+}
+
+</style>
 </head>
 <body
 class="wap ">
