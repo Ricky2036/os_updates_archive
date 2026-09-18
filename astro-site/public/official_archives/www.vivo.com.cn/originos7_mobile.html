@@ -83,6 +83,23 @@ font-display: swap;
 }
 
 </style>
+<style>
+
+/* Fix sticker section sticky height and phone cards bottom padding */
+#section-sticker {
+  background: linear-gradient(180deg, rgba(255,255,255,0.23), rgba(255,245,214,0.23) 53.37%, rgba(255,234,167,0.6)), #fff;
+}
+.sticker-pc .sticky-container {
+  height: calc(100vh + 1200px) !important;
+}
+.sticker-pc [data-sticker-phone-box] {
+  padding-bottom: calc(80 * var(--rpx, 1px)) !important;
+}
+.sticker-pc [data-sticker-phone] {
+  padding-bottom: calc(80 * var(--rpx, 1px)) !important;
+}
+
+</style>
 </head>
 <body
 class="wap ">
@@ -903,7 +920,7 @@ Duang 一下
 </section>
 <section id="section-sticker" class="relative" data-track="{type:'viewstate',params:{version:'5.1.0',cfrom:'01|02|003|030',module:'原子贴纸库'}}">
 <div class="sticker-pc at-mo:hidden" data-ctrl="sticker" data-astro-cid-b7426c2v>
-<div class="sticky-container w-full h-[1500rpx]" data-astro-cid-b7426c2v>
+<div class="sticky-container w-full pc:h-[calc(100vh+1200px)] h-[1500rpx]" data-astro-cid-b7426c2v>
 <div class="w-full h-[100vh] sticky top-0 overflow-hidden flex flex-col justify-between pc:pt-[var(--nav-height)]" data-astro-cid-b7426c2v>
 <div class="title pc:pt-[calc(140rpx-var(--nav-height))]" data-sticker-title data-astro-cid-b7426c2v>
 <p class="subtitle font-550 text-center mx-auto text-black/45 pc:text-[32rpx] pc:leading-[1.5]" data-astro-cid-b7426c2v> 原子贴纸库 </p>

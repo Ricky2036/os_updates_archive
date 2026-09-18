@@ -40,3 +40,17 @@
   object-fit: cover !important;
   object-position: center top !important;
 }
+
+/* Fix sticker section sticky height and phone cards bottom padding */
+#section-sticker {
+  background: linear-gradient(180deg, rgba(255,255,255,0.23), rgba(255,245,214,0.23) 53.37%, rgba(255,234,167,0.6)), #fff;
+}
+.sticker-pc .sticky-container {
+  height: calc(100vh + 1200px) !important;
+}
+.sticker-pc [data-sticker-phone-box] {
+  padding-bottom: calc(80 * var(--rpx, 1px)) !important;
+}
+.sticker-pc [data-sticker-phone] {
+  padding-bottom: calc(80 * var(--rpx, 1px)) !important;
+}
