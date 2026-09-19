@@ -8,3 +8,4 @@ dist/
 !.env.example
 .archive-sources/
 .official-archive-dist/
+.pages-public/

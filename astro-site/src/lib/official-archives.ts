@@ -11,6 +11,15 @@ export const officialArchiveBase = (
 export const magicOSArchiveBase = (
   import.meta.env.PUBLIC_MAGICOS_ARCHIVE_BASE_URL || ''
 ).replace(/\/$/, '');
+export const archiveMirrorBase = (
+  import.meta.env.PUBLIC_ARCHIVE_MIRROR_BASE_URL || ''
+).replace(/\/$/, '');
+
+function archiveMirrorUrl(path: string) {
+  return archiveMirrorBase
+    ? `${archiveMirrorBase}/${path.replace(/^\//, '')}`
+    : sitePath(path);
+}
 
 export const officialArchiveMeta: Record<OfficialArchiveVersion, {
   title: string;
@@ -110,31 +119,31 @@ export function officialArchiveUrl(version: OfficialArchiveVersion, viewport: Of
   if (version === '15' || version === '16') {
     return `${officialArchiveBase}/${officialArchiveMeta[version].folder}/${entry}`;
   } else if (version === '17') {
-    return sitePath(`official_archives/www.coloros.com/version/coloros17/${entry}`);
+    return archiveMirrorUrl(`official_archives/www.coloros.com/version/coloros17/${entry}`);
   } else if (version === 'originos6') {
-    return sitePath(`official_archives/www.vivo.com.cn/${entry}`);
+    return archiveMirrorUrl(`official_archives/www.vivo.com.cn/${entry}`);
   } else if (version === 'originos7') {
-    return sitePath(`official_archives/www.vivo.com.cn/${entry}`);
+    return archiveMirrorUrl(`official_archives/www.vivo.com.cn/${entry}`);
   } else if (version === 'hyperos1') {
-    return sitePath(`official_archives/os1.hyperos.mi.com/${entry}`);
+    return archiveMirrorUrl(`official_archives/os1.hyperos.mi.com/${entry}`);
   } else if (version === 'hyperos2') {
-    return sitePath(`official_archives/os2.hyperos.mi.com/${entry}`);
+    return archiveMirrorUrl(`official_archives/os2.hyperos.mi.com/${entry}`);
   } else if (version === 'hyperos3') {
-    return sitePath(`official_archives/os3.hyperos.mi.com/${entry}`);
+    return archiveMirrorUrl(`official_archives/os3.hyperos.mi.com/${entry}`);
   } else if (version === 'hyperos4') {
-    return sitePath(`official_archives/hyperos.mi.com/${entry}`);
+    return archiveMirrorUrl(`official_archives/hyperos.mi.com/${entry}`);
   } else if (version === 'magicos10') {
     if (magicOSArchiveBase) {
       return `${magicOSArchiveBase}/magicos10/${entry}`;
     }
-    return sitePath(`official_archives/www.honor.com/cn/magic-os-10/${entry}`);
+    return archiveMirrorUrl(`official_archives/www.honor.com/cn/magic-os-10/${entry}`);
   } else if (version === 'magicos11') {
     if (magicOSArchiveBase) {
       return `${magicOSArchiveBase}/${entry}`;
     }
-    return sitePath(`official_archives/www.honor.com/cn/magic-os/${entry}`);
+    return archiveMirrorUrl(`official_archives/www.honor.com/cn/magic-os/${entry}`);
   } else if (version === 'harmonyos7') {
-    return sitePath(`official_archives/consumer.huawei.com/cn/harmonyos-7/${entry}`);
+    return archiveMirrorUrl(`official_archives/consumer.huawei.com/cn/harmonyos-7/${entry}`);
   }
   return '';
 }

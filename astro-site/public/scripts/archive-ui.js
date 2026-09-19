@@ -104,7 +104,7 @@
       const path = window.location.pathname;
       const homePath = new URL(document.querySelector('.home-tab')?.href || '/', location.href).pathname.replace(/index\.html$/, '');
       const currentPath = path.replace(/index\.html$/, '');
-      const isHome = currentPath === homePath;
+      const isHome = currentPath === homePath || currentPath === '/';
       const isColorOS = path.includes('/coloros');
       const isOriginOS = path.includes('/originos');
       const isHyperOS = path.includes('/hyperos');
@@ -216,18 +216,8 @@
     }
     
     let currentOpenMenu = null;
-    let popoverRafId = null;
-
-    const stopTrackingPopover = () => {
-      if (popoverRafId) {
-        cancelAnimationFrame(popoverRafId);
-        popoverRafId = null;
-      }
-    };
-
     const updatePopoverPosition = () => {
       if (!currentOpenMenu || !mobilePopover || !mobilePopover.classList.contains('open')) {
-        stopTrackingPopover();
         return;
       }
       const trigger = currentOpenMenu.querySelector('.brand-trigger');
@@ -241,17 +231,7 @@
     };
 
     const startTrackingPopover = () => {
-      stopTrackingPopover();
-      const loop = () => {
-        if (currentOpenMenu && mobilePopover?.classList.contains('open')) {
-          updatePopoverPosition();
-          popoverRafId = requestAnimationFrame(loop);
-        } else {
-          stopTrackingPopover();
-        }
-      };
       updatePopoverPosition();
-      popoverRafId = requestAnimationFrame(loop);
     };
 
     const getOptimalTabScrollLeft = (targetTab) => {
@@ -380,7 +360,6 @@
     const brandMenus = document.querySelectorAll('.brand-menu');
 
     const closeAllBrandMenus = () => {
-      stopTrackingPopover();
       brandMenus.forEach(m => {
         m.classList.remove('open');
         m.querySelector('.brand-trigger')?.setAttribute('aria-expanded', 'false');
