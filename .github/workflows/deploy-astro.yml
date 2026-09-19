@@ -35,12 +35,17 @@ jobs:
         working-directory: astro-site
         run: npm ci --no-audit --no-fund
 
-      - name: Verify content and types
+      - name: Verify content
         working-directory: astro-site
-        run: |
-          npm run test:content
-          npm run digest:validate
-          npm run check
+        run: npm run test:content
+
+      - name: Verify monthly digests
+        working-directory: astro-site
+        run: npm run digest:validate
+
+      - name: Verify Astro types
+        working-directory: astro-site
+        run: npm run check
 
       - name: Audit production dependencies
         working-directory: astro-site
