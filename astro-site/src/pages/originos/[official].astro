@@ -24,12 +24,6 @@ const sources = {
 <html lang="zh-CN" class="official-page">
   <head>
     <meta charset="UTF-8" />
-    <script>
-      if ('serviceWorker' in navigator) {
-        // Register the proxy service worker for local official archives
-        navigator.serviceWorker.register((import.meta.env.BASE_URL || '/') + 'sw.js', { scope: import.meta.env.BASE_URL || '/' });
-      }
-    </script>
     <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
     <meta name="description" content={`${meta.label} 官方网站完整离线存档。`} />
     <meta name="theme-color" content="#f3f7fc" />
@@ -63,17 +57,20 @@ const sources = {
     </style>
   </head>
   <body>
-    <main class="official-shell" data-official-shell>
+    <main class="official-shell" data-official-shell data-base-url={base}>
       <div class="official-loading" aria-live="polite">
         <div class="official-status"><img src={sitePath('assets/images/archive-mark.svg')} alt="" /><strong>{meta.label}</strong><i class="official-spinner" aria-hidden="true"></i></div>
       </div>
       <iframe
         class="official-frame"
         data-official-frame
+        data-source-mobile={sources.mobile}
+        data-source-pad={sources.pad}
+        data-source-desktop={sources.desktop}
         title={meta.title}
         sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox allow-presentation allow-modals allow-downloads"
         allow="autoplay; fullscreen; picture-in-picture"
-        referrerpolicy="no-referrer"
+        referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
       <section class="official-error" data-official-error hidden aria-live="assertive">
         <div class="official-status">
@@ -85,22 +82,43 @@ const sources = {
       </section>
     </main>
     <a class="official-return" href={sitePath()} aria-label="返回 OS档案馆"><img src={sitePath('assets/images/archive-mark.svg')} alt="" /><span>返回档案馆</span></a>
-    <script is:inline define:vars={{ sources }}>
+    <script is:inline>
       const shell = document.querySelector('[data-official-shell]');
       const frame = document.querySelector('[data-official-frame]');
       const error = document.querySelector('[data-official-error]');
       const retry = document.querySelector('[data-official-retry]');
       const viewport = innerWidth <= 600 ? 'mobile' : innerWidth <= 1024 ? 'pad' : 'desktop';
       let timer;
-      const load = () => {
+      const showError = () => { shell.classList.remove('loaded'); error.hidden = false; };
+      const waitForServiceWorker = async (source) => {
+        if (!('serviceWorker' in navigator) || new URL(source, location.href).origin !== location.origin) return;
+        const swBase = shell?.dataset?.baseUrl || '/';
+        await navigator.serviceWorker.register(swBase + 'sw.js', { scope: swBase });
+        if (navigator.serviceWorker.controller) return;
+        await Promise.race([
+          new Promise((resolve) => navigator.serviceWorker.addEventListener('controllerchange', resolve, { once: true })),
+          new Promise((resolve) => setTimeout(resolve, 4000)),
+        ]);
+      };
+      const load = async () => {
         clearTimeout(timer);
         shell.classList.remove('loaded');
         error.hidden = true;
-        frame.src = sources[viewport];
-        timer = setTimeout(() => { if (!shell.classList.contains('loaded')) error.hidden = false; }, 12000);
+        const source = frame.dataset[`source${viewport[0].toUpperCase()}${viewport.slice(1)}`];
+        if (!source) { showError(); return; }
+        try {
+          await waitForServiceWorker(source);
+          if (new URL(source, location.href).origin === location.origin) {
+            const response = await fetch(source, { credentials: 'same-origin' });
+            if (!response.ok) throw new Error(`Archive returned ${response.status}`);
+            await response.arrayBuffer();
+          }
+          frame.src = source;
+          timer = setTimeout(showError, 12000);
+        } catch { showError(); }
       };
       frame.addEventListener('load', () => { clearTimeout(timer); error.hidden = true; shell.classList.add('loaded'); });
-      retry.addEventListener('click', load);
+      retry?.addEventListener('click', load);
       load();
     </script>
   </body>

@@ -49,8 +49,10 @@ h1, h2, h3, p { margin-top: 0; }
 @media (max-width: 760px) { .brand-switcher > a span::after, .brand-tab span::after { font-weight: 760; } }
 .brand-switcher > a::after, .brand-tab::after { content: ''; position: absolute; right: 2px; bottom: 3px; left: 2px; height: 2px; border-radius: 999px; transform: scaleX(0); transform-origin: center; transition: transform .2s var(--ease); opacity: .82; }
 .home-tab::after { background: linear-gradient(90deg, #53b8ff, #786cff); }
-.brand-tab::after { background: #00a99d; }
 .brand-switcher > a[href*="/originos/"]::after, .brand-menu:has(a[href*="/originos/"]) .brand-tab::after { background: #5267ff; }
+.brand-switcher > a[href*="/hyperos/"]::after, .brand-menu:has(a[href*="/hyperos/"]) .brand-tab::after { background: #000000; }
+.brand-switcher > a[href*="/magicos/"]::after, .brand-menu:has(a[href*="/magicos/"]) .brand-tab::after { background: #2563eb; }
+.brand-switcher > a[href*="/harmonyos/"]::after, .brand-menu:has(a[href*="/harmonyos/"]) .brand-tab::after { background: #0a59f7; }
 .brand-switcher > a:hover, .brand-tab:hover { color: var(--ink); }
 .brand-switcher > a:not(.active):hover::after, .brand-menu:not(.active) .brand-tab:hover::after { transform: scaleX(1); }
 .brand-switcher > a.active, .brand-menu.active .brand-tab { color: var(--ink); font-weight: 720; }
@@ -93,6 +95,7 @@ h1, h2, h3, p { margin-top: 0; }
 .brand-portal img { width: 150px; height: 42px; object-fit: contain; object-position: left center; }
 .brand-portal.originos img { width: 176px; height: 49px; }
 .brand-portal.magicos img { width: 145px; height: 42px; }
+.brand-portal.harmonyos img { width: 160px; height: 44px; }
 .brand-portal p { max-width: none; margin: 35px 0 28px; overflow: hidden; color: #606873; line-height: 1.7; text-overflow: ellipsis; white-space: nowrap; }
 .brand-portal span { display: inline-flex; align-items: center; gap: 8px; color: var(--portal-accent); font-size: 13px; font-weight: 800; }
 .section-block { margin-top: 100px; }
@@ -128,6 +131,8 @@ html.is-switching-view .article-layout { transition: width 0.4s var(--ease), gri
 .archive-nav[data-brand="originos"] .archive-heading span { margin-bottom: 9px; }
 .archive-nav[data-brand="hyperos"] .archive-heading img { width: 145px; }
 .archive-nav[data-brand="hyperos"] .archive-heading span { margin-bottom: 6px; }
+.archive-nav[data-brand="harmonyos"] .archive-heading img { width: 150px; height: 38px; }
+.archive-nav[data-brand="harmonyos"] .archive-heading span { margin-bottom: 6px; }
 .archive-count { margin: 8px 0 0; padding: 16px 0 2px; border-top: 1px solid rgba(22,27,35,.06); color: #9aa0a8; font-size: 11px; }
 .archive-list { min-height: 0; overflow-y: auto; overflow-x: clip; padding: 0 8px 20px; scrollbar-width: thin; scrollbar-color: #d5d9df transparent; }
 .year-group { --timeline-track: 14px; margin-bottom: 30px; }

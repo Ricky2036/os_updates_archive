@@ -222,7 +222,7 @@ function cleanAndPrepareHtml(html) {
   res = res.replace(/<link[^>]*href=["'][^"']*x300-ultra[^"']*["'][^>]*>\s*/gi, '');
 
   // Rewrite ./zip/ to full CDN url so SW proxy catches it effortlessly
-  res = res.replace(/(?:src|href|data-src|data-video|data-img|data-poster)=["']\.\/zip\/([^"']+)["']/g, (m, p) => {
+  res = res.replace(/(?:src|href|data-src|data-video|data-img|data-poster)=["']\.\/zip\/([^"']+)["']/g, (m) => {
     return m.replace('./zip/', 'https://wwwstatic.vivo.com.cn/vivoportal/files/resource/funtouch/1789652280489/zip/');
   });
 

@@ -71,6 +71,19 @@
     const controller = new AbortController();
     window.__osArchiveController = controller;
     const { signal } = controller;
+    const pendingTimeouts = new Set();
+    const schedule = (callback, delay) => {
+      const id = setTimeout(() => {
+        pendingTimeouts.delete(id);
+        if (!signal.aborted) callback();
+      }, delay);
+      pendingTimeouts.add(id);
+      return id;
+    };
+    signal.addEventListener('abort', () => {
+      pendingTimeouts.forEach(clearTimeout);
+      pendingTimeouts.clear();
+    }, { once: true });
     const mobileTabs = window.matchMedia('(max-width: 760px)');
     let swipeStartY = null;
 
@@ -83,16 +96,20 @@
       if (path.includes('/originos')) return switcher.querySelector('[data-brand="originos"]');
       if (path.includes('/hyperos')) return switcher.querySelector('[data-brand="hyperos"]');
       if (path.includes('/magicos')) return switcher.querySelector('[data-brand="magicos"]');
+      if (path.includes('/harmonyos')) return switcher.querySelector('[data-brand="harmonyos"]');
       return switcher.querySelector('.home-tab');
     };
 
     const updatePersistedNav = () => {
       const path = window.location.pathname;
-      const isHome = path === '/' || path === '' || (path.endsWith('/index.html') && !path.includes('/coloros') && !path.includes('/originos') && !path.includes('/hyperos') && !path.includes('/magicos'));
+      const homePath = new URL(document.querySelector('.home-tab')?.href || '/', location.href).pathname.replace(/index\.html$/, '');
+      const currentPath = path.replace(/index\.html$/, '');
+      const isHome = currentPath === homePath;
       const isColorOS = path.includes('/coloros');
       const isOriginOS = path.includes('/originos');
       const isHyperOS = path.includes('/hyperos');
       const isMagicOS = path.includes('/magicos');
+      const isHarmonyOS = path.includes('/harmonyos');
 
       const switcher = document.querySelector('.brand-switcher');
       if (!switcher) return;
@@ -103,59 +120,46 @@
       const colorOSMenu = switcher.querySelector('.brand-menu[data-brand="coloros"]');
       if (colorOSMenu) {
         colorOSMenu.classList.toggle('active', isColorOS);
-        const is15 = /\/coloros\/15(\/|$)/.test(path);
-        const is16 = /\/coloros\/16(\/|$)/.test(path);
-        const isMonthly = isColorOS && !is15 && !is16;
+        const officialMatch = path.match(/\/coloros\/(15|16|17)(?:\/|$)/);
+        const activeSection = officialMatch?.[1] || (isColorOS ? 'monthly' : '');
         const subLinks = colorOSMenu.querySelectorAll('.brand-submenu a');
-        if (subLinks && subLinks.length >= 3) {
-          subLinks[0].classList.toggle('active', is15);
-          subLinks[1].classList.toggle('active', is16);
-          subLinks[2].classList.toggle('active', isMonthly);
-        }
+        subLinks.forEach((link) => link.classList.toggle('active', link.dataset.section === activeSection));
       }
 
       const originOSMenu = switcher.querySelector('.brand-menu[data-brand="originos"]');
       if (originOSMenu) {
         originOSMenu.classList.toggle('active', isOriginOS);
-        const is6 = /\/originos\/6(\/|$)/.test(path);
-        const isMonthly = isOriginOS && !is6;
+        const officialMatch = path.match(/\/originos\/(6|7)(?:\/|$)/);
+        const activeSection = officialMatch?.[1] || (isOriginOS ? 'monthly' : '');
         const subLinks = originOSMenu.querySelectorAll('.brand-submenu a');
-        if (subLinks && subLinks.length >= 2) {
-          subLinks[0].classList.toggle('active', is6);
-          subLinks[1].classList.toggle('active', isMonthly);
-        }
+        subLinks.forEach((link) => link.classList.toggle('active', link.dataset.section === activeSection));
       }
 
       const hyperOSMenu = switcher.querySelector('.brand-menu[data-brand="hyperos"]');
       if (hyperOSMenu) {
         hyperOSMenu.classList.toggle('active', isHyperOS);
-        const is4 = /\/hyperos\/4(\/|$)/.test(path);
-        const is3 = /\/hyperos\/3(\/|$)/.test(path);
-        const is2 = /\/hyperos\/2(\/|$)/.test(path);
-        const is1 = /\/hyperos\/1(\/|$)/.test(path);
-        const isMonthly = isHyperOS && !is4 && !is3 && !is2 && !is1;
+        const officialMatch = path.match(/\/hyperos\/(1|2|3|4)(?:\/|$)/);
+        const activeSection = officialMatch?.[1] || (isHyperOS ? 'monthly' : '');
         const subLinks = hyperOSMenu.querySelectorAll('.brand-submenu a');
-        if (subLinks && subLinks.length >= 5) {
-          subLinks[0].classList.toggle('active', is4);
-          subLinks[1].classList.toggle('active', is3);
-          subLinks[2].classList.toggle('active', is2);
-          subLinks[3].classList.toggle('active', is1);
-          subLinks[4].classList.toggle('active', isMonthly);
-        }
+        subLinks.forEach((link) => link.classList.toggle('active', link.dataset.section === activeSection));
       }
 
       const magicOSMenu = switcher.querySelector('.brand-menu[data-brand="magicos"]');
       if (magicOSMenu) {
         magicOSMenu.classList.toggle('active', isMagicOS);
-        const is11 = /\/magicos\/11(\/|$)/.test(path);
-        const is10 = /\/magicos\/10(\/|$)/.test(path);
-        const isMonthly = isMagicOS && !is10 && !is11;
+        const officialMatch = path.match(/\/magicos\/(10|11)(?:\/|$)/);
+        const activeSection = officialMatch?.[1] || (isMagicOS ? 'monthly' : '');
         const subLinks = magicOSMenu.querySelectorAll('.brand-submenu a');
-        if (subLinks && subLinks.length >= 3) {
-          subLinks[0].classList.toggle('active', is11);
-          subLinks[1].classList.toggle('active', is10);
-          subLinks[2].classList.toggle('active', isMonthly);
-        }
+        subLinks.forEach((link) => link.classList.toggle('active', link.dataset.section === activeSection));
+      }
+
+      const harmonyOSMenu = switcher.querySelector('.brand-menu[data-brand="harmonyos"]');
+      if (harmonyOSMenu) {
+        harmonyOSMenu.classList.toggle('active', isHarmonyOS);
+        const officialMatch = path.match(/\/harmonyos\/(7)(?:\/|$)/);
+        const activeSection = officialMatch?.[1] || (isHarmonyOS ? 'monthly' : '');
+        const subLinks = harmonyOSMenu.querySelectorAll('.brand-submenu a');
+        subLinks.forEach((link) => link.classList.toggle('active', link.dataset.section === activeSection));
       }
     };
 
@@ -435,7 +439,7 @@
           if (window.__osDismissedBrand === brandKey) return;
           if (Date.now() - (window.__osLastDismissTime || 0) < 400) return;
           clearTimeout(hoverTimer);
-          hoverTimer = setTimeout(() => {
+          hoverTimer = schedule(() => {
             if (window.__osDismissedBrand !== brandKey && Date.now() - (window.__osLastDismissTime || 0) >= 400) {
               openBrandMenu();
             }
@@ -687,12 +691,12 @@
       document.documentElement.classList.add('is-switching-view');
       root.classList.add('is-flipping', `is-flipping-${flipDirection}-out`);
 
-      setTimeout(() => {
+      schedule(() => {
         setMonthlyView(root, normalized, false);
         root.classList.remove(`is-flipping-${flipDirection}-out`);
         root.classList.add(`is-flipping-${flipDirection}-in`);
 
-        setTimeout(() => {
+        schedule(() => {
           root.classList.remove('is-flipping', `is-flipping-${flipDirection}-in`);
           document.documentElement.classList.remove('is-switching-view');
           isFlipping = false;
@@ -793,7 +797,7 @@
     if (sessionStorage.getItem('os-archive:pull-navigated') === 'true') {
       sessionStorage.removeItem('os-archive:pull-navigated');
       document.body.classList.add('page-card-enter-up');
-      setTimeout(() => {
+      schedule(() => {
         document.body.classList.remove('page-card-enter-up');
       }, 500);
     }
@@ -845,12 +849,12 @@
         document.body.classList.add('page-card-exit-up');
         sessionStorage.setItem('os-archive:pull-navigated', 'true');
 
-        setTimeout(() => {
+        schedule(() => {
           window.location.href = nextUrl;
         }, 180);
 
         // Fallback
-        setTimeout(() => {
+        schedule(() => {
           cancelPull();
         }, 2000);
       };
@@ -869,7 +873,7 @@
         articleContent.style.transform = 'translate3d(0, 0px, 0)';
         articleContent.style.opacity = '1';
 
-        cancelTimer = setTimeout(() => {
+        cancelTimer = schedule(() => {
           if (!isPulling) {
             articleContent.style.transition = '';
             articleContent.style.transform = '';
@@ -1004,7 +1008,7 @@
           setThresholdState(isThreshold);
 
           clearTimeout(wheelEndTimeout);
-          wheelEndTimeout = setTimeout(() => {
+          wheelEndTimeout = schedule(() => {
             if (thresholdReached && nextUrl) {
               triggerNavigation();
             } else {

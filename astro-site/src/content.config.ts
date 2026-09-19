@@ -16,7 +16,7 @@ const articles = defineCollection({
     articleId: z.string(),
     order: z.number().int().min(0),
     title: z.string(),
-    brand: z.enum(['coloros', 'originos', 'hyperos', 'magicos']),
+    brand: z.enum(['coloros', 'originos', 'hyperos', 'magicos', 'harmonyos']),
     year: z.number().int(),
     publishedAt: z.string(),
     slug: z.string(),

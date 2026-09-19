@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="656" height="810" viewBox="0 0 656 810">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.509" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#16161f"/>
+      <stop offset="1" stop-color="#0d0d10"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#39489a"/>
+      <stop offset="1" stop-color="#02074a" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="组_87182" data-name="组 87182" transform="translate(-731 -76.945)">
+    <rect id="emoji对比-华为_华为" data-name="emoji对比-华为＆华为" width="656" height="810" transform="translate(731 76.945)" opacity="0" fill="url(#linear-gradient)"/>
+    <path id="路径_68544" data-name="路径 68544" d="M0-.042S109.639-4.085,250.629,5.684s227.364,37.59,227.364,37.59V261.609H0Z" transform="translate(823.779 437.15)" fill="url(#linear-gradient-2)"/>
+    <line id="直线_14" data-name="直线 14" x2="476.1" transform="translate(826.157 438.537)" fill="none" stroke="#5781e3" stroke-linecap="round" stroke-width="4" stroke-dasharray="8 12"/>
+    <path id="路径_68566" data-name="路径 68566" d="M8006.873-8451.546s282.545-13.99,473.95,40.912" transform="translate(-7179.052 8893.201)" fill="none" stroke="#5781e3" stroke-linecap="round" stroke-width="8"/>
+    <line id="直线_15" data-name="直线 15" y2="295.903" transform="translate(824.254 403.332)" fill="none" stroke="#27306e" stroke-width="4"/>
+    <line id="直线_16" data-name="直线 16" x1="487.003" transform="translate(824.254 699.235)" fill="none" stroke="#27306e" stroke-width="4"/>
+    <path id="多边形_22" data-name="多边形 22" d="M10,0,20,16.186H0Z" transform="translate(1323.115 689.002) rotate(90)" fill="#27306e"/>
+    <path id="多边形_23" data-name="多边形 23" d="M10,0,20,14.745H0Z" transform="translate(814.254 401.014)" fill="#27306e"/>
+  </g>
+</svg>

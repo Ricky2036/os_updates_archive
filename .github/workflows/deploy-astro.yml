@@ -33,7 +33,18 @@ jobs:
 
       - name: Install dependencies
         working-directory: astro-site
-        run: npm install --no-audit --no-fund
+        run: npm ci --no-audit --no-fund
+
+      - name: Verify content and types
+        working-directory: astro-site
+        run: |
+          npm run test:content
+          npm run digest:validate
+          npm run check
+
+      - name: Audit production dependencies
+        working-directory: astro-site
+        run: npm audit --omit=dev --audit-level=high
 
       - name: Build site
         working-directory: astro-site

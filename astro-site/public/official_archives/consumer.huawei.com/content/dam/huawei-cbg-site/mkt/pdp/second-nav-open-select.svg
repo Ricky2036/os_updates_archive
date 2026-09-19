@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="加号" width="16" height="16" fill="rgba(255,255,255,0)"/>
+    </clipPath>
+  </defs>
+  <g id="加号-2" data-name="加号" transform="translate(-0.329 -0.329)">
+    <rect id="加号-3" data-name="加号" width="16" height="16" transform="translate(0.329 0.329)" fill="rgba(255,255,255,0)"/>
+    <g id="组_53893" data-name="组 53893" transform="translate(0.329 0.329)" clip-path="url(#clip-path)">
+      <circle id="椭圆_16" data-name="椭圆 16" cx="7" cy="7" r="7" transform="translate(15 15) rotate(180)"/>
+      <path id="联合_1" data-name="联合 1" d="M2.495,5.613V3.742H.624a.624.624,0,1,1,0-1.247H2.495V.624a.624.624,0,1,1,1.248,0V2.5H5.613a.624.624,0,1,1,0,1.247H3.743V5.613a.624.624,0,1,1-1.248,0Z" transform="translate(4.931 4.932)" fill="#f9f9f9"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1056" height="800" viewBox="0 0 1056 800">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#39489a"/>
+      <stop offset="1" stop-color="#02074a" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="组_87182" data-name="组 87182" transform="translate(-1166 -60.281)">
+    <rect id="矩形_44567" data-name="矩形 44567" width="1056" height="800" transform="translate(1166 60.281)" fill="#14141c" opacity="0"/>
+    <path id="路径_68570" data-name="路径 68570" d="M0,0S178.185-4.249,407.32,6.019s369.51,39.508,369.51,39.508V275H0Z" transform="translate(1312.836 416.121)" fill="url(#linear-gradient)"/>
+    <line id="直线_19" data-name="直线 19" x2="774.829" transform="translate(1315.336 417.621)" fill="none" stroke="#5781e3" stroke-linecap="round" stroke-width="3" stroke-dasharray="4 8"/>
+    <path id="路径_68571" data-name="路径 68571" d="M8006.873-8451.464s461.075-14.705,773.42,43" transform="translate(-6691.537 8870.121)" fill="none" stroke="#5781e3" stroke-linecap="round" stroke-width="6"/>
+    <line id="直线_18" data-name="直线 18" y2="311" transform="translate(1313.336 380.621)" fill="none" stroke="#27306e" stroke-width="2"/>
+    <line id="直线_17" data-name="直线 17" x1="779.829" transform="translate(1313.336 691.621)" fill="none" stroke="#27306e" stroke-linecap="round" stroke-width="3"/>
+    <path id="多边形_24" data-name="多边形 24" d="M8,0l8,14H0Z" transform="translate(2102.756 683.122) rotate(90)" fill="#27306e"/>
+    <path id="多边形_25" data-name="多边形 25" d="M7.5,0,15,12H0Z" transform="translate(1305.836 374.121)" fill="#27306e"/>
+  </g>
+</svg>

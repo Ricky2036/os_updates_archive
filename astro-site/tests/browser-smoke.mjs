@@ -12,27 +12,49 @@ const server = http.createServer(async (request, response) => {
   try {
     const url = decodeURIComponent(new URL(request.url, 'http://localhost').pathname);
     const lowerUrl = url.toLowerCase();
-    if (lowerUrl.startsWith('/portal/open/api/') || lowerUrl.startsWith('/header/login/') || lowerUrl.startsWith('/eden/flyheart') || lowerUrl.startsWith('/h5/monitor') || lowerUrl.includes('vmonitor')) {
+    if (lowerUrl.includes('/portal/open/api/') || lowerUrl.includes('/header/login/') || lowerUrl.includes('/eden/flyheart') || lowerUrl.includes('/h5/monitor') || lowerUrl.includes('vmonitor')) {
       const u = new URL(request.url, 'http://localhost');
       const cb = u.searchParams.get('callback') || u.searchParams.get('jsoncallback');
       const body = cb ? `${cb}({"code":0,"data":{}})` : '{"code":0,"data":{}}';
-      response.writeHead(200, { 'Content-Type': cb ? 'application/javascript' : 'application/json' });
+      const reqOrigin = request.headers.origin || '*';
+      response.writeHead(200, {
+        'Content-Type': cb ? 'application/javascript; charset=utf-8' : 'application/json; charset=utf-8',
+        'Access-Control-Allow-Origin': reqOrigin,
+        'Access-Control-Allow-Credentials': 'true',
+        'Access-Control-Allow-Methods': 'GET, POST, OPTIONS, PUT, DELETE',
+        'Access-Control-Allow-Headers': '*',
+      });
       response.end(body);
       return;
     }
-    let file = path.join(dist, url.replace(/^\/+/, ''));
-    if (url.endsWith('/')) file = path.join(file, 'index.html');
+    const cleanUrl = url.replace(/^\/+/, '').replace(/^os_updates_archive\//, '');
+    let file = path.join(dist, cleanUrl);
+    if (url.endsWith('/') || !cleanUrl) file = path.join(file, 'index.html');
     if (!path.extname(file) && !fsSync.existsSync(file)) file = path.join(file, 'index.html');
     if (!fsSync.existsSync(file)) {
-      const honor1 = path.join(dist, 'official_archives/www.honor.com', url.replace(/^\/+/, ''));
-      const honor2 = path.join(dist, 'official_archives/www-file.honor.com', url.replace(/^\/+/, ''));
-      if (fsSync.existsSync(honor1)) file = honor1;
-      else if (fsSync.existsSync(honor2)) file = honor2;
+      const candidates = [
+        path.join(dist, 'official_archives/consumer.huawei.com', cleanUrl),
+        path.join(dist, 'official_archives/consumer-img.huawei.com', cleanUrl),
+        path.join(dist, 'official_archives/www.honor.com', cleanUrl),
+        path.join(dist, 'official_archives/www-file.honor.com', cleanUrl),
+        path.join(dist, 'official_archives/www.vivo.com.cn', cleanUrl),
+        path.join(dist, 'official_archives/wwwstatic.vivo.com.cn/vivoportal/files/resource/funtouch/1789652280489', cleanUrl),
+      ];
+      for (const candidate of candidates) {
+        if (fsSync.existsSync(candidate)) {
+          file = candidate;
+          break;
+        }
+      }
     }
     const bytes = await fs.readFile(file);
-    response.writeHead(200, { 'Content-Type': mime[path.extname(file)] || 'application/octet-stream' });
+    response.writeHead(200, { 'Content-Type': mime[path.extname(file)] || 'application/octet-stream', 'Access-Control-Allow-Origin': '*' });
     response.end(bytes);
-  } catch { response.writeHead(404); response.end('Not found'); }
+  } catch (err) {
+    console.error(`[Server 404] url: ${request.url}, error: ${err.message}`);
+    response.writeHead(404);
+    response.end('Not found');
+  }
 });
 await new Promise((resolve) => server.listen(0, '127.0.0.1', resolve));
 const { port } = server.address();
@@ -47,17 +69,52 @@ try {
   await page.setRequestInterception(true);
   page.on('request', (request) => {
     const url = new URL(request.url());
+    const reqOrigin = request.headers()['origin'] || '*';
+    const reqHeaders = request.headers()['access-control-request-headers'] || '*';
+    const corsHeaders = {
+      'Access-Control-Allow-Origin': reqOrigin,
+      'Access-Control-Allow-Credentials': 'true',
+      'Access-Control-Allow-Methods': 'GET, POST, OPTIONS, PUT, DELETE',
+      'Access-Control-Allow-Headers': reqHeaders,
+      'Access-Control-Max-Age': '86400',
+    };
+
+    if (request.method() === 'OPTIONS') {
+      request.respond({ status: 204, headers: corsHeaders });
+      return;
+    }
+
     if (url.hostname === 'official.osarchive.com' || url.hostname.endsWith('.r2.dev')) {
       request.respond({ status: 200, contentType: 'text/html; charset=utf-8', body: '<!doctype html><html><body><main data-official-fixture>ColorOS official archive</main></body></html>' });
     } else if (url.pathname.startsWith('/portal/open/api/') || url.pathname.startsWith('/header/login/') || url.pathname.toLowerCase().startsWith('/eden/flyheart')) {
       const cb = url.searchParams.get('callback') || url.searchParams.get('jsoncallback');
       const body = cb ? `${cb}({"code":0,"data":{}})` : '/* ok */';
-      request.respond({ status: 200, contentType: 'application/javascript', body });
-    } else if (url.hostname.includes('baidu.com') || url.hostname.includes('cnzz.com') || url.hostname.includes('google-analytics.com') || url.hostname.includes('sentinel') || url.hostname.includes('h5sdk') || url.hostname.includes('wukongapi') || url.hostname.includes('stpc.vivo.com.cn')) {
-      request.respond({ status: 200, contentType: 'application/javascript', body: '/* ok */' });
+      request.respond({ status: 200, contentType: 'application/javascript; charset=utf-8', headers: corsHeaders, body });
+    } else if (
+      url.hostname.includes('baidu.com') ||
+      url.hostname.includes('cnzz.com') ||
+      url.hostname.includes('google-analytics.com') ||
+      url.hostname.includes('googletagmanager.com') ||
+      url.hostname.includes('adsrvr.org') ||
+      url.hostname.includes('sentinel') ||
+      url.hostname.includes('h5sdk') ||
+      url.hostname.includes('wukongapi') ||
+      url.hostname.includes('stpc.vivo.com.cn') ||
+      (url.hostname.includes('huawei.com') && !['consumer.huawei.com', 'consumer-img.huawei.com'].includes(url.hostname)) ||
+      (url.hostname.includes('honor.com') && !['www.honor.com', 'www-file.honor.com'].includes(url.hostname))
+    ) {
+      const cb = url.searchParams.get('callback') || url.searchParams.get('jsoncallback') || url.searchParams.get('cb');
+      const isScript = request.resourceType() === 'script' || url.pathname.endsWith('.js');
+      if (cb) {
+        request.respond({ status: 200, contentType: 'application/javascript; charset=utf-8', headers: corsHeaders, body: `${cb}({"code":"0","data":{}})` });
+      } else if (isScript) {
+        request.respond({ status: 200, contentType: 'application/javascript; charset=utf-8', headers: corsHeaders, body: '/* mock script ok */' });
+      } else {
+        request.respond({ status: 200, contentType: 'application/json; charset=utf-8', headers: corsHeaders, body: '{"code":"0","data":{}}' });
+      }
     } else request.continue();
   });
-  page.on('console', (message) => { if (message.type() === 'error') errors.push(`${page.url()}: ${message.text()}`); });
+  page.on('console', (message) => { if (message.type() === 'error') errors.push(`${page.url()}: ${message.text()} [${message.location().url}]`); });
   page.on('pageerror', (error) => errors.push(`Page error on ${page.url()}: ${error.message} - ${error.stack}`));
   page.on('requestfailed', (request) => {
     const reason = request.failure()?.errorText ?? '';
@@ -182,7 +239,7 @@ try {
       };
     });
     const centers = mobileTabGeometry.tabs.map((tab) => tab.centerY);
-    if (mobileTabGeometry.tabs.length !== 5 || Math.max(...centers) - Math.min(...centers) > .5) throw new Error(`Mobile tabs are incomplete or vertically misaligned at ${width}px: ${JSON.stringify(mobileTabGeometry)}`);
+    if (mobileTabGeometry.tabs.length !== 6 || Math.max(...centers) - Math.min(...centers) > .5) throw new Error(`Mobile tabs are incomplete or vertically misaligned at ${width}px: ${JSON.stringify(mobileTabGeometry)}`);
     if (mobileTabGeometry.labels.some((label) => label.display !== 'flex' && label.display !== 'inline-flex') || mobileTabGeometry.labels.some((label) => Math.abs(label.tabCenterY - label.labelCenterY) > 1)) throw new Error(`Mobile tab labels are not vertically centered at ${width}px: ${JSON.stringify(mobileTabGeometry)}`);
     const sortedTabs = [...mobileTabGeometry.tabs].sort((a, b) => a.left - b.left);
     if (sortedTabs.some((tab, index) => index > 0 && tab.left < sortedTabs[index - 1].right - .5)) throw new Error(`Mobile tabs overlap at ${width}px: ${JSON.stringify(mobileTabGeometry)}`);
@@ -253,6 +310,16 @@ try {
   }));
   if (!magicOS11State.src.includes('magic-os/index.html')) throw new Error(`MagicOS 11 official archive route is incorrect: ${magicOS11State.src}`);
   if (!magicOS11State.returnLink || magicOS11State.overflow > 1) throw new Error(`MagicOS 11 immersive shell is incomplete: ${JSON.stringify(magicOS11State)}`);
+
+  await page.goto(`${origin}/harmonyos/7/`, { waitUntil: 'networkidle2' });
+  await page.waitForSelector('[data-official-shell].loaded');
+  const harmonyOS7State = await page.$eval('[data-official-frame]', (element) => ({
+    src: element.src,
+    overflow: document.body.scrollWidth - innerWidth,
+    returnLink: Boolean(document.querySelector('.official-return')),
+  }));
+  if (!harmonyOS7State.src.includes('consumer.huawei.com/cn/harmonyos-7/index.html')) throw new Error(`HarmonyOS 7 official archive route is incorrect: ${harmonyOS7State.src}`);
+  if (!harmonyOS7State.returnLink || harmonyOS7State.overflow > 1) throw new Error(`HarmonyOS 7 immersive shell is incomplete: ${JSON.stringify(harmonyOS7State)}`);
 
   const articles = await Promise.all((await fs.readdir(path.join(site, 'src/content/articles'))).filter((name) => name.endsWith('.json')).map(async (name) => JSON.parse(await fs.readFile(path.join(site, 'src/content/articles', name), 'utf8'))));
   await page.setViewport({ width: 1280, height: 900 });
@@ -386,6 +453,7 @@ try {
     const articleText = await page.$eval('.article-content', (element) => element.textContent);
     if (articleText.includes('原始交互已恢复') || articleText.includes('隔离环境') || await page.$('.interactive-toolbar a')) throw new Error(`Implementation copy or standalone link is visible: ${interactive.slug}`);
     const sandbox = await page.$eval('[data-compat-frame]', (element) => element.getAttribute('sandbox') ?? '');
+    if (!sandbox.includes('allow-scripts') || !sandbox.includes('allow-same-origin')) throw new Error(`Interactive sandbox attributes missing: ${interactive.slug}`);
     const frame = page.frames().find((item) => item.url().includes(`/compat/${interactive.brand}/${interactive.slug}/index.html`));
     if (!frame) throw new Error(`Interactive compatibility frame did not load: ${interactive.slug}`);
     if (!await frame.$('.compat-root')) throw new Error(`Interactive compatibility content is missing: ${interactive.slug}`);

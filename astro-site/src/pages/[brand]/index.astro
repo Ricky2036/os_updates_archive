@@ -2,7 +2,7 @@
 import { articlePath, brandMeta, getArticles, sitePath, type Brand } from '../../lib/archive';
 
 export function getStaticPaths() {
-  return (['coloros', 'originos', 'hyperos', 'magicos'] as Brand[]).map((brand) => ({ params: { brand } }));
+  return (['coloros', 'originos', 'hyperos', 'magicos', 'harmonyos'] as Brand[]).map((brand) => ({ params: { brand } }));
 }
 const brand = Astro.params.brand as Brand;
 const entries = await getArticles(brand);

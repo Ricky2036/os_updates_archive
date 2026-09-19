@@ -27,7 +27,10 @@ self.addEventListener('fetch', event => {
         'cia.hyperos.mi.com',
         's01.mifile.cn',
         'www.honor.com',
-        'www-file.honor.com'
+        'www-file.honor.com',
+        'consumer.huawei.com',
+        'consumer-img.huawei.com',
+        'huawei.com'
     ];
 
     const url = new URL(event.request.url);
@@ -39,11 +42,11 @@ self.addEventListener('fetch', event => {
         else if (referer.includes('os2.hyperos.mi.com') || referer.includes('/hyperos/2')) domain = 'os2.hyperos.mi.com';
         else if (referer.includes('os3.hyperos.mi.com') || referer.includes('/hyperos/3')) domain = 'os3.hyperos.mi.com';
         else if (referer.includes('hyperos.mi.com') || referer.includes('/hyperos/4')) domain = 'hyperos.mi.com';
-        
+
         const scopeUrl = new URL(self.registration.scope);
         const basePath = scopeUrl.pathname.replace(/\/$/, '');
         const targetPath = `${basePath}/official_archives/${domain}${url.pathname}`;
-        
+
         event.respondWith(
             fetch(targetPath).then(response => {
                 if (!response.ok) return fetch(event.request);
@@ -54,13 +57,23 @@ self.addEventListener('fetch', event => {
     }
 
     if (url.pathname.startsWith('/content/') || url.pathname.startsWith('/etc/') || url.pathname.startsWith('/etc.clientlibs/') || url.pathname.startsWith('/libs/') || url.pathname.startsWith('/cn/')) {
+        const referer = event.request.headers.get('referer') || '';
         const scopeUrl = new URL(self.registration.scope);
         const basePath = scopeUrl.pathname.replace(/\/$/, '');
-        const targetPath = `${basePath}/official_archives/www.honor.com${url.pathname}`;
-        
+
+        let primaryDomain = 'www.honor.com';
+        let fallbackDomain = 'www-file.honor.com';
+
+        if (referer.includes('consumer.huawei.com') || referer.includes('/harmonyos/') || url.pathname.includes('huawei-cbg-site') || url.pathname.includes('harmonyos')) {
+            primaryDomain = 'consumer.huawei.com';
+            fallbackDomain = 'consumer-img.huawei.com';
+        }
+
+        const targetPath = `${basePath}/official_archives/${primaryDomain}${url.pathname}`;
+
         event.respondWith(
             fetch(targetPath).then(response => {
-                if (!response.ok) return fetch(`${basePath}/official_archives/www-file.honor.com${url.pathname}`);
+                if (!response.ok) return fetch(`${basePath}/official_archives/${fallbackDomain}${url.pathname}`);
                 return response;
             }).catch(() => fetch(event.request))
         );
@@ -82,19 +95,30 @@ self.addEventListener('fetch', event => {
     }
 
     const lowerPath = url.pathname.toLowerCase();
-    if (lowerPath.startsWith('/portal/open/api/') || lowerPath.startsWith('/header/login/') || lowerPath.startsWith('/eden/flyheart') || lowerPath.startsWith('/h5/monitor') || lowerPath.includes('vmonitor')) {
+    if (lowerPath.includes('/portal/open/api/') || lowerPath.includes('/header/login/') || lowerPath.includes('/eden/flyheart') || lowerPath.includes('/h5/monitor') || lowerPath.includes('/vmonitor')) {
         const cb = url.searchParams.get('callback') || url.searchParams.get('jsoncallback');
-        const body = cb ? `${cb}({"code":0,"data":{}})` : '{"code":0,"data":{}}';
+        const validCallback = cb && /^[A-Za-z_$][\w$]*(?:\.[A-Za-z_$][\w$]*)*$/.test(cb) ? cb : null;
+        const body = validCallback ? `${validCallback}({"code":0,"data":{}})` : '{"code":0,"data":{}}';
+        const reqOrigin = event.request.headers.get('origin') || '*';
+        const reqHeaders = event.request.headers.get('access-control-request-headers') || '*';
         event.respondWith(
             new Response(body, {
-                status: 200,
-                headers: { 'Content-Type': cb ? 'application/javascript' : 'application/json' }
+                status: cb && !validCallback ? 400 : 200,
+                headers: {
+                    'Content-Type': validCallback ? 'application/javascript; charset=utf-8' : 'application/json; charset=utf-8',
+                    'Access-Control-Allow-Origin': reqOrigin,
+                    'Access-Control-Allow-Credentials': 'true',
+                    'Access-Control-Allow-Headers': reqHeaders,
+                    'Access-Control-Allow-Methods': 'GET, POST, OPTIONS, PUT, DELETE',
+                    'X-Content-Type-Options': 'nosniff',
+                    'Cache-Control': 'no-store'
+                }
             })
         );
         return;
     }
 
-    if (targetDomains.some(domain => url.hostname.includes(domain))) {
+    if (targetDomains.some(domain => url.hostname === domain || url.hostname.endsWith(`.${domain}`))) {
         // Compute the base path from the SW registration scope (e.g., '/' or '/os_updates_archive/')
         const scopeUrl = new URL(self.registration.scope);
         const basePath = scopeUrl.pathname.replace(/\/$/, '');

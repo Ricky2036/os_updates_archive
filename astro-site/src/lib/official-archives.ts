@@ -1,6 +1,6 @@
 import { sitePath } from './archive';
 
-export type OfficialArchiveVersion = '15' | '16' | '17' | 'originos6' | 'originos7' | 'hyperos1' | 'hyperos2' | 'hyperos3' | 'hyperos4' | 'magicos10' | 'magicos11';
+export type OfficialArchiveVersion = '15' | '16' | '17' | 'originos6' | 'originos7' | 'hyperos1' | 'hyperos2' | 'hyperos3' | 'hyperos4' | 'magicos10' | 'magicos11' | 'harmonyos7';
 export type OfficialArchiveViewport = 'mobile' | 'pad' | 'desktop';
 export type ColorOSSection = 'monthly' | OfficialArchiveVersion;
 
@@ -96,6 +96,13 @@ export const officialArchiveMeta: Record<OfficialArchiveVersion, {
     route: sitePath('magicos/11/'),
     entries: { desktop: 'index.html', pad: 'index.html', mobile: 'index.html' },
   },
+  'harmonyos7': {
+    title: 'HarmonyOS 7 官方网站存档',
+    label: 'HarmonyOS 7',
+    folder: 'harmonyos7',
+    route: sitePath('harmonyos/7/'),
+    entries: { desktop: 'index.html', pad: 'index.html', mobile: 'index.html' },
+  },
 };
 
 export function officialArchiveUrl(version: OfficialArchiveVersion, viewport: OfficialArchiveViewport) {
@@ -126,6 +133,8 @@ export function officialArchiveUrl(version: OfficialArchiveVersion, viewport: Of
       return `${magicOSArchiveBase}/${entry}`;
     }
     return sitePath(`official_archives/www.honor.com/cn/magic-os/${entry}`);
+  } else if (version === 'harmonyos7') {
+    return sitePath(`official_archives/consumer.huawei.com/cn/harmonyos-7/${entry}`);
   }
   return '';
 }

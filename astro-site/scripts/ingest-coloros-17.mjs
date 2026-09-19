@@ -173,7 +173,7 @@ for (const [rawUrl, asset] of sortedEntries) {
 }
 
 // Add data-lazy-bgimg attributes to svg/sections with background urls for progressive loading and fallback reporting
-compatHtml = compatHtml.replace(/background(?:-image)?\s*:\s*url\((['"]?)([^'")]+)\1\)/gi, (match, quote, url) => {
+compatHtml = compatHtml.replace(/background(?:-image)?\s*:\s*url\((['"]?)([^'")]+)\1\)/gi, (match, _quote, url) => {
   return `${match} data-lazy-bgimg="${url}"`;
 });
 
@@ -264,4 +264,3 @@ const articleJson = {
 
 await fs.writeFile(path.join(articlesDir, '63-coloros.json'), JSON.stringify(articleJson, null, 2) + '\n', 'utf8');
 console.log('Article JSON created at:', path.join(articlesDir, '63-coloros.json'));
-

@@ -67,6 +67,9 @@ const sources = {
       <iframe
         class="official-frame"
         data-official-frame
+        data-source-mobile={sources.mobile}
+        data-source-pad={sources.pad}
+        data-source-desktop={sources.desktop}
         title={meta.title}
         sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox allow-presentation allow-modals allow-downloads"
         allow="autoplay; fullscreen; picture-in-picture"
@@ -82,7 +85,7 @@ const sources = {
       </section>
     </main>
     <a class="official-return" href={sitePath()} aria-label="返回 OS档案馆"><img src={sitePath('assets/images/archive-mark.svg')} alt="" /><span>返回档案馆</span></a>
-    <script is:inline define:vars={{ sources }}>
+    <script is:inline>
       const shell = document.querySelector('[data-official-shell]');
       const frame = document.querySelector('[data-official-frame]');
       const error = document.querySelector('[data-official-error]');
@@ -93,11 +96,13 @@ const sources = {
         clearTimeout(timer);
         shell.classList.remove('loaded');
         error.hidden = true;
-        frame.src = sources[viewport];
+        const source = frame.dataset[`source${viewport[0].toUpperCase()}${viewport.slice(1)}`];
+        if (!source) { error.hidden = false; return; }
+        frame.src = source;
         timer = setTimeout(() => { if (!shell.classList.contains('loaded')) error.hidden = false; }, 12000);
       };
       frame.addEventListener('load', () => { clearTimeout(timer); error.hidden = true; shell.classList.add('loaded'); });
-      retry.addEventListener('click', load);
+      retry?.addEventListener('click', load);
       load();
     </script>
   </body>

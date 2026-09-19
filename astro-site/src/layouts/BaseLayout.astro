@@ -29,7 +29,9 @@ const base = import.meta.env.BASE_URL || '/';
 const relativeCanonical = canonicalPath.startsWith(base) ? canonicalPath.slice(base.length) : canonicalPath.replace(/^\//, '');
 const canonical = new URL(relativeCanonical, `${siteUrl}/`).toString();
 const imagePath = assetPath(image) ?? sitePath('assets/images/logo.png');
-const imageUrl = new URL(imagePath.replace(/^\//, ''), `${siteUrl}/`).toString();
+const imageUrl = /^(?:https?:)?\/\//.test(imagePath)
+  ? new URL(imagePath, `${siteUrl}/`).toString()
+  : new URL(imagePath, `${new URL(siteUrl).origin}/`).toString();
 const jsonLd = articleMeta ? {
   '@context': 'https://schema.org', '@type': 'Article', headline: title, description, image: imageUrl,
   datePublished: articleMeta.publishedAt, author: { '@type': 'Organization', name: 'OS档案馆' },
@@ -60,7 +62,7 @@ const jsonLd = articleMeta ? {
         } catch { document.documentElement.dataset.monthlyView = 'digest'; }
       }, { once: true });
     </script>
-    {jsonLd && <script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+    {jsonLd && <script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd).replace(/</g, '\\u003c')} />}
     <ClientRouter />
   </head>
   <body style={`--brand-accent:${meta.accent};--brand-soft:${meta.soft}`}>

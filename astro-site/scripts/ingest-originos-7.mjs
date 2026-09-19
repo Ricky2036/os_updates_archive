@@ -1,5 +1,4 @@
 import fs from 'node:fs/promises';
-import fsSync from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import https from 'node:https';
