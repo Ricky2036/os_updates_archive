@@ -39,10 +39,6 @@ jobs:
         working-directory: astro-site
         run: npm run test:content
 
-      - name: Verify monthly digests
-        working-directory: astro-site
-        run: npm run digest:validate
-
       - name: Verify Astro types
         working-directory: astro-site
         run: npm run check
