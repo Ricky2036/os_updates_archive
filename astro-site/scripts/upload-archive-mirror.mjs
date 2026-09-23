@@ -23,7 +23,16 @@ const bucket = process.env.R2_BUCKET || 'os-official-archives';
 const concurrency = Math.max(1, Math.min(8, Number(process.env.R2_UPLOAD_CONCURRENCY || 3)));
 const transport = process.env.R2_UPLOAD_TRANSPORT || 'fetch';
 
-const selectedFiles = entryOnly ? manifest.files.filter((file) => file.entry) : manifest.files;
+// --only-prefix=<对象键前缀>：只上传匹配前缀的对象。
+// 镜像树是 4.7GB / 1.8 万个对象，加一个新目录时不该整棵重传，
+// 而 --start-at 只能表达「从某序号传到结尾」，故补这个过滤器。
+const onlyPrefixArgument = process.argv.find((argument) => argument.startsWith('--only-prefix='));
+const onlyPrefix = onlyPrefixArgument ? onlyPrefixArgument.slice('--only-prefix='.length) : '';
+let selectedFiles = entryOnly ? manifest.files.filter((file) => file.entry) : manifest.files;
+if (onlyPrefix) {
+  selectedFiles = selectedFiles.filter((file) => file.key.startsWith(onlyPrefix));
+  if (!selectedFiles.length) throw new Error(`--only-prefix matched no objects: ${onlyPrefix}`);
+}
 if (!Number.isSafeInteger(startAt) || startAt > selectedFiles.length) throw new Error(`Invalid --start-at index: ${startAt}`);
 const selected = selectedFiles.slice(startAt);
 for (const file of selected) {

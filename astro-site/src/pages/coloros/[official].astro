@@ -3,7 +3,7 @@ import { sitePath } from '../../lib/archive';
 import { officialArchiveMeta, officialArchiveUrl, type OfficialArchiveVersion } from '../../lib/official-archives';
 
 export function getStaticPaths() {
-  return (['15', '16', '17'] as OfficialArchiveVersion[]).map((official) => ({ params: { official } }));
+  return (['15', '16', '17', 'insight17'] as OfficialArchiveVersion[]).map((official) => ({ params: { official } }));
 }
 
 const version = Astro.params.official as OfficialArchiveVersion;
@@ -24,7 +24,7 @@ const sources = {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-    <meta name="description" content={`${meta.label} 官方网站完整离线存档。`} />
+    <meta name="description" content={meta.description ?? `${meta.label} 官方网站完整离线存档。`} />
     <meta name="theme-color" content="#f3f7fc" />
     <meta name="robots" content="index,follow" />
     <link rel="canonical" href={canonical} />

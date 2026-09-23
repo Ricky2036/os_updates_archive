@@ -58,6 +58,7 @@ const harmonyOSLatestUrl = getLatestUrl('harmonyos');
       </a>
       <div class="brand-submenu" role="menu" aria-label="ColorOS 档案">
         <a class:list={{ active: activeColorOSSection === '17' }} role="menuitem" href={officialArchiveMeta['17'].route} data-section="17" data-astro-reload>ColorOS 17</a>
+        <a class:list={{ active: activeColorOSSection === 'insight17' }} role="menuitem" href={officialArchiveMeta['insight17'].route} data-section="insight17" data-astro-reload>深度洞察报告</a>
         <a class:list={{ active: activeColorOSSection === '16' }} role="menuitem" href={officialArchiveMeta['16'].route} data-section="16" data-astro-reload>ColorOS 16</a>
         <a class:list={{ active: activeColorOSSection === '15' }} role="menuitem" href={officialArchiveMeta['15'].route} data-section="15" data-astro-reload>ColorOS 15</a>
         <a class:list={{ active: activeColorOSSection !== '15' && activeColorOSSection !== '16' && activeColorOSSection !== '17' }} role="menuitem" href={colorOSLatestUrl} data-section="monthly" data-astro-prefetch="hover">月更记录</a>

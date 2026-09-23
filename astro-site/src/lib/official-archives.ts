@@ -1,6 +1,6 @@
 import { sitePath } from './archive';
 
-export type OfficialArchiveVersion = '15' | '16' | '17' | 'originos6' | 'originos7' | 'hyperos1' | 'hyperos2' | 'hyperos3' | 'hyperos4' | 'magicos10' | 'magicos11' | 'harmonyos7';
+export type OfficialArchiveVersion = '15' | '16' | '17' | 'insight17' | 'originos6' | 'originos7' | 'hyperos1' | 'hyperos2' | 'hyperos3' | 'hyperos4' | 'magicos10' | 'magicos11' | 'harmonyos7';
 export type OfficialArchiveViewport = 'mobile' | 'pad' | 'desktop';
 export type ColorOSSection = 'monthly' | OfficialArchiveVersion;
 
@@ -27,6 +27,8 @@ export const officialArchiveMeta: Record<OfficialArchiveVersion, {
   folder: string;
   route: string;
   entries: Record<OfficialArchiveViewport, string>;
+  /** 可选：覆盖详情页的 meta description（默认按「官方网站离线存档」生成） */
+  description?: string;
 }> = {
   '15': {
     title: 'ColorOS 15 官方网站存档',
@@ -48,6 +50,14 @@ export const officialArchiveMeta: Record<OfficialArchiveVersion, {
     folder: 'coloros17',
     route: sitePath('coloros/17/'),
     entries: { desktop: 'index.html', pad: 'index.html', mobile: 'mobile.html' },
+  },
+  insight17: {
+    title: 'ColorOS 17 深度洞察报告',
+    label: '深度洞察报告',
+    folder: 'coloros17-insight',
+    route: sitePath('coloros/insight17/'),
+    entries: { desktop: 'index.html', pad: 'index.html', mobile: 'index.html' },
+    description: 'ColorOS 17 深度洞察报告：亮点拆解、两代能力对照、舆情反馈与完整视频素材。',
   },
   'originos6': {
     title: 'OriginOS 6 官方网站存档',
@@ -120,6 +130,8 @@ export function officialArchiveUrl(version: OfficialArchiveVersion, viewport: Of
     return `${officialArchiveBase}/${officialArchiveMeta[version].folder}/${entry}`;
   } else if (version === '17') {
     return archiveMirrorUrl(`official_archives/www.coloros.com/version/coloros17/${entry}`);
+  } else if (version === 'insight17') {
+    return archiveMirrorUrl(`official_archives/coloros17-insight/${entry}`);
   } else if (version === 'originos6') {
     return archiveMirrorUrl(`official_archives/www.vivo.com.cn/${entry}`);
   } else if (version === 'originos7') {
