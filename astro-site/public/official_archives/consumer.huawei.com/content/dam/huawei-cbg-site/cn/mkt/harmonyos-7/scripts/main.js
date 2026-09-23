@@ -160,10 +160,101 @@
             html.style.setProperty('--modal-scrollbar-buffer', scrollbarBuffer + 'px')
         },
         fancyPlayer() {
-            $('.player-button').on('click', function(event) {
-                event.preventDefault()
-                $(this).initH5player({target: 'fancybox'})
-            })
+            function openVideoModal(button) {
+                const rawFile = button.getAttribute("href") || $(button).attr("href") || "";
+                if (!rawFile) return;
+                const file = new URL(rawFile, window.location.href).href;
+                const rawImage = button.getAttribute("data-video-image") || $(button).data("video-image") || "";
+                const image = rawImage ? new URL(rawImage, window.location.href).href : "";
+                const label = button.getAttribute("data-t-label") || $(button).data("t-label") || "HarmonyOS 7 视频";
+
+                const existing = document.getElementById("harmonyos-video-modal");
+                if (existing) existing.remove();
+
+                // Pause background videos
+                document.querySelectorAll("video").forEach(v => { try { if (!v.paused) v.pause(); } catch(e) {} });
+
+                const modal = document.createElement("div");
+                modal.id = "harmonyos-video-modal";
+                modal.setAttribute("role", "dialog");
+                modal.setAttribute("aria-modal", "true");
+                modal.setAttribute("aria-label", label);
+                modal.style.cssText = "position:fixed;inset:0;z-index:99999;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.85);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);opacity:0;transition:opacity 0.28s ease;";
+
+                const container = document.createElement("div");
+                container.style.cssText = "position:relative;width:min(92vw, 1120px);aspect-ratio:16/9;background:#000;border-radius:16px;overflow:hidden;box-shadow:0 24px 60px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.12);transform:scale(0.95);transition:transform 0.28s cubic-bezier(0.16,1,0.3,1);";
+
+                const closeBtn = document.createElement("button");
+                closeBtn.type = "button";
+                closeBtn.setAttribute("aria-label", "关闭视频");
+                closeBtn.innerHTML = "<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"></line><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"></line></svg>";
+                closeBtn.style.cssText = "position:absolute;top:14px;right:14px;z-index:20;width:38px;height:38px;border-radius:50%;background:rgba(0,0,0,0.6);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,0.25);color:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;outline:none;transition:all 0.2s ease;box-shadow:0 4px 12px rgba(0,0,0,0.4);";
+                closeBtn.onmouseenter = () => { closeBtn.style.background = "rgba(255,255,255,0.25)"; closeBtn.style.transform = "scale(1.08)"; };
+                closeBtn.onmouseleave = () => { closeBtn.style.background = "rgba(0,0,0,0.6)"; closeBtn.style.transform = "scale(1)"; };
+
+                const video = document.createElement("video");
+                video.controls = true;
+                video.autoplay = true;
+                video.playsInline = true;
+                video.setAttribute("webkit-playsinline", "true");
+                video.setAttribute("controlsList", "nodownload");
+                video.style.cssText = "width:100%;height:100%;object-fit:contain;background:#000;display:block;";
+                if (image) video.poster = image;
+                video.src = file;
+
+                container.appendChild(video);
+                container.appendChild(closeBtn);
+                modal.appendChild(container);
+                document.body.appendChild(modal);
+
+                document.documentElement.classList.add("has-modal-l");
+
+                requestAnimationFrame(() => {
+                    modal.style.opacity = "1";
+                    container.style.transform = "scale(1)";
+                });
+
+                function closeModal() {
+                    video.pause();
+                    video.removeAttribute("src");
+                    video.load();
+                    modal.style.opacity = "0";
+                    container.style.transform = "scale(0.95)";
+                    document.documentElement.classList.remove("has-modal-l");
+                    setTimeout(() => {
+                        modal.remove();
+                        document.removeEventListener("keydown", onKeyDown);
+                    }, 280);
+                }
+
+                function onKeyDown(e) {
+                    if (e.key === "Escape") closeModal();
+                }
+
+                closeBtn.addEventListener("click", (e) => {
+                    e.stopPropagation();
+                    closeModal();
+                });
+
+                modal.addEventListener("click", (e) => {
+                    if (!container.contains(e.target)) closeModal();
+                });
+
+                document.addEventListener("keydown", onKeyDown);
+
+                video.play().catch(() => {});
+            }
+
+            $(".player-button").on("click", function(event) {
+                event.preventDefault();
+                openVideoModal(this);
+            });
+
+            $.fn.initH5player = function() {
+                return this.each(function() {
+                    openVideoModal(this);
+                });
+            };
         },
         analytics() {
             const prefix = 'data-ga-'
