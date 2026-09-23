@@ -251,7 +251,7 @@
         videos: main.querySelectorAll('.inline-video'),
         mainObserver: null,
         dataMap: new WeakMap(),
-        pathPrefix: window.location.protocol === 'file:' ? '../' : '/',
+        pathPrefix: window.location.protocol === 'file:' ? '../' : '',
         videoEvents: ['play', 'pause', 'ended'],
         classNames: {
             noInlineVideo: 'no-inline-video',
@@ -480,7 +480,8 @@
         applyStartFrameMask(videoContainer, options, sources) {
             if (!Support.inlineVideo || !options.hasStartFrameMask) return
             videoContainer.classList.add(this.classNames.startFrameMask)
-            const url = `${sources.startFrame.startsWith('/') ? '' : this.pathPrefix}${sources.startFrame}`
+            const rawUrl = `${sources.startFrame.startsWith('/') ? '' : this.pathPrefix}${sources.startFrame}`
+            const url = new URL(rawUrl, window.location.href).href
             videoContainer.style.setProperty(this.classNames.startFrame, `url('${url}')`)
         },
         onPlay(video, videoContainer, options) {

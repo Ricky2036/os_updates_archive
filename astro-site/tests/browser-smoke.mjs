@@ -138,7 +138,7 @@ try {
   if (!desktopHomeTab.visible || !desktopHomeTab.active || desktopHomeTab.hoverLine === 'none') throw new Error(`Homepage tab is missing its active or hover treatment: ${JSON.stringify(desktopHomeTab)}`);
   if (await page.$eval('.brand-menu[data-brand="coloros"] .brand-trigger i', (element) => getComputedStyle(element).display !== 'none')) throw new Error('ColorOS dropdown arrow is still visible');
   const desktopColorOSMenu = await page.$$eval('.brand-menu[data-brand="coloros"] .brand-submenu a', (items) => items.map((item) => ({ text: item.textContent.trim(), path: new URL(item.href).pathname })));
-  if (desktopColorOSMenu.map((item) => item.text).join('|') !== 'ColorOS 17|ColorOS 16|ColorOS 15|月更记录') throw new Error(`Desktop ColorOS menu is incomplete: ${JSON.stringify(desktopColorOSMenu)}`);
+  if (desktopColorOSMenu.map((item) => item.text).join('|') !== 'ColorOS 17|深度洞察报告|ColorOS 16|ColorOS 15|月更记录') throw new Error(`Desktop ColorOS menu is incomplete: ${JSON.stringify(desktopColorOSMenu)}`);
   if (!await page.$$eval('.brand-menu[data-brand="coloros"] .brand-submenu a', (items) => items.every((item) => getComputedStyle(item).textAlign === 'center'))) throw new Error('ColorOS submenu labels are not centered');
   await page.focus('.brand-menu[data-brand="coloros"] .brand-trigger');
   await page.keyboard.press('ArrowDown');
