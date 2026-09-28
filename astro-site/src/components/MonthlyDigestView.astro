@@ -19,7 +19,9 @@ for (const item of data.highlights) {
     highlightGroups.push({ key, items: [item] });
   }
 }
-const isMajorRelease = data.articleId === 'HyperOS_4_更新说明_(2026)' || article?.data.slug === '44-xiaomi-hyperos-4';
+const isColorOS17 = article?.data.slug === '63-coloros-17' || data.articleId === 'ColorOS_17_正式发布！亮点抢先看';
+const isHyperOS4 = data.articleId === 'HyperOS_4_更新说明_(2026)' || article?.data.slug === '44-xiaomi-hyperos-4';
+const isMajorRelease = isColorOS17 || isHyperOS4;
 
 const monthMap: Record<string, string> = {
   '1': '一月', '01': '一月', '一': '一月',
@@ -77,13 +79,21 @@ const generateMonthlySummary = (highlights: typeof data.highlights, updates: typ
 };
 
 const monthName = extractMonthName(data.articleId, article?.data.title, article?.data.publishedAt);
-const heading = isMajorRelease ? '小米澎湃OS 4 更新说明' : `${monthName}升级一览`;
-const subtitle = isMajorRelease ? '全面升级的一气呵成体验。' : generateMonthlySummary(data.highlights, data.updates);
+const heading = isColorOS17
+  ? 'ColorOS 17 更新说明'
+  : isHyperOS4
+    ? '小米澎湃OS 4 更新说明'
+    : `${monthName}升级一览`;
+const subtitle = isColorOS17
+  ? '上手丝滑，久用流畅。全新流体设计，OPPO AI 更懂你。'
+  : isHyperOS4
+    ? '全面升级的一气呵成体验。'
+    : generateMonthlySummary(data.highlights, data.updates);
 const highlightHeading = isMajorRelease ? '更新功能一览' : '更新亮点';
 ---
 <section class="monthly-digest" data-monthly-digest aria-labelledby="digest-heading">
   <header class="digest-intro">
-    <p class="eyebrow">文字精校版</p>
+    <p class="eyebrow">{isColorOS17 ? '软件版本 PKB110_17.0.0.100(CN01C10P02)' : '文字精校版'}</p>
     <h2 id="digest-heading">{heading}</h2>
     <p>{subtitle}</p>
   </header>
