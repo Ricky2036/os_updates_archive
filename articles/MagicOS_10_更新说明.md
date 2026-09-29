@@ -2,6 +2,10 @@
 
 **软件版本**：10.0.0.118(C00E118R3P1)
 
+![MagicOS 10 发布会全景精华](/assets/digests-2025/magicos/magicos10-summary-1.webp)
+![MagicOS 10 核心升级全景](/assets/digests-2025/magicos/magicos10-summary-2.webp)
+![MagicOS 10 架构全景](/assets/digests-2025/magicos/magicos10-summary-3.webp)
+
 荣耀 MagicOS 10 全新发布，打破界面陈旧印象，视觉与交互全面进化。
 
 通透模式与光感设计打造高级质感，Turbo X 性能引擎保障高负载稳定运行与瞬时并发。
@@ -21,6 +25,11 @@
 - 新增桌面卡片、控制中心按压位置响应效果。
 - 新增多种锁屏时钟样式，基于壁纸智能推荐，支持调节字体、字重、颜色及位置。体验路径：锁屏双指捏合 \> 自定义 \> 编辑时钟。
 - 新增密码解锁、控制中心等按压通透光感效果。
+
+![全新通透模式卡片质感演示](/assets/digests-2025/magicos/translucent-mode-poster.webp)
+![控制中心按压通透光感演示](/assets/digests-2025/magicos/light-touch-poster.webp)
+![个性主题基于壁纸自动布局](/assets/digests-2025/magicos/auto-wallpaper-poster.webp)
+![摇摇乐系列重力感应互动主题](/assets/digests-2025/magicos/interactive-theme-poster.webp)
 - 新增溯光等系列动态主题。体验路径：联网后，设置 \> 桌面和个性化 \> 主题。
 - 新增扩邀游、拍拍球等摇摇乐系列互动主题，锁屏下跟随重力互动。体验路径：联网后，设置 \> 桌面和个性化 \> 主题。
 - 新增锁屏长时钟。体验路径：设置 \> 桌面和个性化 \> 锁屏自定义 \> 编辑时钟。
@@ -36,6 +45,8 @@
 - 优化存储体验，采用最新存储优化技术，实现无损压缩和整理，增加可用空间。
 - 优化刷视频、看直播、图文浏览流畅体验。
 - 优化应用安装速度。
+
+![Turbo X 性能平台架构与无损压缩](/assets/digests-2025/magicos/turbo-x-platform.webp)
 - 优化输入法打字体验。
 
 ## 荣耀 AI \& YOYO
@@ -46,11 +57,16 @@
 - 新增 AI 通话翻译功能。体验路径：设置 \> 荣耀 AI \& YOYO \> AI 通话 \> 通话翻译。
 - 新增 AI 帮记功能，会议中可托管听会、接收关键词提醒、生成会议纪要、实时语音转文本。体验路径：滑出侧边智慧多窗应用栏 \> AI 帮记。
 
+![YOYO 智能收藏与一键原文跳转](/assets/digests-2025/magicos/yoyo-memory-poster.webp)
+![YOYO 一句话完成复杂跨应用操作](/assets/digests-2025/magicos/yoyo-auto-exec-poster.webp)
+
 ## 互联共享
 
 - 开启 NFC，可与 iPhone 一碰传，实现高速文件传输。iOS需安装荣耀互联App。
 - 新增支持荣耀手机之间的一碰传，实现高速文件传输。体验路径：设置 \> 更多连接 \> 荣耀互联。
 - 新增与 macOS、Windows 互传功能，安装“荣耀超级工作台”即可互传文件。
+
+![NFC 一碰传支持 iPhone 高速互传](/assets/digests-2025/magicos/cross-share.webp)
 - 新增支持与 iOS 设备的 OTG 有线克隆，支持更多数据项。
 - 新增支持与鸿蒙 NEXT 的联系人、图片、视频的换机克隆。
 

@@ -4,18 +4,47 @@
   "mediaReviewVersion": 4,
   "articleId": "MagicOS_10正式发布！一图读懂升级亮点_(2025)",
   "reviewStatus": "verified",
-  "sourceHash": "fdecffb92373f1b95b49ae4eb44817ee5a4ed9ebd153a4f742266fe4c72774a1",
+  "sourceHash": "8b8f8660bb78f66003e44f5e055010fb61730ce8f4f1e032195887289b9e74d0",
   "highlights": [
     {
       "id": "highlight-01",
       "module": "UX 焕新",
       "moduleSource": "explicit-heading",
-      "title": "全系统通透模式",
-      "description": "新增通透模式提升卡片、文件夹与控件的清透玻璃质感；控制中心采用深色层级背景搭配多彩图标，视觉轻盈鲜活。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "title": "通透模式与光感设计",
+      "description": "卡片与文件夹支持通透模式与多档调节，控制中心与锁屏按压呈现通透微光感，视觉层级更高级。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "m10-m-01",
+          "kind": "video",
+          "src": "assets/digests-2025/magicos/translucent-mode.mp4",
+          "thumbnail": "assets/digests-2025/magicos/translucent-mode-poster-480.webp",
+          "avifSrc": "assets/digests-2025/magicos/translucent-mode-poster.avif",
+          "avifThumbnail": "assets/digests-2025/magicos/translucent-mode-poster-480.avif",
+          "poster": "assets/digests-2025/magicos/translucent-mode-poster.webp",
+          "alt": "全新通透模式卡片质感演示",
+          "evidenceId": "m10-ev-01",
+          "width": 480,
+          "height": 240
+        },
+        {
+          "id": "m10-m-02",
+          "kind": "video",
+          "src": "assets/digests-2025/magicos/translucent-adjust.mp4",
+          "thumbnail": "assets/digests-2025/magicos/translucent-adjust-poster-480.webp",
+          "avifSrc": "assets/digests-2025/magicos/translucent-adjust-poster.avif",
+          "avifThumbnail": "assets/digests-2025/magicos/translucent-adjust-poster-480.avif",
+          "poster": "assets/digests-2025/magicos/translucent-adjust-poster.webp",
+          "alt": "通透度多档位自由调节",
+          "evidenceId": "m10-ev-02",
+          "width": 480,
+          "height": 168
+        }
+      ],
       "evidenceIds": [
-        "highlight-01-body"
+        "highlight-01-body",
+        "m10-ev-01",
+        "m10-ev-02"
       ],
       "sourceItemIds": [
         "source-highlight-01"
@@ -23,14 +52,29 @@
     },
     {
       "id": "highlight-02",
-      "module": "动效交互",
+      "module": "UX 焕新",
       "moduleSource": "explicit-heading",
-      "title": "最近任务堆叠与一镜到底",
-      "description": "新增最近任务直观堆叠切换，时钟、图库卡片与日程、笔记应用全面引入一镜到底自然过渡动效。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "title": "最近任务堆叠布局",
+      "description": "多任务任务卡片采用全新重叠层级展现，滑动流畅不晕眩，切换直观高效。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "m10-m-03",
+          "kind": "video",
+          "src": "assets/digests-2025/magicos/light-touch.mp4",
+          "thumbnail": "assets/digests-2025/magicos/light-touch-poster-480.webp",
+          "avifSrc": "assets/digests-2025/magicos/light-touch-poster.avif",
+          "avifThumbnail": "assets/digests-2025/magicos/light-touch-poster-480.avif",
+          "poster": "assets/digests-2025/magicos/light-touch-poster.webp",
+          "alt": "控制中心按压通透光感演示",
+          "evidenceId": "m10-ev-03",
+          "width": 480,
+          "height": 1064
+        }
+      ],
       "evidenceIds": [
-        "highlight-02-body"
+        "highlight-02-body",
+        "m10-ev-03"
       ],
       "sourceItemIds": [
         "source-highlight-02"
@@ -38,14 +82,43 @@
     },
     {
       "id": "highlight-03",
-      "module": "个性主题",
+      "module": "UX 焕新",
       "moduleSource": "explicit-heading",
-      "title": "摇摇乐重力互动主题",
-      "description": "锁屏时钟支持根据壁纸智能推荐配色与字重；新增拍拍球等摇摇乐互动主题，跟随手机重力感应实时生动晃动。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "title": "智能锁屏与个性搭配",
+      "description": "基于壁纸智能匹配推荐时钟样式，支持自由调节字体字重、颜色与位置，提供重力感应摇摇乐互动主题。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "m10-m-04",
+          "kind": "video",
+          "src": "assets/digests-2025/magicos/auto-wallpaper.mp4",
+          "thumbnail": "assets/digests-2025/magicos/auto-wallpaper-poster-480.webp",
+          "avifSrc": "assets/digests-2025/magicos/auto-wallpaper-poster.avif",
+          "avifThumbnail": "assets/digests-2025/magicos/auto-wallpaper-poster-480.avif",
+          "poster": "assets/digests-2025/magicos/auto-wallpaper-poster.webp",
+          "alt": "个性主题基于壁纸自动布局",
+          "evidenceId": "m10-ev-04",
+          "width": 480,
+          "height": 1038
+        },
+        {
+          "id": "m10-m-05",
+          "kind": "video",
+          "src": "assets/digests-2025/magicos/interactive-theme.mp4",
+          "thumbnail": "assets/digests-2025/magicos/interactive-theme-poster-480.webp",
+          "avifSrc": "assets/digests-2025/magicos/interactive-theme-poster.avif",
+          "avifThumbnail": "assets/digests-2025/magicos/interactive-theme-poster-480.avif",
+          "poster": "assets/digests-2025/magicos/interactive-theme-poster.webp",
+          "alt": "摇摇乐系列重力感应互动主题",
+          "evidenceId": "m10-ev-05",
+          "width": 480,
+          "height": 241
+        }
+      ],
       "evidenceIds": [
-        "highlight-03-body"
+        "highlight-03-body",
+        "m10-ev-04",
+        "m10-ev-05"
       ],
       "sourceItemIds": [
         "source-highlight-03"
@@ -56,11 +129,25 @@
       "module": "丝滑流畅",
       "moduleSource": "explicit-heading",
       "title": "Turbo X 性能引擎平台",
-      "description": "引入全新 Turbo X 平台界面与自研存储优化技术，进行无损压缩整理提升可用空间，优化短视频与图文浏览响应。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "description": "全新存储优化与无损压缩整理技术，应用安装加速，高负载刷视频、看直播与图文浏览久用流畅稳定。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "m10-m-06",
+          "kind": "image",
+          "src": "assets/digests-2025/magicos/turbo-x-platform.webp",
+          "thumbnail": "assets/digests-2025/magicos/turbo-x-platform-480.webp",
+          "avifSrc": "assets/digests-2025/magicos/turbo-x-platform.avif",
+          "avifThumbnail": "assets/digests-2025/magicos/turbo-x-platform-480.avif",
+          "alt": "Turbo X 性能平台架构与无损压缩",
+          "evidenceId": "m10-ev-06",
+          "width": 480,
+          "height": 270
+        }
+      ],
       "evidenceIds": [
-        "highlight-04-body"
+        "highlight-04-body",
+        "m10-ev-06"
       ],
       "sourceItemIds": [
         "source-highlight-04"
@@ -68,14 +155,29 @@
     },
     {
       "id": "highlight-05",
-      "module": "荣耀 AI 与 YOYO",
+      "module": "荣耀 AI",
       "moduleSource": "explicit-heading",
-      "title": "YOYO 记忆列表与高频收藏",
-      "description": "YOYO 记忆采用全新结构化列表视图；高频资讯与社区应用可一键智能提取图文要点并支持原文无缝跳转。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "title": "YOYO 记忆全新升级",
+      "description": "全新列表视图提升信息查阅效率，知乎、小红书等高频应用智能提取原文一键跳转，双重隐私保护守卫数据。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "m10-m-07",
+          "kind": "video",
+          "src": "assets/digests-2025/magicos/yoyo-memory.mp4",
+          "thumbnail": "assets/digests-2025/magicos/yoyo-memory-poster-480.webp",
+          "avifSrc": "assets/digests-2025/magicos/yoyo-memory-poster.avif",
+          "avifThumbnail": "assets/digests-2025/magicos/yoyo-memory-poster-480.avif",
+          "poster": "assets/digests-2025/magicos/yoyo-memory-poster.webp",
+          "alt": "YOYO 智能收藏与一键原文跳转",
+          "evidenceId": "m10-ev-07",
+          "width": 480,
+          "height": 345
+        }
+      ],
       "evidenceIds": [
-        "highlight-05-body"
+        "highlight-05-body",
+        "m10-ev-07"
       ],
       "sourceItemIds": [
         "source-highlight-05"
@@ -83,14 +185,29 @@
     },
     {
       "id": "highlight-06",
-      "module": "互联共享",
+      "module": "荣耀 AI",
       "moduleSource": "explicit-heading",
-      "title": "跨平台一碰互传",
-      "description": "手机之间或跨端开启 NFC 即可实现一碰高速文件传输，并全面支持与电脑超级工作台高速互通及有线换机克隆。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "title": "AI 通话翻译与会议帮记",
+      "description": "会议中实时语音转文本与自动生成纪要，跨语种通话双向实时同声翻译，沟通无障碍。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "m10-m-08",
+          "kind": "video",
+          "src": "assets/digests-2025/magicos/yoyo-auto-exec.mp4",
+          "thumbnail": "assets/digests-2025/magicos/yoyo-auto-exec-poster-480.webp",
+          "avifSrc": "assets/digests-2025/magicos/yoyo-auto-exec-poster.avif",
+          "avifThumbnail": "assets/digests-2025/magicos/yoyo-auto-exec-poster-480.avif",
+          "poster": "assets/digests-2025/magicos/yoyo-auto-exec-poster.webp",
+          "alt": "YOYO 一句话完成复杂跨应用操作",
+          "evidenceId": "m10-ev-08",
+          "width": 480,
+          "height": 236
+        }
+      ],
       "evidenceIds": [
-        "highlight-06-body"
+        "highlight-06-body",
+        "m10-ev-08"
       ],
       "sourceItemIds": [
         "source-highlight-06"
@@ -98,14 +215,28 @@
     },
     {
       "id": "highlight-07",
-      "module": "安全守护",
+      "module": "互联共享",
       "moduleSource": "explicit-heading",
-      "title": "AI 通话防诈识别",
-      "description": "系统内置端侧防诈模型，实时监测识别通话语音是否属于 AI 伪造声音或电信诈骗，守护财产安全。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "title": "跨生态一碰传与苹果互通",
+      "description": "支持开启 NFC 与 iPhone 一碰高速传输文件，支持与 macOS、Windows 互传及与 iOS 的 OTG 有线克隆。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "m10-m-09",
+          "kind": "image",
+          "src": "assets/digests-2025/magicos/cross-share.webp",
+          "thumbnail": "assets/digests-2025/magicos/cross-share-480.webp",
+          "avifSrc": "assets/digests-2025/magicos/cross-share.avif",
+          "avifThumbnail": "assets/digests-2025/magicos/cross-share-480.avif",
+          "alt": "NFC 一碰传支持 iPhone 高速互传",
+          "evidenceId": "m10-ev-09",
+          "width": 480,
+          "height": 270
+        }
+      ],
       "evidenceIds": [
-        "highlight-07-body"
+        "highlight-07-body",
+        "m10-ev-09"
       ],
       "sourceItemIds": [
         "source-highlight-07"
@@ -113,14 +244,28 @@
     },
     {
       "id": "highlight-08",
-      "module": "便捷易用",
+      "module": "便捷交互",
       "moduleSource": "explicit-heading",
-      "title": "灵动胶囊多场景扩展",
-      "description": "充电、通话、人脸解锁、备忘录与出行信息广泛接入顶部灵动胶囊，关键状态一目了然且支持轻点即时展开。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "title": "灵动胶囊多场景服务触达",
+      "description": "充电、人脸识别、通话状态及 YOYO 记忆深度接入灵动胶囊，关键信息实时提醒与一触即达。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "m10-m-10",
+          "kind": "image",
+          "src": "assets/digests-2025/magicos/magicos10-summary-1.webp",
+          "thumbnail": "assets/digests-2025/magicos/magicos10-summary-1-480.webp",
+          "avifSrc": "assets/digests-2025/magicos/magicos10-summary-1.avif",
+          "avifThumbnail": "assets/digests-2025/magicos/magicos10-summary-1-480.avif",
+          "alt": "MagicOS 10 发布会全景精华",
+          "evidenceId": "m10-ev-10",
+          "width": 480,
+          "height": 270
+        }
+      ],
       "evidenceIds": [
-        "highlight-08-body"
+        "highlight-08-body",
+        "m10-ev-10"
       ],
       "sourceItemIds": [
         "source-highlight-08"
@@ -209,8 +354,8 @@
       "moduleSource": "explicit-heading",
       "type": "新增",
       "typeSource": "explicit",
-      "sourceText": "新增多种锁屏时钟样式，基于壁纸智能推荐，支持调节字体、字重、颜色及位置。体验路径：锁屏双指捏合 > 自定义 > 编辑时钟。",
-      "description": "新增多种锁屏时钟样式，基于壁纸智能推荐，支持调节字体、字重、颜色及位置。体验路径：锁屏双指捏合 > 自定义 > 编辑时钟。",
+      "sourceText": "新增密码解锁、控制中心等按压通透光感效果。",
+      "description": "新增密码解锁、控制中心等按压通透光感效果。",
       "evidenceIds": [
         "update-06-body"
       ],
@@ -224,8 +369,8 @@
       "moduleSource": "explicit-heading",
       "type": "新增",
       "typeSource": "explicit",
-      "sourceText": "新增密码解锁、控制中心等按压通透光感效果。",
-      "description": "新增密码解锁、控制中心等按压通透光感效果。",
+      "sourceText": "新增溯光等系列动态主题。体验路径：联网后，设置 > 桌面和个性化 > 主题。",
+      "description": "新增溯光等系列动态主题。体验路径：联网后，设置 > 桌面和个性化 > 主题。",
       "evidenceIds": [
         "update-07-body"
       ],
@@ -239,8 +384,8 @@
       "moduleSource": "explicit-heading",
       "type": "新增",
       "typeSource": "explicit",
-      "sourceText": "新增溯光等系列动态主题。体验路径：联网后，设置 > 桌面和个性化 > 主题。",
-      "description": "新增溯光等系列动态主题。体验路径：联网后，设置 > 桌面和个性化 > 主题。",
+      "sourceText": "新增扩邀游、拍拍球等摇摇乐系列互动主题，锁屏下跟随重力互动。体验路径：联网后，设置 > 桌面和个性化 > 主题。",
+      "description": "新增扩邀游、拍拍球等摇摇乐系列互动主题，锁屏下跟随重力互动。体验路径：联网后，设置 > 桌面和个性化 > 主题。",
       "evidenceIds": [
         "update-08-body"
       ],
@@ -434,8 +579,8 @@
       "moduleSource": "explicit-heading",
       "type": "新增",
       "typeSource": "explicit",
-      "sourceText": "新增 AI 通话翻译功能。体验路径：设置 > 荣耀 AI \\& YOYO > AI 通话 > 通话翻译。",
-      "description": "新增 AI 通话翻译功能。体验路径：设置 > 荣耀 AI \\& YOYO > AI 通话 > 通话翻译。",
+      "sourceText": "新增 AI 帮记功能，会议中可托管听会、接收关键词提醒、生成会议纪要、实时语音转文本。体验路径：滑出侧边智慧多窗应用栏 > AI 帮记。",
+      "description": "新增 AI 帮记功能，会议中可托管听会、接收关键词提醒、生成会议纪要、实时语音转文本。体验路径：滑出侧边智慧多窗应用栏 > AI 帮记。",
       "evidenceIds": [
         "update-21-body"
       ],
@@ -445,12 +590,12 @@
     },
     {
       "id": "update-22",
-      "module": "荣耀 AI \\& YOYO",
+      "module": "互联共享",
       "moduleSource": "explicit-heading",
       "type": "新增",
       "typeSource": "explicit",
-      "sourceText": "新增 AI 帮记功能，会议中可托管听会、接收关键词提醒、生成会议纪要、实时语音转文本。体验路径：滑出侧边智慧多窗应用栏 > AI 帮记。",
-      "description": "新增 AI 帮记功能，会议中可托管听会、接收关键词提醒、生成会议纪要、实时语音转文本。体验路径：滑出侧边智慧多窗应用栏 > AI 帮记。",
+      "sourceText": "新增支持荣耀手机之间的一碰传，实现高速文件传输。体验路径：设置 > 更多连接 > 荣耀互联。",
+      "description": "新增支持荣耀手机之间的一碰传，实现高速文件传输。体验路径：设置 > 更多连接 > 荣耀互联。",
       "evidenceIds": [
         "update-22-body"
       ],
@@ -464,8 +609,8 @@
       "moduleSource": "explicit-heading",
       "type": "新增",
       "typeSource": "explicit",
-      "sourceText": "新增支持荣耀手机之间的一碰传，实现高速文件传输。体验路径：设置 > 更多连接 > 荣耀互联。",
-      "description": "新增支持荣耀手机之间的一碰传，实现高速文件传输。体验路径：设置 > 更多连接 > 荣耀互联。",
+      "sourceText": "新增与 macOS、Windows 互传功能，安装“荣耀超级工作台”即可互传文件。",
+      "description": "新增与 macOS、Windows 互传功能，安装“荣耀超级工作台”即可互传文件。",
       "evidenceIds": [
         "update-23-body"
       ],
@@ -479,8 +624,8 @@
       "moduleSource": "explicit-heading",
       "type": "新增",
       "typeSource": "explicit",
-      "sourceText": "新增与 macOS、Windows 互传功能，安装“荣耀超级工作台”即可互传文件。",
-      "description": "新增与 macOS、Windows 互传功能，安装“荣耀超级工作台”即可互传文件。",
+      "sourceText": "新增支持与 iOS 设备的 OTG 有线克隆，支持更多数据项。",
+      "description": "新增支持与 iOS 设备的 OTG 有线克隆，支持更多数据项。",
       "evidenceIds": [
         "update-24-body"
       ],
@@ -494,8 +639,8 @@
       "moduleSource": "explicit-heading",
       "type": "新增",
       "typeSource": "explicit",
-      "sourceText": "新增支持与 iOS 设备的 OTG 有线克隆，支持更多数据项。",
-      "description": "新增支持与 iOS 设备的 OTG 有线克隆，支持更多数据项。",
+      "sourceText": "新增支持与鸿蒙 NEXT 的联系人、图片、视频的换机克隆。",
+      "description": "新增支持与鸿蒙 NEXT 的联系人、图片、视频的换机克隆。",
       "evidenceIds": [
         "update-25-body"
       ],
@@ -505,12 +650,12 @@
     },
     {
       "id": "update-26",
-      "module": "互联共享",
+      "module": "安全守护",
       "moduleSource": "explicit-heading",
       "type": "新增",
       "typeSource": "explicit",
-      "sourceText": "新增支持与鸿蒙 NEXT 的联系人、图片、视频的换机克隆。",
-      "description": "新增支持与鸿蒙 NEXT 的联系人、图片、视频的换机克隆。",
+      "sourceText": "新增 AI 通话防诈功能，可检测对方声音是否为 AI 合成或诈骗电话。",
+      "description": "新增 AI 通话防诈功能，可检测对方声音是否为 AI 合成或诈骗电话。",
       "evidenceIds": [
         "update-26-body"
       ],
@@ -829,8 +974,8 @@
       ]
     },
     {
-      "id": "source-update-06",
-      "classification": "update",
+      "id": "source-highlight-03",
+      "classification": "highlight",
       "source": "MagicOS_10_更新说明.md",
       "sourceIndex": 7,
       "sourceHash": "084bd74aa4b5e3404559fccb250fae8e4d1c4173d7d475296d3834b4be22c5d9",
@@ -839,11 +984,11 @@
       ],
       "text": "新增多种锁屏时钟样式，基于壁纸智能推荐，支持调节字体、字重、颜色及位置。体验路径：锁屏双指捏合 > 自定义 > 编辑时钟。",
       "targetIds": [
-        "update-06"
+        "highlight-03"
       ]
     },
     {
-      "id": "source-update-07",
+      "id": "source-update-06",
       "classification": "update",
       "source": "MagicOS_10_更新说明.md",
       "sourceIndex": 8,
@@ -853,11 +998,11 @@
       ],
       "text": "新增密码解锁、控制中心等按压通透光感效果。",
       "targetIds": [
-        "update-07"
+        "update-06"
       ]
     },
     {
-      "id": "source-update-08",
+      "id": "source-update-07",
       "classification": "update",
       "source": "MagicOS_10_更新说明.md",
       "sourceIndex": 9,
@@ -867,12 +1012,12 @@
       ],
       "text": "新增溯光等系列动态主题。体验路径：联网后，设置 > 桌面和个性化 > 主题。",
       "targetIds": [
-        "update-08"
+        "update-07"
       ]
     },
     {
-      "id": "source-highlight-03",
-      "classification": "highlight",
+      "id": "source-update-08",
+      "classification": "update",
       "source": "MagicOS_10_更新说明.md",
       "sourceIndex": 10,
       "sourceHash": "c1ff2100a13d960bb7d6c46ed5bd1da9aa5fd4874e8076fa5ad7d037eb196c27",
@@ -881,7 +1026,7 @@
       ],
       "text": "新增扩邀游、拍拍球等摇摇乐系列互动主题，锁屏下跟随重力互动。体验路径：联网后，设置 > 桌面和个性化 > 主题。",
       "targetIds": [
-        "highlight-03"
+        "update-08"
       ]
     },
     {
@@ -1081,8 +1226,8 @@
       ]
     },
     {
-      "id": "source-update-21",
-      "classification": "update",
+      "id": "source-highlight-06",
+      "classification": "highlight",
       "source": "MagicOS_10_更新说明.md",
       "sourceIndex": 25,
       "sourceHash": "7331c990e5d1f0bc0a8b66daae7effdf7f4e289d65469a927fd3d9b5e72c9afa",
@@ -1091,11 +1236,11 @@
       ],
       "text": "新增 AI 通话翻译功能。体验路径：设置 > 荣耀 AI \\& YOYO > AI 通话 > 通话翻译。",
       "targetIds": [
-        "update-21"
+        "highlight-06"
       ]
     },
     {
-      "id": "source-update-22",
+      "id": "source-update-21",
       "classification": "update",
       "source": "MagicOS_10_更新说明.md",
       "sourceIndex": 26,
@@ -1105,11 +1250,11 @@
       ],
       "text": "新增 AI 帮记功能，会议中可托管听会、接收关键词提醒、生成会议纪要、实时语音转文本。体验路径：滑出侧边智慧多窗应用栏 > AI 帮记。",
       "targetIds": [
-        "update-22"
+        "update-21"
       ]
     },
     {
-      "id": "source-highlight-06",
+      "id": "source-highlight-07",
       "classification": "highlight",
       "source": "MagicOS_10_更新说明.md",
       "sourceIndex": 27,
@@ -1119,11 +1264,11 @@
       ],
       "text": "开启 NFC，可与 iPhone 一碰传，实现高速文件传输。iOS需安装荣耀互联App。",
       "targetIds": [
-        "highlight-06"
+        "highlight-07"
       ]
     },
     {
-      "id": "source-update-23",
+      "id": "source-update-22",
       "classification": "update",
       "source": "MagicOS_10_更新说明.md",
       "sourceIndex": 28,
@@ -1133,11 +1278,11 @@
       ],
       "text": "新增支持荣耀手机之间的一碰传，实现高速文件传输。体验路径：设置 > 更多连接 > 荣耀互联。",
       "targetIds": [
-        "update-23"
+        "update-22"
       ]
     },
     {
-      "id": "source-update-24",
+      "id": "source-update-23",
       "classification": "update",
       "source": "MagicOS_10_更新说明.md",
       "sourceIndex": 29,
@@ -1147,11 +1292,11 @@
       ],
       "text": "新增与 macOS、Windows 互传功能，安装“荣耀超级工作台”即可互传文件。",
       "targetIds": [
-        "update-24"
+        "update-23"
       ]
     },
     {
-      "id": "source-update-25",
+      "id": "source-update-24",
       "classification": "update",
       "source": "MagicOS_10_更新说明.md",
       "sourceIndex": 30,
@@ -1161,11 +1306,11 @@
       ],
       "text": "新增支持与 iOS 设备的 OTG 有线克隆，支持更多数据项。",
       "targetIds": [
-        "update-25"
+        "update-24"
       ]
     },
     {
-      "id": "source-update-26",
+      "id": "source-update-25",
       "classification": "update",
       "source": "MagicOS_10_更新说明.md",
       "sourceIndex": 31,
@@ -1175,12 +1320,12 @@
       ],
       "text": "新增支持与鸿蒙 NEXT 的联系人、图片、视频的换机克隆。",
       "targetIds": [
-        "update-26"
+        "update-25"
       ]
     },
     {
-      "id": "source-highlight-07",
-      "classification": "highlight",
+      "id": "source-update-26",
+      "classification": "update",
       "source": "MagicOS_10_更新说明.md",
       "sourceIndex": 32,
       "sourceHash": "c0571e8153feae1422271b6ec938cb784d34f536429b3fef0dd4d47ae5911542",
@@ -1189,7 +1334,7 @@
       ],
       "text": "新增 AI 通话防诈功能，可检测对方声音是否为 AI 合成或诈骗电话。",
       "targetIds": [
-        "highlight-07"
+        "update-26"
       ]
     },
     {
@@ -1405,6 +1550,166 @@
   ],
   "evidence": [
     {
+      "id": "m10-ev-01",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/magicos/translucent-mode.mp4",
+      "sourceIndex": 0,
+      "sourceHash": "1fe2635872c68a961b996c246262c1cb69a60d880abd7a57213fad22b1e86590",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 240
+      },
+      "note": "UX 焕新: 通透模式与光感设计 (全新通透模式卡片质感演示)"
+    },
+    {
+      "id": "m10-ev-02",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/magicos/translucent-adjust.mp4",
+      "sourceIndex": 1,
+      "sourceHash": "1b77a3ecfd53414a8eef8ddc51a71121a366f737bbd4f5ebd6d4be07470e45cc",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 168
+      },
+      "note": "UX 焕新: 通透模式与光感设计 (通透度多档位自由调节)"
+    },
+    {
+      "id": "m10-ev-03",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/magicos/light-touch.mp4",
+      "sourceIndex": 0,
+      "sourceHash": "782726dcea3daa3ed8d94c678b303517be144f3f918f56c31ebcaf1d1779c6e1",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 1064
+      },
+      "note": "UX 焕新: 最近任务堆叠布局 (控制中心按压通透光感演示)"
+    },
+    {
+      "id": "m10-ev-04",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/magicos/auto-wallpaper.mp4",
+      "sourceIndex": 0,
+      "sourceHash": "0a100442ce20b8b787047e1f4fff0d039d13824b988abb1223114b925ceb94c3",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 1038
+      },
+      "note": "UX 焕新: 智能锁屏与个性搭配 (个性主题基于壁纸自动布局)"
+    },
+    {
+      "id": "m10-ev-05",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/magicos/interactive-theme.mp4",
+      "sourceIndex": 1,
+      "sourceHash": "245ee4c81eb14b2834d46cc510abd3c17b84a6ea1526d8438c3b1dfe394191ef",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 241
+      },
+      "note": "UX 焕新: 智能锁屏与个性搭配 (摇摇乐系列重力感应互动主题)"
+    },
+    {
+      "id": "m10-ev-06",
+      "role": "demo-region",
+      "kind": "image-region",
+      "source": "assets/digests-2025/magicos/turbo-x-platform.webp",
+      "sourceIndex": 0,
+      "sourceHash": "34decde7c9da3a36843317da684620ecdf7bceaf90cf77bda880792a6cab2e0f",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 270
+      },
+      "note": "丝滑流畅: Turbo X 性能引擎平台 (Turbo X 性能平台架构与无损压缩)"
+    },
+    {
+      "id": "m10-ev-07",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/magicos/yoyo-memory.mp4",
+      "sourceIndex": 0,
+      "sourceHash": "02acd5d029869a5b2c0b7197a28b1718c48d11a2e37382b32c49c96c5eb86f71",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 345
+      },
+      "note": "荣耀 AI: YOYO 记忆全新升级 (YOYO 智能收藏与一键原文跳转)"
+    },
+    {
+      "id": "m10-ev-08",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/magicos/yoyo-auto-exec.mp4",
+      "sourceIndex": 0,
+      "sourceHash": "c2fdbf7a19c0eac84b949caa0b9d410cede73730a1d90c2ffb25832137fe1ead",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 236
+      },
+      "note": "荣耀 AI: AI 通话翻译与会议帮记 (YOYO 一句话完成复杂跨应用操作)"
+    },
+    {
+      "id": "m10-ev-09",
+      "role": "demo-region",
+      "kind": "image-region",
+      "source": "assets/digests-2025/magicos/cross-share.webp",
+      "sourceIndex": 0,
+      "sourceHash": "cba4bf6011dafd7f025e22fa20beafa53285261592ca55f070051d00d7e272da",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 270
+      },
+      "note": "互联共享: 跨生态一碰传与苹果互通 (NFC 一碰传支持 iPhone 高速互传)"
+    },
+    {
+      "id": "m10-ev-10",
+      "role": "demo-region",
+      "kind": "image-region",
+      "source": "assets/digests-2025/magicos/magicos10-summary-1.webp",
+      "sourceIndex": 0,
+      "sourceHash": "cba4bf6011dafd7f025e22fa20beafa53285261592ca55f070051d00d7e272da",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 270
+      },
+      "note": "便捷交互: 灵动胶囊多场景服务触达 (MagicOS 10 发布会全景精华)"
+    },
+    {
       "id": "update-01-body",
       "kind": "html-text",
       "role": "update-list",
@@ -1489,9 +1794,9 @@
       "note": "UX 焕新: 新增桌面卡片、控制中心按压位置响应效果。..."
     },
     {
-      "id": "update-06-body",
+      "id": "highlight-03-body",
       "kind": "html-text",
-      "role": "update-list",
+      "role": "body-text",
       "source": "MagicOS_10_更新说明.md",
       "sourceIndex": 7,
       "sourceHash": "084bd74aa4b5e3404559fccb250fae8e4d1c4173d7d475296d3834b4be22c5d9",
@@ -1501,7 +1806,7 @@
       "note": "UX 焕新: 新增多种锁屏时钟样式，基于壁纸智能推荐，支持调节字体、字重、..."
     },
     {
-      "id": "update-07-body",
+      "id": "update-06-body",
       "kind": "html-text",
       "role": "update-list",
       "source": "MagicOS_10_更新说明.md",
@@ -1513,7 +1818,7 @@
       "note": "UX 焕新: 新增密码解锁、控制中心等按压通透光感效果。..."
     },
     {
-      "id": "update-08-body",
+      "id": "update-07-body",
       "kind": "html-text",
       "role": "update-list",
       "source": "MagicOS_10_更新说明.md",
@@ -1525,9 +1830,9 @@
       "note": "UX 焕新: 新增溯光等系列动态主题。体验路径：联网后，设置 > 桌面和个..."
     },
     {
-      "id": "highlight-03-body",
+      "id": "update-08-body",
       "kind": "html-text",
-      "role": "body-text",
+      "role": "update-list",
       "source": "MagicOS_10_更新说明.md",
       "sourceIndex": 10,
       "sourceHash": "c1ff2100a13d960bb7d6c46ed5bd1da9aa5fd4874e8076fa5ad7d037eb196c27",
@@ -1705,9 +2010,9 @@
       "note": "荣耀 AI \\& YOYO: 新增 YOYO 记忆双重隐私保护机制。..."
     },
     {
-      "id": "update-21-body",
+      "id": "highlight-06-body",
       "kind": "html-text",
-      "role": "update-list",
+      "role": "body-text",
       "source": "MagicOS_10_更新说明.md",
       "sourceIndex": 25,
       "sourceHash": "7331c990e5d1f0bc0a8b66daae7effdf7f4e289d65469a927fd3d9b5e72c9afa",
@@ -1717,7 +2022,7 @@
       "note": "荣耀 AI \\& YOYO: 新增 AI 通话翻译功能。体验路径：设置 > 荣耀 AI \\..."
     },
     {
-      "id": "update-22-body",
+      "id": "update-21-body",
       "kind": "html-text",
       "role": "update-list",
       "source": "MagicOS_10_更新说明.md",
@@ -1729,7 +2034,7 @@
       "note": "荣耀 AI \\& YOYO: 新增 AI 帮记功能，会议中可托管听会、接收关键词提醒、生成..."
     },
     {
-      "id": "highlight-06-body",
+      "id": "highlight-07-body",
       "kind": "html-text",
       "role": "body-text",
       "source": "MagicOS_10_更新说明.md",
@@ -1741,7 +2046,7 @@
       "note": "互联共享: 开启 NFC，可与 iPhone 一碰传，实现高速文件传输。..."
     },
     {
-      "id": "update-23-body",
+      "id": "update-22-body",
       "kind": "html-text",
       "role": "update-list",
       "source": "MagicOS_10_更新说明.md",
@@ -1753,7 +2058,7 @@
       "note": "互联共享: 新增支持荣耀手机之间的一碰传，实现高速文件传输。体验路径：设..."
     },
     {
-      "id": "update-24-body",
+      "id": "update-23-body",
       "kind": "html-text",
       "role": "update-list",
       "source": "MagicOS_10_更新说明.md",
@@ -1765,7 +2070,7 @@
       "note": "互联共享: 新增与 macOS、Windows 互传功能，安装“荣耀超级..."
     },
     {
-      "id": "update-25-body",
+      "id": "update-24-body",
       "kind": "html-text",
       "role": "update-list",
       "source": "MagicOS_10_更新说明.md",
@@ -1777,7 +2082,7 @@
       "note": "互联共享: 新增支持与 iOS 设备的 OTG 有线克隆，支持更多数据项..."
     },
     {
-      "id": "update-26-body",
+      "id": "update-25-body",
       "kind": "html-text",
       "role": "update-list",
       "source": "MagicOS_10_更新说明.md",
@@ -1789,9 +2094,9 @@
       "note": "互联共享: 新增支持与鸿蒙 NEXT 的联系人、图片、视频的换机克隆。..."
     },
     {
-      "id": "highlight-07-body",
+      "id": "update-26-body",
       "kind": "html-text",
-      "role": "body-text",
+      "role": "update-list",
       "source": "MagicOS_10_更新说明.md",
       "sourceIndex": 32,
       "sourceHash": "c0571e8153feae1422271b6ec938cb784d34f536429b3fef0dd4d47ae5911542",
@@ -1996,7 +2301,7 @@
     "excludedItemCount": 0,
     "highlightCount": 8,
     "updateCount": 40,
-    "mediaCount": 0,
+    "mediaCount": 10,
     "mappedItemCount": 48,
     "coverageRate": 1
   }

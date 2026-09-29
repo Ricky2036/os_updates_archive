@@ -1,0 +1,871 @@
+{
+  "coloros": {
+    "ai-dialog": {
+      "kind": "video",
+      "src": "assets/digests-2025/coloros/ai-dialog.mp4",
+      "poster": "assets/digests-2025/coloros/ai-dialog-poster.webp",
+      "thumbnail": "assets/digests-2025/coloros/ai-dialog-poster-480.webp",
+      "avifSrc": "assets/digests-2025/coloros/ai-dialog-poster.avif",
+      "avifThumbnail": "assets/digests-2025/coloros/ai-dialog-poster-480.avif",
+      "width": 480,
+      "height": 427
+    },
+    "ai-portrait-light": {
+      "kind": "video",
+      "src": "assets/digests-2025/coloros/ai-portrait-light.mp4",
+      "poster": "assets/digests-2025/coloros/ai-portrait-light-poster.webp",
+      "thumbnail": "assets/digests-2025/coloros/ai-portrait-light-poster-480.webp",
+      "avifSrc": "assets/digests-2025/coloros/ai-portrait-light-poster.avif",
+      "avifThumbnail": "assets/digests-2025/coloros/ai-portrait-light-poster-480.avif",
+      "width": 480,
+      "height": 249
+    },
+    "apple-watch-fluid": {
+      "kind": "image",
+      "src": "assets/digests-2025/coloros/apple-watch-fluid.webp",
+      "thumbnail": "assets/digests-2025/coloros/apple-watch-fluid-480.webp",
+      "avifSrc": "assets/digests-2025/coloros/apple-watch-fluid.avif",
+      "avifThumbnail": "assets/digests-2025/coloros/apple-watch-fluid-480.avif",
+      "width": 480,
+      "height": 270
+    },
+    "aurora-visuals": {
+      "kind": "video",
+      "src": "assets/digests-2025/coloros/aurora-visuals.mp4",
+      "poster": "assets/digests-2025/coloros/aurora-visuals-poster.webp",
+      "thumbnail": "assets/digests-2025/coloros/aurora-visuals-poster-480.webp",
+      "avifSrc": "assets/digests-2025/coloros/aurora-visuals-poster.avif",
+      "avifThumbnail": "assets/digests-2025/coloros/aurora-visuals-poster-480.avif",
+      "width": 480,
+      "height": 1056
+    },
+    "coloros-pad": {
+      "kind": "image",
+      "src": "assets/digests-2025/coloros/coloros-pad.webp",
+      "thumbnail": "assets/digests-2025/coloros/coloros-pad-480.webp",
+      "avifSrc": "assets/digests-2025/coloros/coloros-pad.avif",
+      "avifThumbnail": "assets/digests-2025/coloros/coloros-pad-480.avif",
+      "width": 480,
+      "height": 270
+    },
+    "coloros16-summary": {
+      "kind": "image",
+      "src": "assets/digests-2025/coloros/coloros16-summary.webp",
+      "thumbnail": "assets/digests-2025/coloros/coloros16-summary-480.webp",
+      "avifSrc": "assets/digests-2025/coloros/coloros16-summary.avif",
+      "avifThumbnail": "assets/digests-2025/coloros/coloros16-summary-480.avif",
+      "width": 480,
+      "height": 269
+    },
+    "desktop-folder": {
+      "kind": "video",
+      "src": "assets/digests-2025/coloros/desktop-folder.mp4",
+      "poster": "assets/digests-2025/coloros/desktop-folder-poster.webp",
+      "thumbnail": "assets/digests-2025/coloros/desktop-folder-poster-480.webp",
+      "avifSrc": "assets/digests-2025/coloros/desktop-folder-poster.avif",
+      "avifThumbnail": "assets/digests-2025/coloros/desktop-folder-poster-480.avif",
+      "width": 480,
+      "height": 1067
+    },
+    "light-design": {
+      "kind": "video",
+      "src": "assets/digests-2025/coloros/light-design.mp4",
+      "poster": "assets/digests-2025/coloros/light-design-poster.webp",
+      "thumbnail": "assets/digests-2025/coloros/light-design-poster-480.webp",
+      "avifSrc": "assets/digests-2025/coloros/light-design-poster.avif",
+      "avifThumbnail": "assets/digests-2025/coloros/light-design-poster-480.avif",
+      "width": 480,
+      "height": 270
+    },
+    "live-depth": {
+      "kind": "video",
+      "src": "assets/digests-2025/coloros/live-depth.mp4",
+      "poster": "assets/digests-2025/coloros/live-depth-poster.webp",
+      "thumbnail": "assets/digests-2025/coloros/live-depth-poster-480.webp",
+      "avifSrc": "assets/digests-2025/coloros/live-depth-poster.avif",
+      "avifThumbnail": "assets/digests-2025/coloros/live-depth-poster-480.avif",
+      "width": 480,
+      "height": 270
+    },
+    "live-wallpaper": {
+      "kind": "video",
+      "src": "assets/digests-2025/coloros/live-wallpaper.mp4",
+      "poster": "assets/digests-2025/coloros/live-wallpaper-poster.webp",
+      "thumbnail": "assets/digests-2025/coloros/live-wallpaper-poster-480.webp",
+      "avifSrc": "assets/digests-2025/coloros/live-wallpaper-poster.avif",
+      "avifThumbnail": "assets/digests-2025/coloros/live-wallpaper-poster-480.avif",
+      "width": 480,
+      "height": 594
+    },
+    "memo-migration": {
+      "kind": "image",
+      "src": "assets/digests-2025/coloros/memo-migration.webp",
+      "thumbnail": "assets/digests-2025/coloros/memo-migration-480.webp",
+      "avifSrc": "assets/digests-2025/coloros/memo-migration.avif",
+      "avifThumbnail": "assets/digests-2025/coloros/memo-migration-480.avif",
+      "width": 480,
+      "height": 270
+    },
+    "parallel-interrupt": {
+      "kind": "video",
+      "src": "assets/digests-2025/coloros/parallel-interrupt.mp4",
+      "poster": "assets/digests-2025/coloros/parallel-interrupt-poster.webp",
+      "thumbnail": "assets/digests-2025/coloros/parallel-interrupt-poster-480.webp",
+      "avifSrc": "assets/digests-2025/coloros/parallel-interrupt-poster.avif",
+      "avifThumbnail": "assets/digests-2025/coloros/parallel-interrupt-poster-480.avif",
+      "width": 480,
+      "height": 221
+    },
+    "seamless-motion": {
+      "kind": "video",
+      "src": "assets/digests-2025/coloros/seamless-motion.mp4",
+      "poster": "assets/digests-2025/coloros/seamless-motion-poster.webp",
+      "thumbnail": "assets/digests-2025/coloros/seamless-motion-poster-480.webp",
+      "avifSrc": "assets/digests-2025/coloros/seamless-motion-poster.avif",
+      "avifThumbnail": "assets/digests-2025/coloros/seamless-motion-poster-480.avif",
+      "width": 434,
+      "height": 646
+    },
+    "touch-share": {
+      "kind": "image",
+      "src": "assets/digests-2025/coloros/touch-share.webp",
+      "thumbnail": "assets/digests-2025/coloros/touch-share-480.webp",
+      "avifSrc": "assets/digests-2025/coloros/touch-share.avif",
+      "avifThumbnail": "assets/digests-2025/coloros/touch-share-480.avif",
+      "width": 480,
+      "height": 270
+    },
+    "xiaobu-briefing": {
+      "kind": "image",
+      "src": "assets/digests-2025/coloros/xiaobu-briefing.webp",
+      "thumbnail": "assets/digests-2025/coloros/xiaobu-briefing-480.webp",
+      "avifSrc": "assets/digests-2025/coloros/xiaobu-briefing.avif",
+      "avifThumbnail": "assets/digests-2025/coloros/xiaobu-briefing-480.avif",
+      "width": 480,
+      "height": 249
+    },
+    "xiaobu-cross": {
+      "kind": "image",
+      "src": "assets/digests-2025/coloros/xiaobu-cross.webp",
+      "thumbnail": "assets/digests-2025/coloros/xiaobu-cross-480.webp",
+      "avifSrc": "assets/digests-2025/coloros/xiaobu-cross.avif",
+      "avifThumbnail": "assets/digests-2025/coloros/xiaobu-cross-480.avif",
+      "width": 480,
+      "height": 292
+    },
+    "xiaobu-memory": {
+      "kind": "video",
+      "src": "assets/digests-2025/coloros/xiaobu-memory.mp4",
+      "poster": "assets/digests-2025/coloros/xiaobu-memory-poster.webp",
+      "thumbnail": "assets/digests-2025/coloros/xiaobu-memory-poster-480.webp",
+      "avifSrc": "assets/digests-2025/coloros/xiaobu-memory-poster.avif",
+      "avifThumbnail": "assets/digests-2025/coloros/xiaobu-memory-poster-480.avif",
+      "width": 480,
+      "height": 256
+    }
+  },
+  "originos": {
+    "ambient-desktop": {
+      "kind": "video",
+      "src": "assets/digests-2025/originos/ambient-desktop.mp4",
+      "poster": "assets/digests-2025/originos/ambient-desktop-poster.webp",
+      "thumbnail": "assets/digests-2025/originos/ambient-desktop-poster-480.webp",
+      "avifSrc": "assets/digests-2025/originos/ambient-desktop-poster.avif",
+      "avifThumbnail": "assets/digests-2025/originos/ambient-desktop-poster-480.avif",
+      "width": 480,
+      "height": 466
+    },
+    "blur-control": {
+      "kind": "video",
+      "src": "assets/digests-2025/originos/blur-control.mp4",
+      "poster": "assets/digests-2025/originos/blur-control-poster.webp",
+      "thumbnail": "assets/digests-2025/originos/blur-control-poster-480.webp",
+      "avifSrc": "assets/digests-2025/originos/blur-control-poster.avif",
+      "avifThumbnail": "assets/digests-2025/originos/blur-control-poster-480.avif",
+      "width": 480,
+      "height": 1067
+    },
+    "depth-wallpaper": {
+      "kind": "video",
+      "src": "assets/digests-2025/originos/depth-wallpaper.mp4",
+      "poster": "assets/digests-2025/originos/depth-wallpaper-poster.webp",
+      "thumbnail": "assets/digests-2025/originos/depth-wallpaper-poster-480.webp",
+      "avifSrc": "assets/digests-2025/originos/depth-wallpaper-poster.avif",
+      "avifThumbnail": "assets/digests-2025/originos/depth-wallpaper-poster-480.avif",
+      "width": 480,
+      "height": 225
+    },
+    "elastic-motion": {
+      "kind": "video",
+      "src": "assets/digests-2025/originos/elastic-motion.mp4",
+      "poster": "assets/digests-2025/originos/elastic-motion-poster.webp",
+      "thumbnail": "assets/digests-2025/originos/elastic-motion-poster-480.webp",
+      "avifSrc": "assets/digests-2025/originos/elastic-motion-poster.avif",
+      "avifThumbnail": "assets/digests-2025/originos/elastic-motion-poster-480.avif",
+      "width": 480,
+      "height": 477
+    },
+    "frame-morph": {
+      "kind": "video",
+      "src": "assets/digests-2025/originos/frame-morph.mp4",
+      "poster": "assets/digests-2025/originos/frame-morph-poster.webp",
+      "thumbnail": "assets/digests-2025/originos/frame-morph-poster-480.webp",
+      "avifSrc": "assets/digests-2025/originos/frame-morph-poster.avif",
+      "avifThumbnail": "assets/digests-2025/originos/frame-morph-poster-480.avif",
+      "width": 480,
+      "height": 272
+    },
+    "ipad-connect": {
+      "kind": "image",
+      "src": "assets/digests-2025/originos/ipad-connect.webp",
+      "thumbnail": "assets/digests-2025/originos/ipad-connect-480.webp",
+      "avifSrc": "assets/digests-2025/originos/ipad-connect.avif",
+      "avifThumbnail": "assets/digests-2025/originos/ipad-connect-480.avif",
+      "width": 480,
+      "height": 240
+    },
+    "livephoto-erase": {
+      "kind": "video",
+      "src": "assets/digests-2025/originos/livephoto-erase.mp4",
+      "poster": "assets/digests-2025/originos/livephoto-erase-poster.webp",
+      "thumbnail": "assets/digests-2025/originos/livephoto-erase-poster-480.webp",
+      "avifSrc": "assets/digests-2025/originos/livephoto-erase-poster.avif",
+      "avifThumbnail": "assets/digests-2025/originos/livephoto-erase-poster-480.avif",
+      "width": 480,
+      "height": 357
+    },
+    "micro-power": {
+      "kind": "video",
+      "src": "assets/digests-2025/originos/micro-power.mp4",
+      "poster": "assets/digests-2025/originos/micro-power-poster.webp",
+      "thumbnail": "assets/digests-2025/originos/micro-power-poster-480.webp",
+      "avifSrc": "assets/digests-2025/originos/micro-power-poster.avif",
+      "avifThumbnail": "assets/digests-2025/originos/micro-power-poster-480.avif",
+      "width": 480,
+      "height": 235
+    },
+    "one-shot-global": {
+      "kind": "video",
+      "src": "assets/digests-2025/originos/one-shot-global.mp4",
+      "poster": "assets/digests-2025/originos/one-shot-global-poster.webp",
+      "thumbnail": "assets/digests-2025/originos/one-shot-global-poster-480.webp",
+      "avifSrc": "assets/digests-2025/originos/one-shot-global-poster.avif",
+      "avifThumbnail": "assets/digests-2025/originos/one-shot-global-poster-480.avif",
+      "width": 480,
+      "height": 480
+    },
+    "originos6-summary": {
+      "kind": "image",
+      "src": "assets/digests-2025/originos/originos6-summary.webp",
+      "thumbnail": "assets/digests-2025/originos/originos6-summary-480.webp",
+      "avifSrc": "assets/digests-2025/originos/originos6-summary.avif",
+      "avifThumbnail": "assets/digests-2025/originos/originos6-summary-480.avif",
+      "width": 480,
+      "height": 270
+    },
+    "raster-theme": {
+      "kind": "video",
+      "src": "assets/digests-2025/originos/raster-theme.mp4",
+      "poster": "assets/digests-2025/originos/raster-theme-poster.webp",
+      "thumbnail": "assets/digests-2025/originos/raster-theme-poster-480.webp",
+      "avifSrc": "assets/digests-2025/originos/raster-theme-poster.avif",
+      "avifThumbnail": "assets/digests-2025/originos/raster-theme-poster-480.avif",
+      "width": 480,
+      "height": 1067
+    },
+    "ripple-charging": {
+      "kind": "video",
+      "src": "assets/digests-2025/originos/ripple-charging.mp4",
+      "poster": "assets/digests-2025/originos/ripple-charging-poster.webp",
+      "thumbnail": "assets/digests-2025/originos/ripple-charging-poster-480.webp",
+      "avifSrc": "assets/digests-2025/originos/ripple-charging-poster.avif",
+      "avifThumbnail": "assets/digests-2025/originos/ripple-charging-poster-480.avif",
+      "width": 480,
+      "height": 1067
+    },
+    "shake-share": {
+      "kind": "video",
+      "src": "assets/digests-2025/originos/shake-share.mp4",
+      "poster": "assets/digests-2025/originos/shake-share-poster.webp",
+      "thumbnail": "assets/digests-2025/originos/shake-share-poster-480.webp",
+      "avifSrc": "assets/digests-2025/originos/shake-share-poster.avif",
+      "avifThumbnail": "assets/digests-2025/originos/shake-share-poster-480.avif",
+      "width": 480,
+      "height": 285
+    },
+    "shelf-one-shot": {
+      "kind": "video",
+      "src": "assets/digests-2025/originos/shelf-one-shot.mp4",
+      "poster": "assets/digests-2025/originos/shelf-one-shot-poster.webp",
+      "thumbnail": "assets/digests-2025/originos/shelf-one-shot-poster-480.webp",
+      "avifSrc": "assets/digests-2025/originos/shelf-one-shot-poster.avif",
+      "avifThumbnail": "assets/digests-2025/originos/shelf-one-shot-poster-480.avif",
+      "width": 480,
+      "height": 1067
+    },
+    "stack-interaction": {
+      "kind": "video",
+      "src": "assets/digests-2025/originos/stack-interaction.mp4",
+      "poster": "assets/digests-2025/originos/stack-interaction-poster.webp",
+      "thumbnail": "assets/digests-2025/originos/stack-interaction-poster-480.webp",
+      "avifSrc": "assets/digests-2025/originos/stack-interaction-poster.avif",
+      "avifThumbnail": "assets/digests-2025/originos/stack-interaction-poster-480.avif",
+      "width": 480,
+      "height": 1067
+    },
+    "stack-layers": {
+      "kind": "image",
+      "src": "assets/digests-2025/originos/stack-layers.webp",
+      "thumbnail": "assets/digests-2025/originos/stack-layers-480.webp",
+      "avifSrc": "assets/digests-2025/originos/stack-layers.avif",
+      "avifThumbnail": "assets/digests-2025/originos/stack-layers-480.avif",
+      "width": 480,
+      "height": 318
+    },
+    "v-circle-search": {
+      "kind": "image",
+      "src": "assets/digests-2025/originos/v-circle-search.webp",
+      "thumbnail": "assets/digests-2025/originos/v-circle-search-480.webp",
+      "avifSrc": "assets/digests-2025/originos/v-circle-search.avif",
+      "avifThumbnail": "assets/digests-2025/originos/v-circle-search-480.avif",
+      "width": 480,
+      "height": 240
+    }
+  },
+  "hyperos": {
+    "ai-wallpaper": {
+      "kind": "image",
+      "src": "assets/digests-2025/hyperos/ai-wallpaper.webp",
+      "thumbnail": "assets/digests-2025/hyperos/ai-wallpaper-480.webp",
+      "avifSrc": "assets/digests-2025/hyperos/ai-wallpaper.avif",
+      "avifThumbnail": "assets/digests-2025/hyperos/ai-wallpaper-480.avif",
+      "width": 480,
+      "height": 270
+    },
+    "cinema-lockscreen": {
+      "kind": "video",
+      "src": "assets/digests-2025/hyperos/cinema-lockscreen.mp4",
+      "poster": "assets/digests-2025/hyperos/cinema-lockscreen-poster.webp",
+      "thumbnail": "assets/digests-2025/hyperos/cinema-lockscreen-poster-480.webp",
+      "avifSrc": "assets/digests-2025/hyperos/cinema-lockscreen-poster.avif",
+      "avifThumbnail": "assets/digests-2025/hyperos/cinema-lockscreen-poster-480.avif",
+      "width": 480,
+      "height": 1067
+    },
+    "compile-opt": {
+      "kind": "image",
+      "src": "assets/digests-2025/hyperos/compile-opt.webp",
+      "thumbnail": "assets/digests-2025/hyperos/compile-opt-480.webp",
+      "avifSrc": "assets/digests-2025/hyperos/compile-opt.avif",
+      "avifThumbnail": "assets/digests-2025/hyperos/compile-opt-480.avif",
+      "width": 480,
+      "height": 178
+    },
+    "desktop-icons": {
+      "kind": "image",
+      "src": "assets/digests-2025/hyperos/desktop-icons.webp",
+      "thumbnail": "assets/digests-2025/hyperos/desktop-icons-480.webp",
+      "avifSrc": "assets/digests-2025/hyperos/desktop-icons.avif",
+      "avifThumbnail": "assets/digests-2025/hyperos/desktop-icons-480.avif",
+      "width": 480,
+      "height": 146
+    },
+    "file-one-shot": {
+      "kind": "video",
+      "src": "assets/digests-2025/hyperos/file-one-shot.mp4",
+      "poster": "assets/digests-2025/hyperos/file-one-shot-poster.webp",
+      "thumbnail": "assets/digests-2025/hyperos/file-one-shot-poster-480.webp",
+      "avifSrc": "assets/digests-2025/hyperos/file-one-shot-poster.avif",
+      "avifThumbnail": "assets/digests-2025/hyperos/file-one-shot-poster-480.avif",
+      "width": 480,
+      "height": 218
+    },
+    "fps-curve": {
+      "kind": "image",
+      "src": "assets/digests-2025/hyperos/fps-curve.webp",
+      "thumbnail": "assets/digests-2025/hyperos/fps-curve-480.webp",
+      "avifSrc": "assets/digests-2025/hyperos/fps-curve.avif",
+      "avifThumbnail": "assets/digests-2025/hyperos/fps-curve-480.avif",
+      "width": 480,
+      "height": 152
+    },
+    "hyperos3-summary": {
+      "kind": "image",
+      "src": "assets/digests-2025/hyperos/hyperos3-summary.webp",
+      "thumbnail": "assets/digests-2025/hyperos/hyperos3-summary-480.webp",
+      "avifSrc": "assets/digests-2025/hyperos/hyperos3-summary.avif",
+      "avifThumbnail": "assets/digests-2025/hyperos/hyperos3-summary-480.avif",
+      "width": 480,
+      "height": 199
+    },
+    "iphone-notify": {
+      "kind": "image",
+      "src": "assets/digests-2025/hyperos/iphone-notify.webp",
+      "thumbnail": "assets/digests-2025/hyperos/iphone-notify-480.webp",
+      "avifSrc": "assets/digests-2025/hyperos/iphone-notify.avif",
+      "avifThumbnail": "assets/digests-2025/hyperos/iphone-notify-480.avif",
+      "width": 480,
+      "height": 450
+    },
+    "iphone-wechat": {
+      "kind": "video",
+      "src": "assets/digests-2025/hyperos/iphone-wechat.mp4",
+      "poster": "assets/digests-2025/hyperos/iphone-wechat-poster.webp",
+      "thumbnail": "assets/digests-2025/hyperos/iphone-wechat-poster-480.webp",
+      "avifSrc": "assets/digests-2025/hyperos/iphone-wechat-poster.avif",
+      "avifThumbnail": "assets/digests-2025/hyperos/iphone-wechat-poster-480.avif",
+      "width": 480,
+      "height": 872
+    },
+    "island-bounce": {
+      "kind": "video",
+      "src": "assets/digests-2025/hyperos/island-bounce.mp4",
+      "poster": "assets/digests-2025/hyperos/island-bounce-poster.webp",
+      "thumbnail": "assets/digests-2025/hyperos/island-bounce-poster-480.webp",
+      "avifSrc": "assets/digests-2025/hyperos/island-bounce-poster.avif",
+      "avifThumbnail": "assets/digests-2025/hyperos/island-bounce-poster-480.avif",
+      "width": 480,
+      "height": 1067
+    },
+    "island-design": {
+      "kind": "image",
+      "src": "assets/digests-2025/hyperos/island-design.webp",
+      "thumbnail": "assets/digests-2025/hyperos/island-design-480.webp",
+      "avifSrc": "assets/digests-2025/hyperos/island-design.avif",
+      "avifThumbnail": "assets/digests-2025/hyperos/island-design-480.avif",
+      "width": 480,
+      "height": 259
+    },
+    "island-drag-share": {
+      "kind": "video",
+      "src": "assets/digests-2025/hyperos/island-drag-share.mp4",
+      "poster": "assets/digests-2025/hyperos/island-drag-share-poster.webp",
+      "thumbnail": "assets/digests-2025/hyperos/island-drag-share-poster-480.webp",
+      "avifSrc": "assets/digests-2025/hyperos/island-drag-share-poster.avif",
+      "avifThumbnail": "assets/digests-2025/hyperos/island-drag-share-poster-480.avif",
+      "width": 480,
+      "height": 1019
+    },
+    "island-services": {
+      "kind": "image",
+      "src": "assets/digests-2025/hyperos/island-services.webp",
+      "thumbnail": "assets/digests-2025/hyperos/island-services-480.webp",
+      "avifSrc": "assets/digests-2025/hyperos/island-services.avif",
+      "avifThumbnail": "assets/digests-2025/hyperos/island-services-480.avif",
+      "width": 480,
+      "height": 252
+    },
+    "island-small-window": {
+      "kind": "video",
+      "src": "assets/digests-2025/hyperos/island-small-window.mp4",
+      "poster": "assets/digests-2025/hyperos/island-small-window-poster.webp",
+      "thumbnail": "assets/digests-2025/hyperos/island-small-window-poster-480.webp",
+      "avifSrc": "assets/digests-2025/hyperos/island-small-window-poster.avif",
+      "avifThumbnail": "assets/digests-2025/hyperos/island-small-window-poster-480.avif",
+      "width": 480,
+      "height": 1019
+    },
+    "island-switch": {
+      "kind": "video",
+      "src": "assets/digests-2025/hyperos/island-switch.mp4",
+      "poster": "assets/digests-2025/hyperos/island-switch-poster.webp",
+      "thumbnail": "assets/digests-2025/hyperos/island-switch-poster-480.webp",
+      "avifSrc": "assets/digests-2025/hyperos/island-switch-poster.avif",
+      "avifThumbnail": "assets/digests-2025/hyperos/island-switch-poster-480.avif",
+      "width": 480,
+      "height": 467
+    },
+    "launch-latency": {
+      "kind": "image",
+      "src": "assets/digests-2025/hyperos/launch-latency.webp",
+      "thumbnail": "assets/digests-2025/hyperos/launch-latency-480.webp",
+      "avifSrc": "assets/digests-2025/hyperos/launch-latency.avif",
+      "avifThumbnail": "assets/digests-2025/hyperos/launch-latency-480.avif",
+      "width": 480,
+      "height": 190
+    },
+    "mac-collab": {
+      "kind": "image",
+      "src": "assets/digests-2025/hyperos/mac-collab.webp",
+      "thumbnail": "assets/digests-2025/hyperos/mac-collab-480.webp",
+      "avifSrc": "assets/digests-2025/hyperos/mac-collab.avif",
+      "avifThumbnail": "assets/digests-2025/hyperos/mac-collab-480.avif",
+      "width": 480,
+      "height": 246
+    },
+    "mac-large-screen": {
+      "kind": "video",
+      "src": "assets/digests-2025/hyperos/mac-large-screen.mp4",
+      "poster": "assets/digests-2025/hyperos/mac-large-screen-poster.webp",
+      "thumbnail": "assets/digests-2025/hyperos/mac-large-screen-poster-480.webp",
+      "avifSrc": "assets/digests-2025/hyperos/mac-large-screen-poster.avif",
+      "avifThumbnail": "assets/digests-2025/hyperos/mac-large-screen-poster-480.avif",
+      "width": 480,
+      "height": 281
+    },
+    "multitask-smooth": {
+      "kind": "video",
+      "src": "assets/digests-2025/hyperos/multitask-smooth.mp4",
+      "poster": "assets/digests-2025/hyperos/multitask-smooth-poster.webp",
+      "thumbnail": "assets/digests-2025/hyperos/multitask-smooth-poster-480.webp",
+      "avifSrc": "assets/digests-2025/hyperos/multitask-smooth-poster.avif",
+      "avifThumbnail": "assets/digests-2025/hyperos/multitask-smooth-poster-480.avif",
+      "width": 480,
+      "height": 216
+    },
+    "poweroff-find": {
+      "kind": "image",
+      "src": "assets/digests-2025/hyperos/poweroff-find.webp",
+      "thumbnail": "assets/digests-2025/hyperos/poweroff-find-480.webp",
+      "avifSrc": "assets/digests-2025/hyperos/poweroff-find.avif",
+      "avifThumbnail": "assets/digests-2025/hyperos/poweroff-find-480.avif",
+      "width": 480,
+      "height": 436
+    },
+    "render-load": {
+      "kind": "image",
+      "src": "assets/digests-2025/hyperos/render-load.webp",
+      "thumbnail": "assets/digests-2025/hyperos/render-load-480.webp",
+      "avifSrc": "assets/digests-2025/hyperos/render-load.avif",
+      "avifThumbnail": "assets/digests-2025/hyperos/render-load-480.avif",
+      "width": 480,
+      "height": 640
+    },
+    "safe-access": {
+      "kind": "image",
+      "src": "assets/digests-2025/hyperos/safe-access.webp",
+      "thumbnail": "assets/digests-2025/hyperos/safe-access-480.webp",
+      "avifSrc": "assets/digests-2025/hyperos/safe-access.avif",
+      "avifThumbnail": "assets/digests-2025/hyperos/safe-access-480.avif",
+      "width": 480,
+      "height": 170
+    },
+    "switch-pad": {
+      "kind": "video",
+      "src": "assets/digests-2025/hyperos/switch-pad.mp4",
+      "poster": "assets/digests-2025/hyperos/switch-pad-poster.webp",
+      "thumbnail": "assets/digests-2025/hyperos/switch-pad-poster-480.webp",
+      "avifSrc": "assets/digests-2025/hyperos/switch-pad-poster.avif",
+      "avifThumbnail": "assets/digests-2025/hyperos/switch-pad-poster-480.avif",
+      "width": 480,
+      "height": 467
+    },
+    "variable-clock": {
+      "kind": "image",
+      "src": "assets/digests-2025/hyperos/variable-clock.webp",
+      "thumbnail": "assets/digests-2025/hyperos/variable-clock-480.webp",
+      "avifSrc": "assets/digests-2025/hyperos/variable-clock.avif",
+      "avifThumbnail": "assets/digests-2025/hyperos/variable-clock-480.avif",
+      "width": 217,
+      "height": 454
+    },
+    "window-anim": {
+      "kind": "image",
+      "src": "assets/digests-2025/hyperos/window-anim.webp",
+      "thumbnail": "assets/digests-2025/hyperos/window-anim-480.webp",
+      "avifSrc": "assets/digests-2025/hyperos/window-anim.avif",
+      "avifThumbnail": "assets/digests-2025/hyperos/window-anim-480.avif",
+      "width": 480,
+      "height": 127
+    },
+    "xiaoai-circle": {
+      "kind": "video",
+      "src": "assets/digests-2025/hyperos/xiaoai-circle.mp4",
+      "poster": "assets/digests-2025/hyperos/xiaoai-circle-poster.webp",
+      "thumbnail": "assets/digests-2025/hyperos/xiaoai-circle-poster-480.webp",
+      "avifSrc": "assets/digests-2025/hyperos/xiaoai-circle-poster.avif",
+      "avifThumbnail": "assets/digests-2025/hyperos/xiaoai-circle-poster-480.avif",
+      "width": 480,
+      "height": 1017
+    },
+    "xiaoai-direct": {
+      "kind": "image",
+      "src": "assets/digests-2025/hyperos/xiaoai-direct.webp",
+      "thumbnail": "assets/digests-2025/hyperos/xiaoai-direct-480.webp",
+      "avifSrc": "assets/digests-2025/hyperos/xiaoai-direct.avif",
+      "avifThumbnail": "assets/digests-2025/hyperos/xiaoai-direct-480.avif",
+      "width": 480,
+      "height": 341
+    },
+    "xiaoai-solver": {
+      "kind": "video",
+      "src": "assets/digests-2025/hyperos/xiaoai-solver.mp4",
+      "poster": "assets/digests-2025/hyperos/xiaoai-solver-poster.webp",
+      "thumbnail": "assets/digests-2025/hyperos/xiaoai-solver-poster-480.webp",
+      "avifSrc": "assets/digests-2025/hyperos/xiaoai-solver-poster.avif",
+      "avifThumbnail": "assets/digests-2025/hyperos/xiaoai-solver-poster-480.avif",
+      "width": 480,
+      "height": 1018
+    }
+  },
+  "magicos": {
+    "auto-wallpaper": {
+      "kind": "video",
+      "src": "assets/digests-2025/magicos/auto-wallpaper.mp4",
+      "poster": "assets/digests-2025/magicos/auto-wallpaper-poster.webp",
+      "thumbnail": "assets/digests-2025/magicos/auto-wallpaper-poster-480.webp",
+      "avifSrc": "assets/digests-2025/magicos/auto-wallpaper-poster.avif",
+      "avifThumbnail": "assets/digests-2025/magicos/auto-wallpaper-poster-480.avif",
+      "width": 480,
+      "height": 1038
+    },
+    "cross-share": {
+      "kind": "image",
+      "src": "assets/digests-2025/magicos/cross-share.webp",
+      "thumbnail": "assets/digests-2025/magicos/cross-share-480.webp",
+      "avifSrc": "assets/digests-2025/magicos/cross-share.avif",
+      "avifThumbnail": "assets/digests-2025/magicos/cross-share-480.avif",
+      "width": 480,
+      "height": 270
+    },
+    "interactive-theme": {
+      "kind": "video",
+      "src": "assets/digests-2025/magicos/interactive-theme.mp4",
+      "poster": "assets/digests-2025/magicos/interactive-theme-poster.webp",
+      "thumbnail": "assets/digests-2025/magicos/interactive-theme-poster-480.webp",
+      "avifSrc": "assets/digests-2025/magicos/interactive-theme-poster.avif",
+      "avifThumbnail": "assets/digests-2025/magicos/interactive-theme-poster-480.avif",
+      "width": 480,
+      "height": 241
+    },
+    "light-touch": {
+      "kind": "video",
+      "src": "assets/digests-2025/magicos/light-touch.mp4",
+      "poster": "assets/digests-2025/magicos/light-touch-poster.webp",
+      "thumbnail": "assets/digests-2025/magicos/light-touch-poster-480.webp",
+      "avifSrc": "assets/digests-2025/magicos/light-touch-poster.avif",
+      "avifThumbnail": "assets/digests-2025/magicos/light-touch-poster-480.avif",
+      "width": 480,
+      "height": 1064
+    },
+    "magicos10-summary-1": {
+      "kind": "image",
+      "src": "assets/digests-2025/magicos/magicos10-summary-1.webp",
+      "thumbnail": "assets/digests-2025/magicos/magicos10-summary-1-480.webp",
+      "avifSrc": "assets/digests-2025/magicos/magicos10-summary-1.avif",
+      "avifThumbnail": "assets/digests-2025/magicos/magicos10-summary-1-480.avif",
+      "width": 480,
+      "height": 270
+    },
+    "magicos10-summary-2": {
+      "kind": "image",
+      "src": "assets/digests-2025/magicos/magicos10-summary-2.webp",
+      "thumbnail": "assets/digests-2025/magicos/magicos10-summary-2-480.webp",
+      "avifSrc": "assets/digests-2025/magicos/magicos10-summary-2.avif",
+      "avifThumbnail": "assets/digests-2025/magicos/magicos10-summary-2-480.avif",
+      "width": 480,
+      "height": 270
+    },
+    "magicos10-summary-3": {
+      "kind": "image",
+      "src": "assets/digests-2025/magicos/magicos10-summary-3.webp",
+      "thumbnail": "assets/digests-2025/magicos/magicos10-summary-3-480.webp",
+      "avifSrc": "assets/digests-2025/magicos/magicos10-summary-3.avif",
+      "avifThumbnail": "assets/digests-2025/magicos/magicos10-summary-3-480.avif",
+      "width": 480,
+      "height": 270
+    },
+    "translucent-adjust": {
+      "kind": "video",
+      "src": "assets/digests-2025/magicos/translucent-adjust.mp4",
+      "poster": "assets/digests-2025/magicos/translucent-adjust-poster.webp",
+      "thumbnail": "assets/digests-2025/magicos/translucent-adjust-poster-480.webp",
+      "avifSrc": "assets/digests-2025/magicos/translucent-adjust-poster.avif",
+      "avifThumbnail": "assets/digests-2025/magicos/translucent-adjust-poster-480.avif",
+      "width": 480,
+      "height": 168
+    },
+    "translucent-mode": {
+      "kind": "video",
+      "src": "assets/digests-2025/magicos/translucent-mode.mp4",
+      "poster": "assets/digests-2025/magicos/translucent-mode-poster.webp",
+      "thumbnail": "assets/digests-2025/magicos/translucent-mode-poster-480.webp",
+      "avifSrc": "assets/digests-2025/magicos/translucent-mode-poster.avif",
+      "avifThumbnail": "assets/digests-2025/magicos/translucent-mode-poster-480.avif",
+      "width": 480,
+      "height": 240
+    },
+    "turbo-x-platform": {
+      "kind": "image",
+      "src": "assets/digests-2025/magicos/turbo-x-platform.webp",
+      "thumbnail": "assets/digests-2025/magicos/turbo-x-platform-480.webp",
+      "avifSrc": "assets/digests-2025/magicos/turbo-x-platform.avif",
+      "avifThumbnail": "assets/digests-2025/magicos/turbo-x-platform-480.avif",
+      "width": 480,
+      "height": 270
+    },
+    "yoyo-auto-exec": {
+      "kind": "video",
+      "src": "assets/digests-2025/magicos/yoyo-auto-exec.mp4",
+      "poster": "assets/digests-2025/magicos/yoyo-auto-exec-poster.webp",
+      "thumbnail": "assets/digests-2025/magicos/yoyo-auto-exec-poster-480.webp",
+      "avifSrc": "assets/digests-2025/magicos/yoyo-auto-exec-poster.avif",
+      "avifThumbnail": "assets/digests-2025/magicos/yoyo-auto-exec-poster-480.avif",
+      "width": 480,
+      "height": 236
+    },
+    "yoyo-memory": {
+      "kind": "video",
+      "src": "assets/digests-2025/magicos/yoyo-memory.mp4",
+      "poster": "assets/digests-2025/magicos/yoyo-memory-poster.webp",
+      "thumbnail": "assets/digests-2025/magicos/yoyo-memory-poster-480.webp",
+      "avifSrc": "assets/digests-2025/magicos/yoyo-memory-poster.avif",
+      "avifThumbnail": "assets/digests-2025/magicos/yoyo-memory-poster-480.avif",
+      "width": 480,
+      "height": 345
+    }
+  },
+  "harmonyos": {
+    "ai-peep-proof": {
+      "kind": "video",
+      "src": "assets/digests-2025/harmonyos/ai-peep-proof.mp4",
+      "poster": "assets/digests-2025/harmonyos/ai-peep-proof-poster.webp",
+      "thumbnail": "assets/digests-2025/harmonyos/ai-peep-proof-poster-480.webp",
+      "avifSrc": "assets/digests-2025/harmonyos/ai-peep-proof-poster.avif",
+      "avifThumbnail": "assets/digests-2025/harmonyos/ai-peep-proof-poster-480.avif",
+      "width": 480,
+      "height": 259
+    },
+    "ai-photo-to-video": {
+      "kind": "image",
+      "src": "assets/digests-2025/harmonyos/ai-photo-to-video.webp",
+      "thumbnail": "assets/digests-2025/harmonyos/ai-photo-to-video-480.webp",
+      "avifSrc": "assets/digests-2025/harmonyos/ai-photo-to-video.avif",
+      "avifThumbnail": "assets/digests-2025/harmonyos/ai-photo-to-video-480.avif",
+      "width": 480,
+      "height": 482
+    },
+    "ai-portrait-retouch": {
+      "kind": "image",
+      "src": "assets/digests-2025/harmonyos/ai-portrait-retouch.webp",
+      "thumbnail": "assets/digests-2025/harmonyos/ai-portrait-retouch-480.webp",
+      "avifSrc": "assets/digests-2025/harmonyos/ai-portrait-retouch.avif",
+      "avifThumbnail": "assets/digests-2025/harmonyos/ai-portrait-retouch-480.avif",
+      "width": 480,
+      "height": 482
+    },
+    "anti-fraud-alert": {
+      "kind": "image",
+      "src": "assets/digests-2025/harmonyos/anti-fraud-alert.webp",
+      "thumbnail": "assets/digests-2025/harmonyos/anti-fraud-alert-480.webp",
+      "avifSrc": "assets/digests-2025/harmonyos/anti-fraud-alert.avif",
+      "avifThumbnail": "assets/digests-2025/harmonyos/anti-fraud-alert-480.avif",
+      "width": 480,
+      "height": 606
+    },
+    "anti-fraud-call": {
+      "kind": "image",
+      "src": "assets/digests-2025/harmonyos/anti-fraud-call.webp",
+      "thumbnail": "assets/digests-2025/harmonyos/anti-fraud-call-480.webp",
+      "avifSrc": "assets/digests-2025/harmonyos/anti-fraud-call.avif",
+      "avifThumbnail": "assets/digests-2025/harmonyos/anti-fraud-call-480.avif",
+      "width": 480,
+      "height": 747
+    },
+    "ark-engine": {
+      "kind": "image",
+      "src": "assets/digests-2025/harmonyos/ark-engine.webp",
+      "thumbnail": "assets/digests-2025/harmonyos/ark-engine-480.webp",
+      "avifSrc": "assets/digests-2025/harmonyos/ark-engine.avif",
+      "avifThumbnail": "assets/digests-2025/harmonyos/ark-engine-480.avif",
+      "width": 480,
+      "height": 270
+    },
+    "eye-hand-flow": {
+      "kind": "video",
+      "src": "assets/digests-2025/harmonyos/eye-hand-flow.mp4",
+      "poster": "assets/digests-2025/harmonyos/eye-hand-flow-poster.webp",
+      "thumbnail": "assets/digests-2025/harmonyos/eye-hand-flow-poster-480.webp",
+      "avifSrc": "assets/digests-2025/harmonyos/eye-hand-flow-poster.avif",
+      "avifThumbnail": "assets/digests-2025/harmonyos/eye-hand-flow-poster-480.avif",
+      "width": 480,
+      "height": 240
+    },
+    "fluffy-ball": {
+      "kind": "video",
+      "src": "assets/digests-2025/harmonyos/fluffy-ball.mp4",
+      "poster": "assets/digests-2025/harmonyos/fluffy-ball-poster.webp",
+      "thumbnail": "assets/digests-2025/harmonyos/fluffy-ball-poster-480.webp",
+      "avifSrc": "assets/digests-2025/harmonyos/fluffy-ball-poster.avif",
+      "avifThumbnail": "assets/digests-2025/harmonyos/fluffy-ball-poster-480.avif",
+      "width": 480,
+      "height": 335
+    },
+    "harmonyos6-summary-1": {
+      "kind": "image",
+      "src": "assets/digests-2025/harmonyos/harmonyos6-summary-1.webp",
+      "thumbnail": "assets/digests-2025/harmonyos/harmonyos6-summary-1-480.webp",
+      "avifSrc": "assets/digests-2025/harmonyos/harmonyos6-summary-1.avif",
+      "avifThumbnail": "assets/digests-2025/harmonyos/harmonyos6-summary-1-480.avif",
+      "width": 480,
+      "height": 270
+    },
+    "harmonyos6-summary-2": {
+      "kind": "image",
+      "src": "assets/digests-2025/harmonyos/harmonyos6-summary-2.webp",
+      "thumbnail": "assets/digests-2025/harmonyos/harmonyos6-summary-2-480.webp",
+      "avifSrc": "assets/digests-2025/harmonyos/harmonyos6-summary-2.avif",
+      "avifThumbnail": "assets/digests-2025/harmonyos/harmonyos6-summary-2-480.avif",
+      "width": 480,
+      "height": 270
+    },
+    "mood-emoji": {
+      "kind": "video",
+      "src": "assets/digests-2025/harmonyos/mood-emoji.mp4",
+      "poster": "assets/digests-2025/harmonyos/mood-emoji-poster.webp",
+      "thumbnail": "assets/digests-2025/harmonyos/mood-emoji-poster-480.webp",
+      "avifSrc": "assets/digests-2025/harmonyos/mood-emoji-poster.avif",
+      "avifThumbnail": "assets/digests-2025/harmonyos/mood-emoji-poster-480.avif",
+      "width": 480,
+      "height": 324
+    },
+    "signature-camera": {
+      "kind": "video",
+      "src": "assets/digests-2025/harmonyos/signature-camera.mp4",
+      "poster": "assets/digests-2025/harmonyos/signature-camera-poster.webp",
+      "thumbnail": "assets/digests-2025/harmonyos/signature-camera-poster-480.webp",
+      "avifSrc": "assets/digests-2025/harmonyos/signature-camera-poster.avif",
+      "avifThumbnail": "assets/digests-2025/harmonyos/signature-camera-poster-480.avif",
+      "width": 480,
+      "height": 270
+    },
+    "signature-style": {
+      "kind": "video",
+      "src": "assets/digests-2025/harmonyos/signature-style.mp4",
+      "poster": "assets/digests-2025/harmonyos/signature-style-poster.webp",
+      "thumbnail": "assets/digests-2025/harmonyos/signature-style-poster-480.webp",
+      "avifSrc": "assets/digests-2025/harmonyos/signature-style-poster.avif",
+      "avifThumbnail": "assets/digests-2025/harmonyos/signature-style-poster-480.avif",
+      "width": 480,
+      "height": 335
+    },
+    "smart-light-color": {
+      "kind": "image",
+      "src": "assets/digests-2025/harmonyos/smart-light-color.webp",
+      "thumbnail": "assets/digests-2025/harmonyos/smart-light-color-480.webp",
+      "avifSrc": "assets/digests-2025/harmonyos/smart-light-color.avif",
+      "avifThumbnail": "assets/digests-2025/harmonyos/smart-light-color-480.avif",
+      "width": 480,
+      "height": 270
+    },
+    "super-xiaoyi": {
+      "kind": "image",
+      "src": "assets/digests-2025/harmonyos/super-xiaoyi.webp",
+      "thumbnail": "assets/digests-2025/harmonyos/super-xiaoyi-480.webp",
+      "avifSrc": "assets/digests-2025/harmonyos/super-xiaoyi.avif",
+      "avifThumbnail": "assets/digests-2025/harmonyos/super-xiaoyi-480.avif",
+      "width": 480,
+      "height": 270
+    },
+    "wallpaper-compose": {
+      "kind": "video",
+      "src": "assets/digests-2025/harmonyos/wallpaper-compose.mp4",
+      "poster": "assets/digests-2025/harmonyos/wallpaper-compose-poster.webp",
+      "thumbnail": "assets/digests-2025/harmonyos/wallpaper-compose-poster-480.webp",
+      "avifSrc": "assets/digests-2025/harmonyos/wallpaper-compose-poster.avif",
+      "avifThumbnail": "assets/digests-2025/harmonyos/wallpaper-compose-poster-480.avif",
+      "width": 480,
+      "height": 270
+    }
+  }
+}

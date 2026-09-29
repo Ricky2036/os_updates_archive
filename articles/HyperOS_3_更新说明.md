@@ -2,6 +2,8 @@
 
 **软件版本**：OS3.0.1.0.VNACNXM
 
+![小米澎湃OS 3 发布会全景精华](/assets/digests-2025/hyperos/hyperos3-summary.webp)
+
 小米澎湃OS 3 带来全新升级，以把体验做「顺」为目标，微架构级优化深入底层。
 
 小米超级岛全新交互登场，电影感动态锁屏与生命感美学交融，全场景动画丝滑跟手。
@@ -21,6 +23,11 @@
 - 平均祯功耗更低
 - **底层技术：**
 - 性能优化从OS2的聚焦调度策略优化深入到OS3的编译级优化
+
+![应用启动响应时延量化对比](/assets/digests-2025/hyperos/launch-latency.webp)
+![重载游戏运行帧率曲线提升](/assets/digests-2025/hyperos/fps-curve.webp)
+![热点函数底层编译优化](/assets/digests-2025/hyperos/compile-opt.webp)
+![渲染负载与能效优化](/assets/digests-2025/hyperos/render-load.webp)
 
 ## 功耗
 

@@ -8,7 +8,7 @@
   "slug": "68-huawei-harmonyos-6",
   "kind": "gallery",
   "legacyPath": "HarmonyOS_6_正式发布！亮点抢先看.html",
-  "html": "\n<section class=\"card\">\n  <div class=\"card-body\">\n    <div class=\"gallery-placeholder\" style=\"padding: 32px 20px; text-align: center; color: var(--text-secondary, #64748b);\">\n      <h2 style=\"font-size: 20px; font-weight: 600; color: var(--text-primary, #1e293b); margin-bottom: 8px;\">HarmonyOS 6 正式发布！亮点抢先看</h2>\n      <p style=\"font-size: 14px; margin: 0;\">点击右上角按钮可切换至完整精校的精简版视图，浏览功能一览与更新明细。</p>\n    </div>\n  </div>\n</section>\n",
+  "html": "<div class=\"image-gallery\">\n<img src=\"/assets/digests-2025/harmonyos/harmonyos6-summary-1.webp\" alt=\"HarmonyOS 6 正式发布！亮点抢先看 亮点配图\" loading=\"lazy\" />\n<img src=\"/assets/digests-2025/harmonyos/harmonyos6-summary-2.webp\" alt=\"HarmonyOS 6 正式发布！亮点抢先看 亮点配图\" loading=\"lazy\" />\n<img src=\"/assets/digests-2025/harmonyos/ai-portrait-retouch.webp\" alt=\"HarmonyOS 6 正式发布！亮点抢先看 亮点配图\" loading=\"lazy\" />\n<img src=\"/assets/digests-2025/harmonyos/ai-photo-to-video.webp\" alt=\"HarmonyOS 6 正式发布！亮点抢先看 亮点配图\" loading=\"lazy\" />\n<img src=\"/assets/digests-2025/harmonyos/anti-fraud-call.webp\" alt=\"HarmonyOS 6 正式发布！亮点抢先看 亮点配图\" loading=\"lazy\" />\n</div>",
   "cover": {
     "src": "assets/covers/f97ef6540e2c294a-1200.webp",
     "srcset": "assets/covers/f97ef6540e2c294a-480.webp 480w, assets/covers/f97ef6540e2c294a-800.webp 800w, assets/covers/f97ef6540e2c294a-1200.webp 1200w",

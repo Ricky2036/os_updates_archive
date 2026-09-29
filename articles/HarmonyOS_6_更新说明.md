@@ -2,6 +2,9 @@
 
 **软件版本**：6.0.0.108(SP1C00E108R1P1)
 
+![HarmonyOS 6 发布会全景精华](/assets/digests-2025/harmonyos/harmonyos6-summary-1.webp)
+![HarmonyOS 6 亮点全景图](/assets/digests-2025/harmonyos/harmonyos6-summary-2.webp)
+
 HarmonyOS 6 全新升级，聚焦鸿蒙原生生态构建与全场景系统易用性提升。
 
 通透智慧光感与艺术签名锁屏打造生动视觉，可交互心情主题充满趣味探索。
@@ -14,9 +17,15 @@ HarmonyOS 6 全新升级，聚焦鸿蒙原生生态构建与全场景系统易�
 
 - 当唤醒小艺、使用小艺输入法或华为分享碰一碰等操作时，会伴随呈现通透绚丽的色彩光感，让您的体验更加自然、灵动。
 
+![唤醒小艺与碰一碰通透色彩光感](/assets/digests-2025/harmonyos/smart-light-color.webp)
+
 ## 艺术签名
 
 - 智慧美学构图可为您自动匹配签名文字并融合壁纸风格，您还可通过 AI 字体生成或图形化文字模板，将喜欢的字体样式应用到锁屏签名中，让锁屏独具一格、个性十足。
+
+![拍摄书法字体智能提取生成签名](/assets/digests-2025/harmonyos/signature-camera-poster.webp)
+![锁屏艺术签名个性搭配演示](/assets/digests-2025/harmonyos/signature-style-poster.webp)
+![智能壁纸主体识别与自适应布局](/assets/digests-2025/harmonyos/wallpaper-compose-poster.webp)
 
 ## 元气心情主题
 
@@ -27,6 +36,9 @@ HarmonyOS 6 全新升级，聚焦鸿蒙原生生态构建与全场景系统易�
 ## 毛球系列主题
 
 - 使用“精致毛球的一天”主题，在锁屏界面点击小艺星环图标后，通过语音或输入口令可触发有趣好玩的交互动画; 使用“毛球对对磁”主题，通过与其他使用该主题的设备碰一碰可互相解锁趣味动画 \(主题应用升级至 1\.0\.23 及以上版本，打开主题应用 \> 搜索相应主题\)。
+
+![元气心情主题 3D 表情互动](/assets/digests-2025/harmonyos/mood-emoji-poster.webp)
+![毛球主题语音互动与磁吸彩蛋](/assets/digests-2025/harmonyos/fluffy-ball-poster.webp)
 
 ## 小胖手主题
 
@@ -39,6 +51,8 @@ HarmonyOS 6 全新升级，聚焦鸿蒙原生生态构建与全场景系统易�
 ## 手眼同行
 
 - 在键鼠共享状态下，只需按下 Ctrl 键并注视目标设备，即可切换键鼠操作至目标设备; 当拖动文档、图片等素材时，只需注视目标设备并按下 Ctrl 键，素材即可瞬移到目标设备，松手直接落入，简单高效 \(部分应用支持\)。
+
+![注视目标设备瞬移流转与一碰分享](/assets/digests-2025/harmonyos/eye-hand-flow-poster.webp)
 
 ## 高效交互
 

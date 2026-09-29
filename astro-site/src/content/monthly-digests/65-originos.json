@@ -4,7 +4,7 @@
   "mediaReviewVersion": 4,
   "articleId": "OriginOS_6_正式发布！亮点抢先看",
   "reviewStatus": "verified",
-  "sourceHash": "cf0374fe9898b27f892adb02381685ba37e472c4037b3837cd1f405e998cc7b4",
+  "sourceHash": "4a17ec699f6807d646ca7565fcf21be915e2e3fd0b934d7a9e987bad8433b8ca",
   "highlights": [
     {
       "id": "highlight-01",
@@ -12,10 +12,39 @@
       "moduleSource": "explicit-heading",
       "title": "系统级 AI 光影与渐进模糊",
       "description": "为各项 AI 功能注入灵动光影反馈，从唤醒到生成直观感知；控制中心、通知中心与负一屏提供自然柔和的渐进模糊过渡。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "o6-m-01",
+          "kind": "video",
+          "src": "assets/digests-2025/originos/ambient-desktop.mp4",
+          "thumbnail": "assets/digests-2025/originos/ambient-desktop-poster-480.webp",
+          "avifSrc": "assets/digests-2025/originos/ambient-desktop-poster.avif",
+          "avifThumbnail": "assets/digests-2025/originos/ambient-desktop-poster-480.avif",
+          "poster": "assets/digests-2025/originos/ambient-desktop-poster.webp",
+          "alt": "桌面光影空间设计动效",
+          "evidenceId": "o6-ev-01",
+          "width": 480,
+          "height": 466
+        },
+        {
+          "id": "o6-m-02",
+          "kind": "video",
+          "src": "assets/digests-2025/originos/blur-control.mp4",
+          "thumbnail": "assets/digests-2025/originos/blur-control-poster-480.webp",
+          "avifSrc": "assets/digests-2025/originos/blur-control-poster.avif",
+          "avifThumbnail": "assets/digests-2025/originos/blur-control-poster-480.avif",
+          "poster": "assets/digests-2025/originos/blur-control-poster.webp",
+          "alt": "控制中心渐进模糊效果",
+          "evidenceId": "o6-ev-02",
+          "width": 480,
+          "height": 1067
+        }
+      ],
       "evidenceIds": [
-        "highlight-01-body"
+        "highlight-01-body",
+        "o6-ev-01",
+        "o6-ev-02"
       ],
       "sourceItemIds": [
         "source-highlight-01"
@@ -27,10 +56,38 @@
       "moduleSource": "explicit-heading",
       "title": "个性时钟与字重自适应",
       "description": "新增经典与个性时钟样式，支持时钟字体及字重粗细精细调节、HSL 自定义颜色与拖拽位置调整，通知支持居底叠放。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "o6-m-03",
+          "kind": "image",
+          "src": "assets/digests-2025/originos/stack-layers.webp",
+          "thumbnail": "assets/digests-2025/originos/stack-layers-480.webp",
+          "avifSrc": "assets/digests-2025/originos/stack-layers.avif",
+          "avifThumbnail": "assets/digests-2025/originos/stack-layers-480.avif",
+          "alt": "锁屏通知堆叠效果配图",
+          "evidenceId": "o6-ev-03",
+          "width": 480,
+          "height": 318
+        },
+        {
+          "id": "o6-m-04",
+          "kind": "video",
+          "src": "assets/digests-2025/originos/stack-interaction.mp4",
+          "thumbnail": "assets/digests-2025/originos/stack-interaction-poster-480.webp",
+          "avifSrc": "assets/digests-2025/originos/stack-interaction-poster.avif",
+          "avifThumbnail": "assets/digests-2025/originos/stack-interaction-poster-480.avif",
+          "poster": "assets/digests-2025/originos/stack-interaction-poster.webp",
+          "alt": "通知中心堆叠手势交互",
+          "evidenceId": "o6-ev-04",
+          "width": 480,
+          "height": 1067
+        }
+      ],
       "evidenceIds": [
-        "highlight-02-body"
+        "highlight-02-body",
+        "o6-ev-03",
+        "o6-ev-04"
       ],
       "sourceItemIds": [
         "source-highlight-02"
@@ -42,10 +99,24 @@
       "moduleSource": "explicit-heading",
       "title": "超核计算系统调度",
       "description": "全新调度架构提升算力利用率，应用启动更迅捷、列表滑动更平稳、多任务重载运行稳定不掉帧。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "o6-m-05",
+          "kind": "image",
+          "src": "assets/digests-2025/originos/originos6-summary.webp",
+          "thumbnail": "assets/digests-2025/originos/originos6-summary-480.webp",
+          "avifSrc": "assets/digests-2025/originos/originos6-summary.avif",
+          "avifThumbnail": "assets/digests-2025/originos/originos6-summary-480.avif",
+          "alt": "OriginOS 6 蓝河流畅引擎全景",
+          "evidenceId": "o6-ev-05",
+          "width": 480,
+          "height": 270
+        }
+      ],
       "evidenceIds": [
-        "highlight-03-body"
+        "highlight-03-body",
+        "o6-ev-05"
       ],
       "sourceItemIds": [
         "source-highlight-03"
@@ -53,14 +124,43 @@
     },
     {
       "id": "highlight-04",
-      "module": "蓝海续航系统",
+      "module": "原子动效",
       "moduleSource": "explicit-heading",
-      "title": "微电精灵低电应急",
-      "description": "微电状态下支持碰一碰借充电宝，并在充上电后迅速恢复微电精灵启动前的任务进程与应用状态。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "title": "全场景自然连贯动效",
+      "description": "支持并行打断与连贯手势响应，负一屏、全搜、多任务切换过渡更自然顺滑，消除视觉跳跃感。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "o6-m-06",
+          "kind": "video",
+          "src": "assets/digests-2025/originos/elastic-motion.mp4",
+          "thumbnail": "assets/digests-2025/originos/elastic-motion-poster-480.webp",
+          "avifSrc": "assets/digests-2025/originos/elastic-motion-poster.avif",
+          "avifThumbnail": "assets/digests-2025/originos/elastic-motion-poster-480.avif",
+          "poster": "assets/digests-2025/originos/elastic-motion-poster.webp",
+          "alt": "原子动效桌面弹性手势演示",
+          "evidenceId": "o6-ev-06",
+          "width": 480,
+          "height": 477
+        },
+        {
+          "id": "o6-m-07",
+          "kind": "video",
+          "src": "assets/digests-2025/originos/shelf-one-shot.mp4",
+          "thumbnail": "assets/digests-2025/originos/shelf-one-shot-poster-480.webp",
+          "avifSrc": "assets/digests-2025/originos/shelf-one-shot-poster.avif",
+          "avifThumbnail": "assets/digests-2025/originos/shelf-one-shot-poster-480.avif",
+          "poster": "assets/digests-2025/originos/shelf-one-shot-poster.webp",
+          "alt": "负一屏一镜到底过渡动效",
+          "evidenceId": "o6-ev-07",
+          "width": 480,
+          "height": 1067
+        }
+      ],
       "evidenceIds": [
-        "highlight-04-body"
+        "highlight-04-body",
+        "o6-ev-06",
+        "o6-ev-07"
       ],
       "sourceItemIds": [
         "source-highlight-04"
@@ -68,14 +168,29 @@
     },
     {
       "id": "highlight-05",
-      "module": "蓝心小V",
+      "module": "原子动效",
       "moduleSource": "explicit-heading",
-      "title": "AI 交互光影与场景问答",
-      "description": "蓝心小V从唤醒到生成伴随光影反馈，支持自然语言搜索问答与小V写作排版全面升级。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "title": "水波涟漪与光感回馈",
+      "description": "充电连接与指纹解锁呈现细腻水波涟漪特效，搭配系统级微动效反馈，操作质感全面提升。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "o6-m-08",
+          "kind": "video",
+          "src": "assets/digests-2025/originos/ripple-charging.mp4",
+          "thumbnail": "assets/digests-2025/originos/ripple-charging-poster-480.webp",
+          "avifSrc": "assets/digests-2025/originos/ripple-charging-poster.avif",
+          "avifThumbnail": "assets/digests-2025/originos/ripple-charging-poster-480.avif",
+          "poster": "assets/digests-2025/originos/ripple-charging-poster.webp",
+          "alt": "充电动效与水波涟漪视效",
+          "evidenceId": "o6-ev-08",
+          "width": 480,
+          "height": 1067
+        }
+      ],
       "evidenceIds": [
-        "highlight-05-body"
+        "highlight-05-body",
+        "o6-ev-08"
       ],
       "sourceItemIds": [
         "source-highlight-05"
@@ -83,14 +198,29 @@
     },
     {
       "id": "highlight-06",
-      "module": "小V记忆",
+      "module": "蓝海续航",
       "moduleSource": "explicit-heading",
-      "title": "随心记与智能记忆库",
-      "description": "说一句“记一下”快速收录图文与要点，支持信息随心调取；支持将常用地址与信息同步至输入法常用语。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "title": "超级省电与微电精灵",
+      "description": "精细化能耗管理，微电精灵在极限电量下智能保障前台重要任务无缝保存，待机更持久。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "o6-m-09",
+          "kind": "video",
+          "src": "assets/digests-2025/originos/micro-power.mp4",
+          "thumbnail": "assets/digests-2025/originos/micro-power-poster-480.webp",
+          "avifSrc": "assets/digests-2025/originos/micro-power-poster.avif",
+          "avifThumbnail": "assets/digests-2025/originos/micro-power-poster-480.avif",
+          "poster": "assets/digests-2025/originos/micro-power-poster.webp",
+          "alt": "微电精灵极限续航模式",
+          "evidenceId": "o6-ev-09",
+          "width": 480,
+          "height": 235
+        }
+      ],
       "evidenceIds": [
-        "highlight-06-body"
+        "highlight-06-body",
+        "o6-ev-09"
       ],
       "sourceItemIds": [
         "source-highlight-06"
@@ -98,14 +228,28 @@
     },
     {
       "id": "highlight-07",
-      "module": "相册影像",
+      "module": "蓝心智能",
       "moduleSource": "explicit-heading",
-      "title": "动态照片路人消除",
-      "description": "Live Photo 动态照片支持智能路人消除，逐帧精准清除干扰元素，呈现干净无瑕的动态生活瞬间。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "title": "小V圈搜意图直达",
+      "description": "长按指关节或屏幕边缘轻松圈选，智能提取商品、文字、地址与日程，一键触发专属快捷服务。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "o6-m-10",
+          "kind": "image",
+          "src": "assets/digests-2025/originos/v-circle-search.webp",
+          "thumbnail": "assets/digests-2025/originos/v-circle-search-480.webp",
+          "avifSrc": "assets/digests-2025/originos/v-circle-search.avif",
+          "avifThumbnail": "assets/digests-2025/originos/v-circle-search-480.avif",
+          "alt": "小V圈搜屏幕服务直达",
+          "evidenceId": "o6-ev-10",
+          "width": 480,
+          "height": 240
+        }
+      ],
       "evidenceIds": [
-        "highlight-07-body"
+        "highlight-07-body",
+        "o6-ev-10"
       ],
       "sourceItemIds": [
         "source-highlight-07"
@@ -113,14 +257,29 @@
     },
     {
       "id": "highlight-08",
-      "module": "vivo 互传",
+      "module": "蓝心写作",
       "moduleSource": "explicit-heading",
-      "title": "摇一摇群组快速分享",
-      "description": "多台设备同时摇一摇即可秒建分享群组，支持多人批量极速互传原图、视频与大型文件。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "title": "系统级文案与智能帮写",
+      "description": "深度融入输入法与笔记应用，支持一键润色、扩写、摘要生成与多语种即时互译。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "o6-m-11",
+          "kind": "video",
+          "src": "assets/digests-2025/originos/livephoto-erase.mp4",
+          "thumbnail": "assets/digests-2025/originos/livephoto-erase-poster-480.webp",
+          "avifSrc": "assets/digests-2025/originos/livephoto-erase-poster.avif",
+          "avifThumbnail": "assets/digests-2025/originos/livephoto-erase-poster-480.avif",
+          "poster": "assets/digests-2025/originos/livephoto-erase-poster.webp",
+          "alt": "Live Photo 逐帧路人消除",
+          "evidenceId": "o6-ev-11",
+          "width": 480,
+          "height": 357
+        }
+      ],
       "evidenceIds": [
-        "highlight-08-body"
+        "highlight-08-body",
+        "o6-ev-11"
       ],
       "sourceItemIds": [
         "source-highlight-08"
@@ -130,12 +289,27 @@
       "id": "highlight-09",
       "module": "跨端互联",
       "moduleSource": "explicit-heading",
-      "title": "跨端文件随心传与原子岛拖拽",
-      "description": "支持手机与 Windows/Mac 电脑在网便捷互传；长按选中图片或文档直接拖放至原子岛完成打印小窗流转。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "title": "摇一摇群组分享",
+      "description": "多台设备同时摇一摇即可自动建立极速面对面传输群组，批量发送海量高清照片、视频与文件。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "o6-m-12",
+          "kind": "video",
+          "src": "assets/digests-2025/originos/shake-share.mp4",
+          "thumbnail": "assets/digests-2025/originos/shake-share-poster-480.webp",
+          "avifSrc": "assets/digests-2025/originos/shake-share-poster.avif",
+          "avifThumbnail": "assets/digests-2025/originos/shake-share-poster-480.avif",
+          "poster": "assets/digests-2025/originos/shake-share-poster.webp",
+          "alt": "摇一摇多设备群组分享",
+          "evidenceId": "o6-ev-12",
+          "width": 480,
+          "height": 285
+        }
+      ],
       "evidenceIds": [
-        "highlight-09-body"
+        "highlight-09-body",
+        "o6-ev-12"
       ],
       "sourceItemIds": [
         "source-highlight-09"
@@ -143,14 +317,28 @@
     },
     {
       "id": "highlight-10",
-      "module": "视听触体验",
+      "module": "跨端互联",
       "moduleSource": "explicit-heading",
-      "title": "星动视觉辅助与振动无级调节",
-      "description": "乘车乘机时通过屏幕边缘动态辅助圆点有效缓解眩晕感；振动档位支持滑动无级微调，满足个性化触感偏好。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "title": "跨平台随心传与平板协同",
+      "description": "支持与 Windows、Mac 电脑免数据线互传大型文件夹；支持手机应用流转与平板无缝投屏。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "o6-m-13",
+          "kind": "image",
+          "src": "assets/digests-2025/originos/ipad-connect.webp",
+          "thumbnail": "assets/digests-2025/originos/ipad-connect-480.webp",
+          "avifSrc": "assets/digests-2025/originos/ipad-connect.avif",
+          "avifThumbnail": "assets/digests-2025/originos/ipad-connect-480.avif",
+          "alt": "iPad 跨端投屏与互联演示",
+          "evidenceId": "o6-ev-13",
+          "width": 480,
+          "height": 240
+        }
+      ],
       "evidenceIds": [
-        "highlight-10-body"
+        "highlight-10-body",
+        "o6-ev-13"
       ],
       "sourceItemIds": [
         "source-highlight-10"
@@ -419,8 +607,8 @@
       "moduleSource": "explicit-heading",
       "type": "新增",
       "typeSource": "explicit",
-      "sourceText": "新增 合并式控制中心整体布局、设计焕新升级，控件材质、光影效果的视觉体验更佳",
-      "description": "新增 合并式控制中心整体布局、设计焕新升级，控件材质、光影效果的视觉体验更佳",
+      "sourceText": "新增 分离式控制中心整体设计焕新升级，控件材质、光影效果的视觉体验更佳",
+      "description": "新增 分离式控制中心整体设计焕新升级，控件材质、光影效果的视觉体验更佳",
       "evidenceIds": [
         "update-18-body"
       ],
@@ -434,8 +622,8 @@
       "moduleSource": "explicit-heading",
       "type": "新增",
       "typeSource": "explicit",
-      "sourceText": "新增 控制中心“一键锁屏”控件，为您提供更便利的锁屏方式",
-      "description": "新增 控制中心“一键锁屏”控件，为您提供更便利的锁屏方式",
+      "sourceText": "新增 合并式控制中心展开态音量调节杆，方便您在控制中心直接进行音量调节",
+      "description": "新增 合并式控制中心展开态音量调节杆，方便您在控制中心直接进行音量调节",
       "evidenceIds": [
         "update-19-body"
       ],
@@ -445,12 +633,12 @@
     },
     {
       "id": "update-20",
-      "module": "通知中心",
+      "module": "控制中心",
       "moduleSource": "explicit-heading",
-      "type": "新增",
+      "type": "优化",
       "typeSource": "explicit",
-      "sourceText": "新增 全新通知卡片样式，同时对图标、布局、材质进行升级",
-      "description": "新增 全新通知卡片样式，同时对图标、布局、材质进行升级",
+      "sourceText": "优化 分离式控制中心音量条与亮度条长按响应速度，降低您在细微调节时的误触率",
+      "description": "优化 分离式控制中心音量条与亮度条长按响应速度，降低您在细微调节时的误触率",
       "evidenceIds": [
         "update-20-body"
       ],
@@ -479,8 +667,8 @@
       "moduleSource": "explicit-heading",
       "type": "新增",
       "typeSource": "explicit",
-      "sourceText": "新增 光子存储：通过高效内存管理、虚拟机优化和存储VIP通道，提升内存分配回收速度和文件加载效率，短视频体验更流畅更稳定，长时间重度使用也流畅",
-      "description": "新增 光子存储：通过高效内存管理、虚拟机优化和存储VIP通道，提升内存分配回收速度和文件加载效率，短视频体验更流畅更稳定，长时间重度使用也流畅",
+      "sourceText": "新增 双渲染架构：实现“统一渲染架构”+“分离式渲染架构”的双渲染架构，大幅提升渲染效率，提升系统动效的自然舒适",
+      "description": "新增 双渲染架构：实现“统一渲染架构”+“分离式渲染架构”的双渲染架构，大幅提升渲染效率，提升系统动效的自然舒适",
       "evidenceIds": [
         "update-22-body"
       ],
@@ -494,8 +682,8 @@
       "moduleSource": "explicit-heading",
       "type": "新增",
       "typeSource": "explicit",
-      "sourceText": "新增 双渲染架构：实现“统一渲染架构”+“分离式渲染架构”的双渲染架构，大幅提升渲染效率，提升系统动效的自然舒适",
-      "description": "新增 双渲染架构：实现“统一渲染架构”+“分离式渲染架构”的双渲染架构，大幅提升渲染效率，提升系统动效的自然舒适",
+      "sourceText": "新增 极速响应：全新的应用启动流程，优化触控链路、渲染链路，结合算力优先调度算法，全面提升应用启动响应速度",
+      "description": "新增 极速响应：全新的应用启动流程，优化触控链路、渲染链路，结合算力优先调度算法，全面提升应用启动响应速度",
       "evidenceIds": [
         "update-23-body"
       ],
@@ -509,8 +697,8 @@
       "moduleSource": "explicit-heading",
       "type": "新增",
       "typeSource": "explicit",
-      "sourceText": "新增 极速响应：全新的应用启动流程，优化触控链路、渲染链路，结合算力优先调度算法，全面提升应用启动响应速度",
-      "description": "新增 极速响应：全新的应用启动流程，优化触控链路、渲染链路，结合算力优先调度算法，全面提升应用启动响应速度",
+      "sourceText": "新增 充电、USB等场景更多动效样式",
+      "description": "新增 充电、USB等场景更多动效样式",
       "evidenceIds": [
         "update-24-body"
       ],
@@ -524,8 +712,8 @@
       "moduleSource": "explicit-heading",
       "type": "新增",
       "typeSource": "explicit",
-      "sourceText": "新增 充电、USB等场景更多动效样式",
-      "description": "新增 充电、USB等场景更多动效样式",
+      "sourceText": "新增 全局搜索中打开应用、组件内容刷新等场景的模糊过渡效果，提升画面切换时的视觉体验",
+      "description": "新增 全局搜索中打开应用、组件内容刷新等场景的模糊过渡效果，提升画面切换时的视觉体验",
       "evidenceIds": [
         "update-25-body"
       ],
@@ -539,8 +727,8 @@
       "moduleSource": "explicit-heading",
       "type": "新增",
       "typeSource": "explicit",
-      "sourceText": "新增 全局搜索中打开应用、组件内容刷新等场景的模糊过渡效果，提升画面切换时的视觉体验",
-      "description": "新增 全局搜索中打开应用、组件内容刷新等场景的模糊过渡效果，提升画面切换时的视觉体验",
+      "sourceText": "新增 原子岛展开和收起的形变动效、桌面应用和组件移动场景的涟漪动效，为您带来舒适又富有表现力的视觉体验",
+      "description": "新增 原子岛展开和收起的形变动效、桌面应用和组件移动场景的涟漪动效，为您带来舒适又富有表现力的视觉体验",
       "evidenceIds": [
         "update-26-body"
       ],
@@ -554,8 +742,8 @@
       "moduleSource": "explicit-heading",
       "type": "优化",
       "typeSource": "explicit",
-      "sourceText": "优化 桌面组件操作、负一屏打开退出应用以及小窗横竖屏旋转等场景的过渡动画，使其呈现出连续变化的舒适体验",
-      "description": "优化 桌面组件操作、负一屏打开退出应用以及小窗横竖屏旋转等场景的过渡动画，使其呈现出连续变化的舒适体验",
+      "sourceText": "优化 桌面、后台、控制中心、通知中心等场景的弹性动画体验",
+      "description": "优化 桌面、后台、控制中心、通知中心等场景的弹性动画体验",
       "evidenceIds": [
         "update-27-body"
       ],
@@ -565,12 +753,12 @@
     },
     {
       "id": "update-28",
-      "module": "蓝海续航系统",
+      "module": "蓝河流畅引擎",
       "moduleSource": "explicit-heading",
       "type": "优化",
       "typeSource": "explicit",
-      "sourceText": "升级 全局直驱供电，在边充边使用场景下智能调节温度控制，自动切换至不同充电功率档位，实现使用体验和充电温升的良好平衡",
-      "description": "升级 全局直驱供电，在边充边使用场景下智能调节温度控制，自动切换至不同充电功率档位，实现使用体验和充电温升的良好平衡",
+      "sourceText": "优化 桌面组件操作、负一屏打开退出应用以及小窗横竖屏旋转等场景的过渡动画，使其呈现出连续变化的舒适体验",
+      "description": "优化 桌面组件操作、负一屏打开退出应用以及小窗横竖屏旋转等场景的过渡动画，使其呈现出连续变化的舒适体验",
       "evidenceIds": [
         "update-28-body"
       ],
@@ -1371,8 +1559,8 @@
       ]
     },
     {
-      "id": "source-highlight-04",
-      "classification": "highlight",
+      "id": "source-update-18",
+      "classification": "update",
       "source": "OriginOS_6_更新说明.md",
       "sourceIndex": 20,
       "sourceHash": "caae6d164e0306d3c27a8d86c3be4442b063abfd92131c3925de31306801606f",
@@ -1381,12 +1569,12 @@
       ],
       "text": "新增 分离式控制中心整体设计焕新升级，控件材质、光影效果的视觉体验更佳",
       "targetIds": [
-        "highlight-04"
+        "update-18"
       ]
     },
     {
-      "id": "source-update-18",
-      "classification": "update",
+      "id": "source-highlight-04",
+      "classification": "highlight",
       "source": "OriginOS_6_更新说明.md",
       "sourceIndex": 21,
       "sourceHash": "c42a46e6e08c60f616bdecff7c35b55a78d6a0bb9eedda03b583ee018de5fb7b",
@@ -1395,12 +1583,12 @@
       ],
       "text": "新增 合并式控制中心整体布局、设计焕新升级，控件材质、光影效果的视觉体验更佳",
       "targetIds": [
-        "update-18"
+        "highlight-04"
       ]
     },
     {
-      "id": "source-highlight-05",
-      "classification": "highlight",
+      "id": "source-update-19",
+      "classification": "update",
       "source": "OriginOS_6_更新说明.md",
       "sourceIndex": 22,
       "sourceHash": "75e2a51c6799275df1f9bd81d98f2b650a81b74cf3ab97a71552ff9e4b468c3f",
@@ -1409,12 +1597,12 @@
       ],
       "text": "新增 合并式控制中心展开态音量调节杆，方便您在控制中心直接进行音量调节",
       "targetIds": [
-        "highlight-05"
+        "update-19"
       ]
     },
     {
-      "id": "source-update-19",
-      "classification": "update",
+      "id": "source-highlight-05",
+      "classification": "highlight",
       "source": "OriginOS_6_更新说明.md",
       "sourceIndex": 23,
       "sourceHash": "b1aa9893c7d89a6633dc184644daed90a1c176d8139059d12187f0430ef1c28d",
@@ -1423,12 +1611,12 @@
       ],
       "text": "新增 控制中心“一键锁屏”控件，为您提供更便利的锁屏方式",
       "targetIds": [
-        "update-19"
+        "highlight-05"
       ]
     },
     {
-      "id": "source-highlight-06",
-      "classification": "highlight",
+      "id": "source-update-20",
+      "classification": "update",
       "source": "OriginOS_6_更新说明.md",
       "sourceIndex": 24,
       "sourceHash": "627a4313396a39c1e3470e8282d09567ccf7c1752cbdc8a06d1468f83d6eb4a9",
@@ -1437,12 +1625,12 @@
       ],
       "text": "优化 分离式控制中心音量条与亮度条长按响应速度，降低您在细微调节时的误触率",
       "targetIds": [
-        "highlight-06"
+        "update-20"
       ]
     },
     {
-      "id": "source-update-20",
-      "classification": "update",
+      "id": "source-highlight-06",
+      "classification": "highlight",
       "source": "OriginOS_6_更新说明.md",
       "sourceIndex": 25,
       "sourceHash": "146f34b09c6506332a1391a0f67c345be7974a7df081c701a5494d153f90d616",
@@ -1451,7 +1639,7 @@
       ],
       "text": "新增 全新通知卡片样式，同时对图标、布局、材质进行升级",
       "targetIds": [
-        "update-20"
+        "highlight-06"
       ]
     },
     {
@@ -1469,8 +1657,8 @@
       ]
     },
     {
-      "id": "source-update-22",
-      "classification": "update",
+      "id": "source-highlight-07",
+      "classification": "highlight",
       "source": "OriginOS_6_更新说明.md",
       "sourceIndex": 27,
       "sourceHash": "d5baff84299cd153a89ea46886a6328442afaf7ddf60bea2664d10a0db2cbc67",
@@ -1479,11 +1667,11 @@
       ],
       "text": "新增 光子存储：通过高效内存管理、虚拟机优化和存储VIP通道，提升内存分配回收速度和文件加载效率，短视频体验更流畅更稳定，长时间重度使用也流畅",
       "targetIds": [
-        "update-22"
+        "highlight-07"
       ]
     },
     {
-      "id": "source-update-23",
+      "id": "source-update-22",
       "classification": "update",
       "source": "OriginOS_6_更新说明.md",
       "sourceIndex": 28,
@@ -1493,11 +1681,11 @@
       ],
       "text": "新增 双渲染架构：实现“统一渲染架构”+“分离式渲染架构”的双渲染架构，大幅提升渲染效率，提升系统动效的自然舒适",
       "targetIds": [
-        "update-23"
+        "update-22"
       ]
     },
     {
-      "id": "source-update-24",
+      "id": "source-update-23",
       "classification": "update",
       "source": "OriginOS_6_更新说明.md",
       "sourceIndex": 29,
@@ -1507,11 +1695,11 @@
       ],
       "text": "新增 极速响应：全新的应用启动流程，优化触控链路、渲染链路，结合算力优先调度算法，全面提升应用启动响应速度",
       "targetIds": [
-        "update-24"
+        "update-23"
       ]
     },
     {
-      "id": "source-highlight-07",
+      "id": "source-highlight-08",
       "classification": "highlight",
       "source": "OriginOS_6_更新说明.md",
       "sourceIndex": 30,
@@ -1521,11 +1709,11 @@
       ],
       "text": "新增 支持负一屏、应用内界面切换等更多场景的操作可打断，操作响应更迅速，动效体验更流畅",
       "targetIds": [
-        "highlight-07"
+        "highlight-08"
       ]
     },
     {
-      "id": "source-update-25",
+      "id": "source-update-24",
       "classification": "update",
       "source": "OriginOS_6_更新说明.md",
       "sourceIndex": 31,
@@ -1535,11 +1723,11 @@
       ],
       "text": "新增 充电、USB等场景更多动效样式",
       "targetIds": [
-        "update-25"
+        "update-24"
       ]
     },
     {
-      "id": "source-update-26",
+      "id": "source-update-25",
       "classification": "update",
       "source": "OriginOS_6_更新说明.md",
       "sourceIndex": 32,
@@ -1549,12 +1737,12 @@
       ],
       "text": "新增 全局搜索中打开应用、组件内容刷新等场景的模糊过渡效果，提升画面切换时的视觉体验",
       "targetIds": [
-        "update-26"
+        "update-25"
       ]
     },
     {
-      "id": "source-highlight-08",
-      "classification": "highlight",
+      "id": "source-update-26",
+      "classification": "update",
       "source": "OriginOS_6_更新说明.md",
       "sourceIndex": 33,
       "sourceHash": "3bb8b84d7e344e854a55c18ae42ddb41775409f8b5f30f77fef2f3d2dfc7d5d5",
@@ -1563,12 +1751,12 @@
       ],
       "text": "新增 原子岛展开和收起的形变动效、桌面应用和组件移动场景的涟漪动效，为您带来舒适又富有表现力的视觉体验",
       "targetIds": [
-        "highlight-08"
+        "update-26"
       ]
     },
     {
-      "id": "source-highlight-09",
-      "classification": "highlight",
+      "id": "source-update-27",
+      "classification": "update",
       "source": "OriginOS_6_更新说明.md",
       "sourceIndex": 34,
       "sourceHash": "4e61ecdd63a406fac86e6596b8f05430d6618a318c28ef8c284647100594650d",
@@ -1577,11 +1765,11 @@
       ],
       "text": "优化 桌面、后台、控制中心、通知中心等场景的弹性动画体验",
       "targetIds": [
-        "highlight-09"
+        "update-27"
       ]
     },
     {
-      "id": "source-update-27",
+      "id": "source-update-28",
       "classification": "update",
       "source": "OriginOS_6_更新说明.md",
       "sourceIndex": 35,
@@ -1591,11 +1779,11 @@
       ],
       "text": "优化 桌面组件操作、负一屏打开退出应用以及小窗横竖屏旋转等场景的过渡动画，使其呈现出连续变化的舒适体验",
       "targetIds": [
-        "update-27"
+        "update-28"
       ]
     },
     {
-      "id": "source-highlight-10",
+      "id": "source-highlight-09",
       "classification": "highlight",
       "source": "OriginOS_6_更新说明.md",
       "sourceIndex": 36,
@@ -1605,12 +1793,12 @@
       ],
       "text": "升级 微电精灵，支持微电精灵状态下碰一碰借充电宝，和设备充上电后系统迅速恢复微电精灵启动前的任务与状态",
       "targetIds": [
-        "highlight-10"
+        "highlight-09"
       ]
     },
     {
-      "id": "source-update-28",
-      "classification": "update",
+      "id": "source-highlight-10",
+      "classification": "highlight",
       "source": "OriginOS_6_更新说明.md",
       "sourceIndex": 37,
       "sourceHash": "a64a601c2613cb2ec6088e59435069e077d10bfa413d76d89cc2fb718be1fa3d",
@@ -1619,7 +1807,7 @@
       ],
       "text": "升级 全局直驱供电，在边充边使用场景下智能调节温度控制，自动切换至不同充电功率档位，实现使用体验和充电温升的良好平衡",
       "targetIds": [
-        "update-28"
+        "highlight-10"
       ]
     },
     {
@@ -2101,6 +2289,214 @@
   ],
   "evidence": [
     {
+      "id": "o6-ev-01",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/originos/ambient-desktop.mp4",
+      "sourceIndex": 0,
+      "sourceHash": "73cf4c87cb8f762c15747434bdc54250c4a197a1bd881d6357a3459f3cb3129a",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 466
+      },
+      "note": "光影设计: 系统级 AI 光影与渐进模糊 (桌面光影空间设计动效)"
+    },
+    {
+      "id": "o6-ev-02",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/originos/blur-control.mp4",
+      "sourceIndex": 1,
+      "sourceHash": "e584ceb2841b4c9059f5e08c3b2ce1187acfeba52bbc78e6000b679bf6979146",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 1067
+      },
+      "note": "光影设计: 系统级 AI 光影与渐进模糊 (控制中心渐进模糊效果)"
+    },
+    {
+      "id": "o6-ev-03",
+      "role": "demo-region",
+      "kind": "image-region",
+      "source": "assets/digests-2025/originos/stack-layers.webp",
+      "sourceIndex": 0,
+      "sourceHash": "bf13d8df27d3c02a8f67548d01829331cd2a8a457de14cf05620a2f09ff55742",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 318
+      },
+      "note": "个性锁屏: 个性时钟与字重自适应 (锁屏通知堆叠效果配图)"
+    },
+    {
+      "id": "o6-ev-04",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/originos/stack-interaction.mp4",
+      "sourceIndex": 1,
+      "sourceHash": "759a2e2a99ee9ca0bd4f4b1cab0a2063c6a181293fc0a9be365018c2792fabb5",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 1067
+      },
+      "note": "个性锁屏: 个性时钟与字重自适应 (通知中心堆叠手势交互)"
+    },
+    {
+      "id": "o6-ev-05",
+      "role": "demo-region",
+      "kind": "image-region",
+      "source": "assets/digests-2025/originos/originos6-summary.webp",
+      "sourceIndex": 0,
+      "sourceHash": "90dad7288694e0964cc549df36844200944629b5ab0cb16bb8a4d01a993ce978",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 270
+      },
+      "note": "蓝河流畅引擎: 超核计算系统调度 (OriginOS 6 蓝河流畅引擎全景)"
+    },
+    {
+      "id": "o6-ev-06",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/originos/elastic-motion.mp4",
+      "sourceIndex": 0,
+      "sourceHash": "b2422e3b6e02a03297f3cf1c4fe7d1b631e33c895125887e0bf2d0ce164a3347",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 477
+      },
+      "note": "原子动效: 全场景自然连贯动效 (原子动效桌面弹性手势演示)"
+    },
+    {
+      "id": "o6-ev-07",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/originos/shelf-one-shot.mp4",
+      "sourceIndex": 1,
+      "sourceHash": "8a86d4bd83991a7141662c31d30f0bf4ee71acc4e306f6370f85fb6668731db9",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 1067
+      },
+      "note": "原子动效: 全场景自然连贯动效 (负一屏一镜到底过渡动效)"
+    },
+    {
+      "id": "o6-ev-08",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/originos/ripple-charging.mp4",
+      "sourceIndex": 0,
+      "sourceHash": "dfd596fabc38a305c56817e99e3f99503ac6610a89dde89b412d71542d529cbb",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 1067
+      },
+      "note": "原子动效: 水波涟漪与光感回馈 (充电动效与水波涟漪视效)"
+    },
+    {
+      "id": "o6-ev-09",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/originos/micro-power.mp4",
+      "sourceIndex": 0,
+      "sourceHash": "175ebb90bddc88a89c021bdca9a06d7d219e6f33f979ff821e4615e5272dec8e",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 235
+      },
+      "note": "蓝海续航: 超级省电与微电精灵 (微电精灵极限续航模式)"
+    },
+    {
+      "id": "o6-ev-10",
+      "role": "demo-region",
+      "kind": "image-region",
+      "source": "assets/digests-2025/originos/v-circle-search.webp",
+      "sourceIndex": 0,
+      "sourceHash": "17a34e2dddcc97ba4c1a92bfed60ed835a4c463cd0d4066b99ff93999a668008",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 240
+      },
+      "note": "蓝心智能: 小V圈搜意图直达 (小V圈搜屏幕服务直达)"
+    },
+    {
+      "id": "o6-ev-11",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/originos/livephoto-erase.mp4",
+      "sourceIndex": 0,
+      "sourceHash": "d918b01b867012a5d3d5121ce908d1564857d70fd02f9d126e0095e32ac05552",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 357
+      },
+      "note": "蓝心写作: 系统级文案与智能帮写 (Live Photo 逐帧路人消除)"
+    },
+    {
+      "id": "o6-ev-12",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/originos/shake-share.mp4",
+      "sourceIndex": 0,
+      "sourceHash": "ec260f8e8f03837eb774d2d12ca43c39b80411fee27d4f1e18c4693ceb8aac7b",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 285
+      },
+      "note": "跨端互联: 摇一摇群组分享 (摇一摇多设备群组分享)"
+    },
+    {
+      "id": "o6-ev-13",
+      "role": "demo-region",
+      "kind": "image-region",
+      "source": "assets/digests-2025/originos/ipad-connect.webp",
+      "sourceIndex": 0,
+      "sourceHash": "e55079d89d33897c510d04cb28501855c4bd054446fbb858d5c2a51d919238bf",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 240
+      },
+      "note": "跨端互联: 跨平台随心传与平板协同 (iPad 跨端投屏与互联演示)"
+    },
+    {
       "id": "highlight-01-body",
       "kind": "html-text",
       "role": "body-text",
@@ -2341,9 +2737,9 @@
       "note": "桌面: 新增 抽屉的批量操作功能，您可以进行批量添加应用至桌面、组成..."
     },
     {
-      "id": "highlight-04-body",
+      "id": "update-18-body",
       "kind": "html-text",
-      "role": "body-text",
+      "role": "update-list",
       "source": "OriginOS_6_更新说明.md",
       "sourceIndex": 20,
       "sourceHash": "caae6d164e0306d3c27a8d86c3be4442b063abfd92131c3925de31306801606f",
@@ -2353,9 +2749,9 @@
       "note": "控制中心: 新增 分离式控制中心整体设计焕新升级，控件材质、光影效果的视..."
     },
     {
-      "id": "update-18-body",
+      "id": "highlight-04-body",
       "kind": "html-text",
-      "role": "update-list",
+      "role": "body-text",
       "source": "OriginOS_6_更新说明.md",
       "sourceIndex": 21,
       "sourceHash": "c42a46e6e08c60f616bdecff7c35b55a78d6a0bb9eedda03b583ee018de5fb7b",
@@ -2365,9 +2761,9 @@
       "note": "控制中心: 新增 合并式控制中心整体布局、设计焕新升级，控件材质、光影效..."
     },
     {
-      "id": "highlight-05-body",
+      "id": "update-19-body",
       "kind": "html-text",
-      "role": "body-text",
+      "role": "update-list",
       "source": "OriginOS_6_更新说明.md",
       "sourceIndex": 22,
       "sourceHash": "75e2a51c6799275df1f9bd81d98f2b650a81b74cf3ab97a71552ff9e4b468c3f",
@@ -2377,9 +2773,9 @@
       "note": "控制中心: 新增 合并式控制中心展开态音量调节杆，方便您在控制中心直接进..."
     },
     {
-      "id": "update-19-body",
+      "id": "highlight-05-body",
       "kind": "html-text",
-      "role": "update-list",
+      "role": "body-text",
       "source": "OriginOS_6_更新说明.md",
       "sourceIndex": 23,
       "sourceHash": "b1aa9893c7d89a6633dc184644daed90a1c176d8139059d12187f0430ef1c28d",
@@ -2389,9 +2785,9 @@
       "note": "控制中心: 新增 控制中心“一键锁屏”控件，为您提供更便利的锁屏方式..."
     },
     {
-      "id": "highlight-06-body",
+      "id": "update-20-body",
       "kind": "html-text",
-      "role": "body-text",
+      "role": "update-list",
       "source": "OriginOS_6_更新说明.md",
       "sourceIndex": 24,
       "sourceHash": "627a4313396a39c1e3470e8282d09567ccf7c1752cbdc8a06d1468f83d6eb4a9",
@@ -2401,9 +2797,9 @@
       "note": "控制中心: 优化 分离式控制中心音量条与亮度条长按响应速度，降低您在细微..."
     },
     {
-      "id": "update-20-body",
+      "id": "highlight-06-body",
       "kind": "html-text",
-      "role": "update-list",
+      "role": "body-text",
       "source": "OriginOS_6_更新说明.md",
       "sourceIndex": 25,
       "sourceHash": "146f34b09c6506332a1391a0f67c345be7974a7df081c701a5494d153f90d616",
@@ -2425,9 +2821,9 @@
       "note": "蓝河流畅引擎: 新增 超核计算：全新设计调度系统，提升算力使用效率，应用启动..."
     },
     {
-      "id": "update-22-body",
+      "id": "highlight-07-body",
       "kind": "html-text",
-      "role": "update-list",
+      "role": "body-text",
       "source": "OriginOS_6_更新说明.md",
       "sourceIndex": 27,
       "sourceHash": "d5baff84299cd153a89ea46886a6328442afaf7ddf60bea2664d10a0db2cbc67",
@@ -2437,7 +2833,7 @@
       "note": "蓝河流畅引擎: 新增 光子存储：通过高效内存管理、虚拟机优化和存储VIP通道..."
     },
     {
-      "id": "update-23-body",
+      "id": "update-22-body",
       "kind": "html-text",
       "role": "update-list",
       "source": "OriginOS_6_更新说明.md",
@@ -2449,7 +2845,7 @@
       "note": "蓝河流畅引擎: 新增 双渲染架构：实现“统一渲染架构”+“分离式渲染架构”的..."
     },
     {
-      "id": "update-24-body",
+      "id": "update-23-body",
       "kind": "html-text",
       "role": "update-list",
       "source": "OriginOS_6_更新说明.md",
@@ -2461,7 +2857,7 @@
       "note": "蓝河流畅引擎: 新增 极速响应：全新的应用启动流程，优化触控链路、渲染链路，..."
     },
     {
-      "id": "highlight-07-body",
+      "id": "highlight-08-body",
       "kind": "html-text",
       "role": "body-text",
       "source": "OriginOS_6_更新说明.md",
@@ -2473,7 +2869,7 @@
       "note": "蓝河流畅引擎: 新增 支持负一屏、应用内界面切换等更多场景的操作可打断，操作..."
     },
     {
-      "id": "update-25-body",
+      "id": "update-24-body",
       "kind": "html-text",
       "role": "update-list",
       "source": "OriginOS_6_更新说明.md",
@@ -2485,7 +2881,7 @@
       "note": "蓝河流畅引擎: 新增 充电、USB等场景更多动效样式..."
     },
     {
-      "id": "update-26-body",
+      "id": "update-25-body",
       "kind": "html-text",
       "role": "update-list",
       "source": "OriginOS_6_更新说明.md",
@@ -2497,9 +2893,9 @@
       "note": "蓝河流畅引擎: 新增 全局搜索中打开应用、组件内容刷新等场景的模糊过渡效果，..."
     },
     {
-      "id": "highlight-08-body",
+      "id": "update-26-body",
       "kind": "html-text",
-      "role": "body-text",
+      "role": "update-list",
       "source": "OriginOS_6_更新说明.md",
       "sourceIndex": 33,
       "sourceHash": "3bb8b84d7e344e854a55c18ae42ddb41775409f8b5f30f77fef2f3d2dfc7d5d5",
@@ -2509,9 +2905,9 @@
       "note": "蓝河流畅引擎: 新增 原子岛展开和收起的形变动效、桌面应用和组件移动场景的涟..."
     },
     {
-      "id": "highlight-09-body",
+      "id": "update-27-body",
       "kind": "html-text",
-      "role": "body-text",
+      "role": "update-list",
       "source": "OriginOS_6_更新说明.md",
       "sourceIndex": 34,
       "sourceHash": "4e61ecdd63a406fac86e6596b8f05430d6618a318c28ef8c284647100594650d",
@@ -2521,7 +2917,7 @@
       "note": "蓝河流畅引擎: 优化 桌面、后台、控制中心、通知中心等场景的弹性动画体验..."
     },
     {
-      "id": "update-27-body",
+      "id": "update-28-body",
       "kind": "html-text",
       "role": "update-list",
       "source": "OriginOS_6_更新说明.md",
@@ -2533,7 +2929,7 @@
       "note": "蓝河流畅引擎: 优化 桌面组件操作、负一屏打开退出应用以及小窗横竖屏旋转等场..."
     },
     {
-      "id": "highlight-10-body",
+      "id": "highlight-09-body",
       "kind": "html-text",
       "role": "body-text",
       "source": "OriginOS_6_更新说明.md",
@@ -2545,9 +2941,9 @@
       "note": "蓝海续航系统: 升级 微电精灵，支持微电精灵状态下碰一碰借充电宝，和设备充上..."
     },
     {
-      "id": "update-28-body",
+      "id": "highlight-10-body",
       "kind": "html-text",
-      "role": "update-list",
+      "role": "body-text",
       "source": "OriginOS_6_更新说明.md",
       "sourceIndex": 37,
       "sourceHash": "a64a601c2613cb2ec6088e59435069e077d10bfa413d76d89cc2fb718be1fa3d",
@@ -2980,7 +3376,7 @@
     "excludedItemCount": 0,
     "highlightCount": 10,
     "updateCount": 62,
-    "mediaCount": 0,
+    "mediaCount": 13,
     "mappedItemCount": 72,
     "coverageRate": 1
   }

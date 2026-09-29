@@ -4,7 +4,7 @@
   "mediaReviewVersion": 4,
   "articleId": "HarmonyOS_6_正式发布！亮点抢先看",
   "reviewStatus": "verified",
-  "sourceHash": "03402484ad842dce087385774083b368f83eadc910daed748b4a81f8710b559f",
+  "sourceHash": "12946a726fde8467d448bb3e6a993a23ada30c047be683522cd2af25192c141b",
   "highlights": [
     {
       "id": "highlight-01",
@@ -12,10 +12,24 @@
       "moduleSource": "explicit-heading",
       "title": "全新智慧色彩光感",
       "description": "当唤醒小艺、输入法语音输入或碰一碰互传时，屏幕边缘伴随通透绚丽的动态光影扩散，交互直观灵动。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "a6-m-01",
+          "kind": "image",
+          "src": "assets/digests-2025/harmonyos/smart-light-color.webp",
+          "thumbnail": "assets/digests-2025/harmonyos/smart-light-color-480.webp",
+          "avifSrc": "assets/digests-2025/harmonyos/smart-light-color.avif",
+          "avifThumbnail": "assets/digests-2025/harmonyos/smart-light-color-480.avif",
+          "alt": "唤醒小艺与碰一碰通透色彩光感",
+          "evidenceId": "a6-ev-01",
+          "width": 480,
+          "height": 270
+        }
+      ],
       "evidenceIds": [
-        "highlight-01-body"
+        "highlight-01-body",
+        "a6-ev-01"
       ],
       "sourceItemIds": [
         "source-highlight-01"
@@ -27,10 +41,53 @@
       "moduleSource": "explicit-heading",
       "title": "美学构图与自适应字体",
       "description": "智慧美学构图可自动匹配签名文字并与壁纸融合，支持通过拍摄书法字体由 AI 提取生成独具格调的个性锁屏签名。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "a6-m-02",
+          "kind": "video",
+          "src": "assets/digests-2025/harmonyos/signature-camera.mp4",
+          "thumbnail": "assets/digests-2025/harmonyos/signature-camera-poster-480.webp",
+          "avifSrc": "assets/digests-2025/harmonyos/signature-camera-poster.avif",
+          "avifThumbnail": "assets/digests-2025/harmonyos/signature-camera-poster-480.avif",
+          "poster": "assets/digests-2025/harmonyos/signature-camera-poster.webp",
+          "alt": "拍摄书法字体智能提取生成签名",
+          "evidenceId": "a6-ev-02",
+          "width": 480,
+          "height": 270
+        },
+        {
+          "id": "a6-m-03",
+          "kind": "video",
+          "src": "assets/digests-2025/harmonyos/signature-style.mp4",
+          "thumbnail": "assets/digests-2025/harmonyos/signature-style-poster-480.webp",
+          "avifSrc": "assets/digests-2025/harmonyos/signature-style-poster.avif",
+          "avifThumbnail": "assets/digests-2025/harmonyos/signature-style-poster-480.avif",
+          "poster": "assets/digests-2025/harmonyos/signature-style-poster.webp",
+          "alt": "锁屏艺术签名个性搭配演示",
+          "evidenceId": "a6-ev-03",
+          "width": 480,
+          "height": 335
+        },
+        {
+          "id": "a6-m-04",
+          "kind": "video",
+          "src": "assets/digests-2025/harmonyos/wallpaper-compose.mp4",
+          "thumbnail": "assets/digests-2025/harmonyos/wallpaper-compose-poster-480.webp",
+          "avifSrc": "assets/digests-2025/harmonyos/wallpaper-compose-poster.avif",
+          "avifThumbnail": "assets/digests-2025/harmonyos/wallpaper-compose-poster-480.avif",
+          "poster": "assets/digests-2025/harmonyos/wallpaper-compose-poster.webp",
+          "alt": "智能壁纸主体识别与自适应布局",
+          "evidenceId": "a6-ev-04",
+          "width": 480,
+          "height": 270
+        }
+      ],
       "evidenceIds": [
-        "highlight-02-body"
+        "highlight-02-body",
+        "a6-ev-02",
+        "a6-ev-03",
+        "a6-ev-04"
       ],
       "sourceItemIds": [
         "source-highlight-02"
@@ -42,10 +99,39 @@
       "moduleSource": "explicit-heading",
       "title": "可交互元气心情与毛球主题",
       "description": "心情主题与毛球主题在锁屏下支持轻触与语音指令互动，与其他搭载相同主题的设备碰一碰可解锁隐藏款萌趣表情彩蛋。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "a6-m-05",
+          "kind": "video",
+          "src": "assets/digests-2025/harmonyos/mood-emoji.mp4",
+          "thumbnail": "assets/digests-2025/harmonyos/mood-emoji-poster-480.webp",
+          "avifSrc": "assets/digests-2025/harmonyos/mood-emoji-poster.avif",
+          "avifThumbnail": "assets/digests-2025/harmonyos/mood-emoji-poster-480.avif",
+          "poster": "assets/digests-2025/harmonyos/mood-emoji-poster.webp",
+          "alt": "元气心情主题 3D 表情互动",
+          "evidenceId": "a6-ev-05",
+          "width": 480,
+          "height": 324
+        },
+        {
+          "id": "a6-m-06",
+          "kind": "video",
+          "src": "assets/digests-2025/harmonyos/fluffy-ball.mp4",
+          "thumbnail": "assets/digests-2025/harmonyos/fluffy-ball-poster-480.webp",
+          "avifSrc": "assets/digests-2025/harmonyos/fluffy-ball-poster.avif",
+          "avifThumbnail": "assets/digests-2025/harmonyos/fluffy-ball-poster-480.avif",
+          "poster": "assets/digests-2025/harmonyos/fluffy-ball-poster.webp",
+          "alt": "毛球主题语音互动与磁吸彩蛋",
+          "evidenceId": "a6-ev-06",
+          "width": 480,
+          "height": 335
+        }
+      ],
       "evidenceIds": [
-        "highlight-03-body"
+        "highlight-03-body",
+        "a6-ev-05",
+        "a6-ev-06"
       ],
       "sourceItemIds": [
         "source-highlight-03"
@@ -57,10 +143,25 @@
       "moduleSource": "explicit-heading",
       "title": "手眼同行注视流转",
       "description": "键鼠跨端共享下，按下快捷键并注视目标设备即可自然切换操控；拖动素材时注视即可精准跨屏投送。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "a6-m-07",
+          "kind": "video",
+          "src": "assets/digests-2025/harmonyos/eye-hand-flow.mp4",
+          "thumbnail": "assets/digests-2025/harmonyos/eye-hand-flow-poster-480.webp",
+          "avifSrc": "assets/digests-2025/harmonyos/eye-hand-flow-poster.avif",
+          "avifThumbnail": "assets/digests-2025/harmonyos/eye-hand-flow-poster-480.avif",
+          "poster": "assets/digests-2025/harmonyos/eye-hand-flow-poster.webp",
+          "alt": "注视目标设备瞬移流转与一碰分享",
+          "evidenceId": "a6-ev-07",
+          "width": 480,
+          "height": 240
+        }
+      ],
       "evidenceIds": [
-        "highlight-04-body"
+        "highlight-04-body",
+        "a6-ev-07"
       ],
       "sourceItemIds": [
         "source-highlight-04"
@@ -72,10 +173,24 @@
       "moduleSource": "explicit-heading",
       "title": "复杂意图自主拆解执行",
       "description": "一句指令小艺即可自主跨应用拆解并连续完成订票、查信息、整理日程等复杂链路任务，上滑即刻缩小为悬浮导航条。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "a6-m-08",
+          "kind": "image",
+          "src": "assets/digests-2025/harmonyos/super-xiaoyi.webp",
+          "thumbnail": "assets/digests-2025/harmonyos/super-xiaoyi-480.webp",
+          "avifSrc": "assets/digests-2025/harmonyos/super-xiaoyi.avif",
+          "avifThumbnail": "assets/digests-2025/harmonyos/super-xiaoyi-480.avif",
+          "alt": "超级小艺复杂任务拆解与后台执行",
+          "evidenceId": "a6-ev-08",
+          "width": 480,
+          "height": 270
+        }
+      ],
       "evidenceIds": [
-        "highlight-05-body"
+        "highlight-05-body",
+        "a6-ev-08"
       ],
       "sourceItemIds": [
         "source-highlight-05"
@@ -87,10 +202,37 @@
       "moduleSource": "explicit-heading",
       "title": "AI 一键成片与记忆盘活",
       "description": "智能精选多张照片自动匹配电影级运镜与背景音乐生成视频大片，并可对静态照片智能生成微动视效。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "a6-m-09",
+          "kind": "image",
+          "src": "assets/digests-2025/harmonyos/ai-portrait-retouch.webp",
+          "thumbnail": "assets/digests-2025/harmonyos/ai-portrait-retouch-480.webp",
+          "avifSrc": "assets/digests-2025/harmonyos/ai-portrait-retouch.avif",
+          "avifThumbnail": "assets/digests-2025/harmonyos/ai-portrait-retouch-480.avif",
+          "alt": "AI 人像精修智能补光与调色",
+          "evidenceId": "a6-ev-09",
+          "width": 480,
+          "height": 482
+        },
+        {
+          "id": "a6-m-10",
+          "kind": "image",
+          "src": "assets/digests-2025/harmonyos/ai-photo-to-video.webp",
+          "thumbnail": "assets/digests-2025/harmonyos/ai-photo-to-video-480.webp",
+          "avifSrc": "assets/digests-2025/harmonyos/ai-photo-to-video.avif",
+          "avifThumbnail": "assets/digests-2025/harmonyos/ai-photo-to-video-480.avif",
+          "alt": "AI 一键成片多图自动运镜成片",
+          "evidenceId": "a6-ev-10",
+          "width": 480,
+          "height": 482
+        }
+      ],
       "evidenceIds": [
-        "highlight-06-body"
+        "highlight-06-body",
+        "a6-ev-09",
+        "a6-ev-10"
       ],
       "sourceItemIds": [
         "source-highlight-06"
@@ -98,14 +240,41 @@
     },
     {
       "id": "highlight-07",
-      "module": "安全防诈",
+      "module": "隐私安全",
       "moduleSource": "explicit-heading",
-      "title": "AI 通话涉诈检测与亲情守护",
-      "description": "陌生来电通话内容实时智能涉诈检测提醒；当远方家人接到风险电话时可同步向您预警并支持远程一键挂断。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "title": "涉诈识别与亲情守护",
+      "description": "智能通话涉诈检测与 AI 换脸提醒，家人接到诈骗电话时可远程告警并协助挂断风险通话。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "a6-m-11",
+          "kind": "image",
+          "src": "assets/digests-2025/harmonyos/anti-fraud-call.webp",
+          "thumbnail": "assets/digests-2025/harmonyos/anti-fraud-call-480.webp",
+          "avifSrc": "assets/digests-2025/harmonyos/anti-fraud-call.avif",
+          "avifThumbnail": "assets/digests-2025/harmonyos/anti-fraud-call-480.avif",
+          "alt": "AI 通话涉诈智能检测与提醒",
+          "evidenceId": "a6-ev-11",
+          "width": 480,
+          "height": 747
+        },
+        {
+          "id": "a6-m-12",
+          "kind": "image",
+          "src": "assets/digests-2025/harmonyos/anti-fraud-alert.webp",
+          "thumbnail": "assets/digests-2025/harmonyos/anti-fraud-alert-480.webp",
+          "avifSrc": "assets/digests-2025/harmonyos/anti-fraud-alert.avif",
+          "avifThumbnail": "assets/digests-2025/harmonyos/anti-fraud-alert-480.avif",
+          "alt": "亲情防诈与远程防御挂断",
+          "evidenceId": "a6-ev-12",
+          "width": 480,
+          "height": 606
+        }
+      ],
       "evidenceIds": [
-        "highlight-07-body"
+        "highlight-07-body",
+        "a6-ev-11",
+        "a6-ev-12"
       ],
       "sourceItemIds": [
         "source-highlight-07"
@@ -113,9 +282,9 @@
     },
     {
       "id": "highlight-08",
-      "module": "屏幕防窥",
+      "module": "隐私保护",
       "moduleSource": "explicit-heading",
-      "title": "AI 动态防窥隐私保护",
+      "title": "AI 智能防窥保护",
       "description": "针对受保护的高敏应用，手机若感知到身侧他人目光窥视，将自动即刻隐藏敏感界面并轻柔提醒机主。",
       "mediaStatus": "not-provided",
       "media": [],
@@ -132,10 +301,24 @@
       "moduleSource": "explicit-heading",
       "title": "秒启秒开超流畅体验",
       "description": "系统底层架构再升级，整机能效与续航显著提升，带来高频应用秒启、复杂页面秒开、安装包闪电解析的高效体验。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "a6-m-14",
+          "kind": "image",
+          "src": "assets/digests-2025/harmonyos/ark-engine.webp",
+          "thumbnail": "assets/digests-2025/harmonyos/ark-engine-480.webp",
+          "avifSrc": "assets/digests-2025/harmonyos/ark-engine.avif",
+          "avifThumbnail": "assets/digests-2025/harmonyos/ark-engine-480.avif",
+          "alt": "方舟引擎整机性能与应用秒启秒开",
+          "evidenceId": "a6-ev-14",
+          "width": 480,
+          "height": 270
+        }
+      ],
       "evidenceIds": [
-        "highlight-09-body"
+        "highlight-09-body",
+        "a6-ev-14"
       ],
       "sourceItemIds": [
         "source-highlight-09"
@@ -796,6 +979,214 @@
   ],
   "evidence": [
     {
+      "id": "a6-ev-01",
+      "role": "demo-region",
+      "kind": "image-region",
+      "source": "assets/digests-2025/harmonyos/smart-light-color.webp",
+      "sourceIndex": 0,
+      "sourceHash": "395cbfd0a0a2e927ae85dd379289c86318fc5217bb5121391cf08a84d3e66f88",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 270
+      },
+      "note": "智慧光感: 全新智慧色彩光感 (唤醒小艺与碰一碰通透色彩光感)"
+    },
+    {
+      "id": "a6-ev-02",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/harmonyos/signature-camera.mp4",
+      "sourceIndex": 0,
+      "sourceHash": "4571751df783e411b787bf34c0407704c5150fc4e2baf86c4cc697d4c8ae4321",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 270
+      },
+      "note": "艺术签名: 美学构图与自适应字体 (拍摄书法字体智能提取生成签名)"
+    },
+    {
+      "id": "a6-ev-03",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/harmonyos/signature-style.mp4",
+      "sourceIndex": 1,
+      "sourceHash": "146dbf4d19dd7b4343e33ebe1e68cdb64b37f22fd00678d5a9a19666512bce70",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 335
+      },
+      "note": "艺术签名: 美学构图与自适应字体 (锁屏艺术签名个性搭配演示)"
+    },
+    {
+      "id": "a6-ev-04",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/harmonyos/wallpaper-compose.mp4",
+      "sourceIndex": 2,
+      "sourceHash": "649a051d988ea5ecfd44baf67673ce268134959c33e54bcfecce8d4e8df51140",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 270
+      },
+      "note": "艺术签名: 美学构图与自适应字体 (智能壁纸主体识别与自适应布局)"
+    },
+    {
+      "id": "a6-ev-05",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/harmonyos/mood-emoji.mp4",
+      "sourceIndex": 0,
+      "sourceHash": "ccb011881b569387ed2d914c00281912c65a85f73d0e981663d819adc1a3a070",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 324
+      },
+      "note": "趣味主题: 可交互元气心情与毛球主题 (元气心情主题 3D 表情互动)"
+    },
+    {
+      "id": "a6-ev-06",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/harmonyos/fluffy-ball.mp4",
+      "sourceIndex": 1,
+      "sourceHash": "8fe40bbc2ff39202415004db85f9f10a6fc1385215bdd9bb4c78d590a5b57465",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 335
+      },
+      "note": "趣味主题: 可交互元气心情与毛球主题 (毛球主题语音互动与磁吸彩蛋)"
+    },
+    {
+      "id": "a6-ev-07",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/harmonyos/eye-hand-flow.mp4",
+      "sourceIndex": 0,
+      "sourceHash": "1abd90896cede3b9619512fc8ce13f46eb4efc1b417392257abfe8cb03c7053e",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 240
+      },
+      "note": "跨端互联: 手眼同行注视流转 (注视目标设备瞬移流转与一碰分享)"
+    },
+    {
+      "id": "a6-ev-08",
+      "role": "demo-region",
+      "kind": "image-region",
+      "source": "assets/digests-2025/harmonyos/super-xiaoyi.webp",
+      "sourceIndex": 0,
+      "sourceHash": "d12fa9c4bd024f170ccd04e462fa5e3fb59aa7c7d80eefee0a4fbe1227eeebd5",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 270
+      },
+      "note": "超级小艺: 复杂意图自主拆解执行 (超级小艺复杂任务拆解与后台执行)"
+    },
+    {
+      "id": "a6-ev-09",
+      "role": "demo-region",
+      "kind": "image-region",
+      "source": "assets/digests-2025/harmonyos/ai-portrait-retouch.webp",
+      "sourceIndex": 0,
+      "sourceHash": "e7a67518024140c0f26e15d0ef86524a8e4db0d38cb1913496ebf3a59259cdc9",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 482
+      },
+      "note": "影像创作: AI 一键成片与记忆盘活 (AI 人像精修智能补光与调色)"
+    },
+    {
+      "id": "a6-ev-10",
+      "role": "demo-region",
+      "kind": "image-region",
+      "source": "assets/digests-2025/harmonyos/ai-photo-to-video.webp",
+      "sourceIndex": 1,
+      "sourceHash": "3a7a0ca566b7638b9905a4536dc597bb8f8d7d1c84896acbcbf26dac0aebae41",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 482
+      },
+      "note": "影像创作: AI 一键成片与记忆盘活 (AI 一键成片多图自动运镜成片)"
+    },
+    {
+      "id": "a6-ev-11",
+      "role": "demo-region",
+      "kind": "image-region",
+      "source": "assets/digests-2025/harmonyos/anti-fraud-call.webp",
+      "sourceIndex": 0,
+      "sourceHash": "a32c97fb90cb9107b399d016b745e7509e87ee78ae7e161b732562433d48888f",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 747
+      },
+      "note": "隐私安全: 涉诈识别与亲情守护 (AI 通话涉诈智能检测与提醒)"
+    },
+    {
+      "id": "a6-ev-12",
+      "role": "demo-region",
+      "kind": "image-region",
+      "source": "assets/digests-2025/harmonyos/anti-fraud-alert.webp",
+      "sourceIndex": 1,
+      "sourceHash": "45f5cc1cbd78f2b0ee72ba9bfa99bd022a2a106694c87e857e128070c37798e8",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 606
+      },
+      "note": "隐私安全: 涉诈识别与亲情守护 (亲情防诈与远程防御挂断)"
+    },
+    {
+      "id": "a6-ev-14",
+      "role": "demo-region",
+      "kind": "image-region",
+      "source": "assets/digests-2025/harmonyos/ark-engine.webp",
+      "sourceIndex": 0,
+      "sourceHash": "395cbfd0a0a2e927ae85dd379289c86318fc5217bb5121391cf08a84d3e66f88",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 270
+      },
+      "note": "系统丝滑: 秒启秒开超流畅体验 (方舟引擎整机性能与应用秒启秒开)"
+    },
+    {
       "id": "highlight-01-body",
       "kind": "html-text",
       "role": "body-text",
@@ -1135,7 +1526,7 @@
     "excludedItemCount": 0,
     "highlightCount": 9,
     "updateCount": 18,
-    "mediaCount": 0,
+    "mediaCount": 13,
     "mappedItemCount": 27,
     "coverageRate": 1
   }

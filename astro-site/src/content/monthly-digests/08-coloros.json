@@ -4,7 +4,7 @@
   "mediaReviewVersion": 4,
   "articleId": "ColorOS_16_正式发布！亮点抢先看",
   "reviewStatus": "verified",
-  "sourceHash": "a49bfcb19385884cc660d99807c2c597560f394d5f66c97052bb05906bc29799",
+  "sourceHash": "12cdf0e2e73e062b27c69807a2bb26bfcb44b853ecba24763f4babafbeeeb6b8",
   "highlights": [
     {
       "id": "highlight-01",
@@ -12,10 +12,39 @@
       "moduleSource": "explicit-heading",
       "title": "全场景无缝动效",
       "description": "新增桌面图标、卡片、文件夹、侧边栏等场景支持无缝拖拽动画与并行打断，下拉通知中心与控制中心实时打断，带来一气呵成的直觉流畅体验。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "c16-m-01",
+          "kind": "video",
+          "src": "assets/digests-2025/coloros/seamless-motion.mp4",
+          "thumbnail": "assets/digests-2025/coloros/seamless-motion-poster-480.webp",
+          "avifSrc": "assets/digests-2025/coloros/seamless-motion-poster.avif",
+          "avifThumbnail": "assets/digests-2025/coloros/seamless-motion-poster-480.avif",
+          "poster": "assets/digests-2025/coloros/seamless-motion-poster.webp",
+          "alt": "极光引擎无缝位移动效演示",
+          "evidenceId": "c16-ev-01",
+          "width": 434,
+          "height": 646
+        },
+        {
+          "id": "c16-m-02",
+          "kind": "video",
+          "src": "assets/digests-2025/coloros/parallel-interrupt.mp4",
+          "thumbnail": "assets/digests-2025/coloros/parallel-interrupt-poster-480.webp",
+          "avifSrc": "assets/digests-2025/coloros/parallel-interrupt-poster.avif",
+          "avifThumbnail": "assets/digests-2025/coloros/parallel-interrupt-poster-480.avif",
+          "poster": "assets/digests-2025/coloros/parallel-interrupt-poster.webp",
+          "alt": "极光引擎并行打断动效演示",
+          "evidenceId": "c16-ev-02",
+          "width": 480,
+          "height": 221
+        }
+      ],
       "evidenceIds": [
-        "highlight-01-body"
+        "highlight-01-body",
+        "c16-ev-01",
+        "c16-ev-02"
       ],
       "sourceItemIds": [
         "source-highlight-01"
@@ -27,10 +56,25 @@
       "moduleSource": "explicit-heading",
       "title": "光场动效与微视效",
       "description": "新增光场动效与自然涟漪视效，在计算器、锁屏密码、通话界面按压交互时呈现更生动的光场反馈，优化充电动效与指纹动效。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "c16-m-03",
+          "kind": "video",
+          "src": "assets/digests-2025/coloros/aurora-visuals.mp4",
+          "thumbnail": "assets/digests-2025/coloros/aurora-visuals-poster-480.webp",
+          "avifSrc": "assets/digests-2025/coloros/aurora-visuals-poster.avif",
+          "avifThumbnail": "assets/digests-2025/coloros/aurora-visuals-poster-480.avif",
+          "poster": "assets/digests-2025/coloros/aurora-visuals-poster.webp",
+          "alt": "极光高阶粒子与光影视效演示",
+          "evidenceId": "c16-ev-03",
+          "width": 480,
+          "height": 1056
+        }
+      ],
       "evidenceIds": [
-        "highlight-02-body"
+        "highlight-02-body",
+        "c16-ev-03"
       ],
       "sourceItemIds": [
         "source-highlight-02"
@@ -42,10 +86,24 @@
       "moduleSource": "explicit-heading",
       "title": "自研感知调度",
       "description": "潮汐引擎深度协同，动态适配场景资源需求与智能调节运行负载，实现短视频久刷不卡顿、游戏重载不掉帧、影像久拍不中断的持久流畅。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "c16-m-04",
+          "kind": "image",
+          "src": "assets/digests-2025/coloros/coloros16-summary.webp",
+          "thumbnail": "assets/digests-2025/coloros/coloros16-summary-480.webp",
+          "avifSrc": "assets/digests-2025/coloros/coloros16-summary.avif",
+          "avifThumbnail": "assets/digests-2025/coloros/coloros16-summary-480.avif",
+          "alt": "ColorOS 16 架构全景与调度优化",
+          "evidenceId": "c16-ev-04",
+          "width": 480,
+          "height": 269
+        }
+      ],
       "evidenceIds": [
-        "highlight-03-body"
+        "highlight-03-body",
+        "c16-ev-04"
       ],
       "sourceItemIds": [
         "source-highlight-03"
@@ -57,10 +115,24 @@
       "moduleSource": "explicit-heading",
       "title": "跨层级编译优化",
       "description": "业界首创跨层级融合优化与反馈式优化技术，大幅提升系统服务与应用执行效率，响应更迅速更敏捷。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "c16-m-05",
+          "kind": "image",
+          "src": "assets/digests-2025/coloros/coloros16-summary.webp",
+          "thumbnail": "assets/digests-2025/coloros/coloros16-summary-480.webp",
+          "avifSrc": "assets/digests-2025/coloros/coloros16-summary.avif",
+          "avifThumbnail": "assets/digests-2025/coloros/coloros16-summary-480.avif",
+          "alt": "繁星编译器跨层级编译架构",
+          "evidenceId": "c16-ev-05",
+          "width": 480,
+          "height": 269
+        }
+      ],
       "evidenceIds": [
-        "highlight-04-body"
+        "highlight-04-body",
+        "c16-ev-05"
       ],
       "sourceItemIds": [
         "source-highlight-04"
@@ -72,10 +144,25 @@
       "moduleSource": "explicit-heading",
       "title": "AI 实景对话",
       "description": "指哪答哪，点击屏幕上好奇的事物即可即时解答；支持专属声纹识别，嘈杂环境下智能识别机主声音，过滤他人语音干扰。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "c16-m-06",
+          "kind": "video",
+          "src": "assets/digests-2025/coloros/ai-dialog.mp4",
+          "thumbnail": "assets/digests-2025/coloros/ai-dialog-poster-480.webp",
+          "avifSrc": "assets/digests-2025/coloros/ai-dialog-poster.avif",
+          "avifThumbnail": "assets/digests-2025/coloros/ai-dialog-poster-480.avif",
+          "poster": "assets/digests-2025/coloros/ai-dialog-poster.webp",
+          "alt": "AI 实景对话指哪问哪演示",
+          "evidenceId": "c16-ev-06",
+          "width": 480,
+          "height": 427
+        }
+      ],
       "evidenceIds": [
-        "highlight-05-body"
+        "highlight-05-body",
+        "c16-ev-06"
       ],
       "sourceItemIds": [
         "source-highlight-05"
@@ -87,10 +174,25 @@
       "moduleSource": "explicit-heading",
       "title": "随心记与智能归集",
       "description": "随时记录取餐码、视频、账单、多图灵感；全新列表详情视图呈现更详尽的 AI 摘要，支持添加备注与重点提取。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "c16-m-07",
+          "kind": "video",
+          "src": "assets/digests-2025/coloros/xiaobu-memory.mp4",
+          "thumbnail": "assets/digests-2025/coloros/xiaobu-memory-poster-480.webp",
+          "avifSrc": "assets/digests-2025/coloros/xiaobu-memory-poster.avif",
+          "avifThumbnail": "assets/digests-2025/coloros/xiaobu-memory-poster-480.avif",
+          "poster": "assets/digests-2025/coloros/xiaobu-memory-poster.webp",
+          "alt": "小布记忆随心记功能演示",
+          "evidenceId": "c16-ev-07",
+          "width": 480,
+          "height": 256
+        }
+      ],
       "evidenceIds": [
-        "highlight-06-body"
+        "highlight-06-body",
+        "c16-ev-07"
       ],
       "sourceItemIds": [
         "source-highlight-06"
@@ -102,10 +204,37 @@
       "moduleSource": "explicit-heading",
       "title": "全天候智能提醒",
       "description": "服务范围大幅扩展，深度打通小布记忆，智能呈现航班高铁行程、生活缴费、出行打车与取餐提醒。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "c16-m-08",
+          "kind": "image",
+          "src": "assets/digests-2025/coloros/xiaobu-briefing.webp",
+          "thumbnail": "assets/digests-2025/coloros/xiaobu-briefing-480.webp",
+          "avifSrc": "assets/digests-2025/coloros/xiaobu-briefing.avif",
+          "avifThumbnail": "assets/digests-2025/coloros/xiaobu-briefing-480.avif",
+          "alt": "小布建议 AI 晨间简报",
+          "evidenceId": "c16-ev-08",
+          "width": 480,
+          "height": 249
+        },
+        {
+          "id": "c16-m-09",
+          "kind": "image",
+          "src": "assets/digests-2025/coloros/xiaobu-cross.webp",
+          "thumbnail": "assets/digests-2025/coloros/xiaobu-cross-480.webp",
+          "avifSrc": "assets/digests-2025/coloros/xiaobu-cross.avif",
+          "avifThumbnail": "assets/digests-2025/coloros/xiaobu-cross-480.avif",
+          "alt": "打通小布记忆跨服务协同",
+          "evidenceId": "c16-ev-09",
+          "width": 480,
+          "height": 292
+        }
+      ],
       "evidenceIds": [
-        "highlight-07-body"
+        "highlight-07-body",
+        "c16-ev-08",
+        "c16-ev-09"
       ],
       "sourceItemIds": [
         "source-highlight-07"
@@ -117,10 +246,25 @@
       "moduleSource": "explicit-heading",
       "title": "全新光场设计",
       "description": "光与环境交相辉映，光影融入系统界面与桌面图标设计，视觉通透自然，细节质感跃升。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "c16-m-10",
+          "kind": "video",
+          "src": "assets/digests-2025/coloros/light-design.mp4",
+          "thumbnail": "assets/digests-2025/coloros/light-design-poster-480.webp",
+          "avifSrc": "assets/digests-2025/coloros/light-design-poster.avif",
+          "avifThumbnail": "assets/digests-2025/coloros/light-design-poster-480.avif",
+          "poster": "assets/digests-2025/coloros/light-design-poster.webp",
+          "alt": "全新光场质感设计演示",
+          "evidenceId": "c16-ev-10",
+          "width": 480,
+          "height": 270
+        }
+      ],
       "evidenceIds": [
-        "highlight-08-body"
+        "highlight-08-body",
+        "c16-ev-10"
       ],
       "sourceItemIds": [
         "source-highlight-08"
@@ -132,10 +276,39 @@
       "moduleSource": "explicit-heading",
       "title": "实况壁纸与动态景深",
       "description": "AI 赋能灵感主题，支持将静态照片转换为 AI 动态实况壁纸，提供景深时钟排版与智能取色图标。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "c16-m-11",
+          "kind": "video",
+          "src": "assets/digests-2025/coloros/live-depth.mp4",
+          "thumbnail": "assets/digests-2025/coloros/live-depth-poster-480.webp",
+          "avifSrc": "assets/digests-2025/coloros/live-depth-poster.avif",
+          "avifThumbnail": "assets/digests-2025/coloros/live-depth-poster-480.avif",
+          "poster": "assets/digests-2025/coloros/live-depth-poster.webp",
+          "alt": "AI 动态景深时钟效果",
+          "evidenceId": "c16-ev-11",
+          "width": 480,
+          "height": 270
+        },
+        {
+          "id": "c16-m-12",
+          "kind": "video",
+          "src": "assets/digests-2025/coloros/live-wallpaper.mp4",
+          "thumbnail": "assets/digests-2025/coloros/live-wallpaper-poster-480.webp",
+          "avifSrc": "assets/digests-2025/coloros/live-wallpaper-poster.avif",
+          "avifThumbnail": "assets/digests-2025/coloros/live-wallpaper-poster-480.avif",
+          "poster": "assets/digests-2025/coloros/live-wallpaper-poster.webp",
+          "alt": "AI 实况动态壁纸演示",
+          "evidenceId": "c16-ev-12",
+          "width": 480,
+          "height": 594
+        }
+      ],
       "evidenceIds": [
-        "highlight-09-body"
+        "highlight-09-body",
+        "c16-ev-11",
+        "c16-ev-12"
       ],
       "sourceItemIds": [
         "source-highlight-09"
@@ -147,10 +320,24 @@
       "moduleSource": "explicit-heading",
       "title": "跨生态手表与耳机互通",
       "description": "流体云信息支持跨端流转至智能手表，运动健康数据实时同步；支持无线耳机便捷弹窗与降噪控制。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "c16-m-13",
+          "kind": "image",
+          "src": "assets/digests-2025/coloros/apple-watch-fluid.webp",
+          "thumbnail": "assets/digests-2025/coloros/apple-watch-fluid-480.webp",
+          "avifSrc": "assets/digests-2025/coloros/apple-watch-fluid.avif",
+          "avifThumbnail": "assets/digests-2025/coloros/apple-watch-fluid-480.avif",
+          "alt": "Apple Watch 查看流体云信息",
+          "evidenceId": "c16-ev-13",
+          "width": 480,
+          "height": 270
+        }
+      ],
       "evidenceIds": [
-        "highlight-10-body"
+        "highlight-10-body",
+        "c16-ev-13"
       ],
       "sourceItemIds": [
         "source-highlight-10"
@@ -162,10 +349,37 @@
       "moduleSource": "explicit-heading",
       "title": "一碰互传多端流转",
       "description": "支持图片、文档、便签、联系人名片以及短视频、红包一碰快速分享；手机支持镜像投屏到电脑进行多任务协同。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "c16-m-14",
+          "kind": "image",
+          "src": "assets/digests-2025/coloros/memo-migration.webp",
+          "thumbnail": "assets/digests-2025/coloros/memo-migration-480.webp",
+          "avifSrc": "assets/digests-2025/coloros/memo-migration.avif",
+          "avifThumbnail": "assets/digests-2025/coloros/memo-migration-480.avif",
+          "alt": "iOS 备忘录一键换机搬家",
+          "evidenceId": "c16-ev-14",
+          "width": 480,
+          "height": 270
+        },
+        {
+          "id": "c16-m-15",
+          "kind": "image",
+          "src": "assets/digests-2025/coloros/touch-share.webp",
+          "thumbnail": "assets/digests-2025/coloros/touch-share-480.webp",
+          "avifSrc": "assets/digests-2025/coloros/touch-share.avif",
+          "avifThumbnail": "assets/digests-2025/coloros/touch-share-480.avif",
+          "alt": "碰一碰极速互传演示",
+          "evidenceId": "c16-ev-15",
+          "width": 480,
+          "height": 270
+        }
+      ],
       "evidenceIds": [
-        "highlight-11-body"
+        "highlight-11-body",
+        "c16-ev-14",
+        "c16-ev-15"
       ],
       "sourceItemIds": [
         "source-highlight-11"
@@ -177,10 +391,24 @@
       "moduleSource": "explicit-heading",
       "title": "剪贴板智能管控与最小授权",
       "description": "新增写入剪贴板管控权限，智能读取口令信息防泄露；提供权限审核机制与最小化授权推荐。",
-      "mediaStatus": "not-provided",
-      "media": [],
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "c16-m-16",
+          "kind": "image",
+          "src": "assets/digests-2025/coloros/coloros-pad.webp",
+          "thumbnail": "assets/digests-2025/coloros/coloros-pad-480.webp",
+          "avifSrc": "assets/digests-2025/coloros/coloros-pad.avif",
+          "avifThumbnail": "assets/digests-2025/coloros/coloros-pad-480.avif",
+          "alt": "大屏生态与安全控件",
+          "evidenceId": "c16-ev-16",
+          "width": 480,
+          "height": 270
+        }
+      ],
       "evidenceIds": [
-        "highlight-12-body"
+        "highlight-12-body",
+        "c16-ev-16"
       ],
       "sourceItemIds": [
         "source-highlight-12"
@@ -4624,6 +4852,262 @@
   ],
   "evidence": [
     {
+      "id": "c16-ev-01",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/coloros/seamless-motion.mp4",
+      "sourceIndex": 0,
+      "sourceHash": "fcc332385092ea857095123c969d0a6c0d631ab7c0929dfc5de6b5c3859bd954",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 434,
+        "height": 646
+      },
+      "note": "极光引擎: 全场景无缝动效 (极光引擎无缝位移动效演示)"
+    },
+    {
+      "id": "c16-ev-02",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/coloros/parallel-interrupt.mp4",
+      "sourceIndex": 1,
+      "sourceHash": "aa56b2d20967d59e25703ffb1cef8213dbd1015c1fd315c06c26bc3e8e0dcd00",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 221
+      },
+      "note": "极光引擎: 全场景无缝动效 (极光引擎并行打断动效演示)"
+    },
+    {
+      "id": "c16-ev-03",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/coloros/aurora-visuals.mp4",
+      "sourceIndex": 0,
+      "sourceHash": "1acb731af278476fb850ae8b6dc94ed68ede4cfb19d274180b85d3ce70e5ac59",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 1056
+      },
+      "note": "极光引擎: 光场动效与微视效 (极光高阶粒子与光影视效演示)"
+    },
+    {
+      "id": "c16-ev-04",
+      "role": "demo-region",
+      "kind": "image-region",
+      "source": "assets/digests-2025/coloros/coloros16-summary.webp",
+      "sourceIndex": 0,
+      "sourceHash": "440ac53784fc9ce1d200d18c4cdb48b9b407e265bf9058b1697e3ea25b37f186",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 269
+      },
+      "note": "潮汐引擎: 自研感知调度 (ColorOS 16 架构全景与调度优化)"
+    },
+    {
+      "id": "c16-ev-05",
+      "role": "demo-region",
+      "kind": "image-region",
+      "source": "assets/digests-2025/coloros/coloros16-summary.webp",
+      "sourceIndex": 0,
+      "sourceHash": "440ac53784fc9ce1d200d18c4cdb48b9b407e265bf9058b1697e3ea25b37f186",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 269
+      },
+      "note": "繁星编译器: 跨层级编译优化 (繁星编译器跨层级编译架构)"
+    },
+    {
+      "id": "c16-ev-06",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/coloros/ai-dialog.mp4",
+      "sourceIndex": 0,
+      "sourceHash": "eb321a1a0dc2711bcfa28849e8d4302cb95e24116180c278fa21da0f3c9c6cac",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 427
+      },
+      "note": "人工智能: AI 实景对话 (AI 实景对话指哪问哪演示)"
+    },
+    {
+      "id": "c16-ev-07",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/coloros/xiaobu-memory.mp4",
+      "sourceIndex": 0,
+      "sourceHash": "7967f17f51b4dd0ac16d0f5ddf68348ef3884df663eaeac912249a1267463a0c",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 256
+      },
+      "note": "小布记忆: 随心记与智能归集 (小布记忆随心记功能演示)"
+    },
+    {
+      "id": "c16-ev-08",
+      "role": "demo-region",
+      "kind": "image-region",
+      "source": "assets/digests-2025/coloros/xiaobu-briefing.webp",
+      "sourceIndex": 0,
+      "sourceHash": "046165f59f28992e0fe036505232f41b322e54410bf4a6c7c97df881107b3450",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 249
+      },
+      "note": "小布建议: 全天候智能提醒 (小布建议 AI 晨间简报)"
+    },
+    {
+      "id": "c16-ev-09",
+      "role": "demo-region",
+      "kind": "image-region",
+      "source": "assets/digests-2025/coloros/xiaobu-cross.webp",
+      "sourceIndex": 1,
+      "sourceHash": "6826ac08990ecdfa6f2322ec1a0c634aae9ea82c1446421c3e559e6156108275",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 292
+      },
+      "note": "小布建议: 全天候智能提醒 (打通小布记忆跨服务协同)"
+    },
+    {
+      "id": "c16-ev-10",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/coloros/light-design.mp4",
+      "sourceIndex": 0,
+      "sourceHash": "75923e2aa1dcaf0d396423ba54c13d9b57dc79b84ce682f6ba3746a522acf081",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 270
+      },
+      "note": "全新设计: 全新光场设计 (全新光场质感设计演示)"
+    },
+    {
+      "id": "c16-ev-11",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/coloros/live-depth.mp4",
+      "sourceIndex": 0,
+      "sourceHash": "519ffd0cee76a944185540b7d307948b561a83e81430344e79e34bbefada8181",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 270
+      },
+      "note": "AI 灵感主题: 实况壁纸与动态景深 (AI 动态景深时钟效果)"
+    },
+    {
+      "id": "c16-ev-12",
+      "role": "demo-region",
+      "kind": "html-media",
+      "source": "assets/digests-2025/coloros/live-wallpaper.mp4",
+      "sourceIndex": 1,
+      "sourceHash": "e63a9fb8c074cc62c8c9fd36559d5fbcf48823aae7f93d662203be1de6deadfa",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 594
+      },
+      "note": "AI 灵感主题: 实况壁纸与动态景深 (AI 实况动态壁纸演示)"
+    },
+    {
+      "id": "c16-ev-13",
+      "role": "demo-region",
+      "kind": "image-region",
+      "source": "assets/digests-2025/coloros/apple-watch-fluid.webp",
+      "sourceIndex": 0,
+      "sourceHash": "8520feb7dbdd130082c3a9cf1b071f316fb9481f61c0af56fed413ea26743d65",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 270
+      },
+      "note": "互联互通: 跨生态手表与耳机互通 (Apple Watch 查看流体云信息)"
+    },
+    {
+      "id": "c16-ev-14",
+      "role": "demo-region",
+      "kind": "image-region",
+      "source": "assets/digests-2025/coloros/memo-migration.webp",
+      "sourceIndex": 0,
+      "sourceHash": "73fdf18cf6957027d40ce6c1daaf7ae71df5ec7cec89fbbd514132af00937214",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 270
+      },
+      "note": "互联互通: 一碰互传多端流转 (iOS 备忘录一键换机搬家)"
+    },
+    {
+      "id": "c16-ev-15",
+      "role": "demo-region",
+      "kind": "image-region",
+      "source": "assets/digests-2025/coloros/touch-share.webp",
+      "sourceIndex": 1,
+      "sourceHash": "2a12a415426a6a68c9f09726c0885bcd204cdd0192df60f96644277d6fde3981",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 270
+      },
+      "note": "互联互通: 一碰互传多端流转 (碰一碰极速互传演示)"
+    },
+    {
+      "id": "c16-ev-16",
+      "role": "demo-region",
+      "kind": "image-region",
+      "source": "assets/digests-2025/coloros/coloros-pad.webp",
+      "sourceIndex": 0,
+      "sourceHash": "0e464c9e94313cb14876d02b62be68f9592d570407fbc7bd8c9ab9011a3b6dc5",
+      "blockIds": [],
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 270
+      },
+      "note": "安全隐私: 剪贴板智能管控与最小授权 (大屏生态与安全控件)"
+    },
+    {
       "id": "highlight-01-body",
       "kind": "html-text",
       "role": "body-text",
@@ -6547,7 +7031,7 @@
     "excludedItemCount": 0,
     "highlightCount": 12,
     "updateCount": 147,
-    "mediaCount": 0,
+    "mediaCount": 16,
     "mappedItemCount": 159,
     "coverageRate": 1
   }
