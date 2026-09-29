@@ -223,7 +223,7 @@
       const trigger = currentOpenMenu.querySelector('.brand-trigger');
       if (trigger) {
         const rect = trigger.getBoundingClientRect();
-        const popoverWidth = mobilePopover.offsetWidth || 150;
+        const popoverWidth = mobilePopover.offsetWidth || 168;
         const halfW = popoverWidth / 2 + 8;
         const centerX = Math.max(halfW, Math.min(window.innerWidth - halfW, rect.left + rect.width / 2));
         mobilePopover.style.setProperty('--popover-x', `${centerX}px`);

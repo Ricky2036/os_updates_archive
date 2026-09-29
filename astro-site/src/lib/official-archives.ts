@@ -53,7 +53,7 @@ export const officialArchiveMeta: Record<OfficialArchiveVersion, {
   },
   insight17: {
     title: 'ColorOS 17 深度洞察报告',
-    label: '深度洞察报告',
+    label: 'ColorOS 17深度洞察',
     folder: 'coloros17-insight',
     route: sitePath('coloros/insight17/'),
     entries: { desktop: 'index.html', pad: 'index.html', mobile: 'index.html' },
