@@ -20,9 +20,15 @@ for (const item of data.highlights) {
   }
 }
 const isColorOS17 = article?.data.slug === '63-coloros-17' || data.articleId === 'ColorOS_17_正式发布！亮点抢先看';
+const isColorOS16 = article?.data.slug === '08-coloros-16' || data.articleId === 'ColorOS_16_正式发布！亮点抢先看';
 const isOriginOS7 = article?.data.slug === '64-originos-7' || data.articleId === '带你一图读懂_OriginOS_7';
+const isOriginOS6 = article?.data.slug === '65-originos-6' || data.articleId === 'OriginOS_6_正式发布！亮点抢先看';
 const isHyperOS4 = data.articleId === 'HyperOS_4_更新说明_(2026)' || article?.data.slug === '44-xiaomi-hyperos-4';
-const isMajorRelease = isColorOS17 || isOriginOS7 || isHyperOS4;
+const isHyperOS3 = data.articleId === 'HyperOS_3_更新说明_(2025)' || article?.data.slug === '66-xiaomi-hyperos-3';
+const isMagicOS11 = article?.data.slug === '62-honor-magicos-11' || data.articleId === 'MagicOS_11正式发布！一图读懂升级亮点_(2026)';
+const isMagicOS10 = article?.data.slug === '67-honor-magicos-10' || data.articleId === 'MagicOS_10正式发布！一图读懂升级亮点_(2025)';
+const isHarmonyOS6 = article?.data.slug === '68-huawei-harmonyos-6' || data.articleId === 'HarmonyOS_6_正式发布！亮点抢先看';
+const isMajorRelease = isColorOS17 || isColorOS16 || isOriginOS7 || isOriginOS6 || isHyperOS4 || isHyperOS3 || isMagicOS11 || isMagicOS10 || isHarmonyOS6;
 
 const monthMap: Record<string, string> = {
   '1': '一月', '01': '一月', '一': '一月',
@@ -80,25 +86,70 @@ const generateMonthlySummary = (highlights: typeof data.highlights, updates: typ
 };
 
 const monthName = extractMonthName(data.articleId, article?.data.title, article?.data.publishedAt);
+const eyebrow = isColorOS17
+  ? '软件版本 PKB110_17.0.0.100(CN01C10P02)'
+  : isColorOS16
+    ? '软件版本 PKB110_16.0.0.100(CN01C10P01)'
+    : isOriginOS7
+      ? '版本 OriginOS 7 Beta (PD2602C_A_17.0.14.5.W10.V000L1)'
+      : isOriginOS6
+        ? '版本 OriginOS 6 (PD2501C_A_16.0.10.8.W10.V000L1)'
+        : isHyperOS4
+          ? '软件版本 OS4.0.2.0.WACNXM'
+          : isHyperOS3
+            ? '软件版本 OS3.0.1.0.VNACNXM'
+            : isMagicOS11
+              ? '软件版本 11.0.0.120(C00E120R4P1)'
+              : isMagicOS10
+                ? '软件版本 10.0.0.118(C00E118R3P1)'
+                : isHarmonyOS6
+                  ? '软件版本 6.0.0.108(SP1C00E108R1P1)'
+                  : '文字精校版';
+
 const heading = isColorOS17
   ? 'ColorOS 17 更新说明'
-  : isOriginOS7
-    ? 'OriginOS 7 更新说明'
-    : isHyperOS4
-      ? '小米澎湃OS 4 更新说明'
-      : `${monthName}升级一览`;
+  : isColorOS16
+    ? 'ColorOS 16 更新说明'
+    : isOriginOS7
+      ? 'OriginOS 7 更新说明'
+      : isOriginOS6
+        ? 'OriginOS 6 更新说明'
+        : isHyperOS4
+          ? '小米澎湃OS 4 更新说明'
+          : isHyperOS3
+            ? '小米澎湃OS 3 更新说明'
+            : isMagicOS11
+              ? 'MagicOS 11 更新说明'
+              : isMagicOS10
+                ? 'MagicOS 10 更新说明'
+                : isHarmonyOS6
+                  ? 'HarmonyOS 6 更新说明'
+                  : `${monthName}升级一览`;
+
 const subtitle = isColorOS17
   ? '上手丝滑，久用流畅。全新流体设计，OPPO AI 更懂你。'
-  : isOriginOS7
-    ? '流畅超舒适，小V超贴心。光影流转，自然连贯，蓝心大模型深度融入系统体验。'
-    : isHyperOS4
-      ? '全面升级的一气呵成体验。'
-      : generateMonthlySummary(data.highlights, data.updates);
+  : isColorOS16
+    ? '全场景丝滑流畅，系统级人工智能全面进化。极光引擎与潮汐引擎深度协同，全新繁星编译器加持。'
+    : isOriginOS7
+      ? '流畅超舒适，小V超贴心。光影流转，自然连贯，蓝心大模型深度融入系统体验。'
+      : isOriginOS6
+        ? '流畅舒适，6的飞起。全新光影空间设计，蓝河流畅引擎与蓝海续航系统强力支撑。'
+        : isHyperOS4
+          ? '全面升级的一气呵成体验。'
+          : isHyperOS3
+            ? '以体验做「顺」为目标，微架构级优化深入编译底层，打造体感流畅到底的生态体验。'
+            : isMagicOS11
+              ? '新一代 YOYO 智能体，全面进化的 AI 与流畅体验。'
+              : isMagicOS10
+                ? 'UX 视觉通透焕新，Turbo X 性能引擎深度打磨，荣耀 AI 与 YOYO 协同升级。'
+                : isHarmonyOS6
+                  ? '更好看、更好玩、更好用、更智能、更安全、更丝滑。智慧光感与全场景互联全面进阶。'
+                  : generateMonthlySummary(data.highlights, data.updates);
 const highlightHeading = isMajorRelease ? '更新功能一览' : '更新亮点';
 ---
 <section class="monthly-digest" data-monthly-digest aria-labelledby="digest-heading">
   <header class="digest-intro">
-    <p class="eyebrow">{isColorOS17 ? '软件版本 PKB110_17.0.0.100(CN01C10P02)' : isOriginOS7 ? '版本 OriginOS 7 Beta (PD2602C_A_17.0.14.5.W10.V000L1)' : '文字精校版'}</p>
+    <p class="eyebrow">{eyebrow}</p>
     <h2 id="digest-heading">{heading}</h2>
     <p>{subtitle}</p>
   </header>

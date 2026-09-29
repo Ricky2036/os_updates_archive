@@ -1,0 +1,2003 @@
+{
+  "schemaVersion": 3,
+  "contentReviewVersion": 4,
+  "mediaReviewVersion": 4,
+  "articleId": "MagicOS_10正式发布！一图读懂升级亮点_(2025)",
+  "reviewStatus": "verified",
+  "sourceHash": "fdecffb92373f1b95b49ae4eb44817ee5a4ed9ebd153a4f742266fe4c72774a1",
+  "highlights": [
+    {
+      "id": "highlight-01",
+      "module": "UX 焕新",
+      "moduleSource": "explicit-heading",
+      "title": "全系统通透模式",
+      "description": "新增通透模式提升卡片、文件夹与控件的清透玻璃质感；控制中心采用深色层级背景搭配多彩图标，视觉轻盈鲜活。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-01-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-01"
+      ]
+    },
+    {
+      "id": "highlight-02",
+      "module": "动效交互",
+      "moduleSource": "explicit-heading",
+      "title": "最近任务堆叠与一镜到底",
+      "description": "新增最近任务直观堆叠切换，时钟、图库卡片与日程、笔记应用全面引入一镜到底自然过渡动效。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-02-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-02"
+      ]
+    },
+    {
+      "id": "highlight-03",
+      "module": "个性主题",
+      "moduleSource": "explicit-heading",
+      "title": "摇摇乐重力互动主题",
+      "description": "锁屏时钟支持根据壁纸智能推荐配色与字重；新增拍拍球等摇摇乐互动主题，跟随手机重力感应实时生动晃动。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-03-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-03"
+      ]
+    },
+    {
+      "id": "highlight-04",
+      "module": "丝滑流畅",
+      "moduleSource": "explicit-heading",
+      "title": "Turbo X 性能引擎平台",
+      "description": "引入全新 Turbo X 平台界面与自研存储优化技术，进行无损压缩整理提升可用空间，优化短视频与图文浏览响应。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-04-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-04"
+      ]
+    },
+    {
+      "id": "highlight-05",
+      "module": "荣耀 AI 与 YOYO",
+      "moduleSource": "explicit-heading",
+      "title": "YOYO 记忆列表与高频收藏",
+      "description": "YOYO 记忆采用全新结构化列表视图；高频资讯与社区应用可一键智能提取图文要点并支持原文无缝跳转。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-05-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-05"
+      ]
+    },
+    {
+      "id": "highlight-06",
+      "module": "互联共享",
+      "moduleSource": "explicit-heading",
+      "title": "跨平台一碰互传",
+      "description": "手机之间或跨端开启 NFC 即可实现一碰高速文件传输，并全面支持与电脑超级工作台高速互通及有线换机克隆。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-06-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-06"
+      ]
+    },
+    {
+      "id": "highlight-07",
+      "module": "安全守护",
+      "moduleSource": "explicit-heading",
+      "title": "AI 通话防诈识别",
+      "description": "系统内置端侧防诈模型，实时监测识别通话语音是否属于 AI 伪造声音或电信诈骗，守护财产安全。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-07-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-07"
+      ]
+    },
+    {
+      "id": "highlight-08",
+      "module": "便捷易用",
+      "moduleSource": "explicit-heading",
+      "title": "灵动胶囊多场景扩展",
+      "description": "充电、通话、人脸解锁、备忘录与出行信息广泛接入顶部灵动胶囊，关键状态一目了然且支持轻点即时展开。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-08-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-08"
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "id": "update-01",
+      "module": "UX 焕新",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "UX 视觉升级焕新，打造全新 OS 视觉体验。",
+      "description": "UX 视觉升级焕新，打造全新 OS 视觉体验。",
+      "evidenceIds": [
+        "update-01-body"
+      ],
+      "sourceItemIds": [
+        "source-update-01"
+      ]
+    },
+    {
+      "id": "update-02",
+      "module": "UX 焕新",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "控制中心风格焕新，深色背景强化视觉层级，多彩图标让界面更生动，支持个性化调整。",
+      "description": "控制中心风格焕新，深色背景强化视觉层级，多彩图标让界面更生动，支持个性化调整。",
+      "evidenceIds": [
+        "update-02-body"
+      ],
+      "sourceItemIds": [
+        "source-update-02"
+      ]
+    },
+    {
+      "id": "update-03",
+      "module": "UX 焕新",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增桌面底部常驻栏背景板。体验路径：桌面编辑 > 桌面设置 > 显示桌面底部常驻栏背景板。",
+      "description": "新增桌面底部常驻栏背景板。体验路径：桌面编辑 > 桌面设置 > 显示桌面底部常驻栏背景板。",
+      "evidenceIds": [
+        "update-03-body"
+      ],
+      "sourceItemIds": [
+        "source-update-03"
+      ]
+    },
+    {
+      "id": "update-04",
+      "module": "UX 焕新",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增时钟/图库卡片和日程/笔记应用一镜到底动效。",
+      "description": "新增时钟/图库卡片和日程/笔记应用一镜到底动效。",
+      "evidenceIds": [
+        "update-04-body"
+      ],
+      "sourceItemIds": [
+        "source-update-04"
+      ]
+    },
+    {
+      "id": "update-05",
+      "module": "UX 焕新",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增桌面卡片、控制中心按压位置响应效果。",
+      "description": "新增桌面卡片、控制中心按压位置响应效果。",
+      "evidenceIds": [
+        "update-05-body"
+      ],
+      "sourceItemIds": [
+        "source-update-05"
+      ]
+    },
+    {
+      "id": "update-06",
+      "module": "UX 焕新",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增多种锁屏时钟样式，基于壁纸智能推荐，支持调节字体、字重、颜色及位置。体验路径：锁屏双指捏合 > 自定义 > 编辑时钟。",
+      "description": "新增多种锁屏时钟样式，基于壁纸智能推荐，支持调节字体、字重、颜色及位置。体验路径：锁屏双指捏合 > 自定义 > 编辑时钟。",
+      "evidenceIds": [
+        "update-06-body"
+      ],
+      "sourceItemIds": [
+        "source-update-06"
+      ]
+    },
+    {
+      "id": "update-07",
+      "module": "UX 焕新",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增密码解锁、控制中心等按压通透光感效果。",
+      "description": "新增密码解锁、控制中心等按压通透光感效果。",
+      "evidenceIds": [
+        "update-07-body"
+      ],
+      "sourceItemIds": [
+        "source-update-07"
+      ]
+    },
+    {
+      "id": "update-08",
+      "module": "UX 焕新",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增溯光等系列动态主题。体验路径：联网后，设置 > 桌面和个性化 > 主题。",
+      "description": "新增溯光等系列动态主题。体验路径：联网后，设置 > 桌面和个性化 > 主题。",
+      "evidenceIds": [
+        "update-08-body"
+      ],
+      "sourceItemIds": [
+        "source-update-08"
+      ]
+    },
+    {
+      "id": "update-09",
+      "module": "UX 焕新",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增锁屏长时钟。体验路径：设置 > 桌面和个性化 > 锁屏自定义 > 编辑时钟。",
+      "description": "新增锁屏长时钟。体验路径：设置 > 桌面和个性化 > 锁屏自定义 > 编辑时钟。",
+      "evidenceIds": [
+        "update-09-body"
+      ],
+      "sourceItemIds": [
+        "source-update-09"
+      ]
+    },
+    {
+      "id": "update-10",
+      "module": "UX 焕新",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增视频壁纸，支持最长10秒动态效果。体验路径：设置 > 桌面和个性化 > 锁屏自定义 > 锁屏样式 > 选择照片 > 视频。",
+      "description": "新增视频壁纸，支持最长10秒动态效果。体验路径：设置 > 桌面和个性化 > 锁屏自定义 > 锁屏样式 > 选择照片 > 视频。",
+      "evidenceIds": [
+        "update-10-body"
+      ],
+      "sourceItemIds": [
+        "source-update-10"
+      ]
+    },
+    {
+      "id": "update-11",
+      "module": "UX 焕新",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化卡片集翻转效果。",
+      "description": "优化卡片集翻转效果。",
+      "evidenceIds": [
+        "update-11-body"
+      ],
+      "sourceItemIds": [
+        "source-update-11"
+      ]
+    },
+    {
+      "id": "update-12",
+      "module": "UX 焕新",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "相机应用界面焕新，影像菜单支持双排显示和滑动翻页。体验路径：相机 > 上滑底部箭头。",
+      "description": "相机应用界面焕新，影像菜单支持双排显示和滑动翻页。体验路径：相机 > 上滑底部箭头。",
+      "evidenceIds": [
+        "update-12-body"
+      ],
+      "sourceItemIds": [
+        "source-update-12"
+      ]
+    },
+    {
+      "id": "update-13",
+      "module": "UX 焕新",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "相机新增状态栏自定义功能，可编辑状态栏功能显示。",
+      "description": "相机新增状态栏自定义功能，可编辑状态栏功能显示。",
+      "evidenceIds": [
+        "update-13-body"
+      ],
+      "sourceItemIds": [
+        "source-update-13"
+      ]
+    },
+    {
+      "id": "update-14",
+      "module": "丝滑流畅",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增抢购功能，抢票快人一步。",
+      "description": "新增抢购功能，抢票快人一步。",
+      "evidenceIds": [
+        "update-14-body"
+      ],
+      "sourceItemIds": [
+        "source-update-14"
+      ]
+    },
+    {
+      "id": "update-15",
+      "module": "丝滑流畅",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化存储体验，采用最新存储优化技术，实现无损压缩和整理，增加可用空间。",
+      "description": "优化存储体验，采用最新存储优化技术，实现无损压缩和整理，增加可用空间。",
+      "evidenceIds": [
+        "update-15-body"
+      ],
+      "sourceItemIds": [
+        "source-update-15"
+      ]
+    },
+    {
+      "id": "update-16",
+      "module": "丝滑流畅",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化刷视频、看直播、图文浏览流畅体验。",
+      "description": "优化刷视频、看直播、图文浏览流畅体验。",
+      "evidenceIds": [
+        "update-16-body"
+      ],
+      "sourceItemIds": [
+        "source-update-16"
+      ]
+    },
+    {
+      "id": "update-17",
+      "module": "丝滑流畅",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化应用安装速度。",
+      "description": "优化应用安装速度。",
+      "evidenceIds": [
+        "update-17-body"
+      ],
+      "sourceItemIds": [
+        "source-update-17"
+      ]
+    },
+    {
+      "id": "update-18",
+      "module": "丝滑流畅",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化输入法打字体验。",
+      "description": "优化输入法打字体验。",
+      "evidenceIds": [
+        "update-18-body"
+      ],
+      "sourceItemIds": [
+        "source-update-18"
+      ]
+    },
+    {
+      "id": "update-19",
+      "module": "荣耀 AI \\& YOYO",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化 YOYO 记忆收藏体验，知乎、小红书等高频应用可智能提取原文并一键跳转。",
+      "description": "优化 YOYO 记忆收藏体验，知乎、小红书等高频应用可智能提取原文并一键跳转。",
+      "evidenceIds": [
+        "update-19-body"
+      ],
+      "sourceItemIds": [
+        "source-update-19"
+      ]
+    },
+    {
+      "id": "update-20",
+      "module": "荣耀 AI \\& YOYO",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增 YOYO 记忆双重隐私保护机制。",
+      "description": "新增 YOYO 记忆双重隐私保护机制。",
+      "evidenceIds": [
+        "update-20-body"
+      ],
+      "sourceItemIds": [
+        "source-update-20"
+      ]
+    },
+    {
+      "id": "update-21",
+      "module": "荣耀 AI \\& YOYO",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增 AI 通话翻译功能。体验路径：设置 > 荣耀 AI \\& YOYO > AI 通话 > 通话翻译。",
+      "description": "新增 AI 通话翻译功能。体验路径：设置 > 荣耀 AI \\& YOYO > AI 通话 > 通话翻译。",
+      "evidenceIds": [
+        "update-21-body"
+      ],
+      "sourceItemIds": [
+        "source-update-21"
+      ]
+    },
+    {
+      "id": "update-22",
+      "module": "荣耀 AI \\& YOYO",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增 AI 帮记功能，会议中可托管听会、接收关键词提醒、生成会议纪要、实时语音转文本。体验路径：滑出侧边智慧多窗应用栏 > AI 帮记。",
+      "description": "新增 AI 帮记功能，会议中可托管听会、接收关键词提醒、生成会议纪要、实时语音转文本。体验路径：滑出侧边智慧多窗应用栏 > AI 帮记。",
+      "evidenceIds": [
+        "update-22-body"
+      ],
+      "sourceItemIds": [
+        "source-update-22"
+      ]
+    },
+    {
+      "id": "update-23",
+      "module": "互联共享",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增支持荣耀手机之间的一碰传，实现高速文件传输。体验路径：设置 > 更多连接 > 荣耀互联。",
+      "description": "新增支持荣耀手机之间的一碰传，实现高速文件传输。体验路径：设置 > 更多连接 > 荣耀互联。",
+      "evidenceIds": [
+        "update-23-body"
+      ],
+      "sourceItemIds": [
+        "source-update-23"
+      ]
+    },
+    {
+      "id": "update-24",
+      "module": "互联共享",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增与 macOS、Windows 互传功能，安装“荣耀超级工作台”即可互传文件。",
+      "description": "新增与 macOS、Windows 互传功能，安装“荣耀超级工作台”即可互传文件。",
+      "evidenceIds": [
+        "update-24-body"
+      ],
+      "sourceItemIds": [
+        "source-update-24"
+      ]
+    },
+    {
+      "id": "update-25",
+      "module": "互联共享",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增支持与 iOS 设备的 OTG 有线克隆，支持更多数据项。",
+      "description": "新增支持与 iOS 设备的 OTG 有线克隆，支持更多数据项。",
+      "evidenceIds": [
+        "update-25-body"
+      ],
+      "sourceItemIds": [
+        "source-update-25"
+      ]
+    },
+    {
+      "id": "update-26",
+      "module": "互联共享",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增支持与鸿蒙 NEXT 的联系人、图片、视频的换机克隆。",
+      "description": "新增支持与鸿蒙 NEXT 的联系人、图片、视频的换机克隆。",
+      "evidenceIds": [
+        "update-26-body"
+      ],
+      "sourceItemIds": [
+        "source-update-26"
+      ]
+    },
+    {
+      "id": "update-27",
+      "module": "便捷易用",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增人脸解锁接入胶囊。体验路径：设置 > 通知和状态栏 > 灵动胶囊 > 人脸识别。",
+      "description": "新增人脸解锁接入胶囊。体验路径：设置 > 通知和状态栏 > 灵动胶囊 > 人脸识别。",
+      "evidenceIds": [
+        "update-27-body"
+      ],
+      "sourceItemIds": [
+        "source-update-27"
+      ]
+    },
+    {
+      "id": "update-28",
+      "module": "便捷易用",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增 AI 截屏功能，智能学习场景习惯，自动推荐服务。",
+      "description": "新增 AI 截屏功能，智能学习场景习惯，自动推荐服务。",
+      "evidenceIds": [
+        "update-28-body"
+      ],
+      "sourceItemIds": [
+        "source-update-28"
+      ]
+    },
+    {
+      "id": "update-29",
+      "module": "便捷易用",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增悬浮窗截屏，截屏后可一步选择悬浮窗区域。",
+      "description": "新增悬浮窗截屏，截屏后可一步选择悬浮窗区域。",
+      "evidenceIds": [
+        "update-29-body"
+      ],
+      "sourceItemIds": [
+        "source-update-29"
+      ]
+    },
+    {
+      "id": "update-30",
+      "module": "便捷易用",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增截屏编辑后保存，覆盖原图选项。",
+      "description": "新增截屏编辑后保存，覆盖原图选项。",
+      "evidenceIds": [
+        "update-30-body"
+      ],
+      "sourceItemIds": [
+        "source-update-30"
+      ]
+    },
+    {
+      "id": "update-31",
+      "module": "便捷易用",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增部分银行应用分身功能。",
+      "description": "新增部分银行应用分身功能。",
+      "evidenceIds": [
+        "update-31-body"
+      ],
+      "sourceItemIds": [
+        "source-update-31"
+      ]
+    },
+    {
+      "id": "update-32",
+      "module": "便捷易用",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增媒体播控卡片进度条调节功能。",
+      "description": "新增媒体播控卡片进度条调节功能。",
+      "evidenceIds": [
+        "update-32-body"
+      ],
+      "sourceItemIds": [
+        "source-update-32"
+      ]
+    },
+    {
+      "id": "update-33",
+      "module": "便捷易用",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增晕动舒缓显示，支持圆点颜色自定义、乘车自动开启功能。",
+      "description": "新增晕动舒缓显示，支持圆点颜色自定义、乘车自动开启功能。",
+      "evidenceIds": [
+        "update-33-body"
+      ],
+      "sourceItemIds": [
+        "source-update-33"
+      ]
+    },
+    {
+      "id": "update-34",
+      "module": "便捷易用",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增 ICCE 协议适配车型，支持比亚迪、极氪、奔腾、小鹏等车型连接。",
+      "description": "新增 ICCE 协议适配车型，支持比亚迪、极氪、奔腾、小鹏等车型连接。",
+      "evidenceIds": [
+        "update-34-body"
+      ],
+      "sourceItemIds": [
+        "source-update-34"
+      ]
+    },
+    {
+      "id": "update-35",
+      "module": "便捷易用",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "支持来电场景配置为横幅通知或全屏显示。",
+      "description": "支持来电场景配置为横幅通知或全屏显示。",
+      "evidenceIds": [
+        "update-35-body"
+      ],
+      "sourceItemIds": [
+        "source-update-35"
+      ]
+    },
+    {
+      "id": "update-36",
+      "module": "便捷易用",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "支持图库视频播放帧预览，快速浏览锁定指定帧。",
+      "description": "支持图库视频播放帧预览，快速浏览锁定指定帧。",
+      "evidenceIds": [
+        "update-36-body"
+      ],
+      "sourceItemIds": [
+        "source-update-36"
+      ]
+    },
+    {
+      "id": "update-37",
+      "module": "便捷易用",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化状态栏三方应用通知图标显示效果，提升一致性。",
+      "description": "优化状态栏三方应用通知图标显示效果，提升一致性。",
+      "evidenceIds": [
+        "update-37-body"
+      ],
+      "sourceItemIds": [
+        "source-update-37"
+      ]
+    },
+    {
+      "id": "update-38",
+      "module": "便捷易用",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化部分应用导航条沉浸式体验。",
+      "description": "优化部分应用导航条沉浸式体验。",
+      "evidenceIds": [
+        "update-38-body"
+      ],
+      "sourceItemIds": [
+        "source-update-38"
+      ]
+    },
+    {
+      "id": "update-39",
+      "module": "便捷易用",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "控制中心新增任意位置横划切换至通知中心。",
+      "description": "控制中心新增任意位置横划切换至通知中心。",
+      "evidenceIds": [
+        "update-39-body"
+      ],
+      "sourceItemIds": [
+        "source-update-39"
+      ]
+    },
+    {
+      "id": "update-40",
+      "module": "便捷易用",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "控制中心新增关机按钮，关机重启更便捷。",
+      "description": "控制中心新增关机按钮，关机重启更便捷。",
+      "evidenceIds": [
+        "update-40-body"
+      ],
+      "sourceItemIds": [
+        "source-update-40"
+      ]
+    }
+  ],
+  "sourceItems": [
+    {
+      "id": "source-update-01",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 0,
+      "sourceHash": "6d3b8f4a70f59d8825231c560df03c9285737dbbfa903a984aa02e9a0d2b7817",
+      "blockIds": [
+        "block-0"
+      ],
+      "text": "UX 视觉升级焕新，打造全新 OS 视觉体验。",
+      "targetIds": [
+        "update-01"
+      ]
+    },
+    {
+      "id": "source-update-02",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 1,
+      "sourceHash": "823bb8a3d81b8feef62cfa3db24aa76a3a7e2d8c16acbd25064402a84bae3ff1",
+      "blockIds": [
+        "block-1"
+      ],
+      "text": "控制中心风格焕新，深色背景强化视觉层级，多彩图标让界面更生动，支持个性化调整。",
+      "targetIds": [
+        "update-02"
+      ]
+    },
+    {
+      "id": "source-highlight-01",
+      "classification": "highlight",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 2,
+      "sourceHash": "4230d7039b9e798239e0b5ae9bce8cde6c9d19b0f524c8cf057d8320c92b43ee",
+      "blockIds": [
+        "block-2"
+      ],
+      "text": "新增通透模式，提升卡片、文件夹等元素的通透效果。体验路径：设置 > 桌面和个性化 > 桌面设置 > 通透模式开关。",
+      "targetIds": [
+        "highlight-01"
+      ]
+    },
+    {
+      "id": "source-highlight-02",
+      "classification": "highlight",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 3,
+      "sourceHash": "716b56ab57b4023be88237cc1cf1557a1bcecc8485c278c0e35a2d5765567d5f",
+      "blockIds": [
+        "block-3"
+      ],
+      "text": "新增最近任务堆叠布局，多任务切换更直观。体验路径：设置 > 桌面和个性化 > 最近任务样式。",
+      "targetIds": [
+        "highlight-02"
+      ]
+    },
+    {
+      "id": "source-update-03",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 4,
+      "sourceHash": "9bf80b04b5df283b9a5f1624a8082f019bb6f23eab791226ac2e719cb2376d68",
+      "blockIds": [
+        "block-4"
+      ],
+      "text": "新增桌面底部常驻栏背景板。体验路径：桌面编辑 > 桌面设置 > 显示桌面底部常驻栏背景板。",
+      "targetIds": [
+        "update-03"
+      ]
+    },
+    {
+      "id": "source-update-04",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 5,
+      "sourceHash": "15cf7508b7870662745d887d30a9e802f0e5f5b5ba8c75a650a8d5aab90bc3e7",
+      "blockIds": [
+        "block-5"
+      ],
+      "text": "新增时钟/图库卡片和日程/笔记应用一镜到底动效。",
+      "targetIds": [
+        "update-04"
+      ]
+    },
+    {
+      "id": "source-update-05",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 6,
+      "sourceHash": "a73c7c6f7cecd28cff7c1d046ca864743c3e1c4b838772c7d997f533ddc91099",
+      "blockIds": [
+        "block-6"
+      ],
+      "text": "新增桌面卡片、控制中心按压位置响应效果。",
+      "targetIds": [
+        "update-05"
+      ]
+    },
+    {
+      "id": "source-update-06",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 7,
+      "sourceHash": "084bd74aa4b5e3404559fccb250fae8e4d1c4173d7d475296d3834b4be22c5d9",
+      "blockIds": [
+        "block-7"
+      ],
+      "text": "新增多种锁屏时钟样式，基于壁纸智能推荐，支持调节字体、字重、颜色及位置。体验路径：锁屏双指捏合 > 自定义 > 编辑时钟。",
+      "targetIds": [
+        "update-06"
+      ]
+    },
+    {
+      "id": "source-update-07",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 8,
+      "sourceHash": "6a03c00cabd54d7392a48f2c3b728189ec813c1107c465e8581d0a67636b5d8f",
+      "blockIds": [
+        "block-8"
+      ],
+      "text": "新增密码解锁、控制中心等按压通透光感效果。",
+      "targetIds": [
+        "update-07"
+      ]
+    },
+    {
+      "id": "source-update-08",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 9,
+      "sourceHash": "564067fe8c4e38125632df42b10496a2ca26e213804aa40c6ee3a3ed22546374",
+      "blockIds": [
+        "block-9"
+      ],
+      "text": "新增溯光等系列动态主题。体验路径：联网后，设置 > 桌面和个性化 > 主题。",
+      "targetIds": [
+        "update-08"
+      ]
+    },
+    {
+      "id": "source-highlight-03",
+      "classification": "highlight",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 10,
+      "sourceHash": "c1ff2100a13d960bb7d6c46ed5bd1da9aa5fd4874e8076fa5ad7d037eb196c27",
+      "blockIds": [
+        "block-10"
+      ],
+      "text": "新增扩邀游、拍拍球等摇摇乐系列互动主题，锁屏下跟随重力互动。体验路径：联网后，设置 > 桌面和个性化 > 主题。",
+      "targetIds": [
+        "highlight-03"
+      ]
+    },
+    {
+      "id": "source-update-09",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 11,
+      "sourceHash": "cb2226bf01f0be580c96a60866d2f443fcdabd886a15ca6ef8300debfac5056e",
+      "blockIds": [
+        "block-11"
+      ],
+      "text": "新增锁屏长时钟。体验路径：设置 > 桌面和个性化 > 锁屏自定义 > 编辑时钟。",
+      "targetIds": [
+        "update-09"
+      ]
+    },
+    {
+      "id": "source-update-10",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 12,
+      "sourceHash": "ee4212d73e90abd50bddc0047eb56b78b18d8ce25434055fddbf62eded6e8e59",
+      "blockIds": [
+        "block-12"
+      ],
+      "text": "新增视频壁纸，支持最长10秒动态效果。体验路径：设置 > 桌面和个性化 > 锁屏自定义 > 锁屏样式 > 选择照片 > 视频。",
+      "targetIds": [
+        "update-10"
+      ]
+    },
+    {
+      "id": "source-update-11",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 13,
+      "sourceHash": "0f38544e63caec63b3478840cf555de323025769da1ee8ebe6cb127f8681c05b",
+      "blockIds": [
+        "block-13"
+      ],
+      "text": "优化卡片集翻转效果。",
+      "targetIds": [
+        "update-11"
+      ]
+    },
+    {
+      "id": "source-update-12",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 14,
+      "sourceHash": "b543e81367b937edfc014863f4ff1c7ab6829c7e1f771f16b35f20258a529d4b",
+      "blockIds": [
+        "block-14"
+      ],
+      "text": "相机应用界面焕新，影像菜单支持双排显示和滑动翻页。体验路径：相机 > 上滑底部箭头。",
+      "targetIds": [
+        "update-12"
+      ]
+    },
+    {
+      "id": "source-update-13",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 15,
+      "sourceHash": "e9be4d0840ab99120447d11a5f3252adf8a167565b516eb59ad0130430467688",
+      "blockIds": [
+        "block-15"
+      ],
+      "text": "相机新增状态栏自定义功能，可编辑状态栏功能显示。",
+      "targetIds": [
+        "update-13"
+      ]
+    },
+    {
+      "id": "source-highlight-04",
+      "classification": "highlight",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 16,
+      "sourceHash": "6aecef038a48763519174f7c361cfb264c74a1d143199fe8bffc99f1e8dfb647",
+      "blockIds": [
+        "block-16"
+      ],
+      "text": "新增 Turbo X 性能引擎平台界面，性能优化效果可见。",
+      "targetIds": [
+        "highlight-04"
+      ]
+    },
+    {
+      "id": "source-update-14",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 17,
+      "sourceHash": "b1771a3ed09b3eaf1150a5078b253eb771dc30074e8ed0b869f153b31ed0e912",
+      "blockIds": [
+        "block-17"
+      ],
+      "text": "新增抢购功能，抢票快人一步。",
+      "targetIds": [
+        "update-14"
+      ]
+    },
+    {
+      "id": "source-update-15",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 18,
+      "sourceHash": "0b8141123caad64c3d7590556783d6819742867a5668c6e00e82f893b7472667",
+      "blockIds": [
+        "block-18"
+      ],
+      "text": "优化存储体验，采用最新存储优化技术，实现无损压缩和整理，增加可用空间。",
+      "targetIds": [
+        "update-15"
+      ]
+    },
+    {
+      "id": "source-update-16",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 19,
+      "sourceHash": "f7302a52920357e2a5f278876db67b864597c5f8247bf7ddc0b518be4b469403",
+      "blockIds": [
+        "block-19"
+      ],
+      "text": "优化刷视频、看直播、图文浏览流畅体验。",
+      "targetIds": [
+        "update-16"
+      ]
+    },
+    {
+      "id": "source-update-17",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 20,
+      "sourceHash": "ab86f0d843b8157c39f7350759a9e90f112c63405ee75f8ce4ad866add6c88e0",
+      "blockIds": [
+        "block-20"
+      ],
+      "text": "优化应用安装速度。",
+      "targetIds": [
+        "update-17"
+      ]
+    },
+    {
+      "id": "source-update-18",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 21,
+      "sourceHash": "3d1a498dedeea3d338c4b39ece85b7d51a42a6f54001fbb074b7ccc4b5d1510c",
+      "blockIds": [
+        "block-21"
+      ],
+      "text": "优化输入法打字体验。",
+      "targetIds": [
+        "update-18"
+      ]
+    },
+    {
+      "id": "source-highlight-05",
+      "classification": "highlight",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 22,
+      "sourceHash": "5fc53eb0d79c41676896af96b519dd2d314cac86b36ae4efa175751937f5d9d9",
+      "blockIds": [
+        "block-22"
+      ],
+      "text": "YOYO 记忆全新升级，采用全新列表视图，信息展现与查找更高效。",
+      "targetIds": [
+        "highlight-05"
+      ]
+    },
+    {
+      "id": "source-update-19",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 23,
+      "sourceHash": "d7bcea29e4877ca7d90e4d028e9e0bea37680104021f3d3d13f255506dcffcc1",
+      "blockIds": [
+        "block-23"
+      ],
+      "text": "优化 YOYO 记忆收藏体验，知乎、小红书等高频应用可智能提取原文并一键跳转。",
+      "targetIds": [
+        "update-19"
+      ]
+    },
+    {
+      "id": "source-update-20",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 24,
+      "sourceHash": "0c32fe6d375cbc505f328755b7ff31a6ce1b0e674341993038da59f0573eda9a",
+      "blockIds": [
+        "block-24"
+      ],
+      "text": "新增 YOYO 记忆双重隐私保护机制。",
+      "targetIds": [
+        "update-20"
+      ]
+    },
+    {
+      "id": "source-update-21",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 25,
+      "sourceHash": "7331c990e5d1f0bc0a8b66daae7effdf7f4e289d65469a927fd3d9b5e72c9afa",
+      "blockIds": [
+        "block-25"
+      ],
+      "text": "新增 AI 通话翻译功能。体验路径：设置 > 荣耀 AI \\& YOYO > AI 通话 > 通话翻译。",
+      "targetIds": [
+        "update-21"
+      ]
+    },
+    {
+      "id": "source-update-22",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 26,
+      "sourceHash": "aa479ca158c5c32066e81d09c29c7d59c8367a88d2a6d87572574367766e2bd2",
+      "blockIds": [
+        "block-26"
+      ],
+      "text": "新增 AI 帮记功能，会议中可托管听会、接收关键词提醒、生成会议纪要、实时语音转文本。体验路径：滑出侧边智慧多窗应用栏 > AI 帮记。",
+      "targetIds": [
+        "update-22"
+      ]
+    },
+    {
+      "id": "source-highlight-06",
+      "classification": "highlight",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 27,
+      "sourceHash": "7af7a3f7cdd773f6f63466fc8efe7dfedf95f5af9dcb1a4337e3c2ec1e1a87a6",
+      "blockIds": [
+        "block-27"
+      ],
+      "text": "开启 NFC，可与 iPhone 一碰传，实现高速文件传输。iOS需安装荣耀互联App。",
+      "targetIds": [
+        "highlight-06"
+      ]
+    },
+    {
+      "id": "source-update-23",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 28,
+      "sourceHash": "5ecf7dc1c360b436f52b82e4da98a144ddc411296ad9f57fba7315960b7d9fcf",
+      "blockIds": [
+        "block-28"
+      ],
+      "text": "新增支持荣耀手机之间的一碰传，实现高速文件传输。体验路径：设置 > 更多连接 > 荣耀互联。",
+      "targetIds": [
+        "update-23"
+      ]
+    },
+    {
+      "id": "source-update-24",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 29,
+      "sourceHash": "a6ab74a3ed27f61cefd70f9f50f53b044d2dcb3dced2ab71981c9e50bf1cec52",
+      "blockIds": [
+        "block-29"
+      ],
+      "text": "新增与 macOS、Windows 互传功能，安装“荣耀超级工作台”即可互传文件。",
+      "targetIds": [
+        "update-24"
+      ]
+    },
+    {
+      "id": "source-update-25",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 30,
+      "sourceHash": "43383536f3f87452598c05eeeb26f1721030375159b2c5eaa252e3411790bc7e",
+      "blockIds": [
+        "block-30"
+      ],
+      "text": "新增支持与 iOS 设备的 OTG 有线克隆，支持更多数据项。",
+      "targetIds": [
+        "update-25"
+      ]
+    },
+    {
+      "id": "source-update-26",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 31,
+      "sourceHash": "26e1606b482a3054d989f53b59c8af9330dbbd8752d99ba293148ee8507c2fa2",
+      "blockIds": [
+        "block-31"
+      ],
+      "text": "新增支持与鸿蒙 NEXT 的联系人、图片、视频的换机克隆。",
+      "targetIds": [
+        "update-26"
+      ]
+    },
+    {
+      "id": "source-highlight-07",
+      "classification": "highlight",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 32,
+      "sourceHash": "c0571e8153feae1422271b6ec938cb784d34f536429b3fef0dd4d47ae5911542",
+      "blockIds": [
+        "block-32"
+      ],
+      "text": "新增 AI 通话防诈功能，可检测对方声音是否为 AI 合成或诈骗电话。",
+      "targetIds": [
+        "highlight-07"
+      ]
+    },
+    {
+      "id": "source-highlight-08",
+      "classification": "highlight",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 33,
+      "sourceHash": "d31607b61440917f9d92ea39184b8a1fb0f44efc341ec860e5aa935b04c49273",
+      "blockIds": [
+        "block-33"
+      ],
+      "text": "充电、YOYO 打电话、YOYO 记忆等接入灵动胶囊，便于查看状态与快捷触达。",
+      "targetIds": [
+        "highlight-08"
+      ]
+    },
+    {
+      "id": "source-update-27",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 34,
+      "sourceHash": "4dc2ef793c96649bb907eee6a080e9e9437a2a58dcff7e422c8a2c208d146be7",
+      "blockIds": [
+        "block-34"
+      ],
+      "text": "新增人脸解锁接入胶囊。体验路径：设置 > 通知和状态栏 > 灵动胶囊 > 人脸识别。",
+      "targetIds": [
+        "update-27"
+      ]
+    },
+    {
+      "id": "source-update-28",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 35,
+      "sourceHash": "3e0d87c7c5fdb743e1727796f82d108121b1d4323ee4cd514464a574177dd274",
+      "blockIds": [
+        "block-35"
+      ],
+      "text": "新增 AI 截屏功能，智能学习场景习惯，自动推荐服务。",
+      "targetIds": [
+        "update-28"
+      ]
+    },
+    {
+      "id": "source-update-29",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 36,
+      "sourceHash": "fdd5eb2ee0e74e784ebccc4a8393fe4647c02ef5d29f472e69891b0b4d40a56b",
+      "blockIds": [
+        "block-36"
+      ],
+      "text": "新增悬浮窗截屏，截屏后可一步选择悬浮窗区域。",
+      "targetIds": [
+        "update-29"
+      ]
+    },
+    {
+      "id": "source-update-30",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 37,
+      "sourceHash": "18d054731c64b8c80b083139369666166421c479127b7755b4abed1b85f2d236",
+      "blockIds": [
+        "block-37"
+      ],
+      "text": "新增截屏编辑后保存，覆盖原图选项。",
+      "targetIds": [
+        "update-30"
+      ]
+    },
+    {
+      "id": "source-update-31",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 38,
+      "sourceHash": "65d12de936e73c6dd3f40decb383fbd9f736df5ca7fb5778f97356b8de2b4b10",
+      "blockIds": [
+        "block-38"
+      ],
+      "text": "新增部分银行应用分身功能。",
+      "targetIds": [
+        "update-31"
+      ]
+    },
+    {
+      "id": "source-update-32",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 39,
+      "sourceHash": "eefd0a044b5054c288c62992f2a146d3fe68ea68095693e531862f600c0a9af4",
+      "blockIds": [
+        "block-39"
+      ],
+      "text": "新增媒体播控卡片进度条调节功能。",
+      "targetIds": [
+        "update-32"
+      ]
+    },
+    {
+      "id": "source-update-33",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 40,
+      "sourceHash": "d3c3c2596f1eadd61bb33b6a856c3d5159ba983b9fd5afc41ea8460b9882ee58",
+      "blockIds": [
+        "block-40"
+      ],
+      "text": "新增晕动舒缓显示，支持圆点颜色自定义、乘车自动开启功能。",
+      "targetIds": [
+        "update-33"
+      ]
+    },
+    {
+      "id": "source-update-34",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 41,
+      "sourceHash": "8dbf3d761177cfd566c9ac485b1e4688f44627a088bd94b3830f2436f8a052b8",
+      "blockIds": [
+        "block-41"
+      ],
+      "text": "新增 ICCE 协议适配车型，支持比亚迪、极氪、奔腾、小鹏等车型连接。",
+      "targetIds": [
+        "update-34"
+      ]
+    },
+    {
+      "id": "source-update-35",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 42,
+      "sourceHash": "974d5d22aaa5c014ca39946bde1f5fa00a5bdee10b9b53ed37e514a495a4df65",
+      "blockIds": [
+        "block-42"
+      ],
+      "text": "支持来电场景配置为横幅通知或全屏显示。",
+      "targetIds": [
+        "update-35"
+      ]
+    },
+    {
+      "id": "source-update-36",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 43,
+      "sourceHash": "ec97fbd8016307dff7d17f16c7b6c02891949cd06da16f02be39590391dcc63c",
+      "blockIds": [
+        "block-43"
+      ],
+      "text": "支持图库视频播放帧预览，快速浏览锁定指定帧。",
+      "targetIds": [
+        "update-36"
+      ]
+    },
+    {
+      "id": "source-update-37",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 44,
+      "sourceHash": "40565a9ab3d21f4654f6431824a839ca2b722dcc38a30f9dc562d85f517b2772",
+      "blockIds": [
+        "block-44"
+      ],
+      "text": "优化状态栏三方应用通知图标显示效果，提升一致性。",
+      "targetIds": [
+        "update-37"
+      ]
+    },
+    {
+      "id": "source-update-38",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 45,
+      "sourceHash": "a6bb834786a0d32b6404a100c7501b733f133746b216a6b9541b9e669d4ef82f",
+      "blockIds": [
+        "block-45"
+      ],
+      "text": "优化部分应用导航条沉浸式体验。",
+      "targetIds": [
+        "update-38"
+      ]
+    },
+    {
+      "id": "source-update-39",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 46,
+      "sourceHash": "bb0ca3dca718e1ed51c44662231b466bc3dc54be95059e2afe496cec6a591258",
+      "blockIds": [
+        "block-46"
+      ],
+      "text": "控制中心新增任意位置横划切换至通知中心。",
+      "targetIds": [
+        "update-39"
+      ]
+    },
+    {
+      "id": "source-update-40",
+      "classification": "update",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 47,
+      "sourceHash": "370b730a169a459dfa5e88659e106cc7d4c17ef73ca363524fb9f90b7b4565ce",
+      "blockIds": [
+        "block-47"
+      ],
+      "text": "控制中心新增关机按钮，关机重启更便捷。",
+      "targetIds": [
+        "update-40"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "update-01-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 0,
+      "sourceHash": "6d3b8f4a70f59d8825231c560df03c9285737dbbfa903a984aa02e9a0d2b7817",
+      "blockIds": [
+        "block-0"
+      ],
+      "note": "UX 焕新: UX 视觉升级焕新，打造全新 OS 视觉体验。..."
+    },
+    {
+      "id": "update-02-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 1,
+      "sourceHash": "823bb8a3d81b8feef62cfa3db24aa76a3a7e2d8c16acbd25064402a84bae3ff1",
+      "blockIds": [
+        "block-1"
+      ],
+      "note": "UX 焕新: 控制中心风格焕新，深色背景强化视觉层级，多彩图标让界面更生动..."
+    },
+    {
+      "id": "highlight-01-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 2,
+      "sourceHash": "4230d7039b9e798239e0b5ae9bce8cde6c9d19b0f524c8cf057d8320c92b43ee",
+      "blockIds": [
+        "block-2"
+      ],
+      "note": "UX 焕新: 新增通透模式，提升卡片、文件夹等元素的通透效果。体验路径：设..."
+    },
+    {
+      "id": "highlight-02-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 3,
+      "sourceHash": "716b56ab57b4023be88237cc1cf1557a1bcecc8485c278c0e35a2d5765567d5f",
+      "blockIds": [
+        "block-3"
+      ],
+      "note": "UX 焕新: 新增最近任务堆叠布局，多任务切换更直观。体验路径：设置 > ..."
+    },
+    {
+      "id": "update-03-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 4,
+      "sourceHash": "9bf80b04b5df283b9a5f1624a8082f019bb6f23eab791226ac2e719cb2376d68",
+      "blockIds": [
+        "block-4"
+      ],
+      "note": "UX 焕新: 新增桌面底部常驻栏背景板。体验路径：桌面编辑 > 桌面设置 ..."
+    },
+    {
+      "id": "update-04-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 5,
+      "sourceHash": "15cf7508b7870662745d887d30a9e802f0e5f5b5ba8c75a650a8d5aab90bc3e7",
+      "blockIds": [
+        "block-5"
+      ],
+      "note": "UX 焕新: 新增时钟/图库卡片和日程/笔记应用一镜到底动效。..."
+    },
+    {
+      "id": "update-05-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 6,
+      "sourceHash": "a73c7c6f7cecd28cff7c1d046ca864743c3e1c4b838772c7d997f533ddc91099",
+      "blockIds": [
+        "block-6"
+      ],
+      "note": "UX 焕新: 新增桌面卡片、控制中心按压位置响应效果。..."
+    },
+    {
+      "id": "update-06-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 7,
+      "sourceHash": "084bd74aa4b5e3404559fccb250fae8e4d1c4173d7d475296d3834b4be22c5d9",
+      "blockIds": [
+        "block-7"
+      ],
+      "note": "UX 焕新: 新增多种锁屏时钟样式，基于壁纸智能推荐，支持调节字体、字重、..."
+    },
+    {
+      "id": "update-07-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 8,
+      "sourceHash": "6a03c00cabd54d7392a48f2c3b728189ec813c1107c465e8581d0a67636b5d8f",
+      "blockIds": [
+        "block-8"
+      ],
+      "note": "UX 焕新: 新增密码解锁、控制中心等按压通透光感效果。..."
+    },
+    {
+      "id": "update-08-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 9,
+      "sourceHash": "564067fe8c4e38125632df42b10496a2ca26e213804aa40c6ee3a3ed22546374",
+      "blockIds": [
+        "block-9"
+      ],
+      "note": "UX 焕新: 新增溯光等系列动态主题。体验路径：联网后，设置 > 桌面和个..."
+    },
+    {
+      "id": "highlight-03-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 10,
+      "sourceHash": "c1ff2100a13d960bb7d6c46ed5bd1da9aa5fd4874e8076fa5ad7d037eb196c27",
+      "blockIds": [
+        "block-10"
+      ],
+      "note": "UX 焕新: 新增扩邀游、拍拍球等摇摇乐系列互动主题，锁屏下跟随重力互动。..."
+    },
+    {
+      "id": "update-09-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 11,
+      "sourceHash": "cb2226bf01f0be580c96a60866d2f443fcdabd886a15ca6ef8300debfac5056e",
+      "blockIds": [
+        "block-11"
+      ],
+      "note": "UX 焕新: 新增锁屏长时钟。体验路径：设置 > 桌面和个性化 > 锁屏自..."
+    },
+    {
+      "id": "update-10-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 12,
+      "sourceHash": "ee4212d73e90abd50bddc0047eb56b78b18d8ce25434055fddbf62eded6e8e59",
+      "blockIds": [
+        "block-12"
+      ],
+      "note": "UX 焕新: 新增视频壁纸，支持最长10秒动态效果。体验路径：设置 > 桌..."
+    },
+    {
+      "id": "update-11-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 13,
+      "sourceHash": "0f38544e63caec63b3478840cf555de323025769da1ee8ebe6cb127f8681c05b",
+      "blockIds": [
+        "block-13"
+      ],
+      "note": "UX 焕新: 优化卡片集翻转效果。..."
+    },
+    {
+      "id": "update-12-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 14,
+      "sourceHash": "b543e81367b937edfc014863f4ff1c7ab6829c7e1f771f16b35f20258a529d4b",
+      "blockIds": [
+        "block-14"
+      ],
+      "note": "UX 焕新: 相机应用界面焕新，影像菜单支持双排显示和滑动翻页。体验路径：..."
+    },
+    {
+      "id": "update-13-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 15,
+      "sourceHash": "e9be4d0840ab99120447d11a5f3252adf8a167565b516eb59ad0130430467688",
+      "blockIds": [
+        "block-15"
+      ],
+      "note": "UX 焕新: 相机新增状态栏自定义功能，可编辑状态栏功能显示。..."
+    },
+    {
+      "id": "highlight-04-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 16,
+      "sourceHash": "6aecef038a48763519174f7c361cfb264c74a1d143199fe8bffc99f1e8dfb647",
+      "blockIds": [
+        "block-16"
+      ],
+      "note": "丝滑流畅: 新增 Turbo X 性能引擎平台界面，性能优化效果可见。..."
+    },
+    {
+      "id": "update-14-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 17,
+      "sourceHash": "b1771a3ed09b3eaf1150a5078b253eb771dc30074e8ed0b869f153b31ed0e912",
+      "blockIds": [
+        "block-17"
+      ],
+      "note": "丝滑流畅: 新增抢购功能，抢票快人一步。..."
+    },
+    {
+      "id": "update-15-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 18,
+      "sourceHash": "0b8141123caad64c3d7590556783d6819742867a5668c6e00e82f893b7472667",
+      "blockIds": [
+        "block-18"
+      ],
+      "note": "丝滑流畅: 优化存储体验，采用最新存储优化技术，实现无损压缩和整理，增加..."
+    },
+    {
+      "id": "update-16-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 19,
+      "sourceHash": "f7302a52920357e2a5f278876db67b864597c5f8247bf7ddc0b518be4b469403",
+      "blockIds": [
+        "block-19"
+      ],
+      "note": "丝滑流畅: 优化刷视频、看直播、图文浏览流畅体验。..."
+    },
+    {
+      "id": "update-17-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 20,
+      "sourceHash": "ab86f0d843b8157c39f7350759a9e90f112c63405ee75f8ce4ad866add6c88e0",
+      "blockIds": [
+        "block-20"
+      ],
+      "note": "丝滑流畅: 优化应用安装速度。..."
+    },
+    {
+      "id": "update-18-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 21,
+      "sourceHash": "3d1a498dedeea3d338c4b39ece85b7d51a42a6f54001fbb074b7ccc4b5d1510c",
+      "blockIds": [
+        "block-21"
+      ],
+      "note": "丝滑流畅: 优化输入法打字体验。..."
+    },
+    {
+      "id": "highlight-05-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 22,
+      "sourceHash": "5fc53eb0d79c41676896af96b519dd2d314cac86b36ae4efa175751937f5d9d9",
+      "blockIds": [
+        "block-22"
+      ],
+      "note": "荣耀 AI \\& YOYO: YOYO 记忆全新升级，采用全新列表视图，信息展现与查找更高..."
+    },
+    {
+      "id": "update-19-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 23,
+      "sourceHash": "d7bcea29e4877ca7d90e4d028e9e0bea37680104021f3d3d13f255506dcffcc1",
+      "blockIds": [
+        "block-23"
+      ],
+      "note": "荣耀 AI \\& YOYO: 优化 YOYO 记忆收藏体验，知乎、小红书等高频应用可智能提..."
+    },
+    {
+      "id": "update-20-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 24,
+      "sourceHash": "0c32fe6d375cbc505f328755b7ff31a6ce1b0e674341993038da59f0573eda9a",
+      "blockIds": [
+        "block-24"
+      ],
+      "note": "荣耀 AI \\& YOYO: 新增 YOYO 记忆双重隐私保护机制。..."
+    },
+    {
+      "id": "update-21-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 25,
+      "sourceHash": "7331c990e5d1f0bc0a8b66daae7effdf7f4e289d65469a927fd3d9b5e72c9afa",
+      "blockIds": [
+        "block-25"
+      ],
+      "note": "荣耀 AI \\& YOYO: 新增 AI 通话翻译功能。体验路径：设置 > 荣耀 AI \\..."
+    },
+    {
+      "id": "update-22-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 26,
+      "sourceHash": "aa479ca158c5c32066e81d09c29c7d59c8367a88d2a6d87572574367766e2bd2",
+      "blockIds": [
+        "block-26"
+      ],
+      "note": "荣耀 AI \\& YOYO: 新增 AI 帮记功能，会议中可托管听会、接收关键词提醒、生成..."
+    },
+    {
+      "id": "highlight-06-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 27,
+      "sourceHash": "7af7a3f7cdd773f6f63466fc8efe7dfedf95f5af9dcb1a4337e3c2ec1e1a87a6",
+      "blockIds": [
+        "block-27"
+      ],
+      "note": "互联共享: 开启 NFC，可与 iPhone 一碰传，实现高速文件传输。..."
+    },
+    {
+      "id": "update-23-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 28,
+      "sourceHash": "5ecf7dc1c360b436f52b82e4da98a144ddc411296ad9f57fba7315960b7d9fcf",
+      "blockIds": [
+        "block-28"
+      ],
+      "note": "互联共享: 新增支持荣耀手机之间的一碰传，实现高速文件传输。体验路径：设..."
+    },
+    {
+      "id": "update-24-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 29,
+      "sourceHash": "a6ab74a3ed27f61cefd70f9f50f53b044d2dcb3dced2ab71981c9e50bf1cec52",
+      "blockIds": [
+        "block-29"
+      ],
+      "note": "互联共享: 新增与 macOS、Windows 互传功能，安装“荣耀超级..."
+    },
+    {
+      "id": "update-25-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 30,
+      "sourceHash": "43383536f3f87452598c05eeeb26f1721030375159b2c5eaa252e3411790bc7e",
+      "blockIds": [
+        "block-30"
+      ],
+      "note": "互联共享: 新增支持与 iOS 设备的 OTG 有线克隆，支持更多数据项..."
+    },
+    {
+      "id": "update-26-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 31,
+      "sourceHash": "26e1606b482a3054d989f53b59c8af9330dbbd8752d99ba293148ee8507c2fa2",
+      "blockIds": [
+        "block-31"
+      ],
+      "note": "互联共享: 新增支持与鸿蒙 NEXT 的联系人、图片、视频的换机克隆。..."
+    },
+    {
+      "id": "highlight-07-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 32,
+      "sourceHash": "c0571e8153feae1422271b6ec938cb784d34f536429b3fef0dd4d47ae5911542",
+      "blockIds": [
+        "block-32"
+      ],
+      "note": "安全守护: 新增 AI 通话防诈功能，可检测对方声音是否为 AI 合成或..."
+    },
+    {
+      "id": "highlight-08-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 33,
+      "sourceHash": "d31607b61440917f9d92ea39184b8a1fb0f44efc341ec860e5aa935b04c49273",
+      "blockIds": [
+        "block-33"
+      ],
+      "note": "便捷易用: 充电、YOYO 打电话、YOYO 记忆等接入灵动胶囊，便于查..."
+    },
+    {
+      "id": "update-27-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 34,
+      "sourceHash": "4dc2ef793c96649bb907eee6a080e9e9437a2a58dcff7e422c8a2c208d146be7",
+      "blockIds": [
+        "block-34"
+      ],
+      "note": "便捷易用: 新增人脸解锁接入胶囊。体验路径：设置 > 通知和状态栏 > ..."
+    },
+    {
+      "id": "update-28-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 35,
+      "sourceHash": "3e0d87c7c5fdb743e1727796f82d108121b1d4323ee4cd514464a574177dd274",
+      "blockIds": [
+        "block-35"
+      ],
+      "note": "便捷易用: 新增 AI 截屏功能，智能学习场景习惯，自动推荐服务。..."
+    },
+    {
+      "id": "update-29-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 36,
+      "sourceHash": "fdd5eb2ee0e74e784ebccc4a8393fe4647c02ef5d29f472e69891b0b4d40a56b",
+      "blockIds": [
+        "block-36"
+      ],
+      "note": "便捷易用: 新增悬浮窗截屏，截屏后可一步选择悬浮窗区域。..."
+    },
+    {
+      "id": "update-30-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 37,
+      "sourceHash": "18d054731c64b8c80b083139369666166421c479127b7755b4abed1b85f2d236",
+      "blockIds": [
+        "block-37"
+      ],
+      "note": "便捷易用: 新增截屏编辑后保存，覆盖原图选项。..."
+    },
+    {
+      "id": "update-31-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 38,
+      "sourceHash": "65d12de936e73c6dd3f40decb383fbd9f736df5ca7fb5778f97356b8de2b4b10",
+      "blockIds": [
+        "block-38"
+      ],
+      "note": "便捷易用: 新增部分银行应用分身功能。..."
+    },
+    {
+      "id": "update-32-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 39,
+      "sourceHash": "eefd0a044b5054c288c62992f2a146d3fe68ea68095693e531862f600c0a9af4",
+      "blockIds": [
+        "block-39"
+      ],
+      "note": "便捷易用: 新增媒体播控卡片进度条调节功能。..."
+    },
+    {
+      "id": "update-33-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 40,
+      "sourceHash": "d3c3c2596f1eadd61bb33b6a856c3d5159ba983b9fd5afc41ea8460b9882ee58",
+      "blockIds": [
+        "block-40"
+      ],
+      "note": "便捷易用: 新增晕动舒缓显示，支持圆点颜色自定义、乘车自动开启功能。..."
+    },
+    {
+      "id": "update-34-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 41,
+      "sourceHash": "8dbf3d761177cfd566c9ac485b1e4688f44627a088bd94b3830f2436f8a052b8",
+      "blockIds": [
+        "block-41"
+      ],
+      "note": "便捷易用: 新增 ICCE 协议适配车型，支持比亚迪、极氪、奔腾、小鹏等..."
+    },
+    {
+      "id": "update-35-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 42,
+      "sourceHash": "974d5d22aaa5c014ca39946bde1f5fa00a5bdee10b9b53ed37e514a495a4df65",
+      "blockIds": [
+        "block-42"
+      ],
+      "note": "便捷易用: 支持来电场景配置为横幅通知或全屏显示。..."
+    },
+    {
+      "id": "update-36-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 43,
+      "sourceHash": "ec97fbd8016307dff7d17f16c7b6c02891949cd06da16f02be39590391dcc63c",
+      "blockIds": [
+        "block-43"
+      ],
+      "note": "便捷易用: 支持图库视频播放帧预览，快速浏览锁定指定帧。..."
+    },
+    {
+      "id": "update-37-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 44,
+      "sourceHash": "40565a9ab3d21f4654f6431824a839ca2b722dcc38a30f9dc562d85f517b2772",
+      "blockIds": [
+        "block-44"
+      ],
+      "note": "便捷易用: 优化状态栏三方应用通知图标显示效果，提升一致性。..."
+    },
+    {
+      "id": "update-38-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 45,
+      "sourceHash": "a6bb834786a0d32b6404a100c7501b733f133746b216a6b9541b9e669d4ef82f",
+      "blockIds": [
+        "block-45"
+      ],
+      "note": "便捷易用: 优化部分应用导航条沉浸式体验。..."
+    },
+    {
+      "id": "update-39-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 46,
+      "sourceHash": "bb0ca3dca718e1ed51c44662231b466bc3dc54be95059e2afe496cec6a591258",
+      "blockIds": [
+        "block-46"
+      ],
+      "note": "便捷易用: 控制中心新增任意位置横划切换至通知中心。..."
+    },
+    {
+      "id": "update-40-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "MagicOS_10_更新说明.md",
+      "sourceIndex": 47,
+      "sourceHash": "370b730a169a459dfa5e88659e106cc7d4c17ef73ca363524fb9f90b7b4565ce",
+      "blockIds": [
+        "block-47"
+      ],
+      "note": "便捷易用: 控制中心新增关机按钮，关机重启更便捷。..."
+    }
+  ],
+  "audit": {
+    "highlightReviewVersion": 4,
+    "updateReviewVersion": 4,
+    "review": {
+      "content": "verified",
+      "modules": "verified",
+      "media": "verified",
+      "page": "verified"
+    },
+    "expectedHighlightCount": 8,
+    "sourceItemCount": 48,
+    "includedItemCount": 48,
+    "excludedItemCount": 0,
+    "highlightCount": 8,
+    "updateCount": 40,
+    "mediaCount": 0,
+    "mappedItemCount": 48,
+    "coverageRate": 1
+  }
+}

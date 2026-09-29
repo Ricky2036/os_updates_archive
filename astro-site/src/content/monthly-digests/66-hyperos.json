@@ -1,0 +1,2536 @@
+{
+  "schemaVersion": 3,
+  "contentReviewVersion": 4,
+  "mediaReviewVersion": 4,
+  "articleId": "HyperOS_3_更新说明_(2025)",
+  "reviewStatus": "verified",
+  "sourceHash": "0da14f2e5692ae8c4cf3f75e491e43f1813d3bc6f886b7ed35389e2195df033a",
+  "highlights": [
+    {
+      "id": "highlight-01",
+      "module": "流畅体验",
+      "moduleSource": "explicit-heading",
+      "title": "编译底层优化与帧率维稳",
+      "description": "性能优化深入微架构编译底层，降低应用冷热启动时延；游戏重载下帧率曲线更平稳，平均每帧能耗持续降低。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-01-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-01"
+      ]
+    },
+    {
+      "id": "highlight-02",
+      "module": "图形技术",
+      "moduleSource": "explicit-heading",
+      "title": "窗口动画下沉系统层",
+      "description": "窗口动画绘制整体下沉至系统底层，消除多任务调度过程中的偶发抖动，显著提升应用启动与退出的动效稳定性。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-02-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-02"
+      ]
+    },
+    {
+      "id": "highlight-03",
+      "module": "小米超级岛",
+      "moduleSource": "explicit-heading",
+      "title": "定制超窄字体与交互革新",
+      "description": "适配超窄字体让状态胶囊承载更全信息；支持下拉展开临时小窗与拖拽快速分享，导航、电话与取件信息一键直达。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-03-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-03"
+      ]
+    },
+    {
+      "id": "highlight-04",
+      "module": "全新设计",
+      "moduleSource": "explicit-heading",
+      "title": "电影感动态锁屏与景深排版",
+      "description": "AI 算法支持将静态壁纸转为生动动态壁纸，二次元与人像主题自动分层景深，大时间居中布局带来高级视觉质感。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-04-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-04"
+      ]
+    },
+    {
+      "id": "highlight-05",
+      "module": "全新设计",
+      "moduleSource": "explicit-heading",
+      "title": "自然通透桌面网格",
+      "description": "重构桌面网格系统与图标细节，状态栏更精致协调，引入多层模糊与混色材质，界面整体通透沉浸。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-05-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-05"
+      ]
+    },
+    {
+      "id": "highlight-06",
+      "module": "相册分享",
+      "moduleSource": "explicit-heading",
+      "title": "贴贴分享与精细语义检索",
+      "description": "NFC 贴一下即可高速无损将照片视频传输至目标设备相册；相册支持 10 大分类数万个精准关键词语义检索。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-06-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-06"
+      ]
+    },
+    {
+      "id": "highlight-07",
+      "module": "跨设备协同",
+      "moduleSource": "explicit-heading",
+      "title": "电脑互联大屏多窗口",
+      "description": "手机应用可投屏至电脑并支持自由拉伸大屏显示、跨端文件拖拽互传与多窗口并行；支持平板妙享桌面投屏。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-07-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-07"
+      ]
+    },
+    {
+      "id": "highlight-08",
+      "module": "超级小爱",
+      "moduleSource": "explicit-heading",
+      "title": "小爱圈屏智能解析",
+      "description": "圈选屏幕任意区域即时答疑；支持圈选 Wi-Fi 账密自动连网，根据圈选内容主动给出电话呼叫或日程备忘等场景化建议。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-08-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-08"
+      ]
+    },
+    {
+      "id": "highlight-09",
+      "module": "设备安全",
+      "moduleSource": "explicit-heading",
+      "title": "关机离线设备查找",
+      "description": "设备查找安全升级，关机或离线状态下依托周围生态设备端到端加密匿名广播上传位置，守护设备资产安全。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-09-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-09"
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "id": "update-01",
+      "module": "流畅性 - 性能",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "应用的多轮连续启动退出无需重新加载",
+      "description": "应用的多轮连续启动退出无需重新加载",
+      "evidenceIds": [
+        "update-01-body"
+      ],
+      "sourceItemIds": [
+        "source-update-01"
+      ]
+    },
+    {
+      "id": "update-02",
+      "module": "流畅性 - 性能",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "帧率曲线更平稳，掉帧更少",
+      "description": "帧率曲线更平稳，掉帧更少",
+      "evidenceIds": [
+        "update-02-body"
+      ],
+      "sourceItemIds": [
+        "source-update-02"
+      ]
+    },
+    {
+      "id": "update-03",
+      "module": "流畅性 - 性能",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "平均祯功耗更低",
+      "description": "平均祯功耗更低",
+      "evidenceIds": [
+        "update-03-body"
+      ],
+      "sourceItemIds": [
+        "source-update-03"
+      ]
+    },
+    {
+      "id": "update-04",
+      "module": "流畅性 - 性能",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "性能优化从OS2的聚焦调度策略优化深入到OS3的编译级优化",
+      "description": "性能优化从OS2的聚焦调度策略优化深入到OS3的编译级优化",
+      "evidenceIds": [
+        "update-04-body"
+      ],
+      "sourceItemIds": [
+        "source-update-04"
+      ]
+    },
+    {
+      "id": "update-05",
+      "module": "稳定",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "窗口动画绘制下沉至系统层,显性提升动画稳定性",
+      "description": "窗口动画绘制下沉至系统层,显性提升动画稳定性",
+      "evidenceIds": [
+        "update-05-body"
+      ],
+      "sourceItemIds": [
+        "source-update-05"
+      ]
+    },
+    {
+      "id": "update-06",
+      "module": "动效",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "通过技术同源的设计对于跨段设备的动效流畅性表现实现了同步提升",
+      "description": "通过技术同源的设计对于跨段设备的动效流畅性表现实现了同步提升",
+      "evidenceIds": [
+        "update-06-body"
+      ],
+      "sourceItemIds": [
+        "source-update-06"
+      ]
+    },
+    {
+      "id": "update-07",
+      "module": "小米超级岛 - 路线选择",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "安卓阵营头部友商中最后一个支持上岛的厂商，整体交互体验对标iOS",
+      "description": "安卓阵营头部友商中最后一个支持上岛的厂商，整体交互体验对标iOS",
+      "evidenceIds": [
+        "update-07-body"
+      ],
+      "sourceItemIds": [
+        "source-update-07"
+      ]
+    },
+    {
+      "id": "update-08",
+      "module": "特色体验",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "定制超窄字体，让信息显示更完整",
+      "description": "定制超窄字体，让信息显示更完整",
+      "evidenceIds": [
+        "update-08-body"
+      ],
+      "sourceItemIds": [
+        "source-update-08"
+      ]
+    },
+    {
+      "id": "update-09",
+      "module": "特色体验",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "支持下拉展开小窗实现即用即走",
+      "description": "支持下拉展开小窗实现即用即走",
+      "evidenceIds": [
+        "update-09-body"
+      ],
+      "sourceItemIds": [
+        "source-update-09"
+      ]
+    },
+    {
+      "id": "update-10",
+      "module": "特色体验",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "支持拖拽进行行程信息分享",
+      "description": "支持拖拽进行行程信息分享",
+      "evidenceIds": [
+        "update-10-body"
+      ],
+      "sourceItemIds": [
+        "source-update-10"
+      ]
+    },
+    {
+      "id": "update-11",
+      "module": "特色体验",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "支持导航，电话和快递信息的复制直达",
+      "description": "支持导航，电话和快递信息的复制直达",
+      "evidenceIds": [
+        "update-11-body"
+      ],
+      "sourceItemIds": [
+        "source-update-11"
+      ]
+    },
+    {
+      "id": "update-12",
+      "module": "全新设计 - 锁屏",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "支持生成风格化动态壁纸",
+      "description": "支持生成风格化动态壁纸",
+      "evidenceIds": [
+        "update-12-body"
+      ],
+      "sourceItemIds": [
+        "source-update-12"
+      ]
+    },
+    {
+      "id": "update-13",
+      "module": "全新设计 - 锁屏",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "在线AI免生成的动态壁纸，直接使用",
+      "description": "在线AI免生成的动态壁纸，直接使用",
+      "evidenceIds": [
+        "update-13-body"
+      ],
+      "sourceItemIds": [
+        "source-update-13"
+      ]
+    },
+    {
+      "id": "update-14",
+      "module": "全新设计 - 锁屏",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "默认主题改为居中的时间布局",
+      "description": "默认主题改为居中的时间布局",
+      "evidenceIds": [
+        "update-14-body"
+      ],
+      "sourceItemIds": [
+        "source-update-14"
+      ]
+    },
+    {
+      "id": "update-15",
+      "module": "全新设计 - 锁屏",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "串联AOD到锁屏桌面的个性化设计",
+      "description": "串联AOD到锁屏桌面的个性化设计",
+      "evidenceIds": [
+        "update-15-body"
+      ],
+      "sourceItemIds": [
+        "source-update-15"
+      ]
+    },
+    {
+      "id": "update-16",
+      "module": "桌面",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "更均匀的全新网格系统",
+      "description": "更均匀的全新网格系统",
+      "evidenceIds": [
+        "update-16-body"
+      ],
+      "sourceItemIds": [
+        "source-update-16"
+      ]
+    },
+    {
+      "id": "update-17",
+      "module": "桌面",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "图标更高清细腻，细节设计参考iOS",
+      "description": "图标更高清细腻，细节设计参考iOS",
+      "evidenceIds": [
+        "update-17-body"
+      ],
+      "sourceItemIds": [
+        "source-update-17"
+      ]
+    },
+    {
+      "id": "update-18",
+      "module": "桌面",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "状态栏更精致简洁，风格往iOS靠拢",
+      "description": "状态栏更精致简洁，风格往iOS靠拢",
+      "evidenceIds": [
+        "update-18-body"
+      ],
+      "sourceItemIds": [
+        "source-update-18"
+      ]
+    },
+    {
+      "id": "update-19",
+      "module": "相册 - 自定义能力",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "首页支持自定义排序方式，易用性功能补齐",
+      "description": "首页支持自定义排序方式，易用性功能补齐",
+      "evidenceIds": [
+        "update-19-body"
+      ],
+      "sourceItemIds": [
+        "source-update-19"
+      ]
+    },
+    {
+      "id": "update-20",
+      "module": "相册 - 自定义能力",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "影集自定义排序，",
+      "description": "影集自定义排序，",
+      "evidenceIds": [
+        "update-20-body"
+      ],
+      "sourceItemIds": [
+        "source-update-20"
+      ]
+    },
+    {
+      "id": "update-21",
+      "module": "浏览、查找与分享",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "针对用户常搜的10大分类3万多个精细关键词定向优化，支持分类浏览，宠物也支持按特征分类",
+      "description": "针对用户常搜的10大分类3万多个精细关键词定向优化，支持分类浏览，宠物也支持按特征分类",
+      "evidenceIds": [
+        "update-21-body"
+      ],
+      "sourceItemIds": [
+        "source-update-21"
+      ]
+    },
+    {
+      "id": "update-22",
+      "module": "浏览、查找与分享",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "贴贴分享：NFC贴一下,照片和视频无损高速传输直达iOS相册",
+      "description": "贴贴分享：NFC贴一下,照片和视频无损高速传输直达iOS相册",
+      "evidenceIds": [
+        "update-22-body"
+      ],
+      "sourceItemIds": [
+        "source-update-22"
+      ]
+    },
+    {
+      "id": "update-23",
+      "module": "iOS生态互联 - Mac互联",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "手机应用投屏至Mac后也能\"大屏显示\"",
+      "description": "手机应用投屏至Mac后也能\"大屏显示\"",
+      "evidenceIds": [
+        "update-23-body"
+      ],
+      "sourceItemIds": [
+        "source-update-23"
+      ]
+    },
+    {
+      "id": "update-24",
+      "module": "iOS生态互联 - Mac互联",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "支持拖拽传输文件",
+      "description": "支持拖拽传输文件",
+      "evidenceIds": [
+        "update-24-body"
+      ],
+      "sourceItemIds": [
+        "source-update-24"
+      ]
+    },
+    {
+      "id": "update-25",
+      "module": "iOS生态互联 - Mac互联",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "首家支持iPad的妙享桌面投屏",
+      "description": "首家支持iPad的妙享桌面投屏",
+      "evidenceIds": [
+        "update-25-body"
+      ],
+      "sourceItemIds": [
+        "source-update-25"
+      ]
+    },
+    {
+      "id": "update-26",
+      "module": "iOS生态互联 - Mac互联",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "支持面容ID解锁",
+      "description": "支持面容ID解锁",
+      "evidenceIds": [
+        "update-26-body"
+      ],
+      "sourceItemIds": [
+        "source-update-26"
+      ]
+    },
+    {
+      "id": "update-27",
+      "module": "iPhone双持",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "云相册互通看照片无需换手机",
+      "description": "云相册互通看照片无需换手机",
+      "evidenceIds": [
+        "update-27-body"
+      ],
+      "sourceItemIds": [
+        "source-update-27"
+      ]
+    },
+    {
+      "id": "update-28",
+      "module": "iPhone双持",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "小米手机照片分享至iPhone应用",
+      "description": "小米手机照片分享至iPhone应用",
+      "evidenceIds": [
+        "update-28-body"
+      ],
+      "sourceItemIds": [
+        "source-update-28"
+      ]
+    },
+    {
+      "id": "update-29",
+      "module": "iPhone双持",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "重要通知,同步提醒在iPhone上提醒小米手机通知",
+      "description": "重要通知,同步提醒在iPhone上提醒小米手机通知",
+      "evidenceIds": [
+        "update-29-body"
+      ],
+      "sourceItemIds": [
+        "source-update-29"
+      ]
+    },
+    {
+      "id": "update-30",
+      "module": "iPhone双持",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "点击通知,镜像回复",
+      "description": "点击通知,镜像回复",
+      "evidenceIds": [
+        "update-30-body"
+      ],
+      "sourceItemIds": [
+        "source-update-30"
+      ]
+    },
+    {
+      "id": "update-31",
+      "module": "iPhone双持",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "在iPhone上镜像小米手机回复消息",
+      "description": "在iPhone上镜像小米手机回复消息",
+      "evidenceIds": [
+        "update-31-body"
+      ],
+      "sourceItemIds": [
+        "source-update-31"
+      ]
+    },
+    {
+      "id": "update-32",
+      "module": "大屏体验 - 浏览器",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "支持PC级的浏览器体验",
+      "description": "支持PC级的浏览器体验",
+      "evidenceIds": [
+        "update-32-body"
+      ],
+      "sourceItemIds": [
+        "source-update-32"
+      ]
+    },
+    {
+      "id": "update-33",
+      "module": "分屏",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "支持分屏比例调节到1:9，上下分屏",
+      "description": "支持分屏比例调节到1:9，上下分屏",
+      "evidenceIds": [
+        "update-33-body"
+      ],
+      "sourceItemIds": [
+        "source-update-33"
+      ]
+    },
+    {
+      "id": "update-34",
+      "module": "应用适配",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增20款应用的大屏深度适配",
+      "description": "新增20款应用的大屏深度适配",
+      "evidenceIds": [
+        "update-34-body"
+      ],
+      "sourceItemIds": [
+        "source-update-34"
+      ]
+    },
+    {
+      "id": "update-35",
+      "module": "AI·超级小爱 - 超级小爱",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "启动、输入快、应用搜索、拍照识别更快",
+      "description": "启动、输入快、应用搜索、拍照识别更快",
+      "evidenceIds": [
+        "update-35-body"
+      ],
+      "sourceItemIds": [
+        "source-update-35"
+      ]
+    },
+    {
+      "id": "update-36",
+      "module": "AI·超级小爱 - 超级小爱",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "拍照支持翻译",
+      "description": "拍照支持翻译",
+      "evidenceIds": [
+        "update-36-body"
+      ],
+      "sourceItemIds": [
+        "source-update-36"
+      ]
+    },
+    {
+      "id": "update-37",
+      "module": "小爱圈屏",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "圈题目,帮你答疑解惑",
+      "description": "圈题目,帮你答疑解惑",
+      "evidenceIds": [
+        "update-37-body"
+      ],
+      "sourceItemIds": [
+        "source-update-37"
+      ]
+    },
+    {
+      "id": "update-38",
+      "module": "小爱圈屏",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "圈Wi-Fi帮连Wi-Fi",
+      "description": "圈Wi-Fi帮连Wi-Fi",
+      "evidenceIds": [
+        "update-38-body"
+      ],
+      "sourceItemIds": [
+        "source-update-38"
+      ]
+    },
+    {
+      "id": "update-39",
+      "module": "小爱圈屏",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "根据圈出的内容给出场景化建议如：打电话，导航，记一下，翻译，问屏等",
+      "description": "根据圈出的内容给出场景化建议如：打电话，导航，记一下，翻译，问屏等",
+      "evidenceIds": [
+        "update-39-body"
+      ],
+      "sourceItemIds": [
+        "source-update-39"
+      ]
+    },
+    {
+      "id": "update-40",
+      "module": "一步直达",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "支持基于自然语言的识别帮用户进行手机操作（非原有的规则匹配），可以实现一句话让小爱帮忙",
+      "description": "支持基于自然语言的识别帮用户进行手机操作（非原有的规则匹配），可以实现一句话让小爱帮忙",
+      "evidenceIds": [
+        "update-40-body"
+      ],
+      "sourceItemIds": [
+        "source-update-40"
+      ]
+    },
+    {
+      "id": "update-41",
+      "module": "一步直达",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "打开支付宝医保码",
+      "description": "打开支付宝医保码",
+      "evidenceIds": [
+        "update-41-body"
+      ],
+      "sourceItemIds": [
+        "source-update-41"
+      ]
+    },
+    {
+      "id": "update-42",
+      "module": "一步直达",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "用户美团搜共享充电",
+      "description": "用户美团搜共享充电",
+      "evidenceIds": [
+        "update-42-body"
+      ],
+      "sourceItemIds": [
+        "source-update-42"
+      ]
+    },
+    {
+      "id": "update-43",
+      "module": "一步直达",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "打开百度网盘扫一扫",
+      "description": "打开百度网盘扫一扫",
+      "evidenceIds": [
+        "update-43-body"
+      ],
+      "sourceItemIds": [
+        "source-update-43"
+      ]
+    },
+    {
+      "id": "update-44",
+      "module": "一步直达",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "打开抖音搜小米汽车",
+      "description": "打开抖音搜小米汽车",
+      "evidenceIds": [
+        "update-44-body"
+      ],
+      "sourceItemIds": [
+        "source-update-44"
+      ]
+    },
+    {
+      "id": "update-45",
+      "module": "AI隐私背书",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "获得《移动终端操作系统Al能力证书》\"操作系统AI能力达到五星级,特发此证\"",
+      "description": "获得《移动终端操作系统Al能力证书》\"操作系统AI能力达到五星级,特发此证\"",
+      "evidenceIds": [
+        "update-45-body"
+      ],
+      "sourceItemIds": [
+        "source-update-45"
+      ]
+    },
+    {
+      "id": "update-46",
+      "module": "AI隐私背书",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "端云隐私计算保障全链路安全",
+      "description": "端云隐私计算保障全链路安全",
+      "evidenceIds": [
+        "update-46-body"
+      ],
+      "sourceItemIds": [
+        "source-update-46"
+      ]
+    },
+    {
+      "id": "update-47",
+      "module": "安全隐私 - 安全认证",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "自研MiTEE获得CCRCEAL5+国内最高等级认证",
+      "description": "自研MiTEE获得CCRCEAL5+国内最高等级认证",
+      "evidenceIds": [
+        "update-47-body"
+      ],
+      "sourceItemIds": [
+        "source-update-47"
+      ]
+    },
+    {
+      "id": "update-48",
+      "module": "跨端安全",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "基于MiTEE构建互联安全协议 支撑全设备生态的跨端生物解锁",
+      "description": "基于MiTEE构建互联安全协议 支撑全设备生态的跨端生物解锁",
+      "evidenceIds": [
+        "update-48-body"
+      ],
+      "sourceItemIds": [
+        "source-update-48"
+      ]
+    },
+    {
+      "id": "update-49",
+      "module": "账号安全",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "双重认证登录提升账号安全",
+      "description": "双重认证登录提升账号安全",
+      "evidenceIds": [
+        "update-49-body"
+      ],
+      "sourceItemIds": [
+        "source-update-49"
+      ]
+    },
+    {
+      "id": "update-50",
+      "module": "数据安全",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "高级数据保护数据出端即加密",
+      "description": "高级数据保护数据出端即加密",
+      "evidenceIds": [
+        "update-50-body"
+      ],
+      "sourceItemIds": [
+        "source-update-50"
+      ]
+    },
+    {
+      "id": "update-51",
+      "module": "设备安全",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "设备查找升级关机/离线也能找，广播通知附近设备端到端加密匿名上传",
+      "description": "设备查找升级关机/离线也能找，广播通知附近设备端到端加密匿名上传",
+      "evidenceIds": [
+        "update-51-body"
+      ],
+      "sourceItemIds": [
+        "source-update-51"
+      ]
+    },
+    {
+      "id": "update-52",
+      "module": "隐私保护",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "日历、文件、照片视频、联系人、剪贴板等权限新变革用户选什么才给什么",
+      "description": "日历、文件、照片视频、联系人、剪贴板等权限新变革用户选什么才给什么",
+      "evidenceIds": [
+        "update-52-body"
+      ],
+      "sourceItemIds": [
+        "source-update-52"
+      ]
+    }
+  ],
+  "sourceItems": [
+    {
+      "id": "source-highlight-01",
+      "classification": "highlight",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 0,
+      "sourceHash": "15efac612db5e2ab03b861b33a42d6fba37e8d43aa9b3790c6d19c32def5bdf0",
+      "blockIds": [
+        "block-0"
+      ],
+      "text": "打开应用的响应时延和完成时延更低",
+      "targetIds": [
+        "highlight-01"
+      ]
+    },
+    {
+      "id": "source-update-01",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 1,
+      "sourceHash": "66c3449902d6a5a46f272b83edbd55f25204a080f1ddcfe25a797d40c138cff9",
+      "blockIds": [
+        "block-1"
+      ],
+      "text": "应用的多轮连续启动退出无需重新加载",
+      "targetIds": [
+        "update-01"
+      ]
+    },
+    {
+      "id": "source-update-02",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 2,
+      "sourceHash": "efc17566b17d5015a33903561e6309aaf9986f2e8cda5bece8dc68948a255142",
+      "blockIds": [
+        "block-2"
+      ],
+      "text": "帧率曲线更平稳，掉帧更少",
+      "targetIds": [
+        "update-02"
+      ]
+    },
+    {
+      "id": "source-highlight-02",
+      "classification": "highlight",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 3,
+      "sourceHash": "e85ea079982d51d90c28daab697fc3f1328d5b4d0a0ca6a3818858d156360a35",
+      "blockIds": [
+        "block-3"
+      ],
+      "text": "1% Low帧的平均帧数更高",
+      "targetIds": [
+        "highlight-02"
+      ]
+    },
+    {
+      "id": "source-update-03",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 4,
+      "sourceHash": "bb8a546b325d95522115e40ca611fdced02aa5f61551f9e61a8d94f470b66406",
+      "blockIds": [
+        "block-4"
+      ],
+      "text": "平均祯功耗更低",
+      "targetIds": [
+        "update-03"
+      ]
+    },
+    {
+      "id": "source-update-04",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 5,
+      "sourceHash": "d3f09008ca37fb355ba6a0161b9fff9e86ac0a8399e90119165ea7467c3ce38b",
+      "blockIds": [
+        "block-5"
+      ],
+      "text": "性能优化从OS2的聚焦调度策略优化深入到OS3的编译级优化",
+      "targetIds": [
+        "update-04"
+      ]
+    },
+    {
+      "id": "source-highlight-03",
+      "classification": "highlight",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 6,
+      "sourceHash": "92b94f32fe67e9eccc332dc98740a0ac9b77359d6eca9394a5b90d2b98f9e2f6",
+      "blockIds": [
+        "block-6"
+      ],
+      "text": "短视频播放的功耗更低",
+      "targetIds": [
+        "highlight-03"
+      ]
+    },
+    {
+      "id": "source-update-05",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 7,
+      "sourceHash": "03df63844d14b245d5455518dbce1f971dbf641835ab0d23980c0f7ce763f4c9",
+      "blockIds": [
+        "block-7"
+      ],
+      "text": "窗口动画绘制下沉至系统层,显性提升动画稳定性",
+      "targetIds": [
+        "update-05"
+      ]
+    },
+    {
+      "id": "source-highlight-04",
+      "classification": "highlight",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 8,
+      "sourceHash": "174fb18190bac0f5a21b748062eb2ec30e2c5943ceb6bf2a57b9bb637620c46f",
+      "blockIds": [
+        "block-8"
+      ],
+      "text": "从动效的稳定性，丝滑和跟手效果三个方向对系统100+场景的动效进行了打磨体感全面顺畅",
+      "targetIds": [
+        "highlight-04"
+      ]
+    },
+    {
+      "id": "source-update-06",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 9,
+      "sourceHash": "121a6b599ca308d201ea1a957993abd2a29bf489d768cdb9ef17240ada191eea",
+      "blockIds": [
+        "block-9"
+      ],
+      "text": "通过技术同源的设计对于跨段设备的动效流畅性表现实现了同步提升",
+      "targetIds": [
+        "update-06"
+      ]
+    },
+    {
+      "id": "source-update-07",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 10,
+      "sourceHash": "05544243661adb0dc1e6111f1f7b44664844d701175050a673a9eb4acb652c9e",
+      "blockIds": [
+        "block-10"
+      ],
+      "text": "安卓阵营头部友商中最后一个支持上岛的厂商，整体交互体验对标iOS",
+      "targetIds": [
+        "update-07"
+      ]
+    },
+    {
+      "id": "source-update-08",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 11,
+      "sourceHash": "dea0939d9185beca619c809a70a39cbb051adc393706f4c4851437f56cdafd3d",
+      "blockIds": [
+        "block-11"
+      ],
+      "text": "定制超窄字体，让信息显示更完整",
+      "targetIds": [
+        "update-08"
+      ]
+    },
+    {
+      "id": "source-highlight-05",
+      "classification": "highlight",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 12,
+      "sourceHash": "e3a64c12ae21cb07969ab75f76e515de90c37721a7d1b0350e2519d5cd6a9dcd",
+      "blockIds": [
+        "block-12"
+      ],
+      "text": "小窗信息展示切换与分享",
+      "targetIds": [
+        "highlight-05"
+      ]
+    },
+    {
+      "id": "source-update-09",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 13,
+      "sourceHash": "c58fc0d2f7e0e1c7de4285519d4dcc5775dfe49f0f4fde3f3109d3f67007842a",
+      "blockIds": [
+        "block-13"
+      ],
+      "text": "支持下拉展开小窗实现即用即走",
+      "targetIds": [
+        "update-09"
+      ]
+    },
+    {
+      "id": "source-update-10",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 14,
+      "sourceHash": "0078e5cc071dc48dac1d6de0e0f2dd8dad5522665c0d490069ba290ea3b1f4c6",
+      "blockIds": [
+        "block-14"
+      ],
+      "text": "支持拖拽进行行程信息分享",
+      "targetIds": [
+        "update-10"
+      ]
+    },
+    {
+      "id": "source-update-11",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 15,
+      "sourceHash": "4db79db4f7c482f22e9fa179a4f1e570bdde88df477e52524d2f9d674a3c4077",
+      "blockIds": [
+        "block-15"
+      ],
+      "text": "支持导航，电话和快递信息的复制直达",
+      "targetIds": [
+        "update-11"
+      ]
+    },
+    {
+      "id": "source-highlight-06",
+      "classification": "highlight",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 16,
+      "sourceHash": "6473e7a13381b7392003ca67290997d40f54b435b60cc65ffc5fb3b7f3e1080c",
+      "blockIds": [
+        "block-16"
+      ],
+      "text": "通过AI将静态壁纸生成动态壁纸",
+      "targetIds": [
+        "highlight-06"
+      ]
+    },
+    {
+      "id": "source-update-12",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 17,
+      "sourceHash": "c6f94e25208598b2d1f5e51732cc99edc176f3db9c8efbf9af4e8b9b2136cfa9",
+      "blockIds": [
+        "block-17"
+      ],
+      "text": "支持生成风格化动态壁纸",
+      "targetIds": [
+        "update-12"
+      ]
+    },
+    {
+      "id": "source-highlight-07",
+      "classification": "highlight",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 18,
+      "sourceHash": "08c4b70b70db97c33e72307cd107043fbb3179feffac5a830bee219163ccabf0",
+      "blockIds": [
+        "block-18"
+      ],
+      "text": "二次元壁纸生成动态和景深",
+      "targetIds": [
+        "highlight-07"
+      ]
+    },
+    {
+      "id": "source-update-13",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 19,
+      "sourceHash": "72e2e7df7e61047f68f432d802bc86153e3e65e7b3bb15d8bc229d396404540f",
+      "blockIds": [
+        "block-19"
+      ],
+      "text": "在线AI免生成的动态壁纸，直接使用",
+      "targetIds": [
+        "update-13"
+      ]
+    },
+    {
+      "id": "source-update-14",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 20,
+      "sourceHash": "5a2214ec09d15ce5a461d41917a00aa5a7f2c24ac1577f4c60c1e93bf16aa30c",
+      "blockIds": [
+        "block-20"
+      ],
+      "text": "默认主题改为居中的时间布局",
+      "targetIds": [
+        "update-14"
+      ]
+    },
+    {
+      "id": "source-update-15",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 21,
+      "sourceHash": "3deb7667cb5bb8caac023dc5a9910cfb0e0c6dbf8d2813f40b4b118c6217ef90",
+      "blockIds": [
+        "block-21"
+      ],
+      "text": "串联AOD到锁屏桌面的个性化设计",
+      "targetIds": [
+        "update-15"
+      ]
+    },
+    {
+      "id": "source-update-16",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 22,
+      "sourceHash": "327f0d09c2876ccd6e736182115fc408d0c13debe9eeef0547cf58630ee23d54",
+      "blockIds": [
+        "block-22"
+      ],
+      "text": "更均匀的全新网格系统",
+      "targetIds": [
+        "update-16"
+      ]
+    },
+    {
+      "id": "source-update-17",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 23,
+      "sourceHash": "43256f51bbcba860bae3b27f5507fad9c090f9a4643025d67c065e1a697a80c7",
+      "blockIds": [
+        "block-23"
+      ],
+      "text": "图标更高清细腻，细节设计参考iOS",
+      "targetIds": [
+        "update-17"
+      ]
+    },
+    {
+      "id": "source-update-18",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 24,
+      "sourceHash": "fbeb0100e8fdc057642ec4aaddb3af77407bd2563b9a464042db1e051b86353e",
+      "blockIds": [
+        "block-24"
+      ],
+      "text": "状态栏更精致简洁，风格往iOS靠拢",
+      "targetIds": [
+        "update-18"
+      ]
+    },
+    {
+      "id": "source-highlight-08",
+      "classification": "highlight",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 25,
+      "sourceHash": "362db24e1675afc8ed9e5f832ffea758fb55aca1ab4cd72fb420243a9733b189",
+      "blockIds": [
+        "block-25"
+      ],
+      "text": "材质更通透，增加大量模糊和混色效果，对标iOS上一版本",
+      "targetIds": [
+        "highlight-08"
+      ]
+    },
+    {
+      "id": "source-update-19",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 26,
+      "sourceHash": "0b9160284888c5f051f561e7e7d9262d10e7138f03daa7c34bb8889c31e3366a",
+      "blockIds": [
+        "block-26"
+      ],
+      "text": "首页支持自定义排序方式，易用性功能补齐",
+      "targetIds": [
+        "update-19"
+      ]
+    },
+    {
+      "id": "source-update-20",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 27,
+      "sourceHash": "8c516dfdc8fc623b3331436d2eef9c3841966c4d8091fb1a3d6de99277199dfa",
+      "blockIds": [
+        "block-27"
+      ],
+      "text": "影集自定义排序，",
+      "targetIds": [
+        "update-20"
+      ]
+    },
+    {
+      "id": "source-update-21",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 28,
+      "sourceHash": "60c39aeb7cfb5d2d1faf78095cef405ece3e9fa4d670c1cbeeb3996f72337cba",
+      "blockIds": [
+        "block-28"
+      ],
+      "text": "针对用户常搜的10大分类3万多个精细关键词定向优化，支持分类浏览，宠物也支持按特征分类",
+      "targetIds": [
+        "update-21"
+      ]
+    },
+    {
+      "id": "source-update-22",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 29,
+      "sourceHash": "75f1570accf1562f798b0a83f9f6ea4eace2ba3b606389749246a29dea906874",
+      "blockIds": [
+        "block-29"
+      ],
+      "text": "贴贴分享：NFC贴一下,照片和视频无损高速传输直达iOS相册",
+      "targetIds": [
+        "update-22"
+      ]
+    },
+    {
+      "id": "source-update-23",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 30,
+      "sourceHash": "7f99e60c4396436645a8af3cf77619741c545dce40dde98947adc28cb25ef2fd",
+      "blockIds": [
+        "block-30"
+      ],
+      "text": "手机应用投屏至Mac后也能\"大屏显示\"",
+      "targetIds": [
+        "update-23"
+      ]
+    },
+    {
+      "id": "source-update-24",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 31,
+      "sourceHash": "f4493f23bd640755cd3b7eb4ccf61d554931771a400113f5f2e97fa4eec816d4",
+      "blockIds": [
+        "block-31"
+      ],
+      "text": "支持拖拽传输文件",
+      "targetIds": [
+        "update-24"
+      ]
+    },
+    {
+      "id": "source-highlight-09",
+      "classification": "highlight",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 32,
+      "sourceHash": "5a7b4db20009008c92d314ae18b0aac1442c5fb46f18bfa36c2ef6a449c2f49c",
+      "blockIds": [
+        "block-32"
+      ],
+      "text": "支持多窗口任意开",
+      "targetIds": [
+        "highlight-09"
+      ]
+    },
+    {
+      "id": "source-update-25",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 33,
+      "sourceHash": "54e6df25aa8a557c3bf014bfdfaa3d1aa069ea2ade8dc5e881bcdbbd641f3c50",
+      "blockIds": [
+        "block-33"
+      ],
+      "text": "首家支持iPad的妙享桌面投屏",
+      "targetIds": [
+        "update-25"
+      ]
+    },
+    {
+      "id": "source-update-26",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 34,
+      "sourceHash": "9e16131ac48d301145454e45665f4747a23b502b687a6cd25a86e53100da2f4b",
+      "blockIds": [
+        "block-34"
+      ],
+      "text": "支持面容ID解锁",
+      "targetIds": [
+        "update-26"
+      ]
+    },
+    {
+      "id": "source-update-27",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 35,
+      "sourceHash": "d25b4d82d9844203c1d248f73146bce2a3dc04633da07baf5f56717fa95fe18e",
+      "blockIds": [
+        "block-35"
+      ],
+      "text": "云相册互通看照片无需换手机",
+      "targetIds": [
+        "update-27"
+      ]
+    },
+    {
+      "id": "source-update-28",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 36,
+      "sourceHash": "b5139bc0bf97ed1a4d42c65126de5095549b0e1f69dc3b047f4b705f388b7301",
+      "blockIds": [
+        "block-36"
+      ],
+      "text": "小米手机照片分享至iPhone应用",
+      "targetIds": [
+        "update-28"
+      ]
+    },
+    {
+      "id": "source-update-29",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 37,
+      "sourceHash": "370de26c17219836d324ddda389d3df24dbf45b4e31833b9dc22f6f495fbe384",
+      "blockIds": [
+        "block-37"
+      ],
+      "text": "重要通知,同步提醒在iPhone上提醒小米手机通知",
+      "targetIds": [
+        "update-29"
+      ]
+    },
+    {
+      "id": "source-update-30",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 38,
+      "sourceHash": "3632d332cdbe0362833dbd567d5cb6700c79907d124606b59fc5f0bdf9b7a5bc",
+      "blockIds": [
+        "block-38"
+      ],
+      "text": "点击通知,镜像回复",
+      "targetIds": [
+        "update-30"
+      ]
+    },
+    {
+      "id": "source-update-31",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 39,
+      "sourceHash": "3da8910deab64954e7e46a14cbce1bec3ac136ddfa3364820ae769511d0433db",
+      "blockIds": [
+        "block-39"
+      ],
+      "text": "在iPhone上镜像小米手机回复消息",
+      "targetIds": [
+        "update-31"
+      ]
+    },
+    {
+      "id": "source-update-32",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 40,
+      "sourceHash": "32a58e68cf4092e7747f2d0878978e6168c88a477ae4e05ec8681ad8e1851709",
+      "blockIds": [
+        "block-40"
+      ],
+      "text": "支持PC级的浏览器体验",
+      "targetIds": [
+        "update-32"
+      ]
+    },
+    {
+      "id": "source-update-33",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 41,
+      "sourceHash": "3ee95ccb7216979b4a58ed42eccf9cb2f578edc16205f7fd0e425c1d356415c6",
+      "blockIds": [
+        "block-41"
+      ],
+      "text": "支持分屏比例调节到1:9，上下分屏",
+      "targetIds": [
+        "update-33"
+      ]
+    },
+    {
+      "id": "source-update-34",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 42,
+      "sourceHash": "161a0bba7383e18891333444a60dc7116abda71c36bbb1420f62b79f39a28060",
+      "blockIds": [
+        "block-42"
+      ],
+      "text": "新增20款应用的大屏深度适配",
+      "targetIds": [
+        "update-34"
+      ]
+    },
+    {
+      "id": "source-update-35",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 43,
+      "sourceHash": "3845b5fe821626f15da2305c6a747782e012fab75302259ab9acfa4ac53e1065",
+      "blockIds": [
+        "block-43"
+      ],
+      "text": "启动、输入快、应用搜索、拍照识别更快",
+      "targetIds": [
+        "update-35"
+      ]
+    },
+    {
+      "id": "source-update-36",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 44,
+      "sourceHash": "bb4c0a1e29cedd4de358835c69bf48bbc44728285f7306a9ccd6f03b4df5303b",
+      "blockIds": [
+        "block-44"
+      ],
+      "text": "拍照支持翻译",
+      "targetIds": [
+        "update-36"
+      ]
+    },
+    {
+      "id": "source-update-37",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 45,
+      "sourceHash": "bdab66d4b51bd6b4c2ecfcb93e62c35a2cbedb57391bb453dd3493be42c81c82",
+      "blockIds": [
+        "block-45"
+      ],
+      "text": "圈题目,帮你答疑解惑",
+      "targetIds": [
+        "update-37"
+      ]
+    },
+    {
+      "id": "source-update-38",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 46,
+      "sourceHash": "7aa51c6283be965afb7f25debd4b7f169324a7647998684f6d74bae41a8fc240",
+      "blockIds": [
+        "block-46"
+      ],
+      "text": "圈Wi-Fi帮连Wi-Fi",
+      "targetIds": [
+        "update-38"
+      ]
+    },
+    {
+      "id": "source-update-39",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 47,
+      "sourceHash": "5ee88a533f5ada032710094207b6dfca7daf4023c2afb042382edadb5e92dfaa",
+      "blockIds": [
+        "block-47"
+      ],
+      "text": "根据圈出的内容给出场景化建议如：打电话，导航，记一下，翻译，问屏等",
+      "targetIds": [
+        "update-39"
+      ]
+    },
+    {
+      "id": "source-update-40",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 48,
+      "sourceHash": "31c219cec8db00e65fa91d8e341d8fa22819aa5e03088182d7f69c22968904b9",
+      "blockIds": [
+        "block-48"
+      ],
+      "text": "支持基于自然语言的识别帮用户进行手机操作（非原有的规则匹配），可以实现一句话让小爱帮忙",
+      "targetIds": [
+        "update-40"
+      ]
+    },
+    {
+      "id": "source-update-41",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 49,
+      "sourceHash": "aa0e8782896edf9336c1dae214cd83a70641a0e66f2a0dd2ecb4c659cb7f98fa",
+      "blockIds": [
+        "block-49"
+      ],
+      "text": "打开支付宝医保码",
+      "targetIds": [
+        "update-41"
+      ]
+    },
+    {
+      "id": "source-update-42",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 50,
+      "sourceHash": "75e49c22fc0db6f1eb8acaccf24422885a4b3a02c5db6d9a35e58719e01250e0",
+      "blockIds": [
+        "block-50"
+      ],
+      "text": "用户美团搜共享充电",
+      "targetIds": [
+        "update-42"
+      ]
+    },
+    {
+      "id": "source-update-43",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 51,
+      "sourceHash": "445f508408bed3f15127c90d1588d16cd31709b98314570d4f5d096e257d4509",
+      "blockIds": [
+        "block-51"
+      ],
+      "text": "打开百度网盘扫一扫",
+      "targetIds": [
+        "update-43"
+      ]
+    },
+    {
+      "id": "source-update-44",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 52,
+      "sourceHash": "9948275a25b9b32621f6b97196dcbac17f532802c986be0b6038158a090d4f93",
+      "blockIds": [
+        "block-52"
+      ],
+      "text": "打开抖音搜小米汽车",
+      "targetIds": [
+        "update-44"
+      ]
+    },
+    {
+      "id": "source-update-45",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 53,
+      "sourceHash": "11f1840b009568f4cb567021e09c94633ffdfd66bb9241c1912264b38596f8b8",
+      "blockIds": [
+        "block-53"
+      ],
+      "text": "获得《移动终端操作系统Al能力证书》\"操作系统AI能力达到五星级,特发此证\"",
+      "targetIds": [
+        "update-45"
+      ]
+    },
+    {
+      "id": "source-update-46",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 54,
+      "sourceHash": "6fd3beabb215957f79ccbdb7b754318e72b9a905b2afef35c728238cd3d7a2bb",
+      "blockIds": [
+        "block-54"
+      ],
+      "text": "端云隐私计算保障全链路安全",
+      "targetIds": [
+        "update-46"
+      ]
+    },
+    {
+      "id": "source-update-47",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 55,
+      "sourceHash": "52cb3a82bc01fa6a6010c39ed6f75ed331603a6fc82b208c086b4a6dc1e3f94a",
+      "blockIds": [
+        "block-55"
+      ],
+      "text": "自研MiTEE获得CCRCEAL5+国内最高等级认证",
+      "targetIds": [
+        "update-47"
+      ]
+    },
+    {
+      "id": "source-update-48",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 56,
+      "sourceHash": "f7c4de01affb84c57dd40ea68e96cc0e2d6d9b74df061576da6d70957abe986f",
+      "blockIds": [
+        "block-56"
+      ],
+      "text": "基于MiTEE构建互联安全协议 支撑全设备生态的跨端生物解锁",
+      "targetIds": [
+        "update-48"
+      ]
+    },
+    {
+      "id": "source-update-49",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 57,
+      "sourceHash": "8a4588329ee9d988def916d73852c4896926e7d06aba3c6034e55b83d81d3e27",
+      "blockIds": [
+        "block-57"
+      ],
+      "text": "双重认证登录提升账号安全",
+      "targetIds": [
+        "update-49"
+      ]
+    },
+    {
+      "id": "source-update-50",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 58,
+      "sourceHash": "c624d5b8065dc87064828a5c110ed5cef13ac841eb62aa72640126b49a721081",
+      "blockIds": [
+        "block-58"
+      ],
+      "text": "高级数据保护数据出端即加密",
+      "targetIds": [
+        "update-50"
+      ]
+    },
+    {
+      "id": "source-update-51",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 59,
+      "sourceHash": "d23aac1d95003c52c738c552c404fd2cf83880f2e6ca5ebc8c27376d94938ec5",
+      "blockIds": [
+        "block-59"
+      ],
+      "text": "设备查找升级关机/离线也能找，广播通知附近设备端到端加密匿名上传",
+      "targetIds": [
+        "update-51"
+      ]
+    },
+    {
+      "id": "source-update-52",
+      "classification": "update",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 60,
+      "sourceHash": "7a5c1c2baabdea803b4e6cbc502030733f9a0a8c587125b4e7b85d873f7788aa",
+      "blockIds": [
+        "block-60"
+      ],
+      "text": "日历、文件、照片视频、联系人、剪贴板等权限新变革用户选什么才给什么",
+      "targetIds": [
+        "update-52"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "highlight-01-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 0,
+      "sourceHash": "15efac612db5e2ab03b861b33a42d6fba37e8d43aa9b3790c6d19c32def5bdf0",
+      "blockIds": [
+        "block-0"
+      ],
+      "note": "流畅性 - 性能: 打开应用的响应时延和完成时延更低..."
+    },
+    {
+      "id": "update-01-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 1,
+      "sourceHash": "66c3449902d6a5a46f272b83edbd55f25204a080f1ddcfe25a797d40c138cff9",
+      "blockIds": [
+        "block-1"
+      ],
+      "note": "流畅性 - 性能: 应用的多轮连续启动退出无需重新加载..."
+    },
+    {
+      "id": "update-02-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 2,
+      "sourceHash": "efc17566b17d5015a33903561e6309aaf9986f2e8cda5bece8dc68948a255142",
+      "blockIds": [
+        "block-2"
+      ],
+      "note": "流畅性 - 性能: 帧率曲线更平稳，掉帧更少..."
+    },
+    {
+      "id": "highlight-02-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 3,
+      "sourceHash": "e85ea079982d51d90c28daab697fc3f1328d5b4d0a0ca6a3818858d156360a35",
+      "blockIds": [
+        "block-3"
+      ],
+      "note": "流畅性 - 性能: 1% Low帧的平均帧数更高..."
+    },
+    {
+      "id": "update-03-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 4,
+      "sourceHash": "bb8a546b325d95522115e40ca611fdced02aa5f61551f9e61a8d94f470b66406",
+      "blockIds": [
+        "block-4"
+      ],
+      "note": "流畅性 - 性能: 平均祯功耗更低..."
+    },
+    {
+      "id": "update-04-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 5,
+      "sourceHash": "d3f09008ca37fb355ba6a0161b9fff9e86ac0a8399e90119165ea7467c3ce38b",
+      "blockIds": [
+        "block-5"
+      ],
+      "note": "流畅性 - 性能: 性能优化从OS2的聚焦调度策略优化深入到OS3的编译级优化..."
+    },
+    {
+      "id": "highlight-03-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 6,
+      "sourceHash": "92b94f32fe67e9eccc332dc98740a0ac9b77359d6eca9394a5b90d2b98f9e2f6",
+      "blockIds": [
+        "block-6"
+      ],
+      "note": "功耗: 短视频播放的功耗更低..."
+    },
+    {
+      "id": "update-05-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 7,
+      "sourceHash": "03df63844d14b245d5455518dbce1f971dbf641835ab0d23980c0f7ce763f4c9",
+      "blockIds": [
+        "block-7"
+      ],
+      "note": "稳定: 窗口动画绘制下沉至系统层,显性提升动画稳定性..."
+    },
+    {
+      "id": "highlight-04-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 8,
+      "sourceHash": "174fb18190bac0f5a21b748062eb2ec30e2c5943ceb6bf2a57b9bb637620c46f",
+      "blockIds": [
+        "block-8"
+      ],
+      "note": "动效: 从动效的稳定性，丝滑和跟手效果三个方向对系统100+场景的动..."
+    },
+    {
+      "id": "update-06-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 9,
+      "sourceHash": "121a6b599ca308d201ea1a957993abd2a29bf489d768cdb9ef17240ada191eea",
+      "blockIds": [
+        "block-9"
+      ],
+      "note": "动效: 通过技术同源的设计对于跨段设备的动效流畅性表现实现了同步提升..."
+    },
+    {
+      "id": "update-07-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 10,
+      "sourceHash": "05544243661adb0dc1e6111f1f7b44664844d701175050a673a9eb4acb652c9e",
+      "blockIds": [
+        "block-10"
+      ],
+      "note": "小米超级岛 - 路线选择: 安卓阵营头部友商中最后一个支持上岛的厂商，整体交互体验对标i..."
+    },
+    {
+      "id": "update-08-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 11,
+      "sourceHash": "dea0939d9185beca619c809a70a39cbb051adc393706f4c4851437f56cdafd3d",
+      "blockIds": [
+        "block-11"
+      ],
+      "note": "特色体验: 定制超窄字体，让信息显示更完整..."
+    },
+    {
+      "id": "highlight-05-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 12,
+      "sourceHash": "e3a64c12ae21cb07969ab75f76e515de90c37721a7d1b0350e2519d5cd6a9dcd",
+      "blockIds": [
+        "block-12"
+      ],
+      "note": "特色体验: 小窗信息展示切换与分享..."
+    },
+    {
+      "id": "update-09-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 13,
+      "sourceHash": "c58fc0d2f7e0e1c7de4285519d4dcc5775dfe49f0f4fde3f3109d3f67007842a",
+      "blockIds": [
+        "block-13"
+      ],
+      "note": "特色体验: 支持下拉展开小窗实现即用即走..."
+    },
+    {
+      "id": "update-10-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 14,
+      "sourceHash": "0078e5cc071dc48dac1d6de0e0f2dd8dad5522665c0d490069ba290ea3b1f4c6",
+      "blockIds": [
+        "block-14"
+      ],
+      "note": "特色体验: 支持拖拽进行行程信息分享..."
+    },
+    {
+      "id": "update-11-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 15,
+      "sourceHash": "4db79db4f7c482f22e9fa179a4f1e570bdde88df477e52524d2f9d674a3c4077",
+      "blockIds": [
+        "block-15"
+      ],
+      "note": "特色体验: 支持导航，电话和快递信息的复制直达..."
+    },
+    {
+      "id": "highlight-06-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 16,
+      "sourceHash": "6473e7a13381b7392003ca67290997d40f54b435b60cc65ffc5fb3b7f3e1080c",
+      "blockIds": [
+        "block-16"
+      ],
+      "note": "全新设计 - 锁屏: 通过AI将静态壁纸生成动态壁纸..."
+    },
+    {
+      "id": "update-12-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 17,
+      "sourceHash": "c6f94e25208598b2d1f5e51732cc99edc176f3db9c8efbf9af4e8b9b2136cfa9",
+      "blockIds": [
+        "block-17"
+      ],
+      "note": "全新设计 - 锁屏: 支持生成风格化动态壁纸..."
+    },
+    {
+      "id": "highlight-07-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 18,
+      "sourceHash": "08c4b70b70db97c33e72307cd107043fbb3179feffac5a830bee219163ccabf0",
+      "blockIds": [
+        "block-18"
+      ],
+      "note": "全新设计 - 锁屏: 二次元壁纸生成动态和景深..."
+    },
+    {
+      "id": "update-13-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 19,
+      "sourceHash": "72e2e7df7e61047f68f432d802bc86153e3e65e7b3bb15d8bc229d396404540f",
+      "blockIds": [
+        "block-19"
+      ],
+      "note": "全新设计 - 锁屏: 在线AI免生成的动态壁纸，直接使用..."
+    },
+    {
+      "id": "update-14-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 20,
+      "sourceHash": "5a2214ec09d15ce5a461d41917a00aa5a7f2c24ac1577f4c60c1e93bf16aa30c",
+      "blockIds": [
+        "block-20"
+      ],
+      "note": "全新设计 - 锁屏: 默认主题改为居中的时间布局..."
+    },
+    {
+      "id": "update-15-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 21,
+      "sourceHash": "3deb7667cb5bb8caac023dc5a9910cfb0e0c6dbf8d2813f40b4b118c6217ef90",
+      "blockIds": [
+        "block-21"
+      ],
+      "note": "全新设计 - 锁屏: 串联AOD到锁屏桌面的个性化设计..."
+    },
+    {
+      "id": "update-16-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 22,
+      "sourceHash": "327f0d09c2876ccd6e736182115fc408d0c13debe9eeef0547cf58630ee23d54",
+      "blockIds": [
+        "block-22"
+      ],
+      "note": "桌面: 更均匀的全新网格系统..."
+    },
+    {
+      "id": "update-17-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 23,
+      "sourceHash": "43256f51bbcba860bae3b27f5507fad9c090f9a4643025d67c065e1a697a80c7",
+      "blockIds": [
+        "block-23"
+      ],
+      "note": "桌面: 图标更高清细腻，细节设计参考iOS..."
+    },
+    {
+      "id": "update-18-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 24,
+      "sourceHash": "fbeb0100e8fdc057642ec4aaddb3af77407bd2563b9a464042db1e051b86353e",
+      "blockIds": [
+        "block-24"
+      ],
+      "note": "桌面: 状态栏更精致简洁，风格往iOS靠拢..."
+    },
+    {
+      "id": "highlight-08-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 25,
+      "sourceHash": "362db24e1675afc8ed9e5f832ffea758fb55aca1ab4cd72fb420243a9733b189",
+      "blockIds": [
+        "block-25"
+      ],
+      "note": "桌面: 材质更通透，增加大量模糊和混色效果，对标iOS上一版本..."
+    },
+    {
+      "id": "update-19-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 26,
+      "sourceHash": "0b9160284888c5f051f561e7e7d9262d10e7138f03daa7c34bb8889c31e3366a",
+      "blockIds": [
+        "block-26"
+      ],
+      "note": "相册 - 自定义能力: 首页支持自定义排序方式，易用性功能补齐..."
+    },
+    {
+      "id": "update-20-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 27,
+      "sourceHash": "8c516dfdc8fc623b3331436d2eef9c3841966c4d8091fb1a3d6de99277199dfa",
+      "blockIds": [
+        "block-27"
+      ],
+      "note": "相册 - 自定义能力: 影集自定义排序，..."
+    },
+    {
+      "id": "update-21-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 28,
+      "sourceHash": "60c39aeb7cfb5d2d1faf78095cef405ece3e9fa4d670c1cbeeb3996f72337cba",
+      "blockIds": [
+        "block-28"
+      ],
+      "note": "浏览、查找与分享: 针对用户常搜的10大分类3万多个精细关键词定向优化，支持分类..."
+    },
+    {
+      "id": "update-22-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 29,
+      "sourceHash": "75f1570accf1562f798b0a83f9f6ea4eace2ba3b606389749246a29dea906874",
+      "blockIds": [
+        "block-29"
+      ],
+      "note": "浏览、查找与分享: 贴贴分享：NFC贴一下,照片和视频无损高速传输直达iOS相册..."
+    },
+    {
+      "id": "update-23-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 30,
+      "sourceHash": "7f99e60c4396436645a8af3cf77619741c545dce40dde98947adc28cb25ef2fd",
+      "blockIds": [
+        "block-30"
+      ],
+      "note": "iOS生态互联 - Mac互联: 手机应用投屏至Mac后也能\"大屏显示\"..."
+    },
+    {
+      "id": "update-24-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 31,
+      "sourceHash": "f4493f23bd640755cd3b7eb4ccf61d554931771a400113f5f2e97fa4eec816d4",
+      "blockIds": [
+        "block-31"
+      ],
+      "note": "iOS生态互联 - Mac互联: 支持拖拽传输文件..."
+    },
+    {
+      "id": "highlight-09-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 32,
+      "sourceHash": "5a7b4db20009008c92d314ae18b0aac1442c5fb46f18bfa36c2ef6a449c2f49c",
+      "blockIds": [
+        "block-32"
+      ],
+      "note": "iOS生态互联 - Mac互联: 支持多窗口任意开..."
+    },
+    {
+      "id": "update-25-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 33,
+      "sourceHash": "54e6df25aa8a557c3bf014bfdfaa3d1aa069ea2ade8dc5e881bcdbbd641f3c50",
+      "blockIds": [
+        "block-33"
+      ],
+      "note": "iOS生态互联 - Mac互联: 首家支持iPad的妙享桌面投屏..."
+    },
+    {
+      "id": "update-26-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 34,
+      "sourceHash": "9e16131ac48d301145454e45665f4747a23b502b687a6cd25a86e53100da2f4b",
+      "blockIds": [
+        "block-34"
+      ],
+      "note": "iOS生态互联 - Mac互联: 支持面容ID解锁..."
+    },
+    {
+      "id": "update-27-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 35,
+      "sourceHash": "d25b4d82d9844203c1d248f73146bce2a3dc04633da07baf5f56717fa95fe18e",
+      "blockIds": [
+        "block-35"
+      ],
+      "note": "iPhone双持: 云相册互通看照片无需换手机..."
+    },
+    {
+      "id": "update-28-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 36,
+      "sourceHash": "b5139bc0bf97ed1a4d42c65126de5095549b0e1f69dc3b047f4b705f388b7301",
+      "blockIds": [
+        "block-36"
+      ],
+      "note": "iPhone双持: 小米手机照片分享至iPhone应用..."
+    },
+    {
+      "id": "update-29-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 37,
+      "sourceHash": "370de26c17219836d324ddda389d3df24dbf45b4e31833b9dc22f6f495fbe384",
+      "blockIds": [
+        "block-37"
+      ],
+      "note": "iPhone双持: 重要通知,同步提醒在iPhone上提醒小米手机通知..."
+    },
+    {
+      "id": "update-30-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 38,
+      "sourceHash": "3632d332cdbe0362833dbd567d5cb6700c79907d124606b59fc5f0bdf9b7a5bc",
+      "blockIds": [
+        "block-38"
+      ],
+      "note": "iPhone双持: 点击通知,镜像回复..."
+    },
+    {
+      "id": "update-31-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 39,
+      "sourceHash": "3da8910deab64954e7e46a14cbce1bec3ac136ddfa3364820ae769511d0433db",
+      "blockIds": [
+        "block-39"
+      ],
+      "note": "iPhone双持: 在iPhone上镜像小米手机回复消息..."
+    },
+    {
+      "id": "update-32-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 40,
+      "sourceHash": "32a58e68cf4092e7747f2d0878978e6168c88a477ae4e05ec8681ad8e1851709",
+      "blockIds": [
+        "block-40"
+      ],
+      "note": "大屏体验 - 浏览器: 支持PC级的浏览器体验..."
+    },
+    {
+      "id": "update-33-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 41,
+      "sourceHash": "3ee95ccb7216979b4a58ed42eccf9cb2f578edc16205f7fd0e425c1d356415c6",
+      "blockIds": [
+        "block-41"
+      ],
+      "note": "分屏: 支持分屏比例调节到1:9，上下分屏..."
+    },
+    {
+      "id": "update-34-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 42,
+      "sourceHash": "161a0bba7383e18891333444a60dc7116abda71c36bbb1420f62b79f39a28060",
+      "blockIds": [
+        "block-42"
+      ],
+      "note": "应用适配: 新增20款应用的大屏深度适配..."
+    },
+    {
+      "id": "update-35-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 43,
+      "sourceHash": "3845b5fe821626f15da2305c6a747782e012fab75302259ab9acfa4ac53e1065",
+      "blockIds": [
+        "block-43"
+      ],
+      "note": "AI·超级小爱 - 超级小爱: 启动、输入快、应用搜索、拍照识别更快..."
+    },
+    {
+      "id": "update-36-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 44,
+      "sourceHash": "bb4c0a1e29cedd4de358835c69bf48bbc44728285f7306a9ccd6f03b4df5303b",
+      "blockIds": [
+        "block-44"
+      ],
+      "note": "AI·超级小爱 - 超级小爱: 拍照支持翻译..."
+    },
+    {
+      "id": "update-37-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 45,
+      "sourceHash": "bdab66d4b51bd6b4c2ecfcb93e62c35a2cbedb57391bb453dd3493be42c81c82",
+      "blockIds": [
+        "block-45"
+      ],
+      "note": "小爱圈屏: 圈题目,帮你答疑解惑..."
+    },
+    {
+      "id": "update-38-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 46,
+      "sourceHash": "7aa51c6283be965afb7f25debd4b7f169324a7647998684f6d74bae41a8fc240",
+      "blockIds": [
+        "block-46"
+      ],
+      "note": "小爱圈屏: 圈Wi-Fi帮连Wi-Fi..."
+    },
+    {
+      "id": "update-39-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 47,
+      "sourceHash": "5ee88a533f5ada032710094207b6dfca7daf4023c2afb042382edadb5e92dfaa",
+      "blockIds": [
+        "block-47"
+      ],
+      "note": "小爱圈屏: 根据圈出的内容给出场景化建议如：打电话，导航，记一下，翻译，..."
+    },
+    {
+      "id": "update-40-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 48,
+      "sourceHash": "31c219cec8db00e65fa91d8e341d8fa22819aa5e03088182d7f69c22968904b9",
+      "blockIds": [
+        "block-48"
+      ],
+      "note": "一步直达: 支持基于自然语言的识别帮用户进行手机操作（非原有的规则匹配）..."
+    },
+    {
+      "id": "update-41-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 49,
+      "sourceHash": "aa0e8782896edf9336c1dae214cd83a70641a0e66f2a0dd2ecb4c659cb7f98fa",
+      "blockIds": [
+        "block-49"
+      ],
+      "note": "一步直达: 打开支付宝医保码..."
+    },
+    {
+      "id": "update-42-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 50,
+      "sourceHash": "75e49c22fc0db6f1eb8acaccf24422885a4b3a02c5db6d9a35e58719e01250e0",
+      "blockIds": [
+        "block-50"
+      ],
+      "note": "一步直达: 用户美团搜共享充电..."
+    },
+    {
+      "id": "update-43-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 51,
+      "sourceHash": "445f508408bed3f15127c90d1588d16cd31709b98314570d4f5d096e257d4509",
+      "blockIds": [
+        "block-51"
+      ],
+      "note": "一步直达: 打开百度网盘扫一扫..."
+    },
+    {
+      "id": "update-44-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 52,
+      "sourceHash": "9948275a25b9b32621f6b97196dcbac17f532802c986be0b6038158a090d4f93",
+      "blockIds": [
+        "block-52"
+      ],
+      "note": "一步直达: 打开抖音搜小米汽车..."
+    },
+    {
+      "id": "update-45-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 53,
+      "sourceHash": "11f1840b009568f4cb567021e09c94633ffdfd66bb9241c1912264b38596f8b8",
+      "blockIds": [
+        "block-53"
+      ],
+      "note": "AI隐私背书: 获得《移动终端操作系统Al能力证书》\"操作系统AI能力达到五..."
+    },
+    {
+      "id": "update-46-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 54,
+      "sourceHash": "6fd3beabb215957f79ccbdb7b754318e72b9a905b2afef35c728238cd3d7a2bb",
+      "blockIds": [
+        "block-54"
+      ],
+      "note": "AI隐私背书: 端云隐私计算保障全链路安全..."
+    },
+    {
+      "id": "update-47-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 55,
+      "sourceHash": "52cb3a82bc01fa6a6010c39ed6f75ed331603a6fc82b208c086b4a6dc1e3f94a",
+      "blockIds": [
+        "block-55"
+      ],
+      "note": "安全隐私 - 安全认证: 自研MiTEE获得CCRCEAL5+国内最高等级认证..."
+    },
+    {
+      "id": "update-48-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 56,
+      "sourceHash": "f7c4de01affb84c57dd40ea68e96cc0e2d6d9b74df061576da6d70957abe986f",
+      "blockIds": [
+        "block-56"
+      ],
+      "note": "跨端安全: 基于MiTEE构建互联安全协议 支撑全设备生态的跨端生物解锁..."
+    },
+    {
+      "id": "update-49-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 57,
+      "sourceHash": "8a4588329ee9d988def916d73852c4896926e7d06aba3c6034e55b83d81d3e27",
+      "blockIds": [
+        "block-57"
+      ],
+      "note": "账号安全: 双重认证登录提升账号安全..."
+    },
+    {
+      "id": "update-50-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 58,
+      "sourceHash": "c624d5b8065dc87064828a5c110ed5cef13ac841eb62aa72640126b49a721081",
+      "blockIds": [
+        "block-58"
+      ],
+      "note": "数据安全: 高级数据保护数据出端即加密..."
+    },
+    {
+      "id": "update-51-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 59,
+      "sourceHash": "d23aac1d95003c52c738c552c404fd2cf83880f2e6ca5ebc8c27376d94938ec5",
+      "blockIds": [
+        "block-59"
+      ],
+      "note": "设备安全: 设备查找升级关机/离线也能找，广播通知附近设备端到端加密匿名..."
+    },
+    {
+      "id": "update-52-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HyperOS_3_更新说明.md",
+      "sourceIndex": 60,
+      "sourceHash": "7a5c1c2baabdea803b4e6cbc502030733f9a0a8c587125b4e7b85d873f7788aa",
+      "blockIds": [
+        "block-60"
+      ],
+      "note": "隐私保护: 日历、文件、照片视频、联系人、剪贴板等权限新变革用户选什么才..."
+    }
+  ],
+  "audit": {
+    "highlightReviewVersion": 4,
+    "updateReviewVersion": 4,
+    "review": {
+      "content": "verified",
+      "modules": "verified",
+      "media": "verified",
+      "page": "verified"
+    },
+    "expectedHighlightCount": 9,
+    "sourceItemCount": 61,
+    "includedItemCount": 61,
+    "excludedItemCount": 0,
+    "highlightCount": 9,
+    "updateCount": 52,
+    "mediaCount": 0,
+    "mappedItemCount": 61,
+    "coverageRate": 1
+  }
+}

@@ -1,0 +1,6554 @@
+{
+  "schemaVersion": 3,
+  "contentReviewVersion": 4,
+  "mediaReviewVersion": 4,
+  "articleId": "ColorOS_16_正式发布！亮点抢先看",
+  "reviewStatus": "verified",
+  "sourceHash": "a49bfcb19385884cc660d99807c2c597560f394d5f66c97052bb05906bc29799",
+  "highlights": [
+    {
+      "id": "highlight-01",
+      "module": "极光引擎",
+      "moduleSource": "explicit-heading",
+      "title": "全场景无缝动效",
+      "description": "新增桌面图标、卡片、文件夹、侧边栏等场景支持无缝拖拽动画与并行打断，下拉通知中心与控制中心实时打断，带来一气呵成的直觉流畅体验。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-01-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-01"
+      ]
+    },
+    {
+      "id": "highlight-02",
+      "module": "极光引擎",
+      "moduleSource": "explicit-heading",
+      "title": "光场动效与微视效",
+      "description": "新增光场动效与自然涟漪视效，在计算器、锁屏密码、通话界面按压交互时呈现更生动的光场反馈，优化充电动效与指纹动效。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-02-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-02"
+      ]
+    },
+    {
+      "id": "highlight-03",
+      "module": "潮汐引擎",
+      "moduleSource": "explicit-heading",
+      "title": "自研感知调度",
+      "description": "潮汐引擎深度协同，动态适配场景资源需求与智能调节运行负载，实现短视频久刷不卡顿、游戏重载不掉帧、影像久拍不中断的持久流畅。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-03-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-03"
+      ]
+    },
+    {
+      "id": "highlight-04",
+      "module": "繁星编译器",
+      "moduleSource": "explicit-heading",
+      "title": "跨层级编译优化",
+      "description": "业界首创跨层级融合优化与反馈式优化技术，大幅提升系统服务与应用执行效率，响应更迅速更敏捷。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-04-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-04"
+      ]
+    },
+    {
+      "id": "highlight-05",
+      "module": "人工智能",
+      "moduleSource": "explicit-heading",
+      "title": "AI 实景对话",
+      "description": "指哪答哪，点击屏幕上好奇的事物即可即时解答；支持专属声纹识别，嘈杂环境下智能识别机主声音，过滤他人语音干扰。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-05-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-05"
+      ]
+    },
+    {
+      "id": "highlight-06",
+      "module": "小布记忆",
+      "moduleSource": "explicit-heading",
+      "title": "随心记与智能归集",
+      "description": "随时记录取餐码、视频、账单、多图灵感；全新列表详情视图呈现更详尽的 AI 摘要，支持添加备注与重点提取。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-06-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-06"
+      ]
+    },
+    {
+      "id": "highlight-07",
+      "module": "小布建议",
+      "moduleSource": "explicit-heading",
+      "title": "全天候智能提醒",
+      "description": "服务范围大幅扩展，深度打通小布记忆，智能呈现航班高铁行程、生活缴费、出行打车与取餐提醒。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-07-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-07"
+      ]
+    },
+    {
+      "id": "highlight-08",
+      "module": "全新设计",
+      "moduleSource": "explicit-heading",
+      "title": "全新光场设计",
+      "description": "光与环境交相辉映，光影融入系统界面与桌面图标设计，视觉通透自然，细节质感跃升。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-08-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-08"
+      ]
+    },
+    {
+      "id": "highlight-09",
+      "module": "AI 灵感主题",
+      "moduleSource": "explicit-heading",
+      "title": "实况壁纸与动态景深",
+      "description": "AI 赋能灵感主题，支持将静态照片转换为 AI 动态实况壁纸，提供景深时钟排版与智能取色图标。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-09-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-09"
+      ]
+    },
+    {
+      "id": "highlight-10",
+      "module": "互联互通",
+      "moduleSource": "explicit-heading",
+      "title": "跨生态手表与耳机互通",
+      "description": "流体云信息支持跨端流转至智能手表，运动健康数据实时同步；支持无线耳机便捷弹窗与降噪控制。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-10-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-10"
+      ]
+    },
+    {
+      "id": "highlight-11",
+      "module": "互联互通",
+      "moduleSource": "explicit-heading",
+      "title": "一碰互传多端流转",
+      "description": "支持图片、文档、便签、联系人名片以及短视频、红包一碰快速分享；手机支持镜像投屏到电脑进行多任务协同。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-11-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-11"
+      ]
+    },
+    {
+      "id": "highlight-12",
+      "module": "安全隐私",
+      "moduleSource": "explicit-heading",
+      "title": "剪贴板智能管控与最小授权",
+      "description": "新增写入剪贴板管控权限，智能读取口令信息防泄露；提供权限审核机制与最小化授权推荐。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-12-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-12"
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "id": "update-01",
+      "module": "极光引擎",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增系统文本选择放大镜的出现、消失支持无缝过渡动效",
+      "description": "新增系统文本选择放大镜的出现、消失支持无缝过渡动效",
+      "evidenceIds": [
+        "update-01-body"
+      ],
+      "sourceItemIds": [
+        "source-update-01"
+      ]
+    },
+    {
+      "id": "update-02",
+      "module": "极光引擎",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增系统 UI 控件支持无缝过渡动效，如信息、电话本等的新建按钮",
+      "description": "新增系统 UI 控件支持无缝过渡动效，如信息、电话本等的新建按钮",
+      "evidenceIds": [
+        "update-02-body"
+      ],
+      "sourceItemIds": [
+        "source-update-02"
+      ]
+    },
+    {
+      "id": "update-03",
+      "module": "极光引擎",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化全局搜索和速览界面动画表现和流畅度，支持无缝启动应用，应用切换时支持并行动画，可实时打断操作，动效表现更丝滑",
+      "description": "优化全局搜索和速览界面动画表现和流畅度，支持无缝启动应用，应用切换时支持并行动画，可实时打断操作，动效表现更丝滑",
+      "evidenceIds": [
+        "update-03-body"
+      ],
+      "sourceItemIds": [
+        "source-update-03"
+      ]
+    },
+    {
+      "id": "update-04",
+      "module": "极光引擎",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增在打开通知中心、控制中心时，状态栏支持无缝切换动画，下拉过程可实时打断操作，画面更流畅",
+      "description": "新增在打开通知中心、控制中心时，状态栏支持无缝切换动画，下拉过程可实时打断操作，画面更流畅",
+      "evidenceIds": [
+        "update-04-body"
+      ],
+      "sourceItemIds": [
+        "source-update-04"
+      ]
+    },
+    {
+      "id": "update-05",
+      "module": "极光引擎",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增在控制中心点击音频播放卡片时，支持无缝切换动画，视觉更美观",
+      "description": "新增在控制中心点击音频播放卡片时，支持无缝切换动画，视觉更美观",
+      "evidenceIds": [
+        "update-05-body"
+      ],
+      "sourceItemIds": [
+        "source-update-05"
+      ]
+    },
+    {
+      "id": "update-06",
+      "module": "极光引擎",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增在使用虚拟按键导航方式时，支持桌面应用启动、退出并行动画，让操作画面更丝滑连贯",
+      "description": "新增在使用虚拟按键导航方式时，支持桌面应用启动、退出并行动画，让操作画面更丝滑连贯",
+      "evidenceIds": [
+        "update-06-body"
+      ],
+      "sourceItemIds": [
+        "source-update-06"
+      ]
+    },
+    {
+      "id": "update-07",
+      "module": "极光引擎",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增在计算器、锁屏密码、通话界面等按压交互时，呈现更沉浸更生动的光场动效",
+      "description": "新增在计算器、锁屏密码、通话界面等按压交互时，呈现更沉浸更生动的光场动效",
+      "evidenceIds": [
+        "update-07-body"
+      ],
+      "sourceItemIds": [
+        "source-update-07"
+      ]
+    },
+    {
+      "id": "update-08",
+      "module": "极光引擎",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化充电动效与指纹动效，光场涟漪还原自然之美",
+      "description": "优化充电动效与指纹动效，光场涟漪还原自然之美",
+      "evidenceIds": [
+        "update-08-body"
+      ],
+      "sourceItemIds": [
+        "source-update-08"
+      ]
+    },
+    {
+      "id": "update-09",
+      "module": "极光引擎",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化桌面上排应用图标退出动画曲线，操作更有掌控感",
+      "description": "优化桌面上排应用图标退出动画曲线，操作更有掌控感",
+      "evidenceIds": [
+        "update-09-body"
+      ],
+      "sourceItemIds": [
+        "source-update-09"
+      ]
+    },
+    {
+      "id": "update-10",
+      "module": "极光引擎",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化系统列表滑动动画曲线与阻尼，滑动效果更跟手，更丝滑",
+      "description": "优化系统列表滑动动画曲线与阻尼，滑动效果更跟手，更丝滑",
+      "evidenceIds": [
+        "update-10-body"
+      ],
+      "sourceItemIds": [
+        "source-update-10"
+      ]
+    },
+    {
+      "id": "update-11",
+      "module": "潮汐引擎",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "重构内存管理方案，优化短视频连续滑动过程中的后台管理策略。匹配短视频观看习惯，自动调整缓存释放策略，实现久刷也流畅，观影更畅快",
+      "description": "重构内存管理方案，优化短视频连续滑动过程中的后台管理策略。匹配短视频观看习惯，自动调整缓存释放策略，实现久刷也流畅，观影更畅快",
+      "evidenceIds": [
+        "update-11-body"
+      ],
+      "sourceItemIds": [
+        "source-update-11"
+      ]
+    },
+    {
+      "id": "update-12",
+      "module": "潮汐引擎",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化高负载场景下的性能，降低后台高负载",
+      "description": "优化高负载场景下的性能，降低后台高负载",
+      "evidenceIds": [
+        "update-12-body"
+      ],
+      "sourceItemIds": [
+        "source-update-12"
+      ]
+    },
+    {
+      "id": "update-13",
+      "module": "潮汐引擎",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化系统核心场景的响应速度，操作响应、应用启动、点击滑动更流畅",
+      "description": "优化系统核心场景的响应速度，操作响应、应用启动、点击滑动更流畅",
+      "evidenceIds": [
+        "update-13-body"
+      ],
+      "sourceItemIds": [
+        "source-update-13"
+      ]
+    },
+    {
+      "id": "update-14",
+      "module": "潮汐引擎",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增更多应用支持视频长续航功能，续航更持久",
+      "description": "新增更多应用支持视频长续航功能，续航更持久",
+      "evidenceIds": [
+        "update-14-body"
+      ],
+      "sourceItemIds": [
+        "source-update-14"
+      ]
+    },
+    {
+      "id": "update-15",
+      "module": "潮汐引擎",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增支持智能温控联动，当设备温度过高时，将自动进入视频长续航模式，有效平衡性能与功耗",
+      "description": "新增支持智能温控联动，当设备温度过高时，将自动进入视频长续航模式，有效平衡性能与功耗",
+      "evidenceIds": [
+        "update-15-body"
+      ],
+      "sourceItemIds": [
+        "source-update-15"
+      ]
+    },
+    {
+      "id": "update-16",
+      "module": "潮汐引擎",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增腾讯视频/芒果视频沉浸式在线追剧场景下的网络节电策略，续航更持久",
+      "description": "新增腾讯视频/芒果视频沉浸式在线追剧场景下的网络节电策略，续航更持久",
+      "evidenceIds": [
+        "update-16-body"
+      ],
+      "sourceItemIds": [
+        "source-update-16"
+      ]
+    },
+    {
+      "id": "update-17",
+      "module": "潮汐引擎",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化开启省电模式后的管理策略，在不同电量下提供阶梯化性能管理策略，带来更持久和更流畅的使用体验",
+      "description": "优化开启省电模式后的管理策略，在不同电量下提供阶梯化性能管理策略，带来更持久和更流畅的使用体验",
+      "evidenceIds": [
+        "update-17-body"
+      ],
+      "sourceItemIds": [
+        "source-update-17"
+      ]
+    },
+    {
+      "id": "update-18",
+      "module": "繁星编译器",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增繁星编译器，通过业界独创的跨层级融合优化、反馈式优化等编译器优化技术，大幅提升了编译语言的执行效率，助力系统响应更迅速更流畅",
+      "description": "新增繁星编译器，通过业界独创的跨层级融合优化、反馈式优化等编译器优化技术，大幅提升了编译语言的执行效率，助力系统响应更迅速更流畅",
+      "evidenceIds": [
+        "update-18-body"
+      ],
+      "sourceItemIds": [
+        "source-update-18"
+      ]
+    },
+    {
+      "id": "update-19",
+      "module": "繁星编译器",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化系统服务代码的执行效率，提升开机速度，降低服务能耗",
+      "description": "优化系统服务代码的执行效率，提升开机速度，降低服务能耗",
+      "evidenceIds": [
+        "update-19-body"
+      ],
+      "sourceItemIds": [
+        "source-update-19"
+      ]
+    },
+    {
+      "id": "update-20",
+      "module": "繁星编译器",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "通过更精准地预优化系统公共库，使程序运行时功耗更低，更省内存",
+      "description": "通过更精准地预优化系统公共库，使程序运行时功耗更低，更省内存",
+      "evidenceIds": [
+        "update-20-body"
+      ],
+      "sourceItemIds": [
+        "source-update-20"
+      ]
+    },
+    {
+      "id": "update-21",
+      "module": "繁星编译器",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "通过更准确更细致的反馈式优化，降低 IO 损耗，提升应用程序启动速度",
+      "description": "通过更准确更细致的反馈式优化，降低 IO 损耗，提升应用程序启动速度",
+      "evidenceIds": [
+        "update-21-body"
+      ],
+      "sourceItemIds": [
+        "source-update-21"
+      ]
+    },
+    {
+      "id": "update-22",
+      "module": "繁星编译器",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "提升 UI 相关代码的编译优化质量，使应用响应更快，帧率更稳",
+      "description": "提升 UI 相关代码的编译优化质量，使应用响应更快，帧率更稳",
+      "evidenceIds": [
+        "update-22-body"
+      ],
+      "sourceItemIds": [
+        "source-update-22"
+      ]
+    },
+    {
+      "id": "update-23",
+      "module": "AI 实景对话",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增 AI 实景对话指哪答哪，点击屏幕上好奇的事物，小布能即时为你解答",
+      "description": "新增 AI 实景对话指哪答哪，点击屏幕上好奇的事物，小布能即时为你解答",
+      "evidenceIds": [
+        "update-23-body"
+      ],
+      "sourceItemIds": [
+        "source-update-23"
+      ]
+    },
+    {
+      "id": "update-24",
+      "module": "AI 实景对话",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增 AI 实景对话专属声纹识别，小布可以记住你的声纹信息，环境再吵只听你讲",
+      "description": "新增 AI 实景对话专属声纹识别，小布可以记住你的声纹信息，环境再吵只听你讲",
+      "evidenceIds": [
+        "update-24-body"
+      ],
+      "sourceItemIds": [
+        "source-update-24"
+      ]
+    },
+    {
+      "id": "update-25",
+      "module": "小布记忆",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化小布记忆详情页，AI 摘要更详尽，内容识别更精准。并支持添加备注，突出提取重点信息，一眼明确要点",
+      "description": "优化小布记忆详情页，AI 摘要更详尽，内容识别更精准。并支持添加备注，突出提取重点信息，一眼明确要点",
+      "evidenceIds": [
+        "update-25-body"
+      ],
+      "sourceItemIds": [
+        "source-update-25"
+      ]
+    },
+    {
+      "id": "update-26",
+      "module": "小布记忆",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增记忆搜索，小布记忆与系统打通，支持在全局搜索或小布助手中，搜索小布记忆里的内容，还能将搜到的内容进行整理，分析和归纳总结",
+      "description": "新增记忆搜索，小布记忆与系统打通，支持在全局搜索或小布助手中，搜索小布记忆里的内容，还能将搜到的内容进行整理，分析和归纳总结",
+      "evidenceIds": [
+        "update-26-body"
+      ],
+      "sourceItemIds": [
+        "source-update-26"
+      ]
+    },
+    {
+      "id": "update-27",
+      "module": "小布记忆",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增记多图、记文档、记截图，还能通过AI分析并保存到小布记忆中。拓展小布记忆支持记录的内容类型，更全面更高效",
+      "description": "新增记多图、记文档、记截图，还能通过AI分析并保存到小布记忆中。拓展小布记忆支持记录的内容类型，更全面更高效",
+      "evidenceIds": [
+        "update-27-body"
+      ],
+      "sourceItemIds": [
+        "source-update-27"
+      ]
+    },
+    {
+      "id": "update-28",
+      "module": "小布记忆",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增视频记，视频懒得看，小布记忆帮你看。在哗哩哗哩等应用内观看视频时一键闪记，快速将视频记录下来并自动分段摘要及重点高光提取，部分应用支持跳转高光时间点，方便回看",
+      "description": "新增视频记，视频懒得看，小布记忆帮你看。在哗哩哗哩等应用内观看视频时一键闪记，快速将视频记录下来并自动分段摘要及重点高光提取，部分应用支持跳转高光时间点，方便回看",
+      "evidenceIds": [
+        "update-28-body"
+      ],
+      "sourceItemIds": [
+        "source-update-28"
+      ]
+    },
+    {
+      "id": "update-29",
+      "module": "小布记忆",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增AI取餐码，点单时在取餐码界面一键闪记，即可识别取餐信息并推送到流体云上显示，部分品牌支持自动上云，此刻记下，码上用上，随时查看超方便。",
+      "description": "新增AI取餐码，点单时在取餐码界面一键闪记，即可识别取餐信息并推送到流体云上显示，部分品牌支持自动上云，此刻记下，码上用上，随时查看超方便。",
+      "evidenceIds": [
+        "update-29-body"
+      ],
+      "sourceItemIds": [
+        "source-update-29"
+      ]
+    },
+    {
+      "id": "update-30",
+      "module": "小布记忆",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增记账单，在支付界面一键闪记，会自动识别账单并记录到小布记忆中，并自动沉淀账单合集，此刻记下，月月清晰",
+      "description": "新增记账单，在支付界面一键闪记，会自动识别账单并记录到小布记忆中，并自动沉淀账单合集，此刻记下，月月清晰",
+      "evidenceIds": [
+        "update-30-body"
+      ],
+      "sourceItemIds": [
+        "source-update-30"
+      ]
+    },
+    {
+      "id": "update-31",
+      "module": "小布记忆",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增在截屏缩略图上支持一键闪记，快速将截图内容记录下来",
+      "description": "新增在截屏缩略图上支持一键闪记，快速将截图内容记录下来",
+      "evidenceIds": [
+        "update-31-body"
+      ],
+      "sourceItemIds": [
+        "source-update-31"
+      ]
+    },
+    {
+      "id": "update-32",
+      "module": "小布记忆",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增自动收藏，支持收藏小红书、微博、抖音、知乎、今日头条新闻、豆瓣帖子等内容，自动同步到小布记忆中，记录更简单，查找更便捷",
+      "description": "新增自动收藏，支持收藏小红书、微博、抖音、知乎、今日头条新闻、豆瓣帖子等内容，自动同步到小布记忆中，记录更简单，查找更便捷",
+      "evidenceIds": [
+        "update-32-body"
+      ],
+      "sourceItemIds": [
+        "source-update-32"
+      ]
+    },
+    {
+      "id": "update-33",
+      "module": "小布记忆",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增支持手机在横屏状态时，可以触发一键闪记，记下横屏内容",
+      "description": "新增支持手机在横屏状态时，可以触发一键闪记，记下横屏内容",
+      "evidenceIds": [
+        "update-33-body"
+      ],
+      "sourceItemIds": [
+        "source-update-33"
+      ]
+    },
+    {
+      "id": "update-34",
+      "module": "小布建议",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "小布建议服务内容大幅扩展，涵盖通勤出行（如航班、高铁、打车、酒店行程等）、生活服务（信用卡还款、生活缴费提醒、快递提醒、外卖与就餐服务、电影演出提醒等）、办公学习（日程提醒、课程提醒等）、内容服务（订阅的篮球、足球、电竞提醒等），覆盖生活方式面面",
+      "description": "小布建议服务内容大幅扩展，涵盖通勤出行（如航班、高铁、打车、酒店行程等）、生活服务（信用卡还款、生活缴费提醒、快递提醒、外卖与就餐服务、电影演出提醒等）、办公学习（日程提醒、课程提醒等）、内容服务（订阅的篮球、足球、电竞提醒等），覆盖生活方式面面",
+      "evidenceIds": [
+        "update-34-body"
+      ],
+      "sourceItemIds": [
+        "source-update-34"
+      ]
+    },
+    {
+      "id": "update-35",
+      "module": "小布建议",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增打通小布记忆，根据使用场景主动推荐小布记忆中收藏的美食店铺、电影票、酒店订单、景点门票等",
+      "description": "新增打通小布记忆，根据使用场景主动推荐小布记忆中收藏的美食店铺、电影票、酒店订单、景点门票等",
+      "evidenceIds": [
+        "update-35-body"
+      ],
+      "sourceItemIds": [
+        "source-update-35"
+      ]
+    },
+    {
+      "id": "update-36",
+      "module": "小布建议",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增小布建议晨间AI简报功能，动态感知和整理你的重要信息，如天气、日程、AI资讯，帮你快速一览当天重要事项",
+      "description": "新增小布建议晨间AI简报功能，动态感知和整理你的重要信息，如天气、日程、AI资讯，帮你快速一览当天重要事项",
+      "evidenceIds": [
+        "update-36-body"
+      ],
+      "sourceItemIds": [
+        "source-update-36"
+      ]
+    },
+    {
+      "id": "update-37",
+      "module": "小布识屏",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化小布识屏识别速度，响应更及时，交互更丝滑",
+      "description": "优化小布识屏识别速度，响应更及时，交互更丝滑",
+      "evidenceIds": [
+        "update-37-body"
+      ],
+      "sourceItemIds": [
+        "source-update-37"
+      ]
+    },
+    {
+      "id": "update-38",
+      "module": "小布识屏",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增端云识别框架，大幅提升图文识别准确率",
+      "description": "新增端云识别框架，大幅提升图文识别准确率",
+      "evidenceIds": [
+        "update-38-body"
+      ],
+      "sourceItemIds": [
+        "source-update-38"
+      ]
+    },
+    {
+      "id": "update-39",
+      "module": "小布识屏",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增小布识屏支持圈选，并打通小布助手，圈选后支持向小布提问",
+      "description": "新增小布识屏支持圈选，并打通小布助手，圈选后支持向小布提问",
+      "evidenceIds": [
+        "update-39-body"
+      ],
+      "sourceItemIds": [
+        "source-update-39"
+      ]
+    },
+    {
+      "id": "update-40",
+      "module": "小布识屏",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增智能识别文本并推荐地址导航、一键拨号、航班信息等相关服务，一键直达更便捷",
+      "description": "新增智能识别文本并推荐地址导航、一键拨号、航班信息等相关服务，一键直达更便捷",
+      "evidenceIds": [
+        "update-40-body"
+      ],
+      "sourceItemIds": [
+        "source-update-40"
+      ]
+    },
+    {
+      "id": "update-41",
+      "module": "小布识屏",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增提取界面中的原图，并支持一键增强图片画质，保存图片更清晰",
+      "description": "新增提取界面中的原图，并支持一键增强图片画质，保存图片更清晰",
+      "evidenceIds": [
+        "update-41-body"
+      ],
+      "sourceItemIds": [
+        "source-update-41"
+      ]
+    },
+    {
+      "id": "update-42",
+      "module": "小布识屏",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增一键将屏幕中的文本或表格转换为Word或Excel等可编辑格式文档，轻松高效处理屏幕信息",
+      "description": "新增一键将屏幕中的文本或表格转换为Word或Excel等可编辑格式文档，轻松高效处理屏幕信息",
+      "evidenceIds": [
+        "update-42-body"
+      ],
+      "sourceItemIds": [
+        "source-update-42"
+      ]
+    },
+    {
+      "id": "update-43",
+      "module": "AI 相册",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "相册视觉与体验焕然一新。沉浸美观的照片视图，浏览一镜到底、丝滑流畅",
+      "description": "相册视觉与体验焕然一新。沉浸美观的照片视图，浏览一镜到底、丝滑流畅",
+      "evidenceIds": [
+        "update-43-body"
+      ],
+      "sourceItemIds": [
+        "source-update-43"
+      ]
+    },
+    {
+      "id": "update-44",
+      "module": "AI 相册",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化照片详情页设计，上滑即可展示照片信息、存储位置，更美观更易用",
+      "description": "优化照片详情页设计，上滑即可展示照片信息、存储位置，更美观更易用",
+      "evidenceIds": [
+        "update-44-body"
+      ],
+      "sourceItemIds": [
+        "source-update-44"
+      ]
+    },
+    {
+      "id": "update-45",
+      "module": "AI 相册",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增学习图集，智能识别与学习相关的图片、视频并收纳归类",
+      "description": "新增学习图集，智能识别与学习相关的图片、视频并收纳归类",
+      "evidenceIds": [
+        "update-45-body"
+      ],
+      "sourceItemIds": [
+        "source-update-45"
+      ]
+    },
+    {
+      "id": "update-46",
+      "module": "AI 相册",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增多项视频编辑能力，如分割、拼接、变速、转场、配乐等。原画直出，轻松成片",
+      "description": "新增多项视频编辑能力，如分割、拼接、变速、转场、配乐等。原画直出，轻松成片",
+      "evidenceIds": [
+        "update-46-body"
+      ],
+      "sourceItemIds": [
+        "source-update-46"
+      ]
+    },
+    {
+      "id": "update-47",
+      "module": "AI 相册",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化视频自由裁剪、旋转、参数调节、滤镜等功能",
+      "description": "优化视频自由裁剪、旋转、参数调节、滤镜等功能",
+      "evidenceIds": [
+        "update-47-body"
+      ],
+      "sourceItemIds": [
+        "source-update-47"
+      ]
+    },
+    {
+      "id": "update-48",
+      "module": "AI 相册",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增实况照片高清拼图能力，支持保留实况照片的高清分辨率、HDR效果。并新增更多拼图模板，提供更多个性化选择",
+      "description": "新增实况照片高清拼图能力，支持保留实况照片的高清分辨率、HDR效果。并新增更多拼图模板，提供更多个性化选择",
+      "evidenceIds": [
+        "update-48-body"
+      ],
+      "sourceItemIds": [
+        "source-update-48"
+      ]
+    },
+    {
+      "id": "update-49",
+      "module": "AI 相册",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增实况照片慢动作效果，一键将充满生命力的实况照片转为慢动作，在慢镜头中凝聚时光",
+      "description": "新增实况照片慢动作效果，一键将充满生命力的实况照片转为慢动作，在慢镜头中凝聚时光",
+      "evidenceIds": [
+        "update-49-body"
+      ],
+      "sourceItemIds": [
+        "source-update-49"
+      ]
+    },
+    {
+      "id": "update-50",
+      "module": "AI 相册",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增支持截屏时保留图片/视频/游戏的HDR效果，且经过裁剪、旋转等简单编辑",
+      "description": "新增支持截屏时保留图片/视频/游戏的HDR效果，且经过裁剪、旋转等简单编辑",
+      "evidenceIds": [
+        "update-50-body"
+      ],
+      "sourceItemIds": [
+        "source-update-50"
+      ]
+    },
+    {
+      "id": "update-51",
+      "module": "AI 相册",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增字体切换、波浪下划线、分割线、文本高亮等多种功能，满足你的个性化排版需求，让笔记更美观",
+      "description": "新增字体切换、波浪下划线、分割线、文本高亮等多种功能，满足你的个性化排版需求，让笔记更美观",
+      "evidenceIds": [
+        "update-51-body"
+      ],
+      "sourceItemIds": [
+        "source-update-51"
+      ]
+    },
+    {
+      "id": "update-52",
+      "module": "AI 录音",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "录音全面焕新，优化录音界面视觉与交互",
+      "description": "录音全面焕新，优化录音界面视觉与交互",
+      "evidenceIds": [
+        "update-52-body"
+      ],
+      "sourceItemIds": [
+        "source-update-52"
+      ]
+    },
+    {
+      "id": "update-53",
+      "module": "AI 录音",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增实时转写功能，录音时可边录边看文本内容，重要信息不错过",
+      "description": "新增实时转写功能，录音时可边录边看文本内容，重要信息不错过",
+      "evidenceIds": [
+        "update-53-body"
+      ],
+      "sourceItemIds": [
+        "source-update-53"
+      ]
+    },
+    {
+      "id": "update-54",
+      "module": "AI 录音",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增分角色转写功能，当录音内有多个人员说话时，可自动区分并标记发言人",
+      "description": "新增分角色转写功能，当录音内有多个人员说话时，可自动区分并标记发言人",
+      "evidenceIds": [
+        "update-54-body"
+      ],
+      "sourceItemIds": [
+        "source-update-54"
+      ]
+    },
+    {
+      "id": "update-55",
+      "module": "日历",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "日历全面焕新，优化日历月视图结构，提供列表、总览、时间轴三种视图，无缝切换选择最喜欢的显示视图",
+      "description": "日历全面焕新，优化日历月视图结构，提供列表、总览、时间轴三种视图，无缝切换选择最喜欢的显示视图",
+      "evidenceIds": [
+        "update-55-body"
+      ],
+      "sourceItemIds": [
+        "source-update-55"
+      ]
+    },
+    {
+      "id": "update-56",
+      "module": "日历",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增 AI 建议事项，智能识别系统内碎片信息并生成日程和待办建议，大事小事不遗漏",
+      "description": "新增 AI 建议事项，智能识别系统内碎片信息并生成日程和待办建议，大事小事不遗漏",
+      "evidenceIds": [
+        "update-56-body"
+      ],
+      "sourceItemIds": [
+        "source-update-56"
+      ]
+    },
+    {
+      "id": "update-57",
+      "module": "日历",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增将待办事项纳入日历中，方便查看与管理",
+      "description": "新增将待办事项纳入日历中，方便查看与管理",
+      "evidenceIds": [
+        "update-57-body"
+      ],
+      "sourceItemIds": [
+        "source-update-57"
+      ]
+    },
+    {
+      "id": "update-58",
+      "module": "日历",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增当日时间轴，支持以时间轴的方式可视化呈现当天所有日程，并支持点击查看和插入日程，日程安排一目了然",
+      "description": "新增当日时间轴，支持以时间轴的方式可视化呈现当天所有日程，并支持点击查看和插入日程，日程安排一目了然",
+      "evidenceIds": [
+        "update-58-body"
+      ],
+      "sourceItemIds": [
+        "source-update-58"
+      ]
+    },
+    {
+      "id": "update-59",
+      "module": "AI 翻译",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增基于 AI 大模型翻译能力的文本翻译、同声传译功能，翻译效率更高，翻译表达更地道",
+      "description": "新增基于 AI 大模型翻译能力的文本翻译、同声传译功能，翻译效率更高，翻译表达更地道",
+      "evidenceIds": [
+        "update-59-body"
+      ],
+      "sourceItemIds": [
+        "source-update-59"
+      ]
+    },
+    {
+      "id": "update-60",
+      "module": "AI 翻译",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化全屏翻译和区域翻译的交互体验和动效，翻译体验更流畅",
+      "description": "优化全屏翻译和区域翻译的交互体验和动效，翻译体验更流畅",
+      "evidenceIds": [
+        "update-60-body"
+      ],
+      "sourceItemIds": [
+        "source-update-60"
+      ]
+    },
+    {
+      "id": "update-61",
+      "module": "AI 写作",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增系统级 AI 写作，聪明的代笔，一键帮你下笔",
+      "description": "新增系统级 AI 写作，聪明的代笔，一键帮你下笔",
+      "evidenceIds": [
+        "update-61-body"
+      ],
+      "sourceItemIds": [
+        "source-update-61"
+      ]
+    },
+    {
+      "id": "update-62",
+      "module": "AI 写作",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "支持全局唤起，在输入界面，打开系统输入法，可随时使用键盘上的 AI 写作",
+      "description": "支持全局唤起，在输入界面，打开系统输入法，可随时使用键盘上的 AI 写作",
+      "evidenceIds": [
+        "update-62-body"
+      ],
+      "sourceItemIds": [
+        "source-update-62"
+      ]
+    },
+    {
+      "id": "update-63",
+      "module": "AI 写作",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "在使签与文档写文案，或系统应用内选择文本时，都可以使用 AI 为你写作，是写作工具更是创作工具",
+      "description": "在使签与文档写文案，或系统应用内选择文本时，都可以使用 AI 为你写作，是写作工具更是创作工具",
+      "evidenceIds": [
+        "update-63-body"
+      ],
+      "sourceItemIds": [
+        "source-update-63"
+      ]
+    },
+    {
+      "id": "update-64",
+      "module": "AI 写作",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增更多写作能力，不仅能根据图文生成丰富的社媒文案（如小红书种草、美食购物点评、短视频文案等），还能按需自由创作（工作总结、心得体会、演讲发言、自我介绍等）。各种写作场景，都能得心应手",
+      "description": "新增更多写作能力，不仅能根据图文生成丰富的社媒文案（如小红书种草、美食购物点评、短视频文案等），还能按需自由创作（工作总结、心得体会、演讲发言、自我介绍等）。各种写作场景，都能得心应手",
+      "evidenceIds": [
+        "update-64-body"
+      ],
+      "sourceItemIds": [
+        "source-update-64"
+      ]
+    },
+    {
+      "id": "update-65",
+      "module": "AI 写作",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化改写工具，如排版、多风格润色（标准、详细、简洁、正式、口语、幽默）、文档翻译与文档摘要",
+      "description": "优化改写工具，如排版、多风格润色（标准、详细、简洁、正式、口语、幽默）、文档翻译与文档摘要",
+      "evidenceIds": [
+        "update-65-body"
+      ],
+      "sourceItemIds": [
+        "source-update-65"
+      ]
+    },
+    {
+      "id": "update-66",
+      "module": "AI 语音摘记",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化 AI 语音摘记和通话摘要功能，支持自动识别场景，生成更丰富的摘要内容。还可以切换多种摘要模板，生成的摘要信息更实用",
+      "description": "优化 AI 语音摘记和通话摘要功能，支持自动识别场景，生成更丰富的摘要内容。还可以切换多种摘要模板，生成的摘要信息更实用",
+      "evidenceIds": [
+        "update-66-body"
+      ],
+      "sourceItemIds": [
+        "source-update-66"
+      ]
+    },
+    {
+      "id": "update-67",
+      "module": "AI 语音摘记",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化文档摘要中的查看原文功能，从查看页面升级到查看段落，原文对照查阅更直观，摘要可信更放心",
+      "description": "优化文档摘要中的查看原文功能，从查看页面升级到查看段落，原文对照查阅更直观，摘要可信更放心",
+      "evidenceIds": [
+        "update-67-body"
+      ],
+      "sourceItemIds": [
+        "source-update-67"
+      ]
+    },
+    {
+      "id": "update-68",
+      "module": "AI 语音摘记",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化摘要分享导出功能，提供链接、图片、Word/PDF 文档、便签等导出方式，分享留存更方便",
+      "description": "优化摘要分享导出功能，提供链接、图片、Word/PDF 文档、便签等导出方式，分享留存更方便",
+      "evidenceIds": [
+        "update-68-body"
+      ],
+      "sourceItemIds": [
+        "source-update-68"
+      ]
+    },
+    {
+      "id": "update-69",
+      "module": "全新光场设计",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "全新光场设计，光与环境交相辉映，映射光的流动与变化，呈现真实、沉浸、自然之美",
+      "description": "全新光场设计，光与环境交相辉映，映射光的流动与变化，呈现真实、沉浸、自然之美",
+      "evidenceIds": [
+        "update-69-body"
+      ],
+      "sourceItemIds": [
+        "source-update-69"
+      ]
+    },
+    {
+      "id": "update-70",
+      "module": "全新光场设计",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "将极具生命力的光影融入到系统的设计元素中，提升系统整体的细节与质感",
+      "description": "将极具生命力的光影融入到系统的设计元素中，提升系统整体的细节与质感",
+      "evidenceIds": [
+        "update-70-body"
+      ],
+      "sourceItemIds": [
+        "source-update-70"
+      ]
+    },
+    {
+      "id": "update-71",
+      "module": "全新光场设计",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增光场动效，基于极光引擎提供更沉浸",
+      "description": "新增光场动效，基于极光引擎提供更沉浸",
+      "evidenceIds": [
+        "update-71-body"
+      ],
+      "sourceItemIds": [
+        "source-update-71"
+      ]
+    },
+    {
+      "id": "update-72",
+      "module": "全新光场设计",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增渐进式模糊效果，通过极光视效强化了界面的层次与纵深，更通透更沉浸",
+      "description": "新增渐进式模糊效果，通过极光视效强化了界面的层次与纵深，更通透更沉浸",
+      "evidenceIds": [
+        "update-72-body"
+      ],
+      "sourceItemIds": [
+        "source-update-72"
+      ]
+    },
+    {
+      "id": "update-73",
+      "module": "全新光场设计",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化极光视效，提升粒子特效、辉光特效、涟漪特效、色散混色等高阶特效的视觉效果，界面品质感大幅提升",
+      "description": "优化极光视效，提升粒子特效、辉光特效、涟漪特效、色散混色等高阶特效的视觉效果，界面品质感大幅提升",
+      "evidenceIds": [
+        "update-73-body"
+      ],
+      "sourceItemIds": [
+        "source-update-73"
+      ]
+    },
+    {
+      "id": "update-74",
+      "module": "全新光场设计",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "全面焕新插画、示意图等设计，更美观、更易读",
+      "description": "全面焕新插画、示意图等设计，更美观、更易读",
+      "evidenceIds": [
+        "update-74-body"
+      ],
+      "sourceItemIds": [
+        "source-update-74"
+      ]
+    },
+    {
+      "id": "update-75",
+      "module": "全新光场设计",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增全局系统字体 OPPO Serif 衬线体，更适合沉浸阅读，带来经典优雅的人文感",
+      "description": "新增全局系统字体 OPPO Serif 衬线体，更适合沉浸阅读，带来经典优雅的人文感",
+      "evidenceIds": [
+        "update-75-body"
+      ],
+      "sourceItemIds": [
+        "source-update-75"
+      ]
+    },
+    {
+      "id": "update-76",
+      "module": "全新光场设计",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增全新天气视效，通过极光引擎与天气数据，实时渲染真实天气环境，呈现沉浸视效",
+      "description": "新增全新天气视效，通过极光引擎与天气数据，实时渲染真实天气环境，呈现沉浸视效",
+      "evidenceIds": [
+        "update-76-body"
+      ],
+      "sourceItemIds": [
+        "source-update-76"
+      ]
+    },
+    {
+      "id": "update-77",
+      "module": "全新光场设计",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化时钟、计算器、指南针等应用界面，采用全新美学设计，融入真实世界的质感与光感，带来愉悦体验",
+      "description": "优化时钟、计算器、指南针等应用界面，采用全新美学设计，融入真实世界的质感与光感，带来愉悦体验",
+      "evidenceIds": [
+        "update-77-body"
+      ],
+      "sourceItemIds": [
+        "source-update-77"
+      ]
+    },
+    {
+      "id": "update-78",
+      "module": "全新光场设计",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "OPPO 手表支持全新 ColorOS 一体化设计，全新的应用图标、极光高阶视效",
+      "description": "OPPO 手表支持全新 ColorOS 一体化设计，全新的应用图标、极光高阶视效",
+      "evidenceIds": [
+        "update-78-body"
+      ],
+      "sourceItemIds": [
+        "source-update-78"
+      ]
+    },
+    {
+      "id": "update-79",
+      "module": "灵感桌面",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "全新桌面图标，将光场设计语言融入桌面图标设计，细节更丰富，视觉更真实",
+      "description": "全新桌面图标，将光场设计语言融入桌面图标设计，细节更丰富，视觉更真实",
+      "evidenceIds": [
+        "update-79-body"
+      ],
+      "sourceItemIds": [
+        "source-update-79"
+      ]
+    },
+    {
+      "id": "update-80",
+      "module": "灵感桌面",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化桌面布局网格与元素，图标、文件夹、卡片等显示更美观整洁，更具秩序感",
+      "description": "优化桌面布局网格与元素，图标、文件夹、卡片等显示更美观整洁，更具秩序感",
+      "evidenceIds": [
+        "update-80-body"
+      ],
+      "sourceItemIds": [
+        "source-update-80"
+      ]
+    },
+    {
+      "id": "update-81",
+      "module": "灵感桌面",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增支持无缝拖拽桌面图标大小，并支持添加应用快捷方式，让桌面更具个性、更实用",
+      "description": "新增支持无缝拖拽桌面图标大小，并支持添加应用快捷方式，让桌面更具个性、更实用",
+      "evidenceIds": [
+        "update-81-body"
+      ],
+      "sourceItemIds": [
+        "source-update-81"
+      ]
+    },
+    {
+      "id": "update-82",
+      "module": "灵感桌面",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增长按桌面大文件夹，可以选择更多风格样式，如9宫格视图、4宫格视图、凸显首应用大图标",
+      "description": "新增长按桌面大文件夹，可以选择更多风格样式，如9宫格视图、4宫格视图、凸显首应用大图标",
+      "evidenceIds": [
+        "update-82-body"
+      ],
+      "sourceItemIds": [
+        "source-update-82"
+      ]
+    },
+    {
+      "id": "update-83",
+      "module": "灵感桌面",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增无字桌面功能，让桌面更简洁更精致",
+      "description": "新增无字桌面功能，让桌面更简洁更精致",
+      "evidenceIds": [
+        "update-83-body"
+      ],
+      "sourceItemIds": [
+        "source-update-83"
+      ]
+    },
+    {
+      "id": "update-84",
+      "module": "灵感桌面",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增与优化多张桌面卡片，提升桌面卡片丰富性",
+      "description": "新增与优化多张桌面卡片，提升桌面卡片丰富性",
+      "evidenceIds": [
+        "update-84-body"
+      ],
+      "sourceItemIds": [
+        "source-update-84"
+      ]
+    },
+    {
+      "id": "update-85",
+      "module": "灵感桌面",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化桌面编辑模式界面，并支持调整页面顺序",
+      "description": "优化桌面编辑模式界面，并支持调整页面顺序",
+      "evidenceIds": [
+        "update-85-body"
+      ],
+      "sourceItemIds": [
+        "source-update-85"
+      ]
+    },
+    {
+      "id": "update-86",
+      "module": "灵感桌面",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化抽屉模式的界面布局，搜索下沉到桌面底部，查找应用更方便",
+      "description": "优化抽屉模式的界面布局，搜索下沉到桌面底部，查找应用更方便",
+      "evidenceIds": [
+        "update-86-body"
+      ],
+      "sourceItemIds": [
+        "source-update-86"
+      ]
+    },
+    {
+      "id": "update-87",
+      "module": "灵感桌面",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增抽屉模式下，滑动索引条可以快速选择应用",
+      "description": "新增抽屉模式下，滑动索引条可以快速选择应用",
+      "evidenceIds": [
+        "update-87-body"
+      ],
+      "sourceItemIds": [
+        "source-update-87"
+      ]
+    },
+    {
+      "id": "update-88",
+      "module": "灵感桌面",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增抽屉模式下的应用分类视图，在全部应用中可按照分类显示应用，使用更方便",
+      "description": "新增抽屉模式下的应用分类视图，在全部应用中可按照分类显示应用，使用更方便",
+      "evidenceIds": [
+        "update-88-body"
+      ],
+      "sourceItemIds": [
+        "source-update-88"
+      ]
+    },
+    {
+      "id": "update-89",
+      "module": "灵感桌面",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化抽屉模式下的应用建议功能，展示常用应用和最近使用应用",
+      "description": "优化抽屉模式下的应用建议功能，展示常用应用和最近使用应用",
+      "evidenceIds": [
+        "update-89-body"
+      ],
+      "sourceItemIds": [
+        "source-update-89"
+      ]
+    },
+    {
+      "id": "update-90",
+      "module": "灵感桌面",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化系统设置中「桌面、锁屏与个性化」页面布局、样式，分类更清晰，布局更合理",
+      "description": "优化系统设置中「桌面、锁屏与个性化」页面布局、样式，分类更清晰，布局更合理",
+      "evidenceIds": [
+        "update-90-body"
+      ],
+      "sourceItemIds": [
+        "source-update-90"
+      ]
+    },
+    {
+      "id": "update-91",
+      "module": "AI 灵感主题",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "灵感主题全面升级，从定格的瞬间史诗到鲜活的高光时刻，多元表达更尽兴。AI 加持，让本色更出色",
+      "description": "灵感主题全面升级，从定格的瞬间史诗到鲜活的高光时刻，多元表达更尽兴。AI 加持，让本色更出色",
+      "evidenceIds": [
+        "update-91-body"
+      ],
+      "sourceItemIds": [
+        "source-update-91"
+      ]
+    },
+    {
+      "id": "update-92",
+      "module": "AI 灵感主题",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增山之道-日照金山系列实况壁纸，山光同频，拨云见日，亮屏瞬间光影照耀，屏幕宛如天幕",
+      "description": "新增山之道-日照金山系列实况壁纸，山光同频，拨云见日，亮屏瞬间光影照耀，屏幕宛如天幕",
+      "evidenceIds": [
+        "update-92-body"
+      ],
+      "sourceItemIds": [
+        "source-update-92"
+      ]
+    },
+    {
+      "id": "update-93",
+      "module": "AI 灵感主题",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增多套实况壁纸，鲜活人生，动态上屏，绽放不被定义的生命力",
+      "description": "新增多套实况壁纸，鲜活人生，动态上屏，绽放不被定义的生命力",
+      "evidenceIds": [
+        "update-93-body"
+      ],
+      "sourceItemIds": [
+        "source-update-93"
+      ]
+    },
+    {
+      "id": "update-94",
+      "module": "AI 灵感主题",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增支持将实况照片、视频设置为壁纸，并支持 AI 动态景深效果，每一次亮屏都鲜活亮眼",
+      "description": "新增支持将实况照片、视频设置为壁纸，并支持 AI 动态景深效果，每一次亮屏都鲜活亮眼",
+      "evidenceIds": [
+        "update-94-body"
+      ],
+      "sourceItemIds": [
+        "source-update-94"
+      ]
+    },
+    {
+      "id": "update-95",
+      "module": "AI 灵感主题",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增全新模块化编辑框架，所见即所得，提升编辑自由度",
+      "description": "新增全新模块化编辑框架，所见即所得，提升编辑自由度",
+      "evidenceIds": [
+        "update-95-body"
+      ],
+      "sourceItemIds": [
+        "source-update-95"
+      ]
+    },
+    {
+      "id": "update-96",
+      "module": "AI 灵感主题",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增锁屏界面支持添加灵感组件，丰富的灵感组件供你选择，美观又实用",
+      "description": "新增锁屏界面支持添加灵感组件，丰富的灵感组件供你选择，美观又实用",
+      "evidenceIds": [
+        "update-96-body"
+      ],
+      "sourceItemIds": [
+        "source-update-96"
+      ]
+    },
+    {
+      "id": "update-97",
+      "module": "AI 灵感主题",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增 AI 灵感文案功能，在锁屏编辑界面，不仅可以自由输入锁屏文案，还可以让 AI 根据锁屏壁纸自动生成文字和样式，文案与壁纸相得益彰",
+      "description": "新增 AI 灵感文案功能，在锁屏编辑界面，不仅可以自由输入锁屏文案，还可以让 AI 根据锁屏壁纸自动生成文字和样式，文案与壁纸相得益彰",
+      "evidenceIds": [
+        "update-97-body"
+      ],
+      "sourceItemIds": [
+        "source-update-97"
+      ]
+    },
+    {
+      "id": "update-98",
+      "module": "AI 灵感主题",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增自定义锁屏文字功能，可以随心输入锁屏文字，个性化表达更自由",
+      "description": "新增自定义锁屏文字功能，可以随心输入锁屏文字，个性化表达更自由",
+      "evidenceIds": [
+        "update-98-body"
+      ],
+      "sourceItemIds": [
+        "source-update-98"
+      ]
+    },
+    {
+      "id": "update-99",
+      "module": "AI 灵感主题",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增支持编辑锁屏左/右下角快捷入口功能，常用功能快人一步",
+      "description": "新增支持编辑锁屏左/右下角快捷入口功能，常用功能快人一步",
+      "evidenceIds": [
+        "update-99-body"
+      ],
+      "sourceItemIds": [
+        "source-update-99"
+      ]
+    },
+    {
+      "id": "update-100",
+      "module": "AI 灵感主题",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增全景沉浸息屏模式，在息屏也可以显示锁屏壁纸、组件、通知、时间等信息，显示更直观",
+      "description": "新增全景沉浸息屏模式，在息屏也可以显示锁屏壁纸、组件、通知、时间等信息，显示更直观",
+      "evidenceIds": [
+        "update-100-body"
+      ],
+      "sourceItemIds": [
+        "source-update-100"
+      ]
+    },
+    {
+      "id": "update-101",
+      "module": "AI 灵感主题",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增灵感图标风格，可跟随壁纸颜色设定多种图标风格，与壁纸风格更协调",
+      "description": "新增灵感图标风格，可跟随壁纸颜色设定多种图标风格，与壁纸风格更协调",
+      "evidenceIds": [
+        "update-101-body"
+      ],
+      "sourceItemIds": [
+        "source-update-101"
+      ]
+    },
+    {
+      "id": "update-102",
+      "module": "AI 灵感主题",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增暗色模式下图标风格，暗色模式下更换眼更舒适",
+      "description": "新增暗色模式下图标风格，暗色模式下更换眼更舒适",
+      "evidenceIds": [
+        "update-102-body"
+      ],
+      "sourceItemIds": [
+        "source-update-102"
+      ]
+    },
+    {
+      "id": "update-103",
+      "module": "一碰互传",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增支持分享更多内容，图片、视频、文档、便签、联系人名片、小红书笔记、支付宝红包、抖音视频等内容都可以一碰快速分享",
+      "description": "新增支持分享更多内容，图片、视频、文档、便签、联系人名片、小红书笔记、支付宝红包、抖音视频等内容都可以一碰快速分享",
+      "evidenceIds": [
+        "update-103-body"
+      ],
+      "sourceItemIds": [
+        "source-update-103"
+      ]
+    },
+    {
+      "id": "update-104",
+      "module": "一碰互传",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化传输速度，提升OPPO互传体验",
+      "description": "优化传输速度，提升OPPO互传体验",
+      "evidenceIds": [
+        "update-104-body"
+      ],
+      "sourceItemIds": [
+        "source-update-104"
+      ]
+    },
+    {
+      "id": "update-105",
+      "module": "OPPO 互联",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增手机镜像投屏到电脑，支持在电脑上跨端解锁手机，跨系统查看、共享手机上的文件。还支持同时打开多个手机窗口，多任务并行超便捷。支持多种快捷键操作，一键隐藏与显示投屏窗口、拖拽调节窗口大小，随心掌控超省心",
+      "description": "新增手机镜像投屏到电脑，支持在电脑上跨端解锁手机，跨系统查看、共享手机上的文件。还支持同时打开多个手机窗口，多任务并行超便捷。支持多种快捷键操作，一键隐藏与显示投屏窗口、拖拽调节窗口大小，随心掌控超省心",
+      "evidenceIds": [
+        "update-105-body"
+      ],
+      "sourceItemIds": [
+        "source-update-105"
+      ]
+    },
+    {
+      "id": "update-106",
+      "module": "OPPO 互联",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增电脑端 OPPO 互联的全局搜索功能，可同时搜索手机和电脑本地的文件。还支持用 AI 搜索手机上的文档、照片和便签笔记",
+      "description": "新增电脑端 OPPO 互联的全局搜索功能，可同时搜索手机和电脑本地的文件。还支持用 AI 搜索手机上的文档、照片和便签笔记",
+      "evidenceIds": [
+        "update-106-body"
+      ],
+      "sourceItemIds": [
+        "source-update-106"
+      ]
+    },
+    {
+      "id": "update-107",
+      "module": "OPPO 互联",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增通知同步功能，手机接收到的应用通知、来电、验证码可同步至电脑端，不错过重要信息",
+      "description": "新增通知同步功能，手机接收到的应用通知、来电、验证码可同步至电脑端，不错过重要信息",
+      "evidenceIds": [
+        "update-107-body"
+      ],
+      "sourceItemIds": [
+        "source-update-107"
+      ]
+    },
+    {
+      "id": "update-108",
+      "module": "OPPO 互联",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增与电脑的剪贴板同步功能，复制的文本可跨端粘贴，跨端操作更方便",
+      "description": "新增与电脑的剪贴板同步功能，复制的文本可跨端粘贴，跨端操作更方便",
+      "evidenceIds": [
+        "update-108-body"
+      ],
+      "sourceItemIds": [
+        "source-update-108"
+      ]
+    },
+    {
+      "id": "update-109",
+      "module": "OPPO 互联",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化系统设置页中设备互联页面布局，按设备类型和使用场景进行分类，分类更清晰，使用更便捷",
+      "description": "优化系统设置页中设备互联页面布局，按设备类型和使用场景进行分类，分类更清晰，使用更便捷",
+      "evidenceIds": [
+        "update-109-body"
+      ],
+      "sourceItemIds": [
+        "source-update-109"
+      ]
+    },
+    {
+      "id": "update-110",
+      "module": "智慧车载",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化与车载设备的蓝牙连接兼容性，提升使用体验",
+      "description": "优化与车载设备的蓝牙连接兼容性，提升使用体验",
+      "evidenceIds": [
+        "update-110-body"
+      ],
+      "sourceItemIds": [
+        "source-update-110"
+      ]
+    },
+    {
+      "id": "update-111",
+      "module": "网络优化",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增网络共享支持 WLAN 共享，当手机连接 WLAN 时，平板也可使用手机连接的 WLAN 上网",
+      "description": "新增网络共享支持 WLAN 共享，当手机连接 WLAN 时，平板也可使用手机连接的 WLAN 上网",
+      "evidenceIds": [
+        "update-111-body"
+      ],
+      "sourceItemIds": [
+        "source-update-111"
+      ]
+    },
+    {
+      "id": "update-112",
+      "module": "网络优化",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化 WLAN 算法能力，提升电梯、办公室角落、卫生间等网络较差区域的上网体验",
+      "description": "优化 WLAN 算法能力，提升电梯、办公室角落、卫生间等网络较差区域的上网体验",
+      "evidenceIds": [
+        "update-112-body"
+      ],
+      "sourceItemIds": [
+        "source-update-112"
+      ]
+    },
+    {
+      "id": "update-113",
+      "module": "网络优化",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化信号感知能力，提升高铁/地铁场景下的网络使用稳定性、流畅性",
+      "description": "优化信号感知能力，提升高铁/地铁场景下的网络使用稳定性、流畅性",
+      "evidenceIds": [
+        "update-113-body"
+      ],
+      "sourceItemIds": [
+        "source-update-113"
+      ]
+    },
+    {
+      "id": "update-114",
+      "module": "网络优化",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化自学习网络，优选最优小区，提升网络流畅性",
+      "description": "优化自学习网络，优选最优小区，提升网络流畅性",
+      "evidenceIds": [
+        "update-114-body"
+      ],
+      "sourceItemIds": [
+        "source-update-114"
+      ]
+    },
+    {
+      "id": "update-115",
+      "module": "相机",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增在入州模式下支持拍摄头况照片，同时支持调节风格化参数，打造独一无二的实况照片",
+      "description": "新增在入州模式下支持拍摄头况照片，同时支持调节风格化参数，打造独一无二的实况照片",
+      "evidenceIds": [
+        "update-115-body"
+      ],
+      "sourceItemIds": [
+        "source-update-115"
+      ]
+    },
+    {
+      "id": "update-116",
+      "module": "相机",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增在人像模式下拍照支持自由变焦、改画幅，随心找到最美视角",
+      "description": "新增在人像模式下拍照支持自由变焦、改画幅，随心找到最美视角",
+      "evidenceIds": [
+        "update-116-body"
+      ],
+      "sourceItemIds": [
+        "source-update-116"
+      ]
+    },
+    {
+      "id": "update-117",
+      "module": "相机",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增扫描文档支持AI增强功能，扫描结果秒变电子档，方便留档和打印",
+      "description": "新增扫描文档支持AI增强功能，扫描结果秒变电子档，方便留档和打印",
+      "evidenceIds": [
+        "update-117-body"
+      ],
+      "sourceItemIds": [
+        "source-update-117"
+      ]
+    },
+    {
+      "id": "update-118",
+      "module": "游戏助手",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增游戏相机支持纯净录制模式，在录制屏幕时，仅录制游戏画面，不会录制自由浮窗、通知消息、游戏助手等信息，保护隐私",
+      "description": "新增游戏相机支持纯净录制模式，在录制屏幕时，仅录制游戏画面，不会录制自由浮窗、通知消息、游戏助手等信息，保护隐私",
+      "evidenceIds": [
+        "update-118-body"
+      ],
+      "sourceItemIds": [
+        "source-update-118"
+      ]
+    },
+    {
+      "id": "update-119",
+      "module": "游戏助手",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增游戏相机支持设置录制清晰度，在录制实况照片、回录视频时，可以录制高清画质，让游戏细节更清晰",
+      "description": "新增游戏相机支持设置录制清晰度，在录制实况照片、回录视频时，可以录制高清画质，让游戏细节更清晰",
+      "evidenceIds": [
+        "update-119-body"
+      ],
+      "sourceItemIds": [
+        "source-update-119"
+      ]
+    },
+    {
+      "id": "update-120",
+      "module": "游戏助手",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增游戏相机支持同时开启实况照片截图和一键回录功能，使用更便捷",
+      "description": "新增游戏相机支持同时开启实况照片截图和一键回录功能，使用更便捷",
+      "evidenceIds": [
+        "update-120-body"
+      ],
+      "sourceItemIds": [
+        "source-update-120"
+      ]
+    },
+    {
+      "id": "update-121",
+      "module": "游戏助手",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增在流体云上显示游戏状态，闪回游戏画面，轻松拿下 MVP",
+      "description": "新增在流体云上显示游戏状态，闪回游戏画面，轻松拿下 MVP",
+      "evidenceIds": [
+        "update-121-body"
+      ],
+      "sourceItemIds": [
+        "source-update-121"
+      ]
+    },
+    {
+      "id": "update-122",
+      "module": "通知与控制中心",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增控制中心支持更多编辑能力。更多快捷开关支持 2*1 尺寸；音频播放器/亮度条/音量条/设备空间等开关支持移除、添加、拖动换位",
+      "description": "新增控制中心支持更多编辑能力。更多快捷开关支持 2*1 尺寸；音频播放器/亮度条/音量条/设备空间等开关支持移除、添加、拖动换位",
+      "evidenceIds": [
+        "update-122-body"
+      ],
+      "sourceItemIds": [
+        "source-update-122"
+      ]
+    },
+    {
+      "id": "update-123",
+      "module": "通知与控制中心",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "全新通知样式，空间占用更小，浏览效率更高",
+      "description": "全新通知样式，空间占用更小，浏览效率更高",
+      "evidenceIds": [
+        "update-123-body"
+      ],
+      "sourceItemIds": [
+        "source-update-123"
+      ]
+    },
+    {
+      "id": "update-124",
+      "module": "自由窗口",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增自由浮窗窗口控制器可选择分屏，点击即可将应用由浮窗变为分屏显示",
+      "description": "新增自由浮窗窗口控制器可选择分屏，点击即可将应用由浮窗变为分屏显示",
+      "evidenceIds": [
+        "update-124-body"
+      ],
+      "sourceItemIds": [
+        "source-update-124"
+      ]
+    },
+    {
+      "id": "update-125",
+      "module": "自由窗口",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增分屏窗口控制器可选择浮窗，点击即可将应用由分屏变为浮窗显示",
+      "description": "新增分屏窗口控制器可选择浮窗，点击即可将应用由分屏变为浮窗显示",
+      "evidenceIds": [
+        "update-125-body"
+      ],
+      "sourceItemIds": [
+        "source-update-125"
+      ]
+    },
+    {
+      "id": "update-126",
+      "module": "自由窗口",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化分屏替换应用时，替换面板显示效果",
+      "description": "优化分屏替换应用时，替换面板显示效果",
+      "evidenceIds": [
+        "update-126-body"
+      ],
+      "sourceItemIds": [
+        "source-update-126"
+      ]
+    },
+    {
+      "id": "update-127",
+      "module": "更多细节",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增连接耳机时铃声不外放功能，开启后连接耳机时，来电铃声仅通过耳机播放，有助于在公共场合保持安静",
+      "description": "新增连接耳机时铃声不外放功能，开启后连接耳机时，来电铃声仅通过耳机播放，有助于在公共场合保持安静",
+      "evidenceIds": [
+        "update-127-body"
+      ],
+      "sourceItemIds": [
+        "source-update-127"
+      ]
+    },
+    {
+      "id": "update-128",
+      "module": "更多细节",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增支持在搜狗定制版输入法中上滑清空语音文字，操作更便捷",
+      "description": "新增支持在搜狗定制版输入法中上滑清空语音文字，操作更便捷",
+      "evidenceIds": [
+        "update-128-body"
+      ],
+      "sourceItemIds": [
+        "source-update-128"
+      ]
+    },
+    {
+      "id": "update-129",
+      "module": "更多细节",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化输入法工具箱结构，高频工具更易查找",
+      "description": "优化输入法工具箱结构，高频工具更易查找",
+      "evidenceIds": [
+        "update-129-body"
+      ],
+      "sourceItemIds": [
+        "source-update-129"
+      ]
+    },
+    {
+      "id": "update-130",
+      "module": "更多细节",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化系统设置搜索能力，支持 AI 搜索、搜索推荐、应用中的设置项搜索等能力，搜索更智能",
+      "description": "优化系统设置搜索能力，支持 AI 搜索、搜索推荐、应用中的设置项搜索等能力，搜索更智能",
+      "evidenceIds": [
+        "update-130-body"
+      ],
+      "sourceItemIds": [
+        "source-update-130"
+      ]
+    },
+    {
+      "id": "update-131",
+      "module": "更多细节",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化智能侧边栏界面设计，界面质感焕新，并支持单列或双列显示以及更多侧边栏浮标自定义选项",
+      "description": "优化智能侧边栏界面设计，界面质感焕新，并支持单列或双列显示以及更多侧边栏浮标自定义选项",
+      "evidenceIds": [
+        "update-131-body"
+      ],
+      "sourceItemIds": [
+        "source-update-131"
+      ]
+    },
+    {
+      "id": "update-132",
+      "module": "更多细节",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化分享面板布局，新增支持直接显示应用联系人，并支持编辑分享面板中的应用选项",
+      "description": "优化分享面板布局，新增支持直接显示应用联系人，并支持编辑分享面板中的应用选项",
+      "evidenceIds": [
+        "update-132-body"
+      ],
+      "sourceItemIds": [
+        "source-update-132"
+      ]
+    },
+    {
+      "id": "update-133",
+      "module": "更多细节",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化点击简洁横幅通知上的菜单按钮，由全屏打开应用改为浮窗打开，更简洁",
+      "description": "优化点击简洁横幅通知上的菜单按钮，由全屏打开应用改为浮窗打开，更简洁",
+      "evidenceIds": [
+        "update-133-body"
+      ],
+      "sourceItemIds": [
+        "source-update-133"
+      ]
+    },
+    {
+      "id": "update-134",
+      "module": "更多细节",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化电池界面样式，提升数据可视化表现，增加前后台活动时长数据展示，电量统计更准确",
+      "description": "优化电池界面样式，提升数据可视化表现，增加前后台活动时长数据展示，电量统计更准确",
+      "evidenceIds": [
+        "update-134-body"
+      ],
+      "sourceItemIds": [
+        "source-update-134"
+      ]
+    },
+    {
+      "id": "update-135",
+      "module": "更多细节",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化 iOS 设备搬家到 OPPO 设备的传输速度与体验",
+      "description": "优化 iOS 设备搬家到 OPPO 设备的传输速度与体验",
+      "evidenceIds": [
+        "update-135-body"
+      ],
+      "sourceItemIds": [
+        "source-update-135"
+      ]
+    },
+    {
+      "id": "update-136",
+      "module": "更多细节",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化 TalkBack 朗读、焦点和手势等功能，提升 TalkBack 使用体验",
+      "description": "优化 TalkBack 朗读、焦点和手势等功能，提升 TalkBack 使用体验",
+      "evidenceIds": [
+        "update-136-body"
+      ],
+      "sourceItemIds": [
+        "source-update-136"
+      ]
+    },
+    {
+      "id": "update-137",
+      "module": "权限管理",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增对应用权限的审核管控机制，推荐最小化的授权，禁用高危应用权限的授权，降低过度授权的风险",
+      "description": "新增对应用权限的审核管控机制，推荐最小化的授权，禁用高危应用权限的授权，降低过度授权的风险",
+      "evidenceIds": [
+        "update-137-body"
+      ],
+      "sourceItemIds": [
+        "source-update-137"
+      ]
+    },
+    {
+      "id": "update-138",
+      "module": "权限管理",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增应用读取数据的安全访问控件，管控应用读取图片、视频、文件、联系人、剪贴板、写入日历等的权限，提升个人数据安全",
+      "description": "新增应用读取数据的安全访问控件，管控应用读取图片、视频、文件、联系人、剪贴板、写入日历等的权限，提升个人数据安全",
+      "evidenceIds": [
+        "update-138-body"
+      ],
+      "sourceItemIds": [
+        "source-update-138"
+      ]
+    },
+    {
+      "id": "update-139",
+      "module": "权限管理",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增权限用途说明，在权限弹窗和权限管理界面可以清晰了解应用调用权限的用途，便于管理权限",
+      "description": "新增权限用途说明，在权限弹窗和权限管理界面可以清晰了解应用调用权限的用途，便于管理权限",
+      "evidenceIds": [
+        "update-139-body"
+      ],
+      "sourceItemIds": [
+        "source-update-139"
+      ]
+    },
+    {
+      "id": "update-140",
+      "module": "剪贴板智能管控",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增写入剪贴板权限，用于管控应用随意向剪贴板写入垃圾信息",
+      "description": "新增写入剪贴板权限，用于管控应用随意向剪贴板写入垃圾信息",
+      "evidenceIds": [
+        "update-140-body"
+      ],
+      "sourceItemIds": [
+        "source-update-140"
+      ]
+    },
+    {
+      "id": "update-141",
+      "module": "剪贴板智能管控",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增剪贴板支持智能读取口令，仅允许口令关联应用读取口令信息，提升隐私安全",
+      "description": "新增剪贴板支持智能读取口令，仅允许口令关联应用读取口令信息，提升隐私安全",
+      "evidenceIds": [
+        "update-141-body"
+      ],
+      "sourceItemIds": [
+        "source-update-141"
+      ]
+    },
+    {
+      "id": "update-142",
+      "module": "剪贴板智能管控",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化前贴板内容自动清除的时间，防止前贴板内容长时间停留被应用随意访问，避免隐私泄露",
+      "description": "优化前贴板内容自动清除的时间，防止前贴板内容长时间停留被应用随意访问，避免隐私泄露",
+      "evidenceIds": [
+        "update-142-body"
+      ],
+      "sourceItemIds": [
+        "source-update-142"
+      ]
+    },
+    {
+      "id": "update-143",
+      "module": "其他",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增常用信息智能建议功能，支持识别相册内的卡证信息，并推荐保存至常用信息，方便在使用时自动填充",
+      "description": "新增常用信息智能建议功能，支持识别相册内的卡证信息，并推荐保存至常用信息，方便在使用时自动填充",
+      "evidenceIds": [
+        "update-143-body"
+      ],
+      "sourceItemIds": [
+        "source-update-143"
+      ]
+    },
+    {
+      "id": "update-144",
+      "module": "其他",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增支持长按桌面图标，可在菜单中选择将应用上锁或隐藏",
+      "description": "新增支持长按桌面图标，可在菜单中选择将应用上锁或隐藏",
+      "evidenceIds": [
+        "update-144-body"
+      ],
+      "sourceItemIds": [
+        "source-update-144"
+      ]
+    },
+    {
+      "id": "update-145",
+      "module": "其他",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增手机管家检测到有风险的应用在运行时，会通过流体云、消息通知进行提醒，及时发现风险，保护隐私",
+      "description": "新增手机管家检测到有风险的应用在运行时，会通过流体云、消息通知进行提醒，及时发现风险，保护隐私",
+      "evidenceIds": [
+        "update-145-body"
+      ],
+      "sourceItemIds": [
+        "source-update-145"
+      ]
+    },
+    {
+      "id": "update-146",
+      "module": "其他",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "新增智能拦截低评分应用的广告功能，降低受骗风险",
+      "description": "新增智能拦截低评分应用的广告功能，降低受骗风险",
+      "evidenceIds": [
+        "update-146-body"
+      ],
+      "sourceItemIds": [
+        "source-update-146"
+      ]
+    },
+    {
+      "id": "update-147",
+      "module": "其他",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "优化密码本应用，将常用信息与密码自动填充收纳到同一个页面",
+      "description": "优化密码本应用，将常用信息与密码自动填充收纳到同一个页面",
+      "evidenceIds": [
+        "update-147-body"
+      ],
+      "sourceItemIds": [
+        "source-update-147"
+      ]
+    }
+  ],
+  "sourceItems": [
+    {
+      "id": "source-highlight-01",
+      "classification": "highlight",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 0,
+      "sourceHash": "298c9031bafc8b29980836320b5ac6ec6cabc6598334fd1de9f55152ee27ece3",
+      "blockIds": [
+        "block-0"
+      ],
+      "text": "新增桌面图标、卡片、文件夹、侧边栏等场景支持无缝拖拽动画，提供一气呵成的直觉操作体验",
+      "targetIds": [
+        "highlight-01"
+      ]
+    },
+    {
+      "id": "source-update-01",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 1,
+      "sourceHash": "83da24657ae0f7cf96ff67586d8b304762a7bfa4ea3a284acb5e473fb618cd18",
+      "blockIds": [
+        "block-1"
+      ],
+      "text": "新增系统文本选择放大镜的出现、消失支持无缝过渡动效",
+      "targetIds": [
+        "update-01"
+      ]
+    },
+    {
+      "id": "source-update-02",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 2,
+      "sourceHash": "115a0f2b190d32bdada7e7a105f48dc575748c3587695f311b9000f311eb6da7",
+      "blockIds": [
+        "block-2"
+      ],
+      "text": "新增系统 UI 控件支持无缝过渡动效，如信息、电话本等的新建按钮",
+      "targetIds": [
+        "update-02"
+      ]
+    },
+    {
+      "id": "source-update-03",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 3,
+      "sourceHash": "c4857b73f23b7133604aa2cdf3e4d52cb191cbfb269abbb6001bdce8292c1271",
+      "blockIds": [
+        "block-3"
+      ],
+      "text": "优化全局搜索和速览界面动画表现和流畅度，支持无缝启动应用，应用切换时支持并行动画，可实时打断操作，动效表现更丝滑",
+      "targetIds": [
+        "update-03"
+      ]
+    },
+    {
+      "id": "source-update-04",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 4,
+      "sourceHash": "51705aad66f5615fab15c825bfdfa96dd40cccb9233db1bd33cb3e12a882fb85",
+      "blockIds": [
+        "block-4"
+      ],
+      "text": "新增在打开通知中心、控制中心时，状态栏支持无缝切换动画，下拉过程可实时打断操作，画面更流畅",
+      "targetIds": [
+        "update-04"
+      ]
+    },
+    {
+      "id": "source-update-05",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 5,
+      "sourceHash": "f15da8ab5fb099d7b91c30f82ef53e461d3eaa96cd0f55b2cc1ee023e442128b",
+      "blockIds": [
+        "block-5"
+      ],
+      "text": "新增在控制中心点击音频播放卡片时，支持无缝切换动画，视觉更美观",
+      "targetIds": [
+        "update-05"
+      ]
+    },
+    {
+      "id": "source-update-06",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 6,
+      "sourceHash": "6256744b9984b02d4a243740ef2b4cb1c9d4fd45fed0b641d2772c76f9db13ad",
+      "blockIds": [
+        "block-6"
+      ],
+      "text": "新增在使用虚拟按键导航方式时，支持桌面应用启动、退出并行动画，让操作画面更丝滑连贯",
+      "targetIds": [
+        "update-06"
+      ]
+    },
+    {
+      "id": "source-highlight-02",
+      "classification": "highlight",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 7,
+      "sourceHash": "2660645fa9ae13e05071bcc075439ad11730658c6597ef7ab752cf397c30cdeb",
+      "blockIds": [
+        "block-7"
+      ],
+      "text": "新增光场动效，基于极光引擎提供更沉浸、更生动的多模态动态体验",
+      "targetIds": [
+        "highlight-02"
+      ]
+    },
+    {
+      "id": "source-update-07",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 8,
+      "sourceHash": "f36f0ca74755defe99bc88ed65ef8e972a14e988c9be8475b7941351c154ed67",
+      "blockIds": [
+        "block-8"
+      ],
+      "text": "新增在计算器、锁屏密码、通话界面等按压交互时，呈现更沉浸更生动的光场动效",
+      "targetIds": [
+        "update-07"
+      ]
+    },
+    {
+      "id": "source-update-08",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 9,
+      "sourceHash": "32919f88a1aca5f866a7d497b0479717c0b0658df22dea805e17c2e2ff148844",
+      "blockIds": [
+        "block-9"
+      ],
+      "text": "优化充电动效与指纹动效，光场涟漪还原自然之美",
+      "targetIds": [
+        "update-08"
+      ]
+    },
+    {
+      "id": "source-update-09",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 10,
+      "sourceHash": "647e29336421aa5c8d4726588462843cb5be40e9f1e4bd8f7d349204f35f176c",
+      "blockIds": [
+        "block-10"
+      ],
+      "text": "优化桌面上排应用图标退出动画曲线，操作更有掌控感",
+      "targetIds": [
+        "update-09"
+      ]
+    },
+    {
+      "id": "source-update-10",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 11,
+      "sourceHash": "1bf083acb4c4305604abaa9b8d39e713d3eb6552c6f4ff0bd68d5f31b1e5a58f",
+      "blockIds": [
+        "block-11"
+      ],
+      "text": "优化系统列表滑动动画曲线与阻尼，滑动效果更跟手，更丝滑",
+      "targetIds": [
+        "update-10"
+      ]
+    },
+    {
+      "id": "source-highlight-03",
+      "classification": "highlight",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 12,
+      "sourceHash": "2bb5be810d2aaca3332b07e634192e9bf05355dbfdc21a7ba230c717ed3dbecc",
+      "blockIds": [
+        "block-12"
+      ],
+      "text": "潮汐引擎带来更全面的流畅体验。通过动态适配场景资源需求、智能调节运行负载，带来短视频久刷不卡顿、游戏重载不掉帧、影像久拍不中断的持久流畅体验",
+      "targetIds": [
+        "highlight-03"
+      ]
+    },
+    {
+      "id": "source-update-11",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 13,
+      "sourceHash": "f11d5853618513a59df1d8e40149da4e167003f1746647a78a77102321df20b1",
+      "blockIds": [
+        "block-13"
+      ],
+      "text": "重构内存管理方案，优化短视频连续滑动过程中的后台管理策略。匹配短视频观看习惯，自动调整缓存释放策略，实现久刷也流畅，观影更畅快",
+      "targetIds": [
+        "update-11"
+      ]
+    },
+    {
+      "id": "source-update-12",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 14,
+      "sourceHash": "32804f0ad55415d1d24123b3fa2f7b4d9d328797f27f61fba5288a9074f3e875",
+      "blockIds": [
+        "block-14"
+      ],
+      "text": "优化高负载场景下的性能，降低后台高负载",
+      "targetIds": [
+        "update-12"
+      ]
+    },
+    {
+      "id": "source-highlight-04",
+      "classification": "highlight",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 15,
+      "sourceHash": "8513654d94dbafe223fc10864fcf7bf5b4d3513fe41460ff69f7012bc6e8fc3f",
+      "blockIds": [
+        "block-15"
+      ],
+      "text": "智能分析游戏过程中的关键计算任务，优先保障游戏的稳定调度。精细化管理游戏中常用的应用小窗、视频通话等并发任务，智能调度，不仅节省功耗，还能稳定流畅",
+      "targetIds": [
+        "highlight-04"
+      ]
+    },
+    {
+      "id": "source-update-13",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 16,
+      "sourceHash": "b1c8d8adf1a2edaa19fa2f9fe17e887b2820993a88509eb32339ffce37953574",
+      "blockIds": [
+        "block-16"
+      ],
+      "text": "优化系统核心场景的响应速度，操作响应、应用启动、点击滑动更流畅",
+      "targetIds": [
+        "update-13"
+      ]
+    },
+    {
+      "id": "source-highlight-05",
+      "classification": "highlight",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 17,
+      "sourceHash": "acc6ccc713f62debb08aae690765c9404f3d59e03d42700b73faeb87f80e4208",
+      "blockIds": [
+        "block-17"
+      ],
+      "text": "优化微信视频通话时的后台管理策略，文件传输速度，及部分小程序的滑动体验，操控更丝滑",
+      "targetIds": [
+        "highlight-05"
+      ]
+    },
+    {
+      "id": "source-update-14",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 18,
+      "sourceHash": "246fc895cfb6945cef94dce762e93df48c4d0bd87685668dedf701aa55325494",
+      "blockIds": [
+        "block-18"
+      ],
+      "text": "新增更多应用支持视频长续航功能，续航更持久",
+      "targetIds": [
+        "update-14"
+      ]
+    },
+    {
+      "id": "source-update-15",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 19,
+      "sourceHash": "cf6bd3aed3bdb2e49fbb1bf9e747ab2eb374e6c532bdc7a3cc64eef1fc273eed",
+      "blockIds": [
+        "block-19"
+      ],
+      "text": "新增支持智能温控联动，当设备温度过高时，将自动进入视频长续航模式，有效平衡性能与功耗",
+      "targetIds": [
+        "update-15"
+      ]
+    },
+    {
+      "id": "source-highlight-06",
+      "classification": "highlight",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 20,
+      "sourceHash": "00f87e574cbf91dcb112ef5173a8aec18526265e2a4ad788b49f52f34e88c3c8",
+      "blockIds": [
+        "block-20"
+      ],
+      "text": "新增长续航场景智能识别功能，在高铁、地铁等特定出行场景下，自动进入视频长续航模式，让旅途用机更持久",
+      "targetIds": [
+        "highlight-06"
+      ]
+    },
+    {
+      "id": "source-update-16",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 21,
+      "sourceHash": "d29bd50b3baa1103245fbbe98924a872561ce8a9fa2708e28073fbfa10c1d87c",
+      "blockIds": [
+        "block-21"
+      ],
+      "text": "新增腾讯视频/芒果视频沉浸式在线追剧场景下的网络节电策略，续航更持久",
+      "targetIds": [
+        "update-16"
+      ]
+    },
+    {
+      "id": "source-highlight-07",
+      "classification": "highlight",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 22,
+      "sourceHash": "a659d89e6e4acc8b2e92cfc0e95ee4552aeff35006824995889a1be3c7703b7f",
+      "blockIds": [
+        "block-22"
+      ],
+      "text": "新增无网或漫游等场景下的网络节电策略，续航更持久",
+      "targetIds": [
+        "highlight-07"
+      ]
+    },
+    {
+      "id": "source-update-17",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 23,
+      "sourceHash": "cfea8eb89e0d09cfd2b4a103b3c5202999ece48be1faf20f419e050194b54c2f",
+      "blockIds": [
+        "block-23"
+      ],
+      "text": "优化开启省电模式后的管理策略，在不同电量下提供阶梯化性能管理策略，带来更持久和更流畅的使用体验",
+      "targetIds": [
+        "update-17"
+      ]
+    },
+    {
+      "id": "source-update-18",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 24,
+      "sourceHash": "ddcb68061bbfda740c30c7f4cd05a0f38f49999500d768e2b6ca2befec138d7c",
+      "blockIds": [
+        "block-24"
+      ],
+      "text": "新增繁星编译器，通过业界独创的跨层级融合优化、反馈式优化等编译器优化技术，大幅提升了编译语言的执行效率，助力系统响应更迅速更流畅",
+      "targetIds": [
+        "update-18"
+      ]
+    },
+    {
+      "id": "source-update-19",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 25,
+      "sourceHash": "a8a643ffc5d200452d95c7317f84b5c6fd7d75c114419d3f4ad43c2200485b37",
+      "blockIds": [
+        "block-25"
+      ],
+      "text": "优化系统服务代码的执行效率，提升开机速度，降低服务能耗",
+      "targetIds": [
+        "update-19"
+      ]
+    },
+    {
+      "id": "source-update-20",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 26,
+      "sourceHash": "54651142332fe095001fef6b9d819a4b119459403df469fe19c028af66f333ff",
+      "blockIds": [
+        "block-26"
+      ],
+      "text": "通过更精准地预优化系统公共库，使程序运行时功耗更低，更省内存",
+      "targetIds": [
+        "update-20"
+      ]
+    },
+    {
+      "id": "source-update-21",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 27,
+      "sourceHash": "65b1364edf42d1a0a467b2066f3e2031d481b7d237924e4eb8e0acdcb4a6c1bb",
+      "blockIds": [
+        "block-27"
+      ],
+      "text": "通过更准确更细致的反馈式优化，降低 IO 损耗，提升应用程序启动速度",
+      "targetIds": [
+        "update-21"
+      ]
+    },
+    {
+      "id": "source-update-22",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 28,
+      "sourceHash": "df31794206254a2ec102a91d14c446a2c8d796d92aab6f70323b296829ab853d",
+      "blockIds": [
+        "block-28"
+      ],
+      "text": "提升 UI 相关代码的编译优化质量，使应用响应更快，帧率更稳",
+      "targetIds": [
+        "update-22"
+      ]
+    },
+    {
+      "id": "source-update-23",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 29,
+      "sourceHash": "f1c2959c7f9d008c63f847e8335e34d44642fdeb89d1187b0b688f4ab6aaabab",
+      "blockIds": [
+        "block-29"
+      ],
+      "text": "新增 AI 实景对话指哪答哪，点击屏幕上好奇的事物，小布能即时为你解答",
+      "targetIds": [
+        "update-23"
+      ]
+    },
+    {
+      "id": "source-update-24",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 30,
+      "sourceHash": "c281f89a725f4c5e98d90c5bf7dac8c98484982c915dc21c7dc8ae2b32ae10b2",
+      "blockIds": [
+        "block-30"
+      ],
+      "text": "新增 AI 实景对话专属声纹识别，小布可以记住你的声纹信息，环境再吵只听你讲",
+      "targetIds": [
+        "update-24"
+      ]
+    },
+    {
+      "id": "source-update-25",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 31,
+      "sourceHash": "da233143d18704a8dadaa3835e1469a0cf2d4ac97c88203f7278cf298e70380d",
+      "blockIds": [
+        "block-31"
+      ],
+      "text": "优化小布记忆详情页，AI 摘要更详尽，内容识别更精准。并支持添加备注，突出提取重点信息，一眼明确要点",
+      "targetIds": [
+        "update-25"
+      ]
+    },
+    {
+      "id": "source-update-26",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 32,
+      "sourceHash": "ff5d494e7b9e91bc51edc478d41434ceece7265bf27b82e1dbfc49a17ee635b3",
+      "blockIds": [
+        "block-32"
+      ],
+      "text": "新增记忆搜索，小布记忆与系统打通，支持在全局搜索或小布助手中，搜索小布记忆里的内容，还能将搜到的内容进行整理，分析和归纳总结",
+      "targetIds": [
+        "update-26"
+      ]
+    },
+    {
+      "id": "source-update-27",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 33,
+      "sourceHash": "b7156a336fa639d6d43dd1bcb256df359af6ecd7d2a4f025e99ca9d931d434b3",
+      "blockIds": [
+        "block-33"
+      ],
+      "text": "新增记多图、记文档、记截图，还能通过AI分析并保存到小布记忆中。拓展小布记忆支持记录的内容类型，更全面更高效",
+      "targetIds": [
+        "update-27"
+      ]
+    },
+    {
+      "id": "source-update-28",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 34,
+      "sourceHash": "e2a0cdbd1a81dbe28f6d46d6e27ab0cdd63f51e67daf2c8608d6eada4023fdb5",
+      "blockIds": [
+        "block-34"
+      ],
+      "text": "新增视频记，视频懒得看，小布记忆帮你看。在哗哩哗哩等应用内观看视频时一键闪记，快速将视频记录下来并自动分段摘要及重点高光提取，部分应用支持跳转高光时间点，方便回看",
+      "targetIds": [
+        "update-28"
+      ]
+    },
+    {
+      "id": "source-update-29",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 35,
+      "sourceHash": "1d204ecccd2eab292049642a40c2071d6718fdc95c612bfa3dfc5f6a5bdfa0fb",
+      "blockIds": [
+        "block-35"
+      ],
+      "text": "新增AI取餐码，点单时在取餐码界面一键闪记，即可识别取餐信息并推送到流体云上显示，部分品牌支持自动上云，此刻记下，码上用上，随时查看超方便。",
+      "targetIds": [
+        "update-29"
+      ]
+    },
+    {
+      "id": "source-update-30",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 36,
+      "sourceHash": "e55708756e8c1a00a8b70d5cb598e740bc7f26e7e5065510d9892c39c3ff7bc2",
+      "blockIds": [
+        "block-36"
+      ],
+      "text": "新增记账单，在支付界面一键闪记，会自动识别账单并记录到小布记忆中，并自动沉淀账单合集，此刻记下，月月清晰",
+      "targetIds": [
+        "update-30"
+      ]
+    },
+    {
+      "id": "source-update-31",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 37,
+      "sourceHash": "6219c345b88b578579a7598236a58d6b80e4a7fa0006ef16b218bc71ed072c17",
+      "blockIds": [
+        "block-37"
+      ],
+      "text": "新增在截屏缩略图上支持一键闪记，快速将截图内容记录下来",
+      "targetIds": [
+        "update-31"
+      ]
+    },
+    {
+      "id": "source-update-32",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 38,
+      "sourceHash": "aea707c24f9453283996944dc522bb4ed838ae79611675dc5e4f33b2db7a7c1f",
+      "blockIds": [
+        "block-38"
+      ],
+      "text": "新增自动收藏，支持收藏小红书、微博、抖音、知乎、今日头条新闻、豆瓣帖子等内容，自动同步到小布记忆中，记录更简单，查找更便捷",
+      "targetIds": [
+        "update-32"
+      ]
+    },
+    {
+      "id": "source-update-33",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 39,
+      "sourceHash": "6efdde46f3ecbfcb39a32cde1ed6df263024068fea913068d8f830b564e20a0e",
+      "blockIds": [
+        "block-39"
+      ],
+      "text": "新增支持手机在横屏状态时，可以触发一键闪记，记下横屏内容",
+      "targetIds": [
+        "update-33"
+      ]
+    },
+    {
+      "id": "source-highlight-08",
+      "classification": "highlight",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 40,
+      "sourceHash": "254e159bf88e6c35ef0062408cbc215ecf98bf5b69a3d8bbb96cc6e1b8bb8387",
+      "blockIds": [
+        "block-40"
+      ],
+      "text": "新增手表连接手机后，可以在手表端唤醒小布助手并输入内容，内容将保存至手机端的小布记忆中；也可以直接在手表端使用小布助手搜索手机端小布记忆中的内容",
+      "targetIds": [
+        "highlight-08"
+      ]
+    },
+    {
+      "id": "source-update-34",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 41,
+      "sourceHash": "3dbd33768455529756cdadb1078bd8db90f26024adb4378b33b90f43f0adf1c4",
+      "blockIds": [
+        "block-41"
+      ],
+      "text": "小布建议服务内容大幅扩展，涵盖通勤出行（如航班、高铁、打车、酒店行程等）、生活服务（信用卡还款、生活缴费提醒、快递提醒、外卖与就餐服务、电影演出提醒等）、办公学习（日程提醒、课程提醒等）、内容服务（订阅的篮球、足球、电竞提醒等），覆盖生活方式面面",
+      "targetIds": [
+        "update-34"
+      ]
+    },
+    {
+      "id": "source-update-35",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 42,
+      "sourceHash": "cc7b62b5ba271550cfb32244cd8c8cc93935cb89871f1de4008626cc6adb7241",
+      "blockIds": [
+        "block-42"
+      ],
+      "text": "新增打通小布记忆，根据使用场景主动推荐小布记忆中收藏的美食店铺、电影票、酒店订单、景点门票等",
+      "targetIds": [
+        "update-35"
+      ]
+    },
+    {
+      "id": "source-update-36",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 43,
+      "sourceHash": "a49f2eca82ff1a91771e1243d57c539391caa84789115032f5894efa47fa3807",
+      "blockIds": [
+        "block-43"
+      ],
+      "text": "新增小布建议晨间AI简报功能，动态感知和整理你的重要信息，如天气、日程、AI资讯，帮你快速一览当天重要事项",
+      "targetIds": [
+        "update-36"
+      ]
+    },
+    {
+      "id": "source-highlight-09",
+      "classification": "highlight",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 44,
+      "sourceHash": "b8445b250f98c18128945a6ffd70e1dd85d8022fa9158043b8924db0fc185cf7",
+      "blockIds": [
+        "block-44"
+      ],
+      "text": "小布识屏全面焕新，全新涟漪式光场设计，更沉浸更生动。并支持设置长按手势指示条或长按虚拟Home键触发",
+      "targetIds": [
+        "highlight-09"
+      ]
+    },
+    {
+      "id": "source-update-37",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 45,
+      "sourceHash": "d7917f5439e73cdc5122bc79543444f33e677895352f5c431cecbcdf6000d00b",
+      "blockIds": [
+        "block-45"
+      ],
+      "text": "优化小布识屏识别速度，响应更及时，交互更丝滑",
+      "targetIds": [
+        "update-37"
+      ]
+    },
+    {
+      "id": "source-update-38",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 46,
+      "sourceHash": "12b6da3d5c786818bbd76998cbfdadf218b42d56f2a683a04d4bb2815fa7fcff",
+      "blockIds": [
+        "block-46"
+      ],
+      "text": "新增端云识别框架，大幅提升图文识别准确率",
+      "targetIds": [
+        "update-38"
+      ]
+    },
+    {
+      "id": "source-update-39",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 47,
+      "sourceHash": "e0072b82586fe8467fa06f1f512774a6197f00a2a7cf3224029bf9f24183201c",
+      "blockIds": [
+        "block-47"
+      ],
+      "text": "新增小布识屏支持圈选，并打通小布助手，圈选后支持向小布提问",
+      "targetIds": [
+        "update-39"
+      ]
+    },
+    {
+      "id": "source-update-40",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 48,
+      "sourceHash": "4a40c789550812693e38968b61b00e81ba61c8f9fd85ee6acf36910d19b76b7a",
+      "blockIds": [
+        "block-48"
+      ],
+      "text": "新增智能识别文本并推荐地址导航、一键拨号、航班信息等相关服务，一键直达更便捷",
+      "targetIds": [
+        "update-40"
+      ]
+    },
+    {
+      "id": "source-update-41",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 49,
+      "sourceHash": "1510a35c6ad22cc4ac16f29f59f908fa708765a01e15d6a3f40423e3f4c4627b",
+      "blockIds": [
+        "block-49"
+      ],
+      "text": "新增提取界面中的原图，并支持一键增强图片画质，保存图片更清晰",
+      "targetIds": [
+        "update-41"
+      ]
+    },
+    {
+      "id": "source-update-42",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 50,
+      "sourceHash": "6fd645985838e8370d9c57ee2ad8b600a36c488af7fc5f90cadd61815a993f5c",
+      "blockIds": [
+        "block-50"
+      ],
+      "text": "新增一键将屏幕中的文本或表格转换为Word或Excel等可编辑格式文档，轻松高效处理屏幕信息",
+      "targetIds": [
+        "update-42"
+      ]
+    },
+    {
+      "id": "source-highlight-10",
+      "classification": "highlight",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 51,
+      "sourceHash": "1864d89b56fd23eb5c48bbcea20610e5af810def909302af53bee3477862f74a",
+      "blockIds": [
+        "block-51"
+      ],
+      "text": "新增支持识别并提取日语、韩语、西班牙语、葡萄牙语、泰语、法语、意大利语、俄语等20+种语言的文本",
+      "targetIds": [
+        "highlight-10"
+      ]
+    },
+    {
+      "id": "source-update-43",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 52,
+      "sourceHash": "25b29ab2ca3dbc75bef10efb9d0de58a6af71d7938a085680913d3a47f36283b",
+      "blockIds": [
+        "block-52"
+      ],
+      "text": "相册视觉与体验焕然一新。沉浸美观的照片视图，浏览一镜到底、丝滑流畅",
+      "targetIds": [
+        "update-43"
+      ]
+    },
+    {
+      "id": "source-highlight-11",
+      "classification": "highlight",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 53,
+      "sourceHash": "6c6942ce7637054d2f231a39a116562c512bf3716254eb53591029d091126ede",
+      "blockIds": [
+        "block-53"
+      ],
+      "text": "优化相册交互框架，更清晰的图集分类，常用项目支持自定义排序，图集管理紧紧有条",
+      "targetIds": [
+        "highlight-11"
+      ]
+    },
+    {
+      "id": "source-update-44",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 54,
+      "sourceHash": "6554c4b1154f23e2963cfbbbff5bf53b942daa5afa12917e302b4417fa1433ff",
+      "blockIds": [
+        "block-54"
+      ],
+      "text": "优化照片详情页设计，上滑即可展示照片信息、存储位置，更美观更易用",
+      "targetIds": [
+        "update-44"
+      ]
+    },
+    {
+      "id": "source-update-45",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 55,
+      "sourceHash": "7af4992669517c7ed5ea15495e198449340428caee85310144f7a114e6c7d9aa",
+      "blockIds": [
+        "block-55"
+      ],
+      "text": "新增学习图集，智能识别与学习相关的图片、视频并收纳归类",
+      "targetIds": [
+        "update-45"
+      ]
+    },
+    {
+      "id": "source-update-46",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 56,
+      "sourceHash": "db23434fd7e154596e9166cbcdf8ca65d2014e534e4c39f816312f8f9c1dbd6b",
+      "blockIds": [
+        "block-56"
+      ],
+      "text": "新增多项视频编辑能力，如分割、拼接、变速、转场、配乐等。原画直出，轻松成片",
+      "targetIds": [
+        "update-46"
+      ]
+    },
+    {
+      "id": "source-update-47",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 57,
+      "sourceHash": "01fadc77f9eef64cbda1e3d448fd52ae2d79bc7bef4a4735a5b02c330242492d",
+      "blockIds": [
+        "block-57"
+      ],
+      "text": "优化视频自由裁剪、旋转、参数调节、滤镜等功能",
+      "targetIds": [
+        "update-47"
+      ]
+    },
+    {
+      "id": "source-update-48",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 58,
+      "sourceHash": "8bad7eafd8fba83dc27b5748c64af59b35d5cf494281fa6c3f8c8c8ee68c79be",
+      "blockIds": [
+        "block-58"
+      ],
+      "text": "新增实况照片高清拼图能力，支持保留实况照片的高清分辨率、HDR效果。并新增更多拼图模板，提供更多个性化选择",
+      "targetIds": [
+        "update-48"
+      ]
+    },
+    {
+      "id": "source-update-49",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 59,
+      "sourceHash": "21dafe02a728a45ae51dbf28872b07f3b99fcde05894f65b8c87b318bce0eaa2",
+      "blockIds": [
+        "block-59"
+      ],
+      "text": "新增实况照片慢动作效果，一键将充满生命力的实况照片转为慢动作，在慢镜头中凝聚时光",
+      "targetIds": [
+        "update-49"
+      ]
+    },
+    {
+      "id": "source-update-50",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 60,
+      "sourceHash": "c8016863035e449698d4d3662da9d1e70efe316df930d6fb6fc093d323b463a8",
+      "blockIds": [
+        "block-60"
+      ],
+      "text": "新增支持截屏时保留图片/视频/游戏的HDR效果，且经过裁剪、旋转等简单编辑",
+      "targetIds": [
+        "update-50"
+      ]
+    },
+    {
+      "id": "source-update-51",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 61,
+      "sourceHash": "f0b0b5a2a939776975eeb8dd40e7958fca7406c8d8afc235003004dc40b6c807",
+      "blockIds": [
+        "block-61"
+      ],
+      "text": "新增字体切换、波浪下划线、分割线、文本高亮等多种功能，满足你的个性化排版需求，让笔记更美观",
+      "targetIds": [
+        "update-51"
+      ]
+    },
+    {
+      "id": "source-update-52",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 62,
+      "sourceHash": "5d5f3fbb56ded2d1b4e93b04fde0fd86ead87785bece9e6e34ca12c6343f2c8c",
+      "blockIds": [
+        "block-62"
+      ],
+      "text": "录音全面焕新，优化录音界面视觉与交互",
+      "targetIds": [
+        "update-52"
+      ]
+    },
+    {
+      "id": "source-update-53",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 63,
+      "sourceHash": "a39bc160b1f8bade8e48e61b55f75d7b539687a7c423a8c53aa155dc9698605d",
+      "blockIds": [
+        "block-63"
+      ],
+      "text": "新增实时转写功能，录音时可边录边看文本内容，重要信息不错过",
+      "targetIds": [
+        "update-53"
+      ]
+    },
+    {
+      "id": "source-update-54",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 64,
+      "sourceHash": "a528aa470b600cb24c0f7410c5c5503fc4b227f2be7ec1a4c848eec058177e29",
+      "blockIds": [
+        "block-64"
+      ],
+      "text": "新增分角色转写功能，当录音内有多个人员说话时，可自动区分并标记发言人",
+      "targetIds": [
+        "update-54"
+      ]
+    },
+    {
+      "id": "source-update-55",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 65,
+      "sourceHash": "b4f529fc990895b5ac483d0d543b9f4cc8be6c52e7e011d0bb80e4c5457ae3fc",
+      "blockIds": [
+        "block-65"
+      ],
+      "text": "日历全面焕新，优化日历月视图结构，提供列表、总览、时间轴三种视图，无缝切换选择最喜欢的显示视图",
+      "targetIds": [
+        "update-55"
+      ]
+    },
+    {
+      "id": "source-update-56",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 66,
+      "sourceHash": "f122ea4bdc0edd523fe2c1611304607d1c68180af271d2f9346ea1f9de0c2f1b",
+      "blockIds": [
+        "block-66"
+      ],
+      "text": "新增 AI 建议事项，智能识别系统内碎片信息并生成日程和待办建议，大事小事不遗漏",
+      "targetIds": [
+        "update-56"
+      ]
+    },
+    {
+      "id": "source-update-57",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 67,
+      "sourceHash": "e1997536fb7a959bed36506658fde358c3baccaee0584e421e9a86acaa5e71a9",
+      "blockIds": [
+        "block-67"
+      ],
+      "text": "新增将待办事项纳入日历中，方便查看与管理",
+      "targetIds": [
+        "update-57"
+      ]
+    },
+    {
+      "id": "source-update-58",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 68,
+      "sourceHash": "9084da2f4b7e0932c099410202d589234616aaac7bd7f69f182fcfeecf02dd45",
+      "blockIds": [
+        "block-68"
+      ],
+      "text": "新增当日时间轴，支持以时间轴的方式可视化呈现当天所有日程，并支持点击查看和插入日程，日程安排一目了然",
+      "targetIds": [
+        "update-58"
+      ]
+    },
+    {
+      "id": "source-update-59",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 69,
+      "sourceHash": "f2022efdfa3edc07eaeedb5a0a91d4ae59c5406cc6f6d682a133567b1bd56f30",
+      "blockIds": [
+        "block-69"
+      ],
+      "text": "新增基于 AI 大模型翻译能力的文本翻译、同声传译功能，翻译效率更高，翻译表达更地道",
+      "targetIds": [
+        "update-59"
+      ]
+    },
+    {
+      "id": "source-update-60",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 70,
+      "sourceHash": "f0bb2e48e2ee2ae838b117c723ee454d6e18ff18ddd30dd4ecfe7ebff10e930e",
+      "blockIds": [
+        "block-70"
+      ],
+      "text": "优化全屏翻译和区域翻译的交互体验和动效，翻译体验更流畅",
+      "targetIds": [
+        "update-60"
+      ]
+    },
+    {
+      "id": "source-update-61",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 71,
+      "sourceHash": "b57a8d28ff39ab55dfdbc105ae222dc5c1cb00bc1590d615d91efeb542e897b3",
+      "blockIds": [
+        "block-71"
+      ],
+      "text": "新增系统级 AI 写作，聪明的代笔，一键帮你下笔",
+      "targetIds": [
+        "update-61"
+      ]
+    },
+    {
+      "id": "source-update-62",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 72,
+      "sourceHash": "4f68603ac55cfeb9dd95a2be07d50573d137276789b3e3ece556f554efb82c07",
+      "blockIds": [
+        "block-72"
+      ],
+      "text": "支持全局唤起，在输入界面，打开系统输入法，可随时使用键盘上的 AI 写作",
+      "targetIds": [
+        "update-62"
+      ]
+    },
+    {
+      "id": "source-update-63",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 73,
+      "sourceHash": "df220c8c3c9d0eb1b2b01705168a539047d13bce331b57e410b0ee47252b59d0",
+      "blockIds": [
+        "block-73"
+      ],
+      "text": "在使签与文档写文案，或系统应用内选择文本时，都可以使用 AI 为你写作，是写作工具更是创作工具",
+      "targetIds": [
+        "update-63"
+      ]
+    },
+    {
+      "id": "source-update-64",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 74,
+      "sourceHash": "174ed137ecd9d4bad7e88d0cec40ee5e9d689aabb9ede87670495088d141e2cf",
+      "blockIds": [
+        "block-74"
+      ],
+      "text": "新增更多写作能力，不仅能根据图文生成丰富的社媒文案（如小红书种草、美食购物点评、短视频文案等），还能按需自由创作（工作总结、心得体会、演讲发言、自我介绍等）。各种写作场景，都能得心应手",
+      "targetIds": [
+        "update-64"
+      ]
+    },
+    {
+      "id": "source-highlight-12",
+      "classification": "highlight",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 75,
+      "sourceHash": "85c844f24429b85026b17c52dfde30d0605c00e85823eb2d8be9d915b5d6f6bf",
+      "blockIds": [
+        "block-75"
+      ],
+      "text": "新增多格式文档创作能力，支持根据文本/文档内容一键生成思维导图、PPT、表格。还能选择简约风、商务风、科技风、小清新等多种 PPT 模板",
+      "targetIds": [
+        "highlight-12"
+      ]
+    },
+    {
+      "id": "source-update-65",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 76,
+      "sourceHash": "1538fc4b4ef517abc63c32032b19814e8f87571dff393c8105dbdf4518aa8192",
+      "blockIds": [
+        "block-76"
+      ],
+      "text": "优化改写工具，如排版、多风格润色（标准、详细、简洁、正式、口语、幽默）、文档翻译与文档摘要",
+      "targetIds": [
+        "update-65"
+      ]
+    },
+    {
+      "id": "source-update-66",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 77,
+      "sourceHash": "dacf1f216075ccd0133a7911415f7f3345464ac958931b215be98dbde2d23282",
+      "blockIds": [
+        "block-77"
+      ],
+      "text": "优化 AI 语音摘记和通话摘要功能，支持自动识别场景，生成更丰富的摘要内容。还可以切换多种摘要模板，生成的摘要信息更实用",
+      "targetIds": [
+        "update-66"
+      ]
+    },
+    {
+      "id": "source-update-67",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 78,
+      "sourceHash": "aeff7f775c5990ba5dbe882009e6347d48c803d10bc18c88c5cdfeb1aa4642b0",
+      "blockIds": [
+        "block-78"
+      ],
+      "text": "优化文档摘要中的查看原文功能，从查看页面升级到查看段落，原文对照查阅更直观，摘要可信更放心",
+      "targetIds": [
+        "update-67"
+      ]
+    },
+    {
+      "id": "source-update-68",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 79,
+      "sourceHash": "a55185080355d3c3d8952060747d64b9693badc7bff7edb7fd4a87a5c631fe68",
+      "blockIds": [
+        "block-79"
+      ],
+      "text": "优化摘要分享导出功能，提供链接、图片、Word/PDF 文档、便签等导出方式，分享留存更方便",
+      "targetIds": [
+        "update-68"
+      ]
+    },
+    {
+      "id": "source-update-69",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 80,
+      "sourceHash": "47ef4d7af0f2947507fa714e5ff11c3b9338a0efa3b826fbd3cccce97df9609b",
+      "blockIds": [
+        "block-80"
+      ],
+      "text": "全新光场设计，光与环境交相辉映，映射光的流动与变化，呈现真实、沉浸、自然之美",
+      "targetIds": [
+        "update-69"
+      ]
+    },
+    {
+      "id": "source-update-70",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 81,
+      "sourceHash": "9dd0242f603bd766b07e2b6035f29b17d00271ed24a53ff283cf7875aa80c070",
+      "blockIds": [
+        "block-81"
+      ],
+      "text": "将极具生命力的光影融入到系统的设计元素中，提升系统整体的细节与质感",
+      "targetIds": [
+        "update-70"
+      ]
+    },
+    {
+      "id": "source-update-71",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 82,
+      "sourceHash": "9beb58dfafdbda3c5ecea242303bca1454258cc63233fe7270eb53f5d5b0aad8",
+      "blockIds": [
+        "block-82"
+      ],
+      "text": "新增光场动效，基于极光引擎提供更沉浸",
+      "targetIds": [
+        "update-71"
+      ]
+    },
+    {
+      "id": "source-update-72",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 83,
+      "sourceHash": "e10ffe19109c234476457dced9bddb6fcc2837fe015263cf154096958d3454f9",
+      "blockIds": [
+        "block-83"
+      ],
+      "text": "新增渐进式模糊效果，通过极光视效强化了界面的层次与纵深，更通透更沉浸",
+      "targetIds": [
+        "update-72"
+      ]
+    },
+    {
+      "id": "source-update-73",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 84,
+      "sourceHash": "296e5420589def027a825a14e02c056ff8f5914f61a1f7bc4397dea2679803ad",
+      "blockIds": [
+        "block-84"
+      ],
+      "text": "优化极光视效，提升粒子特效、辉光特效、涟漪特效、色散混色等高阶特效的视觉效果，界面品质感大幅提升",
+      "targetIds": [
+        "update-73"
+      ]
+    },
+    {
+      "id": "source-update-74",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 85,
+      "sourceHash": "f71c95ebea28f4cc65cea494ec11e4afc168cb6616cced7f159e69465aa1bc56",
+      "blockIds": [
+        "block-85"
+      ],
+      "text": "全面焕新插画、示意图等设计，更美观、更易读",
+      "targetIds": [
+        "update-74"
+      ]
+    },
+    {
+      "id": "source-update-75",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 86,
+      "sourceHash": "2aac625afa8694043ed27a9550e7f4df32f562ca056a2ecd2f0848352db1fb9f",
+      "blockIds": [
+        "block-86"
+      ],
+      "text": "新增全局系统字体 OPPO Serif 衬线体，更适合沉浸阅读，带来经典优雅的人文感",
+      "targetIds": [
+        "update-75"
+      ]
+    },
+    {
+      "id": "source-update-76",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 87,
+      "sourceHash": "8e0eb67b297d2912d5bc9e282b8d8145807f8da05d4d449dcf7dc58638d21e5f",
+      "blockIds": [
+        "block-87"
+      ],
+      "text": "新增全新天气视效，通过极光引擎与天气数据，实时渲染真实天气环境，呈现沉浸视效",
+      "targetIds": [
+        "update-76"
+      ]
+    },
+    {
+      "id": "source-update-77",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 88,
+      "sourceHash": "5e211509defe73e833cdae706d4b97d8eba3bbb59105f3a048d1ab6fe7d9a179",
+      "blockIds": [
+        "block-88"
+      ],
+      "text": "优化时钟、计算器、指南针等应用界面，采用全新美学设计，融入真实世界的质感与光感，带来愉悦体验",
+      "targetIds": [
+        "update-77"
+      ]
+    },
+    {
+      "id": "source-update-78",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 89,
+      "sourceHash": "fbebe97d898df82b5776e63d096190846e37a062ac1d0cb1b35e4f9e79ff2a57",
+      "blockIds": [
+        "block-89"
+      ],
+      "text": "OPPO 手表支持全新 ColorOS 一体化设计，全新的应用图标、极光高阶视效",
+      "targetIds": [
+        "update-78"
+      ]
+    },
+    {
+      "id": "source-update-79",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 90,
+      "sourceHash": "2f39978cb9dc4753b539ee4664e741ebff5da2eb79319d4aa7496b97d3160f31",
+      "blockIds": [
+        "block-90"
+      ],
+      "text": "全新桌面图标，将光场设计语言融入桌面图标设计，细节更丰富，视觉更真实",
+      "targetIds": [
+        "update-79"
+      ]
+    },
+    {
+      "id": "source-update-80",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 91,
+      "sourceHash": "9629c34a652b7df0a4337fabb303e08b8d9f220e9ebc8e9dc6416ed8cc6b64e2",
+      "blockIds": [
+        "block-91"
+      ],
+      "text": "优化桌面布局网格与元素，图标、文件夹、卡片等显示更美观整洁，更具秩序感",
+      "targetIds": [
+        "update-80"
+      ]
+    },
+    {
+      "id": "source-update-81",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 92,
+      "sourceHash": "1e2894836809cc3137d70eb88645c5e43de5a4453e7f06b359af26e7ab0178c9",
+      "blockIds": [
+        "block-92"
+      ],
+      "text": "新增支持无缝拖拽桌面图标大小，并支持添加应用快捷方式，让桌面更具个性、更实用",
+      "targetIds": [
+        "update-81"
+      ]
+    },
+    {
+      "id": "source-update-82",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 93,
+      "sourceHash": "316e16f83075df33f6fb548ea2e42f27d3ce5a8635888a760cc8273798317a96",
+      "blockIds": [
+        "block-93"
+      ],
+      "text": "新增长按桌面大文件夹，可以选择更多风格样式，如9宫格视图、4宫格视图、凸显首应用大图标",
+      "targetIds": [
+        "update-82"
+      ]
+    },
+    {
+      "id": "source-update-83",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 94,
+      "sourceHash": "50b1f3393946c9c7dfe5cf75f2f3eeec6a271f36f0b4b4c71e4d1f13a5cc5b4c",
+      "blockIds": [
+        "block-94"
+      ],
+      "text": "新增无字桌面功能，让桌面更简洁更精致",
+      "targetIds": [
+        "update-83"
+      ]
+    },
+    {
+      "id": "source-update-84",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 95,
+      "sourceHash": "a9de5eeb4e8d1c378e029b3f8d6ae3321b6aba2c7b2209b5ebcf21961bf66a16",
+      "blockIds": [
+        "block-95"
+      ],
+      "text": "新增与优化多张桌面卡片，提升桌面卡片丰富性",
+      "targetIds": [
+        "update-84"
+      ]
+    },
+    {
+      "id": "source-update-85",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 96,
+      "sourceHash": "2da15ad0a839c836df523d5ee9132ae12abb5210a97cf9521359fa2f693e5a82",
+      "blockIds": [
+        "block-96"
+      ],
+      "text": "优化桌面编辑模式界面，并支持调整页面顺序",
+      "targetIds": [
+        "update-85"
+      ]
+    },
+    {
+      "id": "source-update-86",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 97,
+      "sourceHash": "a18012762f866e62fa92bdfa91489418e37e712fae1ef53a31c61c08dcd655fd",
+      "blockIds": [
+        "block-97"
+      ],
+      "text": "优化抽屉模式的界面布局，搜索下沉到桌面底部，查找应用更方便",
+      "targetIds": [
+        "update-86"
+      ]
+    },
+    {
+      "id": "source-update-87",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 98,
+      "sourceHash": "5e7fe22d3d84829658282ed60f6cb87123dedb0d6e7e2eeb1f81f7f4032ff4a7",
+      "blockIds": [
+        "block-98"
+      ],
+      "text": "新增抽屉模式下，滑动索引条可以快速选择应用",
+      "targetIds": [
+        "update-87"
+      ]
+    },
+    {
+      "id": "source-update-88",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 99,
+      "sourceHash": "8f59705c8fc351fcdb110322f109e0be396c4c3169f763b76a678ccb903cdc99",
+      "blockIds": [
+        "block-99"
+      ],
+      "text": "新增抽屉模式下的应用分类视图，在全部应用中可按照分类显示应用，使用更方便",
+      "targetIds": [
+        "update-88"
+      ]
+    },
+    {
+      "id": "source-update-89",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 100,
+      "sourceHash": "79cd782a2a1b11c2a6d2bb22a74ff9037a865c29f13c52ce7244488bfb85e1fb",
+      "blockIds": [
+        "block-100"
+      ],
+      "text": "优化抽屉模式下的应用建议功能，展示常用应用和最近使用应用",
+      "targetIds": [
+        "update-89"
+      ]
+    },
+    {
+      "id": "source-update-90",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 101,
+      "sourceHash": "df9dd691044ec8a63f23f088c0b13ed329c4fc204dbfae976f5d5a89ab381fd2",
+      "blockIds": [
+        "block-101"
+      ],
+      "text": "优化系统设置中「桌面、锁屏与个性化」页面布局、样式，分类更清晰，布局更合理",
+      "targetIds": [
+        "update-90"
+      ]
+    },
+    {
+      "id": "source-update-91",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 102,
+      "sourceHash": "f2d3437c88ebe4a849cccb8dbfe779fbecec123fe68f698558d10f00ec0c30f3",
+      "blockIds": [
+        "block-102"
+      ],
+      "text": "灵感主题全面升级，从定格的瞬间史诗到鲜活的高光时刻，多元表达更尽兴。AI 加持，让本色更出色",
+      "targetIds": [
+        "update-91"
+      ]
+    },
+    {
+      "id": "source-update-92",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 103,
+      "sourceHash": "967c9d87e0cb67f7374723ca1ad204e027ca9d737574f25acbe337ed51f20bea",
+      "blockIds": [
+        "block-103"
+      ],
+      "text": "新增山之道-日照金山系列实况壁纸，山光同频，拨云见日，亮屏瞬间光影照耀，屏幕宛如天幕",
+      "targetIds": [
+        "update-92"
+      ]
+    },
+    {
+      "id": "source-update-93",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 104,
+      "sourceHash": "474960290ac43d44668cfa374939c3bdd52085f48e4879aabbdfca0014ba045f",
+      "blockIds": [
+        "block-104"
+      ],
+      "text": "新增多套实况壁纸，鲜活人生，动态上屏，绽放不被定义的生命力",
+      "targetIds": [
+        "update-93"
+      ]
+    },
+    {
+      "id": "source-update-94",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 105,
+      "sourceHash": "7b039fa35aea9f237ed676cb5a2da5da1a8108afbf5a7b4f79cd4a69816e1603",
+      "blockIds": [
+        "block-105"
+      ],
+      "text": "新增支持将实况照片、视频设置为壁纸，并支持 AI 动态景深效果，每一次亮屏都鲜活亮眼",
+      "targetIds": [
+        "update-94"
+      ]
+    },
+    {
+      "id": "source-update-95",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 106,
+      "sourceHash": "e3154728837b315c5e996f0a140396e122c4934292c51d7cf0dbdcb8fac58fcb",
+      "blockIds": [
+        "block-106"
+      ],
+      "text": "新增全新模块化编辑框架，所见即所得，提升编辑自由度",
+      "targetIds": [
+        "update-95"
+      ]
+    },
+    {
+      "id": "source-update-96",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 107,
+      "sourceHash": "b42f9849128d453f6c3675354f1210298a53035184378ceb274f68ffb563ebfe",
+      "blockIds": [
+        "block-107"
+      ],
+      "text": "新增锁屏界面支持添加灵感组件，丰富的灵感组件供你选择，美观又实用",
+      "targetIds": [
+        "update-96"
+      ]
+    },
+    {
+      "id": "source-update-97",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 108,
+      "sourceHash": "59c6d29788106a6c1819dc7194acf94968aaf8c75cce710f0b650e7f2a3782a9",
+      "blockIds": [
+        "block-108"
+      ],
+      "text": "新增 AI 灵感文案功能，在锁屏编辑界面，不仅可以自由输入锁屏文案，还可以让 AI 根据锁屏壁纸自动生成文字和样式，文案与壁纸相得益彰",
+      "targetIds": [
+        "update-97"
+      ]
+    },
+    {
+      "id": "source-update-98",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 109,
+      "sourceHash": "4a1872cb48d5f898a3414c12cdfbaaa4e700f783b7ab6eff379e80a56c2a9411",
+      "blockIds": [
+        "block-109"
+      ],
+      "text": "新增自定义锁屏文字功能，可以随心输入锁屏文字，个性化表达更自由",
+      "targetIds": [
+        "update-98"
+      ]
+    },
+    {
+      "id": "source-update-99",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 110,
+      "sourceHash": "cd628b2b9d6f66d76172c0c9d5b181d0194b6eb842e2b7a335a326dd61d73ff5",
+      "blockIds": [
+        "block-110"
+      ],
+      "text": "新增支持编辑锁屏左/右下角快捷入口功能，常用功能快人一步",
+      "targetIds": [
+        "update-99"
+      ]
+    },
+    {
+      "id": "source-update-100",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 111,
+      "sourceHash": "d5cfb009c67d7d107c0e84da7fff9373ea48f483537856d6f02f93995879a3e3",
+      "blockIds": [
+        "block-111"
+      ],
+      "text": "新增全景沉浸息屏模式，在息屏也可以显示锁屏壁纸、组件、通知、时间等信息，显示更直观",
+      "targetIds": [
+        "update-100"
+      ]
+    },
+    {
+      "id": "source-update-101",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 112,
+      "sourceHash": "e4869e1dfe87d3fb8a9183e9ab5600ea443126a320da68b605edcc55d9941d37",
+      "blockIds": [
+        "block-112"
+      ],
+      "text": "新增灵感图标风格，可跟随壁纸颜色设定多种图标风格，与壁纸风格更协调",
+      "targetIds": [
+        "update-101"
+      ]
+    },
+    {
+      "id": "source-update-102",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 113,
+      "sourceHash": "68424ecfb5c5febba17e481bc525ee4b121131933e405c90fdad349d7686b06f",
+      "blockIds": [
+        "block-113"
+      ],
+      "text": "新增暗色模式下图标风格，暗色模式下更换眼更舒适",
+      "targetIds": [
+        "update-102"
+      ]
+    },
+    {
+      "id": "source-update-103",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 114,
+      "sourceHash": "7f288ca2fa83f2086375128ef3b11eb5ba3583ba5fca8d9364d7115e7488b1ed",
+      "blockIds": [
+        "block-114"
+      ],
+      "text": "新增支持分享更多内容，图片、视频、文档、便签、联系人名片、小红书笔记、支付宝红包、抖音视频等内容都可以一碰快速分享",
+      "targetIds": [
+        "update-103"
+      ]
+    },
+    {
+      "id": "source-update-104",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 115,
+      "sourceHash": "eddceaacb2509f05b120b52f77e202d92766530aa04dcba8e8108fd1b6a0258f",
+      "blockIds": [
+        "block-115"
+      ],
+      "text": "优化传输速度，提升OPPO互传体验",
+      "targetIds": [
+        "update-104"
+      ]
+    },
+    {
+      "id": "source-update-105",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 116,
+      "sourceHash": "973a1313e5223cf49df7c108fdd04854322716dd1911ba33a056632a536c1e90",
+      "blockIds": [
+        "block-116"
+      ],
+      "text": "新增手机镜像投屏到电脑，支持在电脑上跨端解锁手机，跨系统查看、共享手机上的文件。还支持同时打开多个手机窗口，多任务并行超便捷。支持多种快捷键操作，一键隐藏与显示投屏窗口、拖拽调节窗口大小，随心掌控超省心",
+      "targetIds": [
+        "update-105"
+      ]
+    },
+    {
+      "id": "source-update-106",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 117,
+      "sourceHash": "32082b99208c45606b40de2aa778cd1bb8a737d02a04a0c570a985d39eaef83a",
+      "blockIds": [
+        "block-117"
+      ],
+      "text": "新增电脑端 OPPO 互联的全局搜索功能，可同时搜索手机和电脑本地的文件。还支持用 AI 搜索手机上的文档、照片和便签笔记",
+      "targetIds": [
+        "update-106"
+      ]
+    },
+    {
+      "id": "source-update-107",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 118,
+      "sourceHash": "69b29bf715136a7fcf2fea00bdf63d0a97442b17932fc7c4ef5276847263413e",
+      "blockIds": [
+        "block-118"
+      ],
+      "text": "新增通知同步功能，手机接收到的应用通知、来电、验证码可同步至电脑端，不错过重要信息",
+      "targetIds": [
+        "update-107"
+      ]
+    },
+    {
+      "id": "source-update-108",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 119,
+      "sourceHash": "af54a4e99dc6265098c41b9083a9781131a89dd2dfd244f582c39d0199e31abd",
+      "blockIds": [
+        "block-119"
+      ],
+      "text": "新增与电脑的剪贴板同步功能，复制的文本可跨端粘贴，跨端操作更方便",
+      "targetIds": [
+        "update-108"
+      ]
+    },
+    {
+      "id": "source-update-109",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 120,
+      "sourceHash": "c121ac11d90788085e6ea157ec68ad9251e934d475e1fc04e8f7096a73d4bf11",
+      "blockIds": [
+        "block-120"
+      ],
+      "text": "优化系统设置页中设备互联页面布局，按设备类型和使用场景进行分类，分类更清晰，使用更便捷",
+      "targetIds": [
+        "update-109"
+      ]
+    },
+    {
+      "id": "source-update-110",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 121,
+      "sourceHash": "6629d7da925552a8c691c221489bc9084539b21c4607221a5a803f50fde94b1a",
+      "blockIds": [
+        "block-121"
+      ],
+      "text": "优化与车载设备的蓝牙连接兼容性，提升使用体验",
+      "targetIds": [
+        "update-110"
+      ]
+    },
+    {
+      "id": "source-update-111",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 122,
+      "sourceHash": "d5a4b5bd697350835759f01ab92515e905e7c8dc8a340603ea8ff92ce5d2d52e",
+      "blockIds": [
+        "block-122"
+      ],
+      "text": "新增网络共享支持 WLAN 共享，当手机连接 WLAN 时，平板也可使用手机连接的 WLAN 上网",
+      "targetIds": [
+        "update-111"
+      ]
+    },
+    {
+      "id": "source-update-112",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 123,
+      "sourceHash": "4722b9e49b62710ab11ed3b0115cc5076f0767b15d4bfb134411a84feb8aa5f1",
+      "blockIds": [
+        "block-123"
+      ],
+      "text": "优化 WLAN 算法能力，提升电梯、办公室角落、卫生间等网络较差区域的上网体验",
+      "targetIds": [
+        "update-112"
+      ]
+    },
+    {
+      "id": "source-update-113",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 124,
+      "sourceHash": "15334dee89a222794666b897369b8a83abe0b5cd2b3fb4a567ae44311df0f23f",
+      "blockIds": [
+        "block-124"
+      ],
+      "text": "优化信号感知能力，提升高铁/地铁场景下的网络使用稳定性、流畅性",
+      "targetIds": [
+        "update-113"
+      ]
+    },
+    {
+      "id": "source-update-114",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 125,
+      "sourceHash": "76ce2d290983fa64d8cee05a195fa13c8a48998e4e7dadf1f6a8c638d9dfa49d",
+      "blockIds": [
+        "block-125"
+      ],
+      "text": "优化自学习网络，优选最优小区，提升网络流畅性",
+      "targetIds": [
+        "update-114"
+      ]
+    },
+    {
+      "id": "source-update-115",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 126,
+      "sourceHash": "ccca46048a3e4fccca877c44ccc2da0f0e2e55b4183f9086283d7359ef7dd896",
+      "blockIds": [
+        "block-126"
+      ],
+      "text": "新增在入州模式下支持拍摄头况照片，同时支持调节风格化参数，打造独一无二的实况照片",
+      "targetIds": [
+        "update-115"
+      ]
+    },
+    {
+      "id": "source-update-116",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 127,
+      "sourceHash": "8bfe50bc4b5af9ac69887b24f58d0ada9f892397a5451cccda38750e4942840f",
+      "blockIds": [
+        "block-127"
+      ],
+      "text": "新增在人像模式下拍照支持自由变焦、改画幅，随心找到最美视角",
+      "targetIds": [
+        "update-116"
+      ]
+    },
+    {
+      "id": "source-update-117",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 128,
+      "sourceHash": "0244073ddddd8e781b77a94cd2b898ec8cb7fa9edb0f5ee791c254441cb540e7",
+      "blockIds": [
+        "block-128"
+      ],
+      "text": "新增扫描文档支持AI增强功能，扫描结果秒变电子档，方便留档和打印",
+      "targetIds": [
+        "update-117"
+      ]
+    },
+    {
+      "id": "source-update-118",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 129,
+      "sourceHash": "40a424a2246bb4674ca6a7a74a88c158a655c96ad74cf08ba50c7761e3f05495",
+      "blockIds": [
+        "block-129"
+      ],
+      "text": "新增游戏相机支持纯净录制模式，在录制屏幕时，仅录制游戏画面，不会录制自由浮窗、通知消息、游戏助手等信息，保护隐私",
+      "targetIds": [
+        "update-118"
+      ]
+    },
+    {
+      "id": "source-update-119",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 130,
+      "sourceHash": "659141f57403ea930ec2c4127d22862d8041bafd3ef92043532131e7a3ca8e79",
+      "blockIds": [
+        "block-130"
+      ],
+      "text": "新增游戏相机支持设置录制清晰度，在录制实况照片、回录视频时，可以录制高清画质，让游戏细节更清晰",
+      "targetIds": [
+        "update-119"
+      ]
+    },
+    {
+      "id": "source-update-120",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 131,
+      "sourceHash": "07075ba80227d1563474da803dd8d2e4aed0fc0c4dfbb5869b18ad8a6ac82522",
+      "blockIds": [
+        "block-131"
+      ],
+      "text": "新增游戏相机支持同时开启实况照片截图和一键回录功能，使用更便捷",
+      "targetIds": [
+        "update-120"
+      ]
+    },
+    {
+      "id": "source-update-121",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 132,
+      "sourceHash": "b6e9aa7f200a4e2b39c55f20c8b1f423c3cfd30e1cfc219e7fb3be23d2d32832",
+      "blockIds": [
+        "block-132"
+      ],
+      "text": "新增在流体云上显示游戏状态，闪回游戏画面，轻松拿下 MVP",
+      "targetIds": [
+        "update-121"
+      ]
+    },
+    {
+      "id": "source-update-122",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 133,
+      "sourceHash": "d7afeb348d9cb187af0574cc2dca7f37e2b178fb2ae39fb53ac9c5f183c47dc0",
+      "blockIds": [
+        "block-133"
+      ],
+      "text": "新增控制中心支持更多编辑能力。更多快捷开关支持 2*1 尺寸；音频播放器/亮度条/音量条/设备空间等开关支持移除、添加、拖动换位",
+      "targetIds": [
+        "update-122"
+      ]
+    },
+    {
+      "id": "source-update-123",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 134,
+      "sourceHash": "a9fb8ca2f7d95a40a68d090e736669d369689a0c05ba96c6fd04d090df744d24",
+      "blockIds": [
+        "block-134"
+      ],
+      "text": "全新通知样式，空间占用更小，浏览效率更高",
+      "targetIds": [
+        "update-123"
+      ]
+    },
+    {
+      "id": "source-update-124",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 135,
+      "sourceHash": "3ee27da9b285b2da58b9b08cb2351b6d06dd7cd6fad6337cdbf3c5390d526169",
+      "blockIds": [
+        "block-135"
+      ],
+      "text": "新增自由浮窗窗口控制器可选择分屏，点击即可将应用由浮窗变为分屏显示",
+      "targetIds": [
+        "update-124"
+      ]
+    },
+    {
+      "id": "source-update-125",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 136,
+      "sourceHash": "5c2cb6b6ee23d4d8c2ccb9fa0170a82b4546ce7bd1e05bf05f2f1d578f1881d4",
+      "blockIds": [
+        "block-136"
+      ],
+      "text": "新增分屏窗口控制器可选择浮窗，点击即可将应用由分屏变为浮窗显示",
+      "targetIds": [
+        "update-125"
+      ]
+    },
+    {
+      "id": "source-update-126",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 137,
+      "sourceHash": "8805dffd6235b601883519e096871e432049b3d6b268573a53d6781a5ad1c0a6",
+      "blockIds": [
+        "block-137"
+      ],
+      "text": "优化分屏替换应用时，替换面板显示效果",
+      "targetIds": [
+        "update-126"
+      ]
+    },
+    {
+      "id": "source-update-127",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 138,
+      "sourceHash": "7cec841cfb811a8b51dc0bbd51a39d1c9f88f2471caa35c319359bd51d5139bf",
+      "blockIds": [
+        "block-138"
+      ],
+      "text": "新增连接耳机时铃声不外放功能，开启后连接耳机时，来电铃声仅通过耳机播放，有助于在公共场合保持安静",
+      "targetIds": [
+        "update-127"
+      ]
+    },
+    {
+      "id": "source-update-128",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 139,
+      "sourceHash": "b6b261edb9ac80261ab9ec4d6760f25a857171016808a43d6718134436bfa1e0",
+      "blockIds": [
+        "block-139"
+      ],
+      "text": "新增支持在搜狗定制版输入法中上滑清空语音文字，操作更便捷",
+      "targetIds": [
+        "update-128"
+      ]
+    },
+    {
+      "id": "source-update-129",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 140,
+      "sourceHash": "ca96c71c23209baec05bbcba110e6fffe50f050384ea912df41fc759b083f211",
+      "blockIds": [
+        "block-140"
+      ],
+      "text": "优化输入法工具箱结构，高频工具更易查找",
+      "targetIds": [
+        "update-129"
+      ]
+    },
+    {
+      "id": "source-update-130",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 141,
+      "sourceHash": "31b4c18edb5231a8cd8ba617eaabbbb9324f9c938d2e3a23cb5f59aaa8393819",
+      "blockIds": [
+        "block-141"
+      ],
+      "text": "优化系统设置搜索能力，支持 AI 搜索、搜索推荐、应用中的设置项搜索等能力，搜索更智能",
+      "targetIds": [
+        "update-130"
+      ]
+    },
+    {
+      "id": "source-update-131",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 142,
+      "sourceHash": "1a36937e20134a38107b96cd7e86e9a929b0278b6db5a6deea96ec222ac623ef",
+      "blockIds": [
+        "block-142"
+      ],
+      "text": "优化智能侧边栏界面设计，界面质感焕新，并支持单列或双列显示以及更多侧边栏浮标自定义选项",
+      "targetIds": [
+        "update-131"
+      ]
+    },
+    {
+      "id": "source-update-132",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 143,
+      "sourceHash": "bf10b9aee9e22705167ccd3ff31cd3cbc26fe48d333f961a95c00bed73d0a001",
+      "blockIds": [
+        "block-143"
+      ],
+      "text": "优化分享面板布局，新增支持直接显示应用联系人，并支持编辑分享面板中的应用选项",
+      "targetIds": [
+        "update-132"
+      ]
+    },
+    {
+      "id": "source-update-133",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 144,
+      "sourceHash": "25f4f23c082e6eea8a33707ab9eaf1c82959633ef6a7f0e6d12adfdf787ec6ed",
+      "blockIds": [
+        "block-144"
+      ],
+      "text": "优化点击简洁横幅通知上的菜单按钮，由全屏打开应用改为浮窗打开，更简洁",
+      "targetIds": [
+        "update-133"
+      ]
+    },
+    {
+      "id": "source-update-134",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 145,
+      "sourceHash": "2be5c28791c2cc9bcc5e1ad431f74cd70f764709a1d5d50242e6e6eef9918d10",
+      "blockIds": [
+        "block-145"
+      ],
+      "text": "优化电池界面样式，提升数据可视化表现，增加前后台活动时长数据展示，电量统计更准确",
+      "targetIds": [
+        "update-134"
+      ]
+    },
+    {
+      "id": "source-update-135",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 146,
+      "sourceHash": "8b047ebedd6760831f2163ba024706151257a8ae4db9bf823e1a38ed2aea8a33",
+      "blockIds": [
+        "block-146"
+      ],
+      "text": "优化 iOS 设备搬家到 OPPO 设备的传输速度与体验",
+      "targetIds": [
+        "update-135"
+      ]
+    },
+    {
+      "id": "source-update-136",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 147,
+      "sourceHash": "b77acea71855b0b07bbbbe59b26a20b3f8754b68da1ac2c82b56656f259f330a",
+      "blockIds": [
+        "block-147"
+      ],
+      "text": "优化 TalkBack 朗读、焦点和手势等功能，提升 TalkBack 使用体验",
+      "targetIds": [
+        "update-136"
+      ]
+    },
+    {
+      "id": "source-update-137",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 148,
+      "sourceHash": "8358b5d837260355a6335212800adc5e7b007471270c04e0f2896c0c64a4ee42",
+      "blockIds": [
+        "block-148"
+      ],
+      "text": "新增对应用权限的审核管控机制，推荐最小化的授权，禁用高危应用权限的授权，降低过度授权的风险",
+      "targetIds": [
+        "update-137"
+      ]
+    },
+    {
+      "id": "source-update-138",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 149,
+      "sourceHash": "c309e077ef4cfec83812aa2eeb77ef3af134506cec8de625cbc10185b0a3fed1",
+      "blockIds": [
+        "block-149"
+      ],
+      "text": "新增应用读取数据的安全访问控件，管控应用读取图片、视频、文件、联系人、剪贴板、写入日历等的权限，提升个人数据安全",
+      "targetIds": [
+        "update-138"
+      ]
+    },
+    {
+      "id": "source-update-139",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 150,
+      "sourceHash": "d4c9d5dbab92396cbf85bd47c65a5495e3dc9eddd71804759acc572cc82cc609",
+      "blockIds": [
+        "block-150"
+      ],
+      "text": "新增权限用途说明，在权限弹窗和权限管理界面可以清晰了解应用调用权限的用途，便于管理权限",
+      "targetIds": [
+        "update-139"
+      ]
+    },
+    {
+      "id": "source-update-140",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 151,
+      "sourceHash": "2502a382aa636076b445a6a6d7ab6e6a6ca418a5d9250dea948bf44a4e89067e",
+      "blockIds": [
+        "block-151"
+      ],
+      "text": "新增写入剪贴板权限，用于管控应用随意向剪贴板写入垃圾信息",
+      "targetIds": [
+        "update-140"
+      ]
+    },
+    {
+      "id": "source-update-141",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 152,
+      "sourceHash": "fb7d9ac459781978f58b4a75abd19e438e2ea36ee845f1317ba8c594e453383c",
+      "blockIds": [
+        "block-152"
+      ],
+      "text": "新增剪贴板支持智能读取口令，仅允许口令关联应用读取口令信息，提升隐私安全",
+      "targetIds": [
+        "update-141"
+      ]
+    },
+    {
+      "id": "source-update-142",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 153,
+      "sourceHash": "8069daf83cb10e90fcb3a75f1f5d9455e8a3d21ec98333d21d53768517df4f6c",
+      "blockIds": [
+        "block-153"
+      ],
+      "text": "优化前贴板内容自动清除的时间，防止前贴板内容长时间停留被应用随意访问，避免隐私泄露",
+      "targetIds": [
+        "update-142"
+      ]
+    },
+    {
+      "id": "source-update-143",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 154,
+      "sourceHash": "4bf18e3ed5463aa0bc95442632d3870b788dcdc540a0fad592143992dc6d11e3",
+      "blockIds": [
+        "block-154"
+      ],
+      "text": "新增常用信息智能建议功能，支持识别相册内的卡证信息，并推荐保存至常用信息，方便在使用时自动填充",
+      "targetIds": [
+        "update-143"
+      ]
+    },
+    {
+      "id": "source-update-144",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 155,
+      "sourceHash": "95456fc47fedc7a75bca0ee7843ae3ff120f7b7fec612f887b00d5deaf870fe4",
+      "blockIds": [
+        "block-155"
+      ],
+      "text": "新增支持长按桌面图标，可在菜单中选择将应用上锁或隐藏",
+      "targetIds": [
+        "update-144"
+      ]
+    },
+    {
+      "id": "source-update-145",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 156,
+      "sourceHash": "5b883b83774e7a59addc247c5b4cc1e400dfadfce579405db9afce8d8bc95d41",
+      "blockIds": [
+        "block-156"
+      ],
+      "text": "新增手机管家检测到有风险的应用在运行时，会通过流体云、消息通知进行提醒，及时发现风险，保护隐私",
+      "targetIds": [
+        "update-145"
+      ]
+    },
+    {
+      "id": "source-update-146",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 157,
+      "sourceHash": "6cdd0baa2402734dccef1bb2d384652d6919ccf24173d2b151880ca7f10114a0",
+      "blockIds": [
+        "block-157"
+      ],
+      "text": "新增智能拦截低评分应用的广告功能，降低受骗风险",
+      "targetIds": [
+        "update-146"
+      ]
+    },
+    {
+      "id": "source-update-147",
+      "classification": "update",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 158,
+      "sourceHash": "3997f2ed7872fef303edefca37f0ee5ba9ce824758e891d352ca9f38e640e5c3",
+      "blockIds": [
+        "block-158"
+      ],
+      "text": "优化密码本应用，将常用信息与密码自动填充收纳到同一个页面",
+      "targetIds": [
+        "update-147"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "highlight-01-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 0,
+      "sourceHash": "298c9031bafc8b29980836320b5ac6ec6cabc6598334fd1de9f55152ee27ece3",
+      "blockIds": [
+        "block-0"
+      ],
+      "note": "极光引擎: 新增桌面图标、卡片、文件夹、侧边栏等场景支持无缝拖拽动画，提..."
+    },
+    {
+      "id": "update-01-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 1,
+      "sourceHash": "83da24657ae0f7cf96ff67586d8b304762a7bfa4ea3a284acb5e473fb618cd18",
+      "blockIds": [
+        "block-1"
+      ],
+      "note": "极光引擎: 新增系统文本选择放大镜的出现、消失支持无缝过渡动效..."
+    },
+    {
+      "id": "update-02-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 2,
+      "sourceHash": "115a0f2b190d32bdada7e7a105f48dc575748c3587695f311b9000f311eb6da7",
+      "blockIds": [
+        "block-2"
+      ],
+      "note": "极光引擎: 新增系统 UI 控件支持无缝过渡动效，如信息、电话本等的新建..."
+    },
+    {
+      "id": "update-03-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 3,
+      "sourceHash": "c4857b73f23b7133604aa2cdf3e4d52cb191cbfb269abbb6001bdce8292c1271",
+      "blockIds": [
+        "block-3"
+      ],
+      "note": "极光引擎: 优化全局搜索和速览界面动画表现和流畅度，支持无缝启动应用，应..."
+    },
+    {
+      "id": "update-04-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 4,
+      "sourceHash": "51705aad66f5615fab15c825bfdfa96dd40cccb9233db1bd33cb3e12a882fb85",
+      "blockIds": [
+        "block-4"
+      ],
+      "note": "极光引擎: 新增在打开通知中心、控制中心时，状态栏支持无缝切换动画，下拉..."
+    },
+    {
+      "id": "update-05-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 5,
+      "sourceHash": "f15da8ab5fb099d7b91c30f82ef53e461d3eaa96cd0f55b2cc1ee023e442128b",
+      "blockIds": [
+        "block-5"
+      ],
+      "note": "极光引擎: 新增在控制中心点击音频播放卡片时，支持无缝切换动画，视觉更美..."
+    },
+    {
+      "id": "update-06-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 6,
+      "sourceHash": "6256744b9984b02d4a243740ef2b4cb1c9d4fd45fed0b641d2772c76f9db13ad",
+      "blockIds": [
+        "block-6"
+      ],
+      "note": "极光引擎: 新增在使用虚拟按键导航方式时，支持桌面应用启动、退出并行动画..."
+    },
+    {
+      "id": "highlight-02-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 7,
+      "sourceHash": "2660645fa9ae13e05071bcc075439ad11730658c6597ef7ab752cf397c30cdeb",
+      "blockIds": [
+        "block-7"
+      ],
+      "note": "极光引擎: 新增光场动效，基于极光引擎提供更沉浸、更生动的多模态动态体验..."
+    },
+    {
+      "id": "update-07-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 8,
+      "sourceHash": "f36f0ca74755defe99bc88ed65ef8e972a14e988c9be8475b7941351c154ed67",
+      "blockIds": [
+        "block-8"
+      ],
+      "note": "极光引擎: 新增在计算器、锁屏密码、通话界面等按压交互时，呈现更沉浸更生..."
+    },
+    {
+      "id": "update-08-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 9,
+      "sourceHash": "32919f88a1aca5f866a7d497b0479717c0b0658df22dea805e17c2e2ff148844",
+      "blockIds": [
+        "block-9"
+      ],
+      "note": "极光引擎: 优化充电动效与指纹动效，光场涟漪还原自然之美..."
+    },
+    {
+      "id": "update-09-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 10,
+      "sourceHash": "647e29336421aa5c8d4726588462843cb5be40e9f1e4bd8f7d349204f35f176c",
+      "blockIds": [
+        "block-10"
+      ],
+      "note": "极光引擎: 优化桌面上排应用图标退出动画曲线，操作更有掌控感..."
+    },
+    {
+      "id": "update-10-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 11,
+      "sourceHash": "1bf083acb4c4305604abaa9b8d39e713d3eb6552c6f4ff0bd68d5f31b1e5a58f",
+      "blockIds": [
+        "block-11"
+      ],
+      "note": "极光引擎: 优化系统列表滑动动画曲线与阻尼，滑动效果更跟手，更丝滑..."
+    },
+    {
+      "id": "highlight-03-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 12,
+      "sourceHash": "2bb5be810d2aaca3332b07e634192e9bf05355dbfdc21a7ba230c717ed3dbecc",
+      "blockIds": [
+        "block-12"
+      ],
+      "note": "潮汐引擎: 潮汐引擎带来更全面的流畅体验。通过动态适配场景资源需求、智能..."
+    },
+    {
+      "id": "update-11-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 13,
+      "sourceHash": "f11d5853618513a59df1d8e40149da4e167003f1746647a78a77102321df20b1",
+      "blockIds": [
+        "block-13"
+      ],
+      "note": "潮汐引擎: 重构内存管理方案，优化短视频连续滑动过程中的后台管理策略。匹..."
+    },
+    {
+      "id": "update-12-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 14,
+      "sourceHash": "32804f0ad55415d1d24123b3fa2f7b4d9d328797f27f61fba5288a9074f3e875",
+      "blockIds": [
+        "block-14"
+      ],
+      "note": "潮汐引擎: 优化高负载场景下的性能，降低后台高负载..."
+    },
+    {
+      "id": "highlight-04-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 15,
+      "sourceHash": "8513654d94dbafe223fc10864fcf7bf5b4d3513fe41460ff69f7012bc6e8fc3f",
+      "blockIds": [
+        "block-15"
+      ],
+      "note": "潮汐引擎: 智能分析游戏过程中的关键计算任务，优先保障游戏的稳定调度。精..."
+    },
+    {
+      "id": "update-13-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 16,
+      "sourceHash": "b1c8d8adf1a2edaa19fa2f9fe17e887b2820993a88509eb32339ffce37953574",
+      "blockIds": [
+        "block-16"
+      ],
+      "note": "潮汐引擎: 优化系统核心场景的响应速度，操作响应、应用启动、点击滑动更流..."
+    },
+    {
+      "id": "highlight-05-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 17,
+      "sourceHash": "acc6ccc713f62debb08aae690765c9404f3d59e03d42700b73faeb87f80e4208",
+      "blockIds": [
+        "block-17"
+      ],
+      "note": "潮汐引擎: 优化微信视频通话时的后台管理策略，文件传输速度，及部分小程序..."
+    },
+    {
+      "id": "update-14-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 18,
+      "sourceHash": "246fc895cfb6945cef94dce762e93df48c4d0bd87685668dedf701aa55325494",
+      "blockIds": [
+        "block-18"
+      ],
+      "note": "潮汐引擎: 新增更多应用支持视频长续航功能，续航更持久..."
+    },
+    {
+      "id": "update-15-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 19,
+      "sourceHash": "cf6bd3aed3bdb2e49fbb1bf9e747ab2eb374e6c532bdc7a3cc64eef1fc273eed",
+      "blockIds": [
+        "block-19"
+      ],
+      "note": "潮汐引擎: 新增支持智能温控联动，当设备温度过高时，将自动进入视频长续航..."
+    },
+    {
+      "id": "highlight-06-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 20,
+      "sourceHash": "00f87e574cbf91dcb112ef5173a8aec18526265e2a4ad788b49f52f34e88c3c8",
+      "blockIds": [
+        "block-20"
+      ],
+      "note": "潮汐引擎: 新增长续航场景智能识别功能，在高铁、地铁等特定出行场景下，自..."
+    },
+    {
+      "id": "update-16-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 21,
+      "sourceHash": "d29bd50b3baa1103245fbbe98924a872561ce8a9fa2708e28073fbfa10c1d87c",
+      "blockIds": [
+        "block-21"
+      ],
+      "note": "潮汐引擎: 新增腾讯视频/芒果视频沉浸式在线追剧场景下的网络节电策略，续..."
+    },
+    {
+      "id": "highlight-07-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 22,
+      "sourceHash": "a659d89e6e4acc8b2e92cfc0e95ee4552aeff35006824995889a1be3c7703b7f",
+      "blockIds": [
+        "block-22"
+      ],
+      "note": "潮汐引擎: 新增无网或漫游等场景下的网络节电策略，续航更持久..."
+    },
+    {
+      "id": "update-17-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 23,
+      "sourceHash": "cfea8eb89e0d09cfd2b4a103b3c5202999ece48be1faf20f419e050194b54c2f",
+      "blockIds": [
+        "block-23"
+      ],
+      "note": "潮汐引擎: 优化开启省电模式后的管理策略，在不同电量下提供阶梯化性能管理..."
+    },
+    {
+      "id": "update-18-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 24,
+      "sourceHash": "ddcb68061bbfda740c30c7f4cd05a0f38f49999500d768e2b6ca2befec138d7c",
+      "blockIds": [
+        "block-24"
+      ],
+      "note": "繁星编译器: 新增繁星编译器，通过业界独创的跨层级融合优化、反馈式优化等编..."
+    },
+    {
+      "id": "update-19-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 25,
+      "sourceHash": "a8a643ffc5d200452d95c7317f84b5c6fd7d75c114419d3f4ad43c2200485b37",
+      "blockIds": [
+        "block-25"
+      ],
+      "note": "繁星编译器: 优化系统服务代码的执行效率，提升开机速度，降低服务能耗..."
+    },
+    {
+      "id": "update-20-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 26,
+      "sourceHash": "54651142332fe095001fef6b9d819a4b119459403df469fe19c028af66f333ff",
+      "blockIds": [
+        "block-26"
+      ],
+      "note": "繁星编译器: 通过更精准地预优化系统公共库，使程序运行时功耗更低，更省内存..."
+    },
+    {
+      "id": "update-21-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 27,
+      "sourceHash": "65b1364edf42d1a0a467b2066f3e2031d481b7d237924e4eb8e0acdcb4a6c1bb",
+      "blockIds": [
+        "block-27"
+      ],
+      "note": "繁星编译器: 通过更准确更细致的反馈式优化，降低 IO 损耗，提升应用程序..."
+    },
+    {
+      "id": "update-22-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 28,
+      "sourceHash": "df31794206254a2ec102a91d14c446a2c8d796d92aab6f70323b296829ab853d",
+      "blockIds": [
+        "block-28"
+      ],
+      "note": "繁星编译器: 提升 UI 相关代码的编译优化质量，使应用响应更快，帧率更稳..."
+    },
+    {
+      "id": "update-23-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 29,
+      "sourceHash": "f1c2959c7f9d008c63f847e8335e34d44642fdeb89d1187b0b688f4ab6aaabab",
+      "blockIds": [
+        "block-29"
+      ],
+      "note": "AI 实景对话: 新增 AI 实景对话指哪答哪，点击屏幕上好奇的事物，小布能即..."
+    },
+    {
+      "id": "update-24-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 30,
+      "sourceHash": "c281f89a725f4c5e98d90c5bf7dac8c98484982c915dc21c7dc8ae2b32ae10b2",
+      "blockIds": [
+        "block-30"
+      ],
+      "note": "AI 实景对话: 新增 AI 实景对话专属声纹识别，小布可以记住你的声纹信息，..."
+    },
+    {
+      "id": "update-25-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 31,
+      "sourceHash": "da233143d18704a8dadaa3835e1469a0cf2d4ac97c88203f7278cf298e70380d",
+      "blockIds": [
+        "block-31"
+      ],
+      "note": "小布记忆: 优化小布记忆详情页，AI 摘要更详尽，内容识别更精准。并支持..."
+    },
+    {
+      "id": "update-26-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 32,
+      "sourceHash": "ff5d494e7b9e91bc51edc478d41434ceece7265bf27b82e1dbfc49a17ee635b3",
+      "blockIds": [
+        "block-32"
+      ],
+      "note": "小布记忆: 新增记忆搜索，小布记忆与系统打通，支持在全局搜索或小布助手中..."
+    },
+    {
+      "id": "update-27-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 33,
+      "sourceHash": "b7156a336fa639d6d43dd1bcb256df359af6ecd7d2a4f025e99ca9d931d434b3",
+      "blockIds": [
+        "block-33"
+      ],
+      "note": "小布记忆: 新增记多图、记文档、记截图，还能通过AI分析并保存到小布记忆..."
+    },
+    {
+      "id": "update-28-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 34,
+      "sourceHash": "e2a0cdbd1a81dbe28f6d46d6e27ab0cdd63f51e67daf2c8608d6eada4023fdb5",
+      "blockIds": [
+        "block-34"
+      ],
+      "note": "小布记忆: 新增视频记，视频懒得看，小布记忆帮你看。在哗哩哗哩等应用内观..."
+    },
+    {
+      "id": "update-29-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 35,
+      "sourceHash": "1d204ecccd2eab292049642a40c2071d6718fdc95c612bfa3dfc5f6a5bdfa0fb",
+      "blockIds": [
+        "block-35"
+      ],
+      "note": "小布记忆: 新增AI取餐码，点单时在取餐码界面一键闪记，即可识别取餐信息..."
+    },
+    {
+      "id": "update-30-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 36,
+      "sourceHash": "e55708756e8c1a00a8b70d5cb598e740bc7f26e7e5065510d9892c39c3ff7bc2",
+      "blockIds": [
+        "block-36"
+      ],
+      "note": "小布记忆: 新增记账单，在支付界面一键闪记，会自动识别账单并记录到小布记..."
+    },
+    {
+      "id": "update-31-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 37,
+      "sourceHash": "6219c345b88b578579a7598236a58d6b80e4a7fa0006ef16b218bc71ed072c17",
+      "blockIds": [
+        "block-37"
+      ],
+      "note": "小布记忆: 新增在截屏缩略图上支持一键闪记，快速将截图内容记录下来..."
+    },
+    {
+      "id": "update-32-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 38,
+      "sourceHash": "aea707c24f9453283996944dc522bb4ed838ae79611675dc5e4f33b2db7a7c1f",
+      "blockIds": [
+        "block-38"
+      ],
+      "note": "小布记忆: 新增自动收藏，支持收藏小红书、微博、抖音、知乎、今日头条新闻..."
+    },
+    {
+      "id": "update-33-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 39,
+      "sourceHash": "6efdde46f3ecbfcb39a32cde1ed6df263024068fea913068d8f830b564e20a0e",
+      "blockIds": [
+        "block-39"
+      ],
+      "note": "小布记忆: 新增支持手机在横屏状态时，可以触发一键闪记，记下横屏内容..."
+    },
+    {
+      "id": "highlight-08-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 40,
+      "sourceHash": "254e159bf88e6c35ef0062408cbc215ecf98bf5b69a3d8bbb96cc6e1b8bb8387",
+      "blockIds": [
+        "block-40"
+      ],
+      "note": "小布记忆: 新增手表连接手机后，可以在手表端唤醒小布助手并输入内容，内容..."
+    },
+    {
+      "id": "update-34-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 41,
+      "sourceHash": "3dbd33768455529756cdadb1078bd8db90f26024adb4378b33b90f43f0adf1c4",
+      "blockIds": [
+        "block-41"
+      ],
+      "note": "小布建议: 小布建议服务内容大幅扩展，涵盖通勤出行（如航班、高铁、打车、..."
+    },
+    {
+      "id": "update-35-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 42,
+      "sourceHash": "cc7b62b5ba271550cfb32244cd8c8cc93935cb89871f1de4008626cc6adb7241",
+      "blockIds": [
+        "block-42"
+      ],
+      "note": "小布建议: 新增打通小布记忆，根据使用场景主动推荐小布记忆中收藏的美食店..."
+    },
+    {
+      "id": "update-36-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 43,
+      "sourceHash": "a49f2eca82ff1a91771e1243d57c539391caa84789115032f5894efa47fa3807",
+      "blockIds": [
+        "block-43"
+      ],
+      "note": "小布建议: 新增小布建议晨间AI简报功能，动态感知和整理你的重要信息，如..."
+    },
+    {
+      "id": "highlight-09-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 44,
+      "sourceHash": "b8445b250f98c18128945a6ffd70e1dd85d8022fa9158043b8924db0fc185cf7",
+      "blockIds": [
+        "block-44"
+      ],
+      "note": "小布识屏: 小布识屏全面焕新，全新涟漪式光场设计，更沉浸更生动。并支持设..."
+    },
+    {
+      "id": "update-37-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 45,
+      "sourceHash": "d7917f5439e73cdc5122bc79543444f33e677895352f5c431cecbcdf6000d00b",
+      "blockIds": [
+        "block-45"
+      ],
+      "note": "小布识屏: 优化小布识屏识别速度，响应更及时，交互更丝滑..."
+    },
+    {
+      "id": "update-38-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 46,
+      "sourceHash": "12b6da3d5c786818bbd76998cbfdadf218b42d56f2a683a04d4bb2815fa7fcff",
+      "blockIds": [
+        "block-46"
+      ],
+      "note": "小布识屏: 新增端云识别框架，大幅提升图文识别准确率..."
+    },
+    {
+      "id": "update-39-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 47,
+      "sourceHash": "e0072b82586fe8467fa06f1f512774a6197f00a2a7cf3224029bf9f24183201c",
+      "blockIds": [
+        "block-47"
+      ],
+      "note": "小布识屏: 新增小布识屏支持圈选，并打通小布助手，圈选后支持向小布提问..."
+    },
+    {
+      "id": "update-40-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 48,
+      "sourceHash": "4a40c789550812693e38968b61b00e81ba61c8f9fd85ee6acf36910d19b76b7a",
+      "blockIds": [
+        "block-48"
+      ],
+      "note": "小布识屏: 新增智能识别文本并推荐地址导航、一键拨号、航班信息等相关服务..."
+    },
+    {
+      "id": "update-41-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 49,
+      "sourceHash": "1510a35c6ad22cc4ac16f29f59f908fa708765a01e15d6a3f40423e3f4c4627b",
+      "blockIds": [
+        "block-49"
+      ],
+      "note": "小布识屏: 新增提取界面中的原图，并支持一键增强图片画质，保存图片更清晰..."
+    },
+    {
+      "id": "update-42-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 50,
+      "sourceHash": "6fd645985838e8370d9c57ee2ad8b600a36c488af7fc5f90cadd61815a993f5c",
+      "blockIds": [
+        "block-50"
+      ],
+      "note": "小布识屏: 新增一键将屏幕中的文本或表格转换为Word或Excel等可编..."
+    },
+    {
+      "id": "highlight-10-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 51,
+      "sourceHash": "1864d89b56fd23eb5c48bbcea20610e5af810def909302af53bee3477862f74a",
+      "blockIds": [
+        "block-51"
+      ],
+      "note": "小布识屏: 新增支持识别并提取日语、韩语、西班牙语、葡萄牙语、泰语、法语..."
+    },
+    {
+      "id": "update-43-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 52,
+      "sourceHash": "25b29ab2ca3dbc75bef10efb9d0de58a6af71d7938a085680913d3a47f36283b",
+      "blockIds": [
+        "block-52"
+      ],
+      "note": "AI 相册: 相册视觉与体验焕然一新。沉浸美观的照片视图，浏览一镜到底、丝..."
+    },
+    {
+      "id": "highlight-11-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 53,
+      "sourceHash": "6c6942ce7637054d2f231a39a116562c512bf3716254eb53591029d091126ede",
+      "blockIds": [
+        "block-53"
+      ],
+      "note": "AI 相册: 优化相册交互框架，更清晰的图集分类，常用项目支持自定义排序，..."
+    },
+    {
+      "id": "update-44-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 54,
+      "sourceHash": "6554c4b1154f23e2963cfbbbff5bf53b942daa5afa12917e302b4417fa1433ff",
+      "blockIds": [
+        "block-54"
+      ],
+      "note": "AI 相册: 优化照片详情页设计，上滑即可展示照片信息、存储位置，更美观更..."
+    },
+    {
+      "id": "update-45-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 55,
+      "sourceHash": "7af4992669517c7ed5ea15495e198449340428caee85310144f7a114e6c7d9aa",
+      "blockIds": [
+        "block-55"
+      ],
+      "note": "AI 相册: 新增学习图集，智能识别与学习相关的图片、视频并收纳归类..."
+    },
+    {
+      "id": "update-46-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 56,
+      "sourceHash": "db23434fd7e154596e9166cbcdf8ca65d2014e534e4c39f816312f8f9c1dbd6b",
+      "blockIds": [
+        "block-56"
+      ],
+      "note": "AI 相册: 新增多项视频编辑能力，如分割、拼接、变速、转场、配乐等。原画..."
+    },
+    {
+      "id": "update-47-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 57,
+      "sourceHash": "01fadc77f9eef64cbda1e3d448fd52ae2d79bc7bef4a4735a5b02c330242492d",
+      "blockIds": [
+        "block-57"
+      ],
+      "note": "AI 相册: 优化视频自由裁剪、旋转、参数调节、滤镜等功能..."
+    },
+    {
+      "id": "update-48-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 58,
+      "sourceHash": "8bad7eafd8fba83dc27b5748c64af59b35d5cf494281fa6c3f8c8c8ee68c79be",
+      "blockIds": [
+        "block-58"
+      ],
+      "note": "AI 相册: 新增实况照片高清拼图能力，支持保留实况照片的高清分辨率、HD..."
+    },
+    {
+      "id": "update-49-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 59,
+      "sourceHash": "21dafe02a728a45ae51dbf28872b07f3b99fcde05894f65b8c87b318bce0eaa2",
+      "blockIds": [
+        "block-59"
+      ],
+      "note": "AI 相册: 新增实况照片慢动作效果，一键将充满生命力的实况照片转为慢动作..."
+    },
+    {
+      "id": "update-50-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 60,
+      "sourceHash": "c8016863035e449698d4d3662da9d1e70efe316df930d6fb6fc093d323b463a8",
+      "blockIds": [
+        "block-60"
+      ],
+      "note": "AI 相册: 新增支持截屏时保留图片/视频/游戏的HDR效果，且经过裁剪、..."
+    },
+    {
+      "id": "update-51-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 61,
+      "sourceHash": "f0b0b5a2a939776975eeb8dd40e7958fca7406c8d8afc235003004dc40b6c807",
+      "blockIds": [
+        "block-61"
+      ],
+      "note": "AI 相册: 新增字体切换、波浪下划线、分割线、文本高亮等多种功能，满足你..."
+    },
+    {
+      "id": "update-52-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 62,
+      "sourceHash": "5d5f3fbb56ded2d1b4e93b04fde0fd86ead87785bece9e6e34ca12c6343f2c8c",
+      "blockIds": [
+        "block-62"
+      ],
+      "note": "AI 录音: 录音全面焕新，优化录音界面视觉与交互..."
+    },
+    {
+      "id": "update-53-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 63,
+      "sourceHash": "a39bc160b1f8bade8e48e61b55f75d7b539687a7c423a8c53aa155dc9698605d",
+      "blockIds": [
+        "block-63"
+      ],
+      "note": "AI 录音: 新增实时转写功能，录音时可边录边看文本内容，重要信息不错过..."
+    },
+    {
+      "id": "update-54-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 64,
+      "sourceHash": "a528aa470b600cb24c0f7410c5c5503fc4b227f2be7ec1a4c848eec058177e29",
+      "blockIds": [
+        "block-64"
+      ],
+      "note": "AI 录音: 新增分角色转写功能，当录音内有多个人员说话时，可自动区分并标..."
+    },
+    {
+      "id": "update-55-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 65,
+      "sourceHash": "b4f529fc990895b5ac483d0d543b9f4cc8be6c52e7e011d0bb80e4c5457ae3fc",
+      "blockIds": [
+        "block-65"
+      ],
+      "note": "日历: 日历全面焕新，优化日历月视图结构，提供列表、总览、时间轴三种..."
+    },
+    {
+      "id": "update-56-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 66,
+      "sourceHash": "f122ea4bdc0edd523fe2c1611304607d1c68180af271d2f9346ea1f9de0c2f1b",
+      "blockIds": [
+        "block-66"
+      ],
+      "note": "日历: 新增 AI 建议事项，智能识别系统内碎片信息并生成日程和待办..."
+    },
+    {
+      "id": "update-57-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 67,
+      "sourceHash": "e1997536fb7a959bed36506658fde358c3baccaee0584e421e9a86acaa5e71a9",
+      "blockIds": [
+        "block-67"
+      ],
+      "note": "日历: 新增将待办事项纳入日历中，方便查看与管理..."
+    },
+    {
+      "id": "update-58-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 68,
+      "sourceHash": "9084da2f4b7e0932c099410202d589234616aaac7bd7f69f182fcfeecf02dd45",
+      "blockIds": [
+        "block-68"
+      ],
+      "note": "日历: 新增当日时间轴，支持以时间轴的方式可视化呈现当天所有日程，并..."
+    },
+    {
+      "id": "update-59-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 69,
+      "sourceHash": "f2022efdfa3edc07eaeedb5a0a91d4ae59c5406cc6f6d682a133567b1bd56f30",
+      "blockIds": [
+        "block-69"
+      ],
+      "note": "AI 翻译: 新增基于 AI 大模型翻译能力的文本翻译、同声传译功能，翻译..."
+    },
+    {
+      "id": "update-60-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 70,
+      "sourceHash": "f0bb2e48e2ee2ae838b117c723ee454d6e18ff18ddd30dd4ecfe7ebff10e930e",
+      "blockIds": [
+        "block-70"
+      ],
+      "note": "AI 翻译: 优化全屏翻译和区域翻译的交互体验和动效，翻译体验更流畅..."
+    },
+    {
+      "id": "update-61-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 71,
+      "sourceHash": "b57a8d28ff39ab55dfdbc105ae222dc5c1cb00bc1590d615d91efeb542e897b3",
+      "blockIds": [
+        "block-71"
+      ],
+      "note": "AI 写作: 新增系统级 AI 写作，聪明的代笔，一键帮你下笔..."
+    },
+    {
+      "id": "update-62-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 72,
+      "sourceHash": "4f68603ac55cfeb9dd95a2be07d50573d137276789b3e3ece556f554efb82c07",
+      "blockIds": [
+        "block-72"
+      ],
+      "note": "AI 写作: 支持全局唤起，在输入界面，打开系统输入法，可随时使用键盘上的..."
+    },
+    {
+      "id": "update-63-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 73,
+      "sourceHash": "df220c8c3c9d0eb1b2b01705168a539047d13bce331b57e410b0ee47252b59d0",
+      "blockIds": [
+        "block-73"
+      ],
+      "note": "AI 写作: 在使签与文档写文案，或系统应用内选择文本时，都可以使用 AI..."
+    },
+    {
+      "id": "update-64-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 74,
+      "sourceHash": "174ed137ecd9d4bad7e88d0cec40ee5e9d689aabb9ede87670495088d141e2cf",
+      "blockIds": [
+        "block-74"
+      ],
+      "note": "AI 写作: 新增更多写作能力，不仅能根据图文生成丰富的社媒文案（如小红书..."
+    },
+    {
+      "id": "highlight-12-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 75,
+      "sourceHash": "85c844f24429b85026b17c52dfde30d0605c00e85823eb2d8be9d915b5d6f6bf",
+      "blockIds": [
+        "block-75"
+      ],
+      "note": "AI 写作: 新增多格式文档创作能力，支持根据文本/文档内容一键生成思维导..."
+    },
+    {
+      "id": "update-65-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 76,
+      "sourceHash": "1538fc4b4ef517abc63c32032b19814e8f87571dff393c8105dbdf4518aa8192",
+      "blockIds": [
+        "block-76"
+      ],
+      "note": "AI 写作: 优化改写工具，如排版、多风格润色（标准、详细、简洁、正式、口..."
+    },
+    {
+      "id": "update-66-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 77,
+      "sourceHash": "dacf1f216075ccd0133a7911415f7f3345464ac958931b215be98dbde2d23282",
+      "blockIds": [
+        "block-77"
+      ],
+      "note": "AI 语音摘记: 优化 AI 语音摘记和通话摘要功能，支持自动识别场景，生成更..."
+    },
+    {
+      "id": "update-67-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 78,
+      "sourceHash": "aeff7f775c5990ba5dbe882009e6347d48c803d10bc18c88c5cdfeb1aa4642b0",
+      "blockIds": [
+        "block-78"
+      ],
+      "note": "AI 语音摘记: 优化文档摘要中的查看原文功能，从查看页面升级到查看段落，原文..."
+    },
+    {
+      "id": "update-68-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 79,
+      "sourceHash": "a55185080355d3c3d8952060747d64b9693badc7bff7edb7fd4a87a5c631fe68",
+      "blockIds": [
+        "block-79"
+      ],
+      "note": "AI 语音摘记: 优化摘要分享导出功能，提供链接、图片、Word/PDF 文档..."
+    },
+    {
+      "id": "update-69-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 80,
+      "sourceHash": "47ef4d7af0f2947507fa714e5ff11c3b9338a0efa3b826fbd3cccce97df9609b",
+      "blockIds": [
+        "block-80"
+      ],
+      "note": "全新光场设计: 全新光场设计，光与环境交相辉映，映射光的流动与变化，呈现真实..."
+    },
+    {
+      "id": "update-70-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 81,
+      "sourceHash": "9dd0242f603bd766b07e2b6035f29b17d00271ed24a53ff283cf7875aa80c070",
+      "blockIds": [
+        "block-81"
+      ],
+      "note": "全新光场设计: 将极具生命力的光影融入到系统的设计元素中，提升系统整体的细节..."
+    },
+    {
+      "id": "update-71-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 82,
+      "sourceHash": "9beb58dfafdbda3c5ecea242303bca1454258cc63233fe7270eb53f5d5b0aad8",
+      "blockIds": [
+        "block-82"
+      ],
+      "note": "全新光场设计: 新增光场动效，基于极光引擎提供更沉浸..."
+    },
+    {
+      "id": "update-72-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 83,
+      "sourceHash": "e10ffe19109c234476457dced9bddb6fcc2837fe015263cf154096958d3454f9",
+      "blockIds": [
+        "block-83"
+      ],
+      "note": "全新光场设计: 新增渐进式模糊效果，通过极光视效强化了界面的层次与纵深，更通..."
+    },
+    {
+      "id": "update-73-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 84,
+      "sourceHash": "296e5420589def027a825a14e02c056ff8f5914f61a1f7bc4397dea2679803ad",
+      "blockIds": [
+        "block-84"
+      ],
+      "note": "全新光场设计: 优化极光视效，提升粒子特效、辉光特效、涟漪特效、色散混色等高..."
+    },
+    {
+      "id": "update-74-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 85,
+      "sourceHash": "f71c95ebea28f4cc65cea494ec11e4afc168cb6616cced7f159e69465aa1bc56",
+      "blockIds": [
+        "block-85"
+      ],
+      "note": "全新光场设计: 全面焕新插画、示意图等设计，更美观、更易读..."
+    },
+    {
+      "id": "update-75-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 86,
+      "sourceHash": "2aac625afa8694043ed27a9550e7f4df32f562ca056a2ecd2f0848352db1fb9f",
+      "blockIds": [
+        "block-86"
+      ],
+      "note": "全新光场设计: 新增全局系统字体 OPPO Serif 衬线体，更适合沉浸阅..."
+    },
+    {
+      "id": "update-76-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 87,
+      "sourceHash": "8e0eb67b297d2912d5bc9e282b8d8145807f8da05d4d449dcf7dc58638d21e5f",
+      "blockIds": [
+        "block-87"
+      ],
+      "note": "全新光场设计: 新增全新天气视效，通过极光引擎与天气数据，实时渲染真实天气环..."
+    },
+    {
+      "id": "update-77-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 88,
+      "sourceHash": "5e211509defe73e833cdae706d4b97d8eba3bbb59105f3a048d1ab6fe7d9a179",
+      "blockIds": [
+        "block-88"
+      ],
+      "note": "全新光场设计: 优化时钟、计算器、指南针等应用界面，采用全新美学设计，融入真..."
+    },
+    {
+      "id": "update-78-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 89,
+      "sourceHash": "fbebe97d898df82b5776e63d096190846e37a062ac1d0cb1b35e4f9e79ff2a57",
+      "blockIds": [
+        "block-89"
+      ],
+      "note": "全新光场设计: OPPO 手表支持全新 ColorOS 一体化设计，全新的应..."
+    },
+    {
+      "id": "update-79-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 90,
+      "sourceHash": "2f39978cb9dc4753b539ee4664e741ebff5da2eb79319d4aa7496b97d3160f31",
+      "blockIds": [
+        "block-90"
+      ],
+      "note": "灵感桌面: 全新桌面图标，将光场设计语言融入桌面图标设计，细节更丰富，视..."
+    },
+    {
+      "id": "update-80-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 91,
+      "sourceHash": "9629c34a652b7df0a4337fabb303e08b8d9f220e9ebc8e9dc6416ed8cc6b64e2",
+      "blockIds": [
+        "block-91"
+      ],
+      "note": "灵感桌面: 优化桌面布局网格与元素，图标、文件夹、卡片等显示更美观整洁，..."
+    },
+    {
+      "id": "update-81-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 92,
+      "sourceHash": "1e2894836809cc3137d70eb88645c5e43de5a4453e7f06b359af26e7ab0178c9",
+      "blockIds": [
+        "block-92"
+      ],
+      "note": "灵感桌面: 新增支持无缝拖拽桌面图标大小，并支持添加应用快捷方式，让桌面..."
+    },
+    {
+      "id": "update-82-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 93,
+      "sourceHash": "316e16f83075df33f6fb548ea2e42f27d3ce5a8635888a760cc8273798317a96",
+      "blockIds": [
+        "block-93"
+      ],
+      "note": "灵感桌面: 新增长按桌面大文件夹，可以选择更多风格样式，如9宫格视图、4..."
+    },
+    {
+      "id": "update-83-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 94,
+      "sourceHash": "50b1f3393946c9c7dfe5cf75f2f3eeec6a271f36f0b4b4c71e4d1f13a5cc5b4c",
+      "blockIds": [
+        "block-94"
+      ],
+      "note": "灵感桌面: 新增无字桌面功能，让桌面更简洁更精致..."
+    },
+    {
+      "id": "update-84-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 95,
+      "sourceHash": "a9de5eeb4e8d1c378e029b3f8d6ae3321b6aba2c7b2209b5ebcf21961bf66a16",
+      "blockIds": [
+        "block-95"
+      ],
+      "note": "灵感桌面: 新增与优化多张桌面卡片，提升桌面卡片丰富性..."
+    },
+    {
+      "id": "update-85-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 96,
+      "sourceHash": "2da15ad0a839c836df523d5ee9132ae12abb5210a97cf9521359fa2f693e5a82",
+      "blockIds": [
+        "block-96"
+      ],
+      "note": "灵感桌面: 优化桌面编辑模式界面，并支持调整页面顺序..."
+    },
+    {
+      "id": "update-86-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 97,
+      "sourceHash": "a18012762f866e62fa92bdfa91489418e37e712fae1ef53a31c61c08dcd655fd",
+      "blockIds": [
+        "block-97"
+      ],
+      "note": "灵感桌面: 优化抽屉模式的界面布局，搜索下沉到桌面底部，查找应用更方便..."
+    },
+    {
+      "id": "update-87-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 98,
+      "sourceHash": "5e7fe22d3d84829658282ed60f6cb87123dedb0d6e7e2eeb1f81f7f4032ff4a7",
+      "blockIds": [
+        "block-98"
+      ],
+      "note": "灵感桌面: 新增抽屉模式下，滑动索引条可以快速选择应用..."
+    },
+    {
+      "id": "update-88-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 99,
+      "sourceHash": "8f59705c8fc351fcdb110322f109e0be396c4c3169f763b76a678ccb903cdc99",
+      "blockIds": [
+        "block-99"
+      ],
+      "note": "灵感桌面: 新增抽屉模式下的应用分类视图，在全部应用中可按照分类显示应用..."
+    },
+    {
+      "id": "update-89-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 100,
+      "sourceHash": "79cd782a2a1b11c2a6d2bb22a74ff9037a865c29f13c52ce7244488bfb85e1fb",
+      "blockIds": [
+        "block-100"
+      ],
+      "note": "灵感桌面: 优化抽屉模式下的应用建议功能，展示常用应用和最近使用应用..."
+    },
+    {
+      "id": "update-90-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 101,
+      "sourceHash": "df9dd691044ec8a63f23f088c0b13ed329c4fc204dbfae976f5d5a89ab381fd2",
+      "blockIds": [
+        "block-101"
+      ],
+      "note": "灵感桌面: 优化系统设置中「桌面、锁屏与个性化」页面布局、样式，分类更清..."
+    },
+    {
+      "id": "update-91-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 102,
+      "sourceHash": "f2d3437c88ebe4a849cccb8dbfe779fbecec123fe68f698558d10f00ec0c30f3",
+      "blockIds": [
+        "block-102"
+      ],
+      "note": "AI 灵感主题: 灵感主题全面升级，从定格的瞬间史诗到鲜活的高光时刻，多元表达..."
+    },
+    {
+      "id": "update-92-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 103,
+      "sourceHash": "967c9d87e0cb67f7374723ca1ad204e027ca9d737574f25acbe337ed51f20bea",
+      "blockIds": [
+        "block-103"
+      ],
+      "note": "AI 灵感主题: 新增山之道-日照金山系列实况壁纸，山光同频，拨云见日，亮屏瞬..."
+    },
+    {
+      "id": "update-93-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 104,
+      "sourceHash": "474960290ac43d44668cfa374939c3bdd52085f48e4879aabbdfca0014ba045f",
+      "blockIds": [
+        "block-104"
+      ],
+      "note": "AI 灵感主题: 新增多套实况壁纸，鲜活人生，动态上屏，绽放不被定义的生命力..."
+    },
+    {
+      "id": "update-94-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 105,
+      "sourceHash": "7b039fa35aea9f237ed676cb5a2da5da1a8108afbf5a7b4f79cd4a69816e1603",
+      "blockIds": [
+        "block-105"
+      ],
+      "note": "AI 灵感主题: 新增支持将实况照片、视频设置为壁纸，并支持 AI 动态景深效..."
+    },
+    {
+      "id": "update-95-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 106,
+      "sourceHash": "e3154728837b315c5e996f0a140396e122c4934292c51d7cf0dbdcb8fac58fcb",
+      "blockIds": [
+        "block-106"
+      ],
+      "note": "AI 灵感主题: 新增全新模块化编辑框架，所见即所得，提升编辑自由度..."
+    },
+    {
+      "id": "update-96-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 107,
+      "sourceHash": "b42f9849128d453f6c3675354f1210298a53035184378ceb274f68ffb563ebfe",
+      "blockIds": [
+        "block-107"
+      ],
+      "note": "AI 灵感主题: 新增锁屏界面支持添加灵感组件，丰富的灵感组件供你选择，美观又..."
+    },
+    {
+      "id": "update-97-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 108,
+      "sourceHash": "59c6d29788106a6c1819dc7194acf94968aaf8c75cce710f0b650e7f2a3782a9",
+      "blockIds": [
+        "block-108"
+      ],
+      "note": "AI 灵感主题: 新增 AI 灵感文案功能，在锁屏编辑界面，不仅可以自由输入锁..."
+    },
+    {
+      "id": "update-98-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 109,
+      "sourceHash": "4a1872cb48d5f898a3414c12cdfbaaa4e700f783b7ab6eff379e80a56c2a9411",
+      "blockIds": [
+        "block-109"
+      ],
+      "note": "AI 灵感主题: 新增自定义锁屏文字功能，可以随心输入锁屏文字，个性化表达更自..."
+    },
+    {
+      "id": "update-99-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 110,
+      "sourceHash": "cd628b2b9d6f66d76172c0c9d5b181d0194b6eb842e2b7a335a326dd61d73ff5",
+      "blockIds": [
+        "block-110"
+      ],
+      "note": "AI 灵感主题: 新增支持编辑锁屏左/右下角快捷入口功能，常用功能快人一步..."
+    },
+    {
+      "id": "update-100-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 111,
+      "sourceHash": "d5cfb009c67d7d107c0e84da7fff9373ea48f483537856d6f02f93995879a3e3",
+      "blockIds": [
+        "block-111"
+      ],
+      "note": "AI 灵感主题: 新增全景沉浸息屏模式，在息屏也可以显示锁屏壁纸、组件、通知、..."
+    },
+    {
+      "id": "update-101-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 112,
+      "sourceHash": "e4869e1dfe87d3fb8a9183e9ab5600ea443126a320da68b605edcc55d9941d37",
+      "blockIds": [
+        "block-112"
+      ],
+      "note": "AI 灵感主题: 新增灵感图标风格，可跟随壁纸颜色设定多种图标风格，与壁纸风格..."
+    },
+    {
+      "id": "update-102-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 113,
+      "sourceHash": "68424ecfb5c5febba17e481bc525ee4b121131933e405c90fdad349d7686b06f",
+      "blockIds": [
+        "block-113"
+      ],
+      "note": "AI 灵感主题: 新增暗色模式下图标风格，暗色模式下更换眼更舒适..."
+    },
+    {
+      "id": "update-103-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 114,
+      "sourceHash": "7f288ca2fa83f2086375128ef3b11eb5ba3583ba5fca8d9364d7115e7488b1ed",
+      "blockIds": [
+        "block-114"
+      ],
+      "note": "一碰互传: 新增支持分享更多内容，图片、视频、文档、便签、联系人名片、小..."
+    },
+    {
+      "id": "update-104-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 115,
+      "sourceHash": "eddceaacb2509f05b120b52f77e202d92766530aa04dcba8e8108fd1b6a0258f",
+      "blockIds": [
+        "block-115"
+      ],
+      "note": "一碰互传: 优化传输速度，提升OPPO互传体验..."
+    },
+    {
+      "id": "update-105-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 116,
+      "sourceHash": "973a1313e5223cf49df7c108fdd04854322716dd1911ba33a056632a536c1e90",
+      "blockIds": [
+        "block-116"
+      ],
+      "note": "OPPO 互联: 新增手机镜像投屏到电脑，支持在电脑上跨端解锁手机，跨系统查看..."
+    },
+    {
+      "id": "update-106-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 117,
+      "sourceHash": "32082b99208c45606b40de2aa778cd1bb8a737d02a04a0c570a985d39eaef83a",
+      "blockIds": [
+        "block-117"
+      ],
+      "note": "OPPO 互联: 新增电脑端 OPPO 互联的全局搜索功能，可同时搜索手机和电..."
+    },
+    {
+      "id": "update-107-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 118,
+      "sourceHash": "69b29bf715136a7fcf2fea00bdf63d0a97442b17932fc7c4ef5276847263413e",
+      "blockIds": [
+        "block-118"
+      ],
+      "note": "OPPO 互联: 新增通知同步功能，手机接收到的应用通知、来电、验证码可同步至..."
+    },
+    {
+      "id": "update-108-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 119,
+      "sourceHash": "af54a4e99dc6265098c41b9083a9781131a89dd2dfd244f582c39d0199e31abd",
+      "blockIds": [
+        "block-119"
+      ],
+      "note": "OPPO 互联: 新增与电脑的剪贴板同步功能，复制的文本可跨端粘贴，跨端操作更..."
+    },
+    {
+      "id": "update-109-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 120,
+      "sourceHash": "c121ac11d90788085e6ea157ec68ad9251e934d475e1fc04e8f7096a73d4bf11",
+      "blockIds": [
+        "block-120"
+      ],
+      "note": "OPPO 互联: 优化系统设置页中设备互联页面布局，按设备类型和使用场景进行分..."
+    },
+    {
+      "id": "update-110-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 121,
+      "sourceHash": "6629d7da925552a8c691c221489bc9084539b21c4607221a5a803f50fde94b1a",
+      "blockIds": [
+        "block-121"
+      ],
+      "note": "智慧车载: 优化与车载设备的蓝牙连接兼容性，提升使用体验..."
+    },
+    {
+      "id": "update-111-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 122,
+      "sourceHash": "d5a4b5bd697350835759f01ab92515e905e7c8dc8a340603ea8ff92ce5d2d52e",
+      "blockIds": [
+        "block-122"
+      ],
+      "note": "网络优化: 新增网络共享支持 WLAN 共享，当手机连接 WLAN 时，..."
+    },
+    {
+      "id": "update-112-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 123,
+      "sourceHash": "4722b9e49b62710ab11ed3b0115cc5076f0767b15d4bfb134411a84feb8aa5f1",
+      "blockIds": [
+        "block-123"
+      ],
+      "note": "网络优化: 优化 WLAN 算法能力，提升电梯、办公室角落、卫生间等网络..."
+    },
+    {
+      "id": "update-113-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 124,
+      "sourceHash": "15334dee89a222794666b897369b8a83abe0b5cd2b3fb4a567ae44311df0f23f",
+      "blockIds": [
+        "block-124"
+      ],
+      "note": "网络优化: 优化信号感知能力，提升高铁/地铁场景下的网络使用稳定性、流畅..."
+    },
+    {
+      "id": "update-114-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 125,
+      "sourceHash": "76ce2d290983fa64d8cee05a195fa13c8a48998e4e7dadf1f6a8c638d9dfa49d",
+      "blockIds": [
+        "block-125"
+      ],
+      "note": "网络优化: 优化自学习网络，优选最优小区，提升网络流畅性..."
+    },
+    {
+      "id": "update-115-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 126,
+      "sourceHash": "ccca46048a3e4fccca877c44ccc2da0f0e2e55b4183f9086283d7359ef7dd896",
+      "blockIds": [
+        "block-126"
+      ],
+      "note": "相机: 新增在入州模式下支持拍摄头况照片，同时支持调节风格化参数，打..."
+    },
+    {
+      "id": "update-116-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 127,
+      "sourceHash": "8bfe50bc4b5af9ac69887b24f58d0ada9f892397a5451cccda38750e4942840f",
+      "blockIds": [
+        "block-127"
+      ],
+      "note": "相机: 新增在人像模式下拍照支持自由变焦、改画幅，随心找到最美视角..."
+    },
+    {
+      "id": "update-117-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 128,
+      "sourceHash": "0244073ddddd8e781b77a94cd2b898ec8cb7fa9edb0f5ee791c254441cb540e7",
+      "blockIds": [
+        "block-128"
+      ],
+      "note": "相机: 新增扫描文档支持AI增强功能，扫描结果秒变电子档，方便留档和..."
+    },
+    {
+      "id": "update-118-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 129,
+      "sourceHash": "40a424a2246bb4674ca6a7a74a88c158a655c96ad74cf08ba50c7761e3f05495",
+      "blockIds": [
+        "block-129"
+      ],
+      "note": "游戏助手: 新增游戏相机支持纯净录制模式，在录制屏幕时，仅录制游戏画面，..."
+    },
+    {
+      "id": "update-119-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 130,
+      "sourceHash": "659141f57403ea930ec2c4127d22862d8041bafd3ef92043532131e7a3ca8e79",
+      "blockIds": [
+        "block-130"
+      ],
+      "note": "游戏助手: 新增游戏相机支持设置录制清晰度，在录制实况照片、回录视频时，..."
+    },
+    {
+      "id": "update-120-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 131,
+      "sourceHash": "07075ba80227d1563474da803dd8d2e4aed0fc0c4dfbb5869b18ad8a6ac82522",
+      "blockIds": [
+        "block-131"
+      ],
+      "note": "游戏助手: 新增游戏相机支持同时开启实况照片截图和一键回录功能，使用更便..."
+    },
+    {
+      "id": "update-121-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 132,
+      "sourceHash": "b6e9aa7f200a4e2b39c55f20c8b1f423c3cfd30e1cfc219e7fb3be23d2d32832",
+      "blockIds": [
+        "block-132"
+      ],
+      "note": "游戏助手: 新增在流体云上显示游戏状态，闪回游戏画面，轻松拿下 MVP..."
+    },
+    {
+      "id": "update-122-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 133,
+      "sourceHash": "d7afeb348d9cb187af0574cc2dca7f37e2b178fb2ae39fb53ac9c5f183c47dc0",
+      "blockIds": [
+        "block-133"
+      ],
+      "note": "通知与控制中心: 新增控制中心支持更多编辑能力。更多快捷开关支持 2*1 尺寸..."
+    },
+    {
+      "id": "update-123-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 134,
+      "sourceHash": "a9fb8ca2f7d95a40a68d090e736669d369689a0c05ba96c6fd04d090df744d24",
+      "blockIds": [
+        "block-134"
+      ],
+      "note": "通知与控制中心: 全新通知样式，空间占用更小，浏览效率更高..."
+    },
+    {
+      "id": "update-124-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 135,
+      "sourceHash": "3ee27da9b285b2da58b9b08cb2351b6d06dd7cd6fad6337cdbf3c5390d526169",
+      "blockIds": [
+        "block-135"
+      ],
+      "note": "自由窗口: 新增自由浮窗窗口控制器可选择分屏，点击即可将应用由浮窗变为分..."
+    },
+    {
+      "id": "update-125-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 136,
+      "sourceHash": "5c2cb6b6ee23d4d8c2ccb9fa0170a82b4546ce7bd1e05bf05f2f1d578f1881d4",
+      "blockIds": [
+        "block-136"
+      ],
+      "note": "自由窗口: 新增分屏窗口控制器可选择浮窗，点击即可将应用由分屏变为浮窗显..."
+    },
+    {
+      "id": "update-126-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 137,
+      "sourceHash": "8805dffd6235b601883519e096871e432049b3d6b268573a53d6781a5ad1c0a6",
+      "blockIds": [
+        "block-137"
+      ],
+      "note": "自由窗口: 优化分屏替换应用时，替换面板显示效果..."
+    },
+    {
+      "id": "update-127-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 138,
+      "sourceHash": "7cec841cfb811a8b51dc0bbd51a39d1c9f88f2471caa35c319359bd51d5139bf",
+      "blockIds": [
+        "block-138"
+      ],
+      "note": "更多细节: 新增连接耳机时铃声不外放功能，开启后连接耳机时，来电铃声仅通..."
+    },
+    {
+      "id": "update-128-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 139,
+      "sourceHash": "b6b261edb9ac80261ab9ec4d6760f25a857171016808a43d6718134436bfa1e0",
+      "blockIds": [
+        "block-139"
+      ],
+      "note": "更多细节: 新增支持在搜狗定制版输入法中上滑清空语音文字，操作更便捷..."
+    },
+    {
+      "id": "update-129-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 140,
+      "sourceHash": "ca96c71c23209baec05bbcba110e6fffe50f050384ea912df41fc759b083f211",
+      "blockIds": [
+        "block-140"
+      ],
+      "note": "更多细节: 优化输入法工具箱结构，高频工具更易查找..."
+    },
+    {
+      "id": "update-130-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 141,
+      "sourceHash": "31b4c18edb5231a8cd8ba617eaabbbb9324f9c938d2e3a23cb5f59aaa8393819",
+      "blockIds": [
+        "block-141"
+      ],
+      "note": "更多细节: 优化系统设置搜索能力，支持 AI 搜索、搜索推荐、应用中的设..."
+    },
+    {
+      "id": "update-131-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 142,
+      "sourceHash": "1a36937e20134a38107b96cd7e86e9a929b0278b6db5a6deea96ec222ac623ef",
+      "blockIds": [
+        "block-142"
+      ],
+      "note": "更多细节: 优化智能侧边栏界面设计，界面质感焕新，并支持单列或双列显示以..."
+    },
+    {
+      "id": "update-132-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 143,
+      "sourceHash": "bf10b9aee9e22705167ccd3ff31cd3cbc26fe48d333f961a95c00bed73d0a001",
+      "blockIds": [
+        "block-143"
+      ],
+      "note": "更多细节: 优化分享面板布局，新增支持直接显示应用联系人，并支持编辑分享..."
+    },
+    {
+      "id": "update-133-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 144,
+      "sourceHash": "25f4f23c082e6eea8a33707ab9eaf1c82959633ef6a7f0e6d12adfdf787ec6ed",
+      "blockIds": [
+        "block-144"
+      ],
+      "note": "更多细节: 优化点击简洁横幅通知上的菜单按钮，由全屏打开应用改为浮窗打开..."
+    },
+    {
+      "id": "update-134-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 145,
+      "sourceHash": "2be5c28791c2cc9bcc5e1ad431f74cd70f764709a1d5d50242e6e6eef9918d10",
+      "blockIds": [
+        "block-145"
+      ],
+      "note": "更多细节: 优化电池界面样式，提升数据可视化表现，增加前后台活动时长数据..."
+    },
+    {
+      "id": "update-135-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 146,
+      "sourceHash": "8b047ebedd6760831f2163ba024706151257a8ae4db9bf823e1a38ed2aea8a33",
+      "blockIds": [
+        "block-146"
+      ],
+      "note": "更多细节: 优化 iOS 设备搬家到 OPPO 设备的传输速度与体验..."
+    },
+    {
+      "id": "update-136-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 147,
+      "sourceHash": "b77acea71855b0b07bbbbe59b26a20b3f8754b68da1ac2c82b56656f259f330a",
+      "blockIds": [
+        "block-147"
+      ],
+      "note": "更多细节: 优化 TalkBack 朗读、焦点和手势等功能，提升 Tal..."
+    },
+    {
+      "id": "update-137-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 148,
+      "sourceHash": "8358b5d837260355a6335212800adc5e7b007471270c04e0f2896c0c64a4ee42",
+      "blockIds": [
+        "block-148"
+      ],
+      "note": "权限管理: 新增对应用权限的审核管控机制，推荐最小化的授权，禁用高危应用..."
+    },
+    {
+      "id": "update-138-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 149,
+      "sourceHash": "c309e077ef4cfec83812aa2eeb77ef3af134506cec8de625cbc10185b0a3fed1",
+      "blockIds": [
+        "block-149"
+      ],
+      "note": "权限管理: 新增应用读取数据的安全访问控件，管控应用读取图片、视频、文件..."
+    },
+    {
+      "id": "update-139-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 150,
+      "sourceHash": "d4c9d5dbab92396cbf85bd47c65a5495e3dc9eddd71804759acc572cc82cc609",
+      "blockIds": [
+        "block-150"
+      ],
+      "note": "权限管理: 新增权限用途说明，在权限弹窗和权限管理界面可以清晰了解应用调..."
+    },
+    {
+      "id": "update-140-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 151,
+      "sourceHash": "2502a382aa636076b445a6a6d7ab6e6a6ca418a5d9250dea948bf44a4e89067e",
+      "blockIds": [
+        "block-151"
+      ],
+      "note": "剪贴板智能管控: 新增写入剪贴板权限，用于管控应用随意向剪贴板写入垃圾信息..."
+    },
+    {
+      "id": "update-141-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 152,
+      "sourceHash": "fb7d9ac459781978f58b4a75abd19e438e2ea36ee845f1317ba8c594e453383c",
+      "blockIds": [
+        "block-152"
+      ],
+      "note": "剪贴板智能管控: 新增剪贴板支持智能读取口令，仅允许口令关联应用读取口令信息，..."
+    },
+    {
+      "id": "update-142-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 153,
+      "sourceHash": "8069daf83cb10e90fcb3a75f1f5d9455e8a3d21ec98333d21d53768517df4f6c",
+      "blockIds": [
+        "block-153"
+      ],
+      "note": "剪贴板智能管控: 优化前贴板内容自动清除的时间，防止前贴板内容长时间停留被应用..."
+    },
+    {
+      "id": "update-143-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 154,
+      "sourceHash": "4bf18e3ed5463aa0bc95442632d3870b788dcdc540a0fad592143992dc6d11e3",
+      "blockIds": [
+        "block-154"
+      ],
+      "note": "其他: 新增常用信息智能建议功能，支持识别相册内的卡证信息，并推荐保..."
+    },
+    {
+      "id": "update-144-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 155,
+      "sourceHash": "95456fc47fedc7a75bca0ee7843ae3ff120f7b7fec612f887b00d5deaf870fe4",
+      "blockIds": [
+        "block-155"
+      ],
+      "note": "其他: 新增支持长按桌面图标，可在菜单中选择将应用上锁或隐藏..."
+    },
+    {
+      "id": "update-145-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 156,
+      "sourceHash": "5b883b83774e7a59addc247c5b4cc1e400dfadfce579405db9afce8d8bc95d41",
+      "blockIds": [
+        "block-156"
+      ],
+      "note": "其他: 新增手机管家检测到有风险的应用在运行时，会通过流体云、消息通..."
+    },
+    {
+      "id": "update-146-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 157,
+      "sourceHash": "6cdd0baa2402734dccef1bb2d384652d6919ccf24173d2b151880ca7f10114a0",
+      "blockIds": [
+        "block-157"
+      ],
+      "note": "其他: 新增智能拦截低评分应用的广告功能，降低受骗风险..."
+    },
+    {
+      "id": "update-147-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "ColorOS_16_更新说明.md",
+      "sourceIndex": 158,
+      "sourceHash": "3997f2ed7872fef303edefca37f0ee5ba9ce824758e891d352ca9f38e640e5c3",
+      "blockIds": [
+        "block-158"
+      ],
+      "note": "其他: 优化密码本应用，将常用信息与密码自动填充收纳到同一个页面..."
+    }
+  ],
+  "audit": {
+    "highlightReviewVersion": 4,
+    "updateReviewVersion": 4,
+    "review": {
+      "content": "verified",
+      "modules": "verified",
+      "media": "verified",
+      "page": "verified"
+    },
+    "expectedHighlightCount": 12,
+    "sourceItemCount": 159,
+    "includedItemCount": 159,
+    "excludedItemCount": 0,
+    "highlightCount": 12,
+    "updateCount": 147,
+    "mediaCount": 0,
+    "mappedItemCount": 159,
+    "coverageRate": 1
+  }
+}

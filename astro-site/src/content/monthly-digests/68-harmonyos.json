@@ -1,0 +1,1142 @@
+{
+  "schemaVersion": 3,
+  "contentReviewVersion": 4,
+  "mediaReviewVersion": 4,
+  "articleId": "HarmonyOS_6_正式发布！亮点抢先看",
+  "reviewStatus": "verified",
+  "sourceHash": "03402484ad842dce087385774083b368f83eadc910daed748b4a81f8710b559f",
+  "highlights": [
+    {
+      "id": "highlight-01",
+      "module": "智慧光感",
+      "moduleSource": "explicit-heading",
+      "title": "全新智慧色彩光感",
+      "description": "当唤醒小艺、输入法语音输入或碰一碰互传时，屏幕边缘伴随通透绚丽的动态光影扩散，交互直观灵动。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-01-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-01"
+      ]
+    },
+    {
+      "id": "highlight-02",
+      "module": "艺术签名",
+      "moduleSource": "explicit-heading",
+      "title": "美学构图与自适应字体",
+      "description": "智慧美学构图可自动匹配签名文字并与壁纸融合，支持通过拍摄书法字体由 AI 提取生成独具格调的个性锁屏签名。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-02-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-02"
+      ]
+    },
+    {
+      "id": "highlight-03",
+      "module": "趣味主题",
+      "moduleSource": "explicit-heading",
+      "title": "可交互元气心情与毛球主题",
+      "description": "心情主题与毛球主题在锁屏下支持轻触与语音指令互动，与其他搭载相同主题的设备碰一碰可解锁隐藏款萌趣表情彩蛋。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-03-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-03"
+      ]
+    },
+    {
+      "id": "highlight-04",
+      "module": "跨端互联",
+      "moduleSource": "explicit-heading",
+      "title": "手眼同行注视流转",
+      "description": "键鼠跨端共享下，按下快捷键并注视目标设备即可自然切换操控；拖动素材时注视即可精准跨屏投送。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-04-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-04"
+      ]
+    },
+    {
+      "id": "highlight-05",
+      "module": "超级小艺",
+      "moduleSource": "explicit-heading",
+      "title": "复杂意图自主拆解执行",
+      "description": "一句指令小艺即可自主跨应用拆解并连续完成订票、查信息、整理日程等复杂链路任务，上滑即刻缩小为悬浮导航条。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-05-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-05"
+      ]
+    },
+    {
+      "id": "highlight-06",
+      "module": "影像创作",
+      "moduleSource": "explicit-heading",
+      "title": "AI 一键成片与记忆盘活",
+      "description": "智能精选多张照片自动匹配电影级运镜与背景音乐生成视频大片，并可对静态照片智能生成微动视效。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-06-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-06"
+      ]
+    },
+    {
+      "id": "highlight-07",
+      "module": "安全防诈",
+      "moduleSource": "explicit-heading",
+      "title": "AI 通话涉诈检测与亲情守护",
+      "description": "陌生来电通话内容实时智能涉诈检测提醒；当远方家人接到风险电话时可同步向您预警并支持远程一键挂断。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-07-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-07"
+      ]
+    },
+    {
+      "id": "highlight-08",
+      "module": "屏幕防窥",
+      "moduleSource": "explicit-heading",
+      "title": "AI 动态防窥隐私保护",
+      "description": "针对受保护的高敏应用，手机若感知到身侧他人目光窥视，将自动即刻隐藏敏感界面并轻柔提醒机主。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-08-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-08"
+      ]
+    },
+    {
+      "id": "highlight-09",
+      "module": "系统丝滑",
+      "moduleSource": "explicit-heading",
+      "title": "秒启秒开超流畅体验",
+      "description": "系统底层架构再升级，整机能效与续航显著提升，带来高频应用秒启、复杂页面秒开、安装包闪电解析的高效体验。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-09-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-09"
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "id": "update-01",
+      "module": "元气心情主题",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "支持 通过与其他使用元气心情主题的设备碰一碰，即可互相解锁隐藏款表情",
+      "description": "支持 通过与其他使用元气心情主题的设备碰一碰，即可互相解锁隐藏款表情",
+      "evidenceIds": [
+        "update-01-body"
+      ],
+      "sourceItemIds": [
+        "source-update-01"
+      ]
+    },
+    {
+      "id": "update-02",
+      "module": "毛球系列主题",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "使用“精致毛球的一天”主题，在锁屏界面点击小艺星环图标后，通过语音或输入口令可触发有趣好玩的交互动画; 使用“毛球对对磁”主题，通过与其他使用该主题的设备碰一碰可互相解锁趣味动画 (主题应用升级至 1\\.0\\.23 及以上版本，打开主题应用 > 搜索相应主题)。",
+      "description": "使用“精致毛球的一天”主题，在锁屏界面点击小艺星环图标后，通过语音或输入口令可触发有趣好玩的交互动画; 使用“毛球对对磁”主题，通过与其他使用该主题的设备碰一碰可互相解锁趣味动画 (主题应用升级至 1\\.0\\.23 及以上版本，打开主题应用 > 搜索相应主题)。",
+      "evidenceIds": [
+        "update-02-body"
+      ],
+      "sourceItemIds": [
+        "source-update-02"
+      ]
+    },
+    {
+      "id": "update-03",
+      "module": "碰一碰分享",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "在部分应用场景下，支持与搭载 HarmonyOS 5 及以上的手机一碰多分享，多人分享、组队互动更畅快; 还支持与搭载 HarmonyOS 6 的鸿蒙电脑碰一碰分享，实现文档、图片双向传递等更多场景，带来更高效的办公体验。",
+      "description": "在部分应用场景下，支持与搭载 HarmonyOS 5 及以上的手机一碰多分享，多人分享、组队互动更畅快; 还支持与搭载 HarmonyOS 6 的鸿蒙电脑碰一碰分享，实现文档、图片双向传递等更多场景，带来更高效的办公体验。",
+      "evidenceIds": [
+        "update-03-body"
+      ],
+      "sourceItemIds": [
+        "source-update-03"
+      ]
+    },
+    {
+      "id": "update-04",
+      "module": "手眼同行",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "在键鼠共享状态下，只需按下 Ctrl 键并注视目标设备，即可切换键鼠操作至目标设备; 当拖动文档、图片等素材时，只需注视目标设备并按下 Ctrl 键，素材即可瞬移到目标设备，松手直接落入，简单高效 (部分应用支持)。",
+      "description": "在键鼠共享状态下，只需按下 Ctrl 键并注视目标设备，即可切换键鼠操作至目标设备; 当拖动文档、图片等素材时，只需注视目标设备并按下 Ctrl 键，素材即可瞬移到目标设备，松手直接落入，简单高效 (部分应用支持)。",
+      "evidenceIds": [
+        "update-04-body"
+      ],
+      "sourceItemIds": [
+        "source-update-04"
+      ]
+    },
+    {
+      "id": "update-05",
+      "module": "小艺",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "1\\. 小艺帮帮忙，只需一句话指令，即可让小艺帮您打开应用并完成一系列复杂、连贯的任务，同时上划任务界面还能变成导航条在后台处理。",
+      "description": "1\\. 小艺帮帮忙，只需一句话指令，即可让小艺帮您打开应用并完成一系列复杂、连贯的任务，同时上划任务界面还能变成导航条在后台处理。",
+      "evidenceIds": [
+        "update-05-body"
+      ],
+      "sourceItemIds": [
+        "source-update-05"
+      ]
+    },
+    {
+      "id": "update-06",
+      "module": "小艺",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "3\\. “方言自由说”全新升级，在支持方言识别基础上，新增七种方言播报 (粤语、四川话、陕西话、天津话、长沙话、上海话、闽南话)，小艺既能听懂方言，还可用相应的方言来跟您交流。",
+      "description": "3\\. “方言自由说”全新升级，在支持方言识别基础上，新增七种方言播报 (粤语、四川话、陕西话、天津话、长沙话、上海话、闽南话)，小艺既能听懂方言，还可用相应的方言来跟您交流。",
+      "evidenceIds": [
+        "update-06-body"
+      ],
+      "sourceItemIds": [
+        "source-update-06"
+      ]
+    },
+    {
+      "id": "update-07",
+      "module": "图库",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "1\\. AI 一键成片可选择多张图片智能搭配运镜、音乐生成视频，支持为合适的静态照片生成动态效果，将照片盘活成鲜活回忆。",
+      "description": "1\\. AI 一键成片可选择多张图片智能搭配运镜、音乐生成视频，支持为合适的静态照片生成动态效果，将照片盘活成鲜活回忆。",
+      "evidenceIds": [
+        "update-07-body"
+      ],
+      "sourceItemIds": [
+        "source-update-07"
+      ]
+    },
+    {
+      "id": "update-08",
+      "module": "图库",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "2\\. AI 反光消除，编辑照片时，可一键消除照片上的反光，让照片更清晰 (图库编辑 > AI 修图 > 反光)。",
+      "description": "2\\. AI 反光消除，编辑照片时，可一键消除照片上的反光，让照片更清晰 (图库编辑 > AI 修图 > 反光)。",
+      "evidenceIds": [
+        "update-08-body"
+      ],
+      "sourceItemIds": [
+        "source-update-08"
+      ]
+    },
+    {
+      "id": "update-09",
+      "module": "AI 防诈保护",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "1\\. 与陌生人通话时，可智能对通话信息进行涉诈检测，识别诈骗套路并及时提醒。",
+      "description": "1\\. 与陌生人通话时，可智能对通话信息进行涉诈检测，识别诈骗套路并及时提醒。",
+      "evidenceIds": [
+        "update-09-body"
+      ],
+      "sourceItemIds": [
+        "source-update-09"
+      ]
+    },
+    {
+      "id": "update-10",
+      "module": "AI 防诈保护",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "2\\. 当视频通话时，可智能识别对方是否为 AI 换脸并提醒，助您规避风险。",
+      "description": "2\\. 当视频通话时，可智能识别对方是否为 AI 换脸并提醒，助您规避风险。",
+      "evidenceIds": [
+        "update-10-body"
+      ],
+      "sourceItemIds": [
+        "source-update-10"
+      ]
+    },
+    {
+      "id": "update-11",
+      "module": "亲情防诈",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "当家人接到诈骗电话时，系统会提醒您关注，您也能帮家人远程挂断风险电话，防御诈骗的发生。您标记的高风险电话会自动加入家庭黑名单，帮助家人一起拦截风险，守护家人用机安全。",
+      "description": "当家人接到诈骗电话时，系统会提醒您关注，您也能帮家人远程挂断风险电话，防御诈骗的发生。您标记的高风险电话会自动加入家庭黑名单，帮助家人一起拦截风险，守护家人用机安全。",
+      "evidenceIds": [
+        "update-11-body"
+      ],
+      "sourceItemIds": [
+        "source-update-11"
+      ]
+    },
+    {
+      "id": "update-12",
+      "module": "AI 防窥保护",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "可对应用设置防窥保护，当使用这些应用时，如果手机检测到身边可能有他人窥视的风险，会提醒您留意屏幕隐私 (设置 > 隐私和安全 > 防窥保护)。",
+      "description": "可对应用设置防窥保护，当使用这些应用时，如果手机检测到身边可能有他人窥视的风险，会提醒您留意屏幕隐私 (设置 > 隐私和安全 > 防窥保护)。",
+      "evidenceIds": [
+        "update-12-body"
+      ],
+      "sourceItemIds": [
+        "source-update-12"
+      ]
+    },
+    {
+      "id": "update-13",
+      "module": "加密分享",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "支持对文件、图片、视频设置加密分享，授权指定用户访问，带来超安心的分享体验。",
+      "description": "支持对文件、图片、视频设置加密分享，授权指定用户访问，带来超安心的分享体验。",
+      "evidenceIds": [
+        "update-13-body"
+      ],
+      "sourceItemIds": [
+        "source-update-13"
+      ]
+    },
+    {
+      "id": "update-14",
+      "module": "AI 数据隐私保护",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "个人智能计算平台 HPIC，保障 AI 上云数据不存储、不泄露、不滥用，让云侧 AI 的数据处理和端侧一样安全，为您的数据隐私保驾护航。",
+      "description": "个人智能计算平台 HPIC，保障 AI 上云数据不存储、不泄露、不滥用，让云侧 AI 的数据处理和端侧一样安全，为您的数据隐私保驾护航。",
+      "evidenceIds": [
+        "update-14-body"
+      ],
+      "sourceItemIds": [
+        "source-update-14"
+      ]
+    },
+    {
+      "id": "update-15",
+      "module": "整机性能",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "整机性能和续航更进一步，操作更丝滑，续航更持久。",
+      "description": "整机性能和续航更进一步，操作更丝滑，续航更持久。",
+      "evidenceIds": [
+        "update-15-body"
+      ],
+      "sourceItemIds": [
+        "source-update-15"
+      ]
+    },
+    {
+      "id": "update-16",
+      "module": "应用流畅",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "1\\. 带来应用秒启、页面秒开、内容秒加载的超流畅体验。",
+      "description": "1\\. 带来应用秒启、页面秒开、内容秒加载的超流畅体验。",
+      "evidenceIds": [
+        "update-16-body"
+      ],
+      "sourceItemIds": [
+        "source-update-16"
+      ]
+    },
+    {
+      "id": "update-17",
+      "module": "应用流畅",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "2\\. 应用安装更快速，扫码体验更便捷，边视频边购物等分屏操作更加流畅稳定。",
+      "description": "2\\. 应用安装更快速，扫码体验更便捷，边视频边购物等分屏操作更加流畅稳定。",
+      "evidenceIds": [
+        "update-17-body"
+      ],
+      "sourceItemIds": [
+        "source-update-17"
+      ]
+    },
+    {
+      "id": "update-18",
+      "module": "应用流畅",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "3\\. 华为方舟引擎针对部分头部游戏进行深度优化，流畅游戏体验更持久。",
+      "description": "3\\. 华为方舟引擎针对部分头部游戏进行深度优化，流畅游戏体验更持久。",
+      "evidenceIds": [
+        "update-18-body"
+      ],
+      "sourceItemIds": [
+        "source-update-18"
+      ]
+    }
+  ],
+  "sourceItems": [
+    {
+      "id": "source-highlight-01",
+      "classification": "highlight",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 0,
+      "sourceHash": "38fbbbc848879ecaa7a6c182202eb44fb8a3fd26e167b654fb41066ede241a0f",
+      "blockIds": [
+        "block-0"
+      ],
+      "text": "当唤醒小艺、使用小艺输入法或华为分享碰一碰等操作时，会伴随呈现通透绚丽的色彩光感，让您的体验更加自然、灵动。",
+      "targetIds": [
+        "highlight-01"
+      ]
+    },
+    {
+      "id": "source-highlight-02",
+      "classification": "highlight",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 1,
+      "sourceHash": "6bc0642fd75930e4bd671baf032050552358e034b792537b8cb80d94217924d7",
+      "blockIds": [
+        "block-1"
+      ],
+      "text": "智慧美学构图可为您自动匹配签名文字并融合壁纸风格，您还可通过 AI 字体生成或图形化文字模板，将喜欢的字体样式应用到锁屏签名中，让锁屏独具一格、个性十足。",
+      "targetIds": [
+        "highlight-02"
+      ]
+    },
+    {
+      "id": "source-highlight-03",
+      "classification": "highlight",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 2,
+      "sourceHash": "7fa497e00de1d61d1bf758affbb1af5d2c08d48060686c11ae05008acaacf5ff",
+      "blockIds": [
+        "block-2"
+      ],
+      "text": "新增 元气心情主题，提供丰富好玩的 Emoji 表情供您选择，还可长按表情包变换更多风格",
+      "targetIds": [
+        "highlight-03"
+      ]
+    },
+    {
+      "id": "source-update-01",
+      "classification": "update",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 3,
+      "sourceHash": "d4f2745363d19f5dedf332ce7bd81acdcc5f51f11779b9cd95c5e15d829c2ad8",
+      "blockIds": [
+        "block-3"
+      ],
+      "text": "支持 通过与其他使用元气心情主题的设备碰一碰，即可互相解锁隐藏款表情",
+      "targetIds": [
+        "update-01"
+      ]
+    },
+    {
+      "id": "source-update-02",
+      "classification": "update",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 4,
+      "sourceHash": "25c2d53ffa463e838006e763d7189310957aaab8963dd24a33c44eb9242df4ec",
+      "blockIds": [
+        "block-4"
+      ],
+      "text": "使用“精致毛球的一天”主题，在锁屏界面点击小艺星环图标后，通过语音或输入口令可触发有趣好玩的交互动画; 使用“毛球对对磁”主题，通过与其他使用该主题的设备碰一碰可互相解锁趣味动画 (主题应用升级至 1\\.0\\.23 及以上版本，打开主题应用 > 搜索相应主题)。",
+      "targetIds": [
+        "update-02"
+      ]
+    },
+    {
+      "id": "source-highlight-04",
+      "classification": "highlight",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 5,
+      "sourceHash": "102680a7b4ab687466d3f1a9ffb7175aefbe8f54701cd1bb58e8bfbf082ece7d",
+      "blockIds": [
+        "block-5"
+      ],
+      "text": "在锁屏界面点击“GAME”按钮可进入“石头剪刀布”游戏画面，通过与人机猜拳可赢取随机套装装扮小胖手; 与其他使用“小胖手”主题的设备碰一碰，还可互相解锁趣味动画 (主题应用升级至 1\\.0\\.23 及以上版本，打开主题应用 > 搜索“小胖手”)。",
+      "targetIds": [
+        "highlight-04"
+      ]
+    },
+    {
+      "id": "source-update-03",
+      "classification": "update",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 6,
+      "sourceHash": "2398472a955b865ad47341e842eb073f9756c84ee508b27a177e28ecd4f0d83a",
+      "blockIds": [
+        "block-6"
+      ],
+      "text": "在部分应用场景下，支持与搭载 HarmonyOS 5 及以上的手机一碰多分享，多人分享、组队互动更畅快; 还支持与搭载 HarmonyOS 6 的鸿蒙电脑碰一碰分享，实现文档、图片双向传递等更多场景，带来更高效的办公体验。",
+      "targetIds": [
+        "update-03"
+      ]
+    },
+    {
+      "id": "source-update-04",
+      "classification": "update",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 7,
+      "sourceHash": "7e2c4d2be024757c6dbd4847607f4426c77845fa7b08b68df5d04cd5d1255a69",
+      "blockIds": [
+        "block-7"
+      ],
+      "text": "在键鼠共享状态下，只需按下 Ctrl 键并注视目标设备，即可切换键鼠操作至目标设备; 当拖动文档、图片等素材时，只需注视目标设备并按下 Ctrl 键，素材即可瞬移到目标设备，松手直接落入，简单高效 (部分应用支持)。",
+      "targetIds": [
+        "update-04"
+      ]
+    },
+    {
+      "id": "source-highlight-05",
+      "classification": "highlight",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 8,
+      "sourceHash": "dbff6b6017a80132fe53ab5a6fd52e5c427e2f950a15260e1621089da80cc824",
+      "blockIds": [
+        "block-8"
+      ],
+      "text": "可通过点、按、滑、拖、敲、圈、抓、碰、捏等常用手势与多种便捷操作，玩转更多元、高效、便捷的交互体验。",
+      "targetIds": [
+        "highlight-05"
+      ]
+    },
+    {
+      "id": "source-highlight-06",
+      "classification": "highlight",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 9,
+      "sourceHash": "7b36be6369e00758612c219cb1794413d92c5370c8ae91c7c0d10c57417b1b11",
+      "blockIds": [
+        "block-9"
+      ],
+      "text": "您可精细化管控设备使用时长，为孩子发放奖励积分用于兑换用机时长，守护儿童健康用机 (孩子设备也需要支持该功能)。",
+      "targetIds": [
+        "highlight-06"
+      ]
+    },
+    {
+      "id": "source-update-05",
+      "classification": "update",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 10,
+      "sourceHash": "598b6b38079106f82bfbda3f0fe310e0a61b1ca64d072832b48002f2cbd18712",
+      "blockIds": [
+        "block-10"
+      ],
+      "text": "1\\. 小艺帮帮忙，只需一句话指令，即可让小艺帮您打开应用并完成一系列复杂、连贯的任务，同时上划任务界面还能变成导航条在后台处理。",
+      "targetIds": [
+        "update-05"
+      ]
+    },
+    {
+      "id": "source-highlight-07",
+      "classification": "highlight",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 11,
+      "sourceHash": "cc2ef196f8a3a21fc87dada46f823388abfafe10375bfa59f8df63850b875edb",
+      "blockIds": [
+        "block-11"
+      ],
+      "text": "2\\. 新增小艺任务，可以帮您解决日常生活中周期性任务，或定时定点触发类任务，提升生活效率，跟小艺说“当…时，就执行…”即可创建单次或循环任务，比如“当我快到家时，播报语音提醒我取快递”。",
+      "targetIds": [
+        "highlight-07"
+      ]
+    },
+    {
+      "id": "source-update-06",
+      "classification": "update",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 12,
+      "sourceHash": "cacbc72d28346b89d439d1312faf6dcb749269d2ccf4bd5aa8af24b0f569c903",
+      "blockIds": [
+        "block-12"
+      ],
+      "text": "3\\. “方言自由说”全新升级，在支持方言识别基础上，新增七种方言播报 (粤语、四川话、陕西话、天津话、长沙话、上海话、闽南话)，小艺既能听懂方言，还可用相应的方言来跟您交流。",
+      "targetIds": [
+        "update-06"
+      ]
+    },
+    {
+      "id": "source-highlight-08",
+      "classification": "highlight",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 13,
+      "sourceHash": "94d7a33c2e3471601236676a5befc51bd8b3286098911c12874597e871de8ca8",
+      "blockIds": [
+        "block-13"
+      ],
+      "text": "4\\. 小艺看世界，在小艺应用主对话界面点击右下角的通话按钮进入真人感小艺，可开启实时语音对话，也可以再次点击摄像头按钮开启实时视频对话，实现边看边聊边思考，小艺可调用天气、日历、位置等系统服务数据和工具，在穿搭建议、景点介绍、百科问答、饮食建议等多种场景，像亲密的朋友一样陪您一起探索世界。",
+      "targetIds": [
+        "highlight-08"
+      ]
+    },
+    {
+      "id": "source-update-07",
+      "classification": "update",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 14,
+      "sourceHash": "599c986a75a7f22be485145bebeed7107c699fea4d9dfdbbf63162d1eb898cd8",
+      "blockIds": [
+        "block-14"
+      ],
+      "text": "1\\. AI 一键成片可选择多张图片智能搭配运镜、音乐生成视频，支持为合适的静态照片生成动态效果，将照片盘活成鲜活回忆。",
+      "targetIds": [
+        "update-07"
+      ]
+    },
+    {
+      "id": "source-update-08",
+      "classification": "update",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 15,
+      "sourceHash": "90d986f7362fda3844f8d660c08b18acb0817942a2c8fb6001386297b4e5880c",
+      "blockIds": [
+        "block-15"
+      ],
+      "text": "2\\. AI 反光消除，编辑照片时，可一键消除照片上的反光，让照片更清晰 (图库编辑 > AI 修图 > 反光)。",
+      "targetIds": [
+        "update-08"
+      ]
+    },
+    {
+      "id": "source-highlight-09",
+      "classification": "highlight",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 16,
+      "sourceHash": "f3cf1d562b6b71bbaf50427bfe1e266d5d4f84bdfa8565594598c81d6298524a",
+      "blockIds": [
+        "block-16"
+      ],
+      "text": "在备忘录工具栏中点击帮写图标，即可开启 AI 帮写助手，您可以使用多种模板，还能通过指令进行内容续写、文风改写等。",
+      "targetIds": [
+        "highlight-09"
+      ]
+    },
+    {
+      "id": "source-update-09",
+      "classification": "update",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 17,
+      "sourceHash": "02d7e6ad848c13c0a2386bcbd60394eff0950c1e6cb62f42b08316812df57682",
+      "blockIds": [
+        "block-17"
+      ],
+      "text": "1\\. 与陌生人通话时，可智能对通话信息进行涉诈检测，识别诈骗套路并及时提醒。",
+      "targetIds": [
+        "update-09"
+      ]
+    },
+    {
+      "id": "source-update-10",
+      "classification": "update",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 18,
+      "sourceHash": "6746b244318f427f062b2b274d1114f41a4b0c0ffc48657855feae5ebd69f119",
+      "blockIds": [
+        "block-18"
+      ],
+      "text": "2\\. 当视频通话时，可智能识别对方是否为 AI 换脸并提醒，助您规避风险。",
+      "targetIds": [
+        "update-10"
+      ]
+    },
+    {
+      "id": "source-update-11",
+      "classification": "update",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 19,
+      "sourceHash": "d9c343980f2f8d3f9cff8b0728b8ed150920b265de054b8a0bb218294632c790",
+      "blockIds": [
+        "block-19"
+      ],
+      "text": "当家人接到诈骗电话时，系统会提醒您关注，您也能帮家人远程挂断风险电话，防御诈骗的发生。您标记的高风险电话会自动加入家庭黑名单，帮助家人一起拦截风险，守护家人用机安全。",
+      "targetIds": [
+        "update-11"
+      ]
+    },
+    {
+      "id": "source-update-12",
+      "classification": "update",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 20,
+      "sourceHash": "92229933f948893496b86dbe44aaf82f8f5f27bb4c1ce44232ebdb76131cd690",
+      "blockIds": [
+        "block-20"
+      ],
+      "text": "可对应用设置防窥保护，当使用这些应用时，如果手机检测到身边可能有他人窥视的风险，会提醒您留意屏幕隐私 (设置 > 隐私和安全 > 防窥保护)。",
+      "targetIds": [
+        "update-12"
+      ]
+    },
+    {
+      "id": "source-update-13",
+      "classification": "update",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 21,
+      "sourceHash": "4c43711903ceef420fd9449da24a9229f3a9ced59d03ef6341906745160cc971",
+      "blockIds": [
+        "block-21"
+      ],
+      "text": "支持对文件、图片、视频设置加密分享，授权指定用户访问，带来超安心的分享体验。",
+      "targetIds": [
+        "update-13"
+      ]
+    },
+    {
+      "id": "source-update-14",
+      "classification": "update",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 22,
+      "sourceHash": "470fbf3cb4eacafc426b32075e1fdcea97c4c626b0270ab35602eb0866072e82",
+      "blockIds": [
+        "block-22"
+      ],
+      "text": "个人智能计算平台 HPIC，保障 AI 上云数据不存储、不泄露、不滥用，让云侧 AI 的数据处理和端侧一样安全，为您的数据隐私保驾护航。",
+      "targetIds": [
+        "update-14"
+      ]
+    },
+    {
+      "id": "source-update-15",
+      "classification": "update",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 23,
+      "sourceHash": "d0870462a6870b890de7f2769e3312dd7863f5e8d006bc0fe065f4bb7ca57420",
+      "blockIds": [
+        "block-23"
+      ],
+      "text": "整机性能和续航更进一步，操作更丝滑，续航更持久。",
+      "targetIds": [
+        "update-15"
+      ]
+    },
+    {
+      "id": "source-update-16",
+      "classification": "update",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 24,
+      "sourceHash": "e15a69cc85bf850e855a4bb784210a1c9004be8ce1494d772aa3cec4cd3ffc4f",
+      "blockIds": [
+        "block-24"
+      ],
+      "text": "1\\. 带来应用秒启、页面秒开、内容秒加载的超流畅体验。",
+      "targetIds": [
+        "update-16"
+      ]
+    },
+    {
+      "id": "source-update-17",
+      "classification": "update",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 25,
+      "sourceHash": "4bd374597a8fd85c5204c2861035037e999962a68d9cd370aa4ba93ca1273b7f",
+      "blockIds": [
+        "block-25"
+      ],
+      "text": "2\\. 应用安装更快速，扫码体验更便捷，边视频边购物等分屏操作更加流畅稳定。",
+      "targetIds": [
+        "update-17"
+      ]
+    },
+    {
+      "id": "source-update-18",
+      "classification": "update",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 26,
+      "sourceHash": "a473cf2c974f69610731b08656805f8fbf778210ba22aaf8b1d6dbcaf0a33a8b",
+      "blockIds": [
+        "block-26"
+      ],
+      "text": "3\\. 华为方舟引擎针对部分头部游戏进行深度优化，流畅游戏体验更持久。",
+      "targetIds": [
+        "update-18"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "highlight-01-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 0,
+      "sourceHash": "38fbbbc848879ecaa7a6c182202eb44fb8a3fd26e167b654fb41066ede241a0f",
+      "blockIds": [
+        "block-0"
+      ],
+      "note": "智慧光感: 当唤醒小艺、使用小艺输入法或华为分享碰一碰等操作时，会伴随呈..."
+    },
+    {
+      "id": "highlight-02-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 1,
+      "sourceHash": "6bc0642fd75930e4bd671baf032050552358e034b792537b8cb80d94217924d7",
+      "blockIds": [
+        "block-1"
+      ],
+      "note": "艺术签名: 智慧美学构图可为您自动匹配签名文字并融合壁纸风格，您还可通过..."
+    },
+    {
+      "id": "highlight-03-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 2,
+      "sourceHash": "7fa497e00de1d61d1bf758affbb1af5d2c08d48060686c11ae05008acaacf5ff",
+      "blockIds": [
+        "block-2"
+      ],
+      "note": "元气心情主题: 新增 元气心情主题，提供丰富好玩的 Emoji 表情供您选择..."
+    },
+    {
+      "id": "update-01-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 3,
+      "sourceHash": "d4f2745363d19f5dedf332ce7bd81acdcc5f51f11779b9cd95c5e15d829c2ad8",
+      "blockIds": [
+        "block-3"
+      ],
+      "note": "元气心情主题: 支持 通过与其他使用元气心情主题的设备碰一碰，即可互相解锁隐..."
+    },
+    {
+      "id": "update-02-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 4,
+      "sourceHash": "25c2d53ffa463e838006e763d7189310957aaab8963dd24a33c44eb9242df4ec",
+      "blockIds": [
+        "block-4"
+      ],
+      "note": "毛球系列主题: 使用“精致毛球的一天”主题，在锁屏界面点击小艺星环图标后，通..."
+    },
+    {
+      "id": "highlight-04-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 5,
+      "sourceHash": "102680a7b4ab687466d3f1a9ffb7175aefbe8f54701cd1bb58e8bfbf082ece7d",
+      "blockIds": [
+        "block-5"
+      ],
+      "note": "小胖手主题: 在锁屏界面点击“GAME”按钮可进入“石头剪刀布”游戏画面，..."
+    },
+    {
+      "id": "update-03-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 6,
+      "sourceHash": "2398472a955b865ad47341e842eb073f9756c84ee508b27a177e28ecd4f0d83a",
+      "blockIds": [
+        "block-6"
+      ],
+      "note": "碰一碰分享: 在部分应用场景下，支持与搭载 HarmonyOS 5 及以上..."
+    },
+    {
+      "id": "update-04-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 7,
+      "sourceHash": "7e2c4d2be024757c6dbd4847607f4426c77845fa7b08b68df5d04cd5d1255a69",
+      "blockIds": [
+        "block-7"
+      ],
+      "note": "手眼同行: 在键鼠共享状态下，只需按下 Ctrl 键并注视目标设备，即可..."
+    },
+    {
+      "id": "highlight-05-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 8,
+      "sourceHash": "dbff6b6017a80132fe53ab5a6fd52e5c427e2f950a15260e1621089da80cc824",
+      "blockIds": [
+        "block-8"
+      ],
+      "note": "高效交互: 可通过点、按、滑、拖、敲、圈、抓、碰、捏等常用手势与多种便捷..."
+    },
+    {
+      "id": "highlight-06-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 9,
+      "sourceHash": "7b36be6369e00758612c219cb1794413d92c5370c8ae91c7c0d10c57417b1b11",
+      "blockIds": [
+        "block-9"
+      ],
+      "note": "远程守护: 您可精细化管控设备使用时长，为孩子发放奖励积分用于兑换用机时..."
+    },
+    {
+      "id": "update-05-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 10,
+      "sourceHash": "598b6b38079106f82bfbda3f0fe310e0a61b1ca64d072832b48002f2cbd18712",
+      "blockIds": [
+        "block-10"
+      ],
+      "note": "小艺: 1\\. 小艺帮帮忙，只需一句话指令，即可让小艺帮您打开应用并..."
+    },
+    {
+      "id": "highlight-07-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 11,
+      "sourceHash": "cc2ef196f8a3a21fc87dada46f823388abfafe10375bfa59f8df63850b875edb",
+      "blockIds": [
+        "block-11"
+      ],
+      "note": "小艺: 2\\. 新增小艺任务，可以帮您解决日常生活中周期性任务，或定..."
+    },
+    {
+      "id": "update-06-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 12,
+      "sourceHash": "cacbc72d28346b89d439d1312faf6dcb749269d2ccf4bd5aa8af24b0f569c903",
+      "blockIds": [
+        "block-12"
+      ],
+      "note": "小艺: 3\\. “方言自由说”全新升级，在支持方言识别基础上，新增七..."
+    },
+    {
+      "id": "highlight-08-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 13,
+      "sourceHash": "94d7a33c2e3471601236676a5befc51bd8b3286098911c12874597e871de8ca8",
+      "blockIds": [
+        "block-13"
+      ],
+      "note": "小艺: 4\\. 小艺看世界，在小艺应用主对话界面点击右下角的通话按钮..."
+    },
+    {
+      "id": "update-07-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 14,
+      "sourceHash": "599c986a75a7f22be485145bebeed7107c699fea4d9dfdbbf63162d1eb898cd8",
+      "blockIds": [
+        "block-14"
+      ],
+      "note": "图库: 1\\. AI 一键成片可选择多张图片智能搭配运镜、音乐生成视..."
+    },
+    {
+      "id": "update-08-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 15,
+      "sourceHash": "90d986f7362fda3844f8d660c08b18acb0817942a2c8fb6001386297b4e5880c",
+      "blockIds": [
+        "block-15"
+      ],
+      "note": "图库: 2\\. AI 反光消除，编辑照片时，可一键消除照片上的反光，..."
+    },
+    {
+      "id": "highlight-09-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 16,
+      "sourceHash": "f3cf1d562b6b71bbaf50427bfe1e266d5d4f84bdfa8565594598c81d6298524a",
+      "blockIds": [
+        "block-16"
+      ],
+      "note": "备忘录: 在备忘录工具栏中点击帮写图标，即可开启 AI 帮写助手，您可..."
+    },
+    {
+      "id": "update-09-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 17,
+      "sourceHash": "02d7e6ad848c13c0a2386bcbd60394eff0950c1e6cb62f42b08316812df57682",
+      "blockIds": [
+        "block-17"
+      ],
+      "note": "AI 防诈保护: 1\\. 与陌生人通话时，可智能对通话信息进行涉诈检测，识别诈..."
+    },
+    {
+      "id": "update-10-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 18,
+      "sourceHash": "6746b244318f427f062b2b274d1114f41a4b0c0ffc48657855feae5ebd69f119",
+      "blockIds": [
+        "block-18"
+      ],
+      "note": "AI 防诈保护: 2\\. 当视频通话时，可智能识别对方是否为 AI 换脸并提醒..."
+    },
+    {
+      "id": "update-11-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 19,
+      "sourceHash": "d9c343980f2f8d3f9cff8b0728b8ed150920b265de054b8a0bb218294632c790",
+      "blockIds": [
+        "block-19"
+      ],
+      "note": "亲情防诈: 当家人接到诈骗电话时，系统会提醒您关注，您也能帮家人远程挂断..."
+    },
+    {
+      "id": "update-12-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 20,
+      "sourceHash": "92229933f948893496b86dbe44aaf82f8f5f27bb4c1ce44232ebdb76131cd690",
+      "blockIds": [
+        "block-20"
+      ],
+      "note": "AI 防窥保护: 可对应用设置防窥保护，当使用这些应用时，如果手机检测到身边可..."
+    },
+    {
+      "id": "update-13-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 21,
+      "sourceHash": "4c43711903ceef420fd9449da24a9229f3a9ced59d03ef6341906745160cc971",
+      "blockIds": [
+        "block-21"
+      ],
+      "note": "加密分享: 支持对文件、图片、视频设置加密分享，授权指定用户访问，带来超..."
+    },
+    {
+      "id": "update-14-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 22,
+      "sourceHash": "470fbf3cb4eacafc426b32075e1fdcea97c4c626b0270ab35602eb0866072e82",
+      "blockIds": [
+        "block-22"
+      ],
+      "note": "AI 数据隐私保护: 个人智能计算平台 HPIC，保障 AI 上云数据不存储、不泄..."
+    },
+    {
+      "id": "update-15-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 23,
+      "sourceHash": "d0870462a6870b890de7f2769e3312dd7863f5e8d006bc0fe065f4bb7ca57420",
+      "blockIds": [
+        "block-23"
+      ],
+      "note": "整机性能: 整机性能和续航更进一步，操作更丝滑，续航更持久。..."
+    },
+    {
+      "id": "update-16-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 24,
+      "sourceHash": "e15a69cc85bf850e855a4bb784210a1c9004be8ce1494d772aa3cec4cd3ffc4f",
+      "blockIds": [
+        "block-24"
+      ],
+      "note": "应用流畅: 1\\. 带来应用秒启、页面秒开、内容秒加载的超流畅体验。..."
+    },
+    {
+      "id": "update-17-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 25,
+      "sourceHash": "4bd374597a8fd85c5204c2861035037e999962a68d9cd370aa4ba93ca1273b7f",
+      "blockIds": [
+        "block-25"
+      ],
+      "note": "应用流畅: 2\\. 应用安装更快速，扫码体验更便捷，边视频边购物等分屏操..."
+    },
+    {
+      "id": "update-18-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "HarmonyOS_6_更新说明.md",
+      "sourceIndex": 26,
+      "sourceHash": "a473cf2c974f69610731b08656805f8fbf778210ba22aaf8b1d6dbcaf0a33a8b",
+      "blockIds": [
+        "block-26"
+      ],
+      "note": "应用流畅: 3\\. 华为方舟引擎针对部分头部游戏进行深度优化，流畅游戏体..."
+    }
+  ],
+  "audit": {
+    "highlightReviewVersion": 4,
+    "updateReviewVersion": 4,
+    "review": {
+      "content": "verified",
+      "modules": "verified",
+      "media": "verified",
+      "page": "verified"
+    },
+    "expectedHighlightCount": 9,
+    "sourceItemCount": 27,
+    "includedItemCount": 27,
+    "excludedItemCount": 0,
+    "highlightCount": 9,
+    "updateCount": 18,
+    "mediaCount": 0,
+    "mappedItemCount": 27,
+    "coverageRate": 1
+  }
+}
