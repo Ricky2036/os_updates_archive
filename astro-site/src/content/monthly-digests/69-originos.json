@@ -1,0 +1,1634 @@
+{
+  "schemaVersion": 3,
+  "contentReviewVersion": 4,
+  "mediaReviewVersion": 4,
+  "articleId": "更多_OriginOS_7_体验亮点",
+  "reviewStatus": "verified",
+  "sourceHash": "925b058f427e3f1acef361c79b9abca76b0bf9802161f68f00d8ebe85007e89b",
+  "highlights": [
+    {
+      "id": "highlight-01",
+      "module": "原子工作台",
+      "moduleSource": "explicit-heading",
+      "title": "一屏多任务与底层重构",
+      "description": "新增原子工作台超强多任务体验，支持左右、上下两种灵活布局与一键快速切换，随心搭建工作、学习、旅行专属工作台；底层首发自研多级依赖调度算法、重载内存融合模型与多窗渲染架构，保障重载多任务流畅稳定。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-01-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-01"
+      ]
+    },
+    {
+      "id": "highlight-02",
+      "module": "小V灵动组件",
+      "moduleSource": "explicit-heading",
+      "title": "一句话专属定制桌面组件",
+      "description": "新增小V灵动组件功能，用户只需一句话描述即可创造个性化专属桌面组件，如倒数日、待办与工作状态卡片，简单直观又好用。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-02-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-02"
+      ]
+    },
+    {
+      "id": "highlight-03",
+      "module": "蓝心小V",
+      "moduleSource": "explicit-heading",
+      "title": "小V拍照问与视频问",
+      "description": "新增小V拍照问与视频问能力，拍个照即可解答问题并智能推荐相关服务；视频问充当随行导游，基于实时摄像头画面深度理解并支持拟人化连续对话回应。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-03-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-03"
+      ]
+    },
+    {
+      "id": "highlight-04",
+      "module": "AI系统能力",
+      "moduleSource": "explicit-heading",
+      "title": "AI截屏直达与卡包归拢",
+      "description": "新增AI截屏直达，截图智能识别并存入卡包，券码自动收纳并在屏幕左滑时快速调出，到期前主动弹出提醒。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-04-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-04"
+      ]
+    },
+    {
+      "id": "highlight-05",
+      "module": "相册",
+      "moduleSource": "explicit-heading",
+      "title": "相册随手清",
+      "description": "新增相册随手清功能，支持像刷短视频一样流式整理相册，AI自动分析相似图片留下最佳瞬间，上滑即可标记删除。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-05-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-05"
+      ]
+    },
+    {
+      "id": "highlight-06",
+      "module": "文件管理",
+      "moduleSource": "explicit-heading",
+      "title": "AI文件管家专题空间",
+      "description": "新增AI文件管家，文件按主题智能归拢至专题空间，问一句自然语言即可快速定位文件内容并给出总结答案。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-06-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-06"
+      ]
+    },
+    {
+      "id": "highlight-07",
+      "module": "输入法",
+      "moduleSource": "explicit-heading",
+      "title": "vivo输入法AI信息检索",
+      "description": "新增vivo输入法AI信息检索能力，聊天时输入关键词即可快速查找并发送文档、日程和联系人，遇到疑问可即时搜索解答。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-07-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-07"
+      ]
+    },
+    {
+      "id": "highlight-08",
+      "module": "原子笔记",
+      "moduleSource": "explicit-heading",
+      "title": "第三方智能体与CLI接入",
+      "description": "新增原子笔记第三方智能体与命令行工具（CLI）数据读写授权能力，支持端侧AI助手接入笔记进行信息整理与结构化总结。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-08-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-08"
+      ]
+    },
+    {
+      "id": "highlight-09",
+      "module": "日历",
+      "moduleSource": "explicit-heading",
+      "title": "AI日历与待办深度整合",
+      "description": "新增AI日历今日备忘与待办安排，智能提炼日程重点与待办任务摘要；原原子笔记待办全面整合至日历应用中统一管理。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-09-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-09"
+      ]
+    },
+    {
+      "id": "highlight-10",
+      "module": "小V记忆与录音",
+      "moduleSource": "explicit-heading",
+      "title": "小V记忆卡与AI录音脉络",
+      "description": "新增小V记忆卡，锁屏状态下说段话、拍张照或圈选屏幕即可生成记忆卡；AI录音机新增进度条重点提炼、大纲观点识别与文本清洗整理。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-10-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-10"
+      ]
+    },
+    {
+      "id": "highlight-11",
+      "module": "健康",
+      "moduleSource": "explicit-heading",
+      "title": "健康减脂点数管理",
+      "description": "新增健康减脂功能，将每日摄入量与运动预算点数化直观呈现，每周自动输出AI健康报告，清晰量化身体改变。",
+      "mediaStatus": "not-provided",
+      "media": [],
+      "evidenceIds": [
+        "highlight-11-body"
+      ],
+      "sourceItemIds": [
+        "source-highlight-11"
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "id": "update-01",
+      "module": "系统",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "系统：新增 模块原子化能力，支持蓝心小V、全搜、锁屏等多入口快捷调用。",
+      "description": "模块原子化能力，支持蓝心小V、全搜、锁屏等多入口快捷调用。",
+      "evidenceIds": [
+        "update-01-body"
+      ],
+      "sourceItemIds": [
+        "source-update-01"
+      ]
+    },
+    {
+      "id": "update-02",
+      "module": "系统",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "系统：优化 系统 AI 光影效果，统一状态表达，让 AI 新功能呈现一致、自然的光影反馈。",
+      "description": "系统 AI 光影效果，统一状态表达，让 AI 新功能呈现一致、自然的光影反馈。",
+      "evidenceIds": [
+        "update-02-body"
+      ],
+      "sourceItemIds": [
+        "source-update-02"
+      ]
+    },
+    {
+      "id": "update-03",
+      "module": "锁屏",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "锁屏：新增 多款锁屏个性时钟样式。",
+      "description": "多款锁屏个性时钟样式。",
+      "evidenceIds": [
+        "update-03-body"
+      ],
+      "sourceItemIds": [
+        "source-update-03"
+      ]
+    },
+    {
+      "id": "update-04",
+      "module": "锁屏",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "锁屏：新增 部分个性时钟字体，支持字重与大小调节能力。",
+      "description": "部分个性时钟字体，支持字重与大小调节能力。",
+      "evidenceIds": [
+        "update-04-body"
+      ],
+      "sourceItemIds": [
+        "source-update-04"
+      ]
+    },
+    {
+      "id": "update-05",
+      "module": "锁屏",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "锁屏：新增 锁屏长按手势，支持长按进入“锁屏编辑”，便捷管理“我的搭配”。",
+      "description": "锁屏长按手势，支持长按进入“锁屏编辑”，便捷管理“我的搭配”。",
+      "evidenceIds": [
+        "update-05-body"
+      ],
+      "sourceItemIds": [
+        "source-update-05"
+      ]
+    },
+    {
+      "id": "update-06",
+      "module": "蓝河流畅引擎",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "蓝河流畅引擎：新增 在部分第三方应用预约购买界面支持小V圈搜创建秒抢日程，临抢时自动开启秒抢引擎。",
+      "description": "在部分第三方应用预约购买界面支持小V圈搜创建秒抢日程，临抢时自动开启秒抢引擎。",
+      "evidenceIds": [
+        "update-06-body"
+      ],
+      "sourceItemIds": [
+        "source-update-06"
+      ]
+    },
+    {
+      "id": "update-07",
+      "module": "状态栏",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "状态栏：优化 敏感权限调用提醒，使用定位、麦克风、相机时，状态栏会立刻显示图标或彩色小点提醒。",
+      "description": "敏感权限调用提醒，使用定位、麦克风、相机时，状态栏会立刻显示图标或彩色小点提醒。",
+      "evidenceIds": [
+        "update-07-body"
+      ],
+      "sourceItemIds": [
+        "source-update-07"
+      ]
+    },
+    {
+      "id": "update-08",
+      "module": "原子动效 7.0",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "原子动效 7.0：优化 一镜到底的效果体验。",
+      "description": "一镜到底的效果体验。",
+      "evidenceIds": [
+        "update-08-body"
+      ],
+      "sourceItemIds": [
+        "source-update-08"
+      ]
+    },
+    {
+      "id": "update-09",
+      "module": "连接中心",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "连接中心：优化 连接中心组件内的设备显示，支持 1×1、1×2、1×4、2×2 多种卡片尺寸。",
+      "description": "连接中心组件内的设备显示，支持 1×1、1×2、1×4、2×2 多种卡片尺寸。",
+      "evidenceIds": [
+        "update-09-body"
+      ],
+      "sourceItemIds": [
+        "source-update-09"
+      ]
+    },
+    {
+      "id": "update-10",
+      "module": "日历",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "日历：新增 待办功能，原“原子笔记”待办已整合至「日历」应用，并优化待办创建、管理和查看体验。",
+      "description": "待办功能，原“原子笔记”待办已整合至「日历」应用，并优化待办创建、管理和查看体验。",
+      "evidenceIds": [
+        "update-10-body"
+      ],
+      "sourceItemIds": [
+        "source-update-10"
+      ]
+    },
+    {
+      "id": "update-11",
+      "module": "日历",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "日历：优化 日历视图展示，日程与待办信息呈现更清晰。",
+      "description": "日历视图展示，日程与待办信息呈现更清晰。",
+      "evidenceIds": [
+        "update-11-body"
+      ],
+      "sourceItemIds": [
+        "source-update-11"
+      ]
+    },
+    {
+      "id": "update-12",
+      "module": "录音机",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "录音机：新增 文本整理功能，支持转写完成后自动进行文本清洗与结构优化，使内容更清晰、直接可用。",
+      "description": "文本整理功能，支持转写完成后自动进行文本清洗与结构优化，使内容更清晰、直接可用。",
+      "evidenceIds": [
+        "update-12-body"
+      ],
+      "sourceItemIds": [
+        "source-update-12"
+      ]
+    },
+    {
+      "id": "update-13",
+      "module": "录音机",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "录音机：新增 待办导入功能，支持识别 AI 总结中的待办事项，并一键导入系统日程待办。",
+      "description": "待办导入功能，支持识别 AI 总结中的待办事项，并一键导入系统日程待办。",
+      "evidenceIds": [
+        "update-13-body"
+      ],
+      "sourceItemIds": [
+        "source-update-13"
+      ]
+    },
+    {
+      "id": "update-14",
+      "module": "蓝海续航系统",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "蓝海续航系统：新增 超轻图形框架，增强应用启动退出、下拉通知中心和控制中心等场景的帧率调度利用率，提升系统的续航表现。",
+      "description": "超轻图形框架，增强应用启动退出、下拉通知中心和控制中心等场景的帧率调度利用率，提升系统的续航表现。",
+      "evidenceIds": [
+        "update-14-body"
+      ],
+      "sourceItemIds": [
+        "source-update-14"
+      ]
+    },
+    {
+      "id": "update-15",
+      "module": "蓝海续航系统",
+      "moduleSource": "explicit-heading",
+      "type": "其他",
+      "typeSource": "explicit",
+      "sourceText": "蓝海续航系统：升级 系统轻量化，深度优化后台应用网络耗电和熄屏下的省电策略，提升系统的续航表现。",
+      "description": "系统轻量化，深度优化后台应用网络耗电和熄屏下的省电策略，提升系统的续航表现。",
+      "evidenceIds": [
+        "update-15-body"
+      ],
+      "sourceItemIds": [
+        "source-update-15"
+      ]
+    },
+    {
+      "id": "update-16",
+      "module": "桌面",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "桌面：新增 深色图标，在深色模式下使用更舒适，视觉更协调，您可前往“设置”＞“显示、亮度与护眼”＞“深色模式设置”＞“图标效果”中设置。",
+      "description": "深色图标，在深色模式下使用更舒适，视觉更协调，您可前往“设置”＞“显示、亮度与护眼”＞“深色模式设置”＞“图标效果”中设置。",
+      "evidenceIds": [
+        "update-16-body"
+      ],
+      "sourceItemIds": [
+        "source-update-16"
+      ]
+    },
+    {
+      "id": "update-17",
+      "module": "桌面",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "桌面：优化 行为图标设计，呈现更生动、更有质感的使用体验。",
+      "description": "行为图标设计，呈现更生动、更有质感的使用体验。",
+      "evidenceIds": [
+        "update-17-body"
+      ],
+      "sourceItemIds": [
+        "source-update-17"
+      ]
+    },
+    {
+      "id": "update-18",
+      "module": "桌面",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "桌面：优化 系统默认图标，从图形、色彩维度全面升级，提升桌面视觉体验。",
+      "description": "系统默认图标，从图形、色彩维度全面升级，提升桌面视觉体验。",
+      "evidenceIds": [
+        "update-18-body"
+      ],
+      "sourceItemIds": [
+        "source-update-18"
+      ]
+    },
+    {
+      "id": "update-19",
+      "module": "通知中心",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "通知中心：新增 通知临时静默功能，可左滑通知后进入设置，选择临时静默该应用通知 1 小时或 1 天。",
+      "description": "通知临时静默功能，可左滑通知后进入设置，选择临时静默该应用通知 1 小时或 1 天。",
+      "evidenceIds": [
+        "update-19-body"
+      ],
+      "sourceItemIds": [
+        "source-update-19"
+      ]
+    },
+    {
+      "id": "update-20",
+      "module": "通知中心",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "通知中心：新增 通知分组一键清除功能，通知整理更便捷。",
+      "description": "通知分组一键清除功能，通知整理更便捷。",
+      "evidenceIds": [
+        "update-20-body"
+      ],
+      "sourceItemIds": [
+        "source-update-20"
+      ]
+    },
+    {
+      "id": "update-21",
+      "module": "通知中心",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "通知中心：新增 应用通知声音与振动开关。",
+      "description": "应用通知声音与振动开关。",
+      "evidenceIds": [
+        "update-21-body"
+      ],
+      "sourceItemIds": [
+        "source-update-21"
+      ]
+    },
+    {
+      "id": "update-22",
+      "module": "通知中心",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "通知中心：新增 支持通知按类型快速关闭的能力，可左滑通知进入设置，选择仅关闭此类通知。",
+      "description": "支持通知按类型快速关闭的能力，可左滑通知进入设置，选择仅关闭此类通知。",
+      "evidenceIds": [
+        "update-22-body"
+      ],
+      "sourceItemIds": [
+        "source-update-22"
+      ]
+    },
+    {
+      "id": "update-23",
+      "module": "通知中心",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "通知中心：优化 锁屏通知展开交互，滑动操作更加跟手，展开与收起更加流畅。",
+      "description": "锁屏通知展开交互，滑动操作更加跟手，展开与收起更加流畅。",
+      "evidenceIds": [
+        "update-23-body"
+      ],
+      "sourceItemIds": [
+        "source-update-23"
+      ]
+    },
+    {
+      "id": "update-24",
+      "module": "网络",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "网络：新增 出境落地 30 分钟 200M 免费应急上网服务，出国后无需立即购买流量也能快速联网。",
+      "description": "出境落地 30 分钟 200M 免费应急上网服务，出国后无需立即购买流量也能快速联网。",
+      "evidenceIds": [
+        "update-24-body"
+      ],
+      "sourceItemIds": [
+        "source-update-24"
+      ]
+    },
+    {
+      "id": "update-25",
+      "module": "网络",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "网络：新增 校园网自动登录/认证，部分高校校园网仅需要首次手动登录认证，后续系统自动认证登录。",
+      "description": "校园网自动登录/认证，部分高校校园网仅需要首次手动登录认证，后续系统自动认证登录。",
+      "evidenceIds": [
+        "update-25-body"
+      ],
+      "sourceItemIds": [
+        "source-update-25"
+      ]
+    },
+    {
+      "id": "update-26",
+      "module": "网络",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "网络：新增 断网预测功能，预测校园晚上断网时间，提前切换其他网络，减少校园断网卡顿时长。",
+      "description": "断网预测功能，预测校园晚上断网时间，提前切换其他网络，减少校园断网卡顿时长。",
+      "evidenceIds": [
+        "update-26-body"
+      ],
+      "sourceItemIds": [
+        "source-update-26"
+      ]
+    },
+    {
+      "id": "update-27",
+      "module": "网络",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "网络：优化 校园走动上网体验，系统自动选择当前最优网络，减少上网卡顿。",
+      "description": "校园走动上网体验，系统自动选择当前最优网络，减少上网卡顿。",
+      "evidenceIds": [
+        "update-27-body"
+      ],
+      "sourceItemIds": [
+        "source-update-27"
+      ]
+    },
+    {
+      "id": "update-28",
+      "module": "网络",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "网络：优化 在边境/口岸区域快速切换最优网络，保障上网体验。",
+      "description": "在边境/口岸区域快速切换最优网络，保障上网体验。",
+      "evidenceIds": [
+        "update-28-body"
+      ],
+      "sourceItemIds": [
+        "source-update-28"
+      ]
+    }
+  ],
+  "sourceItems": [
+    {
+      "id": "source-highlight-01",
+      "classification": "highlight",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 0,
+      "sourceHash": "dc0b619ce70cf902b5596d3e24fa42d7246c45b1d8e9e85908ceffc4ea5548ec",
+      "blockIds": [
+        "block-0"
+      ],
+      "text": "原子工作台：一屏多任务与底层重构。新增原子工作台超强多任务体验，支持左右、上下两种灵活布局与一键快速切换，随心搭建工作、学习、旅行专属工作台；底层首发自研多级依赖调度算法、重载内存融合模型与多窗渲染架构，保障重载多任务流畅稳定。",
+      "targetIds": [
+        "highlight-01"
+      ]
+    },
+    {
+      "id": "source-highlight-02",
+      "classification": "highlight",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 1,
+      "sourceHash": "ff232e373399ae65f109af8125447614236ee9cbb739a9de8165476671161773",
+      "blockIds": [
+        "block-1"
+      ],
+      "text": "小V灵动组件：一句话专属定制桌面组件。新增小V灵动组件功能，用户只需一句话描述即可创造个性化专属桌面组件，如倒数日、待办与工作状态卡片，简单直观又好用。",
+      "targetIds": [
+        "highlight-02"
+      ]
+    },
+    {
+      "id": "source-highlight-03",
+      "classification": "highlight",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 2,
+      "sourceHash": "3ef4325655f7ee0ae7da05dd60873a174cb78433018b131ec73d08367552cb23",
+      "blockIds": [
+        "block-2"
+      ],
+      "text": "蓝心小V：小V拍照问与视频问。新增小V拍照问与视频问能力，拍个照即可解答问题并智能推荐相关服务；视频问充当随行导游，基于实时摄像头画面深度理解并支持拟人化连续对话回应。",
+      "targetIds": [
+        "highlight-03"
+      ]
+    },
+    {
+      "id": "source-highlight-04",
+      "classification": "highlight",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 3,
+      "sourceHash": "75365d68b8c455ddccddea69f1c8692195872c87c1a9ede31257d71b1bc32a0d",
+      "blockIds": [
+        "block-3"
+      ],
+      "text": "AI系统能力：AI截屏直达与卡包归拢。新增AI截屏直达，截图智能识别并存入卡包，券码自动收纳并在屏幕左滑时快速调出，到期前主动弹出提醒。",
+      "targetIds": [
+        "highlight-04"
+      ]
+    },
+    {
+      "id": "source-highlight-05",
+      "classification": "highlight",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 4,
+      "sourceHash": "fb0147d01877031af7c9842debdfe5c564bccd7ec7daed3b2b69d49e9f83ccc9",
+      "blockIds": [
+        "block-4"
+      ],
+      "text": "相册：相册随手清。新增相册随手清功能，支持像刷短视频一样流式整理相册，AI自动分析相似图片留下最佳瞬间，上滑即可标记删除。",
+      "targetIds": [
+        "highlight-05"
+      ]
+    },
+    {
+      "id": "source-highlight-06",
+      "classification": "highlight",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 5,
+      "sourceHash": "f4f1743205df3fbd2ac777e2a65a27b438272ebabe627c4716359afa2fa86ede",
+      "blockIds": [
+        "block-5"
+      ],
+      "text": "文件管理：AI文件管家专题空间。新增AI文件管家，文件按主题智能归拢至专题空间，问一句自然语言即可快速定位文件内容并给出总结答案。",
+      "targetIds": [
+        "highlight-06"
+      ]
+    },
+    {
+      "id": "source-highlight-07",
+      "classification": "highlight",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 6,
+      "sourceHash": "2f5ca4da062db3aad04981560943b2946b226ff1b3ec63d07212b0e8cfcb2e3e",
+      "blockIds": [
+        "block-6"
+      ],
+      "text": "输入法：vivo输入法AI信息检索。新增vivo输入法AI信息检索能力，聊天时输入关键词即可快速查找并发送文档、日程和联系人，遇到疑问可即时搜索解答。",
+      "targetIds": [
+        "highlight-07"
+      ]
+    },
+    {
+      "id": "source-highlight-08",
+      "classification": "highlight",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 7,
+      "sourceHash": "4e10c19daf7a0ab232c2edb6cab6de387946cb3399a3342d5c762b83b6525f49",
+      "blockIds": [
+        "block-7"
+      ],
+      "text": "原子笔记：第三方智能体与CLI接入。新增原子笔记第三方智能体与命令行工具（CLI）数据读写授权能力，支持端侧AI助手接入笔记进行信息整理与结构化总结。",
+      "targetIds": [
+        "highlight-08"
+      ]
+    },
+    {
+      "id": "source-highlight-09",
+      "classification": "highlight",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 8,
+      "sourceHash": "c6d6ade1bd58343d8266535d5fa84bdc361385f05112819aad718a51cadd4809",
+      "blockIds": [
+        "block-8"
+      ],
+      "text": "日历：AI日历与待办深度整合。新增AI日历今日备忘与待办安排，智能提炼日程重点与待办任务摘要；原原子笔记待办全面整合至日历应用中统一管理。",
+      "targetIds": [
+        "highlight-09"
+      ]
+    },
+    {
+      "id": "source-highlight-10",
+      "classification": "highlight",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 9,
+      "sourceHash": "92a223f5c745b0a457aa747573480f25e693674b6f5f404eb4dc2ee121789716",
+      "blockIds": [
+        "block-9"
+      ],
+      "text": "小V记忆与录音：小V记忆卡与AI录音脉络。新增小V记忆卡，锁屏状态下说段话、拍张照或圈选屏幕即可生成记忆卡；AI录音机新增进度条重点提炼、大纲观点识别与文本清洗整理。",
+      "targetIds": [
+        "highlight-10"
+      ]
+    },
+    {
+      "id": "source-highlight-11",
+      "classification": "highlight",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 10,
+      "sourceHash": "7e729e75ba95736b62ab88a367677afb11139e4147772c587fa5d2df4d1c171f",
+      "blockIds": [
+        "block-10"
+      ],
+      "text": "健康：健康减脂点数管理。新增健康减脂功能，将每日摄入量与运动预算点数化直观呈现，每周自动输出AI健康报告，清晰量化身体改变。",
+      "targetIds": [
+        "highlight-11"
+      ]
+    },
+    {
+      "id": "source-update-01",
+      "classification": "update",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 11,
+      "sourceHash": "23e046ae613c73423efd507b13cd3e80afcc0cbe6e76df107d90034242f13c4f",
+      "blockIds": [
+        "block-11"
+      ],
+      "text": "系统：新增 模块原子化能力，支持蓝心小V、全搜、锁屏等多入口快捷调用。",
+      "targetIds": [
+        "update-01"
+      ]
+    },
+    {
+      "id": "source-update-02",
+      "classification": "update",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 12,
+      "sourceHash": "4038dfec70d3a4b725d7e6596a2eafd40091e7ae54d75d33346c27c7ec0d5a58",
+      "blockIds": [
+        "block-12"
+      ],
+      "text": "系统：优化 系统 AI 光影效果，统一状态表达，让 AI 新功能呈现一致、自然的光影反馈。",
+      "targetIds": [
+        "update-02"
+      ]
+    },
+    {
+      "id": "source-update-03",
+      "classification": "update",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 13,
+      "sourceHash": "b4382ef11b37567d15b55d87b85805d04782ed4cd78969cedcf3c73a07e38892",
+      "blockIds": [
+        "block-13"
+      ],
+      "text": "锁屏：新增 多款锁屏个性时钟样式。",
+      "targetIds": [
+        "update-03"
+      ]
+    },
+    {
+      "id": "source-update-04",
+      "classification": "update",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 14,
+      "sourceHash": "ff315dfc7c7d043ee290df10aa28507a505210f08247ec994a89d93506eb5378",
+      "blockIds": [
+        "block-14"
+      ],
+      "text": "锁屏：新增 部分个性时钟字体，支持字重与大小调节能力。",
+      "targetIds": [
+        "update-04"
+      ]
+    },
+    {
+      "id": "source-update-05",
+      "classification": "update",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 15,
+      "sourceHash": "4051dc7e83611e59a92f90a5b9f983c085970b57327da0d8c4699ed8a39c1b86",
+      "blockIds": [
+        "block-15"
+      ],
+      "text": "锁屏：新增 锁屏长按手势，支持长按进入“锁屏编辑”，便捷管理“我的搭配”。",
+      "targetIds": [
+        "update-05"
+      ]
+    },
+    {
+      "id": "source-update-06",
+      "classification": "update",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 16,
+      "sourceHash": "ab87ade524301a01563b02a76cbbc00cf1606d815efa6597a2edac1350088701",
+      "blockIds": [
+        "block-16"
+      ],
+      "text": "蓝河流畅引擎：新增 在部分第三方应用预约购买界面支持小V圈搜创建秒抢日程，临抢时自动开启秒抢引擎。",
+      "targetIds": [
+        "update-06"
+      ]
+    },
+    {
+      "id": "source-update-07",
+      "classification": "update",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 17,
+      "sourceHash": "1bd59ee4b0c9bc6274bcf6c4005cad584d553b71c2126fabd375b12a7febfcb2",
+      "blockIds": [
+        "block-17"
+      ],
+      "text": "状态栏：优化 敏感权限调用提醒，使用定位、麦克风、相机时，状态栏会立刻显示图标或彩色小点提醒。",
+      "targetIds": [
+        "update-07"
+      ]
+    },
+    {
+      "id": "source-update-08",
+      "classification": "update",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 18,
+      "sourceHash": "1ed0a081d59e6be37aa19ccc59980af39faf6241344abbc5e9635d32be5d43f8",
+      "blockIds": [
+        "block-18"
+      ],
+      "text": "原子动效 7.0：优化 一镜到底的效果体验。",
+      "targetIds": [
+        "update-08"
+      ]
+    },
+    {
+      "id": "source-update-09",
+      "classification": "update",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 19,
+      "sourceHash": "f0a0ea2dbda08e0c8465916b9e86aa283d6f8392975d361a3ee76e984c28792e",
+      "blockIds": [
+        "block-19"
+      ],
+      "text": "连接中心：优化 连接中心组件内的设备显示，支持 1×1、1×2、1×4、2×2 多种卡片尺寸。",
+      "targetIds": [
+        "update-09"
+      ]
+    },
+    {
+      "id": "source-update-10",
+      "classification": "update",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 20,
+      "sourceHash": "e878422eccc96e0a18815fd41228ab7bda096b2c0e6d67fd5739e59c60d5addb",
+      "blockIds": [
+        "block-20"
+      ],
+      "text": "日历：新增 待办功能，原“原子笔记”待办已整合至「日历」应用，并优化待办创建、管理和查看体验。",
+      "targetIds": [
+        "update-10"
+      ]
+    },
+    {
+      "id": "source-update-11",
+      "classification": "update",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 21,
+      "sourceHash": "af384a97f2f002fae19c87747895aa39803856e74d47377bd26977bfdca6fd27",
+      "blockIds": [
+        "block-21"
+      ],
+      "text": "日历：优化 日历视图展示，日程与待办信息呈现更清晰。",
+      "targetIds": [
+        "update-11"
+      ]
+    },
+    {
+      "id": "source-update-12",
+      "classification": "update",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 22,
+      "sourceHash": "c95bc7379416b2926c994072a68ab6053e43098fa140917f58b7dd26d7de698d",
+      "blockIds": [
+        "block-22"
+      ],
+      "text": "录音机：新增 文本整理功能，支持转写完成后自动进行文本清洗与结构优化，使内容更清晰、直接可用。",
+      "targetIds": [
+        "update-12"
+      ]
+    },
+    {
+      "id": "source-update-13",
+      "classification": "update",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 23,
+      "sourceHash": "b5eef78e111e4d02f1b1584c22c1b370c54b6b80f0c73ef34da38f070e8b4af0",
+      "blockIds": [
+        "block-23"
+      ],
+      "text": "录音机：新增 待办导入功能，支持识别 AI 总结中的待办事项，并一键导入系统日程待办。",
+      "targetIds": [
+        "update-13"
+      ]
+    },
+    {
+      "id": "source-update-14",
+      "classification": "update",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 24,
+      "sourceHash": "75b81eb7d188cd5a550c7a23d8e55fef92441141f7060944e1b8cdbdac9f8e65",
+      "blockIds": [
+        "block-24"
+      ],
+      "text": "蓝海续航系统：新增 超轻图形框架，增强应用启动退出、下拉通知中心和控制中心等场景的帧率调度利用率，提升系统的续航表现。",
+      "targetIds": [
+        "update-14"
+      ]
+    },
+    {
+      "id": "source-update-15",
+      "classification": "update",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 25,
+      "sourceHash": "ced7035819699a49e0293afe001b5a32ab32cd40fb8c2e765d6349acb6951ff0",
+      "blockIds": [
+        "block-25"
+      ],
+      "text": "蓝海续航系统：升级 系统轻量化，深度优化后台应用网络耗电和熄屏下的省电策略，提升系统的续航表现。",
+      "targetIds": [
+        "update-15"
+      ]
+    },
+    {
+      "id": "source-update-16",
+      "classification": "update",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 26,
+      "sourceHash": "736ffa578602156fc9730248f24723c1abf3b3644119b0ad4385f367e9856123",
+      "blockIds": [
+        "block-26"
+      ],
+      "text": "桌面：新增 深色图标，在深色模式下使用更舒适，视觉更协调，您可前往“设置”＞“显示、亮度与护眼”＞“深色模式设置”＞“图标效果”中设置。",
+      "targetIds": [
+        "update-16"
+      ]
+    },
+    {
+      "id": "source-update-17",
+      "classification": "update",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 27,
+      "sourceHash": "e2b80f74f00e3246b70814e0e74964b0ea42de959bd574f747d855ea7ea685d1",
+      "blockIds": [
+        "block-27"
+      ],
+      "text": "桌面：优化 行为图标设计，呈现更生动、更有质感的使用体验。",
+      "targetIds": [
+        "update-17"
+      ]
+    },
+    {
+      "id": "source-update-18",
+      "classification": "update",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 28,
+      "sourceHash": "02ec2b4edcb6e5e8f18e383c3a19beb04ba4f85ccc0aed833fac3e0d82f984e6",
+      "blockIds": [
+        "block-28"
+      ],
+      "text": "桌面：优化 系统默认图标，从图形、色彩维度全面升级，提升桌面视觉体验。",
+      "targetIds": [
+        "update-18"
+      ]
+    },
+    {
+      "id": "source-update-19",
+      "classification": "update",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 29,
+      "sourceHash": "2fc2707c47e83b022801a570fdd1fdf470bf4fb7f09259843738ad28fba747c1",
+      "blockIds": [
+        "block-29"
+      ],
+      "text": "通知中心：新增 通知临时静默功能，可左滑通知后进入设置，选择临时静默该应用通知 1 小时或 1 天。",
+      "targetIds": [
+        "update-19"
+      ]
+    },
+    {
+      "id": "source-update-20",
+      "classification": "update",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 30,
+      "sourceHash": "b50d4552b60b6e4cefd72c174a44d4909b3327a5158e6960c6e9acac8e55fc14",
+      "blockIds": [
+        "block-30"
+      ],
+      "text": "通知中心：新增 通知分组一键清除功能，通知整理更便捷。",
+      "targetIds": [
+        "update-20"
+      ]
+    },
+    {
+      "id": "source-update-21",
+      "classification": "update",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 31,
+      "sourceHash": "18be82876c3c61325275c942bf07f639cd0ab6624ab7deb2a0fee72f55b6c3d9",
+      "blockIds": [
+        "block-31"
+      ],
+      "text": "通知中心：新增 应用通知声音与振动开关。",
+      "targetIds": [
+        "update-21"
+      ]
+    },
+    {
+      "id": "source-update-22",
+      "classification": "update",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 32,
+      "sourceHash": "9719684224956faff31dbc6ec7550e967912ff4b178e71838ba5bed5d1f0ad8d",
+      "blockIds": [
+        "block-32"
+      ],
+      "text": "通知中心：新增 支持通知按类型快速关闭的能力，可左滑通知进入设置，选择仅关闭此类通知。",
+      "targetIds": [
+        "update-22"
+      ]
+    },
+    {
+      "id": "source-update-23",
+      "classification": "update",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 33,
+      "sourceHash": "fda895172e243246c203111cf639863e148d3d12cdf8afd3d2442d5db827b674",
+      "blockIds": [
+        "block-33"
+      ],
+      "text": "通知中心：优化 锁屏通知展开交互，滑动操作更加跟手，展开与收起更加流畅。",
+      "targetIds": [
+        "update-23"
+      ]
+    },
+    {
+      "id": "source-update-24",
+      "classification": "update",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 34,
+      "sourceHash": "52f05def3859a64a699c96fdfa8a8bb5a36a908feff187b4705e11fb74dca45f",
+      "blockIds": [
+        "block-34"
+      ],
+      "text": "网络：新增 出境落地 30 分钟 200M 免费应急上网服务，出国后无需立即购买流量也能快速联网。",
+      "targetIds": [
+        "update-24"
+      ]
+    },
+    {
+      "id": "source-update-25",
+      "classification": "update",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 35,
+      "sourceHash": "9cd2e79ceeaaf4d446d75223d75a487e00fa916b5aff329995f164b385fd0081",
+      "blockIds": [
+        "block-35"
+      ],
+      "text": "网络：新增 校园网自动登录/认证，部分高校校园网仅需要首次手动登录认证，后续系统自动认证登录。",
+      "targetIds": [
+        "update-25"
+      ]
+    },
+    {
+      "id": "source-update-26",
+      "classification": "update",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 36,
+      "sourceHash": "f549ec1d8d1721c50b7aef99219efd50c87e065c532463e7615892939b0c7c3f",
+      "blockIds": [
+        "block-36"
+      ],
+      "text": "网络：新增 断网预测功能，预测校园晚上断网时间，提前切换其他网络，减少校园断网卡顿时长。",
+      "targetIds": [
+        "update-26"
+      ]
+    },
+    {
+      "id": "source-update-27",
+      "classification": "update",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 37,
+      "sourceHash": "62a264ac0be96176c25072b08b38db85880f221c66fb06a19b89ec051ea1a310",
+      "blockIds": [
+        "block-37"
+      ],
+      "text": "网络：优化 校园走动上网体验，系统自动选择当前最优网络，减少上网卡顿。",
+      "targetIds": [
+        "update-27"
+      ]
+    },
+    {
+      "id": "source-update-28",
+      "classification": "update",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 38,
+      "sourceHash": "9651302334eee12b6c105c263a7e2181b09634f56b998476d32e5447b4c5b08f",
+      "blockIds": [
+        "block-38"
+      ],
+      "text": "网络：优化 在边境/口岸区域快速切换最优网络，保障上网体验。",
+      "targetIds": [
+        "update-28"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "highlight-01-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 0,
+      "sourceHash": "dc0b619ce70cf902b5596d3e24fa42d7246c45b1d8e9e85908ceffc4ea5548ec",
+      "blockIds": [
+        "block-0"
+      ],
+      "note": "原子工作台: 一屏多任务与底层重构"
+    },
+    {
+      "id": "highlight-02-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 1,
+      "sourceHash": "ff232e373399ae65f109af8125447614236ee9cbb739a9de8165476671161773",
+      "blockIds": [
+        "block-1"
+      ],
+      "note": "小V灵动组件: 一句话专属定制桌面组件"
+    },
+    {
+      "id": "highlight-03-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 2,
+      "sourceHash": "3ef4325655f7ee0ae7da05dd60873a174cb78433018b131ec73d08367552cb23",
+      "blockIds": [
+        "block-2"
+      ],
+      "note": "蓝心小V: 小V拍照问与视频问"
+    },
+    {
+      "id": "highlight-04-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 3,
+      "sourceHash": "75365d68b8c455ddccddea69f1c8692195872c87c1a9ede31257d71b1bc32a0d",
+      "blockIds": [
+        "block-3"
+      ],
+      "note": "AI系统能力: AI截屏直达与卡包归拢"
+    },
+    {
+      "id": "highlight-05-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 4,
+      "sourceHash": "fb0147d01877031af7c9842debdfe5c564bccd7ec7daed3b2b69d49e9f83ccc9",
+      "blockIds": [
+        "block-4"
+      ],
+      "note": "相册: 相册随手清"
+    },
+    {
+      "id": "highlight-06-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 5,
+      "sourceHash": "f4f1743205df3fbd2ac777e2a65a27b438272ebabe627c4716359afa2fa86ede",
+      "blockIds": [
+        "block-5"
+      ],
+      "note": "文件管理: AI文件管家专题空间"
+    },
+    {
+      "id": "highlight-07-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 6,
+      "sourceHash": "2f5ca4da062db3aad04981560943b2946b226ff1b3ec63d07212b0e8cfcb2e3e",
+      "blockIds": [
+        "block-6"
+      ],
+      "note": "输入法: vivo输入法AI信息检索"
+    },
+    {
+      "id": "highlight-08-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 7,
+      "sourceHash": "4e10c19daf7a0ab232c2edb6cab6de387946cb3399a3342d5c762b83b6525f49",
+      "blockIds": [
+        "block-7"
+      ],
+      "note": "原子笔记: 第三方智能体与CLI接入"
+    },
+    {
+      "id": "highlight-09-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 8,
+      "sourceHash": "c6d6ade1bd58343d8266535d5fa84bdc361385f05112819aad718a51cadd4809",
+      "blockIds": [
+        "block-8"
+      ],
+      "note": "日历: AI日历与待办深度整合"
+    },
+    {
+      "id": "highlight-10-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 9,
+      "sourceHash": "92a223f5c745b0a457aa747573480f25e693674b6f5f404eb4dc2ee121789716",
+      "blockIds": [
+        "block-9"
+      ],
+      "note": "小V记忆与录音: 小V记忆卡与AI录音脉络"
+    },
+    {
+      "id": "highlight-11-body",
+      "kind": "html-text",
+      "role": "body-text",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 10,
+      "sourceHash": "7e729e75ba95736b62ab88a367677afb11139e4147772c587fa5d2df4d1c171f",
+      "blockIds": [
+        "block-10"
+      ],
+      "note": "健康: 健康减脂点数管理"
+    },
+    {
+      "id": "update-01-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 11,
+      "sourceHash": "23e046ae613c73423efd507b13cd3e80afcc0cbe6e76df107d90034242f13c4f",
+      "blockIds": [
+        "block-11"
+      ],
+      "note": "系统: 模块原子化能力，支持蓝心小V、全搜、锁屏等多入口快捷调用。"
+    },
+    {
+      "id": "update-02-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 12,
+      "sourceHash": "4038dfec70d3a4b725d7e6596a2eafd40091e7ae54d75d33346c27c7ec0d5a58",
+      "blockIds": [
+        "block-12"
+      ],
+      "note": "系统: 系统 AI 光影效果，统一状态表达，让 AI 新功能呈现一致、自然的光影反馈。"
+    },
+    {
+      "id": "update-03-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 13,
+      "sourceHash": "b4382ef11b37567d15b55d87b85805d04782ed4cd78969cedcf3c73a07e38892",
+      "blockIds": [
+        "block-13"
+      ],
+      "note": "锁屏: 多款锁屏个性时钟样式。"
+    },
+    {
+      "id": "update-04-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 14,
+      "sourceHash": "ff315dfc7c7d043ee290df10aa28507a505210f08247ec994a89d93506eb5378",
+      "blockIds": [
+        "block-14"
+      ],
+      "note": "锁屏: 部分个性时钟字体，支持字重与大小调节能力。"
+    },
+    {
+      "id": "update-05-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 15,
+      "sourceHash": "4051dc7e83611e59a92f90a5b9f983c085970b57327da0d8c4699ed8a39c1b86",
+      "blockIds": [
+        "block-15"
+      ],
+      "note": "锁屏: 锁屏长按手势，支持长按进入“锁屏编辑”，便捷管理“我的搭配”。"
+    },
+    {
+      "id": "update-06-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 16,
+      "sourceHash": "ab87ade524301a01563b02a76cbbc00cf1606d815efa6597a2edac1350088701",
+      "blockIds": [
+        "block-16"
+      ],
+      "note": "蓝河流畅引擎: 在部分第三方应用预约购买界面支持小V圈搜创建秒抢日程，临抢时自动开启秒抢引擎。"
+    },
+    {
+      "id": "update-07-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 17,
+      "sourceHash": "1bd59ee4b0c9bc6274bcf6c4005cad584d553b71c2126fabd375b12a7febfcb2",
+      "blockIds": [
+        "block-17"
+      ],
+      "note": "状态栏: 敏感权限调用提醒，使用定位、麦克风、相机时，状态栏会立刻显示图标或彩色小点提醒。"
+    },
+    {
+      "id": "update-08-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 18,
+      "sourceHash": "1ed0a081d59e6be37aa19ccc59980af39faf6241344abbc5e9635d32be5d43f8",
+      "blockIds": [
+        "block-18"
+      ],
+      "note": "原子动效 7.0: 一镜到底的效果体验。"
+    },
+    {
+      "id": "update-09-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 19,
+      "sourceHash": "f0a0ea2dbda08e0c8465916b9e86aa283d6f8392975d361a3ee76e984c28792e",
+      "blockIds": [
+        "block-19"
+      ],
+      "note": "连接中心: 连接中心组件内的设备显示，支持 1×1、1×2、1×4、2×2 多种卡片尺寸。"
+    },
+    {
+      "id": "update-10-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 20,
+      "sourceHash": "e878422eccc96e0a18815fd41228ab7bda096b2c0e6d67fd5739e59c60d5addb",
+      "blockIds": [
+        "block-20"
+      ],
+      "note": "日历: 待办功能，原“原子笔记”待办已整合至「日历」应用，并优化待办创建、管理和查看体验。"
+    },
+    {
+      "id": "update-11-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 21,
+      "sourceHash": "af384a97f2f002fae19c87747895aa39803856e74d47377bd26977bfdca6fd27",
+      "blockIds": [
+        "block-21"
+      ],
+      "note": "日历: 日历视图展示，日程与待办信息呈现更清晰。"
+    },
+    {
+      "id": "update-12-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 22,
+      "sourceHash": "c95bc7379416b2926c994072a68ab6053e43098fa140917f58b7dd26d7de698d",
+      "blockIds": [
+        "block-22"
+      ],
+      "note": "录音机: 文本整理功能，支持转写完成后自动进行文本清洗与结构优化，使内容更清晰、直接可用。"
+    },
+    {
+      "id": "update-13-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 23,
+      "sourceHash": "b5eef78e111e4d02f1b1584c22c1b370c54b6b80f0c73ef34da38f070e8b4af0",
+      "blockIds": [
+        "block-23"
+      ],
+      "note": "录音机: 待办导入功能，支持识别 AI 总结中的待办事项，并一键导入系统日程待办。"
+    },
+    {
+      "id": "update-14-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 24,
+      "sourceHash": "75b81eb7d188cd5a550c7a23d8e55fef92441141f7060944e1b8cdbdac9f8e65",
+      "blockIds": [
+        "block-24"
+      ],
+      "note": "蓝海续航系统: 超轻图形框架，增强应用启动退出、下拉通知中心和控制中心等场景的帧率调度利用率，提升系统的续航表现。"
+    },
+    {
+      "id": "update-15-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 25,
+      "sourceHash": "ced7035819699a49e0293afe001b5a32ab32cd40fb8c2e765d6349acb6951ff0",
+      "blockIds": [
+        "block-25"
+      ],
+      "note": "蓝海续航系统: 系统轻量化，深度优化后台应用网络耗电和熄屏下的省电策略，提升系统的续航表现。"
+    },
+    {
+      "id": "update-16-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 26,
+      "sourceHash": "736ffa578602156fc9730248f24723c1abf3b3644119b0ad4385f367e9856123",
+      "blockIds": [
+        "block-26"
+      ],
+      "note": "桌面: 深色图标，在深色模式下使用更舒适，视觉更协调，您可前往“设置”＞“显示、亮度与护眼”＞“深色模式设置”＞“图标效果”中设置。"
+    },
+    {
+      "id": "update-17-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 27,
+      "sourceHash": "e2b80f74f00e3246b70814e0e74964b0ea42de959bd574f747d855ea7ea685d1",
+      "blockIds": [
+        "block-27"
+      ],
+      "note": "桌面: 行为图标设计，呈现更生动、更有质感的使用体验。"
+    },
+    {
+      "id": "update-18-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 28,
+      "sourceHash": "02ec2b4edcb6e5e8f18e383c3a19beb04ba4f85ccc0aed833fac3e0d82f984e6",
+      "blockIds": [
+        "block-28"
+      ],
+      "note": "桌面: 系统默认图标，从图形、色彩维度全面升级，提升桌面视觉体验。"
+    },
+    {
+      "id": "update-19-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 29,
+      "sourceHash": "2fc2707c47e83b022801a570fdd1fdf470bf4fb7f09259843738ad28fba747c1",
+      "blockIds": [
+        "block-29"
+      ],
+      "note": "通知中心: 通知临时静默功能，可左滑通知后进入设置，选择临时静默该应用通知 1 小时或 1 天。"
+    },
+    {
+      "id": "update-20-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 30,
+      "sourceHash": "b50d4552b60b6e4cefd72c174a44d4909b3327a5158e6960c6e9acac8e55fc14",
+      "blockIds": [
+        "block-30"
+      ],
+      "note": "通知中心: 通知分组一键清除功能，通知整理更便捷。"
+    },
+    {
+      "id": "update-21-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 31,
+      "sourceHash": "18be82876c3c61325275c942bf07f639cd0ab6624ab7deb2a0fee72f55b6c3d9",
+      "blockIds": [
+        "block-31"
+      ],
+      "note": "通知中心: 应用通知声音与振动开关。"
+    },
+    {
+      "id": "update-22-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 32,
+      "sourceHash": "9719684224956faff31dbc6ec7550e967912ff4b178e71838ba5bed5d1f0ad8d",
+      "blockIds": [
+        "block-32"
+      ],
+      "note": "通知中心: 支持通知按类型快速关闭的能力，可左滑通知进入设置，选择仅关闭此类通知。"
+    },
+    {
+      "id": "update-23-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 33,
+      "sourceHash": "fda895172e243246c203111cf639863e148d3d12cdf8afd3d2442d5db827b674",
+      "blockIds": [
+        "block-33"
+      ],
+      "note": "通知中心: 锁屏通知展开交互，滑动操作更加跟手，展开与收起更加流畅。"
+    },
+    {
+      "id": "update-24-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 34,
+      "sourceHash": "52f05def3859a64a699c96fdfa8a8bb5a36a908feff187b4705e11fb74dca45f",
+      "blockIds": [
+        "block-34"
+      ],
+      "note": "网络: 出境落地 30 分钟 200M 免费应急上网服务，出国后无需立即购买流量也能快速联网。"
+    },
+    {
+      "id": "update-25-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 35,
+      "sourceHash": "9cd2e79ceeaaf4d446d75223d75a487e00fa916b5aff329995f164b385fd0081",
+      "blockIds": [
+        "block-35"
+      ],
+      "note": "网络: 校园网自动登录/认证，部分高校校园网仅需要首次手动登录认证，后续系统自动认证登录。"
+    },
+    {
+      "id": "update-26-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 36,
+      "sourceHash": "f549ec1d8d1721c50b7aef99219efd50c87e065c532463e7615892939b0c7c3f",
+      "blockIds": [
+        "block-36"
+      ],
+      "note": "网络: 断网预测功能，预测校园晚上断网时间，提前切换其他网络，减少校园断网卡顿时长。"
+    },
+    {
+      "id": "update-27-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 37,
+      "sourceHash": "62a264ac0be96176c25072b08b38db85880f221c66fb06a19b89ec051ea1a310",
+      "blockIds": [
+        "block-37"
+      ],
+      "note": "网络: 校园走动上网体验，系统自动选择当前最优网络，减少上网卡顿。"
+    },
+    {
+      "id": "update-28-body",
+      "kind": "html-text",
+      "role": "update-list",
+      "source": "更多_OriginOS_7_体验亮点.html",
+      "sourceIndex": 38,
+      "sourceHash": "9651302334eee12b6c105c263a7e2181b09634f56b998476d32e5447b4c5b08f",
+      "blockIds": [
+        "block-38"
+      ],
+      "note": "网络: 在边境/口岸区域快速切换最优网络，保障上网体验。"
+    }
+  ],
+  "audit": {
+    "highlightReviewVersion": 4,
+    "updateReviewVersion": 4,
+    "review": {
+      "content": "verified",
+      "modules": "verified",
+      "media": "verified",
+      "page": "verified"
+    },
+    "expectedHighlightCount": 11,
+    "sourceItemCount": 39,
+    "includedItemCount": 39,
+    "excludedItemCount": 0,
+    "highlightCount": 11,
+    "updateCount": 28,
+    "mediaCount": 0,
+    "mappedItemCount": 39,
+    "coverageRate": 1
+  }
+}
