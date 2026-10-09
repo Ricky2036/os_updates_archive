@@ -11,13 +11,13 @@
   "html": "",
   "compatPath": "compat/originos/69-originos-7-highlights/index.html",
   "cover": {
-    "src": "assets/covers/bb420358f9793e79-1200.webp",
-    "srcset": "assets/covers/bb420358f9793e79-480.webp 480w, assets/covers/bb420358f9793e79-800.webp 800w, assets/covers/bb420358f9793e79-1200.webp 1200w",
-    "avifSrcset": "assets/covers/bb420358f9793e79-480.avif 480w, assets/covers/bb420358f9793e79-800.avif 800w, assets/covers/bb420358f9793e79-1200.avif 1200w",
+    "src": "assets/covers/d147d09664b66c1c-1200.webp",
+    "srcset": "assets/covers/d147d09664b66c1c-480.webp 480w, assets/covers/d147d09664b66c1c-800.webp 800w, assets/covers/d147d09664b66c1c-1200.webp 1200w",
+    "avifSrcset": "assets/covers/d147d09664b66c1c-480.avif 480w, assets/covers/d147d09664b66c1c-800.avif 800w, assets/covers/d147d09664b66c1c-1200.avif 1200w",
     "width": 1200,
     "height": 675,
     "alt": "更多 OriginOS 7 体验亮点 封面",
-    "dominantColor": "#0b0e14",
+    "dominantColor": "#1a0f0a",
     "focalPoint": "50% 50%"
   },
   "media": [

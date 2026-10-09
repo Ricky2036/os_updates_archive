@@ -16,10 +16,11 @@ const hash = (value, length = 16) => crypto.createHash('sha1').update(value).dig
 const curatedSpecs = {
   // Order 63: ColorOS 17 正式发布！亮点抢先看
   63: {
-    source: 'assets/legacy/interactive/a018709eeac188aa18038e6c46adf9b9.webp',
-    mode: 'composite_phone',
-    bg: '#171c23',
-    dominantColor: '#171c23',
+    source: 'assets/images/covers_custom/coloros17_cover_v4.png',
+    extract: { left: 10, top: 0, width: 1004, height: 1012 },
+    mode: 'contain',
+    bg: '#ffffff',
+    dominantColor: '#f5f6f8',
     alt: 'ColorOS 17 正式发布 封面'
   },
   // Order 64: 带你一图读懂 OriginOS 7
@@ -33,20 +34,18 @@ const curatedSpecs = {
   },
   // Order 69: 更多 OriginOS 7 体验亮点
   69: {
-    source: 'assets/legacy/interactive/ceda64b2096f4b422496a7d619a6060c.webp',
-    extract: { left: 50, top: 850, width: 980, height: 1100 },
-    mode: 'contain',
-    bg: '#0b0e14',
-    dominantColor: '#0b0e14',
+    source: 'assets/images/covers_custom/originos7_highlights_cover_v4.png',
+    mode: 'cover',
+    bg: '#060608',
+    dominantColor: '#1a0f0a',
     alt: '更多 OriginOS 7 体验亮点 封面'
   },
   // Order 62: MagicOS 11正式发布！一图读懂升级亮点
   62: {
-    source: 'assets/images/MagicOS_11正式发布！一图读懂升级亮点_(2026)/0.webp',
-    extract: { left: 0, top: 100, width: 1080, height: 1280 },
-    mode: 'contain',
-    bg: '#060a12',
-    dominantColor: '#060a12',
+    source: 'assets/images/covers_custom/magicos11_cover_v4.jpg',
+    mode: 'ambient_cover',
+    bg: '#1a1622',
+    dominantColor: '#8c4228',
     alt: 'MagicOS 11 正式发布 封面'
   },
   // Order 61: OPPO ColorOS 九月系统升级一览
@@ -274,7 +273,20 @@ async function processArticleCover(file) {
       pipeline = pipeline.extract({ left, top, width: extractWidth, height: extractHeight });
     }
 
-    if (spec.mode === 'composite_phone') {
+    if (spec.mode === 'ambient_cover') {
+      const bgBlurred = await sharp(inputPath, { pages: 1 })
+        .resize(w, h, { fit: 'cover', position: 'center' })
+        .blur(Math.max(1, Math.round(w * 0.025)))
+        .modulate({ brightness: 0.85 })
+        .toBuffer();
+
+      const fgH = Math.round(h * 0.94);
+      const fg = await sharp(inputPath, { pages: 1 })
+        .resize({ height: fgH, fit: 'inside' })
+        .toBuffer();
+
+      pipeline = sharp(bgBlurred).composite([{ input: fg, gravity: 'center' }]);
+    } else if (spec.mode === 'composite_phone') {
       const phoneH = Math.round(h * 0.85);
       const phoneW = Math.round(phoneH * (365 / 350));
       const phoneBuf = await sharp(inputPath, { pages: 1 })
