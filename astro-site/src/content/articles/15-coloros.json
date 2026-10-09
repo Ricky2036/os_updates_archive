@@ -11,14 +11,14 @@
   "html": "",
   "compatPath": "compat/coloros/15-coloros/index.html",
   "cover": {
-    "src": "assets/covers/64fba8a6828927b0-1200.webp",
-    "srcset": "assets/covers/64fba8a6828927b0-480.webp 480w, assets/covers/64fba8a6828927b0-800.webp 800w, assets/covers/64fba8a6828927b0-1200.webp 1200w",
-    "avifSrcset": "assets/covers/64fba8a6828927b0-480.avif 480w, assets/covers/64fba8a6828927b0-800.avif 800w, assets/covers/64fba8a6828927b0-1200.avif 1200w",
+    "src": "assets/covers/918953bfef5bd899-1200.webp",
+    "srcset": "assets/covers/918953bfef5bd899-480.webp 480w, assets/covers/918953bfef5bd899-800.webp 800w, assets/covers/918953bfef5bd899-1200.webp 1200w",
+    "avifSrcset": "assets/covers/918953bfef5bd899-480.avif 480w, assets/covers/918953bfef5bd899-800.avif 800w, assets/covers/918953bfef5bd899-1200.avif 1200w",
     "width": 1200,
     "height": 675,
     "alt": "月月有更新！ColorOS 二月体验升级来了 封面",
     "dominantColor": "#f8f8f8",
-    "focalPoint": "50% 0%"
+    "focalPoint": "50% 50%"
   },
   "media": [
     {

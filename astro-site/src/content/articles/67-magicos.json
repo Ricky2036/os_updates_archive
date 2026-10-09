@@ -10,14 +10,14 @@
   "legacyPath": "MagicOS_10正式发布！一图读懂升级亮点_(2025).html",
   "html": "<div class=\"image-gallery\">\n<img src=\"/assets/digests-2025/magicos/magicos10-summary-1.webp\" alt=\"MagicOS 10 正式发布！升级亮点全景 亮点配图\" loading=\"lazy\" />\n<img src=\"/assets/digests-2025/magicos/magicos10-summary-2.webp\" alt=\"MagicOS 10 正式发布！升级亮点全景 亮点配图\" loading=\"lazy\" />\n<img src=\"/assets/digests-2025/magicos/magicos10-summary-3.webp\" alt=\"MagicOS 10 正式发布！升级亮点全景 亮点配图\" loading=\"lazy\" />\n</div>",
   "cover": {
-    "src": "assets/covers/05ba2dc5934747d4-1200.webp",
-    "srcset": "assets/covers/05ba2dc5934747d4-480.webp 480w, assets/covers/05ba2dc5934747d4-800.webp 800w, assets/covers/05ba2dc5934747d4-1200.webp 1200w",
-    "avifSrcset": "assets/covers/05ba2dc5934747d4-480.avif 480w, assets/covers/05ba2dc5934747d4-800.avif 800w, assets/covers/05ba2dc5934747d4-1200.avif 1200w",
+    "src": "assets/covers/f2efdb8987d06247-1200.webp",
+    "srcset": "assets/covers/f2efdb8987d06247-480.webp 480w, assets/covers/f2efdb8987d06247-800.webp 800w, assets/covers/f2efdb8987d06247-1200.webp 1200w",
+    "avifSrcset": "assets/covers/f2efdb8987d06247-480.avif 480w, assets/covers/f2efdb8987d06247-800.avif 800w, assets/covers/f2efdb8987d06247-1200.avif 1200w",
     "width": 1200,
     "height": 675,
-    "alt": "MagicOS 10正式发布！一图读懂升级亮点 封面",
-    "dominantColor": "#00256c",
-    "focalPoint": "50% 0%"
+    "alt": "MagicOS 10 正式发布 封面",
+    "dominantColor": "#060a12",
+    "focalPoint": "50% 50%"
   },
   "media": []
 }

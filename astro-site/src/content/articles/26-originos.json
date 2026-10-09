@@ -11,14 +11,14 @@
   "html": "",
   "compatPath": "compat/originos/26-originos/index.html",
   "cover": {
-    "src": "assets/covers/eaf5f7741fd2dc84-1200.webp",
-    "srcset": "assets/covers/eaf5f7741fd2dc84-480.webp 480w, assets/covers/eaf5f7741fd2dc84-800.webp 800w, assets/covers/eaf5f7741fd2dc84-1200.webp 1200w",
-    "avifSrcset": "assets/covers/eaf5f7741fd2dc84-480.avif 480w, assets/covers/eaf5f7741fd2dc84-800.avif 800w, assets/covers/eaf5f7741fd2dc84-1200.avif 1200w",
+    "src": "assets/covers/9ff0074e1286bb7c-1200.webp",
+    "srcset": "assets/covers/9ff0074e1286bb7c-480.webp 480w, assets/covers/9ff0074e1286bb7c-800.webp 800w, assets/covers/9ff0074e1286bb7c-1200.webp 1200w",
+    "avifSrcset": "assets/covers/9ff0074e1286bb7c-480.avif 480w, assets/covers/9ff0074e1286bb7c-800.avif 800w, assets/covers/9ff0074e1286bb7c-1200.avif 1200w",
     "width": 1200,
     "height": 675,
     "alt": "OriginOS 五月系统升级亮点 封面",
     "dominantColor": "#f8f8f8",
-    "focalPoint": "50% 0%"
+    "focalPoint": "50% 50%"
   },
   "media": [
     {

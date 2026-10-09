@@ -11,14 +11,14 @@
   "html": "",
   "compatPath": "compat/originos/23-originos/index.html",
   "cover": {
-    "src": "assets/covers/c1e112ed18298316-1200.webp",
-    "srcset": "assets/covers/c1e112ed18298316-480.webp 480w, assets/covers/c1e112ed18298316-800.webp 800w, assets/covers/c1e112ed18298316-1200.webp 1200w",
-    "avifSrcset": "assets/covers/c1e112ed18298316-480.avif 480w, assets/covers/c1e112ed18298316-800.avif 800w, assets/covers/c1e112ed18298316-1200.avif 1200w",
+    "src": "assets/covers/4e17be0165e1e02e-1200.webp",
+    "srcset": "assets/covers/4e17be0165e1e02e-480.webp 480w, assets/covers/4e17be0165e1e02e-800.webp 800w, assets/covers/4e17be0165e1e02e-1200.webp 1200w",
+    "avifSrcset": "assets/covers/4e17be0165e1e02e-480.avif 480w, assets/covers/4e17be0165e1e02e-800.avif 800w, assets/covers/4e17be0165e1e02e-1200.avif 1200w",
     "width": 1200,
     "height": 675,
     "alt": "新春加“马”！OriginOS 陪你一起过大年 封面",
     "dominantColor": "#f80818",
-    "focalPoint": "50% 0%"
+    "focalPoint": "50% 50%"
   },
   "media": [
     {

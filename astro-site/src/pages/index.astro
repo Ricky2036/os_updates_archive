@@ -48,7 +48,10 @@ const homepageTitle = (title: string) => title.replace(/^OPPO\s+/i, '');
         {recent.map((article) => (
           <a class="article-card" href={articlePath(article)}>
             {article.data.cover && <CoverPicture cover={article.data.cover} class="article-card-cover" />}
-            <div><h3>{homepageTitle(article.data.title)}</h3></div>
+            <div>
+              <span>{article.data.year} · {brandMeta[article.data.brand].name}</span>
+              <h3>{homepageTitle(article.data.title)}</h3>
+            </div>
           </a>
         ))}
       </div>

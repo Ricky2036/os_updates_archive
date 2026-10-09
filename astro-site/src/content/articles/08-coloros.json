@@ -11,14 +11,14 @@
   "html": "",
   "compatPath": "compat/coloros/08-coloros-16/index.html",
   "cover": {
-    "src": "assets/covers/ed92d0da155ed3eb-1200.webp",
-    "srcset": "assets/covers/ed92d0da155ed3eb-480.webp 480w, assets/covers/ed92d0da155ed3eb-800.webp 800w, assets/covers/ed92d0da155ed3eb-1200.webp 1200w",
-    "avifSrcset": "assets/covers/ed92d0da155ed3eb-480.avif 480w, assets/covers/ed92d0da155ed3eb-800.avif 800w, assets/covers/ed92d0da155ed3eb-1200.avif 1200w",
+    "src": "assets/covers/47ecc986b416a758-1200.webp",
+    "srcset": "assets/covers/47ecc986b416a758-480.webp 480w, assets/covers/47ecc986b416a758-800.webp 800w, assets/covers/47ecc986b416a758-1200.webp 1200w",
+    "avifSrcset": "assets/covers/47ecc986b416a758-480.avif 480w, assets/covers/47ecc986b416a758-800.avif 800w, assets/covers/47ecc986b416a758-1200.avif 1200w",
     "width": 1200,
     "height": 675,
-    "alt": "ColorOS 16 正式发布！亮点抢先看 封面",
-    "dominantColor": "#080808",
-    "focalPoint": "50% 0%"
+    "alt": "ColorOS 16 正式发布 封面",
+    "dominantColor": "#0a1526",
+    "focalPoint": "50% 50%"
   },
   "media": [
     {

@@ -11,14 +11,14 @@
   "html": "",
   "compatPath": "compat/originos/64-originos-7/index.html",
   "cover": {
-    "src": "assets/covers/204ee58ba571e830-1200.webp",
-    "srcset": "assets/covers/204ee58ba571e830-480.webp 480w, assets/covers/204ee58ba571e830-800.webp 800w, assets/covers/204ee58ba571e830-1200.webp 1200w",
-    "avifSrcset": "assets/covers/204ee58ba571e830-480.avif 480w, assets/covers/204ee58ba571e830-800.avif 800w, assets/covers/204ee58ba571e830-1200.avif 1200w",
+    "src": "assets/covers/267d4298b2ef9be2-1200.webp",
+    "srcset": "assets/covers/267d4298b2ef9be2-480.webp 480w, assets/covers/267d4298b2ef9be2-800.webp 800w, assets/covers/267d4298b2ef9be2-1200.webp 1200w",
+    "avifSrcset": "assets/covers/267d4298b2ef9be2-480.avif 480w, assets/covers/267d4298b2ef9be2-800.avif 800w, assets/covers/267d4298b2ef9be2-1200.avif 1200w",
     "width": 1200,
     "height": 675,
     "alt": "带你一图读懂 OriginOS 7 封面",
-    "dominantColor": "#181818",
-    "focalPoint": "50% 0%"
+    "dominantColor": "#0d0f12",
+    "focalPoint": "50% 50%"
   },
   "media": [
     {

@@ -10,14 +10,14 @@
   "legacyPath": "OriginOS_6_正式发布！亮点抢先看.html",
   "html": "<div class=\"image-gallery\">\n<img src=\"/assets/digests-2025/originos/originos6-summary.webp\" alt=\"OriginOS 6 正式发布！亮点抢先看 亮点配图\" loading=\"lazy\" />\n<img src=\"/assets/digests-2025/originos/stack-layers.webp\" alt=\"OriginOS 6 正式发布！亮点抢先看 亮点配图\" loading=\"lazy\" />\n<img src=\"/assets/digests-2025/originos/v-circle-search.webp\" alt=\"OriginOS 6 正式发布！亮点抢先看 亮点配图\" loading=\"lazy\" />\n<img src=\"/assets/digests-2025/originos/ipad-connect.webp\" alt=\"OriginOS 6 正式发布！亮点抢先看 亮点配图\" loading=\"lazy\" />\n</div>",
   "cover": {
-    "src": "assets/covers/d8f2b7a95e3c4118-1200.webp",
-    "srcset": "assets/covers/d8f2b7a95e3c4118-480.webp 480w, assets/covers/d8f2b7a95e3c4118-800.webp 800w, assets/covers/d8f2b7a95e3c4118-1200.webp 1200w",
-    "avifSrcset": "assets/covers/d8f2b7a95e3c4118-480.avif 480w, assets/covers/d8f2b7a95e3c4118-800.avif 800w, assets/covers/d8f2b7a95e3c4118-1200.avif 1200w",
+    "src": "assets/covers/3a6b5cdf9da6473f-1200.webp",
+    "srcset": "assets/covers/3a6b5cdf9da6473f-480.webp 480w, assets/covers/3a6b5cdf9da6473f-800.webp 800w, assets/covers/3a6b5cdf9da6473f-1200.webp 1200w",
+    "avifSrcset": "assets/covers/3a6b5cdf9da6473f-480.avif 480w, assets/covers/3a6b5cdf9da6473f-800.avif 800w, assets/covers/3a6b5cdf9da6473f-1200.avif 1200w",
     "width": 1200,
     "height": 675,
-    "alt": "OriginOS 6 正式发布！亮点抢先看 封面",
-    "dominantColor": "#0055ff",
-    "focalPoint": "50% 0%"
+    "alt": "OriginOS 6 正式发布 封面",
+    "dominantColor": "#0d0f12",
+    "focalPoint": "50% 50%"
   },
   "media": []
 }

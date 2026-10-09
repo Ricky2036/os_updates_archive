@@ -11,14 +11,14 @@
   "html": "",
   "compatPath": "compat/originos/27-originos-3/index.html",
   "cover": {
-    "src": "assets/covers/8e7eadc34f5c8a5c-1200.webp",
-    "srcset": "assets/covers/8e7eadc34f5c8a5c-480.webp 480w, assets/covers/8e7eadc34f5c8a5c-800.webp 800w, assets/covers/8e7eadc34f5c8a5c-1200.webp 1200w",
-    "avifSrcset": "assets/covers/8e7eadc34f5c8a5c-480.avif 480w, assets/covers/8e7eadc34f5c8a5c-800.avif 800w, assets/covers/8e7eadc34f5c8a5c-1200.avif 1200w",
+    "src": "assets/covers/48b363285d7205a7-1200.webp",
+    "srcset": "assets/covers/48b363285d7205a7-480.webp 480w, assets/covers/48b363285d7205a7-800.webp 800w, assets/covers/48b363285d7205a7-1200.webp 1200w",
+    "avifSrcset": "assets/covers/48b363285d7205a7-480.avif 480w, assets/covers/48b363285d7205a7-800.avif 800w, assets/covers/48b363285d7205a7-1200.avif 1200w",
     "width": 1200,
     "height": 675,
     "alt": "OriginOS 3月体验更新一览 封面",
     "dominantColor": "#f8f8f8",
-    "focalPoint": "50% 0%"
+    "focalPoint": "50% 50%"
   },
   "media": [
     {

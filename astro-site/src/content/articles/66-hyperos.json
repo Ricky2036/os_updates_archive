@@ -10,14 +10,14 @@
   "legacyPath": "Xiaomi_HyperOS_3_正式发布！亮点抢先看.html",
   "html": "<div class=\"image-gallery\">\n<img src=\"/assets/digests-2025/hyperos/hyperos3-summary.webp\" alt=\"Xiaomi HyperOS 3 正式发布！亮点抢先看 亮点配图\" loading=\"lazy\" />\n<img src=\"/assets/digests-2025/hyperos/launch-latency.webp\" alt=\"Xiaomi HyperOS 3 正式发布！亮点抢先看 亮点配图\" loading=\"lazy\" />\n<img src=\"/assets/digests-2025/hyperos/fps-curve.webp\" alt=\"Xiaomi HyperOS 3 正式发布！亮点抢先看 亮点配图\" loading=\"lazy\" />\n<img src=\"/assets/digests-2025/hyperos/compile-opt.webp\" alt=\"Xiaomi HyperOS 3 正式发布！亮点抢先看 亮点配图\" loading=\"lazy\" />\n<img src=\"/assets/digests-2025/hyperos/island-design.webp\" alt=\"Xiaomi HyperOS 3 正式发布！亮点抢先看 亮点配图\" loading=\"lazy\" />\n<img src=\"/assets/digests-2025/hyperos/island-services.webp\" alt=\"Xiaomi HyperOS 3 正式发布！亮点抢先看 亮点配图\" loading=\"lazy\" />\n<img src=\"/assets/digests-2025/hyperos/cinema-lockscreen-poster.webp\" alt=\"Xiaomi HyperOS 3 正式发布！亮点抢先看 亮点配图\" loading=\"lazy\" />\n<img src=\"/assets/digests-2025/hyperos/ai-wallpaper.webp\" alt=\"Xiaomi HyperOS 3 正式发布！亮点抢先看 亮点配图\" loading=\"lazy\" />\n<img src=\"/assets/digests-2025/hyperos/xiaoai-direct.webp\" alt=\"Xiaomi HyperOS 3 正式发布！亮点抢先看 亮点配图\" loading=\"lazy\" />\n<img src=\"/assets/digests-2025/hyperos/safe-access.webp\" alt=\"Xiaomi HyperOS 3 正式发布！亮点抢先看 亮点配图\" loading=\"lazy\" />\n</div>",
   "cover": {
-    "src": "assets/covers/fbfb4a7d6e8c2910-1200.webp",
-    "srcset": "assets/covers/fbfb4a7d6e8c2910-480.webp 480w, assets/covers/fbfb4a7d6e8c2910-800.webp 800w, assets/covers/fbfb4a7d6e8c2910-1200.webp 1200w",
-    "avifSrcset": "assets/covers/fbfb4a7d6e8c2910-480.avif 480w, assets/covers/fbfb4a7d6e8c2910-800.avif 800w, assets/covers/fbfb4a7d6e8c2910-1200.avif 1200w",
+    "src": "assets/covers/a1df29c3237f1c34-1200.webp",
+    "srcset": "assets/covers/a1df29c3237f1c34-480.webp 480w, assets/covers/a1df29c3237f1c34-800.webp 800w, assets/covers/a1df29c3237f1c34-1200.webp 1200w",
+    "avifSrcset": "assets/covers/a1df29c3237f1c34-480.avif 480w, assets/covers/a1df29c3237f1c34-800.avif 800w, assets/covers/a1df29c3237f1c34-1200.avif 1200w",
     "width": 1200,
     "height": 675,
-    "alt": "Xiaomi HyperOS 3 正式发布！亮点抢先看 封面",
-    "dominantColor": "#ff6900",
-    "focalPoint": "50% 0%"
+    "alt": "Xiaomi HyperOS 3 正式发布 封面",
+    "dominantColor": "#0a0e1a",
+    "focalPoint": "50% 50%"
   },
   "media": []
 }

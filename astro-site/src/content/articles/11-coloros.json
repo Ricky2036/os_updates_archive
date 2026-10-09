@@ -11,14 +11,14 @@
   "html": "",
   "compatPath": "compat/coloros/11-coloros/index.html",
   "cover": {
-    "src": "assets/covers/44ff2cbef3b26227-1200.webp",
-    "srcset": "assets/covers/44ff2cbef3b26227-480.webp 480w, assets/covers/44ff2cbef3b26227-800.webp 800w, assets/covers/44ff2cbef3b26227-1200.webp 1200w",
-    "avifSrcset": "assets/covers/44ff2cbef3b26227-480.avif 480w, assets/covers/44ff2cbef3b26227-800.avif 800w, assets/covers/44ff2cbef3b26227-1200.avif 1200w",
+    "src": "assets/covers/7e58fee54f64b312-1200.webp",
+    "srcset": "assets/covers/7e58fee54f64b312-480.webp 480w, assets/covers/7e58fee54f64b312-800.webp 800w, assets/covers/7e58fee54f64b312-1200.webp 1200w",
+    "avifSrcset": "assets/covers/7e58fee54f64b312-480.avif 480w, assets/covers/7e58fee54f64b312-800.avif 800w, assets/covers/7e58fee54f64b312-1200.avif 1200w",
     "width": 1200,
     "height": 675,
     "alt": "ColorOS 六月系统升级一览 封面",
     "dominantColor": "#f8f8f8",
-    "focalPoint": "50% 0%"
+    "focalPoint": "50% 50%"
   },
   "media": [
     {
