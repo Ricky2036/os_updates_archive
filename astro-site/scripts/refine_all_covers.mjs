@@ -17,15 +17,15 @@ const curatedSpecs = {
   // Order 63: ColorOS 17 正式发布！亮点抢先看
   63: {
     source: 'assets/legacy/interactive/a018709eeac188aa18038e6c46adf9b9.webp',
-    mode: 'contain',
-    bg: '#0c1117',
-    dominantColor: '#0c1117',
+    mode: 'composite_phone',
+    bg: '#171c23',
+    dominantColor: '#171c23',
     alt: 'ColorOS 17 正式发布 封面'
   },
   // Order 64: 带你一图读懂 OriginOS 7
   64: {
     source: 'assets/legacy/interactive/3685d699063cbb11d899816c7c111f18.webp',
-    extract: { left: 40, top: 80, width: 1000, height: 1240 },
+    extract: { left: 40, top: 180, width: 1000, height: 980 },
     mode: 'contain',
     bg: '#0d0f12',
     dominantColor: '#0d0f12',
@@ -34,7 +34,7 @@ const curatedSpecs = {
   // Order 69: 更多 OriginOS 7 体验亮点
   69: {
     source: 'assets/legacy/interactive/ceda64b2096f4b422496a7d619a6060c.webp',
-    extract: { left: 40, top: 680, width: 1000, height: 1300 },
+    extract: { left: 50, top: 850, width: 980, height: 1100 },
     mode: 'contain',
     bg: '#0b0e14',
     dominantColor: '#0b0e14',
@@ -43,7 +43,7 @@ const curatedSpecs = {
   // Order 62: MagicOS 11正式发布！一图读懂升级亮点
   62: {
     source: 'assets/images/MagicOS_11正式发布！一图读懂升级亮点_(2026)/0.webp',
-    extract: { left: 0, top: 180, width: 1080, height: 1400 },
+    extract: { left: 0, top: 100, width: 1080, height: 1280 },
     mode: 'contain',
     bg: '#060a12',
     dominantColor: '#060a12',
@@ -52,7 +52,7 @@ const curatedSpecs = {
   // Order 61: OPPO ColorOS 九月系统升级一览
   61: {
     source: 'assets/responsive/dede9087151991ad-960.webp',
-    extract: { left: 0, top: 0, width: 960, height: 1050 },
+    extract: { left: 0, top: 0, width: 960, height: 850 },
     mode: 'contain',
     bg: '#0e2042',
     dominantColor: '#0e2042',
@@ -61,10 +61,10 @@ const curatedSpecs = {
   // Order 59: OPPO ColorOS 八月系统升级一览
   59: {
     source: 'assets/responsive/3ae03d35a4a509d6-960.webp',
-    extract: { left: 0, top: 0, width: 960, height: 1050 },
+    extract: { left: 0, top: 0, width: 960, height: 850 },
     mode: 'contain',
-    bg: '#7a1a1a',
-    dominantColor: '#7a1a1a',
+    bg: '#fafbfc',
+    dominantColor: '#fafbfc',
     alt: 'OPPO ColorOS 八月系统升级一览 封面'
   },
   // Order 44: 一气呵成看懂小米澎湃OS 4
@@ -274,7 +274,25 @@ async function processArticleCover(file) {
       pipeline = pipeline.extract({ left, top, width: extractWidth, height: extractHeight });
     }
 
-    if (spec.mode === 'cover') {
+    if (spec.mode === 'composite_phone') {
+      const phoneH = Math.round(h * 0.85);
+      const phoneW = Math.round(phoneH * (365 / 350));
+      const phoneBuf = await sharp(inputPath, { pages: 1 })
+        .extract({ left: 525, top: 25, width: 365, height: 350 })
+        .resize(phoneW, phoneH, { fit: 'contain', background: { r: 23, g: 28, b: 35, alpha: 0 } })
+        .toBuffer();
+
+      pipeline = sharp({
+        create: {
+          width: w,
+          height: h,
+          channels: 4,
+          background: bg
+        }
+      }).composite([
+        { input: phoneBuf, gravity: 'center' }
+      ]);
+    } else if (spec.mode === 'cover') {
       pipeline = pipeline.resize(w, h, { fit: 'cover', position: 'center' });
     } else {
       // Use contain with matching background to prevent any text clipping
