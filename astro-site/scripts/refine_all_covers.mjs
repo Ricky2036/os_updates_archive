@@ -50,19 +50,18 @@ const curatedSpecs = {
   },
   // Order 61: OPPO ColorOS 九月系统升级一览
   61: {
-    source: 'assets/responsive/dede9087151991ad-960.webp',
-    extract: { left: 0, top: 0, width: 960, height: 850 },
+    source: 'assets/images/covers_custom/coloros_2026_09_cover_v4.png',
     mode: 'contain',
-    bg: '#0e2042',
-    dominantColor: '#0e2042',
+    bg: '#000000',
+    dominantColor: '#0a0a0a',
     alt: 'OPPO ColorOS 九月系统升级一览 封面'
   },
   // Order 59: OPPO ColorOS 八月系统升级一览
   59: {
-    source: 'assets/responsive/3ae03d35a4a509d6-960.webp',
-    extract: { left: 0, top: 0, width: 960, height: 850 },
+    source: 'assets/images/covers_custom/coloros_2026_08_cover_v4.png',
+    extract: { left: 0, top: 0, width: 1016, height: 624 },
     mode: 'contain',
-    bg: '#fafbfc',
+    bg: '#ffffff',
     dominantColor: '#fafbfc',
     alt: 'OPPO ColorOS 八月系统升级一览 封面'
   },
