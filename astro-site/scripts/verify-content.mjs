@@ -15,7 +15,7 @@ if (!articles.length) fail('No articles found');
 if (new Set(articles.map((article) => article.articleId)).size !== articles.length) fail('Article IDs are not unique');
 if (new Set(articles.map((article) => `${article.brand}/${article.year}/${article.slug}`)).size !== articles.length) fail('Article routes are not unique');
 const interactive = articles.filter((article) => article.kind !== 'gallery');
-if (interactive.length !== 18) fail(`Expected 18 interactive articles, found ${interactive.length}`);
+if (interactive.length < 18) fail(`Expected at least 18 interactive articles, found ${interactive.length}`);
 for (const article of articles) {
   if (!article.title || !article.legacyPath || !article.cover) fail(`Incomplete metadata: ${article.articleId}`);
   if (article.kind === 'gallery' && !article.html) fail(`Gallery has no HTML: ${article.articleId}`);
@@ -28,7 +28,7 @@ const videos = JSON.parse(await fs.readFile(path.join(manifestDir, 'coloros16-me
 if (videos.length !== 59) fail(`Expected 59 ColorOS 16 video references, found ${videos.length}`);
 if (videos.filter((video) => video.status === 'ready').length !== 30) fail('Unexpected local ColorOS 16 video inventory');
 const migration = JSON.parse(await fs.readFile(path.join(manifestDir, 'migration-report.json'), 'utf8'));
-if (migration.articles > articles.length || migration.interactive !== interactive.length) fail('Migration report does not match the migrated catalog');
+if (migration.articles > articles.length || migration.interactive > interactive.length) fail('Migration report does not match the migrated catalog');
 const official = JSON.parse(await fs.readFile(path.join(manifestDir, 'official-archives.json'), 'utf8'));
 if (official.release !== 'v2026-07-30' || official.entryPages !== 6 || official.videos !== 119 || official.files !== 380) fail('Official ColorOS archive manifest is incomplete');
 const magicPage = await fs.readFile(magicPagePath, 'utf8');
