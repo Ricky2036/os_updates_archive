@@ -5,7 +5,8 @@
   "scripts": {
     "migrate": "node scripts/migrate-legacy.mjs",
     "dev": "astro dev",
-    "build": "astro build && npm run budget",
+    "build": "node scripts/export-app-manifest.mjs && astro build && npm run budget",
+    "manifest:app": "node scripts/export-app-manifest.mjs",
     "preview": "astro preview",
     "check": "astro check",
     "budget": "node scripts/performance-budget.mjs",

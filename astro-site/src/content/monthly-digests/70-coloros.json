@@ -1,0 +1,972 @@
+{
+  "schemaVersion": 3,
+  "contentReviewVersion": 4,
+  "mediaReviewVersion": 4,
+  "articleId": "OPPO_ColorOS_十月体验升级一览_(2026)",
+  "reviewStatus": "verified",
+  "sourceHash": "f6d4dac111440695f83107468dea422ce8ae89a7fa8b78361161cca912b11209",
+  "highlights": [
+    {
+      "id": "highlight-01",
+      "module": "OPPO AI",
+      "moduleSource": "explicit-heading",
+      "title": "随口记智能总结",
+      "description": "随口记支持 AI 总结，快速提炼与分类归纳零散语音与文字，智能梳理主线逻辑，让日常记录井井有条、清晰易读。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "highlight-01-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/70/highlight-01-960.webp",
+          "thumbnail": "assets/digests-v2/70/highlight-01-480.webp",
+          "avifSrc": "assets/digests-v2/70/highlight-01-960.avif",
+          "avifThumbnail": "assets/digests-v2/70/highlight-01-480.avif",
+          "alt": "随口记智能总结 功能演示",
+          "evidenceId": "highlight-01-demo",
+          "width": 480,
+          "height": 476
+        }
+      ],
+      "evidenceIds": [
+        "highlight-01-body",
+        "highlight-01-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-01"
+      ]
+    },
+    {
+      "id": "highlight-02",
+      "module": "桌面与速览",
+      "moduleSource": "explicit-heading",
+      "title": "新增随口记与记账卡片",
+      "description": "支持在桌面与速览负一屏添加「随口记」及「我的账单」组件卡片，随时查看关键待办记录与当日收支概览。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "highlight-02-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/70/highlight-02-960.webp",
+          "thumbnail": "assets/digests-v2/70/highlight-02-480.webp",
+          "avifSrc": "assets/digests-v2/70/highlight-02-960.avif",
+          "avifThumbnail": "assets/digests-v2/70/highlight-02-480.avif",
+          "alt": "随口记与记账桌面卡片 功能演示",
+          "evidenceId": "highlight-02-demo",
+          "width": 480,
+          "height": 446
+        }
+      ],
+      "evidenceIds": [
+        "highlight-02-body",
+        "highlight-02-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-02"
+      ]
+    },
+    {
+      "id": "highlight-03",
+      "module": "AI 扫一扫",
+      "moduleSource": "explicit-heading",
+      "title": "识物与翻译结果卡片分享",
+      "description": "支持以卡片图片形式直接分享识物与翻译结果，卡片化排版直观大方，分享更体面。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "highlight-03-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/70/highlight-03-960.webp",
+          "thumbnail": "assets/digests-v2/70/highlight-03-480.webp",
+          "avifSrc": "assets/digests-v2/70/highlight-03-960.avif",
+          "avifThumbnail": "assets/digests-v2/70/highlight-03-480.avif",
+          "alt": "识物与翻译结果卡片分享 功能演示",
+          "evidenceId": "highlight-03-demo",
+          "width": 475,
+          "height": 980
+        }
+      ],
+      "evidenceIds": [
+        "highlight-03-body",
+        "highlight-03-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-03"
+      ]
+    },
+    {
+      "id": "highlight-04",
+      "module": "AI 扫一扫",
+      "moduleSource": "explicit-heading",
+      "title": "扫描件多格式导出与直连打印",
+      "description": "支持文档扫描导出与直连打印，扫描后可一键导出为 PDF、Word、PPT、Excel 多种格式。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "highlight-04-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/70/highlight-04-960.webp",
+          "thumbnail": "assets/digests-v2/70/highlight-04-480.webp",
+          "avifSrc": "assets/digests-v2/70/highlight-04-960.avif",
+          "avifThumbnail": "assets/digests-v2/70/highlight-04-480.avif",
+          "alt": "扫描件多格式导出与直连打印 功能演示",
+          "evidenceId": "highlight-04-demo",
+          "width": 475,
+          "height": 980
+        }
+      ],
+      "evidenceIds": [
+        "highlight-04-body",
+        "highlight-04-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-04"
+      ]
+    },
+    {
+      "id": "highlight-05",
+      "module": "内容传送门",
+      "moduleSource": "explicit-heading",
+      "title": "聊天链接卡片长按拖搜",
+      "description": "支持将即时通讯聊天对话中的链接卡片长按后拖拽至侧边栏或其他应用发起搜索，跨端跨应用交互更快捷。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "highlight-05-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/70/highlight-05-960.webp",
+          "thumbnail": "assets/digests-v2/70/highlight-05-480.webp",
+          "avifSrc": "assets/digests-v2/70/highlight-05-960.avif",
+          "avifThumbnail": "assets/digests-v2/70/highlight-05-480.avif",
+          "alt": "聊天链接卡片长按拖搜 功能演示",
+          "evidenceId": "highlight-05-demo",
+          "width": 480,
+          "height": 727
+        }
+      ],
+      "evidenceIds": [
+        "highlight-05-body",
+        "highlight-05-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-05"
+      ]
+    },
+    {
+      "id": "highlight-06",
+      "module": "设备互联",
+      "moduleSource": "explicit-heading",
+      "title": "车机投屏全屏播放",
+      "description": "车机投屏支持全屏播放视频，自动隐藏任务栏，带来更沉浸的座舱影音娱乐体验。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "highlight-06-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/70/highlight-06-960.webp",
+          "thumbnail": "assets/digests-v2/70/highlight-06-480.webp",
+          "avifSrc": "assets/digests-v2/70/highlight-06-960.avif",
+          "avifThumbnail": "assets/digests-v2/70/highlight-06-480.avif",
+          "alt": "车机投屏全屏播放 功能演示",
+          "evidenceId": "highlight-06-demo",
+          "width": 480,
+          "height": 341
+        }
+      ],
+      "evidenceIds": [
+        "highlight-06-body",
+        "highlight-06-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-06"
+      ]
+    },
+    {
+      "id": "highlight-07",
+      "module": "设备互联",
+      "moduleSource": "explicit-heading",
+      "title": "车机投屏平行视窗",
+      "description": "车机投屏支持平行视窗功能，同一应用可左右分屏开启两个窗口，双界面同屏协同操作更从容。",
+      "mediaStatus": "available",
+      "media": [
+        {
+          "id": "highlight-07-media-01",
+          "kind": "image",
+          "src": "assets/digests-v2/70/highlight-07-960.webp",
+          "thumbnail": "assets/digests-v2/70/highlight-07-480.webp",
+          "avifSrc": "assets/digests-v2/70/highlight-07-960.avif",
+          "avifThumbnail": "assets/digests-v2/70/highlight-07-480.avif",
+          "alt": "车机投屏平行视窗 功能演示",
+          "evidenceId": "highlight-07-demo",
+          "width": 480,
+          "height": 341
+        }
+      ],
+      "evidenceIds": [
+        "highlight-07-body",
+        "highlight-07-demo"
+      ],
+      "sourceItemIds": [
+        "source-highlight-07"
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "id": "update-01",
+      "module": "翻译",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "同声传译内容导出功能，可将翻译文本与录音一键保存至笔记。",
+      "description": "同声传译内容导出功能，可将翻译文本与录音一键保存至笔记。",
+      "evidenceIds": [
+        "update-01-source"
+      ],
+      "sourceItemIds": [
+        "source-update-01"
+      ]
+    },
+    {
+      "id": "update-02",
+      "module": "翻译",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "印地语和西班牙语离线翻译包。",
+      "description": "印地语和西班牙语离线翻译包。",
+      "evidenceIds": [
+        "update-02-source"
+      ],
+      "sourceItemIds": [
+        "source-update-02"
+      ]
+    },
+    {
+      "id": "update-03",
+      "module": "设备互联",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "手机与车机经典投屏首次连接时的动态过渡动效，连接状态更直观。",
+      "description": "手机与车机经典投屏首次连接时的动态过渡动效，连接状态更直观。",
+      "evidenceIds": [
+        "update-03-source"
+      ],
+      "sourceItemIds": [
+        "source-update-03"
+      ]
+    },
+    {
+      "id": "update-04",
+      "module": "手机 / 平板管家",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "诈骗举报功能，可举报涉嫌诈骗的电话、短信、网站等信息。",
+      "description": "诈骗举报功能，可举报涉嫌诈骗的电话、短信、网站等信息。",
+      "evidenceIds": [
+        "update-04-source"
+      ],
+      "sourceItemIds": [
+        "source-update-04"
+      ]
+    },
+    {
+      "id": "update-05",
+      "module": "手机 / 平板管家",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "文件清理模块，支持按大文件夹、旧文件、重复文件、文档等类别分类清理。",
+      "description": "文件清理模块，支持按大文件夹、旧文件、重复文件、文档等类别分类清理。",
+      "evidenceIds": [
+        "update-05-source"
+      ],
+      "sourceItemIds": [
+        "source-update-05"
+      ]
+    },
+    {
+      "id": "update-06",
+      "module": "OPPO AI",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "小布建议和流体云支持显示抖音临期待核销的团购券提醒。",
+      "description": "小布建议和流体云支持显示抖音临期待核销的团购券提醒。",
+      "evidenceIds": [
+        "update-06-source"
+      ],
+      "sourceItemIds": [
+        "source-update-06"
+      ]
+    },
+    {
+      "id": "update-07",
+      "module": "OPPO AI",
+      "moduleSource": "explicit-heading",
+      "type": "新增",
+      "typeSource": "explicit",
+      "sourceText": "小布记忆支持通过导入图片和相机拍照方式生成记忆，多张相关图片可智能整合为一条记忆。",
+      "description": "小布记忆支持通过导入图片和相机拍照方式生成记忆，多张相关图片可智能整合为一条记忆。",
+      "evidenceIds": [
+        "update-07-source"
+      ],
+      "sourceItemIds": [
+        "source-update-07"
+      ]
+    },
+    {
+      "id": "update-08",
+      "module": "OPPO AI",
+      "moduleSource": "explicit-heading",
+      "type": "优化",
+      "typeSource": "explicit",
+      "sourceText": "小布助手 AI 简报支持多维信息融合分析，结合行程、日程与个人习惯主动提供个性化建议。",
+      "description": "小布助手 AI 简报支持多维信息融合分析，结合行程、日程与个人习惯主动提供个性化建议。",
+      "evidenceIds": [
+        "update-08-source"
+      ],
+      "sourceItemIds": [
+        "source-update-08"
+      ]
+    }
+  ],
+  "sourceItems": [
+    {
+      "id": "source-highlight-01",
+      "classification": "highlight",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-h-01"
+      ],
+      "text": "随口记智能总结 随口记支持 AI 总结，快速提炼与分类归纳零散语音与文字，智能梳理主线逻辑，让日常记录井井有条、清晰易读。",
+      "targetIds": [
+        "highlight-01"
+      ]
+    },
+    {
+      "id": "source-highlight-02",
+      "classification": "highlight",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-h-02"
+      ],
+      "text": "新增随口记与记账卡片 支持在桌面与速览负一屏添加「随口记」及「我的账单」组件卡片，随时查看关键待办记录与当日收支概览。",
+      "targetIds": [
+        "highlight-02"
+      ]
+    },
+    {
+      "id": "source-highlight-03",
+      "classification": "highlight",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-h-03"
+      ],
+      "text": "识物与翻译结果卡片分享 支持以卡片图片形式直接分享识物与翻译结果，卡片化排版直观大方，分享更体面。",
+      "targetIds": [
+        "highlight-03"
+      ]
+    },
+    {
+      "id": "source-highlight-04",
+      "classification": "highlight",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-h-04"
+      ],
+      "text": "扫描件多格式导出与直连打印 支持文档扫描导出与直连打印，扫描后可一键导出为 PDF、Word、PPT、Excel 多种格式。",
+      "targetIds": [
+        "highlight-04"
+      ]
+    },
+    {
+      "id": "source-highlight-05",
+      "classification": "highlight",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-h-05"
+      ],
+      "text": "聊天链接卡片长按拖搜 支持将即时通讯聊天对话中的链接卡片长按后拖拽至侧边栏或其他应用发起搜索，跨端跨应用交互更快捷。",
+      "targetIds": [
+        "highlight-05"
+      ]
+    },
+    {
+      "id": "source-highlight-06",
+      "classification": "highlight",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-h-06"
+      ],
+      "text": "车机投屏全屏播放 车机投屏支持全屏播放视频，自动隐藏任务栏，带来更沉浸的座舱影音娱乐体验。",
+      "targetIds": [
+        "highlight-06"
+      ]
+    },
+    {
+      "id": "source-highlight-07",
+      "classification": "highlight",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-h-07"
+      ],
+      "text": "车机投屏平行视窗 车机投屏支持平行视窗功能，同一应用可左右分屏开启两个窗口，双界面同屏协同操作更从容。",
+      "targetIds": [
+        "highlight-07"
+      ]
+    },
+    {
+      "id": "source-update-01",
+      "classification": "update",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-u-01"
+      ],
+      "text": "同声传译内容导出功能，可将翻译文本与录音一键保存至笔记。",
+      "correctedText": "同声传译内容导出功能，可将翻译文本与录音一键保存至笔记。",
+      "targetIds": [
+        "update-01"
+      ]
+    },
+    {
+      "id": "source-update-02",
+      "classification": "update",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-u-02"
+      ],
+      "text": "印地语和西班牙语离线翻译包。",
+      "correctedText": "印地语和西班牙语离线翻译包。",
+      "targetIds": [
+        "update-02"
+      ]
+    },
+    {
+      "id": "source-update-03",
+      "classification": "update",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-u-03"
+      ],
+      "text": "手机与车机经典投屏首次连接时的动态过渡动效，连接状态更直观。",
+      "correctedText": "手机与车机经典投屏首次连接时的动态过渡动效，连接状态更直观。",
+      "targetIds": [
+        "update-03"
+      ]
+    },
+    {
+      "id": "source-update-04",
+      "classification": "update",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-u-04"
+      ],
+      "text": "诈骗举报功能，可举报涉嫌诈骗的电话、短信、网站等信息。",
+      "correctedText": "诈骗举报功能，可举报涉嫌诈骗的电话、短信、网站等信息。",
+      "targetIds": [
+        "update-04"
+      ]
+    },
+    {
+      "id": "source-update-05",
+      "classification": "update",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-u-05"
+      ],
+      "text": "文件清理模块，支持按大文件夹、旧文件、重复文件、文档等类别分类清理。",
+      "correctedText": "文件清理模块，支持按大文件夹、旧文件、重复文件、文档等类别分类清理。",
+      "targetIds": [
+        "update-05"
+      ]
+    },
+    {
+      "id": "source-update-06",
+      "classification": "update",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-u-06"
+      ],
+      "text": "小布建议和流体云支持显示抖音临期待核销的团购券提醒。",
+      "correctedText": "小布建议和流体云支持显示抖音临期待核销的团购券提醒。",
+      "targetIds": [
+        "update-06"
+      ]
+    },
+    {
+      "id": "source-update-07",
+      "classification": "update",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-u-07"
+      ],
+      "text": "小布记忆支持通过导入图片和相机拍照方式生成记忆，多张相关图片可智能整合为一条记忆。",
+      "correctedText": "小布记忆支持通过导入图片和相机拍照方式生成记忆，多张相关图片可智能整合为一条记忆。",
+      "targetIds": [
+        "update-07"
+      ]
+    },
+    {
+      "id": "source-update-08",
+      "classification": "update",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-u-08"
+      ],
+      "text": "小布助手 AI 简报支持多维信息融合分析，结合行程、日程与个人习惯主动提供个性化建议。",
+      "correctedText": "小布助手 AI 简报支持多维信息融合分析，结合行程、日程与个人习惯主动提供个性化建议。",
+      "targetIds": [
+        "update-08"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "highlight-01-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-h-01"
+      ],
+      "region": {
+        "x": 0,
+        "y": 1950,
+        "width": 1038,
+        "height": 200
+      },
+      "note": "OPPO AI：随口记智能总结标题与说明"
+    },
+    {
+      "id": "highlight-01-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-h-demo-01"
+      ],
+      "region": {
+        "x": 40,
+        "y": 2150,
+        "width": 958,
+        "height": 950
+      },
+      "note": "OPPO AI：随口记智能总结功能演示区域"
+    },
+    {
+      "id": "highlight-02-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-h-02"
+      ],
+      "region": {
+        "x": 0,
+        "y": 3060,
+        "width": 1038,
+        "height": 200
+      },
+      "note": "桌面与速览：新增随口记与记账卡片标题与说明"
+    },
+    {
+      "id": "highlight-02-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-h-demo-02"
+      ],
+      "region": {
+        "x": 40,
+        "y": 3260,
+        "width": 958,
+        "height": 890
+      },
+      "note": "桌面与速览：新增随口记与记账卡片功能演示区域"
+    },
+    {
+      "id": "highlight-03-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-h-03"
+      ],
+      "region": {
+        "x": 0,
+        "y": 4880,
+        "width": 1038,
+        "height": 200
+      },
+      "note": "AI 扫一扫：识物与翻译结果卡片分享标题与说明"
+    },
+    {
+      "id": "highlight-03-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-h-demo-03"
+      ],
+      "region": {
+        "x": 40,
+        "y": 5080,
+        "width": 475,
+        "height": 980
+      },
+      "note": "AI 扫一扫：识物与翻译结果卡片分享功能演示区域"
+    },
+    {
+      "id": "highlight-04-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-h-04"
+      ],
+      "region": {
+        "x": 0,
+        "y": 4880,
+        "width": 1038,
+        "height": 200
+      },
+      "note": "AI 扫一扫：扫描件多格式导出与直连打印标题与说明"
+    },
+    {
+      "id": "highlight-04-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-h-demo-04"
+      ],
+      "region": {
+        "x": 520,
+        "y": 5080,
+        "width": 475,
+        "height": 980
+      },
+      "note": "AI 扫一扫：扫描件多格式导出与直连打印功能演示区域"
+    },
+    {
+      "id": "highlight-05-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-h-05"
+      ],
+      "region": {
+        "x": 0,
+        "y": 6400,
+        "width": 1038,
+        "height": 200
+      },
+      "note": "内容传送门：聊天链接卡片长按拖搜标题与说明"
+    },
+    {
+      "id": "highlight-05-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-h-demo-05"
+      ],
+      "region": {
+        "x": 40,
+        "y": 6600,
+        "width": 958,
+        "height": 1450
+      },
+      "note": "内容传送门：聊天链接卡片长按拖搜功能演示区域"
+    },
+    {
+      "id": "highlight-06-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-h-06"
+      ],
+      "region": {
+        "x": 0,
+        "y": 8420,
+        "width": 1038,
+        "height": 200
+      },
+      "note": "设备互联：车机投屏全屏播放标题与说明"
+    },
+    {
+      "id": "highlight-06-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-h-demo-06"
+      ],
+      "region": {
+        "x": 40,
+        "y": 8620,
+        "width": 958,
+        "height": 680
+      },
+      "note": "设备互联：车机投屏全屏播放功能演示区域"
+    },
+    {
+      "id": "highlight-07-body",
+      "kind": "image-region",
+      "role": "body-text",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-h-07"
+      ],
+      "region": {
+        "x": 0,
+        "y": 9480,
+        "width": 1038,
+        "height": 200
+      },
+      "note": "设备互联：车机投屏平行视窗标题与说明"
+    },
+    {
+      "id": "highlight-07-demo",
+      "kind": "image-region",
+      "role": "demo-region",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-h-demo-07"
+      ],
+      "region": {
+        "x": 40,
+        "y": 9680,
+        "width": 958,
+        "height": 680
+      },
+      "note": "设备互联：车机投屏平行视窗功能演示区域"
+    },
+    {
+      "id": "update-01-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-u-01"
+      ],
+      "region": {
+        "x": 0,
+        "y": 10400,
+        "width": 1038,
+        "height": 100
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-02-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-u-02"
+      ],
+      "region": {
+        "x": 0,
+        "y": 10500,
+        "width": 1038,
+        "height": 100
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-03-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-u-03"
+      ],
+      "region": {
+        "x": 0,
+        "y": 10600,
+        "width": 1038,
+        "height": 100
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-04-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-u-04"
+      ],
+      "region": {
+        "x": 0,
+        "y": 10700,
+        "width": 1038,
+        "height": 100
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-05-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-u-05"
+      ],
+      "region": {
+        "x": 0,
+        "y": 10800,
+        "width": 1038,
+        "height": 100
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-06-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-u-06"
+      ],
+      "region": {
+        "x": 0,
+        "y": 10900,
+        "width": 1038,
+        "height": 100
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-07-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-u-07"
+      ],
+      "region": {
+        "x": 0,
+        "y": 11000,
+        "width": 1038,
+        "height": 100
+      },
+      "note": "逐项更新清单"
+    },
+    {
+      "id": "update-08-source",
+      "kind": "image-region",
+      "role": "update-list",
+      "source": "public/assets/images/OPPO_ColorOS_十月体验升级一览_(2026)/0.webp",
+      "sourceIndex": 0,
+      "sourceHash": "811ad1ae4cbea870f59c3f5492f6385bdde13e32b4f7595a34fff9b8ac04a153",
+      "blockIds": [
+        "ocr-block-u-08"
+      ],
+      "region": {
+        "x": 0,
+        "y": 11100,
+        "width": 1038,
+        "height": 100
+      },
+      "note": "逐项更新清单"
+    }
+  ],
+  "audit": {
+    "highlightReviewVersion": 4,
+    "updateReviewVersion": 4,
+    "review": {
+      "content": "verified",
+      "modules": "verified",
+      "media": "verified",
+      "page": "verified"
+    },
+    "expectedHighlightCount": 7,
+    "sourceItemCount": 15,
+    "includedItemCount": 15,
+    "excludedItemCount": 0,
+    "highlightCount": 7,
+    "updateCount": 8,
+    "mediaCount": 7,
+    "mappedItemCount": 15,
+    "coverageRate": 1
+  }
+}

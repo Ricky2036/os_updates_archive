@@ -1,0 +1,1267 @@
+{
+  "appName": "OS档案馆",
+  "version": "1.0.0",
+  "generatedAt": "2026-10-16T02:47:41.196Z",
+  "baseUrl": "https://ricky2036.github.io/os_updates_archive",
+  "counts": {
+    "articles": 70,
+    "digests": 66
+  },
+  "sections": [
+    {
+      "id": "all",
+      "title": "全量档案",
+      "route": ""
+    },
+    {
+      "id": "coloros",
+      "title": "ColorOS",
+      "route": "coloros/"
+    },
+    {
+      "id": "originos",
+      "title": "OriginOS",
+      "route": "originos/"
+    }
+  ],
+  "articles": [
+    {
+      "id": "OPPO_ColorOS_七月系统升级一览_(2026)",
+      "title": "OPPO ColorOS 七月系统升级一览",
+      "brand": "coloros",
+      "year": 2026,
+      "slug": "01-oppo-coloros-2026",
+      "route": "coloros/2026/01-oppo-coloros-2026",
+      "publishedAt": "2026-07-01",
+      "kind": "gallery",
+      "cover": "assets/covers/9bea7cd20f92a304-1200.webp",
+      "dominantColor": "#181818"
+    },
+    {
+      "id": "OPPO_ColorOS_六月系统升级一览",
+      "title": "OPPO ColorOS 六月系统升级一览",
+      "brand": "coloros",
+      "year": 2026,
+      "slug": "02-oppo-coloros",
+      "route": "coloros/2026/02-oppo-coloros",
+      "publishedAt": "2026-06-01",
+      "kind": "gallery",
+      "cover": "assets/covers/51e3cc6ba419f481-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "OPPO_ColorOS_三月系统升级一览",
+      "title": "OPPO ColorOS 三月系统升级一览",
+      "brand": "coloros",
+      "year": 2026,
+      "slug": "03-oppo-coloros",
+      "route": "coloros/2026/03-oppo-coloros",
+      "publishedAt": "2026-03-01",
+      "kind": "gallery",
+      "cover": "assets/covers/dd348a0528fe44e7-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "OPPO_ColorOS_二月系统升级一览",
+      "title": "OPPO ColorOS 二月系统升级一览",
+      "brand": "coloros",
+      "year": 2026,
+      "slug": "04-oppo-coloros",
+      "route": "coloros/2026/04-oppo-coloros",
+      "publishedAt": "2026-02-01",
+      "kind": "gallery",
+      "cover": "assets/covers/7ce7c7fbb44ca3cc-1200.webp",
+      "dominantColor": "#f8f8e8"
+    },
+    {
+      "id": "OPPO_ColorOS_一月系统升级一览",
+      "title": "OPPO ColorOS 一月系统升级一览",
+      "brand": "coloros",
+      "year": 2026,
+      "slug": "05-oppo-coloros",
+      "route": "coloros/2026/05-oppo-coloros",
+      "publishedAt": "2026-01-01",
+      "kind": "gallery",
+      "cover": "assets/covers/01b860175f402ad6-1200.webp",
+      "dominantColor": "#f8f8e8"
+    },
+    {
+      "id": "OPPO_ColorOS_十一月系统升级一览",
+      "title": "OPPO ColorOS 十一月系统升级一览",
+      "brand": "coloros",
+      "year": 2025,
+      "slug": "06-oppo-coloros",
+      "route": "coloros/2025/06-oppo-coloros",
+      "publishedAt": "2025-11-01",
+      "kind": "gallery",
+      "cover": "assets/covers/1575cfb4dd9c82d1-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "OPPO_ColorOS_16_正式版升级适配计划",
+      "title": "OPPO ColorOS 16 正式版升级适配计划",
+      "brand": "coloros",
+      "year": 2025,
+      "slug": "07-oppo-coloros-16",
+      "route": "coloros/2025/07-oppo-coloros-16",
+      "publishedAt": "2025-01-01",
+      "kind": "gallery",
+      "cover": "assets/covers/74f2ce3751c75923-1200.webp",
+      "dominantColor": "#181838"
+    },
+    {
+      "id": "ColorOS_16_正式发布！亮点抢先看",
+      "title": "ColorOS 16 正式发布！亮点抢先看",
+      "brand": "coloros",
+      "year": 2025,
+      "slug": "08-coloros-16",
+      "route": "coloros/2025/08-coloros-16",
+      "publishedAt": "2025-01-01",
+      "kind": "microsite",
+      "cover": "assets/covers/47ecc986b416a758-1200.webp",
+      "dominantColor": "#0a1526"
+    },
+    {
+      "id": "OPPO_ColorOS_九月系统升级一览",
+      "title": "OPPO ColorOS 九月系统升级一览",
+      "brand": "coloros",
+      "year": 2025,
+      "slug": "09-oppo-coloros",
+      "route": "coloros/2025/09-oppo-coloros",
+      "publishedAt": "2025-09-01",
+      "kind": "gallery",
+      "cover": "assets/covers/f8db6be638bc740b-1200.webp",
+      "dominantColor": "#e8f8f8"
+    },
+    {
+      "id": "OPPO_ColorOS_八月系统升级一览",
+      "title": "OPPO ColorOS 八月系统升级一览",
+      "brand": "coloros",
+      "year": 2025,
+      "slug": "10-oppo-coloros",
+      "route": "coloros/2025/10-oppo-coloros",
+      "publishedAt": "2025-08-01",
+      "kind": "gallery",
+      "cover": "assets/covers/9727d492b7ef86ef-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "ColorOS_六月系统升级一览",
+      "title": "ColorOS 六月系统升级一览",
+      "brand": "coloros",
+      "year": 2025,
+      "slug": "11-coloros",
+      "route": "coloros/2025/11-coloros",
+      "publishedAt": "2025-06-01",
+      "kind": "interactive",
+      "cover": "assets/covers/7e58fee54f64b312-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "OPPO_手机系统_ColorOS_五月升级一览",
+      "title": "OPPO 手机系统 ColorOS 五月升级一览",
+      "brand": "coloros",
+      "year": 2025,
+      "slug": "12-oppo-coloros",
+      "route": "coloros/2025/12-oppo-coloros",
+      "publishedAt": "2025-05-01",
+      "kind": "interactive",
+      "cover": "assets/covers/4b2dc4d06973d220-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "一图读懂满血_ColorOS_15，流畅_AI_全面进化！",
+      "title": "一图读懂满血 ColorOS 15，流畅 AI 全面进化！",
+      "brand": "coloros",
+      "year": 2025,
+      "slug": "13-coloros-15-ai",
+      "route": "coloros/2025/13-coloros-15-ai",
+      "publishedAt": "2025-01-01",
+      "kind": "gallery",
+      "cover": "assets/covers/f5fa25040ce5ed90-1200.webp",
+      "dominantColor": "#e8e8e8"
+    },
+    {
+      "id": "月月有更新！ColorOS_三月体验升级一览",
+      "title": "月月有更新！ColorOS 三月体验升级一览",
+      "brand": "coloros",
+      "year": 2025,
+      "slug": "14-coloros",
+      "route": "coloros/2025/14-coloros",
+      "publishedAt": "2025-03-01",
+      "kind": "interactive",
+      "cover": "assets/covers/6668704d2361799c-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "月月有更新！ColorOS_二月体验升级来了",
+      "title": "月月有更新！ColorOS 二月体验升级来了",
+      "brand": "coloros",
+      "year": 2025,
+      "slug": "15-coloros",
+      "route": "coloros/2025/15-coloros",
+      "publishedAt": "2025-02-01",
+      "kind": "interactive",
+      "cover": "assets/covers/918953bfef5bd899-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "过年不停更，ColorOS_一月体验升级来了！",
+      "title": "过年不停更，ColorOS 一月体验升级来了！",
+      "brand": "coloros",
+      "year": 2025,
+      "slug": "16-coloros",
+      "route": "coloros/2025/16-coloros",
+      "publishedAt": "2025-01-01",
+      "kind": "gallery",
+      "cover": "assets/covers/c84d40b389e69847-1200.webp",
+      "dominantColor": "#c80808"
+    },
+    {
+      "id": "ColorOS_十二月体验升级一览",
+      "title": "ColorOS 十二月体验升级一览",
+      "brand": "coloros",
+      "year": 2024,
+      "slug": "17-coloros",
+      "route": "coloros/2024/17-coloros",
+      "publishedAt": "2024-12-01",
+      "kind": "gallery",
+      "cover": "assets/covers/1f77742b08c6e6f7-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "ColorOS_十一月体验升级来了！",
+      "title": "ColorOS 十一月体验升级来了！",
+      "brand": "coloros",
+      "year": 2024,
+      "slug": "18-coloros",
+      "route": "coloros/2024/18-coloros",
+      "publishedAt": "2024-11-01",
+      "kind": "interactive",
+      "cover": "assets/covers/71f97504c23946d0-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "首批机型本月开启_ColorOS_15_正式版升级",
+      "title": "首批机型本月开启 ColorOS 15 正式版升级",
+      "brand": "coloros",
+      "year": 2024,
+      "slug": "19-coloros-15",
+      "route": "coloros/2024/19-coloros-15",
+      "publishedAt": "2024-01-01",
+      "kind": "gallery",
+      "cover": "assets/covers/2d56d78f7c247e97-1200.webp",
+      "dominantColor": "#282828"
+    },
+    {
+      "id": "ColorOS_15_正式发布！亮点抢先看",
+      "title": "ColorOS 15 正式发布！亮点抢先看",
+      "brand": "coloros",
+      "year": 2024,
+      "slug": "20-coloros-15",
+      "route": "coloros/2024/20-coloros-15",
+      "publishedAt": "2024-01-01",
+      "kind": "interactive",
+      "cover": "assets/covers/f758b965a30e7c05-1200.webp",
+      "dominantColor": "#181818"
+    },
+    {
+      "id": "OriginOS_6_五月体验升级亮点",
+      "title": "OriginOS 6 五月体验升级亮点",
+      "brand": "originos",
+      "year": 2026,
+      "slug": "21-originos-6",
+      "route": "originos/2026/21-originos-6",
+      "publishedAt": "2026-05-01",
+      "kind": "interactive",
+      "cover": "assets/covers/b3ce2a7921f47e8d-1200.webp",
+      "dominantColor": "#c82818"
+    },
+    {
+      "id": "OriginOS_6_一月体验升级亮点",
+      "title": "OriginOS 6 一月体验升级亮点",
+      "brand": "originos",
+      "year": 2026,
+      "slug": "22-originos-6",
+      "route": "originos/2026/22-originos-6",
+      "publishedAt": "2026-01-01",
+      "kind": "interactive",
+      "cover": "assets/covers/13b340bd6be26ce1-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "新春加“马”！OriginOS_陪你一起过大年",
+      "title": "新春加“马”！OriginOS 陪你一起过大年",
+      "brand": "originos",
+      "year": 2026,
+      "slug": "23-originos",
+      "route": "originos/2026/23-originos",
+      "publishedAt": "2026-01-01",
+      "kind": "interactive",
+      "cover": "assets/covers/4e17be0165e1e02e-1200.webp",
+      "dominantColor": "#f80818"
+    },
+    {
+      "id": "OriginOS_6_十二月体验升级亮点",
+      "title": "OriginOS 6 十二月体验升级亮点",
+      "brand": "originos",
+      "year": 2025,
+      "slug": "24-originos-6",
+      "route": "originos/2025/24-originos-6",
+      "publishedAt": "2025-12-01",
+      "kind": "interactive",
+      "cover": "assets/covers/bbb9c63aca33f25a-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "OriginOS_八月系统升级亮点一览",
+      "title": "OriginOS 八月系统升级亮点一览",
+      "brand": "originos",
+      "year": 2025,
+      "slug": "25-originos",
+      "route": "originos/2025/25-originos",
+      "publishedAt": "2025-08-01",
+      "kind": "interactive",
+      "cover": "assets/covers/3142a850c2011b2e-1200.webp",
+      "dominantColor": "#e8f8f8"
+    },
+    {
+      "id": "OriginOS_五月系统升级亮点",
+      "title": "OriginOS 五月系统升级亮点",
+      "brand": "originos",
+      "year": 2025,
+      "slug": "26-originos",
+      "route": "originos/2025/26-originos",
+      "publishedAt": "2025-05-01",
+      "kind": "interactive",
+      "cover": "assets/covers/9ff0074e1286bb7c-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "OriginOS_3月体验更新一览",
+      "title": "OriginOS 3月体验更新一览",
+      "brand": "originos",
+      "year": 2025,
+      "slug": "27-originos-3",
+      "route": "originos/2025/27-originos-3",
+      "publishedAt": "2025-03-01",
+      "kind": "interactive",
+      "cover": "assets/covers/48b363285d7205a7-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "OriginOS_5_春节前体验优化一览",
+      "title": "OriginOS 5 春节前体验优化一览",
+      "brand": "originos",
+      "year": 2025,
+      "slug": "28-originos-5",
+      "route": "originos/2025/28-originos-5",
+      "publishedAt": "2025-02-01",
+      "kind": "interactive",
+      "cover": "assets/covers/12ee7d4aebbdcf49-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "OriginOS_5_十一月体验优化一览",
+      "title": "OriginOS 5 十一月体验优化一览",
+      "brand": "originos",
+      "year": 2024,
+      "slug": "29-originos-5",
+      "route": "originos/2024/29-originos-5",
+      "publishedAt": "2024-11-01",
+      "kind": "interactive",
+      "cover": "assets/covers/2f717457c1b19a3d-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "HyperOS_8月更新一览_(2026)",
+      "title": "小米HyperOS 8月更新一览",
+      "brand": "hyperos",
+      "year": 2026,
+      "slug": "30-xiaomi-hyperos-2026-08",
+      "route": "hyperos/2026/30-xiaomi-hyperos-2026-08",
+      "publishedAt": "2026-08-01",
+      "kind": "gallery",
+      "cover": "assets/covers/dc6e46a404f9e7e4-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "HyperOS_6月更新一览_(2026)",
+      "title": "小米HyperOS 6月更新一览",
+      "brand": "hyperos",
+      "year": 2026,
+      "slug": "31-xiaomi-hyperos-2026-06",
+      "route": "hyperos/2026/31-xiaomi-hyperos-2026-06",
+      "publishedAt": "2026-06-01",
+      "kind": "gallery",
+      "cover": "assets/covers/995d9009ee30c3c7-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "HyperOS_5月更新一览_(2026)",
+      "title": "小米HyperOS 5月更新一览",
+      "brand": "hyperos",
+      "year": 2026,
+      "slug": "32-xiaomi-hyperos-2026-05",
+      "route": "hyperos/2026/32-xiaomi-hyperos-2026-05",
+      "publishedAt": "2026-05-01",
+      "kind": "gallery",
+      "cover": "assets/covers/cf10e9e905fae037-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "HyperOS_4月更新一览_(2026)",
+      "title": "小米HyperOS 4月更新一览",
+      "brand": "hyperos",
+      "year": 2026,
+      "slug": "33-xiaomi-hyperos-2026-04",
+      "route": "hyperos/2026/33-xiaomi-hyperos-2026-04",
+      "publishedAt": "2026-04-20",
+      "kind": "gallery",
+      "cover": "assets/covers/9ccc0f40dfce9759-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "HyperOS_3月更新一览_(2026)",
+      "title": "小米HyperOS 3月更新一览",
+      "brand": "hyperos",
+      "year": 2026,
+      "slug": "34-xiaomi-hyperos-2026-03",
+      "route": "hyperos/2026/34-xiaomi-hyperos-2026-03",
+      "publishedAt": "2026-03-01",
+      "kind": "gallery",
+      "cover": "assets/covers/8d5d9371ef23d352-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "HyperOS_1月更新一览_(2026)",
+      "title": "小米HyperOS 1月更新一览",
+      "brand": "hyperos",
+      "year": 2026,
+      "slug": "35-xiaomi-hyperos-2026-01",
+      "route": "hyperos/2026/35-xiaomi-hyperos-2026-01",
+      "publishedAt": "2026-01-01",
+      "kind": "gallery",
+      "cover": "assets/covers/1c03bca7e4c612b1-1200.webp",
+      "dominantColor": "#e8f8f8"
+    },
+    {
+      "id": "HyperOS_11月更新一览_(2025)",
+      "title": "小米HyperOS 11月更新一览",
+      "brand": "hyperos",
+      "year": 2025,
+      "slug": "36-xiaomi-hyperos-2025-11",
+      "route": "hyperos/2025/36-xiaomi-hyperos-2025-11",
+      "publishedAt": "2025-11-01",
+      "kind": "gallery",
+      "cover": "assets/covers/248ce05286bd0095-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "HyperOS_8月更新一览_(2025)",
+      "title": "小米HyperOS 8月更新一览",
+      "brand": "hyperos",
+      "year": 2025,
+      "slug": "37-xiaomi-hyperos-2025-08",
+      "route": "hyperos/2025/37-xiaomi-hyperos-2025-08",
+      "publishedAt": "2025-08-01",
+      "kind": "gallery",
+      "cover": "assets/covers/cfe0929f6e087714-1200.webp",
+      "dominantColor": "#e8f8f8"
+    },
+    {
+      "id": "HyperOS_7月更新一览_(2025)",
+      "title": "小米HyperOS 7月更新一览",
+      "brand": "hyperos",
+      "year": 2025,
+      "slug": "38-xiaomi-hyperos-2025-07",
+      "route": "hyperos/2025/38-xiaomi-hyperos-2025-07",
+      "publishedAt": "2025-07-01",
+      "kind": "gallery",
+      "cover": "assets/covers/797107da37947dfd-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "HyperOS_5月更新一览_(2025)",
+      "title": "小米HyperOS 5月更新一览",
+      "brand": "hyperos",
+      "year": 2025,
+      "slug": "39-xiaomi-hyperos-2025-05",
+      "route": "hyperos/2025/39-xiaomi-hyperos-2025-05",
+      "publishedAt": "2025-05-01",
+      "kind": "gallery",
+      "cover": "assets/covers/a3b4eb93ba5ee4be-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "HyperOS_4月更新一览_(2025)",
+      "title": "小米HyperOS 4月更新一览",
+      "brand": "hyperos",
+      "year": 2025,
+      "slug": "40-xiaomi-hyperos-2025-04",
+      "route": "hyperos/2025/40-xiaomi-hyperos-2025-04",
+      "publishedAt": "2025-04-01",
+      "kind": "gallery",
+      "cover": "assets/covers/39f30fadc32cdb62-1200.webp",
+      "dominantColor": "#080808"
+    },
+    {
+      "id": "HyperOS_12月更新一览_(2024)",
+      "title": "小米HyperOS 12月更新一览",
+      "brand": "hyperos",
+      "year": 2024,
+      "slug": "41-xiaomi-hyperos-2024-12",
+      "route": "hyperos/2024/41-xiaomi-hyperos-2024-12",
+      "publishedAt": "2024-12-01",
+      "kind": "gallery",
+      "cover": "assets/covers/4a564baf8a4f5b34-1200.webp",
+      "dominantColor": "#080808"
+    },
+    {
+      "id": "HyperOS_10月更新一览_(2024)",
+      "title": "小米HyperOS 10月更新一览",
+      "brand": "hyperos",
+      "year": 2024,
+      "slug": "42-xiaomi-hyperos-2024-10",
+      "route": "hyperos/2024/42-xiaomi-hyperos-2024-10",
+      "publishedAt": "2024-10-01",
+      "kind": "gallery",
+      "cover": "assets/covers/ff92ba410efb8048-1200.webp",
+      "dominantColor": "#080808"
+    },
+    {
+      "id": "HyperOS_8月更新一览_(2024)",
+      "title": "小米HyperOS 8月更新一览",
+      "brand": "hyperos",
+      "year": 2024,
+      "slug": "43-xiaomi-hyperos-2024-08",
+      "route": "hyperos/2024/43-xiaomi-hyperos-2024-08",
+      "publishedAt": "2024-08-01",
+      "kind": "gallery",
+      "cover": "assets/covers/b27acf2e05dc1dac-1200.webp",
+      "dominantColor": "#080808"
+    },
+    {
+      "id": "HyperOS_4_更新说明_(2026)",
+      "title": "一气呵成看懂小米澎湃OS 4",
+      "brand": "hyperos",
+      "year": 2026,
+      "slug": "44-xiaomi-hyperos-4",
+      "route": "hyperos/2026/44-xiaomi-hyperos-4",
+      "publishedAt": "2026-08-13",
+      "kind": "gallery",
+      "cover": "assets/covers/a4b2bba81bac7b2b-1200.webp",
+      "dominantColor": "#0a0e1a"
+    },
+    {
+      "id": "MagicOS_7月更新一览_(2025)",
+      "title": "荣耀MagicOS 7月更新一览",
+      "brand": "magicos",
+      "year": 2025,
+      "slug": "45-honor-magicos-2025-07",
+      "route": "magicos/2025/45-honor-magicos-2025-07",
+      "publishedAt": "2025-07-25",
+      "kind": "gallery",
+      "cover": "assets/covers/01f714f269eb46f5-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "MagicOS_8月更新一览_(2025)",
+      "title": "荣耀MagicOS 8月更新一览",
+      "brand": "magicos",
+      "year": 2025,
+      "slug": "46-honor-magicos-2025-08",
+      "route": "magicos/2025/46-honor-magicos-2025-08",
+      "publishedAt": "2025-08-16",
+      "kind": "gallery",
+      "cover": "assets/covers/7c210863caa0b58e-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "MagicOS_9月更新一览_(2025)",
+      "title": "荣耀MagicOS 9月更新一览",
+      "brand": "magicos",
+      "year": 2025,
+      "slug": "47-honor-magicos-2025-09",
+      "route": "magicos/2025/47-honor-magicos-2025-09",
+      "publishedAt": "2025-09-15",
+      "kind": "gallery",
+      "cover": "assets/covers/87176f6522dee6ee-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "MagicOS_11月更新一览_(2025)",
+      "title": "荣耀MagicOS 11月更新一览",
+      "brand": "magicos",
+      "year": 2025,
+      "slug": "48-honor-magicos-2025-11",
+      "route": "magicos/2025/48-honor-magicos-2025-11",
+      "publishedAt": "2025-11-21",
+      "kind": "gallery",
+      "cover": "assets/covers/9a46936da1b3ba9d-1200.webp",
+      "dominantColor": "#e8f8f8"
+    },
+    {
+      "id": "MagicOS_12月更新一览_(2025)",
+      "title": "荣耀MagicOS 12月更新一览",
+      "brand": "magicos",
+      "year": 2025,
+      "slug": "49-honor-magicos-2025-12",
+      "route": "magicos/2025/49-honor-magicos-2025-12",
+      "publishedAt": "2025-12-19",
+      "kind": "gallery",
+      "cover": "assets/covers/80cf7bbb2a297b62-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "MagicOS_1月更新一览_(2026)",
+      "title": "荣耀MagicOS 1月更新一览",
+      "brand": "magicos",
+      "year": 2026,
+      "slug": "50-honor-magicos-2026-01",
+      "route": "magicos/2026/50-honor-magicos-2026-01",
+      "publishedAt": "2026-01-23",
+      "kind": "gallery",
+      "cover": "assets/covers/ebabef96d2d1594d-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "MagicOS_2月更新一览_(2026)",
+      "title": "荣耀MagicOS 2月更新一览",
+      "brand": "magicos",
+      "year": 2026,
+      "slug": "51-honor-magicos-2026-02",
+      "route": "magicos/2026/51-honor-magicos-2026-02",
+      "publishedAt": "2026-02-12",
+      "kind": "gallery",
+      "cover": "assets/covers/23b326f56620269c-1200.webp",
+      "dominantColor": "#f81828"
+    },
+    {
+      "id": "MagicOS_3月更新一览_(2026)",
+      "title": "荣耀MagicOS 3月更新一览",
+      "brand": "magicos",
+      "year": 2026,
+      "slug": "52-honor-magicos-2026-03",
+      "route": "magicos/2026/52-honor-magicos-2026-03",
+      "publishedAt": "2026-03-16",
+      "kind": "gallery",
+      "cover": "assets/covers/4f1a81fca0777094-1200.webp",
+      "dominantColor": "#e8e8f8"
+    },
+    {
+      "id": "MagicOS_春分特别更新_(2026)",
+      "title": "荣耀MagicOS 春分3月特别更新",
+      "brand": "magicos",
+      "year": 2026,
+      "slug": "53-honor-magicos-2026-03-sp",
+      "route": "magicos/2026/53-honor-magicos-2026-03-sp",
+      "publishedAt": "2026-03-17",
+      "kind": "gallery",
+      "cover": "assets/covers/75bf9207a9efc871-1200.webp",
+      "dominantColor": "#f8f8e8"
+    },
+    {
+      "id": "MagicOS_4月更新一览_(2026)",
+      "title": "荣耀MagicOS 4月更新一览",
+      "brand": "magicos",
+      "year": 2026,
+      "slug": "54-honor-magicos-2026-04",
+      "route": "magicos/2026/54-honor-magicos-2026-04",
+      "publishedAt": "2026-04-09",
+      "kind": "gallery",
+      "cover": "assets/covers/f83105e3deefa398-1200.webp",
+      "dominantColor": "#081220"
+    },
+    {
+      "id": "MagicOS_5月更新一览_(2026)",
+      "title": "荣耀MagicOS 5月更新一览",
+      "brand": "magicos",
+      "year": 2026,
+      "slug": "55-honor-magicos-2026-05",
+      "route": "magicos/2026/55-honor-magicos-2026-05",
+      "publishedAt": "2026-05-08",
+      "kind": "gallery",
+      "cover": "assets/covers/cca14339702cf72c-1200.webp",
+      "dominantColor": "#081220"
+    },
+    {
+      "id": "MagicOS_6月更新一览_(2026)",
+      "title": "荣耀MagicOS 6月更新一览",
+      "brand": "magicos",
+      "year": 2026,
+      "slug": "56-honor-magicos-2026-06",
+      "route": "magicos/2026/56-honor-magicos-2026-06",
+      "publishedAt": "2026-06-05",
+      "kind": "gallery",
+      "cover": "assets/covers/852a1252c678b971-1200.webp",
+      "dominantColor": "#081220"
+    },
+    {
+      "id": "MagicOS_7月超大杯更新_(2026)",
+      "title": "荣耀MagicOS 7月超大杯更新",
+      "brand": "magicos",
+      "year": 2026,
+      "slug": "57-honor-magicos-2026-07",
+      "route": "magicos/2026/57-honor-magicos-2026-07",
+      "publishedAt": "2026-07-15",
+      "kind": "gallery",
+      "cover": "assets/covers/fe597fd00a0d3ba6-1200.webp",
+      "dominantColor": "#081220"
+    },
+    {
+      "id": "MagicOS_8月更新一览_(2026)",
+      "title": "荣耀MagicOS 8月更新一览",
+      "brand": "magicos",
+      "year": 2026,
+      "slug": "58-honor-magicos-2026-08",
+      "route": "magicos/2026/58-honor-magicos-2026-08",
+      "publishedAt": "2026-08-10",
+      "kind": "gallery",
+      "cover": "assets/covers/f633b06604d16f27-1200.webp",
+      "dominantColor": "#0a1526"
+    },
+    {
+      "id": "OPPO_ColorOS_八月系统升级一览_(2026)",
+      "title": "OPPO ColorOS 八月系统升级一览",
+      "brand": "coloros",
+      "year": 2026,
+      "slug": "59-oppo-coloros-2026-08",
+      "route": "coloros/2026/59-oppo-coloros-2026-08",
+      "publishedAt": "2026-08-17",
+      "kind": "gallery",
+      "cover": "assets/covers/87b66698a202af07-1200.webp",
+      "dominantColor": "#fafbfc"
+    },
+    {
+      "id": "HyperOS_超级小爱近期更新功能一览_(2026)",
+      "title": "超级小爱近期更新功能一览",
+      "brand": "hyperos",
+      "year": 2026,
+      "slug": "60-xiaomi-hyperos-xiaoai-2026-04",
+      "route": "hyperos/2026/60-xiaomi-hyperos-xiaoai-2026-04",
+      "publishedAt": "2026-04-03",
+      "kind": "gallery",
+      "cover": "assets/covers/f06289ceb1a9580e-1200.webp",
+      "dominantColor": "#f8f8f8"
+    },
+    {
+      "id": "OPPO_ColorOS_九月系统升级一览_(2026)",
+      "title": "OPPO ColorOS 九月系统升级一览",
+      "brand": "coloros",
+      "year": 2026,
+      "slug": "61-oppo-coloros-2026-09",
+      "route": "coloros/2026/61-oppo-coloros-2026-09",
+      "publishedAt": "2026-09-10",
+      "kind": "gallery",
+      "cover": "assets/covers/435113e6da59dec9-1200.webp",
+      "dominantColor": "#0a0a0a"
+    },
+    {
+      "id": "MagicOS_11正式发布！一图读懂升级亮点_(2026)",
+      "title": "MagicOS 11正式发布！一图读懂升级亮点",
+      "brand": "magicos",
+      "year": 2026,
+      "slug": "62-honor-magicos-11",
+      "route": "magicos/2026/62-honor-magicos-11",
+      "publishedAt": "2026-09-15",
+      "kind": "gallery",
+      "cover": "assets/covers/ccf0188fa0377d6c-1200.webp",
+      "dominantColor": "#8c4228"
+    },
+    {
+      "id": "ColorOS_17_正式发布！亮点抢先看",
+      "title": "ColorOS 17 正式发布！亮点抢先看",
+      "brand": "coloros",
+      "year": 2026,
+      "slug": "63-coloros-17",
+      "route": "coloros/2026/63-coloros-17",
+      "publishedAt": "2026-09-17",
+      "kind": "microsite",
+      "cover": "assets/covers/d36b34a2e13090a3-1200.webp",
+      "dominantColor": "#f5f6f8"
+    },
+    {
+      "id": "带你一图读懂_OriginOS_7",
+      "title": "带你一图读懂 OriginOS 7",
+      "brand": "originos",
+      "year": 2026,
+      "slug": "64-originos-7",
+      "route": "originos/2026/64-originos-7",
+      "publishedAt": "2026-09-16",
+      "kind": "microsite",
+      "cover": "assets/covers/267d4298b2ef9be2-1200.webp",
+      "dominantColor": "#0d0f12"
+    },
+    {
+      "id": "OriginOS_6_正式发布！亮点抢先看",
+      "title": "OriginOS 6 正式发布！亮点抢先看",
+      "brand": "originos",
+      "year": 2025,
+      "slug": "65-originos-6",
+      "route": "originos/2025/65-originos-6",
+      "publishedAt": "2025-09-10",
+      "kind": "gallery",
+      "cover": "assets/covers/3a6b5cdf9da6473f-1200.webp",
+      "dominantColor": "#0d0f12"
+    },
+    {
+      "id": "HyperOS_3_更新说明_(2025)",
+      "title": "Xiaomi HyperOS 3 正式发布！亮点抢先看",
+      "brand": "hyperos",
+      "year": 2025,
+      "slug": "66-xiaomi-hyperos-3",
+      "route": "hyperos/2025/66-xiaomi-hyperos-3",
+      "publishedAt": "2025-08-28",
+      "kind": "gallery",
+      "cover": "assets/covers/a1df29c3237f1c34-1200.webp",
+      "dominantColor": "#0a0e1a"
+    },
+    {
+      "id": "MagicOS_10正式发布！一图读懂升级亮点_(2025)",
+      "title": "MagicOS 10 正式发布！升级亮点全景",
+      "brand": "magicos",
+      "year": 2025,
+      "slug": "67-honor-magicos-10",
+      "route": "magicos/2025/67-honor-magicos-10",
+      "publishedAt": "2025-10-16",
+      "kind": "gallery",
+      "cover": "assets/covers/f2efdb8987d06247-1200.webp",
+      "dominantColor": "#060a12"
+    },
+    {
+      "id": "HarmonyOS_6_正式发布！亮点抢先看",
+      "title": "HarmonyOS 6 正式发布！亮点抢先看",
+      "brand": "harmonyos",
+      "year": 2025,
+      "slug": "68-huawei-harmonyos-6",
+      "route": "harmonyos/2025/68-huawei-harmonyos-6",
+      "publishedAt": "2025-10-22",
+      "kind": "gallery",
+      "cover": "assets/covers/cbecc266b5e17589-1200.webp",
+      "dominantColor": "#050811"
+    },
+    {
+      "id": "更多_OriginOS_7_体验亮点",
+      "title": "更多 OriginOS 7 体验亮点",
+      "brand": "originos",
+      "year": 2026,
+      "slug": "69-originos-7-highlights",
+      "route": "originos/2026/69-originos-7-highlights",
+      "publishedAt": "2026-09-16",
+      "kind": "microsite",
+      "cover": "assets/covers/d147d09664b66c1c-1200.webp",
+      "dominantColor": "#1a0f0a"
+    },
+    {
+      "id": "OPPO_ColorOS_十月体验升级一览_(2026)",
+      "title": "OPPO ColorOS 十月体验升级一览",
+      "brand": "coloros",
+      "year": 2026,
+      "slug": "70-oppo-coloros-2026-10",
+      "route": "coloros/2026/70-oppo-coloros-2026-10",
+      "publishedAt": "2026-10-16",
+      "kind": "gallery",
+      "cover": "assets/covers/b8f95cbac629ab4f-1200.webp",
+      "dominantColor": "#282858"
+    }
+  ],
+  "digests": [
+    {
+      "id": "01-coloros",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "02-coloros",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "03-coloros",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "04-coloros",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "05-coloros",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "06-coloros",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "08-coloros",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "09-coloros",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "10-coloros",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "11-coloros",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "12-coloros",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "14-coloros",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "15-coloros",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "16-coloros",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "17-coloros",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "18-coloros",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "21-originos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "22-originos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "23-originos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "24-originos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "25-originos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "26-originos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "27-originos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "28-originos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "29-originos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "30-hyperos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "31-hyperos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "32-hyperos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "33-hyperos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "34-hyperos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "35-hyperos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "36-hyperos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "37-hyperos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "38-hyperos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "39-hyperos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "40-hyperos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "41-hyperos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "42-hyperos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "43-hyperos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "44-hyperos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "45-magicos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "46-magicos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "47-magicos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "48-magicos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "49-magicos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "50-magicos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "51-magicos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "52-magicos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "53-magicos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "54-magicos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "55-magicos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "56-magicos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "57-magicos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "58-magicos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "59-coloros",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "60-hyperos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "61-coloros",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "62-magicos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "63-coloros",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "64-originos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "65-originos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "66-hyperos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "67-magicos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "68-harmonyos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "69-originos",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "70-coloros",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    }
+  ]
+}
