@@ -1,6 +1,6 @@
 import { sitePath } from './archive';
 
-export type OfficialArchiveVersion = '15' | '16' | '17' | 'insight17' | 'originos6' | 'originos7' | 'hyperos1' | 'hyperos2' | 'hyperos3' | 'hyperos4' | 'magicos10' | 'magicos11' | 'harmonyos7';
+export type OfficialArchiveVersion = '15' | '16' | '17' | 'insight17' | 'originos6' | 'originos7' | 'hyperos1' | 'hyperos2' | 'hyperos3' | 'hyperos4' | 'magicos10' | 'magicos11' | 'harmonyos7' | 'originos7insight';
 export type OfficialArchiveViewport = 'mobile' | 'pad' | 'desktop';
 export type ColorOSSection = 'monthly' | OfficialArchiveVersion;
 
@@ -73,6 +73,14 @@ export const officialArchiveMeta: Record<OfficialArchiveVersion, {
     route: sitePath('originos/7/'),
     entries: { desktop: 'originos7.html', pad: 'originos7.html', mobile: 'originos7_mobile.html' },
   },
+  'originos7insight': {
+    title: 'OriginOS 7 深度洞察报告',
+    label: 'OriginOS 7深度洞察',
+    folder: 'originos7-insight',
+    route: sitePath('originos/insight7/'),
+    entries: { desktop: 'index.html', pad: 'index.html', mobile: 'index.html' },
+    description: 'OriginOS 7 深度洞察报告：亮点拆解、两代能力对照、舆情反馈与完整视频素材。',
+  },
   'hyperos1': {
     title: 'Xiaomi HyperOS 1 官方网站存档',
     label: 'HyperOS 1',
@@ -136,6 +144,8 @@ export function officialArchiveUrl(version: OfficialArchiveVersion, viewport: Of
     return archiveMirrorUrl(`official_archives/www.vivo.com.cn/${entry}`);
   } else if (version === 'originos7') {
     return archiveMirrorUrl(`official_archives/www.vivo.com.cn/${entry}`);
+  } else if (version === 'originos7insight') {
+    return archiveMirrorUrl(`official_archives/originos7-insight/${entry}`);
   } else if (version === 'hyperos1') {
     return archiveMirrorUrl(`official_archives/os1.hyperos.mi.com/${entry}`);
   } else if (version === 'hyperos2') {

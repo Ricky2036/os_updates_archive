@@ -3,11 +3,11 @@ import { sitePath } from '../../lib/archive';
 import { officialArchiveMeta, officialArchiveUrl, type OfficialArchiveVersion } from '../../lib/official-archives';
 
 export function getStaticPaths() {
-  return (['6', '7']).map((official) => ({ params: { official } }));
+  return (['6', '7', 'insight7']).map((official) => ({ params: { official } }));
 }
 
 const { official } = Astro.params;
-const version = (official === '7' ? 'originos7' : 'originos6') as OfficialArchiveVersion;
+const version = (official === 'insight7' ? 'originos7insight' : official === '7' ? 'originos7' : 'originos6') as OfficialArchiveVersion;
 const meta = officialArchiveMeta[version];
 const siteUrl = (import.meta.env.PUBLIC_SITE_URL || 'https://ricky2036.github.io/os_updates_archive').replace(/\/$/, '');
 const route = sitePath(`originos/${official}/`);
