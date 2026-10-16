@@ -1,11 +1,11 @@
 {
   "appName": "OS档案馆",
   "version": "1.0.0",
-  "generatedAt": "2026-10-16T02:47:41.196Z",
+  "generatedAt": "2026-10-16T06:40:12.484Z",
   "baseUrl": "https://ricky2036.github.io/os_updates_archive",
   "counts": {
-    "articles": 70,
-    "digests": 66
+    "articles": 71,
+    "digests": 67
   },
   "sections": [
     {
@@ -238,7 +238,7 @@
       "route": "coloros/2024/18-coloros",
       "publishedAt": "2024-11-01",
       "kind": "interactive",
-      "cover": "assets/covers/71f97504c23946d0-1200.webp",
+      "cover": "assets/covers/ec638d14ae9b087a-1200.webp",
       "dominantColor": "#f8f8f8"
     },
     {
@@ -864,6 +864,18 @@
       "kind": "gallery",
       "cover": "assets/covers/b8f95cbac629ab4f-1200.webp",
       "dominantColor": "#282858"
+    },
+    {
+      "id": "MagicOS_11首更月月新，隐私安全重磅进化_(2026)",
+      "title": "MagicOS 11首更月月新，隐私安全重磅进化",
+      "brand": "magicos",
+      "year": 2026,
+      "slug": "71-honor-magicos-2026-10",
+      "route": "magicos/2026/71-honor-magicos-2026-10",
+      "publishedAt": "2026-10-14",
+      "kind": "gallery",
+      "cover": "assets/covers/d7dac7bae4ff8893-1200.webp",
+      "dominantColor": "#ffffff"
     }
   ],
   "digests": [
@@ -1259,6 +1271,12 @@
     },
     {
       "id": "70-coloros",
+      "title": "",
+      "brand": "",
+      "year": 2026
+    },
+    {
+      "id": "71-magicos",
       "title": "",
       "brand": "",
       "year": 2026

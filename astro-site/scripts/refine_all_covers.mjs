@@ -14,6 +14,14 @@ const hash = (value, length = 16) => crypto.createHash('sha1').update(value).dig
 
 // Curated specs for prominent articles and flagships
 const curatedSpecs = {
+  // Order 71: MagicOS 11首更月月新，隐私安全重磅进化
+  71: {
+    source: 'assets/images/covers_custom/magicos_2026_10_cover_v4.jpg',
+    mode: 'contain',
+    bg: '#ffffff',
+    dominantColor: '#ffffff',
+    alt: 'MagicOS 11首更月月新，隐私安全重磅进化 封面'
+  },
   // Order 70: OPPO ColorOS 十月体验升级一览
   70: {
     source: 'assets/images/covers_custom/coloros_2026_10_cover_v4.jpg',
