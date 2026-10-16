@@ -14,6 +14,15 @@ const hash = (value, length = 16) => crypto.createHash('sha1').update(value).dig
 
 // Curated specs for prominent articles and flagships
 const curatedSpecs = {
+  // Order 70: OPPO ColorOS 十月体验升级一览
+  70: {
+    source: 'assets/images/covers_custom/coloros_2026_10_cover_v4.jpg',
+    mode: 'cover',
+    position: 'left',
+    bg: '#282858',
+    dominantColor: '#282858',
+    alt: 'OPPO ColorOS 十月体验升级一览 封面'
+  },
   // Order 63: ColorOS 17 正式发布！亮点抢先看
   63: {
     source: 'assets/images/covers_custom/coloros17_cover_v4.png',
@@ -304,7 +313,7 @@ async function processArticleCover(file) {
         { input: phoneBuf, gravity: 'center' }
       ]);
     } else if (spec.mode === 'cover') {
-      pipeline = pipeline.resize(w, h, { fit: 'cover', position: 'center' });
+      pipeline = pipeline.resize(w, h, { fit: 'cover', position: spec.position || 'center' });
     } else {
       // Use contain with matching background to prevent any text clipping
       pipeline = pipeline.resize(w, h, { fit: 'contain', background: bg });
