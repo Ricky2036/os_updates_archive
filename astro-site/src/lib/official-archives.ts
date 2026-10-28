@@ -1,6 +1,6 @@
 import { sitePath } from './archive';
 
-export type OfficialArchiveVersion = '15' | '16' | '17' | 'insight17' | 'originos6' | 'originos7' | 'hyperos1' | 'hyperos2' | 'hyperos3' | 'hyperos4' | 'magicos10' | 'magicos11' | 'harmonyos7' | 'originos7insight';
+export type OfficialArchiveVersion = '15' | '16' | '17' | 'insight17' | 'originos6' | 'originos7' | 'hyperos1' | 'hyperos2' | 'hyperos3' | 'hyperos4' | 'magicos10' | 'magicos11' | 'magicos11insight' | 'harmonyos7' | 'originos7insight';
 export type OfficialArchiveViewport = 'mobile' | 'pad' | 'desktop';
 export type ColorOSSection = 'monthly' | OfficialArchiveVersion;
 
@@ -123,6 +123,14 @@ export const officialArchiveMeta: Record<OfficialArchiveVersion, {
     route: sitePath('magicos/11/'),
     entries: { desktop: 'index.html', pad: 'index.html', mobile: 'index.html' },
   },
+  'magicos11insight': {
+    title: '荣耀MagicOS 11 深度洞察报告',
+    label: 'MagicOS 11深度洞察',
+    folder: 'magicos11-insight',
+    route: sitePath('magicos/insight11/'),
+    entries: { desktop: 'index.html', pad: 'index.html', mobile: 'index.html' },
+    description: 'MagicOS 11 深度洞察报告：亮点拆解、两代能力对照、UP 主测评与舆情反馈，支持中英文切换。',
+  },
   'harmonyos7': {
     title: 'HarmonyOS 7 官方网站存档',
     label: 'HarmonyOS 7',
@@ -164,6 +172,8 @@ export function officialArchiveUrl(version: OfficialArchiveVersion, viewport: Of
       return `${magicOSArchiveBase}/${entry}`;
     }
     return archiveMirrorUrl(`official_archives/www.honor.com/cn/magic-os/${entry}`);
+  } else if (version === 'magicos11insight') {
+    return archiveMirrorUrl(`official_archives/magicos11-insight/${entry}`);
   } else if (version === 'harmonyos7') {
     return archiveMirrorUrl(`official_archives/consumer.huawei.com/cn/harmonyos-7/${entry}`);
   }

@@ -6,6 +6,7 @@ export function getStaticPaths() {
   return [
     { params: { official: '10' }, props: { version: 'magicos10' as OfficialArchiveVersion } },
     { params: { official: '11' }, props: { version: 'magicos11' as OfficialArchiveVersion } },
+    { params: { official: 'insight11' }, props: { version: 'magicos11insight' as OfficialArchiveVersion } },
   ];
 }
 
@@ -28,7 +29,7 @@ const sources = {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-    <meta name="description" content={`${meta.label} 官方网站完整离线存档。`} />
+    <meta name="description" content={meta.description ?? `${meta.label} 官方网站完整离线存档。`} />
     <meta name="theme-color" content="#f3f7fc" />
     <meta name="robots" content="index,follow" />
     <link rel="canonical" href={canonical} />

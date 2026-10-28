@@ -92,9 +92,10 @@ const harmonyOSLatestUrl = getLatestUrl('harmonyos');
         <span style="position: relative; z-index: 10;" data-text={brandMeta.magicos.name}>{brandMeta.magicos.name}</span><i aria-hidden="true"></i>
       </a>
       <div class="brand-submenu" role="menu" aria-label="MagicOS 档案">
+        <a class:list={{ active: activeMagicOSSection === 'insight11' }} role="menuitem" href={officialArchiveMeta['magicos11insight'].route} data-section="insight11" data-astro-reload>MagicOS 11深度洞察</a>
         <a class:list={{ active: activeMagicOSSection === '11' }} role="menuitem" href={officialArchiveMeta['magicos11'].route} data-section="11" data-astro-reload>MagicOS 11</a>
         <a class:list={{ active: activeMagicOSSection === '10' }} role="menuitem" href={officialArchiveMeta['magicos10'].route} data-section="10" data-astro-reload>MagicOS 10</a>
-        <a class:list={{ active: activeMagicOSSection !== '10' && activeMagicOSSection !== '11' }} role="menuitem" href={magicOSLatestUrl} data-section="monthly" data-astro-prefetch="hover">月更记录</a>
+        <a class:list={{ active: activeMagicOSSection !== '10' && activeMagicOSSection !== '11' && activeMagicOSSection !== 'insight11' }} role="menuitem" href={magicOSLatestUrl} data-section="monthly" data-astro-prefetch="hover">月更记录</a>
       </div>
     </div>
     <div class:list={{ 'brand-menu': true, active: harmonyOSActive }} data-brand="harmonyos">
