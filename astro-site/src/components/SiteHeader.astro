@@ -80,11 +80,12 @@ const harmonyOSLatestUrl = getLatestUrl('harmonyos');
         <span style="position: relative; z-index: 10;" data-text={brandMeta.hyperos.name}>{brandMeta.hyperos.name}</span><i aria-hidden="true"></i>
       </a>
       <div class="brand-submenu" role="menu" aria-label="HyperOS 档案">
+        <a class:list={{ active: activeHyperOSSection === 'insight4' }} role="menuitem" href={officialArchiveMeta['hyperos4insight'].route} data-section="insight4" data-astro-reload>HyperOS 4深度洞察</a>
         <a class:list={{ active: activeHyperOSSection === '4' }} role="menuitem" href={officialArchiveMeta['hyperos4'].route} data-section="4" data-astro-reload>HyperOS 4</a>
         <a class:list={{ active: activeHyperOSSection === '3' }} role="menuitem" href={officialArchiveMeta['hyperos3'].route} data-section="3" data-astro-reload>HyperOS 3</a>
         <a class:list={{ active: activeHyperOSSection === '2' }} role="menuitem" href={officialArchiveMeta['hyperos2'].route} data-section="2" data-astro-reload>HyperOS 2</a>
         <a class:list={{ active: activeHyperOSSection === '1' }} role="menuitem" href={officialArchiveMeta['hyperos1'].route} data-section="1" data-astro-reload>HyperOS 1</a>
-        <a class:list={{ active: activeHyperOSSection !== '1' && activeHyperOSSection !== '2' && activeHyperOSSection !== '3' && activeHyperOSSection !== '4' }} role="menuitem" href={hyperOSLatestUrl} data-section="monthly" data-astro-prefetch="hover">月更记录</a>
+        <a class:list={{ active: activeHyperOSSection !== '1' && activeHyperOSSection !== '2' && activeHyperOSSection !== '3' && activeHyperOSSection !== '4' && activeHyperOSSection !== 'insight4' }} role="menuitem" href={hyperOSLatestUrl} data-section="monthly" data-astro-prefetch="hover">月更记录</a>
       </div>
     </div>
     <div class:list={{ 'brand-menu': true, active: magicOSActive }} data-brand="magicos">
