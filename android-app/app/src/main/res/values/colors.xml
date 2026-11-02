@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_primary">#1E2022</color>
+    <color name="brand_accent">#0071E3</color>
+    <color name="surface_light">#F6F8FC</color>
+    <color name="surface_dark">#121212</color>
+    <color name="text_primary_light">#1D1D1F</color>
+    <color name="text_secondary_light">#86868B</color>
+    <color name="text_primary_dark">#F5F5F7</color>
+    <color name="text_secondary_dark">#A1A1A6</color>
+    <color name="card_border_light">#E5E5EA</color>
+    <color name="card_border_dark">#2C2C2E</color>
+    <color name="card_background_light">#FFFFFF</color>
+    <color name="card_background_dark">#1C1C1E</color>
+    <color name="offline_warning_bg">#FFF8E1</color>
+    <color name="offline_warning_text">#795548</color>
+</resources>

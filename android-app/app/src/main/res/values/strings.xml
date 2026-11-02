@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">OS档案馆</string>
+    <string name="tab_archive">档案馆</string>
+    <string name="tab_brands">品牌归档</string>
+    <string name="tab_storage">存储与离线</string>
+    <string name="storage_title">存储与离线中心</string>
+    <string name="storage_quota_desc">预设存储空间配额：2048 MB</string>
+    <string name="storage_cached_text">页面与数据缓存</string>
+    <string name="storage_cached_images">图片素材缓存</string>
+    <string name="storage_cached_offline">全量离线图文包</string>
+    <string name="btn_clear_cache">清理临时缓存</string>
+    <string name="btn_download_offline">一键下载全站图文离线包</string>
+    <string name="btn_downloading">正在离线归档数据...</string>
+    <string name="offline_completed">离线图文包已就绪</string>
+    <string name="offline_mode_banner">当前处于无网络离线状态，正在使用本地缓存浏览</string>
+    <string name="confirm_clear_cache">确定要清理所有临时缓存吗？已下载的离线包将予以保留。</string>
+    <string name="action_confirm">确定</string>
+    <string name="action_cancel">取消</string>
+</resources>
