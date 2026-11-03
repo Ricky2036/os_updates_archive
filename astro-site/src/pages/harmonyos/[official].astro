@@ -5,6 +5,7 @@ import { officialArchiveMeta, officialArchiveUrl, type OfficialArchiveVersion } 
 export function getStaticPaths() {
   return [
     { params: { official: '7' }, props: { version: 'harmonyos7' as OfficialArchiveVersion } },
+    { params: { official: 'insight7' }, props: { version: 'harmonyos7insight' as OfficialArchiveVersion } },
   ];
 }
 
