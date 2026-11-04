@@ -291,6 +291,14 @@ async function run() {
     };
   });
 
+  const target1 = path.join(outputManifestDir, 'app-manifest.json');
+  const target2 = path.join(pagesPublicManifestDir, 'app-manifest.json');
+
+  let existingManifest = null;
+  try {
+    existingManifest = JSON.parse(await fs.readFile(target1, 'utf8'));
+  } catch {}
+
   const manifest = {
     appName: 'OS档案馆',
     version: '2.0.0',
@@ -306,9 +314,15 @@ async function run() {
     articles,
   };
 
+  if (existingManifest) {
+    const { generatedAt: _oldTime, ...oldRest } = existingManifest;
+    const { generatedAt: _newTime, ...newRest } = manifest;
+    if (JSON.stringify(oldRest) === JSON.stringify(newRest)) {
+      manifest.generatedAt = existingManifest.generatedAt;
+    }
+  }
+
   const jsonStr = JSON.stringify(manifest, null, 2);
-  const target1 = path.join(outputManifestDir, 'app-manifest.json');
-  const target2 = path.join(pagesPublicManifestDir, 'app-manifest.json');
 
   await fs.writeFile(target1, jsonStr, 'utf8');
   await fs.writeFile(target2, jsonStr, 'utf8');

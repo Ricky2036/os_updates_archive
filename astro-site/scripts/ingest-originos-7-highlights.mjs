@@ -31,7 +31,9 @@ const browser = await puppeteer.launch({
 });
 const page = await browser.newPage();
 await page.setViewport({ width: 1080, height: 1920 });
-await page.setUserAgent('Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.38');
+await page.setUserAgent({
+  userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.38'
+});
 
 const targetUrl = 'https://mp.weixin.qq.com/s/yOm8rI_doALlmZFPtqiBEA';
 await page.goto(targetUrl, { waitUntil: 'networkidle2' });

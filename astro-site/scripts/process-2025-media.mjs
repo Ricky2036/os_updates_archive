@@ -4,7 +4,6 @@ import { execFileSync } from 'node:child_process';
 import sharp from 'sharp';
 
 const siteRoot = path.resolve(import.meta.dirname, '..');
-const workspaceRoot = path.resolve(siteRoot, '..');
 const sourceDir = '/Users/jingzhan.chen/Downloads/OS竞品动态跟踪 - 2025/图片和附件';
 const outputBaseDir = path.resolve(siteRoot, 'public/assets/digests-2025');
 const ffmpegBin = '/Users/jingzhan.chen/homebrew/bin/ffmpeg';
