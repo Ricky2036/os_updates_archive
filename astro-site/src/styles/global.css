@@ -93,11 +93,7 @@ h1, h2, h3, p { margin-top: 0; }
 .brand-portal { position: relative; min-height: 220px; padding: 30px; overflow: hidden; border: 0; border-radius: var(--radius-lg); background: linear-gradient(135deg, #fff, var(--portal-soft)); box-shadow: 0 14px 38px rgba(39,63,116,.1); transition: transform .25s var(--ease), box-shadow .25s var(--ease); }
 .brand-portal::after { content: ''; position: absolute; right: -50px; bottom: -80px; width: 220px; height: 220px; border: 45px solid color-mix(in srgb, var(--portal-accent) 14%, transparent); border-radius: 50%; }
 .brand-portal:hover { transform: translateY(-5px); box-shadow: var(--shadow); }
-.brand-portal img { width: 150px; height: 42px; object-fit: contain; object-position: left center; }
-.brand-portal.originos img { width: 176px; height: 49px; }
-.brand-portal.magicos img { width: 145px; height: 42px; }
-.brand-portal.harmonyos img { width: 160px; height: 44px; }
-.brand-portal.ios img { width: 140px; height: 42px; }
+.brand-portal img { display: block; height: 36px; width: auto; max-width: 100%; object-fit: contain; object-position: left center; }
 .brand-portal p { max-width: none; margin: 35px 0 28px; overflow: hidden; color: #606873; line-height: 1.7; text-overflow: ellipsis; white-space: nowrap; }
 .brand-portal span { display: inline-flex; align-items: center; gap: 8px; color: var(--portal-accent); font-size: 13px; font-weight: 800; }
 .section-block { margin-top: 100px; }
