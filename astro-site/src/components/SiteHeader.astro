@@ -3,24 +3,26 @@ import Icon from './Icon.astro';
 import { brandMeta, sitePath, getArticles, articlePath, type Brand } from '../lib/archive';
 import { officialArchiveMeta, type ColorOSSection } from '../lib/official-archives';
 
-interface Props { activeBrand?: Brand; hasArchiveNav?: boolean; hasMonthlyViewToggle?: boolean; activeColorOSSection?: ColorOSSection; activeOriginOSSection?: ColorOSSection; activeHyperOSSection?: string; activeMagicOSSection?: string; activeHarmonyOSSection?: string; }
-const { activeBrand, hasArchiveNav = false, hasMonthlyViewToggle = false, activeColorOSSection = activeBrand === 'coloros' ? 'monthly' : undefined, activeOriginOSSection = activeBrand === 'originos' ? 'monthly' : undefined, activeHyperOSSection = activeBrand === 'hyperos' ? 'monthly' : undefined, activeMagicOSSection = activeBrand === 'magicos' ? 'monthly' : undefined, activeHarmonyOSSection = activeBrand === 'harmonyos' ? 'monthly' : undefined } = Astro.props;
+interface Props { activeBrand?: Brand; hasArchiveNav?: boolean; hasMonthlyViewToggle?: boolean; activeColorOSSection?: ColorOSSection; activeOriginOSSection?: ColorOSSection; activeHyperOSSection?: string; activeMagicOSSection?: string; activeHarmonyOSSection?: string; activeIOSSection?: string; }
+const { activeBrand, hasArchiveNav = false, hasMonthlyViewToggle = false, activeColorOSSection = activeBrand === 'coloros' ? 'monthly' : undefined, activeOriginOSSection = activeBrand === 'originos' ? 'monthly' : undefined, activeHyperOSSection = activeBrand === 'hyperos' ? 'monthly' : undefined, activeMagicOSSection = activeBrand === 'magicos' ? 'monthly' : undefined, activeHarmonyOSSection = activeBrand === 'harmonyos' ? 'monthly' : undefined, activeIOSSection = activeBrand === 'ios' ? 'insight27' : undefined } = Astro.props;
 const colorOSActive = activeBrand === 'coloros';
 const originOSActive = activeBrand === 'originos';
 const hyperOSActive = activeBrand === 'hyperos';
 const magicOSActive = activeBrand === 'magicos';
 const harmonyOSActive = activeBrand === 'harmonyos';
+const iosActive = activeBrand === 'ios';
 
 const articles = await getArticles();
 const getLatestUrl = (brand: Brand) => {
   const latest = articles.find(a => a.data.brand === brand);
-  return latest ? articlePath(latest) : sitePath(`${brand}/`);
+  return latest ? articlePath(latest) : (brand === 'ios' ? officialArchiveMeta['ios27insight'].route : sitePath(`${brand}/`));
 };
 const colorOSLatestUrl = getLatestUrl('coloros');
 const originOSLatestUrl = getLatestUrl('originos');
 const hyperOSLatestUrl = getLatestUrl('hyperos');
 const magicOSLatestUrl = getLatestUrl('magicos');
 const harmonyOSLatestUrl = getLatestUrl('harmonyos');
+const iosLatestUrl = officialArchiveMeta['ios27insight'].route;
 
 ---
 <header class:list={{ 'site-header': true, 'has-archive-nav': hasArchiveNav }}>
@@ -107,6 +109,14 @@ const harmonyOSLatestUrl = getLatestUrl('harmonyos');
         <a class:list={{ active: activeHarmonyOSSection === 'insight7' }} role="menuitem" href={officialArchiveMeta['harmonyos7insight'].route} data-section="insight7" data-astro-reload>HarmonyOS 7深度洞察</a>
         <a class:list={{ active: activeHarmonyOSSection === '7' }} role="menuitem" href={officialArchiveMeta['harmonyos7'].route} data-section="7" data-astro-reload>HarmonyOS 7</a>
         <a class:list={{ active: activeHarmonyOSSection !== '7' && activeHarmonyOSSection !== 'insight7' }} role="menuitem" href={harmonyOSLatestUrl} data-section="monthly" data-astro-prefetch="hover">月更记录</a>
+      </div>
+    </div>
+    <div class:list={{ 'brand-menu': true, active: iosActive }} data-brand="ios">
+      <a class="brand-tab brand-trigger" href={iosLatestUrl} aria-haspopup="menu" aria-expanded="false" data-astro-prefetch="hover">
+        <span style="position: relative; z-index: 10;" data-text={brandMeta.ios.name}>{brandMeta.ios.name}</span><i aria-hidden="true"></i>
+      </a>
+      <div class="brand-submenu" role="menu" aria-label="iOS 档案">
+        <a class:list={{ active: activeIOSSection === 'insight27' }} role="menuitem" href={officialArchiveMeta['ios27insight'].route} data-section="insight27" data-astro-reload>iOS 27深度洞察</a>
       </div>
     </div>
   </div>

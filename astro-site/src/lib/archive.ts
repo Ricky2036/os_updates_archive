@@ -1,6 +1,6 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 
-export type Brand = 'coloros' | 'originos' | 'hyperos' | 'magicos' | 'harmonyos';
+export type Brand = 'coloros' | 'originos' | 'hyperos' | 'magicos' | 'harmonyos' | 'ios';
 export type ArchiveArticle = CollectionEntry<'articles'>;
 
 export const brandMeta: Record<Brand, { name: string; accent: string; soft: string; logo: string; summary: string }> = {
@@ -38,6 +38,13 @@ export const brandMeta: Record<Brand, { name: string; accent: string; soft: stri
     soft: '#e8f0fe',
     logo: 'assets/images/logo_harmonyos.png',
     summary: 'Huawei 华为 HarmonyOS 系统月度更新与体验升级全记录。',
+  },
+  ios: {
+    name: 'iOS',
+    accent: '#0071e3',
+    soft: '#f5f5f7',
+    logo: 'assets/images/logo_ios.png',
+    summary: 'Apple iOS 系统体验升级与深度洞察档案。',
   },
 };
 

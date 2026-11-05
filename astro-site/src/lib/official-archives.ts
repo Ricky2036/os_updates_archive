@@ -1,6 +1,6 @@
 import { sitePath } from './archive';
 
-export type OfficialArchiveVersion = '15' | '16' | '17' | 'insight17' | 'originos6' | 'originos7' | 'hyperos1' | 'hyperos2' | 'hyperos3' | 'hyperos4' | 'magicos10' | 'magicos11' | 'magicos11insight' | 'hyperos4insight' | 'harmonyos7' | 'harmonyos7insight' | 'originos7insight';
+export type OfficialArchiveVersion = '15' | '16' | '17' | 'insight17' | 'originos6' | 'originos7' | 'hyperos1' | 'hyperos2' | 'hyperos3' | 'hyperos4' | 'magicos10' | 'magicos11' | 'magicos11insight' | 'hyperos4insight' | 'harmonyos7' | 'harmonyos7insight' | 'originos7insight' | 'ios27insight';
 export type OfficialArchiveViewport = 'mobile' | 'pad' | 'desktop';
 export type ColorOSSection = 'monthly' | OfficialArchiveVersion;
 
@@ -154,6 +154,14 @@ export const officialArchiveMeta: Record<OfficialArchiveVersion, {
     entries: { desktop: 'index.html', pad: 'index.html', mobile: 'index.html' },
     description: 'HarmonyOS 7 深度洞察报告：设计、智能、安全、流畅四条主线的亮点拆解，两代能力对照与 UP 主测评舆情，支持中英文切换。',
   },
+  'ios27insight': {
+    title: 'iOS 27 深度洞察报告',
+    label: 'iOS 27深度洞察',
+    folder: 'ios27-insight',
+    route: sitePath('ios/insight27/'),
+    entries: { desktop: 'index.html', pad: 'index.html', mobile: 'index.html' },
+    description: 'iOS 27 深度洞察报告：设计语言回调、折叠屏新形态交互、Siri AI 独立入口与生态探索，两代能力对照与 UP 主测评舆情。',
+  },
 };
 
 export function officialArchiveUrl(version: OfficialArchiveVersion, viewport: OfficialArchiveViewport) {
@@ -196,6 +204,8 @@ export function officialArchiveUrl(version: OfficialArchiveVersion, viewport: Of
     return archiveMirrorUrl(`official_archives/consumer.huawei.com/cn/harmonyos-7/${entry}`);
   } else if (version === 'harmonyos7insight') {
     return archiveMirrorUrl(`official_archives/harmonyos7-insight/${entry}`);
+  } else if (version === 'ios27insight') {
+    return archiveMirrorUrl(`official_archives/ios27-insight/${entry}`);
   }
   return '';
 }

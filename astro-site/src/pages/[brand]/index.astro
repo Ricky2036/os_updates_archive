@@ -2,12 +2,12 @@
 import { articlePath, brandMeta, getArticles, sitePath, type Brand } from '../../lib/archive';
 
 export function getStaticPaths() {
-  return (['coloros', 'originos', 'hyperos', 'magicos', 'harmonyos'] as Brand[]).map((brand) => ({ params: { brand } }));
+  return (['coloros', 'originos', 'hyperos', 'magicos', 'harmonyos', 'ios'] as Brand[]).map((brand) => ({ params: { brand } }));
 }
 const brand = Astro.params.brand as Brand;
 const entries = await getArticles(brand);
 const latest = entries[0];
-const latestUrl = latest ? articlePath(latest) : sitePath();
+const latestUrl = latest ? articlePath(latest) : (brand === 'ios' ? sitePath('ios/insight27/') : sitePath());
 const routeMap = Object.fromEntries(entries.map((article) => [article.data.articleId, articlePath(article)]));
 ---
 <!doctype html>

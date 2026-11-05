@@ -60,6 +60,15 @@ const BRAND_META = [
     soft: '#e8f0fe',
     logo: 'assets/images/logo_harmonyos.png',
   },
+  {
+    id: 'ios',
+    title: 'iOS',
+    subtitle: 'Apple iOS 系统体验升级与深度洞察档案',
+    route: 'ios/insight27/',
+    accent: '#0071e3',
+    soft: '#f5f5f7',
+    logo: 'assets/images/logo_ios.png',
+  },
 ];
 
 function cleanRelPath(raw) {

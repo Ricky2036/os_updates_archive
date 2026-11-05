@@ -239,7 +239,7 @@ try {
       };
     });
     const centers = mobileTabGeometry.tabs.map((tab) => tab.centerY);
-    if (mobileTabGeometry.tabs.length !== 6 || Math.max(...centers) - Math.min(...centers) > .5) throw new Error(`Mobile tabs are incomplete or vertically misaligned at ${width}px: ${JSON.stringify(mobileTabGeometry)}`);
+    if (mobileTabGeometry.tabs.length !== 7 || Math.max(...centers) - Math.min(...centers) > .5) throw new Error(`Mobile tabs are incomplete or vertically misaligned at ${width}px: ${JSON.stringify(mobileTabGeometry)}`);
     if (mobileTabGeometry.labels.some((label) => label.display !== 'flex' && label.display !== 'inline-flex') || mobileTabGeometry.labels.some((label) => Math.abs(label.tabCenterY - label.labelCenterY) > 1)) throw new Error(`Mobile tab labels are not vertically centered at ${width}px: ${JSON.stringify(mobileTabGeometry)}`);
     const sortedTabs = [...mobileTabGeometry.tabs].sort((a, b) => a.left - b.left);
     if (sortedTabs.some((tab, index) => index > 0 && tab.left < sortedTabs[index - 1].right - .5)) throw new Error(`Mobile tabs overlap at ${width}px: ${JSON.stringify(mobileTabGeometry)}`);
@@ -320,6 +320,16 @@ try {
   }));
   if (!harmonyOS7State.src.includes('consumer.huawei.com/cn/harmonyos-7/index.html')) throw new Error(`HarmonyOS 7 official archive route is incorrect: ${harmonyOS7State.src}`);
   if (!harmonyOS7State.returnLink || harmonyOS7State.overflow > 1) throw new Error(`HarmonyOS 7 immersive shell is incomplete: ${JSON.stringify(harmonyOS7State)}`);
+
+  await page.goto(`${origin}/ios/insight27/`, { waitUntil: 'networkidle2' });
+  await page.waitForSelector('[data-official-shell].loaded');
+  const ios27State = await page.$eval('[data-official-frame]', (element) => ({
+    src: element.src,
+    overflow: document.body.scrollWidth - innerWidth,
+    returnLink: Boolean(document.querySelector('.official-return')),
+  }));
+  if (!ios27State.src.includes('ios27-insight/index.html')) throw new Error(`iOS 27 official archive route is incorrect: ${ios27State.src}`);
+  if (!ios27State.returnLink || ios27State.overflow > 1) throw new Error(`iOS 27 immersive shell is incomplete: ${JSON.stringify(ios27State)}`);
 
   const articles = await Promise.all((await fs.readdir(path.join(site, 'src/content/articles'))).filter((name) => name.endsWith('.json')).map(async (name) => JSON.parse(await fs.readFile(path.join(site, 'src/content/articles', name), 'utf8'))));
   await page.setViewport({ width: 1280, height: 900 });

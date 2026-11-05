@@ -53,6 +53,7 @@ h1, h2, h3, p { margin-top: 0; }
 .brand-switcher > a[href*="/hyperos/"]::after, .brand-menu:has(a[href*="/hyperos/"]) .brand-tab::after { background: #000000; }
 .brand-switcher > a[href*="/magicos/"]::after, .brand-menu:has(a[href*="/magicos/"]) .brand-tab::after { background: #2563eb; }
 .brand-switcher > a[href*="/harmonyos/"]::after, .brand-menu:has(a[href*="/harmonyos/"]) .brand-tab::after { background: #0a59f7; }
+.brand-switcher > a[href*="/ios/"]::after, .brand-menu:has(a[href*="/ios/"]) .brand-tab::after { background: #0071e3; }
 .brand-switcher > a:hover, .brand-tab:hover { color: var(--ink); }
 .brand-switcher > a:not(.active):hover::after, .brand-menu:not(.active) .brand-tab:hover::after { transform: scaleX(1); }
 .brand-switcher > a.active, .brand-menu.active .brand-tab { color: var(--ink); font-weight: 720; }
@@ -96,6 +97,7 @@ h1, h2, h3, p { margin-top: 0; }
 .brand-portal.originos img { width: 176px; height: 49px; }
 .brand-portal.magicos img { width: 145px; height: 42px; }
 .brand-portal.harmonyos img { width: 160px; height: 44px; }
+.brand-portal.ios img { width: 140px; height: 42px; }
 .brand-portal p { max-width: none; margin: 35px 0 28px; overflow: hidden; color: #606873; line-height: 1.7; text-overflow: ellipsis; white-space: nowrap; }
 .brand-portal span { display: inline-flex; align-items: center; gap: 8px; color: var(--portal-accent); font-size: 13px; font-weight: 800; }
 .section-block { margin-top: 100px; }
