@@ -24,11 +24,11 @@ const homepageTitle = (title: string) => title.replace(/^OPPO\s+/i, '');
     <section class="brand-portals reveal" aria-label="系统品牌档案">
       {(['coloros', 'originos', 'hyperos', 'magicos', 'harmonyos', 'ios'] as Brand[]).map((brand) => {
         const meta = brandMeta[brand];
-        const portalUrl = brand === 'ios' ? sitePath('ios/insight27/') : sitePath(`${brand}/`);
+        const portalUrl = brand === 'ios' ? sitePath('ios/27/') : sitePath(`${brand}/`);
         return <a class={`brand-portal ${brand}`} href={portalUrl} style={`--portal-accent:${meta.accent};--portal-soft:${meta.soft}`}>
           <img src={assetPath(meta.logo)} alt={`${meta.name} Logo`} width="150" height="42" />
           <p>{meta.summary}</p>
-          <span>点击浏览 · {brand === 'ios' ? '深度洞察报告' : `${brandCounts[brand]} 篇记录`} <Icon name="arrow" /></span>
+          <span>点击浏览 · {brand === 'ios' ? '官方归档' : `${brandCounts[brand]} 篇记录`} <Icon name="arrow" /></span>
         </a>;
       })}
     </section>

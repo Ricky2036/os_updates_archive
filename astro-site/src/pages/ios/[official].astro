@@ -5,7 +5,8 @@ import { officialArchiveMeta, officialArchiveUrl, type OfficialArchiveVersion } 
 export function getStaticPaths() {
   return [
     { params: { official: 'insight27' }, props: { version: 'ios27insight' as OfficialArchiveVersion } },
-    { params: { official: '27' }, props: { version: 'ios27insight' as OfficialArchiveVersion } },
+    { params: { official: '27' }, props: { version: 'ios27' as OfficialArchiveVersion } },
+    { params: { official: 'apple-intelligence' }, props: { version: 'appleintelligence' as OfficialArchiveVersion } },
   ];
 }
 

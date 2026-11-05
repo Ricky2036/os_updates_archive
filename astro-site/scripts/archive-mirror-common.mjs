@@ -35,6 +35,8 @@ export const criticalEntries = new Set([
   'official_archives/www.honor.com/cn/magic-os-10/index.html',
   'official_archives/www.honor.com/cn/magic-os/index.html',
   'official_archives/consumer.huawei.com/cn/harmonyos-7/index.html',
+  'official_archives/www.apple.com.cn/os/index.html',
+  'official_archives/www.apple.com.cn/apple-intelligence/index.html',
 ]);
 
 export function toPosix(value) { return value.split(path.sep).join('/'); }

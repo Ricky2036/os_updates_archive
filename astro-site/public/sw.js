@@ -30,7 +30,9 @@ self.addEventListener('fetch', event => {
         'www-file.honor.com',
         'consumer.huawei.com',
         'consumer-img.huawei.com',
-        'huawei.com'
+        'huawei.com',
+        'www.apple.com.cn',
+        'www.apple.com'
     ];
 
     const url = new URL(event.request.url);
@@ -94,8 +96,25 @@ self.addEventListener('fetch', event => {
         return;
     }
 
+    if (url.pathname.startsWith('/os/') || url.pathname.startsWith('/apple-intelligence/') || url.pathname.startsWith('/ac/') || url.pathname.startsWith('/wss/') || url.pathname.startsWith('/105/') || url.pathname.startsWith('/v/') || url.pathname.startsWith('/global-cn/') || url.pathname.startsWith('/metrics/')) {
+        const scopeUrl = new URL(self.registration.scope);
+        const basePath = scopeUrl.pathname.replace(/\/$/, '');
+        let filePath = url.pathname;
+        if (filePath === '/os/' || filePath === '/os') filePath = '/os/index.html';
+        if (filePath === '/apple-intelligence/' || filePath === '/apple-intelligence') filePath = '/apple-intelligence/index.html';
+        const targetPath = `${basePath}/official_archives/www.apple.com.cn${filePath}`;
+
+        event.respondWith(
+            fetch(targetPath).then(response => {
+                if (!response.ok) return fetch(event.request);
+                return response;
+            }).catch(() => fetch(event.request))
+        );
+        return;
+    }
+
     const lowerPath = url.pathname.toLowerCase();
-    if (lowerPath.includes('/portal/open/api/') || lowerPath.includes('/header/login/') || lowerPath.includes('/eden/flyheart') || lowerPath.includes('/h5/monitor') || lowerPath.includes('/vmonitor')) {
+    if (lowerPath.includes('/portal/open/api/') || lowerPath.includes('/header/login/') || lowerPath.includes('/eden/flyheart') || lowerPath.includes('/h5/monitor') || lowerPath.includes('/vmonitor') || lowerPath.includes('/shop/bag/status') || lowerPath.includes('/search-services/suggestions/') || lowerPath.includes('/api-www/global-elements/global-header/v1/flyouts') || lowerPath.startsWith('/b/ss/')) {
         const cb = url.searchParams.get('callback') || url.searchParams.get('jsoncallback');
         const validCallback = cb && /^[A-Za-z_$][\w$]*(?:\.[A-Za-z_$][\w$]*)*$/.test(cb) ? cb : null;
         const body = validCallback ? `${validCallback}({"code":0,"data":{}})` : '{"code":0,"data":{}}';

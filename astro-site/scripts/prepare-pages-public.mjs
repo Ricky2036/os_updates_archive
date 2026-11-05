@@ -12,9 +12,15 @@ if (!mirrorUrl || mirrorUrl.protocol !== 'https:' || mirrorUrl.username || mirro
 const destination = path.join(siteRoot, '.pages-public');
 await fs.rm(destination, { recursive: true, force: true });
 await fs.mkdir(destination, { recursive: true });
+const appleArchive = path.join(archiveRoot, 'www.apple.com.cn');
 await fs.cp(publicRoot, destination, {
   recursive: true,
-  filter: (source) => source !== archiveRoot && !source.startsWith(`${archiveRoot}${path.sep}`),
+  filter: (source) => {
+    if (source === archiveRoot) return true;
+    if (source === appleArchive || source.startsWith(`${appleArchive}${path.sep}`)) return true;
+    if (source.startsWith(`${archiveRoot}${path.sep}`)) return false;
+    return true;
+  },
 });
 
 await fs.writeFile(path.join(destination, 'archive-mirror.json'), `${JSON.stringify({ baseUrl: mirrorBase }, null, 2)}\n`);

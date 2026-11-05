@@ -12,7 +12,7 @@ const server = http.createServer(async (request, response) => {
   try {
     const url = decodeURIComponent(new URL(request.url, 'http://localhost').pathname);
     const lowerUrl = url.toLowerCase();
-    if (lowerUrl.includes('/portal/open/api/') || lowerUrl.includes('/header/login/') || lowerUrl.includes('/eden/flyheart') || lowerUrl.includes('/h5/monitor') || lowerUrl.includes('vmonitor')) {
+    if (lowerUrl.includes('/portal/open/api/') || lowerUrl.includes('/header/login/') || lowerUrl.includes('/eden/flyheart') || lowerUrl.includes('/h5/monitor') || lowerUrl.includes('vmonitor') || lowerUrl.includes('/shop/bag/status') || lowerUrl.includes('/search-services/suggestions/') || lowerUrl.includes('/api-www/global-elements/global-header/v1/flyouts') || lowerUrl.startsWith('/b/ss/') || lowerUrl.includes('/__draft') || lowerUrl.includes('/__save')) {
       const u = new URL(request.url, 'http://localhost');
       const cb = u.searchParams.get('callback') || u.searchParams.get('jsoncallback');
       const body = cb ? `${cb}({"code":0,"data":{}})` : '{"code":0,"data":{}}';
@@ -33,6 +33,7 @@ const server = http.createServer(async (request, response) => {
     if (!path.extname(file) && !fsSync.existsSync(file)) file = path.join(file, 'index.html');
     if (!fsSync.existsSync(file)) {
       const candidates = [
+        path.join(dist, 'official_archives/www.apple.com.cn', cleanUrl),
         path.join(dist, 'official_archives/consumer.huawei.com', cleanUrl),
         path.join(dist, 'official_archives/consumer-img.huawei.com', cleanUrl),
         path.join(dist, 'official_archives/www.honor.com', cleanUrl),
@@ -114,7 +115,14 @@ try {
       }
     } else request.continue();
   });
-  page.on('console', (message) => { if (message.type() === 'error') errors.push(`${page.url()}: ${message.text()} [${message.location().url}]`); });
+  page.on('console', (message) => {
+    if (message.type() === 'error') {
+      const text = message.text();
+      const loc = message.location()?.url || '';
+      if (loc.includes('/b/ss/') || text.includes('/b/ss/')) return;
+      errors.push(`${page.url()}: ${text} [${loc}]`);
+    }
+  });
   page.on('pageerror', (error) => errors.push(`Page error on ${page.url()}: ${error.message} - ${error.stack}`));
   page.on('requestfailed', (request) => {
     const reason = request.failure()?.errorText ?? '';
@@ -330,6 +338,26 @@ try {
   }));
   if (!ios27State.src.includes('ios27-insight/index.html')) throw new Error(`iOS 27 official archive route is incorrect: ${ios27State.src}`);
   if (!ios27State.returnLink || ios27State.overflow > 1) throw new Error(`iOS 27 immersive shell is incomplete: ${JSON.stringify(ios27State)}`);
+
+  await page.goto(`${origin}/ios/27/`, { waitUntil: 'networkidle2' });
+  await page.waitForSelector('[data-official-shell].loaded');
+  const ios27OfficialState = await page.$eval('[data-official-frame]', (element) => ({
+    src: element.src,
+    overflow: document.body.scrollWidth - innerWidth,
+    returnLink: Boolean(document.querySelector('.official-return')),
+  }));
+  if (!ios27OfficialState.src.includes('www.apple.com.cn/os/index.html')) throw new Error(`iOS 27 official archive route is incorrect: ${ios27OfficialState.src}`);
+  if (!ios27OfficialState.returnLink || ios27OfficialState.overflow > 1) throw new Error(`iOS 27 immersive shell is incomplete: ${JSON.stringify(ios27OfficialState)}`);
+
+  await page.goto(`${origin}/ios/apple-intelligence/`, { waitUntil: 'networkidle2' });
+  await page.waitForSelector('[data-official-shell].loaded');
+  const appleIntelligenceState = await page.$eval('[data-official-frame]', (element) => ({
+    src: element.src,
+    overflow: document.body.scrollWidth - innerWidth,
+    returnLink: Boolean(document.querySelector('.official-return')),
+  }));
+  if (!appleIntelligenceState.src.includes('www.apple.com.cn/apple-intelligence/index.html')) throw new Error(`Apple Intelligence official archive route is incorrect: ${appleIntelligenceState.src}`);
+  if (!appleIntelligenceState.returnLink || appleIntelligenceState.overflow > 1) throw new Error(`Apple Intelligence immersive shell is incomplete: ${JSON.stringify(appleIntelligenceState)}`);
 
   const articles = await Promise.all((await fs.readdir(path.join(site, 'src/content/articles'))).filter((name) => name.endsWith('.json')).map(async (name) => JSON.parse(await fs.readFile(path.join(site, 'src/content/articles', name), 'utf8'))));
   await page.setViewport({ width: 1280, height: 900 });

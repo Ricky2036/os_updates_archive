@@ -15,14 +15,14 @@ const iosActive = activeBrand === 'ios';
 const articles = await getArticles();
 const getLatestUrl = (brand: Brand) => {
   const latest = articles.find(a => a.data.brand === brand);
-  return latest ? articlePath(latest) : (brand === 'ios' ? officialArchiveMeta['ios27insight'].route : sitePath(`${brand}/`));
+  return latest ? articlePath(latest) : (brand === 'ios' ? officialArchiveMeta['ios27'].route : sitePath(`${brand}/`));
 };
 const colorOSLatestUrl = getLatestUrl('coloros');
 const originOSLatestUrl = getLatestUrl('originos');
 const hyperOSLatestUrl = getLatestUrl('hyperos');
 const magicOSLatestUrl = getLatestUrl('magicos');
 const harmonyOSLatestUrl = getLatestUrl('harmonyos');
-const iosLatestUrl = officialArchiveMeta['ios27insight'].route;
+const iosLatestUrl = officialArchiveMeta['ios27'].route;
 
 ---
 <header class:list={{ 'site-header': true, 'has-archive-nav': hasArchiveNav }}>
@@ -116,7 +116,7 @@ const iosLatestUrl = officialArchiveMeta['ios27insight'].route;
         <span style="position: relative; z-index: 10;" data-text={brandMeta.ios.name}>{brandMeta.ios.name}</span><i aria-hidden="true"></i>
       </a>
       <div class="brand-submenu" role="menu" aria-label="iOS 档案">
-        <a class:list={{ active: activeIOSSection === 'insight27' }} role="menuitem" href={officialArchiveMeta['ios27insight'].route} data-section="insight27" data-astro-reload>iOS 27深度洞察</a>
+        <a class:list={{ active: activeIOSSection === '27' }} role="menuitem" href={officialArchiveMeta['ios27'].route} data-section="27" data-astro-reload>iOS 27</a>
       </div>
     </div>
   </div>

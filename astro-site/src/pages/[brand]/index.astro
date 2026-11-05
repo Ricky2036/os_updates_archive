@@ -7,7 +7,7 @@ export function getStaticPaths() {
 const brand = Astro.params.brand as Brand;
 const entries = await getArticles(brand);
 const latest = entries[0];
-const latestUrl = latest ? articlePath(latest) : (brand === 'ios' ? sitePath('ios/insight27/') : sitePath());
+const latestUrl = latest ? articlePath(latest) : (brand === 'ios' ? sitePath('ios/27/') : sitePath());
 const routeMap = Object.fromEntries(entries.map((article) => [article.data.articleId, articlePath(article)]));
 ---
 <!doctype html>

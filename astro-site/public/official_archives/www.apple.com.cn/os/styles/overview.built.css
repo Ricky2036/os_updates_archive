@@ -1,0 +1,83 @@
+.subsection-copy-block p.typography-subsection-footnote {
+    display: block;
+    color: #6E6E73;
+    font-size: 12px;
+    margin-top: 14px;
+    font-weight: 400;
+}
+
+@media (min-width: 735px) {
+
+    .caption-tile-gallery .caption-tile.wide .card-caption-content,
+    .caption-tile-gallery.wide .card-caption-content {
+        --caption-width: 481px;
+        width: var(--caption-width);
+    }
+}
+
+@media (max-width: 418px) {
+    .xxsmall-hide {
+        display: none !important
+    }
+
+    .xxsmall-show {
+        display: block
+    }
+
+    .xxsmall-show-inline {
+        display: inline
+    }
+
+    .xxsmall-show-inlineblock {
+        display: inline-block
+    }
+}
+
+
+@media (min-width: 734px) {
+    .section-highlights  .media-card-gallery-content .media-gallery-wrapper .gallery  .item-container .media-gallery-item-6 .caption-animation-container .typography-media-card-gallery-headline {
+        margin-left: -7px;
+    }
+}
+
+/* visionos alts */
+
+.section-highlights .media-gallery-item-5 .media-block:has(picture.shared-highlights-highlights-visual-intelligence-startframe) {
+    --p-width: 1260px;
+    --p-height:680px
+}
+
+@media (max-width: 1068px) and (max-width: 1068px) {
+    .section-highlights .media-gallery-item-5 .media-block:has(picture.shared-highlights-highlights-visual-intelligence-startframe) {
+        --p-width: 934px;
+        --p-height:628px
+    }
+}
+
+@media (max-width: 734px) and (max-width: 734px) {
+    .section-highlights .media-gallery-item-5 .media-block:has(picture.shared-highlights-highlights-visual-intelligence-startframe) {
+        --p-width: 420px;
+        --p-height:480px
+    }
+}
+
+.section-highlights .media-gallery-item-5 .media-block:has(picture.shared-highlights-highlights-visual-intelligence-endframe) {
+    --p-width: 1260px;
+    --p-height:680px
+}
+
+@media (max-width: 1068px) and (max-width: 1068px) {
+    .section-highlights .media-gallery-item-5 .media-block:has(picture.shared-highlights-highlights-visual-intelligence-endframe) {
+        --p-width: 934px;
+        --p-height:628px
+    }
+}
+
+@media (max-width: 734px) and (max-width: 734px) {
+    .section-highlights .media-gallery-item-5 .media-block:has(picture.shared-highlights-highlights-visual-intelligence-endframe) {
+        --p-width: 420px;
+        --p-height:480px
+    }
+}
+
+/* visionos alts */

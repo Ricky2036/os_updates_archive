@@ -1,6 +1,6 @@
 import { sitePath } from './archive';
 
-export type OfficialArchiveVersion = '15' | '16' | '17' | 'insight17' | 'originos6' | 'originos7' | 'hyperos1' | 'hyperos2' | 'hyperos3' | 'hyperos4' | 'magicos10' | 'magicos11' | 'magicos11insight' | 'hyperos4insight' | 'harmonyos7' | 'harmonyos7insight' | 'originos7insight' | 'ios27insight';
+export type OfficialArchiveVersion = '15' | '16' | '17' | 'insight17' | 'originos6' | 'originos7' | 'hyperos1' | 'hyperos2' | 'hyperos3' | 'hyperos4' | 'magicos10' | 'magicos11' | 'magicos11insight' | 'hyperos4insight' | 'harmonyos7' | 'harmonyos7insight' | 'originos7insight' | 'ios27insight' | 'ios27' | 'appleintelligence';
 export type OfficialArchiveViewport = 'mobile' | 'pad' | 'desktop';
 export type ColorOSSection = 'monthly' | OfficialArchiveVersion;
 
@@ -162,6 +162,22 @@ export const officialArchiveMeta: Record<OfficialArchiveVersion, {
     entries: { desktop: 'index.html', pad: 'index.html', mobile: 'index.html' },
     description: 'iOS 27 深度洞察报告：设计语言回调、折叠屏新形态交互、Siri AI 独立入口与生态探索，两代能力对照与 UP 主测评舆情。',
   },
+  'ios27': {
+    title: 'iOS 27 官方网站存档',
+    label: 'iOS 27',
+    folder: 'os',
+    route: sitePath('ios/27/'),
+    entries: { desktop: 'index.html', pad: 'index.html', mobile: 'index.html' },
+    description: 'iOS 27 官方网站离线存档：涵盖全新设计语言、新形态交互与各主要系统功能。',
+  },
+  'appleintelligence': {
+    title: 'Apple 智能 官方网站存档',
+    label: 'Apple 智能',
+    folder: 'apple-intelligence',
+    route: sitePath('ios/apple-intelligence/'),
+    entries: { desktop: 'index.html', pad: 'index.html', mobile: 'index.html' },
+    description: 'Apple 智能官方网站离线存档：深入了解跨设备个人智能体验与功能。',
+  },
 };
 
 export function officialArchiveUrl(version: OfficialArchiveVersion, viewport: OfficialArchiveViewport) {
@@ -206,6 +222,10 @@ export function officialArchiveUrl(version: OfficialArchiveVersion, viewport: Of
     return archiveMirrorUrl(`official_archives/harmonyos7-insight/${entry}`);
   } else if (version === 'ios27insight') {
     return archiveMirrorUrl(`official_archives/ios27-insight/${entry}`);
+  } else if (version === 'ios27') {
+    return sitePath(`official_archives/www.apple.com.cn/os/${entry}`);
+  } else if (version === 'appleintelligence') {
+    return sitePath(`official_archives/www.apple.com.cn/apple-intelligence/${entry}`);
   }
   return '';
 }
